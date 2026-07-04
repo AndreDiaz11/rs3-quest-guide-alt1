@@ -1,0 +1,736 @@
+{
+  "id": "the-brink-of-extinction",
+  "title": "The Brink of Extinction",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:54:32.470Z",
+  "icon": "https://runescape.wiki/images/The_Brink_of_Extinction_icon.png",
+  "series": "TzHaar",
+  "age": "ambiguous",
+  "timeline": "mythic",
+  "members": true,
+  "combatLevel": "170-179",
+  "difficulty": "Grandmaster",
+  "length": "Medium to Long",
+  "releaseDate": "4 December 2012",
+  "startPoint": {
+    "en": "Talk to TzHaar-Mej-Ak or TzHaar-Mej-Jeh in the TzHaar City's main plaza.",
+    "es": "Habla con TzHaar-Mej-Ak o TzHaar-Mej-Jeh en la plaza principal de TzHaar City."
+  },
+  "requirements": {
+    "quests": [
+      "The Elder Kiln"
+    ],
+    "skills": [
+      {
+        "skill": "Mining",
+        "level": 72
+      },
+      {
+        "skill": "Smithing",
+        "level": 80
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Pickaxes",
+      "display": "Any pickaxe (tool belt will work)",
+      "image": null
+    }
+  ],
+  "kills": [
+    "TokHaar-Hur (level 112)",
+    "TokHaar-Xil (level 119)",
+    "TokHaar-Ket Champion (level 112)",
+    "TokHaar-Hok (level 108)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 3,
+      "display": "3 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Combat level",
+      "amount": 275000,
+      "display": "275,000 experience lamp in a choice of Attack, Strength, Defence, Ranged, Magic or Necromancy (skill must be level 80 or higher)",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Mining",
+      "amount": 100000,
+      "display": "100,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "TzHaar (title)",
+      "display": "The TzHaar-[Name] title",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Obsidian equipment",
+      "display": "Ability to smith obsidian armour and donate 15,000 Tokkul to a coffer at the Fight Cauldron to temporarily buff the armour",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Fight Cauldron",
+      "display": "Access to the Fight Cauldron and an added teleport to the TokKul-Zo",
+      "image": "https://runescape.wiki/images/thumb/Fight_Cauldron_arena.png/100px-Fight_Cauldron_arena.png?52322"
+    },
+    {
+      "type": "item",
+      "name": "TzHaar-Ga'al-Kot",
+      "display": "Ability to find a wandering Ga'al",
+      "image": "https://runescape.wiki/images/thumb/Ga%27al.png/100px-Ga%27al.png?bee5b"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Speak to TzHaar-Mej-Ak or TzHaar-Mej-Jeh in the main plaza of TzHaar City.",
+        "es": "Habla con TzHaar-Mej-Ak o TzHaar-Mej-Jeh en la plaza principal de TzHaar City."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Run east through the arch. A cutscene will begin.",
+        "es": "Corre hacia el este a través del arco. Comenzará una escena."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Run north-east to the Birthing Pool and speak to TzHaar-Mej-Het.",
+        "es": "Corre hacia el noreste hasta el Birthing Pool y habla con TzHaar-Mej-Het."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Run around the wall to where the Fight Kiln entrance is, and mine the Statue of TzHaar-Ket-Teg.",
+        "es": "Corre alrededor de la muralla hasta la entrada del Fight Kiln y extrae mineral de la Statue of TzHaar-Ket-Teg."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Run south-west to the TzHaar City entrance. Mine the nearby Statue of TzHaar-Xil-Kal.",
+        "es": "Corre hacia el suroeste hasta la entrada de TzHaar City. Extrae mineral de la cercana Statue of TzHaar-Xil-Kal."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Return to the main plaza. Melt the two stacks of fragments into TokKul with the furnace slightly south-east of the main plaza.",
+        "es": "Vuelve a la plaza principal. Funde las dos pilas de fragmentos en TokKul con el horno situado ligeramente al sureste de la plaza principal."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Speak to TzHaar-Mej-Ak or TzHaar-Mej-Jeh again. (opciones de chat: 5 Goodbye.)",
+        "es": "Habla de nuevo con TzHaar-Mej-Ak o TzHaar-Mej-Jeh. (opciones de chat: 5 Adiós.)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Go to the entrance to the Library, north-west of the main plaza and speak to Ga'al. (opciones de chat: Any)",
+        "es": "Ve a la entrada de la Library, al noroeste de la plaza principal, y habla con Ga'al. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Run south until you reach the cooking icon on the minimap. Speak to the next Ga'al. (opciones de chat: Any)",
+        "es": "Corre hacia el sur hasta llegar al icono de cocina en el minimapa. Habla con el siguiente Ga'al. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Continue south along the eastern wall to the southwest corner of the city (east of the File:Mining spot map icon.png TzHaar City mine), and speak to the final Ga'al. (opciones de chat: Any)",
+        "es": "Sigue hacia el sur a lo largo de la muralla este hasta la esquina suroeste de la ciudad (al este de File:Mining spot map icon.png TzHaar City mine), y habla con el último Ga'al. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Return to the main plaza and speak to TzHaar-Mej-Ak or TzHaar-Mej-Jeh again.",
+        "es": "Vuelve a la plaza principal y habla de nuevo con TzHaar-Mej-Ak o TzHaar-Mej-Jeh."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Enter the Fight Kiln entrance east of Main Plaza. (opciones de chat: 1 'The Brink of Extinction'.)",
+        "es": "Entra en la entrada del Fight Kiln al este de Main Plaza. (opciones de chat: 1 'The Brink of Extinction'.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "A cutscene plays. (opciones de chat: 1 We have to take the risk. Reforge the Ga'al in the Kiln.)",
+        "es": "Se reproduce una escena. (opciones de chat: 1 Tenemos que arriesgarnos. Reforja al Ga'al en el Kiln.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Run to the easternmost part of TzHaar City, where a cave entrance is. The entrance is not clickable until after you interact with the orb, cave entrance is indicated on your map.",
+        "es": "Corre hasta la parte más oriental de TzHaar City, donde hay una entrada a una cueva. La entrada no se puede pulsar hasta que interactúes con el orbe; la entrada de la cueva se indica en tu mapa."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Activate the communication orb in your backpack. (opciones de chat: 1 TokKul of TzHaar-Mej-Gek.)",
+        "es": "Activa el orbe de comunicación en tu mochila. (opciones de chat: 1 TokKul of TzHaar-Mej-Gek.)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Enter the cave.",
+        "es": "Entra en la cueva."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 4 Tz-Kih.",
+        "es": "Mata a los 4 Tz-Kih."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Pick up the mace, sword and knife.",
+        "es": "Recoge la maza, la espada y el cuchillo."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Put the mace on the western and the sword on the eastern scales.",
+        "es": "Coloca la maza en la balanza oeste y la espada en la balanza este."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Go through the ancient gate.",
+        "es": "Atraviesa la puerta ancestral."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 2 Tz-Kek.",
+        "es": "Mata a los 2 Tz-Kek."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Kill the Tz-Kih and Tok-Xil",
+        "es": "Mata al Tz-Kih y al Tok-Xil."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Move the statues such that TzHaar-Mej faces TzHaar-Ket, who faces TzHaar-Xil, who faces TzHaar-Mej. This involves a triangle formed by Xil and Mej (parallel) to the south and Ket to the north. If it doesn't work, make the triangle smaller.",
+        "es": "Mueve las estatuas de forma que TzHaar-Mej mire a TzHaar-Ket, quien mira a TzHaar-Xil, quien mira a TzHaar-Mej. Esto implica un triángulo formado por Xil y Mej (en paralelo) al sur y Ket al norte. Si no funciona, haz el triángulo más pequeño."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Go through the ancient gate.",
+        "es": "Atraviesa la puerta ancestral."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Turn off Auto-retaliate so your character does not inadvertently step on a glowing square when running to attack a monster (they deal 1000+ damage per second).",
+        "es": "Desactiva el auto-represalia para que tu personaje no pise accidentalmente una casilla brillante al correr para atacar a un monstruo (causan más de 1000 de daño por segundo)."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Pass the hot vent door to the east.",
+        "es": "Pasa por la puerta de ventilación caliente hacia el este."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Avoid standing on glowing floor squares.",
+        "es": "Evita pisar las casillas del suelo que brillan."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 2 TokHaar-Kets and 2 TokHaar-Hurs.",
+        "es": "Mata a los 2 TokHaar-Kets y a los 2 TokHaar-Hurs."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 3 TokHaar-Xils.",
+        "es": "Mata a los 3 TokHaar-Xils."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Kill the TokHaar-Ket Champion and pick up the obsidian maul it drops.",
+        "es": "Mata al TokHaar-Ket Champion y recoge el mazo de obsidiana que suelta."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Pass back through the hot vent door.",
+        "es": "Vuelve a pasar por la puerta de ventilación caliente."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Place the maul on the scales.",
+        "es": "Coloca el mazo en la balanza."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Go through the ancient gate.",
+        "es": "Atraviesa la puerta ancestral."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 4 Tz-Kils.",
+        "es": "Mata a los 4 Tz-Kils."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Pick up each of the obsidian weapons: throwing ring, sword, mace and staff.",
+        "es": "Recoge cada una de las armas de obsidiana: anillo arrojadizo, espada, maza y bastón."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Place each of the obsidian weapons on the scales according to their location:",
+        "es": "Coloca cada una de las armas de obsidiana en la balanza correspondiente según su ubicación:"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Go through the Ancient gate.",
+        "es": "Atraviesa la Puerta Ancestral."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 3 Tz-Kihs.",
+        "es": "Mata a los 3 Tz-Kihs."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 2 Tz-Kils and Yt-MejKot.",
+        "es": "Mata a los 2 Tz-Kils y a Yt-MejKot."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Touch one of the pedestals.",
+        "es": "Toca uno de los pedestales."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Touch the pedestals in the order that they light up until the puzzle is complete. There are 8 combinations you will need to complete correctly.",
+        "es": "Toca los pedestales en el orden en que se iluminan hasta completar el puzle. Hay 8 combinaciones que deberás completar correctamente."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "text": {
+        "en": "Recommended to give each pedestal a number between 1-4. Write the number of the last pedestal that lights up each round in your chatbox, forming a list. When touching pedestals, simply follow the numbers in your chatbox.",
+        "es": "Se recomienda asignar a cada pedestal un número del 1 al 4. Escribe en tu chat el número del último pedestal que se ilumina en cada ronda, formando una lista. Al tocar los pedestales, simplemente sigue los números de tu chat."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Go through the Ancient gate.",
+        "es": "Atraviesa la Puerta Ancestral."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Turn off Auto-retaliate so your character does not inadvertently step on a glowing square when running to attack a monster (they deal 1000+ damage per second).",
+        "es": "Desactiva el auto-represalia para que tu personaje no pise accidentalmente una casilla brillante al correr para atacar a un monstruo (causan más de 1000 de daño por segundo)."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Pass the hot vent door to the east.",
+        "es": "Pasa por la puerta de ventilación caliente hacia el este."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Avoid standing on glowing floor squares.",
+        "es": "Evita pisar las casillas del suelo que brillan."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 4 TokHaar-Hurs.",
+        "es": "Mata a los 4 TokHaar-Hurs."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 2 TokHaar-Xils.",
+        "es": "Mata a los 2 TokHaar-Xils."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 2 TokHaar-Mejs.",
+        "es": "Mata a los 2 TokHaar-Mejs."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 2 TokHaar-Ket Champions and pick up the obsidian maul dropped.",
+        "es": "Mata a los 2 TokHaar-Ket Champions y recoge el mazo de obsidiana que sueltan."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Pass back through the Hot vent door.",
+        "es": "Vuelve a pasar por la puerta de ventilación caliente."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Place the maul on the scales.",
+        "es": "Coloca el mazo en la balanza."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Go through the ancient gate.",
+        "es": "Atraviesa la puerta ancestral."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 3 Tz-Keks.",
+        "es": "Mata a los 3 Tz-Keks."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Pick up the sword, maul, mace, knife and staff.",
+        "es": "Recoge la espada, el mazo, la maza, el cuchillo y el bastón."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Inspect each scale for the TzHaar word. Use the correct obsidian weapon on each scale according to the table below:",
+        "es": "Inspecciona cada balanza para ver la palabra TzHaar. Usa el arma de obsidiana correcta en cada balanza según la siguiente tabla:"
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Go through the ancient gate.",
+        "es": "Atraviesa la puerta ancestral."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 3 Tz-Kils.",
+        "es": "Mata a los 3 Tz-Kils."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Kill the Ket-Zek and 2 Tz-Keks.",
+        "es": "Mata al Ket-Zek y a los 2 Tz-Keks."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Rotate the tiles on the ground to form the TzHaar symbol.",
+        "es": "Gira las baldosas del suelo para formar el símbolo TzHaar."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Go through the Ancient gate.",
+        "es": "Atraviesa la Puerta Ancestral."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Pass the hot vent door to the east.",
+        "es": "Pasa por la puerta de ventilación caliente hacia el este."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ga'al-Xox. (opciones de chat: Any)",
+        "es": "Habla con Ga'al-Xox. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Rotate the eastern valve.",
+        "es": "Gira la válvula este."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Kill TokHaar-Hok.",
+        "es": "Mata a TokHaar-Hok."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 1,
+      "text": {
+        "en": "You cannot teleport out or leave the fight early.",
+        "es": "No puedes teletransportarte fuera ni abandonar el combate antes de tiempo."
+      }
+    },
+    {
+      "index": 66,
+      "indent": 1,
+      "text": {
+        "en": "Pray Deflect/Protection from Melee the entire fight.<!--He seems to melee even when the player tries to fight at a distance-->",
+        "es": "Reza Deflect/Protection from Melee durante todo el combate.<!--Parece atacar cuerpo a cuerpo incluso cuando el jugador intenta luchar a distancia-->"
+      }
+    },
+    {
+      "index": 67,
+      "indent": 1,
+      "text": {
+        "en": "Avoid standing on glowing floor squares, as always.",
+        "es": "Evita pisar las casillas del suelo que brillan, como siempre."
+      }
+    },
+    {
+      "index": 68,
+      "indent": 1,
+      "text": {
+        "en": "You do not need to kill the spawned enemies - higher level players may focus on TokHaar-Hok. When he is defeated, the spawned enemies will die.",
+        "es": "No es necesario matar a los enemigos invocados; los jugadores de nivel más alto pueden centrarse en TokHaar-Hok. Cuando sea derrotado, los enemigos invocados morirán."
+      }
+    },
+    {
+      "index": 69,
+      "indent": 1,
+      "text": {
+        "en": "Stun TokHaar-Hok once he has lost half his health, this prevents him from healing at the flowing lava.",
+        "es": "Aturde a TokHaar-Hok una vez que haya perdido la mitad de su vida, esto evita que se cure en la lava fluyente."
+      }
+    },
+    {
+      "index": 70,
+      "indent": 2,
+      "text": {
+        "en": "The stun mechanic may be bugged and you may only be able to use basic Ranged ability, Binding Shot, the basic Magic ability, Impact and the Magic threshold ability, Asphyxiate, and the basic melee ability, Backhand.",
+        "es": "Puede que la mecánica de aturdimiento tenga un fallo, y que solo puedas usar la habilidad básica de Distancia Binding Shot, la habilidad básica de Magia Impact, la habilidad de umbral de Magia Asphyxiate, y la habilidad básica de cuerpo a cuerpo Backhand."
+      }
+    },
+    {
+      "index": 71,
+      "indent": 2,
+      "text": {
+        "en": "In Legacy Mode, you need to stun him with a special attack.",
+        "es": "En el Modo Legado, necesitas aturdirlo con un ataque especial."
+      }
+    },
+    {
+      "index": 72,
+      "indent": 0,
+      "text": {
+        "en": "Talk to TokHaar-Hok.",
+        "es": "Habla con TokHaar-Hok."
+      }
+    },
+    {
+      "index": 73,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ga'al-Xox. (opciones de chat: Any)",
+        "es": "Habla con Ga'al-Xox. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 74,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ga'al-Xox again. (opciones de chat: 5 Farewell.)",
+        "es": "Habla de nuevo con Ga'al-Xox. (opciones de chat: 5 Adiós.)"
+      }
+    },
+    {
+      "index": 75,
+      "indent": 0,
+      "text": {
+        "en": "Return to the city through the door. Activate your communication orb.",
+        "es": "Vuelve a la ciudad a través de la puerta. Activa tu orbe de comunicación."
+      }
+    },
+    {
+      "index": 76,
+      "indent": 1,
+      "text": {
+        "en": "If you have destroyed your communication orb, talk to either TzHaar-Mej-Ak or TzHaar-Mej-Jeh in the main plaza of TzHaar City.",
+        "es": "Si has destruido tu orbe de comunicación, habla con TzHaar-Mej-Ak o TzHaar-Mej-Jeh en la plaza principal de TzHaar City."
+      }
+    },
+    {
+      "index": 77,
+      "indent": 0,
+      "text": {
+        "en": "Go back to the Fight Kiln entrance. (opciones de chat: 1 'The Brink of Extinction')",
+        "es": "Vuelve a la entrada del Fight Kiln. (opciones de chat: 1 'The Brink of Extinction')"
+      }
+    },
+    {
+      "index": 78,
+      "indent": 0,
+      "text": {
+        "en": "A cutscene ensues. (opciones de chat: 1 I can't wait to battle the TokHaar. • Any)",
+        "es": "Se produce una escena. (opciones de chat: 1 No puedo esperar para luchar contra los TokHaar. • Cualquiera)"
+      }
+    },
+    {
+      "index": 79,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

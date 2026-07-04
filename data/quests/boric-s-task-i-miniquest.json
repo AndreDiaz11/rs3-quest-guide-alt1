@@ -1,0 +1,102 @@
+{
+  "id": "boric-s-task-i-miniquest",
+  "title": "Boric's Task I (miniquest)",
+  "isMiniquest": true,
+  "guideLastUpdated": "2026-07-03T19:53:30.630Z",
+  "icon": "https://runescape.wiki/images/Boric%27s_Task_I_%28miniquest%29_icon.png",
+  "series": "Boric's Tasks",
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Intermediate",
+  "length": "Very Short",
+  "releaseDate": "17 October 2012",
+  "startPoint": {
+    "en": "Speak to Boric in the workshop accessed from the stairs in Doric's hut, just outside the gates of Taverley north of Falador. (via )",
+    "es": "Habla con Boric en el taller al que se accede por las escaleras de la cabaña de Doric, justo fuera de las puertas de Taverley, al norte de Falador. (vía )"
+  },
+  "requirements": {
+    "quests": [
+      "What's Mine is Yours"
+    ],
+    "skills": [
+      {
+        "skill": "Mining",
+        "level": 30
+      },
+      {
+        "skill": "Agility",
+        "level": 20
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Coal",
+      "display": "30 coal",
+      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "xp",
+      "skill": "Mining",
+      "amount": 1500,
+      "display": "1,500 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Gofannon amulet",
+      "display": "4,500 charges for the Gofannon amulet",
+      "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Head down the stairs behind Doric's hut to speak to Boric. (opciones de chat: 1 Do you have any Mining tasks for me? • Accept)",
+        "es": "Baja las escaleras que hay detrás de la cabaña de Doric para hablar con Boric. (opciones de chat: 1 Do you have any Mining tasks for me? • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Head to Seers' Village coal truck mining site, west of McGrubor's Wood.",
+        "es": "Dirígete a la zona de minería del carro de carbón de Seers' Village, al oeste de McGrubor's Wood."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Deposit 30 coal into the coal truck.",
+        "es": "Deposita 30 unidades de carbón en el carro de carbón."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "It does not need to be mined, it can be purchased off the Grand exchange. Make sure it isn't noted.",
+        "es": "No es necesario minerarlo, se puede comprar en el Grand Exchange. Asegúrate de que no esté anotado."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Dwarven Miner to the south. (opciones de chat: 1 Yes.)",
+        "es": "Habla con el Dwarven Miner al sur. (opciones de chat: 1 Yes.)"
+      }
+    }
+  ]
+}

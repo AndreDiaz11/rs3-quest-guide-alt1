@@ -1,0 +1,391 @@
+{
+  "id": "bringing-home-the-bacon",
+  "title": "Bringing Home the Bacon",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:54:19.943Z",
+  "icon": "https://runescape.wiki/images/Bringing_Home_the_Bacon_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "adventurer",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Medium to Long",
+  "releaseDate": "9 July 2013",
+  "startPoint": {
+    "en": "Talk to Eli Bacon in his pig pen, by the Falador farm, north of Port Sarim.",
+    "es": "Habla con Eli Bacon en su pocilga, junto a la granja de Falador, al norte de Port Sarim."
+  },
+  "requirements": {
+    "quests": [
+      "Bringing Home the Bacon"
+    ],
+    "skills": [
+      {
+        "skill": "Construction",
+        "level": 14
+      },
+      {
+        "skill": "Farming",
+        "level": 14
+      },
+      {
+        "skill": "Summoning",
+        "level": 14
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Wheat",
+      "display": "5 wheat (can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Wheat_detail.png/100px-Wheat_detail.png?c974c"
+    },
+    {
+      "name": "10 backpack spaces",
+      "display": "10 backpack spaces",
+      "image": null
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Farming",
+      "amount": 350,
+      "display": "350 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 350,
+      "display": "350 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Summoning",
+      "amount": 350,
+      "display": "350 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Bacon",
+      "display": "Ability to cook and eat bacon, bacon stacks, piles, heaps and mounds. Ability to create pork pie. Ability to brew pigswill.",
+      "image": "https://runescape.wiki/images/thumb/Bacon_detail.png/100px-Bacon_detail.png?04c0f"
+    },
+    {
+      "type": "item",
+      "name": "Summoning familiars",
+      "display": "Ability to make three pig familiars: Spirit pack pig Spirit prayer pig Spirit war pig",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Pig (pet)",
+      "display": "A customisable pig pet. The name can be changed by Martin the Master Gardener and type can be changed by changing the pig machine by right-clicking on it.",
+      "image": "https://runescape.wiki/images/thumb/Pig_%28pet%29_beast_of_burden.png/100px-Pig_%28pet%29_beast_of_burden.png?34b8a"
+    },
+    {
+      "type": "item",
+      "name": "Underground pig pens",
+      "display": "Access to pig pens in Falador farm, Falador, Varrock, and East Ardougne",
+      "image": "https://runescape.wiki/images/thumb/Falador_farm_pig_pit_view.png/100px-Falador_farm_pig_pit_view.png?7857e"
+    },
+    {
+      "type": "item",
+      "name": "Raw bacon",
+      "display": "Weekly raw bacon (55 pieces) or familiar reward claimable from Eli.",
+      "image": "https://runescape.wiki/images/thumb/Raw_bacon_detail.png/100px-Raw_bacon_detail.png?027e3"
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": null,
+      "display": "Upgrading to tier 2 requires 44 Construction, 44 Crafting and 44 Summoning and 3 oak planks, 2 steel bars and at least 3 nails. Gives 100 experience and 100 experience experience."
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": null,
+      "display": "Upgrading to tier 3 requires 84 Construction, 84 Crafting and 84 Summoning and 3 teak planks, 2 mithril bars, and at least 3 nails. Gives 1,000 experience and 1,000 experience experience."
+    },
+    {
+      "type": "item",
+      "name": "Always on my Rind",
+      "display": "Always on my Rind"
+    },
+    {
+      "type": "item",
+      "name": "Glutton for Nourishment",
+      "display": "Glutton for Nourishment (upon completion)"
+    },
+    {
+      "type": "item",
+      "name": "Underbelly",
+      "display": "Underbelly"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Eli in Falador Farm north of Port Sarim. (opciones de chat: Accept)",
+        "es": "Habla con Eli en Falador Farm, al norte de Port Sarim. (opciones de chat: Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Eat the piece of bacon he gives you. (opciones de chat: ~)",
+        "es": "Come el trozo de beicon que te da. (opciones de chat: ~)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Make sure you have at least 3 (better 6) free inventory spaces or Eli won't be able to give you planks",
+        "es": "Asegúrate de tener al menos 3 (mejor 6) espacios libres en el inventario o Eli no podrá darte tablones."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Eli again.",
+        "es": "Vuelve a hablar con Eli."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "During the cutscene, avoid clicking too fast through the dialogue or you will have to restart the cutscene.",
+        "es": "Durante la escena, evita pasar el diálogo demasiado rápido o tendrás que reiniciar la escena."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Build the hotspots and keep adding bacon until Eli has escorted the pigs away (focus on the middle one and they will all swarm to it).",
+        "es": "Construye los puntos de interés y sigue añadiendo beicon hasta que Eli haya llevado a los cerdos lejos (céntrate en el del medio y todos acudirán a él)."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Eli. Choose any 1 of the 3 show pig suggestions. (opciones de chat: 1 Maybe they can fight?) or (opciones de chat: 2 Maybe they can carry an altar?) or (opciones de chat: 3 Maybe they can carry items?)",
+        "es": "Habla con Eli. Elige cualquiera de las 3 sugerencias sobre los cerdos de exhibición. (opciones de chat: 1 Maybe they can fight?) o (opciones de chat: 2 Maybe they can carry an altar?) o (opciones de chat: 3 Maybe they can carry items?)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "If necessary, gather 5 wheat from the field south-east of the Draynor lodestone.",
+        "es": "Si es necesario, recoge 5 trigos del campo al sureste de la piedra de viaje de Draynor."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Martin the Master Gardener in Draynor Village. (opciones de chat: 3 Bringing Home the Bacon.) ( (opciones de chat: 4 Bringing Home the Bacon.) if Vampyre Slayer is completed)",
+        "es": "Habla con Martin the Master Gardener en Draynor Village. (opciones de chat: 3 Bringing Home the Bacon.) ( (opciones de chat: 4 Bringing Home the Bacon.) si Vampyre Slayer está completada)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Go north-west of Martin and talk to each character (accuse each to quickly find the suspect). (opciones de chat: 1 You're the one that picked Martin's pockets!)",
+        "es": "Ve al noroeste de Martin y habla con cada personaje (acusa a cada uno para encontrar rápidamente al sospechoso). (opciones de chat: 1 You're the one that picked Martin's pockets!)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 1,
+      "text": {
+        "en": "Continue until you have found the suspect (usually Pickpocket Dan)",
+        "es": "Continúa hasta encontrar al sospechoso (normalmente Pickpocket Dan)."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "View cutscene after accusing.",
+        "es": "Observa la escena tras acusarlo."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Go back to Eli in the storm cellar and talk to him for construction materials. (opciones de chat: 1 You broke your hammer on a hiker? • 4 I think I should go.)",
+        "es": "Vuelve con Eli en el sótano y habla con él para conseguir materiales de construcción. (opciones de chat: 1 You broke your hammer on a hiker? • 4 I think I should go.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Build the pig machine in the north of the cellar.",
+        "es": "Construye la máquina de cerdos en el norte del sótano."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 1,
+      "text": {
+        "en": "Click a second time on the pig machine again to improve it.",
+        "es": "Haz clic una segunda vez en la máquina de cerdos para mejorarla."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Eli. (opciones de chat: 4 I think I should go.)",
+        "es": "Habla con Eli. (opciones de chat: 4 I think I should go.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Eli again to give him the 5 wheat you gathered. (opciones de chat: ~)",
+        "es": "Vuelve a hablar con Eli para darle los 5 trigos que recogiste. (opciones de chat: ~)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Go outside and put bacon on the decoys then poison them with the sleeping potion.",
+        "es": "Sal y coloca beicon en los señuelos, luego envenénalos con la poción para dormir."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Eli.",
+        "es": "Habla con Eli."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Pick 5 onions just south of Draynor bank. These must be picked after having talked to him; you cannot use onions you already have, even if you picked them yourself.",
+        "es": "Recoge 5 cebollas justo al sur del banco de Draynor. Deben recogerse después de hablar con él; no puedes usar cebollas que ya tuvieras, aunque las hayas recogido tú mismo."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Deliver the 5 onions to Eli. (opciones de chat: ~)",
+        "es": "Entrega las 5 cebollas a Eli. (opciones de chat: ~)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Interact with pig machine.",
+        "es": "Interactúa con la máquina de cerdos."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Watch the cutscene about the pig.",
+        "es": "Observa la escena sobre el cerdo."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Eli to receive a pig. (opciones de chat: ~)",
+        "es": "Habla con Eli para recibir un cerdo. (opciones de chat: ~)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Take the pig to each location (a cutscene will play once you reach the correct area).",
+        "es": "Lleva el cerdo a cada ubicación (se reproducirá una escena al llegar a la zona correcta)."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "Lumbridge Castle courtyard.",
+        "es": "Patio del castillo de Lumbridge."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "Varrock Marketplace (in the centre of the fountain).",
+        "es": "Mercado de Varrock (en el centro de la fuente)."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 1,
+      "text": {
+        "en": "Ardougne Marketplace.",
+        "es": "Mercado de Ardougne."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 1,
+      "text": {
+        "en": "Falador centre (just south of the north gate).",
+        "es": "Centro de Falador (justo al sur de la puerta norte)."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Return to Eli.",
+        "es": "Vuelve con Eli."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

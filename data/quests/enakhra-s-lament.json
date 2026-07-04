@@ -1,0 +1,516 @@
+{
+  "id": "enakhra-s-lament",
+  "title": "Enakhra's Lament",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:14:34.517Z",
+  "icon": "https://runescape.wiki/images/Enakhra%27s_Lament_icon.png",
+  "series": "Mahjarrat Mysteries",
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Experienced",
+  "length": "Medium",
+  "releaseDate": "23 January 2006",
+  "startPoint": {
+    "en": "Talk to Lazim, found in the desert south of the Bandit Camp.",
+    "es": "Habla con Lazim, al que encontrarás en el desierto al sur del Bandit Camp."
+  },
+  "requirements": {
+    "quests": [
+      "Enakhra's Lament"
+    ],
+    "skills": [
+      {
+        "skill": "Crafting",
+        "level": 50
+      },
+      {
+        "skill": "Firemaking",
+        "level": 45
+      },
+      {
+        "skill": "Magic",
+        "level": 13
+      },
+      {
+        "skill": "Mining",
+        "level": 35
+      },
+      {
+        "skill": "Mining",
+        "level": 45
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Granite (5kg)",
+      "display": "Two 5 kg granite blocks (can be obtained during the quest, with level 45 Mining)",
+      "image": "https://runescape.wiki/images/thumb/Granite_%285kg%29_detail.png/100px-Granite_%285kg%29_detail.png?31cd3"
+    },
+    {
+      "name": "Sandstone",
+      "display": "A total of 52 kg of sandstone (any combination will work as long as the number adds up to exactly 32 kg and 20 kg in separate sets; sandstone can be cut into smaller pieces if required. It's recommended to get 10 blocks of 5 kg and one block of 2 kg)",
+      "image": "https://runescape.wiki/images/thumb/Sandstone_%2810kg%29_detail.png/100px-Sandstone_%2810kg%29_detail.png?e0304"
+    },
+    {
+      "name": "Bread",
+      "display": "One of the following (burnt versions do not work): Bread Any kind of pie (partial pies and mince pie will not work) Any kind of cake (partial cakes, RS Anniversary cake, and cheesecakes will not work) Any kind of pizza (partial pizza do not work) A baked potato with topping",
+      "image": null
+    },
+    {
+      "name": "Bread",
+      "display": "Bread",
+      "image": null
+    },
+    {
+      "name": "Pie",
+      "display": "Any kind of pie (partial pies and mince pie will not work)",
+      "image": "https://runescape.wiki/images/thumb/Humble_pie_detail.png/100px-Humble_pie_detail.png?df357"
+    },
+    {
+      "name": "Cake",
+      "display": "Any kind of cake (partial cakes, RS Anniversary cake, and cheesecakes will not work)",
+      "image": "https://runescape.wiki/images/thumb/Slice_of_cake_detail.png/100px-Slice_of_cake_detail.png?fc654"
+    },
+    {
+      "name": "Pizza",
+      "display": "Any kind of pizza (partial pizza do not work)",
+      "image": null
+    },
+    {
+      "name": "Baked potato",
+      "display": "A baked potato with topping",
+      "image": "https://runescape.wiki/images/thumb/Baked_potato_detail.png/100px-Baked_potato_detail.png?6bf67"
+    },
+    {
+      "name": "Wand",
+      "display": "A wand or staff with air and fire runes to cast an air and fire spell (standard spellbook required)",
+      "image": null
+    },
+    {
+      "name": "White candle",
+      "display": "A white candle (a black candle or a red candle will not work)",
+      "image": null
+    },
+    {
+      "name": "Logs",
+      "display": "Logs",
+      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+    },
+    {
+      "name": "Oak logs",
+      "display": "Oak logs",
+      "image": "https://runescape.wiki/images/thumb/Oak_logs_detail.png/100px-Oak_logs_detail.png?73bc9"
+    },
+    {
+      "name": "Willow logs",
+      "display": "Willow logs",
+      "image": "https://runescape.wiki/images/thumb/Willow_logs_detail.png/100px-Willow_logs_detail.png?fe690"
+    },
+    {
+      "name": "Maple logs",
+      "display": "Maple logs",
+      "image": "https://runescape.wiki/images/thumb/Maple_logs_detail.png/100px-Maple_logs_detail.png?d3f8b"
+    },
+    {
+      "name": "Soft clay",
+      "display": "Soft clay (bring two if you want a camel mask)",
+      "image": "https://runescape.wiki/images/thumb/Soft_clay_detail.png/100px-Soft_clay_detail.png?85203"
+    },
+    {
+      "name": "Coal",
+      "display": "1 coal (can be retrieved from the metal bank during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 7000,
+      "display": "7,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Mining",
+      "amount": 7000,
+      "display": "7,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Firemaking",
+      "amount": 7000,
+      "display": "7,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 7000,
+      "display": "7,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Camulet",
+      "display": "A camulet, which allows you to talk to camels and teleport to the temple four times; it can be recharged by using camel dung on it.",
+      "image": "https://runescape.wiki/images/thumb/Camulet_detail.png/100px-Camulet_detail.png?3c1d3"
+    },
+    {
+      "type": "item",
+      "name": "Camel mask",
+      "display": "Camel mask (use a piece of soft clay on the pedestal with the globes on it to make one)",
+      "image": "https://runescape.wiki/images/thumb/Camel_mask_detail.png/100px-Camel_mask_detail.png?6b903"
+    },
+    {
+      "type": "item",
+      "name": "Lament",
+      "display": "Lament",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Head to the granite and sandstone quarry southwest of the Bandit Camp lodestone.",
+        "es": "Dirígete a la cantera de granito y arenisca al suroeste de la piedra de viaje de Bandit Camp."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lazim. (opciones de chat: Accept • 2 Okay, I'll get on with it.)",
+        "es": "Habla con Lazim. (opciones de chat: Accept • 2 Okay, I'll get on with it.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "If you don't already have your sandstones, mine 5 of sandstone in the nearby quarry.",
+        "es": "Si aún no tienes tus areniscas, extrae 5 de arenisca en la cantera cercana."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Give Lazim 32 of sandstone. (opciones de chat: 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a small 2 kg block.)",
+        "es": "Dale a Lazim 32 de arenisca. (opciones de chat: 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a small 2 kg block.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Craft the sandstone (32kg) he gives you, use it on the flat ground.",
+        "es": "Talla la arenisca (32 kg) que te da, úsala en el suelo llano."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lazim.",
+        "es": "Habla con Lazim."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Give Lazim another 20&nbsp;kg of sandstone. (opciones de chat: 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block.)",
+        "es": "Dale a Lazim otros 20&nbsp;kg de arenisca. (opciones de chat: 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block.)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Craft the sandstone (20kg) he gives you, use it on the statue base.",
+        "es": "Talla la arenisca (20 kg) que te da, úsala en la base de la estatua."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Chisel the headless statue, speak to Lazim.",
+        "es": "Cincela la estatua sin cabeza y habla con Lazim."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Mine or obtain two 5 granite chunks.",
+        "es": "Extrae u obtén dos trozos de granito de 5."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Craft a 5 chunk of granite. (opciones de chat: 1 Carve a head for the statue. • 4 The head of a camel)",
+        "es": "Talla un trozo de granito de 5. (opciones de chat: 1 Carve a head for the statue. • 4 The head of a camel)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Use the stone camel head on the headless statue.",
+        "es": "Usa la cabeza de camello de piedra en la estatua sin cabeza."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Lazim.",
+        "es": "Habla con Lazim."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him again.",
+        "es": "Vuelve a hablar con él."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Interact with the fallen statue four times, use the \"Chisel\" option. (opciones de chat: 1 Chisel • 1 Remove the statue's left arm) (opciones de chat: 1 Chisel • 1 Remove the statue's right arm) (opciones de chat: 1 Chisel • 1 Remove the statue's left leg) (opciones de chat: 1 Chisel)",
+        "es": "Interactúa cuatro veces con la estatua caída, usando la opción \"Chisel\". (opciones de chat: 1 Chisel • 1 Remove the statue's left arm) (opciones de chat: 1 Chisel • 1 Remove the statue's right arm) (opciones de chat: 1 Chisel • 1 Remove the statue's left leg) (opciones de chat: 1 Chisel)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Take-sigil from the nearby pedestal for the letter \"M\".",
+        "es": "Coge el sigilo del pedestal cercano correspondiente a la letra \"M\"."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Go north and through the door. Click to skip the cutscene.",
+        "es": "Ve hacia el norte y cruza la puerta. Haz clic para saltar la escena."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Go all the way west and through the door to the south. Click to skip the cutscene.",
+        "es": "Ve todo el camino hacia el oeste y cruza la puerta hacia el sur. Haz clic para saltar la escena."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Go south and take the path to east which is leading to the middle room. Unlock the door using the M sigil.",
+        "es": "Ve hacia el sur y toma el camino hacia el este que lleva a la sala central. Desbloquea la puerta usando el sigilo M."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Optionally, leave the middle room and go through the remaining two outer doors, gather the remaining three sigils, and unlock the remaining three doors that lead to the middle room. The outer doors will become permanently locked post-quest if the stone limbs are destroyed as they cannot be reclaimed.",
+        "es": "Opcionalmente, sal de la sala central y cruza las dos puertas exteriores restantes, recoge los tres sigilos restantes y desbloquea las tres puertas restantes que llevan a la sala central. Las puertas exteriores quedarán bloqueadas permanentemente tras la misión si se destruyen las extremidades de piedra, ya que no podrán recuperarse."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Climb up the middle room's ladder.",
+        "es": "Sube por la escalera de la sala central."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Use your soft clay on the pedestal for a camel mould (p).",
+        "es": "Usa tu arcilla blanda en el pedestal para conseguir un molde de camello (p)."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Craft your second chunk of granite 5. (opciones de chat: 1 Carve a shape to fit the pedestal.)",
+        "es": "Talla tu segundo trozo de granito de 5. (opciones de chat: 1 Carve a shape to fit the pedestal.)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Use the new head on the pedestal, a cutscene starts (which can be skipped).",
+        "es": "Usa la nueva cabeza en el pedestal; se inicia una escena (que se puede saltar)."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lazim.",
+        "es": "Habla con Lazim."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Use either bread, cake, pie, potato, or a pizza on Pentyn in the north-western room. (opciones de chat: 4 It's okay, I don't need any help.)",
+        "es": "Usa pan, tarta, pastel, patata o pizza en Pentyn, en la sala del noroeste. (opciones de chat: 4 It's okay, I don't need any help.)"
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Go to the west room, equip your staff or wand, melt the fountain using a fire spell.",
+        "es": "Ve a la sala del oeste, equipa tu bastón o varita y derrite la fuente usando un hechizo de fuego."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 1,
+      "text": {
+        "en": "If you have a waterskin, you can refill it at the fountain for a Hard Desert Achievement, Enaqua.",
+        "es": "Si tienes un odre, puedes rellenarlo en la fuente para conseguir el Logro Difícil del Desierto, Enaqua."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Go to the northeast room, clear the furnace with a staff or wand equipped using an air spell.",
+        "es": "Ve a la sala del noreste y limpia el horno con un bastón o varita equipado usando un hechizo de aire."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "Retrieve coal from the metal bank if it is not already in the backpack.",
+        "es": "Recupera carbón del banco de metal si no lo tienes ya en la mochila."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Go to the east room, investigate each brazier, using the respective resource on each of them.",
+        "es": "Ve a la sala del este, examina cada brasero y usa el recurso correspondiente en cada uno de ellos."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "Retrieve coal from the metal bank at the furnace in the northeast room if you did not bring it.",
+        "es": "Recupera carbón del banco de metal junto al horno en la sala del noreste si no lo trajiste."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Pass-through the magical barrier in the centre, climb-up the ladder.",
+        "es": "Atraviesa la barrera mágica del centro y sube por la escalera."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lazim.",
+        "es": "Habla con Lazim."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Climb-over pile of bones south.",
+        "es": "Trepa por el montón de huesos hacia el sur."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Climb-down the stone ladder.",
+        "es": "Baja por la escalera de piedra."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Boneguard. (opciones de chat: 2 Of course, I'll help you out. • 4 Okay, I'll start building.)",
+        "es": "Habla con el Boneguard. (opciones de chat: 2 Of course, I'll help you out. • 4 Okay, I'll start building.)"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Take-rock from the nearby rubble for a chunk of sandstone. Do this three times.",
+        "es": "Coge una roca de los escombros cercanos para obtener un trozo de arenisca. Hazlo tres veces."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the wall to add the sandstone then inspect it again to chisel it. Repeat this twice more.",
+        "es": "Examina el muro para añadir la arenisca y luego vuelve a examinarlo para cincelarla. Repite esto dos veces más."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Boneguard for the final cutscene (this can also be skipped).",
+        "es": "Habla con el Boneguard para la escena final (esta también se puede saltar)."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

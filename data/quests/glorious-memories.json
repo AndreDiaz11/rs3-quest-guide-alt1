@@ -1,0 +1,404 @@
+{
+  "id": "glorious-memories",
+  "title": "Glorious Memories",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:23:43.814Z",
+  "icon": "https://runescape.wiki/images/Glorious_Memories_icon.png",
+  "series": "Fremennik",
+  "age": "5",
+  "timeline": "legendary",
+  "members": true,
+  "combatLevel": "80-89",
+  "difficulty": "Master",
+  "length": "Medium",
+  "releaseDate": "1 April 2009",
+  "startPoint": {
+    "en": "Speak to Manni the Reveller inside the longhall in Rellekka.",
+    "es": "Habla con Manni the Reveller dentro del longhall en Rellekka."
+  },
+  "requirements": {
+    "quests": [
+      "Mountain Daughter",
+      "The Fremennik Isles",
+      "The Fremennik Trials",
+      "Royal Trouble",
+      "Throne of Miscellania",
+      "The Fremennik Trials",
+      "Lunar Diplomacy",
+      "The Fremennik Trials",
+      "Lost City"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 50
+      },
+      {
+        "skill": "Herblore",
+        "level": 43
+      },
+      {
+        "skill": "Hunter",
+        "level": 41
+      },
+      {
+        "skill": "Magic",
+        "level": 57
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Clean irit",
+      "display": "Clean irit",
+      "image": "https://runescape.wiki/images/thumb/Clean_irit_detail.png/100px-Clean_irit_detail.png?e3789"
+    },
+    {
+      "name": "Vial",
+      "display": "A vial",
+      "image": "https://runescape.wiki/images/thumb/Vial_detail.png/100px-Vial_detail.png?82ee9"
+    },
+    {
+      "name": "Earth rune",
+      "display": "10 earth runes or a magic weapon which provides earth runes, such as a staff of earth",
+      "image": "https://runescape.wiki/images/thumb/Earth_rune_detail.png/100px-Earth_rune_detail.png?fa918"
+    },
+    {
+      "name": "Cosmic rune",
+      "display": "Cosmic rune",
+      "image": "https://runescape.wiki/images/thumb/Cosmic_rune_detail.png/100px-Cosmic_rune_detail.png?fa918"
+    },
+    {
+      "name": "Plank",
+      "display": "Plank (can be obtained during quest)",
+      "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
+    },
+    {
+      "name": "Staff (weapon type)",
+      "display": "Staff or pole (can be obtained during quest)",
+      "image": null
+    },
+    {
+      "name": "At least 4 backpack spaces",
+      "display": "At least 4 backpack spaces",
+      "image": null
+    }
+  ],
+  "kills": [
+    "Nial Swiftfling (Level 81) (attacks with melee and ranged)",
+    "Yeti (level 63) and gnoeals (level 70) (optional, but aggressive)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 10000,
+      "display": "10,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Herblore",
+      "amount": 5000,
+      "display": "5,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Combat level",
+      "amount": 15000,
+      "display": "15,000 experience tome (3x 5,000 experience) in either , , , , or (Skill must be level 40 or higher)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Unfinished astral rune",
+      "display": "An unfinished astral rune that can be traded with Baba Yaga for extra rewards",
+      "image": "https://runescape.wiki/images/thumb/Unfinished_astral_rune_detail.png/100px-Unfinished_astral_rune_detail.png?af7a3"
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "item",
+      "name": "Prophecy tablet (Glorious Memories)",
+      "display": "A prophecy tablet (you can trade this item with Historian Minas for 10 kudos)"
+    },
+    {
+      "type": "xp",
+      "skill": "Skills",
+      "amount": 2500,
+      "display": "2,500 experience lamp (Skill must be level 35 or higher) Only 1,250 experience is granted if used on elite skills"
+    },
+    {
+      "type": "item",
+      "name": "Frost Fight",
+      "display": "Frost Fight (In Nial's lair)"
+    },
+    {
+      "type": "item",
+      "name": "Lair of Kang Admi",
+      "display": "Lair of Kang Admi (In the Ice cave)"
+    },
+    {
+      "type": "item",
+      "name": "Nial's Widow",
+      "display": "Nial's Widow (When speaking with Freygerd about Nial, unlisted music track)"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Manni the Reveller in Rellekka longhall. (opciones de chat: Accept)",
+        "es": "Habla con Manni the Reveller en el longhall de Rellekka. (opciones de chat: Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to King Vargas in Miscellania.",
+        "es": "Habla con King Vargas en Miscellania."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Manni the Reveller in Rellekka longhall.",
+        "es": "Habla con Manni the Reveller en el longhall de Rellekka."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Brundt the Chieftain back in Rellekka Longhall. (opciones de chat: # Ask about the birthday feast.)",
+        "es": "Habla con Brundt the Chieftain de vuelta en el Rellekka Longhall. (opciones de chat: # Ask about the birthday feast.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene you'll be given cave directions.",
+        "es": "Después de la escena, se te darán indicaciones sobre la cueva."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Then return to Miscellania and talk to King Vargas.",
+        "es": "Luego regresa a Miscellania y habla con King Vargas."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, talk to Mawnis Burowgar in Neitiznot, south of the bank. (opciones de chat: 2 Chieftain Brundt's birthday feast.) Watch the cutscene.",
+        "es": "Después de la escena, habla con Mawnis Burowgar en Neitiznot, al sur del banco. (opciones de chat: 2 Chieftain Brundt's birthday feast.) Mira la escena."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the 'i' icon ('question mark' on legacy interfaces) in the snowy Rellekka Hunter area.",
+        "es": "Viaja hasta el icono 'i' ('signo de interrogación' en las interfaces heredadas) en el área nevada de Rellekka Hunter."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the tracks in the north-west corner of the platform and follow them to a mound of ice in the north-east corner. Inspect the tracks directly in front of the ice mound, then dig through the ice mound and go inside. (opciones de chat: 1 Yes.)",
+        "es": "Inspecciona las huellas en la esquina noroeste de la plataforma y síguelas hasta un montículo de hielo en la esquina noreste. Inspecciona las huellas justo frente al montículo de hielo, luego excava a través del montículo de hielo y entra. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Run to the southern wall and enter the tunnel.",
+        "es": "Corre hasta la pared sur y entra en el túnel."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Kill Nial Swiftfling and take all of his items.",
+        "es": "Mata a Nial Swiftfling y recoge todos sus objetos."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Freygerd in Jatizso near the west gate. (opciones de chat: 1 Talk about Nial.)",
+        "es": "Habla con Freygerd en Jatizso cerca de la puerta oeste. (opciones de chat: 1 Talk about Nial.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to King Gjuki Sorvott IV in the central building. (opciones de chat: 2 Talk about Freygerd and the new tax.)",
+        "es": "Habla con King Gjuki Sorvott IV en el edificio central. (opciones de chat: 2 Talk about Freygerd and the new tax.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Freygerd near the west gate. (opciones de chat: 1 Talk about Nial.)",
+        "es": "Habla con Freygerd cerca de la puerta oeste. (opciones de chat: 1 Talk about Nial.)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Mawnis Burowgar in Neitiznot, south of the bank. (opciones de chat: 2 Chieftain Brundt's birthday feast.)",
+        "es": "Habla con Mawnis Burowgar en Neitiznot, al sur del banco. (opciones de chat: 2 Chieftain Brundt's birthday feast.)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Ensure you have the standard spellbook enabled.",
+        "es": "Asegúrate de tener activado el libro de hechizos estándar."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the Mountain Camp. (Fairy code or east of the Fremennik Province lodestone.)",
+        "es": "Viaja al Mountain Camp. (Código de hadas o al este de la piedra de viaje de Fremennik Province.)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "A pole and plank can be found near the goats if you didn't bring a staff and plank.",
+        "es": "Se puede encontrar un palo y una tabla cerca de las cabras si no trajiste un báculo y una tabla."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Climb the tree next to the lake, use the staff/pole on the clump of rocks, then use the plank on the flat stone.",
+        "es": "Sube al árbol junto al lago, usa el báculo/palo en el montón de rocas, luego usa la tabla en la piedra plana."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Stand south of the rocks and listen-to a shining pool in the water.",
+        "es": "Colócate al sur de las rocas y escucha un charco brillante en el agua."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 1,
+      "text": {
+        "en": "If the diamond root was not placed in your backpack, open the herb pouch with at least one available backpack space.",
+        "es": "Si la raíz de diamante no se colocó en tu mochila, abre la bolsa de hierbas con al menos un espacio disponible en la mochila."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Use your vial on the spring that appeared on the rock near you.",
+        "es": "Usa tu vial en el manantial que apareció en la roca cerca de ti."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Use a clean irit on the vial of mountain water for a mountain irit potion (unfinished).",
+        "es": "Usa un irit limpio en el vial de agua de montaña para obtener una poción de irit de montaña (sin terminar)."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Grind the diamond root, cast Lvl-4 Enchant on the diamond root dust, then use the enchanted diamond root dust and yeti hair to the unfinished vial to make yeti curse cure.",
+        "es": "Muele la raíz de diamante, lanza Lvl-4 Enchant sobre el polvo de raíz de diamante, luego usa el polvo de raíz de diamante encantado y el pelo de yeti en el vial sin terminar para hacer la cura de la maldición del yeti."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Return and talk to King Vargas. After the cutscene, he transforms into his human form.",
+        "es": "Regresa y habla con King Vargas. Después de la escena, se transforma en su forma humana."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Brundt the Chieftain in the Rellekka longhall about the birthday feast. (opciones de chat: # Ask about the birthday feast.)",
+        "es": "Habla con Brundt the Chieftain en el longhall de Rellekka sobre el banquete de cumpleaños. (opciones de chat: # Ask about the birthday feast.)"
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, talk to Manni the Reveller in the longhall and watch another cutscene.",
+        "es": "Después de la escena, habla con Manni the Reveller en el longhall y mira otra escena."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Optionally after the quest:",
+        "es": "Opcionalmente después de la misión:"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "Take the unfinished astral rune to Baba Yaga on Lunar Isle. (opciones de chat: 2 Talk about astral runes.)",
+        "es": "Lleva la runa astral sin terminar a Baba Yaga en Lunar Isle. (opciones de chat: 2 Talk about astral runes.)"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "Take the prophecy tablet to Historian Minas on the of the Varrock Museum. (opciones de chat: 2 I have some information that might be of use in your displays.)",
+        "es": "Lleva la tablilla de profecía a Historian Minas en el Varrock Museum. (opciones de chat: 2 I have some information that might be of use in your displays.)"
+      }
+    }
+  ]
+}

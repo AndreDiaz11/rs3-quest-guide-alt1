@@ -1,0 +1,150 @@
+{
+  "id": "sheep-herder",
+  "title": "Sheep Herder",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:14:15.658Z",
+  "icon": "https://runescape.wiki/images/Sheep_Herder_icon.png",
+  "series": null,
+  "age": "5",
+  "timeline": "pathfinder",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Medium",
+  "releaseDate": "15 August 2002",
+  "startPoint": {
+    "en": "Speak to Councillor Halgrive outside of the East Ardougne church, north of the zoo.",
+    "es": "Habla con Councillor Halgrive fuera de la iglesia de East Ardougne, al norte del zoo."
+  },
+  "requirements": {
+    "quests": [
+      "Sheep Herder"
+    ],
+    "skills": []
+  },
+  "items": [
+    {
+      "name": "Coins",
+      "display": "100 coins",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 4,
+      "display": "4 quest points",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "3,100 coins (reimbursement for plague set, and 3,000 coins as reward)",
+      "display": "3,100 coins (reimbursement for plague set, and 3,000 coins as reward)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Plague jacket",
+      "display": "Plague jacket",
+      "image": "https://runescape.wiki/images/thumb/Plague_jacket_detail.png/100px-Plague_jacket_detail.png?18e2d"
+    },
+    {
+      "type": "item",
+      "name": "Plague trousers",
+      "display": "Plague trousers",
+      "image": "https://runescape.wiki/images/thumb/Plague_trousers_detail.png/100px-Plague_trousers_detail.png?aa9c9"
+    },
+    {
+      "type": "item",
+      "name": "Cattleprod",
+      "display": "Cattleprod",
+      "image": "https://runescape.wiki/images/thumb/Cattleprod_detail.png/100px-Cattleprod_detail.png?e8f67"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Councillor Halgrive south of the Ardougne church and north of the zoo. (opciones de chat: 1 What's wrong? • Accept)",
+        "es": "Habla con Councillor Halgrive al sur de la iglesia de Ardougne y al norte del zoo. (opciones de chat: 1 ¿Qué ocurre? • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Doctor Orbon inside the church and buy a pair of clothes for 100 coins. (opciones de chat: 2 Talk about something else. • 2 Ok, I'll take it.)",
+        "es": "Habla con Doctor Orbon dentro de la iglesia y compra un conjunto de ropa por 100 monedas. (opciones de chat: 2 Hablar sobre otra cosa. • 2 Vale, me lo llevo.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Return to the lodestone and go west until you reach the fenced enclosure with a stone building and incinerator (looks like a furnace). It is south of the fishing guild.",
+        "es": "Vuelve a la piedra de viaje y ve hacia el oeste hasta llegar al recinto vallado con un edificio de piedra y un incinerador (parece un horno). Está al sur del gremio de pesca."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Equip the plague jacket and trousers and enter the gate.",
+        "es": "Equípate la chaqueta y los pantalones de la peste y entra por la puerta."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Pick up the cattleprod inside the stone enclosure, equip it.",
+        "es": "Recoge el aguijón para ganado dentro del recinto de piedra y equípatelo."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Prod 1 of each colour sheep in and through the incinerator pen's gate. If the sheep are stuck, simply switch worlds.",
+        "es": "Aguijonea a una oveja de cada color para que entre y atraviese la puerta del corral del incinerador. Si las ovejas se quedan atascadas, simplemente cambia de mundo."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Enter the pen and use the sheep feed on each of them.",
+        "es": "Entra en el corral y usa el pienso para ovejas en cada una de ellas."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Take all 4 bones, then use them on the incinerator.",
+        "es": "Recoge los 4 huesos y luego úsalos en el incinerador."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Return to Councillor Halgrive.",
+        "es": "Vuelve con Councillor Halgrive."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

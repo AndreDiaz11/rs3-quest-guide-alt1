@@ -1,0 +1,277 @@
+{
+  "id": "elemental-workshop-i",
+  "title": "Elemental Workshop I",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:13:15.513Z",
+  "icon": "https://runescape.wiki/images/Elemental_Workshop_I_icon.png",
+  "series": "Elemental Workshop",
+  "age": "ambiguous",
+  "timeline": "adventurer",
+  "members": true,
+  "combatLevel": "40-49",
+  "difficulty": "Novice",
+  "length": "Short",
+  "releaseDate": "2 June 2004",
+  "startPoint": {
+    "en": "Search the shelves in a house in Seers' Village for an old book.",
+    "es": "Busca en las estanterías de una casa en Seers' Village para encontrar un libro viejo."
+  },
+  "requirements": {
+    "quests": [
+      "Elemental Workshop I"
+    ],
+    "skills": [
+      {
+        "skill": "Crafting",
+        "level": 20
+      },
+      {
+        "skill": "Mining",
+        "level": 20
+      },
+      {
+        "skill": "Smithing",
+        "level": 20
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Thread",
+      "display": "1 thread",
+      "image": "https://runescape.wiki/images/thumb/Thread_detail.png/100px-Thread_detail.png?13036"
+    },
+    {
+      "name": "Leather",
+      "display": "Soft leather (obtainable during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Leather_detail.png/100px-Leather_detail.png?6e9da"
+    },
+    {
+      "name": "Coal",
+      "display": "4 coal",
+      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    }
+  ],
+  "kills": [
+    "Earth elemental (level 44)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 5000,
+      "display": "5,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 5000,
+      "display": "5,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Elemental Workshop",
+      "display": "Access to the Elemental Workshop",
+      "image": "https://runescape.wiki/images/thumb/Elemental_workshop.png/100px-Elemental_workshop.png?728fc"
+    },
+    {
+      "type": "item",
+      "name": "Elemental shield",
+      "display": "An elemental shield, as well as the ability to make them.",
+      "image": "https://runescape.wiki/images/thumb/Elemental_shield_detail.png/100px-Elemental_shield_detail.png?c6f22"
+    },
+    {
+      "type": "item",
+      "name": "Twilight",
+      "display": "Twilight",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "In Seers' Village, go to the house immediately south of the anvil.",
+        "es": "En Seers' Village, dirígete a la casa que está justo al sur del yunque."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Search the bookcase on the eastern wall to find a battered book.",
+        "es": "Busca en la librería de la pared este para encontrar un libro maltrecho."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Read the book, (opciones de chat: Accept) then right-click on the book and click \"Cut-open\" to get a battered key. Do not drop the book.",
+        "es": "Lee el libro, (opciones de chat: Aceptar) luego haz clic derecho sobre el libro y selecciona \"Cortar\" para obtener una llave maltrecha. No sueltes el libro."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Go to the building with the anvil and click on the northern wall to open the odd-looking wall.",
+        "es": "Ve al edificio con el yunque y haz clic en la pared norte para abrir la extraña pared."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Go down the stairs.",
+        "es": "Baja las escaleras."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Go into the room to the north.",
+        "es": "Entra en la sala al norte."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "(Red Indicator) Turn the water controls east of the water wheel to turn it green",
+        "es": "(Indicador rojo) Gira los controles de agua al este de la rueda hidráulica para ponerlos en verde."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "(Red Indicator) Turn the water controls west of the water wheel to turn it green.",
+        "es": "(Indicador rojo) Gira los controles de agua al oeste de la rueda hidráulica para ponerlos en verde."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Pull the lever by the water wheel.",
+        "es": "Tira de la palanca junto a la rueda hidráulica."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "(Optional) To obtain leather, search the crate north of the staircase in the middle room.",
+        "es": "(Opcional) Para obtener cuero, busca en el cajón al norte de la escalera en la sala central."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Go to the eastern room.",
+        "es": "Ve a la sala este."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "With thread and leather, fix the bellows.",
+        "es": "Con hilo y cuero, repara el fuelle."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Pull the lever by the bellows.",
+        "es": "Tira de la palanca junto al fuelle."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Go to the western room and mine an elemental rock.",
+        "es": "Ve a la sala oeste y extrae una roca elemental."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Kill the earth elemental and pick up the elemental ore it drops.",
+        "es": "Mata al elemental de tierra y recoge el mineral elemental que suelta."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Go back to the middle room and search the small boxes in the north-east part of the room to obtain a stone bowl.",
+        "es": "Vuelve a la sala central y busca en las cajas pequeñas de la zona noreste de la sala para obtener un cuenco de piedra."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Go to the south room.",
+        "es": "Ve a la sala sur."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Use the stone bowl on the lava trough to the south.",
+        "es": "Usa el cuenco de piedra en el canal de lava al sur."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Use the bowl of lava on the furnace in the room.",
+        "es": "Usa el cuenco de lava en el horno de la sala."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Use the elemental ore and four coal on the furnace.",
+        "es": "Usa el mineral elemental y cuatro carbones en el horno."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "With the slashed book, go to the middle room and smith an elemental shield on an anvil workbench.",
+        "es": "Con el libro cortado, ve a la sala central y forja un escudo elemental en la mesa de trabajo del yunque."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

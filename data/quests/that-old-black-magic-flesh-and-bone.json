@@ -1,0 +1,108 @@
+{
+  "id": "that-old-black-magic-flesh-and-bone",
+  "title": "That Old Black Magic: Flesh and Bone",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:22:13.842Z",
+  "icon": "https://runescape.wiki/images/thumb/That_Old_Black_Magic_icon.png/50px-That_Old_Black_Magic_icon.png",
+  "length": "Short",
+  "startPoint": {
+    "en": "Speak to Zommy 'Brains' Walker in the City of Um's bandstand.",
+    "es": "Habla con Zommy 'Brains' Walker en el quiosco de música de la City of Um."
+  },
+  "requirements": {
+    "quests": [
+      "That Old Black Magic: My One and Only Lute",
+      "The Blood Pact"
+    ],
+    "skills": [
+      {
+        "skill": "Necromancy",
+        "level": 50
+      },
+      {
+        "skill": "Runecrafting",
+        "level": 40
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Bone rune",
+      "display": "520 bone runes",
+      "image": "https://runescape.wiki/images/thumb/Bone_rune_detail.png/100px-Bone_rune_detail.png?f9b30"
+    },
+    {
+      "name": "Flesh rune",
+      "display": "360 flesh runes",
+      "image": "https://runescape.wiki/images/thumb/Flesh_rune_detail.png/100px-Flesh_rune_detail.png?c79f5"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "item",
+      "name": "Necromancy XP lamp (Flesh and Bone)",
+      "display": "12,500 Necromancy XP lamp",
+      "image": "https://runescape.wiki/images/thumb/Necromancy_XP_lamp_%28Flesh_and_Bone%29_detail.png/100px-Necromancy_XP_lamp_%28Flesh_and_Bone%29_detail.png?62f10"
+    },
+    {
+      "type": "item",
+      "name": "Soul (Well of Souls)",
+      "display": "25 vessel souls",
+      "image": "https://runescape.wiki/images/Soul_%28Well_of_Souls%29.png?69d0c"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zommy 'Brains' Walker (red pin on map to the right) at the centre of the City of Um, behind Death, to accept the subquest.",
+        "es": "Habla con Zommy 'Brains' Walker (marcador rojo en el mapa a la derecha) en el centro de la City of Um, detrás de Death, para aceptar la submisión."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Head north-east to talk to the Former Master Crafter (blue pin on map to the right). (opciones de chat: 1 Ask about piano keys.)",
+        "es": "Dirígete al noreste para hablar con el Former Master Crafter (marcador azul en el mapa a la derecha). (opciones de chat: 1 Preguntar sobre las teclas de piano.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him to give him 520 bone runes and 360 flesh runes. (opciones de chat: 1 Yes. • 1 Yes.)",
+        "es": "Habla con él para darle 520 bone runes y 360 flesh runes. (opciones de chat: 1 Sí. • 1 Sí.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Take the white and black piano keys from the Former Master Crafter and return to Zommy.",
+        "es": "Coge las teclas de piano blancas y negras del Former Master Crafter y vuelve con Zommy."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Give Zommy the piano keys. (opciones de chat: 1 Yes.)",
+        "es": "Dale las teclas de piano a Zommy. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Subquest complete!",
+        "es": "¡Submisión completada!"
+      }
+    }
+  ]
+}

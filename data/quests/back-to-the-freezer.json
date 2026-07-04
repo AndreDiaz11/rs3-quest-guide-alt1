@@ -1,0 +1,762 @@
+{
+  "id": "back-to-the-freezer",
+  "title": "Back to the Freezer",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:49:52.060Z",
+  "icon": "https://runescape.wiki/images/Back_to_the_Freezer_icon.png",
+  "series": "Penguin",
+  "age": "6",
+  "timeline": "world guardian",
+  "members": true,
+  "combatLevel": "60-69",
+  "difficulty": "Master",
+  "length": "Medium to Long",
+  "releaseDate": "27 February 2017",
+  "startPoint": {
+    "en": "Talk to Chuck at the Ardougne Zoo.",
+    "es": "Habla con Chuck en el Ardougne Zoo."
+  },
+  "requirements": {
+    "quests": [
+      "Some Like It Cold",
+      "Hunt for Red Raktuber",
+      "Cold War",
+      "Sea Slug",
+      "Ernest the Chicken"
+    ],
+    "skills": [
+      {
+        "skill": "Divination",
+        "level": 50
+      },
+      {
+        "skill": "Runecrafting",
+        "level": 45
+      },
+      {
+        "skill": "Slayer",
+        "level": 37
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Combat equipment",
+      "display": "Combat equipment",
+      "image": null
+    },
+    {
+      "name": "Clockwork suit",
+      "display": "Clockwork suit (given to you if you do not have one)",
+      "image": "https://runescape.wiki/images/thumb/Clockwork_suit_detail.png/100px-Clockwork_suit_detail.png?9acb7"
+    },
+    {
+      "name": "Insulated boots",
+      "display": "Insulated boots",
+      "image": "https://runescape.wiki/images/thumb/Insulated_boots_detail.png/100px-Insulated_boots_detail.png?bf763"
+    },
+    {
+      "name": "Ice cooler",
+      "display": "Ice cooler (needed as an item, ice shaker will not work)",
+      "image": "https://runescape.wiki/images/thumb/Ice_cooler_detail.png/100px-Ice_cooler_detail.png?c3678"
+    },
+    {
+      "name": "Flickering energy",
+      "display": "50 flickering energy",
+      "image": "https://runescape.wiki/images/thumb/Flickering_energy_1000_detail.png/100px-Flickering_energy_1000_detail.png?ddf7c"
+    },
+    {
+      "name": "Bright energy",
+      "display": "50 bright energy",
+      "image": "https://runescape.wiki/images/thumb/Bright_energy_1000_detail.png/100px-Bright_energy_1000_detail.png?2e543"
+    },
+    {
+      "name": "Sparkling energy",
+      "display": "50 sparkling energy",
+      "image": "https://runescape.wiki/images/thumb/Sparkling_energy_detail.png/100px-Sparkling_energy_detail.png?f1dcc"
+    },
+    {
+      "name": "Gleaming energy",
+      "display": "50 gleaming energy",
+      "image": "https://runescape.wiki/images/thumb/Gleaming_energy_1000_detail.png/100px-Gleaming_energy_1000_detail.png?ebf5c"
+    },
+    {
+      "name": "8-12 backpack spaces",
+      "display": "8-12 backpack spaces",
+      "image": null
+    }
+  ],
+  "kills": [
+    "10 Killerwatt (level 55)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Skills",
+      "amount": 500,
+      "display": "500 experience antique lamp - found during the quest Only 250 experience when used on an elite skill",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Divination",
+      "amount": 25000,
+      "display": "25,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Runecrafting",
+      "amount": 25000,
+      "display": "25,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Slayer",
+      "amount": 15000,
+      "display": "15,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 15000,
+      "display": "15,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Invention",
+      "amount": 10000,
+      "display": "10,000 experience (if you have completed the Invention tutorial. Otherwise it can be claimed from Chuck after you have completed the Invention tutorial).",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Agent 007",
+      "display": "An additional penguin to find in Penguin Hide and Seek",
+      "image": "https://runescape.wiki/images/thumb/Agent_007.png/100px-Agent_007.png?a3532"
+    },
+    {
+      "type": "xp",
+      "skill": "Balthazar Beauregard's Big Top Bonanza",
+      "amount": null,
+      "display": "Balthazar Beauregard's Big Top Bonanza now rewards 1.5 times as much experience as before.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Back to the Freezer (music track)",
+      "display": "Back to the Freezer",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "T.A.R.D.I.S. (music track)",
+      "display": "T.A.R.D.I.S.",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Chuck in the Ardougne Zoo (opciones de chat: 1 Back to the Freezer Quest • Accept)",
+        "es": "Habla con Chuck en el Ardougne Zoo (opciones de chat: 1 Back to the Freezer Quest • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Note down the blue text.",
+        "es": "Anota el texto en azul."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "Alternatively, the Passphrase may also be found in your quest journal.",
+        "es": "Como alternativa, la Passphrase también se puede encontrar en tu diario de misiones."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "In the Rellekka marketplace, talk to Skot or Mundsen.",
+        "es": "En el mercado de Rellekka, habla con Skot o Mundsen."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "When prompted, tell them the passphrase from Chuck.",
+        "es": "Cuando te lo pidan, diles la contraseña que te dio Chuck."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "After telling the passphrase, finish the dialogue and cutscene.",
+        "es": "Después de decir la contraseña, termina el diálogo y la escena."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "South-west of Pollnivneach, talk to Dundee, who will give you a crocspeak amulet. (opciones de chat: 1 Ask about the penguins.)",
+        "es": "Al suroeste de Pollnivneach, habla con Dundee, quien te dará un crocspeak amulet. (opciones de chat: 1 Ask about the penguins.)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Equip the crocspeak amulet.",
+        "es": "Equípate el crocspeak amulet."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Just west, talk to Croc. (opciones de chat: 4 Bye)",
+        "es": "Justo al oeste, habla con Croc. (opciones de chat: 4 Bye)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "South-west, investigate the T.A.R.D.I.S..",
+        "es": "Al suroeste, investiga el T.A.R.D.I.S.."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Return to Chuck in Ardougne. (opciones de chat: 1 Back to the Freezer Quest)",
+        "es": "Vuelve con Chuck en Ardougne. (opciones de chat: 1 Back to the Freezer Quest)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Note down the agent's favourite food Chuck tells you. Favourite food may be found in your quest journal.",
+        "es": "Anota la comida favorita del agente que Chuck te menciona. La comida favorita también puede encontrarse en tu diario de misiones."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Return to the T.A.R.D.I.S.",
+        "es": "Vuelve al T.A.R.D.I.S."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Unequip any item in your cape and weapon slot.",
+        "es": "Quítate cualquier objeto que tengas en las ranuras de capa y arma."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "With your clockwork suit in your backpack talk to any named penguin and you will automatically equip your clockwork suit.",
+        "es": "Con tu clockwork suit en la mochila, habla con cualquier pingüino con nombre y te lo equiparás automáticamente."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 1,
+      "text": {
+        "en": "If you don't have a clockwork suit with you return to the zoo and speak with Chuck. Chuck will give you a clockwork suit.",
+        "es": "Si no tienes un clockwork suit contigo, vuelve al zoo y habla con Chuck. Chuck te dará un clockwork suit."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "In order, talk to the following penguins:",
+        "es": "En orden, habla con los siguientes pingüinos:"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "Emperor Wing (opciones de chat: 1 Remind me what happened. • 2 What happened to you at the party?)",
+        "es": "Emperor Wing (opciones de chat: 1 Remind me what happened. • 2 What happened to you at the party?)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "Elon (opciones de chat: 2 What happened to you at the party?)",
+        "es": "Elon (opciones de chat: 2 What happened to you at the party?)"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "Hugh (opciones de chat: 2 What happened to you at the party?)",
+        "es": "Hugh (opciones de chat: 2 What happened to you at the party?)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 1,
+      "text": {
+        "en": "Gordon (opciones de chat: 2 What happened to you at the party? • 3 Are you a spy?)",
+        "es": "Gordon (opciones de chat: 2 What happened to you at the party? • 3 Are you a spy?)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Gordon will give you a G.P.S.. If he does not, simply talk to him again.",
+        "es": "Gordon te dará un G.P.S.. Si no lo hace, simplemente vuelve a hablar con él."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Walk to the edge of the icy patch to get out of the clockwork suit.",
+        "es": "Camina hasta el borde de la zona helada para salir del clockwork suit."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Head to the pier north of Fremennik Province lodestone and north-east of Rellekka, travel to the Iceberg via the smaller boat.",
+        "es": "Dirígete al muelle al norte del lodestone de Fremennik Province y al noreste de Rellekka, viaja al Iceberg en el barco pequeño."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Locate with the G.P.S., follow the directions until you find the Mysterious Hatch.",
+        "es": "Localiza con el G.P.S. y sigue las indicaciones hasta encontrar el Mysterious Hatch."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "To the north-east, right click Jim the polar bear and choose \"Tuxedo-Time\".",
+        "es": "Al noreste, haz clic derecho en Jim the polar bear y elige \"Tuxedo-Time\"."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Interact with the hatch and type in \"1234\" to enter.",
+        "es": "Interactúa con la trampilla y escribe \"1234\" para entrar."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Enter the north-east room and search the interactable cupboard on the north wall for a hat.",
+        "es": "Entra en la sala del noreste y registra el armario interactivo en la pared norte para encontrar un sombrero."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Exit the room and then follow the corridor south.",
+        "es": "Sal de la sala y luego sigue el pasillo hacia el sur."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Head west and take the first turn north. Enter the large door leading to the large room in the centre of the bunker.",
+        "es": "Ve hacia el oeste y toma el primer giro hacia el norte. Entra por la puerta grande que lleva a la sala grande en el centro del búnker."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Enter the locker room to your west and search Gordon's locker on the west side for the de-lore-ing device parts list and de-lore-ing device (incomplete).",
+        "es": "Entra en el vestuario al oeste y registra la taquilla de Gordon en el lado oeste para conseguir la lista de piezas del de-lore-ing device y el de-lore-ing device (incompleto)."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Exit the large door to go back to the main corridor",
+        "es": "Sal por la puerta grande para volver al pasillo principal."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Enter the southwest room full of crates and search or look in them until you find both a hammer and flax.",
+        "es": "Entra en la sala del suroeste llena de cajas y regístralas o mira dentro hasta que encuentres un martillo y flax."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "In the north-western most room, Peruse the ice shelf (looks like a normal shelf) for The Penguin Book of Gielinor.",
+        "es": "En la sala más al noroeste, examina la estantería de hielo (parece una estantería normal) para conseguir The Penguin Book of Gielinor."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Behind you, Get Ice from the Ice Maker by the door to take ice cubes.",
+        "es": "Detrás de ti, consigue hielo del Ice Maker junto a la puerta para conseguir cubitos de hielo."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Use the hammer on the ice cubes to create the flax cap-ice-i-tor.",
+        "es": "Usa el martillo en los cubitos de hielo para crear el flax cap-ice-i-tor."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Use the flax cap-ice-i-tor on the de-lore-ing device (incomplete) for the de-lore-ing device.",
+        "es": "Usa el flax cap-ice-i-tor en el de-lore-ing device (incompleto) para obtener el de-lore-ing device."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Operate the de-lore-ing device.",
+        "es": "Activa el de-lore-ing device."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Take the monkey wrench (north & slightly east), use it on the de-lore-ing device then operate the device again.",
+        "es": "Coge la monkey wrench (al norte y ligeramente al este), úsala en el de-lore-ing device y luego vuelve a activar el dispositivo."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Take the penguin bongos and cowbells in the north-west corner, use either on the device, operate the device again.",
+        "es": "Coge los penguin bongos y los cowbells en la esquina noroeste, usa cualquiera de los dos en el dispositivo y vuelve a activarlo."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Pick cabbage, use it on the device, operate the device again.",
+        "es": "Recoge una col, úsala en el dispositivo y vuelve a activarlo."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Speak to the man with a dragon pickaxe, use worthless old boots on the device, operate the device one last time.",
+        "es": "Habla con el hombre que lleva un dragon pickaxe, usa las worthless old boots en el dispositivo y actívalo una última vez."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Gordon in the south-western room.",
+        "es": "Habla con Gordon en la sala del suroeste."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Elon in the centre of the bunker.",
+        "es": "Habla con Elon en el centro del búnker."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Get the fishing rod from the corner of the War room south of the big door.",
+        "es": "Consigue la caña de pescar en la esquina de la War room al sur de la puerta grande."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Go to the 'cold storage' crate room in the southwest and search until you have both the cog and coolant holder.",
+        "es": "Ve a la sala de cajas de 'cold storage' en el suroeste y busca hasta conseguir tanto el engranaje como el coolant holder."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Use the cog on the fishing rod to create the 'fishvention' rod.",
+        "es": "Usa el engranaje en la caña de pescar para crear la caña 'fishvention'."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Go to the western room and gather Pure S-now - wait until you have gathered all 2,000. (Process takes about a minute)",
+        "es": "Ve a la sala del oeste y recoge Pure S-now - espera hasta reunir los 2.000. (El proceso tarda aproximadamente un minuto)"
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Search the crate north of the Mysterious Ice Block in the same room for a lemon.",
+        "es": "Registra la caja al norte del Mysterious Ice Block en la misma sala para encontrar un limón."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Use the Mysterious ice block in the room to craft 2000 lemon sole runes.",
+        "es": "Usa el Mysterious ice block de la sala para fabricar 2000 lemon sole runes."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Go to the north-western room and click on the Ice Maker twice to create cool-ant and an ice box.",
+        "es": "Ve a la sala del noroeste y haz clic en el Ice Maker dos veces para crear cool-ant y una nevera portátil."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Buzz who is in the prison in the eastern room for 21 killerwatt energy.",
+        "es": "Habla con Buzz, que está en la prisión de la sala del este, para conseguir 21 unidades de energía killerwatt."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Leave the bunker via the door to the north.",
+        "es": "Sal del búnker por la puerta al norte."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Walk east, talk to Jim the polar bear to exit your disguise. (opciones de chat: 1 Yes)",
+        "es": "Camina hacia el este y habla con Jim the polar bear para quitarte el disfraz. (opciones de chat: 1 Yes)"
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Equip your insulated boots and prepare for combat.",
+        "es": "Equípate las insulated boots y prepárate para el combate."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Make your way to the top floor of Draynor Manor (staircase then ladder).",
+        "es": "Dirígete a la planta superior de Draynor Manor (escaleras y luego una escalera de mano)."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Enter the eastern room, then the Interdimensional Rift.",
+        "es": "Entra en la sala del este y luego en el Interdimensional Rift."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Kill 10 Killerwatts until you have 121 killerwatt energy.",
+        "es": "Mata a 10 Killerwatts hasta conseguir 121 de energía killerwatt."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Return to the iceberg.",
+        "es": "Vuelve al iceberg."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 1,
+      "text": {
+        "en": "Head to a pier north of Fremennik Province lodestone and north-east of Rellekka, travel to the Iceberg via the smaller boat.",
+        "es": "Dirígete a un muelle al norte del lodestone de Fremennik Province y al noreste de Rellekka, viaja al Iceberg en el barco pequeño."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Head to north-east of the iceberg, talk with Jim the polar bear, right click \"Tuxedo-Time\".",
+        "es": "Ve al noreste del iceberg, habla con Jim the polar bear y haz clic derecho en \"Tuxedo-Time\"."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Re-enter the bunker via the Mysterious Hatch.",
+        "es": "Vuelve a entrar en el búnker por el Mysterious Hatch."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "In the centre of the bunker, talk to Elon to give him all the items.",
+        "es": "En el centro del búnker, habla con Elon para entregarle todos los objetos."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Fill the energy container to the north-west with your divination energy.",
+        "es": "Llena el contenedor de energía al noroeste con tu energía de divination."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Configure the battery control station, north-west.",
+        "es": "Configura la estación de control de la batería, al noroeste."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "Solve the puzzle. See the full guide for advice on solving the puzzle.",
+        "es": "Resuelve el puzle. Consulta la guía completa para obtener consejos sobre cómo resolverlo."
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "Once complete, speak to the following penguins, in order:",
+        "es": "Una vez completado, habla con los siguientes pingüinos, en orden:"
+      }
+    },
+    {
+      "index": 67,
+      "indent": 1,
+      "text": {
+        "en": "Elon, in the same (central) room, roaming around T.A.R.D.I.S.",
+        "es": "Elon, en la misma sala (central), rondando cerca del T.A.R.D.I.S."
+      }
+    },
+    {
+      "index": 68,
+      "indent": 1,
+      "text": {
+        "en": "Gordon, in the south-west room (northern part).",
+        "es": "Gordon, en la sala del suroeste (parte norte)."
+      }
+    },
+    {
+      "index": 69,
+      "indent": 1,
+      "text": {
+        "en": "Hugh roaming around the north-west room.",
+        "es": "Hugh, rondando por la sala del noroeste."
+      }
+    },
+    {
+      "index": 70,
+      "indent": 1,
+      "text": {
+        "en": "Emperor Wing, in the central room again, easy to recognise due to his size.",
+        "es": "Emperor Wing, de nuevo en la sala central, fácil de reconocer por su tamaño."
+      }
+    },
+    {
+      "index": 71,
+      "indent": 0,
+      "text": {
+        "en": "Click the T.A.R.D.I.S. in the centre for a cutscene.",
+        "es": "Haz clic en el T.A.R.D.I.S. en el centro para ver una escena."
+      }
+    },
+    {
+      "index": 72,
+      "indent": 0,
+      "text": {
+        "en": "Return to Chuck. (opciones de chat: 1 Back to the Freezer Quest)",
+        "es": "Vuelve con Chuck. (opciones de chat: 1 Back to the Freezer Quest)"
+      }
+    },
+    {
+      "index": 73,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "sheep-shearer-miniquest",
+  "title": "Sheep Shearer (miniquest)",
+  "isMiniquest": true,
+  "guideLastUpdated": "2026-07-04T02:14:21.098Z",
+  "icon": "https://runescape.wiki/images/Sheep_Shearer_%28miniquest%29_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "pathfinder",
+  "members": false,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Very Short",
+  "releaseDate": "4 January 2001",
+  "startPoint": {
+    "en": "Talk to Fred the Farmer, found in his house in Lumbridge, found North of the Lumbridge Market.",
+    "es": "Habla con Fred the Farmer, que se encuentra en su casa en Lumbridge, al norte del Lumbridge Market."
+  },
+  "requirements": {
+    "quests": [
+      "Sheep Shearer (miniquest)"
+    ],
+    "skills": []
+  },
+  "items": [
+    {
+      "name": "Ball of wool",
+      "display": "20 balls of wool (unnoted, can be obtained during the miniquest)",
+      "image": "https://runescape.wiki/images/thumb/Ball_of_wool_detail.png/100px-Ball_of_wool_detail.png?22b70"
+    }
+  ],
+  "kills": [
+    "None, but watch out for rams."
+  ],
+  "rewards": [
+    {
+      "type": "item",
+      "name": "60 coins",
+      "display": "60 coins",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 300,
+      "display": "300 experience",
+      "image": null
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "item",
+      "name": "1,940 coins when talking to Fred after completing the quest, for a total of 2,000 coins.",
+      "display": "1,940 coins when talking to Fred after completing the quest, for a total of 2,000 coins."
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Fred the Farmer north of Lumbridge. (opciones de chat: 3 I'm looking for work. • 1 It takes all sorts, I suppose. • Accept • 1 Of course! • 1 I'm something of an expert, actually.)",
+        "es": "Habla con Fred the Farmer al norte de Lumbridge. (opciones de chat: 3 Estoy buscando trabajo. • 1 Supongo que hay gente de todo tipo. • Aceptar • 1 ¡Por supuesto! • 1 De hecho, soy algo así como un experto.)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Fred takes the 20 balls of wool. Congratulations, miniquest complete!",
+        "es": "Fred coge las 20 bolas de lana. ¡Enhorabuena, minimisión completada!"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Fred the Farmer north of Lumbridge. (opciones de chat: 3 I'm looking for work. • 1 It takes all sorts, I suppose. • Accept • 1 Of course! • 1 I'm something of an expert, actually.)",
+        "es": "Habla con Fred the Farmer al norte de Lumbridge. (opciones de chat: 3 Estoy buscando trabajo. • 1 Supongo que hay gente de todo tipo. • Aceptar • 1 ¡Por supuesto! • 1 De hecho, soy algo así como un experto.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Climb-over the stile into the sheep pen west of his house.",
+        "es": "Cruza la valla trepando hacia el redil de ovejas al oeste de su casa."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 1,
+      "text": {
+        "en": "Alternatively purchase 20 balls of wool from the Grand exchange and continue to the last step.",
+        "es": "Alternativamente, compra 20 bolas de lana en el Grand Exchange y continúa con el último paso."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Shear the six sheep.",
+        "es": "Esquila las seis ovejas."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "You cannot shear black sheep, rams or the odd-looking sheep. If you attack a ram and cannot kill it, run out of the pen until it stops targeting you.",
+        "es": "No puedes esquilar ovejas negras, carneros ni la oveja de aspecto extraño. Si atacas a un carnero y no puedes matarlo, sal corriendo del redil hasta que deje de tenerte como objetivo."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Wait 12 seconds for their wool to grow back, shearing them again.",
+        "es": "Espera 12 segundos a que les vuelva a crecer la lana y esquílalas de nuevo."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Repeat this process until you have 20 pieces of wool.",
+        "es": "Repite este proceso hasta que tengas 20 piezas de lana."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Head to the of the Lumbridge Castle.",
+        "es": "Dirígete al Lumbridge Castle."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Use the spinning wheel in the southern room to spin the balls of wool.",
+        "es": "Usa la rueca en la sala sur para hilar las bolas de lana."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Fred and hand them in. (opciones de chat: 1 I have some balls of wool for you.)",
+        "es": "Habla con Fred y entrégaselas. (opciones de chat: 1 Tengo unas bolas de lana para ti.)"
+      }
+    }
+  ]
+}

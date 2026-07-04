@@ -1,0 +1,600 @@
+{
+  "id": "carnillean-rising",
+  "title": "Carnillean Rising",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:56:06.988Z",
+  "icon": "https://runescape.wiki/images/Carnillean_Rising_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "90-99",
+  "difficulty": "Intermediate",
+  "length": "Medium to Long",
+  "releaseDate": "3 July 2012",
+  "startPoint": {
+    "en": "Speak with Xenia outside of the Carnillean mansion in south-west East Ardougne.",
+    "es": "Habla con Xenia a las afueras de la mansión Carnillean, al suroeste de East Ardougne."
+  },
+  "requirements": {
+    "quests": [
+      "The Blood Pact",
+      "Hazeel Cult"
+    ],
+    "skills": [
+      {
+        "skill": "Construction",
+        "level": 31
+      },
+      {
+        "skill": "Thieving",
+        "level": 33
+      },
+      {
+        "skill": "quest points",
+        "level": 50
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "23 free inventory spaces to collect items during the quest",
+      "display": "23 free inventory spaces to collect items during the quest",
+      "image": null
+    }
+  ],
+  "kills": [
+    "None, but the players will need to dodge attacks from a Cave Wolf Matriarch (level 91)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Thieving",
+      "amount": 2500,
+      "display": "2,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 2500,
+      "display": "2,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Skills",
+      "amount": 2,
+      "display": "2x 1,500 experience lamps for a total of 3,000 experience (Skill must be level 30 or higher)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Coins",
+      "display": "5,000 coins for returning Lady Henryeta's necklace, or from opening Sir Ceril's money pouch",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "type": "item",
+      "name": "Philipe's sweets",
+      "display": "Philipe's sweets: Contains 5 purple sweets",
+      "image": "https://runescape.wiki/images/thumb/Philipe%27s_sweets_detail.png/100px-Philipe%27s_sweets_detail.png?642e4"
+    },
+    {
+      "type": "item",
+      "name": "Construction",
+      "display": "Construction supplies: 100 oak planks (worth 190,000 coins) 30 teak planks (worth 9,600 coins) 10 mahogany planks (worth 18,170 coins)",
+      "image": "https://runescape.wiki/images/thumb/Construction_detail.png/100px-Construction_detail.png?346f8"
+    },
+    {
+      "type": "item",
+      "name": "Treasure chest (Carnillean Rising)",
+      "display": "A treasure chest, containing a gold bar (the treasure chest itself can be used to create personal treasure hunts)",
+      "image": "https://runescape.wiki/images/thumb/Treasure_chest_%28Carnillean_Rising%29_detail.png/100px-Treasure_chest_%28Carnillean_Rising%29_detail.png?0ba08"
+    },
+    {
+      "type": "item",
+      "name": "Philipe's note",
+      "display": "Philipe's note",
+      "image": "https://runescape.wiki/images/thumb/Philipe%27s_note_detail.png/100px-Philipe%27s_note_detail.png?489e3"
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "item",
+      "name": "Claus the chef",
+      "display": "Talk to Claus the chef and then defeat the wolf matriarch to obtain her skull. Check Claus is Rising for more info on the rewards."
+    },
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "Talk to Ceril Carnillean to locate Philipe Carnillean, who will give you an experience lamp worth 2,000 experience in a skill of your choosing. You must have the correct number of quest points before Ceril gives you the next location. You don't have to speak to Ceril to unlock the next location; However, you need to use the experience lamp to make Philipe move to the next location. After speaking to Philipe with 200 quest points, players can talk with Henryeta Carnillean and claim Rover the red dragon. After speaking to Philipe with 400 quest points, players can also claim Spot the black dragon from Henryeta Carnillean."
+    },
+    {
+      "type": "item",
+      "name": "Beneath the House",
+      "display": "Beneath the House"
+    },
+    {
+      "type": "item",
+      "name": "Drains and Canals",
+      "display": "Drains and Canals"
+    },
+    {
+      "type": "item",
+      "name": "Tiny Adventure",
+      "display": "Tiny Adventure"
+    },
+    {
+      "type": "item",
+      "name": "Philipe's Bane",
+      "display": "Philipe's Bane"
+    },
+    {
+      "type": "item",
+      "name": "Lords and Ladies",
+      "display": "Lords and Ladies"
+    },
+    {
+      "type": "item",
+      "name": "Carnillean Rising (music track)",
+      "display": "Carnillean Rising"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Outside the Carnillean Mansion south-west of East Ardougne, talk to Xenia. (opciones de chat: 2 Yes, I remember you. • 1 Thanks for fixing it! • Accept)",
+        "es": "Fuera de la Carnillean Mansion, al suroeste de East Ardougne, habla con Xenia. (opciones de chat: 2 Sí, te recuerdo. • 1 ¡Gracias por arreglarlo! • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ceril Carnillean. (opciones de chat: 1 So, you want me to turn Philipe into an adventurer. • 1 How do you expect me to create a quest? • 1 Where can I find all that stuff? • 4 I'll come back later.)",
+        "es": "Habla con Ceril Carnillean. (opciones de chat: 1 Así que quieres que convierta a Philipe en un aventurero. • 1 ¿Cómo esperas que cree una misión? • 1 ¿Dónde puedo encontrar todo eso? • 4 Volveré más tarde.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Search the bookcase in the room with Henryeta Carnillean for a book about the Carnillean family.",
+        "es": "Busca en la estantería de la habitación de Henryeta Carnillean un libro sobre la familia Carnillean."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Butler Crichton. (opciones de chat: 1 Sir Ceril says you'll help me create a quest. • 1 Yes, let's go.)",
+        "es": "Habla con Butler Crichton. (opciones de chat: 1 Sir Ceril dice que me ayudarás a crear una misión. • 1 Sí, vamos.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Head into the basement and enter the hole on the east wall (cutscene will begin), then head back to the house.",
+        "es": "Dirígete al sótano y entra por el agujero de la pared este (comenzará una escena), luego vuelve a la casa."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Go to the and take the red and black dragon head from the wall (2 heads in total).",
+        "es": "Ve a la zona y coge la cabeza de dragón roja y negra de la pared (2 cabezas en total)."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Open and search the southern wardrobe for the armour and sword.",
+        "es": "Abre y registra el armario del sur para conseguir la armadura y la espada."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Tear the net curtain from the north-east wall.",
+        "es": "Arranca la cortina de red de la pared del noreste."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Take the money pouch from the bed or Henryeta's necklace from the dresser.",
+        "es": "Coge el monedero de la cama o el collar de Henryeta del tocador."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Search his painting set for red paint.",
+        "es": "Busca en su set de pintura para conseguir pintura roja."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sarsaparilla. (opciones de chat: 3 I'm creating a quest for Philipe. Will you help?), then talk again. (opciones de chat: 3 Are you just going to stay in here? • 2 You were talking about your ambitions. • 2 I'm directing a drama. Would you like a part? • 4 Damsel in distress • 1 Yes, follow me.)",
+        "es": "Habla con Sarsaparilla. (opciones de chat: 3 Estoy creando una misión para Philipe. ¿Me ayudarás?), luego habla de nuevo. (opciones de chat: 3 ¿Vas a quedarte aquí sin más? • 2 Estabas hablando de tus ambiciones. • 2 Estoy dirigiendo un drama. ¿Te gustaría un papel? • 4 Damisela en apuros • 1 Sí, sígueme.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Open and search the wardrobe for her dress. (opciones de chat: 1 I need to borrow a costume.)",
+        "es": "Abre y registra el armario para conseguir su vestido. (opciones de chat: 1 Necesito tomar prestado un disfraz.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Head to the cellar and talk to Claus the chef. (opciones de chat: 2 Drunken jailer)",
+        "es": "Dirígete a la bodega y habla con Claus, el cocinero. (opciones de chat: 2 Carcelero borracho)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Search the cupboard, take everything (wooden boards, twine, shears, and Sir Ceril's wine).",
+        "es": "Registra el armario y coge todo (tablas de madera, cuerda, tijeras y el vino de Sir Ceril)."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Search the barrel of junk to collect rusty spikes.",
+        "es": "Busca en el barril de trastos para conseguir pinchos oxidados."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Pick up the spider from the floor.",
+        "es": "Recoge la araña del suelo."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "(optional) Pick up 7 buckets of water from the floor.",
+        "es": "(opcional) Recoge 7 cubos de agua del suelo."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "It is faster to skip this step and build a spike pit instead.",
+        "es": "Es más rápido saltarse este paso y construir una trampa de pinchos en su lugar."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Right-click build on the hole hotspot. (The cave going into the next area) (opciones de chat: 1 Cobweb)",
+        "es": "Haz clic derecho y elige \"construir\" en el punto de interés del agujero. (La cueva que lleva a la siguiente zona) (opciones de chat: 1 Telaraña)"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Enter the cave and talk to Sarsaparilla (opciones de chat: 1 Yes, follow me.) and Claus. (opciones de chat: 1 Follow me.)",
+        "es": "Entra en la cueva y habla con Sarsaparilla (opciones de chat: 1 Sí, sígueme.) y con Claus. (opciones de chat: 1 Sígueme.)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Continue through the cave and talk to the goblins. (opciones de chat: 3 Can you help me? • 3 Here, you can have this armour. • 1 Patrolling guards)",
+        "es": "Continúa por la cueva y habla con los goblins. (opciones de chat: 3 ¿Puedes ayudarme? • 3 Toma, puedes quedarte con esta armadura. • 1 Guardias en patrulla)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Head to the south-easternmost part of the tunnels and enter the passage.",
+        "es": "Dirígete a la parte más al sureste de los túneles y entra por el pasadizo."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Search the spoils near the heap for bone scraps south-west of the room.",
+        "es": "Busca en el montón de despojos restos de huesos al suroeste de la sala."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Take the cave mouse to have the wolves follow you out.",
+        "es": "Coge el ratón de cueva para que los lobos te sigan hacia el exterior."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Head north to the centre bridge.",
+        "es": "Dirígete al norte, hacia el puente central."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "\"Build\" the \"jailer\" hotspot by leading Claus to it.",
+        "es": "\"Construye\" el punto de interés del \"carcelero\" llevando a Claus hasta allí."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "If the money pouch was taken, use it on Claus.",
+        "es": "Si cogiste el monedero, úsalo en Claus."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Cross the bridge and build the dragon hotspots. The wolves will move into position.",
+        "es": "Cruza el puente y construye los puntos de interés de los dragones. Los lobos se colocarán en posición."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Use the dragon heads on the wolves.",
+        "es": "Usa las cabezas de dragón en los lobos."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Build the Damsel hotspot.",
+        "es": "Construye el punto de interés de la Damisela."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "If the necklace was taken, use it on Sarsaparilla.",
+        "es": "Si cogiste el collar, úsalo en Sarsaparilla."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Head back south across the bridge.",
+        "es": "Vuelve hacia el sur, cruzando el puente."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Build hotspots in these locations as you backtrack up towards the cellar:",
+        "es": "Construye puntos de interés en estos lugares mientras retrocedes hacia la bodega:"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "Decoration - on the wall east of the fire (opciones de chat: 1 Bloodstains)",
+        "es": "Decoración - en la pared al este del fuego (opciones de chat: 1 Manchas de sangre)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "Traps - east and west of the fire (opciones de chat: 1 Tripwire)",
+        "es": "Trampas - al este y al oeste del fuego (opciones de chat: 1 Cable trampa)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "Decoration - west of the fire at the end of the hall (opciones de chat: 2 Scary eyes)",
+        "es": "Decoración - al oeste del fuego, al final del pasillo (opciones de chat: 2 Ojos aterradores)"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "Decoration - on the north wall before turning around towards the cave entrance (opciones de chat: 3 Impaled skulls)",
+        "es": "Decoración - en la pared norte antes de girar hacia la entrada de la cueva (opciones de chat: 3 Cráneos empalados)"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Obstacle - on the floor in the southernmost corridor, heading towards the cave entrance (opciones de chat: 2 Spike pit)",
+        "es": "Obstáculo - en el suelo del pasillo más al sur, en dirección a la entrada de la cueva (opciones de chat: 2 Trampa de pinchos)"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Head back into the house and talk to Philipe.",
+        "es": "Vuelve a la casa y habla con Philipe."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Pickpocket him. Talk to him again. (opciones de chat: 4 A bag of sweets. • Accept • 1 Okay, follow me.)",
+        "es": "Hazle un robo de bolsillo. Habla con él de nuevo. (opciones de chat: 4 Una bolsa de dulces. • Aceptar • 1 Vale, sígueme.)"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Proceed through the cave while Philipe follows. (opciones de chat: Any)",
+        "es": "Avanza por la cueva mientras Philipe te sigue. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Watch the cutscene where Philipe attempts to pass the guards.",
+        "es": "Observa la escena en la que Philipe intenta pasar junto a los guardias."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Slimepits (one of the goblins) until a dialogue window with the Butler appears - do not continue dialogue until Philipe passes.",
+        "es": "Habla con Slimepits (uno de los goblins) hasta que aparezca una ventana de diálogo con el Butler; no continúes el diálogo hasta que Philipe pase."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Philipe again to have him follow.",
+        "es": "Habla de nuevo con Philipe para que te siga."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Continue towards Claus. (opciones de chat: Any)",
+        "es": "Continúa hacia Claus. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Philipe again to have him follow.",
+        "es": "Habla de nuevo con Philipe para que te siga."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Continue towards the dragons and talk to Philipe. (opciones de chat: Any)",
+        "es": "Continúa hacia los dragones y habla con Philipe. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "After the dragons are slain, a cave wolf matriarch will arrive.",
+        "es": "Después de matar a los dragones, llegará una matriarca de lobos de cueva."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to attack the matriarch to focus its attacks on you. Dodge or withstand the attacks until Philipe kills it. If you run in circles around the matriarch, most of her attacks will miss and you will take very little damage.",
+        "es": "Intenta atacar a la matriarca para que centre sus ataques en ti. Esquiva o resiste los ataques hasta que Philipe la mate. Si corres en círculos alrededor de la matriarca, la mayoría de sus ataques fallarán y recibirás muy poco daño."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "Do not use Protect from Magic or the matriarch will revert her attention back to Philipe.",
+        "es": "No uses Protegerse de Magia o la matriarca volverá a centrar su atención en Philipe."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Philipe for a cutscene. (opciones de chat: 1 Yes, let's go now!)",
+        "es": "Habla con Philipe para ver una escena. (opciones de chat: 1 ¡Sí, vamos ya!)"
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ceril.",
+        "es": "Habla con Ceril."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Xenia. (opciones de chat: 4 So what happens now?)",
+        "es": "Habla con Xenia. (opciones de chat: 4 ¿Y ahora qué pasa?)"
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ceril.",
+        "es": "Habla con Ceril."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Loot the chest near Ceril.",
+        "es": "Saquea el cofre cerca de Ceril."
+      }
+    }
+  ]
+}

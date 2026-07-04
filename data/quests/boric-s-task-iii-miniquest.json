@@ -1,0 +1,94 @@
+{
+  "id": "boric-s-task-iii-miniquest",
+  "title": "Boric's Task III (miniquest)",
+  "isMiniquest": true,
+  "guideLastUpdated": "2026-07-03T19:53:38.135Z",
+  "icon": "https://runescape.wiki/images/Boric%27s_Task_III_%28miniquest%29_icon.png",
+  "series": "Boric's Tasks",
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Experienced",
+  "length": "Short",
+  "releaseDate": "17 October 2012",
+  "startPoint": {
+    "en": "Speak to Boric in the workshop accessed from the stairs in Doric's hut, just outside the gates of Taverley north of Falador. (via )",
+    "es": "Habla con Boric en el taller al que se accede por las escaleras de la cabaña de Doric, justo a las afueras de las puertas de Taverley, al norte de Falador. (via )"
+  },
+  "requirements": {
+    "quests": [
+      "Boric's Task II (miniquest)",
+      "Boric's Task I (miniquest)",
+      "What's Mine is Yours"
+    ],
+    "skills": [
+      {
+        "skill": "Mining",
+        "level": 60
+      }
+    ]
+  },
+  "items": [],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "xp",
+      "skill": "Mining",
+      "amount": 8000,
+      "display": "8,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Gofannon amulet",
+      "display": "24,000 charges for the Gofannon amulet",
+      "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Head down the stairs at Doric's workshop to speak to Boric. (opciones de chat: 1 Do you have any Mining tasks for me? • Accept)",
+        "es": "Baja las escaleras del taller de Doric para hablar con Boric. (opciones de chat: 1 ¿Tienes alguna tarea de Minería para mí? • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Head to the Mining guild. You must speak with one of the dwarves at the guild before mining. (opciones de chat: 1 Boric sent me here to mine some ores.)",
+        "es": "Dirígete al Mining guild. Debes hablar con uno de los enanos del gremio antes de minar. (opciones de chat: 1 Boric me envió aquí para minar algunos minerales.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Mine 10 runite ore and 15 orichalcite ore.",
+        "es": "Mina 10 runite ore y 15 orichalcite ore."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "Boosts and perks such as Varrock armour, Shooting Star, and extra ore gained from leveling do count towards the 25 total ores.",
+        "es": "Las mejoras y bonificaciones como la Varrock armour, la Shooting Star, y el mineral extra obtenido al subir de nivel sí cuentan para el total de 25 minerales."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Return to Boric with the ore in your inventory (cannot be noted or in an ore box).",
+        "es": "Vuelve con Boric con el mineral en tu inventario (no puede estar anotado ni en una ore box)."
+      }
+    }
+  ]
+}

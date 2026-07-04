@@ -1,0 +1,469 @@
+{
+  "id": "the-tourist-trap",
+  "title": "The Tourist Trap",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:24:39.831Z",
+  "icon": "https://runescape.wiki/images/The_Tourist_Trap_icon.png",
+  "series": null,
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "10-19",
+  "difficulty": "Intermediate",
+  "length": "Medium to Long",
+  "releaseDate": "14 April 2003",
+  "startPoint": {
+    "en": "Speak to Irena, the woman crying at the Shantay Pass, south of Al Kharid.",
+    "es": "Habla con Irena, la mujer que llora en Shantay Pass, al sur de Al Kharid."
+  },
+  "requirements": {
+    "quests": [
+      "The Tourist Trap"
+    ],
+    "skills": [
+      {
+        "skill": "Fletching",
+        "level": 10
+      },
+      {
+        "skill": "Smithing",
+        "level": 20
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Desert shirt",
+      "display": "Desert shirt, desert robe, and desert boots (Black variants will not work. You may purchase from Shantay Pass Shop during the quest.)",
+      "image": "https://runescape.wiki/images/thumb/Desert_shirt_detail.png/100px-Desert_shirt_detail.png?8e6a8"
+    },
+    {
+      "name": "Feather",
+      "display": "10 feathers (You can only use regular feathers. You may purchase from Shantay Pass Shop during the quest.)",
+      "image": "https://runescape.wiki/images/thumb/Feather_detail.png/100px-Feather_detail.png?957d4"
+    },
+    {
+      "name": "Bronze bar",
+      "display": "Bronze bar (The bar must be in your inventory.)",
+      "image": "https://runescape.wiki/images/thumb/Bronze_bar_detail.png/100px-Bronze_bar_detail.png?7b3ef"
+    },
+    {
+      "name": "Ring of charos (a)",
+      "display": "At least 200 coins (or 100 with ring of charos (a))",
+      "image": "https://runescape.wiki/images/Ring_of_charos_%28a%29_detail.png?0dbd0"
+    }
+  ],
+  "kills": [
+    "Mercenary Captain (level 15)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 4650,
+      "display": "4,650 experience in your choice of two from the following skills (you may pick the same skill twice): Agility, Fletching, Smithing or Thieving",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Dart",
+      "display": "Ability to smith darts",
+      "image": "https://runescape.wiki/images/thumb/Adamant_dart_detail.png/100px-Adamant_dart_detail.png?80d5b"
+    },
+    {
+      "type": "item",
+      "name": "Wrought iron key",
+      "display": "A wrought iron key for access to the Desert Mining Camp and the cave beneath it (can be added to the steel key ring after One Small Favour)",
+      "image": "https://runescape.wiki/images/thumb/Wrought_iron_key_detail.png/100px-Wrought_iron_key_detail.png?f42b7"
+    },
+    {
+      "type": "item",
+      "name": "Slave robes",
+      "display": "Full slave robes",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Lonesome",
+      "display": "Lonesome",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "If you don't have desert clothes, buy them from Shantay.",
+        "es": "Si no tienes ropa del desierto, cómprala a Shantay."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Begin the quest by talking to Irena (south of Shantay Pass). (opciones de chat: 1 What's the matter? • 1 When did she go into the desert? • 3 I'll look for your daughter. • 1 Okay Irena, calm down. I'll get your daughter back for you. • Accept)",
+        "es": "Comienza la misión hablando con Irena (al sur de Shantay Pass). (opciones de chat: 1 ¿Qué te pasa? • 1 ¿Cuándo se adentró en el desierto? • 3 Buscaré a tu hija. • 1 Vale, Irena, tranquila. Te traeré a tu hija de vuelta. • Aceptar)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Run south and slightly west to the gate of the Desert Mining Camp.",
+        "es": "Corre hacia el sur y ligeramente hacia el oeste hasta la puerta del Desert Mining Camp."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Making sure not to attack him, talk to Mercenary Captain (the one with the all-grey shield). (opciones de chat: 1 Wow! A real captain! • 2 I'd love to work for a tough guy like you! • 2 Can't I do something for a strong Captain like you? • 2 Sorry Sir, I don't think I can do that. • 1 It's a funny captain who can't fight his own battles!)",
+        "es": "Asegurándote de no atacarlo, habla con el Mercenary Captain (el que lleva el escudo completamente gris). (opciones de chat: 1 ¡Vaya! ¡Un capitán de verdad! • 2 ¡Me encantaría trabajar para un tipo tan duro como tú! • 2 ¿No podría hacer algo por un Capitán tan fuerte como usted? • 2 Lo siento, señor, no creo que pueda hacer eso. • 1 ¡Menudo capitán, que no puede librar sus propias batallas!)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Kill the Mercenary Captain to obtain a metal key.",
+        "es": "Mata al Mercenary Captain para obtener una metal key."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "The metal key can be added to the steel key ring after One Small Favour.",
+        "es": "La metal key se puede añadir al steel key ring después de One Small Favour."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Unequip all armour (includes amulets, rings, etc.) and weapons, and keep them unequipped whenever inside the mining camp or mine.",
+        "es": "Quítate toda la armadura (incluidos amuletos, anillos, etc.) y armas, y mantenlas desequipadas siempre que estés dentro del campamento minero o de la mina."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Open the gate to enter the camp.",
+        "es": "Abre la puerta para entrar en el campamento."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Go east to the mine door entrance and talk to the male slave on the east of the camp (it's the one who never mines). (opciones de chat: 1 I've just arrived. • 2 Oh yes, that sounds interesting. • 1 What's that then? • 1 I can try to undo them for you. • 1 It's funny you should say that... • 1 Yeah, okay, let's give it a go. • 1 Yes, I'll trade.)",
+        "es": "Ve al este hasta la entrada de la puerta de la mina y habla con el esclavo (male slave) al este del campamento (es el que nunca mina). (opciones de chat: 1 Acabo de llegar. • 2 Ah, sí, eso suena interesante. • 1 ¿Y eso qué es? • 1 Puedo intentar quitártelas. • 1 Es curioso que digas eso... • 1 Sí, vale, vamos a intentarlo. • 1 Sí, comerciaré.)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "text": {
+        "en": "If a guard catches you unlocking the slave's chains and you end up in the cell, bend the bars on the window and escape. Talk to the slave to try again.",
+        "es": "Si un guardia te sorprende abriendo las cadenas del esclavo y acabas en la celda, dobla los barrotes de la ventana y escapa. Habla con el esclavo para intentarlo de nuevo."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "While wearing the slave outfit, open the mine door entrance. The outfit must be equipped any time you enter the mine.",
+        "es": "Mientras lleves puesto el traje de esclavo, abre la puerta de entrada a la mina. El traje debe estar equipado siempre que entres en la mina."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Upon entering, head north and follow the cave around until you come to a guarded cave entrance.",
+        "es": "Al entrar, dirígete hacia el norte y sigue la cueva hasta llegar a una entrada de cueva vigilada."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Making sure not to attack him, talk to one of the guards. (opciones de chat: 2 I'd like to mine in a different area. • 2 Yes sir, you're quite right sir. • 2 Yes sir, we understand each other perfectly.)",
+        "es": "Asegurándote de no atacarlo, habla con uno de los guardias. (opciones de chat: 2 Me gustaría minar en una zona diferente. • 2 Sí, señor, tiene usted toda la razón, señor. • 2 Sí, señor, nos entendemos perfectamente.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Head back to the mine doors and exit.",
+        "es": "Vuelve a las puertas de la mina y sal."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Unequip your slave clothing and leave the Desert Mining Camp through the gate.",
+        "es": "Quítate la ropa de esclavo y abandona el Desert Mining Camp por la puerta."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Run west to the Bedabin Camp.",
+        "es": "Corre hacia el oeste hasta el Bedabin Camp."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Al Shabim in the southernmost tent to receive the Bedabin key. (opciones de chat: 1 I am looking for a pineapple. • 1 Yes, I'm interested.)",
+        "es": "Habla con Al Shabim en la tienda más al sur para recibir la Bedabin key. (opciones de chat: 1 Estoy buscando una piña. • 1 Sí, me interesa.)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Run east back to the Desert Mining Camp and climb up the ladder in the white building.",
+        "es": "Corre hacia el este de vuelta al Desert Mining Camp y sube por la escalera del edificio blanco."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "On the western wall search the southernmost bookcase for a book on sailing.",
+        "es": "En la pared oeste, busca en la estantería más al sur un libro sobre navegación."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Captain Siad in the same room and ask him if you can chat with him, then mention the sailing book. (opciones de chat: 1 I wanted to have a chat? • 5 You seem to have a lot of books! • 3 So, you're interested in sailing? • 1 I could tell by the cut of your jib.)",
+        "es": "Habla con el Captain Siad en la misma sala y pregúntale si puedes charlar con él, luego menciona el libro de navegación. (opciones de chat: 1 ¿Quería charlar un momento? • 5 ¡Parece que tiene usted muchos libros! • 3 Entonces, ¿le interesa la navegación? • 1 Lo noté por el corte de su vela.)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Open the chest beside the table to get the plans.",
+        "es": "Abre el cofre junto a la mesa para conseguir los planos."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Go back to the Bedabin Camp and show Al Shabim the plans. (opciones de chat: 1 Yes, I'm very interested. • 1 Yes, I'm kind of curious.)",
+        "es": "Vuelve al Bedabin Camp y muéstrale los planos a Al Shabim. (opciones de chat: 1 Sí, me interesa mucho. • 1 Sí, tengo curiosidad.)"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Enter the tent to the north.",
+        "es": "Entra en la tienda situada al norte."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Use the experimental anvil with a bronze bar in your inventory and answer the prompt (opciones de chat: 1 Yes. I'd like to try.) to create a prototype dart tip.",
+        "es": "Usa el yunque experimental con una barra de bronce en tu inventario y responde a la pregunta (opciones de chat: 1 Sí, me gustaría intentarlo.) para crear una punta de dardo prototipo."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Use a feather on the dart tip to make a prototype dart.",
+        "es": "Usa una pluma en la punta de dardo para hacer un dardo prototipo."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Take this back to Al Shabim. He will take the prototype dart, technical plans, and Bedabin key in exchange for a bronze dart and Tenti pineapple.",
+        "es": "Llévaselo de vuelta a Al Shabim. Él tomará el dardo prototipo, los planos técnicos y la Bedabin key a cambio de un bronze dart y una Tenti pineapple."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Wear the slave outfit, head back down into the mine and give the pineapple to one of the guards.",
+        "es": "Ponte el traje de esclavo, vuelve a bajar a la mina y dale la piña a uno de los guardias."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Walk through the mine cave and run east to the mine cart.",
+        "es": "Camina por la cueva de la mina y corre hacia el este hasta el vagón minero."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Choose \"Search\" option on one of the empty barrels nearby and answer the prompt (opciones de chat: 1 Yeah, cool!) to take it.",
+        "es": "Elige la opción \"Search\" en uno de los barriles vacíos cercanos y responde a la pregunta (opciones de chat: 1 ¡Sí, genial!) para cogerlo."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Choose \"Search\" option on the mine cart to ride it to the other side, answering the prompt to confirm. (opciones de chat: 1 Yes, of course.)",
+        "es": "Elige la opción \"Search\" en el vagón minero para montarte y cruzar al otro lado, confirmando la pregunta. (opciones de chat: 1 Sí, claro.)"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "Failing to enter the cart will cause minor damage. If you fail, attempt to enter the cart again.",
+        "es": "Si fallas al entrar en el vagón, sufrirás un daño menor. Si fallas, intenta entrar en el vagón de nuevo."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Go down the northwestern passageway containing a large number of slaves at the end and you will find Ana.",
+        "es": "Baja por el pasillo del noroeste, donde hay un gran número de esclavos al final, y encontrarás a Ana."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Use the barrel in your inventory on Ana to squeeze her inside it, and head back to the mine cart.",
+        "es": "Usa el barril de tu inventario en Ana para meterla dentro, y vuelve al vagón minero."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Use Ana on the mine cart first, then ride it yourself when it comes back.",
+        "es": "Usa a Ana en el vagón minero primero, y luego súbete tú cuando vuelva."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Search the barrels around the cart and retrieve the one that has Ana in it.",
+        "es": "Busca en los barriles alrededor del vagón y recupera el que tiene a Ana dentro."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Use the winch bucket north-west of the cart to put the barrel on it.",
+        "es": "Usa el cubo del torno al noroeste del vagón para poner el barril en él."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Accept the guard's offer for help and give him a compliment. (opciones de chat: 1 Yes please. • 1 I said you were very gregarious!)",
+        "es": "Acepta la ayuda del guardia y hazle un cumplido. (opciones de chat: 1 Sí, por favor. • 1 ¡Dije que era usted muy sociable!)"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Head back to the surface and go to the winch bucket in the south-western corner of the camp.",
+        "es": "Vuelve a la superficie y ve al cubo del torno en la esquina suroeste del campamento."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Do not remove your slave clothes at any point.",
+        "es": "No te quites la ropa de esclavo en ningún momento."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Operate it and then search the barrel west of it.",
+        "es": "Ponlo en marcha y luego busca en el barril al oeste de él."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Use Ana on the wooden cart at the centre of the camp.",
+        "es": "Usa a Ana en el carro de madera en el centro del campamento."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Mine cart driver. (Warning: If you use the wrong responses you'll have to rescue Ana again!) (opciones de chat: 2 Nice cart. • 2 One wagon wheel says to the other, 'I'll see you around'. • 1 'One good turn deserves another' • 3 Fired... no, shot perhaps! • 3 In for a penny in for a pound. • 3 Well, you see, it's like this... • 1 Prison riot in ten minutes, get your cart out of here! • 2 You can't leave me here, I'll get killed!)",
+        "es": "Habla con el Mine cart driver. (Advertencia: ¡Si usas las respuestas equivocadas tendrás que rescatar a Ana de nuevo!) (opciones de chat: 2 Bonito carro. • 2 Una rueda de carro le dice a la otra: 'Nos vemos por ahí'. • 1 'Una buena acción merece otra' • 3 Despedido... no, ¡disparado, quizás! • 3 De perdidos al río. • 3 Bueno, verá, es que... • 1 ¡Disturbios en la prisión en diez minutos, saque su carro de aquí! • 2 ¡No puede dejarme aquí, me matarán!)"
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "If you fail, you need to head back into the deepest part of the mine with a barrel and get Ana out again.",
+        "es": "Si fallas, tendrás que volver a la parte más profunda de la mina con un barril y sacar a Ana de nuevo."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Search the cart and answer the prompt (opciones de chat: 1 Yes, I'll get on.) to get on.",
+        "es": "Busca en el carro y responde a la pregunta (opciones de chat: 1 Sí, me subiré.) para subirte."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Run northeast towards Shantay Pass and talk to Irena.",
+        "es": "Corre hacia el noreste en dirección a Shantay Pass y habla con Irena."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Congratulations, quest complete!",
+        "es": "¡Enhorabuena, misión completada!"
+      }
+    }
+  ]
+}

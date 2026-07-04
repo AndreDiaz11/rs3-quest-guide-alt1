@@ -1,0 +1,518 @@
+{
+  "id": "another-slice-of-h-a-m",
+  "title": "Another Slice of H.A.M.",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:48:25.324Z",
+  "icon": "https://runescape.wiki/images/Another_Slice_of_H.A.M._icon.png",
+  "series": "Cave Goblin",
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "70-79",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "24 April 2007",
+  "startPoint": {
+    "en": "Talk to Ambassador Alvijar, who is in Ur-tag's house in Dorgesh-Kaan. (via → → )",
+    "es": "Habla con Ambassador Alvijar, que está en la casa de Ur-tag en Dorgesh-Kaan. (via → → )"
+  },
+  "requirements": {
+    "quests": [
+      "Death to the Dorgeshuun",
+      "The Lost Tribe",
+      "Goblin Diplomacy",
+      "The Giant Dwarf"
+    ],
+    "skills": [
+      {
+        "skill": "Attack",
+        "level": 15
+      },
+      {
+        "skill": "Prayer",
+        "level": 25
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "At least 3 free backpack spaces, however 8 is preferable",
+      "display": "At least 3 free backpack spaces, however 8 is preferable",
+      "image": null
+    },
+    {
+      "name": "Magic",
+      "display": "Magic, Ranged, or Necromancy gear to fight a level 28 H.A.M. ranger and a level 28 H.A.M. mage. They cannot be killed using Melee weapons. A crossbow and 50 bronze bolts can be found at their location.",
+      "image": "https://runescape.wiki/images/thumb/Magic_detail.png/100px-Magic_detail.png?4c3a6"
+    },
+    {
+      "name": "Melee",
+      "display": "They cannot be killed using Melee weapons. A crossbow and 50 bronze bolts can be found at their location.",
+      "image": null
+    },
+    {
+      "name": "Light sources",
+      "display": "A light source (A bug lantern does not work)",
+      "image": null
+    },
+    {
+      "name": "Rope",
+      "display": "A rope (only if you have never entered the Lumbridge Swamp Caves from the surface before)",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    }
+  ],
+  "kills": [
+    "H.A.M. Mage (level 28)",
+    "H.A.M. Archer (level 28)",
+    "Sigmund (level 70)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Mining",
+      "amount": 3000,
+      "display": "3,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Prayer",
+      "amount": 3000,
+      "display": "3,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Dorgesh-kaan sphere",
+      "display": "A Dorgesh-kaan sphere",
+      "image": "https://runescape.wiki/images/thumb/Dorgesh-kaan_sphere_detail.png/100px-Dorgesh-kaan_sphere_detail.png?0222c"
+    },
+    {
+      "type": "item",
+      "name": "Ancient mace",
+      "display": "The ancient mace",
+      "image": "https://runescape.wiki/images/thumb/Ancient_mace_detail.png/100px-Ancient_mace_detail.png?d5189"
+    },
+    {
+      "type": "item",
+      "name": "Goblin village sphere",
+      "display": "Ability to buy Goblin village spheres",
+      "image": "https://runescape.wiki/images/thumb/Goblin_village_sphere_detail.png/100px-Goblin_village_sphere_detail.png?464ff"
+    },
+    {
+      "type": "item",
+      "name": "Dorgesh-Kaan–Keldagrim train system",
+      "display": "Free access to the Dorgesh-Kaan–Keldagrim train system",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ham and Seek",
+      "display": "Ham and Seek",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ham Attack",
+      "display": "Ham Attack",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Slice of Silent Movie",
+      "display": "Slice of Silent Movie",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Slice of Station",
+      "display": "Slice of Station",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to either NPC in the north eastern most building on the of Dorgesh-Kaan.",
+        "es": "Habla con cualquiera de los NPC en el edificio más al noreste de Dorgesh-Kaan."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 1,
+      "text": {
+        "en": "Ambassador Alvijar (opciones de chat: Accept)",
+        "es": "Ambassador Alvijar (opciones de chat: Accept)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 2,
+      "text": {
+        "en": "If Ambassador Alvijar says you might be a human spy, you haven't completed The Giant Dwarf yet.",
+        "es": "Si Ambassador Alvijar dice que podrías ser un espía humano, es que aún no has completado The Giant Dwarf."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 2,
+      "text": {
+        "en": "If you have just completed Death to the Dorgeshuun, you may need to exit to the lobby and re-enter the game for him to appear.",
+        "es": "Si acabas de completar Death to the Dorgeshuun, puede que necesites salir al lobby y volver a entrar al juego para que aparezca."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 1,
+      "text": {
+        "en": "Ur-Tag (opciones de chat: 1 What are you arguing about? • Accept)",
+        "es": "Ur-Tag (opciones de chat: 1 What are you arguing about? • Accept)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "While on the same floor, head west then south until you find a ().",
+        "es": "Estando en el mismo piso, dirígete al oeste y luego al sur hasta encontrar un ()."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Enter the doorway, head south down the tracks and talk to Tegdak (you need 2 free spaces for the specimen brush and trowel).",
+        "es": "Entra por la puerta, dirígete al sur por las vías y habla con Tegdak (necesitas 2 espacios libres para la brocha de espécimen y la paleta)."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Use the trowel on the 6 artefacts on the ground to dig them up. They have the same sparkles as time sprite.",
+        "es": "Usa la paleta en los 6 artefactos que hay en el suelo para desenterrarlos. Tienen los mismos destellos que el time sprite."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 1,
+      "text": {
+        "en": "If you need more backpack space, you can talk to Tegdak per restored artefact, you don't need to give all in at once.",
+        "es": "Si necesitas más espacio en la mochila, puedes hablar con Tegdak por cada artefacto restaurado; no necesitas entregarlos todos a la vez."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Use each of them on the specimen table.",
+        "es": "Usa cada uno de ellos en la mesa de espécimen."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Tegdak and Zanik will be following you after the dialogue.",
+        "es": "Habla con Tegdak y Zanik empezará a seguirte después del diálogo."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "If Zanik isn't following you, dismiss any pets/familiars and talk to Zanik. (opciones de chat: 1 Yes)",
+        "es": "Si Zanik no te está siguiendo, deshazte de cualquier mascota/familiar y habla con Zanik. (opciones de chat: 1 Yes)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 1,
+      "text": {
+        "en": "Zanik will now be following you.",
+        "es": "Zanik ahora te seguirá."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "If you lose Zanik you will need to return here to retrieve her. (Teleporting will leave Zanik behind)",
+        "es": "Si pierdes a Zanik, tendrás que volver aquí para recuperarla. (Teletransportarte hará que Zanik se quede atrás)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "With Zanik following, exit the train tunnel using the doorway to the north.",
+        "es": "Con Zanik siguiéndote, sal del túnel del tren usando la puerta al norte."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Goblin scribe, in the building directly west of the quest start point.",
+        "es": "Habla con el Goblin scribe, en el edificio situado justo al oeste del punto de inicio de la misión."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "In the house just west of the Goblin scribe, climb down the stairs.",
+        "es": "En la casa justo al oeste del Goblin scribe, baja por las escaleras."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Oldak.",
+        "es": "Habla con Oldak."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "If you have Invention unlocked. (opciones de chat: 2 No - talk about quest or other things.)",
+        "es": "Si tienes Invención desbloqueada. (opciones de chat: 2 No - talk about quest or other things.)"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "You will be teleported to Goblin Village with Zanik, receiving a Dorgesh-kaan sphere in your inventory.",
+        "es": "Serás teletransportado a Goblin Village junto con Zanik, recibiendo una Dorgesh-kaan sphere en tu inventario."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "In Goblin Village, in the northernmost building, talk to either General Bentnoze or Wartface.",
+        "es": "En Goblin Village, en el edificio más al norte, habla con General Bentnoze o con Wartface."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, go behind the buildings to the west, go south, then climb up the ladder to the east.",
+        "es": "Después de la escena, ve por detrás de los edificios hacia el oeste, luego al sur, y sube por la escalera de mano hacia el este."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "If you attempt to walk around the front of the buildings, you will be stopped by falling arrows.",
+        "es": "Si intentas caminar por delante de los edificios, te detendrán flechas que caen."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Kill the H.A.M. Mage and H.A.M. Archer.",
+        "es": "Mata al H.A.M. Mage y al H.A.M. Archer."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "A crossbow and 50 bronze bolts can be found on the ground here.",
+        "es": "Aquí, en el suelo, se puede encontrar una ballesta y 50 bronze bolts."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "With a light source, head to the Lumbridge Swamp Caves entrance north-west of the Water altar.",
+        "es": "Con una fuente de luz, dirígete a la entrada de las Lumbridge Swamp Caves al noroeste del Water altar."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "If you brought a water altar teleport or Enlightened amulet to teleport to Lumbridge Swamp, use them now for quicker travel.",
+        "es": "Si trajiste una teletransportación al Water altar o el Enlightened amulet para teletransportarte a Lumbridge Swamp, úsalos ahora para viajar más rápido."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sergeant Slimetoes or Mossfists outside the entrance to the Lumbridge Swamp Caves.",
+        "es": "Habla con Sergeant Slimetoes o Mossfists fuera de la entrada de las Lumbridge Swamp Caves."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Climb down the dark hole under the tree entering the Lumbridge Swamp Caves.",
+        "es": "Baja por el agujero oscuro bajo el árbol para entrar en las Lumbridge Swamp Caves."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "If you haven't already placed rope in the entrance you will need rope.",
+        "es": "Si aún no has colocado una cuerda en la entrada, necesitarás una cuerda."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Go down the ladder, directly south east of the Climbing Rope.",
+        "es": "Baja por la escalera de mano, justo al sureste de la Climbing Rope."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "For the next part, you need to distract the guards by luring them to Slimetoes and Mossfists.",
+        "es": "Para la siguiente parte, necesitas distraer a los guardias atrayéndolos hacia Slimetoes y Mossfists."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "If a guard catches you by getting too close, you will be thrown out to the Lumbridge Swamp Caves.",
+        "es": "Si un guardia te atrapa por acercarte demasiado, serás expulsado a las Lumbridge Swamp Caves."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "Finishing the dialogue and waiting allows the first guard to return with the second guard and they should begin fighting the goblins.",
+        "es": "Terminar el diálogo y esperar permite que el primer guardia vuelva con el segundo guardia, y deberían empezar a luchar contra los goblins."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "Once the 2 guards are fighting the goblins, carefully go towards the south end of the tunnel. (A guard will begin patrolling the tunnel once you get close)",
+        "es": "Una vez que los 2 guardias estén luchando contra los goblins, ve con cuidado hacia el extremo sur del túnel. (Un guardia empezará a patrullar el túnel cuando te acerques)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "Let the patrolling guard spot you from a distance, then lure the guard to the goblins.",
+        "es": "Deja que el guardia que patrulla te vea desde la distancia, luego atráelo hacia los goblins."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "For the final guard blocking the exit, step next to the pillar in his view and he will spot you. Lure him to the goblins.",
+        "es": "Para el último guardia que bloquea la salida, colócate junto al pilar dentro de su campo de visión y te verá. Atráelo hacia los goblins."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "With the guards engaging the goblins, it is safe to run south to the ladder.",
+        "es": "Con los guardias enfrentándose a los goblins, es seguro correr hacia el sur hasta la escalera de mano."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Enabling legacy combat for this section can make your fight with Sigmund significantly quicker.",
+        "es": "Activar el combate legacy para esta sección puede hacer que tu combate contra Sigmund sea considerablemente más rápido."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Equip the ancient mace and climb down the ladder.",
+        "es": "Equípate el ancient mace y baja por la escalera de mano."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Initiate combat with Sigmund.",
+        "es": "Inicia el combate con Sigmund."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "text": {
+        "en": "If you have legacy combat enabled, simply use the Ancient Mace's special attack at the start of the fight and finish him however you choose.",
+        "es": "Si tienes el combate legacy activado, simplemente usa el ataque especial del Ancient Mace al comienzo de la lucha y termínalo como prefieras."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "If you have do not have legacy combat enabled, use the Ancient Mace's special attack to disable Sigmund's prayers once you reach 100% adrenaline.",
+        "es": "Si no tienes el combate legacy activado, usa el ataque especial del Ancient Mace para desactivar las oraciones de Sigmund una vez que alcances el 100% de adrenalina."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 2,
+      "text": {
+        "en": "The special attack ability can be found in the Constitution ability book or you can click on your adrenaline bar on your main ability bar to use the special attack once at 100% adrenaline.",
+        "es": "La habilidad de ataque especial se encuentra en el libro de habilidades de Constitución, o puedes hacer clic en tu barra de adrenalina en la barra de habilidades principal para usar el ataque especial una vez que esté al 100%."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 2,
+      "text": {
+        "en": "You can use any combat style you choose once Sigmund's prayer is down.",
+        "es": "Puedes usar el estilo de combate que prefieras una vez que la oración de Sigmund esté desactivada."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "After defeating Sigmund, untie Zanik.",
+        "es": "Después de derrotar a Sigmund, desata a Zanik."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

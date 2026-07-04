@@ -1,0 +1,686 @@
+{
+  "id": "hero-s-welcome",
+  "title": "Hero's Welcome",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:28:14.759Z",
+  "icon": "https://runescape.wiki/images/Hero%27s_Welcome_icon.png",
+  "series": "Sliske's Game",
+  "age": "6",
+  "timeline": "world guardian",
+  "members": true,
+  "combatLevel": "100-109",
+  "difficulty": "Experienced",
+  "length": "Medium to Long",
+  "releaseDate": "29 June 2015",
+  "startPoint": {
+    "en": "Talk to Alfrick the Planner or Freya Lune at the Rellekka docks.",
+    "es": "Habla con Alfrick the Planner o Freya Lune en los muelles de Rellekka."
+  },
+  "requirements": {
+    "quests": [
+      "Lunar Diplomacy",
+      "The Fremennik Trials",
+      "Lost City",
+      "Ancient Cavern",
+      "Barbarian Training",
+      "One of a Kind",
+      "A Tail of Two Cats",
+      "Icthlarin's Little Helper",
+      "Holy Grail",
+      "Merlin's Crystal",
+      "The World Wakes",
+      "Ritual of the Mahjarrat",
+      "The Firemaker's Curse",
+      "The Branches of Darkmeyer",
+      "The Void Stares Back",
+      "The Chosen Commander",
+      "Missing, Presumed Death",
+      "Koschei's Troubles (miniquest)",
+      "The Chosen Commander",
+      "Ritual of the Mahjarrat",
+      "The World Wakes",
+      "The Death of Chivalry",
+      "Ritual of the Mahjarrat",
+      "The Temple at Senntisten",
+      "While Guthix Sleeps",
+      "Hazeel Cult",
+      "Enakhra's Lament",
+      "The Slug Menace",
+      "A Fairy Tale II - Cure a Queen",
+      "Cabin Fever",
+      "A Tail of Two Cats",
+      "Fight Arena",
+      "The General's Shadow (miniquest)",
+      "Ritual of the Mahjarrat"
+    ],
+    "skills": [
+      {
+        "skill": "Divination",
+        "level": 60
+      },
+      {
+        "skill": "Mining",
+        "level": 67
+      },
+      {
+        "skill": "Slayer",
+        "level": 62
+      },
+      {
+        "skill": "Smithing",
+        "level": 67
+      },
+      {
+        "skill": "combat level",
+        "level": 100
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Soft clay",
+      "display": "Soft clay",
+      "image": "https://runescape.wiki/images/thumb/Soft_clay_detail.png/100px-Soft_clay_detail.png?85203"
+    },
+    {
+      "name": "Mithril bar",
+      "display": "Mithril bar",
+      "image": "https://runescape.wiki/images/thumb/Mithril_bar_detail.png/100px-Mithril_bar_detail.png?e065f"
+    },
+    {
+      "name": "Dragonfire",
+      "display": "Protection from dragonfire",
+      "image": "https://runescape.wiki/images/thumb/Dfs_Charging.gif/100px-Dfs_Charging.gif?03abe"
+    },
+    {
+      "name": "Brimhaven Dungeon",
+      "display": "875 coins to enter the Brimhaven Dungeon, unless Karamja gloves 3 or Dungeoneering cape are owned",
+      "image": "https://runescape.wiki/images/thumb/Brimhaven_Dungeon.png/100px-Brimhaven_Dungeon.png?215b7"
+    }
+  ],
+  "kills": [
+    "Bronze, iron, steel, mithril, or adamant dragon (depending on your combat level)",
+    "Tarshak",
+    "Abomination"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 10000,
+      "display": "10,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Mining",
+      "amount": 10000,
+      "display": "10,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Slayer",
+      "amount": 10000,
+      "display": "10,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Divination",
+      "amount": 10000,
+      "display": "10,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Runes",
+      "amount": null,
+      "display": "The ability to produce 5% more runes when Runecrafting (does not give additional Runecrafting experience, works on free worlds)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Abomination",
+      "display": "Replayable Abomination boss fight, who can drop main-hand and off-hand dragon javelins, and the abomination cape",
+      "image": "https://runescape.wiki/images/thumb/Abomination.png/100px-Abomination.png?6ccbd"
+    },
+    {
+      "type": "item",
+      "name": "Adamant dragon",
+      "display": "Access to the adamant dragons in the Dragonkin Lair, and four new lore journals",
+      "image": "https://runescape.wiki/images/thumb/Adamant_dragon.png/100px-Adamant_dragon.png?352b0"
+    },
+    {
+      "type": "item",
+      "name": "Tarshak's sanctum (Abomination mine)",
+      "display": "Access to Abomination cave banite ore rocks",
+      "image": "https://runescape.wiki/images/thumb/Tarshak%27s_sanctum_%28Abomination_mine%29.png/100px-Tarshak%27s_sanctum_%28Abomination_mine%29.png?8add5"
+    },
+    {
+      "type": "item",
+      "name": "Hannu, Emissary of V",
+      "display": "Access to Hannu, Emissary of V",
+      "image": "https://runescape.wiki/images/thumb/Hannu%2C_Emissary_of_V.png/100px-Hannu%2C_Emissary_of_V.png?936f0"
+    },
+    {
+      "type": "item",
+      "name": "Abomination (music track)",
+      "display": "Abomination",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ballad of the Basilisk",
+      "display": "Ballad of the Basilisk",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Dragonkin Theme",
+      "display": "Dragonkin Theme",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Duplicity",
+      "display": "Duplicity",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "True or False",
+      "display": "True or False",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Freya Lune or Alfrick the Planner near Rellekka docks. (opciones de chat: Any • Any • Accept)",
+        "es": "Habla con Freya Lune o Alfrick the Planner cerca de los muelles de Rellekka. (opciones de chat: Any • Any • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the following people about \"V\":",
+        "es": "Habla con las siguientes personas sobre \"V\":"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "Yrsa in the clothes shop nearby. (opciones de chat: 1 Can I ask you about V?)",
+        "es": "Yrsa en la tienda de ropa cercana. (opciones de chat: 1 Can I ask you about V?)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "Peer the Seer who is south-west of the marketplace. (opciones de chat: 1 Can I ask you about V?)",
+        "es": "Peer the Seer, al suroeste del mercado. (opciones de chat: 1 Can I ask you about V?)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 1,
+      "text": {
+        "en": "Swensen the Navigator who is in the house south of the marketplace.",
+        "es": "Swensen the Navigator, que está en la casa al sur del mercado."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "Sigmund The Merchant in the middle of the marketplace. (opciones de chat: 1 Can I ask you about V?)",
+        "es": "Sigmund The Merchant, en el centro del mercado. (opciones de chat: 1 Can I ask you about V?)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "Brundt the Chieftain in the main hall. (opciones de chat: 1 Can I ask you about V?)",
+        "es": "Brundt the Chieftain, en el salón principal. (opciones de chat: 1 Can I ask you about V?)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "Manni the Reveller, also in the hall. (opciones de chat: 1 Can I ask you about V?)",
+        "es": "Manni the Reveller, también en el salón. (opciones de chat: 1 Can I ask you about V?)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 1,
+      "text": {
+        "en": "Olaf the Bard, east of the hall. (opciones de chat: 1 Can I ask you about V?)",
+        "es": "Olaf the Bard, al este del salón. (opciones de chat: 1 Can I ask you about V?)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Return to Alfrick or Freya, right-click celebrate with them.",
+        "es": "Vuelve con Alfrick o Freya, haz clic derecho y celebra con ellos."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Watch the cutscene. (opciones de chat: any)",
+        "es": "Observa la escena. (opciones de chat: any)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Return to Alfrick at the docks. (opciones de chat: 1 Yes.)",
+        "es": "Vuelve con Alfrick en los muelles. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Enter cave entrance and talk to V. (opciones de chat: any • 1 Why can't you do it yourself? • 4 I need to get moving.)",
+        "es": "Entra en la entrada de la cueva y habla con V. (opciones de chat: any • 1 Why can't you do it yourself? • 4 I need to get moving.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Exit the cave.",
+        "es": "Sal de la cueva."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Investigate 5 locations on the island. There are 2 of each location that you must pair up:",
+        "es": "Investiga 5 ubicaciones en la isla. Hay 2 de cada ubicación que debes emparejar:"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 1,
+      "text": {
+        "en": "2 old docks. (One to the south of the island and one to the east)",
+        "es": "2 muelles viejos. (Uno al sur de la isla y otro al este)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 1,
+      "text": {
+        "en": "2 fishing boats. (One to the east of the island and one to the west; the western boat is located on land not in the water)",
+        "es": "2 barcos de pesca. (Uno al este de la isla y otro al oeste; el barco del oeste está en tierra, no en el agua)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "2 gnarled trees. (One to the south-west of the island and one to the north-west)",
+        "es": "2 árboles retorcidos. (Uno al suroeste de la isla y otro al noroeste)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "2 cave entrances. (The trapdoors, not the cave you went in earlier) (One in the middle of the island and one to the south-east)",
+        "es": "2 entradas de cueva. (Las trampillas, no la cueva en la que entraste antes) (Una en el centro de la isla y otra al sureste)"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "2 rock formations. (One to the north of the island and one to the north-west)",
+        "es": "2 formaciones rocosas. (Una al norte de la isla y otra al noroeste)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Return to V in the cave.",
+        "es": "Vuelve con V en la cueva."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, pass the door into the north room.",
+        "es": "Después de la escena, pasa la puerta hacia la habitación del norte."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Search the belongings to the east of the door (south-east corner of the room) and read the journal.",
+        "es": "Registra las pertenencias al este de la puerta (esquina sureste de la habitación) y lee el diario."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Solve the map fragments.",
+        "es": "Resuelve los fragmentos del mapa."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the Ancient Cavern.",
+        "es": "Viaja a Ancient Cavern."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "If using a games necklace, travel to the barbarian outpost and run south to dive into the whirl pool. Then climb-down the rough hewn steps to the north-east.",
+        "es": "Si usas un collar de juegos, viaja al barbarian outpost y corre hacia el sur para sumergirte en el remolino. Luego baja por los escalones toscos hacia el noreste."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Go to the south-west corner of the cavern and climb-up the rough hewn steps.",
+        "es": "Ve a la esquina suroeste de la caverna y sube por los escalones toscos."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "South of Kuradal in the Ancient Cavern is an ancient door along the western wall. Try to open the door, then use your soft clay on it.",
+        "es": "Al sur de Kuradal en Ancient Cavern hay una puerta antigua a lo largo del muro occidental. Intenta abrir la puerta y luego usa tu arcilla blanda en ella."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Go to the mithril dragons. (Head north, go down the rough hewn steps, then up the stairs to the north-east.) Attack a mithril dragon, then use your key mould on the dragon.",
+        "es": "Ve hacia los dragones de mithril. (Ve al norte, baja por los escalones toscos, luego sube las escaleras hacia el noreste.) Ataca a un dragón de mithril y luego usa tu molde de llave en el dragón."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Go back south west up the rough hewn steps.",
+        "es": "Regresa hacia el suroeste subiendo por los escalones toscos."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Open the ancient door with the key. (opciones de chat: 1 Yes, I am ready.)",
+        "es": "Abre la puerta antigua con la llave. (opciones de chat: 1 Yes, I am ready.)"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Kill the dragon.",
+        "es": "Mata al dragón."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, run west to the stepping stones.",
+        "es": "Después de la escena, corre hacia el oeste hasta las piedras de paso."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Jump diagonally to the chest and open it, then continue north.",
+        "es": "Salta en diagonal hasta el cofre y ábrelo, luego continúa hacia el norte."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Don't step on any pressure plates. Push the crates out of your way (you are able to push the 2 crates in a line).",
+        "es": "No pises ninguna placa de presión. Empuja las cajas para quitarlas de tu camino (puedes empujar las 2 cajas en línea)."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "Push the first eastern crate north twice.",
+        "es": "Empuja la primera caja del este hacia el norte dos veces."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "Walk around to the middle and push the two crates north twice.",
+        "es": "Camina hasta el centro y empuja las dos cajas hacia el norte dos veces."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Push the eastern crate to the east twice, then push the northern-most crate to the west once.",
+        "es": "Empuja la caja del este hacia el este dos veces, luego empuja la caja más al norte hacia el oeste una vez."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Push the crate to your south once, and walk to the door.",
+        "es": "Empuja la caja que tienes al sur una vez, y camina hasta la puerta."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Open the eastern door and search the chest.",
+        "es": "Abre la puerta del este y registra el cofre."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Read the notes and equip the dragonkin protection charm.",
+        "es": "Lee las notas y equípate el amuleto de protección dragonkin."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Enter the bottom floor of the Grotworm Lair near Port Sarim. (There's an agility shortcut from the entrance requiring level 50 Agility.)",
+        "es": "Entra en el piso inferior del Grotworm Lair cerca de Port Sarim. (Hay un atajo de agilidad desde la entrada que requiere nivel 50 de Agilidad.)"
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Climb the stairs in the centre of the open area, west of the Queen Black Dragon entrance.",
+        "es": "Sube las escaleras en el centro de la zona abierta, al oeste de la entrada de Queen Black Dragon."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Defeat Tarshak, avoiding his charge attack by moving out of the way.",
+        "es": "Derrota a Tarshak, evitando su ataque de carga apartándote de su camino."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Phalaks. (opciones de chat: 5 I'm done here.)",
+        "es": "Habla con Phalaks. (opciones de chat: 5 I'm done here.)"
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Take lots of high-healing food, including a full BoB if possible. Wear the Dragonkin protective charm at all times, and pray against melee during stage 2.",
+        "es": "Lleva mucha comida de alta curación, incluyendo un BoB completo si es posible. Lleva puesto el amuleto de protección dragonkin en todo momento, y reza contra melé durante la fase 2."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Defeat Abomination in the Brimhaven Dungeon in the tunnel found in the south-west corner where steel dragons are.",
+        "es": "Derrota a Abomination en el Brimhaven Dungeon, en el túnel que se encuentra en la esquina suroeste donde están los dragones de acero."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Focus on mining the 4 pillars in the room while avoiding his attacks. Surge, double surge, and bladed dive can be useful in avoiding damage from the Abomination's rotating beam of fire.",
+        "es": "Concéntrate en minar los 4 pilares de la sala mientras evitas sus ataques. Surge, double surge y bladed dive pueden ser útiles para evitar el daño del rayo de fuego giratorio de Abomination."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "text": {
+        "en": "His charge attacks are often not aimed at the player, meaning you don't always need to move.",
+        "es": "Sus ataques de carga a menudo no van dirigidos al jugador, lo que significa que no siempre necesitas moverte."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "When a pillar cannot be mined any more, lure a fireball attack into the pillar. Click the water pool if you get hit to cool off.",
+        "es": "Cuando un pilar ya no se pueda minar, atrae un ataque de bola de fuego hacia el pilar. Haz clic en el charco de agua si te alcanzan para enfriarte."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Repeat until all 4 pillars are broken.",
+        "es": "Repite hasta que los 4 pilares estén destruidos."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "A good strategy is to stand near the pillar and take the fireball damage, this guarantees the destruction of the pillar as long as it is no longer minable.",
+        "es": "Una buena estrategia es quedarte cerca del pilar y recibir el daño de la bola de fuego, esto garantiza la destrucción del pilar siempre que ya no se pueda minar."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Lure Tarshak into the falling rocks, don't stand too close yourself.",
+        "es": "Atrae a Tarshak hacia las rocas que caen, no te quedes demasiado cerca tú mismo."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "You may also attack with a regular weapon at the same time.",
+        "es": "También puedes atacar con un arma normal al mismo tiempo."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Once Tarshak reaches 458 life points, he will no longer take damage from falling rocks, and you must deal the final blow yourself.",
+        "es": "Una vez que Tarshak llegue a 458 puntos de vida, ya no recibirá daño de las rocas que caen, y tendrás que asestar tú mismo el golpe final."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Watch the cutscene. (opciones de chat: Any)",
+        "es": "Observa la escena. (opciones de chat: Any)"
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Return to Freya and Alfrick in Rellekka. (opciones de chat: 1 Yes.)",
+        "es": "Vuelve con Freya y Alfrick en Rellekka. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Enter the cave and pass the door.",
+        "es": "Entra en la cueva y pasa la puerta."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Freya or Alfrick.",
+        "es": "Habla con Freya o Alfrick."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,742 @@
+{
+  "id": "one-of-a-kind",
+  "title": "One of a Kind",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:46:45.113Z",
+  "icon": "https://runescape.wiki/images/One_of_a_Kind_icon.png",
+  "series": "Sliske's Game",
+  "age": "6",
+  "timeline": "world guardian",
+  "members": true,
+  "combatLevel": "130-139",
+  "difficulty": "Grandmaster",
+  "length": "Long to Very Long",
+  "releaseDate": "10 March 2014",
+  "startPoint": {
+    "en": "Talk to Mr Mordaut in his office under the stairs in Varrock Museum. (via → )",
+    "es": "Habla con Mr Mordaut en su oficina bajo las escaleras del Varrock Museum. (via → )"
+  },
+  "requirements": {
+    "quests": [
+      "A Tail of Two Cats",
+      "Icthlarin's Little Helper",
+      "Gertrude's Cat",
+      "Diamond in the Rough",
+      "Holy Grail",
+      "Merlin's Crystal",
+      "The World Wakes",
+      "Missing, Presumed Death",
+      "Ritual of the Mahjarrat",
+      "The Temple at Senntisten",
+      "Devious Minds",
+      "Desert Treasure",
+      "The Curse of Arrav",
+      "Kudos",
+      "While Guthix Sleeps",
+      "Defender of Varrock",
+      "Dream Mentor",
+      "Shilo Village",
+      "Temple of Ikov",
+      "Legends' Quest",
+      "The Path of Glouphrie",
+      "Tears of Guthix",
+      "Wanted!",
+      "The Hunt for Surok (miniquest)",
+      "Warriors' Guild",
+      "Nature Spirit",
+      "Hazeel Cult",
+      "Enakhra's Lament",
+      "The Slug Menace",
+      "Sea Slug",
+      "Wanted!",
+      "A Fairy Tale II - Cure a Queen",
+      "A Fairy Tale I - Growing Pains",
+      "Cabin Fever",
+      "Pirate's Treasure",
+      "Rum Deal",
+      "A Tail of Two Cats",
+      "Icthlarin's Little Helper",
+      "Fight Arena",
+      "The General's Shadow (miniquest)",
+      "The Curse of Zaros (miniquest)",
+      "Fight Arena"
+    ],
+    "skills": [
+      {
+        "skill": "Divination",
+        "level": 40
+      },
+      {
+        "skill": "Dungeoneering",
+        "level": 67
+      },
+      {
+        "skill": "Magic",
+        "level": 81
+      },
+      {
+        "skill": "Summoning",
+        "level": 74
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Emerald",
+      "display": "Emerald or uncut emerald",
+      "image": "https://runescape.wiki/images/thumb/Emerald_detail.png/100px-Emerald_detail.png?de21b"
+    },
+    {
+      "name": "Catspeak amulet (e)",
+      "display": "Catspeak amulet (e) or cramulet",
+      "image": "https://runescape.wiki/images/thumb/Catspeak_amulet_%28e%29_detail.png/100px-Catspeak_amulet_%28e%29_detail.png?b2fbc"
+    },
+    {
+      "name": "Ghostspeak amulet",
+      "display": "Ghostspeak amulet or cramulet (unless the hard Morytania achievements have been completed)",
+      "image": "https://runescape.wiki/images/thumb/Ghostspeak_amulet_detail.png/100px-Ghostspeak_amulet_detail.png?18457"
+    },
+    {
+      "name": "Coins",
+      "display": "875 coins to enter Brimhaven Dungeon (unless the hard Karamja achievements have been completed)",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    }
+  ],
+  "kills": [
+    "3 iron dragon (level 98)",
+    "Must be able to survive attacks from a celestial dragon (level 127)",
+    "Dragon-hunter archer (level 93)",
+    "Dragon-hunter warrior (level 94)",
+    "Dragon-hunter mage (level 92)",
+    "Echo of Jas (level 133)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 90000,
+      "display": "90,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Summoning",
+      "amount": 80000,
+      "display": "80,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Dungeoneering",
+      "amount": 45000,
+      "display": "45,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Divination",
+      "amount": 5000,
+      "display": "5,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Dragon Rider amulet",
+      "display": "Dragon Rider amulet",
+      "image": "https://runescape.wiki/images/Dragon_Rider_amulet_detail.png?bf7c4"
+    },
+    {
+      "type": "item",
+      "name": "Dragontooth Island resource dungeon",
+      "display": "Access to the Dragontooth Island resource dungeon, containing celestial dragons",
+      "image": "https://runescape.wiki/images/thumb/Dragontooth_Island_resource_dungeon.png/100px-Dragontooth_Island_resource_dungeon.png?afb5a"
+    },
+    {
+      "type": "xp",
+      "skill": "Mysterious statue",
+      "amount": null,
+      "display": "Rotate all four mysterious statues during or after the quest to gain 10,000 bonus experience in a skill of choice",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Dragon-hunter archer",
+      "display": "The dragon-hunters (archer, mage, and warrior) and Echo of Jas can be faced in the Dominion Tower",
+      "image": "https://runescape.wiki/images/thumb/Dragon-hunter_archer.png/100px-Dragon-hunter_archer.png?a3f24"
+    },
+    {
+      "type": "xp",
+      "skill": "Ritual of the Mahjarrat",
+      "amount": null,
+      "display": "If Ritual of the Mahjarrat has been completed, speak to the Submerged Statue on Entrana again to receive 25,000 bonus experience in any non-elite skill (12,500 if elite)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Adamant dragon dungeon",
+      "display": "The ability to translate murals in the Adamant dragon dungeon and on Mount Firewake with the Dragonkin Primer",
+      "image": "https://runescape.wiki/images/thumb/Adamant_dragon_dungeon.png/100px-Adamant_dragon_dungeon.png?c0a84"
+    },
+    {
+      "type": "item",
+      "name": "Contemplation",
+      "display": "Contemplation (in Robert's library, if not already unlocked during Curse of the Black Stone)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Confrontation",
+      "display": "Confrontation (when the dragon hunters appear)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Awoken",
+      "display": "Awoken (only if you had not previously entered the Queen Black Dragon's lair)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Queen Black Dragon (music track)",
+      "display": "Queen Black Dragon (only if you had not previously entered the Queen Black Dragon's lair)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Mr. Mordaut in his office in the basement of Varrock Museum that is accessed behind the stairs. (opciones de chat: 1 [One of a Kind] • Any • Accept)",
+        "es": "Habla con Mr. Mordaut en su oficina, en el sótano del Varrock Museum, a la que se accede por detrás de las escaleras. (opciones de chat: 1 [One of a Kind] • Any • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Read the book Hannibus Hunted.",
+        "es": "Lee el libro Hannibus Hunted."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Mr. Mordaut. (opciones de chat: Any • Any • 2 Bob the Cat? • Any)",
+        "es": "Habla con Mr. Mordaut. (opciones de chat: Any • Any • 2 Bob the Cat? • Any)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Locate Bob the Cat with the catspeak amulet. An easy method to locate him is to hop worlds at the west Varrock anvils or searching nearby the Burthorpe lodestone. Most of the time he is inside Carwen Essencebinder Magical Runes Shop",
+        "es": "Localiza a Bob the Cat con el amuleto de habla felina. Un método fácil es cambiar de mundo en los yunques al oeste de Varrock o buscar cerca de la piedra de viaje de Burthorpe. La mayoría de las veces está dentro de la tienda Carwen Essencebinder Magical Runes Shop."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bob. (opciones de chat: ? [One of a Kind] • 2 A human to look after? • 2 Maybe I'll check out this house...)",
+        "es": "Habla con Bob. (opciones de chat: ? [One of a Kind] • 2 A human to look after? • 2 Maybe I'll check out this house...)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Unferth's house east of Burthorpe lodestone.",
+        "es": "Viaja a la casa de Unferth, al este de la piedra de viaje de Burthorpe."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Unferth. (opciones de chat: 1 I want to search your house for a hidden library. • 3 I'm not interested in your novels. • 1 I'm looking for the lost library of Robert the Strong. • 1 Is there any place that Bob the Cat seemed drawn to? • 2 That's all for now.)",
+        "es": "Habla con Unferth. (opciones de chat: 1 I want to search your house for a hidden library. • 3 I'm not interested in your novels. • 1 I'm looking for the lost library of Robert the Strong. • 1 Is there any place that Bob the Cat seemed drawn to? • 2 That's all for now.)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Search the bookcase.",
+        "es": "Registra la estantería."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the fireplace.",
+        "es": "Investiga la chimenea."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the table.",
+        "es": "Inspecciona la mesa."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Remove the carpet.",
+        "es": "Quita la alfombra."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Enter the trapdoor.",
+        "es": "Entra por la trampilla."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Search the desk in the centre of the room.",
+        "es": "Registra el escritorio en el centro de la sala."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the weapon rack to the north. (opciones de chat: 1 Take some rust from the weapons.)",
+        "es": "Investiga el armero al norte. (opciones de chat: 1 Take some rust from the weapons.)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Use iron oxide on emerald to get Animate Rock scroll.",
+        "es": "Usa el óxido de hierro en la esmeralda para obtener el pergamino Animate Rock."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Read the Animate Rock scroll by the statue to the south.",
+        "es": "Lee el pergamino Animate Rock junto a la estatua al sur."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Hannibus. (opciones de chat: 1 Yes • 1 This is the Sixth Age. • Any • 1 What now? • 1 You could go home. • 4 We could look around this library! • 2 Let's take a look!)",
+        "es": "Habla con Hannibus. (opciones de chat: 1 Yes • 1 This is the Sixth Age. • Any • 1 What now? • 1 You could go home. • 4 We could look around this library! • 2 Let's take a look!)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Search the bookcase for the Dragonkin Primer to the east and Flight of the Dragonkin to the west.",
+        "es": "Registra la estantería en busca del Dragonkin Primer al este y de Flight of the Dragonkin al oeste."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Click the map in the south of the room to update location names",
+        "es": "Haz clic en el mapa al sur de la sala para actualizar los nombres de las ubicaciones."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Head to the mysterious statue east of the Seers' Village bank.",
+        "es": "Dirígete a la misteriosa estatua al este del banco de Seers' Village."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Read the Animate Rock scroll by it. (opciones de chat: 3 None of those - I'm human! • 1 I'll rotate you now. • 2 Goodbye.)",
+        "es": "Lee el pergamino Animate Rock junto a ella. (opciones de chat: 3 None of those - I'm human! • 1 I'll rotate you now. • 2 Goodbye.)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Repeat for the next 3 statues. Rotating all 4 statues gives access to 10,000 bonus experience in any skill. At least one is required to continue.",
+        "es": "Repite el proceso con las siguientes 3 estatuas. Girar las 4 estatuas te da acceso a 10.000 puntos de experiencia extra en cualquier habilidad. Se necesita al menos una para continuar."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "North-west of the Karamja lodestone. (opciones de chat: 1 Just tell me how to rotate you. • 2 Goodbye.)",
+        "es": "Al noroeste de la piedra de viaje de Karamja. (opciones de chat: 1 Just tell me how to rotate you. • 2 Goodbye.)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "North-west of the Ardougne lodestone. (opciones de chat: 1 Just tell me how to rotate you. • 2 Goodbye.)",
+        "es": "Al noroeste de la piedra de viaje de Ardougne. (opciones de chat: 1 Just tell me how to rotate you. • 2 Goodbye.)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "North of the Tower of Life (fairy ring , Ardougne cloak for east of Kandarin Monastery, or Kandarin Monastery Teleport). (opciones de chat: 1 Just tell me how to rotate you. • 2 Goodbye.)",
+        "es": "Al norte de la Tower of Life (anillo de las hadas, capa de Ardougne para ir al este del Kandarin Monastery, o teleporte al Kandarin Monastery). (opciones de chat: 1 Just tell me how to rotate you. • 2 Goodbye.)"
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the north-west corner of Entrana.",
+        "es": "Viaja a la esquina noroeste de Entrana."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Read the animate rock scroll by the submerged statue. (opciones de chat: 3 Who was your other visitor? • 3 Do you know of a way to travel between worlds? • 4 Goodbye.)",
+        "es": "Lee el pergamino Animate Rock junto a la estatua sumergida. (opciones de chat: 3 Who was your other visitor? • 3 Do you know of a way to travel between worlds? • 4 Goodbye.)"
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Run to the green dragons in the south east corner of the Forinthry Dungeon. Hannibus will talk to you if you brought the Dragonkin Primer book. (opciones de chat: 1 Yes)",
+        "es": "Corre hacia los dragones verdes en la esquina sureste del Forinthry Dungeon. Hannibus hablará contigo si has traído el libro Dragonkin Primer. (opciones de chat: 1 Yes)"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 1,
+      "text": {
+        "en": "This dungeon is located in the Wilderness, so make sure that you are not opted in to PvP combat by talking to Vala.",
+        "es": "Esta mazmorra está situada en el Wilderness, así que asegúrate de no tener activado el combate JcJ hablando con Vala."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "A quick method is to use the Wilderness sword 2 teleport to the dungeon, or run east to the Wilderness Crater lodestone and run straight west to the dungeon entrance.",
+        "es": "Un método rápido es usar el teleporte Wilderness sword 2 hasta la mazmorra, o correr hacia el este hasta la piedra de viaje de Wilderness Crater y luego correr en línea recta hacia el oeste hasta la entrada de la mazmorra."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "If you don't see Hannibus, exit the dungeon and re-enter it, then run towards green dragons, it will give you an option to continue the quest. Make sure you brought the Dragonkin Primer book.",
+        "es": "Si no ves a Hannibus, sal de la mazmorra y vuelve a entrar, luego corre hacia los dragones verdes; te dará la opción de continuar la misión. Asegúrate de haber traído el libro Dragonkin Primer."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Run close to the east wall of the room, near the lava. (opciones de chat: 2 Let's investigate!)",
+        "es": "Corre cerca de la pared este de la sala, junto a la lava. (opciones de chat: 2 Let's investigate!)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Study the rock (on the ground east of the green dragon).",
+        "es": "Estudia la roca (en el suelo al este del dragón verde)."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the iron/steel dragons in Brimhaven Dungeon. (opciones de chat: 1 Yes)",
+        "es": "Viaja hasta los dragones de hierro/acero en el Brimhaven Dungeon. (opciones de chat: 1 Yes)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "A quick method is using the Dungeoneering cape and selecting \"Brimhaven metal dragon dungeon\"",
+        "es": "Un método rápido es usar la capa de Mazmorreo y seleccionar \"Brimhaven metal dragon dungeon\"."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "A slower method is walking west from the Karamja lodestone, entering the dungeon, and walking to the iron and steel dragons",
+        "es": "Un método más lento es caminar hacia el oeste desde la piedra de viaje de Karamja, entrar en la mazmorra y caminar hasta los dragones de hierro y acero."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "If you don't get the question about 'One of a Kind' go back to the entrance of the room and walk slowly into the room again.",
+        "es": "Si no te aparece la pregunta sobre 'One of a Kind', vuelve a la entrada de la sala y entra de nuevo caminando despacio."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Kill 3 iron dragons. (opciones de chat: Any • Any)",
+        "es": "Mata a 3 dragones de hierro. (opciones de chat: Any • Any)"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Head to the west wall by the mysterious entrance to study the dragonkin writing.",
+        "es": "Dirígete a la pared oeste, junto a la misteriosa entrada, para estudiar la escritura dragonkin."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the Grotworm Lair north-west of Port Sarim lodestone.",
+        "es": "Viaja al Grotworm Lair, al noroeste de la piedra de viaje de Port Sarim."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 1,
+      "text": {
+        "en": "Remora's necklace will take you directly outside of the portal.",
+        "es": "El collar de Remora te llevará directamente fuera del portal."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Enter the bottom level of the Grotworm Lair. You can use the shortcut to the south-east of the first floor to get there quickly. (opciones de chat: 1 Yes)",
+        "es": "Entra en el nivel inferior del Grotworm Lair. Puedes usar el atajo al sureste de la primera planta para llegar rápido. (opciones de chat: 1 Yes)"
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the summoning portal. The portal is right next to the shortcut, a square hole in the wall gleaming green. (opciones de chat: 1 Yes)",
+        "es": "Investiga el portal de invocación. El portal está justo al lado del atajo, un agujero cuadrado en la pared que brilla en verde. (opciones de chat: 1 Yes)"
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Talk with Hannibus. (opciones de chat: 3 Your majesty - I have some questions. • 1 I seek means to travel between worlds. • 1 Tell me about the Dragonkin. • 1 Yes)",
+        "es": "Habla con Hannibus. (opciones de chat: 3 Your majesty - I have some questions. • 1 I seek means to travel between worlds. • 1 Tell me about the Dragonkin. • 1 Yes)"
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Dragontooth Island by talking to the ghost captain east of Port Phasmatys (south of those ships, in the small boat). (opciones de chat: 1 Please take me to Dragontooth Island.)",
+        "es": "Viaja a Dragontooth Island hablando con el capitán fantasma al este de Port Phasmatys (al sur de esos barcos, en la barca pequeña). (opciones de chat: 1 Please take me to Dragontooth Island.)"
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "The fastest method is teleporting to Dragontooth Island directly, using the Dungeoneering cape teleport, or using the elder divination outfit to teleport to the \"Radiant Wisp Colony\".",
+        "es": "El método más rápido es teleportarse directamente a Dragontooth Island usando el teleporte de la capa de Mazmorreo, o usar el traje élder de Divinación para teleportarse a \"Radiant Wisp Colony\"."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 1,
+      "text": {
+        "en": "A quick method to Port Phasmatys is heading to Port Sarim and taking a charter ship to Port Phasmatys (talk to Trader Stan south-east of the lodestone).",
+        "es": "Un método rápido para llegar a Port Phasmatys es ir a Port Sarim y coger un barco fletado hasta Port Phasmatys (habla con Trader Stan, al sureste de la piedra de viaje)."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 1,
+      "text": {
+        "en": "There are two ghost captains, you need to talk to the southern one who is standing next to a rowboat, not a ship.",
+        "es": "Hay dos capitanes fantasma; debes hablar con el del sur, que está junto a una barca, no un barco."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Enter the mysterious entrance to the south.",
+        "es": "Entra por la misteriosa entrada al sur."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Fight or tank a celestial dragon until Hannibus's bond reaches 100% (approximately 2 minutes).",
+        "es": "Lucha contra un dragón celestial (o simplemente aguanta sus ataques) hasta que el vínculo de Hannibus alcance el 100% (unos 2 minutos)."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 1,
+      "text": {
+        "en": "Attack multiple to reach 100% faster.",
+        "es": "Ataca a varios a la vez para llegar al 100% más rápido."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Hannibus again.",
+        "es": "Vuelve a hablar con Hannibus."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Activate the Artefact north of Edgeville Monastery to meet with Hannibus in the King Black Dragon Lair.",
+        "es": "Activa el Artefacto al norte del Edgeville Monastery para reunirte con Hannibus en el King Black Dragon Lair."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 1,
+      "text": {
+        "en": "You will not enter a player-versus-player enabled area despite the warning.",
+        "es": "No entrarás en una zona con JcJ activado a pesar de la advertencia."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Talk with the King Black Dragon. (opciones de chat: 1 Sorry about killing you.)",
+        "es": "Habla con el King Black Dragon. (opciones de chat: 1 Sorry about killing you.)"
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Enter mysterious entrance.",
+        "es": "Entra por la misteriosa entrada."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Talk with Therragorn. (opciones de chat: 1 Listen to Hannibus. • 1 Can you help Hannibus get home?)",
+        "es": "Habla con Therragorn. (opciones de chat: 1 Listen to Hannibus. • 1 Can you help Hannibus get home?)"
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 3 dragon-hunters.",
+        "es": "Mata a los 3 cazadores de dragones."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Hannibus for a cutscene.",
+        "es": "Habla con Hannibus para ver una escena."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Kerapac will talk to you. (opciones de chat: 3 Aaaaargh! A Dragonkin! • 2 Ask about companions. • 1 How's Hannibus? • 1 What's the favour? • 1 Okay, I'll help.)",
+        "es": "Kerapac hablará contigo. (opciones de chat: 3 Aaaaargh! A Dragonkin! • 2 Ask about companions. • 1 How's Hannibus? • 1 What's the favour? • 1 Okay, I'll help.)"
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Head into the far northern room. Kerapac will talk to you. (opciones de chat: 2 Just tell me what to do.)",
+        "es": "Dirígete a la sala más al norte. Kerapac hablará contigo. (opciones de chat: 2 Just tell me what to do.)"
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Harvest 25 dragonkin memories from the protoplasmic wisps and channel them into the cage.",
+        "es": "Recolecta 25 recuerdos dragonkin de las volutas protoplasmáticas y canalízalos hacia la jaula."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Talk with Kerapac to fight Echo of Jas. (opciones de chat: 1 I am ready!)",
+        "es": "Habla con Kerapac para luchar contra el Echo of Jas. (opciones de chat: 1 I am ready!)"
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Kill the Echo of Jas and then talk to it after you defeat it.",
+        "es": "Mata al Echo of Jas y luego habla con él tras derrotarlo."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Kerapac will talk to you. (opciones de chat: 4 What now? • 1 Yes. • 1 [Decide Hannibus's fate] • Any)",
+        "es": "Kerapac hablará contigo. (opciones de chat: 4 What now? • 1 Yes. • 1 [Decide Hannibus's fate] • Any)"
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

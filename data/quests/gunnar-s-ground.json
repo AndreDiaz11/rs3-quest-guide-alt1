@@ -1,0 +1,191 @@
+{
+  "id": "gunnar-s-ground",
+  "title": "Gunnar's Ground",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:25:55.610Z",
+  "icon": "https://runescape.wiki/images/Gunnar%27s_Ground_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "adventurer",
+  "members": false,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Short to Medium",
+  "releaseDate": "21 September 2010",
+  "startPoint": {
+    "en": "Speak to Dororan at the Gunnarsgrunn gate.",
+    "es": "Habla con Dororan en la puerta de Gunnarsgrunn."
+  },
+  "requirements": {
+    "quests": [
+      "Gunnar's Ground"
+    ],
+    "skills": [
+      {
+        "skill": "Crafting",
+        "level": 5
+      }
+    ]
+  },
+  "items": [],
+  "kills": [
+    "Haakon the Champion (level 40, optional); if he wants you to challenge him."
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 5,
+      "display": "5 quest points (only if Romeo & Juliet has not been completed)",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 300,
+      "display": "300 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Skills",
+      "amount": 200,
+      "display": "200 experience lamp (Skill must be level 5 or higher)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Swanky boots",
+      "display": "Swanky boots",
+      "image": "https://runescape.wiki/images/thumb/Swanky_boots_detail.png/100px-Swanky_boots_detail.png?9ab79"
+    },
+    {
+      "type": "item",
+      "name": "Crafting",
+      "display": "Ability to get further Crafting tasks from Dororan (requiring up to level 90 Crafting, temporary skill boosts allowed)",
+      "image": "https://runescape.wiki/images/thumb/Crafting_detail.png/100px-Crafting_detail.png?346f8"
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 2000,
+      "display": "2,000 experience for engraving \"With beauty blessed.\" on a ruby bracelet - requires 42 Crafting"
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 10000,
+      "display": "10,000 experience for engraving \"Gudrun\" on a dragonstone necklace - requires 72 Crafting"
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 20000,
+      "display": "20,000 experience for engraving \"The most beautiful girl in the room.\" on an onyx amulet - requires 90 Crafting"
+    },
+    {
+      "type": "item",
+      "name": "Gunnarsgrunn (music track)",
+      "display": "Gunnarsgrunn"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Dororan near the eastern entrance to Barbarian Village. (opciones de chat: Any • 1 Yes • Any • 2 Get to the point. • 1 There must be something you can do. • Accept)",
+        "es": "Habla con Dororan cerca de la entrada este de Barbarian Village. (opciones de chat: Any • 1 Sí • Any • 2 Ve al grano. • 1 Debe de haber algo que puedas hacer. • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "You will receive a scroll containing a love poem, go to Edgeville and speak to Jeffery near the furnace. (opciones de chat: 1 I'm here about a gold ring. • 1 I was hoping you would trade me a gold ring. • 1 This splendid love poem. • 1 Yes, he did. • 1 Just a plain, gold ring.)",
+        "es": "Recibirás un pergamino con un poema de amor. Ve a Edgeville y habla con Jeffery cerca del horno. (opciones de chat: 1 Vengo por un anillo de oro. • 1 Esperaba que me cambiaras un anillo de oro. • 1 Este espléndido poema de amor. • 1 Sí, lo hizo. • 1 Solo un anillo de oro sencillo.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Take the gold ring back to Dororan. (opciones de chat: 1 What do you want me to engrave? • 2 That sounds simple enough.)",
+        "es": "Lleva el anillo de oro de vuelta a Dororan. (opciones de chat: 1 ¿Qué quieres que grabe? • 2 Eso suena bastante sencillo.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Click the 'engrave' option on the ring (tool belt chisel works), and show it to Dororan. (opciones de chat: 1 It's come out perfectly. • 1 Of course. • 1 Very well.)",
+        "es": "Pulsa la opción 'grabar' en el anillo (el cincel del cinturón de herramientas sirve), y muéstraselo a Dororan. (opciones de chat: 1 Ha quedado perfecto. • 1 Por supuesto. • 1 Muy bien.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Gudrun (west of Dororan), but avoid telling her that Dororan is a dwarf. (opciones de chat: 1 Yes. • 1 The ring isn't from me! • 1 A great poet. • 1 So, you want me to talk to your father?)",
+        "es": "Habla con Gudrun (al oeste de Dororan), pero evita decirle que Dororan es un enano. (opciones de chat: 1 Sí. • 1 ¡El anillo no es mío! • 1 Un gran poeta. • 1 Entonces, ¿quieres que hable con tu padre?)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Gunthor, found in the longhall. (opciones de chat: 1 I need to speak with you, chieftain. • 1 Your daughter seeks permission to court an outlander. • 1 You're barbarians • 1 Please wait a moment. • 1 I'm going!)",
+        "es": "Habla con Gunthor, que se encuentra en el salón principal. (opciones de chat: 1 Necesito hablar contigo, jefe. • 1 Tu hija busca permiso para cortejar a un forastero. • 1 Sois unos bárbaros • 1 Espera un momento, por favor. • 1 ¡Ya voy!)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Return and talk to Gudrun. (opciones de chat: 2 What should we do now?)",
+        "es": "Regresa y habla con Gudrun. (opciones de chat: 2 ¿Qué deberíamos hacer ahora?)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Dororan. (opciones de chat: 1 No, she liked the ring. • 2 What are we going to do?)",
+        "es": "Habla con Dororan. (opciones de chat: 1 No, le gustó el anillo. • 2 ¿Qué vamos a hacer?)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Help him with his poem. (opciones de chat: 1 I'm sure that's not true. • Any • 5 More words • 3 Stray. • Any • 5 More words • 2 Threat. • Any • 5 More words • 3 Swept to war.)",
+        "es": "Ayúdale con su poema. (opciones de chat: 1 Estoy seguro de que eso no es cierto. • Any • 5 Más palabras • 3 Extraviarse. • Any • 5 Más palabras • 2 Amenaza. • Any • 5 Más palabras • 3 Arrastrados a la guerra.)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "text": {
+        "en": "The phrases are \"stray\", \"threat\", and \"swept to war\".",
+        "es": "Las frases son \"extraviarse\", \"amenaza\" y \"arrastrados a la guerra\"."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Give the poem to Gudrun to read to her father. (opciones de chat: Any • Any • Any • Any • Any)",
+        "es": "Dale el poema a Gudrun para que se lo lea a su padre. (opciones de chat: Any • Any • Any • Any • Any)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Gudrun again to complete the quest. (opciones de chat: Any)",
+        "es": "Habla de nuevo con Gudrun para completar la misión. (opciones de chat: Any)"
+      }
+    }
+  ]
+}

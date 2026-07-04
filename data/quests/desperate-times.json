@@ -1,0 +1,650 @@
+{
+  "id": "desperate-times",
+  "title": "Desperate Times",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T01:48:35.546Z",
+  "icon": "https://runescape.wiki/images/Desperate_Times_icon.png",
+  "series": "The Elder God Wars",
+  "age": "6",
+  "timeline": "world guardian",
+  "members": true,
+  "combatLevel": "50-59",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "13 May 2019",
+  "startPoint": {
+    "en": "Talk to Seren, up the stairs in Burthorpe castle. (via )",
+    "es": "Habla con Seren, arriba de las escaleras en Burthorpe castle. (vía )"
+  },
+  "requirements": {
+    "quests": [
+      "The Needle Skips",
+      "You Are It",
+      "Sliske's Endgame",
+      "The Death of Chivalry",
+      "The World Wakes",
+      "One of a Kind",
+      "A Tail of Two Cats",
+      "Holy Grail",
+      "The World Wakes",
+      "Missing, Presumed Death",
+      "Ritual of the Mahjarrat",
+      "Nomad's Elegy",
+      "Dishonour among Thieves",
+      "Nomad's Requiem",
+      "Heart of Stone",
+      "The Mighty Fall",
+      "Throne of Miscellania",
+      "The Void Stares Back",
+      "While Guthix Sleeps",
+      "Blood Runs Deep",
+      "Kindred Spirits",
+      "Missing, Presumed Death",
+      "Deadliest Catch",
+      "Hero's Welcome",
+      "Lunar Diplomacy",
+      "Ancient Cavern",
+      "Barbarian Training",
+      "One of a Kind",
+      "Ritual of the Mahjarrat",
+      "Children of Mah",
+      "The Light Within",
+      "Dishonour among Thieves",
+      "Koschei's Troubles (miniquest)",
+      "Ritual of the Mahjarrat",
+      "Curse of the Black Stone",
+      "Impressing the Locals",
+      "Sliske's Endgame",
+      "Pieces of Hate",
+      "A Clockwork Syringe",
+      "Gertrude's Cat"
+    ],
+    "skills": [
+      {
+        "skill": "Divination",
+        "level": 50
+      },
+      {
+        "skill": "Mining",
+        "level": 50
+      },
+      {
+        "skill": "Smithing",
+        "level": 50
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Rune bar",
+      "display": "3 rune bars",
+      "image": "https://runescape.wiki/images/thumb/Rune_bar_detail.png/100px-Rune_bar_detail.png?62bc5"
+    },
+    {
+      "name": "Runite stone spirit",
+      "display": "2 runite stone spirits The stone spirits must not be in an ore box. They must be in the backpack.",
+      "image": "https://runescape.wiki/images/thumb/Runite_stone_spirit_detail.png/100px-Runite_stone_spirit_detail.png?9f14a"
+    },
+    {
+      "name": "Ore boxes",
+      "display": "The stone spirits must not be in an ore box. They must be in the backpack.",
+      "image": "https://runescape.wiki/images/thumb/Elder_rune_ore_box_detail.png/100px-Elder_rune_ore_box_detail.png?1580b"
+    },
+    {
+      "name": "Mind rune",
+      "display": "10 mind runes",
+      "image": "https://runescape.wiki/images/thumb/Mind_rune_detail.png/100px-Mind_rune_detail.png?425e6"
+    },
+    {
+      "name": "Gleaming energy",
+      "display": "10 gleaming energy",
+      "image": "https://runescape.wiki/images/thumb/Gleaming_energy_1000_detail.png/100px-Gleaming_energy_1000_detail.png?ebf5c"
+    },
+    {
+      "name": "Old necklace",
+      "display": "Old necklace or necklace of Charos (obtainable during the quest)",
+      "image": "https://runescape.wiki/images/Old_necklace_detail.png?9bb96"
+    },
+    {
+      "name": "Black Knights' Fortress",
+      "display": "Any set of equipment that allows access to the Black Knights' Fortress or a Skull of Remembrance for teleporting directly inside",
+      "image": "https://runescape.wiki/images/thumb/Black_Knights%27_Fortress.png/100px-Black_Knights%27_Fortress.png?1a120"
+    }
+  ],
+  "kills": [
+    "Ability to defeat five level 50 opponents"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 3,
+      "display": "3 quest points",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Huge XP lamp (event)",
+      "display": "A huge XP lamp",
+      "image": "https://runescape.wiki/images/thumb/Huge_XP_lamp_%28event%29_detail.png/100px-Huge_XP_lamp_%28event%29_detail.png?7dd41"
+    },
+    {
+      "type": "item",
+      "name": "Charos' clue carrier",
+      "display": "Charos' clue carrier",
+      "image": "https://runescape.wiki/images/Charos%27_clue_carrier_detail.png?b9251"
+    },
+    {
+      "type": "item",
+      "name": "Sealed clue scroll (master)",
+      "display": "A master clue scroll",
+      "image": "https://runescape.wiki/images/Sealed_clue_scroll_%28master%29_detail.png?18ea7"
+    },
+    {
+      "type": "item",
+      "name": "Chamber of Guthix",
+      "display": "Chamber of Guthix (if not already unlocked during The World Wakes)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Charos Enigma",
+      "display": "The Charos Enigma",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Seren's Plea",
+      "display": "Seren's Plea",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "True or False",
+      "display": "True or False (if not already unlocked during Hero's Welcome)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Seren on the of Burthorpe Castle. (opciones de chat: Accept)",
+        "es": "Habla con Seren en el de Burthorpe Castle. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Osman for a location. (north-east of the table next to Garlandia) (opciones de chat: 1 Do you have anywhere we could plant the garden?)",
+        "es": "Habla con Osman para conseguir una ubicación. (al noreste de la mesa junto a Garlandia) (opciones de chat: 1 ¿Tienes algún sitio donde podamos plantar el jardín?)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sir Amik Varze for a workforce. (Directly north of the table) (opciones de chat: 2 Do you have a workforce to plant it?)",
+        "es": "Habla con Sir Amik Varze para conseguir mano de obra. (Directamente al norte de la mesa) (opciones de chat: 2 ¿Tienes mano de obra para plantarlo?)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Azzanadra for seeds. (North-west of the table, next to Commander Zilyana) (opciones de chat: 1 Desperate Times • 3 Do you have any seeds we could use? • 1 Yes)",
+        "es": "Habla con Azzanadra para conseguir semillas. (Al noroeste de la mesa, junto a Commander Zilyana) (opciones de chat: 1 Tiempos desesperados • 3 ¿Tienes alguna semilla que podamos usar? • 1 Sí)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Vanescula Drakan for a location. (By the staircase) (opciones de chat: 1 Do you have anywhere we could plant the garden? • 1 Change to Morytania. • 1 Yes.)",
+        "es": "Habla con Vanescula Drakan para conseguir una ubicación. (Junto a la escalera) (opciones de chat: 1 ¿Tienes algún sitio donde podamos plantar el jardín? • 1 Cambiar a Morytania. • 1 Sí.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zarador for a location. (South-western corner of the room) (opciones de chat: 1 Do you have anywhere we could plant the garden? • 1 Change to Feldip. • 1 Yes)",
+        "es": "Habla con Zarador para conseguir una ubicación. (Esquina suroeste de la sala) (opciones de chat: 1 ¿Tienes algún sitio donde podamos plantar el jardín? • 1 Cambiar a Feldip. • 1 Sí)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Kerapac will appear. Complete the dialogue and proceed to The Needle.",
+        "es": "Kerapac aparecerá. Completa el diálogo y dirígete a The Needle."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "If the dialogue containing Kerapac does not start, talk to Seren. (opciones de chat: ~)",
+        "es": "Si el diálogo con Kerapac no comienza, habla con Seren. (opciones de chat: ~)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the Needle and talk to Kerapac. (opciones de chat: 3 Let's get on with it. • 3 Say nothing. • 1 Yes, I'm ready.)",
+        "es": "Viaja a The Needle y habla con Kerapac. (opciones de chat: 3 Vamos a terminar con esto. • 3 No decir nada. • 1 Sí, estoy listo.)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "text": {
+        "en": "It is located west of Piscatoris Fishing Colony (Phoenix Lair Teleport, fairy ring , Sixth-Age circuit teleports to Guthix memorial, or via memory strands within the currency pouch).",
+        "es": "Se encuentra al oeste de Piscatoris Fishing Colony (teleporte Phoenix Lair, fairy ring , los teleportes del Sixth-Age circuit al Guthix memorial, o mediante los hilos de memoria dentro de la bolsa de moneda)."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Close the 5 temporal instabilities",
+        "es": "Cierra las 5 inestabilidades temporales"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "2 on the path from the needle to the house.",
+        "es": "2 en el camino desde The Needle hasta la casa."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 1,
+      "text": {
+        "en": "1 inside the courtyard of the house.",
+        "es": "1 dentro del patio de la casa."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "2 upstairs in the house.",
+        "es": "2 en el piso de arriba de la casa."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Kerapac again.",
+        "es": "Habla con Kerapac otra vez."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Go inside McGrubor's Wood. Descend into the mysterious hole just south of the house. (opciones de chat: 1 Yes)",
+        "es": "Entra en McGrubor's Wood. Desciende por el agujero misterioso justo al sur de la casa. (opciones de chat: 1 Sí)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 1,
+      "text": {
+        "en": "Navigate to using fairy ring or the Seers' Village lodestone and go west around the fence to enter McGrubor's Wood.",
+        "es": "Ve hasta allí usando el fairy ring o el lodestone de Seers' Village y ve hacia el oeste rodeando la valla para entrar en McGrubor's Wood."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Run through and investigate the coffin.",
+        "es": "Corre a través y examina el ataúd."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Read the letter from Charos.",
+        "es": "Lee la carta de Charos."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Varrock Dig Site and step on the strange portal near the entrance to the Empty Throne Room. It is found north of the screening station. 1=",
+        "es": "Ve al Varrock Dig Site y pisa el extraño portal cerca de la entrada a la Empty Throne Room. Se encuentra al norte de la estación de cribado. 1="
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Step on the portals until a room with a chest unlocks.",
+        "es": "Pisa los portales hasta que se desbloquee una sala con un cofre."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 1,
+      "text": {
+        "en": "If the room has a note on a recipe: If the amount of each & every ingredient can be represented with a single Roman numeral (e.g. 1000g of Bacon \"M\"), those are the code. If not, the code is the first letter of each ingredient.",
+        "es": "Si la sala tiene una nota sobre una receta: Si la cantidad de cada ingrediente puede representarse con un único numeral romano (por ejemplo, 1000g de Bacon \"M\"), esos son el código. Si no, el código es la primera letra de cada ingrediente."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 2,
+      "text": {
+        "en": "Note: Roman numerals for some of the steps below: 1=I, 5=V, 10=X, 50=L, 100=C, 500=D, 1,000=M.",
+        "es": "Nota: Numerales romanos para algunos de los pasos siguientes: 1=I, 5=V, 10=X, 50=L, 100=C, 500=D, 1.000=M."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "If the room has 4 random items, the code for the chest is the first letter of each item (e.g. Plank, Jute Fibres, Catfish and Diamond Bolt). Order is starting from farthest item from the chest to the closest item to the chest. If this doesn't work, try the letters in the opposite order.",
+        "es": "Si la sala tiene 4 objetos aleatorios, el código del cofre es la primera letra de cada objeto (por ejemplo, Plank, Jute Fibres, Catfish y Diamond Bolt). El orden empieza desde el objeto más alejado del cofre hasta el más cercano al cofre. Si esto no funciona, prueba las letras en el orden opuesto."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "If the room has coins on the ground examine each pile, the code is the number of coins in each pile. Go clockwise, as represented in Roman numerals (e.g. 500 coins \"D\").",
+        "es": "Si la sala tiene monedas en el suelo, examina cada montón; el código es el número de monedas en cada montón. Ve en sentido horario, representado en numerales romanos (por ejemplo, 500 monedas \"D\")."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "If there is a plaque next to the room's door, the code is the first letter of each lodestone name depicted (e.g. Lumbridge, Falador, Draynor Village and Varrock).",
+        "es": "Si hay una placa junto a la puerta de la sala, el código es la primera letra de cada nombre de lodestone representado (por ejemplo, Lumbridge, Falador, Draynor Village y Varrock)."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "If the room has only one item on the ground with a four-letter word in its name, the combination is those four letters. (e.g. Beer BEER or Swordfish FISH).",
+        "es": "Si la sala tiene solo un objeto en el suelo con una palabra de cuatro letras en su nombre, la combinación es esas cuatro letras. (por ejemplo, Beer BEER o Swordfish FISH)."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 1,
+      "text": {
+        "en": "If the room has a clean herb on the ground, the combination is HERB.",
+        "es": "Si la sala tiene una hierba limpia en el suelo, la combinación es HERB."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "When the chest is unlocked, note the order of the icons.",
+        "es": "Cuando el cofre esté desbloqueado, anota el orden de los iconos."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Repeat for as many chests as needed until you have the full solution.",
+        "es": "Repite esto para tantos cofres como sea necesario hasta que tengas la solución completa."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Rearrange the slide puzzle in the middle to match the icons seen from the chests. (North side is up. If you accidentally did the puzzle upside down, just rotate the outer pieces until they are in place.)",
+        "es": "Reorganiza el puzle deslizante del centro para que coincida con los iconos vistos en los cofres. (El lado norte está arriba. Si por accidente resolviste el puzle al revés, simplemente gira las piezas exteriores hasta que estén en su sitio.)"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Step on the exit portal to the west.",
+        "es": "Pisa el portal de salida al oeste."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Enter the Black Knights' Fortress, and step on the portal on the of the Black Knights' Fortress in the south-east room near the entrance to the fortress.",
+        "es": "Entra en el Black Knights' Fortress, y pisa el portal en el de Black Knights' Fortress, en la sala del sureste cerca de la entrada a la fortaleza."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Follow the key rules above again.",
+        "es": "Sigue de nuevo las reglas de las claves indicadas arriba."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Step on the exit portal to the west.",
+        "es": "Pisa el portal de salida al oeste."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Step on the portal in the south-east room on the of Varrock Palace. The portal is hidden behind the eastern bath screen. King Roald and Sir Amik Varze will be at the table near the stairs.",
+        "es": "Pisa el portal en la sala del sureste, en el de Varrock Palace. El portal está oculto detrás de la mampara de baño oriental. King Roald y Sir Amik Varze estarán en la mesa cerca de las escaleras."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Follow the key rules above for this part.",
+        "es": "Sigue las reglas de las claves indicadas arriba para esta parte."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Step on the exit portal to the west.",
+        "es": "Pisa el portal de salida al oeste."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Reldo in the Varrock Palace library (the northern-most room of the of the palace) (opciones de chat: 1 [Use Charos's Necklace.] • Any • Any • Any)",
+        "es": "Habla con Reldo en la biblioteca de Varrock Palace (la sala más al norte del del palacio) (opciones de chat: 1 [Usar el Charos's Necklace.] • Cualquiera • Cualquiera • Cualquiera)"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Give Charos 3 rune bars, 2 runite stone spirits, 10 gleaming energy, and 10 mind runes.",
+        "es": "Dale a Charos 3 rune bars, 2 runite stone spirits, 10 gleaming energy y 10 mind runes."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 1,
+      "text": {
+        "en": "Runite stone spirits in an ore box will not work. They must be in the backpack.",
+        "es": "Los runite stone spirits en un ore box no funcionarán. Deben estar en la mochila."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Gear for combat. Deaths here are non-safe.",
+        "es": "Equípate para el combate. Las muertes aquí no son seguras."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Return to The Needle. (Phoenix Lair Teleport, fairy ring , Sixth-Age circuit teleports to Guthix memorial, or via memory strands within the currency pouch)",
+        "es": "Regresa a The Needle. (teleporte Phoenix Lair, fairy ring , los teleportes del Sixth-Age circuit al Guthix memorial, o mediante los hilos de memoria dentro de la bolsa de moneda)"
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Kerapac.",
+        "es": "Habla con Kerapac."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Manoeuver through the paths and kill the 5 Sliske clones, pick up the fragments. Make sure lootshare is turned off.",
+        "es": "Maniobra a través de los caminos y mata a los 5 clones de Sliske, recoge los fragmentos. Asegúrate de que el reparto de botín esté desactivado."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "The Sliske clones appear to spawn from stepping on specific spots, so if the clones don't spawn step through each path comprehensively until they spawn",
+        "es": "Los clones de Sliske parecen aparecer al pisar puntos específicos, así que si los clones no aparecen, recorre cada camino de forma exhaustiva hasta que aparezcan."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Combine the fragments into Sliske's mask.",
+        "es": "Combina los fragmentos para formar la máscara de Sliske."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Walk to the bottom of the platform, wear the mask, and kill Guthix. (opciones de chat: 1 Yes - Kill him)",
+        "es": "Camina hasta la parte baja de la plataforma, ponte la máscara y mata a Guthix. (opciones de chat: 1 Sí, matarlo)"
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Harvest the five memories on Naragun, each memory shows up as a yellow dot on the minimap, and go through the dialogue until the NPCs teleport away.",
+        "es": "Recolecta los cinco recuerdos en Naragun; cada recuerdo aparece como un punto amarillo en el minimapa, y sigue el diálogo hasta que los NPCs se teleporten lejos."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Guthix near the empty fairy ring. (opciones de chat: Any)",
+        "es": "Habla con Guthix cerca del fairy ring vacío. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Click each mutable anima once so both the green particles will end up on Kerapac. There are 4 in total.",
+        "es": "Haz clic en cada ánima mutable una vez para que ambas partículas verdes acaben en Kerapac. Hay 4 en total."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Go into the room to the west, jump the gap outside the window on the south-east side, run across the planks, drop down the rock face, climb the rock face, and climb through the obstacle.",
+        "es": "Entra en la sala al oeste, salta el hueco fuera de la ventana en el lado sureste, corre por las tablas, baja por la pared rocosa, sube por la pared rocosa y atraviesa el obstáculo."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Run around through each room and open the door at the last room.",
+        "es": "Corre por cada sala y abre la puerta en la última sala."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Switch all the green mutable anima.",
+        "es": "Cambia todas las ánimas mutables verdes."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 1,
+      "text": {
+        "en": "Use temporal rifts to teleport between levels. There are 3 levels in total with the bottom and top floors containing 1 mutable anima each and the middle floor containing 2.",
+        "es": "Usa las grietas temporales para teleportarte entre niveles. Hay 3 niveles en total; el piso inferior y el superior contienen 1 ánima mutable cada uno, y el piso central contiene 2."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Redirect the green mutable anima to Kerapac (refer to the image).",
+        "es": "Redirige el ánima mutable verde hacia Kerapac (consulta la imagen)."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 1,
+      "text": {
+        "en": "Harvest all three unrefined anima (red dots on the image) to unlock the three frozen anima. Make sure to finish the dialogue with each NPC.",
+        "es": "Recolecta las tres ánimas sin refinar (puntos rojos en la imagen) para desbloquear las tres ánimas congeladas. Asegúrate de terminar el diálogo con cada NPC."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 1,
+      "text": {
+        "en": "Switch the green mutable anima according to the direction on the image. All of these can be clicked while standing on the main floor.",
+        "es": "Cambia las ánimas mutables verdes según la dirección indicada en la imagen. Todas se pueden pulsar estando de pie en el piso principal."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 1,
+      "text": {
+        "en": "Disable bloom in graphics settings if it is difficult to see the direction the green mutable anima is facing.",
+        "es": "Desactiva el bloom en la configuración de gráficos si te resulta difícil ver la dirección hacia la que mira el ánima mutable verde."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "After a cutscene, return to the Council of Burthorpe and talk to Seren. (If cutscene doesn't start, talk to Kerapac.)",
+        "es": "Después de una cinemática, regresa al Council of Burthorpe y habla con Seren. (Si la cinemática no comienza, habla con Kerapac.)"
+      }
+    }
+  ]
+}

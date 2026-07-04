@@ -1,0 +1,467 @@
+{
+  "id": "the-mighty-fall",
+  "title": "The Mighty Fall",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:38:39.003Z",
+  "icon": "https://runescape.wiki/images/The_Mighty_Fall_icon.png",
+  "series": "Sliske's Game",
+  "age": "6",
+  "timeline": "world guardian",
+  "members": true,
+  "combatLevel": "200+",
+  "difficulty": "Master",
+  "length": "Long to Very Long",
+  "releaseDate": "2 June 2014",
+  "startPoint": {
+    "en": "Speak to Ur-tag in Dorgesh-Kaan.",
+    "es": "Habla con Ur-tag en Dorgesh-Kaan."
+  },
+  "requirements": {
+    "quests": [
+      "The Chosen Commander",
+      "Land of the Goblins",
+      "Another Slice of H.A.M.",
+      "Death to the Dorgeshuun",
+      "The Lost Tribe",
+      "Goblin Diplomacy",
+      "The Giant Dwarf",
+      "Fishing Contest",
+      "Missing, Presumed Death",
+      "My Arm's Big Adventure",
+      "Eadgar's Ruse",
+      "Druidic Ritual",
+      "Troll Stronghold",
+      "Mad Eadgar",
+      "Troll Stronghold area",
+      "Jungle Potion",
+      "The Hunt for Surok (miniquest)",
+      "What Lies Below"
+    ],
+    "skills": [
+      {
+        "skill": "Attack",
+        "level": 79
+      },
+      {
+        "skill": "Constitution",
+        "level": 78
+      },
+      {
+        "skill": "Defence",
+        "level": 72
+      },
+      {
+        "skill": "Slayer",
+        "level": 69
+      },
+      {
+        "skill": "Strength",
+        "level": 79
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Light sources",
+      "display": "Light source",
+      "image": null
+    }
+  ],
+  "kills": [
+    "5 human infiltrators (levels 98-112)",
+    "Yelps (level 84)",
+    "5 Yelps's bodyguards (level 112)",
+    "Lol (level 110)",
+    "General Graardor (level 210)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Combat level",
+      "amount": 75000,
+      "display": "75,000 experience lamp used for any combat skill (including Summoning, Prayer and Slayer, excluding necromancy) at or above level 79",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Combat level",
+      "amount": 50000,
+      "display": "50,000 experience lamp used for any combat skill (including Summoning, Prayer and Slayer, excluding necromancy) at or above level 69",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Attack",
+      "amount": 80000,
+      "display": "80,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Strength",
+      "amount": 80000,
+      "display": "80,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Kyzaj",
+      "display": "A Kyzaj, to which you can add a Bandos hilt to increase its stats from tier 70 to tier 75.",
+      "image": "https://runescape.wiki/images/thumb/Honourable_kyzaj_detail.png/100px-Honourable_kyzaj_detail.png?88062"
+    },
+    {
+      "type": "item",
+      "name": "\"Honourable Kyzaj\" and the \"Bloodied Kyzaj\" cosmetic overrides for mauls",
+      "display": "\"Honourable Kyzaj\" and the \"Bloodied Kyzaj\" cosmetic overrides for mauls",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Champion",
+      "display": "The [Name] the Champion title",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Bandos's Memories",
+      "amount": null,
+      "display": "Bandos's Memories book. Additional pages come in the form of 13 green Bandos chronicles, which can be found while exploring Yu'biusk. They are similar to Chronicle fragments from Divination, and will only appear when you come within close range of them, granting 10 Divination experience when caught.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "God Wars Dungeon Teleport",
+      "display": "Ability to use the God Wars Dungeon Teleport spell",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
+    },
+    {
+      "type": "item",
+      "name": "Yelps's very own cash bag",
+      "display": "Yelps's very own cash bag and Expired spin ticket. These can be reclaimed by speaking to Yelps (if spared), or by searching his Chest (if killed).",
+      "image": "https://runescape.wiki/images/thumb/Yelps%27s_very_own_cash_bag_detail.png/100px-Yelps%27s_very_own_cash_bag_detail.png?33617"
+    },
+    {
+      "type": "item",
+      "name": "You can speak to Zarador after the quest to change your Kyzaj from an honourable to a bloodied one, and vice versa. This effect is purely cosmetic.",
+      "display": "You can speak to Zarador after the quest to change your Kyzaj from an honourable to a bloodied one, and vice versa. This effect is purely cosmetic.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Yu'biusk (music track)",
+      "display": "Yu'biusk",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Bandosian Tournament",
+      "display": "Bandosian Tournament",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Speak to councillor Ur-tag in the north-easternmost house on the of Dorgesh-Kaan. (opciones de chat: 2 How can I help? • Accept • Any)",
+        "es": "Habla con la consejera Ur-tag en la casa situada más al noreste de Dorgesh-Kaan. (opciones de chat: 2 ¿Cómo puedo ayudar? • Aceptar • Cualquiera)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Climb-down the dark hole under tree in the Lumbridge Swamp. It is northwest of the water ruins.",
+        "es": "Baja por el agujero oscuro que hay bajo el árbol en el Lumbridge Swamp. Está al noroeste de las ruinas acuáticas."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Head to the north-east in the caves and speak to the group of leaders. (opciones de chat: Any • 5 Enough questions. • Any • Any • Any • 2 I'm done here.)",
+        "es": "Dirígete al noreste en las cuevas y habla con el grupo de líderes. (opciones de chat: Cualquiera • 5 Basta de preguntas. • Cualquiera • Cualquiera • Cualquiera • 2 Ya he terminado aquí.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Return to Dorgesh-Kaan and speak to Zanik, who is standing near Ur-tag back at the quest start. (opciones de chat: 2 They don't stand a chance!)",
+        "es": "Vuelve a Dorgesh-Kaan y habla con Zanik, que está de pie cerca de Ur-tag, en el punto donde comenzó la misión. (opciones de chat: 2 ¡No tienen ninguna posibilidad!)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the Bandosian camp on the east side of the Goblin Village and talk to Zanik once more (a Goblin Village sphere can be used). (opciones de chat: 1 What do you mean, dying? • 2 Go on. • 1 Don't say that. We can still save them.)",
+        "es": "Viaja hasta el campamento bandosiano en el lado este de Goblin Village y habla de nuevo con Zanik (se puede usar una esfera de Goblin Village). (opciones de chat: 1 ¿Qué quieres decir con \"morir\"? • 2 Continúa. • 1 No digas eso. Todavía podemos salvarlos.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Prepare for combat before proceeding to the next step.",
+        "es": "Prepárate para el combate antes de continuar con el siguiente paso."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Enter the portal to travel to Yu'biusk.",
+        "es": "Entra en el portal para viajar a Yu'biusk."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Go around the mountain, up one ladder and follow the path south until you reach Zarador. Talk to him. (opciones de chat: 4 I have no more rules questions. • 3 I have no more questions.)",
+        "es": "Rodea la montaña, sube por una escalera y sigue el camino hacia el sur hasta llegar a Zarador. Habla con él. (opciones de chat: 4 No tengo más preguntas sobre las reglas. • 3 No tengo más preguntas.)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Head to your camp (travel west, down 2 ladders into a small room with a cooking pot). Talk to Burntmeat or My Arm. (opciones de chat: 4 Enough questions. • 1 Great, thanks! • 1 That sure is a mystery.)",
+        "es": "Dirígete a tu campamento (viaja al oeste, baja por 2 escaleras hasta una pequeña habitación con una olla de cocina). Habla con Burntmeat o My Arm. (opciones de chat: 4 Basta de preguntas. • 1 ¡Genial, gracias! • 1 Eso sí que es un misterio.)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Kill the human infiltrator when he appears.",
+        "es": "Mata al infiltrado humano cuando aparezca."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 1,
+      "text": {
+        "en": "If Burntmeat doesn't suggest searching his body, check the normal guide for possible solutions to progress the quest.",
+        "es": "Si Burntmeat no sugiere registrar su cuerpo, consulta la guía normal para posibles soluciones que permitan avanzar en la misión."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Return east to Zarador. (opciones de chat: 1 I'll get right on it.)",
+        "es": "Regresa al este, con Zarador. (opciones de chat: 1 Me pondré manos a la obra.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the following goblins and kill them.",
+        "es": "Habla con los siguientes goblins y mátalos."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Return to Zarador once all infiltrators have been dealt with. (opciones de chat: Any)",
+        "es": "Regresa con Zarador una vez que te hayas ocupado de todos los infiltrados. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Use the bank chest beside Zarador to bank any forbidden items. He will also explain the rules of the tournament.",
+        "es": "Usa el cofre bancario junto a Zarador para guardar cualquier objeto prohibido. Él también te explicará las reglas del torneo."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him once more to begin the tournament. (opciones de chat: 1 Just bring it!)",
+        "es": "Habla con él de nuevo para comenzar el torneo. (opciones de chat: 1 ¡Que empiece ya!)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "After defeating Yelps, you can choose to kill or spare him. (opciones de chat: Any)",
+        "es": "Después de derrotar a Yelps, puedes elegir matarlo o perdonarle la vida. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "After you have made your choice speak to Zanik outside of the portal. (opciones de chat: Any • 3 I need to get back to the tournament.)",
+        "es": "Una vez hayas tomado tu decisión, habla con Zanik fuera del portal. (opciones de chat: Cualquiera • 3 Necesito volver al torneo.)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Return to Zarador after talking to Zanik. He will inform you that your next opponent is Lol, the troll champion. (opciones de chat: 1 Just bring it!)",
+        "es": "Regresa con Zarador después de hablar con Zanik. Te informará de que tu próximo oponente es Lol, el campeón troll. (opciones de chat: 1 ¡Que empiece ya!)"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "Suggested items: Stat-boosting potions such as overloads, extreme potions, or super potions, prayer potions, Enhanced Excalibur (or another good weapon), and lots of good food.",
+        "es": "Objetos sugeridos: Pociones que mejoren estadísticas, como overloads, pociones extremas o superpociones, pociones de oración, Enhanced Excalibur (u otra buena arma), y mucha comida buena."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 1,
+      "text": {
+        "en": "Forbidden items: You cannot wear armour, including auras, pocket items, and jewellery.",
+        "es": "Objetos prohibidos: No puedes llevar armadura, incluyendo auras, objetos de bolsillo y joyas."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "After Lol has been defeated, you must once again choose to kill or spare him. (opciones de chat: Any)",
+        "es": "Después de derrotar a Lol, debes elegir de nuevo entre matarlo o perdonarle la vida. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zarador again and, after some dialogue, he will give you a weapon known as the Kyzaj, the namesake of the tournament. He will tell you that you must use it against your final opponent, General Graardor, the champion of the ourgs. (opciones de chat: 3 Enough questions, give me the Kyzaj so I can practice with it.)",
+        "es": "Habla de nuevo con Zarador y, tras algo de diálogo, te entregará un arma conocida como Kyzaj, la que da nombre al torneo. Te dirá que debes usarla contra tu oponente final, General Graardor, el campeón de los ourgs. (opciones de chat: 3 Basta de preguntas, dame el Kyzaj para poder practicar con él.)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zanik outside of the portal and she will teach you how to wield and use the Kyzaj. (opciones de chat: 3 I need you to tell me about the Kyzaj.)",
+        "es": "Habla con Zanik fuera del portal y ella te enseñará a empuñar y usar el Kyzaj. (opciones de chat: 3 Necesito que me hables sobre el Kyzaj.)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "When you are ready to begin the final battle, return to Zarador and talk to him. (opciones de chat: 1 Just bring it!)",
+        "es": "Cuando estés listo para comenzar la batalla final, regresa con Zarador y habla con él. (opciones de chat: 1 ¡Que empiece ya!)"
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "Rules for this round: You may not bring in your own weapons (you must use the Kyzaj, a tier 70 weapon), and prayer is disabled. You may equip armour and jewellery, although runes and non-combat items (excluding food) are forbidden.",
+        "es": "Reglas para esta ronda: No puedes traer tus propias armas (debes usar el Kyzaj, un arma de nivel 70), y la oración está deshabilitada. Puedes equipar armadura y joyas, aunque las runas y los objetos que no sean de combate (excepto la comida) están prohibidos."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "The Kyzaj will automatically equip itself once the fight starts; you will not be able to equip it beforehand.",
+        "es": "El Kyzaj se equipará automáticamente en cuanto comience el combate; no podrás equipártelo de antemano."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 1,
+      "text": {
+        "en": "Fighting General Graardor he has three main mechanics.",
+        "es": "Al luchar contra General Graardor, este tiene tres mecánicas principales."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 2,
+      "text": {
+        "en": "The first one is a ground smash that affects the centre of the arena. Being in the centre makes you get hit for up to 5k damage.",
+        "es": "La primera es un golpe al suelo que afecta al centro de la arena. Estar en el centro puede hacer que recibas hasta 5.000 puntos de daño."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 2,
+      "text": {
+        "en": "The second attack is a cleave animation with no warning. Sidestep a few tiles and go back to attacking.",
+        "es": "El segundo ataque es una animación de tajo sin previo aviso. Muévete unas cuantas casillas hacia un lado y vuelve a atacar."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 2,
+      "text": {
+        "en": "The third mechanic he will destroy a section of the outer ring. This will hit for 5k damage if you do not move to another outer ring.",
+        "es": "En la tercera mecánica, destruirá una sección del anillo exterior. Esto causará 5.000 puntos de daño si no te mueves a otra parte del anillo exterior."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Zarador throws Zanik into the arena, giving you two choices: you may either slay Zanik or spare her. (opciones de chat: 4 Enough questions. I need to speak to Zanik • 3 I'm ready. • Any • Any • 2 Goodbye.)",
+        "es": "Zarador arroja a Zanik a la arena, dándote dos opciones: puedes matar a Zanik o perdonarle la vida. (opciones de chat: 4 Basta de preguntas. Necesito hablar con Zanik • 3 Estoy listo. • Cualquiera • Cualquiera • 2 Adiós.)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "Your Kyzaj appearance will initially depend upon your decision to kill or spare Zanik (you receive the Bloodied kyzaj if you kill her or the Honourable kyzaj if you spare her), but these can be freely exchanged after the quest.",
+        "es": "La apariencia de tu Kyzaj dependerá inicialmente de tu decisión de matar o perdonar a Zanik (recibirás el Bloodied kyzaj si la matas, o el Honourable kyzaj si le perdonas la vida), pero podrás intercambiarlos libremente después de la misión."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "If you chose to kill Zanik, you must speak to General Graardor to find out his plans (Graardor can be found by going south from Zarador, up the ladder, and taking the first pathway to the west to the bank spot). (opciones de chat: Any)",
+        "es": "Si decidiste matar a Zanik, debes hablar con General Graardor para averiguar sus planes (puedes encontrar a Graardor yendo al sur desde Zarador, subiendo por la escalera y tomando el primer camino hacia el oeste hasta el punto del banco). (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "If you chose to spare Zanik, you must speak to her and find out her plans (Zanik is standing next to Zarador). (opciones de chat: Any)",
+        "es": "Si decidiste perdonar a Zanik, debes hablar con ella para averiguar sus planes (Zanik está de pie junto a Zarador). (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Return to Ur-tag in Dorgesh-Kaan.",
+        "es": "Regresa con Ur-tag en Dorgesh-Kaan."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

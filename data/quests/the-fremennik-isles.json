@@ -1,0 +1,764 @@
+{
+  "id": "the-fremennik-isles",
+  "title": "The Fremennik Isles",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:20:57.952Z",
+  "icon": "https://runescape.wiki/images/The_Fremennik_Isles_icon.png",
+  "series": "Fremennik",
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "90-99",
+  "difficulty": "Experienced",
+  "length": "Long",
+  "releaseDate": "6 February 2007",
+  "startPoint": {
+    "en": "Talk to Mord Gunnars in northern Rellekka.",
+    "es": "Habla con Mord Gunnars en el norte de Rellekka."
+  },
+  "requirements": {
+    "quests": [
+      "The Fremennik Trials"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 40
+      },
+      {
+        "skill": "Construction",
+        "level": 20
+      },
+      {
+        "skill": "Crafting",
+        "level": 46
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 56
+      },
+      {
+        "skill": "Prayer",
+        "level": 43
+      },
+      {
+        "skill": "Defence",
+        "level": 25
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Mining",
+      "display": "Ores (can be noted) depending on your Mining level: 8 tin ores if between 1-10 7 coal if between 11-54 6 mithril ores if 55+",
+      "image": "https://runescape.wiki/images/thumb/1_-_99_percent_stamina.gif/100px-1_-_99_percent_stamina.gif?a9413"
+    },
+    {
+      "name": "Tin ore",
+      "display": "8 tin ores if between 1-10",
+      "image": "https://runescape.wiki/images/thumb/Tin_ore_detail.png/100px-Tin_ore_detail.png?82a5a"
+    },
+    {
+      "name": "Coal",
+      "display": "7 coal if between 11-54",
+      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    },
+    {
+      "name": "Mithril ore",
+      "display": "6 mithril ores if 55+",
+      "image": "https://runescape.wiki/images/thumb/Mithril_ore_detail.png/100px-Mithril_ore_detail.png?2d6f5"
+    },
+    {
+      "name": "Raw tuna",
+      "display": "Raw tuna",
+      "image": "https://runescape.wiki/images/thumb/Raw_tuna_detail.png/100px-Raw_tuna_detail.png?c5c1f"
+    },
+    {
+      "name": "Rope",
+      "display": "8 ropes",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    },
+    {
+      "name": "Split log",
+      "display": "8 split logs",
+      "image": "https://runescape.wiki/images/thumb/Split_log_detail.png/100px-Split_log_detail.png?e700b"
+    },
+    {
+      "name": "Yak-hide armour",
+      "display": "Yak-hide armour 3 cured yak-hides Thread spool",
+      "image": null
+    },
+    {
+      "name": "Cured yak-hide",
+      "display": "3 cured yak-hides",
+      "image": "https://runescape.wiki/images/thumb/Cured_yak-hide_detail.png/100px-Cured_yak-hide_detail.png?92cc4"
+    },
+    {
+      "name": "Thread",
+      "display": "Thread spool",
+      "image": "https://runescape.wiki/images/thumb/Thread_detail.png/100px-Thread_detail.png?13036"
+    },
+    {
+      "name": "Fremennik round shield",
+      "display": "Fremennik round shield Bronze nail Rope",
+      "image": "https://runescape.wiki/images/thumb/Fremennik_round_shield_detail.png/100px-Fremennik_round_shield_detail.png?3e70a"
+    },
+    {
+      "name": "Bronze nail",
+      "display": "Bronze nail",
+      "image": null
+    },
+    {
+      "name": "Rope",
+      "display": "Rope",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    }
+  ],
+  "kills": [
+    "10 Ice trolls (consisting of level 53 ice troll runts, level 68 ice troll females, level 68 ice troll grunts and level 68 ice troll males)",
+    "Ice Troll King (level 91)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 5000,
+      "display": "5,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 5000,
+      "display": "5,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Woodcutting",
+      "amount": 10000,
+      "display": "10,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Combat level",
+      "amount": 2,
+      "display": "2 × 10,000 experience in Strength, Attack, Defence, or Constitution",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "14,000 coins in assorted rewards during the quest.",
+      "display": "14,000 coins in assorted rewards during the quest.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Helm of Neitiznot",
+      "display": "A replaceable Fremennik royal helmet known as the Helm of Neitiznot, which is an upgrade to the warrior helm with a +3 prayer bonus and a better defensive bonus.",
+      "image": "https://runescape.wiki/images/thumb/Helm_of_Neitiznot_chathead.png/100px-Helm_of_Neitiznot_chathead.png?6fd8b"
+    },
+    {
+      "type": "item",
+      "name": "Arctic Pine",
+      "display": "Access to a new tree, the arctic pine.",
+      "image": "https://runescape.wiki/images/thumb/Arctic_pine.png/100px-Arctic_pine.png?35fc8"
+    },
+    {
+      "type": "item",
+      "name": "Fremennik Isles mine",
+      "display": "Access to a new mine north-east of Neitiznot that contains drakolith rocks.",
+      "image": "https://runescape.wiki/images/thumb/Fremennik_Isles_mine.png/100px-Fremennik_Isles_mine.png?ba44b"
+    },
+    {
+      "type": "item",
+      "name": "Jatizso dungeon mine",
+      "display": "Access to a new mine near Jatizso with mithril rocks and coal rocks, and a new mine with banite rocks (require completion of the elite Fremennik achievements).",
+      "image": "https://runescape.wiki/images/thumb/Jatizso_dungeon_mine.png/100px-Jatizso_dungeon_mine.png?fe5a2"
+    },
+    {
+      "type": "item",
+      "name": "The ability to make yak hide armour which protects against the granite clubs wielded by the trolls and the shield which protects against the stones thrown by the trolls.",
+      "display": "The ability to make yak hide armour which protects against the granite clubs wielded by the trolls and the shield which protects against the stones thrown by the trolls.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Contraband Yak Produce",
+      "display": "The Contraband Yak Produce store is available on Jatizso if the player refunds the 5,000 coins tax to Vanligga Gastfrihet, north of the king.",
+      "image": "https://runescape.wiki/images/thumb/Contraband_Yak_Produce_exterior.png/100px-Contraband_Yak_Produce_exterior.png?5aaba"
+    },
+    {
+      "type": "item",
+      "name": "Ned",
+      "display": "Ned in Draynor Village will now give an additional rope for free each time rope is purchased from him.",
+      "image": "https://runescape.wiki/images/thumb/Ned.png/100px-Ned.png?028b9"
+    },
+    {
+      "type": "item",
+      "name": "Island of the Trolls",
+      "display": "Island of the Trolls",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Jester Minute",
+      "display": "Jester Minute",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Major Miner",
+      "display": "Major Miner (In the mines on Jatizso)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Norse Code",
+      "display": "Norse Code",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ogre the Top",
+      "display": "Ogre the Top (Leave and re-enter the cave where you fight the trolls to unlock this track)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Volcanic Vikings",
+      "display": "Volcanic Vikings",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Right click and talk to Mord Gunnars on the northern Rellekka dock about Jatizso's history. (opciones de chat: Accept • 1 Tell me more about Jatizso's history. • 3 Can you ferry me to Jatizso?)",
+        "es": "Haz clic derecho y habla con Mord Gunnars en el muelle norte de Rellekka sobre la historia de Jatizso. (opciones de chat: Accept • 1 Cuéntame más sobre la historia de Jatizso. • 3 ¿Puedes llevarme en barco a Jatizso?)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "In Jatizso, talk to King Gjuki Sorvott IV in the building with tiled floors.",
+        "es": "En Jatizso, habla con King Gjuki Sorvott IV en el edificio con suelos de baldosas."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Give the King a raw tuna or use the tuna on the cat.",
+        "es": "Dale al Rey un atún crudo o usa el atún en el gato."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "Can be obtained from the cage/harpoon fishing spots to the south.",
+        "es": "Se puede obtener en las zonas de pesca con jaula/arpón al sur."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Give the King your ores.",
+        "es": "Dale al Rey tus minerales."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "There is a mine down the stairs to the north-west if you didn't bring them.",
+        "es": "Hay una mina bajando las escaleras al noroeste si no los trajiste."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Open the chest (behind the throne) and take the silly jester outfit. (opciones de chat: 1 Take the silly jester hat. • 1 Take the silly jester top. • 1 Take the silly jester tights.)",
+        "es": "Abre el cofre (detrás del trono) y coge el ridículo traje de bufón. (opciones de chat: 1 Coge el ridículo sombrero de bufón. • 1 Coge la ridícula parte superior de bufón. • 1 Coge los ridículos leotardos de bufón.)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Return to Rellekka and Travel-Neitiznot Maria Gunnars.",
+        "es": "Regresa a Rellekka y viaja a Neitiznot con Maria Gunnars."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Equip the silly jester outfit, with nothing in your hands, and talk to Slug Hemligssen, north of the bank. (opciones de chat: 4 Free stuff please. • 1 I am ready.)",
+        "es": "Equípate el ridículo traje de bufón, sin nada en las manos, y habla con Slug Hemligssen, al norte del banco. (opciones de chat: 4 Cosas gratis, por favor. • 1 Estoy listo.)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Mawnis Burowgar in the building south of the bank. Dismiss any Summoning familiars and pets.",
+        "es": "Habla con Mawnis Burowgar en el edificio al sur del banco. Despide a cualquier familiar de Invocación y mascota."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Use the jester controls to follow Mawnis's instructions.",
+        "es": "Usa los controles de bufón para seguir las instrucciones de Mawnis."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Return to Slug Hemligssen. (opciones de chat: 1 Yes I have. • 3 They will be ready in two days. • 2 Seventeen militia have been trained. • 1 There are two bridges to repair.)",
+        "es": "Regresa con Slug Hemligssen. (opciones de chat: 1 Sí, lo he hecho. • 3 Estarán listos en dos días. • 2 Se han entrenado diecisiete milicianos. • 1 Hay dos puentes que reparar.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Remove the silly jester outfit (keep it for later) and talk to Mawnis Burowgar.",
+        "es": "Quítate el ridículo traje de bufón (guárdalo para más adelante) y habla con Mawnis Burowgar."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "If you don't have 8 ropes:",
+        "es": "Si no tienes 8 cuerdas:"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 1,
+      "text": {
+        "en": "Kill yaks for 8 yak hair and spin them on the spinning wheel in the southeastern-most house.",
+        "es": "Mata yaks para conseguir 8 pelos de yak y hílalos en la rueca de la casa más al sureste."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 2,
+      "text": {
+        "en": "Optionally, make an additional rope for later in the quest.",
+        "es": "Opcionalmente, fabrica una cuerda adicional para más adelante en la misión."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 1,
+      "text": {
+        "en": "Take three yak-hide for later if you don't already have them.",
+        "es": "Coge tres pieles de yak para más adelante si aún no las tienes."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "If you don't have 8 split logs:",
+        "es": "Si no tienes 8 troncos partidos:"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "Cross the bridge to the north.",
+        "es": "Cruza el puente hacia el norte."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "Chop 8 arctic pine logs if you don't already have them.",
+        "es": "Tala 8 troncos de pino ártico si aún no los tienes."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 2,
+      "text": {
+        "en": "Optionally, chop 2 more for later in the quest. Don't split these 2, keep them whole.",
+        "es": "Opcionalmente, tala 2 más para más adelante en la misión. No los partas, guárdalos enteros."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 1,
+      "text": {
+        "en": "Use logs on the woodcutting stump across the bridge to the north (not a regular tree stump).",
+        "es": "Usa los troncos en el tocón de leñado al cruzar el puente hacia el norte (no un tocón de árbol normal)."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Mawnis Burowgar with the items.",
+        "es": "Habla con Mawnis Burowgar con los objetos."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Thakkrad Sigmundson about the bridges. (opciones de chat: 1 How do I repair these bridges again? • 2 Where do I find these bridges?)",
+        "es": "Habla con Thakkrad Sigmundson sobre los puentes. (opciones de chat: 1 ¿Cómo reparo estos puentes de nuevo? • 2 ¿Dónde encuentro estos puentes?)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Right click bridges, north of Neitiznot, to repair them.",
+        "es": "Haz clic derecho en los puentes, al norte de Neitiznot, para repararlos."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Mawnis Burowgar.",
+        "es": "Habla con Mawnis Burowgar."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Return to King Gjuki Sorvott IV on Jatizso.",
+        "es": "Regresa con King Gjuki Sorvott IV en Jatizso."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Tax the shop keepers of Jatizso:",
+        "es": "Cobra impuestos a los tenderos de Jatizso:"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 1,
+      "text": {
+        "en": "Hring Hring must pay 8,000; he is in southwesternmost house. (opciones de chat: 1 But rules are rules. Pay up!)",
+        "es": "Hring Hring debe pagar 8.000; está en la casa más al suroeste. (opciones de chat: 1 Pero las reglas son las reglas. ¡Paga!)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "Skuli Myrka must pay 6,000, north of Hring. (opciones de chat: 1 But, rules are rules. Pay up!)",
+        "es": "Skuli Myrka debe pagar 6.000, al norte de Hring. (opciones de chat: 1 Pero las reglas son las reglas. ¡Paga!)"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "Vanligga Gastfrihet must pay 5,000, north of the king's palace. (opciones de chat: 2 I suppose I could pay the tax for you.)",
+        "es": "Vanligga Gastfrihet debe pagar 5.000, al norte del palacio del rey. (opciones de chat: 2 Supongo que podría pagar el impuesto por ti.)"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "Keepa Kettilon must pay 5,000, east from Vanligga. (opciones de chat: 1 But rules are rules. Pay up!)",
+        "es": "Keepa Kettilon debe pagar 5.000, al este de Vanligga. (opciones de chat: 1 Pero las reglas son las reglas. ¡Paga!)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Return to King Gjuki Sorvott IV.",
+        "es": "Regresa con King Gjuki Sorvott IV."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Tax all bearded people for 1k:",
+        "es": "Cobra 1.000 de impuesto a todos los barbudos:"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "Hring Hring. (opciones de chat: 1 But rules are rules. Pay up!)",
+        "es": "Hring Hring. (opciones de chat: 1 Pero las reglas son las reglas. ¡Paga!)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "Raum Urda-Stein in a house with Hring Hring. (opciones de chat: 1 But rules are rules. Pay up!)",
+        "es": "Raum Urda-Stein en una casa con Hring Hring. (opciones de chat: 1 Pero las reglas son las reglas. ¡Paga!)"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "Skuli Myrka, north of Raum and Hring. (opciones de chat: 1 But rules are rules. Pay up!)",
+        "es": "Skuli Myrka, al norte de Raum y Hring. (opciones de chat: 1 Pero las reglas son las reglas. ¡Paga!)"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Keepa Kettilon, he is in the northeasternmost house. (opciones de chat: 1 But rules are rules. Pay up!)",
+        "es": "Keepa Kettilon, está en la casa más al noreste. (opciones de chat: 1 Pero las reglas son las reglas. ¡Paga!)"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Flosi Dalksson in a house with Keepa Kettilon. (opciones de chat: 1 But rules are rules. Pay up!)",
+        "es": "Flosi Dalksson en una casa con Keepa Kettilon. (opciones de chat: 1 Pero las reglas son las reglas. ¡Paga!)"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Return to King Gjuki Sorvott IV.",
+        "es": "Regresa con King Gjuki Sorvott IV."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Return to Rellekka, and take the boat to Neitiznot.",
+        "es": "Regresa a Rellekka y toma el barco a Neitiznot."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Equip the silly jester outfit and talk to Slug Hemligssen.",
+        "es": "Equípate el ridículo traje de bufón y habla con Slug Hemligssen."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Empty your hands and entertain Mawnis Burowgar again.",
+        "es": "Vacía tus manos y entretén de nuevo a Mawnis Burowgar."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Slug Hemligssen. (opciones de chat: 1 Yes, I am. • 2 They are in a secluded bay, near Etceteria. • 1 They will be given some potions. • 3 I have been helping Neitiznot.)",
+        "es": "Habla con Slug Hemligssen. (opciones de chat: 1 Sí, lo estoy. • 2 Están en una bahía apartada, cerca de Etceteria. • 1 Se les darán algunas pociones. • 3 He estado ayudando a Neitiznot.)"
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Talk to King Gjuki Sorvott IV in Jatizso.",
+        "es": "Habla con King Gjuki Sorvott IV en Jatizso."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "Make sure King Gjuki Sorvott IV gives you the Royal decree first. You may need to speak with him twice.",
+        "es": "Asegúrate de que King Gjuki Sorvott IV te dé primero el Real decreto. Puede que necesites hablar con él dos veces."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Remove the silly jester outfit and talk to Mawnis Burowgar in Neitiznot.",
+        "es": "Quítate el ridículo traje de bufón y habla con Mawnis Burowgar en Neitiznot."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "To obtain a yak-hide armour set:",
+        "es": "Para obtener un conjunto de armadura de piel de yak:"
+      }
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "text": {
+        "en": "Kill three yaks and give the three yak hides to Thakkrad Sigmundson to tan. (opciones de chat: 1 Cure all my hides.)",
+        "es": "Mata tres yaks y dale las tres pieles de yak a Thakkrad Sigmundson para que las curta. (opciones de chat: 1 Cura todas mis pieles.)"
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "Craft the top and legs with thread in the backpack.",
+        "es": "Confecciona la parte superior y las piernas con hilo en la mochila."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 2,
+      "text": {
+        "en": "Thread can be bought from Jofridr Mordstatter in the building with the bank chests north of Mawnis Burowgar.",
+        "es": "El hilo se puede comprar a Jofridr Mordstatter en el edificio con los cofres del banco al norte de Mawnis Burowgar."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Mawnis Burowgar when you have the yak armour.",
+        "es": "Habla con Mawnis Burowgar cuando tengas la armadura de yak."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 1,
+      "text": {
+        "en": "Make sure Mawnis mentions \"Fremennik round shield\" in order to craft the shield. You may need to speak with him twice.",
+        "es": "Asegúrate de que Mawnis mencione \"escudo redondo Fremennik\" para poder fabricar el escudo. Puede que necesites hablar con él dos veces."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "To obtain a round shield:",
+        "es": "Para obtener un escudo redondo:"
+      }
+    },
+    {
+      "index": 54,
+      "indent": 1,
+      "text": {
+        "en": "Buy 1 bronze nail from Jofridr in the bank, obtain 1 rope, chop two arctic logs",
+        "es": "Compra 1 clavo de bronce a Jofridr en el banco, consigue 1 cuerda, tala dos troncos árticos."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 1,
+      "text": {
+        "en": "Take everything to a woodcutting stump and interact with the woodcutting stump to craft the Fremennik round shield.",
+        "es": "Lleva todo a un tocón de leñado e interactúa con él para fabricar el escudo redondo Fremennik."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Mawnis Burowgar with these items.",
+        "es": "Habla con Mawnis Burowgar con estos objetos."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Prepare for battle then enter the Ice Troll Caves to the far east of the northern-most island.",
+        "es": "Prepárate para la batalla y luego entra en las Ice Troll Caves, en el extremo este de la isla más al norte."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 1,
+      "text": {
+        "en": "Protect from Ranged is advised. Familiars are not allowed. Equipping the Fremennik round shield drastically reduces Range damage taken from Ice Troll Females. Yak-hide armour drastically reduces Melee damage taken from Ice Troll Males, Runts, and Grunts. If you do not have good Ranged Defence, bring high-healing food. Even with Protect From Ranged active, the trolls quickly deplete your health. The Ice Troll King has a very high defence to ranged, so it is not advised to kill the boss with ranged weapons.",
+        "es": "Se recomienda Protegerse de Distancia. No se permiten familiares. Equipar el escudo redondo Fremennik reduce drásticamente el daño de Distancia recibido de las Ice Troll Female. La armadura de piel de yak reduce drásticamente el daño de Melé recibido de los Ice Troll Male, Runt y Grunt. Si no tienes buena Defensa contra Distancia, lleva comida de alta curación. Incluso con Protegerse de Distancia activo, los trolls agotan rápidamente tu salud. El Ice Troll King tiene una defensa muy alta contra Distancia, por lo que no se recomienda derrotar al jefe con armas de Distancia."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 1,
+      "text": {
+        "en": "Talk to or right click Request-supplies on Bork Sigmundson for seven Tunas, four 4 dose Strength potions, and two 3 dose Prayer potions if you need supplies. (opciones de chat: 1 Give me food, Bork! • 2 I need Strength potions! • 3 I need Prayer potions!)",
+        "es": "Habla o haz clic derecho en Request-supplies sobre Bork Sigmundson para conseguir siete atunes, cuatro pociones de Fuerza de 4 dosis y dos pociones de Oración de 3 dosis si necesitas suministros. (opciones de chat: 1 ¡Dame comida, Bork! • 2 ¡Necesito pociones de Fuerza! • 3 ¡Necesito pociones de Oración!)"
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Kill 10 ice trolls (killing the trolls by farcasting the ones on the east does not count).",
+        "es": "Mata a 10 ice trolls (matar a los trolls lanzando hechizos a distancia a los del este no cuenta)."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 1,
+      "text": {
+        "en": "There is a chatbox message saying \"You have defeated enough trolls to attack the King.\"",
+        "es": "Aparece un mensaje en el chat que dice \"Has derrotado suficientes trolls para atacar al Rey.\""
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Cross the bridge, kill and then decapitate the Ice Troll King.",
+        "es": "Cruza el puente, mata y luego decapita al Ice Troll King."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Take the head to Mawnis Burowgar.",
+        "es": "Lleva la cabeza a Mawnis Burowgar."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

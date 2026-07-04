@@ -1,0 +1,447 @@
+{
+  "id": "one-piercing-note",
+  "title": "One Piercing Note",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:00:08.556Z",
+  "icon": "https://runescape.wiki/images/One_Piercing_Note_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "pathfinder",
+  "members": false,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Medium to Long",
+  "releaseDate": "7 November 2011",
+  "startPoint": {
+    "en": "Speak to Sister Catherina outside the Abbey of St. Elspeth Citharede, east of Al Kharid.",
+    "es": "Habla con Sister Catherina fuera del Abbey of St. Elspeth Citharede, al este de Al Kharid."
+  },
+  "requirements": {
+    "quests": [
+      "One Piercing Note"
+    ],
+    "skills": []
+  },
+  "items": [
+    {
+      "name": "Cabbage",
+      "display": "Cabbage (obtainable during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Cabbage_detail.png/100px-Cabbage_detail.png?da7ae"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Prayer",
+      "amount": 250,
+      "display": "250 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Citharede robes",
+      "display": "Citharede robes The ability to recharge 33 Prayer points per tick while listening to a Musician (when wearing all 4 Citharede robe-pieces).",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Troubadour Dance",
+      "display": "Troubadour Dance emote",
+      "image": "https://runescape.wiki/images/Troubadour_Dance_emote_icon.png?3c29d"
+    },
+    {
+      "type": "item",
+      "name": "Devotion",
+      "display": "Devotion, Transfigure, and Sacrifice abilities",
+      "image": "https://runescape.wiki/images/thumb/Devotion.gif/100px-Devotion.gif?686d0"
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "xp",
+      "skill": "Illuminated god books",
+      "amount": null,
+      "display": "Ability to make Illuminated god books (with a requirement of level 60 and 60 , and completion of the quest Horror from the Deep) The first time each Illuminated god book is made, you will receive 10,000 experience in both Prayer and Crafting, per type of (completed) god book. Making a total experience reward possible of 60,000 in both Prayer and Crafting."
+    },
+    {
+      "type": "xp",
+      "skill": "Holy Cithara",
+      "amount": null,
+      "display": "The ability to obtain Saint Elspeth's Holy Cithara from the Reliquary beneath the Abbey and gain an additional 50,000 experience. Certain other items are needed to achieve this and are listed here."
+    },
+    {
+      "type": "item",
+      "name": "Valerio's Song",
+      "display": "Valerio's Song (upon entering the Abbey (quest not required))"
+    },
+    {
+      "type": "item",
+      "name": "Traveller's Tale",
+      "display": "Traveller's Tale (upon exiting the Abbey gate during Sister Elena's murder investigation)"
+    },
+    {
+      "type": "item",
+      "name": "Troubadour Dance (music track)",
+      "display": "Troubadour Dance (upon exiting the Abbey gate when tasked to escort Sister Catherina back)"
+    },
+    {
+      "type": "item",
+      "name": "Citharede Requiem",
+      "display": "Citharede Requiem (during the first cutscene of funeral ceremony)"
+    },
+    {
+      "type": "item",
+      "name": "The Abbey",
+      "display": "The Abbey"
+    },
+    {
+      "type": "item",
+      "name": "Requiem Rehearsal",
+      "display": "Requiem Rehearsal"
+    },
+    {
+      "type": "item",
+      "name": "There Has Been a Murder",
+      "display": "There Has Been a Murder"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sister Catherina east of Al Kharid and the Desert strykewyrms. (opciones de chat: 1 Yes! I've come to answer your prayers! • 2 Yes, I'll help you. • Accept)",
+        "es": "Habla con Sister Catherina al este de Al Kharid y los Desert strykewyrms. (opciones de chat: 1 ¡Sí! ¡He venido a responder a tus plegarias! • 2 Sí, te ayudaré. • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Abbess Benita in the abbey, in the centre room north of the fountain. (opciones de chat: 2 What can I do to help? • 1 Of course.)",
+        "es": "Habla con Abbess Benita en la abadía, en la sala central al norte de la fuente. (opciones de chat: 2 ¿Qué puedo hacer para ayudar? • 1 Por supuesto.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "The cells are in the southeast corner. Enter the westernmost one (Anna's cell).",
+        "es": "Las celdas están en la esquina sureste. Entra en la más occidental (la celda de Anna)."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the bed and window.",
+        "es": "Inspecciona la cama y la ventana."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Go back northwest to the room west of Abbess Benita's office and inspect the beds in there for another cloth fragment.",
+        "es": "Vuelve al noroeste, a la sala al oeste de la oficina de Abbess Benita, e inspecciona las camas allí para encontrar otro fragmento de tela."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Run directly south and inspect the body (the body is covered up in the bed in the southwesternmost room).",
+        "es": "Corre directamente hacia el sur e inspecciona el cuerpo (el cuerpo está cubierto en la cama de la sala más al suroeste)."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Question 5 people around the abbey.",
+        "es": "Interroga a 5 personas por la abadía."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "Valerio - Musician outside the abbey (3 clues). (opciones de chat: 1 What were you singing about? • 1 You were singing about Sister Anna, weren't you? • 2 Where were you between Vespers and Compline yesterday? • 2 I can't tell you, sorry.)",
+        "es": "Valerio - Músico fuera de la abadía (3 pistas). (opciones de chat: 1 ¿Sobre qué cantabas? • 1 Cantabas sobre Sister Anna, ¿verdad? • 2 ¿Dónde estabas entre las vísperas y las completas de ayer? • 2 No puedo decírtelo, lo siento.)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 1,
+      "text": {
+        "en": "Sister Elena, north of the cabbages, in the kitchen (3 clues). (opciones de chat: 2 Where were you between Vespers and Compline yesterday? • 2 What did you think of Sister Anna? • 4 Goodbye.)",
+        "es": "Sister Elena, al norte de las coles, en la cocina (3 pistas). (opciones de chat: 2 ¿Dónde estabas entre las vísperas y las completas de ayer? • 2 ¿Qué opinabas de Sister Anna? • 4 Adiós.)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "text": {
+        "en": "Sister Cecilia, in the east-central room, the chapel (3 clues). (opciones de chat: 1 What are you rehearsing? • 1 No - could you tell me? • 2 Go on. • 3 Back to my other questions... • 2 Where were you between Vespers and Compline yesterday? • 4 Goodbye.)",
+        "es": "Sister Cecilia, en la sala centro-este, la capilla (3 pistas). (opciones de chat: 1 ¿Qué estás ensayando? • 1 No... ¿podrías decírmelo? • 2 Continúa. • 3 Volviendo a mis otras preguntas... • 2 ¿Dónde estabas entre las vísperas y las completas de ayer? • 4 Adiós.)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 1,
+      "text": {
+        "en": "Sister Catherina, in the chapel (2 clues). (opciones de chat: 1 Where were you between Vespers and Compline yesterday? • 1 I'd like that. • 1 What did you think of Sister Anna? • 1 What other applicant? • 2 I can't tell you, sorry. • 3 Goodbye.)",
+        "es": "Sister Catherina, en la capilla (2 pistas). (opciones de chat: 1 ¿Dónde estabas entre las vísperas y las completas de ayer? • 1 Me gustaría. • 1 ¿Qué opinabas de Sister Anna? • 1 ¿Qué otra candidata? • 2 No puedo decírtelo, lo siento. • 3 Adiós.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "Feet (known as Sister Debora), on the of the clock tower on the northeast side, sticking out under the clock mechanism. Talk to her (opciones de chat: 2 Where were you between Vespers and Compline yesterday?), then, operate the clock mechanism to show 12 o'clock. Afterwards, talk to her again (2 clues). (opciones de chat: 1 Where were you between Vespers and Compline yesterday? • 2 Tell me about the troubadour outside. • 2 What did you think of Sister Anna? • 3 Goodbye.)",
+        "es": "Pies (conocidos como Sister Debora), en la torre del reloj en el lado noreste, sobresaliendo bajo el mecanismo del reloj. Habla con ella (opciones de chat: 2 ¿Dónde estabas entre las vísperas y las completas de ayer?), luego, opera el mecanismo del reloj para que marque las 12 en punto. Después, vuelve a hablar con ella (2 pistas). (opciones de chat: 1 ¿Dónde estabas entre las vísperas y las completas de ayer? • 2 Cuéntame sobre el trovador de fuera. • 2 ¿Qué opinabas de Sister Anna? • 3 Adiós.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Return to Abbess Benita, select any suspect. (opciones de chat: 1 I've finished investigating for now. • Any)",
+        "es": "Vuelve con Abbess Benita, elige cualquier sospechosa. (opciones de chat: 1 He terminado de investigar por ahora. • Cualquiera)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Climb down the stairs to the cellar in the room northeast of the chapel.",
+        "es": "Baja las escaleras hacia el sótano en la sala al noreste de la capilla."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the bloodstains (1 clue) and body (5 clues).",
+        "es": "Investiga las manchas de sangre (1 pista) y el cuerpo (5 pistas)."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Search the robe cabinet south of Sister Elena's body. (1 clue)",
+        "es": "Registra el armario de sotanas al sur del cuerpo de Sister Elena. (1 pista)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Return to Abbess Benita for a cell key. (opciones de chat: 2 I need the key to Sister Elena's cell.)",
+        "es": "Vuelve con Abbess Benita para conseguir una llave de celda. (opciones de chat: 2 Necesito la llave de la celda de Sister Elena.)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Search the sack (singular, not the sacks) in the kitchen adjacent, east of Abbess Benita.",
+        "es": "Registra el saco (singular, no los sacos) en la cocina adyacente, al este de Abbess Benita."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "In the southeast corner of the building, enter the second cell from the east (Elena's cell) and inspect the bed.",
+        "es": "En la esquina sureste del edificio, entra en la segunda celda desde el este (la celda de Elena) e inspecciona la cama."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Read the letters, talk to Valerio the musician about Sister Elena's death (1 clue). (opciones de chat: 1 Were you having an affair with Sister Elena? • 2 Sister Elena is dead. • Any)",
+        "es": "Lee las cartas, habla con Valerio el músico sobre la muerte de Sister Elena (1 pista). (opciones de chat: 1 ¿Tenías una aventura con Sister Elena? • 2 Sister Elena está muerta. • Cualquiera)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sister Cecilia in the chapel for a clue. (opciones de chat: 2 Can you tell me exactly what happened?)",
+        "es": "Habla con Sister Cecilia en la capilla para obtener una pista. (opciones de chat: 2 ¿Puedes contarme exactamente qué pasó?)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Return to Abbess Benita and blame anyone/nobody. (opciones de chat: 1 I've finished investigating for now. • Any)",
+        "es": "Vuelve con Abbess Benita y acusa a alguien/a nadie. (opciones de chat: 1 He terminado de investigar por ahora. • Cualquiera)"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sister Catherina, who is now dancing outside near Valerio. (opciones de chat: 1 Abbess Benita asked me to bring you back to the abbey. • 3 No. You should get back into the abbey.)",
+        "es": "Habla con Sister Catherina, que ahora está bailando afuera cerca de Valerio. (opciones de chat: 1 Abbess Benita me pidió que te llevara de vuelta a la abadía. • 3 No. Deberías volver a la abadía.)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sister Catherina again. (opciones de chat: 1 Abbess Benita asked me to bring you back to the abbey.) A cutscene begins.",
+        "es": "Vuelve a hablar con Sister Catherina. (opciones de chat: 1 Abbess Benita me pidió que te llevara de vuelta a la abadía.) Comienza una escena cinemática."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Climb the nearby ladder (immediately south of the closed gate), operate the winch, then climb back down.",
+        "es": "Sube por la escalera cercana (inmediatamente al sur de la puerta cerrada), acciona el torno, luego vuelve a bajar."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "You do not need to do this step if you skip the cutscene.",
+        "es": "No necesitas hacer este paso si te saltas la escena cinemática."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Valerio near the dead body.",
+        "es": "Habla con Valerio cerca del cuerpo sin vida."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Abbess Benita. (opciones de chat: 4 (More...) • 4 (More...) • 4 I don't know who did it. • 3 We should lay a trap. • 4 A new victim. • 2 They were all associated with Valerio.)",
+        "es": "Habla con Abbess Benita. (opciones de chat: 4 (Más...) • 4 (Más...) • 4 No sé quién lo hizo. • 3 Deberíamos tender una trampa. • 4 Una nueva víctima. • 2 Todas estaban relacionadas con Valerio.)"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Pick a cabbage and climb down the stairs to the cellar in the room northeast of the chapel.",
+        "es": "Coge una col y baja las escaleras hacia el sótano en la sala al noreste de la capilla."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Click move on the candelabrum near the eastern wall in the centre of the room north of the Reliquary, then use a cabbage on it (but don't eat it).",
+        "es": "Haz clic en mover sobre el candelabro cerca de la pared este en el centro de la sala al norte del Reliquary, luego usa una col en él (pero no te la comas)."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Search the robe cabinet, then use the robes on the cabbage-on-candelabrum.",
+        "es": "Registra el armario de sotanas, luego usa las sotanas sobre la col-en-el-candelabro."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Hide-in the cabinet (opciones de chat: 1 Hide in the robe cabinet and wait.). You may skip the cutscene.",
+        "es": "Escóndete en el armario (opciones de chat: 1 Esconderse en el armario de sotanas y esperar.). Puedes saltarte la escena cinemática."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Knock out the killer, then chase after them around the abbey.",
+        "es": "Deja inconsciente al asesino, luego persíguelo por toda la abadía."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the killer at the top of the tower. (opciones de chat: Any • Any • 4 Enough talk!)",
+        "es": "Habla con el asesino en lo alto de la torre. (opciones de chat: Cualquiera • Cualquiera • 4 ¡Basta de hablar!)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Climb down the stairs. You will get sent all the way down.",
+        "es": "Baja las escaleras. Te enviarán hasta abajo del todo."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Climb up the stairs twice and operate the clock mechanism so that the minute hand points to 12.",
+        "es": "Sube las escaleras dos veces y opera el mecanismo del reloj para que el minutero apunte al 12."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Climb up the stairs and talk to the killer about the bell. (opciones de chat: 4 Listen - is that the bell ringing?)",
+        "es": "Sube las escaleras y habla con el asesino sobre la campana. (opciones de chat: 4 Escucha... ¿es esa la campana sonando?)"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sister Debora, she'll leave. (opciones de chat: 3 What should we do with Sister Anna?)",
+        "es": "Habla con Sister Debora, ella se marchará. (opciones de chat: 3 ¿Qué deberíamos hacer con Sister Anna?)"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sister Anna (the killer) (opciones de chat: Any). You may skip the cutscene.",
+        "es": "Habla con Sister Anna (la asesina) (opciones de chat: Cualquiera). Puedes saltarte la escena cinemática."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Abbess Benita. (opciones de chat: Any)",
+        "es": "Habla con Abbess Benita. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

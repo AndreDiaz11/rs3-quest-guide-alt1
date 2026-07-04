@@ -1,0 +1,151 @@
+{
+  "id": "rune-mythos",
+  "title": "Rune Mythos",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:12:35.818Z",
+  "icon": "https://runescape.wiki/images/thumb/Rune_Mythos_icon.png/50px-Rune_Mythos_icon.png",
+  "series": "The First Necromancer",
+  "age": "Age of Chaos",
+  "timeline": "Age of Chaos",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Short to Medium",
+  "releaseDate": "7 August 2023",
+  "startPoint": {
+    "en": "Speak to Malignius Mortifer in the City of Um.",
+    "es": "Habla con Malignius Mortifer en la City of Um."
+  },
+  "requirements": {
+    "quests": [
+      "Necromancy!"
+    ],
+    "skills": [
+      {
+        "skill": "Necromancy",
+        "level": 24
+      }
+    ]
+  },
+  "items": [],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Necromancy XP lamp (Rune Mythos)",
+      "display": "1,500 Necromancy XP lamp",
+      "image": "https://runescape.wiki/images/thumb/Necromancy_XP_lamp_%28Rune_Mythos%29_detail.png/100px-Necromancy_XP_lamp_%28Rune_Mythos%29_detail.png?749df"
+    },
+    {
+      "type": "item",
+      "name": "Runecrafting XP lamp (Rune Mythos)",
+      "display": "250 Runecrafting XP lamp",
+      "image": "https://runescape.wiki/images/thumb/Runecrafting_XP_lamp_%28Rune_Mythos%29_detail.png/100px-Runecrafting_XP_lamp_%28Rune_Mythos%29_detail.png?9ba23"
+    },
+    {
+      "type": "item",
+      "name": "Lesser essence",
+      "display": "Access to lesser, greater, and powerful essence rituals",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Necrotic runes",
+      "display": "Access to necromancy runecrafting",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Incantations",
+      "display": "Access to necromancy incantations",
+      "image": "https://runescape.wiki/images/thumb/Incantations_icon.png/100px-Incantations_icon.png?3e55a"
+    },
+    {
+      "type": "item",
+      "name": "City of Um Teleport",
+      "display": "City of Um Teleport incantation",
+      "image": "https://runescape.wiki/images/thumb/City_of_Um_Teleport.gif/100px-City_of_Um_Teleport.gif?84fb6"
+    },
+    {
+      "type": "item",
+      "name": "Lesser Bone Shield",
+      "display": "Lesser Bone Shield incantation",
+      "image": "https://runescape.wiki/images/thumb/Lesser_Bone_Shield.gif/100px-Lesser_Bone_Shield.gif?23f52"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Malignius Mortifer next to the ritual site. (opciones de chat: 1 Yes. • Accept • 4 I'm good. What's next?)",
+        "es": "Habla con Malignius Mortifer junto al lugar del ritual. (opciones de chat: 1 Sí. • Aceptar • 4 Muy bien. ¿Qué toca ahora?)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Perform a lesser essence ritual and collect impure essence from the ritual chest. Malignius Mortifer will give you eight basic ghostly ink, four regular ghostly ink, and 200 pure essence for the lesser essence ritual.",
+        "es": "Realiza un ritual de esencia menor y recoge esencia impura del baúl del ritual. Malignius Mortifer te dará ocho tintas fantasmales básicas, cuatro tintas fantasmales normales y 200 esencias puras por el ritual de esencia menor."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "You need two Elemental I glyphs, two Change I glyphs, and four light sources.",
+        "es": "Necesitas dos glifos de Elemental I, dos glifos de Cambio I y cuatro fuentes de luz."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Withdraw the output of the ritual from the ritual chest on the ritual site.",
+        "es": "Retira el resultado del ritual del baúl del ritual en el lugar del ritual."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Head to north-eastern area of the city and enter through the dark portal with some unnoted impure essence.",
+        "es": "Dirígete a la zona noreste de la ciudad y entra por el portal oscuro con algo de esencia impura sin marcar."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to make some spirit runes and interact with Rasial, the First Necromancer. Make sure to actually talk to him after his initial message, otherwise the quest will not progress.",
+        "es": "Intenta crear algunas runas de espíritu e interactúa con Rasial, the First Necromancer. Asegúrate de hablar realmente con él después de su mensaje inicial, de lo contrario la misión no avanzará."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Craft your runes.",
+        "es": "Fabrica tus runas."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Head back to Malignius to complete the quest. (opciones de chat: 1 Yes.)",
+        "es": "Vuelve con Malignius para completar la misión. (opciones de chat: 1 Sí.)"
+      }
+    }
+  ]
+}

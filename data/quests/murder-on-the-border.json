@@ -1,0 +1,520 @@
+{
+  "id": "murder-on-the-border",
+  "title": "Murder on the Border",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T01:57:58.880Z",
+  "icon": "https://runescape.wiki/images/thumb/Murder_on_the_Border_icon.png/50px-Murder_on_the_Border_icon.png",
+  "series": "Fort Forinthry",
+  "age": "Age of Chaos",
+  "timeline": "Age of Chaos",
+  "members": true,
+  "combatLevel": "scaled",
+  "difficulty": "Novice",
+  "length": "Medium",
+  "releaseDate": "20 March 2023",
+  "startPoint": {
+    "en": "Speak to Aster in the Town Hall of Fort Forinthry.",
+    "es": "Habla con Aster en el Ayuntamiento de Fort Forinthry."
+  },
+  "requirements": {
+    "quests": [
+      "New Foundations",
+      "Town Hall (Tier 1)",
+      "Command Centre (Tier 1)",
+      "Workshop (Tier 1)",
+      "Chapel (Tier 1)"
+    ],
+    "skills": [
+      {
+        "skill": "Woodcutting",
+        "level": 20
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Stone wall segment",
+      "display": "6 stone wall segments",
+      "image": "https://runescape.wiki/images/thumb/Stone_wall_segment_detail.png/100px-Stone_wall_segment_detail.png?2b245"
+    },
+    {
+      "name": "Willow frame",
+      "display": "12 willow frames",
+      "image": "https://runescape.wiki/images/thumb/Willow_frame_detail.png/100px-Willow_frame_detail.png?48e15"
+    },
+    {
+      "name": "Limestone brick",
+      "display": "24 limestone bricks to make stone wall segments",
+      "image": "https://runescape.wiki/images/thumb/Limestone_brick_detail.png/100px-Limestone_brick_detail.png?7799b"
+    },
+    {
+      "name": "Willow plank",
+      "display": "144 willow planks to make willow frames",
+      "image": "https://runescape.wiki/images/thumb/Willow_plank_detail.png/100px-Willow_plank_detail.png?68efb"
+    }
+  ],
+  "kills": [
+    "One assassin that scales to your combat level (optional)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 8000,
+      "display": "8,000 experience lamp (Skill must be level 40 or higher)",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Skills",
+      "amount": 3000,
+      "display": "3,000 experience lamp (Skill must be level 30 or higher)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Kitchen (Fort Forinthry)",
+      "display": "The ability to build all three tiers of the Fort Forinthry Kitchen",
+      "image": "https://runescape.wiki/images/thumb/Kitchen_%28Fort_Forinthry%2C_unbuilt%29.png/100px-Kitchen_%28Fort_Forinthry%2C_unbuilt%29.png?3b218"
+    },
+    {
+      "type": "item",
+      "name": "A Feast to Die For",
+      "display": "A Feast to Die For",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Aster in the Town Hall at Fort Forinthry. (opciones de chat: 1 Talk about quests... • 1 Talk about 'Murder on the Border'. • Accept • Any • Any)",
+        "es": "Habla con Aster en el Ayuntamiento de Fort Forinthry. (opciones de chat: 1 Hablar sobre misiones... • 1 Hablar sobre 'Murder on the Border'. • Aceptar • Cualquiera • Cualquiera)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill about building the Kitchen. (opciones de chat: 1 Talk about 'Murder on the Border'.)",
+        "es": "Habla con Bill sobre la construcción de la Kitchen. (opciones de chat: 1 Hablar sobre 'Murder on the Border'.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Check plans on the Fort Forinthry blueprints table near Bill and choose Kitchen (Tier 1).",
+        "es": "Consulta los planos en la mesa de planos de Fort Forinthry cerca de Bill y elige Kitchen (Nivel 1)."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Build the Kitchen located east of the Town Hall. (opciones de chat: 1 Yes.)",
+        "es": "Construye la Kitchen situada al este del Ayuntamiento. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Aster. (opciones de chat: 1 Talk about quests... • 1 Talk about 'Murder on the Border'.)",
+        "es": "Habla con Aster. (opciones de chat: 1 Hablar sobre misiones... • 1 Hablar sobre 'Murder on the Border'.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Click the light blue portal south of the well to start the cutscene. (opciones de chat: 1 Yes.)",
+        "es": "Haz clic en el portal azul claro al sur del pozo para iniciar la escena. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Watch the cutscene and welcome the guests as they arrive. (opciones de chat: ~ • ~ • ~ • ~)",
+        "es": "Observa la escena y da la bienvenida a los invitados a medida que llegan. (opciones de chat: ~ • ~ • ~ • ~)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to three groups of guests in the Town Hall:",
+        "es": "Habla con tres grupos de invitados en el Ayuntamiento:"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 1,
+      "text": {
+        "en": "Any guest in the western room.",
+        "es": "Cualquier invitado en la sala occidental."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "text": {
+        "en": "Any guest on .",
+        "es": "Cualquier invitado en ."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 1,
+      "text": {
+        "en": "Any character in the central room. . (opciones de chat: ~)",
+        "es": "Cualquier personaje en la sala central. . (opciones de chat: ~)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Aster in the central room on . (opciones de chat: 1 Talk about 'Yes, let's start the feast'.)",
+        "es": "Habla con Aster en la sala central en . (opciones de chat: 1 Hablar sobre 'Yes, let's start the feast'.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Converse with the guests during the feast cutscene. (opciones de chat: ~ • ~ • ~)",
+        "es": "Conversa con los invitados durante la escena del banquete. (opciones de chat: ~ • ~ • ~)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Once the cutscene is completed, continue the conversation with Aster to obtain a mystery journal. (opciones de chat: ~)",
+        "es": "Una vez completada la escena, continúa la conversación con Aster para obtener un diario misterioso. (opciones de chat: ~)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "(1/8) Go back to the Kitchen and investigate the nut roast located on a table in the southeast corner of the room.",
+        "es": "(1/8) Vuelve a la Kitchen e investiga el asado de nueces ubicado en una mesa en la esquina sureste de la sala."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "(2/8) At the north-west part of the Fort, by the northern gates, investigate the strange satchel beside the rock (southeast of the guards). (opciones de chat: ~)",
+        "es": "(2/8) En la parte noroeste del Fort, junto a las puertas del norte, investiga la bolsa extraña junto a la roca (al sureste de los guardias). (opciones de chat: ~)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "(3/8) Talk to Simon outside of the Town Hall (opciones de chat: 2 Link a clue to Simon.) and Link \"How to Poison Dummies for Dummies\".",
+        "es": "(3/8) Habla con Simon fuera del Ayuntamiento (opciones de chat: 2 Vincular una pista con Simon.) y vincula \"How to Poison Dummies for Dummies\"."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "(4/8) Investigate the half-buried box in the northeastern corner of the fort.",
+        "es": "(4/8) Investiga la caja semienterrada en la esquina noreste del fuerte."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Detect the poison:",
+        "es": "Detecta el veneno:"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "Investigate the strange satchel again and take a poison detection potion (base). (opciones de chat: 1 Take a vial. • 2 Leave.)",
+        "es": "Investiga de nuevo la bolsa extraña y coge una poción de detección de veneno (base). (opciones de chat: 1 Coger un vial. • 2 Marcharse.)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 1,
+      "text": {
+        "en": "Search the supply cupboard in the Kitchen and take a hollyhock. (opciones de chat: 1 Take hollyhock. • 4 Leave.)",
+        "es": "Registra el armario de suministros en la Kitchen y coge una hollyhock. (opciones de chat: 1 Coger hollyhock. • 4 Marcharse.)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 1,
+      "text": {
+        "en": "Use the hollyhock on the vial to create an unheated poison detection potion (hollyhock).",
+        "es": "Usa la hollyhock en el vial para crear una poción de detección de veneno sin calentar (hollyhock)."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "Heat the vial on the range.",
+        "es": "Calienta el vial en el fogón."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "(5/8) Use the poison detection potion (hollyhock) on the duke's meal (meat pâté) on the dining table. (opciones de chat: 2 Use it on the duke's meat pâté.)",
+        "es": "(5/8) Usa la poción de detección de veneno (hollyhock) en la comida del duque (paté de carne) en la mesa del comedor. (opciones de chat: 2 Usarla en el paté de carne del duque.)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "(6/8) Talk to King Roald in the Chapel. (opciones de chat: 1 Talk to King Roald. • 1 Did you notice anything suspicious? • 3 That's all for now.)",
+        "es": "(6/8) Habla con King Roald en la Chapel. (opciones de chat: 1 Hablar con King Roald. • 1 ¿Notaste algo sospechoso? • 3 Eso es todo por ahora.)"
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "(7/8) Go to the Command Centre and speak to Duchess Alba (opciones de chat: 2 Link a clue to Duchess Alba), and Link the \"Nut Roast\".",
+        "es": "(7/8) Ve al Command Centre y habla con Duchess Alba (opciones de chat: 2 Vincular una pista con Duchess Alba), y vincula el \"Nut Roast\"."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "(8/8) Talk to Bianca outside the chapel (opciones de chat: 2 Link a clue to Bianca.), and Link the \"Stolen Jewellery\". (opciones de chat: ~)",
+        "es": "(8/8) Habla con Bianca fuera de la Chapel (opciones de chat: 2 Vincular una pista con Bianca.), y vincula la \"Stolen Jewellery\". (opciones de chat: ~)"
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Ascend to the top floor of the Town Hall and talk to Aster.",
+        "es": "Sube hasta el piso superior del Ayuntamiento y habla con Aster."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Fight the assassin.",
+        "es": "Lucha contra el asesino."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "If you die, Princess will kill the assassin for you.",
+        "es": "Si mueres, Princess matará al asesino por ti."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Aster after defeating the assassin.",
+        "es": "Habla con Aster tras derrotar al asesino."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Search the assassin's body for an assassin's letter then talk to Aster.",
+        "es": "Registra el cuerpo del asesino en busca de una carta del asesino y luego habla con Aster."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "(1/8) Speak with anyone outside by the well.",
+        "es": "(1/8) Habla con cualquiera fuera junto al pozo."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "(2/8) Investigate the wax seal outside the northwestern corner of the Chapel.",
+        "es": "(2/8) Investiga el sello de cera fuera de la esquina noroeste de la Chapel."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "(3/8) Speak to Iris in the Workshop and Link the \"Strange Seal\" to obtain the amulet of spanielspeak clue.",
+        "es": "(3/8) Habla con Iris en el Workshop y vincula el \"Strange Seal\" para obtener la pista del amulet of spanielspeak."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "(4/8) In the Town Hall, investigate the burnt parchment on the floor near the fireplace.",
+        "es": "(4/8) En el Ayuntamiento, investiga el pergamino quemado en el suelo cerca de la chimenea."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Find the unearthed coffer:",
+        "es": "Encuentra el cofre desenterrado:"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Talk to Princess, the dog, just east of the stonecutter outside the Workshop and Link the \"Amulet of Spanielspeak\".",
+        "es": "Habla con Princess, la perra, justo al este del stonecutter fuera del Workshop y vincula el \"Amulet of Spanielspeak\"."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Go to the northwestern corner of the fort next to the ladder and speak to Princess. (Princess will follow you.)",
+        "es": "Ve a la esquina noroeste del fuerte junto a la escalera y habla con Princess. (Princess te seguirá.)"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 1,
+      "text": {
+        "en": "Investigate the miscellaneous items that appear.",
+        "es": "Investiga los objetos variados que aparecen."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 1,
+      "text": {
+        "en": "Stand near Queen Ellamaria outside by the well, then speak to Princess again.",
+        "es": "Colócate cerca de Queen Ellamaria fuera junto al pozo, y luego habla de nuevo con Princess."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "text": {
+        "en": "Stand at the altar in the chapel, then speak to Princess once again.",
+        "es": "Colócate en el altar de la Chapel, y luego habla de nuevo con Princess."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "(5/8) Investigate the unearthed coffer (which may be underneath Aster, Princess, or your character).",
+        "es": "(5/8) Investiga el cofre desenterrado (que puede estar debajo de Aster, Princess o tu personaje)."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "(6/8) Talk to Duchess Alba in the Command Centre.",
+        "es": "(6/8) Habla con Duchess Alba en el Command Centre."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Rodney outside the Workshop and ask about Ellamaria.",
+        "es": "Habla con Rodney fuera del Workshop y pregúntale sobre Ellamaria."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "(7/8) Speak to Rodney again and Link the \"Scorched Will\"",
+        "es": "(7/8) Habla de nuevo con Rodney y vincula el \"Scorched Will\"."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "(8/8) Speak to Queen Ellamaria outside by the well and ask about being friends with Bianca. and finish speaking with Aster.",
+        "es": "(8/8) Habla con Queen Ellamaria fuera junto al pozo y pregúntale sobre su amistad con Bianca, y termina de hablar con Aster."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Talk to anyone in the courtyard.",
+        "es": "Habla con cualquiera en el patio."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Identify the murderer as Bianca.",
+        "es": "Identifica a Bianca como la asesina."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Talk to King Roald.",
+        "es": "Habla con King Roald."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Aster in the Town Hall.",
+        "es": "Habla con Aster en el Ayuntamiento."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Rodney in the Kitchen.",
+        "es": "Habla con Rodney en la Kitchen."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,961 @@
+{
+  "id": "desert-treasure",
+  "title": "Desert Treasure",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:04:45.688Z",
+  "icon": "https://runescape.wiki/images/Desert_Treasure_icon.png",
+  "series": "Mahjarrat Mysteries",
+  "age": "5",
+  "timeline": "legendary",
+  "members": true,
+  "combatLevel": "120-129",
+  "difficulty": "Master",
+  "length": "Very Long",
+  "releaseDate": "18 April 2005",
+  "startPoint": {
+    "en": "Talk to Asgarnia Smith, the archaeologist who is exploring the Bedabin Camp south-west of the Shantay Pass.",
+    "es": "Habla con Asgarnia Smith, el arqueólogo que está explorando el Bedabin Camp al suroeste del Shantay Pass."
+  },
+  "requirements": {
+    "quests": [
+      "The Dig Site",
+      "Troll Stronghold",
+      "Death Plateau",
+      "Morytania"
+    ],
+    "skills": [
+      {
+        "skill": "Firemaking",
+        "level": 50
+      },
+      {
+        "skill": "Magic",
+        "level": 50
+      },
+      {
+        "skill": "Slayer",
+        "level": 10
+      },
+      {
+        "skill": "Thieving",
+        "level": 53
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 80
+      },
+      {
+        "skill": "Agility",
+        "level": 47
+      },
+      {
+        "skill": "Mining",
+        "level": 50
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Ashes",
+      "display": "Ashes",
+      "image": "https://runescape.wiki/images/thumb/Ashes_detail.png/100px-Ashes_detail.png?20318"
+    },
+    {
+      "name": "Blood rune",
+      "display": "Blood rune",
+      "image": "https://runescape.wiki/images/thumb/Blood_rune_detail.png/100px-Blood_rune_detail.png?86f40"
+    },
+    {
+      "name": "Bones",
+      "display": "Bones",
+      "image": "https://runescape.wiki/images/thumb/Bones_detail.png/100px-Bones_detail.png?28fd1"
+    },
+    {
+      "name": "Charcoal",
+      "display": "Charcoal",
+      "image": "https://runescape.wiki/images/thumb/Charcoal_detail.png/100px-Charcoal_detail.png?392b5"
+    },
+    {
+      "name": "Coins",
+      "display": "650 coins",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "name": "Molten glass",
+      "display": "6 molten glass (can be noted)",
+      "image": "https://runescape.wiki/images/thumb/Molten_glass_detail.png/100px-Molten_glass_detail.png?fb44d"
+    },
+    {
+      "name": "Magic logs",
+      "display": "12 magic logs (can be noted)",
+      "image": "https://runescape.wiki/images/thumb/Magic_logs_detail.png/100px-Magic_logs_detail.png?b17c3"
+    },
+    {
+      "name": "Steel bar",
+      "display": "6 steel bars (can be noted)",
+      "image": "https://runescape.wiki/images/thumb/Steel_bar_detail.png/100px-Steel_bar_detail.png?cfb12"
+    },
+    {
+      "name": "Cake",
+      "display": "Cake (a slice, or full) Alternatively, chocolate cake, chocolate bar, cooking apple, or pineapple pizza",
+      "image": "https://runescape.wiki/images/thumb/Slice_of_cake_detail.png/100px-Slice_of_cake_detail.png?fc654"
+    },
+    {
+      "name": "Chocolate cake",
+      "display": "Alternatively, chocolate cake, chocolate bar, cooking apple, or pineapple pizza",
+      "image": "https://runescape.wiki/images/thumb/Chocolate_slice_detail.png/100px-Chocolate_slice_detail.png?54ebf"
+    },
+    {
+      "name": "Face mask",
+      "display": "Face mask (can be replaced by masked earmuffs, a slayer helmet, a full slayer helmet, or a gas mask)",
+      "image": "https://runescape.wiki/images/thumb/Face_mask_chathead.png/100px-Face_mask_chathead.png?76396"
+    },
+    {
+      "name": "Garlic",
+      "display": "Garlic",
+      "image": "https://runescape.wiki/images/thumb/Garlic_detail.png/100px-Garlic_detail.png?2e34c"
+    },
+    {
+      "name": "Lockpick",
+      "display": "Up to 100 lockpicks (the lower your Thieving level, the more lockpicks you may require), hair clips, or a master thief's lockpick (which has no chance of breaking)",
+      "image": null
+    },
+    {
+      "name": "Ice gloves",
+      "display": "Ice gloves or another method to defeat Fareed",
+      "image": "https://runescape.wiki/images/thumb/Ice_gloves_detail.png/100px-Ice_gloves_detail.png?afd81"
+    },
+    {
+      "name": "Silver bar",
+      "display": "Silver bar",
+      "image": "https://runescape.wiki/images/thumb/Silver_bar_detail.png/100px-Silver_bar_detail.png?320b3"
+    },
+    {
+      "name": "Spice",
+      "display": "Spice",
+      "image": "https://runescape.wiki/images/thumb/Spice_detail.png/100px-Spice_detail.png?59cf3"
+    },
+    {
+      "name": "Climbing boots",
+      "display": "Climbing boots for the Death Plateau Troll shortcut (or Trollheim Teleport or Trollheim tablet)",
+      "image": "https://runescape.wiki/images/thumb/Climbing_boots_detail.png/100px-Climbing_boots_detail.png?91a45"
+    },
+    {
+      "name": "Spiked boots",
+      "display": "Spiked boots for the Ice Path segment (made by bringing Dunstan an iron bar and climbing boots; rock climbing boots will not work)",
+      "image": "https://runescape.wiki/images/thumb/Spiked_boots_detail.png/100px-Spiked_boots_detail.png?c7c0e"
+    }
+  ],
+  "kills": [
+    "Dessous (level 84)",
+    "Kamil (level 88)",
+    "Fareed (level 84)",
+    "2 Damis (level 86)",
+    "5 Ice trolls (level 84)",
+    "Stranger (level 81; optional, only encounter if you hold too many Diamonds of Azzanadra for too long)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 3,
+      "display": "3 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 20006,
+      "display": "20,006.9 experience[1]",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ancient Magicks",
+      "display": "Ability to use Ancient Magicks You can now also pray either at the pyramid altar or the elven grimoire in Prifddinas (after completing Plague's End) and change between the standard and Ancient Magicks spellbooks. You can also enter the altar room by accessing the back-door of the pyramid. Changing spellbooks at the altar will drain your prayer to 0.",
+      "image": "https://runescape.wiki/images/thumb/Ancient_teleport.gif/100px-Ancient_teleport.gif?0b4d4"
+    },
+    {
+      "type": "item",
+      "name": "Ring of visibility",
+      "display": "Ring of visibility (can be re-obtained from Rasolo for free)",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_visibility_detail.png/100px-Ring_of_visibility_detail.png?2d5d2"
+    },
+    {
+      "type": "item",
+      "name": "Smoke Dungeon",
+      "display": "Access to the Smoke Dungeon via the well entrance",
+      "image": "https://runescape.wiki/images/thumb/Smoke_Dungeon.png/100px-Smoke_Dungeon.png?5ef2f"
+    },
+    {
+      "type": "item",
+      "name": "Ancient Symbol (gravestone)",
+      "display": "Access to the Zarosian gravestone Also requires completion of the quest The Giant Dwarf",
+      "image": "https://runescape.wiki/images/thumb/Ancient_Symbol.png/100px-Ancient_Symbol.png?415f0"
+    },
+    {
+      "type": "item",
+      "name": "Bandit Camp lodestone",
+      "display": "The Bandit Camp lodestone is now automatically unlocked upon completion",
+      "image": "https://runescape.wiki/images/thumb/Bandit_Camp_lodestone_icon.png/100px-Bandit_Camp_lodestone_icon.png?48e7f"
+    },
+    {
+      "type": "item",
+      "name": "Ancient staff",
+      "display": "Ability to wield an ancient staff, and buy one from Eblis for 80,000 coins",
+      "image": "https://runescape.wiki/images/thumb/Ancient_staff_detail.png/100px-Ancient_staff_detail.png?0353a"
+    },
+    {
+      "type": "item",
+      "name": "Bone Dry",
+      "display": "Bone Dry (Smoke Dungeon)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Frostbite",
+      "display": "Frostbite (Ice Path)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Path of Peril",
+      "display": "Path of Peril (Shadow Dungeon)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Sarcophagus",
+      "display": "Sarcophagus (level 4 of the Jaldraocht Pyramid)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Scarab",
+      "display": "Scarab (inside the Jaldraocht Pyramid)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Asgarnia Smith for some etchings. He is in the Bedabin Camp south-west of the Shantay Pass. (opciones de chat: 2 Do you have any quests? • Accept)",
+        "es": "Habla con Asgarnia Smith para conseguir unos grabados. Está en el Bedabin Camp al suroeste del Shantay Pass. (opciones de chat: 2 Do you have any quests? • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Terry Balando in the Exam Centre. (opciones de chat: 1 Ask about the Desert Treasure quest.)",
+        "es": "Habla con Terry Balando en el Exam Centre. (opciones de chat: 1 Ask about the Desert Treasure quest.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "If he offers you a Codex Ultimatus, refuse it or talk to him again.",
+        "es": "Si te ofrece un Codex Ultimatus, recházalo o vuelve a hablar con él."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him again for the Translation. (opciones de chat: 1 Ask about the Desert Treasure quest.)",
+        "es": "Vuelve a hablar con él para conseguir la Translation. (opciones de chat: 1 Ask about the Desert Treasure quest.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Return to Asgarnia Smith with the book. (opciones de chat: 2 Don't read book)",
+        "es": "Vuelve con Asgarnia Smith con el libro. (opciones de chat: 2 Don't read book)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Asgarnia again and offer to help him. (opciones de chat: 1 Help him)",
+        "es": "Habla de nuevo con Asgarnia y ofrécete a ayudarlo. (opciones de chat: 1 Help him)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Run south to the Bandit Camp.",
+        "es": "Corre hacia el sur, al Bandit Camp."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "If you're wearing any Zamorak or Saradomin equipment, bandits become aggressive.",
+        "es": "Si llevas puesto equipo de Zamorak o Saradomin, los bandidos se volverán agresivos."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the bartender at the pub for a Bandit's brew. (opciones de chat: 2 Buy a drink • 1 Buy a beer)",
+        "es": "Habla con el camarero del pub para conseguir un Bandit's brew. (opciones de chat: 2 Buy a drink • 1 Buy a beer)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the bartender again. (opciones de chat: 2 I heard about four diamonds...)",
+        "es": "Vuelve a hablar con el camarero. (opciones de chat: 2 I heard about four diamonds...)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Eblis, by or in the eastern-most building of the Bandit Camp. (opciones de chat: 2 Ask about Desert Treasure • 4 Tell me of The four diamonds of Azzanadra • 1 Yes • 1 Yes, I will go get those for you.) (if the first chat option is not 'Ask about Archaeology' (opciones de chat: 4 Tell me of The four diamonds of Azzanadra • 1 Yes • 1 Yes, I will go get those for you.))",
+        "es": "Habla con Eblis, junto al edificio más al este del Bandit Camp o dentro de él. (opciones de chat: 2 Ask about Desert Treasure • 4 Tell me of The four diamonds of Azzanadra • 1 Yes • 1 Yes, I will go get those for you.) (si la primera opción de chat no es 'Ask about Archaeology' (opciones de chat: 4 Tell me of The four diamonds of Azzanadra • 1 Yes • 1 Yes, I will go get those for you.))"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "He will not speak to you if you're wearing any Zamorak or Saradomin equipment.",
+        "es": "No te hablará si llevas puesto equipo de Zamorak o Saradomin."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Use all the items on Eblis, then talk to him again. (opciones de chat: 2 Ask about Desert Treasure)",
+        "es": "Usa todos los objetos en Eblis, luego habla con él de nuevo. (opciones de chat: 2 Ask about Desert Treasure)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Run south-east, and talk to Eblis by the Bandit Camp lodestone. (opciones de chat: 2 Ask about Desert Treasure)",
+        "es": "Corre hacia el sureste y habla con Eblis, junto a la lodestone del Bandit Camp. (opciones de chat: 2 Ask about Desert Treasure)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Retrieving the four diamonds can be done in any order.",
+        "es": "Puedes conseguir los cuatro diamantes en cualquier orden."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": ":Jump to §Blood diamond",
+        "es": ":Ir a §Blood diamond"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": ":Jump to §Ice diamond",
+        "es": ":Ir a §Ice diamond"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": ":Jump to §Smoke diamond",
+        "es": ":Ir a §Smoke diamond"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": ":Jump to §Shadow diamond",
+        "es": ":Ir a §Shadow diamond"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Enter the pub in Canifis. After a short cutscene, talk to Malak. (opciones de chat: 5 I am looking for a special Diamond... • 1 Yes • 3 How can I kill Dessous? • 3 Actually, I don't need to know anything.)",
+        "es": "Entra en el pub de Canifis. Tras una breve cinemática, habla con Malak. (opciones de chat: 5 I am looking for a special Diamond... • 1 Yes • 3 How can I kill Dessous? • 3 Actually, I don't need to know anything.)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Take a silver bar and talk to Ruantun in the Draynor Sewers for a Silver pot.",
+        "es": "Coge una barra de plata y habla con Ruantun en las Draynor Sewers para conseguir una Silver pot."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Take the pot to the High Priest on Entrana for a Blessed pot.",
+        "es": "Lleva la olla al High Priest en Entrana para conseguir una Blessed pot."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Malak in Canifis for a blood-filled Blessed pot (this deals 50 damage).",
+        "es": "Habla con Malak en Canifis para conseguir una Blessed pot llena de sangre (esto inflige 50 de daño)."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Crush the garlic, use the garlic powder on the blessed pot, then add spice to get a completed Blessed pot.",
+        "es": "Machaca el ajo, usa el polvo de ajo en la blessed pot y luego añade la especia para obtener una Blessed pot completa."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Prepare for a level 84 boss fight. If you die, you will have to re-do the previous step.",
+        "es": "Prepárate para un combate contra un jefe de nivel 84. Si mueres, tendrás que repetir el paso anterior."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "Note: It is recommended to bank your cake or chocolate bar, as a ghast may turn it into rotten food on the journey.",
+        "es": "Nota: se recomienda guardar en el banco tu pastel o tableta de chocolate, ya que un ghast podría convertirlo en comida podrida durante el trayecto."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Run south-east to the Graveyard (map pictured right).",
+        "es": "Corre hacia el sureste, al Graveyard (mapa en la imagen de la derecha)."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Use the pot on the tomb, then kill Dessous. Alternating between praying Protect from Melee and Protect from Magic every tick makes Dessous unable to attack.",
+        "es": "Usa la olla en la tumba y luego mata a Dessous. Alternar cada tick entre las oraciones Protect from Melee y Protect from Magic hace que Dessous no pueda atacar."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Return to Canifis.",
+        "es": "Vuelve a Canifis."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Malak to receive the Blood diamond.",
+        "es": "Habla con Malak para recibir el Blood diamond."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Bank the blood diamond immediately. While holding the blood diamond, a stranger capable of dealing over 5,000 damage per attack can spawn at any time.",
+        "es": "Guarda el blood diamond en el banco de inmediato. Mientras lo lleves contigo, puede aparecer en cualquier momento un desconocido capaz de infligir más de 5000 de daño por ataque."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Prepare for combat by getting plenty of food, a few super restore and super energy potions (even at max combat). Also grab a cake or a chocolate bar if not already in your inventory.",
+        "es": "Prepárate para el combate llevando bastante comida, algunas pociones super restore y super energy (incluso al combate máximo). Coge también un pastel o una tableta de chocolate si no lo tienes ya en el inventario."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "Get runes and a magic weapon for fire spells if using Magic. Only fire spells will work if using Magic on Kamil.",
+        "es": "Consigue runas y un arma mágica de fuego si vas a usar Magia. Solo los hechizos de fuego funcionan contra Kamil si usas Magia."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "If you don't have spiked boots, get them first from Dunstan in Burthorpe (requires an iron bar).",
+        "es": "Si no tienes botas con clavos, consíguelas primero con Dunstan en Burthorpe (requiere una barra de hierro)."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "If you used your climbing boots to get the spiked boots, then get a new pair of climbing boots from Freda.",
+        "es": "Si usaste tus botas de escalada para conseguir las botas con clavos, consigue un nuevo par de botas de escalada con Freda."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Consider using the Endurance relic power in place of energy potions to keep your run energy up.",
+        "es": "Considera usar el poder de reliquia Endurance en lugar de pociones de energía para mantener tu energía de carrera."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Trollheim using Trollheim Teleport.",
+        "es": "Viaja a Trollheim usando el Trollheim Teleport."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Otherwise, take the path from the Fremennik Slayer Dungeon or the Death Plateau to Troll Stronghold with climbing boots.",
+        "es": "Si no, toma el camino desde el Fremennik Slayer Dungeon o el Death Plateau hasta el Troll Stronghold con las botas de escalada puestas."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Take the path that leads to the snow area north-west of Troll Stronghold.",
+        "es": "Toma el camino que lleva a la zona nevada al noroeste del Troll Stronghold."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the troll child a few squares west of the ice gate.",
+        "es": "Habla con el niño trol unas casillas al oeste de la puerta de hielo."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Use a cake or a chocolate bar on him. Talk again to help him. (opciones de chat: 1 Yes)",
+        "es": "Usa un pastel o una tableta de chocolate en él. Habla de nuevo para ayudarlo. (opciones de chat: 1 Yes)"
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Enable Protect from Melee, and head east through the ice gate.",
+        "es": "Activa Protect from Melee y dirígete al este a través de la puerta de hielo."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Kill 5 trolls, then travel through the cave entrance to your east and keep running.",
+        "es": "Mata a 5 troles, luego atraviesa la entrada de la cueva al este y sigue corriendo."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Kill Kamil when he appears.",
+        "es": "Mata a Kamil cuando aparezca."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "After you kill Kamil once, continue the path to the north and walk to the ice ledge. You can use Surge.",
+        "es": "Después de matar a Kamil una vez, continúa el camino hacia el norte y camina hasta el saliente de hielo. Puedes usar Surge."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Equip your spiked boots and climb the path to the top.",
+        "es": "Equípate las botas con clavos y sube el camino hasta la cima."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Pass through the ice gate and across the bridge.",
+        "es": "Atraviesa la puerta de hielo y cruza el puente."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Break the two ice blocks at the top (by casting a fire spell or choosing the \"smash-ice\" option).",
+        "es": "Rompe los dos bloques de hielo en la cima (lanzando un hechizo de fuego o eligiendo la opción \"smash-ice\")."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the trolls, the child will give you the Ice diamond.",
+        "es": "Habla con los troles, el niño te dará el Ice diamond."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Bank the ice diamond immediately. While holding the ice diamond, a stranger capable of dealing over 5,000 damage per attack can spawn at any time.",
+        "es": "Guarda el ice diamond en el banco de inmediato. Mientras lo lleves contigo, puede aparecer en cualquier momento un desconocido capaz de infligir más de 5000 de daño por ataque."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Prepare for combat by bringing plenty of food, few super energy potions, melee gear, or water spells if using magic, or ice arrows if using ranged.",
+        "es": "Prepárate para el combate llevando bastante comida, algunas pociones super energy, equipo de melé, o hechizos de agua si usas Magia, o flechas de hielo si usas Distancia."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Pollnivneach.",
+        "es": "Viaja a Pollnivneach."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "With your face mask and ice gloves equipped enter the Smoke Dungeon.",
+        "es": "Con tu máscara facial y tus guantes de hielo equipados, entra en el Smoke Dungeon."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 1,
+      "text": {
+        "en": "If Smoking Kills is complete the dungeon can be entered from the Pollnivneach well and through the dark stairs to the west.",
+        "es": "Si has completado Smoking Kills, puedes entrar en la mazmorra desde el pozo de Pollnivneach y a través de las escaleras oscuras al oeste."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 1,
+      "text": {
+        "en": "Otherwise the player can enter the smokey well which is located west of Pollnivneach.",
+        "es": "De lo contrario, puedes entrar por el pozo humeante situado al oeste de Pollnivneach."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 2,
+      "text": {
+        "en": "Killing a dust devil completes the achievement Drafty in Here.",
+        "es": "Matar a un dust devil completa el logro Drafty in Here."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Light the four standing torches, 1 in each corner of the dungeon. This part is timed and torches will go out if you are not fast enough.",
+        "es": "Enciende las cuatro antorchas de pie, una en cada esquina de la mazmorra. Esta parte tiene un límite de tiempo y las antorchas se apagarán si no eres lo bastante rápido."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Consider using the Endurance relic power in place of energy potions to keep your run energy up.",
+        "es": "Considera usar el poder de reliquia Endurance en lugar de pociones de energía para mantener tu energía de carrera."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Open the burnt chest in the middle of the dungeon to receive a Warm key.",
+        "es": "Abre el cofre quemado en el centro de la mazmorra para recibir una Warm key."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 1,
+      "text": {
+        "en": "Each torch will remain lit for exactly 5 minutes, and you will receive a game message when each one dies out. You will be unable to open the chest if any of the torches have gone out, even if you have lit all 4 torches before attempting.",
+        "es": "Cada antorcha permanecerá encendida exactamente 5 minutos, y recibirás un mensaje en el juego cuando una se apague. No podrás abrir el cofre si alguna de las antorchas se ha apagado, aunque hayas encendido las 4 antes de intentarlo."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "With the warm key, open the gate on the eastern side of the dungeon.",
+        "es": "Con la warm key, abre la puerta en el lado este de la mazmorra."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Defeat Fareed for the Smoke diamond.",
+        "es": "Derrota a Fareed para conseguir el Smoke diamond."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 1,
+      "text": {
+        "en": "You must use melee, ice arrows, necromancy, or water spells.",
+        "es": "Debes usar melé, flechas de hielo, Nigromancia o hechizos de agua."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 1,
+      "text": {
+        "en": "You must wear ice gloves to wield a main-hand weapon while fighting him, including staves and bows. Off-hand weapons are not restricted.",
+        "es": "Debes llevar guantes de hielo para poder empuñar un arma principal mientras luchas contra él, incluidos báculos y arcos. Las armas secundarias no tienen restricción."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Bank the smoke diamond immediately. While holding the smoke diamond, a stranger capable of dealing over 5,000 damage per attack can spawn at any time.",
+        "es": "Guarda el smoke diamond en el banco de inmediato. Mientras lo lleves contigo, puede aparecer en cualquier momento un desconocido capaz de infligir más de 5000 de daño por ataque."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Rasolo (north-west from Ardougne lodestone; see the map to the right). (opciones de chat: 3 Ask about the Diamonds of Azzanadra • 1 Yes)",
+        "es": "Viaja hasta Rasolo (al noroeste de la lodestone de Ardougne; consulta el mapa de la derecha). (opciones de chat: 3 Ask about the Diamonds of Azzanadra • 1 Yes)"
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "Return to the desert Bandit Camp.",
+        "es": "Vuelve al Bandit Camp del desierto."
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Unlock the secure chest in the southern-most tent. You might consume between 10 to 100 lockpicks.",
+        "es": "Abre el cofre asegurado en la tienda más al sur. Podrías gastar entre 10 y 100 ganzúas."
+      }
+    },
+    {
+      "index": 68,
+      "indent": 1,
+      "text": {
+        "en": "Hair clips are very useful here, as you can reclaim them from Merlin for free.",
+        "es": "Las hair clips son muy útiles aquí, ya que puedes recuperarlas de Merlin gratis."
+      }
+    },
+    {
+      "index": 69,
+      "indent": 1,
+      "text": {
+        "en": "You can steal from the level 54 Bandits around the camp to get lock picks and antipoison.",
+        "es": "Puedes robar a los Bandits de nivel 54 alrededor del campamento para conseguir ganzúas y antídoto."
+      }
+    },
+    {
+      "index": 70,
+      "indent": 1,
+      "text": {
+        "en": "Master thief's lockpick also works and will never break.",
+        "es": "La ganzúa del Master thief también funciona y nunca se rompe."
+      }
+    },
+    {
+      "index": 71,
+      "indent": 1,
+      "text": {
+        "en": "Five finger discount upgrades help.",
+        "es": "Las mejoras de Five finger discount ayudan."
+      }
+    },
+    {
+      "index": 72,
+      "indent": 0,
+      "text": {
+        "en": "Prepare for combat before returning the cross to Rasolo who will give you a ring of visibility.",
+        "es": "Prepárate para el combate antes de devolverle la cruz a Rasolo, quien te dará un ring of visibility."
+      }
+    },
+    {
+      "index": 73,
+      "indent": 0,
+      "text": {
+        "en": "Equip the ring, run into the nearby triangular fenced area and climb down the ladder. You may equip any other ring now as this was only required to see the invisible ladder.",
+        "es": "Equípate el anillo, corre hacia la zona triangular cercada cercana y baja por la escalera. Ahora puedes equiparte cualquier otro anillo, ya que este solo era necesario para ver la escalera invisible."
+      }
+    },
+    {
+      "index": 74,
+      "indent": 0,
+      "text": {
+        "en": "Run east to Damis and kill him in both phases for the Shadow diamond. See the map below for the path to take.",
+        "es": "Corre hacia el este hasta Damis y mátalo en ambas fases para conseguir el Shadow diamond. Consulta el mapa de abajo para ver el camino a seguir."
+      }
+    },
+    {
+      "index": 75,
+      "indent": 1,
+      "text": {
+        "en": "If Damis despawns, run a small distance back from where you came, then run back.",
+        "es": "Si Damis desaparece, aléjate un poco de donde viniste y luego vuelve corriendo."
+      }
+    },
+    {
+      "index": 76,
+      "indent": 0,
+      "text": {
+        "en": "Bank the shadow diamond immediately. While holding the shadow diamond, a stranger capable of dealing over 5,000 damage per attack can spawn at any time.",
+        "es": "Guarda el shadow diamond en el banco de inmediato. Mientras lo lleves contigo, puede aparecer en cualquier momento un desconocido capaz de infligir más de 5000 de daño por ataque."
+      }
+    },
+    {
+      "index": 77,
+      "indent": 0,
+      "text": {
+        "en": "Make sure your weight is less than 5 or you'll keep failing traps.",
+        "es": "Asegúrate de que tu peso sea inferior a 5 o seguirás fallando las trampas."
+      }
+    },
+    {
+      "index": 78,
+      "indent": 1,
+      "text": {
+        "en": "Boots of lightness and any other weight reducing equipment helps.",
+        "es": "Las boots of lightness y cualquier otro equipo que reduzca peso ayudan."
+      }
+    },
+    {
+      "index": 79,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Bandit Camp, and head directly south of Eblis to the pyramid.",
+        "es": "Vuelve al Bandit Camp y dirígete directamente al sur de Eblis, hacia la pirámide."
+      }
+    },
+    {
+      "index": 80,
+      "indent": 0,
+      "text": {
+        "en": "Use the diamonds on the obelisks surrounding the pyramid.",
+        "es": "Usa los diamantes en los obeliscos que rodean la pirámide."
+      }
+    },
+    {
+      "index": 81,
+      "indent": 1,
+      "text": {
+        "en": "Blood diamond in the north-west obelisk.",
+        "es": "El Blood diamond en el obelisco del noroeste."
+      }
+    },
+    {
+      "index": 82,
+      "indent": 1,
+      "text": {
+        "en": "Shadow diamond in the south-west obelisk.",
+        "es": "El Shadow diamond en el obelisco del suroeste."
+      }
+    },
+    {
+      "index": 83,
+      "indent": 1,
+      "text": {
+        "en": "Ice diamond in the south-east obelisk.",
+        "es": "El Ice diamond en el obelisco del sureste."
+      }
+    },
+    {
+      "index": 84,
+      "indent": 1,
+      "text": {
+        "en": "Smoke diamond in the north-east obelisk.",
+        "es": "El Smoke diamond en el obelisco del noreste."
+      }
+    },
+    {
+      "index": 85,
+      "indent": 0,
+      "text": {
+        "en": "Climb down the ladder at the top of the pyramid.",
+        "es": "Baja por la escalera en la cima de la pirámide."
+      }
+    },
+    {
+      "index": 86,
+      "indent": 0,
+      "text": {
+        "en": "Run through the pyramid using the map. Don't stand still, or you may be transported back to the start.",
+        "es": "Recorre la pirámide usando el mapa. No te quedes quieto, o podrías ser transportado de vuelta al inicio."
+      }
+    },
+    {
+      "index": 87,
+      "indent": 1,
+      "text": {
+        "en": "There's a possibility that scarabs spawn in Azzanadra's room so bring a weapon, antipoison, and some more food just in case.",
+        "es": "Existe la posibilidad de que aparezcan escarabajos en la sala de Azzanadra, así que lleva un arma, antídoto y algo más de comida por si acaso."
+      }
+    },
+    {
+      "index": 88,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Azzanadra.",
+        "es": "Habla con Azzanadra."
+      }
+    },
+    {
+      "index": 89,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

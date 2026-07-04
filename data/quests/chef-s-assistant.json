@@ -1,0 +1,260 @@
+{
+  "id": "chef-s-assistant",
+  "title": "Chef's Assistant",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:56:41.211Z",
+  "icon": "https://runescape.wiki/images/Chef%27s_Assistant_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "adventurer",
+  "members": false,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Short to Medium",
+  "releaseDate": "11 February 2019",
+  "startPoint": {
+    "en": "Talk to the Head Chef in the Cooking Guild.",
+    "es": "Habla con el Head Chef en el Cooking Guild."
+  },
+  "requirements": {
+    "quests": [
+      "Cook's Assistant"
+    ],
+    "skills": [
+      {
+        "skill": "Cooking",
+        "level": 32
+      },
+      {
+        "skill": "Cooking",
+        "level": 38
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Chef's hat",
+      "display": "Chef's hat unless the Hard Varrock achievements have been completed (members may use a sous chef's toque, cooking cape or max cape instead)",
+      "image": "https://runescape.wiki/images/thumb/Chef%27s_hat_detail.png/100px-Chef%27s_hat_detail.png?91031"
+    },
+    {
+      "name": "Logs",
+      "display": "Logs (only normal logs work)",
+      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+    },
+    {
+      "name": "Steel bar",
+      "display": "Steel bar",
+      "image": "https://runescape.wiki/images/thumb/Steel_bar_detail.png/100px-Steel_bar_detail.png?cfb12"
+    },
+    {
+      "name": "Bucket of milk",
+      "display": "Bucket of milk (2 additional if churning your own butter and cream)",
+      "image": "https://runescape.wiki/images/thumb/Bucket_of_milk_detail.png/100px-Bucket_of_milk_detail.png?932e9"
+    },
+    {
+      "name": "Pot of flour",
+      "display": "Pot of flour (members can purchase it from Romily Weaklax for 14 coins during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Pot_of_flour_detail.png/100px-Pot_of_flour_detail.png?5e6af"
+    },
+    {
+      "name": "Pat of butter",
+      "display": "Pat of butter",
+      "image": "https://runescape.wiki/images/thumb/Pat_of_butter_detail.png/100px-Pat_of_butter_detail.png?9c8d5"
+    },
+    {
+      "name": "Pot of cream",
+      "display": "Pot of cream",
+      "image": "https://runescape.wiki/images/thumb/Pot_of_cream_detail.png/100px-Pot_of_cream_detail.png?3ddf2"
+    },
+    {
+      "name": "Cake tin",
+      "display": "Cake tin (can be obtained during quest)",
+      "image": "https://runescape.wiki/images/thumb/Cake_tin_detail.png/100px-Cake_tin_detail.png?8d85e"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Cooking",
+      "amount": 1500,
+      "display": "1,500 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Cheesecake",
+      "display": "3 cheesecakes (worth 26,142 coins)",
+      "image": "https://runescape.wiki/images/thumb/Cheesecake_detail.png/100px-Cheesecake_detail.png?5709d"
+    },
+    {
+      "type": "item",
+      "name": "Cheesecakes",
+      "display": "Ability to make cheesecakes and biscuits",
+      "image": null
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "xp",
+      "skill": "Head Chef",
+      "amount": null,
+      "display": "Cook 1 of each type of cheesecake and talk to the Head Chef to receive 8,000 experience lamp and 25 biscuits (worth 118,550 coins)"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Head to the Cooks' Guild, the building just south-west of the Grand Exchange main entrance.",
+        "es": "Dirígete al Cooks' Guild, el edificio justo al suroeste de la entrada principal del Grand Exchange."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "To start, talk to the Head chef in the Cooks' Guild. (opciones de chat: 1 Do you have any quests for me? • 1 Of course, discrete is my middle name! • Accept • 2 Cool story, can we get on with this? • 1 Sounds tasty! • 2 Consider myself braced. • 2 Pull yourself together! • 1 Would you like me to get some more for you?)",
+        "es": "Para empezar, habla con el Head chef en el Cooks' Guild. (opciones de chat: 1 Do you have any quests for me? • 1 Of course, discrete is my middle name! • Accept • 2 Cool story, can we get on with this? • 1 Sounds tasty! • 2 Consider myself braced. • 2 Pull yourself together! • 1 Would you like me to get some more for you?)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Phil or Delphie in Falador, south of the party room. (opciones de chat: 1 Sure, what do I need?)",
+        "es": "Habla con Phil o Delphie en Falador, al sur de la party room. (opciones de chat: 1 Sure, what do I need?)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Repair the broken dairy churn in the northern part of the room using logs and a steel bar.",
+        "es": "Repara la broken dairy churn en la parte norte de la sala usando logs y una steel bar."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Speak with Phil or Delphie again.",
+        "es": "Habla de nuevo con Phil o Delphie."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Use bucket of milk on the dairy churn and churn it into some cream cheese.",
+        "es": "Usa un bucket of milk en la dairy churn y bátelo para conseguir cream cheese."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "If not done already, make a pot of cream and a pat of butter once you're there.",
+        "es": "Si no lo has hecho ya, prepara un pot of cream y un pat of butter una vez estés allí."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Return to the head chef in the Cook's Guild. (opciones de chat: 1 Talk about 'Chef's Assistant'.)",
+        "es": "Regresa con el head chef en el Cook's Guild. (opciones de chat: 1 Talk about 'Chef's Assistant'.)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Make biscuits by combining a pot of flour and pat of butter, then cooking the dough at the range upstairs. Be aware you can burn the biscuits in which case you need to make new ones.",
+        "es": "Prepara biscuits combinando un pot of flour y un pat of butter, y luego cocina la masa en el range de arriba. Ten en cuenta que puedes quemar los biscuits, en cuyo caso tendrás que hacer otros nuevos."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "text": {
+        "en": "Pick up cake tin from upstairs if you do not already have one.",
+        "es": "Recoge el cake tin de la planta de arriba si aún no tienes uno."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Speak to the head chef. (opciones de chat: 1 Talk about 'Chef's Assistant'. • 1 Sorry Chef.)",
+        "es": "Habla con el head chef. (opciones de chat: 1 Talk about 'Chef's Assistant'. • 1 Sorry Chef.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Click the cake tin to create cheesecake.",
+        "es": "Haz clic en el cake tin para crear un cheesecake."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Speak to the head chef again. (opciones de chat: 1 Talk about 'Chef's Assistant'.)",
+        "es": "Habla de nuevo con el head chef. (opciones de chat: 1 Talk about 'Chef's Assistant'.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Deliver the cheesecake to Mess Sergeant Ramsey, can be found east of the Taverley lodestone, inside The Pick and Lute pub. (opciones de chat: 1 The Head Chef asked me to bring you this to try.)",
+        "es": "Entrega el cheesecake a Mess Sergeant Ramsey, que se encuentra al este del Taverley lodestone, dentro del pub The Pick and Lute. (opciones de chat: 1 The Head Chef asked me to bring you this to try.)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Deliver the cheesecake to the Cook in Lumbridge, who can be found inside the Lumbridge Castle. (opciones de chat: 1 Yes)",
+        "es": "Entrega el cheesecake al Cook en Lumbridge, que se encuentra dentro del Lumbridge Castle. (opciones de chat: 1 Yes)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Deliver the cheesecake to the Cook of the Jolly Boar Inn, who can be found in the Jolly Boar Inn, south of Fort Forinthry. (opciones de chat: 1 The Head Chef asked me to bring you this to try.)",
+        "es": "Entrega el cheesecake al Cook del Jolly Boar Inn, que se encuentra en el Jolly Boar Inn, al sur de Fort Forinthry. (opciones de chat: 1 The Head Chef asked me to bring you this to try.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Return to the head chef. (opciones de chat: 1 Talk about 'Chef's Assistant'.)",
+        "es": "Regresa con el head chef. (opciones de chat: 1 Talk about 'Chef's Assistant'.)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

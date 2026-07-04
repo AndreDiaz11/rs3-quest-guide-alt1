@@ -1,0 +1,587 @@
+{
+  "id": "heart-of-stone",
+  "title": "Heart of Stone",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:27:00.908Z",
+  "icon": "https://runescape.wiki/images/Heart_of_Stone_icon.png",
+  "series": "Sliske's Game",
+  "age": "6",
+  "timeline": "world guardian",
+  "members": true,
+  "combatLevel": "60-69",
+  "difficulty": "Intermediate",
+  "length": "Long",
+  "releaseDate": "24 November 2014",
+  "startPoint": {
+    "en": "Talk to Ariane at the entrance to the Wizards' Tower.",
+    "es": "Habla con Ariane en la entrada de la Wizards' Tower."
+  },
+  "requirements": {
+    "quests": [
+      "Carnillean Rising",
+      "The Blood Pact",
+      "Hazeel Cult",
+      "Rune Memories",
+      "Rune Mysteries",
+      "Rune Mechanics",
+      "The Elder Kiln",
+      "Fate of the Gods",
+      "Missing, Presumed Death",
+      "Koschei's Troubles (miniquest)",
+      "The Chosen Commander",
+      "Ritual of the Mahjarrat",
+      "The World Wakes",
+      "The Death of Chivalry",
+      "The World Wakes",
+      "Ritual of the Mahjarrat",
+      "The Firemaker's Curse",
+      "The Branches of Darkmeyer",
+      "The Void Stares Back",
+      "The Chosen Commander",
+      "Ritual of the Mahjarrat",
+      "The Temple at Senntisten",
+      "While Guthix Sleeps",
+      "Hazeel Cult",
+      "Enakhra's Lament",
+      "The Slug Menace",
+      "A Fairy Tale II - Cure a Queen",
+      "Cabin Fever",
+      "A Tail of Two Cats",
+      "Fight Arena",
+      "The General's Shadow (miniquest)",
+      "The Temple at Senntisten",
+      "Devious Minds",
+      "Desert Treasure",
+      "The Curse of Arrav",
+      "Kudos",
+      "The Firemaker's Curse"
+    ],
+    "skills": [
+      {
+        "skill": "Magic",
+        "level": 35
+      },
+      {
+        "skill": "Runecrafting",
+        "level": 25
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Food",
+      "display": "Food and combat equipment to fight several enemies level 35-56 (preferably with Ranged or Magic)",
+      "image": null
+    }
+  ],
+  "kills": [
+    "BikKra's attendant (level 35) (numerous)",
+    "FulKra's attendant (level 44) (numerous)",
+    "Prehistoric abyssal (level 56)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Runecrafting",
+      "amount": 1500,
+      "display": "1,500 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 1500,
+      "display": "1,500 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Combat level",
+      "amount": 2,
+      "display": "2×500 experience lamps in one of the following skills: Attack, Strength, Defence, Constitution, Ranged, Magic, Necromancy, Prayer or Summoning",
+      "image": null
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "item",
+      "name": "Kipple Nano",
+      "display": "The Kipple Nano pet can be received from Ariane at the Wizards' Tower."
+    },
+    {
+      "type": "xp",
+      "skill": "Azzanadra",
+      "amount": null,
+      "display": "The ability to talk to Azzanadra (Dr Nabanik) in Senntisten Temple and tell him what you discovered about the Elder Gods to receive a medium experience lamp."
+    },
+    {
+      "type": "item",
+      "name": "Elder Fury",
+      "display": "Elder Fury"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Dismiss any followers now. If you recently completed Carnillean Rising, you might have to re-log to start the quest.",
+        "es": "Despide a tus seguidores ahora. Si has completado recientemente Carnillean Rising, es posible que tengas que volver a iniciar sesión para empezar la misión."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Interact with Xenia at the Wizards' Tower entrance south of Draynor Village.",
+        "es": "Interactúa con Xenia en la entrada de la Wizards' Tower, al sur de Draynor Village."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "End their fight.",
+        "es": "Termina su pelea."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "On the east side of the Wizards' Tower (outside, near the water), talk to Ariane.",
+        "es": "En el lado este de la Wizards' Tower (en el exterior, cerca del agua), habla con Ariane."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Kipple. (opciones de chat: 1 Yes. • 2 No)",
+        "es": "Habla con Kipple. (opciones de chat: 1 Yes. • 2 No)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Solve the puzzle.",
+        "es": "Resuelve el puzle."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Dismiss any followers now.",
+        "es": "Despide a tus seguidores ahora."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Kipple and note the location he tells you.",
+        "es": "Habla con Kipple y anota la ubicación que te indica."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Head to the Karamja Volcano.",
+        "es": "Dirígete al Karamja Volcano."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "text": {
+        "en": "Kipple will appear near the entrance.",
+        "es": "Kipple aparecerá cerca de la entrada."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Right-click open tracker with Kipple to solve the puzzle.",
+        "es": "Haz clic derecho para abrir el rastreador con Kipple y resuelve el puzle."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Enter the portal.",
+        "es": "Entra en el portal."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Kill attendants while avoiding the fires until the green bar at the top fills up (takes about 5 minutes).",
+        "es": "Elimina a los asistentes evitando el fuego hasta que la barra verde de arriba se llene por completo (tarda unos 5 minutos)."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Talk to FulKra. (opciones de chat: 1 Why was Xenia here? • 1 No, it's not right. • 4 I've got no further questions.)",
+        "es": "Habla con FulKra. (opciones de chat: 1 Why was Xenia here? • 1 No, it's not right. • 4 I've got no further questions.)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Kipple.",
+        "es": "Habla con Kipple."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the north half of Entrana, east of the dungeon entrance.",
+        "es": "Viaja a la mitad norte de Entrana, al este de la entrada de la mazmorra."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 1,
+      "text": {
+        "en": "A quick way to get there is using the law altar teleport. No weapons or armour are allowed on the island.",
+        "es": "Una forma rápida de llegar es usando la teletransportación del altar de la ley. No se permiten armas ni armaduras en la isla."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Right-click open tracker with Kipple to solve the puzzle.",
+        "es": "Haz clic derecho para abrir el rastreador con Kipple y resuelve el puzle."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Enter the portal and open the Bik door.",
+        "es": "Entra en el portal y abre la puerta de Bik."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Equip a weapon (three basic weapons are provided) and kill the attendants while staying close to Kipple.",
+        "es": "Equípate un arma (se proporcionan tres armas básicas) y elimina a los asistentes manteniéndote cerca de Kipple."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 1,
+      "text": {
+        "en": "Kipple needs to grab 3 unstable attendants.",
+        "es": "Kipple necesita agarrar a 3 asistentes inestables."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Once Kipple has placed 3 unstable attendants by the door, light them. NOTE - There is a bug where sometimes you light them and nothing happens. If this happens leave out the portal and come back in.",
+        "es": "Una vez que Kipple haya colocado a los 3 asistentes inestables junto a la puerta, préndeles fuego. NOTA: hay un error por el cual a veces les prendes fuego y no pasa nada. Si esto ocurre, sal por el portal y vuelve a entrar."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Talk to BikKra. (opciones de chat: 1 What was Xenia doing? • 2 I am sorry mighty one, I'll explain. • 1 They could be useful. • 4 I don't care • 4 I have no more questions.)",
+        "es": "Habla con BikKra. (opciones de chat: 1 What was Xenia doing? • 2 I am sorry mighty one, I'll explain. • 1 They could be useful. • 4 I don't care • 4 I have no more questions.)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Kipple.",
+        "es": "Habla con Kipple."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Solve the puzzle.",
+        "es": "Resuelve el puzle."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Head to Taverley and climb up White Wolf Mountain.",
+        "es": "Dirígete a Taverley y sube la White Wolf Mountain."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Right-click open tracker with Kipple to solve the puzzle.",
+        "es": "Haz clic derecho para abrir el rastreador con Kipple y resuelve el puzle."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Enter the portal.",
+        "es": "Entra en el portal."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Click the circuit nodes until you match the power.",
+        "es": "Haz clic en los nodos del circuito hasta igualar la potencia."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "Each circuit node outputs a certain amount of power, but some nodes will consume more power than they generate, causing your total units to decrease instead.",
+        "es": "Cada nodo del circuito emite una cierta cantidad de energía, pero algunos nodos consumen más energía de la que generan, provocando que tu total de unidades disminuya en lugar de aumentar."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "The white spires will redirect power to its other pair.",
+        "es": "Las agujas blancas redirigirán la energía hacia su otro par."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "You need to match the number of power units by activating or deactivating the correct nodes.",
+        "es": "Debes igualar el número de unidades de energía activando o desactivando los nodos correctos."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Talk to WenKra. (opciones de chat: 1 I am not TokHaar. • 1 What was Xenia doing? • 1 Yes, it should be available to all. • 4 I have no more questions.)",
+        "es": "Habla con WenKra. (opciones de chat: 1 I am not TokHaar. • 1 What was Xenia doing? • 1 Yes, it should be available to all. • 4 I have no more questions.)"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Kipple.",
+        "es": "Habla con Kipple."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Head east of Sophanem, south of the agility pyramid.",
+        "es": "Dirígete al este de Sophanem, al sur de la pirámide de agilidad."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Right-click open tracker with Kipple to solve the puzzle.",
+        "es": "Haz clic derecho para abrir el rastreador con Kipple y resuelve el puzle."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Head south and enter the portal.",
+        "es": "Ve hacia el sur y entra en el portal."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Search any shelf.",
+        "es": "Busca en cualquier estantería."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Combine the following (right-click use):",
+        "es": "Combina lo siguiente (clic derecho, usar):"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 1,
+      "text": {
+        "en": "Correction with Transition",
+        "es": "Correction con Transition"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 1,
+      "text": {
+        "en": "Dispersal with Arrival",
+        "es": "Dispersal con Arrival"
+      }
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "text": {
+        "en": "Evolution with Imprinting",
+        "es": "Evolution con Imprinting"
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "Predator with Focus",
+        "es": "Predator con Focus"
+      }
+    },
+    {
+      "index": 43,
+      "indent": 1,
+      "text": {
+        "en": "Conflict with Condemnation",
+        "es": "Conflict con Condemnation"
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Combine Ariane and the Golem and Golem and I.",
+        "es": "Combina Ariane and the Golem con Golem and I."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Use the 4 combinations on JasKra.",
+        "es": "Usa las 4 combinaciones en JasKra."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Talk to JasKra. (opciones de chat: 2 Because power corrupts.)",
+        "es": "Habla con JasKra. (opciones de chat: 2 Because power corrupts.)"
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Kipple.",
+        "es": "Habla con Kipple."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Head to the Lumbridge cemetery, south of the church.",
+        "es": "Dirígete al cementerio de Lumbridge, al sur de la iglesia."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Enter the portal for a cutscene. (opciones de chat: Any • Any • Any)",
+        "es": "Entra en el portal para ver una escena cinemática. (opciones de chat: Any • Any • Any)"
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Defeat the boss. The boss can hit up to 2,900 damage. Do not attack the prehistoric abyssal yet, avoid his energy balls. Keep running around the cave until Kipple finds the correct spot.",
+        "es": "Derrota al jefe. El jefe puede infligir hasta 2.900 de daño. No ataques todavía al prehistoric abyssal, evita sus bolas de energía. Sigue corriendo por la cueva hasta que Kipple encuentre el lugar correcto."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "text": {
+        "en": "Destroy 3 abyssal anchors in total.",
+        "es": "Destruye un total de 3 anclas abisales."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 1,
+      "text": {
+        "en": "Watch the cutscene.",
+        "es": "Observa la escena cinemática."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 1,
+      "text": {
+        "en": "Kill the prehistoric abyssal as normal.",
+        "es": "Mata al prehistoric abyssal con normalidad."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ariane.",
+        "es": "Habla con Ariane."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Optional: Talk to Ariane back at the Old Tower to complete the Nano to Kipple, Come in Kipple achievement.",
+        "es": "Opcional: Habla con Ariane de vuelta en la Old Tower para completar el logro Nano to Kipple, Come in Kipple."
+      }
+    }
+  ]
+}

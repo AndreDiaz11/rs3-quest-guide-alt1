@@ -1,0 +1,325 @@
+{
+  "id": "shadow-of-the-storm",
+  "title": "Shadow of the Storm",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:13:53.180Z",
+  "icon": "https://runescape.wiki/images/Shadow_of_the_Storm_icon.png",
+  "series": "Delrith",
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "80-89",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "14 November 2005",
+  "startPoint": {
+    "en": "Speak to Father Reen just south of Al Kharid bank.",
+    "es": "Habla con Father Reen justo al sur del banco de Al Kharid."
+  },
+  "requirements": {
+    "quests": [
+      "Demon Slayer",
+      "The Golem"
+    ],
+    "skills": [
+      {
+        "skill": "Crafting",
+        "level": 30
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Silverlight",
+      "display": "Silverlight (If you do not have the sword, it can be re-obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Silverlight_detail.png/100px-Silverlight_detail.png?272d9"
+    },
+    {
+      "name": "Silver bar",
+      "display": "Silver bar (metal bank works)",
+      "image": "https://runescape.wiki/images/thumb/Silver_bar_detail.png/100px-Silver_bar_detail.png?320b3"
+    },
+    {
+      "name": "Vial",
+      "display": "Empty vial (To dye Silverlight/clothing black if you have not done so already)",
+      "image": "https://runescape.wiki/images/thumb/Vial_detail.png/100px-Vial_detail.png?82ee9"
+    },
+    {
+      "name": "Shadow of the Storm",
+      "display": "3 pieces of a black outfit (see Blending into the dark; you can also dye the desert robe and desert shirt during the quest for two of the pieces)",
+      "image": "https://runescape.wiki/images/thumb/Shadow_of_the_Storm.png/100px-Shadow_of_the_Storm.png?d2c5a"
+    },
+    {
+      "name": "Strange implement",
+      "display": "The strange implement (If lost, it can be re-obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Strange_implement_detail.png/100px-Strange_implement_detail.png?6eaa3"
+    }
+  ],
+  "kills": [
+    "Agrith Naar (level 84)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Combat level",
+      "amount": 10000,
+      "display": "10,000 experience, as a combat XP lamp, in one of: Attack, Strength, Defence, Constitution, Ranged, Magic or Necromancy",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Demonic sigil",
+      "display": "Demonic sigil (can be used to chant any number of times even after the quest)",
+      "image": "https://runescape.wiki/images/thumb/Demonic_sigil_detail.png/100px-Demonic_sigil_detail.png?0b0ee"
+    },
+    {
+      "type": "item",
+      "name": "Demonic tome",
+      "display": "Demonic tome (updated in the bookcases)",
+      "image": "https://runescape.wiki/images/thumb/Demonic_tome_detail.png/100px-Demonic_tome_detail.png?633d3"
+    },
+    {
+      "type": "item",
+      "name": "Darklight",
+      "display": "Silverlight turns into Darklight: It is even more powerful against demons. If a player loses Darklight, it can be retrieved by talking to Gideon Bede at Varrock's north church. You must have him replace Silverlight for you first.",
+      "image": "https://runescape.wiki/images/thumb/Darklight_detail.png/100px-Darklight_detail.png?be0f4"
+    },
+    {
+      "type": "item",
+      "name": "Incantation (music track)",
+      "display": "Incantation",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Grip of the Talon",
+      "display": "Grip of the Talon",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Father Reen south of Al Kharid bank. (opciones de chat: Accept)",
+        "es": "Habla con Father Reen al sur del banco de Al Kharid. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 1,
+      "text": {
+        "en": "He will give you Silverlight if you've dyed or destroyed it.",
+        "es": "Te dará Silverlight si lo has teñido o destruido."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Father Badden at Uzer, east of Shantay Pass. (Optional: take the magic carpet to Uzer) (opciones de chat: 1 Reen sent me. • 3 So what do you want me to do? • 1 How can I do that?)",
+        "es": "Habla con Father Badden en Uzer, al este de Shantay Pass. (Opcional: coge la alfombra mágica hasta Uzer) (opciones de chat: 1 Reen me envió. • 3 Entonces, ¿qué quieres que haga? • 1 ¿Cómo puedo hacer eso?)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Pick and grind a black mushroom (the closest is just south-east of the stairs east of Father Badden). Use it to dye Silverlight black. You can find some beside the staircase, downstairs east of the stairwell, or in the north east corner of the room, east of Evil Dave.",
+        "es": "Recoge y muele un black mushroom (el más cercano está justo al sureste de las escaleras al este de Father Badden). Úsalo para teñir Silverlight de negro. Puedes encontrar algunos junto a la escalera, en el piso de abajo al este del hueco de la escalera, o en la esquina noreste de la sala, al este de Evil Dave."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Go down the stairs.",
+        "es": "Baja las escaleras."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "If you do not have the strange implement from The Golem quest, you can pick it up from the ground in the northwest room.",
+        "es": "Si no tienes el strange implement de la misión The Golem, puedes recogerlo del suelo en la sala del noroeste."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Evil Dave wearing your three black items and your dyed Silverlight. He is standing at the entrance to Agrith Naar's demonic temple in the underground Uzer ruins. (opciones de chat: 2 I want to join your group. • 1 I'm evil!)",
+        "es": "Habla con Evil Dave llevando puestos tus tres objetos negros y tu Silverlight teñido. Está de pie en la entrada del templo demoníaco de Agrith Naar, en las ruinas subterráneas de Uzer. (opciones de chat: 2 Quiero unirme a tu grupo. • 1 ¡Soy malvado!)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Denath. (opciones de chat: 4 What do I have to do?)",
+        "es": "Habla con Denath. (opciones de chat: 4 ¿Qué tengo que hacer?)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Jennifer to get a demonic sigil mould. (opciones de chat: 2 Do you have the demonic sigil mould?)",
+        "es": "Habla con Jennifer para conseguir un demonic sigil mould. (opciones de chat: 2 ¿Tienes el demonic sigil mould?)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Matthew. (opciones de chat: 3 Do you know what happened to Josef?)",
+        "es": "Habla con Matthew. (opciones de chat: 3 ¿Sabes qué le pasó a Josef?)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Go to any furnace and smelt a demonic sigil. (opciones de chat: 1 Make Demonic sigil)",
+        "es": "Ve a cualquier horno y funde un demonic sigil. (opciones de chat: 1 Hacer Demonic sigil)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "Your black outfit can be discarded at this point and replaced with combat gear. Keep Silverlight for the duration of the quest.",
+        "es": "Puedes deshacerte de tu atuendo negro en este punto y sustituirlo por equipo de combate. Conserva Silverlight durante toda la misión."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the clay golem outside the ruins about last night. (opciones de chat: 3 Did you see anything happen last night?)",
+        "es": "Habla con el clay golem fuera de las ruinas sobre lo ocurrido anoche. (opciones de chat: 3 ¿Viste algo ocurrir anoche?)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Look in the nearby Broken kilns for a book until you have found the Demonic tome (there's a broken kiln north of the Rug Merchant and one behind the walls east of the staircase that are easy to miss).",
+        "es": "Busca en los Broken kilns cercanos un libro hasta que encuentres el Demonic tome (hay un broken kiln al norte del Rug Merchant y otro detrás de los muros al este de la escalera, que es fácil pasar por alto)."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Matthew back in the lair.",
+        "es": "Habla con Matthew de vuelta en la guarida."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Go north to talk to Denath and write down the incantation he tells you. (opciones de chat: 4)",
+        "es": "Ve al norte para hablar con Denath y anota el conjuro que te dice. (opciones de chat: 4)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Complete the circle and click the sigil to chant the incantation. Be sure to remember it, as you’ll need it again later in the quest.",
+        "es": "Completa el círculo y haz clic en el sigil para recitar el conjuro. Asegúrate de recordarlo, ya que lo necesitarás de nuevo más adelante en la misión."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Be sure to take the sigil from the floor, or you will have to make a new one at a furnace.",
+        "es": "Asegúrate de coger el sigil del suelo, o tendrás que hacer uno nuevo en un horno."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Enter the portal and take Tanya's sigil.",
+        "es": "Entra en el portal y coge el sigil de Tanya."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Tell Evil Dave to return to the lair - you should have 4 sigils now. (opciones de chat: 2 You've got to get back to the throne room!)",
+        "es": "Dile a Evil Dave que vuelva a la guarida; ahora deberías tener 4 sigils. (opciones de chat: 2 ¡Tienes que volver a la sala del trono!)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Go up the stairs, talk to Father Badden and Father Reen. (opciones de chat: 3 Oh, don't be so simple-minded!)",
+        "es": "Sube las escaleras y habla con Father Badden y Father Reen. (opciones de chat: 3 ¡Oh, no seas tan simplón!)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the golem. (opciones de chat: 4 [use strange implement])",
+        "es": "Habla con el golem. (opciones de chat: 4 [usar strange implement])"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Matthew to start the incantation. (opciones de chat: 1 Yes.)",
+        "es": "Habla con Matthew para comenzar el conjuro. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Chant demonic sigil and say the incantation normally. (If you have forgotten the incantation, it can be found on page 6 of the demonic tome.)",
+        "es": "Recita el demonic sigil y di el conjuro con normalidad. (Si has olvidado el conjuro, puedes encontrarlo en la página 6 del demonic tome.)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Kill the demon with the Silverlight (dyed). After defeating it, you will have the Darklight equipped.",
+        "es": "Mata al demonio con el Silverlight (teñido). Tras derrotarlo, tendrás equipado el Darklight."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "You can damage the demon with any combat style, but you must equip the Silverlight (dyed) as it dies.",
+        "es": "Puedes dañar al demonio con cualquier estilo de combate, pero debes equipar el Silverlight (teñido) cuando muera."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,944 @@
+{
+  "id": "the-lord-of-vampyrium",
+  "title": "The Lord of Vampyrium",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T01:55:24.839Z",
+  "icon": "https://runescape.wiki/images/The_Lord_of_Vampyrium_icon.png",
+  "series": "Myreque",
+  "age": "5",
+  "timeline": "legendary",
+  "members": true,
+  "combatLevel": "110-119",
+  "difficulty": "Master",
+  "length": "Long to Very Long",
+  "releaseDate": "14 September 2015",
+  "startPoint": {
+    "en": "Talk to Vanescula Drakan, by the rowboat entrance to Meiyerditch near Burgh de Rott.",
+    "es": "Habla con Vanescula Drakan, junto a la entrada del bote de remos hacia Meiyerditch, cerca de Burgh de Rott."
+  },
+  "requirements": {
+    "quests": [
+      "The Branches of Darkmeyer",
+      "Legacy of Seergaze",
+      "The Darkness of Hallowvale",
+      "In Aid of the Myreque",
+      "In Search of the Myreque"
+    ],
+    "skills": [
+      {
+        "skill": "Attack",
+        "level": 75
+      },
+      {
+        "skill": "Constitution",
+        "level": 75
+      },
+      {
+        "skill": "Construction",
+        "level": 79
+      },
+      {
+        "skill": "Defence",
+        "level": 75
+      },
+      {
+        "skill": "Hunter",
+        "level": 76
+      },
+      {
+        "skill": "Slayer",
+        "level": 78
+      },
+      {
+        "skill": "Strength",
+        "level": 75
+      },
+      {
+        "skill": "combat level",
+        "level": 110
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Darkmeyer disguise",
+      "display": "Darkmeyer disguise",
+      "image": null
+    },
+    {
+      "name": "Blisterwood",
+      "display": "Blisterwood weaponry or Ivandis flail",
+      "image": "https://runescape.wiki/images/thumb/Blisterwood_Tree.png/100px-Blisterwood_Tree.png?0542d"
+    }
+  ],
+  "kills": [
+    "Lowerniel Drakan (level 666)",
+    "Several Venators (level 126)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 75000,
+      "display": "75,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Slayer",
+      "amount": 50000,
+      "display": "50,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Hunter",
+      "amount": 50000,
+      "display": "50,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Tome of xp 4th ed",
+      "display": "The Tome of xp 4th ed with 3 charges, each charge giving 75,000 XP in a chosen skill at or above level 75",
+      "image": "https://runescape.wiki/images/thumb/Tome_of_xp_4th_ed_detail.png/100px-Tome_of_xp_4th_ed_detail.png?80889"
+    },
+    {
+      "type": "item",
+      "name": "Blisterwood",
+      "display": "The ability to craft more types of blisterwood weapons. This is granted early in the quest when you first talk to Veliaf Hurtz inside the Arboretum.",
+      "image": "https://runescape.wiki/images/thumb/Blisterwood_Tree.png/100px-Blisterwood_Tree.png?0542d"
+    },
+    {
+      "type": "item",
+      "name": "Sunspear (The Lord of Vampyrium)",
+      "display": "Sunspear, a weapon that automatically burns vyrewatch corpses when you kill vyrelords/ladies (this doesn't count toward your achievements)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "House Drakan outfit",
+      "display": "The House Drakan outfit",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Drakan Wings",
+      "display": "Drakan Wings",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Of the Myreque",
+      "display": "Two titles: [Name] of the Myreque [Name] of Vampyrium",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Gathering",
+      "display": "The Gathering",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Blood Hunt",
+      "display": "Blood Hunt",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Dirge of Drakan",
+      "display": "Dirge of Drakan",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Lament for the Hallowed",
+      "display": "Lament for the Hallowed",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Lord of Vampyrium (music track)",
+      "display": "The Lord of Vampyrium",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Vanescula Drakan at the docks south-east of Burgh de Rott. (opciones de chat: Accept)",
+        "es": "Habla con Vanescula Drakan en los muelles al sureste de Burgh de Rott. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Board the nearby boat to Icyene graveyard. (opciones de chat: 2 Icyene graveyard.)",
+        "es": "Sube al bote cercano hacia el cementerio Icyene. (opciones de chat: 2 Cementerio Icyene.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Safalaan.",
+        "es": "Habla con Safalaan."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Solve the ring puzzle by rotating the rings until they turn blue and their markings join together.",
+        "es": "Resuelve el rompecabezas de los anillos girándolos hasta que se vuelvan azules y sus marcas se unan."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the statue of Queen Efaritay to receive Efaritay's pendant.",
+        "es": "Inspecciona la estatua de la reina Efaritay para recibir el colgante de Efaritay."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Safalaan.",
+        "es": "Habla con Safalaan."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the Myreque Hideout with Drakan's medallion , use the Meiyerditch teleport option, and walk into the central room.",
+        "es": "Viaja al Myreque Hideout con el medallón de Drakan, usa la opción de teletransporte a Meiyerditch, y entra caminando a la sala central."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, talk to Safalaan in the northern room.",
+        "es": "Después de la escena cinemática, habla con Safalaan en la sala del norte."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Equip your Darkmeyer disguise.",
+        "es": "Equípate el disfraz de Darkmeyer."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Use your Drakan's medallion to teleport to Darkmeyer",
+        "es": "Usa tu medallón de Drakan para teletransportarte a Darkmeyer."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Veliaf Hurtz inside the Arboretum. He will not appear until you walk into the central chamber.",
+        "es": "Habla con Veliaf Hurtz dentro del Arboretum. No aparecerá hasta que entres en la cámara central."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "At this point you are able to craft more types of blisterwood weapons.",
+        "es": "En este punto ya puedes fabricar más tipos de armas de blisterwood."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Head south-west inside Vanstrom's former mansion.",
+        "es": "Dirígete al suroeste dentro de la antigua mansión de Vanstrom."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Open then search the vyrewatch crate to obtain vyrewatch uniforms.",
+        "es": "Abre y luego registra el cajón de vyrewatch para obtener uniformes de vyrewatch."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Return to Veliaf. (opciones de chat: 1 Yes.) He will give you a set of the House Drakan outfit.",
+        "es": "Regresa con Veliaf. (opciones de chat: 1 Sí.) Te dará un conjunto del atuendo de House Drakan."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "No items other than the Darkmeyer outfit, House Drakan outfit, Drakan medallion, runes, Ivandis flail, and blisterwood weapons and ammo can be taken to Castle Drakan.",
+        "es": "No se puede llevar al Castle Drakan ningún objeto que no sea el atuendo de Darkmeyer, el atuendo de House Drakan, el medallón de Drakan, runas, el Ivandis flail, y armas y munición de blisterwood."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Equip the House Drakan outfit, unequip any weapons, and talk to Vanescula near Overwatch Mornid.",
+        "es": "Equípate el atuendo de House Drakan, quítate cualquier arma, y habla con Vanescula cerca de Overwatch Mornid."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Complete the following to gain status:",
+        "es": "Completa lo siguiente para ganar estatus:"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "North-west, talk to Lady Nadezhda Shadum. (opciones de chat: 4 Humiliate it.)",
+        "es": "Al noroeste, habla con Lady Nadezhda Shadum. (opciones de chat: 4 Humillarlo.)"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "West, talk to Lord Alexei Jovkai. (opciones de chat: 1 Try the old man - he looks defiant.)",
+        "es": "Al oeste, habla con Lord Alexei Jovkai. (opciones de chat: 1 Probar con el anciano, parece desafiante.)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 1,
+      "text": {
+        "en": "East, talk to Lord Mischa Myrmel. (opciones de chat: 4 Show mercy; make her feel better.)",
+        "es": "Al este, habla con Lord Mischa Myrmel. (opciones de chat: 4 Mostrar clemencia; hacer que se sienta mejor.)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 1,
+      "text": {
+        "en": "Shoo the bats flying around.",
+        "es": "Espanta a los murciélagos que revolotean."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Vanescula. (opciones de chat: Any • Any • Any • Any)",
+        "es": "Habla con Vanescula. (opciones de chat: Cualquiera • Cualquiera • Cualquiera • Cualquiera)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Exit your cell and unlock the five other cells. You will take damage equal to 10% of your life points. You will have a chance to eat in the next section. Make sure you talk to the Myreque while doing this or the portcullis will not open.",
+        "es": "Sal de tu celda y desbloquea las otras cinco celdas. Recibirás daño equivalente al 10% de tus puntos de vida. Tendrás la oportunidad de comer en la siguiente sección. Asegúrate de hablar con los Myreque mientras haces esto, o el rastrillo no se abrirá."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Go to the next chamber and solve the ring puzzle. This is similar to the earlier puzzle with the addition that rotating a ring causes the smaller, adjacent ring to rotate as well. Rotating the centre ring causes the outer ring to rotate.",
+        "es": "Ve a la siguiente cámara y resuelve el rompecabezas de anillos. Es similar al rompecabezas anterior, con la diferencia de que al girar un anillo también gira el anillo adyacente más pequeño. Girar el anillo central hace que el anillo exterior gire también."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "Start from the outside and work your way in.",
+        "es": "Empieza desde fuera y ve avanzando hacia dentro."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Go to the next chamber and talk to Safalaan.",
+        "es": "Ve a la siguiente cámara y habla con Safalaan."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Go up the stairs and leave the dungeon.",
+        "es": "Sube las escaleras y sal de la mazmorra."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Go to the eastern room and take all the mysterious jerky you are able to from the butchery table.",
+        "es": "Ve a la sala del este y coge toda la cecina misteriosa que puedas de la mesa de carnicería."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "Eat to full health, you can take more after eating.",
+        "es": "Come hasta recuperar toda tu vida; puedes coger más después de comer."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Vanescula and Mornid in the western room.",
+        "es": "Habla con Vanescula y Mornid en la sala del oeste."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Go to the southern room, and read the A Taste of Hope book obtained earlier. Investigate each blood lock. The correct matches are:",
+        "es": "Ve a la sala del sur y lee el libro A Taste of Hope que obtuviste anteriormente. Investiga cada cerradura de sangre. Las combinaciones correctas son:"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "Ghrazi - Veliaf (opciones de chat: 5 [More choices.] • 3 Veliaf.)",
+        "es": "Ghrazi - Veliaf (opciones de chat: 5 [Más opciones.] • 3 Veliaf.)"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "Alzeph - Radigad (opciones de chat: 5 [More choices.] • 1 Radigad.)",
+        "es": "Alzeph - Radigad (opciones de chat: 5 [Más opciones.] • 1 Radigad.)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "Pyrah - Kael (opciones de chat: 2 Kael.)",
+        "es": "Pyrah - Kael (opciones de chat: 2 Kael.)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "Myrmel - Mekritus (opciones de chat: 3 Mekritus.)",
+        "es": "Myrmel - Mekritus (opciones de chat: 3 Mekritus.)"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "Vitur - Polmafi (opciones de chat: 4 Polmafi.)",
+        "es": "Vitur - Polmafi (opciones de chat: 4 Polmafi.)"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Shadum - Vertida (opciones de chat: 5 [More choices.] • 4 Vertida.)",
+        "es": "Shadum - Vertida (opciones de chat: 5 [Más opciones.] • 4 Vertida.)"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Jovkai - Safalaan (opciones de chat: 5 [More choices.] • 2 Safalaan.)",
+        "es": "Jovkai - Safalaan (opciones de chat: 5 [Más opciones.] • 2 Safalaan.)"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 1,
+      "text": {
+        "en": "Drakan - Ivan (opciones de chat: 1 Ivan.)",
+        "es": "Drakan - Ivan (opciones de chat: 1 Ivan.)"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Unlock the tithing door south and escape through the cellar exit.",
+        "es": "Desbloquea la puerta de tributo al sur y escapa por la salida de la bodega."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Enter the tunnel and Lowerniel Drakan will appear.",
+        "es": "Entra en el túnel y aparecerá Lowerniel Drakan."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Vandalise the statue of Lord Drakan to obtain a statue spear (if the option to vandalise doesn't appear then enter the east door for a cutscene).",
+        "es": "Vandaliza la estatua de Lord Drakan para obtener una lanza de estatua (si no aparece la opción de vandalizar, entra por la puerta este para ver una escena cinemática)."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Brace the entrance door.",
+        "es": "Refuerza la puerta de entrada."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Defeat the venator and climb the stairs.",
+        "es": "Derrota al venator y sube las escaleras."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Smash 2 tables and 3 chairs and collect 9 furniture debris.",
+        "es": "Rompe 2 mesas y 3 sillas y recoge 9 restos de mobiliario."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Barricade the three windows. Do not click away before you get the message confirming the window is barricaded.",
+        "es": "Atranca las tres ventanas. No hagas clic en otro sitio antes de recibir el mensaje que confirma que la ventana está atrancada."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Defeat the venator if time runs out and one appears.",
+        "es": "Derrota al venator si se acaba el tiempo y aparece uno."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "You can collect 3 extra debris from smashing the remaining chairs in this room to make subsequent rooms easier.",
+        "es": "Puedes recoger 3 restos extra rompiendo las sillas restantes de esta sala para facilitar las siguientes salas."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Unlock the blood lock and enter the second room. Another timer will start.",
+        "es": "Desbloquea la cerradura de sangre y entra en la segunda sala. Empezará otro temporizador."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Smash the table. You should have 6 furniture debris.",
+        "es": "Rompe la mesa. Deberías tener 6 restos de mobiliario."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Barricade the two windows. Do not click away before the \"the window is barricaded\" message appears.",
+        "es": "Atranca las dos ventanas. No hagas clic en otro sitio antes de que aparezca el mensaje \"la ventana está atrancada\"."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Defeat the venator if time runs out and one appears.",
+        "es": "Derrota al venator si se acaba el tiempo y aparece uno."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Unlock the blood lock and enter the third room.",
+        "es": "Desbloquea la cerradura de sangre y entra en la tercera sala."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Lift the table.",
+        "es": "Levanta la mesa."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Defeat the venator.",
+        "es": "Derrota al venator."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Lift the table.",
+        "es": "Levanta la mesa."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Unlock the blood lock and enter the fourth room.",
+        "es": "Desbloquea la cerradura de sangre y entra en la cuarta sala."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Smash the chairs and table to the right of the door and the weapon racks which are against the north and south sides of the staircase.",
+        "es": "Rompe las sillas y la mesa a la derecha de la puerta, y los estantes de armas que están contra los lados norte y sur de la escalera."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Barricade the two windows. Defeat the venator if time runs out and one appears.",
+        "es": "Atranca las dos ventanas. Derrota al venator si se acaba el tiempo y aparece uno."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Solve the puzzle by making the following moves (if you mess up, you can reset the puzzle by talking to Polmafi):",
+        "es": "Resuelve el rompecabezas haciendo los siguientes movimientos (si te equivocas, puedes reiniciar el rompecabezas hablando con Polmafi):"
+      }
+    },
+    {
+      "index": 61,
+      "indent": 1,
+      "text": {
+        "en": "Rotate ring 'E' clockwise once.",
+        "es": "Gira el anillo 'E' en sentido horario una vez."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 1,
+      "text": {
+        "en": "Rotate ring 'D' clockwise three times.",
+        "es": "Gira el anillo 'D' en sentido horario tres veces."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 1,
+      "text": {
+        "en": "Rotate ring 'C' clockwise twice.",
+        "es": "Gira el anillo 'C' en sentido horario dos veces."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 1,
+      "text": {
+        "en": "Rotate ring 'B' clockwise twice.",
+        "es": "Gira el anillo 'B' en sentido horario dos veces."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 1,
+      "text": {
+        "en": "Rotate ring 'A' clockwise once.",
+        "es": "Gira el anillo 'A' en sentido horario una vez."
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "Climb upstairs.",
+        "es": "Sube las escaleras."
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Veliaf.",
+        "es": "Habla con Veliaf."
+      }
+    },
+    {
+      "index": 68,
+      "indent": 0,
+      "text": {
+        "en": "Climb the stairs on both sides and open the blood valves in each room.",
+        "es": "Sube las escaleras a ambos lados y abre las válvulas de sangre en cada sala."
+      }
+    },
+    {
+      "index": 69,
+      "indent": 1,
+      "text": {
+        "en": "After defeating the venator in the western room, check on Ivan.",
+        "es": "Después de derrotar al venator en la sala del oeste, comprueba cómo está Ivan."
+      }
+    },
+    {
+      "index": 70,
+      "indent": 0,
+      "text": {
+        "en": "Back on the , enter the northern door and open the blood valve.",
+        "es": "De vuelta, entra por la puerta del norte y abre la válvula de sangre."
+      }
+    },
+    {
+      "index": 71,
+      "indent": 0,
+      "text": {
+        "en": "Climb down the stairs and solve the final ring puzzle by making these moves:",
+        "es": "Baja las escaleras y resuelve el rompecabezas final de anillos haciendo estos movimientos:"
+      }
+    },
+    {
+      "index": 72,
+      "indent": 1,
+      "text": {
+        "en": "Rotate ring A anticlockwise once.",
+        "es": "Gira el anillo A en sentido antihorario una vez."
+      }
+    },
+    {
+      "index": 73,
+      "indent": 1,
+      "text": {
+        "en": "Rotate ring B clockwise three times.",
+        "es": "Gira el anillo B en sentido horario tres veces."
+      }
+    },
+    {
+      "index": 74,
+      "indent": 1,
+      "text": {
+        "en": "Rotate ring C clockwise once.",
+        "es": "Gira el anillo C en sentido horario una vez."
+      }
+    },
+    {
+      "index": 75,
+      "indent": 1,
+      "text": {
+        "en": "Rotate ring D anticlockwise three times.",
+        "es": "Gira el anillo D en sentido antihorario tres veces."
+      }
+    },
+    {
+      "index": 76,
+      "indent": 1,
+      "text": {
+        "en": "Rotate ring E anticlockwise three times.",
+        "es": "Gira el anillo E en sentido antihorario tres veces."
+      }
+    },
+    {
+      "index": 77,
+      "indent": 0,
+      "text": {
+        "en": "Before entering the fight you can use stat-boosting potions and prayer restoration potions to make the fight easier, but these items cannot be brought to the fight.",
+        "es": "Antes de entrar en el combate, puedes usar pociones que mejoran estadísticas y pociones de restauración de oración para facilitar el combate, pero estos objetos no se pueden llevar al combate."
+      }
+    },
+    {
+      "index": 78,
+      "indent": 0,
+      "text": {
+        "en": "Climb the stairs in the ring puzzle room and prepare to fight Lowerniel Drakan.",
+        "es": "Sube las escaleras en la sala del rompecabezas de anillos y prepárate para luchar contra Lowerniel Drakan."
+      }
+    },
+    {
+      "index": 79,
+      "indent": 0,
+      "text": {
+        "en": "Kill the three venators. (You can stand behind Vertida, Veliaf and Safalaan when attacking each of the venators and they won't attack you, saving you from needing to eat.)",
+        "es": "Mata a los tres venators. (Puedes colocarte detrás de Vertida, Veliaf y Safalaan al atacar a cada uno de los venators y no te atacarán, así te ahorras tener que comer.)"
+      }
+    },
+    {
+      "index": 80,
+      "indent": 0,
+      "text": {
+        "en": "Fight Lowerniel Drakan.",
+        "es": "Lucha contra Lowerniel Drakan."
+      }
+    },
+    {
+      "index": 81,
+      "indent": 1,
+      "text": {
+        "en": "Run away from bombs which appear after he says \"Ha ha ha!\".",
+        "es": "Huye de las bombas que aparecen después de que diga \"¡Ja ja ja!\"."
+      }
+    },
+    {
+      "index": 82,
+      "indent": 1,
+      "text": {
+        "en": "When he says things like \"Still trying to run?\" or \"You think you can escape?\" use Anticipation to avoid being stunned and dealt high damage.",
+        "es": "Cuando diga cosas como \"¿Aún intentas huir?\" o \"¿Crees que puedes escapar?\", usa Anticipación para evitar quedar aturdido y recibir mucho daño."
+      }
+    },
+    {
+      "index": 83,
+      "indent": 0,
+      "text": {
+        "en": "Fight Lowerniel Drakan again.",
+        "es": "Lucha contra Lowerniel Drakan de nuevo."
+      }
+    },
+    {
+      "index": 84,
+      "indent": 1,
+      "text": {
+        "en": "When he says \"Fear me!\" and transforms into a cloud of dust, run away from the cloud.",
+        "es": "Cuando diga \"¡Témeme!\" y se transforme en una nube de polvo, huye de la nube."
+      }
+    },
+    {
+      "index": 85,
+      "indent": 1,
+      "text": {
+        "en": "When he says \"Embrace darkness\", stand within the sphere of lightning surrounding Safalaan.",
+        "es": "Cuando diga \"Abraza la oscuridad\", quédate dentro de la esfera de relámpagos que rodea a Safalaan."
+      }
+    },
+    {
+      "index": 86,
+      "indent": 1,
+      "text": {
+        "en": "When he says \"Graaah!\", use Anticipation or Freedom if you get stunned.",
+        "es": "Cuando diga \"¡Graaah!\", usa Anticipación o Libertad si quedas aturdido."
+      }
+    },
+    {
+      "index": 87,
+      "indent": 0,
+      "text": {
+        "en": "Jump into the portal and fight Lowerniel Drakan again - he will use the same attacks as in the previous fights.",
+        "es": "Salta al portal y lucha contra Lowerniel Drakan de nuevo; usará los mismos ataques que en los combates anteriores."
+      }
+    },
+    {
+      "index": 88,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lowerniel Drakan and then fight him for the final time.",
+        "es": "Habla con Lowerniel Drakan y luego lucha contra él por última vez."
+      }
+    },
+    {
+      "index": 89,
+      "indent": 1,
+      "text": {
+        "en": "Avoid bombs as before.",
+        "es": "Evita las bombas como antes."
+      }
+    },
+    {
+      "index": 90,
+      "indent": 1,
+      "text": {
+        "en": "Move away from him when he is doing a special attack (rapid melee attacks) to avoid taking damage.",
+        "es": "Aléjate de él cuando esté haciendo un ataque especial (ataques cuerpo a cuerpo rápidos) para evitar recibir daño."
+      }
+    },
+    {
+      "index": 91,
+      "indent": 0,
+      "text": {
+        "en": "Select the \"finish\" option on Lowerniel Drakan.",
+        "es": "Selecciona la opción \"finish\" (rematar) sobre Lowerniel Drakan."
+      }
+    },
+    {
+      "index": 92,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ivan. A cutscene will follow.",
+        "es": "Habla con Ivan. Seguirá una escena cinemática."
+      }
+    },
+    {
+      "index": 93,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ivan again.",
+        "es": "Habla con Ivan de nuevo."
+      }
+    },
+    {
+      "index": 94,
+      "indent": 0,
+      "text": {
+        "en": "Go to Varrock Palace and talk to King Roald.",
+        "es": "Ve al Varrock Palace y habla con King Roald."
+      }
+    },
+    {
+      "index": 95,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "id": "meeting-history",
+  "title": "Meeting History",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:38:14.543Z",
+  "icon": "https://runescape.wiki/images/Meeting_History_icon.png",
+  "series": "Enchanted Key",
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "5 August 2008",
+  "startPoint": {
+    "en": "Talk to Jorral in the outpost south of the Tree Gnome Stronghold, north-west of West Ardougne.",
+    "es": "Habla con Jorral en el puesto avanzado al sur de Tree Gnome Stronghold, al noroeste de West Ardougne."
+  },
+  "requirements": {
+    "quests": [
+      "Making History",
+      "The Restless Ghost",
+      "Morytania"
+    ],
+    "skills": [
+      {
+        "skill": "Herblore",
+        "level": 3
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Enchanted key (Making History)",
+      "display": "Enchanted key from Making History (if you no longer have that key, you will receive it again by talking to Jorral)",
+      "image": "https://runescape.wiki/images/thumb/Enchanted_key_%28Making_History%29_detail.png/100px-Enchanted_key_%28Making_History%29_detail.png?a164f"
+    },
+    {
+      "name": "Nothing else equipped or in your inventory",
+      "display": "Nothing else equipped or in your inventory",
+      "image": null
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Old tome",
+      "amount": null,
+      "display": "An old tome giving a total of 2,500 experience across up to 3 skills with level 25 or higher (1,000 experience for the first chapter, 1,000 experience for the second, and 500 experience for the third).",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Enchanted key (miniquest)",
+      "display": "Even more treasure hunting with the enchanted key miniquest.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Historian Minas",
+      "display": "Speak to Historian Minas at the Varrock Museum to earn 5 Kudos.",
+      "image": "https://runescape.wiki/images/thumb/Historian_Minas.png/100px-Historian_Minas.png?74d5d"
+    },
+    {
+      "type": "item",
+      "name": "Ardougne Ago",
+      "display": "Ardougne Ago",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Outpost.",
+        "es": "Ve al Outpost."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Jorral. (opciones de chat: 2 Anything else I can help you with? • Accept)",
+        "es": "Habla con Jorral. (opciones de chat: 2 Anything else I can help you with? • Accept)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "As needed, accept his offer to bank your items.",
+        "es": "Si es necesario, acepta su oferta de guardar tus objetos en el banco."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Run east to the sheep pen across the river, or run north-west from Ardougne lodestone.",
+        "es": "Corre hacia el este, hasta el corral de ovejas al otro lado del río, o corre hacia el noroeste desde la piedra de viaje de Ardougne."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Right-click rub the key in the location shown right (stand on the flowers west of the sheep pen west of the lodestone).",
+        "es": "Haz clic derecho para frotar la llave en la ubicación mostrada a la derecha (colócate sobre las flores al oeste del corral de ovejas, al oeste de la piedra de viaje)."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Laura.",
+        "es": "Habla con Laura."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Rub the enchanted key again.",
+        "es": "Frota de nuevo la llave encantada."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Return to Jorral and talk to him.",
+        "es": "Vuelve con Jorral y habla con él."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, go back to the location shown above and rub the key again, choosing \"Past - A.\" (Don't forget to bank your traveller's necklace if you used it to get back to the outpost.)",
+        "es": "Después de la escena, vuelve a la ubicación mostrada anteriormente y frota la llave de nuevo, eligiendo \"Past - A\". (No olvides guardar en el banco tu traveller's necklace si la usaste para volver al puesto avanzado.)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "While in Past A, talk to Jack.",
+        "es": "Mientras estés en Past A, habla con Jack."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Rub the key, go to Past B, talk to Jack. (opciones de chat: 2 Perhaps you'd spare the time if I read your mind with magic?)",
+        "es": "Frota la llave, ve a Past B y habla con Jack. (opciones de chat: 2 Perhaps you'd spare the time if I read your mind with magic?)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Answer with the following: (opciones de chat: 1 Super Jack The Fantasmic. • 2 Cosmic, mind, body, and fire runes. • 3 Misalionar. • 2 Seven. • 3 Trying to create fire. • 1 Create chocolate cakes. • 1 Good. • 3 Strawberry.)",
+        "es": "Responde con lo siguiente: (opciones de chat: 1 Super Jack The Fantasmic. • 2 Cosmic, mind, body, and fire runes. • 3 Misalionar. • 2 Seven. • 3 Trying to create fire. • 1 Create chocolate cakes. • 1 Good. • 3 Strawberry.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Go to Past A, take a spade and 6 plant pots from the backyard.",
+        "es": "Ve a Past A, coge una pala y 6 macetas del patio trasero."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Use the spade or a plant pot on each seedling.",
+        "es": "Usa la pala o una maceta en cada plántula."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Use the seedling pots on the correct tree spots using this image.",
+        "es": "Usa las macetas con plántulas en los lugares correctos para los árboles, según esta imagen."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Go to Past B, talk to Sarah about the trees.",
+        "es": "Ve a Past B, habla con Sarah sobre los árboles."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Jack for a cutscene.",
+        "es": "Habla con Jack para ver una escena."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Go to Past A, talk to Roger.",
+        "es": "Ve a Past A, habla con Roger."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Go to Past B, talk to Sarah.",
+        "es": "Ve a Past B, habla con Sarah."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Go to Past A, search the south-east side table inside to find a pestle and mortar, bucket of milk and a clean guam.",
+        "es": "Ve a Past A y busca en la mesa auxiliar del lado sureste, dentro de la casa, para encontrar un mortero con maja, un cubo de leche y un guam limpio."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Search the middle shelf (south side) for a bowl.",
+        "es": "Busca en la estantería central (lado sur) para encontrar un cuenco."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Use the bowl on the beehive just west of the house.",
+        "es": "Usa el cuenco en la colmena justo al oeste de la casa."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Use the pestle and mortar on the clean guam.",
+        "es": "Usa el mortero con maja en el guam limpio."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Use the bucket of milk on the bowl of honey.",
+        "es": "Usa el cubo de leche en el cuenco de miel."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Add the ground guam.",
+        "es": "Añade el guam molido."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Use the bowl of milk, honey and guam on Baby Sarah (right click so that you don't use the bowl on the basket).",
+        "es": "Usa el cuenco con leche, miel y guam en Baby Sarah (haz clic derecho para no usar el cuenco en la cesta)."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Roger again for a cutscene.",
+        "es": "Habla de nuevo con Roger para ver una escena."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Go to Past B, talk to Laura.",
+        "es": "Ve a Past B, habla con Laura."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Go to Past A, search either the south-western or south-eastern shelves in the house for a papyrus and charcoal.",
+        "es": "Ve a Past A y busca en las estanterías del suroeste o del sureste de la casa para encontrar un papiro y carbón."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Use the charcoal on the papyrus.",
+        "es": "Usa el carbón en el papiro."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Give this to Laura.",
+        "es": "Dale esto a Laura."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Go to Past B, talk to Laura.",
+        "es": "Ve a Past B, habla con Laura."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Go to Past A.",
+        "es": "Ve a Past A."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Inside the house, search the 3 stone bedside tables (One of them should contain the brooch)",
+        "es": "Dentro de la casa, busca en las 3 mesitas de piedra junto a la cama (una de ellas debería contener el broche)."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Use the brooch on the soil mound west of the shed Laura is building.",
+        "es": "Usa el broche en el montículo de tierra al oeste del cobertizo que Laura está construyendo."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Go to Past B, take the spade from the shed.",
+        "es": "Ve a Past B, coge la pala del cobertizo."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Dig up the brooch.",
+        "es": "Desentierra el broche."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Laura for a cutscene.",
+        "es": "Habla con Laura para ver una escena."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Return to the present.",
+        "es": "Vuelve al presente."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Jorral.",
+        "es": "Habla con Jorral."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

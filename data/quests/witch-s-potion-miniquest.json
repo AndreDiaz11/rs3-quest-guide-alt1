@@ -1,0 +1,97 @@
+{
+  "id": "witch-s-potion-miniquest",
+  "title": "Witch's Potion (miniquest)",
+  "isMiniquest": true,
+  "guideLastUpdated": "2026-07-04T02:34:26.332Z",
+  "icon": "https://runescape.wiki/images/Witch%27s_Potion_%28miniquest%29_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "pathfinder",
+  "members": false,
+  "combatLevel": "1",
+  "difficulty": "Novice",
+  "length": "Very Short",
+  "releaseDate": "6 April 2001",
+  "startPoint": {
+    "en": "Talk to Hetty in her house in Rimmington, south of Falador and west of Port Sarim.",
+    "es": "Habla con Hetty en su casa en Rimmington, al sur de Falador y al oeste de Port Sarim."
+  },
+  "requirements": {
+    "quests": [
+      "Witch's Potion (miniquest)"
+    ],
+    "skills": []
+  },
+  "items": [
+    {
+      "name": "Burnt meat",
+      "display": "Burnt meat",
+      "image": "https://runescape.wiki/images/thumb/Burnt_meat_detail.png/100px-Burnt_meat_detail.png?29287"
+    },
+    {
+      "name": "Eye of newt",
+      "display": "Eye of newt",
+      "image": "https://runescape.wiki/images/thumb/Eye_of_newt_detail.png/100px-Eye_of_newt_detail.png?c85db"
+    },
+    {
+      "name": "Onion",
+      "display": "Onion",
+      "image": "https://runescape.wiki/images/thumb/Onion_detail.png/100px-Onion_detail.png?c38d6"
+    }
+  ],
+  "kills": [
+    "Rat (Level 1)"
+  ],
+  "rewards": [
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 325,
+      "display": "325 experience",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Hetty in her house in Rimmington, west of the Port Sarim lodestone and south of Falador. (opciones de chat: 3 I'm looking for work. • Accept)",
+        "es": "Habla con Hetty en su casa en Rimmington, al oeste de la piedra de viaje de Port Sarim y al sur de Falador. (opciones de chat: 3 Estoy buscando trabajo. • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Kill a rat for a rat's tail.",
+        "es": "Mata a una rata para conseguir una cola de rata."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "Some rats can be found in Brian's Archery Supplies.",
+        "es": "Se pueden encontrar ratas en Brian's Archery Supplies."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Give her the ingredients.",
+        "es": "Dale los ingredientes."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Drink from the cauldron.",
+        "es": "Bebe del caldero."
+      }
+    }
+  ]
+}

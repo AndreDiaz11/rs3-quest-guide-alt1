@@ -1,0 +1,517 @@
+{
+  "id": "nature-spirit",
+  "title": "Nature Spirit",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:43:23.747Z",
+  "icon": "https://runescape.wiki/images/Nature_Spirit_icon.png",
+  "series": "Myreque",
+  "age": "5",
+  "timeline": "adventurer",
+  "members": true,
+  "combatLevel": "30-39",
+  "difficulty": "Novice",
+  "length": "Short to Medium",
+  "releaseDate": "13 July 2004",
+  "startPoint": {
+    "en": "Speak to Drezel under the Saradomin temple near the River Salve. (via )",
+    "es": "Habla con Drezel bajo el templo de Saradomin cerca de River Salve. (via )"
+  },
+  "requirements": {
+    "quests": [
+      "Priest in Peril",
+      "The Restless Ghost",
+      "Morytania"
+    ],
+    "skills": [
+      {
+        "skill": "Crafting",
+        "level": 18
+      },
+      {
+        "skill": "Mining",
+        "level": 20
+      },
+      {
+        "skill": "Divination",
+        "level": 22
+      },
+      {
+        "skill": "Smithing",
+        "level": 20
+      },
+      {
+        "skill": "Crafting",
+        "level": 18
+      },
+      {
+        "skill": "Prayer",
+        "level": 10
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Silver sickle",
+      "display": "Silver sickle (Can be made from a silver bar and a sickle mould or bought from the Grand Exchange. Not able to make unless part of the Nature Spirit quest has been completed. Talk to Filliman to obtain the ability to craft this.)",
+      "image": "https://runescape.wiki/images/thumb/Silver_sickle_detail.png/100px-Silver_sickle_detail.png?6a329"
+    },
+    {
+      "name": "Ghostspeak amulet",
+      "display": "Ghostspeak amulet",
+      "image": "https://runescape.wiki/images/thumb/Ghostspeak_amulet_detail.png/100px-Ghostspeak_amulet_detail.png?18457"
+    }
+  ],
+  "kills": [
+    "3 Ghasts (level 35)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 3000,
+      "display": "3,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Defence",
+      "amount": 2000,
+      "display": "2,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Constitution",
+      "amount": 2000,
+      "display": "2,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Mort Myre Swamp",
+      "display": "Access to Mort Myre Swamp through the gate, which also allows easier access to Mort'ton and the Barrows activity as well as most of Southern Morytania",
+      "image": "https://runescape.wiki/images/thumb/Mort_Myre_Swamp.png/100px-Mort_Myre_Swamp.png?f83e8"
+    },
+    {
+      "type": "item",
+      "name": "Apple pie",
+      "display": "3 apple pies and 3 meat pies unless they were rotted by the Ghasts",
+      "image": "https://runescape.wiki/images/thumb/Apple_pie_detail.png/100px-Apple_pie_detail.png?fa4c6"
+    },
+    {
+      "type": "item",
+      "name": "Altar of Nature",
+      "display": "Access to Altar of Nature, where you can replenish and temporarily boost your prayer points by twenty",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Summoning Supplies (Wishing well)",
+      "display": "Access to the Summoning Supplies (Wishing well) shop",
+      "image": "https://runescape.wiki/images/thumb/Summoning_Supplies_%28wishing_well%29.png/100px-Summoning_Supplies_%28wishing_well%29.png?e85db"
+    },
+    {
+      "type": "item",
+      "name": "Silver sickle",
+      "display": "Ability to craft silver sickles",
+      "image": "https://runescape.wiki/images/thumb/Silver_sickle_detail.png/100px-Silver_sickle_detail.png?6a329"
+    },
+    {
+      "type": "item",
+      "name": "Ghasts",
+      "display": "Ability to fight Ghasts by using druid pouches",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Blessed sickle",
+      "display": "If you lose your blessed sickle you can regain it by dipping a sickle in the Altar of Nature",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Dead Quiet",
+      "display": "Dead Quiet",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Natural",
+      "display": "Natural",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Stagnant",
+      "display": "Stagnant",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Grotto (music track)",
+      "display": "Grotto",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Make sure you have prayer points before starting.",
+        "es": "Asegúrate de tener puntos de oración antes de empezar."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Drezel, who is located underground near Paterdomus. The entrance is north from the temple's door. You should have six empty backpack space; otherwise the food he gives you will appear on the floor.",
+        "es": "Habla con Drezel, que se encuentra bajo tierra cerca de Paterdomus. La entrada está al norte de la puerta del templo. Deberías tener seis espacios libres en la mochila; de lo contrario, la comida que te dé aparecerá en el suelo."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "If you have lost Wolfbane: (opciones de chat: 2 Talk about something else. • 2 Is there anything else interesting to do around here? • Accept • 4 Yes, I'll go and look for him. • 1 Yes, I'm sure.)",
+        "es": "Si has perdido Wolfbane: (opciones de chat: 2 Talk about something else. • 2 Is there anything else interesting to do around here? • Accept • 4 Yes, I'll go and look for him. • 1 Yes, I'm sure.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "If you have Wolfbane in your bank or backpack: (opciones de chat: 2 Is there anything else interesting to do around here? • Accept • 4 Yes, I'll go and look for him. • 1 Yes, I'm sure.)",
+        "es": "Si tienes Wolfbane en tu banco o mochila: (opciones de chat: 2 Is there anything else interesting to do around here? • Accept • 4 Yes, I'll go and look for him. • 1 Yes, I'm sure.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 1,
+      "text": {
+        "en": "If you have just completed Priest in Peril, then you might need to exit and reenter the Mausoleum before the quest dialogue will appear. Drezel should be standing in the last chamber before the holy barrier.",
+        "es": "Si acabas de completar Priest in Peril, puede que necesites salir y volver a entrar al Mausoleum antes de que aparezca el diálogo de la misión. Drezel debería estar de pie en la última cámara antes de la barrera sagrada."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Exit into Morytania and travel south to a fence.",
+        "es": "Sal hacia Morytania y viaja al sur hasta una valla."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Look along the fence for a gate and go through it.",
+        "es": "Busca a lo largo de la valla una puerta y pasa a través de ella."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Go south until a round island is found with a grotto tree.",
+        "es": "Ve hacia el sur hasta encontrar una isla redonda con un árbol grotto."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Jump across the broken bridge and onto the island.",
+        "es": "Salta sobre el puente roto hasta llegar a la isla."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Search the bench nearby for a small mirror.",
+        "es": "Registra el banco cercano para encontrar un pequeño espejo."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Search the grotto tree for Filliman's journal.",
+        "es": "Registra el árbol grotto para encontrar el diario de Filliman."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Equip your ghostspeak amulet and talk to Filliman Tarlock. (opciones de chat: 2 How long have you been a ghost? • 2 So, what's your plan? • 4 How can I help?)",
+        "es": "Equípate el ghostspeak amulet y habla con Filliman Tarlock. (opciones de chat: 2 How long have you been a ghost? • 2 So, what's your plan? • 4 How can I help?)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 1,
+      "text": {
+        "en": "He'll give you a druidic spell.",
+        "es": "Te dará un hechizo druídico."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Return to Drezel to be blessed and teleported back to Filliman.",
+        "es": "Regresa con Drezel para que te bendiga y te teletransporte de vuelta con Filliman."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 1,
+      "text": {
+        "en": "If you have lost the wolfbane: (opciones de chat: 2 Talk about something else. • 1 Yes, please)",
+        "es": "Si has perdido el wolfbane: (opciones de chat: 2 Talk about something else. • 1 Yes, please)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 1,
+      "text": {
+        "en": "If you have the wolfbane in your backpack or bank: (opciones de chat: 1 Yes, please)",
+        "es": "Si tienes el wolfbane en tu mochila o banco: (opciones de chat: 1 Yes, please)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Jump the bridge and find a nearby rotting log in the swamp.",
+        "es": "Salta el puente y busca un tronco podrido cercano en el pantano."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "There is some directly West of the Grotto tree island.",
+        "es": "Hay uno justo al oeste de la isla del árbol Grotto."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Cast the druidic spell in your backpack, then pick the fungus from the log.",
+        "es": "Lanza el hechizo druídico desde tu mochila y luego recoge el hongo del tronco."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Take the Mort myre fungus mushroom from the log and talk to Filliman.",
+        "es": "Coge el hongo Mort myre fungus del tronco y habla con Filliman."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Use the Mort myre fungus on the western, yellow stone.",
+        "es": "Usa el Mort myre fungus en la piedra amarilla, al oeste."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Use a used spell on the eastern, grey stone.",
+        "es": "Usa un hechizo ya usado en la piedra gris, al este."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Stand on top of the southern, orange stone in the centre by right-click selecting \"Walk here\".",
+        "es": "Ponte de pie sobre la piedra naranja, en el centro al sur, haciendo clic derecho y seleccionando \"Walk here\"."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Tell Filliman the puzzle is solved. (opciones de chat: 3 I think I've solved the puzzle!)",
+        "es": "Dile a Filliman que has resuelto el puzle. (opciones de chat: 3 I think I've solved the puzzle!)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Enter the Grotto tree.",
+        "es": "Entra en el árbol Grotto."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Search the Grotto in the centre.",
+        "es": "Registra el Grotto en el centro."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Continue speaking with Nature Spirit (opciones de chat: 4 Ok, thanks.) and he will ask you for a silver sickle.",
+        "es": "Sigue hablando con Nature Spirit (opciones de chat: 4 Ok, thanks.) y te pedirá una hoz de plata."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Obtain a silver sickle via:",
+        "es": "Consigue una hoz de plata mediante:"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 1,
+      "text": {
+        "en": "Purchasing it from the Grand Exchange.",
+        "es": "Comprándola en el Grand Exchange."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "Crafting one yourself:",
+        "es": "Fabricándola tú mismo:"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 2,
+      "text": {
+        "en": "Obtain a sickle mould from a Crafting shop or the Grand Exchange. You may add it to the tool belt.",
+        "es": "Consigue un molde de hoz en una tienda de Artesanía o en el Grand Exchange. Puedes añadirlo al cinturón de herramientas."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 2,
+      "text": {
+        "en": "Smelt at a furnace with a silver bar. Select \"silver bar\" under \"Casting Metals & Glass\" section on the interface, and then select the \"silver sickle\" option in the \"Silver Casting\" section.",
+        "es": "Funde una barra de plata en una fragua. Selecciona \"silver bar\" bajo la sección \"Casting Metals & Glass\" en la interfaz, y luego selecciona la opción \"silver sickle\" en la sección \"Silver Casting\"."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Return to the grotto either by speaking to Drezel (opciones de chat: 1 Yes, please), or by navigating via the Morytania Swamp.",
+        "es": "Regresa al grotto ya sea hablando con Drezel (opciones de chat: 1 Yes, please), o desplazándote por el Morytania Swamp."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Enter the grotto tree.",
+        "es": "Entra en el árbol grotto."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Nature Spirit with a silver sickle in your backpack. He will bless it for a silver sickle (b).",
+        "es": "Habla con el Nature Spirit teniendo una hoz de plata en tu mochila. Él la bendecirá convirtiéndola en una silver sickle (b)."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Exit the grotto, jump the bridge into the swamp and stand next to the nearby rotting log.",
+        "es": "Sal del grotto, salta el puente hacia el pantano y colócate junto al tronco podrido cercano."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Right-click Bloom the silver sickle (b) in your backpack. Blooming requires at least 1 prayer point.",
+        "es": "Haz clic derecho y selecciona Bloom sobre la silver sickle (b) en tu mochila. Para florecerla necesitas al menos 1 punto de oración."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Pick the fungi from the log. You will need at least 3 total fungi (ghasts can rot the contents of the pouch).",
+        "es": "Recoge los hongos del tronco. Necesitarás al menos 3 hongos en total (los ghasts pueden pudrir el contenido de la bolsa)."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Fill the druid pouch in your backpack to add the fungi into it.",
+        "es": "Llena la druid pouch en tu mochila para añadir los hongos a ella."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Invoke and kill 3 nearby ghasts, consuming 1 fungus per invocation.",
+        "es": "Invoca y elimina a 3 ghasts cercanos, consumiendo 1 hongo por cada invocación."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "If you drop anything to receive the rewards, it will be lost.",
+        "es": "Si sueltas algo, perderás las recompensas."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Nature Spirit in the grotto.",
+        "es": "Regresa con el Nature Spirit en el grotto."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "(Optional) Pray at the altar to complete one of the easy Morytania achievements, Fortified Spirit.",
+        "es": "(Opcional) Reza en el altar para completar uno de los logros fáciles de Morytania, Fortified Spirit."
+      }
+    }
+  ]
+}

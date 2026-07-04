@@ -1,0 +1,101 @@
+{
+  "id": "doric-s-task-vi-miniquest",
+  "title": "Doric's Task VI (miniquest)",
+  "isMiniquest": true,
+  "guideLastUpdated": "2026-07-03T20:10:34.373Z",
+  "icon": "https://runescape.wiki/images/Doric%27s_Task_VI_%28miniquest%29_icon.png",
+  "series": "Doric's Tasks",
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Experienced",
+  "length": "Short",
+  "releaseDate": "17 October 2012",
+  "startPoint": {
+    "en": "Speak to Doric in his hut just outside the gates of Taverley north of Falador.",
+    "es": "Habla con Doric en su cabaña justo a las afueras de las puertas de Taverley, al norte de Falador."
+  },
+  "requirements": {
+    "quests": [
+      "Doric's Task V (miniquest)",
+      "Doric's Task IV (miniquest)",
+      "Doric's Task III (miniquest)",
+      "Doric's Task II (miniquest)",
+      "Doric's Task I (miniquest)",
+      "Death Plateau"
+    ],
+    "skills": [
+      {
+        "skill": "Smithing",
+        "level": 60
+      },
+      {
+        "skill": "Mining",
+        "level": 60
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Orikalkum bar",
+      "display": "16 orikalkum bars or 8 orikalkum bars Orikalkum warhammer + 2",
+      "image": "https://runescape.wiki/images/thumb/Orikalkum_bar_detail.png/100px-Orikalkum_bar_detail.png?ef177"
+    },
+    {
+      "name": "8 orikalkum bars",
+      "display": "8 orikalkum bars",
+      "image": null
+    },
+    {
+      "name": "Orikalkum warhammer + 2",
+      "display": "Orikalkum warhammer + 2",
+      "image": "https://runescape.wiki/images/thumb/Orikalkum_warhammer_%2B_2_detail.png/100px-Orikalkum_warhammer_%2B_2_detail.png?6f309"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 8000,
+      "display": "8,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Gofannon amulet",
+      "display": "24,000 charges for the Gofannon amulet",
+      "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Doric in his hut north of Falador. (opciones de chat: 1 Do you have any more Smithing tasks for me? • Accept)",
+        "es": "Habla con Doric en su cabaña al norte de Falador. (opciones de chat: 1 ¿Tienes más tareas de Herrería para mí? • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Smith an orikalkum warhammer +3. This cannot be one that was bought or traded, or smithed before accepting the quest.",
+        "es": "Forja un orikalkum warhammer +3. No puede ser uno que hayas comprado, intercambiado o forjado antes de aceptar la misión."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Deliver the warhammer to Skulgrimen, in the armour hut just north of the long hall in Rellekka. (opciones de chat: 3 I have your order from Doric & Son.)",
+        "es": "Entrega el warhammer a Skulgrimen, en la cabaña de armaduras justo al norte del gran salón de Rellekka. (opciones de chat: 3 Tengo tu pedido de Doric & Son.)"
+      }
+    }
+  ]
+}

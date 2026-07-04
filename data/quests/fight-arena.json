@@ -1,0 +1,219 @@
+{
+  "id": "fight-arena",
+  "title": "Fight Arena",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:19:20.741Z",
+  "icon": "https://runescape.wiki/images/Fight_Arena_icon.png",
+  "series": "Mahjarrat Mysteries",
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "70-79",
+  "difficulty": "Experienced",
+  "length": "Medium",
+  "releaseDate": "23 July 2002",
+  "startPoint": {
+    "en": "Talk to Lady Servil, just north-west of the fight arena, which is south of Ardougne.",
+    "es": "Habla con Lady Servil, justo al noroeste de la arena de combate, al sur de Ardougne."
+  },
+  "requirements": {
+    "quests": [
+      "Fight Arena"
+    ],
+    "skills": []
+  },
+  "items": [
+    {
+      "name": "Coins",
+      "display": "5 coins",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "name": "Armour",
+      "display": "Armour, weapons and food (Ranged not recommended). Make sure you have enough food to survive in battle against the monsters below.",
+      "image": null
+    },
+    {
+      "name": "3 free inventory slots during the first stage of the quest (2 for your armour and 1 for the beer)",
+      "display": "3 free inventory slots during the first stage of the quest (2 for your armour and 1 for the beer)",
+      "image": null
+    }
+  ],
+  "kills": [
+    "Khazard scorpion (level 50)",
+    "Khazard ogre (level 64)",
+    "Bouncer (level 77)",
+    "General Khazard twice (level 84 - this is an optional kill)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "1,000 coins",
+      "display": "1,000 coins",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Attack",
+      "amount": 12175,
+      "display": "12,175 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Thieving",
+      "amount": 2175,
+      "display": "2,175 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Khazard armour set",
+      "display": "Khazard armour set",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Attack IV",
+      "display": "Attack IV",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lady Servil west of the Monastery which is south of Ardougne. (opciones de chat: Accept)",
+        "es": "Habla con Lady Servil al oeste del Monastery, que está al sur de Ardougne. (opciones de chat: Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Head east and into the northeasternmost building (south of the monastery).",
+        "es": "Dirígete al este y entra en el edificio más al noreste (al sur del monasterio)."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Borrow the Khazard armour from the northeasternmost suit of armour.",
+        "es": "Pide prestada la Khazard armour de la armadura situada más al noreste."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Equip the armour and enter the prison south of the building where you got the equipment (east of the big circle of the arena in the map).",
+        "es": "Equípate la armadura y entra en la prisión al sur del edificio donde conseguiste el equipamiento (al este del gran círculo de la arena en el mapa)."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Lazy Khazard Guard sitting in the south-eastern corner of the jail.",
+        "es": "Habla con el Lazy Khazard Guard sentado en la esquina sureste de la cárcel."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Angor in the bar to the west, and buy a bottle of Khali brew for five coins. (opciones de chat: 2 I'd like a Khali brew, please.)",
+        "es": "Habla con Angor en el bar del oeste y compra una Khali brew por cinco monedas. (opciones de chat: 2 I'd like a Khali brew, please.)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Run back and talk to the Lazy Khazard Guard. Wait for him to pass out and then Steal keys from the table.",
+        "es": "Vuelve corriendo y habla con el Lazy Khazard Guard. Espera a que se quede inconsciente y luego roba las llaves de la mesa."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Use the keys on Sammy's cell door north of Lazy Khazard Guard.",
+        "es": "Usa las llaves en la celda de Sammy, al norte del Lazy Khazard Guard."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Kill the Khazard ogre.",
+        "es": "Mata al Khazard ogre."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Hengrad.",
+        "es": "Habla con Hengrad."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Open the prison door.",
+        "es": "Abre la puerta de la prisión."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Kill the Khazard scorpion.",
+        "es": "Mata al Khazard scorpion."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Kill Bouncer.",
+        "es": "Mata a Bouncer."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Kill General Khazard or walk out the door.",
+        "es": "Mata a General Khazard o sal por la puerta."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lady Servil at the quest start point northwest of the arena.",
+        "es": "Habla con Lady Servil en el punto de inicio de la misión, al noroeste de la arena."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

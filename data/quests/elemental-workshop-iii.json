@@ -1,0 +1,934 @@
+{
+  "id": "elemental-workshop-iii",
+  "title": "Elemental Workshop III",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:13:43.707Z",
+  "icon": "https://runescape.wiki/images/Elemental_Workshop_III_icon.png",
+  "series": "Elemental Workshop",
+  "age": "ambiguous",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "40-49",
+  "difficulty": "Intermediate",
+  "length": "Medium to Long",
+  "releaseDate": "25 May 2010",
+  "startPoint": {
+    "en": "Search a bookcase in Seers' Village church.",
+    "es": "Busca en una estantería en la iglesia de Seers' Village."
+  },
+  "requirements": {
+    "quests": [
+      "Elemental Workshop II",
+      "Elemental Workshop I"
+    ],
+    "skills": [
+      {
+        "skill": "Defence",
+        "level": 33
+      },
+      {
+        "skill": "Smithing",
+        "level": 33
+      },
+      {
+        "skill": "Defence",
+        "level": 66
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Coal",
+      "display": "12 pieces of coal (can be mined west of Seers' Village, at the coal trucks; these cannot be noted or in an ore box)",
+      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    },
+    {
+      "name": "Elemental ore",
+      "display": "3 elemental ores (can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Elemental_ore_detail.png/100px-Elemental_ore_detail.png?01bda"
+    },
+    {
+      "name": "Soft clay",
+      "display": "Soft clay (you can mine clay in the mine in the north-western room and use it on the sink in the northern room to soften it, or automatically mine one by wearing a bracelet of clay)",
+      "image": "https://runescape.wiki/images/thumb/Soft_clay_detail.png/100px-Soft_clay_detail.png?85203"
+    }
+  ],
+  "kills": [
+    "3 Earth elementals (level 44)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 2000,
+      "display": "2,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Book of knowledge (Elemental Workshop III)",
+      "amount": null,
+      "display": "Book of knowledge; two charges of 4,250 experience and two charges of 3,250 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Coal",
+      "display": "50 noted pieces of coal",
+      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    },
+    {
+      "type": "item",
+      "name": "Elemental Body",
+      "display": "Ability to smith elemental, mind and body bodies, along with body helmets and shields.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Body Talk",
+      "display": "Body Talk",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Search the north-east bookcase in the Seers' Village church.",
+        "es": "Busca en la estantería del noreste en la iglesia de Seers' Village."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Read the ragged book.",
+        "es": "Lee el libro andrajoso."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Use soft clay on the book to get the key mould. If you do not have soft clay, you can mine some from the clay rocks in the western mine of the workshop then use it on the sink in the northern room.",
+        "es": "Usa arcilla blanda en el libro para obtener el molde de la llave. Si no tienes arcilla blanda, puedes extraerla de las rocas de arcilla en la mina occidental del workshop y luego usarla en el fregadero de la sala norte."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Enter the Elemental Workshop and go into the mine to the west. Mine 3 elemental rocks, killing the earth elementals that appear, then pick up the 3 elemental ores that they drop. Simply killing the earth elementals wandering around the mine will not yield the ore.",
+        "es": "Entra en el Elemental Workshop y dirígete a la mina del oeste. Extrae 3 rocas elementales, matando a los earth elementals que aparezcan, y luego recoge los 3 minerales elementales que sueltan. Simplemente matar a los earth elementals que deambulan por la mina no dará mineral."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "In the fire elemental room (south), use the elemental ore on the furnace to create 3 elemental bars. 4 coal is required per bar.",
+        "es": "En la sala del fire elemental (sur), usa el mineral elemental en el horno para crear 3 lingotes elementales. Se necesitan 4 de carbón por lingote."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Use 1 elemental bar on the furnace again to make a ragged elemental key.",
+        "es": "Usa 1 lingote elemental en el horno de nuevo para hacer una ragged elemental key."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Climb down the hatch in the centre of the middle room.",
+        "es": "Baja por la trampilla en el centro de la sala del medio."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Prime the remaining two elemental bars (see primed bar on how to do this) using the jig cart, but '''don't''' infuse them with the Mind machine.",
+        "es": "Prepara (prime) los dos lingotes elementales restantes (consulta primed bar para saber cómo hacerlo) usando el jig cart, pero '''no''' los infundas con la Mind machine."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Go down the northwest stairwell.",
+        "es": "Baja por la escalera noroeste."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "In the middle of the hallway, open the 'Body door' on the western wall with the ragged elemental key.",
+        "es": "En el medio del pasillo, abre la 'Body door' en la pared oeste con la ragged elemental key."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Head down the stairs.",
+        "es": "Baja las escaleras."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Label the levers as follows and use the interface to move them. The levers on the north and south are the same, and the levers east and west are the same so feel free to use the closest lever to your current orientation. You can use the Minigame window to hit the levers, you don't need to run to each one.",
+        "es": "Etiqueta las palancas de la siguiente manera y usa la interfaz para moverlas. Las palancas del norte y del sur son iguales, y las del este y oeste son iguales, así que puedes usar la palanca más cercana a tu orientación actual. Puedes usar la ventana del minijuego para accionar las palancas, no necesitas correr hasta cada una."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "The \"Reset\" and \"Undo\" levers can be found on the west wall (when the camera is not locked into the fixed overhead view; otherwise, they're to the north)",
+        "es": "Las palancas de \"Reset\" y \"Undo\" se encuentran en la pared oeste (cuando la cámara no está fijada en la vista cenital; en caso contrario, están al norte)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Pull the levers in the following order:",
+        "es": "Tira de las palancas en el siguiente orden:"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 1,
+      "text": {
+        "en": "C, 2, F, 6",
+        "es": "C, 2, F, 6"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 1,
+      "text": {
+        "en": "C, 2, F, 6",
+        "es": "C, 2, F, 6"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 1,
+      "text": {
+        "en": "C, 2, E, 5",
+        "es": "C, 2, E, 5"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "B, 3, F, 2",
+        "es": "B, 3, F, 2"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "B, 3, F, 2",
+        "es": "B, 3, F, 2"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "E, 4, F, 3",
+        "es": "E, 4, F, 3"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "A cutscene will play. Pull the reset lever.",
+        "es": "Se reproducirá una escena. Tira de la palanca de reinicio."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Pull the levers in the following order:",
+        "es": "Tira de las palancas en el siguiente orden:"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "A, 5, C, 6",
+        "es": "A, 5, C, 6"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "B, 5, D, 6",
+        "es": "B, 5, D, 6"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "C, 5, E, 6",
+        "es": "C, 5, E, 6"
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "C, 5, F, 6",
+        "es": "C, 5, F, 6"
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "D, 5, E, 3",
+        "es": "D, 5, E, 3"
+      }
+    },
+    {
+      "index": 27,
+      "indent": 1,
+      "text": {
+        "en": "F, 4, E",
+        "es": "F, 4, E"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "No cutscene will play. Pull the reset lever.",
+        "es": "No se reproducirá ninguna escena. Tira de la palanca de reinicio."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Pull the levers in the following order:",
+        "es": "Tira de las palancas en el siguiente orden:"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "2, B, 6, A",
+        "es": "2, B, 6, A"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "5, B, 6, C",
+        "es": "5, B, 6, C"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "5, B, 2, C",
+        "es": "5, B, 2, C"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "5, B, 3, E",
+        "es": "5, B, 3, E"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "6, F, 5, B",
+        "es": "6, F, 5, B"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "3, C, 6, F",
+        "es": "3, C, 6, F"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "2, C, 6, E",
+        "es": "2, C, 6, E"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "3, B, 5, E",
+        "es": "3, B, 5, E"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "6, F, 4, E",
+        "es": "6, F, 4, E"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 1,
+      "text": {
+        "en": "6, F, 4, E",
+        "es": "6, F, 4, E"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 1,
+      "text": {
+        "en": "5",
+        "es": "5"
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "A cutscene will play. Pull the reset lever.",
+        "es": "Se reproducirá una escena. Tira de la palanca de reinicio."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Pull the levers in the following order:",
+        "es": "Tira de las palancas en el siguiente orden:"
+      }
+    },
+    {
+      "index": 43,
+      "indent": 1,
+      "text": {
+        "en": "2, C, 3, B",
+        "es": "2, C, 3, B"
+      }
+    },
+    {
+      "index": 44,
+      "indent": 1,
+      "text": {
+        "en": "2, A, 3, E",
+        "es": "2, A, 3, E"
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "2, B, 3, F",
+        "es": "2, B, 3, F"
+      }
+    },
+    {
+      "index": 46,
+      "indent": 1,
+      "text": {
+        "en": "2, C, 3, F",
+        "es": "2, C, 3, F"
+      }
+    },
+    {
+      "index": 47,
+      "indent": 1,
+      "text": {
+        "en": "2, C, 5, F",
+        "es": "2, C, 5, F"
+      }
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "text": {
+        "en": "2, E",
+        "es": "2, E"
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "A message appears: \"you hear a crunching of gears\". Pull the reset lever.",
+        "es": "Aparece un mensaje: \"oyes un crujido de engranajes\". Tira de la palanca de reinicio."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Pull the levers in the following order:",
+        "es": "Tira de las palancas en el siguiente orden:"
+      }
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "text": {
+        "en": "B, 2, A, 3",
+        "es": "B, 2, A, 3"
+      }
+    },
+    {
+      "index": 52,
+      "indent": 1,
+      "text": {
+        "en": "B, 2, F, 6",
+        "es": "B, 2, F, 6"
+      }
+    },
+    {
+      "index": 53,
+      "indent": 1,
+      "text": {
+        "en": "B, 2, D, 3",
+        "es": "B, 2, D, 3"
+      }
+    },
+    {
+      "index": 54,
+      "indent": 1,
+      "text": {
+        "en": "F, 6, C, 5",
+        "es": "F, 6, C, 5"
+      }
+    },
+    {
+      "index": 55,
+      "indent": 1,
+      "text": {
+        "en": "D, 6, F, 5",
+        "es": "D, 6, F, 5"
+      }
+    },
+    {
+      "index": 56,
+      "indent": 1,
+      "text": {
+        "en": "C, 6, F, 2",
+        "es": "C, 6, F, 2"
+      }
+    },
+    {
+      "index": 57,
+      "indent": 1,
+      "text": {
+        "en": "E, 5, F, 2",
+        "es": "E, 5, F, 2"
+      }
+    },
+    {
+      "index": 58,
+      "indent": 1,
+      "text": {
+        "en": "E, 5, D, 6",
+        "es": "E, 5, D, 6"
+      }
+    },
+    {
+      "index": 59,
+      "indent": 1,
+      "text": {
+        "en": "F, 4, E, 6",
+        "es": "F, 4, E, 6"
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Many of the gears start moving and the machine makes a noise.",
+        "es": "Muchos de los engranajes empiezan a moverse y la máquina hace un ruido."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Pull the reset lever.",
+        "es": "Tira de la palanca de reinicio."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Pull the levers in the following order:",
+        "es": "Tira de las palancas en el siguiente orden:"
+      }
+    },
+    {
+      "index": 63,
+      "indent": 1,
+      "text": {
+        "en": "4, E, 6, F",
+        "es": "4, E, 6, F"
+      }
+    },
+    {
+      "index": 64,
+      "indent": 1,
+      "text": {
+        "en": "4, E, 6, A",
+        "es": "4, E, 6, A"
+      }
+    },
+    {
+      "index": 65,
+      "indent": 1,
+      "text": {
+        "en": "5, B, 6, E",
+        "es": "5, B, 6, E"
+      }
+    },
+    {
+      "index": 66,
+      "indent": 1,
+      "text": {
+        "en": "5, A, 6, F",
+        "es": "5, A, 6, F"
+      }
+    },
+    {
+      "index": 67,
+      "indent": 1,
+      "text": {
+        "en": "5, B, 2, A",
+        "es": "5, B, 2, A"
+      }
+    },
+    {
+      "index": 68,
+      "indent": 1,
+      "text": {
+        "en": "3, B, 4, C",
+        "es": "3, B, 4, C"
+      }
+    },
+    {
+      "index": 69,
+      "indent": 1,
+      "text": {
+        "en": "2, B, 6, E",
+        "es": "2, B, 6, E"
+      }
+    },
+    {
+      "index": 70,
+      "indent": 1,
+      "text": {
+        "en": "5, C, 2, D",
+        "es": "5, C, 2, D"
+      }
+    },
+    {
+      "index": 71,
+      "indent": 1,
+      "text": {
+        "en": "3, E, 5, C",
+        "es": "3, E, 5, C"
+      }
+    },
+    {
+      "index": 72,
+      "indent": 1,
+      "text": {
+        "en": "3, F, 6",
+        "es": "3, F, 6"
+      }
+    },
+    {
+      "index": 73,
+      "indent": 0,
+      "text": {
+        "en": "Many of the gears start rotating and the central column stats rotating.",
+        "es": "Muchos de los engranajes empiezan a girar y la columna central comienza a rotar."
+      }
+    },
+    {
+      "index": 74,
+      "indent": 0,
+      "text": {
+        "en": "Do not pull the reset lever.",
+        "es": "No tires de la palanca de reinicio."
+      }
+    },
+    {
+      "index": 75,
+      "indent": 0,
+      "text": {
+        "en": "If your puzzle looks exactly like Figure 1, pull the levers in the following order:",
+        "es": "Si tu puzle se ve exactamente como la Figura 1, tira de las palancas en el siguiente orden:"
+      }
+    },
+    {
+      "index": 76,
+      "indent": 1,
+      "text": {
+        "en": "B, 4, C, 3",
+        "es": "B, 4, C, 3"
+      }
+    },
+    {
+      "index": 77,
+      "indent": 0,
+      "text": {
+        "en": "If your puzzle looks like that image, but with the left and right sides reversed (\"inverse position\"), pull the levers in the following order:",
+        "es": "Si tu puzle se parece a esa imagen, pero con los lados izquierdo y derecho invertidos (\"posición inversa\"), tira de las palancas en el siguiente orden:"
+      }
+    },
+    {
+      "index": 78,
+      "indent": 1,
+      "text": {
+        "en": "B, 4, C, 5",
+        "es": "B, 4, C, 5"
+      }
+    },
+    {
+      "index": 79,
+      "indent": 0,
+      "text": {
+        "en": "A message appears: \"As the machine raises, you hear a whirring noise from the level above\". Do not pull the reset lever.",
+        "es": "Aparece un mensaje: \"Mientras la máquina se eleva, oyes un zumbido proveniente del nivel superior\". No tires de la palanca de reinicio."
+      }
+    },
+    {
+      "index": 80,
+      "indent": 0,
+      "text": {
+        "en": "Go upstairs (click the metallic stairs on the bottom-left or bottom-right of the screen), and make a body bar.",
+        "es": "Sube las escaleras (haz clic en las escaleras metálicas en la parte inferior izquierda o derecha de la pantalla), y fabrica un body bar."
+      }
+    },
+    {
+      "index": 81,
+      "indent": 0,
+      "text": {
+        "en": "The metallic stairs may be blocked by your interface due to the camera angle, so closing out or resizing your interface may be needed.",
+        "es": "Es posible que las escaleras metálicas estén bloqueadas por tu interfaz debido al ángulo de la cámara, por lo que puede ser necesario cerrarla o redimensionarla."
+      }
+    },
+    {
+      "index": 82,
+      "indent": 1,
+      "text": {
+        "en": "Put a primed bar in the slot next to the door.",
+        "es": "Coloca un primed bar en la ranura junto a la puerta."
+      }
+    },
+    {
+      "index": 83,
+      "indent": 1,
+      "text": {
+        "en": "Enter the room and flip the lever.",
+        "es": "Entra en la sala y acciona la palanca."
+      }
+    },
+    {
+      "index": 84,
+      "indent": 1,
+      "text": {
+        "en": "Push the button.",
+        "es": "Pulsa el botón."
+      }
+    },
+    {
+      "index": 85,
+      "indent": 1,
+      "text": {
+        "en": "Flip the lever.",
+        "es": "Acciona la palanca."
+      }
+    },
+    {
+      "index": 86,
+      "indent": 1,
+      "text": {
+        "en": "Retrieve the body bar from the slot.",
+        "es": "Recupera el body bar de la ranura."
+      }
+    },
+    {
+      "index": 87,
+      "indent": 0,
+      "text": {
+        "en": "Go downstairs.",
+        "es": "Baja las escaleras."
+      }
+    },
+    {
+      "index": 88,
+      "indent": 0,
+      "text": {
+        "en": "If your puzzle was in the \"guide position\" mentioned above, pull the levers in the following order:",
+        "es": "Si tu puzle estaba en la \"posición guía\" mencionada anteriormente, tira de las palancas en el siguiente orden:"
+      }
+    },
+    {
+      "index": 89,
+      "indent": 1,
+      "text": {
+        "en": "2 (The tower drops)",
+        "es": "2 (La torre desciende)"
+      }
+    },
+    {
+      "index": 90,
+      "indent": 1,
+      "text": {
+        "en": "4, B (The tower spins)",
+        "es": "4, B (La torre gira)"
+      }
+    },
+    {
+      "index": 91,
+      "indent": 1,
+      "text": {
+        "en": "C, 3 (The tower rises)",
+        "es": "C, 3 (La torre asciende)"
+      }
+    },
+    {
+      "index": 92,
+      "indent": 0,
+      "text": {
+        "en": "Or if your puzzle was in the \"inverse position\", pull the levers in the following order:",
+        "es": "O si tu puzle estaba en la \"posición inversa\", tira de las palancas en el siguiente orden:"
+      }
+    },
+    {
+      "index": 93,
+      "indent": 1,
+      "text": {
+        "en": "4, 3 (The tower drops)",
+        "es": "4, 3 (La torre desciende)"
+      }
+    },
+    {
+      "index": 94,
+      "indent": 1,
+      "text": {
+        "en": "4, B (The tower spins)",
+        "es": "4, B (La torre gira)"
+      }
+    },
+    {
+      "index": 95,
+      "indent": 1,
+      "text": {
+        "en": "C, 3 (The tower rises)",
+        "es": "C, 3 (La torre asciende)"
+      }
+    },
+    {
+      "index": 96,
+      "indent": 0,
+      "text": {
+        "en": "Go upstairs and make a second body bar.",
+        "es": "Sube las escaleras y fabrica un segundo body bar."
+      }
+    },
+    {
+      "index": 97,
+      "indent": 1,
+      "text": {
+        "en": "Put a primed bar in the slot next to the door.",
+        "es": "Coloca un primed bar en la ranura junto a la puerta."
+      }
+    },
+    {
+      "index": 98,
+      "indent": 1,
+      "text": {
+        "en": "Enter the room and flip the lever.",
+        "es": "Entra en la sala y acciona la palanca."
+      }
+    },
+    {
+      "index": 99,
+      "indent": 1,
+      "text": {
+        "en": "Push the button.",
+        "es": "Pulsa el botón."
+      }
+    },
+    {
+      "index": 100,
+      "indent": 1,
+      "text": {
+        "en": "Flip the lever.",
+        "es": "Acciona la palanca."
+      }
+    },
+    {
+      "index": 101,
+      "indent": 1,
+      "text": {
+        "en": "Retrieve the body bar from the slot.",
+        "es": "Recupera el body bar de la ranura."
+      }
+    },
+    {
+      "index": 102,
+      "indent": 0,
+      "text": {
+        "en": "Use a workbench on the first-level basement (the level with water, air, and fire elementals where you can obtain elemental ore) to create a body body. The ragged book must be in your inventory.",
+        "es": "Usa un banco de trabajo en el primer sótano (el nivel con water, air y fire elementals donde puedes obtener mineral elemental) para crear un body body. El libro andrajoso debe estar en tu inventario."
+      }
+    },
+    {
+      "index": 103,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

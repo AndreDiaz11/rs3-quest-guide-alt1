@@ -1,0 +1,695 @@
+{
+  "id": "as-a-first-resort",
+  "title": "As a First Resort",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:48:44.023Z",
+  "icon": "https://runescape.wiki/images/As_a_First_Resort_icon.png",
+  "series": "Ogre",
+  "age": "ambiguous",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Experienced",
+  "length": "Long",
+  "releaseDate": "29 January 2008",
+  "startPoint": {
+    "en": "Talk to Chief Tess in the centre of Oo'glog.",
+    "es": "Habla con Chief Tess en el centro de Oo'glog."
+  },
+  "requirements": {
+    "quests": [
+      "As a First Resort"
+    ],
+    "skills": [
+      {
+        "skill": "Hunter",
+        "level": 48
+      },
+      {
+        "skill": "Firemaking",
+        "level": 51
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 58
+      },
+      {
+        "skill": "Attack",
+        "level": 99
+      },
+      {
+        "skill": "Strength",
+        "level": 99
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Box trap",
+      "display": "Box trap",
+      "image": "https://runescape.wiki/images/thumb/Box_trap_detail.png/100px-Box_trap_detail.png?775e5"
+    },
+    {
+      "name": "Bird snare",
+      "display": "Bird snare",
+      "image": "https://runescape.wiki/images/thumb/Bird_snare_detail.png/100px-Bird_snare_detail.png?15b04"
+    },
+    {
+      "name": "Teasing stick",
+      "display": "Teasing stick (Unless you are buying the 8 larupia furs from the grand exchange)",
+      "image": "https://runescape.wiki/images/thumb/Teasing_stick_detail.png/100px-Teasing_stick_detail.png?9e399"
+    },
+    {
+      "name": "Spears",
+      "display": "Four spears of the same type (bone spears work; poisoned spears and leaf-bladed spears do not work)",
+      "image": null
+    },
+    {
+      "name": "Achey tree logs",
+      "display": "8 achey tree logs",
+      "image": "https://runescape.wiki/images/thumb/Achey_tree_logs_detail.png/100px-Achey_tree_logs_detail.png?c1b29"
+    },
+    {
+      "name": "Eucalyptus logs",
+      "display": "15-30 eucalyptus logs (If you don't make any mistakes in the logic section, 20 is more than enough)",
+      "image": "https://runescape.wiki/images/thumb/Eucalyptus_logs_detail.png/100px-Eucalyptus_logs_detail.png?ab86a"
+    },
+    {
+      "name": "Raw chompy",
+      "display": "2 raw chompy Available to be caught in the ogre chompy hunting area, which requires partial completion of Big Chompy Bird Hunting. If hunting, remember to bring an ogre comp or a plain ogre bow, ogre arrows and ogre bellows",
+      "image": "https://runescape.wiki/images/thumb/Raw_chompy_detail.png/100px-Raw_chompy_detail.png?c582e"
+    },
+    {
+      "name": "Big Chompy Bird Hunting",
+      "display": "Available to be caught in the ogre chompy hunting area, which requires partial completion of Big Chompy Bird Hunting. If hunting, remember to bring an ogre comp or a plain ogre bow, ogre arrows and ogre bellows",
+      "image": "https://runescape.wiki/images/thumb/Big_Chompy_Bird_Hunting.png/100px-Big_Chompy_Bird_Hunting.png?c5d43"
+    },
+    {
+      "name": "Stripy feather",
+      "display": "8 stripy feathers (available from the tropical wagtails in the hunting area to the north of Oo'glog)",
+      "image": "https://runescape.wiki/images/thumb/Stripy_feather_detail.png/100px-Stripy_feather_detail.png?3af6b"
+    },
+    {
+      "name": "Wolf bones",
+      "display": "4 wolf bones (available from killing the wolves outside Oo'glog)",
+      "image": "https://runescape.wiki/images/thumb/Wolf_bones_detail.png/100px-Wolf_bones_detail.png?b7efe"
+    },
+    {
+      "name": "Larupia fur",
+      "display": "8 larupia furs (tatty or perfect, available from pit-fall hunting Larupia in the hunting area to the north of Oo'glog)",
+      "image": "https://runescape.wiki/images/thumb/Larupia_fur_detail.png/100px-Larupia_fur_detail.png?122d7"
+    },
+    {
+      "name": "Oo'glog",
+      "display": "Each of the following plants found near Oo'glog: 11-14 fever grass 7-11 lavender 6 primweed 6 stinkbloom 8-12 tansymum",
+      "image": "https://runescape.wiki/images/thumb/Oo%27glog.png/100px-Oo%27glog.png?4111f"
+    },
+    {
+      "name": "Fever grass",
+      "display": "11-14 fever grass",
+      "image": "https://runescape.wiki/images/thumb/Fever_grass_detail.png/100px-Fever_grass_detail.png?1c887"
+    },
+    {
+      "name": "Lavender",
+      "display": "7-11 lavender",
+      "image": "https://runescape.wiki/images/thumb/Lavender_detail.png/100px-Lavender_detail.png?bdbe2"
+    },
+    {
+      "name": "Primweed",
+      "display": "6 primweed",
+      "image": "https://runescape.wiki/images/thumb/Primweed_detail.png/100px-Primweed_detail.png?772b5"
+    },
+    {
+      "name": "Stinkbloom",
+      "display": "6 stinkbloom",
+      "image": "https://runescape.wiki/images/thumb/Stinkbloom_detail.png/100px-Stinkbloom_detail.png?52993"
+    },
+    {
+      "name": "Tansymum",
+      "display": "8-12 tansymum",
+      "image": "https://runescape.wiki/images/thumb/Tansymum_detail.png/100px-Tansymum_detail.png?6a2af"
+    },
+    {
+      "name": "Logs",
+      "display": "Some logs of any kind for traps",
+      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+    }
+  ],
+  "kills": [],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Firemaking",
+      "amount": 15000,
+      "display": "15,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Hunter",
+      "amount": 15000,
+      "display": "15,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Woodcutting",
+      "amount": 15000,
+      "display": "15,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Casket",
+      "display": "A mixture of 4 items, either caskets or oysters",
+      "image": "https://runescape.wiki/images/thumb/Casket_detail.png/100px-Casket_detail.png?482fa"
+    },
+    {
+      "type": "item",
+      "name": "Spa",
+      "display": "Access to the spa facilities",
+      "image": "https://runescape.wiki/images/thumb/Spa.png/100px-Spa.png?76be0"
+    },
+    {
+      "type": "item",
+      "name": "Oo'glog bank",
+      "display": "Access to the Oo'glog bank",
+      "image": "https://runescape.wiki/images/thumb/Oo%27glog_bank.png/100px-Oo%27glog_bank.png?556fc"
+    },
+    {
+      "type": "item",
+      "name": "Oo'glog Hunter area",
+      "display": "Access to the Oo'glog Hunter area",
+      "image": "https://runescape.wiki/images/thumb/Oo%27glog_Hunter_area.png/100px-Oo%27glog_Hunter_area.png?dc255"
+    },
+    {
+      "type": "item",
+      "name": "Platypus",
+      "display": "Access to the platypus summoning pet (requires 10 Summoning). If you release your pet in the spot you released the others during the quest you will receive another casket or oyster",
+      "image": "https://runescape.wiki/images/thumb/Baby_platypus_%28brown%29_pet.png/100px-Baby_platypus_%28brown%29_pet.png?ba645"
+    },
+    {
+      "type": "item",
+      "name": "Fresh Meat",
+      "display": "Access to the Fresh Meat shop",
+      "image": "https://runescape.wiki/images/thumb/Fresh_Meat.png/100px-Fresh_Meat.png?c63c0"
+    },
+    {
+      "type": "item",
+      "name": "Gift Shop",
+      "display": "Access to the Gift Shop",
+      "image": "https://runescape.wiki/images/thumb/Gift_Shop_exterior.png/100px-Gift_Shop_exterior.png?d754a"
+    },
+    {
+      "type": "item",
+      "name": "Oo'glog",
+      "display": "Ability to travel to Oo'glog using the charter ships",
+      "image": "https://runescape.wiki/images/thumb/Oo%27glog.png/100px-Oo%27glog.png?4111f"
+    },
+    {
+      "type": "item",
+      "name": "Robust glass",
+      "display": "Ability to create robust glass and crystal glass",
+      "image": "https://runescape.wiki/images/thumb/Robust_glass_detail.png/100px-Robust_glass_detail.png?cefa4"
+    },
+    {
+      "type": "item",
+      "name": "Decanting",
+      "display": "Access to decanting five and six dose flasks into other flasks or vials (talk to Teplin Macagan)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Bish Bash Bosh",
+      "display": "Bish Bash Bosh",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Hot 'n' Bothered",
+      "display": "Hot 'n' Bothered",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Shaping Up",
+      "display": "Shaping Up",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Spa Bizarre",
+      "display": "Spa Bizarre",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Head to Oo'glog and talk to Chief Tess. (opciones de chat: 1 What exactly is going on around here? • Accept • 1 So about this 'business venture'.. • 1 Can I help at all?)",
+        "es": "Dirígete a Oo'glog y habla con Chief Tess. (opciones de chat: 1 ¿Qué está pasando exactamente aquí? • Aceptar • 1 Bueno, sobre esa \"iniciativa empresarial\"... • 1 ¿Puedo ayudar en algo?)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Balnea in the Oo'glog bank. (opciones de chat: 1 Um, yes. So, what's going on around here? • 2 What's the problem? • 1 Okay, I'll bite. Tell me more. • 1 But of course! • 1 Well, why not? I've nothing better to do. • 1 Sure thing.)",
+        "es": "Habla con Balnea en el banco de Oo'glog. (opciones de chat: 1 Ejem, sí. Entonces, ¿qué está pasando aquí? • 2 ¿Cuál es el problema? • 1 Vale, me apunto. Cuéntame más. • 1 ¡Por supuesto! • 1 Bueno, ¿por qué no? No tengo nada mejor que hacer. • 1 Claro que sí.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Chargurr north of the bank. (opciones de chat: 1 I think I could get that stuff for you.)",
+        "es": "Habla con Chargurr al norte del banco. (opciones de chat: 1 Creo que puedo conseguirte esas cosas.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Chargurr with 8 achey tree logs and 10 eucalyptus logs in the backpack to add them to the fire pit.",
+        "es": "Habla con Chargurr llevando 8 troncos de árbol dolorido y 10 troncos de eucalipto en la mochila para añadirlos a la hoguera."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Chargurr. (opciones de chat: 2 Fine, I'll get some spears for you)",
+        "es": "Habla con Chargurr. (opciones de chat: 2 Vale, te conseguiré unas lanzas)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Give her four spears. (opciones de chat: 2 Yes, I'd like to give 4 spears to Chargurr.)",
+        "es": "Dale cuatro lanzas. (opciones de chat: 2 Sí, quiero darle 4 lanzas a Chargurr.)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Chargurr. (opciones de chat: 2 But of course! I'll bring you some chompy birds.)",
+        "es": "Habla con Chargurr. (opciones de chat: 2 ¡Por supuesto! Te traeré unos chompy birds.)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Use two raw chompies on Chargurr.",
+        "es": "Usa dos chompies crudos en Chargurr."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Chargurr.",
+        "es": "Habla con Chargurr."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Light the fire pit.",
+        "es": "Enciende la hoguera."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Chargurr.",
+        "es": "Habla con Chargurr."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Balnea located in the bank. (opciones de chat: 1 Right-ho. I'll go and see Snurgh at the hotel and 'transition' away.)",
+        "es": "Habla con Balnea, que está en el banco. (opciones de chat: 1 Vale, iré a ver a Snurgh al hotel y me \"trasladaré\".)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Snurgh who is in the easternmost building of Oo'glog. (opciones de chat: 1 Sure, I'll bring you some feathers.)",
+        "es": "Habla con Snurgh, que está en el edificio más al este de Oo'glog. (opciones de chat: 1 Claro, te traeré unas plumas.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Give her 8 stripy feathers.",
+        "es": "Dale 8 plumas rayadas."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 1,
+      "text": {
+        "en": "You can obtain the feathers using a bird snare to catch tropical wagtail in the Feldip Hunter area, north of the Oo'glog lodestone.",
+        "es": "Puedes conseguir las plumas usando una trampa para pájaros para atrapar tropical wagtail en la zona de Caza de Feldip, al norte de la piedra de viaje de Oo'glog."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Balnea. (opciones de chat: 1 You're going to ask me to go to the salon, right? • 1 Yeah, sure, I'll go to the salon.)",
+        "es": "Habla con Balnea. (opciones de chat: 1 Me vas a pedir que vaya al salón, ¿verdad? • 1 Sí, claro, iré al salón.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Kringk in the building east of the bank. (opciones de chat: 2 Why, sure, I'd be happy to help.)",
+        "es": "Habla con Kringk en el edificio al este del banco. (opciones de chat: 2 Pues claro, con gusto te ayudo.)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Give her 4 wolf bones and 8 larupia furs. (opciones de chat: 1 You sure can!)",
+        "es": "Dale 4 huesos de lobo y 8 pieles de larupia. (opciones de chat: 1 ¡Claro que sí!)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Balnea.",
+        "es": "Habla con Balnea."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Seegud in the building north-east of the bank.",
+        "es": "Habla con Seegud en el edificio al noreste del banco."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Head north-east of Seegud to the thermal spring.",
+        "es": "Dirígete al noreste de Seegud, hacia el manantial termal."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Use a pile of eucalyptus logs and a tansymum, on the fire pit nearby.",
+        "es": "Usa un montón de troncos de eucalipto y un tansymum en la hoguera cercana."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Light the fire pit. The insects won't disperse.",
+        "es": "Enciende la hoguera. Los insectos no se dispersarán."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Seegud. (opciones de chat: 2 I think I'm a little stuck. • 1 Can you explain what I should be doing again?)",
+        "es": "Habla con Seegud. (opciones de chat: 2 Creo que estoy un poco atascado. • 1 ¿Puedes explicarme de nuevo qué debo hacer?)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Head back to the spring and talk to Snarrk.",
+        "es": "Regresa al manantial y habla con Snarrk."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "In the worst case, you need 5 piles of logs and 1 of each plant for the next step.",
+        "es": "En el peor de los casos, necesitarás 5 montones de troncos y 1 de cada planta para el siguiente paso."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Move to the thermal bath, north-east of Seegud. There is 'a pile of long brown and yellow egg-shaped stones'. This fire pit requires a pile of eucalyptus logs and one of the five plants in order to disperse the insects. By trial and error, determine which plant is needed for this pool and represents the 'yellow egg-shaped' stones. If done correctly, the swarm of insects above the pool will vanish completely.",
+        "es": "Dirígete al baño termal, al noreste de Seegud. Allí hay \"un montón de piedras alargadas marrones y amarillas con forma de huevo\". Esta hoguera requiere un montón de troncos de eucalipto y una de las cinco plantas para dispersar a los insectos. Por ensayo y error, determina qué planta se necesita para esta poza y representa las piedras \"amarillas con forma de huevo\". Si lo haces correctamente, el enjambre de insectos sobre la poza desaparecerá por completo."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "In the worst case, you need 4 piles of logs, 4 plants for yellow egg-shaped stone, and 1 of each other plant for the next step.",
+        "es": "En el peor de los casos, necesitarás 4 montones de troncos, 4 plantas para la piedra amarilla con forma de huevo, y 1 de cada una de las demás plantas para el siguiente paso."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Move to the mud bath to the east. There is 'a pile of long brown, red sphere and yellow egg-shaped stones'. This fire pit requires eucalyptus logs and two plants. The primary plant of this pool is the same as the plant used at the thermal bath. Figure out the secondary plant by using any of the other four unused plants, until the correct combination is discovered.",
+        "es": "Dirígete al baño de barro al este. Allí hay \"un montón de piedras alargadas marrones, esferas rojas y piedras amarillas con forma de huevo\". Esta hoguera requiere troncos de eucalipto y dos plantas. La planta principal de esta poza es la misma que se usó en el baño termal. Averigua la planta secundaria usando cualquiera de las otras cuatro plantas no utilizadas, hasta descubrir la combinación correcta."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "In the worst case, you need 3 piles of logs and 3 plants for red sphere stone, 1 of each other plant (except for yellow egg-shaped stone) for the next step.",
+        "es": "En el peor de los casos, necesitarás 3 montones de troncos y 3 plantas para la piedra de esfera roja, 1 de cada una de las demás plantas (excepto la piedra amarilla con forma de huevo) para el siguiente paso."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Move to the salt-water spring west of the thermal bath. There is 'a pile of long brown, red sphere and green gumdrop stones'. This fire pit requires eucalyptus logs and two plants. Be sure to use the secondary plant from the mud bath as the primary plant for this pool. Find the secondary plant by using the three remaining herbs until the correct one is found.",
+        "es": "Dirígete al manantial de agua salada al oeste del baño termal. Allí hay \"un montón de piedras alargadas marrones, esferas rojas y piedras verdes en forma de gota de goma\". Esta hoguera requiere troncos de eucalipto y dos plantas. Asegúrate de usar la planta secundaria del baño de barro como planta principal para esta poza. Encuentra la planta secundaria usando las tres hierbas restantes hasta dar con la correcta."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "In the worst case, you need 2 piles of logs and 2 plants for green gumdrop stone, 1 of each other plant (except for yellow egg-shaped and red sphere stones) for the next step.",
+        "es": "En el peor de los casos, necesitarás 2 montones de troncos y 2 plantas para la piedra verde en forma de gota de goma, 1 de cada una de las demás plantas (excepto las piedras amarilla con forma de huevo y de esfera roja) para el siguiente paso."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Head west to the yellow sulphur spring. There is 'a pile of long brown, purple tall and green gumdrop stones'. This fire pit requires eucalyptus logs and two plants. Use the secondary plant for the salt-water spring as the primary plant for this spring. One of the two remaining herbs will be the secondary plant, so try them both.",
+        "es": "Dirígete al oeste, al manantial de azufre amarillo. Allí hay \"un montón de piedras alargadas marrones, altas moradas y verdes en forma de gota de goma\". Esta hoguera requiere troncos de eucalipto y dos plantas. Usa la planta secundaria del manantial de agua salada como planta principal para este manantial. Una de las dos hierbas restantes será la planta secundaria, así que prueba ambas."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "You need 1 pile of logs, 1 plant for red sphere stone, 1 plant for purple tall stone, and 1 unused plant for the next step.",
+        "es": "Necesitarás 1 montón de troncos, 1 planta para la piedra de esfera roja, 1 planta para la piedra alta morada, y 1 planta sin usar para el siguiente paso."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Head to the Bandos pool. There is 'a pile of long brown, red sphere, purple tall and orange squarish stones'. This fire pit requires eucalyptus logs and three plants. Use the secondary plant from the mud bath, the secondary plant from the sulphur pool and the unused herb.",
+        "es": "Dirígete a la poza de Bandos. Allí hay \"un montón de piedras alargadas marrones, esferas rojas, altas moradas y anaranjadas cuadradas\". Esta hoguera requiere troncos de eucalipto y tres plantas. Usa la planta secundaria del baño de barro, la planta secundaria de la poza de azufre y la hierba sin usar."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Drop all primweeds and stinkblooms to free up your backpack spaces.",
+        "es": "Deshazte de todos los primweeds y stinkblooms para liberar espacio en tu mochila."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Keep all other unused plants as you will need them in the next task.",
+        "es": "Guarda todas las demás plantas sin usar, ya que las necesitarás en la siguiente tarea."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "After all of the bugs are taken care of, talk to Seegud.",
+        "es": "Una vez te hayas encargado de todos los bichos, habla con Seegud."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Balnea.",
+        "es": "Habla con Balnea."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Chief Tess.",
+        "es": "Habla con Chief Tess."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Head to the salt-water spring.",
+        "es": "Dirígete al manantial de agua salada."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Use the deadfall traps to catch diseased kebbits. To bait the trap, use fever grass on it, then light a fever grass from the inventory and move around.",
+        "es": "Usa las trampas de caída para atrapar diseased kebbits. Para cebar la trampa, usa hierba de fiebre en ella, luego enciende una hierba de fiebre desde el inventario y muévete por la zona."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "Catch two from the western and eastern side.",
+        "es": "Atrapa dos desde el lado oeste y dos desde el lado este."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Do this until all four kebbits are caught.",
+        "es": "Haz esto hasta atrapar los cuatro kebbits."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Set up a bird snare west of the bank.",
+        "es": "Coloca una trampa para pájaros al oeste del banco."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Light a tansymum from the inventory and move around.",
+        "es": "Enciende un tansymum desde el inventario y muévete por la zona."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Do this until all birds are caught.",
+        "es": "Haz esto hasta atrapar todos los pájaros."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Head west of Chief Tess and the sulphur spring.",
+        "es": "Dirígete al oeste de Chief Tess y el manantial de azufre."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Set up a box trap.",
+        "es": "Coloca una trampa de caja."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Burn lavender from the inventory and move around the area.",
+        "es": "Quema lavanda desde el inventario y muévete por la zona."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Once the box shakes, check the trap.",
+        "es": "Cuando la caja se agite, revisa la trampa."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "When all four platypodes are caught, head to the north-east corner of the village and release them next to the plants in the water.",
+        "es": "Cuando hayas atrapado los cuatro platypodes, dirígete a la esquina noreste de la aldea y libéralos junto a las plantas en el agua."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Dismiss any followers before continuing.",
+        "es": "Despide a cualquier acompañante antes de continuar."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Balnea and do not skip the cutscene.",
+        "es": "Habla con Balnea y no te saltes la escena cinemática."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

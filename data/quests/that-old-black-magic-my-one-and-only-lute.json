@@ -1,0 +1,84 @@
+{
+  "id": "that-old-black-magic-my-one-and-only-lute",
+  "title": "That Old Black Magic: My One and Only Lute",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:22:23.329Z",
+  "icon": "https://runescape.wiki/images/thumb/That_Old_Black_Magic_icon.png/50px-That_Old_Black_Magic_icon.png",
+  "length": "Short",
+  "startPoint": {
+    "en": "Speak to Lady Grey in the City of Um's bandstand.",
+    "es": "Habla con Lady Grey en el quiosco de música de la City of Um."
+  },
+  "requirements": {
+    "quests": [
+      "The Blood Pact"
+    ],
+    "skills": [
+      {
+        "skill": "Necromancy",
+        "level": 32
+      }
+    ]
+  },
+  "items": [],
+  "kills": [
+    "Dragith Nurn (level 26; must be killed with necromancy)"
+  ],
+  "rewards": [
+    {
+      "type": "item",
+      "name": "Necromancy XP lamp (My One and Only Lute)",
+      "display": "5,000 Necromancy XP lamp",
+      "image": "https://runescape.wiki/images/thumb/Necromancy_XP_lamp_%28My_One_and_Only_Lute%29_detail.png/100px-Necromancy_XP_lamp_%28My_One_and_Only_Lute%29_detail.png?3e927"
+    },
+    {
+      "type": "item",
+      "name": "Soul (Well of Souls)",
+      "display": "10 vessel souls",
+      "image": "https://runescape.wiki/images/Soul_%28Well_of_Souls%29.png?69d0c"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lady Grey, behind Death in the City of Um and agree to get her guitar back. (opciones de chat: Accept)",
+        "es": "Habla con Lady Grey, detrás de Death en la City of Um, y acepta recuperar su guitarra. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Lumbridge Catacombs.",
+        "es": "Viaja a las Lumbridge Catacombs."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "At the end of the catacombs, kill Dragith Nurn using necromancy and pick up Lady Grey's guitar.",
+        "es": "Al final de las catacumbas, mata a Dragith Nurn usando nigromancia y recoge la guitarra de Lady Grey."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Return to the City of Um and speak to Lady Grey. Hand her the guitar. (opciones de chat: 1 Yes. • 1 Trumpeter. • 4 None right now.)",
+        "es": "Vuelve a la City of Um y habla con Lady Grey. Entrégale la guitarra. (opciones de chat: 1 Sí. • 1 Trumpeter. • 4 Nada por ahora.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Subquest complete!",
+        "es": "¡Submisión completada!"
+      }
+    }
+  ]
+}

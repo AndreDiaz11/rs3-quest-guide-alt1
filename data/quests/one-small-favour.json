@@ -1,0 +1,720 @@
+{
+  "id": "one-small-favour",
+  "title": "One Small Favour",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:00:32.747Z",
+  "icon": "https://runescape.wiki/images/One_Small_Favour_icon.png",
+  "series": null,
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "60-69",
+  "difficulty": "Experienced",
+  "length": "Long",
+  "releaseDate": "28 February 2005",
+  "startPoint": {
+    "en": "Talk to Yanni Salika in the antique shop in Shilo Village.",
+    "es": "Habla con Yanni Salika en la tienda de antigüedades de Shilo Village."
+  },
+  "requirements": {
+    "quests": [
+      "Shilo Village",
+      "Jungle Potion"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 36
+      },
+      {
+        "skill": "Crafting",
+        "level": 25
+      },
+      {
+        "skill": "Herblore",
+        "level": 18
+      },
+      {
+        "skill": "Smithing",
+        "level": 30
+      },
+      {
+        "skill": "Herblore",
+        "level": 20
+      },
+      {
+        "skill": "Mining",
+        "level": 20
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Steel bar",
+      "display": "4 steel bars (unnoted)",
+      "image": "https://runescape.wiki/images/thumb/Steel_bar_detail.png/100px-Steel_bar_detail.png?cfb12"
+    },
+    {
+      "name": "Bronze bar",
+      "display": "Bronze bar",
+      "image": "https://runescape.wiki/images/thumb/Bronze_bar_detail.png/100px-Bronze_bar_detail.png?7b3ef"
+    },
+    {
+      "name": "Iron bar",
+      "display": "Iron bar",
+      "image": "https://runescape.wiki/images/thumb/Iron_bar_detail.png/100px-Iron_bar_detail.png?2c5a5"
+    },
+    {
+      "name": "Empty pot",
+      "display": "Empty pot",
+      "image": "https://runescape.wiki/images/thumb/Empty_pot_detail.png/100px-Empty_pot_detail.png?88ce6"
+    },
+    {
+      "name": "Pigeon cage",
+      "display": "5 pigeon cages (obtained during the quest; south of the Ardougne north bank)",
+      "image": null
+    },
+    {
+      "name": "Clean marrentill",
+      "display": "Clean marrentill",
+      "image": "https://runescape.wiki/images/thumb/Clean_marrentill_detail.png/100px-Clean_marrentill_detail.png?92467"
+    },
+    {
+      "name": "Clean harralander",
+      "display": "Clean harralander",
+      "image": "https://runescape.wiki/images/thumb/Clean_harralander_detail.png/100px-Clean_harralander_detail.png?bd673"
+    },
+    {
+      "name": "Vial of water",
+      "display": "Vial of water",
+      "image": "https://runescape.wiki/images/thumb/Vial_of_water_detail.png/100px-Vial_of_water_detail.png?d561e"
+    }
+  ],
+  "kills": [
+    "Slagilith (level 63)",
+    "3 dwarf gang members (level 35)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Antique lamp (One Small Favour)",
+      "amount": 2,
+      "display": "2 antique lamps giving 10,000 experience to any skill of your choice. Skill must be at least level 30.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Steel key ring",
+      "display": "Steel key ring (automatically added to the tool belt)",
+      "image": "https://runescape.wiki/images/thumb/Steel_key_ring_detail.png/100px-Steel_key_ring_detail.png?79c3e"
+    },
+    {
+      "type": "item",
+      "name": "Guthix rest",
+      "display": "Ability to make Guthix rest potions",
+      "image": "https://runescape.wiki/images/thumb/Guthix_rest_%281%29_detail.png/100px-Guthix_rest_%281%29_detail.png?f456a"
+    },
+    {
+      "type": "item",
+      "name": "Gnome glider",
+      "display": "Access to the gnome glider route to the Feldip Hills",
+      "image": "https://runescape.wiki/images/thumb/Gnome_glider.png/100px-Gnome_glider.png?c7a41"
+    },
+    {
+      "type": "item",
+      "name": "Adamantite stone spirit",
+      "display": "Adamantite stone spirit, an uncut ruby and an uncut diamond dropped by Slagilith",
+      "image": "https://runescape.wiki/images/thumb/Adamantite_stone_spirit_detail.png/100px-Adamantite_stone_spirit_detail.png?c24ed"
+    },
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 1000,
+      "display": "1,000 experience from repairing the weather vane components",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "In the Manor",
+      "display": "In the Manor",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Grumpy",
+      "display": "Grumpy",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Chompy Hunt",
+      "display": "Chompy Hunt",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Soundscape",
+      "display": "Soundscape",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Monster Melee",
+      "display": "Monster Melee",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Yanni Salika in Shilo Village (north of the bridge). (opciones de chat: 2 Is there anything else interesting to do around here? • 5 Ok, see you in a tick! • Accept)",
+        "es": "Habla con Yanni Salika en Shilo Village (al norte del puente). (opciones de chat: 2 ¿Hay algo más interesante que hacer por aquí? • 5 ¡Vale, nos vemos en un momento! • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to one of the jungle foresters south of the village. You will receive their blunt hatchet. (opciones de chat: 4 I need to talk to you about red mahogany. • 1 Ok, I'll take your hatchet to get it sharpened.)",
+        "es": "Habla con uno de los guardabosques de la selva al sur de la aldea. Recibirás su hacha desafilada. (opciones de chat: 4 Necesito hablarte sobre la caoba roja. • 1 Vale, llevaré tu hacha para que la afilen.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Brian in Port Sarim (Axe shop north-east of the lodestone). Make sure he takes the blunt hatchet before you leave. (opciones de chat: 3 Do you sharpen hatchets? • 2 Look, can you sharpen this cursed hatchet or what? • 4 Ok, ok, I'll do it! I'll go and see Aggie.)",
+        "es": "Habla con Brian en Port Sarim (la tienda de hachas al noreste de la piedra de viaje). Asegúrate de que se quede con el hacha desafilada antes de irte. (opciones de chat: 3 ¿Afilas hachas? • 2 Mira, ¿puedes afilar esta maldita hacha o qué? • 4 Vale, vale, ¡lo haré! Iré a ver a Aggie.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Aggie, the witch in Draynor Village. (opciones de chat: 1 Talk about One Small Favour. • 3 Let me guess, you're going to ask me to do you a favour? • 2 Oh, Ok, I'll see if I can find Jimmy.)",
+        "es": "Habla con Aggie, la bruja de Draynor Village. (opciones de chat: 1 Hablar sobre One Small Favour. • 3 Déjame adivinar, ¿vas a pedirme que te haga un favor? • 2 Oh, vale, veré si puedo encontrar a Jimmy.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Go to the H.A.M. Hideout (north-west of the Lumbridge Castle, in the Lumbridge forest). Pick the lock on the trapdoor, and climb down. Head to the middle southern cavern and speak to Johanhus Ulsbrecht. (opciones de chat: 4 I'm looking for Jimmy the Chisel. • 3 And I suppose you need me to do you a favour? • 2 Ok, Jimmy has to be worth more than a few scrawny chickens!)",
+        "es": "Ve al H.A.M. Hideout (al noroeste del Castillo de Lumbridge, en el bosque de Lumbridge). Fuerza la cerradura de la trampilla y baja. Dirígete a la caverna central sur y habla con Johanhus Ulsbrecht. (opciones de chat: 4 Estoy buscando a Jimmy the Chisel. • 3 ¿Y supongo que necesitas que te haga un favor? • 2 Vale, ¡Jimmy debe valer más que unos cuantos pollos escuálidos!)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "Or if player has completed The Chosen Commander. (opciones de chat: 2 One Small Favour • 4 I'm looking for Jimmy the Chisel. • 3 And I suppose you need me to do you a favour? • 2 Ok, Jimmy has to be worth more than a few scrawny chickens!)",
+        "es": "O si el jugador ha completado The Chosen Commander. (opciones de chat: 2 One Small Favour • 4 Estoy buscando a Jimmy the Chisel. • 3 ¿Y supongo que necesitas que te haga un favor? • 2 Vale, ¡Jimmy debe valer más que unos cuantos pollos escuálidos!)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Fred the Farmer in the house of the sheep's pen in Lumbridge. (opciones de chat: 2 I need to talk to you about Jimmy.)",
+        "es": "Habla con Fred the Farmer en la casa del corral de ovejas en Lumbridge. (opciones de chat: 2 Necesito hablarte sobre Jimmy.)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "Or if player has seen \"The Thing\". (opciones de chat: 3 I need to talk to you about Jimmy.)",
+        "es": "O si el jugador ha visto \"The Thing\". (opciones de chat: 3 Necesito hablarte sobre Jimmy.)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk with Seth Groats in the house of the chickens' pen in Lumbridge. (opciones de chat: 2 Oh, ok! I guess it's not that much further to Varrock!) (Back on the east side of the river across from the sheep's pen)",
+        "es": "Habla con Seth Groats en la casa del corral de gallinas en Lumbridge. (opciones de chat: 2 Oh, vale, ¡supongo que no queda mucho más para llegar a Varrock!) (De vuelta en el lado este del río, frente al corral de ovejas)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Take 3 steel bars (cannot be noted) to Horvik in the platebody shop in Varrock (north-east of the central fountain), who is ill and needs a herbal tincture. (opciones de chat: 2 Talk about One Small Favour. • 3 Hi, I need to talk to you about chicken cages! • 2 Ok, I guess one good turn deserves another.)",
+        "es": "Lleva 3 barras de acero (no pueden estar marcadas) a Horvik en la tienda de petos en Varrock (al noreste de la fuente central), que está enfermo y necesita una tintura de hierbas. (opciones de chat: 2 Hablar sobre One Small Favour. • 3 Hola, ¡necesito hablarte sobre jaulas de gallinas! • 2 Vale, supongo que un buen gesto merece otro.)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Speak to the Apothecary twice, located in south-west Varrock, at the potion icon. (opciones de chat: 1 Talk about One Small Favour. • 5 Horvik is ill, I need herbal tincture. • 2 Oh, ok, I guess it's not that far to the Barbarian Village.)",
+        "es": "Habla con el Apothecary dos veces, ubicado al suroeste de Varrock, en el icono de poción. (opciones de chat: 1 Hablar sobre One Small Favour. • 5 Horvik está enfermo, necesito tintura de hierbas. • 2 Oh, vale, supongo que no está tan lejos de Barbarian Village.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "Or if player has destroyed their Doctor's hat. (opciones de chat: 2 Talk about One Small Favour. • 5 Horvik is ill, I need breathing salts and herbal tincture. • 2 Oh, ok, I guess it's not that far to the Barbarian Village.)",
+        "es": "O si el jugador ha destruido su Doctor's hat. (opciones de chat: 2 Hablar sobre One Small Favour. • 5 Horvik está enfermo, necesito sales respiratorias y tintura de hierbas. • 2 Oh, vale, supongo que no está tan lejos de Barbarian Village.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Go to Barbarian Village (also called Gunnarsgrunn) and talk to Tassie Slipcast, located within the pottery building in the south-east. (opciones de chat: 1 Ok, I'll deal with Hammerspike!)",
+        "es": "Ve a Barbarian Village (también llamado Gunnarsgrunn) y habla con Tassie Slipcast, ubicada dentro del edificio de cerámica al sureste. (opciones de chat: 1 ¡Vale, me encargaré de Hammerspike!)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Enter the Dwarven Mine and find Hammerspike Stoutbeard on the far west side (\"Hammerspike's hangout\" on the map). Ask him about Tassie Slipcast. (opciones de chat: 4 Have you always been a gangster? • 2 Ok, another favour..I think I can manage that.)",
+        "es": "Entra en la Dwarven Mine y encuentra a Hammerspike Stoutbeard en el extremo oeste (\"Hammerspike's hangout\" en el mapa). Pregúntale sobre Tassie Slipcast. (opciones de chat: 4 ¿Siempre has sido un gángster? • 2 Vale, otro favor... creo que puedo con eso.)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Go to Taverley and talk with Sanfew, located in the house slightly south-west of Pikkupstix's Summoning Shop. (opciones de chat: 2 Are you taking any new initiates? • 2 Do you accept dwarves? • 3 A dwarf I know wants to become an initiate. • 1 Yep, it's a deal.)",
+        "es": "Ve a Taverley y habla con Sanfew, ubicado en la casa un poco al suroeste de la tienda de Invocación de Pikkupstix. (opciones de chat: 2 ¿Estás aceptando nuevos iniciados? • 2 ¿Aceptáis enanos? • 3 Un enano que conozco quiere convertirse en iniciado. • 1 Sí, trato hecho.)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 1,
+      "text": {
+        "en": "The quest Druidic Ritual must be completed to speak with Sanfew about One Small Favour.",
+        "es": "Se debe completar la misión Druidic Ritual para poder hablar con Sanfew sobre One Small Favour."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 1,
+      "text": {
+        "en": "If Eadgar's Ruse is completed, or the third option is \"Are you taking any new initiates?\" (opciones de chat: 3 Are you taking any new initiates? • 2 Do you accept dwarves? • 3 A dwarf I know wants to become an initiate. • 1 Yep, it's a deal.)",
+        "es": "Si se ha completado Eadgar's Ruse, o la tercera opción es \"¿Estás aceptando nuevos iniciados?\" (opciones de chat: 3 ¿Estás aceptando nuevos iniciados? • 2 ¿Aceptáis enanos? • 3 Un enano que conozco quiere convertirse en iniciado. • 1 Sí, trato hecho.)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Make a Guthix rest by first adding the harralander to the vial of water, then adding the marrentill. Make sure you use the harralander on the vial, instead of clicking the vial, as you may accidentally use the marrentill first.",
+        "es": "Prepara un Guthix rest añadiendo primero el harralander a la vial de agua, y después el marrentill. Asegúrate de usar el harralander sobre la vial, en lugar de hacer clic en la vial, ya que podrías usar accidentalmente el marrentill primero."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Travel to White Wolf Mountain, and speak to Captain Bleemadge. (opciones de chat: 2 I have a special potion here for you from Sanfew! • 4 Ok, I'll go and get you some T.R.A.S.H.) Right-click to talk to him.",
+        "es": "Viaja a White Wolf Mountain y habla con el Captain Bleemadge. (opciones de chat: 2 ¡Tengo una poción especial aquí para ti de parte de Sanfew! • 4 Vale, iré a conseguirte algo de T.R.A.S.H.) Haz clic derecho para hablar con él."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "To reach him enter the cave southwest of the Burthorpe lodestone (behind the Burthorpe mine entrance), then south towards the gnome glider.",
+        "es": "Para llegar hasta él, entra en la cueva al suroeste de la piedra de viaje de Burthorpe (detrás de la entrada a la mina de Burthorpe), y luego ve hacia el sur, hacia el planeador gnomo."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Catherby and speak to Arhein on the docks. (General store owner, south of the lodestone) (opciones de chat: 3 I need to talk T.R.A.S.H. to you. • 1 Yes, Ok, I'll do it!)",
+        "es": "Viaja a Catherby y habla con Arhein en los muelles. (Dueño de la tienda general, al sur de la piedra de viaje) (opciones de chat: 3 Necesito hablarte de T.R.A.S.H. • 1 ¡Sí, vale, lo haré!)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 1,
+      "text": {
+        "en": "While here, purchase an empty pot from Arhein's Store.",
+        "es": "Mientras estés aquí, compra una olla vacía en la tienda de Arhein."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Go to Seers' Village and speak to Phantuwti Fanstuwi Farsight, south-east of the lodestone. (opciones de chat: 4 Hi, can you give me a weather forecast? • 5 What can I do to help? • 1 Yes, Ok, I'll do it.)",
+        "es": "Ve a Seers' Village y habla con Phantuwti Fanstuwi Farsight, al sureste de la piedra de viaje. (opciones de chat: 4 Hola, ¿puedes darme un pronóstico del tiempo? • 5 ¿Qué puedo hacer para ayudar? • 1 Sí, vale, lo haré.)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Enter the Goblin Cave south-east of the fishing guild (teleport to the Ardougne lodestone and run north).",
+        "es": "Entra en la Goblin Cave al sureste del gremio de pesca (teletranspórtate a la piedra de viaje de Ardougne y corre hacia el norte)."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "Sometimes the cave is not marked on the minimap. It is just outside the fence opposite the fishing guild building near the windmill.",
+        "es": "A veces la cueva no aparece marcada en el minimapa. Está justo fuera de la valla, frente al edificio del gremio de pesca, cerca del molino de viento."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Once inside, head north, then east where you find Petra Fiyed trapped in rock. Search the sculpture.",
+        "es": "Una vez dentro, dirígete al norte, luego al este, donde encontrarás a Petra Fiyed atrapada en la roca. Busca en la escultura."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Go to Ardougne and speak to Wizard Cromperty, located north-east from the market. (opciones de chat: 4 I need to talk to you about a girl stuck in some rock! • 2 Oh! Ok, one more 'small favour' isn't going to kill me..I hope!)",
+        "es": "Ve a Ardougne y habla con Wizard Cromperty, ubicado al noreste del mercado. (opciones de chat: 4 Necesito hablarte sobre una chica atrapada en una roca! • 2 ¡Oh! Vale, un pequeño favor más no va a matarme... eso espero!)"
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Pick up five pigeon cages from the back yard of the first house south of the north-western bank in Ardougne. There are three cages that will respawn immediately.",
+        "es": "Recoge cinco jaulas de palomas en el patio trasero de la primera casa al sur del banco noroeste de Ardougne. Hay tres jaulas que reaparecerán inmediatamente."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Go to Port Khazard (teleport to Catherby and use a charter to Port Khazard or teleport to the Yanille lodestone, run east through town then north) and talk to Tindel Marchant on the southern pier. (opciones de chat: 2 Ask about iron oxide. • 1 Ok, I'll do it!)",
+        "es": "Ve a Port Khazard (teletranspórtate a Catherby y usa un barco fletado hasta Port Khazard, o teletranspórtate a la piedra de viaje de Yanille, corre hacia el este por el pueblo y luego hacia el norte) y habla con Tindel Marchant en el muelle sur. (opciones de chat: 2 Preguntar sobre el óxido de hierro. • 1 ¡Vale, lo haré!)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "While you are here you can also speak to him about identifying swords for one of easy Ardougne achievements, They're Long and Pointy (opciones de chat: 1 Chat about Antiques Store • 1 What do you do here?)",
+        "es": "Mientras estés aquí, también puedes hablar con él sobre identificar espadas para uno de los logros fáciles de Ardougne, They're Long and Pointy (opciones de chat: 1 Hablar sobre Antiques Store • 1 ¿Qué haces aquí?)"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Feldip Hills and talk to Rantz, located to the far east of fairy ring . (opciones de chat: 1 I need to talk to you about a mattress. • 4 Ok, I'll see what I can do.)",
+        "es": "Ve a Feldip Hills y habla con Rantz, ubicado muy al este del anillo de hadas. (opciones de chat: 1 Necesito hablarte sobre un colchón. • 4 Vale, veré qué puedo hacer.)"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Go west to the gnome glider and right-click to talk to Gnormadium Avlafrim. (opciones de chat: 4 Rantz said I should come and help you finish this project. • 1 Yes, I'll take a look at them.)",
+        "es": "Ve hacia el oeste hasta el planeador gnomo y haz clic derecho para hablar con Gnormadium Avlafrim. (opciones de chat: 4 Rantz dijo que debería venir a ayudarte a terminar este proyecto. • 1 Sí, les echaré un vistazo.)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "For each of the 8 gnome landing lights immediately east:",
+        "es": "Para cada una de las 8 luces de aterrizaje gnomas inmediatamente al este:"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "Select the \"Search\" option on the gnome landing light to receive an uncut gem.",
+        "es": "Selecciona la opción \"Buscar\" en la luz de aterrizaje gnoma para recibir una gema sin cortar."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "Cut the gem. If you crush one talk to the gnome to buy a replacement. (opciones de chat: 4 I need new gem to fix the lights. • 1 Ok, here's 500 gold, I'll buy one.).",
+        "es": "Corta la gema. Si rompes una, habla con el gnomo para comprar una de repuesto. (opciones de chat: 4 Necesito una gema nueva para arreglar las luces. • 1 Vale, aquí tienes 500 monedas de oro, compraré una.)."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "Use the cut gem on the light it came from (from west to east is sapphire, opal, red topaz, jade).",
+        "es": "Usa la gema cortada en la luz de la que provino (de oeste a este es zafiro, ópalo, topacio rojo, jade)."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 2,
+      "text": {
+        "en": "Make sure to use them on the gnome landing light.",
+        "es": "Asegúrate de usarlas en la luz de aterrizaje gnoma."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the gnome again. (opciones de chat: 4 I've fixed all the lights!)",
+        "es": "Habla con el gnomo de nuevo. (opciones de chat: 4 ¡He arreglado todas las luces!)"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Go back to Rantz to receive a comfy mattress. (opciones de chat: 1 Ok, I've helped that Gnome, he shouldn't bother you anymore.)",
+        "es": "Vuelve con Rantz para recibir un colchón cómodo. (opciones de chat: 1 Vale, he ayudado a ese gnomo, no debería molestarte más.)"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Take the mattress to Tindel in Port Khazard, who gives you iron oxide. (opciones de chat: 2 I have the mattress.)",
+        "es": "Lleva el colchón a Tindel en Port Khazard, quien te da óxido de hierro. (opciones de chat: 2 Tengo el colchón.)"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Take the iron oxide to Wizard Cromperty in Ardougne, who gives you an animate rock scroll. (opciones de chat: 4 I have that iron oxide you asked for!)",
+        "es": "Lleva el óxido de hierro a Wizard Cromperty en Ardougne, quien te da un pergamino para animar roca. (opciones de chat: 4 ¡Tengo el óxido de hierro que me pediste!)"
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Read Animate rock scroll in the Goblin Cave near the trapped Petra and kill Slagilith when it appears.",
+        "es": "Lee el pergamino para animar roca en la Goblin Cave, cerca de Petra atrapada, y mata a Slagilith cuando aparezca."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Read Animate rock scroll again, then talk to Petra.",
+        "es": "Lee el pergamino para animar roca de nuevo, y luego habla con Petra."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Go to Seers' Village and speak to Phantuwti in his house. (opciones de chat: 4 I've released Petra, she should have returned. • 4 I'll run you through if you don't give me that weather report. • 2 Why can't you get a clear picture? • 2 Which special Seers tools do you mean? • 1 What do you mean, 'special combination of items'?)",
+        "es": "Ve a Seers' Village y habla con Phantuwti en su casa. (opciones de chat: 4 He liberado a Petra, debería haber regresado. • 4 Te atravesaré si no me das ese informe del tiempo. • 2 ¿Por qué no puedes obtener una imagen clara? • 2 ¿A qué herramientas especiales de los Seers te refieres? • 1 ¿Qué quieres decir con 'combinación especial de objetos'?)"
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Access the roof via either the ladder on the north wall of Phantuwti's house, or the ladder in the building to the east (you have to go up two ladders to get to the roof).",
+        "es": "Accede al tejado mediante la escalera en la pared norte de la casa de Phantuwti, o la escalera en el edificio del este (tienes que subir dos escaleras para llegar al tejado)."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Search the weather vane twice to get three broken vane parts.",
+        "es": "Busca en la veleta dos veces para obtener tres piezas rotas de la veleta."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "With a bronze bar, an iron bar, and a steel bar, use each of the the parts of the weather vane on any anvil (there is an anvil just north of the house).",
+        "es": "Con una barra de bronce, una barra de hierro y una barra de acero, usa cada una de las piezas de la veleta en cualquier yunque (hay un yunque justo al norte de la casa)."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Go back to the roof of the house and put the weathervane pillar, the directionals and the ornament back.",
+        "es": "Vuelve al tejado de la casa y coloca de nuevo el pilar de la veleta, las direccionales y el ornamento."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Phantuwti again and he will give you the weather report. (opciones de chat: 4 I've fixed the weather vane!)",
+        "es": "Habla de nuevo con Phantuwti y te dará el pronóstico del tiempo. (opciones de chat: 4 ¡He arreglado la veleta!)"
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Take the report to Arhein in Catherby. (opciones de chat: 3 I have the weather report for you.)",
+        "es": "Lleva el informe a Arhein en Catherby. (opciones de chat: 3 Tengo el informe del tiempo para ti.)"
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Captain Bleemadge on the White Wolf Mountain. (opciones de chat: 2 Hey there, did you get your T.R.A.S.H?)",
+        "es": "Habla con Captain Bleemadge en White Wolf Mountain. (opciones de chat: 2 Hola, ¿conseguiste tu T.R.A.S.H?)"
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sanfew in Taverley. (opciones de chat: 2 Hi there, the Gnome Pilot has agreed to take you to see the ogres!) ( (opciones de chat: 3 Hi there, the Gnome Pilot has agreed to take you to see the ogres!) If the player has completed \"Eadgar's Ruse.\")",
+        "es": "Habla con Sanfew en Taverley. (opciones de chat: 2 ¡Hola! ¡El piloto gnomo ha aceptado llevarte a ver a los ogros!) ( (opciones de chat: 3 ¡Hola! ¡El piloto gnomo ha aceptado llevarte a ver a los ogros!) Si el jugador ha completado \"Eadgar's Ruse.\")"
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Hammerspike Stoutbeard in the Dwarven Mine. Kill his minions. Talk to him again.",
+        "es": "Habla con Hammerspike Stoutbeard en la Dwarven Mine. Mata a sus secuaces. Vuelve a hablar con él."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Tassie Slipcast in Barbarian Village.",
+        "es": "Habla con Tassie Slipcast en Barbarian Village."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Form the unfired pot lid at the nearby potter's wheel.",
+        "es": "Forma la tapa de olla sin cocer en el torno de alfarero cercano."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Fire the pot lid in the pottery oven.",
+        "es": "Cuece la tapa de olla en el horno de cerámica."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Use the pot lid on an empty pot to get an airtight pot.",
+        "es": "Usa la tapa de olla en una olla vacía para obtener una olla hermética."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Go to the apothecary in Varrock and give him the pot. (opciones de chat: 1 Talk about One Small Favour. • 5 Hey there! I have an air-tight pot for you!)",
+        "es": "Ve al Apothecary en Varrock y dale la olla. (opciones de chat: 1 Hablar sobre One Small Favour. • 5 ¡Hola! ¡Tengo una olla hermética para ti!)"
+      }
+    },
+    {
+      "index": 58,
+      "indent": 1,
+      "text": {
+        "en": "Or if player has destroyed their Doctor's hat. (opciones de chat: 2 Talk about One Small Favour. • 5 Hey there! I have an air-tight pot for you!)",
+        "es": "O si el jugador ha destruido su Doctor's hat. (opciones de chat: 2 Hablar sobre One Small Favour. • 5 ¡Hola! ¡Tengo una olla hermética para ti!)"
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Go to Horvik (Varrock Platebody Shop) and give him the herbal tincture and breathing salts. (opciones de chat: 2 Talk about One Small Favour. • 3 I have the tincture and the breathing salts.)",
+        "es": "Ve a Horvik (Varrock Platebody Shop) y dale la tintura de hierbas y las sales respiratorias. (opciones de chat: 2 Hablar sobre One Small Favour. • 3 Tengo la tintura y las sales respiratorias.)"
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him again with five pigeon cages to get some chicken cages. (opciones de chat: 2 Talk about One Small Favour. • 3 I have the five pigeon cages you asked for!)",
+        "es": "Vuelve a hablar con él con cinco jaulas de palomas para conseguir jaulas de gallinas. (opciones de chat: 2 Hablar sobre One Small Favour. • 3 ¡Tengo las cinco jaulas de palomas que pediste!)"
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Go to Seth Groats in the house of the chickens' pen in Lumbridge and give him the chicken cages.",
+        "es": "Ve a Seth Groats, en la casa del corral de gallinas en Lumbridge, y dale las jaulas de gallinas."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Go to the H.A.M. Hideout and talk to Johanhus. (opciones de chat: 4 You're in luck, I've managed to swing that chicken deal for you.)",
+        "es": "Ve al H.A.M. Hideout y habla con Johanhus. (opciones de chat: 4 Estás de suerte, he conseguido arreglar ese trato de las gallinas para ti.)"
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Go to Draynor Village and talk with Aggie the witch. (opciones de chat: 1 Talk about One Small Favour.)",
+        "es": "Ve a Draynor Village y habla con Aggie, la bruja. (opciones de chat: 1 Hablar sobre One Small Favour.)"
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Go to Port Sarim and talk with Brian in his axe shop (north-east of the lodestone), who gives you a sharpened hatchet. (opciones de chat: 3 I've returned with good news.)",
+        "es": "Ve a Port Sarim y habla con Brian en su tienda de hachas (al noreste de la piedra de viaje), quien te da un hacha afilada. (opciones de chat: 3 He vuelto con buenas noticias.)"
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "Go back to Shilo Village and speak with any jungle forester (closest fairy ring ), who gives you red mahogany logs in exchange for the hatchet. (opciones de chat: 4 Good news, I have your sharpened hatchet!)",
+        "es": "Vuelve a Shilo Village y habla con cualquier guardabosques de la selva (el anillo de hadas más cercano), quien te dará troncos de caoba roja a cambio del hacha. (opciones de chat: 4 ¡Buenas noticias, tengo tu hacha afilada!)"
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "Speak with Yanni in Shilo Village. (opciones de chat: 2 Here's the red mahogany you asked for.)",
+        "es": "Habla con Yanni en Shilo Village. (opciones de chat: 2 Aquí tienes la caoba roja que pediste.)"
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

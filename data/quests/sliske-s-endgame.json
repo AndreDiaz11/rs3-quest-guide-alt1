@@ -1,0 +1,706 @@
+{
+  "id": "sliske-s-endgame",
+  "title": "Sliske's Endgame",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:15:07.532Z",
+  "icon": "https://runescape.wiki/images/Sliske%27s_Endgame_icon.png",
+  "series": "Sliske's Game",
+  "age": "6",
+  "timeline": "world guardian",
+  "members": true,
+  "combatLevel": "200+",
+  "difficulty": "Grandmaster",
+  "length": "Very Long",
+  "releaseDate": "19 December 2016",
+  "startPoint": {
+    "en": "Speak to Relomia in Draynor Village.",
+    "es": "Habla con Relomia en Draynor Village."
+  },
+  "requirements": {
+    "quests": [
+      "The Death of Chivalry",
+      "One of a Kind",
+      "A Tail of Two Cats",
+      "Holy Grail",
+      "The World Wakes",
+      "Missing, Presumed Death",
+      "Nomad's Elegy",
+      "Dishonour among Thieves",
+      "Nomad's Requiem",
+      "Heart of Stone",
+      "The Mighty Fall",
+      "Throne of Miscellania",
+      "The Void Stares Back",
+      "Kindred Spirits",
+      "Missing, Presumed Death",
+      "Hero's Welcome",
+      "Lunar Diplomacy",
+      "Ancient Cavern",
+      "Barbarian Training",
+      "Children of Mah",
+      "The Light Within",
+      "Dishonour among Thieves"
+    ],
+    "skills": []
+  },
+  "items": [
+    {
+      "name": "Black Knights' Fortress",
+      "display": "A disguise with which to enter the Black Knights' Fortress Alternatively, the Dulcin armour cosmetic override or the teleport option on the Skull of Remembrance can be used Alternatively, the Communication device from Dishonour among Thieves may be used to teleport to Zamorak",
+      "image": "https://runescape.wiki/images/thumb/Black_Knights%27_Fortress.png/100px-Black_Knights%27_Fortress.png?1a120"
+    },
+    {
+      "name": "Dulcin (override)",
+      "display": "Alternatively, the Dulcin armour cosmetic override or the teleport option on the Skull of Remembrance can be used",
+      "image": "https://runescape.wiki/images/thumb/Dulcin_Helm_chathead.png/100px-Dulcin_Helm_chathead.png?28b1b"
+    },
+    {
+      "name": "Communication device",
+      "display": "Alternatively, the Communication device from Dishonour among Thieves may be used to teleport to Zamorak",
+      "image": "https://runescape.wiki/images/thumb/Communication_device_detail.png/100px-Communication_device_detail.png?84567"
+    }
+  ],
+  "kills": [
+    "Multiple wight footsoldiers",
+    "Multiple wight archers",
+    "Multiple imbued wight footsoldiers",
+    "Multiple unstable wight footsoldiers",
+    "Nomad twice (level 799)",
+    "Linza the Disgraced (level 150)",
+    "Gregorovic (level 1,000)",
+    "Sliske"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 3,
+      "display": "3 quest points",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Tiny Sliske",
+      "display": "Tiny Sliske bobblehead pet",
+      "image": "https://runescape.wiki/images/thumb/Tiny_Sliske_pet.png/100px-Tiny_Sliske_pet.png?6c947"
+    },
+    {
+      "type": "xp",
+      "skill": "Stone-touched lamp",
+      "amount": null,
+      "display": "Five stone-touched lamps, giving 250,000 experience each on a skill of at least level 85 (125,000 experience on elite skills)",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Hunter's Catalyst fragment",
+      "amount": null,
+      "display": "A set of skilling items: A hunter's Catalyst fragment, which resets several hunter traps if they fail to catch any prey. A runecrafter's Catalyst fragment, which halves the degradation rate of runecrafting pouches. A farmer's Catalyst fragment, which allows diseased herbs to be picked for Farming experience in the form of shadow-infused herbs. The Ring of Whispers that gives a bonus to gathering skills. The Necklace of Shadows that stops familiars draining Summoning points after they have initially been summoned. A set effect of a manifested knowledge randomly spawning and providing bonus experience when all three items (after combining the Catalyst fragments into the combined Catalyst fragment) are worn.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Agent of the Eldest",
+      "display": "The Agent of the Eldest outfit after replaying the quest the first time",
+      "image": "https://runescape.wiki/images/thumb/Agent_of_the_Eldest_Helm_chathead.png/100px-Agent_of_the_Eldest_Helm_chathead.png?e7d02"
+    },
+    {
+      "type": "item",
+      "name": "Medium prismatic lamp (Sliske's Endgame)",
+      "display": "A medium prismatic lamp after replaying the quest",
+      "image": "https://runescape.wiki/images/thumb/Medium_prismatic_lamp_%28Sliske%27s_Endgame%29_detail.png/100px-Medium_prismatic_lamp_%28Sliske%27s_Endgame%29_detail.png?9c233"
+    },
+    {
+      "type": "item",
+      "name": "Champions of Sliske",
+      "display": "Champions of Sliske",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Dying Light II",
+      "display": "Dying Light II",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Epilogue",
+      "display": "Epilogue",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Moral Maze II",
+      "display": "Moral Maze II",
+      "image": "https://runescape.wiki/images/thumb/Sliske%27s_Labyrinth_1_map.png/100px-Sliske%27s_Labyrinth_1_map.png?d0e7c"
+    },
+    {
+      "type": "item",
+      "name": "Sliske's Secrets",
+      "display": "Sliske's Secrets",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Relomia in Draynor Village.",
+        "es": "Habla con Relomia en Draynor Village."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to each of the gods.",
+        "es": "Habla con cada uno de los dioses."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "Talk to Seren and Zaros up in the Tower of Voices by using the stairs north-east of the Prifddinas lodestone. (opciones de chat: 1 Speak with Seren about Sliske's Endgame.)",
+        "es": "Habla con Seren y Zaros en lo alto de la Tower of Voices usando las escaleras al noreste del lodestone de Prifddinas. (opciones de chat: 1 Hablar con Seren sobre Sliske's Endgame.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "Talk to Saradomin in the throne room on the east side of the of White Knights' Castle.",
+        "es": "Habla con Saradomin en la sala del trono en el lado este del White Knights' Castle."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 2,
+      "text": {
+        "en": "He may not speak to you if you have the title active. Lobbying may be necessary if he only insults you.",
+        "es": "Puede que no te hable si tienes el título activado. Puede que sea necesario cambiarlo si solo te insulta."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "Talk to Armadyl on the roof of his tower north-west of Port Sarim.",
+        "es": "Habla con Armadyl en el tejado de su torre al noroeste de Port Sarim."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 2,
+      "text": {
+        "en": "Go up the tower by the teleporter.",
+        "es": "Sube la torre usando el teletransportador."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 2,
+      "text": {
+        "en": "Climb up the stairs on the west side to the roof.",
+        "es": "Sube las escaleras del lado oeste hasta el tejado."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 1,
+      "text": {
+        "en": "Talk to Zamorak on the of Black Knights' Fortress or at Zamorak's hideout.",
+        "es": "Habla con Zamorak en el Black Knights' Fortress o en el escondite de Zamorak."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 2,
+      "text": {
+        "en": "You may get there by using the mind altar teleport to mind altar, a communication device, or a Skull of Remembrance.",
+        "es": "Puedes llegar allí usando el teletransporte al mind altar, un dispositivo de comunicación, o un Skull of Remembrance."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 1,
+      "text": {
+        "en": "Talk to Icthlarin in Death's office by entering through portal in the north of Draynor Village. (opciones de chat: 2 Speak to Death about Sliske's Endgame)",
+        "es": "Habla con Icthlarin en la oficina de Death entrando por el portal al norte de Draynor Village. (opciones de chat: 2 Hablar con Death sobre Sliske's Endgame)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 2,
+      "text": {
+        "en": "You cannot go from War's Retreat directly.",
+        "es": "No puedes ir directamente desde War's Retreat."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Relomia in Draynor Village. (opciones de chat: 1 Sliske's Endgame.)",
+        "es": "Habla con Relomia en Draynor Village. (opciones de chat: 1 Sliske's Endgame.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Dismiss any familiar or follower you may have following you.",
+        "es": "Despide a cualquier familiar o seguidor que te esté acompañando."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Relomia in the Heart of Gielinor campsite (west of the entrance, outside of the Heart of Gielinor). (opciones de chat: 1 Yes, I am prepared. • Any • Any)",
+        "es": "Habla con Relomia en el campamento de Heart of Gielinor (al oeste de la entrada, fuera del Heart of Gielinor). (opciones de chat: 1 Sí, estoy preparado. • Cualquiera • Cualquiera)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Defeat Nomad. He uses melee/mage and doesn't use special attacks.",
+        "es": "Derrota a Nomad. Usa cuerpo a cuerpo/magia y no usa ataques especiales."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Run through both the mazes to the exit on the north-east. The solutions are given below.",
+        "es": "Recorre ambos laberintos hasta la salida al noreste. Las soluciones se dan a continuación."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "The green lines show the main path to follow, and the blue lines lead to puzzle rooms off the main map that must be completed.",
+        "es": "Las líneas verdes muestran el camino principal a seguir, y las líneas azules llevan a salas de puzles fuera del mapa principal que hay que completar."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "See the puzzles section below with help solving the puzzles.",
+        "es": "Consulta la sección de puzles a continuación para obtener ayuda resolviéndolos."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "Return to the green paths after completing the puzzles.",
+        "es": "Vuelve a los caminos verdes tras completar los puzles."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "The orange lines lead to optional cutscenes.",
+        "es": "Las líneas naranjas llevan a escenas opcionales."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "These maps and your minimap may not line up exactly until the puzzle rooms have been completed as completing puzzle rooms rotates parts of the labyrinth.",
+        "es": "Estos mapas y tu minimapa pueden no coincidir exactamente hasta que se hayan completado las salas de puzles, ya que completarlas rota partes del laberinto."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Click the Solution panel to view the Clue",
+        "es": "Haz clic en el panel de Solución para ver la Pista"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Use the table below to find the Solution",
+        "es": "Usa la tabla de abajo para encontrar la Solución"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Rotate the Shadow casters till they match the solution.",
+        "es": "Gira los Shadow casters hasta que coincidan con la solución."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Kill any wights in the room to obtain missing Masks (they will drop a Mask of Glee, Mask of Sorrow or Mask of Indifference)",
+        "es": "Mata a los wights de la sala para obtener las Masks que falten (soltarán una Mask of Glee, Mask of Sorrow o Mask of Indifference)"
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Click the Viewing panel to begin the projection mode",
+        "es": "Haz clic en el panel de Visualización para iniciar el modo de proyección"
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "If it says one of the projectors are damaged, repair them",
+        "es": "Si indica que uno de los proyectores está dañado, repáralo"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Rotate the Shadow casters till it forms the solution image shown on the right (a complete Sliske mask)",
+        "es": "Gira los Shadow casters hasta que formen la imagen de la solución que se muestra a la derecha (una Sliske mask completa)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Click the solution panel to view the Clue, then view the Solution from the table in the section above",
+        "es": "Haz clic en el panel de solución para ver la Pista, luego consulta la Solución en la tabla de la sección anterior"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Kill any wights in the room to obtain missing Masks (they will drop a Mask of Glee, Mask of Sorrow or Mask of Indifference)",
+        "es": "Mata a los wights de la sala para obtener las Masks que falten (soltarán una Mask of Glee, Mask of Sorrow o Mask of Indifference)"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Take the mask from all the casters that don't match the description, and re-attach the mask on another caster till it matches",
+        "es": "Quita la máscara de todos los casters que no coincidan con la descripción, y vuelve a colocarla en otro caster hasta que coincida"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "When all the casters are matching the solution, the puzzle will be solved",
+        "es": "Cuando todos los casters coincidan con la solución, el puzle se resolverá"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Stand in the spotlight",
+        "es": "Ponte de pie bajo el foco de luz"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "At the end of the maze, ascend the stairs",
+        "es": "Al final del laberinto, sube las escaleras"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Participate in the race and go through the dialogue and cutscenes (opciones de chat: Any)",
+        "es": "Participa en la carrera y sigue el diálogo y las escenas (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Use the purple exit portal to leave, and prepare for a tough fight with the best combat gear you have.",
+        "es": "Usa el portal de salida morado para irte, y prepárate para una dura batalla con el mejor equipo de combate que tengas."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Tier 90 armour like masterwork equipment greatly helps.",
+        "es": "Una armadura de nivel 90 como el equipamiento masterwork ayuda enormemente."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Bring a beast of burden with high healing foods.",
+        "es": "Lleva una bestia de carga con comidas de curación alta."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Return to Relomia using The Heart teleports and resume the battle against Sliske",
+        "es": "Vuelve con Relomia usando los teletransportes de The Heart y retoma la batalla contra Sliske"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "The fight is divided into 3 phases, at the end of each phase you can bank and return to resume from that checkpoint",
+        "es": "La lucha se divide en 3 fases, al final de cada fase puedes ir al banco y volver para retomar desde ese punto de control"
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Fight against wights of increasing difficulty, kill enough of them to increase the progress bar on top.",
+        "es": "Lucha contra wights de dificultad creciente, mata suficientes para aumentar la barra de progreso de arriba."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "Use Deflect Melee or Deflect Ranged depending on the types of wights you are fighting",
+        "es": "Usa Deflect Melee o Deflect Ranged según el tipo de wights contra los que estés luchando"
+      }
+    },
+    {
+      "index": 43,
+      "indent": 1,
+      "text": {
+        "en": "Be aware that all remaining unstable wight footsoldiers will explode at the end of the wave, potentially causing death if the player is surrounded but you will continue onto the next wave when you return.",
+        "es": "Ten en cuenta que todos los wight footsoldiers inestables restantes explotarán al final de la oleada, lo que podría causar la muerte si el jugador está rodeado, pero continuarás en la siguiente oleada al volver."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Kill Nomad.",
+        "es": "Mata a Nomad."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "Use Deflect Ranged while fighting him.",
+        "es": "Usa Deflect Ranged mientras luchas contra él."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 1,
+      "text": {
+        "en": "Nomad plants mines and Gregorovic rains damage on the arena. Make sure to walk off of marked tiles.",
+        "es": "Nomad coloca minas y Gregorovic hace llover daño sobre la arena. Asegúrate de salir de las baldosas marcadas."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Kill Linza the Disgraced.",
+        "es": "Mata a Linza the Disgraced."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "text": {
+        "en": "Use Deflect Melee while fighting her.",
+        "es": "Usa Deflect Melee mientras luchas contra ella."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "Linza reflects damage which is less deadly after she's the only surviving boss.",
+        "es": "Linza refleja daño, que es menos letal después de que sea la única jefa superviviente."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 1,
+      "text": {
+        "en": "She also has a blue charged bar that appears above her head and does a very high damage move. She will also bind before she does this move so have surge or freedom ready. It is recommended to dodge this attack.",
+        "es": "También tiene una barra azul cargada que aparece sobre su cabeza y realiza un movimiento de muy alto daño. También te atará antes de hacer este movimiento, así que ten surge o freedom preparados. Se recomienda esquivar este ataque."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Kill Gregorovic.",
+        "es": "Mata a Gregorovic."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 1,
+      "text": {
+        "en": "Use Deflect Ranged while fighting him.",
+        "es": "Usa Deflect Ranged mientras luchas contra él."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 1,
+      "text": {
+        "en": "The spirits that spawn towards Gregorovic will heal him if they reach him. Kill them before they touch him.",
+        "es": "Los espíritus que aparecen hacia Gregorovic lo curarán si lo alcanzan. Mátalos antes de que lo toquen."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Kill Sliske. You cannot use deathtouched darts to kill Sliske.",
+        "es": "Mata a Sliske. No puedes usar deathtouched darts para matar a Sliske."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 1,
+      "text": {
+        "en": "Use Deflect Magic throughout the fight as the majority of the damage will be magic classed. Keep in mind that prayer points are drained faster than normal in this fight.",
+        "es": "Usa Deflect Magic durante toda la lucha, ya que la mayoría del daño será de tipo mágico. Ten en cuenta que los puntos de oración se agotan más rápido de lo normal en esta lucha."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 1,
+      "text": {
+        "en": "If you are having trouble, wearing the Armour of Trials and wielding Vanquish can help greatly has it can provide a 25% defensive and offensive bonus during the fight if you die 5 times in a row.",
+        "es": "Si tienes problemas, llevar la Armour of Trials y empuñar Vanquish puede ayudar mucho, ya que puede proporcionar un bonus del 25% ofensivo y defensivo durante la lucha si mueres 5 veces seguidas."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 1,
+      "text": {
+        "en": "Beware of his special attack where several shadow pits will appear below your feet. Step away to avoid significant damage. He will summon 4 shadow pits in the first round, 5 in the second, and 4 in the subsequent two rounds. On rounds 3 and 4, Sliske's attacks will predict where you are walking towards on the 4th and final shadow pit.",
+        "es": "Cuidado con su ataque especial en el que aparecerán varios pozos de sombra bajo tus pies. Aléjate para evitar daño significativo. Invocará 4 pozos de sombra en la primera ronda, 5 en la segunda, y 4 en las dos rondas siguientes. En las rondas 3 y 4, los ataques de Sliske predecirán hacia dónde caminas para el 4º y último pozo de sombra."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 1,
+      "text": {
+        "en": "Attack Sliske until he reaches 10,000 health, he will teleport away.",
+        "es": "Ataca a Sliske hasta que llegue a 10.000 puntos de vida, se teletransportará lejos."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 1,
+      "text": {
+        "en": "Destroy the Power Source in the centre of the room.",
+        "es": "Destruye la Power Source en el centro de la sala."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 1,
+      "text": {
+        "en": "Attack Sliske until he reaches 10,000 health again.",
+        "es": "Ataca a Sliske hasta que vuelva a llegar a 10.000 puntos de vida."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 1,
+      "text": {
+        "en": "Enter one of the rifts. Sliske will bring you back into the arena.",
+        "es": "Entra en una de las grietas. Sliske te llevará de vuelta a la arena."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 1,
+      "text": {
+        "en": "Attack Sliske until he reaches 10,000 health again.",
+        "es": "Ataca a Sliske hasta que vuelva a llegar a 10.000 puntos de vida."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 1,
+      "text": {
+        "en": "Jump on the rock formation in front of Sliske.",
+        "es": "Salta sobre la formación rocosa frente a Sliske."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 1,
+      "text": {
+        "en": "Attack Sliske until he reaches 10,000 health again.",
+        "es": "Ataca a Sliske hasta que vuelva a llegar a 10.000 puntos de vida."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 1,
+      "text": {
+        "en": "Defeat Sliske one final time. You have unlimited life points and adrenaline and all ability cooldowns are halved. (If you have Onslaught Ability you can kill him automatically)",
+        "es": "Derrota a Sliske una última vez. Tienes puntos de vida y adrenalina ilimitados y todos los tiempos de reutilización de habilidades se reducen a la mitad. (Si tienes la habilidad Onslaught, puedes matarlo automáticamente)"
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Jas. (opciones de chat: Any • Any) (Except insulting Jas - does not allow you to continue)",
+        "es": "Habla con Jas. (opciones de chat: Cualquiera • Cualquiera) (Excepto insultar a Jas, ya que no te permite continuar)"
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the gods on the surface. (opciones de chat: Any • Any • Any)",
+        "es": "Habla con los dioses en la superficie. (opciones de chat: Cualquiera • Cualquiera • Cualquiera)"
+      }
+    },
+    {
+      "index": 68,
+      "indent": 0,
+      "text": {
+        "en": "Return to Relomia in Draynor. (opciones de chat: 1 Sliske's Endgame. • Any)",
+        "es": "Vuelve con Relomia en Draynor. (opciones de chat: 1 Sliske's Endgame. • Cualquiera)"
+      }
+    },
+    {
+      "index": 69,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

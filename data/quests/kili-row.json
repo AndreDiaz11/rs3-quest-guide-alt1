@@ -1,0 +1,159 @@
+{
+  "id": "kili-row",
+  "title": "Kili Row",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:32:16.921Z",
+  "icon": "https://runescape.wiki/images/thumb/Kili_Row_icon.png/50px-Kili_Row_icon.png",
+  "series": "City of Um",
+  "age": "Age of Chaos",
+  "timeline": "Age of Chaos",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Intermediate",
+  "length": "Short",
+  "releaseDate": "7 August 2023",
+  "startPoint": {
+    "en": "Talk to Kili in the City of Um's smithy.",
+    "es": "Habla con Kili en la herrería de la City of Um."
+  },
+  "requirements": {
+    "quests": [
+      "Necromancy!",
+      "necromancer robes",
+      "Sostratus"
+    ],
+    "skills": [
+      {
+        "skill": "Necromancy",
+        "level": 20
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Regular ghostly ink",
+      "display": "2 regular ghostly ink for drawing glyphs, or having the required glyphs already drawn",
+      "image": "https://runescape.wiki/images/thumb/Regular_ghostly_ink_detail.png/100px-Regular_ghostly_ink_detail.png?73768"
+    },
+    {
+      "name": "Basic ghostly ink",
+      "display": "7 basic ghostly ink for drawing glyphs, or having the required glyphs already drawn",
+      "image": "https://runescape.wiki/images/thumb/Basic_ghostly_ink_detail.png/100px-Basic_ghostly_ink_detail.png?f9b30"
+    },
+    {
+      "name": "Rituals",
+      "display": "4 light sources for rituals, or having them already set up",
+      "image": "https://runescape.wiki/images/thumb/Rituals.png/100px-Rituals.png?72ca9"
+    }
+  ],
+  "kills": [
+    "Optional; 5 chickens (level 1, must be damaged with Necromancy)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Lesser ensoul material",
+      "display": "Access to lesser, regular, and greater ensoul material rituals",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Death Skull equipment",
+      "display": "Ability to upgrade Death Skull equipment and deathwarden robe armour to tier 20",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Kili",
+      "display": "Ability to learn further equipment upgrades from Kili",
+      "image": "https://runescape.wiki/images/thumb/Kili.png/100px-Kili.png?cc1ae"
+    },
+    {
+      "type": "item",
+      "name": "Thalmund",
+      "display": "Ability to access Thalmund and Thalmund's Wares",
+      "image": "https://runescape.wiki/images/thumb/Thalmund.png/100px-Thalmund.png?7b880"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Kili by the anvils in north-eastern corner of the City of Um (opciones de chat: Accept)",
+        "es": "Habla con Kili junto a los yunques en la esquina noreste de la City of Um (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Go to the ritual site in the City of Um",
+        "es": "Ve al lugar de rituales en la City of Um"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Select the Lesser ensoul material (Kili Row) with the pedestal",
+        "es": "Selecciona el Lesser ensoul material (Kili Row) con el pedestal"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Complete the ritual (requires Change I glyph which requires two inkwells of regular ghostly ink and one inkwell of basic ghostly ink to draw)",
+        "es": "Completa el ritual (requiere el glifo Change I, que a su vez requiere dos tinteros de tinta fantasmal normal y un tintero de tinta fantasmal básica para dibujarlo)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Withdraw the output of the ritual from the ritual chest on the ritual site",
+        "es": "Retira el resultado del ritual del cofre de rituales en el lugar de rituales"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Go back to Kili to get a soul urn",
+        "es": "Vuelve con Kili para conseguir una urna de almas"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Kill five chickens using Necromancy anywhere or go back to the ritual site and perform a lesser communion ritual",
+        "es": "Mata cinco pollos usando Nigromancia en cualquier lugar, o vuelve al lugar de rituales y realiza un ritual de comunión menor"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Kili",
+        "es": "Habla con Kili"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

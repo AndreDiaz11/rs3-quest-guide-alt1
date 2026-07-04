@@ -1,0 +1,678 @@
+{
+  "id": "the-light-within",
+  "title": "The Light Within",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:35:31.388Z",
+  "icon": "https://runescape.wiki/images/The_Light_Within_icon.png",
+  "series": "Sliske's Game",
+  "age": "6",
+  "timeline": "world guardian",
+  "members": true,
+  "combatLevel": "110-119",
+  "difficulty": "Grandmaster",
+  "length": "Long",
+  "releaseDate": "24 August 2015",
+  "startPoint": {
+    "en": "Talk to Eluned in the Ithell district of Prifddinas.",
+    "es": "Habla con Eluned en el distrito Ithell de Prifddinas."
+  },
+  "requirements": {
+    "quests": [
+      "Meeting History",
+      "Making History",
+      "The Temple at Senntisten",
+      "Devious Minds",
+      "Desert Treasure",
+      "The Curse of Arrav",
+      "Kudos",
+      "Plague's End",
+      "Within the Light",
+      "Catapult Construction",
+      "Making History",
+      "The World Wakes",
+      "Fate of the Gods",
+      "Missing, Presumed Death",
+      "As a First Resort"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 80
+      },
+      {
+        "skill": "Crafting",
+        "level": 80
+      },
+      {
+        "skill": "Divination",
+        "level": 80
+      },
+      {
+        "skill": "Herblore",
+        "level": 80
+      },
+      {
+        "skill": "Prayer",
+        "level": 80
+      },
+      {
+        "skill": "Slayer",
+        "level": 80
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 80
+      },
+      {
+        "skill": "Crafting",
+        "level": 89
+      },
+      {
+        "skill": "Mining",
+        "level": 81
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Enchanted key (Meeting History)",
+      "display": "Enchanted key (can be claimed back from Jorral for 6000 coins)",
+      "image": "https://runescape.wiki/images/thumb/Enchanted_key_%28Meeting_History%29_detail.png/100px-Enchanted_key_%28Meeting_History%29_detail.png?b694b"
+    },
+    {
+      "name": "Trahaearn exoskeleton set",
+      "display": "Trahaearn exoskeleton set",
+      "image": "https://runescape.wiki/images/thumb/Trahaearn_exoskeleton_set_activation.gif/100px-Trahaearn_exoskeleton_set_activation.gif?79735"
+    },
+    {
+      "name": "Grand defence potion (6)",
+      "display": "Grand defence potion (6) (only a 6 dose potion will work)",
+      "image": null
+    },
+    {
+      "name": "Light core",
+      "display": "3 light cores",
+      "image": "https://runescape.wiki/images/thumb/Light_core_detail.png/100px-Light_core_detail.png?1162f"
+    },
+    {
+      "name": "Baxtorian Falls resource dungeon",
+      "display": "Access to the Baxtorian Falls resource dungeon: Glarial's amulet Rope Alternatively, the hoardstalker ring or Dungeoneering cape can be used to teleport there if you've accessed it before, removing the need for amulet and rope.",
+      "image": "https://runescape.wiki/images/thumb/Baxtorian_Falls_resource_dungeon.png/100px-Baxtorian_Falls_resource_dungeon.png?ab510"
+    },
+    {
+      "name": "Glarial's amulet",
+      "display": "Glarial's amulet",
+      "image": "https://runescape.wiki/images/thumb/Glarial%27s_amulet_detail.png/100px-Glarial%27s_amulet_detail.png?b30e0"
+    },
+    {
+      "name": "Rope",
+      "display": "Rope",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    },
+    {
+      "name": "Hoardstalker ring",
+      "display": "Alternatively, the hoardstalker ring or Dungeoneering cape can be used to teleport there if you've accessed it before, removing the need for amulet and rope.",
+      "image": "https://runescape.wiki/images/thumb/Hoardstalker_ring_%281%29_detail.png/100px-Hoardstalker_ring_%281%29_detail.png?f8d8e"
+    }
+  ],
+  "kills": [
+    "Multiple Crystal Shapeshifters (level 112; not needed if using the skilling option)",
+    "Multiple shadows truthful, blissful or Manifest shadows (levels 98, 112 and 126 respectively; not needed if using other methods)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 90000,
+      "display": "90,000 experience Agility lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 90000,
+      "display": "90,000 experience Crafting lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Herblore",
+      "amount": 90000,
+      "display": "90,000 experience Herblore lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Prayer",
+      "amount": 90000,
+      "display": "90,000 experience Prayer lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Slayer",
+      "amount": 90000,
+      "display": "90,000 experience Slayer lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Woodcutting",
+      "amount": 90000,
+      "display": "90,000 experience Woodcutting lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Divination",
+      "amount": 90000,
+      "display": "90,000 experience Divination lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ancient Magicks",
+      "display": "Access to Seren spells in the Ancient Magicks spellbook",
+      "image": "https://runescape.wiki/images/thumb/Ancient_teleport.gif/100px-Ancient_teleport.gif?0b4d4"
+    },
+    {
+      "type": "item",
+      "name": "Ancient Curses",
+      "display": "Access to Seren prayers in the Ancient Curses",
+      "image": "https://runescape.wiki/images/thumb/Ancient_Curses_interface.png/100px-Ancient_Curses_interface.png?30dfc"
+    },
+    {
+      "type": "item",
+      "name": "Tarddiad",
+      "display": "Access to Tarddiad, containing: Crystal Shapeshifters, Slayer creatures. Solid crystals, Mining locations. Branching crystals, Woodcutting locations. Floating crystals, Fishing locations. Crystal armour, bought from Angof's Crystal Armour Shop.",
+      "image": "https://runescape.wiki/images/thumb/Tarddiad.png/100px-Tarddiad.png?56c78"
+    },
+    {
+      "type": "item",
+      "name": "Worlds Apart",
+      "display": "Worlds Apart",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Eluned in the Ithell Clan district, next to the Singing Bowl. (opciones de chat: 1 Of course! • Accept)",
+        "es": "Habla con Eluned en el distrito del Ithell Clan, junto al Singing Bowl. (opciones de chat: 1 ¡Por supuesto! • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Climb the stairs in the Tower of Voices. (opciones de chat: 1 The Light Within. • 2 I've come to offer my help. • 3 How do we decide? • 1 Yes. • 3 What now?)",
+        "es": "Sube las escaleras en la Tower of Voices. (opciones de chat: 1 The Light Within. • 2 He venido a ofrecer mi ayuda. • 3 ¿Cómo decidimos? • 1 Sí. • 3 ¿Y ahora qué?)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Go to Guthixian ruins in the caves west of the Legends' Guild, northwest of Fairy ring .",
+        "es": "Ve a las Guthixian ruins en las cuevas al oeste del Legends' Guild, al noroeste del Fairy ring."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Walk up to Guthix as close as possible and rub the enchanted key.",
+        "es": "Acércate a Guthix lo más posible y frota la llave encantada."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Guthix. (opciones de chat: 1 I am the world guardian. • 4 I need to restore Seren.)",
+        "es": "Habla con Guthix. (opciones de chat: 1 Soy el guardián del mundo. • 4 Necesito restaurar a Seren.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Go west and talk to Haluned. (opciones de chat: 1 Yes, we have. • 1 What are you doing here? • 2 Are you related to Eluned? • 3 [Continue...])",
+        "es": "Ve al oeste y habla con Haluned. (opciones de chat: 1 Sí, lo hemos hecho. • 1 ¿Qué estás haciendo aquí? • 2 ¿Estás emparentada con Eluned? • 3 [Continuar...])"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Guthix. (opciones de chat: 2 [Continue...] • Any)",
+        "es": "Habla con Guthix. (opciones de chat: 2 [Continuar...] • Cualquiera)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Return to the conclave in the Tower of Voices.",
+        "es": "Vuelve al cónclave en la Tower of Voices."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to everyone, talking to Eluned is optional.",
+        "es": "Habla con todos; hablar con Eluned es opcional."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Read Baxtorian's journal, given to you by Arianwyn.",
+        "es": "Lee el diario de Baxtorian, que te dio Arianwyn."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Equip the Trahaearn exoskeleton set.",
+        "es": "Equípate el conjunto de exoesqueleto Trahaearn."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the well in Lletya. (opciones de chat: 1 Yes.)",
+        "es": "Investiga el pozo en Lletya. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to pass the Trahaearn automaton mk V. (opciones de chat: 4 Rune • 3 Cynog • 2 Five • 3 The future is doomed)",
+        "es": "Intenta pasar al Trahaearn automaton mk V. (opciones de chat: 4 Rune • 3 Cynog • 2 Cinco • 3 El futuro está condenado)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Take the Seren shard (prudence).",
+        "es": "Toma el Seren shard (prudence)."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Coeden, the living tree surrounded by ivy in the Crwys Clan district. (opciones de chat: 1 The Light Within.)",
+        "es": "Habla con Coeden, el árbol viviente rodeado de hiedra en el distrito Crwys Clan. (opciones de chat: 1 The Light Within.)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Click on the elven clan symbols which appear throughout the dialogue.",
+        "es": "Haz clic en los símbolos de los clanes elfos que aparecen a lo largo del diálogo."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 1,
+      "text": {
+        "en": "You will receive a wintercup mushroom.",
+        "es": "Recibirás un wintercup mushroom."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Pick a bloodcap mushroom just west of the Tirannwn mushroom farming patch. It can be reached by teleporting to the Tirannwn lodestone and going west through the dense forest. Players with a Tirannwn quiver 3 or 4 can use it to teleport directly to the mushroom patch.",
+        "es": "Recoge un bloodcap mushroom justo al oeste de la parcela de cultivo de hongos de Tirannwn. Se puede llegar teletransportándote a la lodestone de Tirannwn y yendo al oeste a través del bosque denso. Los jugadores con un Tirannwn quiver 3 o 4 pueden usarlo para teletransportarse directamente a la parcela de hongos."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Combine the mushrooms with a grand defence potion to create an Elixir of Revealment.",
+        "es": "Combina los hongos con una grand defence potion para crear un Elixir of Revealment."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the currently active crystal tree (excluding the one in Prifddinas) and use the elixir on any of the tree's shards. Players with the Nature's sentinel outfit can teleport there directly.",
+        "es": "Viaja hasta el crystal tree actualmente activo (excluyendo el de Prifddinas) y usa el elixir en cualquiera de los fragmentos del árbol. Los jugadores con el conjunto Nature's sentinel pueden teletransportarse allí directamente."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Enter the cave entrance that appears and take the Seren shard (harmony).",
+        "es": "Entra en la entrada de cueva que aparece y toma el Seren shard (harmony)."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Waterfall Dungeon by boarding the log raft at the top of Baxtorian Falls, using a rope on the rock and then the dead tree, and entering the door.",
+        "es": "Ve al Waterfall Dungeon subiendo a la balsa de troncos en la parte superior de Baxtorian Falls, usando una cuerda en la roca y luego en el árbol muerto, y entrando por la puerta."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "Alternatively, it can be reached by teleporting to the Baxtorian Falls resource dungeon.",
+        "es": "Alternativamente, se puede llegar teletransportándote a la resource dungeon de Baxtorian Falls."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Enter the eastern room.",
+        "es": "Entra en la sala este."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Search the odd coloured crate to find a key.",
+        "es": "Registra el cajón de color extraño para encontrar una llave."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Ensure you have read Baxtorian's journal, then proceed to western room and enter through the two doors to the north.",
+        "es": "Asegúrate de haber leído el diario de Baxtorian, luego dirígete a la sala oeste y entra por las dos puertas al norte."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Investigate Statue of King Baxtorian. (opciones de chat: 2 [Polite]My name is Player. • 4 We need to restore Seren.)",
+        "es": "Investiga la Statue of King Baxtorian. (opciones de chat: 2 [Educado] Mi nombre es Player. • 4 Necesitamos restaurar a Seren.)"
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Take the Seren shard (integrity).",
+        "es": "Toma el Seren shard (integrity)."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Corrupted Seren Stone in the Hefin Cathedral, located in the northern-most part of Prifddinas, a chatbox will appear at the top of the steps. (opciones de chat: 1 Yes. • 2 I'm ready to start!)",
+        "es": "Ve a la Corrupted Seren Stone en la Hefin Cathedral, ubicada en la parte más al norte de Prifddinas; aparecerá un cuadro de diálogo en la parte superior de las escaleras. (opciones de chat: 1 Sí. • 2 ¡Estoy listo para empezar!)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Lady Hefin will lead you through the 3 sets of poses and incantations, starting with 3 poses and 3 words, then 4, then 5 poses and words. After she speaks each incantation, you must speak the words in the same order she did.",
+        "es": "Lady Hefin te guiará a través de los 3 conjuntos de posturas y encantamientos, comenzando con 3 posturas y 3 palabras, luego 4, y luego 5 posturas y palabras. Después de que ella pronuncie cada encantamiento, debes decir las palabras en el mismo orden en que ella lo hizo."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "Consider writing down the first letter of every word of the incantations.",
+        "es": "Considera anotar la primera letra de cada palabra de los encantamientos."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Tower of Voices and climb up the stairs. (opciones de chat: 1 The Light Within)",
+        "es": "Vuelve a la Tower of Voices y sube las escaleras. (opciones de chat: 1 The Light Within)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "There will be a short cutscene.",
+        "es": "Habrá una breve escena cinemática."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "Go up the stairs again to return to the conclave. (opciones de chat: 1 The Light Within)",
+        "es": "Sube las escaleras de nuevo para volver al cónclave. (opciones de chat: 1 The Light Within)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Give the Seren shards to the respective Elders:",
+        "es": "Entrega los Seren shards a los Elders correspondientes:"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "Lady Meilyr or Lord Crwys - Harmony",
+        "es": "Lady Meilyr o Lord Crwys - Harmony"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "Lady Hefin or Lord Amlodd - Wisdom",
+        "es": "Lady Hefin o Lord Amlodd - Wisdom"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Lord Iorwerth or Arianwyn - Integrity",
+        "es": "Lord Iorwerth o Arianwyn - Integrity"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Lady Ithell or Lady Trahaearn - Prudence",
+        "es": "Lady Ithell o Lady Trahaearn - Prudence"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Morvran in the Iorwerth Clan district. (opciones de chat: 1 Ask for access to the Grand Library.)",
+        "es": "Habla con Morvran en el distrito Iorwerth Clan. (opciones de chat: 1 Pedir acceso a la Grand Library.)"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Enter the western door in the Grand Library.",
+        "es": "Entra por la puerta oeste de la Grand Library."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Take Seren shard (dark) in the south-western corner on the edge of the platform. (opciones de chat: Any)",
+        "es": "Toma el Seren shard (dark) en la esquina suroeste, en el borde de la plataforma. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Return to the conclave in the Tower of Voices. (opciones de chat: 1 The Light Within)",
+        "es": "Vuelve al cónclave en la Tower of Voices. (opciones de chat: 1 The Light Within)"
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Go to the World Gate.",
+        "es": "Ve al World Gate."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Rotate the controls until you reach 12px|link=.",
+        "es": "Gira los controles hasta llegar a 12px|link=."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "There is currently a bug where the symbol is not synchronised with its actual rotation direction. The first sentence of the description on the \"Travel to Tarddiad\" prompt when you attempt to enter the World Gate is \"Through the gate you see a world covered almost entirely by trees.\"",
+        "es": "Actualmente hay un error por el cual el símbolo no está sincronizado con su dirección real de rotación. La primera frase de la descripción en el mensaje \"Travel to Tarddiad\" al intentar entrar en el World Gate es \"A través de la puerta ves un mundo casi enteramente cubierto de árboles.\""
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Enter the World Gate.",
+        "es": "Entra en el World Gate."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Obtain 50 Tarddian crystals by killing crystal Shapeshifters, or by mining solid crystals, chopping branching crystals, or fishing floating crystals to collect 150 crystal fragments and exchanging them with Angof to the north at a ratio of 3 fragments to 1 crystal.",
+        "es": "Consigue 50 Tarddian crystals matando crystal Shapeshifters, o minando solid crystals, talando branching crystals, o pescando floating crystals para recolectar 150 crystal fragments e intercambiándolos con Angof, al norte, a razón de 3 fragmentos por 1 cristal."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "text": {
+        "en": "Angof has a toggle option to increase the amount of shapeshifters in the area, and make them aggressive towards you.",
+        "es": "Angof tiene una opción para alternar y aumentar la cantidad de shapeshifters en la zona, y hacer que se vuelvan agresivos hacia ti."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Angof to get the last piece of the Song of Restoration. (opciones de chat: 1 Hello, pleased to meet you. • 5 [Leave])",
+        "es": "Habla con Angof para obtener la última pieza del Song of Restoration. (opciones de chat: 1 Hola, encantado de conocerte. • 5 [Salir])"
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Tower of Voices by talking to Eluned. (opciones de chat: 1 Let's return.)",
+        "es": "Vuelve a la Tower of Voices hablando con Eluned. (opciones de chat: 1 Volvamos.)"
+      }
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "text": {
+        "en": "If Eluned is beside Angof, you can return with her.",
+        "es": "Si Eluned está junto a Angof, puedes volver con ella."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Climb up the stairs. (opciones de chat: 1 The Light Within)",
+        "es": "Sube las escaleras. (opciones de chat: 1 The Light Within)"
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Watch the cutscene and go through the dialogue. Skipping won't work. At the end of the cutscene you will arrive on Freneskae with Seren in your arms. (If the options don't pop up leave and return to the room) (opciones de chat: Any • Any • Any • 1 I'll go now. • 1 I'm ready.)",
+        "es": "Observa la escena cinemática y sigue el diálogo. Saltarla no funcionará. Al final de la escena llegarás a Freneskae con Seren en tus brazos. (Si las opciones no aparecen, sal y vuelve a entrar en la sala) (opciones de chat: Cualquiera • Cualquiera • Cualquiera • 1 Ya voy. • 1 Estoy listo.)"
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Avoid Muspah attacks by walking around.",
+        "es": "Evita los ataques del Muspah moviéndote de un lado a otro."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zaros.",
+        "es": "Habla con Zaros."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Seren. (opciones de chat: Any • 1 Yes)",
+        "es": "Habla con Seren. (opciones de chat: Cualquiera • 1 Sí)"
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Return to the conclave in the Tower of Voices.",
+        "es": "Vuelve al cónclave en la Tower of Voices."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "troll-stronghold",
+  "title": "Troll Stronghold",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:25:49.681Z",
+  "icon": "https://runescape.wiki/images/Troll_Stronghold_icon.png",
+  "series": "Troll",
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "90-99",
+  "difficulty": "Experienced",
+  "length": "Short to Medium",
+  "releaseDate": "24 August 2004",
+  "startPoint": {
+    "en": "Talk to Commander Denulth at the Burthorpe training camp.",
+    "es": "Habla con Commander Denulth en el campamento de entrenamiento de Burthorpe."
+  },
+  "requirements": {
+    "quests": [
+      "Death Plateau"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 15
+      },
+      {
+        "skill": "Thieving",
+        "level": 30
+      },
+      {
+        "skill": "Agility",
+        "level": 47
+      },
+      {
+        "skill": "Prayer",
+        "level": 40
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Climbing boots",
+      "display": "Climbing boots, rock climbing boots or 12 coins to buy the climbing boots.",
+      "image": "https://runescape.wiki/images/thumb/Climbing_boots_detail.png/100px-Climbing_boots_detail.png?91a45"
+    },
+    {
+      "name": "4 backpack spaces (climbing boots, and 3 keys)",
+      "display": "4 backpack spaces (climbing boots, and 3 keys)",
+      "image": null
+    }
+  ],
+  "kills": [
+    "Twig and/or Berry (Level 70) (only if you fail to pickpocket them)",
+    "Dad (Level 77)",
+    "Troll General (Level 91)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Mysterious lamp",
+      "amount": null,
+      "display": "Two mysterious lamps that give 10,000 experience in any skill level 30 or above.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Trollheim",
+      "display": "Access to Trollheim and the Troll Stronghold",
+      "image": "https://runescape.wiki/images/thumb/Trollheim.png/100px-Trollheim.png?15aac"
+    },
+    {
+      "type": "item",
+      "name": "God Wars Dungeon",
+      "display": "Access to God Wars Dungeon with the requirement of 60 Agility or 60 Strength.",
+      "image": "https://runescape.wiki/images/thumb/God_Wars_Dungeon_temple.png/100px-God_Wars_Dungeon_temple.png?58b3a"
+    },
+    {
+      "type": "item",
+      "name": "Contest",
+      "display": "Contest",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Expedition",
+      "display": "Expedition",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Sojourn",
+      "display": "Sojourn",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Commander Denulth in Burthorpe, east of the castle. (opciones de chat: 1 How goes your fight with the trolls? • 2 Is there anything I can do to help? • Accept)",
+        "es": "Habla con Commander Denulth en Burthorpe, al este del castillo. (opciones de chat: 1 ¿Cómo va tu lucha contra los trolls? • 2 ¿Hay algo en lo que pueda ayudar? • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 1,
+      "text": {
+        "en": "If Denulth tells you that the ambush is still being planned, try asking him about the White Knights first. (opciones de chat: 3 I thought the White Knights controlled Asgarnia.)",
+        "es": "Si Denulth te dice que la emboscada todavía se está planeando, intenta preguntarle primero sobre los White Knights. (opciones de chat: 3 Pensaba que los White Knights controlaban Asgarnia.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "If you don't own climbing boots, buy them from Freda (opciones de chat: 3 Can I buy some Climbing boots? • 1 Buy standard boots for 12gp.)",
+        "es": "Si no tienes climbing boots, cómpraselas a Freda (opciones de chat: 3 ¿Puedo comprar unas Climbing boots? • 1 Comprar botas estándar por 12gp.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Enter Sabbot's cave from Death Plateau and cross all the obstacles to reach the exit of the tunnel (recommended for low Defence and Constitution levels).",
+        "es": "Entra en la cueva de Sabbot desde Death Plateau y supera todos los obstáculos hasta llegar a la salida del túnel (recomendado para niveles bajos de Defensa y Constitución)."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 1,
+      "text": {
+        "en": "Alternatively, take the shortcut by running through the Death Plateau on the surface, clockwise around it, and climbing the rocks to the northwest, then climb the cliffside while wearing climbing boots. Beware of level 67 thrower trolls - Protect from Ranged, Dive, and Fremennik round shield are advised when taking this route.",
+        "es": "Alternativamente, toma el atajo corriendo por la superficie de Death Plateau, en sentido horario alrededor de la zona, y sube por las rocas hacia el noroeste, luego escala la ladera del acantilado llevando puestas las climbing boots. Ten cuidado con los thrower trolls de nivel 67; se recomienda usar Protect from Ranged, Dive y un Fremennik round shield si tomas esta ruta."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Exit the cavern, climb the rocks to the immediate west of the exit and follow the path east over the rocks until you reach the arena entrance.",
+        "es": "Sal de la caverna, sube por las rocas justo al oeste de la salida y sigue el camino hacia el este sobre las rocas hasta llegar a la entrada de la arena."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Open the arena entrance and attempt to leave through the northern entrance.",
+        "es": "Abre la entrada de la arena e intenta salir por la entrada norte."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Defeat Dad after he attempts to attack you. You may choose to kill him or spare him after defeating him.",
+        "es": "Derrota a Dad después de que intente atacarte. Puedes elegir matarlo o perdonarle la vida tras vencerlo."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 1,
+      "text": {
+        "en": "An easy way to kill Dad safely is to bring him over to the northern entrance or down by the southern rocks and safespot him.",
+        "es": "Una forma fácil de matar a Dad con seguridad es llevarlo hasta la entrada norte o hacia las rocas del sur y usarlo como zona segura (safespot)."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "text": {
+        "en": "Very low level players may need food.",
+        "es": "Los jugadores de nivel muy bajo pueden necesitar comida."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Exit through the north arena entrance.",
+        "es": "Sal por la entrada norte de la arena."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Follow the path north-west, go through the cave to the north and go outside.",
+        "es": "Sigue el camino hacia el noroeste, atraviesa la cueva hacia el norte y sal al exterior."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Once outside, continue the path to the stronghold to the north and west; thrower trolls can be dealt with by:",
+        "es": "Una vez fuera, continúa el camino hacia la fortaleza situada al norte y al oeste; puedes lidiar con los thrower trolls de las siguientes formas:"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "Taking agility shortcuts around them with level 47 Agility. The cliffside shortcut may be used to avoid the thrower trolls completely.",
+        "es": "Usando atajos de Agilidad para rodearlos con nivel 47 de Agilidad. El atajo de la ladera del acantilado puede usarse para evitar completamente a los thrower trolls."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 1,
+      "text": {
+        "en": "Running counter-clockwise around the mountain, past the thrower trolls (not behind them: they are supposed to throw rocks at you automatically) to the west.",
+        "es": "Corriendo en sentido antihorario alrededor de la montaña, pasando junto a los thrower trolls (no por detrás de ellos: se supone que te lanzarán rocas automáticamente) hacia el oeste."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 2,
+      "text": {
+        "en": "Protect from Ranged against them.",
+        "es": "Usa Protect from Ranged contra ellos."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 2,
+      "text": {
+        "en": "Use Dive to quickly run past them.",
+        "es": "Usa Dive para pasar rápidamente junto a ellos."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 2,
+      "text": {
+        "en": "Equip Fremennik round shield to reduce their damage greatly.",
+        "es": "Equípate un Fremennik round shield para reducir enormemente su daño."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Look for a dungeon on your minimap northeast of the Troll Stronghold, and enter the cave entrance.",
+        "es": "Busca una mazmorra en tu minimapa al noreste del Troll Stronghold y entra por la entrada de la cueva."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Run south, go through the open wooden door, then continue north.",
+        "es": "Corre hacia el sur, atraviesa la puerta de madera abierta y luego continúa hacia el norte."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Kill a troll general and take the prison key. You can safespot with magic, ranged, or necromancy behind the counter.",
+        "es": "Mata a un troll general y coge la prison key. Puedes usar magia, distancia o nigromancia para atacarlo desde una zona segura detrás del mostrador."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Head back towards the entrance, past the door and go down the stone staircase to the north.",
+        "es": "Regresa hacia la entrada, pasa la puerta y baja por la escalera de piedra hacia el norte."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Open the exit to the south and enter the secret entrance.",
+        "es": "Abre la salida hacia el sur y entra por la entrada secreta."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Unlock the Prison Door to the immediate east and head down the stone staircase.",
+        "es": "Abre la Prison Door que tienes justo al este y baja por la escalera de piedra."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Pickpocket (or kill) Twig and Berry. Safespot them inside one of the open cells if needed.",
+        "es": "Roba (o mata) a Twig y Berry. Si es necesario, colócalos en zona segura dentro de una de las celdas abiertas."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Take the cell keys and unlock the two jail cells to free the prisoners.",
+        "es": "Coge las cell keys y abre las dos celdas de la prisión para liberar a los prisioneros."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Dunstan, the blacksmith in north-eastern Burthorpe.",
+        "es": "Habla con Dunstan, el herrero del noreste de Burthorpe."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "what-s-mine-is-yours",
+  "title": "What's Mine is Yours",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:30:39.435Z",
+  "icon": "https://runescape.wiki/images/What%27s_Mine_is_Yours_icon.png",
+  "series": null,
+  "age": "5",
+  "timeline": "adventurer",
+  "members": false,
+  "combatLevel": "2-3",
+  "difficulty": "Novice",
+  "length": "Medium",
+  "releaseDate": "17 October 2012",
+  "startPoint": {
+    "en": "Speak to Doric who is inside his hut just outside the gates of Taverley and north-west of the Falador lodestone.",
+    "es": "Habla con Doric, que está dentro de su cabaña justo a las afueras de las puertas de Taverley, al noroeste de la piedra de viaje de Falador."
+  },
+  "requirements": {
+    "quests": [
+      "What's Mine is Yours"
+    ],
+    "skills": [
+      {
+        "skill": "Smithing",
+        "level": 5
+      }
+    ]
+  },
+  "items": [],
+  "kills": [
+    "4 Living rock brawler (level 1)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point (only if you did not complete Doric's Quest before its removal)",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Mining",
+      "amount": 1000,
+      "display": "1,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 400,
+      "display": "400 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Coins",
+      "display": "180 coins",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "type": "item",
+      "name": "Gofannon amulet",
+      "display": "Gofannon amulet",
+      "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Doric in his hut, north of the Falador lodestone, until you get an ore bag and mining sites map. (You'll need 2 backpack space) (opciones de chat: 1 Don't worry, I'll help you. • Accept)",
+        "es": "Habla con Doric en su cabaña, al norte de la piedra de viaje de Falador, hasta que consigas una bolsa de mineral y un mapa de yacimientos mineros. (Necesitarás 2 espacios en la mochila) (opciones de chat: 1 No te preocupes, te ayudaré. • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Mine any rock in each of the following locations until a living rock brawler appears, kill it, and take the ore it drops:",
+        "es": "Extrae cualquier roca en cada una de las siguientes ubicaciones hasta que aparezca un peleón de roca viva; mátalo y recoge el mineral que suelta:"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "Dwarven mines, to the east up the hill",
+        "es": "Las minas enanas, al este, subiendo la colina"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "Rimmington mine, west of Port Sarim",
+        "es": "La mina de Rimmington, al oeste de Port Sarim"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 2,
+      "text": {
+        "en": "Watch the cutscene.",
+        "es": "Observa la escena cinemática."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "Varrock south-west mine",
+        "es": "La mina al suroeste de Varrock"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "Varrock south-east mine",
+        "es": "La mina al sureste de Varrock"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Doric.",
+        "es": "Habla con Doric."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Withdraw the ores from the Ore bag and make two High-quality bronze bars using the furnace. (opciones de chat: 1 Yes)",
+        "es": "Saca los minerales de la Ore bag y fabrica dos barras de bronce de alta calidad usando el horno. (opciones de chat: 1 Sí)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Using Doric's Anvil, smith a High-quality bronze sword and a High-quality bronze dagger.",
+        "es": "Usando el yunque de Doric, forja una espada de bronce de alta calidad y una daga de bronce de alta calidad."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Doric. (opciones de chat: 3 I'll leave right away.)",
+        "es": "Habla con Doric. (opciones de chat: 3 Me iré enseguida.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Artisans' Workshop in the south-east of Falador.",
+        "es": "Ve al Artisans' Workshop, al sureste de Falador."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Aksel. (opciones de chat: 1 Doric sent me here with these weapons.)",
+        "es": "Habla con Aksel. (opciones de chat: 1 Doric me envió aquí con estas armas.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Head to the White Knights' Castle and talk to Squire Cerlyn in the west tower on the .",
+        "es": "Dirígete al White Knights' Castle y habla con Squire Cerlyn en la torre oeste."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, help Doric and Boric reconcile. Use the following responses:",
+        "es": "Tras la escena cinemática, ayuda a Doric y Boric a reconciliarse. Usa las siguientes respuestas:"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 1,
+      "text": {
+        "en": "Boric, tell Doric about your graduation.",
+        "es": "Boric, cuéntale a Doric sobre tu graduación."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 1,
+      "text": {
+        "en": "Boric, tell Doric what you thought when Doric sent you away.",
+        "es": "Boric, cuéntale a Doric lo que pensaste cuando Doric te envió lejos."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "Boric, tell Doric what you thought of your education.",
+        "es": "Boric, cuéntale a Doric lo que pensaste de tu educación."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "Boric, tell Doric why you wanted to stay here.",
+        "es": "Boric, cuéntale a Doric por qué querías quedarte aquí."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "Boric, tell Doric what you thought of Keldagrim",
+        "es": "Boric, cuéntale a Doric lo que pensaste de Keldagrim"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 1,
+      "text": {
+        "en": "Doric, tell Boric what you thought when Boric was born.",
+        "es": "Doric, cuéntale a Boric lo que pensaste cuando Boric nació."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 1,
+      "text": {
+        "en": "Doric, tell Boric why you sent him to Keldagrim.",
+        "es": "Doric, cuéntale a Boric por qué lo enviaste a Keldagrim."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "Doric, tell Boric how you felt bringing Boric up alone.",
+        "es": "Doric, cuéntale a Boric cómo te sentiste criando a Boric solo."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "Doric, tell Boric what you want Boric's future to be.",
+        "es": "Doric, cuéntale a Boric qué quieres que sea el futuro de Boric."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "Doric, tell Boric what you hoped sending him away would teach him.",
+        "es": "Doric, cuéntale a Boric qué esperabas que aprendiera al enviarlo lejos."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Doric and agree to take the bars. (opciones de chat: 1 I'd love to. • 1 Yes)",
+        "es": "Habla con Doric y acepta llevarte las barras. (opciones de chat: 1 Me encantaría. • 1 Sí)"
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Smith the items that were asked for on Doric's anvil.",
+        "es": "Forja los objetos que te pidieron en el yunque de Doric."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 1,
+      "text": {
+        "en": "Ornamental platebody",
+        "es": "Ornamental platebody"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 1,
+      "text": {
+        "en": "Ornamental chainbody",
+        "es": "Ornamental chainbody"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "Shop sign",
+        "es": "Shop sign"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Head down the stairs into Doric's cave (if the \"climb down\" option on the northern doorway does not appear, try switching textures off temporarily, this is a known bug).",
+        "es": "Baja las escaleras hacia la cueva de Doric (si no aparece la opción \"bajar\" en la puerta norte, prueba a desactivar las texturas temporalmente; es un fallo conocido)."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Mine the rocks blocking the way.",
+        "es": "Extrae las rocas que bloquean el camino."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Head back upstairs and talk to Doric to give him the items and trigger a cutscene. (opciones de chat: 1 Yes, I have them here.)",
+        "es": "Vuelve arriba y habla con Doric para entregarle los objetos y activar una escena cinemática. (opciones de chat: 1 Sí, los tengo aquí.)"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "doric-s-task-i-miniquest",
+  "title": "Doric's Task I (miniquest)",
+  "isMiniquest": true,
+  "guideLastUpdated": "2026-07-03T20:10:14.851Z",
+  "icon": "https://runescape.wiki/images/Doric%27s_Task_I_%28miniquest%29_icon.png",
+  "series": "Doric's Tasks",
+  "age": "5",
+  "timeline": "adventurer",
+  "members": false,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Very Short",
+  "releaseDate": "17 October 2012",
+  "startPoint": {
+    "en": "Speak to Doric in his hut just outside the gates of Taverley north of Falador.",
+    "es": "Habla con Doric en su cabaña, justo a las afueras de las puertas de Taverley, al norte de Falador."
+  },
+  "requirements": {
+    "quests": [
+      "What's Mine is Yours"
+    ],
+    "skills": [
+      {
+        "skill": "Smithing",
+        "level": 10
+      },
+      {
+        "skill": "Mining",
+        "level": 10
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Iron bar",
+      "display": "4 iron bars or an iron full helm and 2 iron bars",
+      "image": "https://runescape.wiki/images/thumb/Iron_bar_detail.png/100px-Iron_bar_detail.png?2c5a5"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 250,
+      "display": "250 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Gofannon amulet",
+      "display": "750 charges on the Gofannon amulet",
+      "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Doric in his hut north of Falador. (opciones de chat: 1 Do you have any more Smithing tasks for me? • Accept)",
+        "es": "Habla con Doric en su cabaña al norte de Falador. (opciones de chat: 1 ¿Tienes más tareas de Herrería para mí? • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Smith an iron full helm +1",
+        "es": "Forja un yelmo completo de hierro +1"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "It can not be purchased off the Grand Exchange or smithed on any other anvil but Doric's, however players can buy an unimproved iron full helm from the Grand Exchange and upgrade themselves to +1.",
+        "es": "No se puede comprar en el Grand Exchange ni forjar en ningún yunque que no sea el de Doric, sin embargo los jugadores pueden comprar un yelmo completo de hierro sin mejorar en el Grand Exchange y mejorarlo ellos mismos a +1."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Deliver it to Aksel at Artisans' Workshop. (opciones de chat: 1 Doric sent me here with another delivery.)",
+        "es": "Entrégaselo a Aksel en Artisans' Workshop. (opciones de chat: 1 Doric me ha enviado aquí con otra entrega.)"
+      }
+    }
+  ]
+}

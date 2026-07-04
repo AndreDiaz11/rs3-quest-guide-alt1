@@ -1,0 +1,337 @@
+{
+  "id": "olaf-s-quest",
+  "title": "Olaf's Quest",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:45:33.042Z",
+  "icon": "https://runescape.wiki/images/Olaf%27s_Quest_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "40-49",
+  "difficulty": "Intermediate",
+  "length": "Short to Medium",
+  "releaseDate": "10 April 2007",
+  "startPoint": {
+    "en": "Talk to Olaf Hradson in his 'camp' north-east of Rellekka, south of the Rellekka Hunter area.",
+    "es": "Habla con Olaf Hradson en su \"campamento\" al noreste de Rellekka, al sur de la zona de Caza de Rellekka."
+  },
+  "requirements": {
+    "quests": [
+      "The Fremennik Trials"
+    ],
+    "skills": [
+      {
+        "skill": "Firemaking",
+        "level": 40
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 50
+      },
+      {
+        "skill": "Prayer",
+        "level": 43
+      }
+    ]
+  },
+  "items": [],
+  "kills": [
+    "Ulfric (Level 49)",
+    "Skeleton fremennik (Level 23, 28, or 30)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Defence",
+      "amount": 12000,
+      "display": "12,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Coins",
+      "display": "20,000 coins",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "type": "item",
+      "name": "Ruby",
+      "display": "4 cut rubies",
+      "image": "https://runescape.wiki/images/thumb/Ruby_detail.png/100px-Ruby_detail.png?70a48"
+    },
+    {
+      "type": "item",
+      "name": "Brine Rat Cavern",
+      "display": "Access to the Brine Rat Cavern where you can kill brine rats (requires level 47 Slayer)",
+      "image": "https://runescape.wiki/images/thumb/Brine_Rat_Cavern.png/100px-Brine_Rat_Cavern.png?5cf88"
+    },
+    {
+      "type": "item",
+      "name": "Parchment (Olaf's Quest)",
+      "display": "A piece of parchment telling you of other shipwrecks with more treasure. Content following up on this teaser has yet to be released.",
+      "image": "https://runescape.wiki/images/thumb/Parchment_%28Olaf%27s_Quest%29_detail.png/100px-Parchment_%28Olaf%27s_Quest%29_detail.png?0d9b5"
+    },
+    {
+      "type": "item",
+      "name": "Shark",
+      "display": "A shark and bread",
+      "image": "https://runescape.wiki/images/thumb/Shark_detail.png/100px-Shark_detail.png?db892"
+    },
+    {
+      "type": "item",
+      "name": "Rising Damp",
+      "display": "Rising Damp",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Olaf Hradson north-east of Rellekka. (opciones de chat: Accept)",
+        "es": "Habla con Olaf Hradson al noreste de Rellekka. (opciones de chat: Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Go east up the icy mountain and chop the windswept tree.",
+        "es": "Ve al este, sube la montaña helada y corta el árbol azotado por el viento."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Return and talk to Olaf.",
+        "es": "Vuelve y habla con Olaf."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Go to Rellekka and talk to Ingrid Hradson next to the well in the south-east.",
+        "es": "Ve a Rellekka y habla con Ingrid Hradson junto al pozo, en el sureste."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Head north and talk to Volf Olafson who is wandering outside the helmet shop.",
+        "es": "Dirígete al norte y habla con Volf Olafson, que está paseando fuera de la tienda de cascos."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Return and talk to Olaf.",
+        "es": "Vuelve y habla con Olaf."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Use the damp planks on the embers on the ground next to him.",
+        "es": "Usa las tablas húmedas sobre las brasas que hay en el suelo junto a él."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Olaf. (opciones de chat: 1 Alright, here, have some food. Now give me the map.)",
+        "es": "Habla con Olaf. (opciones de chat: 1 Alright, here, have some food. Now give me the map.)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Read the map.",
+        "es": "Lee el mapa."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Go back up the icy mountain and dig west of the windswept tree (left-click a pile of snow).",
+        "es": "Vuelve a subir la montaña helada y cava al oeste del árbol azotado por el viento (haz clic izquierdo en un montón de nieve)."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Once inside the caverns, follow the path east and then north, continuing along the northern path until you reach a \"picture wall\" door.",
+        "es": "Una vez dentro de las cavernas, sigue el camino hacia el este y luego hacia el norte, continuando por el sendero norte hasta llegar a una puerta con un \"muro de dibujos\"."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Kill a nearby skeleton and pick up the key that it drops from the ground.",
+        "es": "Mata al esqueleto cercano y recoge la llave que suelta en el suelo."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Search the door and solve the puzzle:",
+        "es": "Examina la puerta y resuelve el puzle:"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "Down",
+        "es": "Abajo"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 1,
+      "text": {
+        "en": "Right",
+        "es": "Derecha"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 1,
+      "text": {
+        "en": "Left",
+        "es": "Izquierda"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 1,
+      "text": {
+        "en": "Up",
+        "es": "Arriba"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "Bottom",
+        "es": "Abajo del todo"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Search the door again to pass through.",
+        "es": "Vuelve a examinar la puerta para atravesarla."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "In the next area, pick up two rotten barrels and six ropes.",
+        "es": "En la siguiente zona, recoge dos barriles podridos y seis cuerdas."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Head towards the north-east walkway made of planks and use rotten barrels on the gaps in the walkway.",
+        "es": "Dirígete hacia la pasarela de tablones del noreste y usa los barriles podridos en los huecos de la pasarela."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 1,
+      "text": {
+        "en": "Make sure you walk over all obstacles here, running will give you a 100% failure rate.",
+        "es": "Asegúrate de caminar sobre todos los obstáculos aquí; si corres, tendrás un 100% de probabilidad de fallar."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "Toggle by clicking the Energy button.",
+        "es": "Cambia haciendo clic en el botón de Energía."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Open the gate by clicking the keyhole that matches the key (e.g. if the bottom of the key is triangle, then it goes into the triangle key slot).",
+        "es": "Abre la verja haciendo clic en el ojo de la cerradura que coincida con la llave (por ejemplo, si la parte inferior de la llave es un triángulo, entonces va en la ranura de llave triangular)."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "If you were running, which causes you to slip and fall after this step re obtain the key before trying again.",
+        "es": "Si estabas corriendo, lo que hace que resbales y caigas después de este paso, recupera la llave antes de volver a intentarlo."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to open the chest inside the wrecked ship.",
+        "es": "Intenta abrir el cofre dentro del barco naufragado."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Kill Ulfric.",
+        "es": "Mata a Ulfric."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 1,
+      "text": {
+        "en": "If he spawns again, re-open the chest before killing him a second time.",
+        "es": "Si vuelve a aparecer, abre de nuevo el cofre antes de matarlo por segunda vez."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to open the chest again and you'll receive a parchment.",
+        "es": "Intenta abrir el cofre de nuevo y recibirás un pergamino."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

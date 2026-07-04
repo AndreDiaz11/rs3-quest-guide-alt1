@@ -1,0 +1,630 @@
+{
+  "id": "the-tale-of-the-muspah",
+  "title": "The Tale of the Muspah",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:19:52.482Z",
+  "icon": "https://runescape.wiki/images/The_Tale_of_the_Muspah_icon.png",
+  "series": "Mahjarrat Mysteries",
+  "age": "5",
+  "timeline": "adventurer",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Medium",
+  "releaseDate": "21 April 2009",
+  "startPoint": {
+    "en": "Talk to Erjolf at the cave entrance half way up the mountain north-east of Rellekka.",
+    "es": "Habla con Erjolf en la entrada de la cueva a medio camino de la montaña al noreste de Rellekka."
+  },
+  "requirements": {
+    "quests": [
+      "The Tale of the Muspah"
+    ],
+    "skills": [
+      {
+        "skill": "Firemaking",
+        "level": 6
+      },
+      {
+        "skill": "Magic",
+        "level": 10
+      },
+      {
+        "skill": "Mining",
+        "level": 8
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 10
+      },
+      {
+        "skill": "Crafting",
+        "level": 20
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Sapphire",
+      "display": "4 cut sapphires (can be mined and cut during the quest if you have the recommended crafting level)",
+      "image": "https://runescape.wiki/images/thumb/Sapphire_detail.png/100px-Sapphire_detail.png?d62b2"
+    },
+    {
+      "name": "Lvl-1 Enchant",
+      "display": "Equipment to cast Lvl-1 Enchant 8 times (one of the following): 8 cosmic runes and 8 water runes 8 cosmic runes and a staff that provides water runes, such as a staff of water 8 Lvl-1 enchant tablets",
+      "image": "https://runescape.wiki/images/thumb/Enchant.gif/100px-Enchant.gif?a4251"
+    },
+    {
+      "name": "Cosmic rune",
+      "display": "8 cosmic runes and 8 water runes",
+      "image": "https://runescape.wiki/images/thumb/Cosmic_rune_detail.png/100px-Cosmic_rune_detail.png?fa918"
+    },
+    {
+      "name": "Cosmic rune",
+      "display": "8 cosmic runes and a staff that provides water runes, such as a staff of water",
+      "image": "https://runescape.wiki/images/thumb/Cosmic_rune_detail.png/100px-Cosmic_rune_detail.png?fa918"
+    },
+    {
+      "name": "Lvl-1 enchant (item)",
+      "display": "8 Lvl-1 enchant tablets",
+      "image": "https://runescape.wiki/images/thumb/Lvl-1_enchant_%28item%29_detail.png/100px-Lvl-1_enchant_%28item%29_detail.png?4109b"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Firemaking",
+      "amount": 500,
+      "display": "500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 1000,
+      "display": "1,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Mining",
+      "amount": 800,
+      "display": "800 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Woodcutting",
+      "amount": 800,
+      "display": "800 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Jhallan's resting place",
+      "display": "New slayer cave full of jellies",
+      "image": "https://runescape.wiki/images/thumb/Mahjarrat_Ritual_Site_Cavern.png/100px-Mahjarrat_Ritual_Site_Cavern.png?2b427"
+    },
+    {
+      "type": "item",
+      "name": "Ice strykewyrm cave",
+      "display": "Access to ice strykewyrm cave and ice strykewyrms",
+      "image": "https://runescape.wiki/images/thumb/Ice_strykewyrm_cave.png/100px-Ice_strykewyrm_cave.png?a5564"
+    },
+    {
+      "type": "item",
+      "name": "Ali the Wise",
+      "display": "Unlocked dialogue with Ali the Wise about the Mahjarrat",
+      "image": null
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "xp",
+      "skill": "Skills",
+      "amount": 200,
+      "display": "200 experience antique lamp from the natural historian for any skill at or over level 10"
+    },
+    {
+      "type": "item",
+      "name": "The Muspah's Tomb",
+      "display": "The Muspah's Tomb (After entering the tomb)"
+    },
+    {
+      "type": "item",
+      "name": "Rest for the Weary",
+      "display": "Rest for the Weary (After sailing the canoe)"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Erjolf on the mountain north-east of Rellekka. (Fairy ring ) (opciones de chat: Accept • 1 Okay, your secret is safe with me.)",
+        "es": "Habla con Erjolf en la montaña al noreste de Rellekka. (Fairy ring ) (opciones de chat: Aceptar • 1 Vale, tu secreto está a salvo conmigo.)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Jump the flat rock to cross the river.",
+        "es": "Salta sobre la roca plana para cruzar el río."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Enter the Cave opening to the north-west.",
+        "es": "Entra en la abertura de la cueva al noroeste."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Erjolf about his progress and offer to help. (opciones de chat: 2 Tell me more about your Trials. • 2 Perhaps I can help with your Trials. • 2 I'm ready to learn how to melt the ice.)",
+        "es": "Habla con Erjolf sobre su progreso y ofrécele tu ayuda. (opciones de chat: 2 Cuéntame más sobre tus Pruebas. • 2 Quizá pueda ayudarte con tus Pruebas. • 2 Estoy listo para aprender a derretir el hielo.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 1,
+      "text": {
+        "en": "Continue through the following dialogue and cutscene.",
+        "es": "Continúa con el siguiente diálogo y la escena cinemática."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Take at least 14 driftwood from the driftwood pile (can also be done in smaller batches if backpack space is a concern).",
+        "es": "Coge al menos 14 driftwood del montón de driftwood (también puedes hacerlo en tandas más pequeñas si te preocupa el espacio en la mochila)."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Make-fireraft with the driftwood you picked up. (opciones de chat: 4 X)",
+        "es": "Haz una fireraft con el driftwood que has recogido. (opciones de chat: 4 X)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "You should have 14 fire raft in the backpack.",
+        "es": "Deberías tener 14 fire raft en la mochila."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Block-stream using the ice mound to the west to block the west stream.",
+        "es": "Bloquea la corriente usando el montículo de hielo al oeste para bloquear la corriente oeste."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Jump the flat rock nearby on your side of the stream (you're now in the NW quadrant).",
+        "es": "Salta sobre la roca plana cercana en tu lado de la corriente (ahora estás en el cuadrante NO)."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Jump the flat rock to the northeast (you're now in the NE quadrant).",
+        "es": "Salta sobre la roca plana al noreste (ahora estás en el cuadrante NE)."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Block-stream using the ice mound southeast of you to block the east stream.",
+        "es": "Bloquea la corriente usando el montículo de hielo al sureste para bloquear la corriente este."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Jump the flat rock to the northwest (you're now in the NW quadrant).",
+        "es": "Salta sobre la roca plana al noroeste (ahora estás en el cuadrante NO)."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Walk to the tile as same as the picture shown below.",
+        "es": "Camina hasta la casilla igual que se muestra en la imagen de abajo."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Launch 5 fire rafts quickly from the northern shore of the pool. Launch them from the same spot such that when they float south, they end up across the east side of the frozen armour and are blocked from leaving the cave by a rock.",
+        "es": "Lanza rápidamente 5 fire rafts desde la orilla norte de la poza. Lánzalos desde el mismo lugar de forma que, al flotar hacia el sur, acaben en el lado este de la frozen armour y una roca les impida salir de la cueva."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": ": You do not need to face correctly to launch fire rafts, the player character will launch the raft into the water next to the tile they are standing on.",
+        "es": ": No necesitas mirar en una dirección concreta para lanzar fire rafts; el personaje lanzará la balsa al agua junto a la casilla en la que se encuentre."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Walk to the tile as same as the picture shown below.",
+        "es": "Camina hasta la casilla igual que se muestra en la imagen de abajo."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Launch 3 fire rafts from the northern shore of the pool. Launch them on 3 adjacent spots that, when they float south, they end up on the north side of the frozen armour.",
+        "es": "Lanza 3 fire rafts desde la orilla norte de la poza. Lánzalos en 3 lugares adyacentes de forma que, al flotar hacia el sur, acaben en el lado norte de la frozen armour."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Unblock-stream using blocked icy stream to the west (unblocks the west stream).",
+        "es": "Desbloquea la corriente usando la corriente helada bloqueada al oeste (desbloquea la corriente oeste)."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Jump the flat rock nearby (you're now in the SW quadrant).",
+        "es": "Salta sobre la roca plana cercana (ahora estás en el cuadrante SO)."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Jump the flat rock to the southeast on your side (you're now in the SE quadrant).",
+        "es": "Salta sobre la roca plana al sureste en tu lado (ahora estás en el cuadrante SE)."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Block-stream on the southern stream using the ice mound in the southeast.",
+        "es": "Bloquea la corriente sur usando el montículo de hielo al sureste."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Walk to the tile as same as the picture shown below.",
+        "es": "Camina hasta la casilla igual que se muestra en la imagen de abajo."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Launch 4 fire rafts quickly from the eastern shore of the pool. Light them on the same spot that, when they float west, they end up across the south side of the frozen armour.",
+        "es": "Lanza rápidamente 4 fire rafts desde la orilla este de la poza. Enciéndelos en el mismo lugar de forma que, al flotar hacia el oeste, acaben en el lado sur de la frozen armour."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Unblock-stream using blocked icy stream to the east.",
+        "es": "Desbloquea la corriente usando la corriente helada bloqueada al este."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Jump the flat rock to the southwest (you're now in the SW quadrant).",
+        "es": "Salta sobre la roca plana al suroeste (ahora estás en el cuadrante SO)."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Block-stream using the ice mound to the west to block the west stream.",
+        "es": "Bloquea la corriente usando el montículo de hielo al oeste para bloquear la corriente oeste."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Walk to the tile as same as the picture shown below.",
+        "es": "Camina hasta la casilla igual que se muestra en la imagen de abajo."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Launch 1 fire raft from the western shore of the pool. Light them on the spot that, when they float east, they end up on the west side of the frozen armour. You'll need to light the rafts in the western stream, not against the pool shore.",
+        "es": "Lanza 1 fire raft desde la orilla oeste de la poza. Enciéndelo en el lugar donde, al flotar hacia el este, acabe en el lado oeste de la frozen armour. Tendrás que encender las balsas en la corriente oeste, no junto a la orilla de la poza."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Jump the flat rock to the west (you're now in the NW quadrant).",
+        "es": "Salta sobre la roca plana al oeste (ahora estás en el cuadrante NO)."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Walk to the second tile in the picture shown below.",
+        "es": "Camina hasta la segunda casilla de la imagen mostrada abajo."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Launch 1 fire raft from the western shore of the pool.",
+        "es": "Lanza 1 fire raft desde la orilla oeste de la poza."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Erjolf. (opciones de chat: 2 What should we do now? • 1 Yes, look at the creature.)",
+        "es": "Habla con Erjolf. (opciones de chat: 2 ¿Qué deberíamos hacer ahora? • 1 Sí, mira a la criatura.)"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Exit the cave, climb down the mountain and go north across the narrow strip of land. Head north-east and past the sabre-toothed kyatts in the Rellekka Hunter area.",
+        "es": "Sal de la cueva, baja de la montaña y ve hacia el norte cruzando la estrecha franja de tierra. Dirígete al noreste y pasa junto a los sabre-toothed kyatts en la zona de Caza de Rellekka."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the natural historian. (opciones de chat: 1 Don't you know what a yeti looks like? • 1 Are you any good at identifying creatures? • 1 Okay, I can start describing it now.)",
+        "es": "Habla con el historiador natural. (opciones de chat: 1 ¿No sabes qué aspecto tiene un yeti? • 1 ¿Se te da bien identificar criaturas? • 1 Vale, puedo empezar a describirla ahora.)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Describe the creature to him. (opciones de chat: 3 It's yellow. • 2 It has four arms. • 1 It has no legs, like a snail. • 2 It has spikes, which run down its spine. • 2 It has a spiky tail, with vicious spines. • 1 It has pincers, like a crab.)",
+        "es": "Descríbele la criatura. (opciones de chat: 3 Es amarilla. • 2 Tiene cuatro brazos. • 1 No tiene piernas, como un caracol. • 2 Tiene púas que le recorren la espina dorsal. • 2 Tiene una cola con púas, con espinas feroces. • 1 Tiene pinzas, como un cangrejo.)"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Continue dialogue with the historian. (opciones de chat: 1 What is the creature I described? • 2 Where can I find out more about this creature?)",
+        "es": "Continúa el diálogo con el historiador. (opciones de chat: 1 ¿Qué criatura es la que he descrito? • 2 ¿Dónde puedo averiguar más sobre esta criatura?)"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Head north of Pollnivneach along the River Elid to a sand pile.",
+        "es": "Dirígete al norte de Pollnivneach a lo largo del River Elid hasta un montón de arena."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Dig the sand pile.",
+        "es": "Cava en el montón de arena."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "After Ali the Wise speaks, talk again and ask about the Muspah. (opciones de chat: 3 I've found a creature just like this statue. • 3 Why do you think the creature I've found is a myth? • 3 If the Muspah is a myth, how could I have found it? • 3 How can I clear the ice from around the Muspah? • 4 Can you help me get back to the Muspah cave?)",
+        "es": "Después de que Ali the Wise hable, habla con él de nuevo y pregúntale sobre el Muspah. (opciones de chat: 3 He encontrado una criatura igual que esta estatua. • 3 ¿Por qué crees que la criatura que he encontrado es un mito? • 3 Si el Muspah es un mito, ¿cómo pude haberlo encontrado? • 3 ¿Cómo puedo quitar el hielo de alrededor del Muspah? • 4 ¿Puedes ayudarme a volver a la cueva del Muspah?)"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Head back to the Muspah cave.",
+        "es": "Regresa a la cueva del Muspah."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "text": {
+        "en": "The ice cave where you started, by Fremennik Province lodestone, or fairy ring .",
+        "es": "La cueva de hielo donde empezaste, cerca del lodestone de Fremennik Province, o fairy ring ."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "If you haven't obtained sapphires yet, mine the sapphire rocks nearby.",
+        "es": "Si aún no has obtenido sapphires, extrae de las rocas de sapphire cercanas."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Cross the floating bridge.",
+        "es": "Cruza el puente flotante."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Bore-sapphires in the ice block, then enchant-sapphires on it.",
+        "es": "Perfora con sapphires el bloque de hielo, y luego encántalo con sapphires."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Pick up the four sapphires from the ground, or more will have to be obtained.",
+        "es": "Recoge los cuatro sapphires del suelo, o tendrás que conseguir más."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Muspah and offer to help. (opciones de chat: 1 I only wanted to help! • 1 That's okay. • 3 What were you doing in the ice? • 1 Tell me about the rejuvenation ritual. • 1 So what do you need now? • 5 Never mind.)",
+        "es": "Habla con el Muspah y ofrécele tu ayuda. (opciones de chat: 1 ¡Solo quería ayudar! • 1 Está bien. • 3 ¿Qué hacías en el hielo? • 1 Cuéntame sobre el ritual de rejuvenecimiento. • 1 Entonces, ¿qué necesitas ahora? • 5 Da igual.)"
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Erjolf just outside the chamber.",
+        "es": "Habla con Erjolf justo fuera de la cámara."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Exit the caves and head north to the icy Rellekka Hunter area.",
+        "es": "Sal de las cuevas y dirígete al norte hacia la helada zona de Caza de Rellekka."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "On the western shore, make-canoe with the fallen log, then travel with the canoe.",
+        "es": "En la orilla oeste, haz una canoa con el tronco caído y luego viaja con la canoa."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Enter the cavern.",
+        "es": "Entra en la caverna."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Dismiss any followers you have (if Jhallan still says to dismiss your pet, turn off any overrides you may have for other pets).",
+        "es": "Despide a cualquier seguidor que tengas (si Jhallan sigue diciéndote que despidas a tu mascota, desactiva cualquier anulación que tengas para otras mascotas)."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Slightly south, talk to Jhallan. (opciones de chat: 1 Yes, follow me. We'll find somewhere you can rest.)",
+        "es": "Un poco al sur, habla con Jhallan. (opciones de chat: 1 Sí, sígueme. Encontraremos un sitio donde puedas descansar.)"
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Lead him to the far south-west corner of the cave, away from the monsters.",
+        "es": "Guíalo hasta la esquina más al suroeste de la cueva, lejos de los monstruos."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "At the end of the path, talk to Jhallan. (opciones de chat: 1 Is this spot peaceful enough for you?)",
+        "es": "Al final del camino, habla con Jhallan. (opciones de chat: 1 ¿Es este lugar lo bastante tranquilo para ti?)"
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "After speaking, bore-sapphires on Jhallan, then enchant-sapphires on him.",
+        "es": "Después de hablar, usa perfora con sapphires en Jhallan, y luego encántalo con sapphires."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Return to the icy hunter area via the canoe or the Fremennik Province lodestone.",
+        "es": "Regresa a la helada zona de Caza mediante la canoa o el lodestone de Fremennik Province."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Erjolf to give him the Muspah tail.",
+        "es": "Habla con Erjolf para darle la Muspah tail."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 1,
+      "text": {
+        "en": "Talk to the natural historian for an experience lamp.",
+        "es": "Habla con el historiador natural para conseguir una lamp de experiencia."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

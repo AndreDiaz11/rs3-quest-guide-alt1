@@ -1,0 +1,197 @@
+{
+  "id": "all-fired-up",
+  "title": "All Fired Up",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:47:22.643Z",
+  "icon": "https://runescape.wiki/images/All_Fired_Up_icon.png",
+  "series": null,
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Intermediate",
+  "length": "Short to Medium",
+  "releaseDate": "26 August 2008",
+  "startPoint": {
+    "en": "Talk to King Roald in the Varrock Palace Throne room.",
+    "es": "Habla con King Roald en la sala del trono del Varrock Palace."
+  },
+  "requirements": {
+    "quests": [
+      "Priest in Peril"
+    ],
+    "skills": [
+      {
+        "skill": "Firemaking",
+        "level": 43
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Firemaking",
+      "display": "45 logs of any kind that you have the Firemaking level to use, in 2 sets of 20 and 1 set of 5. The sets have to be of the same kind for the quest. Regular logs are enough for the quest, which can be cut from nearby trees. Some logs like acadia logs, corrupted magic logs, and eternal magic logs will not properly work. You may refer to All Fired Up (minigame)#Lighting the beacons.",
+      "image": "https://runescape.wiki/images/thumb/Firemaking_detail.png/100px-Firemaking_detail.png?4c3a6"
+    },
+    {
+      "name": "Logs",
+      "display": "Regular logs are enough for the quest, which can be cut from nearby trees.",
+      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+    },
+    {
+      "name": "Acadia logs",
+      "display": "Some logs like acadia logs, corrupted magic logs, and eternal magic logs will not properly work.",
+      "image": "https://runescape.wiki/images/thumb/Acadia_logs_detail.png/100px-Acadia_logs_detail.png?2dfc1"
+    },
+    {
+      "name": "All Fired Up (minigame)",
+      "display": "You may refer to All Fired Up (minigame)#Lighting the beacons.",
+      "image": "https://runescape.wiki/images/thumb/All_Fired_Up.png/100px-All_Fired_Up.png?d422e"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Firemaking",
+      "amount": 5500,
+      "display": "5,500 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "20,000 coins",
+      "display": "20,000 coins",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "All Fired Up (minigame)",
+      "display": "Access to the All Fired Up minigame",
+      "image": "https://runescape.wiki/images/thumb/All_Fired_Up.png/100px-All_Fired_Up.png?d422e"
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "item",
+      "name": "Ring of fire",
+      "display": "The ring of fire for lighting 6 beacons"
+    },
+    {
+      "type": "item",
+      "name": "Flame gloves",
+      "display": "The flame gloves for lighting 10 beacons"
+    },
+    {
+      "type": "item",
+      "name": "Inferno adze",
+      "display": "The Inferno adze for lighting all 14 beacons"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to King Roald in Varrock Palace. (opciones de chat: 3 Greet the king. • 1 Oh? Tell me more! • Accept)",
+        "es": "Habla con King Roald en Varrock Palace. (opciones de chat: 3 Greet the king. • 1 Oh? Tell me more! • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Blaze Sharpeye in Silvarea which is north-east of the Varrock Dig Site and south-west of the Paterdomus Temple on the River Salve. (opciones de chat: 1 Does it matter what type of log I use?)",
+        "es": "Habla con Blaze Sharpeye en Silvarea, que está al noreste del Varrock Dig Site y al suroeste del Paterdomus Temple, junto al River Salve. (opciones de chat: 1 Does it matter what type of log I use?)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Add-logs to the unlit beacon next to Blaze (requires 20 logs). (opciones de chat: 1 Yes.)",
+        "es": "Añade troncos (add-logs) a la almenara apagada junto a Blaze (requiere 20 troncos). (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Light the beacon.",
+        "es": "Enciende la almenara."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Blaze Sharpeye again. (opciones de chat: 2 Okay.)",
+        "es": "Vuelve a hablar con Blaze Sharpeye. (opciones de chat: 2 Okay.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Acquire 20 more logs by chopping or banking.",
+        "es": "Consigue 20 troncos más talando árboles o retirándolos del banco."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Go north-west to the beacon near the Odd Old Man, add 20 logs and then light it.",
+        "es": "Ve al noroeste hasta la almenara cercana al Odd Old Man, añade 20 troncos y luego enciéndela."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Go back and talk to Blaze again. (opciones de chat: 1 Oh, alright, then.)",
+        "es": "Vuelve y habla de nuevo con Blaze. (opciones de chat: 1 Oh, alright, then.)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Add-logs to the beacon (requires 5 logs). (opciones de chat: 1 Yes.)",
+        "es": "Añade troncos (add-logs) a la almenara (requiere 5 troncos). (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Blaze. (opciones de chat: Any)",
+        "es": "Habla con Blaze. (opciones de chat: Any)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to King Roald. (opciones de chat: 2 Talk about All Fired Up.)",
+        "es": "Habla con King Roald. (opciones de chat: 2 Talk about All Fired Up.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

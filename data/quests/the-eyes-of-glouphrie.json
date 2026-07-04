@@ -1,0 +1,302 @@
+{
+  "id": "the-eyes-of-glouphrie",
+  "title": "The Eyes of Glouphrie",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:16:35.080Z",
+  "icon": "https://runescape.wiki/images/The_Eyes_of_Glouphrie_icon.png",
+  "series": "Gnome",
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "1",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "15 August 2006",
+  "startPoint": {
+    "en": "Brimstail in a cave in the south-west side of the Gnome Stronghold, directly west of the bank.",
+    "es": "Brimstail, en una cueva en el lado suroeste del Gnome Stronghold, justo al oeste del banco."
+  },
+  "requirements": {
+    "quests": [
+      "The Grand Tree"
+    ],
+    "skills": [
+      {
+        "skill": "Construction",
+        "level": 5
+      },
+      {
+        "skill": "Magic",
+        "level": 46
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Ground mud rune",
+      "display": "1 ground mud rune (made by clicking on a mud rune in your inventory)",
+      "image": null
+    },
+    {
+      "name": "Maple log",
+      "display": "1 maple log",
+      "image": null
+    },
+    {
+      "name": "Oak log",
+      "display": "1 oak log",
+      "image": null
+    },
+    {
+      "name": "Bucket of sap",
+      "display": "A bucket of sap (obtained by using an empty bucket on an evergreen or acadia tree with a knife on your tool belt)",
+      "image": "https://runescape.wiki/images/thumb/Bucket_of_sap_detail.png/100px-Bucket_of_sap_detail.png?a6bc0"
+    }
+  ],
+  "kills": [
+    "6 evil creatures (1 life point each)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 12000,
+      "display": "12,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Woodcutting",
+      "amount": 2500,
+      "display": "2,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Runecrafting",
+      "amount": 6000,
+      "display": "6,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 250,
+      "display": "250 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Small crystal seed",
+      "display": "Small crystal seed; you can take it either to Ilfeen in Isafdar or the singing bowl in Brimstail's cave to turn it into a crystal saw. It allows you to make items that require a saw and 3 levels above your Construction level. It has only 28 charges; however, the recharge is free.",
+      "image": "https://runescape.wiki/images/thumb/Small_crystal_seed_detail.png/100px-Small_crystal_seed_detail.png?3bf2d"
+    },
+    {
+      "type": "item",
+      "name": "Singing bowl (scenery)",
+      "display": "Ability to use any of the singing bowls, including the one in Prifddinas, useful for creating the Attuned crystal teleport seed.",
+      "image": "https://runescape.wiki/images/thumb/Singing_bowl_in_Brimstail%27s_cave.png/100px-Singing_bowl_in_Brimstail%27s_cave.png?a4aaa"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Brimstail in a cave west of the bank in the Gnome Stronghold (). Look for dungeon link on minimap (opciones de chat: 1 What's that cute creature wandering around? • 1 Yes, that sounds fascinating... • 1 Oh, yes I love a bit of History. • Accept)",
+        "es": "Habla con Brimstail en una cueva al oeste del banco en el Gnome Stronghold (). Busca el enlace a la mazmorra en el minimapa (opciones de chat: 1 What's that cute creature wandering around? • 1 Yes, that sounds fascinating... • 1 Oh, yes I love a bit of History. • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the singing bowl in the western portion of the cave.",
+        "es": "Examina el cuenco cantor en la parte occidental de la cueva."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "To the north, attempt to unlock Oaknock's machine and use Oaknock's exchanger.",
+        "es": "Al norte, intenta desbloquear la máquina de Oaknock y usa el exchanger de Oaknock."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Brimstail. (opciones de chat: 1 I've had a look in the other room now. • 1 Of course, I'd love to!)",
+        "es": "Habla con Brimstail. (opciones de chat: 1 I've had a look in the other room now. • 1 Of course, I'd love to!)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Hazelmere (island east of Yanille, fairy ring ) for several cutscenes. He provides you with a violet pentagon.",
+        "es": "Habla con Hazelmere (isla al este de Yanille, fairy ring ) para ver varias escenas. Te entregará un pentágono violeta."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Return and talk to Brimstail. (opciones de chat: 1 I've visited Hazelmere, he told me all sorts of interesting things.)",
+        "es": "Vuelve y habla con Brimstail. (opciones de chat: 1 I've visited Hazelmere, he told me all sorts of interesting things.)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Grind mud rune and use on bucket of sap.",
+        "es": "Muele una mud rune y úsala en el bucket of sap."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Use the magic glue and a set of maple and oak logs on Oaknock's exchanger and repair it.",
+        "es": "Usa el magic glue y un juego de troncos de maple y oak en el exchanger de Oaknock para repararlo."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Brimstail. (opciones de chat: 1 I think I've fixed the machine now!)",
+        "es": "Habla con Brimstail. (opciones de chat: 1 I think I've fixed the machine now!)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him again three or more times to receive more discs (opciones de chat: 1 I can't work out what to do with these discs!). You will need to drop all of your discs and pick them back up after chatting to receive more discs. The more discs, the more streamlined the process in the next step becomes as you require little to no converting.",
+        "es": "Habla con él tres veces más o más para recibir más discos (opciones de chat: 1 I can't work out what to do with these discs!). Tendrás que soltar todos tus discos y volver a recogerlos después de hablar para recibir más discos. Cuantos más discos tengas, más ágil se volverá el proceso en el siguiente paso, ya que necesitarás poca o ninguna conversión."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Unlock machine to view the desired number.",
+        "es": "Desbloquea la máquina para ver el número deseado."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "If necessary, use the exchanger to get a disc equal to your number (refer to conversion chart below, insert not more than 35 points at a time). If you have trouble converting, refer to the full guide here.",
+        "es": "Si es necesario, usa el exchanger para obtener un disco igual a tu número (consulta la tabla de conversión más abajo, no introduzcas más de 35 puntos a la vez). Si tienes problemas para convertir, consulta la guía completa aquí."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Unlock the machine with the correct value disc. Click the small green square to submit the disc.",
+        "es": "Desbloquea la máquina con el disco del valor correcto. Haz clic en el pequeño cuadrado verde para introducir el disco."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Unlock the machine again to get 3 different numbers (the second unlock will require many more discs). Use the exchanger as necessary. The second number requires using 2 discs and the third requires 3 discs.",
+        "es": "Desbloquea la máquina de nuevo para obtener 3 números diferentes (el segundo desbloqueo requerirá muchos más discos). Usa el exchanger según sea necesario. El segundo número requiere usar 2 discos y el tercero requiere 3 discos."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Brimstail. (opciones de chat: 1 Phew! I've got that machine working now. What do I need to do now?)",
+        "es": "Habla con Brimstail. (opciones de chat: 1 Phew! I've got that machine working now. What do I need to do now?)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Kill the evil creature by Brimstail and talk to him again. (1/6).",
+        "es": "Mata a la criatura maligna junto a Brimstail y vuelve a hablar con él. (1/6)."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Kill the 5 remaining evil creatures, which can be done in any order ():",
+        "es": "Mata a las 5 criaturas malignas restantes, que se pueden matar en cualquier orden ():"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "(2/6) By the main gate to the stronghold (south-east from Brimstail's cave)",
+        "es": "(2/6) Junto a la puerta principal del stronghold (al sureste de la cueva de Brimstail)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "(3/6) South of the spirit tree by the gnome agility course entrance.",
+        "es": "(3/6) Al sur del spirit tree, junto a la entrada del gnome agility course."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "(4/6) In the giant tortoise pen north-west of the Grand Tree and north of the swamp.",
+        "es": "(4/6) En el recinto de las giant tortoise al noroeste del Grand Tree y al norte del pantano."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 1,
+      "text": {
+        "en": "(5/6) Top floor of the Grand Tree, next to the small prison/by the ladder (wait for the chat response saying you killed it before using the ladder. If it doesn't count it, an evil creature should respawn at one of the locations.)",
+        "es": "(5/6) En la planta superior del Grand Tree, junto a la pequeña prisión / junto a la escalera (espera a que aparezca la respuesta de chat confirmando que la has matado antes de usar la escalera. Si no se cuenta, una criatura maligna reaparecerá en una de las ubicaciones.)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 1,
+      "text": {
+        "en": "(6/6) Near King Narnode (may need ranged, magic or necromancy as it can get stuck behind a trapdoor). Check your quest journal if your chat log does not display 6 creatures, if it says you need to talk to the king then you are finished.",
+        "es": "(6/6) Cerca de King Narnode (puede que necesites Distancia, Magia o Nigromancia, ya que puede quedarse atascada detrás de una trampilla). Revisa tu diario de misión si tu registro de chat no muestra las 6 criaturas; si indica que debes hablar con el rey, entonces has terminado."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Talk to King Narnode Shareen on the of the Grand Tree.",
+        "es": "Habla con King Narnode Shareen en el Grand Tree."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

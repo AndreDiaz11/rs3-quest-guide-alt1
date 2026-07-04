@@ -1,0 +1,751 @@
+{
+  "id": "cold-war",
+  "title": "Cold War",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:58:55.684Z",
+  "icon": "https://runescape.wiki/images/Cold_War_icon.png",
+  "series": "Penguin",
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "40-49",
+  "difficulty": "Intermediate",
+  "length": "Long",
+  "releaseDate": "29 January 2007",
+  "startPoint": {
+    "en": "Speak to Larry at Ardougne Zoo.",
+    "es": "Habla con Larry en el Ardougne Zoo."
+  },
+  "requirements": {
+    "quests": [
+      "Cold War"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 30
+      },
+      {
+        "skill": "Construction",
+        "level": 34
+      },
+      {
+        "skill": "Crafting",
+        "level": 30
+      },
+      {
+        "skill": "Hunter",
+        "level": 10
+      },
+      {
+        "skill": "Thieving",
+        "level": 15
+      },
+      {
+        "skill": "Mining",
+        "level": 20
+      },
+      {
+        "skill": "Smithing",
+        "level": 20
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 60
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Crafting table 3",
+      "display": "Access to a Crafting table 3 or 4 (you can use a friend's house if you're not an ironman) Alternatively, 4 oak planks and 3 molten glass to make the crafting table",
+      "image": "https://runescape.wiki/images/thumb/Crafting_table_3.png/100px-Crafting_table_3.png?68eca"
+    },
+    {
+      "name": "Oak plank",
+      "display": "Alternatively, 4 oak planks and 3 molten glass to make the crafting table",
+      "image": "https://runescape.wiki/images/thumb/Oak_plank_detail.png/100px-Oak_plank_detail.png?ce6dc"
+    },
+    {
+      "name": "Oak plank",
+      "display": "10 oak planks (Protean planks and plank box will not work)",
+      "image": "https://runescape.wiki/images/thumb/Oak_plank_detail.png/100px-Oak_plank_detail.png?ce6dc"
+    },
+    {
+      "name": "Steel nail",
+      "display": "10 steel nails",
+      "image": null
+    },
+    {
+      "name": "Plank",
+      "display": "Plank (protean and other types of planks do not work)",
+      "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
+    },
+    {
+      "name": "Mahogany plank",
+      "display": "Mahogany plank (protean does not work)",
+      "image": "https://runescape.wiki/images/thumb/Mahogany_plank_detail.png/100px-Mahogany_plank_detail.png?fa548"
+    },
+    {
+      "name": "Silk",
+      "display": "Silk",
+      "image": "https://runescape.wiki/images/thumb/Silk_detail.png/100px-Silk_detail.png?389d9"
+    },
+    {
+      "name": "Clockwork",
+      "display": "Clockwork (or a steel bar to craft one)",
+      "image": "https://runescape.wiki/images/thumb/Clockwork_detail.png/100px-Clockwork_detail.png?420a8"
+    },
+    {
+      "name": "Swamp tar",
+      "display": "Swamp tar",
+      "image": "https://runescape.wiki/images/thumb/Swamp_tar_detail.png/100px-Swamp_tar_detail.png?27572"
+    },
+    {
+      "name": "Feather",
+      "display": "5 feathers (coloured ones won't work)",
+      "image": "https://runescape.wiki/images/thumb/Feather_detail.png/100px-Feather_detail.png?957d4"
+    },
+    {
+      "name": "Leather",
+      "display": "Leather",
+      "image": "https://runescape.wiki/images/thumb/Leather_detail.png/100px-Leather_detail.png?6e9da"
+    },
+    {
+      "name": "Raw cod",
+      "display": "Raw cod or a ring of charos (unactivated works)",
+      "image": "https://runescape.wiki/images/thumb/Raw_cod_detail.png/100px-Raw_cod_detail.png?9ec35"
+    }
+  ],
+  "kills": [
+    "1-2 icelords (level 42)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 2000,
+      "display": "2,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 5000,
+      "display": "5,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 1500,
+      "display": "1,500 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Penguin suit",
+      "display": "Ability to make the penguin suit. To enter the suit, you must talk to Larry at the zoo, pier, farm or Iceberg.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Penguin Agility Course",
+      "display": "Ability to train at the Penguin Agility Course.",
+      "image": "https://runescape.wiki/images/thumb/Penguin_course.png/100px-Penguin_course.png?48142"
+    },
+    {
+      "type": "item",
+      "name": "Players can also steal more cowbells and make more bongos to play while in a penguin suit.",
+      "display": "Players can also steal more cowbells and make more bongos to play while in a penguin suit.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "NPC Contact",
+      "display": "Ability to contact Larry through the NPC Contact spell.",
+      "image": "https://runescape.wiki/images/thumb/NPC_Contact.gif/100px-NPC_Contact.gif?4df7f"
+    },
+    {
+      "type": "item",
+      "name": "Espionage",
+      "display": "Espionage",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Have an Ice Day",
+      "display": "Have an Ice Day",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry near the penguin enclosure in the Ardougne Zoo. (opciones de chat: 1 Cold War • Accept)",
+        "es": "Habla con Larry cerca del recinto de los pingüinos en el Ardougne Zoo. (opciones de chat: 1 Cold War • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry again when carrying 10 oak planks and 10 steel nails. (opciones de chat: 1 Cold War • 1 Yes, I have all the materials. • 1 Yes)",
+        "es": "Vuelve a hablar con Larry llevando 10 tablones de roble y 10 clavos de acero. (opciones de chat: 1 Cold War • 1 Yes, I have all the materials. • 1 Yes)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Use an oak plank on the firm snow patch.",
+        "es": "Usa un tablón de roble en el parche de nieve firme."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to enter the bird hide structure to cover it in snow with spade. (opciones de chat: 1 Yes)",
+        "es": "Intenta entrar en la estructura del escondite de aves para cubrirla de nieve con una pala. (opciones de chat: 1 Yes)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Enter snowy bird hide.",
+        "es": "Entra en el escondite de aves nevado."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Take note of the emotes the left penguin is doing. The snowy bird hide can be re-entered to watch again if needed. You can check the quest journal later in the quest if you aren't sure.",
+        "es": "Fíjate en las emociones que hace el pingüino de la izquierda. Puedes volver a entrar en el escondite de aves nevado para verlas otra vez si lo necesitas. Más adelante en la misión también puedes consultar el diario de misión si no estás seguro."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry. (opciones de chat: Any)",
+        "es": "Habla con Larry. (opciones de chat: Any)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Travel using the nearby boat. (opciones de chat: 1 Yes)",
+        "es": "Viaja usando el barco cercano. (opciones de chat: 1 Yes)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry once on the dock.",
+        "es": "Habla con Larry una vez en el muelle."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Make a clockwork suit on crafting table 3 or 4 in a player-owned house, which requires a clockwork, regular plank, and some silk.",
+        "es": "Fabrica un traje de relojería en una mesa de artesanía 3 o 4 en una casa de un jugador, lo cual requiere un mecanismo de relojería, un tablón normal y algo de seda."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 1,
+      "text": {
+        "en": "Making an extra suit at this point is optional for the subsequent quests.",
+        "es": "Fabricar un traje extra en este punto es opcional para las siguientes misiones."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Return to Larry (in Ardougne Zoo or north of Fremennik Province lodestone). (opciones de chat: 1 Cold War • 1 Yes, I have it. • 1 Yes)",
+        "es": "Vuelve con Larry (en el Ardougne Zoo o al norte de la piedra de viaje de Fremennik Province). (opciones de chat: 1 Cold War • 1 Yes, I have it. • 1 Yes)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry on the iceberg. (opciones de chat: 2 It looks like a warning message to keep us away. • 1 Yes)",
+        "es": "Habla con Larry en el iceberg. (opciones de chat: 2 It looks like a warning message to keep us away. • 1 Yes)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "Accept teleport to the Ardougne Zoo.",
+        "es": "Acepta el teletransporte al Ardougne Zoo."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Unequip cape and weapons and use the tuxedo-time option on Larry.",
+        "es": "Quítate la capa y las armas, y usa la opción de \"tuxedo-time\" en Larry."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Enter the penguin pen and talk to the penguin.",
+        "es": "Entra en el corral de pingüinos y habla con el pingüino."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Use the greeting emotes from earlier. If you haven't noted down the emotes, look in your quest log after you've talked to the penguin.",
+        "es": "Usa las emociones de saludo de antes. Si no las has anotado, revisa tu diario de misión después de hablar con el pingüino."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Read the mission report and exit the penguin pen.",
+        "es": "Lee el informe de la misión y sal del corral de pingüinos."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry twice. (opciones de chat: 1 Cold War)",
+        "es": "Habla con Larry dos veces. (opciones de chat: 1 Cold War)"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Go to the west section of the Lumbridge cow field by the gate and steal a cowbell from a dairy cow by using the steal-cowbell option for later on in the quest.",
+        "es": "Ve a la sección oeste del campo de vacas de Lumbridge junto a la puerta y roba un cencerro de una vaca lechera usando la opción de robar cencerro, para usarlo más adelante en la misión."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 1,
+      "text": {
+        "en": "Players without 15 Thieving can get a cowbell by talking to the dairy cow in Zanaris.",
+        "es": "Los jugadores sin 15 de Robo pueden conseguir un cencerro hablando con la vaca lechera en Zanaris."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry inside the sheep pen west of Fred the Farmer's house in Lumbridge.",
+        "es": "Habla con Larry dentro del corral de ovejas al oeste de la casa de Fred the Farmer en Lumbridge."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Enter penguin suit by right clicking Larry and selecting 'tuxedo time' or using the clockwork suit on Larry and talk to the penguins disguised as a sheep (the sheep with flippers).",
+        "es": "Ponte el traje de pingüino haciendo clic derecho en Larry y seleccionando \"tuxedo time\", o usando el traje de relojería en Larry, y habla con los pingüinos disfrazados de oveja (la oveja con aletas)."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Do the greeting emotes.",
+        "es": "Realiza las emociones de saludo."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Talk to sheep penguin again.",
+        "es": "Vuelve a hablar con la oveja pingüino."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry twice. (opciones de chat: 1 Yes)",
+        "es": "Habla con Larry dos veces. (opciones de chat: 1 Yes)"
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Equip the ring of charos or have a raw cod in the inventory and use the tuxedo-time option on Larry and enter the penguin suit again once at Ardougne Zoo.",
+        "es": "Equípate el ring of charos o lleva un bacalao crudo en el inventario, usa la opción de \"tuxedo-time\" en Larry y vuelve a ponerte el traje de pingüino una vez en el Ardougne Zoo."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Enter penguin pen and talk to penguin. (opciones de chat: 1 The penguins in Lumbridge refuse to talk to me. • 2 I must have left the outpost before they gave out the phrase. • 1 Sure!)",
+        "es": "Entra en el corral de pingüinos y habla con el pingüino. (opciones de chat: 1 The penguins in Lumbridge refuse to talk to me. • 2 I must have left the outpost before they gave out the phrase. • 1 Sure!)"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry twice. (opciones de chat: 1 Cold War)",
+        "es": "Habla con Larry dos veces. (opciones de chat: 1 Cold War)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Go back to the Lumbridge sheep pen.",
+        "es": "Vuelve al corral de ovejas de Lumbridge."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Enter penguin suit by right clicking Larry and selecting 'tuxedo time' or using the clockwork suit on Larry.",
+        "es": "Ponte el traje de pingüino haciendo clic derecho en Larry y seleccionando \"tuxedo time\", o usando el traje de relojería en Larry."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Talk to sheep penguin.",
+        "es": "Habla con la oveja pingüino."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry twice.",
+        "es": "Habla con Larry dos veces."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Fred the Farmer nearby. (opciones de chat: 2 I need to talk to you about penguins. • Any)",
+        "es": "Habla con Fred the Farmer, que está cerca. (opciones de chat: 2 I need to talk to you about penguins. • Any)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "Note: Chat options may vary for some players. Choose the option for penguins.",
+        "es": "Nota: Las opciones de chat pueden variar para algunos jugadores. Elige la opción relacionada con los pingüinos."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Enter penguin suit and talk to sheep penguin again. (opciones de chat: Any)",
+        "es": "Ponte el traje de pingüino y vuelve a hablar con la oveja pingüino. (opciones de chat: Any)"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry twice. (opciones de chat: 1 Yes)",
+        "es": "Habla con Larry dos veces. (opciones de chat: 1 Yes)"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Dismiss any pets or followers.",
+        "es": "Despide a cualquier mascota o acompañante."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry on the iceberg and get in the penguin suit again and talk to KGP Agent north-west of Larry.",
+        "es": "Habla con Larry en el iceberg, ponte de nuevo el traje de pingüino y habla con el KGP Agent al noroeste de Larry."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Do the greeting emotes.",
+        "es": "Realiza las emociones de saludo."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Noodle twice. (opciones de chat: 1 Yeah, I got it.)",
+        "es": "Habla con Noodle dos veces. (opciones de chat: 1 Yeah, I got it.)"
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Talk to KGP Agent.",
+        "es": "Habla con el KGP Agent."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "Make sure you finish the dialogue or you won't be able to enter the penguin lair.",
+        "es": "Asegúrate de terminar el diálogo o no podrás entrar en la guarida de los pingüinos."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Investigate avalanche just north of KGP Agent.",
+        "es": "Investiga la avalancha justo al norte del KGP Agent."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Enter the first west room.",
+        "es": "Entra en la primera sala del oeste."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Talk to KGP Agent.",
+        "es": "Habla con el KGP Agent."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Exit room through the west door and then through the north door.",
+        "es": "Sal de la sala por la puerta oeste y luego por la puerta norte."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Walk north to the agility course.",
+        "es": "Camina hacia el norte hasta la pista de agilidad."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Climb down the steps and into the water.",
+        "es": "Baja los escalones y entra en el agua."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "Stepping across the checkered flag should automatically drop you in water.",
+        "es": "Al cruzar la bandera a cuadros deberías caer automáticamente al agua."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Avoid the moving ice in the water.",
+        "es": "Evita el hielo en movimiento en el agua."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Climb the stepping stone at the end.",
+        "es": "Sube a la piedra de paso al final."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Jump across the next stones until you reach the other side.",
+        "es": "Salta de piedra en piedra hasta llegar al otro lado."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "After crossing, continue on the path until you come to an arch covered in icicles. Use the tread softly option to pass. This must be repeated several times at each arch. Players who fail will be hit with a small amount of damage.",
+        "es": "Después de cruzar, sigue el camino hasta llegar a un arco cubierto de carámbanos. Usa la opción de pisar con suavidad para pasar. Esto debe repetirse varias veces en cada arco. Los jugadores que fallen recibirán una pequeña cantidad de daño."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Next, climb up the ice. This can be very annoying, as players lose 20 life points each time they fail, and the failure rate is surprisingly high. For players with low Agility levels, a small amount of food may help.",
+        "es": "A continuación, sube por el hielo. Esto puede ser muy molesto, ya que los jugadores pierden 20 puntos de vida cada vez que fallan, y la tasa de fallo es sorprendentemente alta. Para jugadores con niveles bajos de Agilidad, un poco de comida puede ayudar."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "After that, a short cutscene will play of the player sliding down a hill.",
+        "es": "Después de eso, se reproducirá una breve escena en la que el jugador se desliza cuesta abajo por una colina."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Agility Instructor to leave the gate.",
+        "es": "Habla con el Agility Instructor para salir por la puerta."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Leave the outpost and talk to Larry on the iceberg (twice).",
+        "es": "Sal del puesto avanzado y habla con Larry en el iceberg (dos veces)."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Enter the penguin suit and return to the outpost.",
+        "es": "Ponte el traje de pingüino y vuelve al puesto avanzado."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Enter the second east room and talk to Ping and Pong.",
+        "es": "Entra en la segunda sala del este y habla con Ping y Pong."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Return to Larry and exit penguin suit.",
+        "es": "Vuelve con Larry y quítate el traje de pingüino."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Use a mahogany plank on the leather.",
+        "es": "Usa un tablón de caoba en el cuero."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Enter penguin suit and return to Ping and Pong.",
+        "es": "Ponte el traje de pingüino y vuelve con Ping y Pong."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Talk to them again.",
+        "es": "Vuelve a hablar con ellos."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Operate the control panel in the north-west corner of the main hall.",
+        "es": "Opera el panel de control en la esquina noroeste del salón principal."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "Enter the War Room to the east.",
+        "es": "Entra en la War Room hacia el este."
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "Kill an Icelord and exit the pen.",
+        "es": "Mata a un Icelord y sal del corral."
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Climb the chasm to the east in the room.",
+        "es": "Sube por la grieta al este de la sala."
+      }
+    },
+    {
+      "index": 68,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry.",
+        "es": "Habla con Larry."
+      }
+    },
+    {
+      "index": 69,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

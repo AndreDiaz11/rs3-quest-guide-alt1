@@ -1,0 +1,425 @@
+{
+  "id": "waterfall-quest",
+  "title": "Waterfall Quest",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:30:16.394Z",
+  "icon": "https://runescape.wiki/images/Waterfall_Quest_icon.png",
+  "series": null,
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "50-59",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "24 September 2002",
+  "startPoint": {
+    "en": "Speak to Almera in her house north-east of the Baxtorian Falls.",
+    "es": "Habla con Almera en su casa, al noreste de Baxtorian Falls."
+  },
+  "requirements": {
+    "quests": [
+      "Waterfall Quest"
+    ],
+    "skills": []
+  },
+  "items": [
+    {
+      "name": "Air rune",
+      "display": "6 air runes",
+      "image": "https://runescape.wiki/images/thumb/Air_rune_detail.png/100px-Air_rune_detail.png?86f40"
+    },
+    {
+      "name": "Earth rune",
+      "display": "6 earth runes",
+      "image": "https://runescape.wiki/images/thumb/Earth_rune_detail.png/100px-Earth_rune_detail.png?fa918"
+    },
+    {
+      "name": "Water rune",
+      "display": "6 water runes",
+      "image": "https://runescape.wiki/images/thumb/Water_rune_detail.png/100px-Water_rune_detail.png?e14c8"
+    },
+    {
+      "name": "Rope",
+      "display": "1 rope (can be obtained during the quest if you've created a rope rack, which requires 24 Construction, 5 coils of rope, and 3 oak planks, by the quest's start point)",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    }
+  ],
+  "kills": [
+    "None, but you must be able to survive some attacks from various aggressive mobs, including skeletons (level 58)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Attack",
+      "amount": 13750,
+      "display": "13,750 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Strength",
+      "amount": 13750,
+      "display": "13,750 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Gold bar",
+      "display": "2 gold bars",
+      "image": "https://runescape.wiki/images/thumb/Gold_bar_detail.png/100px-Gold_bar_detail.png?64b55"
+    },
+    {
+      "type": "item",
+      "name": "Diamond",
+      "display": "2 diamonds",
+      "image": "https://runescape.wiki/images/thumb/Diamond_detail.png/100px-Diamond_detail.png?fd7ac"
+    },
+    {
+      "type": "item",
+      "name": "Mithril seeds",
+      "display": "40 Mithril seeds",
+      "image": "https://runescape.wiki/images/thumb/Mithril_seeds_detail.png/100px-Mithril_seeds_detail.png?366ed"
+    },
+    {
+      "type": "item",
+      "name": "Waterfall Dungeon",
+      "display": "Access to the Waterfall Dungeon for combat training. You must have Glarial's amulet in your inventory to re-enter the dungeon – attempting to enter without the amulet will result in the tunnel flooding with water, you getting washed into the river, ending up on the bank and taking some damage.",
+      "image": "https://runescape.wiki/images/thumb/Waterfall_Dungeon.png/100px-Waterfall_Dungeon.png?cbafd"
+    },
+    {
+      "type": "item",
+      "name": "Waterfall (music track)",
+      "display": "Waterfall",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Almera inside her house, south of the Barbarian Outpost. (opciones de chat: Accept)",
+        "es": "Habla con Almera dentro de su casa, al sur de Barbarian Outpost. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Board the raft to the west.",
+        "es": "Sube a la balsa que hay al oeste."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Hudon north of where you land.",
+        "es": "Habla con Hudon, al norte de donde desembarcas."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "If you do not talk to Hudon you will not be able to find the Book on Baxtorian in the later step.",
+        "es": "Si no hablas con Hudon, no podrás encontrar el Book on Baxtorian en un paso posterior."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Click swim on the river to the south to end up back on shore.",
+        "es": "Pulsa nadar en el río que hay al sur para volver a la orilla."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Once back on shore, head north-west to the house south of Almera's house, and climb either the inside staircase, or the outside staircase on the south side of the larger building.",
+        "es": "Una vez de vuelta en la orilla, dirígete al noroeste hacia la casa al sur de la de Almera, y sube por la escalera interior o por la escalera exterior situada en el lado sur del edificio más grande."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Search the south-eastern bookcases on the east wall to find the Book on Baxtorian.",
+        "es": "Registra las estanterías del sureste, en la pared este, para encontrar el Book on Baxtorian."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Read the book.",
+        "es": "Lee el libro."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Head to the Tree Gnome Village, located north-west of Yanille.",
+        "es": "Dirígete a Tree Gnome Village, situado al noroeste de Yanille."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Once there, follow the path through the maze, heading towards the dungeon marked on the map",
+        "es": "Una vez allí, sigue el camino a través del laberinto, en dirección a la mazmorra marcada en el mapa."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 1,
+      "text": {
+        "en": "If the quest Tree Gnome Village is at least partially completed, follow Elkoy, who is at the beginning and end of the maze.",
+        "es": "Si la misión Tree Gnome Village está al menos parcialmente completada, sigue a Elkoy, que se encuentra al principio y al final del laberinto."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 2,
+      "text": {
+        "en": "If the quest is not partially completed, it is recommended to squeeze through the loose railing and speak to King Bolren while nearby.",
+        "es": "Si la misión no está ni siquiera parcialmente completada, se recomienda colarse por la barandilla suelta y hablar con King Bolren mientras estés cerca."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 1,
+      "text": {
+        "en": "Go east and enter the dungeon.",
+        "es": "Ve hacia el este y entra en la mazmorra."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Inside the dungeon, go to the eastern room.",
+        "es": "Dentro de la mazmorra, ve a la sala este."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Search the south-east stack of crates which is a different colour than the others, to find a key (must read book in order to find key).",
+        "es": "Registra la pila de cajas del sureste que tiene un color distinto al de las demás, para encontrar una llave (debes haber leído el libro para poder encontrar la llave)."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Head to the westernmost room and use the key on the gate to unlock it.",
+        "es": "Dirígete a la sala más al oeste y usa la llave en la verja para desbloquearla."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Enter and speak to Golrie to find Glarial's pebble.",
+        "es": "Entra y habla con Golrie para conseguir el Glarial's pebble."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Bank everything except Glarial's pebble and your rope (you may bring food and allowed items).",
+        "es": "Deposita en el banco todo excepto el Glarial's pebble y tu cuerda (puedes llevar comida y objetos permitidos)."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "To enter the tomb, you cannot bring combat-related items such as weapons, armour, or runes.",
+        "es": "Para entrar en la tumba, no puedes llevar objetos relacionados con el combate, como armas, armaduras o runas."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "You may drop 6 air runes, 6 water runes and 6 earth runes outside the tomb and retrieve them upon exiting, in order to skip banking for the final part.",
+        "es": "Puedes dejar caer 6 runas de aire, 6 runas de agua y 6 runas de tierra fuera de la tumba y recogerlas al salir, para evitar tener que pasar por el banco en la última parte."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Teleport to Ardougne lodestone and go north-west of the Fishing Guild to find Glarial's tombstone.",
+        "es": "Teletranspórtate a la piedra de viaje de Ardougne y ve al noroeste de Fishing Guild para encontrar la lápida de Glarial."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Use Glarial's pebble on the tombstone.",
+        "es": "Usa el Glarial's pebble en la lápida."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "If it says , it's because you are wearing disallowed items or carrying runes",
+        "es": "Si aparece un mensaje, es porque llevas puestos objetos no permitidos o estás cargando runas."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Go west and search the chest to obtain Glarial's amulet.",
+        "es": "Ve al oeste y registra el cofre para obtener el Glarial's amulet."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "Optional: Drop the amulet and search the chest for a second one, preventing having to obtain a second one after the quest for dungeon access.",
+        "es": "Opcional: Deja caer el amuleto y registra el cofre para obtener uno segundo, evitando así tener que conseguir otro después de la misión para acceder a la mazmorra."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Go south and search Glarial's Tomb to obtain Glarial's urn.",
+        "es": "Ve al sur y registra la Glarial's Tomb para obtener la Glarial's urn."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Head north-east back up the ladder you came down.",
+        "es": "Dirígete al noreste y sube de nuevo por la escalera por la que bajaste."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Go north-west to the quest start point (Almera's house) and board the raft once more.",
+        "es": "Ve al noroeste hasta el punto de inicio de la misión (la casa de Almera) y sube de nuevo a la balsa."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Use your rope on the rock situated on the bank to the south (do not click 'swim to rock').",
+        "es": "Usa tu cuerda en la roca situada en la orilla al sur (no pulses 'nadar hacia la roca')."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Use your rope on the dead tree next to you (do not click 'climb tree').",
+        "es": "Usa tu cuerda en el árbol muerto que tienes al lado (no pulses 'trepar árbol')."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "With Glarial's amulet in your inventory, enter the cave door north.",
+        "es": "Con el Glarial's amulet en tu inventario, entra por la puerta de la cueva al norte."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Go north-east, open the door, and search the light-colored crates on the northern wall for another key.",
+        "es": "Ve al noreste, abre la puerta y registra las cajas de color claro en la pared norte para conseguir otra llave."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Return to the centre room and go down the western passage, past the fire giants, through the doors north.",
+        "es": "Vuelve a la sala central y baja por el pasadizo oeste, pasando junto a los fire giants, a través de las puertas hacia el norte."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Use the key on the last door.",
+        "es": "Usa la llave en la última puerta."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Make sure you follow these three steps carefully or you will be washed up down stream.",
+        "es": "Asegúrate de seguir estos tres pasos con cuidado, o acabarás arrastrado río abajo."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "Use an air rune, a water rune, and an earth rune on each of the six pillars.",
+        "es": "Usa una runa de aire, una runa de agua y una runa de tierra en cada uno de los seis pilares."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "Use Glarial's amulet on the statue of Glarial, the western statue.",
+        "es": "Usa el Glarial's amulet en la estatua de Glarial, la estatua del oeste."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Use Glarial's urn on the Chalice of Eternity, in the centre of the room.",
+        "es": "Usa la Glarial's urn en el Chalice of Eternity, en el centro de la sala."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 2,
+      "text": {
+        "en": "If you attempt to take the Chalice you will be washed up down stream and will have to get the amulet back from the chest under Glarial's tombstone before being able to return to the cave.",
+        "es": "Si intentas coger el Chalice, acabarás arrastrado río abajo y tendrás que recuperar el amuleto del cofre bajo la lápida de Glarial antes de poder regresar a la cueva."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

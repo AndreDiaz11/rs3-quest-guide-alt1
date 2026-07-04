@@ -1,0 +1,323 @@
+{
+  "id": "rune-mechanics",
+  "title": "Rune Mechanics",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:11:50.179Z",
+  "icon": "https://runescape.wiki/images/Rune_Mechanics_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "adventurer",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Short",
+  "releaseDate": "1 February 2010",
+  "startPoint": {
+    "en": "Speak to Apprentice Clerval in the basement of the Mage Training Arena. (via )",
+    "es": "Habla con Apprentice Clerval en el sótano del Mage Training Arena. (via )"
+  },
+  "requirements": {
+    "quests": [
+      "Rune Mechanics"
+    ],
+    "skills": [
+      {
+        "skill": "Construction",
+        "level": 25
+      },
+      {
+        "skill": "Magic",
+        "level": 27
+      },
+      {
+        "skill": "Runecrafting",
+        "level": 20
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Steam rune",
+      "display": "5 steam runes (you must craft one during the quest; the rest can be bought)",
+      "image": "https://runescape.wiki/images/thumb/Steam_rune_detail.png/100px-Steam_rune_detail.png?f2c98"
+    },
+    {
+      "name": "Fire rune",
+      "display": "1 fire rune or water rune (needed to craft the steam rune; 5 if crafting all 5 steam runes during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Fire_rune_detail.png/100px-Fire_rune_detail.png?fa918"
+    },
+    {
+      "name": "Fire altar",
+      "display": "Item to access fire altar if bringing water rune, or water altar if bringing fire rune (a fire talisman and water talisman are given to you in the quest)",
+      "image": "https://runescape.wiki/images/thumb/Fire_Altar_inside.png/100px-Fire_Altar_inside.png?2dabf"
+    },
+    {
+      "name": "Mind rune",
+      "display": "5 mind runes",
+      "image": "https://runescape.wiki/images/thumb/Mind_rune_detail.png/100px-Mind_rune_detail.png?425e6"
+    },
+    {
+      "name": "Body rune",
+      "display": "5 body runes",
+      "image": "https://runescape.wiki/images/thumb/Body_rune_detail.png/100px-Body_rune_detail.png?86f40"
+    },
+    {
+      "name": "Emerald",
+      "display": "2 emeralds",
+      "image": "https://runescape.wiki/images/thumb/Emerald_detail.png/100px-Emerald_detail.png?de21b"
+    },
+    {
+      "name": "Pure essence",
+      "display": "21 pure essence (cannot be noted)",
+      "image": "https://runescape.wiki/images/thumb/Pure_essence_detail.png/100px-Pure_essence_detail.png?8223c"
+    },
+    {
+      "name": "Progress hat",
+      "display": "Progress hat (and 5 or more pizazz points at the Mage Training Arena)",
+      "image": "https://runescape.wiki/images/thumb/Progress_hat_chathead.png/100px-Progress_hat_chathead.png?10658"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 900,
+      "display": "900 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 2300,
+      "display": "2,300 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Runecrafting",
+      "amount": 1850,
+      "display": "1,850 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Rune guardian",
+      "display": "Rune guardian pet",
+      "image": "https://runescape.wiki/images/thumb/Rune_guardian_pet.png/100px-Rune_guardian_pet.png?5810a"
+    },
+    {
+      "type": "item",
+      "name": "Fire talisman",
+      "display": "Fire talisman or Water talisman",
+      "image": "https://runescape.wiki/images/thumb/Fire_talisman_detail.png/100px-Fire_talisman_detail.png?56e97"
+    },
+    {
+      "type": "item",
+      "name": "Binding necklace",
+      "display": "Binding necklace, obtained during the quest with one charge",
+      "image": "https://runescape.wiki/images/thumb/Binding_necklace_detail.png/100px-Binding_necklace_detail.png?84bd2"
+    },
+    {
+      "type": "item",
+      "name": "These Stones",
+      "display": "These Stones (When entering Mage Training Arena basement)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Apprentice Clerval in the basement of the Mage Training Arena. (opciones de chat: Accept)",
+        "es": "Habla con Apprentice Clerval en el sótano del Mage Training Arena. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Wizard Dougal who is also in the basement. (opciones de chat: 1 Complement him and massage his ego.)",
+        "es": "Habla con Wizard Dougal, que también está en el sótano. (opciones de chat: 1 Halágalo y adúlale el ego.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "You need four free spaces in your inventory for Dougal to give you items. If he doesn't give you the items, he will not accept the steam runes.",
+        "es": "Necesitas cuatro espacios libres en tu inventario para que Dougal te dé objetos. Si no te da los objetos, no aceptará las steam runes."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Wear the binding necklace that Dougal gave you.",
+        "es": "Ponte el binding necklace que te dio Dougal."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Craft at least one steam rune. The remaining runes (4 steam runes, 5 mind runes, 5 body runes) can be obtained or bought ahead of time.",
+        "es": "Fabrica al menos una steam rune. Las runas restantes (4 steam runes, 5 mind runes, 5 body runes) se pueden conseguir o comprar de antemano."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "Steam runes can be crafted by using fire runes on the water altar (consuming a fire talisman).",
+        "es": "Las steam runes se pueden fabricar usando fire runes en el altar del agua (esto consume un fire talisman)."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "Alternatively, use water runes on the fire altar (consuming a water talisman).",
+        "es": "Alternativamente, usa water runes en el altar del fuego (esto consume un water talisman)."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Wizard Dougal.",
+        "es": "Habla con Wizard Dougal."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Give the runes to Clerval.",
+        "es": "Dale las runas a Clerval."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Wizard Edvin who is also in the basement. (You will need to dismiss any pets currently active) (opciones de chat: 1 I guess I'll give it a try.)",
+        "es": "Habla con Wizard Edvin, que también está en el sótano. (Necesitarás despedir cualquier mascota que tengas activa) (opciones de chat: 1 Supongo que lo intentaré.)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Solve the portal maze.",
+        "es": "Resuelve el laberinto de portales."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "From the start, go through the west portal, then go to the northern portal 3 times.",
+        "es": "Desde el inicio, cruza el portal del oeste, luego dirígete al portal del norte 3 veces."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Exit the maze.",
+        "es": "Sal del laberinto."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Take Edvin's tool to Clerval.",
+        "es": "Lleva la herramienta de Edvin a Clerval."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Obtain five pizazz points from Mage Training Arena minigame, if you don't already have five. Enchantment Pizazz points are easy to obtain by casting any level jewellery enchantment spell (Lvl-1 Enchant, Lvl-2 Enchant, Lvl-3 Enchant, Lvl-4 Enchant, Lvl-5 Enchant, Lvl-6 Enchant) on a dragonstone lying on the arena floor. (Requires at least level 7 Magic.)",
+        "es": "Consigue cinco pizazz points del minijuego Mage Training Arena, si aún no tienes cinco. Los Enchantment Pizazz points se obtienen fácilmente lanzando cualquier hechizo de encantamiento de joyería (Lvl-1 Enchant, Lvl-2 Enchant, Lvl-3 Enchant, Lvl-4 Enchant, Lvl-5 Enchant, Lvl-6 Enchant) sobre una dragonstone que hay en el suelo de la arena. (Requiere al menos nivel 7 de Magia.)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Wizard Shug on the top floor of the arena. (opciones de chat: 2 Get back on topic! • 2 Get back on topic!)",
+        "es": "Habla con Wizard Shug en la planta superior de la arena. (opciones de chat: 2 ¡Vuelve al tema! • 2 ¡Vuelve al tema!)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Enchant the emeralds using the workbench by Clerval.",
+        "es": "Encanta las emeralds usando la mesa de trabajo que está junto a Clerval."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Clerval, holding 20 pure essence. (opciones de chat: 2 Comfort and reassure him.)",
+        "es": "Habla con Clerval, llevando 20 pure essence. (opciones de chat: 2 Consuélalo y tranquilízalo.)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Fix the animation table nearby.",
+        "es": "Repara la mesa de animación cercana."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "When finished, click the green check button. (opciones de chat: 1 You are useless, but, yes, I'll do it.)",
+        "es": "Cuando termines, haz clic en el botón verde de verificación. (opciones de chat: 1 Eres un inútil, pero, vale, lo haré.)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Use the carving tool on the lump of rune essence.",
+        "es": "Usa la herramienta de talla en el lump of rune essence."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Clerval.",
+        "es": "Habla con Clerval."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "id": "violet-is-blue-too",
+  "title": "Violet is Blue Too",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:28:17.217Z",
+  "icon": "https://runescape.wiki/images/Violet_is_Blue_Too_icon.png",
+  "series": "Violet Tendencies",
+  "age": "ambiguous",
+  "timeline": "adventurer",
+  "members": false,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Medium",
+  "releaseDate": "14 December 2020",
+  "startPoint": {
+    "en": "Talk to Postie Pete by the portal to the Land of Snow in Taverley, near White Wolf Mountain.",
+    "es": "Habla con Postie Pete junto al portal a la Land of Snow en Taverley, cerca de White Wolf Mountain."
+  },
+  "requirements": {
+    "quests": [
+      "Violet is Blue"
+    ],
+    "skills": []
+  },
+  "items": [],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Lamp of joy (Violet is Blue Too)",
+      "amount": null,
+      "display": "Lamp of joy, granting 4,000 experience in a skill of choice",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Lamp of wonder (Violet is Blue Too)",
+      "amount": null,
+      "display": "Lamp of wonder, granting 4,000 experience in a skill of choice",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Lamp of laughter (Violet is Blue Too)",
+      "amount": null,
+      "display": "Lamp of laughter, granting 4,000 experience in a skill of choice",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Fairylight necklace",
+      "display": "Fairylight necklace and its cosmetic override",
+      "image": "https://runescape.wiki/images/thumb/Fairylight_necklace_detail.png/100px-Fairylight_necklace_detail.png?b3973"
+    },
+    {
+      "type": "item",
+      "name": "Fairylight whip",
+      "display": "Fairylight whip and its cosmetic override",
+      "image": "https://runescape.wiki/images/Fairylight_whip_detail.png?d735d"
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "item",
+      "name": "Violet's Celebration",
+      "display": "Violet's Celebration"
+    },
+    {
+      "type": "item",
+      "name": "Violet's Second Adventure",
+      "display": "Violet's Second Adventure"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Postie Pete at the Land of Snow portal. (opciones de chat: Accept)",
+        "es": "Habla con Postie Pete en el portal a la Land of Snow. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Enter the portal.",
+        "es": "Entra por el portal."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Posty and watch the cutscene. (opciones de chat: ~)",
+        "es": "Habla con Posty y observa la escena. (opciones de chat: ~)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Go north up the hill to Violet's house.",
+        "es": "Ve al norte, colina arriba, hasta la casa de Violet."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Knock on the door.",
+        "es": "Llama a la puerta."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Progress through the dialogue.",
+        "es": "Continúa con el diálogo."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Violet in her room, north-west of Betty and Trevor.",
+        "es": "Habla con Violet en su habitación, al noroeste de Betty y Trevor."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Search the chest in the eastern side of the room with Betty and Trevor.",
+        "es": "Busca en el cofre del lado este de la habitación con Betty y Trevor."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Search the rug in Violet's room.",
+        "es": "Busca en la alfombra de la habitación de Violet."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Search the fireplace in the western side of the room with Betty and Trevor.",
+        "es": "Busca en la chimenea del lado oeste de la habitación con Betty y Trevor."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Search the barrel of fish under the stairs.",
+        "es": "Busca en el barril de pescado bajo las escaleras."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Progress through the dialogue with Violet. (opciones de chat: 2 What should we do?)",
+        "es": "Continúa con el diálogo con Violet. (opciones de chat: 2 ¿Qué deberíamos hacer?)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Exit the house and talk to Violet. (opciones de chat: ~)",
+        "es": "Sal de la casa y habla con Violet. (opciones de chat: ~)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Talk to one of the snow imps.",
+        "es": "Habla con uno de los snow imps."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Go south to the abandoned farm.",
+        "es": "Ve al sur hasta la granja abandonada."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Open the chest by the door.",
+        "es": "Abre el cofre junto a la puerta."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Proceed through dialogue with the snow imp follower (whose name is randomly selected). (opciones de chat: 3 At least you got out before Christmas.)",
+        "es": "Continúa con el diálogo con el snow imp seguidor (cuyo nombre se elige al azar). (opciones de chat: 3 Al menos saliste antes de Navidad.)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Assistant Brad (north-east of the burning Christmas tree). (opciones de chat: 1 How can we help out?)",
+        "es": "Habla con Assistant Brad (al noreste del árbol de Navidad en llamas). (opciones de chat: 1 ¿Cómo podemos ayudar?)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Go north over the bridge, then west to the Christmas tree farm.",
+        "es": "Ve al norte cruzando el puente y luego al oeste hasta la granja de árboles de Navidad."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Taylor north west of the town.",
+        "es": "Habla con Taylor, al noroeste del pueblo."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the wonky tree on the western side of the farm.",
+        "es": "Examina el árbol torcido en el lado oeste de la granja."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Return to the town centre.",
+        "es": "Vuelve al centro del pueblo."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Assistant Brad.",
+        "es": "Habla con Assistant Brad."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Assistant Susi south-east of wonky tree.",
+        "es": "Habla con Assistant Susi, al sureste del árbol torcido."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Knock on 4 doors around town for 4 piles of Christmas decorations:",
+        "es": "Llama a 4 puertas alrededor del pueblo para conseguir 4 montones de decoraciones navideñas:"
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "Southern side of the house east of the town centre.",
+        "es": "Lado sur de la casa al este del centro del pueblo."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "North-east of the town centre.",
+        "es": "Al noreste del centro del pueblo."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 1,
+      "text": {
+        "en": "North-west of the town centre.",
+        "es": "Al noroeste del centro del pueblo."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 1,
+      "text": {
+        "en": "\"The Mug-Inn\" south-west of the town centre.",
+        "es": "\"The Mug-Inn\", al suroeste del centro del pueblo."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Assistant Susi.",
+        "es": "Habla con Assistant Susi."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Decorate 5 lampposts:",
+        "es": "Decora 5 farolas:"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "4 around the centre.",
+        "es": "4 alrededor del centro."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "1 further south, on the path to the hill.",
+        "es": "1 más al sur, en el camino hacia la colina."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Decorate 4 houses by using the same door that you knocked on before:",
+        "es": "Decora 4 casas usando la misma puerta a la que llamaste antes:"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "Southern side of the house east of the town centre.",
+        "es": "Lado sur de la casa al este del centro del pueblo."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "North-east of the town centre.",
+        "es": "Al noreste del centro del pueblo."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "North-west of the town centre.",
+        "es": "Al noroeste del centro del pueblo."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "\"The Mug-Inn\" south-west of the town centre.",
+        "es": "\"The Mug-Inn\", al suroeste del centro del pueblo."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Assistant Susi.",
+        "es": "Habla con Assistant Susi."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Assistant Timothy north-west of the wonky tree.",
+        "es": "Habla con Assistant Timothy, al noroeste del árbol torcido."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Posty, who appears north of the wonky tree.",
+        "es": "Habla con Posty, que aparece al norte del árbol torcido."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the children around the town in the following order:",
+        "es": "Habla con los niños del pueblo en el siguiente orden:"
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "Elizabeth west of the wonky tree.",
+        "es": "Elizabeth, al oeste del árbol torcido."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 1,
+      "text": {
+        "en": "Peter east of the tree.",
+        "es": "Peter, al este del árbol."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 1,
+      "text": {
+        "en": "Mozzie in the south-eastern part of the town.",
+        "es": "Mozzie, en la parte sureste del pueblo."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "Neal in the house on the hill in the southern part of the town.",
+        "es": "Neal, en la casa de la colina en la parte sur del pueblo."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Take Santa's 'naughty or nice' list outside the eastern window of the house.",
+        "es": "Coge la lista de \"traviesos o buenos\" de Santa fuera de la ventana este de la casa."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Posty north of the wonky tree.",
+        "es": "Habla con Posty al norte del árbol torcido."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the named snow imp (last name Claus) north of the wonky tree.",
+        "es": "Habla con el snow imp con nombre (apellido Claus) al norte del árbol torcido."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Hal the snow impling just south-west of the wonky tree.",
+        "es": "Habla con Hal, el snow impling, justo al suroeste del árbol torcido."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Go up the southern hill without going inside the house and launch the snow impling from your backpack three times.",
+        "es": "Sube la colina sur sin entrar en la casa y lanza al snow impling desde tu mochila tres veces."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Admire the wonky tree.",
+        "es": "Admira el árbol torcido."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the named snow imp or Violet.",
+        "es": "Habla con el snow imp con nombre o con Violet."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Violet.",
+        "es": "Habla con Violet."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Knock on the door.",
+        "es": "Llama a la puerta."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Betty or Trevor to complete the quest.",
+        "es": "Habla con Betty o Trevor para completar la misión."
+      }
+    }
+  ]
+}

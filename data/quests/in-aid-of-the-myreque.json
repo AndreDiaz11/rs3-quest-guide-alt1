@@ -1,0 +1,633 @@
+{
+  "id": "in-aid-of-the-myreque",
+  "title": "In Aid of the Myreque",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:30:30.891Z",
+  "icon": "https://runescape.wiki/images/In_Aid_of_the_Myreque_icon.png",
+  "series": "Myreque",
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "60-69",
+  "difficulty": "Intermediate",
+  "length": "Long",
+  "releaseDate": "22 March 2006",
+  "startPoint": {
+    "en": "Talk to Veliaf in the Myreque Hideout, beneath the pub in Canifis. (via )",
+    "es": "Habla con Veliaf en el Myreque Hideout, bajo el pub de Canifis. (via )"
+  },
+  "requirements": {
+    "quests": [
+      "In Search of the Myreque",
+      "Nature Spirit",
+      "Priest in Peril",
+      "The Restless Ghost",
+      "Morytania",
+      "Shades of Mort'ton",
+      "Morytania"
+    ],
+    "skills": [
+      {
+        "skill": "Crafting",
+        "level": 25
+      },
+      {
+        "skill": "Magic",
+        "level": 7
+      },
+      {
+        "skill": "Mining",
+        "level": 15
+      },
+      {
+        "skill": "Mining",
+        "level": 30
+      },
+      {
+        "skill": "Smithing",
+        "level": 30
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Food",
+      "display": "At least 1 piece of food †",
+      "image": null
+    },
+    {
+      "name": "Silver weapon",
+      "display": "A silver weapon (excluding silver bolts) and armour to beat several enemies up to level 68",
+      "image": null
+    },
+    {
+      "name": "Bucket",
+      "display": "1–5 buckets † (can be picked up by the well in Burgh de Rott)",
+      "image": "https://runescape.wiki/images/thumb/Bucket_detail.png/100px-Bucket_detail.png?3d544"
+    },
+    {
+      "name": "Plank",
+      "display": "11 regular planks † (protean planks do not work)",
+      "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
+    },
+    {
+      "name": "Swamp paste",
+      "display": "Swamp paste (not tar) †",
+      "image": "https://runescape.wiki/images/thumb/Swamp_paste_detail.png/100px-Swamp_paste_detail.png?64e44"
+    },
+    {
+      "name": "Nails",
+      "display": "36–45 nails of any metal (you might get enough of them from mining the rubble)",
+      "image": null
+    },
+    {
+      "name": "Bronze hatchet",
+      "display": "10 bronze hatchets",
+      "image": "https://runescape.wiki/images/thumb/Bronze_hatchet_detail.png/100px-Bronze_hatchet_detail.png?62d07"
+    },
+    {
+      "name": "Raw mackerel",
+      "display": "Either 10 raw mackerel † or 10 raw snails † (depending on the store-owner's choice; any size or combination works), or a weapon and big fishing net to gather them yourself. Mackerel can be obtained at the boat dock south-east of the pub, and snails can be obtained in Morytania.",
+      "image": "https://runescape.wiki/images/thumb/Raw_mackerel_detail.png/100px-Raw_mackerel_detail.png?94a7b"
+    },
+    {
+      "name": "Tinderbox",
+      "display": "3 tinderboxes †",
+      "image": "https://runescape.wiki/images/thumb/Tinderbox_detail.png/100px-Tinderbox_detail.png?14949"
+    },
+    {
+      "name": "Steel bar",
+      "display": "2 steel bars",
+      "image": "https://runescape.wiki/images/thumb/Steel_bar_detail.png/100px-Steel_bar_detail.png?cfb12"
+    },
+    {
+      "name": "Coal",
+      "display": "1 piece of coal",
+      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    },
+    {
+      "name": "Soft clay",
+      "display": "A piece of soft clay",
+      "image": "https://runescape.wiki/images/thumb/Soft_clay_detail.png/100px-Soft_clay_detail.png?85203"
+    },
+    {
+      "name": "Silver bar",
+      "display": "Silver bar",
+      "image": "https://runescape.wiki/images/thumb/Silver_bar_detail.png/100px-Silver_bar_detail.png?320b3"
+    },
+    {
+      "name": "Mithril bar",
+      "display": "Mithril bar",
+      "image": "https://runescape.wiki/images/thumb/Mithril_bar_detail.png/100px-Mithril_bar_detail.png?e065f"
+    },
+    {
+      "name": "Sapphire",
+      "display": "A cut sapphire",
+      "image": "https://runescape.wiki/images/thumb/Sapphire_detail.png/100px-Sapphire_detail.png?d62b2"
+    },
+    {
+      "name": "Cosmic rune",
+      "display": "1 cosmic and water rune, or a Lvl-1 enchant tablet.",
+      "image": "https://runescape.wiki/images/thumb/Cosmic_rune_detail.png/100px-Cosmic_rune_detail.png?fa918"
+    },
+    {
+      "name": "Rope",
+      "display": "Rope",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    }
+  ],
+  "kills": [
+    "Gadderanks (level 58)",
+    "2 Vampyre Juvinates (level 58 and 63)",
+    "2 Vampyre Juvinates (level 60 or 68)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Attack",
+      "amount": 2000,
+      "display": "2,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Strength",
+      "amount": 2000,
+      "display": "2,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 2000,
+      "display": "2,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Defence",
+      "amount": 2000,
+      "display": "2,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Burgh de Rott",
+      "display": "Access to Burgh de Rott and its facilities",
+      "image": "https://runescape.wiki/images/thumb/Burgh_de_Rott.png/100px-Burgh_de_Rott.png?17e4d"
+    },
+    {
+      "type": "item",
+      "name": "Temple Trekking",
+      "display": "Ability to play the Temple Trekking minigame",
+      "image": "https://runescape.wiki/images/thumb/Temple_Trekking_start.png/100px-Temple_Trekking_start.png?61c94"
+    },
+    {
+      "type": "item",
+      "name": "Gadderhammer",
+      "display": "Ability to use a Gadderhammer, which is strong against shades",
+      "image": "https://runescape.wiki/images/thumb/Gadderhammer_detail.png/100px-Gadderhammer_detail.png?f9336"
+    },
+    {
+      "type": "item",
+      "name": "Rod of ivandis",
+      "display": "Ability to make and use the rod of Ivandis and Guthix balance potions to fight and defeat Vampyre Juveniles and Juvinates",
+      "image": "https://runescape.wiki/images/thumb/Rod_of_ivandis_detail.png/100px-Rod_of_ivandis_detail.png?743c1"
+    },
+    {
+      "type": "item",
+      "name": "Historian Minas",
+      "display": "Talk to Historian Minas to receive 5 kudos in the Varrock Museum",
+      "image": "https://runescape.wiki/images/thumb/Historian_Minas.png/100px-Historian_Minas.png?74d5d"
+    },
+    {
+      "type": "item",
+      "name": "Distant Land",
+      "display": "Distant Land – when you first enter Burgh De Rott",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Fangs For the Memory",
+      "display": "Fangs For the Memory – when you are ambushed while escorting Ivan",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "In the hideout behind the Canifis pub, go through the secret wall and squeeze past the stalagmite on the east side of the cave",
+        "es": "En el escondite tras el pub de Canifis, atraviesa la pared secreta y pasa junto a la estalagmita en el lado este de la cueva"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Veliaf Hurtz. (opciones de chat: 1 I want to join your organisation. • 3 Can you tell me about the job? • Accept • 1 Ok, I'll do the job.)",
+        "es": "Habla con Veliaf Hurtz. (opciones de chat: 1 I want to join your organisation. • 3 Can you tell me about the job? • Accept • 1 Ok, I'll do the job.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Mort'ton. The fastest way is by heading south of the cave, exiting through the doors, climbing the same tree from In Search of the Myreque and using the swamp boat south, or using a portal to the Barrows in War's Retreat.",
+        "es": "Viaja a Mort'ton. La forma más rápida es dirigirte al sur de la cueva, salir por las puertas, subir al mismo árbol que en In Search of the Myreque y usar el barco del pantano hacia el sur, o usar un portal hacia los Barrows en War's Retreat."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "If you need a piece of food, there are snails to the west of Mort'ton that can be cooked with level 12 Cooking.",
+        "es": "Si necesitas comida, hay caracoles al oeste de Mort'ton que se pueden cocinar con nivel 12 de Cocina."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Florin, south of the bridge to Burgh de Rott, who won't let you pass yet. (Make sure to finish dialogue options)",
+        "es": "Habla con Florin, al sur del puente hacia Burgh de Rott, que aún no te dejará pasar. (Asegúrate de terminar todas las opciones de diálogo)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Search the chest.",
+        "es": "Registra el cofre."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Use food on the chest.",
+        "es": "Usa comida en el cofre."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Jump the gate.",
+        "es": "Salta la verja."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Florin. (opciones de chat: 4 Are there any 'out of the way' places in here? • 5 Ok, thanks!)",
+        "es": "Habla con Florin. (opciones de chat: 4 Are there any 'out of the way' places in here? • 5 Ok, thanks!)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Climb over the broken down wall in the building just south-east of the well. It'll be near an unreachable pile of rubble that you can mine.",
+        "es": "Sube por la pared derruida en el edificio justo al sureste del pozo. Estará cerca de un montón de escombros inalcanzable que puedes minar."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Mine the rubble to clear the trap door, then open the trapdoor and climb down.",
+        "es": "Mina los escombros para despejar la trampilla, luego ábrela y baja por ella."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Mine and use spade to remove all the rubble piles (15). Your bucket can be emptied on the pile outside the pub.",
+        "es": "Mina y usa la pala para eliminar todos los montones de escombros (15). Puedes vaciar tu cubo en el montón fuera del pub."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 1,
+      "text": {
+        "en": "1 bucket will allow you to mine 3 piles before it needs to be emptied in the pile outside. There is a bucket next to the well if you need one.",
+        "es": "1 cubo te permitirá minar 3 montones antes de que necesites vaciarlo en el montón de fuera. Hay un cubo junto al pozo si necesitas uno."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "Any items left on the ground when you climb back up the ladder will be lost.",
+        "es": "Cualquier objeto que dejes en el suelo al subir de nuevo por la escalera se perderá."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Go up and talk to any villager. (opciones de chat: 3 I'd like to help fix up the town. • 4 Ok, thanks.)",
+        "es": "Sube y habla con cualquier aldeano. (opciones de chat: 3 I'd like to help fix up the town. • 4 Ok, thanks.)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Aurel in the general store. (opciones de chat: 3 I'd like to help fix up the town. • 4 What should I do now? • 5 Ok, thanks.)",
+        "es": "Habla con Aurel en la tienda general. (opciones de chat: 3 I'd like to help fix up the town. • 4 What should I do now? • 5 Ok, thanks.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Climb the ladder outside and use a plank on the Broken Roof (3 planks, 12 nails required).",
+        "es": "Sube por la escalera de fuera y usa un tablón en el Tejado Roto (se requieren 3 tablones, 12 clavos)."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Climb down and use a plank on the damaged wall (3 planks, 12 nails required).",
+        "es": "Baja y usa un tablón en la pared dañada (se requieren 3 tablones, 12 clavos)."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Aurel. (opciones de chat: 4 What should I do now? • 5 Ok, thanks.)",
+        "es": "Habla con Aurel. (opciones de chat: 4 What should I do now? • 5 Ok, thanks.)"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Fill the box with supplies: 10 bronze hatchet, 3 tinderbox and 10 raw mackerel or raw snails (depending on what Aurel asked for. Check the in game quest journal if you forget).",
+        "es": "Llena la caja con suministros: 10 hachas de bronce, 3 yesqueros y 10 caballas crudas o caracoles crudos (según lo que Aurel haya pedido. Consulta el diario de misiones del juego si lo olvidas)."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Return the crate to Aurel.",
+        "es": "Devuelve el cajón a Aurel."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Cornelius in the bank. (opciones de chat: 4 What should I do now? • 5 Ok, thanks.)",
+        "es": "Habla con Cornelius en el banco. (opciones de chat: 4 What should I do now? • 5 Ok, thanks.)"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Use 2 planks on the bank booth covered in broken glass while holding 1 swamp paste and 8 nails (any kind).",
+        "es": "Usa 2 tablones en el mostrador del banco cubierto de cristales rotos mientras llevas 1 pasta de pantano y 8 clavos (de cualquier tipo)."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Use 3 planks and 12 nails on the wall behind it.",
+        "es": "Usa 3 tablones y 12 clavos en la pared detrás de él."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Cornelius. (opciones de chat: 4 What should I do now? • 3 Do you fancy the job?)",
+        "es": "Habla con Cornelius. (opciones de chat: 4 What should I do now? • 3 Do you fancy the job?)"
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Talk to any villager. (opciones de chat: 4 What should I do now? • 5 Ok, thanks.)",
+        "es": "Habla con cualquier aldeano. (opciones de chat: 4 What should I do now? • 5 Ok, thanks.)"
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Use two steel bars and a piece of coal on the furnace to the east.",
+        "es": "Usa dos barras de acero y un trozo de carbón en el horno hacia el este."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Search the furnace to light it. (opciones de chat: 1 yes)",
+        "es": "Registra el horno para encenderlo. (opciones de chat: 1 yes)"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Gadderanks in the general store.",
+        "es": "Habla con Gadderanks en la tienda general."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Talk to everyone else in the general store but Aurel.",
+        "es": "Habla con todos los demás en la tienda general excepto Aurel."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Kill Gadderanks and the vampyres. (The vampyres can only be damaged by a silver melee weapon)",
+        "es": "Mata a Gadderanks y a los vampyres. (Los vampyres solo pueden recibir daño con un arma cuerpo a cuerpo de plata)"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Gadderanks.",
+        "es": "Habla con Gadderanks."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Veliaf.",
+        "es": "Habla con Veliaf."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Veliaf in the Canifis hideout (Take Melee Gear and Sickle). (opciones de chat: 5 Ok, thanks.)",
+        "es": "Habla con Veliaf en el escondite de Canifis (lleva equipo de melé y una hoz). (opciones de chat: 5 Ok, thanks.)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Dismiss your followers if you have any.",
+        "es": "Despide a tus seguidores si tienes alguno."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Polmafi then Radigad then Ivan.",
+        "es": "Habla con Polmafi, luego con Radigad y luego con Ivan."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Route 1 is generally easier:",
+        "es": "La ruta 1 suele ser más fácil:"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Kill the vampyres.",
+        "es": "Mata a los vampyres."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Enter the Mausoleum west of Canifis and talk to Drezel until he gives you a key. (opciones de chat: 2 I found out some things about Efaritay.) then (opciones de chat: 1 Veliaf told me about Ivandis. • 4 Is there somewhere that I might get more information about Ivandis? • 3 The lives of those pitiful few left in Morytania could rest on this!)",
+        "es": "Entra en el Mausoleum al oeste de Canifis y habla con Drezel hasta que te dé una llave. (opciones de chat: 2 I found out some things about Efaritay.) luego (opciones de chat: 1 Veliaf told me about Ivandis. • 4 Is there somewhere that I might get more information about Ivandis? • 3 The lives of those pitiful few left in Morytania could rest on this!)"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Use the key on the east wall, then climb the secret trapdoor.",
+        "es": "Usa la llave en la pared este, luego sube por la trampilla secreta."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Find and read the book titled 'The Sleeping Seven' on the westernmost middle-bookcase.",
+        "es": "Encuentra y lee el libro titulado 'The Sleeping Seven' en la estantería central más occidental."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Return to Canifis and enter the trapdoor south of the pub.",
+        "es": "Regresa a Canifis y entra por la trampilla al sur del pub."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Leave the pub cellar via the south wall and smash the wooden boards on the eastern wall.",
+        "es": "Sal del sótano del pub por la pared sur y rompe las tablas de madera en la pared este."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Enter and use soft clay on the tomb, then add the rod clay mould to your tool belt.",
+        "es": "Entra y usa arcilla blanda en la tumba, luego añade el molde de arcilla para la varilla a tu cinturón de herramientas."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Smelt a silvthril rod at any furnace (under the Silver Casting section).",
+        "es": "Funde una varilla de silvthril en cualquier horno (en la sección de Fundición de Plata)."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Enchant it using the Lvl-1 Enchant spell.",
+        "es": "Encántala usando el hechizo Enchant de nivel 1."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "With a rope and the enchanted rod in your inventory, return to Drezel, located underground in the mausoleum west of Paterdomus.",
+        "es": "Con una cuerda y la varilla encantada en tu inventario, regresa con Drezel, que se encuentra bajo tierra en el mausoleo al oeste de Paterdomus."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Use the rod on the well in the room west of Drezel to receive the rod of ivandis.",
+        "es": "Usa la varilla en el pozo de la sala al oeste de Drezel para recibir el rod of ivandis."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Go back to Burgh de Rott, and go to the cellar in the pub where you previously cleared the rubble.",
+        "es": "Regresa a Burgh de Rott y ve al sótano del pub donde antes despejaste los escombros."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Veliaf. (opciones de chat: 1 I have brought you the Rod of Ivandis! • 1 Yes, I've come to give the Rod of Ivandis to you!)",
+        "es": "Habla con Veliaf. (opciones de chat: 1 I have brought you the Rod of Ivandis! • 1 Yes, I've come to give the Rod of Ivandis to you!)"
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

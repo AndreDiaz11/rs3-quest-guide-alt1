@@ -1,0 +1,554 @@
+{
+  "id": "elemental-workshop-iv",
+  "title": "Elemental Workshop IV",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:14:05.293Z",
+  "icon": "https://runescape.wiki/images/Elemental_Workshop_IV_icon.png",
+  "series": "Elemental Workshop",
+  "age": "ambiguous",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "40-49",
+  "difficulty": "Intermediate",
+  "length": "Long",
+  "releaseDate": "1 March 2011",
+  "startPoint": {
+    "en": "Search the bookcase on the ground floor[UK]1st floor[US] of the Sorcerer's Tower.",
+    "es": "Busca la estantería en la planta baja[UK]1ª planta[US] de la Sorcerer's Tower."
+  },
+  "requirements": {
+    "quests": [
+      "Elemental Workshop III",
+      "Elemental Workshop II",
+      "Elemental Workshop I"
+    ],
+    "skills": [
+      {
+        "skill": "Crafting",
+        "level": 41
+      },
+      {
+        "skill": "Defence",
+        "level": 40
+      },
+      {
+        "skill": "Runecrafting",
+        "level": 39
+      },
+      {
+        "skill": "Smithing",
+        "level": 42
+      },
+      {
+        "skill": "Thieving",
+        "level": 39
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Water rune",
+      "display": "About 5 each of water, earth, air and fire runes. (Only 1 of each will be used in the final riddle)",
+      "image": "https://runescape.wiki/images/thumb/Water_rune_detail.png/100px-Water_rune_detail.png?e14c8"
+    },
+    {
+      "name": "Knife",
+      "display": "A knife (knife on your tool belt won't work; can be obtained during quest)",
+      "image": "https://runescape.wiki/images/thumb/Knife_detail.png/100px-Knife_detail.png?a8540"
+    },
+    {
+      "name": "Elemental ore",
+      "display": "2 pieces of elemental ore to complete the quest, or 7 if you want the full chaos equipment set (obtainable during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Elemental_ore_detail.png/100px-Elemental_ore_detail.png?01bda"
+    },
+    {
+      "name": "Coal",
+      "display": "8 pieces of coal (or 28 for the full set of chaos equipment; must be carried and cannot be noted or stored in an ore box)",
+      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    }
+  ],
+  "kills": [
+    "2 earth elementals (level 44) (for making the bars)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 9000,
+      "display": "9,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Runecrafting",
+      "amount": 7500,
+      "display": "7,500 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Coal",
+      "display": "50 pieces of coal (noted)",
+      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    },
+    {
+      "type": "item",
+      "name": "Cosmic equipment",
+      "display": "Ability to make and equip elemental cosmic equipment, and chaos equipment.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ability to make boots and gloves from all known elemental metals.",
+      "display": "Ability to make boots and gloves from all known elemental metals.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Logical Progression",
+      "display": "Logical Progression - In the cosmic and chaos rooms.",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Search the north bookcase on the of the Sorcerer's Tower to find a notched book.",
+        "es": "Busca la estantería norte de la Sorcerer's Tower para encontrar un libro con muescas."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Read the book completely. (8 pages).",
+        "es": "Lee el libro por completo (8 páginas)."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Pick up the knife on the ground next to you in the Sorcerer's Tower then head to the anvil near the bank in Seers' Village.",
+        "es": "Recoge el cuchillo del suelo, junto a ti, en la Sorcerer's Tower y luego dirígete al yunque cerca del banco en Seers' Village."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Use a knife on the whetstone in the building of the Elemental Workshop, west of the bank, to receive a keyblade.",
+        "es": "Usa un cuchillo en la piedra de afilar del edificio del Elemental Workshop, al oeste del banco, para obtener una keyblade."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Head down into the workshop.",
+        "es": "Baja al taller."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Make 2 primed bars in the same way you did in the previous Elemental Workshop quests.",
+        "es": "Fabrica 2 barras preparadas de la misma forma en que lo hiciste en las misiones anteriores de Elemental Workshop."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "Optional: Make 5 more if you want a full set.",
+        "es": "Opcional: fabrica 5 más si quieres un conjunto completo."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Head to the basement.",
+        "es": "Dirígete al sótano."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Use the keyblade on the southern door.",
+        "es": "Usa la keyblade en la puerta sur."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Head through the door and east to the pillar room via the cosmic door (dismiss any followers).",
+        "es": "Atraviesa la puerta y ve al este, a la sala de los pilares, a través de la puerta cósmica (despide a cualquier familiar que tengas)."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Solve the first puzzle (solution pictured below).",
+        "es": "Resuelve el primer puzle (solución en la imagen de abajo)."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "Place the runes into the correct emitter locations.",
+        "es": "Coloca las runas en las ubicaciones correctas de los emisores."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 1,
+      "text": {
+        "en": "Operate the control panel south-east.",
+        "es": "Opera el panel de control al sureste."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "Rotate the pillars using the controls interface (bottom right).",
+        "es": "Gira los pilares usando la interfaz de controles (abajo a la derecha)."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 2,
+      "text": {
+        "en": "Pressing the circle on the control interface grid rotates the pillar. They have to match with the picture shown below.",
+        "es": "Al pulsar el círculo en la cuadrícula de la interfaz de control, el pilar gira. Deben coincidir con la imagen mostrada abajo."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 1,
+      "text": {
+        "en": "Press \"Power Up\".",
+        "es": "Pulsa \"Power Up\"."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Solve the second and third puzzles.",
+        "es": "Resuelve el segundo y el tercer puzle."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "Adjust the height of the emitters using the same control panel.",
+        "es": "Ajusta la altura de los emisores usando el mismo panel de control."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Operate the draining machine in the south-east corner of the room.",
+        "es": "Opera la máquina de drenaje en la esquina sureste de la sala."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, use a primed bar on the Machine directly south of the control panel.",
+        "es": "Después de la escena cinemática, usa una barra preparada en la máquina situada justo al sur del panel de control."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Correct the pillar that has changed position.",
+        "es": "Corrige el pilar que ha cambiado de posición."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Power up the control panel again.",
+        "es": "Vuelve a activar el panel de control."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Operate the draining machine.",
+        "es": "Opera la máquina de drenaje."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "Note: you might need to drink a dose of restoration potion (operating this machine drains your Runecrafting level).",
+        "es": "Nota: puede que necesites beber una dosis de poción de restauración (operar esta máquina drena tu nivel de Creación de runas)."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Take the cosmic bar.",
+        "es": "Coge la barra cósmica."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Head upstairs to the workbench to make cosmic gloves. You can log out and log back in to quickly be placed back in the first room of the Elemental Workshop.",
+        "es": "Sube a la mesa de trabajo para fabricar los guantes cósmicos. Puedes desconectarte y volver a conectarte para regresar rápidamente a la primera sala del Elemental Workshop."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Head back downstairs into the newly-opened chaos room.",
+        "es": "Vuelve a bajar a la sala del caos recién abierta."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Take the shabby book from the table in the north-west corner. Read it and keep it in your inventory during the quest.",
+        "es": "Coge el libro desgastado de la mesa en la esquina noroeste. Léelo y guárdalo en tu inventario durante la misión."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Operate the CPU (using the 6 levers) and input the following commands in order:",
+        "es": "Opera la CPU (usando las 6 palancas) e introduce los siguientes comandos en orden:"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "Get + Nature (Automoton should grab cube from shelf)",
+        "es": "Get + Nature (el Automaton debería coger un cubo de la estantería)"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "Put + Mind (this puts whatever he is holding onto the machine)",
+        "es": "Put + Mind (esto coloca lo que esté sosteniendo en la máquina)"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "Get + Cosmic",
+        "es": "Get + Cosmic"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "Put + Mind",
+        "es": "Put + Mind"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "Break + Law (Automoton breaks down wall to blank tokens)",
+        "es": "Break + Law (el Automaton rompe la pared para obtener fichas en blanco)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "Get + Fire (Automoton picks up a blank token)",
+        "es": "Get + Fire (el Automaton coge una ficha en blanco)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "Put + Water (Automoton put a blank token on the workbench)",
+        "es": "Put + Water (el Automaton coloca una ficha en blanco en la mesa de trabajo)"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Go to the workbench and carve the token.",
+        "es": "Ve a la mesa de trabajo y talla la ficha."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Take the new astral token and use it on the broken astral token to replace it.",
+        "es": "Coge la nueva ficha astral y úsala en la ficha astral rota para reemplazarla."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Return to the levers and continue with commands:",
+        "es": "Vuelve a las palancas y continúa con los comandos:"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 1,
+      "text": {
+        "en": "Get + Body",
+        "es": "Get + Body"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 1,
+      "text": {
+        "en": "Put + Mind (Automoton puts the cube with the astral rune on it onto the conveyor belt)",
+        "es": "Put + Mind (el Automaton coloca el cubo con la runa astral en la cinta transportadora)"
+      }
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "text": {
+        "en": "Get + Astral",
+        "es": "Get + Astral"
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "Put + Mind",
+        "es": "Put + Mind"
+      }
+    },
+    {
+      "index": 43,
+      "indent": 1,
+      "text": {
+        "en": "Break + Earth (Automoton breaks the second wall, then turn the chaos machine on)",
+        "es": "Break + Earth (el Automaton rompe la segunda pared, luego enciende la máquina del caos)"
+      }
+    },
+    {
+      "index": 44,
+      "indent": 1,
+      "text": {
+        "en": "Operate + Chaos (Automoton turns the chaos machine on)",
+        "es": "Operate + Chaos (el Automaton enciende la máquina del caos)"
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Equip your cosmic gloves.",
+        "es": "Equípate los guantes cósmicos."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Use a primed bar on the machine, in the room with the Automaton.",
+        "es": "Usa una barra preparada en la máquina, en la sala con el Automaton."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Operate the draining machine (drains Thieving level).",
+        "es": "Opera la máquina de drenaje (drena el nivel de Robo)."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "text": {
+        "en": "Requires level 39 Thieving. Use Super restore if needed.",
+        "es": "Requiere nivel 39 de Robo. Usa una poción de superrestauración si es necesario."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "If it says \"machine unpowered\" input \"Operate + Chaos\" again then try again.",
+        "es": "Si aparece el mensaje \"machine unpowered\", introduce \"Operate + Chaos\" de nuevo y vuelve a intentarlo."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Take the chaos bar.",
+        "es": "Coge la barra del caos."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "text": {
+        "en": "Optional: repeat the last 3 steps for each primed bar if you want to make more chaos pieces.",
+        "es": "Opcional: repite los últimos 3 pasos por cada barra preparada si quieres fabricar más piezas de caos."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Head upstairs to a workbench to make chaos boots. Lobbying will automatically put you right next to the anvil.",
+        "es": "Sube a una mesa de trabajo para fabricar las botas del caos. Al reconectarte, te colocará automáticamente justo al lado del yunque."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

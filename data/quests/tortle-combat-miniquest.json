@@ -1,0 +1,307 @@
+{
+  "id": "tortle-combat-miniquest",
+  "title": "Tortle Combat (miniquest)",
+  "isMiniquest": true,
+  "guideLastUpdated": "2026-07-04T02:24:31.190Z",
+  "icon": "https://runescape.wiki/images/Tortle_Combat_%28miniquest%29_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "1 February 2021",
+  "startPoint": {
+    "en": "Talk to Postie Pete-za by the entrance to the Varrock Sewers.",
+    "es": "Habla con Postie Pete-za junto a la entrada de las Varrock Sewers."
+  },
+  "requirements": {
+    "quests": [
+      "Player-owned farm tutorial"
+    ],
+    "skills": [
+      {
+        "skill": "Construction",
+        "level": 40
+      },
+      {
+        "skill": "Farming",
+        "level": 17
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Plank",
+      "display": "16 planks (other types of planks will not work; can be inside a plank box)",
+      "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
+    },
+    {
+      "name": "Iron nails",
+      "display": "60 iron nails (higher level nails will not work)",
+      "image": "https://runescape.wiki/images/thumb/Iron_nails_detail.png/100px-Iron_nails_detail.png?4eb81"
+    },
+    {
+      "name": "Empty sack",
+      "display": "Empty sack",
+      "image": "https://runescape.wiki/images/thumb/Empty_sack_detail.png/100px-Empty_sack_detail.png?2d921"
+    },
+    {
+      "name": "Bucket of sand",
+      "display": "2 buckets of sand",
+      "image": "https://runescape.wiki/images/thumb/Bucket_of_sand_detail.png/100px-Bucket_of_sand_detail.png?853e8"
+    },
+    {
+      "name": "Rope",
+      "display": "3 ropes",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    },
+    {
+      "name": "Common brown rabbit",
+      "display": "Adult or elder common brown rabbit",
+      "image": "https://runescape.wiki/images/thumb/Common_brown_rabbit_detail.png/100px-Common_brown_rabbit_detail.png?3cd90"
+    },
+    {
+      "name": "Dense honeycomb",
+      "display": "Dense honeycomb",
+      "image": "https://runescape.wiki/images/thumb/Dense_honeycomb_detail.png/100px-Dense_honeycomb_detail.png?3238c"
+    },
+    {
+      "name": "Kebab",
+      "display": "Kebab",
+      "image": "https://runescape.wiki/images/thumb/Kebab_detail.png/100px-Kebab_detail.png?bf1b1"
+    },
+    {
+      "name": "Law rune",
+      "display": "2 law runes",
+      "image": "https://runescape.wiki/images/thumb/Law_rune_detail.png/100px-Law_rune_detail.png?425e6"
+    },
+    {
+      "name": "Soft clay",
+      "display": "Soft clay",
+      "image": "https://runescape.wiki/images/thumb/Soft_clay_detail.png/100px-Soft_clay_detail.png?85203"
+    },
+    {
+      "name": "1 empty inventory space",
+      "display": "1 empty inventory space",
+      "image": null
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "item",
+      "name": "Tortle lamp of construction",
+      "display": "Tortle lamp of construction, which gives 10,000 Construction XP",
+      "image": "https://runescape.wiki/images/thumb/Tortle_lamp_of_construction_detail.png/100px-Tortle_lamp_of_construction_detail.png?dfd60"
+    },
+    {
+      "type": "item",
+      "name": "Tortle lamp of farming",
+      "display": "Tortle lamp of farming, which gives 1,000 Farming XP",
+      "image": "https://runescape.wiki/images/thumb/Tortle_lamp_of_farming_detail.png/100px-Tortle_lamp_of_farming_detail.png?e9cdc"
+    },
+    {
+      "type": "item",
+      "name": "Tortle lamp of magic",
+      "display": "Tortle lamp of magic, which gives 1,000 Magic XP",
+      "image": "https://runescape.wiki/images/thumb/Tortle_lamp_of_magic_detail.png/100px-Tortle_lamp_of_magic_detail.png?32c8a"
+    },
+    {
+      "type": "item",
+      "name": "Ninja Tortle Hood",
+      "display": "Ninja Tortle Hood cosmetic override",
+      "image": "https://runescape.wiki/images/thumb/Ninja_Tortle_Hood_chathead.png/100px-Ninja_Tortle_Hood_chathead.png?a65a0"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Postie Pete-za by the entrance to Varrock Sewers with at least 1 free inventory space. (opciones de chat: Accept)",
+        "es": "Habla con Postie Pete-za junto a la entrada de Varrock Sewers con al menos 1 espacio libre en el inventario. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Open the manhole and enter the Varrock Sewers.",
+        "es": "Abre la alcantarilla y entra en las Varrock Sewers."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Go east and squeeze through the pipe.",
+        "es": "Ve al este y pasa a través de la tubería."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Wolfgang on the bridge. (opciones de chat: 4 What will you do now? • 1 Yes)",
+        "es": "Habla con Wolfgang en el puente. (opciones de chat: 4 ¿Qué harás ahora? • 1 Sí)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Varrock estate agent. He is located in a building just north of the sewer entrance. (opciones de chat: 1 Tortle Combat.)",
+        "es": "Habla con el agente inmobiliario de Varrock. Se encuentra en un edificio justo al norte de la entrada de la alcantarilla. (opciones de chat: 1 Tortle Combat.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Return to Wolfgang. (opciones de chat: 1 You should probably stop sending rats to the estate agent.)",
+        "es": "Vuelve con Wolfgang. (opciones de chat: 1 Probablemente deberías dejar de enviar ratas al agente inmobiliario.)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Build the equipment around the area with the 16 planks, 2 buckets of sand, 1 empty sack, 3 ropes, and 60 iron nails.",
+        "es": "Construye el equipamiento en la zona con las 16 tablas, 2 cubos de arena, 1 saco vacío, 3 cuerdas y 60 clavos de hierro."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Wolfgang. (opciones de chat: 1 I have constructed all your equipment!)",
+        "es": "Habla con Wolfgang. (opciones de chat: 1 ¡He construido todo tu equipamiento!)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Gustav to the north of Wolfgang.",
+        "es": "Habla con Gustav, al norte de Wolfgang."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Granny Potterington at Manor Farm with a kebab and Dense honeycomb in your inventory. (opciones de chat: 1 [Ask about Tortle Combat.])",
+        "es": "Habla con Granny Potterington en Manor Farm con un kebab y un panal denso en el inventario. (opciones de chat: 1 [Preguntar sobre Tortle Combat.])"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Use the extremely dense honeycomb on your adult or elder common brown rabbit.",
+        "es": "Usa el panal extremadamente denso en tu conejo marrón común adulto o anciano."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Bring Gustav the soft clay, 2 law runes and the plump rabbit.",
+        "es": "Llévale a Gustav la arcilla blanda, 2 law runes y el conejo rollizo."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Edvard to the south.",
+        "es": "Habla con Edvard, al sur."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Wolfgang.",
+        "es": "Habla con Wolfgang."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Johann to the southwest.",
+        "es": "Habla con Johann, al suroeste."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Hofuthand at the west side of Grand Exchange. (opciones de chat: 1 [Tortle Combat.])",
+        "es": "Habla con Hofuthand en el lado oeste del Grand Exchange. (opciones de chat: 1 [Tortle Combat.])"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Return to Johann.",
+        "es": "Vuelve con Johann."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "You will then need to give each tortle its correct weapon.",
+        "es": "A continuación, tendrás que darle a cada tortle su arma correcta."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "Gustav. (opciones de chat: 1 Give Gustav a weapon • 5 Dwarven army axe)",
+        "es": "Gustav. (opciones de chat: 1 Dar un arma a Gustav • 5 Dwarven army axe)"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "Johann. (opciones de chat: 1 Give Johann a weapon • 4 Old rake handle)",
+        "es": "Johann. (opciones de chat: 1 Dar un arma a Johann • 4 Old rake handle)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 1,
+      "text": {
+        "en": "\"Weird\" Alfred. (northeast) (opciones de chat: 1 Give \"Weird\" Alfred a weapon • 8 Rabid chinchompa)",
+        "es": "\"Weird\" Alfred. (noreste) (opciones de chat: 1 Dar un arma a \"Weird\" Alfred • 8 Rabid chinchompa)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 1,
+      "text": {
+        "en": "Wolfgang. (opciones de chat: 1 Give Wolfgang a weapon • 1 Mismatched set of cutlery)",
+        "es": "Wolfgang. (opciones de chat: 1 Dar un arma a Wolfgang • 1 Mismatched set of cutlery)"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Wolfgang, wait for the cutscene, and then talk with him again",
+        "es": "Habla con Wolfgang, espera a que termine la escena, y luego habla con él de nuevo"
+      }
+    }
+  ]
+}

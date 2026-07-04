@@ -1,0 +1,166 @@
+{
+  "id": "recipe-for-disaster-freeing-the-lumbridge-sage",
+  "title": "Recipe for Disaster: Freeing the Lumbridge Sage",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:07:41.436Z",
+  "icon": "https://runescape.wiki/images/Lumbridge_Sage_icon.png",
+  "length": "Short",
+  "startPoint": {
+    "en": "Inspect the Lumbridge Sage in the banquet hall in Lumbridge Castle.",
+    "es": "Inspecciona al Lumbridge Sage en el salón de banquetes del Lumbridge Castle."
+  },
+  "requirements": {
+    "quests": [
+      "Recipe for Disaster: Another Cook's Quest",
+      "Cook's Assistant"
+    ],
+    "skills": [
+      {
+        "skill": "Cooking",
+        "level": 40
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Bucket of milk",
+      "display": "Bucket of milk",
+      "image": "https://runescape.wiki/images/thumb/Bucket_of_milk_detail.png/100px-Bucket_of_milk_detail.png?932e9"
+    },
+    {
+      "name": "Egg",
+      "display": "Egg",
+      "image": "https://runescape.wiki/images/thumb/Egg_detail.png/100px-Egg_detail.png?8da89"
+    },
+    {
+      "name": "Pot of flour",
+      "display": "Pot of flour",
+      "image": "https://runescape.wiki/images/thumb/Pot_of_flour_detail.png/100px-Pot_of_flour_detail.png?5e6af"
+    },
+    {
+      "name": "Cake tin",
+      "display": "Cake tin",
+      "image": "https://runescape.wiki/images/thumb/Cake_tin_detail.png/100px-Cake_tin_detail.png?8d85e"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Cooking",
+      "amount": 2500,
+      "display": "2,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 2500,
+      "display": "2,500 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Culinaromancer's chest",
+      "display": "(Further) access to the Culinaromancer's chest",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Mastermindless",
+      "display": "Mastermindless",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the Lumbridge Sage. (opciones de chat: 1 Yes, I'm sure I can make a cake.)",
+        "es": "Inspecciona al Lumbridge Sage. (opciones de chat: 1 Sí, seguro que puedo hacer una tarta.)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Head to the of the Wizards' Tower and talk to Wizard Traiborn who is west of the beam. (opciones de chat: 1 [Ask about the Lumbridge Sage.])",
+        "es": "Dirígete a la Wizards' Tower y habla con Wizard Traiborn, que está al oeste del rayo. (opciones de chat: 1 [Preguntar sobre el Lumbridge Sage.])"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Traiborn again for the first quiz. (opciones de chat: 1 [Ask about the Lumbridge Sage.] • 1 Ok. Let's Start!)",
+        "es": "Habla de nuevo con Traiborn para el primer cuestionario. (opciones de chat: 1 [Preguntar sobre el Lumbridge Sage.] • 1 Vale. ¡Empecemos!)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Traiborn again for the second quiz. (opciones de chat: 1 [Ask about the Lumbridge Sage.] • 1 Ok. I'm ready!)",
+        "es": "Habla de nuevo con Traiborn para el segundo cuestionario. (opciones de chat: 1 [Preguntar sobre el Lumbridge Sage.] • 1 Vale. ¡Estoy listo!)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Traiborn for the final quiz. (opciones de chat: 1 [Ask about the Lumbridge Sage.] • 1 Quiz me!)",
+        "es": "Habla con Traiborn para el cuestionario final. (opciones de chat: 1 [Preguntar sobre el Lumbridge Sage.] • 1 ¡Pregúntame!)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "After completing his final quiz, you receive an enchanted egg, a bucket of enchanted milk and pot of enchanted flour.",
+        "es": "Tras completar su último cuestionario, recibirás un huevo encantado, un cubo de leche encantada y una olla de harina encantada."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Use any of the raw ingredients on a cake tin.",
+        "es": "Usa cualquiera de los ingredientes en crudo en un cake tin."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Bake the raw guide cake on a range.",
+        "es": "Hornea la raw guide cake en un horno."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Use the cake of guidance on the Lumbridge Sage back in Lumbridge.",
+        "es": "Usa la cake of guidance en el Lumbridge Sage de vuelta en Lumbridge."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Subquest complete!",
+        "es": "¡Submisión completada!"
+      }
+    }
+  ]
+}

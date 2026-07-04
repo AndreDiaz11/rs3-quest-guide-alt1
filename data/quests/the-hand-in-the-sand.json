@@ -1,0 +1,343 @@
+{
+  "id": "the-hand-in-the-sand",
+  "title": "The Hand in the Sand",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:26:06.724Z",
+  "icon": "https://runescape.wiki/images/The_Hand_in_the_Sand_icon.png",
+  "series": null,
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "10 January 2006",
+  "startPoint": {
+    "en": "Talk to Bert in Yanille near the sandpit.",
+    "es": "Habla con Bert en Yanille, cerca del arenal."
+  },
+  "requirements": {
+    "quests": [
+      "The Hand in the Sand"
+    ],
+    "skills": [
+      {
+        "skill": "Crafting",
+        "level": 49
+      },
+      {
+        "skill": "Thieving",
+        "level": 17
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Beer",
+      "display": "A regular beer (or 2 coins to buy one at the Dragon Inn in Yanille)",
+      "image": "https://runescape.wiki/images/thumb/Beer_detail.png/100px-Beer_detail.png?047f1"
+    },
+    {
+      "name": "Bucket of sand",
+      "display": "A bucket of sand or bucket (can fill with sand during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Bucket_of_sand_detail.png/100px-Bucket_of_sand_detail.png?853e8"
+    },
+    {
+      "name": "Lantern lens",
+      "display": "A lantern lens (the lens from an Emerald lantern won't work)",
+      "image": "https://runescape.wiki/images/thumb/Lantern_lens_detail.png/100px-Lantern_lens_detail.png?6eda3"
+    },
+    {
+      "name": "Earth rune",
+      "display": "Five earth runes",
+      "image": "https://runescape.wiki/images/thumb/Earth_rune_detail.png/100px-Earth_rune_detail.png?fa918"
+    },
+    {
+      "name": "Vial",
+      "display": "An empty vial (bring two if you want to be teleported to Port Sarim to get the Truth serum).",
+      "image": "https://runescape.wiki/images/thumb/Vial_detail.png/100px-Vial_detail.png?82ee9"
+    },
+    {
+      "name": "Redberries",
+      "display": "Redberries (1)",
+      "image": "https://runescape.wiki/images/thumb/Redberries_detail.png/100px-Redberries_detail.png?281af"
+    },
+    {
+      "name": "White berries",
+      "display": "White berries (1)",
+      "image": "https://runescape.wiki/images/thumb/White_berries_detail.png/100px-White_berries_detail.png?d4357"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Thieving",
+      "amount": 1000,
+      "display": "1,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 9000,
+      "display": "9,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Pink dye",
+      "display": "Able to buy pink dye from Betty",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Bert",
+      "display": "Bert will ship 294 buckets of sand to your bank if you talk to him after the quest. This can be done once per week. Clicking on the quest's name will give you the time left before you can ask him again. This number is increased to 420 after completing the Elite Ardougne achievements.",
+      "image": "https://runescape.wiki/images/thumb/Bert.png/100px-Bert.png?53a03"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bert in the building near Yanille's house portal. (opciones de chat: 2 Eww a hand, in the sand! Why haven't you told the authorities? • Accept)",
+        "es": "Habla con Bert en el edificio cercano al portal de la casa de Yanille. (opciones de chat: 2 Puaj, ¡una mano en la arena! ¿Por qué no se lo has dicho a las autoridades? • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 1,
+      "text": {
+        "en": "If you need a bucket of sand, there is a sand pit directly north of the house portal that you may fill your bucket at for later in the quest.",
+        "es": "Si necesitas un cubo de arena, hay un arenal justo al norte del portal de la casa donde puedes llenar tu cubo para más adelante en la misión."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Give the Guard Captain in the nearby pub a beer.",
+        "es": "Dale una cerveza al Guard Captain en la taberna cercana."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Go east to the Wizards' Guild and ring the bell on the eastern side of the building. (opciones de chat: 2 I have a rather sandy problem that I'd like to palm off on you.)",
+        "es": "Ve al este, al Wizards' Guild, y toca la campana en el lado este del edificio. (opciones de chat: 2 Tengo un problema bastante arenoso que me gustaría endosarte.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 1,
+      "text": {
+        "en": "If you have at least 66 Magic, you can enter the guild and go upstairs to find Zavistic Rarve, rather than calling him to the front door.",
+        "es": "Si tienes al menos 66 de Magia, puedes entrar en el gremio y subir para encontrar a Zavistic Rarve, en lugar de llamarlo a la puerta principal."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Return to Bert and speak to him to receive Bert's rota.",
+        "es": "Vuelve con Bert y habla con él para recibir el horario de Bert."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Go to Brimhaven and find Sandy in a small house between the Dead Man's Chest and The Shrimp and Parrot.",
+        "es": "Ve a Brimhaven y busca a Sandy en una pequeña casa entre el Dead Man's Chest y el The Shrimp and Parrot."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Search his desk to receive Sandy's rota.",
+        "es": "Registra su escritorio para recibir el horario de Sandy."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Pickpocket Sandy for some sand (may take several attempts, bucket of sand does not count).",
+        "es": "Roba a Sandy para conseguir algo de arena (puede requerir varios intentos, el cubo de arena no cuenta)."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Return to Bert and talk to him.",
+        "es": "Vuelve con Bert y habla con él."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Ring the Wizards' Guild bell and talk to Zavistic Rarve again to receive a magical orb. (opciones de chat: 2 I have a rather sandy problem that I'd like to palm off on you.)",
+        "es": "Toca la campana del Wizards' Guild y habla de nuevo con Zavistic Rarve para recibir un orbe mágico. (opciones de chat: 2 Tengo un problema bastante arenoso que me gustaría endosarte.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "If you have a second empty vial you can teleport to Port Sarim's magic shop by talking to Zavistic Rarve again and give him an empty vial. (opciones de chat: 2 I have a rather sandy problem that I'd like to palm off on you. • 4 Can you help me more?. • 1 Okay)",
+        "es": "Si tienes un segundo vial vacío, puedes teletransportarte a la tienda de magia de Port Sarim hablando de nuevo con Zavistic Rarve y dándole un vial vacío. (opciones de chat: 2 Tengo un problema bastante arenoso que me gustaría endosarte. • 4 ¿Puedes ayudarme más? • 1 Vale)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "In Port Sarim's magic shop, talk to Betty. (opciones de chat: 1 Talk to Betty about The Hand in the Sand.)",
+        "es": "En la tienda de magia de Port Sarim, habla con Betty. (opciones de chat: 1 Habla con Betty sobre The Hand in the Sand.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Use your redberries on the bottled water Betty gave you, then the white berries.",
+        "es": "Usa tus moras rojas en el agua embotellada que te dio Betty, y luego las bayas blancas."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Use the pink dye on your lantern lens.",
+        "es": "Usa el tinte rosa en la lente de tu linterna."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Betty again. (opciones de chat: 1 Talk to Betty about The Hand in the Sand.)",
+        "es": "Habla de nuevo con Betty. (opciones de chat: 1 Habla con Betty sobre The Hand in the Sand.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Open the door to her shop and stand in the doorway, then use your rose-tinted lens on the counter. Successfully doing so grants you a truth serum potion.",
+        "es": "Abre la puerta de su tienda y quédate de pie en el umbral, luego usa tu lente teñida de rosa en el mostrador. Si lo haces con éxito, obtendrás una poción de suero de la verdad."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Betty a third time. (opciones de chat: 1 Talk to Betty about The Hand in the Sand.)",
+        "es": "Habla con Betty por tercera vez. (opciones de chat: 1 Habla con Betty sobre The Hand in the Sand.)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Make your way back to Brimhaven.",
+        "es": "Regresa a Brimhaven."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sandy to distract him. (opciones de chat: Any) Try all three options until Sandy is distracted, this is random for each player. If this still doesn't work, lobby then log in again.",
+        "es": "Habla con Sandy para distraerlo. (opciones de chat: Cualquiera) Prueba las tres opciones hasta que Sandy se distraiga, esto es aleatorio para cada jugador. Si aun así no funciona, sal y vuelve a entrar en el juego."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Use the truth serum on the coffee mug on the table.",
+        "es": "Usa el suero de la verdad en la taza de café de la mesa."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Activate the magical orb in your backpack.",
+        "es": "Activa el orbe mágico de tu mochila."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sandy again. (opciones de chat: 1 Why is Bert's rota different from the original? • 1 Why doesn't Bert remember the change in his hours? • 1 What happened to the wizard?)",
+        "es": "Habla de nuevo con Sandy. (opciones de chat: 1 ¿Por qué el horario de Bert es diferente al original? • 1 ¿Por qué Bert no recuerda el cambio en sus horas? • 1 ¿Qué le pasó al mago?)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Head back to the Wizards Guild in Yanille and ring the bell once more. (opciones de chat: 2 I have a rather sandy problem that I'd like to palm off on you.)",
+        "es": "Vuelve al Wizards Guild en Yanille y toca la campana una vez más. (opciones de chat: 2 Tengo un problema bastante arenoso que me gustaría endosarte.)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "With your five earth runes and bucket of sand, ring the bell again for a cutscene. (opciones de chat: 2 I have a rather sandy problem that I'd like to palm off on you.)",
+        "es": "Con tus cinco runas de tierra y tu cubo de arena, toca la campana de nuevo para ver una escena. (opciones de chat: 2 Tengo un problema bastante arenoso que me gustaría endosarte.)"
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Go to the sand pit in south-west Entrana.",
+        "es": "Ve al arenal en el suroeste de Entrana."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Mazion to receive the wizard's head.",
+        "es": "Habla con Mazion para recibir la cabeza del mago."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Return to Yanille and ring the bell at Wizards Guild a final time. (opciones de chat: 2 I have a rather sandy problem that I'd like to palm off on you.)",
+        "es": "Regresa a Yanille y toca la campana del Wizards Guild una última vez. (opciones de chat: 2 Tengo un problema bastante arenoso que me gustaría endosarte.)"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "id": "elemental-workshop-ii",
+  "title": "Elemental Workshop II",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:13:22.397Z",
+  "icon": "https://runescape.wiki/images/Elemental_Workshop_II_icon.png",
+  "series": "Elemental Workshop",
+  "age": "ambiguous",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "40-49",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "2 October 2006",
+  "startPoint": {
+    "en": "Search the bookshelf in the Exam Centre in the Varrock Dig Site for an old book.",
+    "es": "Busca en la estantería del Exam Centre en el Varrock Dig Site para encontrar un libro viejo."
+  },
+  "requirements": {
+    "quests": [
+      "Elemental Workshop I"
+    ],
+    "skills": [
+      {
+        "skill": "Magic",
+        "level": 20
+      },
+      {
+        "skill": "Smithing",
+        "level": 30
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Coal",
+      "display": "8 coal (12 if you wish to also make a mind shield)",
+      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    },
+    {
+      "name": "Battered key",
+      "display": "Battered key (May be in steel key ring; can be obtained during quest)",
+      "image": "https://runescape.wiki/images/thumb/Battered_key_detail.png/100px-Battered_key_detail.png?6048a"
+    }
+  ],
+  "kills": [
+    "2-3 earth elementals (level 44)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 7500,
+      "display": "7,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 7500,
+      "display": "7,500 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Elemental helmet",
+      "display": "Ability to make elemental helmets, mind shields, and mind helmets",
+      "image": "https://runescape.wiki/images/thumb/Elemental_helmet_detail.png/100px-Elemental_helmet_detail.png?f3a79"
+    },
+    {
+      "type": "item",
+      "name": "Prime Time (music track)",
+      "display": "Prime Time",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Exam Centre in the south of the Archaeology Campus and search the bookshelf on the eastern wall in the Exam Centre. (opciones de chat: Accept)",
+        "es": "Ve al Exam Centre al sur del Archaeology Campus y busca en la estantería de la pared este del Exam Centre. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 1,
+      "text": {
+        "en": "Use Archaeology journal to teleport to the Archaeology Campus just north of the Exam Centre.",
+        "es": "Usa el diario de Arqueología para teletransportarte al Archaeology Campus justo al norte del Exam Centre."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "If you end up with Varmen's notes, you searched the wrong bookshelf.",
+        "es": "Si terminas con las notas de Varmen, buscaste en la estantería equivocada."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Read the scroll inside the beaten book and keep the book.",
+        "es": "Lee el pergamino que hay dentro del libro maltrecho y quédate con el libro."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Head to the building with an anvil west of the Seers' Village bank.",
+        "es": "Dirígete al edificio con un yunque al oeste del banco de Seers' Village."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Click on the odd-looking wall to enter it.",
+        "es": "Haz clic en la pared de aspecto extraño para entrar."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "If it says \"You see a small hole in the wall but no way to open it\", go to the building directly south and search the bookcase on the east wall for a battered key.",
+        "es": "Si aparece el mensaje \"Ves un pequeño agujero en la pared pero no hay forma de abrirlo\", ve al edificio directamente al sur y busca en la estantería de la pared este para encontrar una llave desgastada."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Go down the stairs.",
+        "es": "Baja las escaleras."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Go north to the water elemental room and search the machinery in the southwest of the room to get a key.",
+        "es": "Ve al norte, a la sala del elemental de agua, y busca en la maquinaria al suroeste de la sala para conseguir una llave."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Obtain 2 elemental ores from the west room by attempting to mine the elemental rocks, and defeating the earth elementals that spawn.",
+        "es": "Consigue 2 minerales elementales en la sala oeste intentando minar las rocas elementales y derrotando a los elementales de tierra que aparecen."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Go back to the north room (where you got the key) and pull the lever to start the water wheel (if the wheel is already turning, this step can be skipped).",
+        "es": "Vuelve a la sala norte (donde conseguiste la llave) y tira de la palanca para poner en marcha la rueda hidráulica (si la rueda ya está girando, puedes saltarte este paso)."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Go to the east room and pull the lever to start the bellows (if the bellows are already working, this step can be skipped).",
+        "es": "Ve a la sala este y tira de la palanca para poner en marcha el fuelle (si el fuelle ya está funcionando, puedes saltarte este paso)."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Smelt two elemental bars in the south room. ('Use' the ore on the furnace.)",
+        "es": "Funde dos barras elementales en la sala sur. (Usa el mineral en el horno.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Open the hatch in the middle room, and climb down it.",
+        "es": "Abre la trampilla en la sala central y baja por ella."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Take from the schematic crate south of the stairs and take both options.",
+        "es": "Coge algo del cajón de esquemas al sur de las escaleras y elige ambas opciones."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Go back up the spiral stairs and smith a crane claw on the workbench using an elemental bar.",
+        "es": "Vuelve a subir por las escaleras de caracol y forja una garra de grúa en el banco de trabajo usando una barra elemental."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Go back down and lower the Old crane using the lever directly next to the schematic crate.",
+        "es": "Baja de nuevo y baja la Old crane usando la palanca justo al lado del cajón de esquemas."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Use the claw on the crane to repair it.",
+        "es": "Usa la garra en la grúa para repararla."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Place an elemental bar on the jig cart.",
+        "es": "Coloca una barra elemental en el carrito de calibración."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Pull the west lever by the schematic crate.",
+        "es": "Tira de la palanca oeste junto al cajón de esquemas."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Pull the east lever.",
+        "es": "Tira de la palanca este."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Pull the west lever twice.",
+        "es": "Tira de la palanca oeste dos veces."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Pull the east lever.",
+        "es": "Tira de la palanca este."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Pull the west lever twice.",
+        "es": "Tira de la palanca oeste dos veces."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Pull the lever behind you, by the mine cart sign.",
+        "es": "Tira de la palanca detrás de ti, junto al cartel del vagón minero."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "If the lever is pulled and it says the system is not pressurised, go upstairs and activate the water wheel and bellows.",
+        "es": "Si tiras de la palanca y aparece un mensaje diciendo que el sistema no está presurizado, sube y activa la rueda hidráulica y el fuelle."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Climb the staircase in the south-west corner.",
+        "es": "Sube las escaleras de la esquina suroeste."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Move to the west side by the steam press.",
+        "es": "Muévete al lado oeste, junto a la prensa de vapor."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Open the junction box and connect the pipes by clicking on a pair of pipe holes. Refer to the solution on the right.",
+        "es": "Abre la caja de conexiones y conecta las tuberías haciendo clic en un par de agujeros de tubería. Consulta la solución a la derecha."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "Top left and bottom right.",
+        "es": "Arriba a la izquierda y abajo a la derecha."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "Top middle and top right.",
+        "es": "Arriba en el centro y arriba a la derecha."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "Bottom left and bottom middle.",
+        "es": "Abajo a la izquierda y abajo en el centro."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Go downstairs and pull the lever next to the three small pipes.",
+        "es": "Baja las escaleras y tira de la palanca junto a las tres tuberías pequeñas."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "If successful, you will get a message that the bar has been flattened.",
+        "es": "Si tiene éxito, recibirás un mensaje indicando que la barra ha sido aplanada."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Pull the lever by the mine cart sign.",
+        "es": "Tira de la palanca junto al cartel del vagón minero."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Search all of the crates in both the area with the track and the upper level with the junction box to find 3 cogs and a pipe.",
+        "es": "Busca en todos los cajones tanto en la zona con la vía como en el nivel superior con la caja de conexiones para encontrar 3 engranajes y una tubería."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Go back up the northeast platform stairs.",
+        "es": "Vuelve a subir por las escaleras de la plataforma noreste."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Go north of the water tank and 'use' the pipe item on the piping with a hole in it.",
+        "es": "Ve al norte del tanque de agua y usa el objeto tubería en la tubería que tiene un agujero."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Go back down to the water tank and pull the 'old lever' in front of the tank's door to open it.",
+        "es": "Vuelve a bajar al tanque de agua y tira de la 'palanca vieja' frente a la puerta del tanque para abrirla."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Turn the corkscrew lever (to the east) twice to load the elemental sheet into the water tank.",
+        "es": "Gira la palanca de tornillo (hacia el este) dos veces para cargar la placa elemental en el tanque de agua."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Pull the old lever to close the door.",
+        "es": "Tira de la palanca vieja para cerrar la puerta."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Turn the water valve west of the old lever to open the valve.",
+        "es": "Gira la válvula de agua al oeste de la palanca vieja para abrir la válvula."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Turn the water valve east of the old lever to raise the water level.",
+        "es": "Gira la válvula de agua al este de la palanca vieja para subir el nivel del agua."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Wait for the water to fill the tank, then turn the east valve again, to lower the water level back down.",
+        "es": "Espera a que el agua llene el tanque, luego vuelve a girar la válvula este para bajar el nivel del agua de nuevo."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Turn the water valve west of the old lever to close off the water valve.",
+        "es": "Gira la válvula de agua al oeste de la palanca vieja para cerrar la válvula."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Pull the old lever to open the door.",
+        "es": "Tira de la palanca vieja para abrir la puerta."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Turn the corkscrew twice.",
+        "es": "Gira el tornillo dos veces."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Pull the old lever to close the door.",
+        "es": "Tira de la palanca vieja para cerrar la puerta."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Pull the lever by the mine cart sign.",
+        "es": "Tira de la palanca junto al cartel del vagón minero."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Go over to the machine on the east side.",
+        "es": "Dirígete a la máquina en el lado este."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "On the side of the machine are three pins, place the cogs on the correct pins.",
+        "es": "En el lateral de la máquina hay tres clavijas; coloca los engranajes en las clavijas correctas."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "text": {
+        "en": "The small cog goes on the upper left pin, the medium cog on the lower left pin, and the large cog on the right pin.",
+        "es": "El engranaje pequeño va en la clavija superior izquierda, el mediano en la clavija inferior izquierda, y el grande en la clavija derecha."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Pull the lever just to the south to start the fan.",
+        "es": "Tira de la palanca justo al sur para poner en marcha el ventilador."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 1,
+      "text": {
+        "en": "If the message says the fan is sucking, the cogs are not on the correct pins. Turn the fan off and position the cogs correctly.",
+        "es": "Si el mensaje dice que el ventilador está aspirando, los engranajes no están en las clavijas correctas. Apaga el ventilador y coloca los engranajes correctamente."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 1,
+      "text": {
+        "en": "If the machine says \"It must be powered somewhere else\", head upstairs and make sure the water wheel to the north is rotating. If not, pull the lever near the wheel.",
+        "es": "Si la máquina dice \"Debe recibir energía desde otro lugar\", sube y asegúrate de que la rueda hidráulica al norte esté girando. Si no, tira de la palanca cerca de la rueda."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Pull the lever again.",
+        "es": "Tira de la palanca de nuevo."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Pull the lever by the mine cart sign.",
+        "es": "Tira de la palanca junto al cartel del vagón minero."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Go by the claw and pick up the primed bar.",
+        "es": "Ve junto a la garra y recoge la barra preparada."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Go down another level in the workshop (north west stairwell).",
+        "es": "Baja otro nivel en el taller (escalera noroeste)."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Enter the east door (mind door).",
+        "es": "Entra por la puerta este (cuidado con la puerta)."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Place the bar on the extractor gun. If you miss this step, you will take 10% damage by doing the next step.",
+        "es": "Coloca la barra en la pistola extractora. Si te saltas este paso, recibirás un 10% de daño al hacer el siguiente paso."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Operate the extractor hat.",
+        "es": "Acciona el sombrero extractor."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Take the bar from the extractor gun.",
+        "es": "Coge la barra de la pistola extractora."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Go back up to the top floor of the workshop.",
+        "es": "Vuelve a subir hasta el piso superior del taller."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "On the workbench, smith a mind helmet, with the beaten book in the backpack. (If you have another Elemental bar in your inventory you may have to drop it)",
+        "es": "En el banco de trabajo, forja un casco mental, con el libro maltrecho en la mochila. (Si tienes otra barra elemental en tu inventario, puede que necesites soltarla)"
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

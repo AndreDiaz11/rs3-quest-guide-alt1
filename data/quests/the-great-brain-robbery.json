@@ -1,0 +1,639 @@
+{
+  "id": "the-great-brain-robbery",
+  "title": "The Great Brain Robbery",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:24:53.697Z",
+  "icon": "https://runescape.wiki/images/The_Great_Brain_Robbery_icon.png",
+  "series": "Pirate",
+  "age": "5",
+  "timeline": "legendary",
+  "members": true,
+  "combatLevel": "90-99",
+  "difficulty": "Experienced",
+  "length": "Medium to Long",
+  "releaseDate": "6 March 2007",
+  "startPoint": {
+    "en": "Talk to Brother Tranquillity, who is located just off the docks on Mos Le'Harmless.",
+    "es": "Habla con Brother Tranquillity, que se encuentra justo al lado de los muelles en Mos Le'Harmless."
+  },
+  "requirements": {
+    "quests": [
+      "Creature of Fenkenstrain",
+      "The Restless Ghost",
+      "Morytania",
+      "Cabin Fever",
+      "Pirate's Treasure",
+      "Rum Deal",
+      "Morytania",
+      "Recipe for Disaster: Freeing Pirate Pete",
+      "Recipe for Disaster: Another Cook's Quest",
+      "Cook's Assistant"
+    ],
+    "skills": [
+      {
+        "skill": "Construction",
+        "level": 30
+      },
+      {
+        "skill": "Crafting",
+        "level": 16
+      },
+      {
+        "skill": "Prayer",
+        "level": 50
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Fishbowl helmet",
+      "display": "Fishbowl helmet and diving apparatus",
+      "image": "https://runescape.wiki/images/thumb/Fishbowl_helmet_detail.png/100px-Fishbowl_helmet_detail.png?8c963"
+    },
+    {
+      "name": "Holy symbol",
+      "display": "A holy symbol",
+      "image": "https://runescape.wiki/images/thumb/Holy_symbol_detail.png/100px-Holy_symbol_detail.png?b0f9b"
+    },
+    {
+      "name": "Ring of charos",
+      "display": "Ring of charos",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_charos_detail.png/100px-Ring_of_charos_detail.png?86930"
+    },
+    {
+      "name": "Nails",
+      "display": "38+ nails of any kind over bronze (the nails have a chance to accidentally bend, so it is recommended to bring more)",
+      "image": null
+    },
+    {
+      "name": "Wooden cat",
+      "display": "10 wooden cats Can be crafted with 10 bear fur and 10 planks (requires partial completion of quest, protean planks do not work)",
+      "image": "https://runescape.wiki/images/thumb/Wooden_cat_detail.png/100px-Wooden_cat_detail.png?b540e"
+    },
+    {
+      "name": "Bear fur",
+      "display": "Can be crafted with 10 bear fur and 10 planks (requires partial completion of quest, protean planks do not work)",
+      "image": "https://runescape.wiki/images/thumb/Bear_fur_detail.png/100px-Bear_fur_detail.png?9ccd7"
+    },
+    {
+      "name": "Plank",
+      "display": "8 regular planks (cannot be used from within plank box)",
+      "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
+    },
+    {
+      "name": "Hammer",
+      "display": "A hammer (tool belt does not work)",
+      "image": "https://runescape.wiki/images/thumb/Hammer_detail.png/100px-Hammer_detail.png?bea80"
+    },
+    {
+      "name": "Tinderbox",
+      "display": "A tinderbox (tool belt does not work, obtainable during quest)",
+      "image": "https://runescape.wiki/images/thumb/Tinderbox_detail.png/100px-Tinderbox_detail.png?14949"
+    }
+  ],
+  "kills": [
+    "5 Sorebones (level 49)",
+    "Barrelchest (level 93)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Prayer",
+      "amount": 6000,
+      "display": "6,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 3000,
+      "display": "3,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 2000,
+      "display": "2,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Skills",
+      "amount": 5000,
+      "display": "5,000 experience lamp (Skill must be level 30 or higher)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Barrelchest anchor",
+      "display": "Barrelchest anchor (If broken, use on Pirate Smith on the docks of Mos Le'Harmless, while having the Book o' piracy and 230,000 coins in your backpack)",
+      "image": "https://runescape.wiki/images/thumb/Barrelchest_anchor_detail.png/100px-Barrelchest_anchor_detail.png?854a3"
+    },
+    {
+      "type": "item",
+      "name": "Prayer book",
+      "display": "Prayer book",
+      "image": "https://runescape.wiki/images/thumb/Prayer_book_detail.png/100px-Prayer_book_detail.png?1a6f7"
+    },
+    {
+      "type": "item",
+      "name": "Harmony Island",
+      "display": "Access to Harmony Island",
+      "image": "https://runescape.wiki/images/thumb/Harmony_island.png/100px-Harmony_island.png?7a355"
+    },
+    {
+      "type": "item",
+      "name": "Brain Battle",
+      "display": "Brain Battle (When confronting Mi-Gor)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Zombiism",
+      "display": "Zombiism (On Harmony Island)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Mos Le'Harmless (fairy ring if you have repaired the bridge), walk a bit north off the dock and talk to Brother Tranquillity (if you arrived via the fairy ring, run into town and he is north of the docks). (opciones de chat: Accept)",
+        "es": "Viaja a Mos Le'Harmless (anillo de las hadas si has reparado el puente), camina un poco al norte desde el muelle y habla con Brother Tranquillity (si has llegado por el anillo de las hadas, corre hacia el pueblo y lo encontrarás al norte de los muelles). (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Bank/dismiss any pets or familiars.",
+        "es": "Guarda en el banco o despide a cualquier mascota o familiar."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Upon arrival on Harmony Island, go through the dialogue, or Brother Tranquillity will teleport you back to Mos Le'Harmless.",
+        "es": "Al llegar a Harmony Island, sigue el diálogo, o Brother Tranquillity te teletransportará de vuelta a Mos Le'Harmless."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Run outside and head slightly north to the statue. Pull the statue, then climb-down statue.",
+        "es": "Sal corriendo y dirígete un poco al norte hacia la estatua. Tira de la estatua y luego usa la opción de bajar por la estatua."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Equip your diving gear and descend the stairs.",
+        "es": "Equípate el equipo de buceo y baja las escaleras."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Run past the zombie pirates.",
+        "es": "Corre pasando a los piratas zombis."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Repair the stairs at the end of the tunnel, then climb them.",
+        "es": "Repara las escaleras al final del túnel y luego súbelas."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "If you happened to bring your planks in a plank box, be sure to remove them so you can repair the stairs.",
+        "es": "Si has traído tus tablones en una caja de tablones, asegúrate de sacarlos para poder reparar las escaleras."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Climb the ladder.",
+        "es": "Sube por la escalera de mano."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Peer-through the peephole on the wall.",
+        "es": "Mira a través de la mirilla en la pared."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Make your way back to Brother Tranquillity on Harmony Island and speak with him.",
+        "es": "Regresa junto a Brother Tranquillity en Harmony Island y habla con él."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the Edgeville Monastery.",
+        "es": "Viaja al Edgeville Monastery."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Search the southern bookcase on the of the western wing to find a prayer book.",
+        "es": "Registra la estantería sur del ala oeste para encontrar un libro de oraciones."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Read the book.",
+        "es": "Lee el libro."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Head back to Brother Tranquillity who teleports you to Harmony Island.",
+        "es": "Regresa junto a Brother Tranquillity, quien te teletransportará a Harmony Island."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Wear your holy symbol and choose the option Recite-prayer on the prayer book.",
+        "es": "Ponte tu símbolo sagrado y elige la opción Recitar oración en el libro de oraciones."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Brother Tranquillity.",
+        "es": "Habla con Brother Tranquillity."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Fenkenstrain's Castle, which is directly north-east of the Canifis lodestone.",
+        "es": "Viaja a Fenkenstrain's Castle, que está justo al noreste de la piedra de viaje de Canifis."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Go up on the staircase in the north-western corner.",
+        "es": "Sube por la escalera en la esquina noroeste."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Go up on the northern ladder behind the jail gate in the centre.",
+        "es": "Sube por la escalera de mano del norte, detrás de la puerta de la celda en el centro."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Dr Fenkenstrain.",
+        "es": "Habla con Dr Fenkenstrain."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Equip your ring of charos and talk to Rufus in the Canifis meat store. (opciones de chat: 1 Talk about the meat shipment)",
+        "es": "Equípate tu ring of charos y habla con Rufus en la carnicería de Canifis. (opciones de chat: 1 Hablar sobre el envío de carne)"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "Speak with Rufus again after the cutscene if you did not receive a wolf whistle and crate parts.",
+        "es": "Habla de nuevo con Rufus después de la escena si no recibiste un silbato para lobos y las piezas del cajón."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Start crafting on a clockmaker's bench in a player-owned house to make 10 wooden cats with 10 planks and 10 bear fur. You can also buy them off the Grand Exchange.",
+        "es": "Empieza a fabricar en un banco de relojero en una casa de un jugador para hacer 10 gatos de madera con 10 tablones y 10 pieles de oso. También puedes comprarlos en el Grand Exchange."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Travel back to Dr Fenkenstrain with all of the required items.",
+        "es": "Regresa junto a Dr Fenkenstrain con todos los objetos requeridos."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Build the crate on the hotspot, east of the ladder.",
+        "es": "Construye el cajón en el punto de interés, al este de la escalera de mano."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Add-bottom to the crate.",
+        "es": "Añade el fondo al cajón."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Fill the crate with the wooden cats.",
+        "es": "Llena el cajón con los gatos de madera."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Take off your fishbowl helmet and Blow the wolf whistle to call Rufus.",
+        "es": "Quítate el casco de pecera y sopla el silbato para lobos para llamar a Rufus."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Use the shipping order on the crate.",
+        "es": "Usa la orden de envío en el cajón."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Travel back to Mos Le'Harmless.",
+        "es": "Regresa a Mos Le'Harmless."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "You can buy a hammer and a tinderbox from the Trader Crewmember (located south-west on the dock).",
+        "es": "Puedes comprar un martillo y un yesquero al Trader Crewmember (ubicado al suroeste en el muelle)."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Speak with Brother Tranquillity to get back on Harmony Island. (opciones de chat: 1 Yes. please.) (Brother Tranquillity now also has a \"transport\" option available to players)",
+        "es": "Habla con Brother Tranquillity para volver a Harmony Island. (opciones de chat: 1 Sí, por favor.) (Brother Tranquillity ahora también tiene disponible una opción de \"transporte\" para los jugadores)"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Climb down the ladder and talk to Dr Fenkenstrain.",
+        "es": "Baja por la escalera de mano y habla con Dr Fenkenstrain."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "If he is not there, exit to lobby and join the world again.",
+        "es": "Si no está ahí, sal al lobby y vuelve a entrar al mundo."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Return up the ladder.",
+        "es": "Vuelve a subir por la escalera de mano."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Equip your diving suit and head north to the ship that has run aground.",
+        "es": "Equípate el traje de buceo y dirígete al norte hacia el barco encallado."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "If you walk outside without diving suit, you will be teleported back.",
+        "es": "Si sales al exterior sin el traje de buceo, serás teletransportado de vuelta."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Equip your weapons in preparation for fighting enemies, otherwise you will have to return to the windmill to do so. Attempting to do so outside will give the message: \"You cannot wear that without the gas affecting you.\"",
+        "es": "Equípate tus armas en preparación para luchar contra enemigos, de lo contrario tendrás que regresar al molino para hacerlo. Si intentas hacerlo fuera, aparecerá el mensaje: \"No puedes llevar eso sin que el gas te afecte.\""
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Open and then search the locker on the west end of the to get a fuse.",
+        "es": "Abre y luego registra el casillero en el extremo oeste para conseguir un fusible."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Climb the ladder and take a keg of powder found next to a cannon.",
+        "es": "Sube por la escalera de mano y coge un barril de pólvora que se encuentra junto a un cañón."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "text": {
+        "en": "Grab the tinderbox from the front (east side) of the ship if you have not brought your own.",
+        "es": "Coge el yesquero de la parte delantera (lado este) del barco si no has traído el tuyo."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Go to the front door of the monastery (the main building on Harmony Island).",
+        "es": "Ve a la puerta principal del monasterio (el edificio principal en Harmony Island)."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Use the keg on the door.",
+        "es": "Usa el barril en la puerta."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Use the fuse on the door.",
+        "es": "Usa el fusible en la puerta."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Use your tinderbox on the fuse.",
+        "es": "Usa tu yesquero en el fusible."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Pass the door to enter the monastery.",
+        "es": "Pasa por la puerta para entrar al monasterio."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Kill some sorebones until you get the following items (the items drop one at a time and the next item won't spawn until the current one is picked up):",
+        "es": "Mata a algunos sorebones hasta que consigas los siguientes objetos (los objetos caen uno a la vez y el siguiente no aparecerá hasta que recojas el actual):"
+      }
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "text": {
+        "en": "3 bell jars",
+        "es": "3 tarros de cristal"
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "A pair of brain tongs",
+        "es": "Un par de pinzas cerebrales"
+      }
+    },
+    {
+      "index": 50,
+      "indent": 1,
+      "text": {
+        "en": "A cranial clamp",
+        "es": "Una abrazadera craneal"
+      }
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "text": {
+        "en": "30 skull staples",
+        "es": "30 grapas craneales"
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Dr Fenkenstrain downstairs in the mill. Make sure to give him a hammer or you will be stuck.",
+        "es": "Habla con Dr Fenkenstrain en la planta baja del molino. Asegúrate de darle un martillo o te quedarás atascado."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, go upstairs and talk to Brother Tranquillity.",
+        "es": "Después de la escena, sube y habla con Brother Tranquillity."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Pass the door of the monastery and confront Mi-Gor.",
+        "es": "Pasa por la puerta del monasterio y enfréntate a Mi-Gor."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Kill Barrelchest.",
+        "es": "Mata a Barrelchest."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Take the Barrelchest anchor.",
+        "es": "Coge el Barrelchest anchor."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Return to Brother Tranquillity.",
+        "es": "Regresa junto a Brother Tranquillity."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

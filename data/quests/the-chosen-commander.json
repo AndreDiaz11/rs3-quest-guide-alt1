@@ -1,0 +1,950 @@
+{
+  "id": "the-chosen-commander",
+  "title": "The Chosen Commander",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T01:44:18.122Z",
+  "icon": "https://runescape.wiki/images/The_Chosen_Commander_icon.png",
+  "series": "Cave Goblin",
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "70-79",
+  "difficulty": "Experienced",
+  "length": "Long to Very Long",
+  "releaseDate": "17 March 2009",
+  "startPoint": {
+    "en": "Talk to Captain Undak, north-east of the market in Dorgesh-Kaan, just across from the bank. (via → )",
+    "es": "Habla con Captain Undak, al noreste del mercado en Dorgesh-Kaan, justo enfrente del banco. (via → )"
+  },
+  "requirements": {
+    "quests": [
+      "Land of the Goblins",
+      "Another Slice of H.A.M.",
+      "Death to the Dorgeshuun",
+      "The Lost Tribe",
+      "Goblin Diplomacy",
+      "The Giant Dwarf",
+      "Fishing Contest"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 46
+      },
+      {
+        "skill": "Strength",
+        "level": 46
+      },
+      {
+        "skill": "Thieving",
+        "level": 46
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Light sources",
+      "display": "A light source",
+      "image": null
+    },
+    {
+      "name": "H.A.M. robe outfit",
+      "display": "Full H.A.M. robe outfit (obtained during quest - you are given a new set)",
+      "image": null
+    },
+    {
+      "name": "Coins",
+      "display": "5,000 coins (if player wrongly accuses an innocent merchant)",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    }
+  ],
+  "kills": [
+    "Goblin statue (level 70)",
+    "Ork statue (level 71)",
+    "Ogre statue (level 75)",
+    "H.A.M. agent Walton (level 49)",
+    "Sigmund (level 65)",
+    "Zanik (level 65), 5 times in succession",
+    "Bandos avatar (level 77), twice"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 3,
+      "display": "3 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 20000,
+      "display": "20,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Strength",
+      "amount": 20000,
+      "display": "20,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Thieving",
+      "amount": 20000,
+      "display": "20,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Zanik's crossbow",
+      "display": "Zanik's crossbow",
+      "image": "https://runescape.wiki/images/thumb/Zanik%27s_crossbow_detail.png/100px-Zanik%27s_crossbow_detail.png?e9ac1"
+    },
+    {
+      "type": "item",
+      "name": "Bandos throne room sphere",
+      "display": "The ability to buy Bandos throne room spheres from Oldak to return to the Bandos's throne room",
+      "image": "https://runescape.wiki/images/thumb/Bandos_throne_room_sphere_detail.png/100px-Bandos_throne_room_sphere_detail.png?1619f"
+    },
+    {
+      "type": "item",
+      "name": "Goblin statue",
+      "display": "The ability to fight goblin statues, ork statues, ogre statues, and ourg statues inside Bandos's throne room by climbing on them",
+      "image": "https://runescape.wiki/images/thumb/CC_Goblin_Statue.png/100px-CC_Goblin_Statue.png?b7660"
+    },
+    {
+      "type": "item",
+      "name": "Bandos Agility Course",
+      "display": "Access to the Bandos Agility Course inside Bandos's throne room",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Goblin cower shield",
+      "display": "You can claim the goblin cower shield by talking to General Wartface or General Bentnoze in the Goblin Village",
+      "image": "https://runescape.wiki/images/thumb/Goblin_cower_shield_%28bonus%29_detail.png/100px-Goblin_cower_shield_%28bonus%29_detail.png?b32ba"
+    },
+    {
+      "type": "item",
+      "name": "But We Can Fight",
+      "display": "But We Can Fight",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Chosen Commander (music track)",
+      "display": "The Chosen Commander",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Demise of the Dorgeshuun",
+      "display": "Demise of the Dorgeshuun",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Don't Panic Zanik",
+      "display": "Don't Panic Zanik",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Face Off",
+      "display": "Face Off",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Godslayer (music track)",
+      "display": "Godslayer",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Throne of Bandos",
+      "display": "The Throne of Bandos",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Captain Undak, east of the bank (by the eastern water fountain) in Dorgesh-Kaan. (You must dismiss any follower or pet you have or he will not go with you.) (opciones de chat: 2 Can I help with anything? • 1 Yes. • 2 Okay. What's your point? • Accept)",
+        "es": "Habla con Captain Undak, al este del banco (junto a la fuente de agua oriental) en Dorgesh-Kaan. (Debes despedir a cualquier seguidor o mascota que tengas o no te acompañará.) (opciones de chat: 2 ¿Puedo ayudar en algo? • 1 Sí. • 2 Vale. ¿Qué quieres decir? • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Climb the nearby stairs (north) and talk to Torzek outside the nursery. (opciones de chat: 4 Calm down. I'm here to help. • 1 Have the children eaten anything unusual lately? • 1 What did they have?)",
+        "es": "Sube las escaleras cercanas (norte) y habla con Torzek fuera de la guardería. (opciones de chat: 4 Cálmate. Estoy aquí para ayudar. • 1 ¿Han comido los niños algo inusual últimamente? • 1 ¿Qué comieron?)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to any nearby child against the building wall about what they ate.",
+        "es": "Habla con cualquier niño cercano junto a la pared del edificio sobre lo que comió."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "Andil: (opciones de chat: ? What food did you eat yesterday?) The chat options may vary from person to person.",
+        "es": "Andil: (opciones de chat: ? ¿Qué comida comiste ayer?) Las opciones de chat pueden variar de una persona a otra."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 1,
+      "text": {
+        "en": "Delgon: (opciones de chat: 1 What food did you have yesterday?)",
+        "es": "Delgon: (opciones de chat: 1 ¿Qué comida comiste ayer?)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "Gerdi: (opciones de chat: 1 What food did you eat yesterday?)",
+        "es": "Gerdi: (opciones de chat: 1 ¿Qué comida comiste ayer?)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Captain Undak. (opciones de chat: 3 I've worked out which foods are poisoned.) (If you are unable to talk with Captain Undak, make sure you do not have \"Hide Familiar options\" checked under Settings>Combat & Action Bar>Choose Option Menu and log out and back in)",
+        "es": "Habla con Captain Undak. (opciones de chat: 3 He descubierto qué alimentos están envenenados.) (Si no puedes hablar con Captain Undak, asegúrate de no tener marcada la opción \"Hide Familiar options\" en Ajustes>Combate y barra de acción>Menú de opciones, y cierra sesión y vuelve a entrar)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Go down the stairs and head south to the market.",
+        "es": "Baja las escaleras y dirígete al sur hacia el mercado."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Markog, at the south-eastern-most stall of the market. (opciones de chat: 1 Which merchants have you bought ingredients from?)",
+        "es": "Habla con Markog, en el puesto situado más al sureste del mercado. (opciones de chat: 1 ¿A qué comerciantes les has comprado ingredientes?)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Turgok, at the south-western-most stall of the market. (opciones de chat: 1 Which merchants have you bought ingredients from?)",
+        "es": "Habla con Turgok, en el puesto situado más al suroeste del mercado. (opciones de chat: 1 ¿A qué comerciantes les has comprado ingredientes?)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Merchant Walton, just outside of the market to the south-east. (opciones de chat: 1 This is the one, Captain. • 1 Yes, I'm sure. • 3 [Attack the merchant] • 1 What's that behind you?)",
+        "es": "Habla con Merchant Walton, justo fuera del mercado hacia el sureste. (opciones de chat: 1 Este es, Captain. • 1 Sí, estoy seguro. • 3 [Atacar al comerciante] • 1 ¿Qué es eso detrás de ti?)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Proceed to kill the merchant (cannot be ranged).",
+        "es": "Procede a matar al comerciante (no se puede usar Distancia)."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zanik. (opciones de chat: Any • Any • 1 Yes! What happened?)",
+        "es": "Habla con Zanik. (opciones de chat: Cualquiera • Cualquiera • 1 ¡Sí! ¿Qué pasó?)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Climb on the goblin south-west of the bowl statue.",
+        "es": "Súbete al goblin al suroeste de la estatua del cuenco."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Jump on statues to reach the statue holding the bowl of water.",
+        "es": "Salta sobre las estatuas hasta llegar a la estatua que sostiene el cuenco de agua."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 1,
+      "text": {
+        "en": "If the jump-on option does not appear, try clicking on the head.",
+        "es": "Si no aparece la opción de saltar encima, prueba a hacer clic en la cabeza."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Continue jumping north and take the crossbow from the ledge.",
+        "es": "Sigue saltando hacia el norte y coge la ballesta de la repisa."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Grapple the spear of the north-eastern statue and take the pendant.",
+        "es": "Engancha la cuerda a la lanza de la estatua del noreste y coge el colgante."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Look into the bowl.",
+        "es": "Mira dentro del cuenco."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Enter the western portal (the statues will move out of the way) for a cutscene.",
+        "es": "Entra en el portal occidental (las estatuas se apartarán) para ver una escena."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Continue conversation with Zanik. (opciones de chat: 1 Let's go.)",
+        "es": "Continúa la conversación con Zanik. (opciones de chat: 1 Vamos.)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "With Zanik following, go to the north end of Dorgesh-Kaan and up the northern most set of stairs.",
+        "es": "Con Zanik siguiéndote, ve al extremo norte de Dorgesh-Kaan y sube por el conjunto de escaleras más al norte."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Watch the cutscene. (opciones de chat: Any • 3 Zanik is right. You should kill him. • 1 She means well. • Any)",
+        "es": "Observa la escena. (opciones de chat: Cualquiera • 3 Zanik tiene razón. Deberías matarlo. • 1 Ella tiene buenas intenciones. • Cualquiera)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Continue conversation with Captain Undak. (opciones de chat: 1 Where should I look? • 4 I'll start looking now.)",
+        "es": "Continúa la conversación con Captain Undak. (opciones de chat: 1 ¿Dónde debería buscar? • 4 Empezaré a buscar ahora.)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Run south of the city, up and over staircases until you reach the agility course. Bring a light source.",
+        "es": "Corre hacia el sur de la ciudad, sube y baja escaleras hasta llegar a la pista de agilidad. Lleva una fuente de luz."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Descend the ladder top and head all the way south.",
+        "es": "Baja por la escalera y dirígete todo el camino hacia el sur."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zanik. (opciones de chat: 4 [Sit down next to Zanik.] • 4 [Say nothing.] • 4 [Say nothing.] • 4 [Say nothing.] • 2 Yes, but you should have respected the council. • Any • 4 What do you wish had happened? • 1 Someday, we'll build that world.)",
+        "es": "Habla con Zanik. (opciones de chat: 4 [Sentarse junto a Zanik.] • 4 [No decir nada.] • 4 [No decir nada.] • 4 [No decir nada.] • 2 Sí, pero deberías haber respetado al consejo. • Cualquiera • 4 ¿Qué te hubiera gustado que pasara? • 1 Algún día, construiremos ese mundo.)"
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Watch the cutscene. (opciones de chat: Any • 3 I have nothing else to say.)",
+        "es": "Observa la escena. (opciones de chat: Cualquiera • 3 No tengo nada más que decir.)"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene talk to Zanik. (opciones de chat: 4 Goodbye, Zanik.)",
+        "es": "Después de la escena, habla con Zanik. (opciones de chat: 4 Adiós, Zanik.)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Captain Undak for a set of H.A.M. robes. (opciones de chat: 1 What is this task? • 1 I'll do it.)",
+        "es": "Habla con Captain Undak para conseguir un conjunto de túnicas H.A.M. (opciones de chat: 1 ¿Cuál es esta tarea? • 1 Lo haré.)"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Prepare for battle, but only wear the H.A.M. robes.",
+        "es": "Prepárate para la batalla, pero viste únicamente las túnicas H.A.M."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Enter the H.A.M. Hideout in Lumbridge forest.",
+        "es": "Entra en el Escondite H.A.M. en el bosque de Lumbridge."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Johanhus Ulsbrecht in the centremost of the three southern rooms. (opciones de chat: 3 What are you planning to do about the cave goblins? • 3 Isn't Sigmund working with you any more? • 3 How can I find Sigmund's base? • 1 I'll go there now.)",
+        "es": "Habla con Johanhus Ulsbrecht en la más central de las tres habitaciones del sur. (opciones de chat: 3 ¿Qué planeáis hacer con los cave goblins? • 3 ¿Ya no trabaja Sigmund con vosotros? • 3 ¿Cómo puedo encontrar la base de Sigmund? • 1 Iré allí ahora.)"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "Before you do, make sure to wear all of the H.A.M. robes",
+        "es": "Antes de hacerlo, asegúrate de vestir todas las túnicas H.A.M."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Milton in the windmill near the Fishing Guild, north of the Ardougne lodestone. (opciones de chat: 2 I want to get in to Sigmund's base. • 1 Arrav.)",
+        "es": "Habla con Milton en el molino de viento cerca de la Fishing Guild, al norte de la piedra de viaje de Ardougne. (opciones de chat: 2 Quiero entrar en la base de Sigmund. • 1 Arrav.)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Climb down the ladder inside the windmill.",
+        "es": "Baja por la escalera dentro del molino de viento."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Run directly east through the door, continuing east through stacks of crates.",
+        "es": "Corre directamente hacia el este a través de la puerta, continuando hacia el este por entre pilas de cajas."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the guard next to the prison. (opciones de chat: 1 I need to see the prisoner. • 1 Letter? • 3 What day is it today? • 3 Never mind.)",
+        "es": "Habla con el guardia junto a la prisión. (opciones de chat: 1 Necesito ver al prisionero. • 1 ¿Carta? • 3 ¿Qué día es hoy? • 3 Da igual.)"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Enter the main area (back through the doors to the west) and pickpocket Sam.",
+        "es": "Entra en el área principal (de vuelta por las puertas hacia el oeste) y roba a Sam."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Return to the prison guard. (opciones de chat: 1 I have my letter here.)",
+        "es": "Vuelve con el guardia de la prisión. (opciones de chat: 1 Tengo mi carta aquí.)"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Enter the prison and take the key, open the gate.",
+        "es": "Entra en la prisión, coge la llave y abre la verja."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Escape with Grubfoot:",
+        "es": "Escapa con Grubfoot:"
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "Talk to the prisoner, Grubfoot. (opciones de chat: 4 Wait there. I'll come back for you.)",
+        "es": "Habla con el prisionero, Grubfoot. (opciones de chat: 4 Espera ahí. Volveré a por ti.)"
+      }
+    },
+    {
+      "index": 43,
+      "indent": 1,
+      "text": {
+        "en": "Run into the kitchen, squeeze through the hole.",
+        "es": "Corre hacia la cocina, cuélate por el agujero."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 1,
+      "text": {
+        "en": "Open 1 of the 2 doors.",
+        "es": "Abre 1 de las 2 puertas."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "Go back through and open the other door as well.",
+        "es": "Vuelve y abre la otra puerta también."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 1,
+      "text": {
+        "en": "Return to Grubfoot. (opciones de chat: 1 Let's go • 3 I'll distract the guard so you can make a break for it.)",
+        "es": "Vuelve con Grubfoot. (opciones de chat: 1 Vamos • 3 Distraeré al guardia para que puedas escapar.)"
+      }
+    },
+    {
+      "index": 47,
+      "indent": 1,
+      "text": {
+        "en": "Stand north of the guard, talk to him to face you and have his back turned. After selecting the chat option, do not continue the conversation until Grubfoot walks past the guard into the next room. (opciones de chat: Any)",
+        "es": "Colócate al norte del guardia, habla con él para que se gire y te dé la espalda. Después de seleccionar la opción de chat, no continúes la conversación hasta que Grubfoot pase junto al guardia hacia la siguiente habitación. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "text": {
+        "en": "Talk to Grubfoot in the next room. (opciones de chat: 2 Wait at the west door; I'll distract the guard.)",
+        "es": "Habla con Grubfoot en la siguiente habitación. (opciones de chat: 2 Espera en la puerta oeste; distraeré al guardia.)"
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "Squeeze into the kitchen. Take the dirty plates from the sink, and wait for the H.A.M. guard to come talk to you. (opciones de chat: 1 Yes. • Any)",
+        "es": "Cuélate en la cocina. Coge los platos sucios del fregadero y espera a que el guardia H.A.M. venga a hablar contigo. (opciones de chat: 1 Sí. • Cualquiera)"
+      }
+    },
+    {
+      "index": 50,
+      "indent": 1,
+      "text": {
+        "en": "Talk to Grubfoot in the bedroom. (opciones de chat: 1 Follow me.)",
+        "es": "Habla con Grubfoot en el dormitorio. (opciones de chat: 1 Sígueme.)"
+      }
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "text": {
+        "en": "Exit the east door and run to the big doors north. (opciones de chat: 1 Let's get out of here.)",
+        "es": "Sal por la puerta este y corre hacia las grandes puertas del norte. (opciones de chat: 1 Salgamos de aquí.)"
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Watch the cutscene and wait for Sigmund to confront you.",
+        "es": "Observa la escena y espera a que Sigmund te confronte."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Kill Sigmund. (opciones de chat: Any)",
+        "es": "Mata a Sigmund. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 54,
+      "indent": 1,
+      "text": {
+        "en": "If Zanik doesn't attack Sigmund, climb up the ladder, then back down.",
+        "es": "Si Zanik no ataca a Sigmund, sube por la escalera y luego vuelve a bajar."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Kill Zanik repeatedly. (opciones de chat: 1 I won't kill you, Zanik. • 3 Zanik! What's happened to you? • 3 Does our friendship mean nothing to you? • 1 But am I *your* enemy? • 2 Zanik, you're being controlled. Fight it! • 3 Zanik, it's the pendant. Take it off! • 2 You've got to do it, otherwise it will win!)",
+        "es": "Mata a Zanik repetidamente. (opciones de chat: 1 No te mataré, Zanik. • 3 ¡Zanik! ¿Qué te ha pasado? • 3 ¿No significa nada nuestra amistad para ti? • 1 Pero, ¿soy yo *tu* enemigo? • 2 Zanik, te están controlando. ¡Lucha contra ello! • 3 Zanik, es el colgante. ¡Quítatelo! • 2 ¡Tienes que hacerlo, o si no ganará!)"
+      }
+    },
+    {
+      "index": 56,
+      "indent": 1,
+      "text": {
+        "en": "Turn off revolution in combat settings and avoid using bleeds and channelled abilities as they cancel the dialogue forcing you to repeat the phase.",
+        "es": "Desactiva la revolución en los ajustes de combate y evita usar sangrados y habilidades canalizadas, ya que cancelan el diálogo y te obligan a repetir la fase."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 1,
+      "text": {
+        "en": "If revolution was left on and dialogue interrupted, run up and then down the ladder to the west to avoid having to fight again.",
+        "es": "Si la revolución se dejó activada y el diálogo se interrumpió, sube y luego baja por la escalera hacia el oeste para evitar tener que luchar de nuevo."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Run west for an earthquake.",
+        "es": "Corre hacia el oeste para un terremoto."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Right click Clear the fallen rocks.",
+        "es": "Haz clic derecho en Despejar las rocas caídas."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zanik. (opciones de chat: 4 Try grappling across with your crossbow. • 1 I can see somewhere it could catch. • 2 Right a bit. • 2 Right a bit. • 1 You've overshot. Go left. • 1 It's alright, Zanik. You can do it. • 1 Just a bit further left. • 1 I'm not leaving you, Zanik.)",
+        "es": "Habla con Zanik. (opciones de chat: 4 Intenta usar el gancho de tu ballesta para cruzar. • 1 Puedo ver un sitio donde podría engancharse. • 2 Un poco a la derecha. • 2 Un poco a la derecha. • 1 Te has pasado. Ve a la izquierda. • 1 Está bien, Zanik. Puedes hacerlo. • 1 Un poco más a la izquierda. • 1 No te voy a dejar, Zanik.)"
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Go through the cave and talk to Juna.",
+        "es": "Atraviesa la cueva y habla con Juna."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Run north-west to exit the cave.",
+        "es": "Corre hacia el noroeste para salir de la cueva."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Go over the stepping stones and run directly north.",
+        "es": "Pasa por las piedras de paso y corre directamente hacia el norte."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Squeeze through the hole.",
+        "es": "Cuélate por el agujero."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 1,
+      "text": {
+        "en": "If you don't have the shortcut unlocked, you'll have to go all the way around towards Lumbridge Castle's Cellar.",
+        "es": "Si no tienes desbloqueado el atajo, tendrás que dar toda la vuelta hacia el Sótano del Castillo de Lumbridge."
+      }
+    },
+    {
+      "index": 66,
+      "indent": 1,
+      "text": {
+        "en": "If at any point Zanik stops following you, she can be found back at Juna.",
+        "es": "Si en algún momento Zanik deja de seguirte, se la puede encontrar de vuelta con Juna."
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Right click Follow Kazgar. (opciones de chat: 1 Dorgeshuun Mines)",
+        "es": "Haz clic derecho en Seguir a Kazgar. (opciones de chat: 1 Dorgeshuun Mines)"
+      }
+    },
+    {
+      "index": 68,
+      "indent": 0,
+      "text": {
+        "en": "Enter Dorgesh-Kaan and talk to Captain Undak north of the market (between the fountains). (opciones de chat: 4 What can I do? • 4 Goodbye.)",
+        "es": "Entra en Dorgesh-Kaan y habla con Captain Undak al norte del mercado (entre las fuentes). (opciones de chat: 4 ¿Qué puedo hacer? • 4 Adiós.)"
+      }
+    },
+    {
+      "index": 69,
+      "indent": 0,
+      "text": {
+        "en": "Climb the northern stairs for a cutscene (close the ''Bandos's Ultimatum'' screen that pops up). (opciones de chat: Any)",
+        "es": "Sube las escaleras del norte para ver una escena (cierra la pantalla de \"Bandos's Ultimatum\" que aparece). (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 70,
+      "indent": 0,
+      "text": {
+        "en": "Climb back up the stairs, talk to the Goblin scribe. (opciones de chat: 1 What do you want me to do? • 2 I'll help you. • 1 I'll go now.)",
+        "es": "Vuelve a subir las escaleras, habla con el Goblin scribe. (opciones de chat: 1 ¿Qué quieres que haga? • 2 Te ayudaré. • 1 Iré ahora.)"
+      }
+    },
+    {
+      "index": 71,
+      "indent": 0,
+      "text": {
+        "en": "Climb down the stairs and run south-east through a corridor (near the quest start point).",
+        "es": "Baja las escaleras y corre hacia el sureste por un pasillo (cerca del punto de inicio de la misión)."
+      }
+    },
+    {
+      "index": 72,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Tegdak in the north-east room of the . (opciones de chat: 2 The scribe sent me to get a box of artefacts.)",
+        "es": "Habla con Tegdak en la habitación del noreste. (opciones de chat: 2 El escriba me envió a buscar una caja de artefactos.)"
+      }
+    },
+    {
+      "index": 73,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Goblin scribe upstairs. (opciones de chat: 1 Here it is. • 1 I'll go now.)",
+        "es": "Vuelve con el Goblin scribe arriba. (opciones de chat: 1 Aquí está. • 1 Iré ahora.)"
+      }
+    },
+    {
+      "index": 74,
+      "indent": 0,
+      "text": {
+        "en": "Exit the city through the bone door north-east, downstairs.",
+        "es": "Sal de la ciudad por la puerta de hueso al noreste, escaleras abajo."
+      }
+    },
+    {
+      "index": 75,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Mistag. (opciones de chat: 1 Could you bury this time capsule?)",
+        "es": "Habla con Mistag. (opciones de chat: 1 ¿Podrías enterrar esta cápsula del tiempo?)"
+      }
+    },
+    {
+      "index": 76,
+      "indent": 0,
+      "text": {
+        "en": "Return to the city and talk to Oldak north of the bank. (opciones de chat: 1 What are you arguing about? • Any • 1 What do you want me to do? • 1 I'll go now.)",
+        "es": "Vuelve a la ciudad y habla con Oldak al norte del banco. (opciones de chat: 1 ¿Sobre qué estáis discutiendo? • Cualquiera • 1 ¿Qué quieres que haga? • 1 Iré ahora.)"
+      }
+    },
+    {
+      "index": 77,
+      "indent": 1,
+      "text": {
+        "en": "(opciones de chat: 2 No - talk about quest or other things.) if invention has been unlocked.",
+        "es": "(opciones de chat: 2 No - hablar sobre la misión u otros temas.) si Invención ha sido desbloqueada."
+      }
+    },
+    {
+      "index": 78,
+      "indent": 0,
+      "text": {
+        "en": "Return to the agility course (south end of Dorgesh-Kaan) - do not climb down the ladder.",
+        "es": "Vuelve a la pista de agilidad (extremo sur de Dorgesh-Kaan) - no bajes por la escalera."
+      }
+    },
+    {
+      "index": 79,
+      "indent": 0,
+      "text": {
+        "en": "Run east to the power station and climb down the stairs.",
+        "es": "Corre hacia el este hasta la central eléctrica y baja las escaleras."
+      }
+    },
+    {
+      "index": 80,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Turgall, make sure you have at least 2 free inventory spots . (opciones de chat: 2 Oldak needs a pair of energy projectors and a focusing chamber.)",
+        "es": "Habla con Turgall, asegúrate de tener al menos 2 espacios libres en el inventario. (opciones de chat: 2 Oldak necesita un par de proyectores de energía y una cámara de enfoque.)"
+      }
+    },
+    {
+      "index": 81,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Oldak, now south-east of the market. (opciones de chat: 1 I have the parts here.)",
+        "es": "Habla con Oldak, ahora al sureste del mercado. (opciones de chat: 1 Tengo las piezas aquí.)"
+      }
+    },
+    {
+      "index": 82,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zanik. (opciones de chat: 1 Oldak has modified your crossbow. • 1 Oldak said it was certain to work. • 3 I'll talk to you later.)",
+        "es": "Habla con Zanik. (opciones de chat: 1 Oldak ha modificado tu ballesta. • 1 Oldak dijo que funcionaría con toda seguridad. • 3 Hablaré contigo más tarde.)"
+      }
+    },
+    {
+      "index": 83,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Mernik in the children's nursery north-east upstairs. (opciones de chat: 1 What can I do? • 1 I'll talk to him.)",
+        "es": "Habla con Mernik en la guardería infantil, arriba al noreste. (opciones de chat: 1 ¿Qué puedo hacer? • 1 Hablaré con él.)"
+      }
+    },
+    {
+      "index": 84,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ambassador Alvijar in the house north-west of the nursery. (opciones de chat: 2 I want to talk about the children. • 1 You coward!)",
+        "es": "Habla con Ambassador Alvijar en la casa al noroeste de la guardería. (opciones de chat: 2 Quiero hablar sobre los niños. • 1 ¡Cobarde!)"
+      }
+    },
+    {
+      "index": 85,
+      "indent": 0,
+      "text": {
+        "en": "Return to Mernik. (opciones de chat: 1 I talked to him... He said no. • 1 Nothing. Everything is fine.)",
+        "es": "Vuelve con Mernik. (opciones de chat: 1 Hablé con él... Dijo que no. • 1 Nada. Todo está bien.)"
+      }
+    },
+    {
+      "index": 86,
+      "indent": 0,
+      "text": {
+        "en": "Prepare to fight enemies weak to magic.",
+        "es": "Prepárate para luchar contra enemigos débiles frente a la Magia."
+      }
+    },
+    {
+      "index": 87,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zanik, south-east of the market. (opciones de chat: 2 I'm ready now.)",
+        "es": "Habla con Zanik, al sureste del mercado. (opciones de chat: 2 Ya estoy listo.)"
+      }
+    },
+    {
+      "index": 88,
+      "indent": 0,
+      "text": {
+        "en": "Defeat the Bandos avatar. (opciones de chat: 4 We'll see about that. Zanik - now!)",
+        "es": "Derrota al avatar de Bandos. (opciones de chat: 4 Ya veremos eso. Zanik, ¡ahora!)"
+      }
+    },
+    {
+      "index": 89,
+      "indent": 0,
+      "text": {
+        "en": "Pick up all 4 parts of the crossbow while killing statues.",
+        "es": "Recoge las 4 piezas de la ballesta mientras matas estatuas."
+      }
+    },
+    {
+      "index": 90,
+      "indent": 0,
+      "text": {
+        "en": "Use the crossbow pieces on each other. (opciones de chat: 5 Enough talk.)",
+        "es": "Usa las piezas de la ballesta unas sobre otras. (opciones de chat: 5 Basta de hablar.)"
+      }
+    },
+    {
+      "index": 91,
+      "indent": 0,
+      "text": {
+        "en": "Kill the avatar again. (opciones de chat: 4 [Use Zanik's crossbow's special attack.])",
+        "es": "Mata al avatar de nuevo. (opciones de chat: 4 [Usar el ataque especial de la ballesta de Zanik.])"
+      }
+    },
+    {
+      "index": 92,
+      "indent": 0,
+      "text": {
+        "en": "Take the avatar's pendant.",
+        "es": "Coge el colgante del avatar."
+      }
+    },
+    {
+      "index": 93,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zanik. (opciones de chat: 4 [Sit down next to Zanik.] • 4 [Say nothing.] • 3 About time you woke up! • 2 We won. Oldak's crossbow worked. • 3 The mark on your forehead is gone. • 3 Here it is.)",
+        "es": "Habla con Zanik. (opciones de chat: 4 [Sentarse junto a Zanik.] • 4 [No decir nada.] • 3 ¡Ya era hora de que despertaras! • 2 Ganamos. La ballesta de Oldak funcionó. • 3 La marca en tu frente ha desaparecido. • 3 Aquí está.)"
+      }
+    },
+    {
+      "index": 94,
+      "indent": 0,
+      "text": {
+        "en": "Follow Zanik through the portal.",
+        "es": "Sigue a Zanik a través del portal."
+      }
+    },
+    {
+      "index": 95,
+      "indent": 0,
+      "text": {
+        "en": "Click the screen to exit cutscene.",
+        "es": "Haz clic en la pantalla para salir de la escena."
+      }
+    },
+    {
+      "index": 96,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

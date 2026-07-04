@@ -1,0 +1,692 @@
+{
+  "id": "children-of-mah",
+  "title": "Children of Mah",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:56:49.528Z",
+  "icon": "https://runescape.wiki/images/Children_of_Mah_icon.png",
+  "series": "Sliske's Game",
+  "age": "6",
+  "timeline": "world guardian",
+  "members": true,
+  "combatLevel": "110-119",
+  "difficulty": "Grandmaster",
+  "length": "Medium to Long",
+  "releaseDate": "21 November 2016",
+  "startPoint": {
+    "en": "Talk to Kharshai in the frozen region north of Rellekka or (if you've completed the Koschei's Troubles miniquest) in his cave beneath Rellekka. or",
+    "es": "Habla con Kharshai en la región helada al norte de Rellekka o (si has completado la miniaventura Koschei's Troubles) en su cueva bajo Rellekka. o"
+  },
+  "requirements": {
+    "quests": [
+      "The Light Within",
+      "Meeting History",
+      "The Temple at Senntisten",
+      "Plague's End",
+      "The World Wakes",
+      "Fate of the Gods",
+      "Dishonour among Thieves",
+      "Hazeel Cult",
+      "Missing, Presumed Death",
+      "Morytania",
+      "Koschei's Troubles (miniquest)",
+      "Blood Runs Deep",
+      "Ritual of the Mahjarrat",
+      "Ritual of the Mahjarrat",
+      "The Temple at Senntisten",
+      "While Guthix Sleeps",
+      "Hazeel Cult",
+      "Enakhra's Lament",
+      "The Slug Menace",
+      "A Fairy Tale II - Cure a Queen",
+      "Cabin Fever",
+      "A Tail of Two Cats",
+      "Fight Arena",
+      "The General's Shadow (miniquest)"
+    ],
+    "skills": [
+      {
+        "skill": "combat level",
+        "level": 110
+      }
+    ]
+  },
+  "items": [],
+  "kills": [
+    "Survive multiple bladed, force, and throwing muspahs (level 150)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Skills",
+      "amount": 300000,
+      "display": "300,000 experience journal (3x 100,000 experience - Skill must be level 75 or higher) Only 150,000 experience is granted if used on elite skills (3x 50,000 experience)",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 100000,
+      "display": "100,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Divination",
+      "amount": 100000,
+      "display": "100,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Shard of Mah",
+      "display": "Shard of Mah",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Nightmare",
+      "display": "Access to nightmares, level 80 Slayer monsters that drop nightmare gauntlets",
+      "image": "https://runescape.wiki/images/thumb/Nightmare.png/100px-Nightmare.png?89b92"
+    },
+    {
+      "type": "item",
+      "name": "Ancient memory",
+      "display": "Access to ancient memories in Guthixian Caches (these give 4 points per conversion)",
+      "image": "https://runescape.wiki/images/thumb/Ancient_memory_%28scenery%29.png/100px-Ancient_memory_%28scenery%29.png?0d5e7"
+    },
+    {
+      "type": "item",
+      "name": "Legatus Maximus (override)",
+      "display": "Legatus Maximus outfit",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Tiny Kharshai",
+      "display": "Tiny Kharshai",
+      "image": "https://runescape.wiki/images/thumb/Tiny_Kharshai_pet.png/100px-Tiny_Kharshai_pet.png?04cb8"
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "item",
+      "name": "Chamber of Zaros",
+      "display": "Chamber of Zaros"
+    },
+    {
+      "type": "item",
+      "name": "Elder Daughter",
+      "display": "Elder Daughter"
+    },
+    {
+      "type": "item",
+      "name": "Lava Falls",
+      "display": "Lava Falls"
+    },
+    {
+      "type": "item",
+      "name": "The Nightmare Continues",
+      "display": "The Nightmare Continues"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Kharshai beneath the helmet shop in Rellekka (requires completion of the Koschei's Troubles miniquest) or all the way north of Rellekka in the Rellekka Hunter area, next to the Arctic (azure) habitat mine. (opciones de chat: 1 I want to talk about Children of Mah. • Accept • 5 I'm ready to go to the ritual site. • 1 I want to talk about Children of Mah. • 1 Yes. • 1 Yes, I want to leave.)",
+        "es": "Habla con Kharshai bajo la tienda de cascos en Rellekka (requiere haber completado la miniaventura Koschei's Troubles) o completamente al norte de Rellekka, en la zona de Caza de Rellekka, junto a la mina del hábitat ártico (azure). (opciones de chat: 1 I want to talk about Children of Mah. • Accept • 5 I'm ready to go to the ritual site. • 1 I want to talk about Children of Mah. • 1 Yes. • 1 Yes, I want to leave.)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Mahjarrat Ritual Site via:",
+        "es": "Ve al Mahjarrat Ritual Site mediante:"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "Kharshai at the quest start location can teleport you there.",
+        "es": "Kharshai, en el punto de inicio de la misión, puede teletransportarte allí."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "If you have completed Ritual of the Mahjarrat you can use:",
+        "es": "Si has completado Ritual of the Mahjarrat, puedes usar:"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 2,
+      "text": {
+        "en": ", exit the Glacor Cave, and then go north-west.",
+        "es": ", sal de la Glacor Cave y luego dirígete al noroeste."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 2,
+      "text": {
+        "en": "Use the canoe in the snowy hunter area north of Rellekka (requires partial completion of the Tale of the Muspah).",
+        "es": "Usa la canoa en la zona de caza nevada al norte de Rellekka (requiere haber completado parcialmente Tale of the Muspah)."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the ritual marker to summon Kharshai",
+        "es": "Investiga el marcador ritual para invocar a Kharshai"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Kharshai with a free inventory slot to receive the charged engrammeter.",
+        "es": "Habla con Kharshai teniendo un espacio libre en el inventario para recibir el engramómetro cargado."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the ritual marker to leave, or teleport to Varrock Dig Site using a Dig Site pendant or Archaeology journal.",
+        "es": "Investiga el marcador ritual para marcharte, o teletranspórtate a Varrock Dig Site usando un colgante de Dig Site o un diario de Arqueología."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Go to the entrance of the throne room of Senntisten on the east side of the Varrock Dig Site.",
+        "es": "Ve a la entrada de la sala del trono de Senntisten, en el lado este de Varrock Dig Site."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Harvest the memory spring near the entrance of the Zarosian throne room.",
+        "es": "Recolecta la fuente de memoria cerca de la entrada de la sala del trono zarosiana."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Enter the throne room and harvest the 4 other memory springs inside. There are two on each side of the mine cart track (near the stairs) and two down the stairs near the material caches.",
+        "es": "Entra en la sala del trono y recolecta las otras 4 fuentes de memoria del interior. Hay dos a cada lado de la vía de la vagoneta (cerca de las escaleras) y dos bajando las escaleras cerca de los depósitos de materiales."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Return to the ritual site and investigate the ritual marker. (If you have not completed Ritual of the Mahjarrat, then return to Kharsai at the quest starting point to teleport back.)",
+        "es": "Regresa al sitio del ritual e investiga el marcador ritual. (Si no has completado Ritual of the Mahjarrat, entonces regresa con Kharshai en el punto de inicio de la misión para teletransportarte de vuelta.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Continue Azzanadra's dialogue. (opciones de chat: 1 Yes, let's go!)",
+        "es": "Continúa el diálogo de Azzanadra. (opciones de chat: 1 Yes, let's go!)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Perjour just to your south. (opciones de chat: 3 Could I see that book of yours? • 4 Goodbye.)",
+        "es": "Habla con Perjour, justo al sur. (opciones de chat: 3 Could I see that book of yours? • 4 Goodbye.)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zebub a little further south. (opciones de chat: 2 Say goodbye.)",
+        "es": "Habla con Zebub, un poco más al sur. (opciones de chat: 2 Say goodbye.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the broken mouthpiece on the pillar next to Zebub.",
+        "es": "Inspecciona la boquilla rota en el pilar junto a Zebub."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Duke Sucellus to the north. (opciones de chat: 3 What has happened so far? • 4 Goodbye.)",
+        "es": "Habla con Duke Sucellus, al norte. (opciones de chat: 3 What has happened so far? • 4 Goodbye.)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Jhallan just to the east. (opciones de chat: 2 Say goodbye.)",
+        "es": "Habla con Jhallan, justo al este. (opciones de chat: 2 Say goodbye.)"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the wall marking on the pillar next to Jhallan.",
+        "es": "Inspecciona la marca en la pared del pilar junto a Jhallan."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the broken enchantment down the first flight of stairs.",
+        "es": "Inspecciona el encantamiento roto bajando el primer tramo de escaleras."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Pernix. (opciones de chat: 2 An inquisitor was sent for. • 3 A red pair of horns. • 2 There is a plot to overthrow Zaros. • 2 Say goodbye.)",
+        "es": "Habla con Pernix. (opciones de chat: 2 An inquisitor was sent for. • 3 A red pair of horns. • 2 There is a plot to overthrow Zaros. • 2 Say goodbye.)"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Head down a flight of stairs and talk to Akthanakos. (opciones de chat: 3 Mah. • 3 Icthlarin. • 1 A camel. • 2 Say goodbye.)",
+        "es": "Baja un tramo de escaleras y habla con Akthanakos. (opciones de chat: 3 Mah. • 3 Icthlarin. • 1 A camel. • 2 Say goodbye.)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Head back up and then down the staircase to the south. Talk to the warpriest. (opciones de chat: 1 Use 'Inquisitorial Truth Serem'.)",
+        "es": "Vuelve a subir y luego baja por la escalera del sur. Habla con el sacerdote de guerra. (opciones de chat: 1 Use 'Inquisitorial Truth Serem'.)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the stashed weapons south of the stairway. They are partially hidden under the stairway.",
+        "es": "Inspecciona las armas escondidas al sur de la escalera. Están parcialmente ocultas bajo la escalera."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the wall marking on the north-eastern pillar. Rotate your camera to face south-east if having trouble seeing the marking.",
+        "es": "Inspecciona la marca en la pared del pilar del noreste. Gira la cámara hacia el sureste si te cuesta ver la marca."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sliske. (opciones de chat: 3 Do you have any suspects? • 4 Goodbye.)",
+        "es": "Habla con Sliske. (opciones de chat: 3 Do you have any suspects? • 4 Goodbye.)"
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Azzanadra. (opciones de chat: Any)",
+        "es": "Habla con Azzanadra. (opciones de chat: Any)"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the 3 suspects. (opciones de chat: Any)",
+        "es": "Habla con los 3 sospechosos. (opciones de chat: Any)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Talk to either Azzanadra or Zamorak to choose a side. (opciones de chat: 1)",
+        "es": "Habla con Azzanadra o con Zamorak para elegir un bando. (opciones de chat: 1)"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Watch or skip the cutscene. (opciones de chat: 1)",
+        "es": "Mira o sáltate la escena cinemática. (opciones de chat: 1)"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Go through the dialogue at the Ritual marker. (opciones de chat: 1 Yes, let's go!)",
+        "es": "Continúa el diálogo en el marcador ritual. (opciones de chat: 1 Yes, let's go!)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "If the dialogue is interrupted, talk to Zamorak.",
+        "es": "Si el diálogo se interrumpe, habla con Zamorak."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zamorak once more.",
+        "es": "Habla con Zamorak una vez más."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Go to the World Gate, dial Freneskae, and enter it (left click, select \"Children of Mah\"). (opciones de chat: 1 Children of Mah.)",
+        "es": "Ve a la World Gate, marca Freneskae y entra en ella (clic izquierdo, selecciona \"Children of Mah\"). (opciones de chat: 1 Children of Mah.)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Optionally inspect the four Mahjarrat deathstones along the route for a master quest cape requirement.",
+        "es": "Opcionalmente, inspecciona las cuatro piedras de muerte mahjarrat a lo largo del camino para el requisito de la capa de misión maestra."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Kharshai.",
+        "es": "Habla con Kharshai."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Unequip weapon(s) and jump on the rock. The first deathstone is before the first lava ride. (opciones de chat: 1 Yes.)",
+        "es": "Quítate el arma o armas y salta sobre la roca. La primera piedra de muerte está antes del primer tramo de lava. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Avoid taking damage using the keyboard or on-screen arrows.",
+        "es": "Evita recibir daño usando el teclado o las flechas en pantalla."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 1,
+      "text": {
+        "en": "The mini-map can help you predict upcoming obstacles.",
+        "es": "El minimapa puede ayudarte a predecir los próximos obstáculos."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 1,
+      "text": {
+        "en": "The off-hand Enhanced Excalibur can be activated prior to departure, and will heal you during the ride.",
+        "es": "El Enhanced Excalibur de mano secundaria puede activarse antes de partir, y te curará durante el trayecto."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Equip weapon(s) and attack muspahs until a grand force muspah appears.",
+        "es": "Equípate el arma o armas y ataca a los muspah hasta que aparezca un grand force muspah."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Stand next to the interactable wall and attack it until its adrenaline bar fills and it destroys the wall with its special attack.",
+        "es": "Colócate junto al muro interactuable y atácalo hasta que se llene su barra de adrenalina y destruya el muro con su ataque especial."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Repeat in next area. (Note: There is a checkpoint right before the second river of lava)",
+        "es": "Repite en la siguiente zona. (Nota: hay un punto de control justo antes del segundo río de lava)"
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Heal up, un-equip weapon(s), and jump on the rock. The second deathstone is before the second lava ride. (opciones de chat: 1 Yes.)",
+        "es": "Cúrate, quítate el arma o armas y salta sobre la roca. La segunda piedra de muerte está antes del segundo tramo de lava. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "Avoid taking damage using the keyboard or on-screen arrows as before.",
+        "es": "Evita recibir daño usando el teclado o las flechas en pantalla, como antes."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Seren. The third deathstone is to the east of Seren. (opciones de chat: Any • 2 [Continue...])",
+        "es": "Habla con Seren. La tercera piedra de muerte está al este de Seren. (opciones de chat: Any • 2 [Continue...])"
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Enter the cave. The final deathstone is right before meeting with the mahjarrat.",
+        "es": "Entra en la cueva. La última piedra de muerte está justo antes de encontrarte con el mahjarrat."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Go west and talk to Zemouregal. (opciones de chat: Any • 2 [Continue...] • 2 [Continue...] • 2 Stay silent.)",
+        "es": "Ve al oeste y habla con Zemouregal. (opciones de chat: Any • 2 [Continue...] • 2 [Continue...] • 2 Stay silent.)"
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Watch or skip the cutscene.",
+        "es": "Mira o sáltate la escena cinemática."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Speak with Zaros.",
+        "es": "Habla con Zaros."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Go up the northern path and talk to Seren at the end. (opciones de chat: 1 Yes.)",
+        "es": "Sube por el camino del norte y habla con Seren al final. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the core of Mah.",
+        "es": "Investiga el núcleo de Mah."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Intercept the shadows heading towards the core from the muspahs.",
+        "es": "Intercepta las sombras que se dirigen hacia el núcleo desde los muspah."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 1,
+      "text": {
+        "en": "Insert the glowing orb into the light shard between the core and the shadow heading towards it. The orb must be retrieved from the light shard it's in before it can be inserted into another.",
+        "es": "Inserta el orbe brillante en el fragmento de luz entre el núcleo y la sombra que se dirige hacia él. El orbe debe recuperarse del fragmento de luz en el que está antes de poder insertarlo en otro."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Navigate the area by going from one circle of light to another.",
+        "es": "Recorre la zona pasando de un círculo de luz a otro."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 1,
+      "text": {
+        "en": "Touch the light shard at the end of the path.",
+        "es": "Toca el fragmento de luz al final del camino."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 1,
+      "text": {
+        "en": "Go back half way and exit on Zemouregal.",
+        "es": "Regresa hasta la mitad del camino y sal por Zemouregal."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the core and intercept the shadows as before. Two orbs will be given this time. Failing three times will result in the option to toggle an easier mode.",
+        "es": "Investiga el núcleo e intercepta las sombras como antes. Esta vez se te darán dos orbes. Si fallas tres veces, se te dará la opción de activar un modo más fácil."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Navigate the area using the circles of light as before.",
+        "es": "Recorre la zona usando los círculos de luz como antes."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 1,
+      "text": {
+        "en": "Touch the western light shard.",
+        "es": "Toca el fragmento de luz occidental."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 1,
+      "text": {
+        "en": "Touch the eastern light shard.",
+        "es": "Toca el fragmento de luz oriental."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 1,
+      "text": {
+        "en": "Touch the central light shard.",
+        "es": "Toca el fragmento de luz central."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 1,
+      "text": {
+        "en": "Go south and exit on Seren.",
+        "es": "Ve al sur y sal por Seren."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the core and intercept the shadows as before. Three orbs will be given this time. If you're having issues completing this round, after three failed attempts, there will be an option for easy mode.",
+        "es": "Investiga el núcleo e intercepta las sombras como antes. Esta vez se te darán tres orbes. Si tienes problemas para completar esta ronda, después de tres intentos fallidos habrá una opción de modo fácil."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Seren. (opciones de chat: 2 [Continue...])",
+        "es": "Habla con Seren. (opciones de chat: 2 [Continue...])"
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "Go down the path and talk to Seren at the ritual site. (opciones de chat: 2 [Continue...])",
+        "es": "Baja por el camino y habla con Seren en el sitio del ritual. (opciones de chat: 2 [Continue...])"
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Go back up the path and talk to Zaros. (opciones de chat: 2 [Continue...])",
+        "es": "Sube de nuevo por el camino y habla con Zaros. (opciones de chat: 2 [Continue...])"
+      }
+    },
+    {
+      "index": 68,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

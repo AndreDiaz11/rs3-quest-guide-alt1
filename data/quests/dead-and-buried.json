@@ -1,0 +1,616 @@
+{
+  "id": "dead-and-buried",
+  "title": "Dead and Buried",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:02:05.836Z",
+  "icon": "https://runescape.wiki/images/thumb/Dead_and_Buried_icon.png/50px-Dead_and_Buried_icon.png",
+  "series": "Fort Forinthry",
+  "age": "Age of Chaos",
+  "timeline": "Age of Chaos",
+  "members": true,
+  "combatLevel": "scaled",
+  "difficulty": "Experienced",
+  "length": "Medium",
+  "releaseDate": "17 July 2023",
+  "startPoint": {
+    "en": "Talk to the Raptor north of the guardhouse in Fort Forinthry.",
+    "es": "Habla con el Raptor al norte de la casa de guardia en Fort Forinthry."
+  },
+  "requirements": {
+    "quests": [
+      "Unwelcome Guests",
+      "Murder on the Border",
+      "New Foundations",
+      "Town Hall (Tier 1)",
+      "Command Centre (Tier 1)",
+      "Workshop (Tier 1)",
+      "Chapel (Tier 1)"
+    ],
+    "skills": [
+      {
+        "skill": "Woodcutting",
+        "level": 50
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Stone wall segment",
+      "display": "6 stone wall segments",
+      "image": "https://runescape.wiki/images/thumb/Stone_wall_segment_detail.png/100px-Stone_wall_segment_detail.png?2b245"
+    },
+    {
+      "name": "Acadia frame",
+      "display": "14 acadia frames",
+      "image": "https://runescape.wiki/images/thumb/Acadia_frame_detail.png/100px-Acadia_frame_detail.png?a43a4"
+    },
+    {
+      "name": "Limestone brick",
+      "display": "24 limestone bricks to make stone wall segments",
+      "image": "https://runescape.wiki/images/thumb/Limestone_brick_detail.png/100px-Limestone_brick_detail.png?7799b"
+    },
+    {
+      "name": "Acadia plank",
+      "display": "168 acadia planks to make acadia frames",
+      "image": "https://runescape.wiki/images/thumb/Acadia_plank_detail.png/100px-Acadia_plank_detail.png?9e20a"
+    }
+  ],
+  "kills": [
+    "Three material ghouls, which scale to your combat level",
+    "22 the Nightmares, which scale to your combat level",
+    "10 fetid zombies, which scale to your combat level"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 8000,
+      "display": "8,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Skills",
+      "amount": 3000,
+      "display": "3,000 experience lamp (Skill must be level 30 or higher)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ranger's Workroom",
+      "display": "Ability to build all three tiers of the Fort Forinthry Ranger's Workroom.",
+      "image": "https://runescape.wiki/images/thumb/Ranger%27s_Workroom_%28Fort_Forinthry%2C_unbuilt%29.png/100px-Ranger%27s_Workroom_%28Fort_Forinthry%2C_unbuilt%29.png?378cf"
+    },
+    {
+      "type": "item",
+      "name": "The Dragonkin Tomb",
+      "display": "The Dragonkin Tomb",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Raptor's Deeper Dream",
+      "display": "The Raptor's Deeper Dream",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Raptor's Dream",
+      "display": "The Raptor's Dream",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Raptor in Fort Forinthry. (opciones de chat: 1 Talk about 'Dead and Buried'. • Accept)",
+        "es": "Habla con el Raptor en Fort Forinthry. (opciones de chat: 1 Talk about 'Dead and Buried'. • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Continue with the portal in front of the Town Hall to enter. (opciones de chat: 1 Yes.)",
+        "es": "Continúa con el portal frente al Town Hall para entrar. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Herald of Varrock. (opciones de chat: ~ • ~ • ~ • 4 (Conclude interview.) • 1 Yes, I've asked enough questions.)",
+        "es": "Habla con el Herald of Varrock. (opciones de chat: ~ • ~ • ~ • 4 (Conclude interview.) • 1 Yes, I've asked enough questions.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill. (opciones de chat: 1 Talk about 'Dead and Buried'.)",
+        "es": "Habla con Bill. (opciones de chat: 1 Talk about 'Dead and Buried'.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Check plans on the Fort Forinthry blueprints and select Ranger's Workroom (Tier 1).",
+        "es": "Consulta los planos en los planos de construcción de Fort Forinthry y selecciona Ranger's Workroom (Tier 1)."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Build the Ranger's Workroom in the south-west near the Guardhouse.",
+        "es": "Construye el Ranger's Workroom al suroeste, cerca de la Guardhouse."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to guard captain Sofía in the newly-built Ranger's Workroom.",
+        "es": "Habla con la capitana de la guardia Sofía en el recién construido Ranger's Workroom."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Raptor. (opciones de chat: 1 Talk about 'Dead and Buried'.)",
+        "es": "Habla con el Raptor. (opciones de chat: 1 Talk about 'Dead and Buried'.)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Continue with the portal by the Wilderness crypt entrance outside the northern gate",
+        "es": "Continúa con el portal junto a la entrada de la cripta en Wilderness, fuera de la puerta norte."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Raptor.",
+        "es": "Habla con el Raptor."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Collect six out of nine materials from the six spooky holes in the western room.",
+        "es": "Recoge seis de los nueve materiales de los seis agujeros tenebrosos en la sala del oeste."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "Kill the three material ghouls that spawn to collect the last three materials.",
+        "es": "Mata a los tres material ghouls que aparecen para recoger los últimos tres materiales."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Construct the bridge near the Raptor.",
+        "es": "Construye el puente cerca del Raptor."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Cross the bridge and investigate the ancient door.",
+        "es": "Cruza el puente e investiga la puerta antigua."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Push either of the two pillars. Switch to the Raptor and push the other pillar to unlock the door.",
+        "es": "Empuja una de las dos columnas. Cambia al Raptor y empuja la otra columna para desbloquear la puerta."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Search the ancient door to receive the dragonkin device.",
+        "es": "Registra la puerta antigua para recibir el dispositivo dragonkin."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Speak to the Raptor to show him the device.",
+        "es": "Habla con el Raptor para mostrarle el dispositivo."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Varrock Library and continue with the portal by the entrance. (opciones de chat: 1 Yes.)",
+        "es": "Ve a la Varrock Library y continúa con el portal junto a la entrada. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Reldo for a potion of dreamless sleep.",
+        "es": "Habla con Reldo para conseguir una poción de sueño sin sueños."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Drink the potion, then inspect the dragonkin device to enter the dream. (opciones de chat: 1 Enter dream.)",
+        "es": "Bebe la poción y luego inspecciona el dispositivo dragonkin para entrar en el sueño. (opciones de chat: 1 Enter dream.)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "The aim is to step on the pressure plates, unlock all the boulders, and enter the final barrier. As the player, you can push and pull boulders one tile at a time. As the Raptor, you can push boulders five tiles, and pull by one tile.",
+        "es": "El objetivo es pisar las placas de presión, desbloquear todas las rocas y entrar en la barrera final. Como jugador, puedes empujar y tirar de las rocas una casilla a la vez. Como el Raptor, puedes empujar las rocas cinco casillas y tirar de ellas una casilla."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 1,
+      "text": {
+        "en": "It might glitch and not show the boulder, although it is there and interactable.",
+        "es": "Puede fallar y no mostrar la roca, aunque esté presente y sea interactuable."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "For rooms that don't have enough boulders, you need to step on a pressure plate to spawn one.",
+        "es": "En las salas que no tengan suficientes rocas, debes pisar una placa de presión para que aparezca una."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Player steps on a pressure plate.",
+        "es": "El jugador pisa una placa de presión."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Switch to the Raptor and step on the other pressure plate.",
+        "es": "Cambia al Raptor y pisa la otra placa de presión."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Pull and push the boulder to the middle plate outside boulder gate 2.",
+        "es": "Tira y empuja la roca hacia la placa central fuera de la boulder gate 2."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "The player steps on a pressure plate.",
+        "es": "El jugador pisa una placa de presión."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Switch to the Raptor and step on the other pressure plate.",
+        "es": "Cambia al Raptor y pisa la otra placa de presión."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Pull and push both boulders to the outer pressure plates at boulder gate 3.",
+        "es": "Tira y empuja ambas rocas hacia las placas de presión exteriores en la boulder gate 3."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "The player steps on a pressure plate.",
+        "es": "El jugador pisa una placa de presión."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Switch to the Raptor and step on the other pressure plate.",
+        "es": "Cambia al Raptor y pisa la otra placa de presión."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Walk through to boulder gate 4.",
+        "es": "Camina hacia la boulder gate 4."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "The player steps on either of the two furthest pressure plates from the gate.",
+        "es": "El jugador pisa una de las dos placas de presión más alejadas de la puerta."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Switch to the Raptor and push the boulder to any pressure plate next to the gate.",
+        "es": "Cambia al Raptor y empuja la roca hacia cualquier placa de presión junto a la puerta."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Repeat for the other pressure plate.",
+        "es": "Repite para la otra placa de presión."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "The player steps on the pressure plate by the gate.",
+        "es": "El jugador pisa la placa de presión junto a la puerta."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Switch to the Raptor and step on the pressure plate by the gate.",
+        "es": "Cambia al Raptor y pisa la placa de presión junto a la puerta."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Walk through.",
+        "es": "Camina hacia adelante."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "The Raptor steps on the western-most pressure plate.",
+        "es": "El Raptor pisa la placa de presión más al oeste."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "The player pulls the boulder and pushes it to the second pressure plate (going clockwise).",
+        "es": "El jugador tira de la roca y la empuja hasta la segunda placa de presión (en sentido horario)."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "The player steps on the third pressure plate, and the second boulder appears.",
+        "es": "El jugador pisa la tercera placa de presión, y aparece la segunda roca."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "text": {
+        "en": "If the second boulder does not spawn, exit to the lobby and continue again with the portal at the library.",
+        "es": "Si la segunda roca no aparece, sal al lobby y continúa de nuevo con el portal en la library."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "The player pushes and pulls the boulder to the fourth pressure plate.",
+        "es": "El jugador empuja y tira de la roca hasta la cuarta placa de presión."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "The player steps on the third pressure plate to open the gate.",
+        "es": "El jugador pisa la tercera placa de presión para abrir la puerta."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Run to the strange girl to start a cutscene.",
+        "es": "Corre hacia la strange girl para iniciar una escena cinemática."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Go through all the chat options, then delve deeper into the dream.",
+        "es": "Recorre todas las opciones de chat, y luego adéntrate más en el sueño."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Interact with the dim light.",
+        "es": "Interactúa con la luz tenue."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Lower the health of the Nightmares as the player, then swap to the Raptor to deal the finishing blow.",
+        "es": "Reduce la salud de los Nightmares como jugador, luego cambia al Raptor para dar el golpe final."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "text": {
+        "en": "Currently this part is glitched if you are in a group, which will prevent the player from progressing as expected. Simply leaving the group and re-entering the instance will allow progress.",
+        "es": "Actualmente esta parte tiene un fallo si estás en grupo, lo que impedirá que el jugador avance como se espera. Simplemente salir del grupo y volver a entrar en la instancia permitirá continuar."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Interact with the pillar of light and talk with the character that appears.",
+        "es": "Interactúa con el pilar de luz y habla con el personaje que aparece."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Continue on the path, and repeat the same process with the dim lights along the way.",
+        "es": "Continúa por el camino y repite el mismo proceso con las luces tenues a lo largo del camino."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Finally, speak to the Raptor that appears.",
+        "es": "Finalmente, habla con el Raptor que aparece."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Read the ancient writings on the wall at the end of the path.",
+        "es": "Lee las escrituras antiguas en la pared al final del camino."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Finish talking to the Raptor, then go back to the crypt in the Wilderness.",
+        "es": "Termina de hablar con el Raptor, luego regresa a la cripta en Wilderness."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Continue with the portal in front of the crypt.",
+        "es": "Continúa con el portal frente a la cripta."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Enter the ancient door, then investigate the map table in the central room.",
+        "es": "Entra por la puerta antigua, luego investiga la mesa del mapa en la sala central."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Kill fetid zombies around the crypt and collect 10 map pieces. Do not leave the crypt.",
+        "es": "Mata a los fetid zombies alrededor de la cripta y recoge 10 piezas del mapa. No abandones la cripta."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Deposit onto the map table to start the puzzle.",
+        "es": "Deposítalas en la mesa del mapa para iniciar el puzle."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Complete the map (shown below) using the same strategy as for solving a puzzle box or , strategy guide here.",
+        "es": "Completa el mapa (mostrado abajo) usando la misma estrategia que para resolver una puzzle box, o consulta la guía de estrategia aquí."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 1,
+      "text": {
+        "en": "Speaking to the Raptor to turn on accessibility mode is advised; this will highlight tiles while they are in the correct position.",
+        "es": "Se recomienda hablar con el Raptor para activar el modo de accesibilidad; esto resaltará las casillas mientras estén en la posición correcta."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Finish the following dialogue with the Raptor before continuing.",
+        "es": "Termina el siguiente diálogo con el Raptor antes de continuar."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Overseer Siv in the Command Centre back at Fort Forinthry. (opciones de chat: 2 Talk about quests.)",
+        "es": "Habla con la Overseer Siv en el Command Centre de vuelta en Fort Forinthry. (opciones de chat: 2 Talk about quests.)"
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Raptor to finish the quest.",
+        "es": "Habla con el Raptor para terminar la misión."
+      }
+    }
+  ]
+}

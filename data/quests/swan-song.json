@@ -1,0 +1,383 @@
+{
+  "id": "swan-song",
+  "title": "Swan Song",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:18:58.048Z",
+  "icon": "https://runescape.wiki/images/Swan_Song_icon.png",
+  "series": "Wise Old Man",
+  "age": "ambiguous",
+  "timeline": "legendary",
+  "members": true,
+  "combatLevel": "90-99",
+  "difficulty": "Master",
+  "length": "Medium to Long",
+  "releaseDate": "2 May 2006",
+  "startPoint": {
+    "en": "Speak to Herman Caranos at the Piscatoris Fishing Colony.",
+    "es": "Habla con Herman Caranos en Piscatoris Fishing Colony."
+  },
+  "requirements": {
+    "quests": [
+      "Swan Song",
+      "Garden of Tranquillity",
+      "Creature of Fenkenstrain",
+      "The Restless Ghost",
+      "Morytania"
+    ],
+    "skills": [
+      {
+        "skill": "Cooking",
+        "level": 62
+      },
+      {
+        "skill": "Crafting",
+        "level": 40
+      },
+      {
+        "skill": "Firemaking",
+        "level": 42
+      },
+      {
+        "skill": "Fishing",
+        "level": 62
+      },
+      {
+        "skill": "Magic",
+        "level": 66
+      },
+      {
+        "skill": "Smithing",
+        "level": 45
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Mist rune",
+      "display": "10 mist runes",
+      "image": "https://runescape.wiki/images/thumb/Mist_rune_detail.png/100px-Mist_rune_detail.png?80e51"
+    },
+    {
+      "name": "Lava rune",
+      "display": "10 lava runes",
+      "image": "https://runescape.wiki/images/thumb/Lava_rune_detail.png/100px-Lava_rune_detail.png?9985a"
+    },
+    {
+      "name": "Blood rune",
+      "display": "5 blood runes",
+      "image": "https://runescape.wiki/images/thumb/Blood_rune_detail.png/100px-Blood_rune_detail.png?86f40"
+    },
+    {
+      "name": "Empty pot",
+      "display": "Empty pot and pot lid (there's a potter's wheel in Draynor if you need it, or the Barbarian Village has everything required to make your own)",
+      "image": "https://runescape.wiki/images/thumb/Empty_pot_detail.png/100px-Empty_pot_detail.png?88ce6"
+    },
+    {
+      "name": "Bones",
+      "display": "7 bones (can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Bones_detail.png/100px-Bones_detail.png?28fd1"
+    },
+    {
+      "name": "Iron bar",
+      "display": "5 iron bars (can be obtained during the quest, requiring smelting from iron ores)",
+      "image": "https://runescape.wiki/images/thumb/Iron_bar_detail.png/100px-Iron_bar_detail.png?2c5a5"
+    },
+    {
+      "name": "Logs",
+      "display": "Logs (can be obtained during quest)",
+      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+    }
+  ],
+  "kills": [
+    "10 sea trolls (one each of levels 56/77/84 and seven of level 63)",
+    "Sea Troll Queen (level 91)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 15000,
+      "display": "15,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Prayer",
+      "amount": 10000,
+      "display": "10,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Fishing",
+      "amount": 10000,
+      "display": "10,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "25,000 coins",
+      "display": "25,000 coins",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Piscatoris Fishing Colony",
+      "display": "Access to the Piscatoris Fishing Colony Able to fish monkfish Able to use Skeletal mages for training Seaweed spawns Bank and obelisk very close by",
+      "image": "https://runescape.wiki/images/thumb/Piscatoris_Fishing_Colony.png/100px-Piscatoris_Fishing_Colony.png?abfb8"
+    },
+    {
+      "type": "item",
+      "name": "Malignius Mortifer",
+      "display": "Can get the following items from Malignius Mortifer upon request: Bone seeds (requires pot and pot lid)",
+      "image": "https://runescape.wiki/images/thumb/Malignius_Mortifer.png/100px-Malignius_Mortifer.png?f748e"
+    },
+    {
+      "type": "item",
+      "name": "Transmutation",
+      "display": "Able to transmute raw bass into raw monkfish",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Making Waves",
+      "display": "Making Waves",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Last Stand",
+      "display": "Last Stand",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Eagle Peak",
+      "display": "Eagle Peak (depending on how you walk to Kathy Corkat)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Joy of the Hunt",
+      "display": "Joy of the Hunt (if you took Kathy's boat, or walk toward it in the fishing colony)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Herman Caranos outside the Piscatoris Fishing Colony (fairy ring code or memory strand teleport, then run northeast). (opciones de chat: 1 What's the rush? • 1 Do you need any help? • Accept)",
+        "es": "Habla con Herman Caranos fuera de Piscatoris Fishing Colony (código de fairy ring o teletransporte con memory strand y luego corre hacia el noreste). (opciones de chat: 1 ¿A qué viene tanta prisa? • 1 ¿Necesitas ayuda? • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Wise Old Man in Draynor. (opciones de chat: 1 Would you like to go on a quest?)",
+        "es": "Habla con el Wise Old Man en Draynor. (opciones de chat: 1 ¿Te gustaría emprender una misión?)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Head back to the Piscatoris Colony. Talk to the Wise Old Man. (opciones de chat: 1 I'm ready to fight.)",
+        "es": "Vuelve a Piscatoris Colony. Habla con el Wise Old Man. (opciones de chat: 1 Estoy listo para luchar.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Kill the sea trolls and open the colony gate.",
+        "es": "Mata a los sea trolls y abre la puerta de la colonia."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Herman in the eastern building.",
+        "es": "Habla con Herman en el edificio oriental."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Franklin Caranos near the entrance.",
+        "es": "Habla con Franklin Caranos cerca de la entrada."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "In the building directly north of Franklin, use a log on the firebox, then light the firebox by clicking on it.",
+        "es": "En el edificio situado justo al norte de Franklin, usa un tronco en el firebox y luego enciéndelo haciendo clic sobre él."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "Logs and iron ores can be obtained just outside of the colony. The firebox is the metal box on the east side of the metal press.",
+        "es": "Se pueden obtener troncos y mena de hierro justo a las afueras de la colonia. El firebox es la caja metálica situada en el lado este de la Metal Press."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Use 5 iron bars on the Metal Press to get 5 iron sheets.",
+        "es": "Usa 5 barras de hierro en la Metal Press para obtener 5 iron sheets."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Use the iron sheets on the broken colony walls to the west.",
+        "es": "Usa las iron sheets en los muros dañados de la colonia, al oeste."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Franklin.",
+        "es": "Habla con Franklin."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Right-click on Arnold Lydspor in the bank to talk to him.",
+        "es": "Haz clic derecho sobre Arnold Lydspor en el banco para hablar con él."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Catch at least five fresh monkfish to the northwest. You'll be attacked by sea trolls when fishing. This can take up to 10 minutes depending on your Fishing level.",
+        "es": "Pesca al menos cinco monkfish frescos al noroeste. Serás atacado por sea trolls mientras pescas. Esto puede llevar hasta 10 minutos dependiendo de tu nivel de Pesca."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Cook the monkfish in the kitchen southwest. You will need to turn in five fresh monkfish; if any are burned, fish for more. To cook them, just use them on the range and don't proceed on Make-X interface.",
+        "es": "Cocina los monkfish en la cocina al suroeste. Deberás entregar cinco monkfish frescos; si alguno se quema, pesca más. Para cocinarlos, simplemente úsalos en el range y no continúes en la interfaz de Fabricar-X."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Arnold.",
+        "es": "Habla con Arnold."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Wise Old Man and Herman (furthest building to the east). (opciones de chat: 2 Something else.)",
+        "es": "Habla con el Wise Old Man y con Herman (el edificio más alejado, al este). (opciones de chat: 2 Otra cosa.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Wizard Frumscone in the basement of the Wizards' Guild in Yanille. (opciones de chat: 2 I'll see what the necromancer needs me to do.)",
+        "es": "Habla con Wizard Frumscone en el sótano de Wizards' Guild en Yanille. (opciones de chat: 2 Veré qué necesita de mí el nigromante.)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "Fetch the required supplies now, if you haven't already.",
+        "es": "Consigue ahora los suministros necesarios, si aún no lo has hecho."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Malignius Mortifer northwest of Port Sarim near the crossroads. (opciones de chat: 2 I need help with saving a fishing colony.)",
+        "es": "Habla con Malignius Mortifer al noroeste de Port Sarim, cerca del cruce de caminos. (opciones de chat: 2 Necesito ayuda para salvar una colonia pesquera.)"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to any Almost Master Crafter inside the Crafting Guild until one talks to you about crafting pot lids.",
+        "es": "Habla con cualquier Almost Master Crafter dentro de Crafting Guild hasta que uno te hable sobre fabricar tapas de olla."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Malignius Mortifer, he will teleport you to the colony, so gear up before speaking with him. (opciones de chat: 2 I've spoken to the master crafter...)",
+        "es": "Habla con Malignius Mortifer; te teletransportará a la colonia, así que equípate bien antes de hablar con él. (opciones de chat: 2 He hablado con el master crafter...)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Herman. (opciones de chat: 1 I'm ready. Let's fight!)",
+        "es": "Habla con Herman. (opciones de chat: 1 Estoy listo. ¡A luchar!)"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Kill the Sea Troll Queen.",
+        "es": "Mata a la Sea Troll Queen."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "Banks recover health rapidly, and while the bank isn't functional until quest completion, you can run into the building and next to the banker to recover health.",
+        "es": "Los bancos recuperan la vida rápidamente, y aunque el banco no esté operativo hasta completar la misión, puedes correr al edificio y colocarte junto al banquero para recuperar vida."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Herman.",
+        "es": "Habla con Herman."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

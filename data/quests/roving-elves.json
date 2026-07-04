@@ -1,0 +1,270 @@
+{
+  "id": "roving-elves",
+  "title": "Roving Elves",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:11:13.687Z",
+  "icon": "https://runescape.wiki/images/Roving_Elves_icon.png",
+  "series": "Elf (Prifddinas)",
+  "age": "ambiguous",
+  "timeline": "legendary",
+  "members": true,
+  "combatLevel": "60-69",
+  "difficulty": "Master",
+  "length": "Medium to Long",
+  "releaseDate": "7 February 2005",
+  "startPoint": {
+    "en": "Talk to Islwyn, a roving elf somewhere in the elven forest of Isafdar in Tirannwn.",
+    "es": "Habla con Islwyn, un elfo errante en algún lugar del bosque élfico de Isafdar, en Tirannwn."
+  },
+  "requirements": {
+    "quests": [
+      "Regicide",
+      "Underground Pass",
+      "Biohazard",
+      "Plague City",
+      "Waterfall Quest"
+    ],
+    "skills": []
+  },
+  "items": [
+    {
+      "name": "Rope",
+      "display": "A rope (not necessary if you have built a rope rack)",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    },
+    {
+      "name": "A key (Waterfall Dungeon)",
+      "display": "A key to the Waterfall Dungeon (can be acquired during the quest)",
+      "image": "https://runescape.wiki/images/thumb/A_key_%28Waterfall_Dungeon%29_detail.png/100px-A_key_%28Waterfall_Dungeon%29_detail.png?601e0"
+    },
+    {
+      "name": "Glarial's pebble",
+      "display": "Glarial's pebble",
+      "image": "https://runescape.wiki/images/thumb/Glarial%27s_pebble_detail.png/100px-Glarial%27s_pebble_detail.png?02d7b"
+    },
+    {
+      "name": "Glarial's amulet",
+      "display": "Glarial's amulet (can be acquired during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Glarial%27s_amulet_detail.png/100px-Glarial%27s_amulet_detail.png?b30e0"
+    }
+  ],
+  "kills": [
+    "Moss giant (level 24) You may not use any weapons, runes, summoning familiars, armour or prayer. Some exceptions for weapons if you are crafty."
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Strength",
+      "amount": 10000,
+      "display": "10,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Crystal bow",
+      "display": "A used crystal bow or crystal ward (your choice, it will be 20% charged).",
+      "image": "https://runescape.wiki/images/thumb/Crystal_bow_detail.png/100px-Crystal_bow_detail.png?f3178"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Bank all your combat equipment.",
+        "es": "Guarda en el banco todo tu equipo de combate."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Track down and talk to Islwyn. (opciones de chat: Accept • 1 Tell the truth? • 1 Maybe I could help.)",
+        "es": "Localiza a Islwyn y habla con él. (opciones de chat: Aceptar • 1 ¿Decir la verdad? • 1 Quizá podría ayudar.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "Islwyn and Eluned move locations regularly: either south-west of Lletya or north-east of the Tyras Camp. Simply hop worlds until you find them.",
+        "es": "Islwyn y Eluned cambian de ubicación regularmente: al suroeste de Lletya o al noreste del Tyras Camp. Simplemente cambia de mundo hasta que los encuentres."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Eluned.",
+        "es": "Habla con Eluned."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Use Glarial's pebble on Glarial's tombstone north-west of the Fishing Guild.",
+        "es": "Usa el pebble de Glarial en la tombstone de Glarial, al noroeste del Fishing Guild."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "If you're holding any combat equipment or logs, you'll receive the message: It fits perfectly, but nothing happens.",
+        "es": "Si llevas encima equipo de combate o troncos, recibirás el mensaje: Encaja perfectamente, pero no ocurre nada."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "If needed, reclaim Glarial's pebble from Golrie in Gnome Village Dungeon. (opciones de chat: 1 Yes please!)",
+        "es": "Si es necesario, recupera el pebble de Glarial de Golrie en el Gnome Village Dungeon. (opciones de chat: 1 ¡Sí, por favor!)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "You can also reclaim Glarial's pebble from the Storage Chest in May's Quest Caravan.",
+        "es": "También puedes recuperar el pebble de Glarial del Storage Chest en el May's Quest Caravan."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Kill a moss giant and pick up the consecration seed it drops.",
+        "es": "Mata a un moss giant y recoge la consecration seed que suelta."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "text": {
+        "en": "You can remove an item from your tool belt to use as a weapon. Legacy combat mode increases auto attack damage. A ring of recoil may be helpful for lower levelled players.",
+        "es": "Puedes sacar un objeto de tu tool belt para usarlo como arma. El modo de combate Legacy aumenta el daño de los ataques automáticos. Un ring of recoil puede ser útil para jugadores de nivel más bajo."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "If needed, reclaim Glarial's amulet from the chest to the west.",
+        "es": "Si es necesario, recupera el amulet de Glarial del cofre situado al oeste."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Take the seed to Eluned to have her enchant it.",
+        "es": "Lleva la semilla a Eluned para que la encante."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the Waterfall dungeon.",
+        "es": "Viaja al Waterfall dungeon."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "Via hoardstalker ring or Dungeoneering cape (Baxtorian Falls resource dungeon option, called Waterfall fire giant dungeon in the cape)",
+        "es": "A través del hoardstalker ring o la Dungeoneering cape (opción de mazmorra de recursos Baxtorian Falls, llamada Waterfall fire giant dungeon en la cape)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 1,
+      "text": {
+        "en": "Via games necklace, Barbarian Outpost then run south to Baxtorian Falls, then:",
+        "es": "A través del games necklace, Barbarian Outpost y luego corre hacia el sur hasta Baxtorian Falls, después:"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 2,
+      "text": {
+        "en": "Board the log raft north of Baxtorian falls",
+        "es": "Sube a la balsa de troncos al norte de Baxtorian Falls"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 2,
+      "text": {
+        "en": "Use a rope on the rock south across the water",
+        "es": "Usa una cuerda en la roca al sur, cruzando el agua"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 2,
+      "text": {
+        "en": "Use a rope on the dead tree",
+        "es": "Usa una cuerda en el árbol muerto"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 2,
+      "text": {
+        "en": "Enter the door",
+        "es": "Entra por la puerta"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "If needed, reclaim a key from the discoloured crates in the eastern room with skeletons.",
+        "es": "Si es necesario, recupera una llave de las crates descoloridas en la sala este con esqueletos."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Go inside the north-west room with the statues.",
+        "es": "Entra en la sala noroeste con las estatuas."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Plant the enchanted consecration seed anywhere inside.",
+        "es": "Planta la consecration seed encantada en cualquier parte del interior."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Return to Islwyn to choose your reward. (opciones de chat: Any)",
+        "es": "Vuelve con Islwyn para elegir tu recompensa. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

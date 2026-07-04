@@ -1,0 +1,902 @@
+{
+  "id": "rocking-out",
+  "title": "Rocking Out",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:10:36.294Z",
+  "icon": "https://runescape.wiki/images/Rocking_Out_icon.png",
+  "series": "Pirate",
+  "age": "5",
+  "timeline": "legendary",
+  "members": true,
+  "combatLevel": "30-39",
+  "difficulty": "Master",
+  "length": "Long to Very Long",
+  "releaseDate": "11 June 2008",
+  "startPoint": {
+    "en": "Talk to Bill Teach in Mos Le'Harmless or Port Phasmatys. (or )",
+    "es": "Habla con Bill Teach en Mos Le'Harmless o Port Phasmatys. (o )"
+  },
+  "requirements": {
+    "quests": [
+      "The Great Brain Robbery",
+      "Creature of Fenkenstrain",
+      "The Restless Ghost",
+      "Morytania",
+      "Cabin Fever",
+      "Pirate's Treasure",
+      "Rum Deal",
+      "Morytania",
+      "Recipe for Disaster: Freeing Pirate Pete",
+      "Recipe for Disaster: Another Cook's Quest",
+      "Cook's Assistant"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 60
+      },
+      {
+        "skill": "Crafting",
+        "level": 66
+      },
+      {
+        "skill": "Smithing",
+        "level": 69
+      },
+      {
+        "skill": "Thieving",
+        "level": 63
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Pirate clothing",
+      "display": "3 pieces of pirate clothing You can buy pirate clothing from Dodgy Mike in Mos Le'Harmless, east of the bank",
+      "image": null
+    },
+    {
+      "name": "Dodgy Mike",
+      "display": "You can buy pirate clothing from Dodgy Mike in Mos Le'Harmless, east of the bank",
+      "image": null
+    },
+    {
+      "name": "Book o' piracy",
+      "display": "Book o' piracy (can be obtained during quest)",
+      "image": null
+    },
+    {
+      "name": "Customs Sergeant",
+      "display": "The following items are required, but will need to be retrieved from your bank once you escape prison as you will be forced to deposit all of your worn/inventory items before the Customs Sergeant will send you to jail: Fishbowl helmet Diving apparatus Ghostspeak amulet (or cramulet) (unless you have completed the Hard Morytania achievements) 2 rolls of bronze wire Charcoal (can be obtained during quest)",
+      "image": "https://runescape.wiki/images/thumb/Customs_Sergeant.png/100px-Customs_Sergeant.png?c02b8"
+    },
+    {
+      "name": "Fishbowl helmet",
+      "display": "Fishbowl helmet",
+      "image": "https://runescape.wiki/images/thumb/Fishbowl_helmet_detail.png/100px-Fishbowl_helmet_detail.png?8c963"
+    },
+    {
+      "name": "Diving apparatus",
+      "display": "Diving apparatus",
+      "image": "https://runescape.wiki/images/thumb/Diving_apparatus_detail.png/100px-Diving_apparatus_detail.png?55050"
+    },
+    {
+      "name": "Ghostspeak amulet",
+      "display": "Ghostspeak amulet (or cramulet) (unless you have completed the Hard Morytania achievements)",
+      "image": "https://runescape.wiki/images/thumb/Ghostspeak_amulet_detail.png/100px-Ghostspeak_amulet_detail.png?18457"
+    },
+    {
+      "name": "Bronze wire",
+      "display": "2 rolls of bronze wire",
+      "image": "https://runescape.wiki/images/thumb/Bronze_wire_detail.png/100px-Bronze_wire_detail.png?128cd"
+    },
+    {
+      "name": "Charcoal",
+      "display": "Charcoal (can be obtained during quest)",
+      "image": "https://runescape.wiki/images/thumb/Charcoal_detail.png/100px-Charcoal_detail.png?392b5"
+    },
+    {
+      "name": "Coin",
+      "display": "20 coins (or more, depending on how you travel to Port Phasmatys)",
+      "image": null
+    }
+  ],
+  "kills": [
+    "2x Customs Officer (level 37) without any equipment or food"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Thieving",
+      "amount": 25000,
+      "display": "25,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 25000,
+      "display": "25,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 25000,
+      "display": "25,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 25000,
+      "display": "25,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Brimhaven Agility Arena",
+      "display": "Free access to the Brimhaven Agility Arena",
+      "image": "https://runescape.wiki/images/thumb/Brimhaven_Agility_Arena.png/100px-Brimhaven_Agility_Arena.png?3ae45"
+    },
+    {
+      "type": "item",
+      "name": "Rock Island Prison",
+      "display": "Access to the Rock Island Prison, where players can steal from customs evidence files",
+      "image": "https://runescape.wiki/images/thumb/Rock_Island_Prison.png/100px-Rock_Island_Prison.png?5a5c7"
+    },
+    {
+      "type": "item",
+      "name": "Bank deposit box",
+      "display": "Access to a bank deposit box in Rimmington",
+      "image": "https://runescape.wiki/images/thumb/Bank_deposit_box_%28Common%29.png/100px-Bank_deposit_box_%28Common%29.png?b73a4"
+    },
+    {
+      "type": "item",
+      "name": "Braindeath 'rum'",
+      "display": "The ability to buy Braindeath 'rum' from The Rusty Anchor Inn",
+      "image": "https://runescape.wiki/images/thumb/Braindeath_%27rum%27_detail.png/100px-Braindeath_%27rum%27_detail.png?83398"
+    },
+    {
+      "type": "item",
+      "name": "Mos Le'Harmless",
+      "display": "The ability to understand pirates on Mos Le'Harmless without the book o' piracy",
+      "image": "https://runescape.wiki/images/thumb/Mos_le%27harmless.png/100px-Mos_le%27harmless.png?fb1dd"
+    },
+    {
+      "type": "item",
+      "name": "Pirate impling",
+      "display": "The ability to catch pirate implings (with 76 )",
+      "image": "https://runescape.wiki/images/thumb/Pirate_impling.png/100px-Pirate_impling.png?542e2"
+    },
+    {
+      "type": "item",
+      "name": "Ex-ex-parrot",
+      "display": "The ability to raise an ex-ex-parrot by speaking to Bill Teach and 50 Ships Mufassah (with 71 )",
+      "image": "https://runescape.wiki/images/thumb/Ex-ex-parrot_pet.png/100px-Ex-ex-parrot_pet.png?ba7a6"
+    },
+    {
+      "type": "item",
+      "name": "Jailbird",
+      "display": "Jailbird",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Something Fishy",
+      "display": "Something Fishy",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "A Pirate's Life for Me",
+      "display": "A Pirate's Life for Me",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Mos Le'Harmless (fairy ring if you have repaired the bridge with 8 planks and 16 nails and partial completion of A Fairy Tale III).",
+        "es": "Viaja a Mos Le'Harmless (anillo de las hadas si has reparado el puente con 8 planks y 16 nails y completado parcialmente A Fairy Tale III)."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill Teach in The Other Inn. (opciones de chat: 1 Speak about Rocking Out. • Accept)",
+        "es": "Habla con Bill Teach en The Other Inn. (opciones de chat: 1 Hablar sobre Rocking Out. • Aceptar)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "If you have lost your Little Book o' Piracy, talk to him to get a new one.",
+        "es": "Si has perdido tu Little Book o' Piracy, habla con él para conseguir uno nuevo."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Buy three pieces of pirate clothing from Dodgy Mike's Second-hand Clothing.",
+        "es": "Compra tres piezas de ropa pirata en Dodgy Mike's Second-hand Clothing."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Go to house in south-east Rimmington with the Customs Sergeant while wearing three pieces of pirate clothing.",
+        "es": "Ve a la casa al sureste de Rimmington con el Customs Sergeant mientras llevas puestas tres piezas de ropa pirata."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Read the noticeboard next to the entrance door for information on the answers to the trick questions. The answers to the trick questions are different for everyone.",
+        "es": "Lee el tablón de anuncios junto a la puerta de entrada para obtener información sobre las respuestas a las preguntas trampa. Las respuestas a las preguntas trampa son diferentes para cada jugador."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Customs Sergeant (opciones de chat: ? Any option. • ? Varies - match noticeboard.)",
+        "es": "Habla con el Customs Sergeant (opciones de chat: ? Cualquier opción. • ? Varía - coincide con el tablón de anuncios.)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "Taking note of the ship name/s he references, select the answers that match the story on noticeboard.",
+        "es": "Tomando nota del nombre o nombres del barco que menciona, selecciona las respuestas que coincidan con la historia del tablón de anuncios."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Deposit all your items in the Locker on the north side of the room. You need to store all the items you are wearing as well as dismiss any familiars.",
+        "es": "Deposita todos tus objetos en el Locker en el lado norte de la sala. Necesitas guardar todos los objetos que llevas puestos, así como despedir a cualquier familiar."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Customs Sergeant again.",
+        "es": "Habla de nuevo con el Customs Sergeant."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Once in the prison, shout-through the barred window to your east.",
+        "es": "Una vez en la prisión, grita a través de la ventana enrejada al este."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Pick up the tin cup in the cell and use it on the cell door 3 times until Heavy-Handed Harry throws stew on you, turning your prison uniform top into a fishy prison uniform top.",
+        "es": "Recoge la taza de hojalata en la celda y úsala en la puerta de la celda 3 veces hasta que Heavy-Handed Harry te tire guiso encima, convirtiendo la parte superior de tu uniforme de prisionero en una parte superior de uniforme de prisionero apestosa a pescado."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Right-click tap the pipes on the eastern wall to receive a pipe.",
+        "es": "Haz clic derecho y toca las tuberías en la pared este para recibir una tubería."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Shout-through your cell door until you receive a quill, paper, and ink bottle.",
+        "es": "Grita a través de la puerta de tu celda hasta que recibas una pluma, papel y un frasco de tinta."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Leave your cell through the hole to the north and search the rubble to receive an accordion (broken).",
+        "es": "Sal de tu celda por el agujero al norte y busca en los escombros para recibir un acordeón (roto)."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Use the ink bottle on the paper to receive inky paper and ink bottle (empty).",
+        "es": "Usa el frasco de tinta en el papel para obtener papel entintado y un frasco de tinta (vacío)."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Use the ink bottle (empty) on the sharp rock outside on the east-most wall near the pier to get a smashed bottle.",
+        "es": "Usa el frasco de tinta (vacío) en la roca afilada de fuera, en la pared más al este cerca del muelle, para conseguir una botella rota."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "In order, use the smashed bottle, pipe, and inky paper on the accordion to get a vacuum pump.",
+        "es": "En orden, usa la botella rota, la tubería y el papel entintado en el acordeón para obtener una bomba de vacío."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Use your fishy prison uniform top on the perch rock just east of the hole in the wall.",
+        "es": "Usa la parte superior de tu uniforme de prisionero apestosa a pescado en la roca del posadero justo al este del agujero en la pared."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Right-click use the vacuum pump on the perch rock once the seagull appears.",
+        "es": "Haz clic derecho y usa la bomba de vacío en la roca del posadero una vez que aparezca la gaviota."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Right-click use the vacuum pump and gull on the barred window.",
+        "es": "Haz clic derecho y usa la bomba de vacío y la gaviota en la ventana enrejada."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Dive off the pier on the east side of the island. (opciones de chat: 1 Dive)",
+        "es": "Salta desde el muelle en el lado este de la isla. (opciones de chat: 1 Saltar)"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Braindeath Island by speaking to Pirate Pete north of Port Phasmatys. (opciones de chat: 1 Braindeath Island, please!)",
+        "es": "Viaja a Braindeath Island hablando con Pirate Pete al norte de Port Phasmatys. (opciones de chat: 1 ¡A Braindeath Island, por favor!)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Go west and speak to Captain Braindeath. He will give you the fake beard, fake moustache and nose, fake monocle, moustache and nose, curly wig, and straight wig disguises. (opciones de chat: 1 Talk about Rocking Out)",
+        "es": "Ve al oeste y habla con Captain Braindeath. Te dará la barba falsa, el bigote y nariz falsos, el monóculo falso, el bigote y nariz, la peluca rizada y la peluca lisa como disfraces. (opciones de chat: 1 Hablar sobre Rocking Out)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the bar in north Port Sarim called The Rusty Anchor.",
+        "es": "Viaja al bar en el norte de Port Sarim llamado The Rusty Anchor."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Bartender. (opciones de chat: 2 Ask about 'rum'.)",
+        "es": "Habla con el Bartender. (opciones de chat: 2 Preguntar sobre el 'ron'.)"
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Bartender again. (opciones de chat: 3 I'll have a drink... and you have one too!)",
+        "es": "Habla de nuevo con el Bartender. (opciones de chat: 3 ¡Voy a tomarme una copa... y tú también!)"
+      }
+    },
+    {
+      "index": 27,
+      "indent": 1,
+      "text": {
+        "en": "Repeat this about five times until he says he's tired.",
+        "es": "Repite esto unas cinco veces hasta que diga que está cansado."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Go outside, put on a disguise, and then ask about the rum again. Repeat this step with each disguise. (opciones de chat: 2 Ask about 'rum'.)",
+        "es": "Sal fuera, ponte un disfraz y luego pregunta de nuevo sobre el ron. Repite este paso con cada disfraz. (opciones de chat: 2 Preguntar sobre el 'ron'.)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the bartender again, this time with no disguise, and he will give you an order slip. (opciones de chat: 2 Ask about 'rum'.)",
+        "es": "Habla de nuevo con el bartender, esta vez sin disfraz, y te dará un albarán de pedido. (opciones de chat: 2 Preguntar sobre el 'ron'.)"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Redbeard Frank outside of The Rusty Anchor in Port Sarim. (opciones de chat: 3 Speak about Rocking Out.)",
+        "es": "Habla con Redbeard Frank fuera de The Rusty Anchor en Port Sarim. (opciones de chat: 3 Hablar sobre Rocking Out.)"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Mos Le'Harmless via the charter boat, fairy ring if you have repaired the bridge, or Bill Teach, and talk to Brother Tranquillity to receive a letter. (opciones de chat: 3 Talk about the letter for Frank.)",
+        "es": "Viaja a Mos Le'Harmless en el barco chárter, el anillo de las hadas si has reparado el puente, o con Bill Teach, y habla con Brother Tranquillity para recibir una carta. (opciones de chat: 3 Hablar sobre la carta para Frank.)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Return to Redbeard Frank on the Port Sarim dock and deliver the letter. (opciones de chat: 3 Speak about Rocking Out.)",
+        "es": "Regresa con Redbeard Frank en el muelle de Port Sarim y entrégale la carta. (opciones de chat: 3 Hablar sobre Rocking Out.)"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Put on your pirate clothing and head back to Braindeath Island.",
+        "es": "Ponte tu ropa pirata y vuelve a Braindeath Island."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Captain Braindeath for his mark. (opciones de chat: 1 Talk about Rocking Out.)",
+        "es": "Habla con Captain Braindeath para conseguir su marca. (opciones de chat: 1 Hablar sobre Rocking Out.)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Go down the southern stairs, and talk to Captain Donnie to get plans.",
+        "es": "Baja las escaleras del sur y habla con Captain Donnie para conseguir los planos."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Head north-west to 50% Luke by the bridge and use charcoal on him.",
+        "es": "Dirígete al noroeste hacia 50% Luke, junto al puente, y usa carboncillo en él."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "There is charcoal in a crate on the other side of the gate near 50% Luke.",
+        "es": "Hay carboncillo en un cajón al otro lado de la verja cerca de 50% Luke."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Return to Redbeard Frank on the Port Sarim docks and exchange the Charcoal rubbing for Frank's mark. (opciones de chat: 3 Speak about Rocking Out.)",
+        "es": "Regresa con Redbeard Frank en el muelle de Port Sarim e intercambia el calco de carboncillo por la marca de Frank. (opciones de chat: 3 Hablar sobre Rocking Out.)"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Optional: Talk to the bartender and ask about 'rum' once more to complete the Rusty Reward achievement required for the master quest cape. (opciones de chat: 2 Ask about 'rum'.)",
+        "es": "Opcional: Habla con el bartender y pregunta sobre el 'ron' una vez más para completar el logro Rusty Reward necesario para la capa de maestro de misiones. (opciones de chat: 2 Preguntar sobre el 'ron'.)"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Mos Le'Harmless.",
+        "es": "Viaja a Mos Le'Harmless."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill Teach in The Other Inn to obtain an introduction letter. (opciones de chat: 1 Speak about Rocking Out.)",
+        "es": "Habla con Bill Teach en The Other Inn para obtener una carta de presentación. (opciones de chat: 1 Hablar sobre Rocking Out.)"
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Climb-up the bamboo ladder in Harpoon Joe's House of 'Rum' just north and speak with 50 Ships Mufassah. (opciones de chat: 1 Yes! Where do I sign up?)",
+        "es": "Sube por la escalera de bambú en Harpoon Joe's House of 'Rum', justo al norte, y habla con 50 Ships Mufassah. (opciones de chat: 1 ¡Sí! ¿Dónde me apunto?)"
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Brass Hand Harry for 5 broken hands.",
+        "es": "Habla con Brass Hand Harry para conseguir 5 manos rotas."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Take-apart the five broken hands.",
+        "es": "Desmonta las cinco manos rotas."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "With the two bronze wires in your inventory, use any piece of the hand on another to trigger a puzzle.",
+        "es": "Con los dos cables de bronce en tu inventario, usa una pieza de la mano en otra para activar un puzle."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Complete the puzzle to obtain a brass hand (the interface will close automatically when the puzzle has been completed).",
+        "es": "Completa el puzle para obtener una mano de latón (la interfaz se cerrará automáticamente cuando el puzle se haya completado)."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 1,
+      "text": {
+        "en": "Try flipping the brace (bottom) piece if you're having trouble completing the puzzle.",
+        "es": "Prueba a girar la pieza del soporte (la de abajo) si tienes problemas para completar el puzle."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "text": {
+        "en": "The location of the hand is as important as the components; make sure you're constructing the hand atop the silhouette.",
+        "es": "La ubicación de la mano es tan importante como los componentes; asegúrate de estar construyendo la mano sobre la silueta."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Brass Hand Harry (nearby) to receive an ink pad. Use the ink pad on the brass hand to get a inky hand. Then use the inky hand on the paper.",
+        "es": "Habla con Brass Hand Harry (cerca) para recibir una almohadilla de tinta. Usa la almohadilla de tinta en la mano de latón para obtener una mano entintada. Luego usa la mano entintada en el papel."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Brass Hand Harry again to show him the completed Brass Hand Harry's mark.",
+        "es": "Habla de nuevo con Brass Hand Harry para mostrarle la marca completada de Brass Hand Harry."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "text": {
+        "en": "If you haven't done so yet, feel free to destroy the ink pad and hand.",
+        "es": "Si aún no lo has hecho, puedes destruir la almohadilla de tinta y la mano."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Equip your ghostspeak amulet, diving apparatus, and fishbowl helmet.",
+        "es": "Equípate el ghostspeak amulet, el diving apparatus y el fishbowl helmet."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Dragontooth Island by talking to the Ghost captain at the small boat in Port Phasmatys (he is at the south-eastern end of the docks). (opciones de chat: 1 Please take me to Dragontooth Island!)",
+        "es": "Viaja a Dragontooth Island hablando con el Ghost captain en el pequeño bote de Port Phasmatys (está en el extremo sureste de los muelles). (opciones de chat: 1 ¡Por favor, llévame a Dragontooth Island!)"
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the north-east part of Dragontooth Island and dive via the chain.",
+        "es": "Viaja a la parte noreste de Dragontooth Island y sumérgete por la cadena."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 1,
+      "text": {
+        "en": "You will need both hands free to dive.",
+        "es": "Necesitarás tener ambas manos libres para sumergirte."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Swim around until you find a Karamthulhu and catch it. (It is the only fish that appears on the mini map.)",
+        "es": "Nada por la zona hasta que encuentres un Karamthulhu y captúralo. (Es el único pez que aparece en el minimapa.)"
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Head over to the ship and climb-up the stairs.",
+        "es": "Dirígete al barco y sube por las escaleras."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Open and search the chest to get a crowbar.",
+        "es": "Abre y registra el cofre para conseguir una palanca."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 1,
+      "text": {
+        "en": "An aggressive giant lobster may attack you. You can open and search the chest while being attacked.",
+        "es": "Puede que te ataque una langosta gigante agresiva. Puedes abrir y registrar el cofre mientras te atacan."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Return down the stairs and climb down the ladder.",
+        "es": "Baja de nuevo por las escaleras y desciende por la escalera de mano."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Go west on the bottom floor of the ship and dig the mess a several times to uncover the idol of many heads buried in the pile of planks and sand. Pick it up.",
+        "es": "Ve al oeste en la planta baja del barco y cava en el montón varias veces para descubrir el ídolo de las muchas cabezas enterrado entre planks y arena. Recógelo."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 1,
+      "text": {
+        "en": "You can wield weapons while down there digging, so you can kill any aggressive giant crabs or lobsters that may be hindering you from digging successfully.",
+        "es": "Puedes llevar armas mientras excavas allí abajo, así que puedes matar a los cangrejos o langostas gigantes agresivos que puedan impedirte cavar con éxito."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Bring the idol back to Bill Teach to receive Bill Teach's mark. (opciones de chat: 1 Speak about Rocking Out.)",
+        "es": "Lleva el ídolo de vuelta a Bill Teach para recibir la marca de Bill Teach. (opciones de chat: 1 Hablar sobre Rocking Out.)"
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Brimhaven and go to the Brimhaven Agility Arena entrance, located south-east of the docks.",
+        "es": "Viaja a Brimhaven y ve a la entrada de la Brimhaven Agility Arena, situada al sureste de los muelles."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Cap'n Izzy No-Beard. (opciones de chat: 1 Talk about Rocking Out.)",
+        "es": "Habla con Cap'n Izzy No-Beard. (opciones de chat: 1 Hablar sobre Rocking Out.)"
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Rimmington Customs Office. Deposit all of your items in the locker and get arrested by talking to the Customs Sergeant.",
+        "es": "Regresa a la Rimmington Customs Office. Deposita todos tus objetos en el locker y deja que te arreste el Customs Sergeant hablando con él."
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Search the bed for a crude lockpick and use it on your cell door.",
+        "es": "Registra la cama para conseguir una ganzúa rudimentaria y úsala en la puerta de tu celda."
+      }
+    },
+    {
+      "index": 68,
+      "indent": 0,
+      "text": {
+        "en": "Kill one of the customs officers, loot the uniform and equip it to disguise yourself.",
+        "es": "Mata a uno de los agentes de aduanas, saquea el uniforme y equípatelo para disfrazarte."
+      }
+    },
+    {
+      "index": 69,
+      "indent": 1,
+      "text": {
+        "en": "You can withdraw your pickaxe from your tool belt to use as a weapon.",
+        "es": "Puedes sacar tu pickaxe de tu tool belt para usarla como arma."
+      }
+    },
+    {
+      "index": 70,
+      "indent": 1,
+      "text": {
+        "en": "Make sure you do not have lootshare enabled, as this can prevent the uniform from being dropped. If you do not get the loot, try relogging.",
+        "es": "Asegúrate de no tener activado el lootshare, ya que esto puede impedir que suelte el uniforme. Si no consigues el botín, intenta cambiar de mundo."
+      }
+    },
+    {
+      "index": 71,
+      "indent": 0,
+      "text": {
+        "en": "Climb the stairs twice to the top floor.",
+        "es": "Sube las escaleras dos veces hasta la planta superior."
+      }
+    },
+    {
+      "index": 72,
+      "indent": 0,
+      "text": {
+        "en": "Open the door to the room with the cabinets.",
+        "es": "Abre la puerta de la sala con los armarios."
+      }
+    },
+    {
+      "index": 73,
+      "indent": 0,
+      "text": {
+        "en": "Search the northern-most cabinet on the second column from the west for \"Wanda the Fish\". (opciones de chat: 1 Yes. Wanda the Fish)",
+        "es": "Registra el armario más al norte de la segunda columna desde el oeste en busca de \"Wanda the Fish\". (opciones de chat: 1 Sí. Wanda the Fish)"
+      }
+    },
+    {
+      "index": 74,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Locker Officer and receive the brooch.",
+        "es": "Habla con el Locker Officer y recibe el broche."
+      }
+    },
+    {
+      "index": 75,
+      "indent": 0,
+      "text": {
+        "en": "Return to Cap'n Izzy No-Beard in Brimhaven to receive Izzy's mark. (opciones de chat: 1 Talk about Rocking Out.)",
+        "es": "Regresa con Cap'n Izzy No-Beard en Brimhaven para recibir la marca de Izzy. (opciones de chat: 1 Hablar sobre Rocking Out.)"
+      }
+    },
+    {
+      "index": 76,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Customs Sergeant in Rimmington with the five marks. He will give you a file.",
+        "es": "Habla con el Customs Sergeant en Rimmington con las cinco marcas. Te dará un expediente."
+      }
+    },
+    {
+      "index": 77,
+      "indent": 0,
+      "text": {
+        "en": "Use one of the marks on the file.",
+        "es": "Usa una de las marcas en el expediente."
+      }
+    },
+    {
+      "index": 78,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Customs Sergeant to give him the filled file.",
+        "es": "Habla con el Customs Sergeant para entregarle el expediente completado."
+      }
+    },
+    {
+      "index": 79,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him again to get sent back to prison.",
+        "es": "Habla con él de nuevo para que te envíe de vuelta a prisión."
+      }
+    },
+    {
+      "index": 80,
+      "indent": 0,
+      "text": {
+        "en": "Search the bed for the crude lockpick and break out of your cell. Kill the Customs Officer(s) for another uniform, equip it, then head to the top floor.",
+        "es": "Registra la cama para conseguir la ganzúa rudimentaria y escapa de tu celda. Mata a el/los Customs Officer(s) para conseguir otro uniforme, equípatelo y luego dirígete a la planta superior."
+      }
+    },
+    {
+      "index": 81,
+      "indent": 1,
+      "text": {
+        "en": "You may get a message saying that the lock is rusty, and the lockpick does not work. Continue trying until it works.",
+        "es": "Puede que recibas un mensaje diciendo que la cerradura está oxidada y que la ganzúa no funciona. Sigue intentándolo hasta que funcione."
+      }
+    },
+    {
+      "index": 82,
+      "indent": 0,
+      "text": {
+        "en": "Go to the top floor and talk to the Locker Officer to get back the filled file.",
+        "es": "Ve a la planta superior y habla con el Locker Officer para recuperar el expediente completado."
+      }
+    },
+    {
+      "index": 83,
+      "indent": 0,
+      "text": {
+        "en": "Return to your cell and right-click open the door.",
+        "es": "Regresa a tu celda y haz clic derecho para abrir la puerta."
+      }
+    },
+    {
+      "index": 84,
+      "indent": 1,
+      "text": {
+        "en": "If you do not have the option to open the cell door, hop to a different world.",
+        "es": "Si no tienes la opción de abrir la puerta de la celda, cambia a otro mundo."
+      }
+    },
+    {
+      "index": 85,
+      "indent": 0,
+      "text": {
+        "en": "Shout-through the barred window to Young Ralph. A cutscene will follow.",
+        "es": "Grita a través de la ventana enrejada a Young Ralph. Seguirá una escena cinemática."
+      }
+    },
+    {
+      "index": 86,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

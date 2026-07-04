@@ -1,0 +1,371 @@
+{
+  "id": "temple-of-ikov",
+  "title": "Temple of Ikov",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:21:58.471Z",
+  "icon": "https://runescape.wiki/images/Temple_of_Ikov_icon.png",
+  "series": "Mahjarrat Mysteries",
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "70-79",
+  "difficulty": "Experienced",
+  "length": "Medium",
+  "releaseDate": "17 June 2002",
+  "startPoint": {
+    "en": "Speak to Lucien in the Flying Horse Inn, in the north-west of East Ardougne.",
+    "es": "Habla con Lucien en el Flying Horse Inn, al noroeste de East Ardougne."
+  },
+  "requirements": {
+    "quests": [
+      "Temple of Ikov"
+    ],
+    "skills": [
+      {
+        "skill": "Ranged",
+        "level": 40
+      },
+      {
+        "skill": "Thieving",
+        "level": 42
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Light source",
+      "display": "A light source (Seer's headband will work) or the boots of lightness if you have collected them already from the dungeon earlier",
+      "image": null
+    },
+    {
+      "name": "Bow",
+      "display": "A bow (yew, magic, elder, or dark is recommended; bows that do not use ammunition do not work). Ammunition is obtained during the quest.",
+      "image": null
+    },
+    {
+      "name": "Limpwurt root",
+      "display": "20 un-noted limpwurt roots",
+      "image": "https://runescape.wiki/images/thumb/Limpwurt_root_detail.png/100px-Limpwurt_root_detail.png?e0ad4"
+    }
+  ],
+  "kills": [
+    "Fire Warrior of Lesarkus (level 77)",
+    "Several Guardians of Armadyl (level 42), only if siding with Lucien",
+    "Several Skeletons (level 58), not required but roaming in the room"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Ranged",
+      "amount": 10500,
+      "display": "10,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Fletching",
+      "amount": 8000,
+      "display": "8,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Boots of lightness",
+      "display": "Boots of lightness",
+      "image": "https://runescape.wiki/images/thumb/Boots_of_lightness_detail.png/100px-Boots_of_lightness_detail.png?21515"
+    },
+    {
+      "type": "item",
+      "name": "Pendant of Lucien",
+      "display": "Pendant of Lucien, giving you access to the front door of the Temple of Ikov (dungeon)",
+      "image": "https://runescape.wiki/images/thumb/Pendant_of_Lucien_detail.png/100px-Pendant_of_Lucien_detail.png?02f12"
+    },
+    {
+      "type": "item",
+      "name": "Armadyl pendant",
+      "display": "Armadyl pendant (If you sided with Armadyl, but you can get one by killing the guardians if you sided with Lucien)",
+      "image": "https://runescape.wiki/images/thumb/Armadyl_pendant_detail.png/100px-Armadyl_pendant_detail.png?0fc52"
+    },
+    {
+      "type": "item",
+      "name": "Shiny key",
+      "display": "Shiny key for entering through the back door of the Temple of Ikov, from near McGrubor's Wood (can be added to the steel key ring after One Small Favour)",
+      "image": "https://runescape.wiki/images/thumb/Shiny_key_detail.png/100px-Shiny_key_detail.png?77c68"
+    },
+    {
+      "type": "item",
+      "name": "Symbol of Armadyl",
+      "display": "Access to the Symbol of Armadyl gravestone (also requires The Giant Dwarf)",
+      "image": "https://runescape.wiki/images/thumb/Symbol_of_Armadyl.png/100px-Symbol_of_Armadyl.png?6e458"
+    },
+    {
+      "type": "item",
+      "name": "Kudos",
+      "display": "5 Kudos in the Varrock Museum if you talk to Historian Minas",
+      "image": "https://runescape.wiki/images/thumb/Kudos_Requirements.png/100px-Kudos_Requirements.png?a60b8"
+    },
+    {
+      "type": "item",
+      "name": "Chain of Command",
+      "display": "Chain of Command",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lucien in or around the bar north of Ardougne Castle. He will give you a pendant of Lucien. (opciones de chat: 1 I'm a mighty hero! • 2 That sounds like a laugh! • Accept)",
+        "es": "Habla con Lucien en el bar al norte de Ardougne Castle o sus alrededores. Te dará un pendant of Lucien. (opciones de chat: 1 ¡Soy un héroe poderoso! • 2 ¡Eso suena divertido! • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Bank all items not needed for the quest until your weight is less than 4.5.",
+        "es": "Guarda en el banco todos los objetos que no necesites para la misión hasta que tu peso sea inferior a 4.5."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "With a light source and the pendant of Lucien, go to the Temple of Ikov, which is located north-east of the Ardougne lodestone.",
+        "es": "Con una fuente de luz y el pendant of Lucien, ve al Temple of Ikov, situado al noreste de la piedra de viaje de Ardougne."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Go down the ladder.",
+        "es": "Baja por la escalera de mano."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "If you don't have boots of lightness:",
+        "es": "Si no tienes las boots of lightness:"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "Inside the temple, run west and down the stairs.",
+        "es": "Dentro del templo, corre hacia el oeste y baja las escaleras."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "Cut through the web in the north-east corner and take the boots of lightness.",
+        "es": "Corta la telaraña en la esquina noreste y coge las boots of lightness."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "Go back upstairs",
+        "es": "Vuelve a subir las escaleras."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Equip the boots and the pendant of Lucien. Check that your weight is now 0 or less.",
+        "es": "Equípate las botas y el pendant of Lucien. Comprueba que tu peso ahora sea 0 o menos."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Enter the north gate.",
+        "es": "Entra por la puerta norte."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Take the bridge across the lava and pick up the lever located in the southern part of the room, in front of the crates.",
+        "es": "Cruza el puente sobre la lava y coge la palanca situada en la parte sur de la sala, delante de las cajas."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Near where you first entered the dungeon, use the lever on the lever bracket, which is mounted on the wall just west of the ladder returning to the surface. You must complete the dialogue, or the lever will not be placed.",
+        "es": "Cerca de donde entraste por primera vez a la mazmorra, usa la palanca en el soporte para palanca, que está montado en la pared justo al oeste de la escalera que sube a la superficie. Debes completar el diálogo, o la palanca no se colocará."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Pull the lever.",
+        "es": "Tira de la palanca."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Go through the south gate, and loot the chests in the tunnel for ice arrows. After looting the arrows from a chest, the next set of arrows will spawn in another random chest and it is possible they will spawn in the same chest that you just searched. You will only need a couple of arrows. You can just go back and search the chests again, as the respawn/refresh rate is quite quick (no need to hop worlds).",
+        "es": "Pasa por la puerta sur y saquea los cofres del túnel en busca de ice arrows. Después de sacar las flechas de un cofre, el siguiente lote de flechas aparecerá en otro cofre aleatorio, y es posible que aparezca en el mismo cofre que acabas de registrar. Solo necesitarás un par de flechas. Puedes volver a registrar los cofres, ya que la tasa de reaparición/actualización es bastante rápida (no hace falta cambiar de mundo)."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "With 20 limpwurt roots and your bow, return to the main chamber with the bridge. Continue north past the trapdoor to the lever on the wall.",
+        "es": "Con 20 limpwurt roots y tu arco, vuelve a la sala principal con el puente. Continúa hacia el norte pasando la trampilla hasta la palanca en la pared."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Right-click the lever and select Search for traps, then pull it.",
+        "es": "Haz clic derecho en la palanca y selecciona Buscar trampas, luego tira de ella."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Run west and open the wooden door",
+        "es": "Corre hacia el oeste y abre la puerta de madera."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Open the next door and kill the fire warrior that appears with ice arrows.",
+        "es": "Abre la siguiente puerta y mata al fire warrior que aparece con ice arrows."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Winelda, and ask to be teleported across the lava. She will ask for 20 limpwurt roots. (opciones de chat: 3 Yes I do!)",
+        "es": "Habla con Winelda y pídele que te teletransporte al otro lado de la lava. Te pedirá 20 limpwurt roots. (opciones de chat: 3 ¡Sí, tengo!)"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "(Optional) Take the shiny key in the south-west part with the lesser demons to be able to access this area more easily from McGrubor's Wood. If you have completed One Small Favour this key can be added to your steel key ring.",
+        "es": "(Opcional) Coge la shiny key en la parte suroeste, donde están los lesser demons, para poder acceder a esta zona más fácilmente desde McGrubor's Wood. Si has completado One Small Favour, esta llave se puede añadir a tu steel key ring."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Heading north, push through the wall to enter the room full of Armadyl guardians.",
+        "es": "Dirigiéndote hacia el norte, empuja la pared para entrar en la sala llena de Armadyl guardians."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Remove your pendant and talk to a guardian. (opciones de chat: 1 I seek the Staff of Armadyl. • 1 Lucien will give me a grand reward for it! • 3 You're right, it's time for my yearly bath. • 1 Ok! I'll help!)",
+        "es": "Quítate el pendant y habla con un guardian. (opciones de chat: 1 Busco el Staff of Armadyl. • 1 ¡Lucien me dará una gran recompensa por él! • 3 Tienes razón, es hora de mi baño anual. • 1 ¡Vale! ¡Te ayudaré!)"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "West of the Grand Exchange, go inside a small building. (A few tiles south of fairy ring )",
+        "es": "Al oeste del Grand Exchange, entra en un pequeño edificio. (Unas casillas al sur del fairy ring)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Equip the Armadyl pendant and kill Lucien.",
+        "es": "Equípate el Armadyl pendant y mata a Lucien."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Enter the large room to the north through the wall.",
+        "es": "Entra en la gran sala al norte a través de la pared."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Go to the small sub-room in the corner.",
+        "es": "Ve a la pequeña subsala en la esquina."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Try to take the staff from table, kill any guardians if they stop you until the staff is acquired.",
+        "es": "Intenta coger el staff de la mesa, mata a los guardians que se interpongan hasta conseguir el staff."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Go inside the shed building west of the Grand Exchange. (A few tiles south of fairy ring )",
+        "es": "Entra en el cobertizo al oeste del Grand Exchange. (Unas casillas al sur del fairy ring)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Hand the staff to Lucien. (opciones de chat: 1 Yes! Here it is.)",
+        "es": "Entrega el staff a Lucien. (opciones de chat: 1 ¡Sí! Aquí lo tienes.)"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

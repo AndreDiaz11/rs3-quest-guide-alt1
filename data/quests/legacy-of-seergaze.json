@@ -1,0 +1,813 @@
+{
+  "id": "legacy-of-seergaze",
+  "title": "Legacy of Seergaze",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:34:17.704Z",
+  "icon": "https://runescape.wiki/images/Legacy_of_Seergaze_icon.png",
+  "series": "Myreque",
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "70-79",
+  "difficulty": "Experienced",
+  "length": "Long to Very Long",
+  "releaseDate": "22 April 2008",
+  "startPoint": {
+    "en": "Talk to the mercenary adventurer east of Paterdomus in Morytania.",
+    "es": "Habla con el aventurero mercenario al este de Paterdomus en Morytania."
+  },
+  "requirements": {
+    "quests": [
+      "The Darkness of Hallowvale",
+      "In Aid of the Myreque",
+      "In Search of the Myreque",
+      "Nature Spirit",
+      "Priest in Peril",
+      "The Restless Ghost",
+      "Morytania",
+      "Shades of Mort'ton",
+      "Morytania",
+      "Desert Treasure",
+      "The Dig Site",
+      "Troll Stronghold",
+      "Death Plateau",
+      "Morytania"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 29
+      },
+      {
+        "skill": "Construction",
+        "level": 20
+      },
+      {
+        "skill": "Crafting",
+        "level": 47
+      },
+      {
+        "skill": "Firemaking",
+        "level": 40
+      },
+      {
+        "skill": "Magic",
+        "level": 49
+      },
+      {
+        "skill": "Mining",
+        "level": 35
+      },
+      {
+        "skill": "Slayer",
+        "level": 31
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Teak pyre logs",
+      "display": "Teak or higher-level pyre logs",
+      "image": "https://runescape.wiki/images/thumb/Teak_pyre_logs_detail.png/100px-Teak_pyre_logs_detail.png?a7ec6"
+    },
+    {
+      "name": "Combat gear (Necromancy or two different combat styles recommended for lower-level players)",
+      "display": "Combat gear (Necromancy or two different combat styles recommended for lower-level players)",
+      "image": null
+    },
+    {
+      "name": "Nails",
+      "display": "10 nails (obtained during quest from Flaygian)",
+      "image": null
+    },
+    {
+      "name": "Coal",
+      "display": "1 coal (can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    },
+    {
+      "name": "Lvl-2 Enchant",
+      "display": "Items to use Lvl-2 Enchant: Lvl-2 enchant tablet (if not on the standard spellbook) or; 1 cosmic rune and 3 air runes (can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Enchant.gif/100px-Enchant.gif?a4251"
+    },
+    {
+      "name": "Lvl-2 enchant (item)",
+      "display": "Lvl-2 enchant tablet (if not on the standard spellbook) or;",
+      "image": "https://runescape.wiki/images/thumb/Lvl-2_enchant_%28item%29_detail.png/100px-Lvl-2_enchant_%28item%29_detail.png?b8fb4"
+    },
+    {
+      "name": "Cosmic rune",
+      "display": "1 cosmic rune and 3 air runes (can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Cosmic_rune_detail.png/100px-Cosmic_rune_detail.png?fa918"
+    },
+    {
+      "name": "Mithril bar",
+      "display": "1 mithril bar (can be obtained during the quest, metal bank works)",
+      "image": "https://runescape.wiki/images/thumb/Mithril_bar_detail.png/100px-Mithril_bar_detail.png?e065f"
+    },
+    {
+      "name": "Silver bar",
+      "display": "1 silver bar (can be obtained during the quest, metal bank works)",
+      "image": "https://runescape.wiki/images/thumb/Silver_bar_detail.png/100px-Silver_bar_detail.png?320b3"
+    },
+    {
+      "name": "Silver sickle (b)",
+      "display": "1 silver sickle (b) (can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Silver_sickle_%28b%29_detail.png/100px-Silver_sickle_%28b%29_detail.png?6f036"
+    },
+    {
+      "name": "Emerald",
+      "display": "1 emerald (can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Emerald_detail.png/100px-Emerald_detail.png?de21b"
+    }
+  ],
+  "kills": [
+    "Fistandantilus – level 77",
+    "Zaromark Sliver – level 77",
+    "Vyrewatch – level 72"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Tome of xp 2nd ed",
+      "amount": null,
+      "display": "Tome of xp 2nd ed, giving 2,500 experience each in any skill that's at least level 35, up to 3 times in total, or 1,250 experience when used on an elite skill.",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 3000,
+      "display": "3,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 2000,
+      "display": "2,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 4000,
+      "display": "4,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Mining",
+      "amount": 2000,
+      "display": "2,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 1000,
+      "display": "1,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Slayer",
+      "amount": 2000,
+      "display": "2,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ivandis flail",
+      "display": "Ivandis flail",
+      "image": "https://runescape.wiki/images/thumb/Ivandis_flail_detail.png/100px-Ivandis_flail_detail.png?f0f68"
+    },
+    {
+      "type": "item",
+      "name": "Blood talisman",
+      "display": "Blood talisman",
+      "image": "https://runescape.wiki/images/thumb/Blood_talisman_detail.png/100px-Blood_talisman_detail.png?f73fc"
+    },
+    {
+      "type": "item",
+      "name": "Blood rune",
+      "display": "Ability to craft blood runes at the blood altar with 77 Runecrafting.",
+      "image": "https://runescape.wiki/images/thumb/Blood_rune_detail.png/100px-Blood_rune_detail.png?86f40"
+    },
+    {
+      "type": "item",
+      "name": "Meiyerditch tunnels",
+      "display": "Access to Meiyerditch tunnels including skeletal hands, zombie hands, bloodvelds and mutated bloodvelds, as well as a jutting wall shortcut (requires 65 Agility) between Canifis and Meiyerditch.",
+      "image": "https://runescape.wiki/images/thumb/Meiyerditch_Dungeon.png/100px-Meiyerditch_Dungeon.png?d064d"
+    },
+    {
+      "type": "item",
+      "name": "Furnace (Legacy of Seergaze)",
+      "display": "Access to a furnace in Meiyerditch.",
+      "image": "https://runescape.wiki/images/thumb/Mass_of_debris_%281%29.png/100px-Mass_of_debris_%281%29.png?1ba74"
+    },
+    {
+      "type": "item",
+      "name": "Columbarium",
+      "display": "Access to the columbarium beneath Paterdomus and the ability to cremate the vyre corpse for rewards.",
+      "image": "https://runescape.wiki/images/thumb/Paterdomus_columbarium.png/100px-Paterdomus_columbarium.png?80998"
+    },
+    {
+      "type": "item",
+      "name": "Vyrewatch (Temple Trekking)",
+      "display": "Access to vyrewatch event in Temple Trekking.",
+      "image": "https://runescape.wiki/images/thumb/Vyrewatch_%285%2C_flying%29.png/100px-Vyrewatch_%285%2C_flying%29.png?02eee"
+    },
+    {
+      "type": "item",
+      "name": "Conspiracy: Part 1",
+      "display": "Conspiracy: Part 1 – during the Paterdomus temple cut scene",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Conspiracy: Part 2",
+      "display": "Conspiracy: Part 2 – during the same cut scene",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Terrible Tunnels",
+      "display": "The Terrible Tunnels – in the Meiyerditch secret laboratory",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Terrible Caverns",
+      "display": "The Terrible Caverns – in the long tunnel before entering Mutated Bloodveld's lair",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Columbarium",
+      "display": "The Columbarium – during burning the Vyre corpse",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Mercenary Adventurer at the Temple Trekking ending point (west of Canifis). or the Canifis lodestone are good options to reach the area quickly. (opciones de chat: Accept • 3 Okay, thanks.)",
+        "es": "Habla con el Mercenary Adventurer en el punto final de Temple Trekking (al oeste de Canifis). O la piedra de viaje de Canifis son buenas opciones para llegar rápidamente a la zona. (opciones de chat: Accept • 3 Okay, thanks.)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Enter the Mausoleum west of the Adventurer.",
+        "es": "Entra en el Mausoleum al oeste del Adventurer."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Drezel. (opciones de chat: 2 Who do you think these suspicious people are? • 4 Okay, thanks.)",
+        "es": "Habla con Drezel. (opciones de chat: 2 Who do you think these suspicious people are? • 4 Okay, thanks.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Go through the gate west of Drezel and climb down the stairs north of the well.",
+        "es": "Pasa por la puerta al oeste de Drezel y baja las escaleras al norte del pozo."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Search the sparkling wall storage unit a few steps east of the stairs, then go back up the stairs.",
+        "es": "Busca en la unidad de almacenamiento brillante en la pared, a unos pasos al este de las escaleras, y luego vuelve a subir las escaleras."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Exit the Mausoleum via the west entrance ladder, enter the Paterdomus temple and head to the top floor.",
+        "es": "Sal del Mausoleum por la escalera de mano de la entrada oeste, entra en el templo de Paterdomus y dirígete a la planta superior."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, kill Fistandantilus and Zaromark Sliver (or wait until they time out and teleport away).",
+        "es": "Después de la escena, mata a Fistandantilus y Zaromark Sliver (o espera a que se agote su tiempo y se teletransporten)."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "Both enemies have 2,750 life points, a combat level of 77, and a max hit of 220 in magic and ranged. These enemies will use prayer to become immune to your combat style, but do not protect against necromancy. Necromancy or multiple combat styles are recommended for this fight.",
+        "es": "Ambos enemigos tienen 2.750 puntos de vida, un nivel de combate de 77 y un golpe máximo de 220 en magia y distancia. Estos enemigos usarán oración para volverse inmunes a tu estilo de combate, pero no se protegen contra la nigromancia. Se recomienda usar Nigromancia o varios estilos de combate para este combate."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Search the crude table in the north-west corner of the room.",
+        "es": "Busca en la mesa tosca en la esquina noroeste de la habitación."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Return to Drezel. (opciones de chat: 2 Do you think this has anything to do with the Guthixian Edicts?)",
+        "es": "Vuelve con Drezel. (opciones de chat: 2 Do you think this has anything to do with the Guthixian Edicts?)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Mercenary Adventurer and escort him the same way as any Burgh de Rott Ramble.",
+        "es": "Habla con el Mercenary Adventurer y escóltalo de la misma manera que en cualquier Burgh de Rott Ramble."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "Easy path recommended for least time and effort. Be sure to remove any melee-reducing equipment like ranged and magic armour. If you encounter juvinates, you will require your Rod of Ivandis or another silver weapon.",
+        "es": "Se recomienda el camino fácil para gastar el menor tiempo y esfuerzo posible. Asegúrate de quitarte cualquier equipo que reduzca el daño cuerpo a cuerpo, como armadura de distancia y magia. Si te encuentras con juvinates, necesitarás tu Rod of Ivandis u otra arma de plata."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Once in Burgh de Rott, if the dialogue does not automatically start, talk to the Mercenary Adventurer.",
+        "es": "Una vez en Burgh de Rott, si el diálogo no comienza automáticamente, habla con el Mercenary Adventurer."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "If no one with that name is present in Burgh de Rott, skip to the next step.",
+        "es": "Si no hay nadie con ese nombre presente en Burgh de Rott, salta al siguiente paso."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Climb over the wall inside the Pub and then climb down the trapdoor to the cellar.",
+        "es": "Escala el muro dentro del Pub y luego baja por la trampilla hacia el sótano."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Veliaf Hurtz until he gives you a crate. (opciones de chat: 2 Do you have a job for me? • 3 Okay, thanks.)",
+        "es": "Habla con Veliaf Hurtz hasta que te dé una caja. (opciones de chat: 2 Do you have a job for me? • 3 Okay, thanks.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Climb up the ladder.",
+        "es": "Sube por la escalera de mano."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Go south of Burgh de Rott and take the boat to Meiyerditch.",
+        "es": "Ve al sur de Burgh de Rott y toma el barco hacia Meiyerditch."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Meiyerditch Myreque base. Refer to the Meiyerditch shortcut guide for help. Being caught by the vyrewatch and sent to mines provides a fast and reliable route.",
+        "es": "Ve a la base de la Myreque en Meiyerditch. Consulta la guía de atajos de Meiyerditch para obtener ayuda. Dejarse atrapar por los vyrewatch y ser enviado a las minas ofrece una ruta rápida y fiable."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Flaygian Screwte, in the north room, and offer him your help. (opciones de chat: 3 How's the research going? • 4 Can I help in some way? • 5 Okay, thanks.)",
+        "es": "Habla con Flaygian Screwte, en la habitación norte, y ofrécele tu ayuda. (opciones de chat: 3 How's the research going? • 4 Can I help in some way? • 5 Okay, thanks.)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Ask Andiess Juip or Kael Forshaw in the same room about weapons. (opciones de chat: 2 Hi there, I was wondering if I could ask some questions?)",
+        "es": "Pregunta a Andiess Juip o Kael Forshaw en la misma habitación sobre armas. (opciones de chat: 2 Hi there, I was wondering if I could ask some questions?)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Go to the next room south (near Mekritus A'hara) and search the middle bunk bed on the eastern half of the north wall for a book.",
+        "es": "Ve a la siguiente habitación al sur (cerca de Mekritus A'hara) y busca en la litera central, en la mitad este de la pared norte, un libro."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Read it and remember which page mentioned flails.",
+        "es": "Léelo y recuerda qué página mencionaba los mangos."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Give the book to Flaygian, giving him the proper page number. He will give you 10 nails.",
+        "es": "Entrega el libro a Flaygian, indicándole el número de página correcto. Te dará 10 clavos."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Head to the northernmost part of Meiyerditch and enter the house south of the house with the furnace (\"mass of debris\").",
+        "es": "Dirígete a la parte más al norte de Meiyerditch y entra en la casa al sur de la casa con el horno (\"montón de escombros\")."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Use the Make-ladder option on the centre post.",
+        "es": "Usa la opción \"Make-ladder\" en el poste central."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Climb up the post.",
+        "es": "Sube por el poste."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Jump across the floorboards to the east, then to the north.",
+        "es": "Salta por las tablas del suelo hacia el este, y luego hacia el norte."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Jump west through the damaged wall.",
+        "es": "Salta hacia el oeste a través de la pared dañada."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Climb up the ladder and search the trough.",
+        "es": "Sube por la escalera de mano y busca en el abrevadero."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Take a piece of coal from the coal barrel.",
+        "es": "Coge un trozo de carbón del barril de carbón."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Go to the bottom floor and select \"dig\" on the mass of debris (right click).",
+        "es": "Ve a la planta baja y selecciona la opción \"dig\" (excavar) en el montón de escombros (clic derecho)."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "If the \"dig\" option doesn't appear, you must go back to the top floor and search the trough",
+        "es": "Si la opción \"dig\" no aparece, debes volver a la planta superior y buscar en el abrevadero."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Use the coal on the furnace, then light the furnace.",
+        "es": "Usa el carbón en el horno y luego enciéndelo."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Return and talk to Flaygian, then in the same room;",
+        "es": "Vuelve y habla con Flaygian, luego, en la misma habitación;"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "Take 2 silver and 2 mithril bars from the barrel on the northern wall.",
+        "es": "Coge 2 barras de plata y 2 barras de mithril del barril en la pared norte."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "Take a blessed sickle from the shelf on the south-western wall.",
+        "es": "Coge una hoz bendecida del estante en la pared suroeste."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Go to the room to the east of the entrance ladder.",
+        "es": "Ve a la habitación al este de la escalera de mano de entrada."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Search the crate for a chain link mould and add it to your tool belt.",
+        "es": "Busca en la caja un molde de eslabón de cadena y añádelo a tu cinturón de herramientas."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Return to the furnace and make the Silvthril chain. It can be found by clicking on the silver bar in the smithing interface (scroll with down arrow next to \"Casting Metals & Glass\").",
+        "es": "Vuelve al horno y fabrica la Silvthril chain. Se puede encontrar haciendo clic en la barra de plata en la interfaz de herrería (desplázate con la flecha hacia abajo junto a \"Casting Metals & Glass\")."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 1,
+      "text": {
+        "en": "You do not need to make 2, you will have 1 bar of each type left. These are not used at any point in the quest so you can safely deposit them into your metal bank.",
+        "es": "No necesitas fabricar 2, te quedará 1 barra de cada tipo. No se usan en ningún otro momento de la misión, así que puedes depositarlas de forma segura en tu banco de metales."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Flaygian, then use the blessed sickle on him. (opciones de chat: 2 How about using this as the head for the flail?)",
+        "es": "Habla con Flaygian, luego usa la hoz bendecida en él. (opciones de chat: 2 How about using this as the head for the flail?)"
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Safalaan.",
+        "es": "Habla con Safalaan."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Proceed to the laboratory; the building south-east of the furnace, third from the top on the east wall and through the slashed tapestry.",
+        "es": "Dirígete al laboratorio; el edificio al sureste del horno, el tercero desde arriba en la pared este, y pasa por el tapiz rasgado."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Dismiss any followers and climb down the stairs.",
+        "es": "Despide a cualquier seguidor y baja las escaleras."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, Look at one of the bodies. (opciones de chat: 2 Is there anything I can do? • 3 Okay, thanks.)",
+        "es": "Después de la escena, examina uno de los cuerpos. (opciones de chat: 2 Is there anything I can do? • 3 Okay, thanks.)"
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Search the door to the south and use the saw in your tool belt.",
+        "es": "Busca en la puerta al sur y usa la sierra de tu cinturón de herramientas."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Climb-through the door, then after the cutscene continue down the long and winding tunnel.",
+        "es": "Pasa a través de la puerta, y luego, después de la escena, continúa por el largo y sinuoso túnel."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Continue north on the path to the large chamber where the strange stones are.",
+        "es": "Continúa hacia el norte por el camino hasta la gran cámara donde están las piedras extrañas."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "If you need runes for the Lvl-2 Enchant spell, search the corpse next to the rocks before continuing.",
+        "es": "Si necesitas runas para el hechizo Lvl-2 Enchant, busca en el cadáver junto a las rocas antes de continuar."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 1,
+      "text": {
+        "en": "Searching the corpse will complete the Bloodstained Treasure achievement, if not already completed.",
+        "es": "Buscar en el cadáver completará el logro Bloodstained Treasure, si aún no lo has completado."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Search the strange stones in the northern part of the cavern.",
+        "es": "Busca en las piedras extrañas en la parte norte de la cueva."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Safalaan. There will be a cutscene and a fight against vyrewatches in which you cannot deal any damage, but the fight will end in another cutscene with Safalaan being attacked.",
+        "es": "Habla con Safalaan. Habrá una escena y un combate contra vyrewatches en el que no podrás causar ningún daño, pero el combate terminará en otra escena donde atacan a Safalaan."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Make sure you have 4 free backpack spaces, then talk to Safalaan.",
+        "es": "Asegúrate de tener 4 espacios libres en la mochila, luego habla con Safalaan."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Use the emerald on the sickle (right click, don't accidentally make bolt tips).",
+        "es": "Usa la esmeralda en la hoz (clic derecho, ten cuidado de no fabricar puntas de virote por accidente)."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Use the Lvl-2 Enchant spell on it.",
+        "es": "Usa el hechizo Lvl-2 Enchant sobre ella."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Use the chain on it.",
+        "es": "Usa la cadena en ella."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Safalaan.",
+        "es": "Habla con Safalaan."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Go to the surface, equip the Ivandis flail, kill a vyrewatch, and pick up its corpse.",
+        "es": "Sube a la superficie, equípate el Ivandis flail, mata a un vyrewatch y recoge su cadáver."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Return to Safalaan.",
+        "es": "Vuelve con Safalaan."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Return to the basement of the pub in Burgh de Rott and talk to Veliaf. Ask him what to do. (opciones de chat: 1 The Flail of Ivandis kills Vyrewatch! • 4 What should I do now? • 5 Okay, thanks.)",
+        "es": "Vuelve al sótano del pub en Burgh de Rott y habla con Veliaf. Pregúntale qué hacer. (opciones de chat: 1 The Flail of Ivandis kills Vyrewatch! • 4 What should I do now? • 5 Okay, thanks.)"
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Return to and talk to Drezel at the Mausoleum. (opciones de chat: 2 Veliaf asked me to bring this Vyrewatch corpse to you. • 4 Okay, thanks.)",
+        "es": "Vuelve y habla con Drezel en el Mausoleum. (opciones de chat: 2 Veliaf asked me to bring this Vyrewatch corpse to you. • 4 Okay, thanks.)"
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Go through the gate, then down the stairs north of the well.",
+        "es": "Pasa por la puerta, luego baja las escaleras al norte del pozo."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Use the pyre logs on a funeral pyre, then the vyre corpse. Light it.",
+        "es": "Usa los troncos de pira en una pira funeraria, y luego el cadáver de vyre. Enciéndela."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Take the ornate tomb key from the pedestal.",
+        "es": "Coge la llave ornamentada de la tumba del pedestal."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "Use it on the wall storage unit from the beginning of the quest on the north-eastern side of the room (the same one that is still sparkling) to acquire a blood talisman.",
+        "es": "Úsala en la unidad de almacenamiento de la pared del comienzo de la misión, en el lado noreste de la habitación (la misma que sigue brillando), para conseguir un talismán de sangre."
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, go upstairs and ask Drezel what to do. If you still have the library key: (opciones de chat: 2 What should I do now? • 3 Okay, thanks.). Otherwise, to bypass getting a new key. (opciones de chat: 1 Talk about items. • 2 What should I do now? • 3 Okay, thanks.)",
+        "es": "Después de la escena, sube y pregúntale a Drezel qué hacer. Si todavía tienes la llave de la biblioteca: (opciones de chat: 2 What should I do now? • 3 Okay, thanks.). En caso contrario, para evitar tener que conseguir una nueva llave. (opciones de chat: 1 Talk about items. • 2 What should I do now? • 3 Okay, thanks.)"
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Report to Veliaf in the Burgh de Rott pub basement.",
+        "es": "Informa a Veliaf en el sótano del pub de Burgh de Rott."
+      }
+    },
+    {
+      "index": 68,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

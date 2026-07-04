@@ -1,0 +1,140 @@
+{
+  "id": "cook-s-assistant",
+  "title": "Cook's Assistant",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:59:26.963Z",
+  "icon": "https://runescape.wiki/images/Cook%27s_Assistant_icon.png",
+  "series": null,
+  "age": "5",
+  "timeline": "pathfinder",
+  "members": false,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Short",
+  "releaseDate": "4 January 2001",
+  "startPoint": {
+    "en": "Speak to the cook in the kitchen of Lumbridge Castle.",
+    "es": "Habla con el cocinero en la cocina del Lumbridge Castle."
+  },
+  "requirements": {
+    "quests": [
+      "Cook's Assistant"
+    ],
+    "skills": []
+  },
+  "items": [
+    {
+      "name": "Empty pot",
+      "display": "Empty pot (can be obtained during quest)",
+      "image": "https://runescape.wiki/images/thumb/Empty_pot_detail.png/100px-Empty_pot_detail.png?88ce6"
+    },
+    {
+      "name": "Bucket",
+      "display": "Bucket (can be obtained during quest)",
+      "image": "https://runescape.wiki/images/thumb/Bucket_detail.png/100px-Bucket_detail.png?3d544"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Cooking",
+      "amount": 300,
+      "display": "300 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "500 coins",
+      "display": "500 coins",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Sardine",
+      "display": "20 sardines If you have completed the quest before the update that awards 20 sardines and 500 coins, you can claim them at any time by speaking to the cook",
+      "image": "https://runescape.wiki/images/thumb/Sardine_detail.png/100px-Sardine_detail.png?f5cd0"
+    },
+    {
+      "type": "item",
+      "name": "Cooking range (Lumbridge Castle)",
+      "display": "Permission to use the Cook-o-matic 25, which has a lower chance of burning food than other ranges",
+      "image": "https://runescape.wiki/images/thumb/Cooking_range_%28Lumbridge_Castle%29.png/100px-Cooking_range_%28Lumbridge_Castle%29.png?6595f"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Obtain the following items: a bucket of milk, a pot of flour, and an egg:",
+        "es": "Consigue los siguientes objetos: un cubo de leche, un bote de harina y un huevo:"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 1,
+      "text": {
+        "en": "Buy from the Grand Exchange for {{Coins| + + }}.",
+        "es": "Cómpralos en el Grand Exchange por {{Coins| + + }}."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "Create them yourself:",
+        "es": "Créalos tú mismo:"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 2,
+      "text": {
+        "en": "Bucket of milk: use a bucket on a dairy cow or prized dairy cow in the Lumbridge cow field.",
+        "es": "Cubo de leche: usa un cubo en una vaca lechera o una vaca lechera premiada en el campo de vacas de Lumbridge."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 2,
+      "text": {
+        "en": "Egg: spawns at the chicken farm north-west of the cow field.",
+        "es": "Huevo: aparece en la granja de pollos al noroeste del campo de vacas."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 2,
+      "text": {
+        "en": "Pot of flour: with an empty pot (found by the Cook in Lumbridge Castle), head to the Mill Lane Mill next to the cow pens and pick some grain from outside. Climb up to the top floor of the mill and use the grain with the hopper, then pull the lever. Climb down and take the flour from the flour bin with an empty pot.",
+        "es": "Bote de harina: con un bote vacío (que encontrarás con el cocinero en el Lumbridge Castle), dirígete al Mill Lane Mill junto a los corrales de vacas y recoge algo de grano del exterior. Sube hasta la planta superior del molino y usa el grano con la tolva, luego tira de la palanca. Baja y coge la harina del contenedor de harina con un bote vacío."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Cook in Lumbridge Castle's kitchen with all the items in the backpack.",
+        "es": "Habla con el cocinero en la cocina del Lumbridge Castle con todos los objetos en la mochila."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Congratulations, quest complete!",
+        "es": "¡Enhorabuena, misión completada!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,900 @@
+{
+  "id": "azzanadra-s-quest",
+  "title": "Azzanadra's Quest",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:49:09.266Z",
+  "icon": "https://runescape.wiki/images/Azzanadra%27s_Quest_icon.png",
+  "series": "The Elder God Wars",
+  "age": "6",
+  "timeline": "world guardian",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Experienced",
+  "length": "Long",
+  "releaseDate": "22 February 2021",
+  "startPoint": {
+    "en": "Talk to Azzanadra at the Council of Burthorpe upstairs in the Burthorpe Castle.",
+    "es": "Habla con Azzanadra en el Council of Burthorpe, en la planta de arriba del Burthorpe Castle."
+  },
+  "requirements": {
+    "quests": [
+      "The Vault of Shadows",
+      "Raksha, the Shadow Colossus",
+      "Anachronia base camp tutorial",
+      "Desperate Creatures",
+      "Desperate Measures",
+      "Desperate Times",
+      "The Needle Skips",
+      "You Are It",
+      "Anachronia base camp tutorial"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 58
+      },
+      {
+        "skill": "Archaeology",
+        "level": 58
+      },
+      {
+        "skill": "Divination",
+        "level": 70
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Slayer bell",
+      "display": "Slayer bell",
+      "image": "https://runescape.wiki/images/thumb/Slayer_Bell.gif/100px-Slayer_Bell.gif?57c71"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 3,
+      "display": "3 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Archaeology",
+      "amount": 15000,
+      "display": "15,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Divination",
+      "amount": 25000,
+      "display": "25,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Skills",
+      "amount": 10000,
+      "display": "10,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Pontifex observation ring",
+      "display": "The knowledge to restore the pontifex observation ring",
+      "image": "https://runescape.wiki/images/Pontifex_observation_ring_detail.png?43013"
+    },
+    {
+      "type": "item",
+      "name": "Elder Trove",
+      "display": "The ability to gain Elder Troves from the Elder God Wars Dungeon",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Elder Halls",
+      "display": "The Elder Halls (if not already unlocked during Fate of the Gods)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Freneskae",
+      "display": "Freneskae (if not already unlocked during Fate of the Gods)",
+      "image": "https://runescape.wiki/images/thumb/Freneskae.png/100px-Freneskae.png?82e5a"
+    },
+    {
+      "type": "item",
+      "name": "Lullaby for an Elder God",
+      "display": "Lullaby for an Elder God",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Zaros Zeitgeist",
+      "display": "Zaros Zeitgeist (if not already unlocked in the Ancient Prison)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Go up the stairs in Burthorpe Castle. (opciones de chat: 1 Yes.)",
+        "es": "Sube las escaleras en Burthorpe Castle. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Azzanadra at the north-west corner. (opciones de chat: Accept)",
+        "es": "Habla con Azzanadra en la esquina noroeste. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "Before continuing, make sure Azzanadra asks you to meet at Kharid-et Dig Site. Use the quest log if needed.",
+        "es": "Antes de continuar, asegúrate de que Azzanadra te pida reunirte en Kharid-et Dig Site. Usa el registro de misiones si es necesario."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Kharid-et Dig Site (use dig sites map or other means) and enter the main fortress. Talk to Azzanadra at the Praetorium war table (not in the Praetorium).",
+        "es": "Viaja hasta Kharid-et Dig Site (usa el mapa de yacimientos u otro medio) y entra en la fortaleza principal. Habla con Azzanadra en la mesa de guerra del Praetorium (no dentro del Praetorium)."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the World Gate and talk to Azzanadra. Teleporting, logging out or going to lobby will require starting this part over from this step.",
+        "es": "Viaja hasta el World Gate y habla con Azzanadra. Teletransportarte, desconectarte o ir al lobby hará que tengas que empezar esta parte de nuevo desde este paso."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "Use the Sixth-Age circuit to teleport, or run south from the Eagles' Peak lodestone, or teleport to the Outpost with a traveller's necklace and run west.",
+        "es": "Usa el circuito de la Sexta Era para teletransportarte, o corre hacia el sur desde la piedra de viaje de Eagles' Peak, o teletranspórtate al Outpost con un traveller's necklace y corre hacia el oeste."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Equip a face mask or masked earmuffs to protect against volcanic ash. Having a slayer helmet on the slayer helmet stand counts for this.",
+        "es": "Equípate una máscara facial o unas orejeras enmascaradas para protegerte de la ceniza volcánica. Tener un slayer helmet en el soporte de slayer helmet también cuenta para esto."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Enter the World Gate, travelling to the 'Approach' destination (first option). Make sure to finish the dialogue with Azzanadra upon entry.",
+        "es": "Entra en el World Gate, dirigiéndote al destino 'Approach' (primera opción). Asegúrate de terminar el diálogo con Azzanadra al entrar."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Head east over the ledges, then up the cliffside.",
+        "es": "Dirígete hacia el este por los salientes y luego sube por la ladera del acantilado."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Continue east, climbing down the drop, then talk to Azzanadra to the south-east.",
+        "es": "Continúa hacia el este, baja por la caída y luego habla con Azzanadra al sureste."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Continue north, crossing the stepping stones and up the cliffside.",
+        "es": "Continúa hacia el norte, cruza las piedras de paso y sube por la ladera del acantilado."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Continue north, wall run the overhang and talk to Azzanadra again.",
+        "es": "Continúa hacia el norte, corre por la pared del saliente y vuelve a hablar con Azzanadra."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Climb the cliffside, continue west and slide down the slope and head west.",
+        "es": "Sube por la ladera del acantilado, continúa hacia el oeste, deslízate por la pendiente y dirígete al oeste."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "You can heal up by standing under the archway with the glowing crystals.",
+        "es": "Puedes curarte poniéndote bajo el arco con los cristales brillantes."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Continue south, wrapping around east and north, then climb the nearby cliffside which is south of the archway.",
+        "es": "Continúa hacia el sur, rodeando hacia el este y el norte, y luego sube por la ladera del acantilado cercana, al sur del arco."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Walk across the rock formation and talk to Azzanadra again.",
+        "es": "Camina por la formación rocosa y vuelve a hablar con Azzanadra."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Continue east and climb down the drop, then traverse the rock bridge to the east.",
+        "es": "Continúa hacia el este y baja por la caída, luego cruza el puente de roca hacia el este."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Azzanadra again.",
+        "es": "Vuelve a hablar con Azzanadra."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Enter the opening.",
+        "es": "Entra por la abertura."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Azzanadra.",
+        "es": "Habla con Azzanadra."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the fragmented sphere at each end of the halls.",
+        "es": "Inspecciona la esfera fragmentada en cada extremo de los pasillos."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ariane back at the centre, she gives you a blank observation. Azzanadra will replace this if you lost yours.",
+        "es": "Habla con Ariane de vuelta en el centro; te da una observación en blanco. Azzanadra la reemplazará si has perdido la tuya."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Collect memories from the elder god memory wisps (50 each).",
+        "es": "Recoge recuerdos de las nubes de memoria de los dioses primigenios (50 de cada)."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "Bik memory wisp (western hallway).",
+        "es": "Nube de memoria de Bik (pasillo occidental)."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "Wen memory wisp (northern hallway).",
+        "es": "Nube de memoria de Wen (pasillo norte)."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "Ful memory wisp (north-eastern hallway).",
+        "es": "Nube de memoria de Ful (pasillo noreste)."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "Jas memory wisp (south-western hallway).",
+        "es": "Nube de memoria de Jas (pasillo suroeste)."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the blank observation in your backpack.",
+        "es": "Inspecciona la observación en blanco en tu inventario."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Azzanadra.",
+        "es": "Habla con Azzanadra."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Light voice and Shadow voice will speak to you. (opciones de chat: 5 I've heard enough. I have a world to save.)",
+        "es": "La Voz de la Luz y la Voz de la Sombra te hablarán. (opciones de chat: 5 He oído suficiente. Tengo un mundo que salvar.)"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Travel to White Knights' Castle in Falador and enter the courtyard. Talk to Sir Upticious near the entrance.",
+        "es": "Viaja hasta el White Knights' Castle en Falador y entra en el patio. Habla con Sir Upticious cerca de la entrada."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Go up the eastern ladder then up the staircase by Sir Renitee to the altar in the castle. Talk to Father Frith. (opciones de chat: Any)",
+        "es": "Sube por la escalera de mano del este y luego por las escaleras junto a Sir Renitee hasta el altar del castillo. Habla con Father Frith. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Go to the , walk one room west from the ladder and talk to Sir Owen. (opciones de chat: Any)",
+        "es": "Ve a la planta correspondiente, camina una habitación al oeste desde la escalera de mano y habla con Sir Owen. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Return upstairs and talk to Father Frith.",
+        "es": "Vuelve arriba y habla con Father Frith."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sir Amik Varze on the in the west wing of the castle. (opciones de chat: 1 Ask about 'Azzanadra's Quest'. • Any)",
+        "es": "Habla con Sir Amik Varze en el ala oeste del castillo. (opciones de chat: 1 Preguntar sobre 'Azzanadra's Quest'. • Cualquiera)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Padomenes in the courtyard. (opciones de chat: 1 Ask about Azzanadra's Quest. • Any)",
+        "es": "Habla con Padomenes en el patio. (opciones de chat: 1 Preguntar sobre Azzanadra's Quest. • Cualquiera)"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sir Vyvin, found next to Father Frith on . (opciones de chat: 1 [Ask about Azzanadra's Quest.])",
+        "es": "Habla con Sir Vyvin, que está junto a Father Frith. (opciones de chat: 1 [Preguntar sobre Azzanadra's Quest.])"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sir Owen on the , in the room west of the ladder.",
+        "es": "Habla con Sir Owen, en la habitación al oeste de la escalera de mano."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Search the nearby drawers. (opciones de chat: 1 Look for ritual documents.)",
+        "es": "Registra los cajones cercanos. (opciones de chat: 1 Buscar documentos rituales.)"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Go up the ladder into Sir Renitee's room and crack open the safe.",
+        "es": "Sube por la escalera de mano hasta la habitación de Sir Renitee y fuerza la caja fuerte."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Right-click the slayer bell and use the 'Cut clapper' option to create a silent bell.",
+        "es": "Haz clic derecho en la campana de slayer y usa la opción 'Cortar badajo' para crear una campana silenciosa."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the Paterdomus and enter the Mausoleum to the north.",
+        "es": "Viaja hasta el Paterdomus y entra en el Mausoleum al norte."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "Use the Skeletal horror Teleport or invitation box to get there quickly.",
+        "es": "Usa el teletransporte de Skeletal horror o la caja de invitación para llegar rápidamente."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Use the bell on the well to create a silent bell (blessed).",
+        "es": "Usa la campana en el pozo para crear una campana silenciosa (bendecida)."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Return to Saradomin's throne in the White Knights' Castle by the altar and next to Father Frith on .",
+        "es": "Vuelve al trono de Saradomin en el White Knights' Castle, junto al altar y cerca de Father Frith."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Ring the bell three times, calling Saradomin's name each time. (opciones de chat: 1 Saradomin!)",
+        "es": "Toca la campana tres veces, diciendo el nombre de Saradomin cada vez. (opciones de chat: 1 ¡Saradomin!)"
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Saradomin. (opciones de chat: 3 The world is in danger. • Any • 2 We need to find the eggs. • 1 We need your crown.)",
+        "es": "Habla con Saradomin. (opciones de chat: 3 El mundo está en peligro. • Cualquiera • 2 Necesitamos encontrar los huevos. • 1 Necesitamos tu corona.)"
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Kharid-et and talk to Azzanadra at the Praetorium war table. (opciones de chat: ~)",
+        "es": "Viaja hasta Kharid-et y habla con Azzanadra en la mesa de guerra del Praetorium. (opciones de chat: ~)"
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the Hall of Memories (use the Sixth-Age circuit or memory strands to teleport to Memorial to Guthix)",
+        "es": "Viaja hasta el Hall of Memories (usa el circuito de la Sexta Era o los memory strands para teletransportarte al Memorial to Guthix)."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Enter the pool. (opciones de chat: 1 Yes. • Any • Any)",
+        "es": "Entra en la piscina. (opciones de chat: 1 Sí. • Cualquiera • Cualquiera)"
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Capture the 6 Archivist's memories, then talk to the Archivist (opciones de chat: Any • Any).",
+        "es": "Captura los 6 recuerdos del Archivist, luego habla con el Archivist (opciones de chat: Cualquiera • Cualquiera)."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Capture the 6 restricted memories.",
+        "es": "Captura los 6 recuerdos restringidos."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Interact with each of the plinths in the north-west and north-east.",
+        "es": "Interactúa con cada uno de los pedestales en el noroeste y noreste."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Search the memory bud in the centre to receive a restricted engram.",
+        "es": "Registra el brote de memoria en el centro para recibir un engrama restringido."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Leave the Hall of Memories and use the restricted engram on the fountain of energy.",
+        "es": "Sal del Hall of Memories y usa el engrama restringido en la fuente de energía."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the entrance of the TzHaar City (use the TokKul-Zo to teleport to the main plaza then run south and exit the volcano). You can use the boss portal or the combat portal attuned to TzHaar Fight Cave to get there.",
+        "es": "Viaja hasta la entrada de la TzHaar City (usa el TokKul-Zo para teletransportarte a la plaza principal y luego corre hacia el sur para salir del volcán). Puedes usar el portal de jefes o el portal de combate sintonizado con TzHaar Fight Cave para llegar allí."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 1,
+      "text": {
+        "en": "Alternatively, fairy ring is located near the fight cave. From here, leave the city through the exit to the south.",
+        "es": "Alternativamente, hay un fairy ring cerca de la fight cave. Desde aquí, sal de la ciudad por la salida hacia el sur."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Trindine on the surface of Karamja Volcano.",
+        "es": "Habla con Trindine en la superficie del Karamja Volcano."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Enter the city, talk to Ga'al just north of the entrance. (opciones de chat: Any)",
+        "es": "Entra en la ciudad, habla con Ga'al justo al norte de la entrada. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Go north to the main plaza (you can teleport back here using the TokKul-Zo), talk to Trindine.",
+        "es": "Ve hacia el norte hasta la plaza principal (puedes teletransportarte de vuelta aquí usando el TokKul-Zo), habla con Trindine."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Talk to TokHaar-Hok.",
+        "es": "Habla con TokHaar-Hok."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the TzHaar City library (north-west of the main plaza), go inside.",
+        "es": "Viaja hasta la biblioteca de la TzHaar City (al noroeste de la plaza principal) y entra."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Trindine.",
+        "es": "Habla con Trindine."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the Wizards' Tower (use the wicked hood, stardust, or traveller's necklace to teleport)",
+        "es": "Viaja hasta el Wizards' Tower (usa la wicked hood, stardust o el traveller's necklace para teletransportarte)."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Wizard Trindy on at entrance of the Wizards' Tower. (opciones de chat: Any)",
+        "es": "Habla con Wizard Trindy en la entrada del Wizards' Tower. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "Search four bookcases to the west.",
+        "es": "Registra cuatro estanterías al oeste."
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Wizard Trindy at the eastern bookcases.",
+        "es": "Habla con Wizard Trindy en las estanterías del este."
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Return to Kharid-et Dig Site's praetorium war table.",
+        "es": "Vuelve a la mesa de guerra del Praetorium en Kharid-et Dig Site."
+      }
+    },
+    {
+      "index": 68,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Azzanadra.",
+        "es": "Habla con Azzanadra."
+      }
+    },
+    {
+      "index": 69,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the entrance of the Heart of Gielinor.",
+        "es": "Viaja hasta la entrada del Heart of Gielinor."
+      }
+    },
+    {
+      "index": 70,
+      "indent": 1,
+      "text": {
+        "en": "Use The Heart teleport and leave by the wooden lift.",
+        "es": "Usa el teletransporte de The Heart y sal por el ascensor de madera."
+      }
+    },
+    {
+      "index": 71,
+      "indent": 1,
+      "text": {
+        "en": "See other fast travel options if not using The Heart teleport.",
+        "es": "Consulta otras opciones de viaje rápido si no usas el teletransporte de The Heart."
+      }
+    },
+    {
+      "index": 72,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Azzanadra.",
+        "es": "Habla con Azzanadra."
+      }
+    },
+    {
+      "index": 73,
+      "indent": 0,
+      "text": {
+        "en": "Enter the Heart (opciones de chat: 1 Yes.) and continue the dialogue.",
+        "es": "Entra en el Heart (opciones de chat: 1 Sí.) y continúa el diálogo."
+      }
+    },
+    {
+      "index": 74,
+      "indent": 0,
+      "text": {
+        "en": "Observe each of the eggs at the end of the corridors.",
+        "es": "Observa cada uno de los huevos al final de los pasillos."
+      }
+    },
+    {
+      "index": 75,
+      "indent": 1,
+      "text": {
+        "en": "Bik's egg.",
+        "es": "El huevo de Bik."
+      }
+    },
+    {
+      "index": 76,
+      "indent": 1,
+      "text": {
+        "en": "Wen's egg.",
+        "es": "El huevo de Wen."
+      }
+    },
+    {
+      "index": 77,
+      "indent": 1,
+      "text": {
+        "en": "Ful's egg.",
+        "es": "El huevo de Ful."
+      }
+    },
+    {
+      "index": 78,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ariane.",
+        "es": "Habla con Ariane."
+      }
+    },
+    {
+      "index": 79,
+      "indent": 0,
+      "text": {
+        "en": "Return to Kharid-et and enter to the main fortress. (opciones de chat: 1 Yes.)",
+        "es": "Vuelve a Kharid-et y entra en la fortaleza principal. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 80,
+      "indent": 0,
+      "text": {
+        "en": "Walk to the praetorium war table (you need to walk into the room where the table is to start the dialogue).",
+        "es": "Camina hasta la mesa de guerra del Praetorium (debes entrar en la sala donde está la mesa para iniciar el diálogo)."
+      }
+    },
+    {
+      "index": 81,
+      "indent": 0,
+      "text": {
+        "en": "Stand next to any four shadow anchors around Kharid-et (see the map).",
+        "es": "Colócate junto a cualquiera de las cuatro anclas de sombra alrededor de Kharid-et (consulta el mapa)."
+      }
+    },
+    {
+      "index": 82,
+      "indent": 0,
+      "text": {
+        "en": "Harvest Trindine wisps until you get 50 memories.",
+        "es": "Recolecta nubes de Trindine hasta conseguir 50 recuerdos."
+      }
+    },
+    {
+      "index": 83,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the blank observation and finish the dialogue or Ga'al will not spawn for the next step.",
+        "es": "Inspecciona la observación en blanco y termina el diálogo, o Ga'al no aparecerá en el siguiente paso."
+      }
+    },
+    {
+      "index": 84,
+      "indent": 0,
+      "text": {
+        "en": "Return to the TzHaar City main plaza.",
+        "es": "Vuelve a la plaza principal de la TzHaar City."
+      }
+    },
+    {
+      "index": 85,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ga'al in the main plaza.",
+        "es": "Habla con Ga'al en la plaza principal."
+      }
+    },
+    {
+      "index": 86,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Wizards' Tower.",
+        "es": "Vuelve al Wizards' Tower."
+      }
+    },
+    {
+      "index": 87,
+      "indent": 0,
+      "text": {
+        "en": "Walk to the entrance to trigger the dialogue.",
+        "es": "Camina hasta la entrada para activar el diálogo."
+      }
+    },
+    {
+      "index": 88,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Hall of Memories and enter the pool. (opciones de chat: 1 Yes.)",
+        "es": "Vuelve al Hall of Memories y entra en la piscina. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 89,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Archivist.",
+        "es": "Habla con el Archivist."
+      }
+    },
+    {
+      "index": 90,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Heart of Gielinor (enter from the entrance). (opciones de chat: 1 Yes.)",
+        "es": "Vuelve al Heart of Gielinor (entra por la entrada). (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 91,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ariane. A cutscene will follow. (opciones de chat: Any)",
+        "es": "Habla con Ariane. Seguirá una escena cinemática. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 92,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ariane again.",
+        "es": "Vuelve a hablar con Ariane."
+      }
+    },
+    {
+      "index": 93,
+      "indent": 0,
+      "text": {
+        "en": "Return to the White Knights' Castle, talk to Ariane on the bridge.",
+        "es": "Vuelve al White Knights' Castle y habla con Ariane en el puente."
+      }
+    },
+    {
+      "index": 94,
+      "indent": 0,
+      "text": {
+        "en": "A cutscene will follow. (opciones de chat: Any)",
+        "es": "Seguirá una escena cinemática. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 95,
+      "indent": 0,
+      "text": {
+        "en": "Return to Kharid-et, talk to Azzanadra at the praetorium war table to complete the quest.",
+        "es": "Vuelve a Kharid-et y habla con Azzanadra en la mesa de guerra del Praetorium para completar la misión."
+      }
+    },
+    {
+      "index": 96,
+      "indent": 1,
+      "text": {
+        "en": "You need 3 free backpack spaces upon quest completion for the experience lamps rewarded.",
+        "es": "Necesitas 3 espacios libres en el inventario al completar la misión para las lámparas de experiencia otorgadas como recompensa."
+      }
+    }
+  ]
+}

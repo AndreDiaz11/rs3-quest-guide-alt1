@@ -1,0 +1,152 @@
+{
+  "id": "monk-s-friend",
+  "title": "Monk's Friend",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:39:46.820Z",
+  "icon": "https://runescape.wiki/images/Monk%27s_Friend_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "pathfinder",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Short",
+  "releaseDate": "28 May 2002",
+  "startPoint": {
+    "en": "Speak to Brother Omad at the Monastery south of Ardougne.",
+    "es": "Habla con Brother Omad en el Monastery al sur de Ardougne."
+  },
+  "requirements": {
+    "quests": [
+      "Monk's Friend"
+    ],
+    "skills": []
+  },
+  "items": [
+    {
+      "name": "Jug of water",
+      "display": "A jug of water (you can buy a jug at the general stores in Port Khazard; there is a sink in a house to the south of the monastery)",
+      "image": "https://runescape.wiki/images/thumb/Jug_of_water_detail.png/100px-Jug_of_water_detail.png?3b551"
+    },
+    {
+      "name": "Logs",
+      "display": "Normal logs (there are plenty of trees nearby)",
+      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+    }
+  ],
+  "kills": [
+    "You can choose to defeat two level 21 thieves and a level 25 head thief."
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Law rune",
+      "display": "8 law runes",
+      "image": "https://runescape.wiki/images/thumb/Law_rune_detail.png/100px-Law_rune_detail.png?425e6"
+    },
+    {
+      "type": "xp",
+      "skill": "Woodcutting",
+      "amount": 2000,
+      "display": "2,000 experience",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Brother Omad on the of the Monastery south of East Ardougne zoo. (opciones de chat: 1 Why can't you sleep? • Accept)",
+        "es": "Habla con Brother Omad en el Monastery al sur del zoo de East Ardougne. (opciones de chat: 1 Why can't you sleep? • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Exit the monastery and head west to the location shown on the map, there is a circle of stones (not visible on the minimap).",
+        "es": "Sal del monastery y dirígete al oeste hasta la ubicación indicada en el mapa, donde hay un círculo de piedras (no visible en el minimapa)."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Stand in the circle of stones and climb down the ladder that appears. The stones are the same colour as the grass in high graphics modes, and are very easy to overlook.",
+        "es": "Colócate en el círculo de piedras y baja por la escalera que aparece. Las piedras tienen el mismo color que la hierba en modos gráficos altos, así que es muy fácil pasarlas por alto."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Go south, enter the room with thieves, and grab the Child's blanket on the table to the east.",
+        "es": "Ve hacia el sur, entra en la sala con los ladrones y coge la Child's blanket que hay sobre la mesa al este."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Return to the monastery and talk to Brother Omad. (opciones de chat: 1 Is there anything else I can help with? • 1 Who's Brother Cedric? • 2 Where should I look?)",
+        "es": "Vuelve al monastery y habla con Brother Omad. (opciones de chat: 1 Is there anything else I can help with? • 1 Who's Brother Cedric? • 2 Where should I look?)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "North of the Monastery and near a crashed cart, Brother Cedric will be wandering around. Talk to him.",
+        "es": "Al norte del Monastery, cerca de un carro volcado, encontrarás a Brother Cedric paseando. Habla con él."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him again to give him a jug of water. (opciones de chat: 2 Yes, I'd be happy to!)",
+        "es": "Habla con él de nuevo para darle una jarra de agua. (opciones de chat: 2 Yes, I'd be happy to!)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him once more to give him a set of logs.",
+        "es": "Habla con él una vez más para darle un juego de troncos."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Brother Omad.",
+        "es": "Habla con Brother Omad."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Pop a balloon for area task.",
+        "es": "Revienta un globo para completar la tarea de área."
+      }
+    }
+  ]
+}

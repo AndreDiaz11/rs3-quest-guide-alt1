@@ -1,0 +1,179 @@
+{
+  "id": "buyers-and-cellars",
+  "title": "Buyers and Cellars",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:55:27.024Z",
+  "icon": "https://runescape.wiki/images/Buyers_and_Cellars_icon.png",
+  "series": "Thieves' Guild",
+  "age": "ambiguous",
+  "timeline": "adventurer",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Short to Medium",
+  "releaseDate": "28 April 2010",
+  "startPoint": {
+    "en": "Speak to Darren Lightfinger in his cellar, accessed through a trapdoor next to a small house just north of the Lumbridge furnace. (via )",
+    "es": "Habla con Darren Lightfinger en su sótano, al que se accede por una trampilla junto a una casita justo al norte del horno de Lumbridge. (via )"
+  },
+  "requirements": {
+    "quests": [
+      "Buyers and Cellars"
+    ],
+    "skills": [
+      {
+        "skill": "Thieving",
+        "level": 5
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Logs",
+      "display": "Logs (can be acquired during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Thieving",
+      "amount": 500,
+      "display": "500 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Thieves' Guild",
+      "display": "Access to the Thieves' Guild",
+      "image": "https://runescape.wiki/images/thumb/Thieves%27_Guild.png/100px-Thieves%27_Guild.png?20215"
+    },
+    {
+      "type": "xp",
+      "skill": "Thieves' guild pamphlet",
+      "amount": 3,
+      "display": "3 Thieves' guild pamphlets (each granting 175 experience, for a total of 525 experience)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Hanky points",
+      "display": "Ability to collect hanky points",
+      "image": "https://runescape.wiki/images/Hanky_points.png?fbef9"
+    },
+    {
+      "type": "item",
+      "name": "Thieves' Guild I",
+      "display": "Thieves' Guild I - At the Thieves' Guild.",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Guildmaster Darren Lightfinger in the Thieves' Guild north of the house with a furnace in Lumbridge (enter the trapdoor). (opciones de chat: 2 What are you doing down here? (Skip speech.) • 2 And what is it you need done? (Skip speech) • Accept • 2 No, I think I've got the hang of this. • 1 Yes.)",
+        "es": "Habla con el Guildmaster Darren Lightfinger en el Thieves' Guild al norte de la casa con un horno en Lumbridge (entra por la trampilla). (opciones de chat: 2 What are you doing down here? (Skip speech.) • 2 And what is it you need done? (Skip speech) • Accept • 2 No, I think I've got the hang of this. • 1 Yes.)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Chief Thief Robin, south of Lumbridge Castle inside the castle wall. (opciones de chat: 1 Go ahead.)",
+        "es": "Habla con Chief Thief Robin, al sur de Lumbridge Castle dentro de la muralla del castillo. (opciones de chat: 1 Go ahead.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Father Urhney in his house to the south in the Lumbridge Swamp. (opciones de chat: 3 Nice chalice. • 3 Can I have a look at it?)",
+        "es": "Habla con Father Urhney en su casa al sur, en Lumbridge Swamp. (opciones de chat: 3 Nice chalice. • 3 Can I have a look at it?)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "If The Restless Ghost has been completed, (opciones de chat: 4 Nice chalice. • 3 Can I have a look at it?)",
+        "es": "Si se ha completado The Restless Ghost, (opciones de chat: 4 Nice chalice. • 3 Can I have a look at it?)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Light a fire outside one of Urhney's windows.",
+        "es": "Enciende una hoguera junto a una de las ventanas de Urhney."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Urhney and mention the chalice then the fire. (opciones de chat: 3 Nice chalice. • 4 Fire! Fire!)",
+        "es": "Habla con Urhney y menciona el cáliz y luego el fuego. (opciones de chat: 3 Nice chalice. • 4 Fire! Fire!)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "If The Restless Ghost has been completed, (opciones de chat: 4 Nice chalice. • 4 Fire! Fire!)",
+        "es": "Si se ha completado The Restless Ghost, (opciones de chat: 4 Nice chalice. • 4 Fire! Fire!)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Pickpocket Urhney quickly to get a complex key.",
+        "es": "Roba a Urhney rápidamente para conseguir una llave compleja."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Open the display case.",
+        "es": "Abre la vitrina."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Return to Darren's cellar.",
+        "es": "Vuelve al sótano de Darren."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Use the chalice on Darren.",
+        "es": "Usa el cáliz en Darren."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

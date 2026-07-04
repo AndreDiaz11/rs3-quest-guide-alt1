@@ -1,0 +1,955 @@
+{
+  "id": "twilight-of-the-gods",
+  "title": "Twilight of the Gods",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:26:11.761Z",
+  "icon": "https://runescape.wiki/images/Twilight_of_the_Gods_icon.png",
+  "series": "The Elder God Wars",
+  "age": "6",
+  "timeline": "world guardian",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Master",
+  "length": "Long",
+  "releaseDate": "6 June 2022",
+  "startPoint": {
+    "en": "Talk to a wounded knight outside the surface entrance to Senntisten.",
+    "es": "Habla con un caballero herido en la entrada de superficie de Senntisten."
+  },
+  "requirements": {
+    "quests": [
+      "Extinction",
+      "Sins of the Father",
+      "Desperate Measures",
+      "Desperate Times",
+      "The Needle Skips",
+      "You Are It",
+      "Anachronia base camp tutorial",
+      "Eye of Het II",
+      "Eye of Het I",
+      "City of Senntisten",
+      "Battle of the Monolith",
+      "Broken Home",
+      "Eyes in Their Stars",
+      "Naressa",
+      "Senntisten"
+    ],
+    "skills": [
+      {
+        "skill": "Divination",
+        "level": 80
+      },
+      {
+        "skill": "Thieving",
+        "level": 60
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Infernal ashes",
+      "display": "Infernal ashes (obtainable during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Infernal_ashes.gif/100px-Infernal_ashes.gif?6e8cd"
+    },
+    {
+      "name": "Vial",
+      "display": "Vial (obtainable during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Vial_detail.png/100px-Vial_detail.png?82ee9"
+    },
+    {
+      "name": "Backpack",
+      "display": "At least three free spaces in backpack",
+      "image": "https://runescape.wiki/images/thumb/Inventory_interface.png/100px-Inventory_interface.png?8ee97"
+    }
+  ],
+  "kills": [
+    "You may optionally defeat multiple demons, so combat equipment is recommended."
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 3,
+      "display": "3 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Divination",
+      "amount": 30000,
+      "display": "30,000 experience Divination XP lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 30000,
+      "display": "30,000 experience Magic XP lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ring of the Abyss",
+      "display": "Ring of the Abyss",
+      "image": "https://runescape.wiki/images/Ring_of_the_Abyss_detail.png?61acd"
+    },
+    {
+      "type": "item",
+      "name": "Order of Dis robes (override)",
+      "display": "Order of Dis robes",
+      "image": "https://runescape.wiki/images/Order_of_Dis_hood_chathead.png?80e17"
+    },
+    {
+      "type": "item",
+      "name": "Chaos die reroll token",
+      "display": "5 Chaos die reroll tokens and the ability to use them.",
+      "image": "https://runescape.wiki/images/thumb/Chaos_die_reroll_token_detail.png/100px-Chaos_die_reroll_token_detail.png?e84bf"
+    },
+    {
+      "type": "item",
+      "name": "Zamorak, Lord of Chaos",
+      "display": "10% damage reduction in the Zamorak: Lord of Chaos encounter",
+      "image": "https://runescape.wiki/images/thumb/Zamorak%2C_Lord_of_Chaos.png/100px-Zamorak%2C_Lord_of_Chaos.png?c087a"
+    },
+    {
+      "type": "item",
+      "name": "The Twilight Ritual",
+      "display": "The Twilight Ritual",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sir Cadian outside of the surface entrance to Senntisten. (opciones de chat: Accept) Afterwards, talk to Sir Cadian again and finish the conversation.",
+        "es": "Habla con Sir Cadian en la entrada de superficie de Senntisten. (opciones de chat: Aceptar) Después, habla con Sir Cadian de nuevo y termina la conversación."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 1,
+      "text": {
+        "en": "To get there, you may use the Archaeology journal teleport and run north.",
+        "es": "Para llegar allí, puedes usar el teletransporte del diario de Arqueología y correr hacia el norte."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Enter the nearby ancient door. (opciones de chat: 1 Yes.)",
+        "es": "Entra por la puerta antigua cercana. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "Do not use the pontifex ring's Senntisten teleport as it will exit the instance.",
+        "es": "No uses el teletransporte a Senntisten del pontifex ring, ya que saldrás de la instancia."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Naressa or Gregorovic in the house near the southwest corner of Senntisten and agree to meet them in the asylum. (opciones de chat: Any • 1 I'll come with you now.)",
+        "es": "Habla con Naressa o Gregorovic en la casa cerca de la esquina suroeste de Senntisten y acepta reunirte con ellos en el asylum. (opciones de chat: Cualquiera • 1 Iré contigo ahora.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Naressa or Gregorovic once inside.",
+        "es": "Habla con Naressa o Gregorovic una vez dentro."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to them a second time and pull the crane lever under the desk, not the lever on the wall.",
+        "es": "Habla con ellos una segunda vez y tira de la palanca de la grúa debajo del escritorio, no de la palanca de la pared."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Head up the stairs.",
+        "es": "Sube las escaleras."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Search the drawer (not the chest of drawers) near the filing cabinet for a chain of keys.",
+        "es": "Busca en el cajón (no en la cómoda) cerca del archivador un manojo de llaves."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "text": {
+        "en": "If you cannot find the keys, head downstairs and flip the lever again (see image). If you still cannot find the keys, search the crate, then the bookcase upstairs and the drawer near the filing cabinet should be interactable.",
+        "es": "Si no puedes encontrar las llaves, baja las escaleras y vuelve a accionar la palanca (ver imagen). Si aún no puedes encontrar las llaves, busca en la caja, luego en la estantería de arriba y el cajón cerca del archivador debería poder interactuarse."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Search the notes on the ground to the east for key instructions then read it.",
+        "es": "Busca las notas en el suelo hacia el este para obtener instrucciones sobre la llave y luego léelas."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Head downstairs and open the gate (opciones de chat: 6 Short purple key), then walk through it.",
+        "es": "Baja las escaleras y abre la verja (opciones de chat: 6 Short purple key), luego atraviésala."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Operate the asylum elevator.",
+        "es": "Acciona el ascensor del asylum."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Naressa and Gregorovic.",
+        "es": "Habla con Naressa y Gregorovic."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Head east into the next room and talk to Yk'Lagor, Cyrillus or Dahaka. (opciones de chat: Any)",
+        "es": "Dirígete al este hacia la siguiente sala y habla con Yk'Lagor, Cyrillus o Dahaka. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Find Rowena (little girl ghost) starting at the south-east.",
+        "es": "Encuentra a Rowena (fantasma de niña pequeña) comenzando por el sureste."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Follow her through the dungeon and collect the following items from the area.",
+        "es": "Síguela por la mazmorra y recoge los siguientes objetos de la zona."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "from the crate of syringes in the incinerator room (south).",
+        "es": "de la caja de jeringas en la sala del incinerador (sur)."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "from the spiky chair several rooms later (west). It is in small rectangular room with a single abyssal savage.",
+        "es": "de la silla con pinchos varias salas después (oeste). Está en una pequeña sala rectangular con un único abyssal savage."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "from the crate of vials in the nothernmost room.",
+        "es": "de la caja de viales en la sala más al norte."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Senecianus (appearing as Rowena) in the north-westernmost room to obtain a .",
+        "es": "Habla con Senecianus (con la apariencia de Rowena) en la sala más al noroeste para obtener un ."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Create the cure:",
+        "es": "Crea la cura:"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "Use the syringe on Senecianus to obtain a .",
+        "es": "Usa la jeringa en Senecianus para obtener un ."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "Fill the vial using the sink in the southwestern operating room to obtain a . (opciones de chat: 1 Yes.)",
+        "es": "Llena el vial usando el fregadero en la sala de operaciones del suroeste para obtener un . (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "Right-click to use the infernal ashes on the vial to obtain .",
+        "es": "Haz clic derecho para usar las cenizas infernales en el vial y obtener ."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "Use the blood syringe on the incomplete potion to obtain a .",
+        "es": "Usa la jeringa de sangre en la poción incompleta para obtener un ."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Return to the large northeasternmost room and talk to Yk'Lagor. (opciones de chat: 1 Yes.)",
+        "es": "Vuelve a la gran sala más al noreste y habla con Yk'Lagor. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Yk'Lagor again. (opciones de chat: Any)",
+        "es": "Habla con Yk'Lagor de nuevo. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Saradomin on his throne in the White Knights' Castle in Falador. (opciones de chat: 1 Yes.)",
+        "es": "Habla con Saradomin en su trono en el White Knights' Castle en Falador. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Saradomin again.",
+        "es": "Habla con Saradomin de nuevo."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him a third time.",
+        "es": "Habla con él una tercera vez."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "After finishing the last dialogue, your quest journal should mention \"The White Knights in the Jolly Boar Inn\" as the current step.",
+        "es": "Después de terminar el último diálogo, tu diario de misión debería mencionar \"The White Knights in the Jolly Boar Inn\" como el paso actual."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the four white knights at the Jolly Boar Inn.",
+        "es": "Habla con los cuatro white knights en el Jolly Boar Inn."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "Sir Cull",
+        "es": "Sir Cull"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "Sir Berus",
+        "es": "Sir Berus"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "Sir Dated",
+        "es": "Sir Dated"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "Sir Plus",
+        "es": "Sir Plus"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Just west of the inn, descend the lift to enter the Infernal Source Dig Site. (opciones de chat: 1 Yes.)",
+        "es": "Justo al oeste de la posada, baja por el montacargas para entrar en el Infernal Source Dig Site. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Blythe. (opciones de chat: 1 Growth through chaos. • 3 Philippa Wharton. • 2 Dagon.)",
+        "es": "Habla con Blythe. (opciones de chat: 1 Growth through chaos. • 3 Philippa Wharton. • 2 Dagon.)"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Wear the cultist attire and climb down the secret passage to the north.",
+        "es": "Ponte la vestimenta de cultista y baja por el pasadizo secreto hacia el norte."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Pickpocket cultists until you obtain a cast iron key (pickpocketing the same one works).",
+        "es": "Roba a los cultistas hasta que obtengas una cast iron key (robar al mismo funciona)."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Collect information about the cult:",
+        "es": "Recopila información sobre el culto:"
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "Head north and talk to Wilona. (opciones de chat: 1 Yes. • 2 Domine fortis chaos • 2 In sanguine et in morte • 3 Honoramus tibi hoc sacrificium)",
+        "es": "Dirígete al norte y habla con Wilona. (opciones de chat: 1 Sí. • 2 Domine fortis chaos • 2 In sanguine et in morte • 3 Honoramus tibi hoc sacrificium)"
+      }
+    },
+    {
+      "index": 43,
+      "indent": 1,
+      "text": {
+        "en": "Talk to Audrey (near the east pillar).",
+        "es": "Habla con Audrey (cerca del pilar este)."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 1,
+      "text": {
+        "en": "Talk to Ridley (in the east hallway).",
+        "es": "Habla con Ridley (en el pasillo este)."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "Talk to Edda (in the southeast room).",
+        "es": "Habla con Edda (en la sala del sureste)."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 1,
+      "text": {
+        "en": "Search the crate against the southern wall for spare cultist robes.",
+        "es": "Busca en la caja contra la pared sur túnicas de cultista de repuesto."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 1,
+      "text": {
+        "en": "Talk to Tyne in the jail cell west.",
+        "es": "Habla con Tyne en la celda de la cárcel al oeste."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Return and talk to Saradomin. (opciones de chat: 1 Yes.)",
+        "es": "Regresa y habla con Saradomin. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Saradomin again.",
+        "es": "Habla con Saradomin de nuevo."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him a third time. (opciones de chat: Any • 1 Can you assault Zamorak directly? • 2 Can the summoning portal at the Infernal Source be disrupted? • 3 Why don't we just kill the attacking demons?)",
+        "es": "Habla con él una tercera vez. (opciones de chat: Cualquiera • 1 ¿Puedes atacar a Zamorak directamente? • 2 ¿Se puede interrumpir el portal de invocación en el Infernal Source? • 3 ¿Por qué no simplemente matamos a los demonios atacantes?)"
+      }
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "text": {
+        "en": "After finishing the last dialogue, your quest journal should mention \"re-establishing the Edicts of Guthix\" as the current step.",
+        "es": "Después de terminar el último diálogo, tu diario de misión debería mencionar \"re-establishing the Edicts of Guthix\" como el paso actual."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Go downstairs and talk to Adrasteia in the room to the west.",
+        "es": "Baja las escaleras y habla con Adrasteia en la sala al oeste."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 1,
+      "text": {
+        "en": "If she is not there, you may lobby and log back in.",
+        "es": "Si no está allí, puedes salir al lobby y volver a iniciar sesión."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Tree of Balance south-west of the Archaeology Campus. (opciones de chat: 1 Continue Twilight of the Gods.)",
+        "es": "Habla con el Tree of Balance al suroeste del Archaeology Campus. (opciones de chat: 1 Continuar Twilight of the Gods.)"
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Talk to any of the guardians of Guthix for a cutscene.",
+        "es": "Habla con cualquiera de los guardians of Guthix para ver una escena cinemática."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Return and talk to Saradomin to obtain an .",
+        "es": "Regresa y habla con Saradomin para obtener un ."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Scan with the energy scanner, then go to the Memorial to Guthix",
+        "es": "Escanea con el escáner de energía, luego ve al Memorial to Guthix"
+      }
+    },
+    {
+      "index": 58,
+      "indent": 1,
+      "text": {
+        "en": "You can teleport directly to the Memorial using either Sixth-Age circuit or by using memory strand from the currency pouch",
+        "es": "Puedes teletransportarte directamente al Memorial usando el Sixth-Age circuit o usando memory strand desde la bolsa de moneda"
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Stand in front of the pool and talk to the Archivist if he is visible near the pool.",
+        "es": "Ponte de pie frente al estanque y habla con el Archivist si es visible cerca del estanque."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Scan with the energy scanner, then go to the gleaming wisp divination site south-east of the Karamja lodestone and interact with the green mystical wisp.",
+        "es": "Escanea con el escáner de energía, luego ve al gleaming wisp divination site al sureste de la Karamja lodestone e interactúa con el green mystical wisp."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 1,
+      "text": {
+        "en": "You can use the elder divination outfit for a direct teleport to the gleaming wisp colony, or Karamja gloves 3 or higher to teleport nearby to the Shilo Village mine.",
+        "es": "Puedes usar el elder divination outfit para un teletransporte directo a la gleaming wisp colony, o los Karamja gloves 3 o superiores para teletransportarte cerca de la mina de Shilo Village."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the confused automaton and complete all the dialogue.",
+        "es": "Habla con el confused automaton y completa todo el diálogo."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Exit the cache and scan with the energy scanner, then talk to Merethiel at the Lost Grove (opciones de chat: 1 Yes • 1 Yes - please send me in.).",
+        "es": "Sal del cache y escanea con el escáner de energía, luego habla con Merethiel en el Lost Grove (opciones de chat: 1 Sí • 1 Sí, por favor, envíame.)."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 1,
+      "text": {
+        "en": "You can use the Boss portal to Solak, fairy ring if repaired (Take 5 Bittercap mushroom to repair it if you have not) and then interact with the magical mushrooms, the elder divination outfit to the incandescent wisp colony, or and then run west to the standstone to get to the Lost Grove.",
+        "es": "Puedes usar el Boss portal a Solak, el fairy ring si está reparado (lleva 5 Bittercap mushroom para repararlo si no lo has hecho) y luego interactuar con las magical mushrooms, el elder divination outfit hacia la incandescent wisp colony, o luego correr hacia el oeste hasta el standstone para llegar al Lost Grove."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Guardians of Guthix once inside.",
+        "es": "Habla con los Guardians of Guthix una vez dentro."
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Isaura at the Black Knights' Base (northeastern corner of the base, next to the kitchen) in the Taverley Dungeon (opciones de chat: 1 Yes) for a .",
+        "es": "Habla con Isaura en el Black Knights' Base (esquina noreste de la base, junto a la cocina) en el Taverley Dungeon (opciones de chat: 1 Sí) para obtener un ."
+      }
+    },
+    {
+      "index": 67,
+      "indent": 1,
+      "text": {
+        "en": "You can quickly get to her using the Archaeology teleport or the master archaeologist's outfit teleport to Collectors, then Isaura. (→)",
+        "es": "Puedes llegar rápidamente hasta ella usando el teletransporte de Arqueología o el teletransporte del master archaeologist's outfit a Collectors, luego a Isaura. (→)"
+      }
+    },
+    {
+      "index": 68,
+      "indent": 0,
+      "text": {
+        "en": "Return to The Lost Grove, then talk to Merethiel. (opciones de chat: 1 Yes • 1 Yes - please send me in.)",
+        "es": "Regresa al Lost Grove, luego habla con Merethiel. (opciones de chat: 1 Sí • 1 Sí, por favor, envíame.)"
+      }
+    },
+    {
+      "index": 69,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Juna once inside.",
+        "es": "Habla con Juna una vez dentro."
+      }
+    },
+    {
+      "index": 70,
+      "indent": 0,
+      "text": {
+        "en": "Place effigy on the stone circle in the middle of the arena.",
+        "es": "Coloca el effigy en el círculo de piedra en medio de la arena."
+      }
+    },
+    {
+      "index": 71,
+      "indent": 0,
+      "text": {
+        "en": "Harvest from the energy spring until you have 52 Guthixian energy.",
+        "es": "Cosecha del energy spring hasta que tengas 52 Guthixian energy."
+      }
+    },
+    {
+      "index": 72,
+      "indent": 0,
+      "text": {
+        "en": "Make all of the letters at the offering cradle (the large orb in the middle of the area).",
+        "es": "Deletrea todas las palabras en el offering cradle (el gran orbe en medio de la zona)."
+      }
+    },
+    {
+      "index": 73,
+      "indent": 0,
+      "text": {
+        "en": "Collect four stone circle building kits from the material cart slightly north-east of Juna and construct four empty stone circles starting from the west.",
+        "es": "Recoge cuatro stone circle building kits del carro de materiales ligeramente al noreste de Juna y construye cuatro stone circles vacíos comenzando desde el oeste."
+      }
+    },
+    {
+      "index": 74,
+      "indent": 0,
+      "text": {
+        "en": "The spelling of 3 words is required for each of the 3 rituals (9 total).",
+        "es": "Se requiere el deletreo de 3 palabras para cada uno de los 3 rituales (9 en total)."
+      }
+    },
+    {
+      "index": 75,
+      "indent": 1,
+      "text": {
+        "en": "For each ritual phase, the order of words is random per player.",
+        "es": "Para cada fase del ritual, el orden de las palabras es aleatorio por jugador."
+      }
+    },
+    {
+      "index": 76,
+      "indent": 1,
+      "text": {
+        "en": "To spell words, add a rune (letter) on each of the stone circles you've just constructed.",
+        "es": "Para deletrear palabras, añade una runa (letra) en cada uno de los stone circles que acabas de construir."
+      }
+    },
+    {
+      "index": 77,
+      "indent": 1,
+      "text": {
+        "en": "Words are spelled in clockwise orientation on the stone circles along the perimeter of the arena.",
+        "es": "Las palabras se deletrean en orientación horaria en los stone circles a lo largo del perímetro de la arena."
+      }
+    },
+    {
+      "index": 78,
+      "indent": 1,
+      "text": {
+        "en": "To attempt the word you spelled, place effigy on stone circle, followed by \"start ritual\".",
+        "es": "Para intentar la palabra que deletreaste, coloca el effigy en el stone circle, seguido de \"start ritual\"."
+      }
+    },
+    {
+      "index": 79,
+      "indent": 1,
+      "text": {
+        "en": "Each successful ritual phase will yield the chat message:",
+        "es": "Cada fase de ritual exitosa producirá el siguiente mensaje de chat:"
+      }
+    },
+    {
+      "index": 80,
+      "indent": 0,
+      "text": {
+        "en": "In the first ritual, the words are; in no certain order:",
+        "es": "En el primer ritual, las palabras son; sin orden específico:"
+      }
+    },
+    {
+      "index": 81,
+      "indent": 1,
+      "text": {
+        "en": "H A L T",
+        "es": "H A L T"
+      }
+    },
+    {
+      "index": 82,
+      "indent": 1,
+      "text": {
+        "en": "W A R D",
+        "es": "W A R D"
+      }
+    },
+    {
+      "index": 83,
+      "indent": 1,
+      "text": {
+        "en": "G O D S",
+        "es": "G O D S"
+      }
+    },
+    {
+      "index": 84,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Juna.",
+        "es": "Habla con Juna."
+      }
+    },
+    {
+      "index": 85,
+      "indent": 0,
+      "text": {
+        "en": "Collect from the material cart again and build the 5th stone circle.",
+        "es": "Recoge del carro de materiales de nuevo y construye el quinto stone circle."
+      }
+    },
+    {
+      "index": 86,
+      "indent": 0,
+      "text": {
+        "en": "In the second ritual, the words are; in no certain order:",
+        "es": "En el segundo ritual, las palabras son; sin orden específico:"
+      }
+    },
+    {
+      "index": 87,
+      "indent": 1,
+      "text": {
+        "en": "L E A V E",
+        "es": "L E A V E"
+      }
+    },
+    {
+      "index": 88,
+      "indent": 1,
+      "text": {
+        "en": "A N I M A",
+        "es": "A N I M A"
+      }
+    },
+    {
+      "index": 89,
+      "indent": 1,
+      "text": {
+        "en": "A E G I S",
+        "es": "A E G I S"
+      }
+    },
+    {
+      "index": 90,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Juna.",
+        "es": "Habla con Juna."
+      }
+    },
+    {
+      "index": 91,
+      "indent": 0,
+      "text": {
+        "en": "Collect from the material cart again and build the 6th stone circle.",
+        "es": "Recoge del carro de materiales de nuevo y construye el sexto stone circle."
+      }
+    },
+    {
+      "index": 92,
+      "indent": 0,
+      "text": {
+        "en": "In the third ritual, the words are; in no certain order:",
+        "es": "En el tercer ritual, las palabras son; sin orden específico:"
+      }
+    },
+    {
+      "index": 93,
+      "indent": 1,
+      "text": {
+        "en": "B A N I S H",
+        "es": "B A N I S H"
+      }
+    },
+    {
+      "index": 94,
+      "indent": 1,
+      "text": {
+        "en": "S H I E L D",
+        "es": "S H I E L D"
+      }
+    },
+    {
+      "index": 95,
+      "indent": 1,
+      "text": {
+        "en": "D I V I N E",
+        "es": "D I V I N E"
+      }
+    },
+    {
+      "index": 96,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Juna.",
+        "es": "Habla con Juna."
+      }
+    },
+    {
+      "index": 97,
+      "indent": 0,
+      "text": {
+        "en": "Return to Saradomin's throne at the White Knights' Castle at Falador (opciones de chat: 1 Yes.) and speak to Adrasteia.",
+        "es": "Regresa al trono de Saradomin en el White Knights' Castle en Falador (opciones de chat: 1 Sí.) y habla con Adrasteia."
+      }
+    },
+    {
+      "index": 98,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Adrasteia again.",
+        "es": "Habla con Adrasteia de nuevo."
+      }
+    },
+    {
+      "index": 99,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Empyrean Citadel (Adrasteia offers to teleport you). (opciones de chat: 1 Yes please.)",
+        "es": "Ve a la Empyrean Citadel (Adrasteia se ofrece a teletransportarte). (opciones de chat: 1 Sí, por favor.)"
+      }
+    },
+    {
+      "index": 100,
+      "indent": 1,
+      "text": {
+        "en": "Alternatively use the invitation box. (opciones de chat: 1 Yes • 1 Yes)",
+        "es": "Alternativamente, usa la invitation box. (opciones de chat: 1 Sí • 1 Sí)"
+      }
+    },
+    {
+      "index": 101,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the gods.",
+        "es": "Habla con los dioses."
+      }
+    },
+    {
+      "index": 102,
+      "indent": 0,
+      "text": {
+        "en": "Interact with the fake quest completion certificate and talk to the voices in your head.",
+        "es": "Interactúa con el certificado falso de finalización de misión y habla con las voces en tu cabeza."
+      }
+    },
+    {
+      "index": 103,
+      "indent": 0,
+      "text": {
+        "en": "Quest Complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

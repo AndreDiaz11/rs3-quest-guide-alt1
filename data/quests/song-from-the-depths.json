@@ -1,0 +1,396 @@
+{
+  "id": "song-from-the-depths",
+  "title": "Song from the Depths",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:16:25.782Z",
+  "icon": "https://runescape.wiki/images/Song_from_the_Depths_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "pathfinder",
+  "members": false,
+  "combatLevel": "1",
+  "difficulty": "Novice",
+  "length": "Short to Medium",
+  "releaseDate": "22 May 2012",
+  "startPoint": {
+    "en": "Talk to Lucille in Rimmington.",
+    "es": "Habla con Lucille en Rimmington."
+  },
+  "requirements": {
+    "quests": [
+      "Song from the Depths"
+    ],
+    "skills": [
+      {
+        "skill": "Constitution",
+        "level": 80
+      }
+    ]
+  },
+  "items": [],
+  "kills": [
+    "The players will need to defend against low-level enemies."
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Constitution",
+      "amount": 700,
+      "display": "700 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Coral crossbow",
+      "display": "Coral crossbow",
+      "image": "https://runescape.wiki/images/thumb/Coral_crossbow_detail.png/100px-Coral_crossbow_detail.png?06a4d"
+    },
+    {
+      "type": "item",
+      "name": "Coral bolts",
+      "display": "50 Coral bolts",
+      "image": "https://runescape.wiki/images/thumb/Coral_bolts_5_detail.png/100px-Coral_bolts_5_detail.png?9ce08"
+    },
+    {
+      "type": "item",
+      "name": "Remora's necklace",
+      "display": "Remora's necklace (Providing unlimited teleportation to the Queen Black Dragon and Mature grotworms)",
+      "image": "https://runescape.wiki/images/thumb/Remora%27s_necklace_detail.png/100px-Remora%27s_necklace_detail.png?6ded2"
+    },
+    {
+      "type": "item",
+      "name": "Queen Black Dragon",
+      "display": "Reduced incoming damage when fighting the Queen Black Dragon (with 60 Summoning)",
+      "image": "https://runescape.wiki/images/thumb/Queen_Black_Dragon.png/100px-Queen_Black_Dragon.png?b3445"
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "xp",
+      "skill": "Ancient writings (music maze cave)",
+      "amount": null,
+      "display": "Two ancient writings in music maze cave for the player to read to gain Constitution experience: 5000 experience, which requires 50 Constitution 25000 experience, which requires 80 Constitution"
+    },
+    {
+      "type": "item",
+      "name": "Awoken",
+      "display": "Awoken (Only if you had not previously entered Queen Black Dragon's lair)"
+    },
+    {
+      "type": "item",
+      "name": "Belly of the Beast",
+      "display": "Belly of the Beast"
+    },
+    {
+      "type": "item",
+      "name": "Something is Wrong",
+      "display": "Something is Wrong"
+    },
+    {
+      "type": "item",
+      "name": "Song from the Depths (music track)",
+      "display": "Song from the Depths"
+    },
+    {
+      "type": "item",
+      "name": "Wending Through the Willows",
+      "display": "Wending Through the Willows"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lucille who is in a house west of the Rimmington well. (opciones de chat: 1 Is everything okay? • 1 Can I help? • Accept)",
+        "es": "Habla con Lucille, que está en una casa al oeste del pozo de Rimmington. (opciones de chat: 1 ¿Va todo bien? • 1 ¿Puedo ayudar? • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Stay within Lucille's house and drink the restless sleep potion.",
+        "es": "Quédate dentro de la casa de Lucille y bebe la poción de sueño inquieto."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Follow the souls north-east to a cave entrance located south of the Rimmington mine and north-west of the Port Sarim lodestone and enter it.",
+        "es": "Sigue a las almas hacia el noreste hasta una entrada de cueva situada al sur de la mina de Rimmington y al noroeste de la piedra de viaje de Port Sarim, y entra en ella."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "If you go past the cave, exit to the lobby, or logout in the cave, you will have to go back to Lucille and obtain the potion once again.",
+        "es": "Si pasas de largo la cueva, sales al vestíbulo, o cierras sesión dentro de la cueva, tendrás que volver con Lucille y conseguir la poción de nuevo."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Go north over the bridge.",
+        "es": "Ve al norte, cruzando el puente."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Continue through the cave to the east.",
+        "es": "Continúa a través de la cueva hacia el este."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Raptor. (opciones de chat: 1 I'm here to save Waylan.)",
+        "es": "Habla con el Raptor. (opciones de chat: 1 Estoy aquí para salvar a Waylan.)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Enter the door to follow the Raptor.",
+        "es": "Entra por la puerta para seguir al Raptor."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Enter the north door.",
+        "es": "Entra por la puerta norte."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Enter the west door.",
+        "es": "Entra por la puerta oeste."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Enter the south door.",
+        "es": "Entra por la puerta sur."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Enter the east door.",
+        "es": "Entra por la puerta este."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Follow the souls and enter the final door to the north.",
+        "es": "Sigue a las almas y entra por la puerta final al norte."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, go to the north-east corner of the room to discover the first symbol. It is two steps south of the wall feature against the north wall and two steps east of the fissure.",
+        "es": "Después de la escena, ve a la esquina noreste de la sala para descubrir el primer símbolo. Está dos pasos al sur del elemento de pared contra el muro norte y dos pasos al este de la grieta."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Head to the north-west corner where the second symbol will be located a bit south-west of the wavy section of the ground.",
+        "es": "Dirígete a la esquina noroeste, donde el segundo símbolo estará un poco al suroeste de la sección ondulada del suelo."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Enter the sparkling doorway that just appears. The location will be different for each player.",
+        "es": "Entra por la puerta reluciente que acaba de aparecer. La ubicación será diferente para cada jugador."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Go just west of the central fissure to find the first symbol.",
+        "es": "Ve justo al oeste de la grieta central para encontrar el primer símbolo."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Go west of the northern fissure to find the second symbol.",
+        "es": "Ve al oeste de la grieta norte para encontrar el segundo símbolo."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "The last symbol is just north-west of the eastern fissure.",
+        "es": "El último símbolo está justo al noroeste de la grieta este."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Enter the sparkling doorway that just appears. The location will be different for each player.",
+        "es": "Entra por la puerta reluciente que acaba de aparecer. La ubicación será diferente para cada jugador."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Follow the souls and enter the door to the north.",
+        "es": "Sigue a las almas y entra por la puerta al norte."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Take the burning sapling from the centre of the room and plant it in the pot overflowing with water to the southwest.",
+        "es": "Coge el brote ardiente del centro de la sala y plántalo en la maceta que rebosa agua, al suroeste."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Enter the doorway with a waterfall to the northeast.",
+        "es": "Entra por la puerta con una cascada al noreste."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Take the dead sapling from the previous pot and plant it in the pot with living fungi to the northwest.",
+        "es": "Coge el brote marchito de la maceta anterior y plántalo en la maceta con hongos vivos al noroeste."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Enter the doorway surrounded by fungus to the southwest.",
+        "es": "Entra por la puerta rodeada de hongos al suroeste."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Take the budding sapling from the previous pot and plant it in the pot with ivy growing around it to the southeast.",
+        "es": "Coge el brote germinando de la maceta anterior y plántalo en la maceta rodeada de hiedra al sureste."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Enter the doorway surrounded by ivy to the west.",
+        "es": "Entra por la puerta rodeada de hiedra al oeste."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Take the healthy sapling from the previous pot and plant it in the pot covered in cobwebs to the northeast.",
+        "es": "Coge el brote sano de la maceta anterior y plántalo en la maceta cubierta de telarañas al noreste."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Enter the doorway covered in cobwebs to the east.",
+        "es": "Entra por la puerta cubierta de telarañas al este."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Proceed north and enter the doorway.",
+        "es": "Continúa hacia el norte y entra por la puerta."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, jump into the chasm.",
+        "es": "Después de la escena, salta al abismo."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Proceed through the three passageways and enter the openings whilst evading the acid, players with high life points or some food can simply run through the acid taking the shortest route to save time. Running straight through the acid deals some (2-150) damage. Use Surge and Dive when available.",
+        "es": "Continúa a través de los tres pasadizos y entra por las aberturas mientras esquivas el ácido; los jugadores con muchos puntos de vida o algo de comida pueden simplemente correr a través del ácido tomando la ruta más corta para ahorrar tiempo. Correr directamente a través del ácido causa algo de daño (2-150). Usa Surge y Dive cuando estén disponibles."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "After an interactive cutscene, finish the dialogue with the siren, Remora. (opciones de chat: 1 We're not on an island. • 1 What you're talking about isn't real. • 2 Don't you know how you got here? • 2 You have been stealing the souls of villagers. • 1 Alright. • 1 Wait, don't kill her! • 1 We need her to escape.)",
+        "es": "Después de una escena interactiva, termina el diálogo con la sirena Remora. (opciones de chat: 1 No estamos en una isla. • 1 Lo que dices no es real. • 2 ¿No sabes cómo llegaste aquí? • 2 Has estado robando las almas de los aldeanos. • 1 De acuerdo. • 1 ¡Espera, no la mates! • 1 La necesitamos para escapar.)"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Raptor. You will receive 3 items. (opciones de chat: 2 What now? • 2 We should talk to Lucille.)",
+        "es": "Habla con el Raptor. Recibirás 3 objetos. (opciones de chat: 2 ¿Y ahora qué? • 2 Deberíamos hablar con Lucille.)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Head south-west to Rimmington and talk to Lucille.",
+        "es": "Dirígete al suroeste, hacia Rimmington, y habla con Lucille."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

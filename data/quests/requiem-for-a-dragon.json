@@ -1,0 +1,559 @@
+{
+  "id": "requiem-for-a-dragon",
+  "title": "Requiem for a Dragon",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:08:41.462Z",
+  "icon": "https://runescape.wiki/images/thumb/Requiem_for_a_Dragon_icon.png/50px-Requiem_for_a_Dragon_icon.png",
+  "series": "Fort Forinthry",
+  "age": "Age of Chaos",
+  "timeline": "Age of Chaos",
+  "members": true,
+  "combatLevel": "80-89",
+  "difficulty": "Master",
+  "length": "Medium",
+  "releaseDate": "22 April 2024",
+  "startPoint": {
+    "en": "Speak to Aster in the Fort Forinthry townhall.",
+    "es": "Habla con Aster en el ayuntamiento de Fort Forinthry."
+  },
+  "requirements": {
+    "quests": [
+      "Battle of Forinthry",
+      "Ancient Awakening",
+      "Dead and Buried",
+      "Unwelcome Guests",
+      "Murder on the Border",
+      "Grove cabin (Tier 1)",
+      "Botanist's Workbench (Tier 1)",
+      "Tomes of the Warlock",
+      "The Spirit of War",
+      "Vessel of the Harbinger",
+      "Rune Mythos",
+      "Necromancy!",
+      "Ghosts Ahoy",
+      "The Restless Ghost",
+      "Morytania",
+      "vessel souls",
+      "The Jack of Spades",
+      "Diamond in the Rough",
+      "Stolen Hearts",
+      "Kili Row",
+      "Necromancy!",
+      "necromancer robes",
+      "Sostratus"
+    ],
+    "skills": [
+      {
+        "skill": "Smithing",
+        "level": 80
+      },
+      {
+        "skill": "Necromancy",
+        "level": 80
+      },
+      {
+        "skill": "Necromancy",
+        "level": 80
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "White marble",
+      "display": "30 white marble (material storage works)",
+      "image": "https://runescape.wiki/images/thumb/White_marble_detail.png/100px-White_marble_detail.png?38801"
+    },
+    {
+      "name": "White oak",
+      "display": "30 white oak (material storage works)",
+      "image": "https://runescape.wiki/images/thumb/White_oak_detail.png/100px-White_oak_detail.png?35aa5"
+    },
+    {
+      "name": "Greater ensouled bar",
+      "display": "5 greater ensouled bars",
+      "image": "https://runescape.wiki/images/thumb/Greater_ensouled_bar_detail.png/100px-Greater_ensouled_bar_detail.png?ba22f"
+    },
+    {
+      "name": "Rituals",
+      "display": "Ink and candles for two level 75 Necromancy rituals (assuming no glyphs or light sources are present at the Um ritual site): 4 basic ghostly ink 10 regular ghostly ink 16 greater ghostly ink 12 basic ritual candle or better",
+      "image": "https://runescape.wiki/images/thumb/Rituals.png/100px-Rituals.png?72ca9"
+    },
+    {
+      "name": "Basic ghostly ink",
+      "display": "4 basic ghostly ink",
+      "image": "https://runescape.wiki/images/thumb/Basic_ghostly_ink_detail.png/100px-Basic_ghostly_ink_detail.png?f9b30"
+    },
+    {
+      "name": "Regular ghostly ink",
+      "display": "10 regular ghostly ink",
+      "image": "https://runescape.wiki/images/thumb/Regular_ghostly_ink_detail.png/100px-Regular_ghostly_ink_detail.png?73768"
+    },
+    {
+      "name": "Greater ghostly ink",
+      "display": "16 greater ghostly ink",
+      "image": "https://runescape.wiki/images/thumb/Greater_ghostly_ink_detail.png/100px-Greater_ghostly_ink_detail.png?ba22f"
+    },
+    {
+      "name": "Basic ritual candle",
+      "display": "12 basic ritual candle or better",
+      "image": "https://runescape.wiki/images/thumb/Basic_ritual_candle_%28placed%29.png/100px-Basic_ritual_candle_%28placed%29.png?2fc9a"
+    }
+  ],
+  "kills": [
+    "Vorkath (level 789, optional)",
+    "8 Zamorakian scouts (level 85, optional)",
+    "Translator (level 75)",
+    "Vengeance (level 300)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Necromancy XP lamp (Requiem for a Dragon)",
+      "amount": null,
+      "display": "Necromancy XP lamp (100,000 experience – requires level 75)",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Archaeology XP lamp (Requiem for a Dragon)",
+      "amount": null,
+      "display": "Archaeology XP lamp (100,000 experience – requires level 86)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Zorgoth's ring",
+      "display": "Zorgoth's ring",
+      "image": "https://runescape.wiki/images/thumb/Zorgoth%27s_ring_detail.png/100px-Zorgoth%27s_ring_detail.png?802e2"
+    },
+    {
+      "type": "item",
+      "name": "Soulfarer",
+      "display": "Soulfarer title",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ungael ritual site",
+      "display": "Access to the Ungael ritual site",
+      "image": "https://runescape.wiki/images/thumb/Ungael_ritual_site.png/100px-Ungael_ritual_site.png?1ae80"
+    },
+    {
+      "type": "item",
+      "name": "Ungael Teleport",
+      "display": "Ungael Teleport incantation (requires completion of Rune Mythos)",
+      "image": "https://runescape.wiki/images/thumb/Ungael_Teleport.gif/100px-Ungael_Teleport.gif?5cc30"
+    },
+    {
+      "type": "item",
+      "name": "Underworld Grimoire 2",
+      "display": "Ability to teleport to the Ungael ritual site using the Underworld Grimoire 2",
+      "image": "https://runescape.wiki/images/thumb/Underworld_Grimoire_2_detail.png/100px-Underworld_Grimoire_2_detail.png?f43af"
+    },
+    {
+      "type": "item",
+      "name": "Vorkath's Fall",
+      "display": "Vorkath's Fall",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Vorkath's Reprise",
+      "display": "Vorkath's Reprise",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Aster in the Fort Forinthry Town Hall. (opciones de chat: 1 Talk about quests... • 1 Talk about 'Requiem for a Dragon'. • Accept)",
+        "es": "Habla con Aster en el ayuntamiento de Fort Forinthry. (opciones de chat: 1 Hablar sobre misiones... • 1 Hablar sobre 'Requiem for a Dragon'. • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Head east to the rowboat docked next to the Grove cabin.",
+        "es": "Dirígete al este, hacia el bote de remos atracado junto a la cabaña de Grove."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Interact with the rowboat to travel to Ungael. (opciones de chat: 1 Yes.)",
+        "es": "Interactúa con el bote de remos para viajar a Ungael. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "You will spawn next to hostile Zamorakian scouts; praying against Ranged can be helpful. This is a safe encounter, and you will respawn outside of the rowboat upon death.",
+        "es": "Aparecerás junto a exploradores hostiles zamorakianos; rezar contra Distancia puede ser útil. Este es un encuentro seguro, y reaparecerás junto al bote de remos si mueres."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Run north-west past the scouts and enter the colossal cave.",
+        "es": "Corre hacia el noroeste pasando a los exploradores y entra en la cueva colosal."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Head north-west and approach Vorkath. (opciones de chat: 2 Reach out your hand. (friendly) • 2 Keep your hand extended. (friendly) • 2 Encourage Vorkath. (friendly) • 2 Try not to shiver. (friendly) • 1 Study the creature. (neutral) • 2 Lay the dragon's soul to rest. (Necromancy))",
+        "es": "Dirígete al noroeste y acércate a Vorkath. (opciones de chat: 2 Extiende tu mano. (amistoso) • 2 Mantén la mano extendida. (amistoso) • 2 Anima a Vorkath. (amistoso) • 2 Intenta no temblar. (amistoso) • 1 Estudia a la criatura. (neutral) • 2 Da descanso al alma del dragón. (Nigromancia))"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the crystal shard in the backpack.",
+        "es": "Inspecciona el fragmento de cristal en la mochila."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Ungael beach, this time travelling north-east up the hill and interact with the Ruins Entrance to enter.",
+        "es": "Regresa a la playa de Ungael, esta vez viajando hacia el noreste, subiendo la colina, e interactúa con la Entrada de las Ruinas para entrar."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Head north, just in front of the Imposing Statue, and interact with the doorway to the south.",
+        "es": "Dirígete al norte, justo delante de la Imponente Estatua, e interactúa con la puerta hacia el sur."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Follow the path south-west and kill the translator.",
+        "es": "Sigue el camino hacia el suroeste y mata al traductor."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Pick up the dropped Zamorakian translator's notes and read them.",
+        "es": "Recoge las notas del traductor zamorakiano que ha soltado y léelas."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Search the bookcase on the northern wall for Zorgoth's Journal.",
+        "es": "Busca en la estantería del muro norte el Diario de Zorgoth."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Search the shelves immediately southeast for a broken focus.",
+        "es": "Busca en los estantes inmediatamente al sureste un foco roto."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the dragonkin mural on the western wall.",
+        "es": "Inspecciona el mural dragonkin en el muro occidental."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Pick up the congealed potion in the south-eastern corner.",
+        "es": "Recoge la poción coagulada en la esquina sureste."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Listen to the Archivist about all findings. (opciones de chat: 1 The wall mural. • 2 The congealed potion. • 3 The broken focus. • 4 The crystal shard.)",
+        "es": "Escucha al Archivista hablar sobre todos los hallazgos. (opciones de chat: 1 El mural del muro. • 2 La poción coagulada. • 3 El foco roto. • 4 El fragmento de cristal.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Return to Fort Forinthry and enter the floor hatch east of the Command Centre (south-east).",
+        "es": "Regresa a Fort Forinthry y entra por la trampilla del suelo al este del Centro de Mando (sureste)."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zemouregal.",
+        "es": "Habla con Zemouregal."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "If your Necromancy level is 120, you can skip most of the conversation (opciones de chat: 1 Show off your mastery of necromancy. • 3 What did you do to Vorkath? • 4 I've heard enough.)",
+        "es": "Si tu nivel de Nigromancia es 120, puedes saltarte la mayor parte de la conversación (opciones de chat: 1 Presume de tu maestría en nigromancia. • 3 ¿Qué le hiciste a Vorkath? • 4 Ya he oído suficiente.)"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "Otherwise, you must follow further dialogue options (opciones de chat: 3 Mock his skeletal form. • 1 Remind him of the other times you've defeated him. • 1 I have a soul and you don't. • 3 What did you do to Vorkath? • 4 I've heard enough.)",
+        "es": "De lo contrario, debes seguir más opciones de diálogo (opciones de chat: 3 Búrlate de su forma esquelética. • 1 Recuérdale las otras veces que lo has derrotado. • 1 Yo tengo alma y tú no. • 3 ¿Qué le hiciste a Vorkath? • 4 Ya he oído suficiente.)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Head to the City of Um and talk to Death. (opciones de chat: 1 Yes. • 3 Just tell me what the lead is.)",
+        "es": "Dirígete a la City of Um y habla con Death. (opciones de chat: 1 Sí. • 3 Solo dime cuál es la pista.)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Tree of Balance, south of the Archaeology Guild. (opciones de chat: 1 Continue Requiem for a Dragon. • 3 Let's get straight to the point.)",
+        "es": "Habla con el Tree of Balance, al sur del Archaeology Guild. (opciones de chat: 1 Continuar Requiem for a Dragon. • 3 Vayamos directos al grano.)"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Head to Memorial to Guthix (do not enter the Hall of Memories)",
+        "es": "Dirígete al Memorial to Guthix (no entres en el Hall of Memories)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "You can teleport directly there using memory strand or Sixth-Age circuit, otherwise teleport to Eagles' Peak lodestone and run north-west",
+        "es": "Puedes teletransportarte directamente allí usando un memory strand o un Sixth-Age circuit; de lo contrario, teletranspórtate a la piedra de viaje de Eagles' Peak y corre hacia el noroeste"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "South-east outside the memorial, uncover both fertile soil spots",
+        "es": "Al sureste, fuera del memorial, descubre ambas zonas de tierra fértil"
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Excavate both halves of the soul beacon from the uncovered standing stone debris and runic debris. There is a material storage container just north of the spots.",
+        "es": "Excava ambas mitades del faro de almas de los escombros de la piedra en pie y los escombros rúnicos descubiertos. Hay un contenedor de almacenamiento de materiales justo al norte de las zonas."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "Damaged soul beacon (base)",
+        "es": "Faro de almas dañado (base)"
+      }
+    },
+    {
+      "index": 27,
+      "indent": 1,
+      "text": {
+        "en": "Damaged soul beacon (core)",
+        "es": "Faro de almas dañado (núcleo)"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Tree of Balance with the two damaged parts. (opciones de chat: 1 Continue Requiem for a Dragon.)",
+        "es": "Regresa al Tree of Balance con las dos partes dañadas. (opciones de chat: 1 Continuar Requiem for a Dragon.)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Head to any archaeologist's workbench to restore the damaged soul beacon.",
+        "es": "Dirígete a cualquier mesa de trabajo de arqueólogo para restaurar el faro de almas dañado."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Tree of Balance with the restored soul beacon. Chat options can vary, but the correct order is: Change, Elemental, Commune, Change. (opciones de chat: 1 Continue Requiem for a Dragon. • 1 Deduce the glyph order. • 4 Change • 1 Elemental • 2 Commune • 4 Change)",
+        "es": "Regresa al Tree of Balance con el faro de almas restaurado. Las opciones de chat pueden variar, pero el orden correcto es: Cambiar, Elemental, Comulgar, Cambiar. (opciones de chat: 1 Continuar Requiem for a Dragon. • 1 Deducir el orden de los glifos. • 4 Cambiar • 1 Elemental • 2 Comulgar • 4 Cambiar)"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Return to the City of Um and talk to Death. (opciones de chat: 1 Yes.)",
+        "es": "Regresa a la City of Um y habla con Death. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Complete a soulfarer ritual at the Um ritual site.",
+        "es": "Completa un ritual de soulfarer en el sitio ritual de Um."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Travel to Fort Forinthry and take the boat back to Ungael. (opciones de chat: 1 Yes.)",
+        "es": "Viaja a Fort Forinthry y toma el bote de vuelta a Ungael. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Return to the colossal cave in Ungael and head north.",
+        "es": "Regresa a la cueva colosal en Ungael y dirígete al norte."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Repair the 13 spots of the ruined ritual site, just east of Vorkath.",
+        "es": "Repara los 13 puntos del sitio ritual en ruinas, justo al este de Vorkath."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Set up the soulfarer ritual.",
+        "es": "Prepara el ritual de soulfarer."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Perform the ritual. A cutscene will begin. (opciones de chat: 1 Yes.)",
+        "es": "Realiza el ritual. Comenzará una escena cinemática. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Note that this is a safe encounter, and you will respawn outside of the rowboat upon death.",
+        "es": "Ten en cuenta que este es un encuentro seguro, y reaparecerás junto al bote de remos si mueres."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Perform the ritual again, pausing to:",
+        "es": "Realiza el ritual de nuevo, deteniéndote para:"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 1,
+      "text": {
+        "en": "Kill Vengeance whenever she appears. Vengeance can drastically drain your stats so super restores can be useful. Deathtouched darts can be used. If you use speed III on spare ritual space, and speed II or higher in necromancy cape, and never miss a shadow rift, you will only have to kill Vengeance once.",
+        "es": "Mata a Vengeance cada vez que aparezca. Vengeance puede reducir drásticamente tus estadísticas, así que las super restores pueden ser útiles. Se pueden usar deathtouched darts. Si usas speed III en el espacio ritual libre, y speed II o superior en la capa de nigromancia, y nunca fallas una shadow rift, solo tendrás que matar a Vengeance una vez."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "text": {
+        "en": "Close any Shadow Rifts as soon as they appear. Continuing the ritual while a Shadow Rift is open will reverse the ritual's progress meter.",
+        "es": "Cierra cualquier Shadow Rift en cuanto aparezca. Continuar el ritual mientras una Shadow Rift esté abierta hará retroceder el medidor de progreso del ritual."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Watch the cutscene.",
+        "es": "Observa la escena cinemática."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Head west and inspect Vorkath.",
+        "es": "Dirígete al oeste e inspecciona a Vorkath."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Death in City of Um. (opciones de chat: 1 Yes.)",
+        "es": "Habla con Death en la City of Um. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Head south-east, south of Selene and directly north of the large cave opening in the southern part of the city and approach Vorkath.",
+        "es": "Dirígete al sureste, al sur de Selene y justo al norte de la gran abertura de la cueva en la parte sur de la ciudad, y acércate a Vorkath."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Return to Fort Forinthry and enter the floor hatch east of the Command Centre.",
+        "es": "Regresa a Fort Forinthry y entra por la trampilla del suelo al este del Centro de Mando."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zemouregal to complete the quest.",
+        "es": "Habla con Zemouregal para completar la misión."
+      }
+    }
+  ]
+}

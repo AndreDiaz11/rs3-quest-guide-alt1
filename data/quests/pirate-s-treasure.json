@@ -1,0 +1,244 @@
+{
+  "id": "pirate-s-treasure",
+  "title": "Pirate's Treasure",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:03:20.464Z",
+  "icon": "https://runescape.wiki/images/Pirate%27s_Treasure_icon.png",
+  "series": "Pirate",
+  "age": "5",
+  "timeline": "pathfinder",
+  "members": false,
+  "combatLevel": "4-5",
+  "difficulty": "Novice",
+  "length": "Short",
+  "releaseDate": "11 June 2001",
+  "startPoint": {
+    "en": "Speak to Redbeard Frank just south of The Rusty Anchor pub in Port Sarim.",
+    "es": "Habla con Redbeard Frank, justo al sur del pub The Rusty Anchor en Port Sarim."
+  },
+  "requirements": {
+    "quests": [
+      "Pirate's Treasure"
+    ],
+    "skills": []
+  },
+  "items": [
+    {
+      "name": "White apron",
+      "display": "White apron (an apron spawns on the wall of Gerrant's shop, in Port Sarim)",
+      "image": "https://runescape.wiki/images/thumb/White_apron_detail.png/100px-White_apron_detail.png?76597"
+    },
+    {
+      "name": "Coins",
+      "display": "60 coins, or a ring of charos (a) and 30 coins",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "name": "Banana",
+      "display": "10 bananas (can be obtained during quest)",
+      "image": "https://runescape.wiki/images/thumb/Banana_detail.png/100px-Banana_detail.png?4ddca"
+    }
+  ],
+  "kills": [
+    "Gardener (Level 4; optional)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Casket (Pirate's Treasure)",
+      "display": "A casket containing 450 coins, an emerald and a gold ring",
+      "image": "https://runescape.wiki/images/thumb/Casket_%28Pirate%27s_Treasure%29_detail.png/100px-Casket_%28Pirate%27s_Treasure%29_detail.png?2cfe5"
+    },
+    {
+      "type": "item",
+      "name": "Banana plantation",
+      "display": "Ability to work as a menial labourer on a banana plantation (30 coins for each export crate the player fills with 10 bananas)",
+      "image": "https://runescape.wiki/images/thumb/Musa_Point_banana_plantation.png/100px-Musa_Point_banana_plantation.png?bcb19"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Redbeard Frank just outside Port Sarim's pub. (opciones de chat: 1 I'm in search of treasure. • Accept)",
+        "es": "Habla con Redbeard Frank, justo a las afueras del pub de Port Sarim. (opciones de chat: 1 Estoy en busca de un tesoro. • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Walk south along the docks, pay 30 coins to Captain Tobias to go to Karamja. (opciones de chat: 1 Yes please.)",
+        "es": "Camina hacia el sur a lo largo de los muelles, paga 30 monedas al Captain Tobias para ir a Karamja. (opciones de chat: 1 Sí, por favor.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Head inside the pub.",
+        "es": "Entra en el pub."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Buy one Karamjan rum from Zembo.",
+        "es": "Compra un Karamjan rum a Zembo."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Do not leave the island yet or more rum will have to be obtained.",
+        "es": "No abandones aún la isla, o tendrás que conseguir más ron."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Pick 10 bananas from the Banana Trees to the north-west.",
+        "es": "Recoge 10 plátanos de los Banana Trees al noroeste."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Go east to the house by the docks.",
+        "es": "Ve hacia el este, a la casa junto a los muelles."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Luthas about the officer. (opciones de chat: 2 That customs officer is annoying isn't she?), then talk to him a second time to ask for a job. (opciones de chat: 1 Could you offer me employment on your plantation?)",
+        "es": "Habla con Luthas sobre la oficial. (opciones de chat: 2 Esa oficial de aduanas es molesta, ¿verdad?), luego háblale una segunda vez para pedirle trabajo. (opciones de chat: 1 ¿Podrías darme trabajo en tu plantación?)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "On the east side of Luthas' house will be a wooden crate.",
+        "es": "En el lado este de la casa de Luthas habrá una caja de madera."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Use the Karamjan rum on the crate, then right-click Fill the crate.",
+        "es": "Usa el Karamjan rum en la caja y luego haz clic derecho en Llenar la caja."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Luthas.",
+        "es": "Habla con Luthas."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Head to Wydin's Food Store in Port Sarim.",
+        "es": "Dirígete a Wydin's Food Store en Port Sarim."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Equip your white apron and attempt to open the door to the back room. (opciones de chat: 1 Well, can I get a job here?)",
+        "es": "Equípate el white apron e intenta abrir la puerta de la trastienda. (opciones de chat: 1 Bueno, ¿puedo conseguir trabajo aquí?)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "A free white apron can be obtained from the back wall in the fishing store.",
+        "es": "Se puede conseguir un white apron gratis en la pared del fondo de la tienda de pesca."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Search the crate with the banana on it.",
+        "es": "Registra la caja que tiene un plátano encima."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "With the rum, return to Redbeard Frank for a chest key. (opciones de chat: 1 Ok thanks, I'll go and get it.)",
+        "es": "Con el ron, vuelve con Redbeard Frank para conseguir una llave de cofre. (opciones de chat: 1 Ok, gracias, iré a por ella.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Go upstairs in the Blue Moon Inn in south Varrock.",
+        "es": "Sube las escaleras en el Blue Moon Inn, al sur de Varrock."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Open the chest in the south-west room for a pirate message. Read it.",
+        "es": "Abre el cofre en la habitación del suroeste para conseguir un mensaje de pirata. Léelo."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Go to Falador Park and stand on the east end of the pond, directly west of the statue of Saradomin, indicated by X on the ground.",
+        "es": "Ve a Falador Park y colócate en el extremo este del estanque, justo al oeste de la estatua de Saradomin, indicado con una X en el suelo."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Right-click Dig using the pirate message. Kill the gardener. Alternatively, leave the site for a while and the gardener will be gone.",
+        "es": "Haz clic derecho en Cavar usando el mensaje de pirata. Mata al jardinero. Alternativamente, deja el lugar un rato y el jardinero se irá."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Right-click Dig using the message again.",
+        "es": "Haz clic derecho en Cavar usando el mensaje de nuevo."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

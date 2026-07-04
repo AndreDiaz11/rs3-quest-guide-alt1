@@ -1,0 +1,172 @@
+{
+  "id": "fur-n-seek",
+  "title": "Fur 'n Seek",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:22:00.373Z",
+  "icon": "https://runescape.wiki/images/Fur_%27n_Seek_icon.png",
+  "series": "Odd Old Man",
+  "age": "ambiguous",
+  "timeline": "adventurer",
+  "members": true,
+  "combatLevel": "70-79",
+  "difficulty": "Novice",
+  "length": "Medium",
+  "releaseDate": "10 August 2009",
+  "startPoint": {
+    "en": "Talk to the Odd Old Man at the quarry west of Paterdomus.",
+    "es": "Habla con el Odd Old Man en la cantera al oeste de Paterdomus."
+  },
+  "requirements": {
+    "quests": [
+      "Rag and Bone Man"
+    ],
+    "skills": [
+      {
+        "skill": "Slayer",
+        "level": 25
+      },
+      {
+        "skill": "combat level",
+        "level": 50
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Bag of salt",
+      "display": "9 bags of salt (pile of salt can also be used)",
+      "image": "https://runescape.wiki/images/thumb/Bag_of_salt_detail.png/100px-Bag_of_salt_detail.png?3eec8"
+    },
+    {
+      "name": "Logs",
+      "display": "8 logs",
+      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+    },
+    {
+      "name": "Mirror shield",
+      "display": "Mirror shield (Mask of Stone, Helm of Petrification or sunglasses will work too)",
+      "image": "https://runescape.wiki/images/thumb/Mirror_shield_detail.png/100px-Mirror_shield_detail.png?2c53c"
+    }
+  ],
+  "kills": [
+    "Rock Crab (level 47)",
+    "Fenris wolf (level 46)",
+    "Fox (level 44)",
+    "Hobgoblin (levels 15)",
+    "Cockatrice (level 31)",
+    "Cave crawler (level 24)",
+    "Adult grizzly bear (levels 32)",
+    "Adult black unicorn (level 33)",
+    "Adult unicorn (level 15)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Constitution",
+      "amount": 2500,
+      "display": "2,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Slayer",
+      "amount": 2500,
+      "display": "2,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Prayer",
+      "amount": 1500,
+      "display": "1,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 500,
+      "display": "500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Firemaking",
+      "amount": 500,
+      "display": "500 experience",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Odd Old Man in Silvarea. (opciones de chat: Accept)",
+        "es": "Habla con el Odd Old Man en Silvarea. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Make your way to Fremennik Province.",
+        "es": "Dirígete a Fremennik Province."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Obtain the animal fur. Use the table below as a reference.",
+        "es": "Consigue el pelaje de animal. Usa la tabla de abajo como referencia."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Use a bag of salt on each of the hides.",
+        "es": "Usa una bolsa de sal en cada una de las pieles."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Odd Old Man's house with 8 of any type of logs and the scrubbed hides in inventory.",
+        "es": "Vuelve a la casa del Odd Old Man con 8 troncos de cualquier tipo y las pieles limpias en el inventario."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Head to the north-east, add logs to the fire pit and stretch skins on the ribcage. Do not walk away after clicking - it will process all furs automatically.",
+        "es": "Dirígete al noreste, añade troncos a la hoguera y estira las pieles sobre la caja torácica. No te alejes después de hacer clic; procesará todos los pelajes automáticamente."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Odd Old Man.",
+        "es": "Habla con el Odd Old Man."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

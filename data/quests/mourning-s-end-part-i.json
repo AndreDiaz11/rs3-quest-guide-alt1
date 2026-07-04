@@ -1,0 +1,782 @@
+{
+  "id": "mourning-s-end-part-i",
+  "title": "Mourning's End Part I",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:40:50.541Z",
+  "icon": "https://runescape.wiki/images/Mourning%27s_End_Part_I_icon.png",
+  "series": "Elf (Prifddinas)",
+  "age": "ambiguous",
+  "timeline": "legendary",
+  "members": true,
+  "combatLevel": "80-89",
+  "difficulty": "Master",
+  "length": "Long to Very Long",
+  "releaseDate": "19 July 2005",
+  "startPoint": {
+    "en": "Speak to Eluned in Isafdar in Tirannwn - either east of the current Tyras Camp or east of the remains of the former one. (via )",
+    "es": "Habla con Eluned en Isafdar, en Tirannwn, ya sea al este del campamento actual de Tyras o al este de los restos del antiguo. (via )"
+  },
+  "requirements": {
+    "quests": [
+      "Roving Elves",
+      "Regicide",
+      "Underground Pass",
+      "Biohazard",
+      "Plague City",
+      "Waterfall Quest",
+      "Sheep Herder",
+      "Big Chompy Bird Hunting"
+    ],
+    "skills": [
+      {
+        "skill": "Ranged",
+        "level": 60
+      },
+      {
+        "skill": "Thieving",
+        "level": 50
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 80
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Silk",
+      "display": "2 pieces of silk (bring 4 if you plan on doing Within the Light)",
+      "image": "https://runescape.wiki/images/thumb/Silk_detail.png/100px-Silk_detail.png?389d9"
+    },
+    {
+      "name": "Bucket of water",
+      "display": "1 bucket of water",
+      "image": "https://runescape.wiki/images/thumb/Bucket_of_water_detail.png/100px-Bucket_of_water_detail.png?150f3"
+    },
+    {
+      "name": "Feather",
+      "display": "1 feather",
+      "image": "https://runescape.wiki/images/thumb/Feather_detail.png/100px-Feather_detail.png?957d4"
+    },
+    {
+      "name": "Leather",
+      "display": "1 piece of leather (soft)",
+      "image": "https://runescape.wiki/images/thumb/Leather_detail.png/100px-Leather_detail.png?6e9da"
+    },
+    {
+      "name": "Toad crunchies",
+      "display": "1 Toad crunchies (premade ones will work too, bring extras in case of errors)",
+      "image": "https://runescape.wiki/images/thumb/Toad_crunchies_detail.png/100px-Toad_crunchies_detail.png?683a7"
+    },
+    {
+      "name": "Magic log",
+      "display": "A magic log (obtainable during the quest with 80 Woodcutting, boostable)",
+      "image": null
+    },
+    {
+      "name": "Barrel of naphtha",
+      "display": "A barrel of naphtha",
+      "image": "https://runescape.wiki/images/thumb/Barrel_of_naphtha_detail.png/100px-Barrel_of_naphtha_detail.png?0315e"
+    },
+    {
+      "name": "Bear fur",
+      "display": "A piece of bear fur (bring 2 if you plan on doing Within the Light) †",
+      "image": "https://runescape.wiki/images/thumb/Bear_fur_detail.png/100px-Bear_fur_detail.png?9ccd7"
+    },
+    {
+      "name": "Red dye",
+      "display": "Red, yellow, blue, and green dye † Or at least 30 coins to buy them from Oronwen during the quest (it is advised to get 3-4 of each)",
+      "image": "https://runescape.wiki/images/thumb/Red_dye_detail.png/100px-Red_dye_detail.png?346b7"
+    },
+    {
+      "name": "Coins",
+      "display": "Or at least 30 coins to buy them from Oronwen during the quest (it is advised to get 3-4 of each)",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "name": "Rotten apple",
+      "display": "A rotten apple †",
+      "image": "https://runescape.wiki/images/thumb/Rotten_apple_detail.png/100px-Rotten_apple_detail.png?5e9d6"
+    },
+    {
+      "name": "Barrel",
+      "display": "An empty barrel †",
+      "image": "https://runescape.wiki/images/thumb/Barrel_detail.png/100px-Barrel_detail.png?11423"
+    },
+    {
+      "name": "Ogre bellows",
+      "display": "Ogre bellows †",
+      "image": "https://runescape.wiki/images/thumb/Ogre_bellows_detail.png/100px-Ogre_bellows_detail.png?dc56c"
+    }
+  ],
+  "kills": [
+    "Mourner (level 79-86)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Constitution",
+      "amount": 25000,
+      "display": "25,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Thieving",
+      "amount": 25000,
+      "display": "25,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Mourner Headquarters",
+      "display": "Access to the Death Guard headquarters",
+      "image": "https://runescape.wiki/images/thumb/Mourner_Headquarters.png/100px-Mourner_Headquarters.png?432bb"
+    },
+    {
+      "type": "item",
+      "name": "Lletya",
+      "display": "Access to Lletya",
+      "image": "https://runescape.wiki/images/thumb/Lletya.png/100px-Lletya.png?6bd27"
+    },
+    {
+      "type": "item",
+      "name": "Crystal teleport seed",
+      "display": "Crystal teleport seed",
+      "image": "https://runescape.wiki/images/thumb/Crystal_teleport_seed_detail.png/100px-Crystal_teleport_seed_detail.png?d1a6a"
+    },
+    {
+      "type": "item",
+      "name": "Mourner gear",
+      "display": "Full mourner gear",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Fight or Flight",
+      "display": "Fight or Flight (in the Death Guard headquarters)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Far Away",
+      "display": "Far Away (in Lletya)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Overpass",
+      "display": "Overpass (in Arandar)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Eluned in Isafdar and agree to get teleported. (opciones de chat: 1 Talk about Mourning's End • Accept)",
+        "es": "Habla con Eluned en Isafdar y acepta que te teletransporte. (opciones de chat: 1 Talk about Mourning's End • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 1,
+      "text": {
+        "en": "You can chop a magic log here if you do not have one yet.",
+        "es": "Puedes talar un tronco mágico aquí si aún no tienes uno."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Arianwyn in Lletya. If you leave the town, the fastest way back is to use the crystal teleport seed you were given.",
+        "es": "Habla con Arianwyn en Lletya. Si sales de la ciudad, la forma más rápida de volver es usar la semilla de teletransporte de cristal que te dieron."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Make your way to Arandar. Some ways of getting there are;",
+        "es": "Dirígete a Arandar. Algunas formas de llegar son:"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 1,
+      "text": {
+        "en": "Teleporting to the World Gate using the Sixth-Age circuit or teleporting to rune dragons with five metallic dragon trinkets.",
+        "es": "Teletransportarte a la World Gate usando el circuito de la Sexta Era, o teletransportarte a los rune dragons con cinco baratijas de dragón metálico."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "Heading to the entrance on the Kandarin side.",
+        "es": "Dirigirte a la entrada por el lado de Kandarin."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "Exiting Lletya and heading north on the Tirannwn side.",
+        "es": "Salir de Lletya y caminar hacia el norte por el lado de Tirannwn."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "Using a Traveller's necklace to the Outpost and running west.",
+        "es": "Usar un Traveller's necklace hacia el Outpost y correr hacia el oeste."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 1,
+      "text": {
+        "en": "Using Home Teleport to Eagles' Peak lodestone and running south.",
+        "es": "Usar el teletransporte a casa hacia el lodestone de Eagles' Peak y correr hacia el sur."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Kill a mourner. Pick up all pieces of the mourner outfit including the gas mask and mourner letter.",
+        "es": "Mata a un mourner. Recoge todas las piezas del traje de mourner, incluyendo la máscara de gas y la carta del mourner."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 1,
+      "text": {
+        "en": "Kill another mourner to obtain extra set of mourner outfit for Within the Light.",
+        "es": "Mata a otro mourner para obtener un juego extra del traje de mourner para Within the Light."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "You may now want to unequip and bank any combat equipment as you will not need it to progress the quest any longer.",
+        "es": "Puede que ahora quieras desequipar y guardar en el banco cualquier equipo de combate, ya que no lo necesitarás más para avanzar en la misión."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Read the letter.",
+        "es": "Lee la carta."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Go to Taverley and talk to Tegid at the southern lake, south of Jatix.",
+        "es": "Ve a Taverley y habla con Tegid junto al lago del sur, al sur de Jatix."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Search the laundry basket near him to steal the soap. (opciones de chat: 1)",
+        "es": "Registra la cesta de la ropa cerca de él para robar el jabón. (opciones de chat: 1)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Use it on the bloody mourner top with a bucket of water in your backpack.",
+        "es": "Úsalo en la parte superior manchada de sangre del traje de mourner con un cubo de agua en tu mochila."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Return to Lletya with your crystal teleport seed.",
+        "es": "Vuelve a Lletya con tu semilla de teletransporte de cristal."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Oronwen in the clothing shop (opciones de chat: 3 Do you mend clothes?), talk again. (opciones de chat: 3 I have all I need to mend my trousers.)",
+        "es": "Habla con Oronwen en la tienda de ropa (opciones de chat: 3 Do you mend clothes?), habla de nuevo. (opciones de chat: 3 I have all I need to mend my trousers.)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "Be sure to bring your bear fur and silk. Kill a grizzly bear just west of Lletya if you need bear fur.",
+        "es": "Asegúrate de llevar tu piel de oso y seda. Mata a un grizzly bear justo al oeste de Lletya si necesitas piel de oso."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "text": {
+        "en": "This is an opportune time to trade with her and buy dyes while she is fixing the trousers. It is highly recommended you purchase at least 3 of each.",
+        "es": "Este es un buen momento para comerciar con ella y comprar tintes mientras arregla los pantalones. Se recomienda encarecidamente comprar al menos 3 de cada uno."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "After one minute has elapsed, talk to her again for the trousers.",
+        "es": "Después de que pase un minuto, habla con ella de nuevo para obtener los pantalones."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 1,
+      "text": {
+        "en": "If your backpack is full, they will be dropped on the floor.",
+        "es": "Si tu mochila está llena, se dejarán caer al suelo."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "This is a good time to pick up a rotten apple, . It's on the floor, next to the small building just west of the fenced garden.",
+        "es": "Este es un buen momento para recoger una manzana podrida. Está en el suelo, junto al pequeño edificio justo al oeste del jardín vallado."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Unequip everything but the mourner suit including the gas mask, head to the the Mourners' headquarters (north-east corner inside of West Ardougne).",
+        "es": "Desequipa todo excepto el traje de mourner, incluyendo la máscara de gas, y dirígete al cuartel general de los Mourners (esquina noreste dentro de West Ardougne)."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "If you cannot enter the headquarters, re-equip your mourner suit.",
+        "es": "Si no puedes entrar al cuartel general, vuelve a equiparte el traje de mourner."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Descend the trapdoor and talk to the Head Mourner in the south-east room of the basement. (opciones de chat: 2 Yes • 2 Yes • 1 Yes)",
+        "es": "Baja por la trampilla y habla con el Head Mourner en la habitación sureste del sótano. (opciones de chat: 2 Yes • 2 Yes • 1 Yes)"
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the gnome on a rack in the west room. (opciones de chat: 3 You said about toad crunchies and being tickled.)",
+        "es": "Habla con el gnomo en un estante en la habitación oeste. (opciones de chat: 3 You said about toad crunchies and being tickled.)"
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Use a feather on him twice with the toad crunchies in your backpack.",
+        "es": "Usa una pluma en él dos veces con los toad crunchies en tu mochila."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the gnome again with a magic log and leather in your backpack.",
+        "es": "Habla de nuevo con el gnomo con un tronco mágico y cuero en tu mochila."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Release him.",
+        "es": "Libéralo."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "After one minute has elapsed, talk to the gnome again for a fixed device. If he disappeared, simply lobby.",
+        "es": "Después de que pase un minuto, habla de nuevo con el gnomo para obtener un dispositivo reparado. Si ha desaparecido, simplemente sal y vuelve a entrar al mundo."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the Feldip Hills (fairy ring ).",
+        "es": "Viaja a Feldip Hills (anillo de hadas )."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "Fetch an ogre bellows from Rantz's cave if you need one. If you already have one, you won’t be able to obtain another from the chest.",
+        "es": "Consigue un ogre bellows de la cueva de Rantz si necesitas uno. Si ya tienes uno, no podrás obtener otro del cofre."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Go to the small swamp slightly south-west of Rantz and make the coloured toads.",
+        "es": "Ve al pequeño pantano ligeramente al suroeste de Rantz y elabora los sapos de colores."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "Do not fill up your ogre bellows, make sure it is empty. If you need to empty it, bloat toads until it is empty before following the next steps.",
+        "es": "No llenes tu ogre bellows, asegúrate de que esté vacío. Si necesitas vaciarlo, infla sapos hasta que esté vacío antes de seguir los siguientes pasos."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "Use the bottle of dye on your ogre bellows.",
+        "es": "Usa la botella de tinte en tu ogre bellows."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "Use your ogre bellows on a swamp toad.",
+        "es": "Usa tu ogre bellows en un swamp toad."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Repeat the process for each bottle of dye.",
+        "es": "Repite el proceso con cada botella de tinte."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "(it is highly recommended that you make multiple of each toad).",
+        "es": "(se recomienda encarecidamente elaborar varios de cada tipo de sapo)."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Teleport to the Ardougne lodestone, and head to where Brumty's sheep roam to the west.",
+        "es": "Teletranspórtate al lodestone de Ardougne y dirígete hacia donde pastan las ovejas de Brumty, al oeste."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Use a toad matching the colour of the nearby sheep on the fixed device in your backpack, equip it.",
+        "es": "Usa un sapo que coincida con el color de la oveja cercana en el dispositivo reparado que llevas en la mochila, y equípalo."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "text": {
+        "en": "If you are unsure of the colour of the sheep, you can examine it for a description of the colour (red tinge, green tinge, blue tinge, yellow tinge).",
+        "es": "Si no estás seguro del color de la oveja, puedes examinarla para ver una descripción del color (tinte rojo, tinte verde, tinte azul, tinte amarillo)."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Open the equipment tab and fire the fixed device. (Get out of firing mode to see which direction your character is looking at. This way you can avoid having to struggle with finding the sheep with the arrows.)",
+        "es": "Abre la pestaña de equipo y dispara el dispositivo reparado. (Sal del modo de disparo para ver hacia qué dirección está mirando tu personaje. Así puedes evitar tener que buscar a la oveja con las flechas.)"
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Use the arrows to aim at a sheep and then press the middle \"FIRE!\" button once it is in the middle of the screen.",
+        "es": "Usa las flechas para apuntar a una oveja y luego pulsa el botón central \"FIRE!\" una vez que esté en el centro de la pantalla."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Do that for the three other sets of sheep, making sure to match the colour of the toad to the colour of the sheep.",
+        "es": "Haz lo mismo con los otros tres grupos de ovejas, asegurándote de hacer coincidir el color del sapo con el de la oveja."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "If done correctly, you will no longer be able to prod the sheep.",
+        "es": "Si lo has hecho correctamente, ya no podrás pinchar a la oveja."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Head Mourner and talk to him.",
+        "es": "Vuelve con el Head Mourner y habla con él."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Take a rotten apple from the ground west of the headquarters.",
+        "es": "Coge una manzana podrida del suelo al oeste del cuartel general."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Elena, who lives slightly north-east of Ardougne Castle.",
+        "es": "Habla con Elena, que vive ligeramente al noreste del Ardougne Castle."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "With a rotten apple in your inventory, talk to her again.",
+        "es": "Con una manzana podrida en tu inventario, habla con ella de nuevo."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Wait one minute or world-hop, then talk to her again.",
+        "es": "Espera un minuto o cambia de mundo, luego habla con ella de nuevo."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Go to the fenced-in apple orchard Northwest of Ardougne, west of the combat training camp.",
+        "es": "Ve al huerto de manzanas vallado al noroeste de Ardougne, al oeste del campamento de entrenamiento de combate."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Take an empty barrel, use it on the Rotten Apple Pile.",
+        "es": "Coge un barril vacío y úsalo en la Rotten Apple Pile."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Then use the Apple Barrel located in the middle of the orchard to make apple barrel.",
+        "es": "Luego usa el Apple Barrel situado en el centro del huerto para hacer un barril de manzanas."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 1,
+      "text": {
+        "en": "If you don't already have a barrel of naphtha, take one more empty barrel.",
+        "es": "Si aún no tienes un barril de naphtha, coge otro barril vacío."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Skip this section if you have an extra barrel of naphtha from Regicide.''",
+        "es": "Omite esta sección si tienes un barril extra de naphtha de Regicide.''"
+      }
+    },
+    {
+      "index": 56,
+      "indent": 1,
+      "text": {
+        "en": "Return to Isafdar, head to the Poison Waste a few steps south of the Tirannwn lodestone.",
+        "es": "Vuelve a Isafdar y dirígete al Poison Waste, unos pasos al sur del lodestone de Tirannwn."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 1,
+      "text": {
+        "en": "Fill your barrel with coal-tar.",
+        "es": "Llena tu barril con coal-tar."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 1,
+      "text": {
+        "en": "Go to the fractionation still in Rimmington outside of the chemist's house.",
+        "es": "Ve al alambique de fraccionamiento en Rimmington, fuera de la casa del boticario."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 1,
+      "text": {
+        "en": "Use the barrel of coal-tar on the still.",
+        "es": "Usa el barril de coal-tar en el alambique."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 1,
+      "text": {
+        "en": "Rotate the tar regulator clockwise twice (don't do a complete rotation), to make the tar flow at maximum. The 'pressure' indicator on the left should go up.",
+        "es": "Gira el regulador de alquitrán en sentido horario dos veces (no completes una vuelta entera) para que el alquitrán fluya al máximo. El indicador de \"presión\" de la izquierda debería subir."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 1,
+      "text": {
+        "en": "When the pressure enters the green region, rotate the pressure valve clockwise once to let out some pressure. This should stall the pressure indicator.",
+        "es": "Cuando la presión entre en la zona verde, gira la válvula de presión una vez en sentido horario para liberar algo de presión. Esto debería detener el indicador de presión."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 1,
+      "text": {
+        "en": "Start adding coal. This raises the 'heat' indicator on the right. If it's below the green region, add more coal. If it's above, don't add coal until it gets lower.",
+        "es": "Empieza a añadir carbón. Esto sube el indicador de \"calor\" de la derecha. Si está por debajo de la zona verde, añade más carbón. Si está por encima, no añadas carbón hasta que baje."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 2,
+      "text": {
+        "en": "If the heat reading reaches the dark orange portion, you've spoiled your compound and must start again.",
+        "es": "Si la lectura de calor llega a la zona naranja oscura, habrás echado a perder el compuesto y tendrás que empezar de nuevo."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 2,
+      "text": {
+        "en": "If you run out of coal, your progress will be saved, but you will have to re-set the pressure to add more coal to it.",
+        "es": "Si te quedas sin carbón, tu progreso se guardará, pero tendrás que reajustar la presión para poder añadir más carbón."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 1,
+      "text": {
+        "en": "Exit the interface once the green bar is full.",
+        "es": "Sal de la interfaz cuando la barra verde esté llena."
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "Use the barrel of naphtha on the Apple barrel in your Inventory.",
+        "es": "Usa el barril de naphtha en el Apple barrel de tu inventario."
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Use the apple mix on your sieve. This was given to you by Elena when she identified the toxin.",
+        "es": "Usa la mezcla de manzana en tu tamiz. Elena te lo dio cuando identificó la toxina."
+      }
+    },
+    {
+      "index": 68,
+      "indent": 0,
+      "text": {
+        "en": "Use the toxic naphtha on a cooking range to get 2 toxic powder. A range can be found in the Mourner Headquarters.",
+        "es": "Usa el naphtha tóxico en un horno de cocina para obtener 2 toxic powder. Puedes encontrar un horno en el cuartel general de los Mourners."
+      }
+    },
+    {
+      "index": 69,
+      "indent": 1,
+      "text": {
+        "en": "Do not use it on an open fire, as the naphtha will explode.",
+        "es": "No lo uses en una hoguera abierta, ya que el naphtha explotará."
+      }
+    },
+    {
+      "index": 70,
+      "indent": 0,
+      "text": {
+        "en": "Enter the largest building in the centre of West Ardougne.",
+        "es": "Entra en el edificio más grande del centro de West Ardougne."
+      }
+    },
+    {
+      "index": 71,
+      "indent": 0,
+      "text": {
+        "en": "Use one of the toxic powder on the sacks in the west room.",
+        "es": "Usa uno de los toxic powder en los sacos de la habitación oeste."
+      }
+    },
+    {
+      "index": 72,
+      "indent": 0,
+      "text": {
+        "en": "Head to the Church (to the south) and poison the second set of grain (located upstairs).",
+        "es": "Dirígete a la iglesia (hacia el sur) y envenena el segundo conjunto de grano (ubicado en el piso de arriba)."
+      }
+    },
+    {
+      "index": 73,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Head Mourner in the headquarters.",
+        "es": "Vuelve con el Head Mourner en el cuartel general."
+      }
+    },
+    {
+      "index": 74,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

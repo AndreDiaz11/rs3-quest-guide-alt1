@@ -1,0 +1,674 @@
+{
+  "id": "the-void-stares-back",
+  "title": "The Void Stares Back",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:29:14.127Z",
+  "icon": "https://runescape.wiki/images/The_Void_Stares_Back_icon.png",
+  "series": "Void Knight",
+  "age": "5",
+  "timeline": "mythic",
+  "members": true,
+  "combatLevel": "100-109",
+  "difficulty": "Grandmaster",
+  "length": "Long",
+  "releaseDate": "6 October 2010",
+  "startPoint": {
+    "en": "Speak to Captain Korasi at the Falador Park.",
+    "es": "Habla con Captain Korasi en Falador Park."
+  },
+  "requirements": {
+    "quests": [
+      "A Void Dance",
+      "Quiet Before the Swarm",
+      "Imp Catcher",
+      "Wanted!",
+      "Recruitment Drive",
+      "Enter the Abyss (miniquest)",
+      "Morytania",
+      "Conquest"
+    ],
+    "skills": [
+      {
+        "skill": "Attack",
+        "level": 78
+      },
+      {
+        "skill": "Construction",
+        "level": 70
+      },
+      {
+        "skill": "Crafting",
+        "level": 70
+      },
+      {
+        "skill": "Defence",
+        "level": 25
+      },
+      {
+        "skill": "Firemaking",
+        "level": 71
+      },
+      {
+        "skill": "Magic",
+        "level": 80
+      },
+      {
+        "skill": "Smithing",
+        "level": 70
+      },
+      {
+        "skill": "Strength",
+        "level": 78
+      },
+      {
+        "skill": "Summoning",
+        "level": 55
+      },
+      {
+        "skill": "combat level",
+        "level": 100
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Hard leather",
+      "display": "Hard leather (obtainable during quest)",
+      "image": "https://runescape.wiki/images/thumb/Hard_leather_detail.png/100px-Hard_leather_detail.png?9ff62"
+    },
+    {
+      "name": "Limestone brick",
+      "display": "Limestone brick (obtainable during quest)",
+      "image": "https://runescape.wiki/images/thumb/Limestone_brick_detail.png/100px-Limestone_brick_detail.png?7799b"
+    },
+    {
+      "name": "Logs",
+      "display": "Logs (obtainable during quest)",
+      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+    },
+    {
+      "name": "8 backpack spaces",
+      "display": "8 backpack spaces",
+      "image": null
+    }
+  ],
+  "kills": [
+    "Torcher (level 70)",
+    "Brawler (level 70)",
+    "Defiler (level 49)",
+    "Shifter (level 70)",
+    "Spinner (level 70)",
+    "2 elite defilers (level 91) - suggested not to kill them, but evade them",
+    "Pest Queen (level 599)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 20000,
+      "display": "20,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 20000,
+      "display": "20,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Firemaking",
+      "amount": 20000,
+      "display": "20,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 20000,
+      "display": "20,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Summoning",
+      "amount": 20000,
+      "display": "20,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 20000,
+      "display": "20,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Book of Equilibrium",
+      "amount": 2,
+      "display": "2 Book of Equilibrium (can be stored in bank) - 50,000 experience each in any combat skill level 75 or higher (except Necromancy and Constitution)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Korasi's sword",
+      "display": "Korasi's sword and the ability to use Jessika's sword",
+      "image": "https://runescape.wiki/images/thumb/Korasi%27s_sword_detail.png/100px-Korasi%27s_sword_detail.png?96c7e"
+    },
+    {
+      "type": "item",
+      "name": "Elite void knight top",
+      "display": "Elite void knight top. Its colour will depend on how many white/black decisions you made in the void quests. Examining it will reveal its type: white for Guardian, grey for Justiciar, and black for Executioner, and it can be changed by talking to Commander Tyr and paying 100,000 coins.",
+      "image": "https://runescape.wiki/images/thumb/Elite_void_knight_top_%28justiciar%29_detail.png/100px-Elite_void_knight_top_%28justiciar%29_detail.png?0a177"
+    },
+    {
+      "type": "item",
+      "name": "Elite Void Knight equipment",
+      "display": "The ability to upgrade your Void Knight armour for its elite version at the cost of 100 Void Knight commendation points.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "In Security",
+      "display": "In Security",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Precarious Void",
+      "display": "Precarious Void",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Mystery Revealed",
+      "display": "Mystery Revealed",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Give it Your Pest Shot",
+      "display": "Give it Your Pest Shot",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Void Stares Back (music track)",
+      "display": "The Void Stares Back",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Who Are We to Judge?",
+      "display": "Who Are We to Judge?",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Korasi in Falador Park. (opciones de chat: Accept)",
+        "es": "Habla con Korasi en Falador Park. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Go to the entrance of the Black Knights' Fortress north-west of the Edgeville Monastery.",
+        "es": "Ve a la entrada de Black Knights' Fortress al noroeste de Edgeville Monastery."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Equip the black full helm (bugged), black platebody (bugged), and black platelegs (bugged). Open the portcullis. Commander Colby will yell at you and teleport you.",
+        "es": "Equípate el black full helm (bugged), el black platebody (bugged) y las black platelegs (bugged). Abre el rastrillo. Commander Colby te gritará y te teletransportará."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "Once you finally get to the storage room, your helmet will be taken.",
+        "es": "Cuando finalmente llegues a la sala de almacenamiento, te quitarán el casco."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "If you leave the room at any point (including disconnect), or once your helmet is taken, you will no longer be able to use the Black Knights' Fortress to return to the storage area.",
+        "es": "Si sales de la sala en cualquier momento (incluida una desconexión), o una vez que te quiten el casco, ya no podrás usar Black Knights' Fortress para volver a la zona de almacenamiento."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "Instead, enter via the Black Knights' Base inside the Taverley Dungeon.",
+        "es": "En su lugar, entra por la Black Knights' Base dentro de Taverley Dungeon."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "Inside the Black Knights' Base, enter the door south from the conquest map table, which is found in the middle of the floor.",
+        "es": "Dentro de la Black Knights' Base, entra por la puerta al sur de la mesa del mapa de conquista, que se encuentra en el centro del piso."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Captain Gilroy.",
+        "es": "Habla con Captain Gilroy."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to take an item from any crate.",
+        "es": "Intenta coger un objeto de cualquier caja."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Gilroy. (opciones de chat: 3 I think I've got it, sir.)",
+        "es": "Habla con Gilroy. (opciones de chat: 3 Creo que ya lo tengo, señor.)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Gilroy again. (opciones de chat: 3 actually weigh 4 • 1 are of weight 2 • 5 should be labelled 6 • 2 really weigh 3 • 4 need to be marked 5).",
+        "es": "Habla de nuevo con Gilroy. (opciones de chat: 3 en realidad pesan 4 • 1 son de peso 2 • 5 deberían llevar la etiqueta 6 • 2 en realidad pesan 3 • 4 necesitan marcarse 5)."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Balance the scale on the wall to the south, arrange the weights to make 15 on each side. (Top: 3-5-3-4 and Bottom: 2-2-5-6)",
+        "es": "Equilibra la balanza en la pared del sur, coloca los pesos para que sumen 15 en cada lado. (Arriba: 3-5-3-4 y Abajo: 2-2-5-6)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Proceed to the next room.",
+        "es": "Continúa a la siguiente sala."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Kill the enemies in the room and pick up the security blocks that are dropped.",
+        "es": "Mata a los enemigos de la sala y recoge los bloques de seguridad que sueltan."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Gilroy. (opciones de chat: 2 What do we do now?)",
+        "es": "Habla con Gilroy. (opciones de chat: 2 ¿Qué hacemos ahora?)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Exit the room and head to the jail, northeast of the storage room, and search the crate for a piece of hard leather.",
+        "es": "Sal de la sala y dirígete a la celda, al noreste de la sala de almacenamiento, y registra la caja en busca de un trozo de hard leather."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Search a crate in the kitchen for some logs, just north of the jail.",
+        "es": "Registra una caja en la cocina en busca de unos logs, justo al norte de la celda."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Head to the tiny forge on the west side of the base (icon on minimap).",
+        "es": "Dirígete a la pequeña forja en el lado oeste de la base (icono en el minimapa)."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Search the crate in the south-west corner of the forge room for a limestone brick.",
+        "es": "Registra la caja en la esquina suroeste de la sala de la forja en busca de un limestone brick."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Return to the forge and repair it.",
+        "es": "Vuelve a la forja y repárala."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Use the logs on the forge to fuel it.",
+        "es": "Usa los logs en la forja para alimentarla."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Light the forge.",
+        "es": "Enciende la forja."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Use the broken security block on the forge to repair it.",
+        "es": "Usa el bloque de seguridad roto en la forja para repararlo."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Go back into the room with Gilroy and place all the blocks within the western wall.",
+        "es": "Vuelve a la sala con Gilroy y coloca todos los bloques dentro del muro oeste."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Proceed to the next room.",
+        "es": "Continúa a la siguiente sala."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Click on the panel on the western wall. (opciones de chat: 2 Search the panels for magical traps.)",
+        "es": "Haz clic en el panel del muro oeste. (opciones de chat: 2 Buscar trampas mágicas en los paneles.)"
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Open the panel.",
+        "es": "Abre el panel."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Drag the tiles into the panels so that a horizontal line is going across all three panels, while filling the empty spaces. Press confirm once completed.",
+        "es": "Arrastra las baldosas a los paneles de forma que se forme una línea horizontal que cruce los tres paneles, llenando los espacios vacíos. Pulsa confirmar cuando termines."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Proceed to the next room.",
+        "es": "Continúa a la siguiente sala."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Reveal yourself and explain the danger to Lord Daquarius. Accept the allegiance. (opciones de chat: 1 Yes, sir. • 3 Explain the danger in calm, logical terms. • 1 Okay, I'll do it.)",
+        "es": "Muéstrate tal como eres y explica el peligro a Lord Daquarius. Acepta la alianza. (opciones de chat: 1 Sí, señor. • 3 Explicar el peligro en términos calmados y lógicos. • 1 Vale, lo haré.)"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Korasi.",
+        "es": "Habla con Korasi."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Commodore Tyr. (opciones de chat: 1 I'm ready.)",
+        "es": "Habla con Commodore Tyr. (opciones de chat: 1 Estoy listo.)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "At this point you can equip your own armour again instead of the Black Knight (bugged) armour.",
+        "es": "Llegados a este punto, puedes volver a equiparte tu propia armadura en lugar de la armadura Black Knight (bugged)."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Enter the portal and watch the cutscene. (opciones de chat: 1 You bet!)",
+        "es": "Entra en el portal y observa la escena. (opciones de chat: 1 ¡Por supuesto!)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": ": Make sure you go through each dialogue box, otherwise it will kick you out of the portal and you will have to start the cutscene from the start.",
+        "es": "Asegúrate de pasar por todos los cuadros de diálogo, de lo contrario te expulsará del portal y tendrás que empezar la escena desde el principio."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "A game of modified conquest must be played and won.",
+        "es": "Debe jugarse y ganarse una partida modificada de conquista."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "Spinners are very powerful but do not heal like in Pest Control.",
+        "es": "Los Spinners son muy poderosos pero no se curan como en Pest Control."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Ravagers have the movement range of Scouts and the damage rate of a Knight.",
+        "es": "Los Ravagers tienen el alcance de movimiento de los Scouts y la tasa de daño de un Knight."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Shifters are less of a threat than other units and can be tanked if need be.",
+        "es": "Los Shifters son menos peligrosos que otras unidades y se les puede aguantar el golpe si es necesario."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 1,
+      "text": {
+        "en": "Torchers are similar to Mages.",
+        "es": "Los Torchers son similares a los Mages."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 1,
+      "text": {
+        "en": "Defilers are similar to Archers.",
+        "es": "Los Defilers son similares a los Archers."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "text": {
+        "en": "Splatters will explode and deal 100 life points of damage to any adjacent unit that is within 1 square.",
+        "es": "Los Splatters explotarán e infligirán 100 puntos de vida de daño a cualquier unidad adyacente que esté a 1 casilla de distancia."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Win the game and proceed to the next room.",
+        "es": "Gana la partida y continúa a la siguiente sala."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Sacrifice either Korasi or Jessika.",
+        "es": "Sacrifica a Korasi o a Jessika."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Valluta before stocking for the fight or Sir Tiffy won't teleport you back.",
+        "es": "Habla con Valluta antes de abastecerte para el combate, o Sir Tiffy no te teletransportará de vuelta."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Make all necessary preparations to fight the Pest Queen. Korasi's sword will be the primary weapon during the fight and its Special attacks will be used a lot.",
+        "es": "Haz todos los preparativos necesarios para luchar contra la Pest Queen. La espada de Korasi será el arma principal durante el combate y sus ataques Especiales se usarán mucho."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 1,
+      "text": {
+        "en": "It may be helpful to use manual attack abilities rather than Revolution.",
+        "es": "Puede ser útil usar habilidades de ataque manual en lugar de Revolution."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 1,
+      "text": {
+        "en": "You can use necromancy to trivialise the encounter. Summon conjures prior to equipping Korasi's sword, and keep your necromancy offhand equipped. Ghost will provide full sustain without food, and skeleton will do the majority of the damage.",
+        "es": "Puedes usar nigromancia para trivializar el encuentro. Invoca conjuros antes de equipar la espada de Korasi, y mantén equipada tu arma secundaria de nigromancia. El Ghost proporcionará sustento completo sin necesidad de comida, y el Skeleton hará la mayor parte del daño."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Kill the Pest Queen.",
+        "es": "Mata a la Pest Queen."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "The Weapon Special attack is located under Constitution abilities.",
+        "es": "El ataque Especial del arma se encuentra en las habilidades de Constitución."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 1,
+      "text": {
+        "en": "If you die, talk to Sir Tiffy in Falador park and he will teleport you back to the portal. You will lose the weapon if you die. Reclaim this from Jessika/Korasi before you attack the Pest Queen again. (opciones de chat: 3)",
+        "es": "Si mueres, habla con Sir Tiffy en Falador park y te teletransportará de vuelta al portal. Perderás el arma si mueres. Recupérala de Jessika/Korasi antes de volver a atacar a la Pest Queen. (opciones de chat: 3)"
+      }
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "text": {
+        "en": "Build your adrenaline up more than 60% then use the special attack \"Disrupt\" to stun the Pest Queen when she raises her head and starts shaking for several seconds.",
+        "es": "Aumenta tu adrenalina por encima del 60% y luego usa el ataque especial \"Disrupt\" para aturdir a la Pest Queen cuando levante la cabeza y empiece a temblar durante varios segundos."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 1,
+      "text": {
+        "en": "Hurt but don't kill the spawning Elite defilers to defend Void Knight archers. They need to be focussed on you so more don't respawn and so they don't hurt your archers.",
+        "es": "Hiere pero no mates a los Elite defilers que van apareciendo para defender a los Void Knight archers. Deben mantenerse centrados en ti para que no reaparezcan más y para que no hieran a tus arqueros."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 1,
+      "text": {
+        "en": "More in-depth strategies can be found here.",
+        "es": "Puedes encontrar estrategias más detalladas aquí."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Korasi or Jessika. Decide who to let deal with Wizard Grayzag. (opciones de chat: Any)",
+        "es": "Habla con Korasi o Jessika. Decide a quién dejar encargarse de Wizard Grayzag. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Commodore Tyr.",
+        "es": "Habla con Commodore Tyr."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

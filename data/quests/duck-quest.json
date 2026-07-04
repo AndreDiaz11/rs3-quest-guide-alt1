@@ -1,0 +1,241 @@
+{
+  "id": "duck-quest",
+  "title": "Duck Quest",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:11:29.047Z",
+  "icon": "https://runescape.wiki/images/thumb/Duck_Quest_icon.png/50px-Duck_Quest_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "Pathfinder",
+  "members": false,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Short to Medium",
+  "releaseDate": "14 April 2025",
+  "startPoint": {
+    "en": "Investigate a strange fishing spot on the riverbank south of Draynor Village.",
+    "es": "Investiga un extraño punto de pesca en la orilla del río al sur de Draynor Village."
+  },
+  "requirements": {
+    "quests": [
+      "Duck Quest"
+    ],
+    "skills": []
+  },
+  "items": [
+    {
+      "name": "Duck food",
+      "display": "1 duck food",
+      "image": "https://runescape.wiki/images/Duck_food_detail.png?73d33"
+    },
+    {
+      "name": "Vial of water",
+      "display": "1 vial of water",
+      "image": "https://runescape.wiki/images/thumb/Vial_of_water_detail.png/100px-Vial_of_water_detail.png?d561e"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Herblore",
+      "amount": 500,
+      "display": "500 experience as a lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Duckling (pet)",
+      "display": "Duckling pet",
+      "image": "https://runescape.wiki/images/thumb/Duckling_%28pet%29_pet.png/100px-Duckling_%28pet%29_pet.png?2705a"
+    },
+    {
+      "type": "item",
+      "name": "Paddlington",
+      "display": "Access to Paddlington via Monty the rubber duckie or Waddle Willow",
+      "image": "https://runescape.wiki/images/thumb/Paddlington.png/100px-Paddlington.png?874d9"
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "item",
+      "name": "I Want a New Duck",
+      "display": "Complete the achievement I Want a New Duck to obtain the Waddles pet"
+    },
+    {
+      "type": "item",
+      "name": "Paddlington (music track)",
+      "display": "Paddlington"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Head south of the bank in Draynor Village and fish the fishing spot?. (opciones de chat: Accept • Any)",
+        "es": "Dirígete al sur del banco en Draynor Village y pesca en el punto de pesca. (opciones de chat: Aceptar • Cualquiera)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Pick up the nest debris just north of the bridge leading to the Wizards' Tower.",
+        "es": "Recoge los restos del nido justo al norte del puente que lleva a Wizards' Tower."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Continue picking it up south east along the coast, east through the swamp, when you reach the graveyard head north past the Lumbridge castle towards Fred the Farmer's house (through Lumbridge market), north over the bridge, then just west near the Waddle Willow tree.",
+        "es": "Sigue recogiéndolos hacia el sureste a lo largo de la costa, hacia el este a través del pantano, cuando llegues al cementerio dirígete al norte pasando el castillo de Lumbridge hacia la casa de Fred the Farmer (a través del mercado de Lumbridge), luego al norte cruzando el puente, y por último un poco al oeste cerca del árbol Waddle Willow."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Breadstix. (opciones de chat: 2 What are you up to at the moment? • 2 What's the language? (Continue Quest))",
+        "es": "Habla con Breadstix. (opciones de chat: 2 ¿Qué estás tramando ahora mismo? • 2 ¿Cuál es el idioma? (Continuar misión))"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Use duck food on a vial of water to make a duckspeak potion.",
+        "es": "Usa comida de pato en un vial de agua para hacer una poción de habla pato."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Breadstix again.",
+        "es": "Habla con Breadstix de nuevo."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Drink the potion. (opciones de chat: 1 Yes.)",
+        "es": "Bébete la poción. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Jemima. (opciones de chat: 3 Okay - I'll start the Inducktion.)",
+        "es": "Habla con Jemima. (opciones de chat: 3 Vale, empezaré la Inducktion.)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Invigilatoad. (opciones de chat: 1 Yes.)",
+        "es": "Habla con Invigilatoad. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Eat each of the six peas. They are indicated as red dots on the minimap.",
+        "es": "Cómete cada uno de los seis guisantes. Se indican como puntos rojos en el minimapa."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Invigilatoad again. (opciones de chat: 1 Yes.)",
+        "es": "Habla con Invigilatoad de nuevo. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Sit down at the relaxing spot at the end of the path to the west.",
+        "es": "Siéntate en el lugar de descanso al final del camino hacia el oeste."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Paddlington Badger on the west edge of the sanctuary.",
+        "es": "Habla con Paddlington Badger en el borde oeste del santuario."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Interact with the floor button on the east side of the sanctuary.",
+        "es": "Interactúa con el botón del suelo en el lado este del santuario."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Press the floor button south from Paddlington badger. (opciones de chat: 4 Something might happen?)",
+        "es": "Pulsa el botón del suelo al sur de Paddlington Badger. (opciones de chat: 4 ¿Podría pasar algo?)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Press the floor button on the east side of the sanctuary.",
+        "es": "Pulsa el botón del suelo en el lado este del santuario."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Interact with the tree bud directly north of the east button.",
+        "es": "Interactúa con el brote de árbol justo al norte del botón este."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Interact with the toad statue twice.",
+        "es": "Interactúa con la estatua de sapo dos veces."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to duckling's dad or mum.",
+        "es": "Habla con el papá o la mamá del patito."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": "wiz-kid",
+  "title": "Wiz Kid",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:35:39.730Z",
+  "icon": "https://runescape.wiki/images/Wiz_Kid_icon.png",
+  "series": "No",
+  "age": "Age of Chaos",
+  "timeline": "Age of Chaos",
+  "members": true,
+  "combatLevel": "None",
+  "difficulty": "Novice",
+  "length": "Short to Medium",
+  "releaseDate": "23 March 2026",
+  "startPoint": {
+    "en": "Speak to Ben on Marigold Farm in Wendlewick.",
+    "es": "Habla con Ben en Marigold Farm, en Wendlewick."
+  },
+  "requirements": {
+    "quests": [
+      "Visions of Havenhythe"
+    ],
+    "skills": [
+      {
+        "skill": "Magic",
+        "level": 33
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Air rune",
+      "display": "8 air runes",
+      "image": "https://runescape.wiki/images/thumb/Air_rune_detail.png/100px-Air_rune_detail.png?86f40"
+    },
+    {
+      "name": "Water rune",
+      "display": "6 water runes",
+      "image": "https://runescape.wiki/images/thumb/Water_rune_detail.png/100px-Water_rune_detail.png?e14c8"
+    },
+    {
+      "name": "Earth rune",
+      "display": "4 earth runes",
+      "image": "https://runescape.wiki/images/thumb/Earth_rune_detail.png/100px-Earth_rune_detail.png?fa918"
+    },
+    {
+      "name": "Nature rune",
+      "display": "2 nature runes",
+      "image": "https://runescape.wiki/images/thumb/Nature_rune_detail.png/100px-Nature_rune_detail.png?425e6"
+    },
+    {
+      "name": "Law rune",
+      "display": "4 law runes",
+      "image": "https://runescape.wiki/images/thumb/Law_rune_detail.png/100px-Law_rune_detail.png?425e6"
+    },
+    {
+      "name": "Bones",
+      "display": "2 bones (obtainable during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Bones_detail.png/100px-Bones_detail.png?28fd1"
+    }
+  ],
+  "kills": [],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ben's spare hat",
+      "display": "Ben's spare hat",
+      "image": "https://runescape.wiki/images/thumb/Ben%27s_spare_hat_detail.png/100px-Ben%27s_spare_hat_detail.png?1ba19"
+    },
+    {
+      "type": "item",
+      "name": "Coins",
+      "display": "10,000 coins",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 3500,
+      "display": "3,500 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Marigold Farm",
+      "display": "Ability to teleport to Marigold Farm via the Wendlewick Teleport spell",
+      "image": "https://runescape.wiki/images/thumb/Marigold_Farm.png/100px-Marigold_Farm.png?928e8"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ben at Marigold Farm in Havenhythe. (opciones de chat: Accept • ~)",
+        "es": "Habla con Ben en Marigold Farm, en Havenhythe. (opciones de chat: Aceptar • ~)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him again to give him the runes. (opciones de chat: 1 Yes, I brought enough runes for me too.)",
+        "es": "Habla con él de nuevo para darle las runas. (opciones de chat: 1 Sí, he traído runas suficientes también para mí.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him again to continue the quest. (opciones de chat: 1 Yes.)",
+        "es": "Habla con él de nuevo para continuar la misión. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Cast the Wendlewick Teleport spell, and talk to him again.",
+        "es": "Lanza el hechizo de Teletransporte a Wendlewick y habla con él de nuevo."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Enter the windmill to the north, climb up the ladder to the top floor, and talk to him.",
+        "es": "Entra en el molino de viento al norte, sube por la escalera hasta la planta superior y habla con él."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Go back to the bottom floor and talk to him outside.",
+        "es": "Vuelve a la planta baja y habla con él fuera."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Go to the farmhouse to the south and take the flowers off the counter in the eastern room.",
+        "es": "Ve a la granja al sur y coge las flores del mostrador de la habitación este."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Place the flowers on the stool east of Ben, then cast Telekinetic Grab on them.",
+        "es": "Coloca las flores en el taburete al este de Ben, y luego lánzales el hechizo Agarre Telekinético."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Place the flowers back on the stool and talk to Ben.",
+        "es": "Vuelve a colocar las flores en el taburete y habla con Ben."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "If you don't already have bones, head to the western side of the farmhouse and dig in the dirt mound for 2 sets of crow bones.",
+        "es": "Si aún no tienes huesos, dirígete al lado oeste de la granja y cava en el montículo de tierra para conseguir 2 juegos de huesos de cuervo."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Place a bone on the stool near Ben, then cast the Bones to Bananas spell.",
+        "es": "Coloca un hueso en el taburete cerca de Ben, y luego lanza el hechizo Huesos a Plátanos."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ben.",
+        "es": "Habla con Ben."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Wizards' Tower and talk to Archmage Sedridor to the southwest. (opciones de chat: 1 Talk about 'Wiz Kid'.)",
+        "es": "Ve a la Torre de los Magos y habla con Archmage Sedridor, al suroeste. (opciones de chat: 1 Hablar sobre 'Wiz Kid'.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "If unlocked, the teleport option on stardust in the currency pouch places you near Archmage Sedridor.",
+        "es": "Si está desbloqueada, la opción de teletransporte del polvo estelar en la bolsa de moneda te lleva cerca de Archmage Sedridor."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Go down one floor and talk to Wizard Isidor to the west. (opciones de chat: 1 Talk about 'Wiz Kid'.)",
+        "es": "Baja una planta y habla con Wizard Isidor, al oeste. (opciones de chat: 1 Hablar sobre 'Wiz Kid'.)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Return to Ben and talk to him or Wizard Isidor. (opciones de chat: 1 Yes.)",
+        "es": "Vuelve con Ben y habla con él o con Wizard Isidor. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

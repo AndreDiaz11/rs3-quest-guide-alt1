@@ -1,0 +1,513 @@
+{
+  "id": "king-of-the-dwarves",
+  "title": "King of the Dwarves",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T01:54:28.982Z",
+  "icon": "https://runescape.wiki/images/King_of_the_Dwarves_icon.png",
+  "series": "Dwarf (Red Axe)",
+  "age": "ambiguous",
+  "timeline": "legendary",
+  "members": true,
+  "combatLevel": "80-89",
+  "difficulty": "Master",
+  "length": "Medium to Long",
+  "releaseDate": "4 January 2011",
+  "startPoint": {
+    "en": "Talk to Lava-flow miner Sven outside the Lava Flow Mine in East Keldagrim. (via )",
+    "es": "Habla con Lava-flow miner Sven fuera de la Lava Flow Mine, en East Keldagrim. (vía )"
+  },
+  "requirements": {
+    "quests": [
+      "Forgiveness of a Chaos Dwarf",
+      "Forgettable Tale of a Drunken Dwarf",
+      "The Giant Dwarf",
+      "Fishing Contest",
+      "Between a Rock...",
+      "Dwarf Cannon",
+      "Fishing Contest",
+      "My Arm's Big Adventure",
+      "Eadgar's Ruse",
+      "Druidic Ritual",
+      "Troll Stronghold",
+      "Death Plateau",
+      "Mad Eadgar",
+      "Troll Stronghold area",
+      "Jungle Potion"
+    ],
+    "skills": [
+      {
+        "skill": "Mining",
+        "level": 68
+      },
+      {
+        "skill": "Smithing",
+        "level": 70
+      },
+      {
+        "skill": "Strength",
+        "level": 77
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Soft clay",
+      "display": "6 soft clay",
+      "image": "https://runescape.wiki/images/thumb/Soft_clay_detail.png/100px-Soft_clay_detail.png?85203"
+    },
+    {
+      "name": "Mithril bar",
+      "display": "6 mithril bars (can't be in the metal bank)",
+      "image": "https://runescape.wiki/images/thumb/Mithril_bar_detail.png/100px-Mithril_bar_detail.png?e065f"
+    }
+  ],
+  "kills": [
+    "Colonel Grimsson (level 84)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Mining",
+      "amount": 45000,
+      "display": "45,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 50000,
+      "display": "50,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Strength",
+      "amount": 55000,
+      "display": "55,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Gravestone",
+      "display": "A new gravestone option (Royal dwarven gravestone)",
+      "image": "https://runescape.wiki/images/Gravestone_map_icon.png?d10d9"
+    },
+    {
+      "type": "item",
+      "name": "Lava Flow Mine",
+      "display": "Access to the Lava Flow Mine and the ability to gild pickaxes and obtain the golden mining suit",
+      "image": "https://runescape.wiki/images/thumb/Lava_Flow_Mine.png/100px-Lava_Flow_Mine.png?22834"
+    },
+    {
+      "type": "item",
+      "name": "Big rock",
+      "display": "Ability to lift big rock (Level 90 Strength required to carry it away)",
+      "image": "https://runescape.wiki/images/thumb/Big_rock_detail.png/100px-Big_rock_detail.png?f47f2"
+    },
+    {
+      "type": "item",
+      "name": "Rocky Rescue",
+      "display": "Rocky Rescue (After the sabotage in the mine)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Corporate Callousness",
+      "display": "Corporate Callousness (After leaving the mine)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Only a King",
+      "display": "Only a King (After having spoken to Meike on top of the tower)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Records Chamber",
+      "display": "The Records Chamber (In the Records Chamber)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Colonel Grimsson (music track)",
+      "display": "Colonel Grimsson (In the Barendir tunnels)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Go with the Flow",
+      "display": "Go with the Flow (During the announcement of the new king and his coronation)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Lava-flow miner Sven standing outside of the Lava Flow Mine in Keldagrim East. (opciones de chat: 1 I'd like the tour. • Accept)",
+        "es": "Habla con Lava-flow miner Sven, que está fuera de la Lava Flow Mine en Keldagrim East. (opciones de chat: 1 Me gustaría hacer el recorrido. • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Free all 6 Lava-flow miners (they are all close to the entrance). If you leave the scene by exiting or teleporting, all progress made of rescuing the miners is lost.",
+        "es": "Libera a los 6 Lava-flow miners (todos están cerca de la entrada). Si abandonas la escena saliendo o teletransportándote, se perderá todo el progreso realizado en el rescate de los mineros."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "Mine the lighter coloured rubble surrounding them, then rescue them and they'll appear in your backpack. Only one Miner can be carried at a time.",
+        "es": "Mina los escombros de color más claro que los rodean, luego rescátalos y aparecerán en tu mochila. Solo se puede llevar a un minero a la vez."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "Talk to Foreman Jaak with one in your backpack, then move onto the next one.",
+        "es": "Habla con Foreman Jaak con uno en tu mochila, luego pasa al siguiente."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Veldaban near the protesters outside. (opciones de chat: Any • Any • Any)",
+        "es": "Habla con Veldaban cerca de los manifestantes de fuera. (opciones de chat: Cualquiera • Cualquiera • Cualquiera)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Go to the top floor of the Keldagrim Palace in the centre of Keldagrim. A short cutscene will play.",
+        "es": "Ve al piso superior del Keldagrim Palace, en el centro de Keldagrim. Se reproducirá una breve escena."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Veldaban. (opciones de chat: 3 Why are you so angry? • 2 You should try to calm down.)",
+        "es": "Habla con Veldaban. (opciones de chat: 3 ¿Por qué estás tan enfadado? • 2 Deberías intentar calmarte.)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Green Gemstone Director. (opciones de chat: 4 I was there when the explosion happened. • 3 I rescued some of the miners.)",
+        "es": "Habla con el Green Gemstone Director. (opciones de chat: 4 Estaba allí cuando ocurrió la explosión. • 3 Rescaté a algunos de los mineros.)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Yellow Fortune Director. (opciones de chat: 1 Why did you arrest Veldaban? • 1 Veldaban's popular. Arresting him makes you look worse.)",
+        "es": "Habla con el Yellow Fortune Director. (opciones de chat: 1 ¿Por qué arrestaste a Veldaban? • 1 Veldaban es popular. Arrestarlo hace que quedes peor.)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Blue Opal Director. (opciones de chat: 2 Tell me about the Lava Flow Mine. • 2 So the chaos dwarf blew up the secondary boilers?)",
+        "es": "Habla con el Blue Opal Director. (opciones de chat: 2 Háblame de la Lava Flow Mine. • 2 ¿Así que el chaos dwarf hizo estallar las calderas secundarias?)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Brown Engine Director. (opciones de chat: 3 What did you want to do about the miners? • 2 It was a difficult decision. I understand.)",
+        "es": "Habla con el Brown Engine Director. (opciones de chat: 3 ¿Qué querías hacer con los mineros? • 2 Fue una decisión difícil. Lo entiendo.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Dismiss any pets and talk to the consortium general secretary. (opciones de chat: 1 I've talked to everyone I need to.)",
+        "es": "Despide a cualquier mascota y habla con el consortium general secretary. (opciones de chat: 1 Ya he hablado con todos los que necesitaba.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Hreidmar outside the eastern entrance of the Keldagrim Palace.",
+        "es": "Habla con Hreidmar fuera de la entrada este del Keldagrim Palace."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Talk to one of the protesters. (opciones de chat: 1 Does anyone know where Meike is?)",
+        "es": "Habla con uno de los manifestantes. (opciones de chat: 1 ¿Alguien sabe dónde está Meike?)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Head to the King's Axe Inn (Keldagrim West) and talk to Luitger. (opciones de chat: 3 You're not joining the protests? • 3 Goodbye.)",
+        "es": "Dirígete al King's Axe Inn (Keldagrim West) y habla con Luitger. (opciones de chat: 3 ¿No te vas a unir a las protestas? • 3 Adiós.)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Black Guard HQ (west of the bank) and talk to Klaas.",
+        "es": "Ve al Black Guard HQ (al oeste del banco) y habla con Klaas."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Go to the top of the Keldagrim Watchtower (small building just south of the Palace, west Keldagrim) and talk to Meike. (opciones de chat: 3 We could get into the records of the chamber first. • 1 I'll meet you both at the library.)",
+        "es": "Ve a lo alto de la Keldagrim Watchtower (un pequeño edificio justo al sur del Palace, en el oeste de Keldagrim) y habla con Meike. (opciones de chat: 3 Podríamos acceder primero a los registros de la cámara. • 1 Os veré a ambos en la biblioteca.)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Go to the library north of the Palace in West Keldagrim.",
+        "es": "Ve a la biblioteca al norte del Palace en West Keldagrim."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Meike or Veldaban.",
+        "es": "Habla con Meike o Veldaban."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Librarian. (opciones de chat: 3 Could you open the display case, please?)",
+        "es": "Habla con el Librarian. (opciones de chat: 3 ¿Podrías abrir la vitrina, por favor?)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Meike or Veldaban.",
+        "es": "Habla con Meike o Veldaban."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Open the cabinet north of Meike.",
+        "es": "Abre el armario al norte de Meike."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Use the soft clay on Meike and then talk to the librarian about the keys. (opciones de chat: 3 Can you tell me more about the keys?)",
+        "es": "Usa la arcilla blanda en Meike y luego habla con el bibliotecario sobre las llaves. (opciones de chat: 3 ¿Puedes contarme más sobre las llaves?)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Meike.",
+        "es": "Habla con Meike."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Use the furnace (not forge) such as the one in the Palace south of the library, if the prompt doesn't show up go to another furnace. (opciones de chat: 1 Yes. • 1 Yes.)",
+        "es": "Usa el horno (no la forja), como el que hay en el Palace al sur de la biblioteca; si no aparece la opción, ve a otro horno. (opciones de chat: 1 Sí. • 1 Sí.)"
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Records Chamber (Enter Entrance in the wall, west of the Black Guard HQ)",
+        "es": "Ve a la Records Chamber (entra por la entrada en la pared, al oeste del Black Guard HQ)"
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Meike or Veldaban.",
+        "es": "Habla con Meike o Veldaban."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Match up the keys with the correct keyholes. See the picture below for the solution.",
+        "es": "Empareja las llaves con los ojos de cerradura correctos. Consulta la imagen de abajo para ver la solución."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": ": 750px|centre|The combination to unlock the door",
+        "es": ": 750px|centre|La combinación para desbloquear la puerta"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Open the door and watch the cutscene.",
+        "es": "Abre la puerta y observa la escena."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Veldaban. (opciones de chat: 1 Can you show me the way to the Barendir caverns?)",
+        "es": "Habla con Veldaban. (opciones de chat: 1 ¿Puedes mostrarme el camino hacia las Barendir caverns?)"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Enter the tunnel to the east and go to the opposite end of the cavern.",
+        "es": "Entra en el túnel hacia el este y ve hasta el extremo opuesto de la caverna."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Defeat Colonel Grimsson while making sure Veldaban does not die. If you leave the fight, you can restart by talking to Veldaban in the Laughing Miner pub in Keldagrim East.",
+        "es": "Derrota al Colonel Grimsson asegurándote de que Veldaban no muera. Si abandonas el combate, puedes reiniciarlo hablando con Veldaban en el pub Laughing Miner, en Keldagrim East."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Veldaban. (opciones de chat: 3 We should get reinforcements. • 3 What about the trolls? • Any • 3 I'm going to go and talk to them, with or without you.)",
+        "es": "Habla con Veldaban. (opciones de chat: 3 Deberíamos conseguir refuerzos. • 3 ¿Qué hay de los trolls? • Cualquiera • 3 Voy a ir a hablar con ellos, contigo o sin ti.)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Head back halfway through the cavern until you come to an entrance on the east side. Enter it and speak to Pretty Flower. (opciones de chat: 2 I need to talk to you. • 2 How can I prove I'm worthy?)",
+        "es": "Regresa hacia la mitad de la caverna hasta llegar a una entrada en el lado este. Entra y habla con Pretty Flower. (opciones de chat: 2 Necesito hablar contigo. • 2 ¿Cómo puedo demostrar que soy digno?)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Lift the big rock opposite My Arm.",
+        "es": "Levanta la gran roca frente a My Arm."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Lift the troll named Big Rock.",
+        "es": "Levanta al troll llamado Big Rock."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Pretty Flower (opciones de chat: 1 We want you to help defend Keldagrim from chaos dwarves. • 4 I'll just be going.).",
+        "es": "Habla con Pretty Flower (opciones de chat: 1 Queremos que ayudes a defender Keldagrim de los chaos dwarves. • 4 Ya me voy.)."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Talk to My Arm (opciones de chat: 3 How can I get Pretty Flower to listen to me? • Any • 3 Wait, what pretty flower are you talking about? • 3 Could I have a pretty flower? • 2 I need to give it to Pretty Flower. • 2 I need to give the plant to the warlord.).",
+        "es": "Habla con My Arm (opciones de chat: 3 ¿Cómo consigo que Pretty Flower me escuche? • Cualquiera • 3 Espera, ¿de qué pretty flower hablas? • 3 ¿Podría tener una pretty flower? • 2 Necesito dársela a Pretty Flower. • 2 Necesito darle la planta al warlord.)."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Pretty Flower. (opciones de chat: 1 We want you to help defend Keldagrim from chaos dwarves. • 4 Take a look at this pretty flower... • 3 It's a gift from Colonel Grimsson.)",
+        "es": "Habla con Pretty Flower. (opciones de chat: 1 Queremos que ayudes a defender Keldagrim de los chaos dwarves. • 4 Mira esta pretty flower... • 3 Es un regalo de Colonel Grimsson.)"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Go out through the same way you entered with Veldaban.",
+        "es": "Sal por el mismo camino por el que entraste con Veldaban."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Get back to the east of the Keldagrim Palace by using the quick travel option on the Dwarven Boatman to the west.",
+        "es": "Regresa al este del Keldagrim Palace usando la opción de viaje rápido con el Dwarven Boatman hacia el oeste."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Go to the protest east of Keldagrim Palace.",
+        "es": "Ve a la protesta al este del Keldagrim Palace."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Veldaban, who is standing within the group of protesters.",
+        "es": "Habla con Veldaban, que está de pie entre el grupo de manifestantes."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete! (If starting Birthright of the Dwarves straight away, you have to switch worlds or relog.)",
+        "es": "¡Misión completada! (Si vas a empezar Birthright of the Dwarves inmediatamente, tendrás que cambiar de mundo o reconectarte.)"
+      }
+    }
+  ]
+}

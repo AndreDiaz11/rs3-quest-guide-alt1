@@ -1,0 +1,647 @@
+{
+  "id": "hunt-for-red-raktuber",
+  "title": "Hunt for Red Raktuber",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:29:28.163Z",
+  "icon": "https://runescape.wiki/images/Hunt_for_Red_Raktuber_icon.png",
+  "series": "Penguin",
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Intermediate",
+  "length": "Long",
+  "releaseDate": "2 June 2009",
+  "startPoint": {
+    "en": "Talk to Larry at the Ardougne Zoo.",
+    "es": "Habla con Larry en el Ardougne Zoo."
+  },
+  "requirements": {
+    "quests": [
+      "Cold War",
+      "Sea Slug"
+    ],
+    "skills": [
+      {
+        "skill": "Construction",
+        "level": 45
+      },
+      {
+        "skill": "Hunter",
+        "level": 45
+      },
+      {
+        "skill": "Thieving",
+        "level": 38
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Clockwork suit",
+      "display": "Clockwork suit 1 silk, 1 plank and 1 clockwork to make one",
+      "image": "https://runescape.wiki/images/thumb/Clockwork_suit_detail.png/100px-Clockwork_suit_detail.png?9acb7"
+    },
+    {
+      "name": "Silk",
+      "display": "1 silk, 1 plank and 1 clockwork to make one",
+      "image": "https://runescape.wiki/images/thumb/Silk_detail.png/100px-Silk_detail.png?389d9"
+    },
+    {
+      "name": "Silk",
+      "display": "8 silk",
+      "image": "https://runescape.wiki/images/thumb/Silk_detail.png/100px-Silk_detail.png?389d9"
+    },
+    {
+      "name": "Plank",
+      "display": "4 normal planks (protean planks do not work)",
+      "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
+    },
+    {
+      "name": "Thread",
+      "display": "1 thread",
+      "image": "https://runescape.wiki/images/thumb/Thread_detail.png/100px-Thread_detail.png?13036"
+    },
+    {
+      "name": "6 backpack spaces",
+      "display": "6 backpack spaces",
+      "image": null
+    },
+    {
+      "name": "Worn Equipment",
+      "display": "Nothing equipped in the main hand, off-hand and back slots",
+      "image": "https://runescape.wiki/images/thumb/Worn_equipment_interface.png/100px-Worn_equipment_interface.png?b24be"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 3000,
+      "display": "3,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Thieving",
+      "amount": 2000,
+      "display": "2,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Hunter",
+      "amount": 1500,
+      "display": "1,500 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Penguin Hunter area",
+      "display": "Access to the Penguin Hunter area",
+      "image": "https://runescape.wiki/images/thumb/Penguin_Hunter_area.png/100px-Penguin_Hunter_area.png?93792"
+    },
+    {
+      "type": "item",
+      "name": "Penguin Hide and Seek",
+      "display": "A Penguin Hide and Seek Distraction and Diversion bonus. A polar bear can be spotted once each week. Its location is the same on every world. It hides inside a well and pops up every few seconds. Inspect the well to spy on the polar bear for 1 penguin point.",
+      "image": "https://runescape.wiki/images/thumb/Bush_%28Penguin_Hide_and_Seek%29.png/100px-Bush_%28Penguin_Hide_and_Seek%29.png?003f8"
+    },
+    {
+      "type": "item",
+      "name": "Chuck",
+      "display": "Chuck the Polar Bear, located in a cage just south-east of the Penguin enclosure, replaces Larry in the Penguin Hide and Seek activity. At this time, Larry cannot be accessed.",
+      "image": "https://runescape.wiki/images/thumb/Chuck.png/100px-Chuck.png?c8146"
+    },
+    {
+      "type": "item",
+      "name": "Puffer",
+      "display": "Puffer, Ray, Octopus, and Monkfish hats.",
+      "image": "https://runescape.wiki/images/thumb/Puffer_detail.png/100px-Puffer_detail.png?c4f1e"
+    },
+    {
+      "type": "item",
+      "name": "Penguin Possible",
+      "display": "Penguin Possible",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Pengmersible",
+      "display": "The Pengmersible",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Desert Island Bear",
+      "display": "Desert Island Bear",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ice Day for Penguins",
+      "display": "Ice Day for Penguins (Unlocked in the Penguin Hunter area after the quest)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry in the south-west of the Ardougne Zoo and agree to help. (opciones de chat: 1 Hunt for Red Raktuber • Accept)",
+        "es": "Habla con Larry al suroeste del Ardougne Zoo y acepta ayudarle. (opciones de chat: 1 Hunt for Red Raktuber • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Go east to the south coast of Witchaven, and inspect one of the giant footprints on the western side of the southern coast.",
+        "es": "Ve al este, hasta la costa sur de Witchaven, e inspecciona una de las huellas gigantes en el lado occidental de la costa sur."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Return to Larry for a cutscene. (opciones de chat: 1 Hunt for Red Raktuber)",
+        "es": "Vuelve con Larry para ver una escena. (opciones de chat: 1 Hunt for Red Raktuber)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "North-east of Rellekka (north of Fremennik lodestone), travel via the small boat to the Iceberg.",
+        "es": "Al noreste de Rellekka (al norte de la piedra de viaje de Fremennik), viaja en el pequeño bote hasta el Iceberg."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry. (opciones de chat: 1 Alright, I guess so.)",
+        "es": "Habla con Larry. (opciones de chat: 1 Alright, I guess so.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "North-west, investigate the avalanche.",
+        "es": "Al noroeste, investiga la avalancha."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Enter the west room, speak to KGP Interrogator. (opciones de chat: 1 Yes, I am. • 1 My captain trusted me to deliver the message. • 2 Your captain must trust you a great deal. • 1 My captain found a greater leader. • 3 What leader could possibly be greater than the Pescaling. • 2 The sea may control your Captain, but he controls your life. • 1 He will bring unity by destroying the humans. • 3 Why not unite all penguins to The Sea, first. • 2 He's only demonstrating his impatience. • 1 Nothing can stop him • 2 If he comes to rescue you, he'll be captured. • 1 'Our sacrifice'? Only you appear to be making the sacrifice.)",
+        "es": "Entra en la sala oeste y habla con el KGP Interrogator. (opciones de chat: 1 Yes, I am. • 1 My captain trusted me to deliver the message. • 2 Your captain must trust you a great deal. • 1 My captain found a greater leader. • 3 What leader could possibly be greater than the Pescaling. • 2 The sea may control your Captain, but he controls your life. • 1 He will bring unity by destroying the humans. • 3 Why not unite all penguins to The Sea, first. • 2 He's only demonstrating his impatience. • 1 Nothing can stop him • 2 If he comes to rescue you, he'll be captured. • 1 'Our sacrifice'? Only you appear to be making the sacrifice.)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to captured penguin and note down the three dance emotes.",
+        "es": "Habla con el pingüino capturado y anota las tres emociones de baile."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Search the crate behind you to get a conch shell, puffer, octopus, monkfish, and a ray.",
+        "es": "Registra el cajón que tienes detrás para conseguir una concha de caracola, un pez globo, un pulpo, un mero y una raya."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Take note of which headwear the captured penguin is wearing.",
+        "es": "Fíjate en qué tocado lleva puesto el pingüino capturado."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 1,
+      "text": {
+        "en": "The fish hat will either be a puffer, octopus, monkfish, or ray fish.",
+        "es": "El sombrero de pez será un pez globo, un pulpo, un mero o una raya."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ping & Pong (who are in a room north-east from interrogation room).",
+        "es": "Habla con Ping & Pong (que están en una sala al noreste de la sala de interrogatorios)."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the KGP Agent by the control panel to the north.",
+        "es": "Habla con el KGP Agent junto al panel de control al norte."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Return to Ping & Pong. (opciones de chat: 4 Chicklings • 5 Squirrels • 1 Blue • 3 Bears • 4 Kiss • 2 Sharks • 1 Yes, that sounds great!)",
+        "es": "Vuelve con Ping & Pong. (opciones de chat: 4 Chicklings • 5 Squirrels • 1 Blue • 3 Bears • 4 Kiss • 2 Sharks • 1 Yes, that sounds great!)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Return to the KGP Agent by the control panel. Sing him the lullaby. (opciones de chat: 2 I want to sing you a song.)",
+        "es": "Vuelve con el KGP Agent junto al panel de control. Cántale la nana. (opciones de chat: 2 I want to sing you a song.)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Operate the control panel. Head north-east into the war room.",
+        "es": "Opera el panel de control. Dirígete al noreste, a la sala de guerra."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Talk to any dwarf. (opciones de chat: 1 Yes)",
+        "es": "Habla con cualquier enano. (opciones de chat: 1 Yes)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Speak to the dwarf again.",
+        "es": "Habla de nuevo con el enano."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Exit war room to get caught.",
+        "es": "Sal de la sala de guerra y déjate atrapar."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry (twice). (opciones de chat: 1 Alright, I guess so.)",
+        "es": "Habla con Larry (dos veces). (opciones de chat: 1 Alright, I guess so.)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Re-enter the hideout via the avalanche and return to the dwarves. (opciones de chat: 1 Yes.)",
+        "es": "Vuelve a entrar en el escondite a través de la avalancha y regresa con los enanos. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Talk to them again and give them the supplies to get a toolbox.",
+        "es": "Habla con ellos de nuevo y entrégales los suministros para conseguir una caja de herramientas."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Perform practice run on the engine panel north of the dwarves.",
+        "es": "Realiza una prueba de práctica en el panel del motor al norte de los enanos."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "Wrench -> wirebox.",
+        "es": "Wrench -> wirebox."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "Wire cutter -> wirebox.",
+        "es": "Wire cutter -> wirebox."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "Wire -> wirebox.",
+        "es": "Wire -> wirebox."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "Tape -> wirebox.",
+        "es": "Tape -> wirebox."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 1,
+      "text": {
+        "en": "Bellows -> pipe.",
+        "es": "Bellows -> pipe."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 1,
+      "text": {
+        "en": "Click bellows twice, the pressure gauge will point to the red.",
+        "es": "Haz clic en el fuelle dos veces; el manómetro apuntará hacia el rojo."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "Turn valve wheel three times, the pressure gauge arrow points straight up in the green.",
+        "es": "Gira la rueda de la válvula tres veces; la flecha del manómetro apuntará hacia arriba, en verde."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "Pull lever.",
+        "es": "Tira de la palanca."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Talk to a dwarf again. (opciones de chat: 2 No.)",
+        "es": "Habla de nuevo con un enano. (opciones de chat: 2 No.)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Exit war room to get caught.",
+        "es": "Sal de la sala de guerra y déjate atrapar."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Larry. (opciones de chat: 1 Alright, I guess so.)",
+        "es": "Habla con Larry. (opciones de chat: 1 Alright, I guess so.)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "North-west, talk to Noodle. (opciones de chat: 1 Yes.)",
+        "es": "Al noroeste, habla con Noodle. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Re-enter the hideout via the avalanche. Enter first room to the east.",
+        "es": "Vuelve a entrar en el escondite a través de la avalancha. Entra en la primera sala al este."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Navigate to the sorting table without being spotted using the picture to the right (see the full guide for more details).",
+        "es": "Navega hasta la mesa de clasificación sin que te descubran, usando el cuadro a la derecha (consulta la guía completa para más detalles)."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Search sorting table to get a telegram. Exit the small room and ensure the door is closed before you move further.",
+        "es": "Registra la mesa de clasificación para conseguir un telegrama. Sal de la pequeña sala y asegúrate de cerrar la puerta antes de seguir avanzando."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Navigate back out of the office the way you came, without being spotted. Once back in the main hall, exit using the southern door. If you are caught you will lose the item and have to repeat the process.",
+        "es": "Regresa fuera de la oficina por donde viniste, sin que te descubran. Una vez de vuelta en el salón principal, sal por la puerta sur. Si te atrapan, perderás el objeto y tendrás que repetir el proceso."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Return to Larry and talk to him twice.",
+        "es": "Vuelve con Larry y habla con él dos veces."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Southeast of Yanille, just outside the city walls, talk to Larry. (opciones de chat: 1 Alright, I guess so.)",
+        "es": "Al sureste de Yanille, justo fuera de las murallas de la ciudad, habla con Larry. (opciones de chat: 1 Alright, I guess so.)"
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Enter the penguin suit and wear the fish hat the captured penguin was wearing.",
+        "es": "Ponte el traje de pingüino y colócate el sombrero de pez que llevaba el pingüino capturado."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Blow the conch shell, then perform the three emotes.",
+        "es": "Sopla la concha de caracola y realiza las tres emociones."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Climb up the ladder and walk all the way to the east, opening doors along the way.",
+        "es": "Sube por la escalera y camina hacia el este todo lo que puedas, abriendo las puertas por el camino."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Captain Marlin.",
+        "es": "Habla con Captain Marlin."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Pick either honest or lie. (opciones de chat: Any)",
+        "es": "Elige entre ser sincero o mentir. (opciones de chat: Any)"
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "In the brig, walk west and search the hatstand to get an electric eel, shark tooth, crab claw, seaweed, and a swordfish.",
+        "es": "En el calabozo, camina hacia el oeste y registra el perchero para conseguir una anguila eléctrica, un diente de tiburón, una pinza de cangrejo, algas y un pez espada."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Open the east door.",
+        "es": "Abre la puerta este."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the engine panel.",
+        "es": "Inspecciona el panel del motor."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "Crab claw -> wirebox.",
+        "es": "Crab claw -> wirebox."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 1,
+      "text": {
+        "en": "Shark tooth -> wirebox.",
+        "es": "Shark tooth -> wirebox."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "text": {
+        "en": "Electric eel -> wirebox.",
+        "es": "Electric eel -> wirebox."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 1,
+      "text": {
+        "en": "Seaweed -> wirebox.",
+        "es": "Seaweed -> wirebox."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 1,
+      "text": {
+        "en": "Pufferfish -> pipe.",
+        "es": "Pufferfish -> pipe."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 1,
+      "text": {
+        "en": "Click pufferfish twice, the pressure gauge will point to the red.",
+        "es": "Haz clic en el pez globo dos veces; el manómetro apuntará hacia el rojo."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 1,
+      "text": {
+        "en": "Octopus -> Turn valve wheel three times, the pressure gauge arrow points straight up in the green.",
+        "es": "Octopus -> Gira la rueda de la válvula tres veces; la flecha del manómetro apuntará hacia arriba, en verde."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 1,
+      "text": {
+        "en": "Swordfish -> lever.",
+        "es": "Swordfish -> lever."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 1,
+      "text": {
+        "en": "Pull the lever.",
+        "es": "Tira de la palanca."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Chuck towards the east side of the island to leave the island and get a cutscene.",
+        "es": "Habla con Chuck, hacia el lado este de la isla, para abandonar la isla y ver una escena."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 1,
+      "text": {
+        "en": "If you teleport off the island, talk to Chuck at the Ardougne Zoo to get teleported back to the Desert Island and talk to him again once there.",
+        "es": "Si te teletransportas fuera de la isla, habla con Chuck en el Ardougne Zoo para que te teletransporte de vuelta a Desert Island y habla con él de nuevo una vez allí."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

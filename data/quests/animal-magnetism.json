@@ -1,0 +1,456 @@
+{
+  "id": "animal-magnetism",
+  "title": "Animal Magnetism",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:48:00.511Z",
+  "icon": "https://runescape.wiki/images/Animal_Magnetism_icon.png",
+  "series": null,
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "12 December 2006",
+  "startPoint": {
+    "en": "Talk to Ava in Draynor Manor.",
+    "es": "Habla con Ava en Draynor Manor."
+  },
+  "requirements": {
+    "quests": [
+      "The Restless Ghost",
+      "Ernest the Chicken",
+      "Morytania"
+    ],
+    "skills": [
+      {
+        "skill": "Crafting",
+        "level": 19
+      },
+      {
+        "skill": "Ranged",
+        "level": 30
+      },
+      {
+        "skill": "Slayer",
+        "level": 18
+      },
+      {
+        "skill": "Thieving",
+        "level": 15
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 35
+      },
+      {
+        "skill": "Smithing",
+        "level": 10
+      },
+      {
+        "skill": "Thieving",
+        "level": 15
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Mithril hatchet",
+      "display": "Mithril hatchet",
+      "image": "https://runescape.wiki/images/thumb/Mithril_hatchet_detail.png/100px-Mithril_hatchet_detail.png?bf3bf"
+    },
+    {
+      "name": "Iron bar",
+      "display": "5 iron bars (cannot be noted)",
+      "image": "https://runescape.wiki/images/thumb/Iron_bar_detail.png/100px-Iron_bar_detail.png?2c5a5"
+    },
+    {
+      "name": "Ghostspeak amulet",
+      "display": "Ghostspeak amulet (the reward from completing the hard Morytania achievements will not work)",
+      "image": "https://runescape.wiki/images/thumb/Ghostspeak_amulet_detail.png/100px-Ghostspeak_amulet_detail.png?18457"
+    },
+    {
+      "name": "Holy symbol",
+      "display": "Holy symbol",
+      "image": "https://runescape.wiki/images/thumb/Holy_symbol_detail.png/100px-Holy_symbol_detail.png?b0f9b"
+    },
+    {
+      "name": "Polished buttons",
+      "display": "Polished buttons 15 Thieving to pickpocket from a H.A.M. Member or Drop from H.A.M. Guard or Obtained from digging at the Varrock Dig Site east of Varrock",
+      "image": "https://runescape.wiki/images/thumb/Polished_buttons_detail.png/100px-Polished_buttons_detail.png?295a7"
+    },
+    {
+      "name": "Thieving",
+      "display": "15 Thieving to pickpocket from a H.A.M. Member or",
+      "image": "https://runescape.wiki/images/thumb/Thieving_detail.png/100px-Thieving_detail.png?bf108"
+    },
+    {
+      "name": "H.A.M. Guard",
+      "display": "Drop from H.A.M. Guard or",
+      "image": "https://runescape.wiki/images/thumb/H.A.M._Guard.png/100px-H.A.M._Guard.png?b88eb"
+    },
+    {
+      "name": "Varrock Dig Site",
+      "display": "Obtained from digging at the Varrock Dig Site east of Varrock",
+      "image": "https://runescape.wiki/images/thumb/Varrock_Dig_Site.png/100px-Varrock_Dig_Site.png?63064"
+    },
+    {
+      "name": "Hard leather",
+      "display": "Hard leather",
+      "image": "https://runescape.wiki/images/thumb/Hard_leather_detail.png/100px-Hard_leather_detail.png?9ff62"
+    },
+    {
+      "name": "Ecto-token",
+      "display": "20 ecto-tokens",
+      "image": "https://runescape.wiki/images/thumb/Ecto-token_3_detail.png/100px-Ecto-token_3_detail.png?b901d"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 1000,
+      "display": "1,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Fletching",
+      "amount": 1000,
+      "display": "1,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Slayer",
+      "amount": 1000,
+      "display": "1,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Woodcutting",
+      "amount": 2500,
+      "display": "2,500 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Blessed hatchet",
+      "display": "Blessed hatchet",
+      "image": "https://runescape.wiki/images/thumb/Blessed_hatchet_detail.png/100px-Blessed_hatchet_detail.png?b56ee"
+    },
+    {
+      "type": "item",
+      "name": "Ava's attractor",
+      "display": "Ava's device (Ava's attractor if your Ranged level is less than 50 Ranged or Ava's accumulator if it is 50 or higher) If you get Ava's attractor and then later get 50 Ranged, you can talk to Ava, who will upgrade it if you give her 75 steel arrows) Ava's accumulator ammunition pickup passive effect (requires 50 Ranged)",
+      "image": "https://runescape.wiki/images/thumb/Ava%27s_attractor_detail.png/100px-Ava%27s_attractor_detail.png?117ba"
+    },
+    {
+      "type": "item",
+      "name": "Ava's Odds and Ends",
+      "display": "Access to Ava's Odds and Ends",
+      "image": "https://runescape.wiki/images/thumb/Ava%27s_Odds_and_Ends.png/100px-Ava%27s_Odds_and_Ends.png?6afe6"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ava inside the western room of Draynor Manor. (opciones de chat: 1 I would be happy to make your home a better place. • Accept)",
+        "es": "Habla con Ava en la habitación del oeste de Draynor Manor. (opciones de chat: 1 Estaría encantado de mejorar tu hogar. • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 1,
+      "text": {
+        "en": "To get to her room, a candle sconce (North of the entrance) must be pulled.",
+        "es": "Para llegar a su habitación, debes tirar de un candelabro de pared (al norte de la entrada)."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Alice at the farm west of the Ectofuntus. (opciones de chat: 4 I'm here about a quest.)",
+        "es": "Habla con Alice en la granja al oeste del Ectofuntus. (opciones de chat: 4 Vengo por una misión.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Equip your ghostspeak amulet.",
+        "es": "Equípate el ghostspeak amulet."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Alice's husband.",
+        "es": "Habla con el marido de Alice."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Alice again. (opciones de chat: 4 I'm here about a quest.)",
+        "es": "Habla de nuevo con Alice. (opciones de chat: 4 Vengo por una misión.)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Alice's husband.",
+        "es": "Habla con el marido de Alice."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Alice again. (opciones de chat: 4 I'm here about a quest.)",
+        "es": "Habla de nuevo con Alice. (opciones de chat: 4 Vengo por una misión.)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Alice's husband.",
+        "es": "Habla con el marido de Alice."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Alice again. (opciones de chat: 4 I'm here about a quest.)",
+        "es": "Habla de nuevo con Alice. (opciones de chat: 4 Vengo por una misión.)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Head to Netty's house east of the Slayer Tower.",
+        "es": "Dirígete a la casa de Netty, al este de la Slayer Tower."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "If Vessel of the Harbinger is completed, Netty will be at the Last Call in the City of Um.",
+        "es": "Si has completado Vessel of the Harbinger, Netty estará en el Last Call, en City of Um."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Unequip the ghostspeak amulet and talk to Netty. (opciones de chat: 2 I'm here about the farmers east of here.)",
+        "es": "Quítate el ghostspeak amulet y habla con Netty. (opciones de chat: 2 Vengo por los granjeros que viven al este de aquí.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "(opciones de chat: 1 Talk about 'Animal Magnetism.') if at the Last Call.",
+        "es": "(opciones de chat: 1 Habla sobre 'Animal Magnetism'.) si está en el Last Call."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Netty again to receive the altered ghostspeak amulet. (opciones de chat: 1 'Animal Magnetism'.)",
+        "es": "Habla de nuevo con Netty para recibir el ghostspeak amulet modificado. (opciones de chat: 1 'Animal Magnetism'.)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Alice's husband to give him the altered ghostspeak amulet. (opciones de chat: 1 Okay, you need it more than I do, I suppose.)",
+        "es": "Habla con el marido de Alice para darle el ghostspeak amulet modificado. (opciones de chat: 1 Está bien, supongo que tú lo necesitas más que yo.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him again.",
+        "es": "Habla con él de nuevo."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, buy two undead chickens from Alice's husband for 20 ecto-tokens. (opciones de chat: 1 Could I buy those chickens now, then? • 2 Could I buy 2 chickens?)",
+        "es": "Después de la escena, compra dos undead chickens al marido de Alice por 20 ecto-tokens. (opciones de chat: 1 ¿Podría comprar esos pollos ahora? • 2 ¿Podría comprar 2 pollos?)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ava in Draynor Manor.",
+        "es": "Habla con Ava en Draynor Manor."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Helda who is also on the western side of the manor and give her five iron bars.",
+        "es": "Habla con Helda, que también se encuentra en la parte oeste de la mansión, y dale cinco iron bars."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Helda again to receive the selected iron.",
+        "es": "Habla de nuevo con Helda para recibir el selected iron."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Take the selected iron to the mine north-east of Rimmington (using the Port Sarim lodestone is recommended).",
+        "es": "Lleva el selected iron a la mina al noreste de Rimmington (se recomienda usar la lodestone de Port Sarim)."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Face north and left click the selected iron to hammer it and make bar magnet.",
+        "es": "Mira hacia el norte y haz clic izquierdo sobre el selected iron para martillearlo y crear un bar magnet."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ava.",
+        "es": "Habla con Ava."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to cut an undead tree with a mithril hatchet. Undead trees can be found beside the path that leads you to the entrance.",
+        "es": "Intenta talar un undead tree con un mithril hatchet. Los undead trees se encuentran junto al camino que lleva a la entrada."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ava.",
+        "es": "Habla con Ava."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Go to Burthorpe and talk to Turael (or Spria). (opciones de chat: 3 I'm here about a quest.)",
+        "es": "Ve a Burthorpe y habla con Turael (o Spria). (opciones de chat: 3 Vengo por una misión.)"
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Give them a mithril hatchet and holy symbol. (opciones de chat: 3 Hello, I'm here about those trees again. • 1 I'd love one, thanks.)",
+        "es": "Dale un mithril hatchet y un holy symbol. (opciones de chat: 3 Hola, vengo de nuevo por esos árboles. • 1 Me encantaría uno, gracias.)"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to cut another undead tree with the blessed hatchet until you receive some undead twigs.",
+        "es": "Intenta talar otro undead tree con el blessed hatchet hasta que recibas algunas undead twigs."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ava.",
+        "es": "Habla con Ava."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ava to help her translate the note.",
+        "es": "Habla con Ava para ayudarla a traducir la nota."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Translate Ava's research notes. The solution is in the image to the right.",
+        "es": "Traduce las notas de investigación de Ava. La solución se encuentra en la imagen de la derecha."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ava.",
+        "es": "Habla con Ava."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Use the pattern with a piece of hard leather and polished buttons to create a container.",
+        "es": "Usa el patrón con un trozo de hard leather y polished buttons para crear un contenedor."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ava.",
+        "es": "Habla con Ava."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

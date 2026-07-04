@@ -1,0 +1,146 @@
+{
+  "id": "the-restless-ghost",
+  "title": "The Restless Ghost",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:09:03.228Z",
+  "icon": "https://runescape.wiki/images/The_Restless_Ghost_icon.png",
+  "series": null,
+  "age": "5",
+  "timeline": "pathfinder",
+  "members": false,
+  "combatLevel": "6-9",
+  "difficulty": "Novice",
+  "length": "Short",
+  "releaseDate": "4 January 2001",
+  "startPoint": {
+    "en": "Speak to Father Aereck in the Lumbridge Church, east of Lumbridge Castle.",
+    "es": "Habla con Father Aereck en la iglesia de Lumbridge, al este del Lumbridge Castle."
+  },
+  "requirements": {
+    "quests": [
+      "The Restless Ghost"
+    ],
+    "skills": []
+  },
+  "items": [],
+  "kills": [
+    "Skeleton warlock (level 7, optional)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Prayer",
+      "amount": 125,
+      "display": "125 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Ancient bones (The Restless Ghost)",
+      "amount": 5,
+      "display": "5 Ancient bones giving 200 experience each",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ghostspeak amulet",
+      "display": "Ghostspeak amulet",
+      "image": "https://runescape.wiki/images/thumb/Ghostspeak_amulet_detail.png/100px-Ghostspeak_amulet_detail.png?18457"
+    },
+    {
+      "type": "item",
+      "name": "Gravestone",
+      "display": "Access to gravestone upgrades by talking to Father Aereck",
+      "image": "https://runescape.wiki/images/Gravestone_map_icon.png?d10d9"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Father Aereck in Lumbridge Church. (opciones de chat: 3 I'm looking for a quest! • Accept)",
+        "es": "Habla con Father Aereck en la iglesia de Lumbridge. (opciones de chat: 3 ¡Busco una misión! • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Go through the graveyard's southern exit and follow the shore to a mining site. Head west to a hut in the swamp.",
+        "es": "Sal por la salida sur del cementerio y sigue la orilla hasta una zona minera. Dirígete al oeste hacia una cabaña en el pantano."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Father Urhney inside the hut. (opciones de chat: 2 Father Aereck sent me to talk to you. • 1 A ghost is haunting his graveyard.)",
+        "es": "Habla con Father Urhney dentro de la cabaña. (opciones de chat: 2 Father Aereck me envió a hablar contigo. • 1 Un fantasma está rondando su cementerio.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Go back to the graveyard and open a coffin located south of the catacombs.",
+        "es": "Vuelve al cementerio y abre un ataúd situado al sur de las catacumbas."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Equip the Ghostspeak amulet and talk to the ghost. (opciones de chat: 1 Yep. Now, tell me what the problem is.)",
+        "es": "Equípate el Ghostspeak amulet y habla con el fantasma. (opciones de chat: 1 Sí. Ahora, dime cuál es el problema.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Head back through the southern gate of the graveyard, keep walking until you reach the mining site once again.",
+        "es": "Regresa por la puerta sur del cementerio y sigue caminando hasta llegar de nuevo a la zona minera."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Look south-east of the mining site, there are some rocks. Search the rocks, you will receive a muddy skull.",
+        "es": "Mira al sureste de la zona minera, hay unas rocas. Registra las rocas y recibirás un muddy skull."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Kill the skeleton or run away.",
+        "es": "Mata al skeleton o huye."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Go back to the graveyard, reopen the coffin and use the skull on the open coffin.",
+        "es": "Vuelve al cementerio, reabre el ataúd y usa el skull sobre el ataúd abierto."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Quest completed!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "id": "wanted",
+  "title": "Wanted!",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:29:38.018Z",
+  "icon": "https://runescape.wiki/images/thumb/Wanted%21_icon.png/50px-Wanted%21_icon.png",
+  "series": "Temple Knight",
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "30-39",
+  "difficulty": "Intermediate",
+  "length": "Medium to Long",
+  "releaseDate": "17 October 2005",
+  "startPoint": {
+    "en": "Begin by speaking to Sir Tiffy Cashien in Falador Park.",
+    "es": "Empieza hablando con Sir Tiffy Cashien en Falador Park."
+  },
+  "requirements": {
+    "quests": [
+      "Recruitment Drive",
+      "Enter the Abyss (miniquest)",
+      "Morytania"
+    ],
+    "skills": [
+      {
+        "skill": "quest points",
+        "level": 33
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Coins",
+      "display": "Either 10,000 coins, or an enchanted gem, molten glass, and a law rune",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "name": "Rune essence",
+      "display": "20 un-noted rune essence or pure essence (can be obtained during quest)",
+      "image": "https://runescape.wiki/images/thumb/Rune_essence_detail.png/100px-Rune_essence_detail.png?5716b"
+    }
+  ],
+  "kills": [
+    "Black Knight (level 23)",
+    "Solus Dellagar"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Slayer",
+      "amount": 5000,
+      "display": "5,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "White equipment",
+      "display": "Access to the White equipment",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Pure essence",
+      "display": "20 noted pure/rune essence and the other items (from chasing Solus)",
+      "image": "https://runescape.wiki/images/thumb/Pure_essence_detail.png/100px-Pure_essence_detail.png?8223c"
+    },
+    {
+      "type": "item",
+      "name": "Royale",
+      "display": "Royale",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Attack IV",
+      "display": "Attack IV",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sir Tiffy in Falador park. (opciones de chat: 1 Do you have any jobs for me yet? • Accept)",
+        "es": "Habla con Sir Tiffy en Falador Park. (opciones de chat: 1 ¿Tienes algún trabajo para mí? • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him again. (opciones de chat: 1 Ask about the Wanted! quest)",
+        "es": "Vuelve a hablar con él. (opciones de chat: 1 Preguntar sobre la misión Wanted!)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sir Amik Varze, of White Knights' Castle in the west wing. Decline his offer. (opciones de chat: 2 Speak about the Wanted! quest. • 3 No, not right now...)",
+        "es": "Habla con Sir Amik Varze, en el ala oeste del White Knights' Castle. Rechaza su oferta. (opciones de chat: 2 Hablar sobre la misión Wanted!. • 3 No, ahora no...)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Return to Sir Tiffy. (opciones de chat: 1 Ask about the Wanted! quest)",
+        "es": "Vuelve con Sir Tiffy. (opciones de chat: 1 Preguntar sobre la misión Wanted!)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Amik Varze again. (opciones de chat: 2 Speak about the Wanted! quest. • 3 Sure, I'll help you!)",
+        "es": "Vuelve a hablar con Amik Varze. (opciones de chat: 2 Hablar sobre la misión Wanted!. • 3 ¡Claro, te ayudaré!)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Return to Sir Tiffy for a commorb. (opciones de chat: 1 Ask about the Wanted! quest)",
+        "es": "Vuelve con Sir Tiffy para conseguir un commorb. (opciones de chat: 1 Preguntar sobre la misión Wanted!)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "If you are buying a commorb (opciones de chat: 1 Buy one • 1 YES • 1 YES)",
+        "es": "Si vas a comprar un commorb (opciones de chat: 1 Comprar uno • 1 SÍ • 1 SÍ)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "If you are making one (opciones de chat: 2 Have One Made • 1 YES)",
+        "es": "Si vas a mandar hacer uno (opciones de chat: 2 Mandar hacer uno • 1 SÍ)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Right-click contact with the commorb to view your assignment details. (opciones de chat: 1 Current Assignment)",
+        "es": "Haz clic derecho en el commorb y selecciona \"Contactar\" para ver los detalles de tu misión asignada. (opciones de chat: 1 Misión actual)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Head to the Taverley Dungeon and go to the south-westernmost area of the Black Knight's Base.",
+        "es": "Dirígete a la Taverley Dungeon y ve a la zona más al suroeste de la Black Knight's Base."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lord Daquarius in the southwest room with the throne, south of the furnace icon.",
+        "es": "Habla con Lord Daquarius en la sala suroeste con el trono, al sur del icono del horno."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Kill a Black Knight.",
+        "es": "Mata a un Black Knight."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lord Daquarius again.",
+        "es": "Vuelve a hablar con Lord Daquarius."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Take twenty unnoted essence to the Mage of Zamorak in the south-east corner of Varrock. (opciones de chat: 2 Solus Dellagar) Make sure not to wear god armour.",
+        "es": "Lleva veinte essence sin marcar al Mage of Zamorak, en la esquina sureste de Varrock. (opciones de chat: 2 Solus Dellagar) Asegúrate de no llevar puesta armadura de ningún dios."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 1,
+      "text": {
+        "en": "If you don't already have the essence, have Aubury (in the rune shop north of the Mage of Zamorak) teleport you to the essence mine and mine the 20 essence.",
+        "es": "Si aún no tienes la essence, pide a Aubury (en la tienda de runas al norte del Mage of Zamorak) que te teletransporte a la mina de essence y extrae 20 essence."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 1,
+      "text": {
+        "en": "If you are wearing any Saradomin or Guthix gear, you must remove it before speaking to the Mage.",
+        "es": "Si llevas puesto cualquier equipo de Saradomin o Guthix, debes quitártelo antes de hablar con el Mage."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Talk again to give him the essence. (opciones de chat: 2 Solus Dellagar)",
+        "es": "Vuelve a hablar con él para darle la essence. (opciones de chat: 2 Solus Dellagar)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Go to Canifis and you will be contacted, complete the conversation. If you accidentally exit out, right-click 'Contact' on the commorb to restart the dialogue.",
+        "es": "Ve a Canifis, donde te contactarán; completa la conversación. Si sales accidentalmente, haz clic derecho en 'Contactar' en el commorb para reiniciar el diálogo."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Scan using the commorb just outside the Canifis bank to find Solus.",
+        "es": "Escanea con el commorb justo fuera del banco de Canifis para localizar a Solus."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "An item will appear in your backpack. The table below shows where to scan next. Repeat this 5 times.",
+        "es": "Aparecerá un objeto en tu mochila. La tabla de abajo muestra dónde escanear a continuación. Repite esto 5 veces."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 1,
+      "text": {
+        "en": "If you are wearing one, take off your ring of life; it will not help you and will be destroyed.",
+        "es": "Si llevas puesto un ring of life, quítatelo; no te servirá de nada y se destruirá."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Once you have received the pure essence, teleport to the Rune Essence mine by talking to Carwen Essencebinder in Burthorpe (fastest way from Burthorpe lodestone) or Aubury in Varrock or Archmage Sedridor in the Wizards' Tower. (opciones de chat: 1 yes)",
+        "es": "Una vez que hayas recibido la pure essence, teletranspórtate a la mina de Rune Essence hablando con Carwen Essencebinder en Burthorpe (la forma más rápida desde el lodestone de Burthorpe), con Aubury en Varrock o con Archmage Sedridor en la Wizards' Tower. (opciones de chat: 1 sí)"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Kill Solus Dellagar.",
+        "es": "Mata a Solus Dellagar."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Give Sir Amik Varze the hat. (opciones de chat: 2 Speak about the Wanted! quest.)",
+        "es": "Entrega el sombrero a Sir Amik Varze. (opciones de chat: 2 Hablar sobre la misión Wanted!.)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "id": "kindred-spirits",
+  "title": "Kindred Spirits",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:32:21.227Z",
+  "icon": "https://runescape.wiki/images/Kindred_Spirits_icon.png",
+  "series": "Sliske's Game",
+  "age": "6",
+  "timeline": "world guardian",
+  "members": true,
+  "combatLevel": "1",
+  "difficulty": "Experienced",
+  "length": "Long",
+  "releaseDate": "23 May 2016",
+  "startPoint": {
+    "en": "Talk to Linza at the smithy in Burthorpe.",
+    "es": "Habla con Linza en la herrería de Burthorpe."
+  },
+  "requirements": {
+    "quests": [
+      "Missing, Presumed Death",
+      "Deadliest Catch",
+      "Tower of Life"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 60
+      },
+      {
+        "skill": "Crafting",
+        "level": 60
+      },
+      {
+        "skill": "Herblore",
+        "level": 60
+      },
+      {
+        "skill": "Smithing",
+        "level": 60
+      }
+    ]
+  },
+  "items": [],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Herblore",
+      "amount": 25000,
+      "display": "25,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 25000,
+      "display": "25,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 25000,
+      "display": "25,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 25000,
+      "display": "25,000 experience lamp If you do not have four free backpack spaces, you must speak to Major Mary Rancour at her post in Burthorpe to claim the lamps.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Linza the Disgraced",
+      "display": "Access to a new Barrows sister, Linza the Disgraced, and her equipment",
+      "image": "https://runescape.wiki/images/thumb/Linza_the_Disgraced.png/100px-Linza_the_Disgraced.png?9bc75"
+    },
+    {
+      "type": "item",
+      "name": "Grip of the Gods",
+      "display": "Grip of the Gods",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Hanging in the Balance",
+      "display": "Hanging in the Balance",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Moral Maze",
+      "display": "Moral Maze",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Run, Escape!",
+      "display": "Run, Escape!",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Sliske's Cellmate",
+      "display": "Sliske's Cellmate",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Linza in Burthorpe, near the furnaces south of the Burthorpe lodestone. (opciones de chat: accept)",
+        "es": "Habla con Linza en Burthorpe, cerca de los hornos al sur de la piedra de viaje de Burthorpe. (opciones de chat: accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Relomia in the middle of Draynor Village. (opciones de chat: 1 Kindred Spirits • any • any)",
+        "es": "Habla con Relomia en el centro de Draynor Village. (opciones de chat: 1 Kindred Spirits • any • any)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Linza in south-eastern Daemonheim. Dismiss any followers.",
+        "es": "Habla con Linza en el sureste de Daemonheim. Despide a cualquier acompañante."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "(Optional) Bring some good healing food, no more than 20 pieces.",
+        "es": "(Opcional) Lleva algo de buena comida curativa, no más de 20 unidades."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Open the trapdoor (you need at least 6 free inventory spaces) (opciones de chat: 1 Yes, I'm ready.)",
+        "es": "Abre la trampilla (necesitas al menos 6 espacios libres en el inventario) (opciones de chat: 1 Yes, I'm ready.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Watch the cutscene.",
+        "es": "Observa la escena cinemática."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Interact with the Dragonkin guard.",
+        "es": "Interactúa con el Dragonkin guard."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sliske.",
+        "es": "Habla con Sliske."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sliske again. (opciones de chat: 1 You're a better actor.)",
+        "es": "Habla con Sliske de nuevo. (opciones de chat: 1 You're a better actor.)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Interact with the Dragonkin guard for some Dragonkin food.",
+        "es": "Interactúa con el Dragonkin guard para conseguir comida Dragonkin."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Use the Dragonkin food on the latrine.",
+        "es": "Usa la comida Dragonkin en la letrina."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Use the plate on the loose brick.",
+        "es": "Usa el plato en el ladrillo suelto."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Use the plate half on the brick to make a blade.",
+        "es": "Usa la mitad del plato en el ladrillo para hacer una hoja."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Use the blade on the barracks bed for a cloth strip.",
+        "es": "Usa la hoja en la cama de los barracones para conseguir una tira de tela."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Use the brick on the cloth strip to create a ludicrous flail.",
+        "es": "Usa el ladrillo en la tira de tela para crear un mayal ridículo."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sliske to give him the ludicrous flail, which he will use to distract the guard.",
+        "es": "Habla con Sliske para darle el mayal ridículo, que usará para distraer al guardia."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Interact with the Dragonkin guard to steal the bag of crystals.",
+        "es": "Interactúa con el Dragonkin guard para robar la bolsa de cristales."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sliske to get back a cloth strip.",
+        "es": "Habla con Sliske para recuperar una tira de tela."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Use the bag of crystals on the latrine to get an empty bottle.",
+        "es": "Usa la bolsa de cristales en la letrina para conseguir una botella vacía."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Use the cloth strip on the empty bottle to create a bottle on a string.",
+        "es": "Usa la tira de tela en la botella vacía para crear una botella con cuerda."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Use the bottle on a string on the latrine to get a bottle of acid.",
+        "es": "Usa la botella con cuerda en la letrina para conseguir una botella de ácido."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sliske.",
+        "es": "Habla con Sliske."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Use the bottle of acid on your cell door.",
+        "es": "Usa la botella de ácido en la puerta de tu celda."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sliske.",
+        "es": "Habla con Sliske."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Exit through either door.",
+        "es": "Sal por cualquiera de las dos puertas."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Watch the cutscene.",
+        "es": "Observa la escena cinemática."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Enter the fighting pit directly south.",
+        "es": "Entra en el foso de combate directamente al sur."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Dharok. (opciones de chat: 2 We need to solve this. • 2 Why not let them kill you? • 2 You are already dead.)",
+        "es": "Habla con Dharok. (opciones de chat: 2 We need to solve this. • 2 Why not let them kill you? • 2 You are already dead.)"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "After Dharok dies, talk to him again.",
+        "es": "Después de que Dharok muera, habla con él de nuevo."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Go north, navigate to the centre of the maze. Use the map here as reference.",
+        "es": "Ve hacia el norte y navega hasta el centro del laberinto. Usa el mapa aquí como referencia."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "First choice. (opciones de chat: 3 I think Ahrim should go left. • 1 You'd let someone else be hurt? • 2 That's no reason to hurt someone else.)",
+        "es": "Primera elección. (opciones de chat: 3 I think Ahrim should go left. • 1 You'd let someone else be hurt? • 2 That's no reason to hurt someone else.)"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "Second choice. (opciones de chat: 3 I think Ahrim should be hurt. • 1 Then suffer now so it won't be as bad later. • 3 Think about the innocents Ahrim.)",
+        "es": "Segunda elección. (opciones de chat: 3 I think Ahrim should be hurt. • 1 Then suffer now so it won't be as bad later. • 3 Think about the innocents Ahrim.)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "Third choice. (opciones de chat: 3 I think Ahrim should be hurt. • 2 It's more practical to hurt you. • 3 Sliske won't kill you, he wants you at the end.)",
+        "es": "Tercera elección. (opciones de chat: 3 I think Ahrim should be hurt. • 2 It's more practical to hurt you. • 3 Sliske won't kill you, he wants you at the end.)"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "Fourth choice. (opciones de chat: 3 I think Ahrim should be hurt. • 3 Going west gets it over with faster. • 2 It's the hesitation that makes it worse. • 1 So make there be only one choice - you.)",
+        "es": "Cuarta elección. (opciones de chat: 3 I think Ahrim should be hurt. • 3 Going west gets it over with faster. • 2 It's the hesitation that makes it worse. • 1 So make there be only one choice - you.)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "Fifth choice. (opciones de chat: 3 I think Ahrim should be hurt. • 2 Don't be weak Ahrim. • 3 Then fight, Ahrim! • 1 You'll remember it as a moment of weakness. • 2 You're Saradomin's holy warrior.)",
+        "es": "Quinta elección. (opciones de chat: 3 I think Ahrim should be hurt. • 2 Don't be weak Ahrim. • 3 Then fight, Ahrim! • 1 You'll remember it as a moment of weakness. • 2 You're Saradomin's holy warrior.)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "Sixth choice. (opciones de chat: 3 I think Ahrim should be hurt. • 1 You're pathetic Ahrim. • 3 A disappointment. • 3 ...knows he's strong enough to continue. • 2 ...Saradomin's greatest soldier.)",
+        "es": "Sexta elección. (opciones de chat: 3 I think Ahrim should be hurt. • 1 You're pathetic Ahrim. • 3 A disappointment. • 3 ...knows he's strong enough to continue. • 2 ...Saradomin's greatest soldier.)"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Watch the cutscene. (opciones de chat: any)",
+        "es": "Observa la escena cinemática. (opciones de chat: any)"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Enter the impressive doorway.",
+        "es": "Entra por la impresionante puerta."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Verac. (opciones de chat: 3 I need the Saradomin key. • 1 Make the cut • 1 Reach inside • 1 Go deeper • 1 Pull harder)",
+        "es": "Habla con Verac. (opciones de chat: 3 I need the Saradomin key. • 1 Make the cut • 1 Reach inside • 1 Go deeper • 1 Pull harder)"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Unlock the Saradomin statue.",
+        "es": "Desbloquea la estatua de Saradomin."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Verac.",
+        "es": "Habla con Verac."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Pick up the 4 books in the next rooms (do not use area loot to pick up the books).",
+        "es": "Recoge los 4 libros en las siguientes salas (no uses el saqueo de área para recoger los libros)."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the Orrery in the larger room against the western wall.",
+        "es": "Investiga el Orrery en la sala más grande, contra la pared oeste."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the shadow focus in the centre.",
+        "es": "Investiga el foco de sombra en el centro."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 1,
+      "text": {
+        "en": "If no cutscene occurs, lobby and pick up the books again, without area loot.",
+        "es": "Si no ocurre ninguna escena cinemática, vuelve al vestíbulo y recoge los libros de nuevo, sin usar el saqueo de área."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the lever. (opciones de chat: 3 Investigate the lever. • 1 Heroically)",
+        "es": "Investiga la palanca. (opciones de chat: 3 Investigate the lever. • 1 Heroically)"
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Watch or skip the cutscene.",
+        "es": "Observa o salta la escena cinemática."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Escape in 120 seconds.",
+        "es": "Escapa en 120 segundos."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "text": {
+        "en": "Run to the illuminated areas and try to climb the ropes.",
+        "es": "Corre hacia las zonas iluminadas e intenta trepar por las cuerdas."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "Right-click check on the ropes first to check if they're climbable. Using the wrong rope will result in you taking damage and getting stunned.",
+        "es": "Haz clic derecho para comprobar las cuerdas antes de usarlas y verificar si se pueden escalar. Usar la cuerda equivocada hará que sufras daño y quedes aturdido."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 1,
+      "text": {
+        "en": "Use Freedom and Anticipation where possible.",
+        "es": "Usa Freedom y Anticipation siempre que sea posible."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "text": {
+        "en": "The falling rocks can kill you (which will be an unsafe death), but running out of time will only result in the escape sequence being reset. If either happens, the minimap will be usable in the next escape attempt.",
+        "es": "Las rocas que caen pueden matarte (lo cual será una muerte insegura), pero quedarte sin tiempo solo hará que se reinicie la secuencia de escape. Si ocurre cualquiera de las dos cosas, el minimapa estará disponible en el siguiente intento de escape."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Dharok.",
+        "es": "Habla con Dharok."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

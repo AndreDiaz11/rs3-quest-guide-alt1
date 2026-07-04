@@ -1,0 +1,887 @@
+{
+  "id": "a-clockwork-syringe",
+  "title": "A Clockwork Syringe",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:58:12.972Z",
+  "icon": "https://runescape.wiki/images/A_Clockwork_Syringe_icon.png",
+  "series": "Pirate",
+  "age": "5",
+  "timeline": "legendary",
+  "members": true,
+  "combatLevel": "120-129",
+  "difficulty": "Master",
+  "length": "Long",
+  "releaseDate": "28 March 2011",
+  "startPoint": {
+    "en": "Enter the portal to your player-owned house.",
+    "es": "Entra en el portal de tu casa de jugador."
+  },
+  "requirements": {
+    "quests": [
+      "Rocking Out",
+      "The Great Brain Robbery",
+      "Creature of Fenkenstrain",
+      "The Restless Ghost",
+      "Morytania",
+      "Cabin Fever",
+      "Pirate's Treasure",
+      "Rum Deal",
+      "Morytania",
+      "Recipe for Disaster: Freeing Pirate Pete",
+      "Recipe for Disaster: Another Cook's Quest",
+      "Cook's Assistant",
+      "player-owned house"
+    ],
+    "skills": [
+      {
+        "skill": "Construction",
+        "level": 62
+      },
+      {
+        "skill": "Defence",
+        "level": 76
+      },
+      {
+        "skill": "Dungeoneering",
+        "level": 50
+      },
+      {
+        "skill": "Slayer",
+        "level": 61
+      },
+      {
+        "skill": "Smithing",
+        "level": 74
+      },
+      {
+        "skill": "Summoning",
+        "level": 65
+      },
+      {
+        "skill": "Thieving",
+        "level": 74
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Diving apparatus",
+      "display": "Diving apparatus (obtainable during quest)",
+      "image": "https://runescape.wiki/images/thumb/Diving_apparatus_detail.png/100px-Diving_apparatus_detail.png?55050"
+    },
+    {
+      "name": "Fishbowl helmet",
+      "display": "Fishbowl helmet (obtainable during quest)",
+      "image": "https://runescape.wiki/images/thumb/Fishbowl_helmet_detail.png/100px-Fishbowl_helmet_detail.png?8c963"
+    },
+    {
+      "name": "At least six free backpack spaces",
+      "display": "At least six free backpack spaces",
+      "image": null
+    }
+  ],
+  "kills": [
+    "Level 120 foe that uses melee and ranged, and can drain your Constitution, and a multi-way combat dungeon",
+    "3 Grimterns (level 70)",
+    "Barrelchest Mk II (level 98)",
+    "Beware of particularly strong General malpractitioners and 'rum'-pumped crabs, who hit high and are poisonous"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Defence",
+      "amount": 19000,
+      "display": "19,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 18000,
+      "display": "18,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Thieving",
+      "amount": 18000,
+      "display": "18,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Summoning",
+      "amount": 15000,
+      "display": "15,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 11250,
+      "display": "11,250 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Slayer",
+      "amount": 11000,
+      "display": "11,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Dungeoneering",
+      "amount": 5000,
+      "display": "5,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Braindeath Island 'Rum'-geon",
+      "display": "Ability to enter the Braindeath Island 'Rum'-geon and kill the 'Rum'-pumped crabs for the brackish blade.",
+      "image": "https://runescape.wiki/images/thumb/Rumgeon.png/100px-Rumgeon.png?eff3d"
+    },
+    {
+      "type": "item",
+      "name": "Pirate spell sheet",
+      "display": "A scroll allowing quick transport between Mos Le'Harmless and Braindeath Island.",
+      "image": "https://runescape.wiki/images/thumb/Pirate_spell_sheet_teleport.gif/100px-Pirate_spell_sheet_teleport.gif?b6dca"
+    },
+    {
+      "type": "item",
+      "name": "The Factory Floor",
+      "display": "The Factory Floor",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Go to your player-owned house portal, and attempt to enter your house.",
+        "es": "Ve al portal de tu casa de jugador e intenta entrar en tu casa."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to enter again and choose the \"A Clockwork Syringe\" option from your portal. (opciones de chat: 4 A Clockwork Syringe. • 1 Yes.)",
+        "es": "Intenta entrar de nuevo y elige la opción \"A Clockwork Syringe\" en tu portal. (opciones de chat: 4 A Clockwork Syringe. • 1 Yes.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Read the delivery note.(If Pete doesn't appear check your bank for the note) (opciones de chat: Accept)",
+        "es": "Lee la nota de entrega. (Si Pete no aparece, comprueba tu banco para ver la nota) (opciones de chat: Accept)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to enter your house again and select the \"A Clockwork Syringe\" option once more. (opciones de chat: 4 A Clockwork Syringe. • 1 Yes.)",
+        "es": "Intenta entrar de nuevo en tu casa y selecciona una vez más la opción \"A Clockwork Syringe\". (opciones de chat: 4 A Clockwork Syringe. • 1 Yes.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the large crate. (opciones de chat: 1 Yes.)",
+        "es": "Investiga el cajón grande. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Kill the level 98 Barrelchest Mk II.",
+        "es": "Mata al Barrelchest Mk II de nivel 98."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the estate agent.",
+        "es": "Habla con el agente inmobiliario."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Interrogate the zombie head.",
+        "es": "Interroga a la cabeza de zombi."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Torture the head using all five options.",
+        "es": "Tortura la cabeza usando las cinco opciones."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Interrogate the head once more when it reaches maximum stress.",
+        "es": "Interroga la cabeza una vez más cuando alcance el estrés máximo."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "With the zombie head, talk to Bill Teach on Mos Le'Harmless, either in the Other Inn or on The Adventurous ship. (opciones de chat: 1 Speak about A Clockwork Syringe.)",
+        "es": "Con la cabeza de zombi, habla con Bill Teach en Mos Le'Harmless, ya sea en el Other Inn o en el barco The Adventurous. (opciones de chat: 1 Speak about A Clockwork Syringe.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "Head to the docks of Port Phasmatys, cross the gangplank on the easternmost ship, right-click travel via Bill Teach to travel to Mos Le'Harmless.",
+        "es": "Dirígete a los muelles de Port Phasmatys, cruza la pasarela del barco más al este y haz clic derecho para viajar con Bill Teach hasta Mos Le'Harmless."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 1,
+      "text": {
+        "en": "Alternatively, charter a ship directly to Mos Le'Harmless from Port Sarim.",
+        "es": "Alternativamente, fleta un barco directamente hacia Mos Le'Harmless desde Port Sarim."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "You can also use fairy ring if you have repaired the bridge there and partial completion of A Fairy Tale III - Battle at Ork's Rift.",
+        "es": "También puedes usar un anillo de las hadas si has reparado el puente allí y has completado parcialmente A Fairy Tale III - Battle at Ork's Rift."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Walk north to Harpoon Joe's House of 'Rum'.",
+        "es": "Camina hacia el norte hasta Harpoon Joe's House of 'Rum'."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Sit in the chair in the north-east corner and ask Joe for a \"Long Drop\". (opciones de chat: 1 A Long Drop.)",
+        "es": "Siéntate en la silla de la esquina noreste y pídele a Joe un \"Long Drop\". (opciones de chat: 1 A Long Drop.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill.",
+        "es": "Habla con Bill."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Place-evidence on table nearby to set the zombie head on top.",
+        "es": "Coloca la evidencia en la mesa cercana para poner la cabeza de zombi encima."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill again.",
+        "es": "Habla de nuevo con Bill."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Climb-up the ladder.",
+        "es": "Sube por la escalera."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Select-spell with the pirate spell sheet in your backpack to travel to Braindeath Island. (opciones de chat: 1 Braindeath Island.)",
+        "es": "Selecciona un hechizo con la hoja de hechizos pirata en tu mochila para viajar a Braindeath Island. (opciones de chat: 1 Braindeath Island.)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 1,
+      "text": {
+        "en": "The spell can only be used on the of Mos Le'Harmless.",
+        "es": "El hechizo solo se puede usar en Mos Le'Harmless."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Go directly west and talk to Captain Braindeath. (opciones de chat: # Speak about A Clockwork Syringe. • 3 Nothing)",
+        "es": "Ve directamente al oeste y habla con Captain Braindeath. (opciones de chat: # Speak about A Clockwork Syringe. • 3 Nothing)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "Optional: get a diving apparatus and a fishbowl helmet from him, if you don't already have them.",
+        "es": "Opcional: consigue un aparato de buceo y un casco de pecera de él, si aún no los tienes."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Braindeath Island 'Rum'-geon entrance:",
+        "es": "Ve a la entrada de la 'Rum'-geon de Braindeath Island:"
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "Optional: If you have it, activate the Dungeoneering cape to travel directly there, skipping these steps. (opciones de chat: 8 Braindeath Island.)",
+        "es": "Opcional: si la tienes, activa la capa de Mazmorreo para viajar directamente allí, saltándote estos pasos. (opciones de chat: 8 Braindeath Island.)"
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "Climb-down the wooden stair to the west.",
+        "es": "Baja por la escalera de madera hacia el oeste."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 1,
+      "text": {
+        "en": "Head north past 50% Luke and open the gate.",
+        "es": "Dirígete al norte pasando a 50% Luke y abre la puerta."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 1,
+      "text": {
+        "en": "Head north across the two bridges to the mysterious entrance.",
+        "es": "Ve hacia el norte cruzando los dos puentes hasta la entrada misteriosa."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Equip your diving apparatus and fishbowl helmet.",
+        "es": "Equípate el aparato de buceo y el casco de pecera."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Enter the mysterious entrance.",
+        "es": "Entra en la entrada misteriosa."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "Optional: kill a crab in order to complete the hard Daemonheim achievement Alcrabholic.",
+        "es": "Opcional: mata a un cangrejo para completar el logro difícil de Daemonheim, Alcrabholic."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Go down all three paths and search the dead brewers to discover their names.",
+        "es": "Recorre los tres caminos y registra a los cerveceros muertos para descubrir sus nombres."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Return to Captain Braindeath and receive the Twiblick night special. (opciones de chat: # Talk about A Clockwork Syringe. • 1 I found the three missing brewers... • 1 Yes, I'm ready.)",
+        "es": "Vuelve con Captain Braindeath y recibe el Twiblick night special. (opciones de chat: # Talk about A Clockwork Syringe. • 1 I found the three missing brewers... • 1 Yes, I'm ready.)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Teleport back to Mos Le'Harmless with the pirate spell sheet. (opciones de chat: 2 Mos Le'Harmless.)",
+        "es": "Teletranspórtate de vuelta a Mos Le'Harmless con la hoja de hechizos pirata. (opciones de chat: 2 Mos Le'Harmless.)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Return to the basement in Joe's pub. (opciones de chat: 1 A Long Drop.)",
+        "es": "Regresa al sótano del pub de Joe. (opciones de chat: 1 A Long Drop.)"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill and receive the unlocked Twiblick night special.",
+        "es": "Habla con Bill y recibe el Twiblick night special desbloqueado."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Open the box. (opciones de chat: 1 Yes. • 1 Yes! • 1 Just open it already!)",
+        "es": "Abre la caja. (opciones de chat: 1 Yes. • 1 Yes! • 1 Just open it already!)"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill again. (opciones de chat: 2 How are we going to use this to get information? • Any • Any • Any • Any)",
+        "es": "Habla de nuevo con Bill. (opciones de chat: 2 How are we going to use this to get information? • Any • Any • Any • Any)"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 1,
+      "text": {
+        "en": "Select any of the remaining chat options to give the zombie head a makeover.",
+        "es": "Selecciona cualquiera de las opciones de chat restantes para darle un cambio de imagen a la cabeza de zombi."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill again.",
+        "es": "Habla de nuevo con Bill."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Return south to Bill's ship, cross the gangplank, talk to him, and use the \"A Clockwork Syringe\" option to begin your travel. (opciones de chat: # Speak about A Clockwork Syringe. • 1 Yes, let's get underway.)",
+        "es": "Regresa al sur hasta el barco de Bill, cruza la pasarela, habla con él y usa la opción \"A Clockwork Syringe\" para comenzar tu viaje. (opciones de chat: # Speak about A Clockwork Syringe. • 1 Yes, let's get underway.)"
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill. (opciones de chat: 3 Awesome! I'll get right on it!)",
+        "es": "Habla con Bill. (opciones de chat: 3 Awesome! I'll get right on it!)"
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Climb-down two ladders to the hold of the ship (lowest level).",
+        "es": "Baja por dos escaleras hasta la bodega del barco (el nivel más bajo)."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 1,
+      "text": {
+        "en": "Open and search the gun locker.",
+        "es": "Abre y registra la taquilla de armas."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "Open and search the repair locker.",
+        "es": "Abre y registra la taquilla de reparaciones."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 1,
+      "text": {
+        "en": "Take 3 gunpowder from the powder barrel.",
+        "es": "Coge 3 de pólvora del barril de pólvora."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 1,
+      "text": {
+        "en": "Take a barrel from the barrel stack.",
+        "es": "Coge un barril de la pila de barriles."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "text": {
+        "en": "Use the gunpowder on the chain.",
+        "es": "Usa la pólvora en la cadena."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "Use the anvil to smith the heated chain and cannonball together.",
+        "es": "Usa el yunque para forjar juntos la cadena calentada y la bala de cañón."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 1,
+      "text": {
+        "en": "Use your cannonball and chain on the barrel to receive a cannonball barrel-boat.",
+        "es": "Usa tu bala de cañón y cadena en el barril para recibir un barco-barril con bala de cañón."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Go back up the ladder to the main deck. On the eastern cannon, choose 'Take-The-Ride' option to go to Bloodsplatter Isle. (opciones de chat: 1 Yes.)",
+        "es": "Sube de nuevo por la escalera hasta la cubierta principal. En el cañón del este, elige la opción 'Take-The-Ride' para ir a Bloodsplatter Isle. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the Perch Rock. (opciones de chat: Any • 2 I'm ready to begin.) You must steer him around while dropping cannonballs on the Barrelchests.",
+        "es": "Investiga la Perch Rock. (opciones de chat: Any • 2 I'm ready to begin.) Debes guiarlo mientras lanzas balas de cañón sobre los Barrelchests."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Leave the Isle by diving at the pier and swim. (opciones de chat: 1 Swim.)",
+        "es": "Abandona la isla buceando desde el muelle y nadando. (opciones de chat: 1 Swim.)"
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Climb the ladder and talk to Bill on his ship, request to go to Bloodsplatter Isle. (opciones de chat: 2 Can you take me to Bloodsplatter Isle?)",
+        "es": "Sube por la escalera y habla con Bill en su barco, pídele que te lleve a Bloodsplatter Isle. (opciones de chat: 2 Can you take me to Bloodsplatter Isle?)"
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Walk in to the middle of the factory building in order to get caught.",
+        "es": "Camina hacia el centro del edificio de la fábrica para que te capturen."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Escape your cell and collect the following items directly north of the cell:",
+        "es": "Escapa de tu celda y recoge los siguientes objetos justo al norte de la celda:"
+      }
+    },
+    {
+      "index": 57,
+      "indent": 1,
+      "text": {
+        "en": "Surgical mask.",
+        "es": "Máscara quirúrgica."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 1,
+      "text": {
+        "en": "Roll of bandage.",
+        "es": "Rollo de vendas."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 1,
+      "text": {
+        "en": "Barrelchest parts (abscond with shelf).",
+        "es": "Piezas de Barrelchest (huye con la estantería)."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 1,
+      "text": {
+        "en": "Barrel from the stack.",
+        "es": "Un barril de la pila."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Return to Bill by using the signalling point at the end of the dock where you arrived. (opciones de chat: 1 Yes.)",
+        "es": "Regresa con Bill usando el punto de señalización al final del muelle donde llegaste. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Get the Barrelchest disguise from Bill. (opciones de chat: 1 Cap'n...I've a problem. • 1 I've gathered the things you asked for.)",
+        "es": "Consigue el disfraz de Barrelchest de Bill. (opciones de chat: 1 Cap'n...I've a problem. • 1 I've gathered the things you asked for.)"
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill again and have him send you back to the island. (opciones de chat: 2 Can you take me to Bloodsplatter Isle?)",
+        "es": "Habla de nuevo con Bill y pídele que te envíe de vuelta a la isla. (opciones de chat: 2 Can you take me to Bloodsplatter Isle?)"
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Enter the the factory and take 3 barrels from the stack and 3 gunpowder from the barrel - where you picked up the supplies for the Barrelchest disguise.",
+        "es": "Entra en la fábrica y coge 3 barriles de la pila y 3 pólvora del barril, donde recogiste los suministros para el disfraz de Barrelchest."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "Change into the Barrelchest disguise. Must be 3x3 clear around your character.",
+        "es": "Cámbiate al disfraz de Barrelchest. Debe haber un espacio despejado de 3x3 alrededor de tu personaje."
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "Letter One: Go to the south-west room, sabotage the southern gas canister. 'Tell-joke' to each of the Dis-orderly and then brutalise each of them. Investigate the noticeboard.",
+        "es": "Carta Uno: Ve a la sala del suroeste, sabotea el cilindro de gas del sur. Usa 'Tell-joke' con cada uno de los Dis-orderly y luego dales una paliza a cada uno. Investiga el tablón de anuncios."
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Letter Two: Kill each of Grimterns in the western-most room. Investigate the noticeboard after killing them.",
+        "es": "Carta Dos: Mata a cada uno de los Grimterns en la sala más al oeste. Investiga el tablón de anuncios después de matarlos."
+      }
+    },
+    {
+      "index": 68,
+      "indent": 0,
+      "text": {
+        "en": "Letter Three: Talk to one of the drunk zombies lying on the beds in the north-west room, then investigate the noticeboard.",
+        "es": "Carta Tres: Habla con uno de los zombis borrachos que yacen en las camas de la sala del noroeste, luego investiga el tablón de anuncios."
+      }
+    },
+    {
+      "index": 69,
+      "indent": 0,
+      "text": {
+        "en": "Letter Four: Loosen each of the three undead arms in the north-east room, then inspect one of the arms, finally investigate the noticeboard.",
+        "es": "Carta Cuatro: Afloja cada uno de los tres brazos no-muertos en la sala del noreste, luego inspecciona uno de los brazos, y finalmente investiga el tablón de anuncios."
+      }
+    },
+    {
+      "index": 70,
+      "indent": 0,
+      "text": {
+        "en": "Letter Five: This step requires at least 300 life points. Use the three gunpowder on the barrels in your backpack. Then in the south-eastern room, finish-building on each of the three incomplete barrelchest stations, then detonate one of them to destroy all three. Finally, investigate the noticeboard.",
+        "es": "Carta Cinco: Este paso requiere al menos 300 puntos de vida. Usa la pólvora en los barriles de tu mochila. Luego, en la sala del sureste, termina de construir cada una de las tres estaciones incompletas de barrelchest, y detona una de ellas para destruir las tres. Finalmente, investiga el tablón de anuncios."
+      }
+    },
+    {
+      "index": 71,
+      "indent": 0,
+      "text": {
+        "en": "Change out of the barrelchest disguise from your backpack. Changing in the middle of the factory gets you caught.",
+        "es": "Quítate el disfraz de barrelchest desde tu mochila. Cambiarte en medio de la fábrica hará que te capturen."
+      }
+    },
+    {
+      "index": 72,
+      "indent": 0,
+      "text": {
+        "en": "Return back to Bill by signalling him from the dock to the south. (opciones de chat: 1 Yes.)",
+        "es": "Regresa con Bill señalizándolo desde el muelle al sur. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 73,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill onboard his ship and show him the evidence files.",
+        "es": "Habla con Bill a bordo de su barco y muéstrale los archivos de evidencia."
+      }
+    },
+    {
+      "index": 74,
+      "indent": 0,
+      "text": {
+        "en": "Return to Bloodsplatter Isle. (opciones de chat: 2 Can you take me to Bloodsplatter Isle?)",
+        "es": "Regresa a Bloodsplatter Isle. (opciones de chat: 2 Can you take me to Bloodsplatter Isle?)"
+      }
+    },
+    {
+      "index": 75,
+      "indent": 1,
+      "text": {
+        "en": "The barrelchest disguise is no longer required.",
+        "es": "El disfraz de barrelchest ya no es necesario."
+      }
+    },
+    {
+      "index": 76,
+      "indent": 0,
+      "text": {
+        "en": "Head back into the factory and enter the easternmost room.",
+        "es": "Vuelve a la fábrica y entra en la sala más al este."
+      }
+    },
+    {
+      "index": 77,
+      "indent": 0,
+      "text": {
+        "en": "Pull the lever to activate the three conveyor belts. (opciones de chat: 1 Yes.)",
+        "es": "Tira de la palanca para activar las tres cintas transportadoras. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 78,
+      "indent": 0,
+      "text": {
+        "en": "Left-click the conveyor belts to load Bundle o' kegs onto them.",
+        "es": "Haz clic izquierdo en las cintas transportadoras para cargar Bundle o' kegs en ellas."
+      }
+    },
+    {
+      "index": 79,
+      "indent": 1,
+      "text": {
+        "en": "Continue loading the conveyor belts until each of the conveyor belts explode.",
+        "es": "Sigue cargando las cintas transportadoras hasta que cada una de ellas explote."
+      }
+    },
+    {
+      "index": 80,
+      "indent": 1,
+      "text": {
+        "en": "You can safely ignore the zombies that make it to you; killing them does nothing and they automatically die when all three belts explode.",
+        "es": "Puedes ignorar sin problema a los zombis que lleguen hasta ti; matarlos no sirve de nada y mueren automáticamente cuando las tres cintas explotan."
+      }
+    },
+    {
+      "index": 81,
+      "indent": 0,
+      "text": {
+        "en": "Jump over the destroyed wall between the conveyor lines, and head east through the door opening to the docks.",
+        "es": "Salta sobre la pared destruida entre las líneas transportadoras y dirígete al este a través de la puerta abierta hacia los muelles."
+      }
+    },
+    {
+      "index": 82,
+      "indent": 0,
+      "text": {
+        "en": "Climb-down the ladder at the end of the dock.",
+        "es": "Baja por la escalera al final del muelle."
+      }
+    },
+    {
+      "index": 83,
+      "indent": 0,
+      "text": {
+        "en": "Board the unoccupied zomboat and sink all the boats.",
+        "es": "Sube al zomboat desocupado y hunde todos los barcos."
+      }
+    },
+    {
+      "index": 84,
+      "indent": 1,
+      "text": {
+        "en": "Fire cannonballs at the boats either by left-clicking on them, or using the minigame menu.",
+        "es": "Dispara balas de cañón a los barcos haciendo clic izquierdo sobre ellos, o usando el menú del minijuego."
+      }
+    },
+    {
+      "index": 85,
+      "indent": 1,
+      "text": {
+        "en": "Don't forget to repair your boat when it gets to about 25% health - it is not instant and you can only repair while your boat is at a stand still.",
+        "es": "No olvides reparar tu barco cuando llegue a aproximadamente un 25% de vida; la reparación no es instantánea y solo puedes repararlo mientras tu barco está detenido."
+      }
+    },
+    {
+      "index": 86,
+      "indent": 0,
+      "text": {
+        "en": "After you sink all of the other boats, climb up the east ladder and talk to Bill on his ship.",
+        "es": "Después de hundir todos los demás barcos, sube por la escalera del este y habla con Bill en su barco."
+      }
+    },
+    {
+      "index": 87,
+      "indent": 0,
+      "text": {
+        "en": "Head back to the basement in Joe's pub. (opciones de chat: 1 A Long Drop)",
+        "es": "Regresa al sótano del pub de Joe. (opciones de chat: 1 A Long Drop)"
+      }
+    },
+    {
+      "index": 88,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill to finish the quest.",
+        "es": "Habla con Bill para terminar la misión."
+      }
+    },
+    {
+      "index": 89,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

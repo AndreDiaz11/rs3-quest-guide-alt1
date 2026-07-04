@@ -1,0 +1,1450 @@
+{
+  "id": "while-guthix-sleeps",
+  "title": "While Guthix Sleeps",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:30:51.731Z",
+  "icon": "https://runescape.wiki/images/While_Guthix_Sleeps_icon.png",
+  "series": "Mahjarrat Mysteries",
+  "age": "5",
+  "timeline": "mythic",
+  "members": true,
+  "combatLevel": "110-119",
+  "difficulty": "Grandmaster",
+  "length": "Very, Very Long",
+  "releaseDate": "26 November 2008",
+  "startPoint": {
+    "en": "Talk to Radimus Erkle in the Legends' Guild, which is located in the north-east of Ardougne.",
+    "es": "Habla con Radimus Erkle en el Legends' Guild, que está ubicado en el noreste de Ardougne."
+  },
+  "requirements": {
+    "quests": [
+      "Defender of Varrock",
+      "Shield of Arrav",
+      "The Knight's Sword",
+      "Family Crest",
+      "What Lies Below",
+      "Kudos",
+      "Historian Minas",
+      "Varrock Museum",
+      "Dream Mentor",
+      "Lunar Diplomacy",
+      "The Fremennik Trials",
+      "Lost City",
+      "Shilo Village",
+      "Jungle Potion",
+      "Temple of Ikov",
+      "Legends' Quest",
+      "Heroes' Quest",
+      "Shield of Arrav",
+      "Dragon Slayer",
+      "Jungle Potion",
+      "The Path of Glouphrie",
+      "The Eyes of Glouphrie",
+      "The Grand Tree",
+      "Tree Gnome Village",
+      "Waterfall Quest",
+      "Tears of Guthix",
+      "Wanted!",
+      "Recruitment Drive",
+      "Enter the Abyss (miniquest)",
+      "Morytania",
+      "The Hunt for Surok (miniquest)",
+      "What Lies Below",
+      "Warriors' Guild",
+      "Nature Spirit",
+      "Priest in Peril",
+      "The Restless Ghost",
+      "Morytania"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 25
+      },
+      {
+        "skill": "Defence",
+        "level": 40
+      },
+      {
+        "skill": "Farming",
+        "level": 65
+      },
+      {
+        "skill": "Herblore",
+        "level": 65
+      },
+      {
+        "skill": "Hunter",
+        "level": 55
+      },
+      {
+        "skill": "Magic",
+        "level": 75
+      },
+      {
+        "skill": "Summoning",
+        "level": 23
+      },
+      {
+        "skill": "Thieving",
+        "level": 60
+      },
+      {
+        "skill": "Attack",
+        "level": 99
+      },
+      {
+        "skill": "Strength",
+        "level": 99
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Sapphire lantern (lit)",
+      "display": "A lit sapphire lantern",
+      "image": "https://runescape.wiki/images/thumb/Sapphire_lantern_%28lit%29_detail.png/100px-Sapphire_lantern_%28lit%29_detail.png?16751"
+    },
+    {
+      "name": "Air rune",
+      "display": "Three air runes, an earth rune, a fire rune, a water rune, a mind rune, a law rune, and a death rune",
+      "image": "https://runescape.wiki/images/thumb/Air_rune_detail.png/100px-Air_rune_detail.png?86f40"
+    },
+    {
+      "name": "Logs",
+      "display": "A pile of logs (any type except acadia logs and eternal magic logs)",
+      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+    },
+    {
+      "name": "Charcoal",
+      "display": "A charcoal and a papyrus (both may easily be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Charcoal_detail.png/100px-Charcoal_detail.png?392b5"
+    },
+    {
+      "name": "Lantern lens",
+      "display": "Lantern lens",
+      "image": "https://runescape.wiki/images/thumb/Lantern_lens_detail.png/100px-Lantern_lens_detail.png?6eda3"
+    },
+    {
+      "name": "Mort myre fungus",
+      "display": "Mort myre fungus (can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Mort_myre_fungus_detail.png/100px-Mort_myre_fungus_detail.png?1d7ac"
+    },
+    {
+      "name": "Unpowered orb",
+      "display": "Unpowered orb",
+      "image": "https://runescape.wiki/images/thumb/Unpowered_orb_detail.png/100px-Unpowered_orb_detail.png?26a37"
+    },
+    {
+      "name": "Ring of charos (a)",
+      "display": "Ring of charos (a) or 5,000 coins",
+      "image": "https://runescape.wiki/images/Ring_of_charos_%28a%29_detail.png?0dbd0"
+    },
+    {
+      "name": "Coins",
+      "display": "or 5,000 coins",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "name": "Black Knights' Fortress",
+      "display": "Equipment to enter the Black Knights' Fortress",
+      "image": "https://runescape.wiki/images/thumb/Black_Knights%27_Fortress.png/100px-Black_Knights%27_Fortress.png?1a120"
+    },
+    {
+      "name": "NPC Contact",
+      "display": "Runes to cast the NPC Contact spell four times (8 air runes, 4 astral runes, and 4 cosmic runes)",
+      "image": "https://runescape.wiki/images/thumb/NPC_Contact.gif/100px-NPC_Contact.gif?4df7f"
+    },
+    {
+      "name": "Cosmic rune",
+      "display": "Runes for any charge orb spell (30 runes of a chosen element and three cosmic runes)",
+      "image": "https://runescape.wiki/images/thumb/Cosmic_rune_detail.png/100px-Cosmic_rune_detail.png?fa918"
+    },
+    {
+      "name": "Equipment for two different attack styles or Necromancy equipment",
+      "display": "Equipment for two different attack styles or Necromancy equipment",
+      "image": null
+    },
+    {
+      "name": "Snapdragon seed",
+      "display": "Either a snapdragon seed or 100 coins to buy one from Thaerisk",
+      "image": "https://runescape.wiki/images/thumb/Snapdragon_seed_detail.png/100px-Snapdragon_seed_detail.png?9b685"
+    }
+  ],
+  "kills": [
+    "2 Assassins (level 42)",
+    "Mercenary mage (level 70)",
+    "2 Mercenary Axemen (level 91)",
+    "3 Elite Black Knights (level 100)",
+    "Balance Elemental (level 117)",
+    "2 Tormented demons (level 119; your stats are boosted extremely high during the fight)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 5,
+      "display": "5 quest points",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Coins",
+      "display": "5,000 coins",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "type": "item",
+      "name": "Lump of dragon metal",
+      "display": "A lump of dragon metal",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Idria",
+      "amount": 4,
+      "display": "4 × 100,000 experience from Idria, in any skill that is at least 65.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Movario's base",
+      "display": "Opportunity to loot Movario's base. 100 magic logs, 100 coal, 100 fire runes, and 100 death runes; all items are in their un-noted form. A strange key teeth and a strange key loop",
+      "image": "https://runescape.wiki/images/thumb/Movario%27s_base.png/100px-Movario%27s_base.png?65a85"
+    },
+    {
+      "type": "item",
+      "name": "Tormented demon",
+      "display": "Opportunity to kill tormented demons for dragon metal pieces, dragon claw and dragon limbs.",
+      "image": "https://runescape.wiki/images/thumb/Tormented_Demon.png/100px-Tormented_Demon.png?a77cb"
+    },
+    {
+      "type": "item",
+      "name": "Pet",
+      "display": "A new pet – Broav.",
+      "image": "https://runescape.wiki/images/thumb/Summoning_SGS_pet.gif/100px-Summoning_SGS_pet.gif?8c5f5"
+    },
+    {
+      "type": "item",
+      "name": "Elite black armour",
+      "display": "A set of elite black armour",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Dagon'hai robe armour",
+      "display": "A set of Dagon'hai robe armour",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Black Knights' Catacombs",
+      "display": "Access to the Black Knights' Catacombs.",
+      "image": "https://runescape.wiki/images/thumb/Black_Knights%27_Catacombs_view.png/100px-Black_Knights%27_Catacombs_view.png?bbab8"
+    },
+    {
+      "type": "item",
+      "name": "Balance Elemental",
+      "display": "The Balance Elemental can be faced in Dominion Tower.",
+      "image": "https://runescape.wiki/images/thumb/Balance_Elemental.png/100px-Balance_Elemental.png?62d41"
+    },
+    {
+      "type": "item",
+      "name": "Blast fusion hammer",
+      "display": "Opportunity to buy blast fusion hammers from the Blast Furnace Foreman.",
+      "image": "https://runescape.wiki/images/thumb/Blast_fusion_hammer_detail.png/100px-Blast_fusion_hammer_detail.png?eed0c"
+    },
+    {
+      "type": "item",
+      "name": "Dangerous Logic",
+      "display": "Dangerous Logic (after entering Movario's base)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Black of Knight",
+      "display": "Black of Knight (in the Black Knights' Fortress dungeon)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Evil Within",
+      "display": "The Evil Within (in the cutscene where Lucien slays the heroes)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Sound of Guthix",
+      "display": "The Sound of Guthix (in the Guthixian temple)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Temple Desecrated",
+      "display": "Temple Desecrated (at the battle with the Balance Elemental near the Stone of Jas)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Radimus Erkle in the Legends' Guild (fairy ring ). (opciones de chat: 4 Yes, I'm interested, where do I report? • Accept)",
+        "es": "Habla con Radimus Erkle en el Legends' Guild (fairy ring ). (opciones de chat: 4 Sí, estoy interesado, ¿dónde tengo que presentarme? • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "In Taverley, talk to Ivy Sophista in the house west of the summoning obelisk. (opciones de chat: 1 Ask about 'While Guthix Sleeps'. • 4 Our friend in common places great faith in totems.)",
+        "es": "En Taverley, habla con Ivy Sophista en la casa al oeste del obelisco de invocación. (opciones de chat: 1 Preguntar sobre 'While Guthix Sleeps'. • 4 Nuestro amigo en común tiene mucha fe en los tótems.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Go upstairs and talk to Thaerisk Cemphier. Kill both assassins that appear.",
+        "es": "Sube las escaleras y habla con Thaerisk Cemphier. Mata a los dos asesinos que aparecen."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Thaerisk again. (opciones de chat: 1 What efforts are you making against Lucien? • 2 What are our options? • 2 I know about the 'Fist of Guthix'. • 3 What do you need me to do? • 4 Okay, thanks.)",
+        "es": "Habla con Thaerisk de nuevo. (opciones de chat: 1 ¿Qué esfuerzos estás haciendo contra Lucien? • 2 ¿Cuáles son nuestras opciones? • 2 Sé lo del 'Fist of Guthix'. • 3 ¿Qué necesitas que haga? • 4 Vale, gracias.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Reldo in Varrock Palace library and \"Talk about Lucien and Movario\" (opciones de chat: ? Talk about Lucien and Movario. <!-- The option number is variable; do not change it to 2, 3, 4, or 5 --> • 1 What can you tell me about Movario? • 2 What does Movario do? • 3 Where does Movario live? • 4 Okay, thanks.)",
+        "es": "Habla con Reldo en la biblioteca de Varrock Palace y elige \"Hablar sobre Lucien y Movario\" (opciones de chat: ? Hablar sobre Lucien y Movario. <!-- The option number is variable; do not change it to 2, 3, 4, or 5 --> • 1 ¿Qué puedes contarme sobre Movario? • 2 ¿A qué se dedica Movario? • 3 ¿Dónde vive Movario? • 4 Vale, gracias.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "If Desperate Times is completed, you need to choose one more chat option before proceed the aforementioned quest dialogue. (opciones de chat: 2 [Talk to Reldo.])",
+        "es": "Si has completado Desperate Times, tendrás que elegir una opción de chat más antes de continuar con el diálogo de misión mencionado. (opciones de chat: 2 [Hablar con Reldo.])"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Hunting expert in Feldip Hunter area and ask about tracking down a person. (opciones de chat: ? A creature to help track down a person. <!-- The option number is variable for everyone; do not change it to 2, 3, 4, or 5 --> • 2 How can I catch a wild broav? • 3 What do I do once I've caught a broav? • 4 Okay, thanks.) She is north of Oo'glog lodestone, or south-west of fairy ring . After the conversation she will give you a mort myre fungus.",
+        "es": "Habla con la experta en caza en la zona de Feldip Hunter y pregunta sobre cómo rastrear a una persona. (opciones de chat: ? Una criatura que ayude a rastrear a una persona. <!-- The option number is variable for everyone; do not change it to 2, 3, 4, or 5 --> • 2 ¿Cómo puedo atrapar a un broav salvaje? • 3 ¿Qué hago una vez que haya atrapado a un broav? • 4 Vale, gracias.) Está al norte del lodestone de Oo'glog, o al suroeste del fairy ring . Tras la conversación, te dará un mort myre fungus."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Go west and trap pit (which builds a pitfall trap) at the square trap pit (uses one set of logs), then use your mort myre fungus on the built trap.",
+        "es": "Ve al oeste y coloca una trampa (trap pit, que construye una trampa de foso) en el square trap pit (usa un set de logs), luego usa tu mort myre fungus en la trampa construida."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Dismantle the collapsed trap to obtain an unconscious broav.",
+        "es": "Desmantela la trampa colapsada para obtener un broav inconsciente."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Hunting expert again about tracking a person. (opciones de chat: ? A creature to help track down a person.) Dismiss any followers you might have before doing the next steps.",
+        "es": "Habla de nuevo con la experta en caza sobre rastrear a una persona. (opciones de chat: ? Una criatura que ayude a rastrear a una persona.) Despide a cualquier acompañante que puedas tener antes de hacer los siguientes pasos."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Head to the west of Fight Arena and into the laundry room two houses north of the pub. (Kandarin monastery Teleport then run south, or Watchtower Teleport and run north are quick ways to get there.)",
+        "es": "Dirígete al oeste de Fight Arena y entra en la sala de lavandería, dos casas al norte del pub. (Teletransportarte al Kandarin monastery y correr hacia el sur, o usar el Watchtower Teleport y correr hacia el norte, son formas rápidas de llegar.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "With your ring of charos (a) equipped, talk to the Khazard launderer to obtain dirty laundry. (opciones de chat: 2 Do you know someone called Movario? • 2 (Charm) Tell me all you know about Movario.)",
+        "es": "Con tu ring of charos (a) equipado, habla con la lavandera de Khazard para obtener ropa sucia. (opciones de chat: 2 ¿Conoces a alguien llamado Movario? • 2 (Encanto) Cuéntame todo lo que sepas sobre Movario.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 1,
+      "text": {
+        "en": "If you brought coins instead, take them out of your coin pouch and use them on the launderer. (opciones de chat: 2 No, I need information. Do you know someone called Movario? • 1 Offer five thousand coins for information on Movario.)",
+        "es": "Si has traído monedas en su lugar, sácalas de tu coin pouch y úsalas en la lavandera. (opciones de chat: 2 No, necesito información. ¿Conoces a alguien llamado Movario? • 1 Ofrecer cinco mil monedas por información sobre Movario.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Khazard Battleground north-west (north of Tree Gnome Village and across the bridges).",
+        "es": "Ve al Khazard Battleground al noroeste (al norte de Tree Gnome Village y cruzando los puentes)."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Climb-over the crumbled wall inside the north-westernmost building.",
+        "es": "Trepa el muro derrumbado dentro del edificio más al noroeste."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Drop your Broav in the room with the broken table then use the dirty laundry on him.",
+        "es": "Suelta a tu Broav en la sala con la mesa rota y luego usa la ropa sucia en él."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Search the broken table to reveal a trapdoor, then go down.",
+        "es": "Registra la mesa rota para revelar una trampilla, luego baja."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Pick-up your Broav.",
+        "es": "Recoge a tu Broav."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Go through the door, and follow the path to the north, then climb-down the stairs.",
+        "es": "Cruza la puerta y sigue el camino hacia el norte, luego baja las escaleras."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Search the old battered door and find the correct rune to use on it. After you enter the correct rune, you'll hear a click.",
+        "es": "Registra la vieja puerta desgastada y encuentra la runa correcta para usar en ella. Al introducir la runa correcta, oirás un clic."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Search the door again (boost your Thieving level if needed), and you will find a trap to disarm. (opciones de chat: 1 Yes, I'm an awesome thief, I'll disable it easily!)",
+        "es": "Registra la puerta de nuevo (aumenta tu nivel de Robo si es necesario), y encontrarás una trampa que desarmar. (opciones de chat: 1 ¡Sí, soy un ladrón increíble, la desactivaré fácilmente!)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Go through the old battered door.",
+        "es": "Cruza la vieja puerta desgastada."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Search the painting on the east wall .",
+        "es": "Registra el cuadro en la pared este ."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Choose the Search option on the bookcases until you receive the chat response .",
+        "es": "Elige la opción de registrar en las estanterías hasta que recibas la respuesta de chat ."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Follow the wire that faintly glows to the next bookshelf. (for those with colourblindness, zoom the camera in to see the wire slightly pulsate)",
+        "es": "Sigue el cable que brilla tenuemente hasta la siguiente estantería. (para quienes tengan daltonismo, acerca la cámara para ver el cable pulsar ligeramente)"
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "Search that bookshelf.",
+        "es": "Registra esa estantería."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "Repeat, searching each bookshelf until the electricity on the gate disappears.",
+        "es": "Repite, registrando cada estantería hasta que la electricidad de la verja desaparezca."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Open the gate and search the spiral staircase to disarm the trap, then climb-up.",
+        "es": "Abre la verja y registra la escalera de caracol para desarmar la trampa, luego sube."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Search the desk to obtain Movario's notes (volume 1)",
+        "es": "Registra el escritorio para obtener las notas de Movario (volumen 1)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "Read the notes.",
+        "es": "Lee las notas."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Pick-up the waste-paper basket.",
+        "es": "Recoge la papelera."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "With Movario's notes in your backpack, search the basket.",
+        "es": "Con las notas de Movario en tu mochila, registra la papelera."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Search the bookcase to the west of the waste-paper basket.",
+        "es": "Registra la estantería al oeste de la papelera."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "Use the ruby key on the bookcase.",
+        "es": "Usa la ruby key en la estantería."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "Climb-up the stairs just north of you.",
+        "es": "Sube las escaleras justo al norte de ti."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Search the bed.",
+        "es": "Registra la cama."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "Use the ruby key on the bed chest.",
+        "es": "Usa la ruby key en el baúl de la cama."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Search the bed chest to disarm the traps You may need to attempt again until you disarm the trap.",
+        "es": "Registra el baúl de la cama para desarmar las trampas. Puede que necesites intentarlo varias veces hasta desarmar la trampa."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Use the ruby key on the chest. Open and search the chest to obtain a strange key loop, strange key teeth, and Movario's notes (volume 2). Read these notes too.",
+        "es": "Usa la ruby key en el cofre. Ábrelo y regístralo para obtener un strange key loop, unos strange key teeth y las notas de Movario (volumen 2). Lee también estas notas."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Climb back down twice to the wire room and cross-over the broken wall, then search the drawers.",
+        "es": "Baja de nuevo dos veces hasta la sala del cable y cruza el muro roto, luego registra los cajones."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Look-at the thermometer. Note down the number it says. Check your current character's weight in your equipment interface. You must equalise both numbers. If you weigh more than the number: subtract the number from the thermometer from your character's weight to get the result number. For example: if the thermometer says 20 and you weigh 30, you would need 10. If you weigh less than the number: subtract your character's weight from the number from to get the result number.",
+        "es": "Mira el termómetro. Anota el número que marca. Comprueba el peso actual de tu personaje en la interfaz de equipo. Debes igualar ambos números. Si pesas más que el número indicado: resta el número del termómetro al peso de tu personaje para obtener el número resultado. Por ejemplo: si el termómetro marca 20 y pesas 30, necesitarías 10. Si pesas menos que el número indicado: resta el peso de tu personaje al número del termómetro para obtener el número resultado."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "text": {
+        "en": "Pick up your Broav if you haven't already, otherwise it will mess with the numbers.",
+        "es": "Recoge a tu Broav si aún no lo has hecho, de lo contrario afectará a los números."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "On the floor of this room is a Pile of weights. Take weights equalling the result number you got. If you have been following the guide, you will need to take two 2kg weights, as Movario's notes and the key parts weigh 4kg collectively. CAUTION: You will not be able to recover any items dropped in this room.",
+        "es": "En el suelo de esta sala hay un montón de pesas (Pile of weights). Coge pesas que sumen el número resultado que obtuviste. Si has seguido esta guía, necesitarás coger dos pesas de 2 kg, ya que las notas de Movario y las partes de la llave pesan 4 kg en total. PRECAUCIÓN: No podrás recuperar ningún objeto que sueltes en esta sala."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Climb back up the spiral staircase. If you weigh more than the number: use all the weights on the statue just north of you, then open the door just east. If you weigh less than the number: keep the weights in your inventory and open the door east of the statue. Solving this part successfully (after you open the door) gives the chat response . If you are having trouble with this part, check to make sure you aren't wearing weight-reducing equipment such as the Boots of lightness. If so, un-equip and try again.",
+        "es": "Sube de nuevo la escalera de caracol. Si pesas más que el número indicado: usa todas las pesas en la estatua justo al norte de ti, luego abre la puerta justo al este. Si pesas menos que el número indicado: mantén las pesas en tu inventario y abre la puerta al este de la estatua. Resolver esta parte correctamente (tras abrir la puerta) da la respuesta de chat . Si tienes problemas con esta parte, asegúrate de no llevar equipo que reduzca el peso, como las Boots of lightness. Si es así, quítatelo e inténtalo de nuevo."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Head east through the door and up the ladder to leave the hideout.",
+        "es": "Dirígete al este a través de la puerta y sube por la escalera para salir del escondite."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Return to Thaerisk Cemphier in Taverley with the items obtained in Movario's base. (opciones de chat: 2 What should I do now? • 5 Sorry, I have to go.)",
+        "es": "Vuelve con Thaerisk Cemphier en Taverley con los objetos obtenidos en la base de Movario. (opciones de chat: 2 ¿Qué debería hacer ahora? • 5 Lo siento, tengo que irme.)"
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Head to the building in McGrubor's Wood (Seers' Village lodestone or fairy ring ), and a cutscene will start. Kill all the mercenaries.",
+        "es": "Dirígete al edificio en McGrubor's Wood (lodestone de Seers' Village o fairy ring ), y comenzará una escena. Mata a todos los mercenarios."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Search the dead mercenaries and talk to the wounded Guardian of Armadyl.",
+        "es": "Registra a los mercenarios muertos y habla con el Guardian of Armadyl herido."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Go upstairs in the Seers' Village pub and talk to Idria. (opciones de chat: 1 Do you know where Lucien is? • 3 How can I get to Lucien?)",
+        "es": "Sube las escaleras en el pub de Seers' Village y habla con Idria. (opciones de chat: 1 ¿Sabes dónde está Lucien? • 3 ¿Cómo puedo llegar hasta Lucien?)"
+      }
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sir Tiffy Cashien in the Falador Park. (opciones de chat: 1 While Guthix Sleeps.) or (opciones de chat: 2) if the Slug Menace hasn't been completed.",
+        "es": "Habla con Sir Tiffy Cashien en el Falador Park. (opciones de chat: 1 While Guthix Sleeps.) o (opciones de chat: 2) si no has completado Slug Menace."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Go to the White Knights' Castle.",
+        "es": "Ve al White Knights' Castle."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "In the eastern room on the , talk to Akrisae. (opciones de chat: 3 How can I get to Draynor? • 1 Yes, please!)",
+        "es": "En la sala este de la , habla con Akrisae. (opciones de chat: 3 ¿Cómo puedo llegar a Draynor? • 1 ¡Sí, por favor!)"
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "At Draynor Village, use the teleorb on the shady stranger wearing white robes and near the shore. This may take several attempts.",
+        "es": "En Draynor Village, usa el teleorb en el extraño sospechoso que lleva túnicas blancas y está cerca de la orilla. Puede que necesites varios intentos."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Akrisae in the White Knight's Castle. Cutscene plays.",
+        "es": "Habla con Akrisae en el White Knight's Castle. Se reproduce una escena."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "If you don't have a snapdragon seed for the next step, buy one from Thaerisk. (opciones de chat: 2 Could you help me get a snapdragon seed? • 1 Yes.)",
+        "es": "Si no tienes una snapdragon seed para el siguiente paso, cómprale una a Thaerisk. (opciones de chat: 2 ¿Podrías ayudarme a conseguir una snapdragon seed? • 1 Sí.)"
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Thaerisk to teleport to Port Sarim. (opciones de chat: 3 Can you teleport me to Port Sarim, please?)",
+        "es": "Habla con Thaerisk para teletransportarte a Port Sarim. (opciones de chat: 3 ¿Puedes teletransportarme a Port Sarim, por favor?)"
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Betty in the Port Sarim magic shop for truth serum and pink dye. (opciones de chat: 1 Talk to Betty about While Guthix Sleeps. • 1 Yes, please can I have a standard truth serum? • 1 Yes, please!) (If The Hand In The Sand quest is completed (opciones de chat: 2 Talk to Betty about While Guthix Sleeps. • 1 Yes, please can I have a standard truth serum? • 1 Yes, please!))",
+        "es": "Habla con Betty en la tienda de magia de Port Sarim para conseguir el truth serum y el pink dye. (opciones de chat: 1 Hablar con Betty sobre While Guthix Sleeps. • 1 Sí, por favor, ¿puedo tener un standard truth serum? • 1 ¡Sí, por favor!) (Si has completado la misión The Hand In The Sand (opciones de chat: 2 Hablar con Betty sobre While Guthix Sleeps. • 1 Sí, por favor, ¿puedo tener un standard truth serum? • 1 ¡Sí, por favor!))"
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "If the snapdragon seed isn't already on the counter, talk to her again until she places the seed on the counter.",
+        "es": "Si la snapdragon seed no está ya en el mostrador, habla con ella de nuevo hasta que coloque la semilla en el mostrador."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Use the pink dye on your lantern lens.",
+        "es": "Usa el pink dye en tu lantern lens."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Stand just inside the doorway, use the lens with the counter and take the enriched snapdragon seed by searching the counter.",
+        "es": "Colócate justo dentro de la puerta, usa la lens con el mostrador y coge la enriched snapdragon seed registrando el mostrador."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "If not already, switch to the Lunar spellbook.",
+        "es": "Si no lo has hecho ya, cambia al Lunar spellbook."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Using the most western staircase in White Knight Castle, head to the top of the castle and plant the seed in the herb patch.",
+        "es": "Usando la escalera más al oeste en White Knight Castle, dirígete a la parte superior del castillo y planta la semilla en el herb patch."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Go back downstairs and talk to Thaerisk on the ground floor of the eastern part of the castle. (opciones de chat: 1 I've planted the enriched snapdragon seed.)",
+        "es": "Baja de nuevo y habla con Thaerisk en la planta baja de la parte este del castillo. (opciones de chat: 1 He plantado la enriched snapdragon seed.)"
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Cast NPC Contact to talk to the following people:",
+        "es": "Lanza NPC Contact para hablar con las siguientes personas:"
+      }
+    },
+    {
+      "index": 64,
+      "indent": 1,
+      "text": {
+        "en": "Turael (opciones de chat: 1 I need to talk to you about Lucien.)",
+        "es": "Turael (opciones de chat: 1 Necesito hablarte sobre Lucien.)"
+      }
+    },
+    {
+      "index": 65,
+      "indent": 1,
+      "text": {
+        "en": "Duradel (opciones de chat: 1 I need to talk to you about Lucien.)",
+        "es": "Duradel (opciones de chat: 1 Necesito hablarte sobre Lucien.)"
+      }
+    },
+    {
+      "index": 66,
+      "indent": 1,
+      "text": {
+        "en": "Mazchna (opciones de chat: 1 I need to talk to you about Lucien.)",
+        "es": "Mazchna (opciones de chat: 1 Necesito hablarte sobre Lucien.)"
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Hazelmere upstairs in the hut east of Yanille near fairy ring .",
+        "es": "Habla con Hazelmere arriba en la cabaña al este de Yanille, cerca del fairy ring ."
+      }
+    },
+    {
+      "index": 68,
+      "indent": 0,
+      "text": {
+        "en": "Pick the enriched snapdragon (top of west tower at White Knights' Castle) and mix it into your truth serum for a super truth serum.",
+        "es": "Recoge el enriched snapdragon (arriba de la torre oeste en White Knights' Castle) y mézclalo con tu truth serum para obtener un super truth serum."
+      }
+    },
+    {
+      "index": 69,
+      "indent": 0,
+      "text": {
+        "en": "Head back to the room with Thaerisk and the others.",
+        "es": "Vuelve a la sala con Thaerisk y los demás."
+      }
+    },
+    {
+      "index": 70,
+      "indent": 0,
+      "text": {
+        "en": "Open and search the drawers to find charcoal and papyrus.",
+        "es": "Abre y registra los cajones para encontrar charcoal y papyrus."
+      }
+    },
+    {
+      "index": 71,
+      "indent": 0,
+      "text": {
+        "en": "Go into the cell and use the serum on the shady stranger. (opciones de chat: ~) The correct chat option varies from player to player. Exhaust chat options until you reach the correct one so that the stranger drinks the serum.",
+        "es": "Entra en la celda y usa el suero en el extraño sospechoso. (opciones de chat: ~) La opción de chat correcta varía de un jugador a otro. Agota las opciones de chat hasta llegar a la correcta para que el extraño beba el suero."
+      }
+    },
+    {
+      "index": 72,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Idria (she is now in this same room).",
+        "es": "Habla con Idria (ahora está en esta misma sala)."
+      }
+    },
+    {
+      "index": 73,
+      "indent": 0,
+      "text": {
+        "en": "Cast NPC Contact to talk to Cyrisus.",
+        "es": "Lanza NPC Contact para hablar con Cyrisus."
+      }
+    },
+    {
+      "index": 74,
+      "indent": 0,
+      "text": {
+        "en": "Head to the Warriors' Guild and talk to the following:",
+        "es": "Dirígete al Warriors' Guild y habla con los siguientes:"
+      }
+    },
+    {
+      "index": 75,
+      "indent": 1,
+      "text": {
+        "en": "Ghommal just outside",
+        "es": "Ghommal, justo fuera"
+      }
+    },
+    {
+      "index": 76,
+      "indent": 1,
+      "text": {
+        "en": "Harrallak Menarous in the main lobby",
+        "es": "Harrallak Menarous en el vestíbulo principal"
+      }
+    },
+    {
+      "index": 77,
+      "indent": 1,
+      "text": {
+        "en": "Sloane upstairs",
+        "es": "Sloane arriba"
+      }
+    },
+    {
+      "index": 78,
+      "indent": 0,
+      "text": {
+        "en": "Return to the White Knights' Castle and speak to Idria, then Akrisae.",
+        "es": "Vuelve al White Knights' Castle y habla con Idria, luego con Akrisae."
+      }
+    },
+    {
+      "index": 79,
+      "indent": 0,
+      "text": {
+        "en": "Switch back to the standard spellbook.",
+        "es": "Vuelve al standard spellbook."
+      }
+    },
+    {
+      "index": 80,
+      "indent": 0,
+      "text": {
+        "en": "You will need 11 free inventory slots to proceed.",
+        "es": "Necesitarás 11 espacios libres en el inventario para continuar."
+      }
+    },
+    {
+      "index": 81,
+      "indent": 0,
+      "text": {
+        "en": "Equip your disguise and head inside Black Knights' Fortress with all the items above or use the skull of remembrance to teleport to the ritual chamber, and make your way down to the .",
+        "es": "Equípate tu disfraz y entra en Black Knights' Fortress con todos los objetos mencionados anteriormente, o usa el skull of remembrance para teletransportarte a la cámara ritual, y abre camino hacia abajo hasta la ."
+      }
+    },
+    {
+      "index": 82,
+      "indent": 0,
+      "text": {
+        "en": "Climb down the ladder in the south-west corner.",
+        "es": "Baja por la escalera en la esquina suroeste."
+      }
+    },
+    {
+      "index": 83,
+      "indent": 0,
+      "text": {
+        "en": "Along the east wall, right-click search the floor tile. Cast your charge orb spell on the floor tile.",
+        "es": "A lo largo de la pared este, haz clic derecho y registra la baldosa del suelo. Lanza tu hechizo charge orb en la baldosa del suelo."
+      }
+    },
+    {
+      "index": 84,
+      "indent": 0,
+      "text": {
+        "en": "Climb-down the trapdoor.",
+        "es": "Baja por la trampilla."
+      }
+    },
+    {
+      "index": 85,
+      "indent": 0,
+      "text": {
+        "en": "Kill Elite Black Knights to obtain a helmet, platebody and platelegs if you don't have a set already. The three pieces of armour are guaranteed to drop until 3 pieces are received. Do not use multi-target abilities as killing two Elite Black Knights at once will cause them both to drop the same piece, with both counting toward the first 3 pieces received. Equip the full set to remove their aggression.",
+        "es": "Mata a los Elite Black Knights para obtener un helmet, un platebody y unas platelegs si aún no tienes un set completo. Las tres piezas de armadura tienen garantizado caer hasta que recibas las 3 piezas. No uses habilidades de multiobjetivo, ya que matar a dos Elite Black Knights a la vez hará que ambos suelten la misma pieza, y ambas contarán para las primeras 3 piezas recibidas. Equípate el set completo para eliminar su agresividad."
+      }
+    },
+    {
+      "index": 86,
+      "indent": 0,
+      "text": {
+        "en": "Head north by jumping across the broken bridge, go east, and climb up the wall.",
+        "es": "Dirígete al norte saltando por el puente roto, ve al este y trepa por la pared."
+      }
+    },
+    {
+      "index": 87,
+      "indent": 0,
+      "text": {
+        "en": "Jump over the barricade and walk north-west until you reach a fork in the path, then head east.",
+        "es": "Salta la barricada y camina hacia el noroeste hasta llegar a una bifurcación en el camino, luego dirígete al este."
+      }
+    },
+    {
+      "index": 88,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Silif in the northmost cell. (opciones de chat: 1 Silif, it's me, [Name]. Are you okay? • 2 I want to get you out of here. Any suggestions? • 3 I'll be back to try to get you out.)",
+        "es": "Habla con Silif en la celda más al norte. (opciones de chat: 1 Silif, soy yo, [Name]. ¿Estás bien? • 2 Quiero sacarte de aquí. ¿Alguna sugerencia? • 3 Volveré para intentar sacarte de aquí.)"
+      }
+    },
+    {
+      "index": 89,
+      "indent": 0,
+      "text": {
+        "en": "Go back west and enter the northern centre Solid black door.",
+        "es": "Vuelve al oeste y entra por la Solid black door central del norte."
+      }
+    },
+    {
+      "index": 90,
+      "indent": 0,
+      "text": {
+        "en": "Search all desks and wardrobes in the room for:",
+        "es": "Registra todos los escritorios y armarios de la sala en busca de:"
+      }
+    },
+    {
+      "index": 91,
+      "indent": 1,
+      "text": {
+        "en": "Another set of elite black armour",
+        "es": "Otro set de elite black armour"
+      }
+    },
+    {
+      "index": 92,
+      "indent": 1,
+      "text": {
+        "en": "Full set of Dagon'hai robes",
+        "es": "Un set completo de Dagon'hai robes"
+      }
+    },
+    {
+      "index": 93,
+      "indent": 1,
+      "text": {
+        "en": "Restore potion (4) (Do not drink the restore potion)",
+        "es": "Restore potion (4) (No bebas la restore potion)"
+      }
+    },
+    {
+      "index": 94,
+      "indent": 1,
+      "text": {
+        "en": "Strange teleorb",
+        "es": "Strange teleorb"
+      }
+    },
+    {
+      "index": 95,
+      "indent": 1,
+      "text": {
+        "en": "Lobster (Do not eat the lobster)",
+        "es": "Lobster (No te comas la lobster)"
+      }
+    },
+    {
+      "index": 96,
+      "indent": 2,
+      "text": {
+        "en": "If you accidentally eat the lobster, any kind of cooked food will work as well.",
+        "es": "Si te comes accidentalmente la lobster, cualquier tipo de comida cocinada también funcionará."
+      }
+    },
+    {
+      "index": 97,
+      "indent": 0,
+      "text": {
+        "en": "Right-click search the key rack on the northern wall (a few tiles east of the wardrobe) for a Cell key.",
+        "es": "Haz clic derecho y registra el key rack en la pared norte (unas cuantas baldosas al este del armario) para conseguir una Cell key."
+      }
+    },
+    {
+      "index": 98,
+      "indent": 0,
+      "text": {
+        "en": "Enter Silif's cell. Use the piece of food on Silif, then the potion. (opciones de chat: 2 Do you have a plan?)",
+        "es": "Entra en la celda de Silif. Usa el trozo de comida en Silif, luego la poción. (opciones de chat: 2 ¿Tienes un plan?)"
+      }
+    },
+    {
+      "index": 99,
+      "indent": 0,
+      "text": {
+        "en": "Give Silif a set of elite black armour (dismiss your familiar if you have one).",
+        "es": "Dale a Silif un set de elite black armour (despide a tu familiar si tienes uno)."
+      }
+    },
+    {
+      "index": 100,
+      "indent": 0,
+      "text": {
+        "en": "Return to the northern room. Walk to the map board on the southern wall then talk to Silif.",
+        "es": "Vuelve a la sala del norte. Camina hasta el map board en la pared sur y luego habla con Silif."
+      }
+    },
+    {
+      "index": 101,
+      "indent": 0,
+      "text": {
+        "en": "Plant the teleorb on Dark Squall, who is located in the east of the room, then escape back to Falador.",
+        "es": "Coloca el teleorb en Dark Squall, que se encuentra al este de la sala, y luego escapa de vuelta a Falador."
+      }
+    },
+    {
+      "index": 102,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Akrisae. (opciones de chat: 1 What would this orb look like? • 2 How will I be able to get to Lucien's base? • 3 Okay, thanks.)",
+        "es": "Habla con Akrisae. (opciones de chat: 1 ¿Qué aspecto tendría este orbe? • 2 ¿Cómo podré llegar a la base de Lucien? • 3 Vale, gracias.)"
+      }
+    },
+    {
+      "index": 103,
+      "indent": 0,
+      "text": {
+        "en": "Wear your Dagon'hai robes and enter the nearby jail cell.",
+        "es": "Ponte tus Dagon'hai robes y entra en la celda cercana."
+      }
+    },
+    {
+      "index": 104,
+      "indent": 0,
+      "text": {
+        "en": "Climb up the ladder in the north-eastern corner, stand in the stone circle in the middle of the room, and right-click activate the strange teleorb. (Note: Activation will fail if the required runes are in a pouch.)",
+        "es": "Sube por la escalera en la esquina noreste, colócate en el círculo de piedra en medio de la sala, y haz clic derecho para activar el strange teleorb. (Nota: la activación fallará si las runas necesarias están en una pouch.)"
+      }
+    },
+    {
+      "index": 105,
+      "indent": 0,
+      "text": {
+        "en": "Follow the north-eastern path towards the chapel and climb-up the ice wall. There is a stick in the ice wall to indicate where to climb.",
+        "es": "Sigue el camino noreste hacia la capilla y trepa por la pared de hielo. Hay un palo en la pared de hielo que indica por dónde trepar."
+      }
+    },
+    {
+      "index": 106,
+      "indent": 0,
+      "text": {
+        "en": "Jump-to the ledge on the chapel into the Wilderness.",
+        "es": "Salta a la cornisa de la capilla hacia el Wilderness."
+      }
+    },
+    {
+      "index": 107,
+      "indent": 0,
+      "text": {
+        "en": "Walk east to activate a cutscene.",
+        "es": "Camina hacia el este para activar una escena."
+      }
+    },
+    {
+      "index": 108,
+      "indent": 0,
+      "text": {
+        "en": "Return to Falador after the cutscene.",
+        "es": "Vuelve a Falador después de la escena."
+      }
+    },
+    {
+      "index": 109,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Idria.",
+        "es": "Habla con Idria."
+      }
+    },
+    {
+      "index": 110,
+      "indent": 1,
+      "text": {
+        "en": "If she won't talk about Movario and instead keeps saying to investigate Lucien's camp, then unfortunately the game glitched and you must go back and rewatch the cutscene. Remember to bring the strange teleorb, a law rune, and a death rune. A good indicator that the cutscene registered is to check for the \"You have unlocked a new music track: The Evil Within\" game message.",
+        "es": "Si no quiere hablar sobre Movario y sigue diciendo que investigues el campamento de Lucien, entonces desafortunadamente el juego ha tenido un fallo y debes volver a ver la escena. Recuerda llevar el strange teleorb, una law rune y una death rune. Un buen indicador de que la escena se ha registrado es comprobar el mensaje del juego \"You have unlocked a new music track: The Evil Within\"."
+      }
+    },
+    {
+      "index": 111,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Tears of Guthix cavern.",
+        "es": "Ve a la caverna Tears of Guthix."
+      }
+    },
+    {
+      "index": 112,
+      "indent": 0,
+      "text": {
+        "en": "Equip your Dagon'hai robes and talk to Movario North. (opciones de chat: 3 I am Surok, Lucien has sent me to check on your progress. • 1 I could go down to the bottom first, to make sure it's safe! • 3 I shall return.)",
+        "es": "Equípate tus Dagon'hai robes y habla con Movario North. (opciones de chat: 3 Soy Surok, Lucien me ha enviado para comprobar tu progreso. • 1 ¡Podría bajar hasta el fondo primero, para asegurarme de que es seguro! • 3 Volveré.)"
+      }
+    },
+    {
+      "index": 113,
+      "indent": 0,
+      "text": {
+        "en": "With a sapphire lantern lit, right-click travel into chasm with a light creature.",
+        "es": "Con una sapphire lantern encendida, haz clic derecho para viajar al chasm con una criatura de luz."
+      }
+    },
+    {
+      "index": 114,
+      "indent": 0,
+      "text": {
+        "en": "Search the northernmost skeleton for a silver sickle (b) and 6 druid pouch charges.",
+        "es": "Registra el esqueleto más al norte para conseguir una silver sickle (b) y 6 cargas de druid pouch."
+      }
+    },
+    {
+      "index": 115,
+      "indent": 1,
+      "text": {
+        "en": "If you have an Ouroboros pouch or brought two druid pouch charges of your own, you can drop the silver sickle to save inventory space.",
+        "es": "Si tienes una Ouroboros pouch o has traído dos cargas de druid pouch propias, puedes soltar la silver sickle para ahorrar espacio en el inventario."
+      }
+    },
+    {
+      "index": 116,
+      "indent": 0,
+      "text": {
+        "en": "Search the rocks (opciones de chat: 1 Yes) in the north-eastern corner. Then search on the brazier that appears, choosing the chisel option to receive a fire orb.",
+        "es": "Registra las rocas (opciones de chat: 1 Sí) en la esquina noreste. Luego registra el brasero que aparece, eligiendo la opción de cincelar para recibir un fire orb."
+      }
+    },
+    {
+      "index": 117,
+      "indent": 0,
+      "text": {
+        "en": "Repeat on the north-west rock for the earth orb.",
+        "es": "Repite en la roca del noroeste para conseguir el earth orb."
+      }
+    },
+    {
+      "index": 118,
+      "indent": 0,
+      "text": {
+        "en": "Repeat for the standing lit braziers for air and water orbs in the south-western and south-eastern corners.",
+        "es": "Repite con los braseros encendidos en pie para conseguir los air orb y water orb en las esquinas suroeste y sureste."
+      }
+    },
+    {
+      "index": 119,
+      "indent": 0,
+      "text": {
+        "en": "Head further south to reach three skull cavities on the southern wall. Examine each recessed block and use the respective orb on the block.",
+        "es": "Sigue más hacia el sur hasta llegar a tres cavidades con calaveras en la pared sur. Examina cada bloque hundido y usa el orbe correspondiente en el bloque."
+      }
+    },
+    {
+      "index": 120,
+      "indent": 0,
+      "text": {
+        "en": "Climb up the wall twice and use the water orb on the recessed block.",
+        "es": "Trepa la pared dos veces y usa el water orb en el bloque hundido."
+      }
+    },
+    {
+      "index": 121,
+      "indent": 0,
+      "text": {
+        "en": "Jump down the same way you came up. For each of the three lower skulls, enter its nose cavity.",
+        "es": "Salta hacia abajo por el mismo camino por el que subiste. Para cada una de las tres calaveras inferiores, entra por su cavidad nasal."
+      }
+    },
+    {
+      "index": 122,
+      "indent": 1,
+      "text": {
+        "en": "Dismiss any followers and empty both your main and off-hand slots before entering the cavities.",
+        "es": "Despide a cualquier acompañante y vacía tanto tu ranura principal como la secundaria antes de entrar en las cavidades."
+      }
+    },
+    {
+      "index": 123,
+      "indent": 0,
+      "text": {
+        "en": "Crawl along the tunnel in each cavity to its end. Examine the door there and insert the respective element key into the door lock. Crawl back through the tunnel and exit the skull.",
+        "es": "Arrástrate por el túnel de cada cavidad hasta su final. Examina la puerta que hay allí e inserta la llave elemental correspondiente en la cerradura de la puerta. Vuelve arrastrándote por el túnel y sal de la calavera."
+      }
+    },
+    {
+      "index": 124,
+      "indent": 0,
+      "text": {
+        "en": "Climb up the walls to the upper skull. Use the fire key on the skull's recessed block, then search the stone cube in front of the skull.",
+        "es": "Trepa por las paredes hasta la calavera superior. Usa la fire key en el bloque hundido de la calavera, luego registra el cubo de piedra frente a la calavera."
+      }
+    },
+    {
+      "index": 125,
+      "indent": 0,
+      "text": {
+        "en": "Climb-through the cave opening to enter the Guthixian temple.",
+        "es": "Atraviesa la abertura de la cueva para entrar al templo Guthixian."
+      }
+    },
+    {
+      "index": 126,
+      "indent": 0,
+      "text": {
+        "en": "You will now need at least two free backpack spaces, though more can make it quicker to proceed. Ensure that you have also deactivated any sign of the porter effects.",
+        "es": "Ahora necesitarás al menos dos espacios libres en la mochila, aunque tener más puede agilizar el proceso. Asegúrate también de haber desactivado cualquier efecto de porter."
+      }
+    },
+    {
+      "index": 127,
+      "indent": 0,
+      "text": {
+        "en": "There are eight statues in this temple. Each, when examined, will reveal what type of potion must be \"made\" at that statue.",
+        "es": "Hay ocho estatuas en este templo. Cada una, al examinarla, revelará qué tipo de poción debe \"hacerse\" en esa estatua."
+      }
+    },
+    {
+      "index": 128,
+      "indent": 0,
+      "text": {
+        "en": "Use your druid pouches on the druid spirits. Each will drop required ingredients for the statues once - if these are lost (e.g. by dropping and letting them timeout), you will have to get replacements yourself. Grace of the elves will send items to the bank so unequip it or disable its porter functionality.",
+        "es": "Usa tus druid pouches en los espíritus druidas. Cada uno soltará los ingredientes necesarios para las estatuas una vez; si los pierdes (por ejemplo, soltándolos y dejando que desaparezcan), tendrás que conseguir reemplazos tú mismo. Grace of the elves enviará los objetos al banco, así que quítatelo o desactiva su función de porter."
+      }
+    },
+    {
+      "index": 129,
+      "indent": 0,
+      "text": {
+        "en": "Do not let your druid pouch empty completely or it disappears! You need 3 open inventory slots to add 3 flowers into the druid pouch.",
+        "es": "¡No dejes que tu druid pouch se vacíe por completo, o desaparecerá! Necesitas 3 espacios libres en el inventario para añadir 3 flores a la druid pouch."
+      }
+    },
+    {
+      "index": 130,
+      "indent": 1,
+      "text": {
+        "en": "Use the Bloom spell on your silver sickle (b) while standing on or close to the dead vine to grow some vine flower to recharge your druid pouch.",
+        "es": "Usa el hechizo Bloom en tu silver sickle (b) mientras estás sobre o cerca de la dead vine para hacer crecer una vine flower y recargar tu druid pouch."
+      }
+    },
+    {
+      "index": 131,
+      "indent": 0,
+      "text": {
+        "en": "Use the herbs and the secondary ingredients on the various statues referencing the table below. Not all keywords will be on statues.",
+        "es": "Usa las hierbas y los ingredientes secundarios en las diversas estatuas, consultando la tabla de abajo. No todas las palabras clave estarán en las estatuas."
+      }
+    },
+    {
+      "index": 132,
+      "indent": 1,
+      "text": {
+        "en": "If you have an ouroboros pouch, you do not need to worry about the druid pouch losing charges. However, you must carry a druid pouch in the backpack to \"use\" it on the spirits, though it will never deplete.",
+        "es": "Si tienes una ouroboros pouch, no tendrás que preocuparte por que la druid pouch pierda cargas. Sin embargo, debes llevar una druid pouch en la mochila para \"usarla\" en los espíritus, aunque nunca se agotará."
+      }
+    },
+    {
+      "index": 133,
+      "indent": 1,
+      "text": {
+        "en": "If you need to refill your druid pouch, right-click bloom with your silver sickle near dead vines to get flowers. These can be used to refill the druid pouch. If you received a mort myre fungus from the druids, use it with the correct statue or drop it for a moment before filling the druid pouch else you will lose it!",
+        "es": "Si necesitas rellenar tu druid pouch, haz clic derecho y usa bloom con tu silver sickle cerca de las dead vines para conseguir flores. Estas se pueden usar para rellenar la druid pouch. Si recibiste un mort myre fungus de los druidas, úsalo con la estatua correcta o suéltalo un momento antes de rellenar la druid pouch, ¡o de lo contrario lo perderás!"
+      }
+    },
+    {
+      "index": 134,
+      "indent": 0,
+      "text": {
+        "en": "Use the dolmens you receive from the statues on the Stone Table in the middle of the temple. It will open the huge door in front of it.",
+        "es": "Usa los dolmens que recibas de las estatuas en la Stone Table en medio del templo. Esto abrirá la enorme puerta que tiene delante."
+      }
+    },
+    {
+      "index": 135,
+      "indent": 0,
+      "text": {
+        "en": "Make whatever arrangements necessary to battle the level 117 Balance Elemental that can use all three combat styles, and lowers your combat stats (except for Necromancy). You can leave the area to get supplies, but always bring your lit sapphire lantern. Don't forget to bring at least two combat styles for the tormented demon fight, unless using Necromancy. The Balance Elemental drains combat stats during the fight, so be sure to bring at least one full super restore.",
+        "es": "Haz los preparativos necesarios para luchar contra el Balance Elemental de nivel 117, que puede usar los tres estilos de combate y reduce tus estadísticas de combate (excepto Nigromancia). Puedes salir de la zona para conseguir suministros, pero lleva siempre tu sapphire lantern encendida. No olvides llevar al menos dos estilos de combate para la pelea contra el tormented demon, a menos que uses Nigromancia. El Balance Elemental drena las estadísticas de combate durante la pelea, así que asegúrate de llevar al menos un super restore completo."
+      }
+    },
+    {
+      "index": 136,
+      "indent": 0,
+      "text": {
+        "en": "Proceed down the corridor and enter a large chamber.",
+        "es": "Avanza por el pasillo y entra en una cámara grande."
+      }
+    },
+    {
+      "index": 137,
+      "indent": 0,
+      "text": {
+        "en": "Once ready, search the mysterious stone (opciones de chat: 1 Yes, I need to investigate this, even if it kills me!) and kill the Balance Elemental that appears. See the strategy guide here.",
+        "es": "Cuando estés listo, registra la misteriosa piedra (opciones de chat: 1 ¡Sí, necesito investigar esto, aunque me mate!) y mata al Balance Elemental que aparece. Consulta la guía de estrategia aquí."
+      }
+    },
+    {
+      "index": 138,
+      "indent": 0,
+      "text": {
+        "en": "Search the mysterious stone again for a cutscene. Doing so boosts all your combat stats to level 255 except Prayer.",
+        "es": "Registra la misteriosa piedra de nuevo para ver una escena. Al hacerlo, todas tus estadísticas de combate suben al nivel 255, excepto Oración."
+      }
+    },
+    {
+      "index": 139,
+      "indent": 0,
+      "text": {
+        "en": "Continue dialogue with Movario (opciones de chat: 1 What are you going to do with the Stone of Jas? • 2 What is the Stone of Jas? • 3 You can't let Lucien get the Stone of Jas! • 4 What if someone should stand in your way?), then with Lucien. (opciones de chat: 1 What are you going to do with the Stone of Jas? • 2 Why is the Stone of Jas so important to you? • 3 Do you really hope to follow in the footsteps of Zamorak?)",
+        "es": "Continúa el diálogo con Movario (opciones de chat: 1 ¿Qué vas a hacer con la Stone of Jas? • 2 ¿Qué es la Stone of Jas? • 3 ¡No puedes dejar que Lucien consiga la Stone of Jas! • 4 ¿Y si alguien se interpusiera en tu camino?), y luego con Lucien. (opciones de chat: 1 ¿Qué vas a hacer con la Stone of Jas? • 2 ¿Por qué es tan importante para ti la Stone of Jas? • 3 ¿De verdad esperas seguir los pasos de Zamorak?)"
+      }
+    },
+    {
+      "index": 140,
+      "indent": 0,
+      "text": {
+        "en": "Kill the two Tormented demons, switching between your two combat styles.",
+        "es": "Mata a los dos Tormented demons, alternando entre tus dos estilos de combate."
+      }
+    },
+    {
+      "index": 141,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Idria to have her teleport you to Falador. (opciones de chat: 1 Yes, a teleport out of here would be good.)",
+        "es": "Habla con Idria para que te teletransporte a Falador. (opciones de chat: 1 Sí, un teletransporte fuera de aquí estaría bien.)"
+      }
+    },
+    {
+      "index": 142,
+      "indent": 0,
+      "text": {
+        "en": "Continue dialogue with Idria in Falador.",
+        "es": "Continúa el diálogo con Idria en Falador."
+      }
+    },
+    {
+      "index": 143,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    },
+    {
+      "index": 144,
+      "indent": 0,
+      "text": {
+        "en": "Optional: after using of all four of Idria's 100,000 exp boosts, talk to her again to view the \"Elsewhere...\" epilogue.",
+        "es": "Opcional: después de usar los cuatro boosts de 100.000 de experiencia de Idria, habla con ella de nuevo para ver el epílogo \"Elsewhere...\""
+      }
+    }
+  ]
+}

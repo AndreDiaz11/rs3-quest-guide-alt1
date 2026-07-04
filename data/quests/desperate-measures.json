@@ -1,0 +1,801 @@
+{
+  "id": "desperate-measures",
+  "title": "Desperate Measures",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T01:47:53.294Z",
+  "icon": "https://runescape.wiki/images/Desperate_Measures_icon.png",
+  "series": "The Elder God Wars",
+  "age": "6",
+  "timeline": "world guardian",
+  "members": true,
+  "combatLevel": "70-79",
+  "difficulty": "Intermediate",
+  "length": "Very Long",
+  "releaseDate": "27 July 2020",
+  "startPoint": {
+    "en": "Talk to Seren, up the stairs in Burthorpe castle. (via )",
+    "es": "Habla con Seren, subiendo las escaleras en el castillo de Burthorpe. (vía )"
+  },
+  "requirements": {
+    "quests": [
+      "Desperate Times",
+      "The Needle Skips",
+      "You Are It",
+      "Anachronia base camp tutorial",
+      "Sliske's Endgame",
+      "The Death of Chivalry",
+      "The World Wakes",
+      "One of a Kind",
+      "A Tail of Two Cats",
+      "Holy Grail",
+      "The World Wakes",
+      "Missing, Presumed Death",
+      "Ritual of the Mahjarrat",
+      "Nomad's Elegy",
+      "Dishonour among Thieves",
+      "Nomad's Requiem",
+      "Heart of Stone",
+      "The Mighty Fall",
+      "Throne of Miscellania",
+      "The Void Stares Back",
+      "While Guthix Sleeps",
+      "Blood Runs Deep",
+      "Kindred Spirits",
+      "Missing, Presumed Death",
+      "Deadliest Catch",
+      "Hero's Welcome",
+      "Lunar Diplomacy",
+      "Ancient Cavern",
+      "Barbarian Training",
+      "One of a Kind",
+      "Ritual of the Mahjarrat",
+      "Children of Mah",
+      "The Light Within",
+      "Dishonour among Thieves",
+      "Koschei's Troubles (miniquest)",
+      "Ritual of the Mahjarrat",
+      "Curse of the Black Stone",
+      "Impressing the Locals",
+      "Sliske's Endgame",
+      "Pieces of Hate",
+      "A Clockwork Syringe",
+      "Gertrude's Cat",
+      "Fate of the Gods",
+      "Missing, Presumed Death",
+      "Koschei's Troubles (miniquest)",
+      "The Chosen Commander",
+      "Ritual of the Mahjarrat",
+      "The World Wakes",
+      "The Death of Chivalry",
+      "The World Wakes",
+      "Ritual of the Mahjarrat",
+      "The Firemaker's Curse",
+      "The Branches of Darkmeyer",
+      "The Void Stares Back",
+      "The Chosen Commander",
+      "Ritual of the Mahjarrat",
+      "The Temple at Senntisten",
+      "While Guthix Sleeps",
+      "Hazeel Cult",
+      "Enakhra's Lament",
+      "The Slug Menace",
+      "A Fairy Tale II - Cure a Queen",
+      "Cabin Fever",
+      "A Tail of Two Cats",
+      "Fight Arena",
+      "The General's Shadow (miniquest)",
+      "The Temple at Senntisten",
+      "Devious Minds",
+      "Desert Treasure",
+      "The Curse of Arrav",
+      "Kudos",
+      "The Firemaker's Curse"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 50
+      },
+      {
+        "skill": "Archaeology",
+        "level": 50
+      },
+      {
+        "skill": "combat level",
+        "level": 95
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Orthenglass",
+      "display": "100 orthenglass (Can be stored in material storage container. Can also be obtained during quest from Anachronia north excavation site.)",
+      "image": "https://runescape.wiki/images/thumb/Orthenglass_detail.png/100px-Orthenglass_detail.png?5debd"
+    },
+    {
+      "name": "The Measure",
+      "display": "The Measure (Obtained during quest if not in bank or inventory. Fate of the Gods not required.)",
+      "image": null
+    }
+  ],
+  "kills": [
+    "Black stone dragon (level 91)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 3,
+      "display": "3 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Archaeology",
+      "amount": 20000,
+      "display": "20,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Combat level",
+      "amount": 20000,
+      "display": "20,000 experience lamp in one of: Attack, Strength, Defence, Constitution, Ranged, Magic, Necromancy or Prayer",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Cosmic focus",
+      "display": "Cosmic focus",
+      "image": "https://runescape.wiki/images/Cosmic_focus_detail.png?10787"
+    },
+    {
+      "type": "item",
+      "name": "Thok's stick",
+      "display": "Thok's stick cosmetic override",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Remototem base",
+      "display": "Remototem base",
+      "image": "https://runescape.wiki/images/thumb/Remototem_base_detail.png/100px-Remototem_base_detail.png?6b298"
+    },
+    {
+      "type": "item",
+      "name": "Desperate for Artefacts",
+      "display": "The ability to complete the Desperate for Artefacts Archaeology collection",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "An Echo throughout Time",
+      "display": "An Echo throughout Time",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Caged Guardian",
+      "display": "Caged Guardian",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Dragonkind",
+      "display": "Dragonkind",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Epilogue",
+      "display": "Epilogue (if not already unlocked)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Kerapac's Curse",
+      "display": "Kerapac's Curse (if not already unlocked)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Kerapac's Lair",
+      "display": "Kerapac's Lair",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Kneel to Your God",
+      "display": "Kneel to Your God",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "On the Run (music track)",
+      "display": "On the Run",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Thok's Big Adventure",
+      "display": "Thok's Big Adventure",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Unravelling the Past",
+      "display": "Unravelling the Past",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Seren on the of Burthorpe Castle (north of the lodestone). (opciones de chat: Any • Accept • Any)",
+        "es": "Habla con Seren en el castillo de Burthorpe (al norte de la piedra de viaje). (opciones de chat: Cualquiera • Aceptar • Cualquiera)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Head to Anachronia to speak with Mr Mordaut in the base camp. (opciones de chat: 1 Anachronia. • 1 Ask about Desperate Measures.)",
+        "es": "Dirígete a Anachronia para hablar con Mr Mordaut en el campamento base. (opciones de chat: 1 Anachronia. • 1 Preguntar sobre Desperate Measures.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Go north of the base camp, and down the two flights of stairs to the dragonkin gate. Do not begin the Agility course.",
+        "es": "Ve al norte del campamento base y baja los dos tramos de escaleras hasta la puerta de los dragonkin. No comiences el circuito de Agilidad."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Dismiss any pets or followers and then speak with Thok or Charos. (opciones de chat: 1 Yes.)",
+        "es": "Despide a cualquier mascota o seguidor y luego habla con Thok o Charos. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Inside the flashback, go to Charos. Finish all dialogue before continuing else you will exit the flashback and have to start over.",
+        "es": "Dentro del flashback, ve hacia Charos. Termina todo el diálogo antes de continuar, de lo contrario saldrás del flashback y tendrás que empezar de nuevo."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Smash the feral dinosaurs.",
+        "es": "Destroza a los dinosaurios salvajes."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Continue east along the path, attacking more dinosaurs as you go.",
+        "es": "Continúa hacia el este por el camino, atacando más dinosaurios a medida que avanzas."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Laniakea and then follow her across the bridge. After Kerapac leaves, finish the conversation with Charos. (opciones de chat: 1 Not much. • 3 [Leave])",
+        "es": "Habla con Laniakea y luego síguela cruzando el puente. Después de que Kerapac se marche, termina la conversación con Charos. (opciones de chat: 1 No mucho. • 3 [Marcharse])"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Uncover and excavate the dragonkin remains excavation hotspot that appears 4 tiles south and 3 tiles east of Thok and Charos to obtain a dragonkin device (damaged).",
+        "es": "Descubre y excava el punto de excavación de restos dragonkin que aparece 4 casillas al sur y 3 casillas al este de Thok y Charos para obtener un dispositivo dragonkin (dañado)."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Restore the dragonkin device at an archaeologist's workbench.",
+        "es": "Restaura el dispositivo dragonkin en una mesa de trabajo de arqueólogo."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Charos (opciones de chat: 4 [Leave]).",
+        "es": "Habla con Charos (opciones de chat: 4 [Marcharse])."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Excavate the orthen rubble spot, which appears about three paces north of him, to obtain a dragonkin tablet (damaged).",
+        "es": "Excava el punto de escombros orthen, que aparece unos tres pasos al norte de él, para obtener una tablilla dragonkin (dañada)."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 1,
+      "text": {
+        "en": "If you do not have enough orthenglass, you can destroy the tablet and excavate again.",
+        "es": "Si no tienes suficiente orthenglass, puedes destruir la tablilla y excavar de nuevo."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Restore the dragonkin tablet at an archaeologist's workbench.",
+        "es": "Restaura la tablilla dragonkin en una mesa de trabajo de arqueólogo."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Charos. (opciones de chat: 5 [Leave])",
+        "es": "Habla con Charos. (opciones de chat: 5 [Marcharse])"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Head to the Anachronia Dinosaur Farm (from the Manor Farm, go to the top floor of the manor and teleport using the mystical tree).",
+        "es": "Dirígete a la granja de dinosaurios de Anachronia (desde Manor Farm, ve a la planta superior de la mansión y teletranspórtate usando el árbol místico)."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Hannibus next to Prehistoric Potterington. (opciones de chat: 5 [Leave])",
+        "es": "Habla con Hannibus junto a Prehistoric Potterington. (opciones de chat: 5 [Marcharse])"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the Nodon Hibernatorium on the north-eastern coast of Anachronia, east of the Herby Werby entrance and south-east of the Observation outpost (see map).",
+        "es": "Viaja al Nodon Hibernatorium, en la costa noreste de Anachronia, al este de la entrada de Herby Werby y al sureste del puesto de observación (ver mapa)."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Enter the southern door next to Hannibus using the dragonkin device you restored earlier.",
+        "es": "Entra por la puerta sur junto a Hannibus usando el dispositivo dragonkin que restauraste anteriormente."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk with Hannibus inside. (opciones de chat: 1 Yes.)",
+        "es": "Habla con Hannibus dentro. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Speak with Hannibus again (opciones de chat: 1 Yes.) to start a memory.",
+        "es": "Habla de nuevo con Hannibus (opciones de chat: 1 Sí.) para iniciar un recuerdo."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Eventually, one of the Nodon caretakers will walk to the south-eastern corner of the room. Wait for the Nodon caretaker to finish putting in the passcode on the pylon, and you will be able to cycle the symbols.",
+        "es": "Finalmente, uno de los cuidadores Nodon caminará hacia la esquina sureste de la sala. Espera a que el cuidador Nodon termine de introducir la contraseña en el pilón, y podrás rotar los símbolos."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "You must first click on the pylon in the shared memory.",
+        "es": "Primero debes hacer clic en el pilón dentro del recuerdo compartido."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "Talk with Hannibus to exit the dream. (opciones de chat: 2 No. • 1 Yes.)",
+        "es": "Habla con Hannibus para salir del sueño. (opciones de chat: 2 No. • 1 Sí.)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Cycle each of the three symbols outside of the dream until they match what you saw in the dream. Your character will interrupt when a symbol is input correctly. Continue that dialogue instead of exiting the chat box, otherwise, Hannibus won't recognise the correct sequence.",
+        "es": "Rota cada uno de los tres símbolos fuera del sueño hasta que coincidan con lo que viste en el sueño. Tu personaje te interrumpirá cuando un símbolo se introduzca correctamente. Continúa ese diálogo en lugar de salir del cuadro de chat, de lo contrario Hannibus no reconocerá la secuencia correcta."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Re-enter the dream and start the shared dream again. This time, follow the other dragonkin outside.",
+        "es": "Vuelve a entrar en el sueño e inicia de nuevo el sueño compartido. Esta vez, sigue al otro dragonkin hacia el exterior."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Follow him until he walks to the door at the front of the ruins and speak a passphrase.",
+        "es": "Síguelo hasta que camine hacia la puerta en la parte frontal de las ruinas y diga una contraseña."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Hannibus again and exit the dream (you can lobby and log back to go faster). Return to the front of the ruins and enter the door with the passphrase you heard earlier (should be in the chat box).",
+        "es": "Habla de nuevo con Hannibus y sal del sueño (puedes ir al lobby y volver a entrar para hacerlo más rápido). Vuelve a la parte frontal de las ruinas y entra por la puerta con la contraseña que oíste antes (debería estar en el cuadro de chat)."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Inside the front door, speak with Hannibus (opciones de chat: 1 Yes.) again to enter another shared dream. If the room is empty it means you actually do not have the right code, even if you cannot change it.",
+        "es": "Dentro de la puerta principal, habla con Hannibus (opciones de chat: 1 Sí.) de nuevo para entrar en otro sueño compartido. Si la sala está vacía significa que en realidad no tienes el código correcto, aunque no puedas cambiarlo."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 1,
+      "text": {
+        "en": "Ensure you rotated three characters on the pylon; one on the left, one on the right, and one in the centre. May need to zoom in to see. Hannibus should also be now standing in front of the door, he wasn't before.",
+        "es": "Asegúrate de haber rotado tres símbolos en el pilón: uno a la izquierda, uno a la derecha y uno en el centro. Puede que necesites hacer zoom para verlo. Hannibus también debería estar ahora de pie frente a la puerta, cosa que antes no ocurría."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Speak with Hannibus, next to a water pool, inside the dream to start a shared memory. (opciones de chat: 1 Yes.)",
+        "es": "Habla con Hannibus, junto a un estanque de agua, dentro del sueño para iniciar un recuerdo compartido. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Skip the cutscene on Kerapac's device.",
+        "es": "Omite la escena cinemática sobre el dispositivo de Kerapac."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Attack Kerapac until he flies off or watch your party of NPCs try to fight him. It may take about 1 minute. No damage will be done to or by you in the fight.",
+        "es": "Ataca a Kerapac hasta que salga volando, o mira cómo tu grupo de PNJ intenta luchar contra él. Puede tardar alrededor de 1 minuto. No se hará ningún daño ni a ti ni por ti en el combate."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Return and talk to Seren in Burthorpe.",
+        "es": "Vuelve y habla con Seren en Burthorpe."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Primrose located in the house by the Needle (far west of the Piscatoris Fishing Colony).",
+        "es": "Habla con Primrose, ubicada en la casa junto a la Aguja (muy al oeste de la Piscatoris Fishing Colony)."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "The nearest fairy ring is .",
+        "es": "El anillo de hadas más cercano es ."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "Memory strand can also be used to teleport to Memorial to Guthix, which is south of the house.",
+        "es": "El fragmento de recuerdo también se puede usar para teletransportarte al Memorial to Guthix, que está al sur de la casa."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Primrose and exhaust all chat options (focus on finding the needles weakness). (opciones de chat: 1 Ask about Desperate Measures. • 1 Ask how she's doing. • 1 Ask about the Needle • 1 Can the Needle be destroyed? • 1 Can the Needle be counteracted? • 2 Does the Needle have any weaknesses? • 4 Ask about Gail. • 1 Was she vulnerable to anything? • 1 What was it like being her? • 4 [Leave]) Your quest log should update to speak to Seren.",
+        "es": "Habla con Primrose y agota todas las opciones de chat (céntrate en buscar la debilidad de la Aguja). (opciones de chat: 1 Preguntar sobre Desperate Measures. • 1 Preguntar cómo está. • 1 Preguntar sobre la Aguja • 1 ¿Se puede destruir la Aguja? • 1 ¿Se puede contrarrestar la Aguja? • 2 ¿Tiene alguna debilidad la Aguja? • 4 Preguntar sobre Gail. • 1 ¿Era vulnerable a algo? • 1 ¿Cómo era ser ella? • 4 [Marcharse]) Tu diario de misión debería actualizarse para indicarte que hables con Seren."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Return to Seren.",
+        "es": "Vuelve con Seren."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Make your way to Heart of Gielinor in the Kharidian Desert. (The Heart teleports can be used, or travel to Nardah using the magic carpet network and run south-west). Alternatively, the nearest fairy ring is , then run south. <blockquote>WARNING: Due to a bug, Jas's eyes will be flashing incredibly fast depending on your FPS.<br> It's highly recommended to limit your FPS to 5 before proceeding if you suffer from epilepsy or other vision problems.</blockquote>",
+        "es": "Dirígete al Heart of Gielinor en el desierto de Kharidian. (Se pueden usar los teletransportes del Heart, o viajar a Nardah usando la red de alfombras mágicas y correr hacia el suroeste). Alternativamente, el anillo de hadas más cercano es , y luego corre hacia el sur. <blockquote>ADVERTENCIA: Debido a un fallo, los ojos de Jas parpadearán increíblemente rápido dependiendo de tus FPS.<br> Se recomienda encarecidamente limitar tus FPS a 5 antes de continuar si sufres epilepsia u otros problemas de visión.</blockquote>"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Speak with Seren outside the Heart. (opciones de chat: 1 Yes.)",
+        "es": "Habla con Seren fuera del Heart. (opciones de chat: 1 Sí.)"
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Jas about Kerapac. (opciones de chat: 1 [Ask about Kerapac.] • 2 Can you intervene? • 1 Why not? • 1 Point out her power.)",
+        "es": "Habla con Jas sobre Kerapac. (opciones de chat: 1 [Preguntar sobre Kerapac.] • 2 ¿Puedes intervenir? • 1 ¿Por qué no? • 1 Señalar su poder.)"
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Jas about the Needle. (opciones de chat: 5 [Ask about something else.] • 2 [Ask about the Needle.] • 2 Can it be stopped?)",
+        "es": "Habla con Jas sobre la Aguja. (opciones de chat: 5 [Preguntar sobre otra cosa.] • 2 [Preguntar sobre la Aguja.] • 2 ¿Se puede detener?)"
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Ask for Jas' help (opciones de chat: 4 [Ask about something else.] • 1 Can you help?) then exit the dialogue. The Eye of Jas should be in your inventory.",
+        "es": "Pide ayuda a Jas (opciones de chat: 4 [Preguntar sobre otra cosa.] • 1 ¿Puedes ayudar?) y luego sal del diálogo. El Eye of Jas debería estar en tu inventario."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Seren.",
+        "es": "Habla con Seren."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Return to the Anachronia base camp and speak with Charos near the lodestone.",
+        "es": "Vuelve al campamento base de Anachronia y habla con Charos cerca de la piedra de viaje."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "After Kerapac turns up, speak with Thok to start the fight. You can't be wielding anything in your hands. (opciones de chat: 1 I'm ready.)",
+        "es": "Después de que Kerapac aparezca, habla con Thok para iniciar el combate. No puedes llevar nada equipado en las manos. (opciones de chat: 1 Estoy listo.)"
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Follow the instructions set out when starting the fight with your team members (Hannibus, Thok, Charos, and Laniakea).",
+        "es": "Sigue las instrucciones establecidas al iniciar el combate con los miembros de tu equipo (Hannibus, Thok, Charos y Laniakea)."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "text": {
+        "en": "If you get the message \"you need to finish speaking with Charos before you can start the encounter\", you also have to change Charos attack type (just choose closest), then you need to move Hannibus one square away and move him back to his original place.",
+        "es": "Si recibes el mensaje \"necesitas terminar de hablar con Charos antes de poder iniciar el encuentro\", también tienes que cambiar el tipo de ataque de Charos (simplemente elige el más cercano), y luego necesitas mover a Hannibus una casilla y volver a colocarlo en su lugar original."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "Keep them in their default positions, and stand two squares west of Charos. You should win without moving, but if you struggle then move your character around to get early hits on the bigger dinosaurs.",
+        "es": "Mantenlos en sus posiciones predeterminadas y colócate dos casillas al oeste de Charos. Deberías ganar sin moverte, pero si te cuesta, mueve a tu personaje para conseguir golpes tempranos sobre los dinosaurios más grandes."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 1,
+      "text": {
+        "en": "If you exit dialogue with Charos too early you may need to reset the instance by right clicking Thok and clicking Leave.",
+        "es": "Si sales del diálogo con Charos demasiado pronto, puede que necesites reiniciar la instancia haciendo clic derecho en Thok y seleccionando Salir."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "After the fight is complete, speak with Charos next to the lodestone. Go north past the Anachronia Agility Course and speak with Charos once more. (opciones de chat: Any) The Measure should be in your inventory after speaking to him—if not, it may be in your bank; you will need to speak with Charos again before proceeding.",
+        "es": "Después de completar el combate, habla con Charos cerca de la piedra de viaje. Ve hacia el norte pasando el circuito de Agilidad de Anachronia y habla con Charos una vez más. (opciones de chat: Cualquiera) The Measure debería estar en tu inventario después de hablar con él; si no, puede que esté en tu banco, y tendrás que hablar de nuevo con Charos antes de continuar."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "You have to use The Measure near Charos a total of four times in the ruined areas surrounding the volcano. He will speak to you automatically if done correctly. If anytime during this Charos disappears or you are unable to interact properly with him, log out and back in or try hopping worlds. Charos will be standing right at the spot you need to use The Measure at. When you arrive at one of the spots where Charos is at, place The Measure. After placing The Measure, it's unnecessary to fully finish speaking to Charos. Players may proceed to the next location.",
+        "es": "Tienes que usar The Measure cerca de Charos un total de cuatro veces en las zonas en ruinas que rodean el volcán. Él te hablará automáticamente si lo haces correctamente. Si en algún momento Charos desaparece o no puedes interactuar bien con él, cierra sesión y vuelve a entrar, o prueba a cambiar de mundo. Charos estará de pie justo en el lugar donde necesitas usar The Measure. Cuando llegues a uno de los puntos donde está Charos, coloca The Measure. Después de colocarlo, no es necesario terminar de hablar con Charos por completo. Los jugadores pueden pasar a la siguiente ubicación."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 1,
+      "text": {
+        "en": "The first location is a bit north of the entrance where you talk to him.",
+        "es": "La primera ubicación está un poco al norte de la entrada donde hablaste con él."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 1,
+      "text": {
+        "en": "The second location is north of the lodestone. Start the Agility course, enter through the cave, cross the roots, and walk north till you reach the camouflaged jadinkos.",
+        "es": "La segunda ubicación está al norte de la piedra de viaje. Inicia el circuito de Agilidad, entra por la cueva, cruza las raíces y camina hacia el norte hasta llegar a los jadinkos camuflados."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 1,
+      "text": {
+        "en": "The third location can be reached by teleporting to the Anachronia lodestone, then head west past the bridge and north-west past the arcane apoterrasaur until you reach the dragonkin ruins. Alternatively, players that have unlocked the Orthen teleportation device can teleport to the third location.",
+        "es": "A la tercera ubicación se puede llegar teletransportándote a la piedra de viaje de Anachronia, y luego dirigiéndote hacia el oeste pasando el puente y hacia el noroeste pasando el apoterrasaurio arcano hasta llegar a las ruinas dragonkin. Alternativamente, los jugadores que hayan desbloqueado el dispositivo de teletransporte de Orthen pueden teletransportarse directamente a la tercera ubicación."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 1,
+      "text": {
+        "en": "The last location is directly east of the previous location, up a flight of stairs.",
+        "es": "La última ubicación está directamente al este de la ubicación anterior, subiendo un tramo de escaleras."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Prepare for combat.",
+        "es": "Prepárate para el combate."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Speak with Charos again (north of the base camp). (If he is not there, step into the room north of Thok and step out again. He might appear in the northern room, if so, place a measure in front of him.)",
+        "es": "Habla de nuevo con Charos (al norte del campamento base). (Si no está allí, entra en la sala al norte de Thok y vuelve a salir. Puede que aparezca en la sala del norte; si es así, coloca una medida frente a él.)"
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Enter Kerapac's laboratory. (An entrance will have spawned where you met Thok and Charos north of the base camp.)",
+        "es": "Entra en el laboratorio de Kerapac. (Habrá aparecido una entrada donde te encontraste con Thok y Charos, al norte del campamento base.)"
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Enter the correct codes into the pylons on the four corners of the area, as given in the image on the right. The codes are the same for all players.",
+        "es": "Introduce los códigos correctos en los pilones de las cuatro esquinas de la zona, tal como se muestra en la imagen de la derecha. Los códigos son los mismos para todos los jugadores."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 1,
+      "text": {
+        "en": "The south-western room's solution is 2-1-4.",
+        "es": "La solución de la sala suroeste es 2-1-4."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 1,
+      "text": {
+        "en": "The north-western room's solution is 7-1-5.",
+        "es": "La solución de la sala noroeste es 7-1-5."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 1,
+      "text": {
+        "en": "The north-eastern room's solution is 4-1-6.",
+        "es": "La solución de la sala noreste es 4-1-6."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 1,
+      "text": {
+        "en": "The south-eastern room's solution is 3-1-4.",
+        "es": "La solución de la sala sureste es 3-1-4."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "Enter the room to the north that has now opened up and prepare for a battle with the black stone dragon. (If you die while fighting the dragon, it is a safe death.)",
+        "es": "Entra en la sala del norte que ahora se ha abierto y prepárate para una batalla contra el black stone dragon. (Si mueres luchando contra el dragón, es una muerte segura.)"
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "After defeating the dragon, talk to Kerapac when he appears.",
+        "es": "Después de derrotar al dragón, habla con Kerapac cuando aparezca."
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Choose any chat option, and after the cutscene, the lab will start to collapse and you will get a timer on your screen and have to escape. When you hit a dead end, turn around or interact with a nearby character to continue. Failing restarts the escape.",
+        "es": "Elige cualquier opción de chat, y tras la escena cinemática, el laboratorio comenzará a derrumbarse y aparecerá un temporizador en tu pantalla; tendrás que escapar. Cuando llegues a un callejón sin salida, date la vuelta o interactúa con un personaje cercano para continuar. Si fallas, la huida se reinicia."
+      }
+    },
+    {
+      "index": 68,
+      "indent": 1,
+      "text": {
+        "en": "If you get sent back out before talking to Kerapac or the escape sequence by logging out or being interrupted (such as conjures), you may re-enter Kerapac's lab to trigger the sequence again.",
+        "es": "Si eres expulsado antes de hablar con Kerapac o antes de la secuencia de escape, ya sea cerrando sesión o siendo interrumpido (por ejemplo, por conjuros), puedes volver a entrar en el laboratorio de Kerapac para activar la secuencia de nuevo."
+      }
+    },
+    {
+      "index": 69,
+      "indent": 0,
+      "text": {
+        "en": "After escaping the lab and the following cutscenes, return to Seren in Burthorpe (requires 4 backpack spaces to collect reward).",
+        "es": "Después de escapar del laboratorio y de las escenas cinemáticas siguientes, vuelve con Seren en Burthorpe (se requieren 4 espacios de mochila para recoger la recompensa)."
+      }
+    },
+    {
+      "index": 70,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

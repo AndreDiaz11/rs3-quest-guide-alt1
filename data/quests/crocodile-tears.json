@@ -1,0 +1,526 @@
+{
+  "id": "crocodile-tears",
+  "title": "Crocodile Tears",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:59:55.128Z",
+  "icon": "https://runescape.wiki/images/Crocodile_Tears_icon.png",
+  "series": "Desert",
+  "age": "5",
+  "timeline": "legendary",
+  "members": true,
+  "combatLevel": "100-109",
+  "difficulty": "Master",
+  "length": "Short to Medium",
+  "releaseDate": "5 June 2017",
+  "startPoint": {
+    "en": "Talk to Leela and Senliten in Senliten's tomb.",
+    "es": "Habla con Leela y Senliten en la tumba de Senliten."
+  },
+  "requirements": {
+    "quests": [
+      "The Jack of Spades",
+      "Diamond in the Rough",
+      "Stolen Hearts",
+      "Spirits of the Elid",
+      "Missing My Mummy",
+      "Icthlarin's Little Helper",
+      "Gertrude's Cat",
+      "Diamond in the Rough",
+      "The Golem",
+      "Diamond in the Rough",
+      "Dealing with Scabaras",
+      "Contact!",
+      "Icthlarin's Little Helper",
+      "Bring Leela to Senliten's tomb",
+      "Senliten",
+      "Missing My Mummy",
+      "Garden of Tranquillity",
+      "Creature of Fenkenstrain",
+      "The Restless Ghost",
+      "Morytania"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 30
+      },
+      {
+        "skill": "Fishing",
+        "level": 72
+      },
+      {
+        "skill": "Hunter",
+        "level": 73
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 47
+      },
+      {
+        "skill": "combat level",
+        "level": 100
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Rope",
+      "display": "Rope",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    },
+    {
+      "name": "Fishing bait",
+      "display": "Enough fishing bait (20-30 recommended) to catch 1 beltfish or activation of Tier 1 prawn perks Some bait can be obtained during the quest from Meena's Fishing Shop",
+      "image": "https://runescape.wiki/images/thumb/Fishing_bait_detail.png/100px-Fishing_bait_detail.png?adb3d"
+    },
+    {
+      "name": "Meena's Fishing Shop",
+      "display": "Some bait can be obtained during the quest from Meena's Fishing Shop",
+      "image": "https://runescape.wiki/images/thumb/Meena%27s_Fishing_Shop.png/100px-Meena%27s_Fishing_Shop.png?20e2b"
+    },
+    {
+      "name": "Cat",
+      "display": "Cat (or kitten)",
+      "image": "https://runescape.wiki/images/thumb/Pet_kitten_%28white_and_black%29_pet.png/100px-Pet_kitten_%28white_and_black%29_pet.png?b86b3"
+    },
+    {
+      "name": "Croc ice",
+      "display": "At least 28,000 coins for buying croc ice",
+      "image": null
+    }
+  ],
+  "kills": [
+    "Ukunduka (level 108)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Relic of Crondis",
+      "display": "A relic of Crondis, giving reputation with a faction in Menaphos of your choice by turning it in to a faction leader (for the exact amount of reputation, see the linked page)",
+      "image": "https://runescape.wiki/images/Relic_of_Crondis_detail.png?1b103"
+    },
+    {
+      "type": "xp",
+      "skill": "Fishing",
+      "amount": 35000,
+      "display": "35,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Hunter",
+      "amount": 35000,
+      "display": "35,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 15000,
+      "display": "15,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Woodcutting",
+      "amount": 15000,
+      "display": "15,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Desert heat",
+      "display": "Immunity from desert heat (after re-logging or lobbying)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Reputation (Menaphos)",
+      "display": "Menaphos reputation gain increased to 150%",
+      "image": "https://runescape.wiki/images/thumb/Menaphos_reputation.png/100px-Menaphos_reputation.png?63157"
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "xp",
+      "skill": "Crondis tomb",
+      "amount": null,
+      "display": "Access to the Crondis tomb containing: Nekhakha Crondis mask 20,000 experience for entering the tomb for the first time"
+    },
+    {
+      "type": "item",
+      "name": "More Than a Mouthful",
+      "display": "More Than a Mouthful (entering Crondis's pyramid for the first time)"
+    },
+    {
+      "type": "item",
+      "name": "More Than a Mouthful II",
+      "display": "More Than a Mouthful II (during fight with Ukunduka)"
+    },
+    {
+      "type": "item",
+      "name": "The Tale of Crondis",
+      "display": "The Tale of Crondis (after the quest in The Golden Scarab Inn)"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Bring Leela to Senliten by talking to her along the fence north of the prison in Draynor Village. Agree to travel with her and you will end up in front of Senliten.",
+        "es": "Lleva a Leela hasta Senliten hablando con ella junto a la valla al norte de la prisión en Draynor Village. Acepta viajar con ella y acabarás delante de Senliten."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 1,
+      "text": {
+        "en": "If you sent her to Senliten without following her, travel to the Uzer Mastaba (the pyramid south of Uzer) via some other means. (opciones de chat: 1 Head directly to the Pharaoh Queen.)",
+        "es": "Si la enviaste con Senliten sin seguirla, viaja hasta la Uzer Mastaba (la pirámide al sur de Uzer) por otro medio. (opciones de chat: 1 Head directly to the Pharaoh Queen.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Speak with Senliten. (opciones de chat: 3 Talk about Crocodile Tears. • 3/4 Where are you going with this? • Accept)",
+        "es": "Habla con Senliten. (opciones de chat: 3 Talk about Crocodile Tears. • 3/4 Where are you going with this? • Accept)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Sphinx in Sophanem with your cat (do not wear a catspeak amulet or cramulet). (opciones de chat: 2 Can you tell me about the gods of the Menaphites? • 3 Tell me about the minor gods. • 3 Tell me about Crondis. • 2 Thanks, I think I now have a better understanding of this place.)",
+        "es": "Habla con la Sphinx en Sophanem con tu gato (no lleves puesto un catspeak amulet ni un cramulet). (opciones de chat: 2 Can you tell me about the gods of the Menaphites? • 3 Tell me about the minor gods. • 3 Tell me about Crondis. • 2 Thanks, I think I now have a better understanding of this place.)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Jex, who is north-east of the Sphinx. (opciones de chat: 2 Could you tell me more about the minor gods? • 3 Could you tell me more about Crondis? • 1 Could you tell me more about Crondis's connection with crocodiles? • 2 Could you tell me more about Crondis's followers? • 3 Could you tell me more about the Crondis's influence over the desert?)",
+        "es": "Habla con Jex, que está al noreste de la Sphinx. (opciones de chat: 2 Could you tell me more about the minor gods? • 3 Could you tell me more about Crondis? • 1 Could you tell me more about Crondis's connection with crocodiles? • 2 Could you tell me more about Crondis's followers? • 3 Could you tell me more about the Crondis's influence over the desert?)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Return to Senliten.",
+        "es": "Vuelve con Senliten."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Right click Leela to return to the surface.",
+        "es": "Haz clic derecho sobre Leela para volver a la superficie."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Enter the temple again but use the explore option.",
+        "es": "Entra de nuevo en el templo pero usa la opción explorar."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Head north and click the ship to get the dowsing rod (Pick up relic Massive stone boat).",
+        "es": "Dirígete hacia el norte y haz clic en el barco para conseguir la varilla zahorí (recoge la reliquia Massive stone boat)."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Click the dowsing rod and follow the arrow to the following locations in the desert, until your character starts talking, before moving to the next location.",
+        "es": "Haz clic en la varilla zahorí y sigue la flecha hasta las siguientes ubicaciones en el desierto, hasta que tu personaje empiece a hablar, antes de pasar a la siguiente ubicación."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": ":If you encounter a bug where the dowsing rod suddenly no longer functions, you must destroy it and acquire a new one from the boat inside the temple before repeating each location.",
+        "es": ":Si te encuentras con un bug donde la varilla zahorí deja de funcionar de repente, debes destruirla y conseguir una nueva del barco dentro del templo antes de repetir cada ubicación."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "The oasis just north-west of the temple.",
+        "es": "El oasis justo al noroeste del templo."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 1,
+      "text": {
+        "en": "The oasis by the Camel Warriors, east of Sophanem.",
+        "es": "El oasis junto a los Camel Warriors, al este de Sophanem."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "The oasis near the Bedabin Camp.",
+        "es": "El oasis cerca del Bedabin Camp."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Return to Senliten.",
+        "es": "Vuelve con Senliten."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Head to the waterfall north of the Dominion Tower and climb it.",
+        "es": "Dirígete a la cascada al norte de la Dominion Tower y súbela."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Walk north through both sets of double doors",
+        "es": "Camina hacia el norte a través de ambos pares de puertas dobles."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the spirits (Tirrie, Nirrie, or Hallak) in the north part of the cave.",
+        "es": "Habla con los espíritus (Tirrie, Nirrie o Hallak) en la parte norte de la cueva."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Portmaster Kags in the Menaphos Port district on the southwest pier by the house portal.",
+        "es": "Habla con Portmaster Kags en el distrito del puerto de Menaphos, en el muelle suroeste junto al portal de casa."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Enter Crondis's pyramid.",
+        "es": "Entra en la pirámide de Crondis."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the High Priest of Crondis.",
+        "es": "Habla con el Sumo Sacerdote de Crondis."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "You must wait until after Crondis asks for each item before gathering it or the requirement will not be satisfied.",
+        "es": "Debes esperar hasta que Crondis pida cada objeto antes de recolectarlo, o no se cumplirá el requisito."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Catch a raw beltfish either on the northwest or southeast pier of the Menaphos Port district or in the VIP skilling area.",
+        "es": "Pesca un beltfish crudo en el muelle noroeste o sureste del distrito del puerto de Menaphos, o en la zona VIP de habilidades."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "If using Bait and Switch first catch a beltfish, then obtain it via trading or bank raw.",
+        "es": "Si usas Bait and Switch, primero pesca un beltfish y luego consíguelo mediante intercambio o del banco en crudo."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Return to Crondis (opciones de chat: 1 Yes, of course.)",
+        "es": "Vuelve con Crondis. (opciones de chat: 1 Yes, of course.)"
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Cut two acadia logs at the acadia trees in the Menaphos Imperial district.",
+        "es": "Corta dos troncos de acadia en los árboles de acadia del distrito Imperial de Menaphos."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Return to Crondis. (opciones de chat: 1 Yes, of course.)",
+        "es": "Vuelve con Crondis. (opciones de chat: 1 Yes, of course.)"
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Collect four pyramid tops from the Agility Pyramid.",
+        "es": "Recolecta cuatro cúspides de pirámide en la Agility Pyramid."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Return to Crondis. (opciones de chat: 1 Yes, of course.)",
+        "es": "Vuelve con Crondis. (opciones de chat: 1 Yes, of course.)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Catch eight plover birds in southern Sophanem. Any sort of double drop will not count for this. It must be 8 catches, not just 8 plover birds.",
+        "es": "Atrapa ocho plover birds al sur de Sophanem. Cualquier tipo de captura doble no contará para esto. Deben ser 8 capturas, no solo 8 plover birds."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "Sophanem Slayer Dungeon teleport and run south is the fastest way to get there.",
+        "es": "El teleporte a Sophanem Slayer Dungeon y correr hacia el sur es la forma más rápida de llegar allí."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Return to Crondis. (opciones de chat: 1 Yes, of course.)",
+        "es": "Vuelve con Crondis. (opciones de chat: 1 Yes, of course.)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Without teleporting after buying, purchase at least 20 (preferably 24) croc ices from Rokuh in Nardah near the fountain to ensure you still have 16 left to turn in (because one croc ice is eaten automatically every 15 seconds, and teleporting with them turns them into chocolatey goo).",
+        "es": "Sin teletransportarte después de comprarlos, compra al menos 20 (preferiblemente 24) croc ices a Rokuh en Nardah cerca de la fuente, para asegurarte de que aún te quedan 16 para entregar (porque un croc ice se consume automáticamente cada 15 segundos, y teletransportarte con ellos los convierte en una masa de chocolate)."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "Run west and Nardah magic carpet to Menaphos.",
+        "es": "Corre hacia el oeste y usa la alfombra mágica de Nardah hasta Menaphos."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "Use the Merchant District Shifting Tombs to get to the Port District and return to Crondis' pyramid.",
+        "es": "Usa las Shifting Tombs del distrito Mercante para llegar al distrito del Puerto y volver a la pirámide de Crondis."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "They do not need to all be collected in one trip.",
+        "es": "No es necesario recolectarlos todos en un solo viaje."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Crondis. Use any chat option except 1 for all dialogue boxes.",
+        "es": "Habla con Crondis. Usa cualquier opción de chat excepto la 1 en todos los cuadros de diálogo."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "If not already equipped for combat, leave the conversation just before the player yells \"THAT'S ENOUGH!\" to prepare for the fight.",
+        "es": "Si aún no estás equipado para el combate, sal de la conversación justo antes de que el jugador grite \"¡YA BASTA!\" para prepararte para la pelea."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Talk to Crondis again to continue forward to the fight when you return.",
+        "es": "Vuelve a hablar con Crondis para continuar hacia la pelea cuando regreses."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Kill Ukunduka (stay out of melee distance or use Saradomin brews). There is a safe spot on the stairs leading up to Crondis.",
+        "es": "Mata a Ukunduka (mantente fuera del alcance de melé o usa Saradomin brews). Hay un punto seguro en las escaleras que suben hacia Crondis."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the High Priest of Crondis.",
+        "es": "Habla con el Sumo Sacerdote de Crondis."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Return to Senliten.",
+        "es": "Vuelve con Senliten."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, speak with Senliten.",
+        "es": "Después de la escena cinemática, habla con Senliten."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

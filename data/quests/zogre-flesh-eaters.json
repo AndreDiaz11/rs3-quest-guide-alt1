@@ -1,0 +1,386 @@
+{
+  "id": "zogre-flesh-eaters",
+  "title": "Zogre Flesh Eaters",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:36:20.191Z",
+  "icon": "https://runescape.wiki/images/Zogre_Flesh_Eaters_icon.png",
+  "series": "Ogre",
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "50-59",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "17 May 2005",
+  "startPoint": {
+    "en": "Talk to Grish, located west of Gu'Tanoth and south of Castle Wars.",
+    "es": "Habla con Grish, situado al oeste de Gu'Tanoth y al sur de Castle Wars."
+  },
+  "requirements": {
+    "quests": [
+      "Big Chompy Bird Hunting",
+      "Jungle Potion"
+    ],
+    "skills": [
+      {
+        "skill": "Prayer",
+        "level": 40
+      },
+      {
+        "skill": "Crafting",
+        "level": 20
+      },
+      {
+        "skill": "Herblore",
+        "level": 8
+      }
+    ]
+  },
+  "items": [],
+  "kills": [
+    "Zombie (level 36)",
+    "Slash Bash (level 58)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ourg bones",
+      "display": "3 Ourg bones",
+      "image": "https://runescape.wiki/images/thumb/Ourg_bones_detail.png/100px-Ourg_bones_detail.png?6c1d5"
+    },
+    {
+      "type": "item",
+      "name": "Zogre bones",
+      "display": "2 Zogre bones",
+      "image": "https://runescape.wiki/images/thumb/Zogre_bones_detail.png/100px-Zogre_bones_detail.png?69bd9"
+    },
+    {
+      "type": "xp",
+      "skill": "Fletching",
+      "amount": 2000,
+      "display": "2,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Ranged",
+      "amount": 2000,
+      "display": "2,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Herblore",
+      "amount": 2000,
+      "display": "2,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Jiggig",
+      "display": "Access to Jiggig",
+      "image": "https://runescape.wiki/images/thumb/Jiggig.png/100px-Jiggig.png?68094"
+    },
+    {
+      "type": "item",
+      "name": "Inoculation brace",
+      "display": "Ability to equip inoculation brace",
+      "image": "https://runescape.wiki/images/thumb/Inoculation_brace_detail.png/100px-Inoculation_brace_detail.png?3bc6c"
+    },
+    {
+      "type": "item",
+      "name": "Composite ogre bow",
+      "display": "Ability to fletch composite ogre bow and brutal arrows",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Black prism",
+      "display": "Take the black prism to either Zavistic Rarve for 2,000 coins or to Yanni Salika in Shilo Village for 5,000 coins.",
+      "image": "https://runescape.wiki/images/thumb/Black_prism_detail.png/100px-Black_prism_detail.png?f1e65"
+    },
+    {
+      "type": "item",
+      "name": "Relicym's balm",
+      "display": "Take a 2, 3 or 4 dose relicym's balm potion to Uglug Nar for 300, 650 or 1,000 coins respectively. Doing so will unlock his shop.",
+      "image": "https://runescape.wiki/images/thumb/Relicym%27s_balm_%281%29_detail.png/100px-Relicym%27s_balm_%281%29_detail.png?94006"
+    },
+    {
+      "type": "item",
+      "name": "Wayward",
+      "display": "Wayward (Zogre Dungeon)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Zogre Dance",
+      "display": "Zogre Dance (Jiggig)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Grish in Jiggig, located a short run south of the Castle Wars. (opciones de chat: 3 What are Zogres? • 4 Can I help in any way? • Accept)",
+        "es": "Habla con Grish en Jiggig, situado a una corta carrera al sur de Castle Wars. (opciones de chat: 3 What are Zogres? • 4 Can I help in any way? • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the ogre guard (without the combat level, east).",
+        "es": "Habla con el guardia ogro (el que no tiene nivel de combate, al este)."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Climb over the crushed barricade.",
+        "es": "Trepa por encima de la barricada destrozada."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Run east and down the stairs.",
+        "es": "Corre hacia el este y baja las escaleras."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Run as far north-west as you can, and search the skeleton, kill the zombie, and take his ruined backpack.",
+        "es": "Corre lo más al noroeste que puedas, registra el esqueleto, mata al zombi y coge su mochila destrozada."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "If you're in combat when trying to search the skeleton, the zombie will not spawn.",
+        "es": "Si estás en combate al intentar registrar el esqueleto, el zombi no aparecerá."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Open the ruined backpack. You will get a dragon inn tankard, a knife, and rotten food. Drop all except the dragon inn tankard.",
+        "es": "Abre la mochila destrozada. Obtendrás una jarra del Dragon Inn, un cuchillo y comida podrida. Suelta todo excepto la jarra del Dragon Inn."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Search the broken lectern behind the skeleton.",
+        "es": "Registra el atril roto detrás del esqueleto."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Read the torn page.",
+        "es": "Lee la página rasgada."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Search the nearby ogre coffin until you find a black prism.",
+        "es": "Registra el ataúd de ogro cercano hasta que encuentres un prisma negro."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Enter the Dragon Inn pub in Yanille.",
+        "es": "Entra en el pub Dragon Inn en Yanille."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Use the dragon inn tankard on the bartender.",
+        "es": "Usa la jarra del Dragon Inn en el camarero."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zavistic Rarve on the of the Wizards' Guild. Ring the bell outside if you lack the requirements. (opciones de chat: 1 What did you say I should do?)",
+        "es": "Habla con Zavistic Rarve en el Wizards' Guild. Toca la campana de fuera si no cumples los requisitos. (opciones de chat: 1 ¿Qué has dicho que debería hacer?)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Enter the house just north of the guild, , talk to Sithik in bed.",
+        "es": "Entra en la casa justo al norte del gremio y habla con Sithik, que está en la cama."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Search the drawers, the cupboard, and the wardrobe.",
+        "es": "Registra los cajones, el armario y el ropero."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Read the 3 books, use the papyrus on Sithik to make a portrait, then use the portrait on Sithik.",
+        "es": "Lee los 3 libros, usa el papiro en Sithik para hacer un retrato y luego usa el retrato en Sithik."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Make sure that Sithik says that he appreciates \"honesty\" of the portrait or you will have to make another. If he says 'truth' you will have to try again. There is more papyrus in the drawers.",
+        "es": "Asegúrate de que Sithik dice que aprecia la \"honestidad\" del retrato, o tendrás que hacer otro. Si dice \"verdad\" tendrás que intentarlo de nuevo. Hay más papiro en los cajones."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Use the portrait on the bartender. He will return it as a Signed portrait.",
+        "es": "Usa el retrato en el camarero. Te lo devolverá como un Retrato firmado."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "If he just says that he recognises Sithik without signing the portrait, it means that you forgot to show him the dragon inn tankard.",
+        "es": "Si solo dice que reconoce a Sithik sin firmar el retrato, significa que se te olvidó mostrarle la jarra del Dragon Inn."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to to Zavistic Rarve. He will give you a strange potion. (opciones de chat: 1 I'm here about the sicks...err Zogres. • 3 I have some items that I'd like you to look at.)",
+        "es": "Habla con Zavistic Rarve. Te dará una poción extraña. (opciones de chat: 1 Vengo por los enfermos... digo, los Zogres. • 3 Tengo algunos objetos que me gustaría que examinaras.)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Use the strange potion on the cup of tea beside Sithik.",
+        "es": "Usa la poción extraña en la taza de té junto a Sithik."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Climb down the ladder, climb up the ladder, ask Sithik all the possible questions. (opciones de chat: 1 How do I remove the effects of the spell from the area? • 2 How do I get rid of the undead ogres? • 3 How do I get rid of the disease? • 4 Sorry, I have to go.)",
+        "es": "Baja por la escalera, sube por la escalera y hazle a Sithik todas las preguntas posibles. (opciones de chat: 1 ¿Cómo elimino los efectos del hechizo del área? • 2 ¿Cómo me deshago de los ogros no muertos? • 3 ¿Cómo me deshago de la enfermedad? • 4 Lo siento, tengo que irme.)"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Return to Grish at the quest start, he will give you a key. (opciones de chat: 1 I found who's responsible for the Zogres being here.)",
+        "es": "Vuelve con Grish al inicio de la misión, te dará una llave. (opciones de chat: 1 He encontrado quién es el responsable de que los Zogres estén aquí.)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him again to be able to create a comp ogre bow and brutal arrows, which can be used to fight the upcoming boss. (opciones de chat: 2 There must be an easier way to kill these zogres!)",
+        "es": "Habla con él de nuevo para poder crear un comp ogre bow y brutal arrows, que se pueden usar para luchar contra el próximo jefe. (opciones de chat: 2 ¡Tiene que haber una forma más fácil de matar a estos zogres!)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "(Optional) Use a clean rogue's purse on a vial of water, and then add a clean snakeweed to create a relicym's balm. Use this on Uglug Nar next to Grish, and you unlock his shop Uglug's Stuffsies which sells the comp ogre bow. This will also complete the Brutal Stuffsies achievement.",
+        "es": "(Opcional) Usa un clean rogue's purse en un vial of water, y luego añade un clean snakeweed para crear un relicym's balm. Úsalo en Uglug Nar, junto a Grish, y desbloquearás su tienda Uglug's Stuffsies, que vende el comp ogre bow. Esto también completará el logro Brutal Stuffsies."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "(Optional) Either buy brutal arrows from the Grand Exchange, or fletch them at this point; there are achey trees to the west of Grish, chop them down and fletch their logs into shafts, then attach feathers, and tip them with nails of your choosing.",
+        "es": "(Opcional) Compra brutal arrows en el Grand Exchange, o fabrícalas en este punto; hay achey trees al oeste de Grish, tálalos y fabrica sus troncos en shafts, luego añade feathers y remátalas con los nails que prefieras."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Cross the barricade to the east and go down the stairs again.",
+        "es": "Cruza la barricada hacia el este y baja las escaleras de nuevo."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Once inside, run directly west, through the double doors and down more stairs.",
+        "es": "Una vez dentro, corre directamente hacia el oeste, atraviesa las puertas dobles y baja más escaleras."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Go north-east and search the stand in front of the pile of skulls. Prepare for battle.",
+        "es": "Ve hacia el noreste y registra el soporte frente al montón de calaveras. Prepárate para la batalla."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Kill Slash Bash, pick up the Ogre artefact he drops.",
+        "es": "Mata a Slash Bash y recoge el Ogre artefact que deja caer."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Return to Grish at quest start. (opciones de chat: 1 Yeah, I have them here!)",
+        "es": "Vuelve con Grish al inicio de la misión. (opciones de chat: 1 ¡Sí, los tengo aquí!)"
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

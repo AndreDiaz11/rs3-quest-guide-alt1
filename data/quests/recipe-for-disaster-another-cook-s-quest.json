@@ -1,0 +1,145 @@
+{
+  "id": "recipe-for-disaster-another-cook-s-quest",
+  "title": "Recipe for Disaster: Another Cook's Quest",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:06:38.682Z",
+  "icon": "https://runescape.wiki/images/Another_Cook%27s_Quest_icon.png",
+  "length": "Short",
+  "startPoint": {
+    "en": "The Cook in Lumbridge Castle's kitchen.",
+    "es": "El Cook en la cocina de Lumbridge Castle."
+  },
+  "requirements": {
+    "quests": [
+      "Cook's Assistant"
+    ],
+    "skills": [
+      {
+        "skill": "Cooking",
+        "level": 10
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Eye of newt",
+      "display": "1 Eye of newt",
+      "image": "https://runescape.wiki/images/thumb/Eye_of_newt_detail.png/100px-Eye_of_newt_detail.png?c85db"
+    },
+    {
+      "name": "Greenman's ale",
+      "display": "1 Greenman's ale",
+      "image": "https://runescape.wiki/images/thumb/Greenman%27s_ale_detail.png/100px-Greenman%27s_ale_detail.png?31874"
+    },
+    {
+      "name": "Rotten tomato",
+      "display": "1 Rotten tomato",
+      "image": "https://runescape.wiki/images/thumb/Rotten_tomato_detail.png/100px-Rotten_tomato_detail.png?ccc7a"
+    },
+    {
+      "name": "Ashes",
+      "display": "1 Ashes",
+      "image": "https://runescape.wiki/images/thumb/Ashes_detail.png/100px-Ashes_detail.png?20318"
+    },
+    {
+      "name": "Fruit Blast",
+      "display": "1 Fruit Blast (premade does not work). The fruit blast can also be made with the following items: 1 Cocktail shaker 1 Cocktail glass 2 Lemons, 1 pineapple, 1 orange",
+      "image": "https://runescape.wiki/images/thumb/Fruit_Blast_detail.png/100px-Fruit_Blast_detail.png?9a03f"
+    },
+    {
+      "name": "Cocktail shaker",
+      "display": "1 Cocktail shaker",
+      "image": "https://runescape.wiki/images/thumb/Cocktail_shaker_detail.png/100px-Cocktail_shaker_detail.png?3a0f6"
+    },
+    {
+      "name": "Cocktail glass",
+      "display": "1 Cocktail glass",
+      "image": "https://runescape.wiki/images/thumb/Cocktail_glass_detail.png/100px-Cocktail_glass_detail.png?ec837"
+    },
+    {
+      "name": "Lemon",
+      "display": "2 Lemons, 1 pineapple, 1 orange",
+      "image": "https://runescape.wiki/images/thumb/Lemon_detail.png/100px-Lemon_detail.png?9acba"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "An invitation to the feast",
+      "display": "An invitation to the feast",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Culinaromancer's Chest",
+      "display": "Access to the Culinaromancer's Chest",
+      "image": "https://runescape.wiki/images/thumb/Culinaromancer%27s_Chest_interior.png/100px-Culinaromancer%27s_Chest_interior.png?1eedb"
+    },
+    {
+      "type": "item",
+      "name": "Chef Surprize",
+      "display": "Chef Surprize",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Cook in the kitchen of Lumbridge Castle. (opciones de chat: 1 Do you have any other quests for me? • Any • 1 What seems to be the problem? • Accept)",
+        "es": "Habla con el Cook en la cocina de Lumbridge Castle. (opciones de chat: 1 ¿Tienes alguna otra misión para mí? • Cualquiera • 1 ¿Cuál parece ser el problema? • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Use the ashes on the fruit blast.",
+        "es": "Usa las cenizas en el fruit blast."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Give the items to the cook.",
+        "es": "Dale los objetos al cook."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Subquest complete!",
+        "es": "¡Submisión completada!"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Go through the dining hall door and complete the dialogue to unlock the rest of subquests.",
+        "es": "Atraviesa la puerta del dining hall y completa el diálogo para desbloquear el resto de las submisiones."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "It is recommended to inspect each character first, complete every subquest outside this instanced area and then finish all of them at once.",
+        "es": "Se recomienda inspeccionar primero a cada personaje, completar todas las submisiones fuera de esta área instanciada y luego terminarlas todas a la vez."
+      }
+    }
+  ]
+}

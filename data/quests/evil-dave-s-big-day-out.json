@@ -1,0 +1,783 @@
+{
+  "id": "evil-dave-s-big-day-out",
+  "title": "Evil Dave's Big Day Out",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:15:16.025Z",
+  "icon": "https://runescape.wiki/images/Evil_Dave%27s_Big_Day_Out_icon.png",
+  "series": null,
+  "age": "6",
+  "timeline": "world guardian",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "27 November 2017",
+  "startPoint": {
+    "en": "Talk to Evil Dave in his Basement of Doom in Edgeville. (via )",
+    "es": "Habla con Evil Dave en su Basement of Doom en Edgeville. (via )"
+  },
+  "requirements": {
+    "quests": [
+      "Recipe for Disaster: Freeing Evil Dave",
+      "Recipe for Disaster: Another Cook's Quest",
+      "Cook's Assistant",
+      "Gertrude's Cat",
+      "Shadow of the Storm",
+      "Demon Slayer",
+      "The Golem",
+      "Dishonour among Thieves",
+      "Hazeel Cult",
+      "Missing, Presumed Death",
+      "Koschei's Troubles (miniquest)",
+      "The Chosen Commander",
+      "Ritual of the Mahjarrat",
+      "The World Wakes",
+      "The Death of Chivalry",
+      "Morytania",
+      "Nomad's Requiem",
+      "King's Ransom",
+      "Knight Waves",
+      "Camelot",
+      "Soul Wars",
+      "Nadir (saga)",
+      "Skaldrun",
+      "frozen floors",
+      "Daemonheim",
+      "Ritual of the Mahjarrat"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 30
+      },
+      {
+        "skill": "Cooking",
+        "level": 30
+      },
+      {
+        "skill": "Herblore",
+        "level": 30
+      },
+      {
+        "skill": "Magic",
+        "level": 30
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Backpack",
+      "display": "An empty backpack.",
+      "image": "https://runescape.wiki/images/thumb/Inventory_interface.png/100px-Inventory_interface.png?8ee97"
+    },
+    {
+      "name": "Familiar",
+      "display": "No familiar or pet summoned.",
+      "image": null
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 50000,
+      "display": "50,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Herblore",
+      "amount": 20000,
+      "display": "20,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 20000,
+      "display": "20,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Cooking",
+      "amount": 20000,
+      "display": "20,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Hell-Rat",
+      "display": "Ability to catch Hell-Rats bare handed.",
+      "image": "https://runescape.wiki/images/thumb/Hell-Rat.png/100px-Hell-Rat.png?cd41e"
+    },
+    {
+      "type": "item",
+      "name": "Spicy stew",
+      "display": "Eating spicy stew has a better chance to give positive stats and is guaranteed to boost stats by 2-6 levels.",
+      "image": "https://runescape.wiki/images/thumb/Spicy_stew_detail.png/100px-Spicy_stew_detail.png?d9e47"
+    },
+    {
+      "type": "item",
+      "name": "Dave's spellbook",
+      "display": "Ability to chip teleport tablets to alternate teleport destination by using the tablet on Dave's spellbook.",
+      "image": "https://runescape.wiki/images/Dave%27s_spellbook_detail.png?b971b"
+    },
+    {
+      "type": "item",
+      "name": "Dave's spellbook that holds up to 1000 charges of chipped teleports. Talk to Dave after the quest to receive it.",
+      "display": "Dave's spellbook that holds up to 1000 charges of chipped teleports. Talk to Dave after the quest to receive it.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Evil Dave's Theme",
+      "display": "Evil Dave's Theme",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Basement of Doom, located under a house west of Edgeville bank.",
+        "es": "Ve al Basement of Doom, ubicado bajo una casa al oeste del banco de Edgeville."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Evil Dave. (opciones de chat: 1 Evil Dave's big day out. • 1 I was looking for a quest. • Accept)",
+        "es": "Habla con Evil Dave. (opciones de chat: 1 Evil Dave's big day out. • 1 I was looking for a quest. • Accept)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, admire the mirror to the west.",
+        "es": "Después de la escena, admira el espejo al oeste."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Go upstairs and talk to Doris.",
+        "es": "Sube las escaleras y habla con Doris."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Do your chores.",
+        "es": "Haz tus tareas domésticas."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "Search the wardrobe for a broom and bed bug cleaner.",
+        "es": "Busca en el armario una escoba y un limpiador de chinches."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "Sweep the rug.",
+        "es": "Barre la alfombra."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "Search the shelf for a bar of soap.",
+        "es": "Busca en la estantería una pastilla de jabón."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 1,
+      "text": {
+        "en": "Wash the dishes in the sink.",
+        "es": "Lava los platos en el fregadero."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "text": {
+        "en": "Choose the take knife option on the sink.",
+        "es": "Elige la opción de coger el cuchillo en el fregadero."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 1,
+      "text": {
+        "en": "Chop the vegetables.",
+        "es": "Corta las verduras."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "Go downstairs and clean your bed.",
+        "es": "Baja las escaleras y limpia tu cama."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene go back upstairs and talk to Doris.",
+        "es": "Después de la escena, vuelve a subir las escaleras y habla con Doris."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Go back downstairs and search the bookcase by the stairs. (opciones de chat: 2 No, I need to find the spellbook.)",
+        "es": "Vuelve a bajar las escaleras y busca en la estantería de libros junto a las escaleras. (opciones de chat: 2 No, I need to find the spellbook.)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Search behind the boiler in the southeast corner.",
+        "es": "Busca detrás de la caldera en la esquina sureste."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Search the drapes by the bed.",
+        "es": "Busca en las cortinas junto a la cama."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Investigate Dave's spellbook.",
+        "es": "Investiga el libro de hechizos de Dave."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Investigate it again to teleport to the Makeover Mage. (If you interact with Dave's spellbook again and get the message \"I don't need to use the spellbook right now\", interact with the drapes once more and the option to teleport to Makeover Mage will appear.) (opciones de chat: 1 Yes.)",
+        "es": "Investígalo de nuevo para teletransportarte al Makeover Mage. (Si interactúas con el libro de hechizos de Dave otra vez y recibes el mensaje \"I don't need to use the spellbook right now\", interactúa de nuevo con las cortinas y aparecerá la opción de teletransportarte al Makeover Mage.) (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to one of the bankers and withdraw the law rune, stew, and old rug from Dave's bank.",
+        "es": "Habla con uno de los banqueros y retira la law rune, el stew y la old rug del banco de Dave."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to one of the Grand Exchange clerks. (opciones de chat: 3 Air runes.)",
+        "es": "Habla con uno de los empleados del Grand Exchange. (opciones de chat: 3 Air runes.)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Drink the stew and refill the flask from any of the water fountains around the Grand Exchange.",
+        "es": "Bebe el stew y rellena el frasco en cualquiera de las fuentes de agua alrededor del Grand Exchange."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Go to one of the Exchange clerks (Clark or Kent) to exchange the water flask for an air rune.",
+        "es": "Ve a uno de los empleados del Exchange (Clark o Kent) para intercambiar el frasco de agua por una air rune."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Teleport to the makeover mage and ask to turn into a girl. (opciones de chat: Any).",
+        "es": "Teletranspórtate al Makeover Mage y pide convertirte en chica. (opciones de chat: Any)."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "After you teleport back, talk to Doris. (opciones de chat: Any • Any • Any)",
+        "es": "Después de teletransportarte de vuelta, habla con Doris. (opciones de chat: Any • Any • Any)"
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to redo the following chores.",
+        "es": "Intenta rehacer las siguientes tareas domésticas."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "Sweep the rug.",
+        "es": "Barre la alfombra."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "Wash the dishes.",
+        "es": "Lava los platos."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 1,
+      "text": {
+        "en": "Chop the vegetables.",
+        "es": "Corta las verduras."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Open the door and go north to the general store and speak to the shopkeeper. (opciones de chat: 1 Go to the shops)",
+        "es": "Abre la puerta y ve al norte hasta la tienda general y habla con el tendero. (opciones de chat: 1 Go to the shops)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Return to the house and redo all the chores again.",
+        "es": "Vuelve a la casa y rehaz todas las tareas domésticas de nuevo."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "Sweep the rug.",
+        "es": "Barre la alfombra."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "Wash the dishes.",
+        "es": "Lava los platos."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "Chop the vegetables.",
+        "es": "Corta las verduras."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "Go downstairs and clean your bed.",
+        "es": "Baja las escaleras y limpia tu cama."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, go upstairs and talk to Doris",
+        "es": "Después de la escena, sube las escaleras y habla con Doris."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Open the door. (opciones de chat: 2 Carry on with the Quest. • 1 I'm ready to sneak in.)",
+        "es": "Abre la puerta. (opciones de chat: 2 Carry on with the Quest. • 1 I'm ready to sneak in.)"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Pickup the hand-written note in front of you.",
+        "es": "Recoge la nota escrita a mano frente a ti."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Search the suit of armour to the west for a knight's helmet.",
+        "es": "Busca en la armadura al oeste un casco de caballero."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Search the crates in the west for some gunpowder.",
+        "es": "Busca en las cajas del oeste algo de pólvora."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Use the gunpowder on the helmet.",
+        "es": "Usa la pólvora en el casco."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Use the hand-written note on the helmet.",
+        "es": "Usa la nota escrita a mano en el casco."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Use the helmet with fuse on the torch on the wall.",
+        "es": "Usa el casco con mecha en la antorcha de la pared."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Get close to the guard and throw the lit decoy bomb.",
+        "es": "Acércate al guardia y lanza la bomba señuelo encendida."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Sneak past the guards and enter the door to the tower where you will meet a drunken Sir Amik (the easiest way is to go past them once the third guard turns east).",
+        "es": "Esquiva a los guardias y entra por la puerta hacia la torre, donde encontrarás a un Sir Amik borracho (la forma más fácil es pasar junto a ellos cuando el tercer guardia gire hacia el este)."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Sir Amik to determine you need to give him more to drink.",
+        "es": "Habla con Sir Amik para determinar que necesitas darle más de beber."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Click the barrel to open the drinks menu and wait for the on screen prompt to show which drink you need. Take the drink and talk to Amik, as soon as the drink is removed from your inventory go back to the barrel and wait for the next on screen prompt. Repeat 5 times until Amik starts a new dialogue. (If you have trouble completing this part, take a drink, drop it, take one again and before the time runs out use loot area to grab them; you will be able to stack the drinks hence having more chance to complete this part.)",
+        "es": "Haz clic en el barril para abrir el menú de bebidas y espera a que aparezca el mensaje en pantalla indicando qué bebida necesitas. Coge la bebida y habla con Amik; en cuanto la bebida desaparezca de tu inventario, vuelve al barril y espera la siguiente indicación en pantalla. Repite esto 5 veces hasta que Amik inicie un nuevo diálogo. (Si tienes problemas para completar esta parte, coge una bebida, suéltala, cógela de nuevo y, antes de que se acabe el tiempo, usa la opción de recoger área para agarrarlas; podrás apilar las bebidas, teniendo así más posibilidades de completar esta parte.)"
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Doris. (opciones de chat: Any • Any)",
+        "es": "Habla con Doris. (opciones de chat: Any • Any)"
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Redo your chores again.",
+        "es": "Rehaz tus tareas domésticas de nuevo."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "text": {
+        "en": "Sweep the rug.",
+        "es": "Barre la alfombra."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "Wash the dishes in the sink.",
+        "es": "Lava los platos en el fregadero."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 1,
+      "text": {
+        "en": "Chop the vegetables.",
+        "es": "Corta las verduras."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "text": {
+        "en": "Go downstairs and clean your bed.",
+        "es": "Baja las escaleras y limpia tu cama."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Felicity or Margaret the hell-rats.",
+        "es": "Habla con Felicity o Margaret, las hell-rats."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 1,
+      "text": {
+        "en": "If they appear as normal hell-rats: go up the stairs for a dialogue and go back down.",
+        "es": "Si aparecen como hell-rats normales: sube las escaleras para un diálogo y vuelve a bajar."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Recruit any 3 of the other hell-rats.",
+        "es": "Recluta a 3 cualesquiera de las otras hell-rats."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Climb up the stairs to get to Shantay Pass.",
+        "es": "Sube las escaleras para llegar a Shantay Pass."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Shantay.",
+        "es": "Habla con Shantay."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 0,
+      "text": {
+        "en": "Shake the coconut tree and pick up the coconut that falls out.",
+        "es": "Agita el cocotero y recoge el coco que cae."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 0,
+      "text": {
+        "en": "Use the coconut on Shantay.",
+        "es": "Usa el coco en Shantay."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 0,
+      "text": {
+        "en": "Click the empty shell to add a hell-rat to it.",
+        "es": "Haz clic en el caparazón vacío para añadirle una hell-rat."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 0,
+      "text": {
+        "en": "Climb up the rope on the northeastern wall and throw the Shell-rat.",
+        "es": "Sube por la cuerda en la pared noreste y lanza la Shell-rat."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Climb back down and try to open the Jail door. You will then hand the Coconut drink to the Shady man inside.",
+        "es": "Baja de nuevo e intenta abrir la puerta de la cárcel. Entonces le darás la bebida de coco al Shady man de adentro."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Once inside, talk to him to receive a jewel.",
+        "es": "Una vez dentro, habla con él para recibir una joya."
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Search the barrel inside of the jail cell to take one.",
+        "es": "Busca en el barril dentro de la celda para coger uno."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the border guards to exchange the jewel for a rope.",
+        "es": "Habla con los guardias fronterizos para intercambiar la joya por una cuerda."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "Use the rope on the coconut tree.",
+        "es": "Usa la cuerda en el cocotero."
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "Click the barrel in your inventory to load the last hell-rat into it.",
+        "es": "Haz clic en el barril de tu inventario para cargar la última hell-rat en él."
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Use the old rug (you got from the bank earlier) on the barrel.",
+        "es": "Usa la old rug (que obtuviste antes del banco) en el barril."
+      }
+    },
+    {
+      "index": 68,
+      "indent": 0,
+      "text": {
+        "en": "Roll the barrel past the Shantay pass.",
+        "es": "Empuja el barril rodando más allá de Shantay pass."
+      }
+    },
+    {
+      "index": 69,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Shantay.",
+        "es": "Habla con Shantay."
+      }
+    },
+    {
+      "index": 70,
+      "indent": 0,
+      "text": {
+        "en": "Search the hole that has a slight twinkle to it.",
+        "es": "Busca el agujero que tiene un ligero destello."
+      }
+    },
+    {
+      "index": 71,
+      "indent": 0,
+      "text": {
+        "en": "As a hell-rat, enter the sparkling holes. You can also hover your mouse over the holes until you spot the hole with a little rat icon File:Evil Dave's Big Day Out entity icon.png next to it. You will have to repeat this 4 times.",
+        "es": "Como hell-rat, entra en los agujeros brillantes. También puedes pasar el ratón por encima de los agujeros hasta que localices el que tiene un pequeño icono de rata File:Evil Dave's Big Day Out entity icon.png junto a él. Tendrás que repetir esto 4 veces."
+      }
+    },
+    {
+      "index": 72,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to enter the mysterious entrance as a hell-rat.",
+        "es": "Intenta entrar por la entrada misteriosa como hell-rat."
+      }
+    },
+    {
+      "index": 73,
+      "indent": 0,
+      "text": {
+        "en": "Enter the mysterious entrance.",
+        "es": "Entra por la entrada misteriosa."
+      }
+    },
+    {
+      "index": 74,
+      "indent": 0,
+      "text": {
+        "en": "Grab Dave from the empty cooking range south-east.",
+        "es": "Agarra a Dave desde el horno de cocina vacío al sureste."
+      }
+    },
+    {
+      "index": 75,
+      "indent": 0,
+      "text": {
+        "en": "Select the Clean Bed option.",
+        "es": "Selecciona la opción Limpiar cama."
+      }
+    },
+    {
+      "index": 76,
+      "indent": 0,
+      "text": {
+        "en": "Gather 5 hell-rats. If cutscene does not begin, gather the sixth hell-rat.",
+        "es": "Reúne 5 hell-rats. Si la escena no comienza, reúne la sexta hell-rat."
+      }
+    },
+    {
+      "index": 77,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Doris.",
+        "es": "Habla con Doris."
+      }
+    },
+    {
+      "index": 78,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

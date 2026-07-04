@@ -1,0 +1,363 @@
+{
+  "id": "big-chompy-bird-hunting",
+  "title": "Big Chompy Bird Hunting",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T19:51:53.738Z",
+  "icon": "https://runescape.wiki/images/Big_Chompy_Bird_Hunting_icon.png",
+  "series": "Ogre",
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "2-3",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "18 May 2004",
+  "startPoint": {
+    "en": "Talk to Rantz, in eastern Feldip Hills.",
+    "es": "Habla con Rantz, al este de las Feldip Hills."
+  },
+  "requirements": {
+    "quests": [
+      "Big Chompy Bird Hunting"
+    ],
+    "skills": [
+      {
+        "skill": "Cooking",
+        "level": 30
+      },
+      {
+        "skill": "Fletching",
+        "level": 5
+      },
+      {
+        "skill": "Ranged",
+        "level": 30
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Feather",
+      "display": "Feathers (100+ to be safe, 25 can be bought during quest for 50 coins)",
+      "image": "https://runescape.wiki/images/thumb/Feather_detail.png/100px-Feather_detail.png?957d4"
+    },
+    {
+      "name": "Wolf bones",
+      "display": "4-6 wolf bones (can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Wolf_bones_detail.png/100px-Wolf_bones_detail.png?b7efe"
+    },
+    {
+      "name": "Achey tree logs",
+      "display": "4-6 achey tree logs (can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Achey_tree_logs_detail.png/100px-Achey_tree_logs_detail.png?c1b29"
+    }
+  ],
+  "kills": [
+    "Chompy bird (level 2)",
+    "Wolves (level 11) (optional, but aggressive)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Fletching",
+      "amount": 262,
+      "display": "262 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Cooking",
+      "amount": 1470,
+      "display": "1,470 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Ranged",
+      "amount": 735,
+      "display": "735 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ogre bow",
+      "display": "Ogre bow",
+      "image": "https://runescape.wiki/images/thumb/Ogre_bow_detail.png/100px-Ogre_bow_detail.png?e08a1"
+    },
+    {
+      "type": "item",
+      "name": "Ogre arrow",
+      "display": "Ability to fletch ogre arrows",
+      "image": "https://runescape.wiki/images/thumb/Ogre_arrow_detail.png/100px-Ogre_arrow_detail.png?a827f"
+    },
+    {
+      "type": "item",
+      "name": "Chompy bird",
+      "display": "Ability to hunt chompy birds and cook raw chompy",
+      "image": "https://runescape.wiki/images/thumb/Chompy_bird.png/100px-Chompy_bird.png?c17ea"
+    },
+    {
+      "type": "item",
+      "name": "Chompy bird hat",
+      "display": "Ability to earn ogre hats",
+      "image": "https://runescape.wiki/images/thumb/Expert_Ogre_Dragon_Archer_hat_detail.png/100px-Expert_Ogre_Dragon_Archer_hat_detail.png?b0137"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Rantz east of Feldip Hills. (opciones de chat: 3 How do I make the 'stabbers'?. • Accept)",
+        "es": "Habla con Rantz al este de las Feldip Hills. (opciones de chat: 3 How do I make the 'stabbers'?. • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Chop down two Achey Trees.",
+        "es": "Tala dos Achey Trees."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Craft ogre arrow shafts from the logs.",
+        "es": "Fabrica astas de flecha de ogro a partir de los troncos."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Use feathers on the ogre arrow shafts.",
+        "es": "Usa plumas en las astas de flecha de ogro."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Obtain some wolf bones. There are some wolves just south-west of Rantz, by the swamp.",
+        "es": "Consigue algunos huesos de lobo. Hay lobos justo al suroeste de Rantz, junto al pantano."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Craft wolf bone arrowheads from the wolf bones.",
+        "es": "Fabrica puntas de flecha de hueso de lobo a partir de los huesos de lobo."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "Be careful not to bury the bones.",
+        "es": "Ten cuidado de no enterrar los huesos."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Use the wolf bone arrowheads on the shafts.",
+        "es": "Usa las puntas de flecha de hueso de lobo en las astas."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Use 6 ogre arrows on Rantz.",
+        "es": "Usa 6 flechas de ogro en Rantz."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Ask Rantz all possible questions. (opciones de chat: 1 How do we make the chompys come? • 2 What are 'fatsy toadies'? • 3 Where do we put the fatsy toadies? • 4 What do you mean 'sneaky..sneaky, stick da chompy?' • 5 Ok, thanks.)",
+        "es": "Hazle a Rantz todas las preguntas posibles. (opciones de chat: 1 How do we make the chompys come? • 2 What are 'fatsy toadies'? • 3 Where do we put the fatsy toadies? • 4 What do you mean 'sneaky..sneaky, stick da chompy?' • 5 Ok, thanks.)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Enter the cave north of Rantz.",
+        "es": "Entra en la cueva al norte de Rantz."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Unlock the Locked Ogre chest in the north-west corner, then search it to receive ogre bellows.",
+        "es": "Abre el cofre de ogro cerrado en la esquina noroeste, luego regístralo para recibir un fuelle de ogro."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Exit the cave and run a short distance south-west to the swamp.",
+        "es": "Sal de la cueva y corre una corta distancia hacia el suroeste hasta el pantano."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "At the swamp, fill bellows via the swamp bubbles, then bloat 3 nearby swamp toads for 3 bloated toads.",
+        "es": "En el pantano, llena el fuelle con las burbujas del pantano, luego hincha 3 sapos de pantano cercanos para obtener 3 sapos hinchados."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Remove any Armour/Augmented Armour this will stop you from killing Chompy",
+        "es": "Quítate cualquier armadura/armadura aumentada, ya que esto te impedirá matar al Chompy."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Rantz.",
+        "es": "Habla con Rantz."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Drop a bloated toad where the arrow points and wait for a chompy to appear.",
+        "es": "Deja un sapo hinchado donde señala la flecha y espera a que aparezca un chompy."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "You may need to drop more toads if the bird doesn't spawn.",
+        "es": "Puede que necesites dejar más sapos si el pájaro no aparece."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Rantz after the chompy appears.",
+        "es": "Habla con Rantz después de que aparezca el chompy."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Wait until Rantz has fired his bow and missed the bird, then talk to him.",
+        "es": "Espera hasta que Rantz haya disparado su arco y falle al pájaro, luego habla con él."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Convince him to let you try shooting the bird instead. He'll give you an ogre bow. (opciones de chat: 2 Come on, let me have a go... • 1 I'm actually quite strong...please let me try.)",
+        "es": "Convéncelo de que te deje intentar dispararle al pájaro. Te dará un arco de ogro. (opciones de chat: 2 Come on, let me have a go... • 1 I'm actually quite strong...please let me try.)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Place another toad in the clearing.",
+        "es": "Coloca otro sapo en el claro."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "Alternatively, you can kill the same chompy bird, if it has not left.",
+        "es": "Alternativamente, puedes matar al mismo chompy, si no se ha ido."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Kill the chompy bird that appears with the ogre bow.",
+        "es": "Mata al chompy que aparece con el arco de ogro."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Pluck the carcass and take the raw chompy.",
+        "es": "Desplúmalo y coge el chompy crudo."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Rantz. Take note of the specific ingredient he wants on the chompy",
+        "es": "Habla con Rantz. Toma nota del ingrediente específico que quiere en el chompy."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Go back into the cave and talk to Fycie and Bugs. Take note of the specific ingredients they want on the chompy, all are possible but not necessarily needed.",
+        "es": "Vuelve a entrar en la cueva y habla con Fycie y Bugs. Toma nota de los ingredientes específicos que quieren en el chompy; todos son posibles, pero no necesariamente necesarios."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Obtain the ingredients that they ask for and use the raw chompy on the spit-roast north of Rantz.",
+        "es": "Consigue los ingredientes que piden y usa el chompy crudo en el asador al norte de Rantz."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 1,
+      "text": {
+        "en": "In case you forgot the ingredients, using the raw chompy on the spit-roast will list them out.",
+        "es": "Por si olvidaste los ingredientes, usar el chompy crudo en el asador los mostrará en una lista."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Rantz.",
+        "es": "Habla con Rantz."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

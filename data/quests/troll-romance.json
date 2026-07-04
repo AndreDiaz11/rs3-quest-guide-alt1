@@ -1,0 +1,340 @@
+{
+  "id": "troll-romance",
+  "title": "Troll Romance",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:25:38.460Z",
+  "icon": "https://runescape.wiki/images/Troll_Romance_icon.png",
+  "series": "Troll",
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "70-79",
+  "difficulty": "Experienced",
+  "length": "Medium",
+  "releaseDate": "5 January 2005",
+  "startPoint": {
+    "en": "Speak to Ug at the Troll Stronghold. (via → )",
+    "es": "Habla con Ug en Troll Stronghold. (vía → )"
+  },
+  "requirements": {
+    "quests": [
+      "Troll Stronghold",
+      "Death Plateau"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 28
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 40
+      },
+      {
+        "skill": "Mining",
+        "level": 10
+      },
+      {
+        "skill": "Smithing",
+        "level": 10
+      },
+      {
+        "skill": "Magic",
+        "level": 61
+      },
+      {
+        "skill": "Agility",
+        "level": 43
+      },
+      {
+        "skill": "Prayer",
+        "level": 43
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Iron bar",
+      "display": "Iron bar",
+      "image": "https://runescape.wiki/images/thumb/Iron_bar_detail.png/100px-Iron_bar_detail.png?2c5a5"
+    },
+    {
+      "name": "Maple logs",
+      "display": "Maple or yew logs",
+      "image": "https://runescape.wiki/images/thumb/Maple_logs_detail.png/100px-Maple_logs_detail.png?d3f8b"
+    },
+    {
+      "name": "Rope",
+      "display": "Rope",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    },
+    {
+      "name": "Cake tin",
+      "display": "Cake tin",
+      "image": "https://runescape.wiki/images/thumb/Cake_tin_detail.png/100px-Cake_tin_detail.png?8d85e"
+    },
+    {
+      "name": "Swamp tar",
+      "display": "Swamp tar",
+      "image": "https://runescape.wiki/images/thumb/Swamp_tar_detail.png/100px-Swamp_tar_detail.png?27572"
+    },
+    {
+      "name": "Climbing boots",
+      "display": "Climbing boots (or Trollheim Teleport or Trollheim tablet)",
+      "image": "https://runescape.wiki/images/thumb/Climbing_boots_detail.png/100px-Climbing_boots_detail.png?91a45"
+    },
+    {
+      "name": "Bucket of wax",
+      "display": "Bucket of wax",
+      "image": "https://runescape.wiki/images/thumb/Bucket_of_wax_detail.png/100px-Bucket_of_wax_detail.png?59bca"
+    }
+  ],
+  "kills": [
+    "Arrg (level 77)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 8000,
+      "display": "8,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Strength",
+      "amount": 4000,
+      "display": "4,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Uncut gem",
+      "display": "A handful of uncut gems from Ug (1 uncut diamond, 2 uncut rubies and 4 uncut emeralds)",
+      "image": "https://runescape.wiki/images/thumb/Uncut_lapis_lazuli_detail.png/100px-Uncut_lapis_lazuli_detail.png?b56d1"
+    },
+    {
+      "type": "item",
+      "name": "Sled",
+      "display": "A sled",
+      "image": "https://runescape.wiki/images/thumb/Sled_detail.png/100px-Sled_detail.png?5cae7"
+    },
+    {
+      "type": "item",
+      "name": "Trollweiss Mountain",
+      "display": "Unlocks sledding route from Trollweiss",
+      "image": "https://runescape.wiki/images/thumb/Trollweiss_mountain.png/100px-Trollweiss_mountain.png?f0c4f"
+    },
+    {
+      "type": "item",
+      "name": "Trollweiss",
+      "display": "A new colour of wieldable flowers",
+      "image": "https://runescape.wiki/images/thumb/Trollweiss_detail.png/100px-Trollweiss_detail.png?c95b5"
+    },
+    {
+      "type": "item",
+      "name": "Romancing the Crone",
+      "display": "Romancing the Crone (Unlocked at the top of Trollweiss Mountain)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Hell's Bells",
+      "display": "Hell's Bells (Unlocked when the player is about to start sledding)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Go to the middle level of the Troll Stronghold.",
+        "es": "Ve al nivel medio de Troll Stronghold."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 1,
+      "text": {
+        "en": "Enter the cave entrance from Trollheim and go down one level.",
+        "es": "Entra por la cueva desde Trollheim y baja un nivel."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "Otherwise, enter the secret entrance from the entrance to Fremennik Slayer Dungeon (fairy ring code ) or Death Plateau and go up one level.",
+        "es": "Si no, entra por la entrada secreta desde la entrada de Fremennik Slayer Dungeon (código de anillo de hadas ) o desde Death Plateau y sube un nivel."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ug on the middle level of the Troll Stronghold. Offer him your help. (opciones de chat: 1 Awww, you poor troll. What seems to be the problem? • 3 Don't worry now. I'll see what I can do. • Accept)",
+        "es": "Habla con Ug en el nivel medio de Troll Stronghold. Ofrécele tu ayuda. (opciones de chat: 1 Vaya, pobre trol. ¿Cuál es el problema? • 3 No te preocupes. Veré qué puedo hacer. • Aceptar)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Aga in the room to the north. (opciones de chat: 2 So... how's your... um... love life? • 1 Errr... I've got to go.)",
+        "es": "Habla con Aga en la sala al norte. (opciones de chat: 2 Y... ¿cómo va tu... eh... vida amorosa? • 1 Errr... tengo que irme.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Arrg in the same room. (opciones de chat: 2 Your girlfriend said you know where to find Trollweiss?)",
+        "es": "Habla con Arrg en la misma sala. (opciones de chat: 2 Tu novia dijo que tú sabes dónde encontrar Trollweiss?)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ug again.",
+        "es": "Habla con Ug de nuevo."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Teleport to Burthorpe and talk to Freda in the plateaus west of Burthorpe. (opciones de chat: 1 Do you know where I can find Trollweiss? • ? That's all, thanks.)",
+        "es": "Teletranspórtate a Burthorpe y habla con Freda en las mesetas al oeste de Burthorpe. (opciones de chat: 1 ¿Sabes dónde puedo encontrar Trollweiss? • ? Eso es todo, gracias.)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Dunstan east of the Burthorpe lodestone about a sled. (opciones de chat: 2 I need a sled!! • 1 Yes.)",
+        "es": "Habla con Dunstan al este de la piedra de viaje de Burthorpe sobre un trineo. (opciones de chat: 2 ¡¡Necesito un trineo!! • 1 Sí.)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him again to give him a rope, maple or yew logs, and an iron bar.",
+        "es": "Habla con él de nuevo para darle una cuerda, troncos de maple o de tejo, y una barra de hierro."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Use swamp tar on a wax bucket (with a cake tin in your inventory).",
+        "es": "Usa alquitrán de pantano en un cubo de cera (con un molde de pastel en tu inventario)."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Use your wax on the sled.",
+        "es": "Usa tu cera en el trineo."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Enter the cave entrance opposite the ice gate, which located north-west of the main entrance to Troll Stronghold.",
+        "es": "Entra por la cueva que está frente a la puerta de hielo, ubicada al noroeste de la entrada principal de Troll Stronghold."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "Preferably use Trollheim Teleport here if you have it.",
+        "es": "Preferiblemente, usa aquí el Trollheim Teleport si lo tienes."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 1,
+      "text": {
+        "en": "Otherwise, you need to go through the Troll Stronghold and past Trollheim.",
+        "es": "Si no, tendrás que atravesar Troll Stronghold y pasar por Trollheim."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Head north-west and exit the cave through the crevasse.",
+        "es": "Dirígete al noroeste y sal de la cueva a través de la grieta."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Head south, equip your sled and slide through the slope.",
+        "es": "Dirígete al sur, equípate el trineo y deslízate por la pendiente."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "After the end of the first part of the ride, pick the Trollweiss flowers west of your location. Do not sled any further south at this point or you will have to climb the mountain again.",
+        "es": "Después del final de la primera parte del trayecto, recoge las flores de Trollweiss al oeste de tu ubicación. No sigas deslizándote más al sur en este punto o tendrás que volver a subir la montaña."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Go back and talk to Ug.",
+        "es": "Vuelve y habla con Ug."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Arrg and tell him you're here to kill him. The fight will start immediately after that. Arrg also attacks immediately after the teleport, so be prepared. (opciones de chat: 1 I am here to kill you!)",
+        "es": "Habla con Arrg y dile que has venido a matarlo. La pelea comenzará inmediatamente después. Arrg también ataca justo después de la teletransportación, así que prepárate. (opciones de chat: 1 ¡He venido a matarte!)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Kill Arrg.",
+        "es": "Mata a Arrg."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Return to Ug and talk to him.",
+        "es": "Regresa con Ug y habla con él."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

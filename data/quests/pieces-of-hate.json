@@ -1,0 +1,1012 @@
+{
+  "id": "pieces-of-hate",
+  "title": "Pieces of Hate",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:02:41.626Z",
+  "icon": "https://runescape.wiki/images/Pieces_of_Hate_icon.png",
+  "series": "Pirate",
+  "age": "5",
+  "timeline": "mythic",
+  "members": true,
+  "combatLevel": "110-119",
+  "difficulty": "Grandmaster",
+  "length": "Long",
+  "releaseDate": "19 March 2018",
+  "startPoint": {
+    "en": "Talk to Postie Pete at any player-owned house portal by attempting to enter the portal.",
+    "es": "Habla con Postie Pete en el portal de cualquier casa de un jugador intentando entrar en el portal."
+  },
+  "requirements": {
+    "quests": [
+      "A Clockwork Syringe",
+      "Rocking Out",
+      "The Great Brain Robbery",
+      "Creature of Fenkenstrain",
+      "The Restless Ghost",
+      "Morytania",
+      "Cabin Fever",
+      "Pirate's Treasure",
+      "Rum Deal",
+      "Recipe for Disaster: Freeing Pirate Pete",
+      "Recipe for Disaster: Another Cook's Quest",
+      "player-owned house",
+      "Gertrude's Cat"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 83
+      },
+      {
+        "skill": "Construction",
+        "level": 81
+      },
+      {
+        "skill": "Firemaking",
+        "level": 82
+      },
+      {
+        "skill": "Thieving",
+        "level": 85
+      },
+      {
+        "skill": "combat level",
+        "level": 110
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Customs Sergeant",
+      "display": "The following items are required, but will need to be retrieved from your bank once you escape prison as you will be forced to deposit all of your worn/inventory items before the Customs Sergeant will send you to jail: Two pieces of leather Gold bar Blurberry Special (premade works) Drunk Dragon (premade works) Chocolate Saturday (premade works)",
+      "image": "https://runescape.wiki/images/thumb/Customs_Sergeant.png/100px-Customs_Sergeant.png?c02b8"
+    },
+    {
+      "name": "Leather",
+      "display": "Two pieces of leather",
+      "image": "https://runescape.wiki/images/thumb/Leather_detail.png/100px-Leather_detail.png?6e9da"
+    },
+    {
+      "name": "Gold bar",
+      "display": "Gold bar",
+      "image": "https://runescape.wiki/images/thumb/Gold_bar_detail.png/100px-Gold_bar_detail.png?64b55"
+    },
+    {
+      "name": "Blurberry Special",
+      "display": "Blurberry Special (premade works)",
+      "image": "https://runescape.wiki/images/thumb/Blurberry_Special_detail.png/100px-Blurberry_Special_detail.png?6c4bd"
+    },
+    {
+      "name": "Drunk Dragon",
+      "display": "Drunk Dragon (premade works)",
+      "image": "https://runescape.wiki/images/thumb/Drunk_Dragon_detail.png/100px-Drunk_Dragon_detail.png?a6c72"
+    },
+    {
+      "name": "Chocolate Saturday",
+      "display": "Chocolate Saturday (premade works)",
+      "image": "https://runescape.wiki/images/thumb/Chocolate_Saturday_detail.png/100px-Chocolate_Saturday_detail.png?f47d4"
+    }
+  ],
+  "kills": [
+    "Zogoth",
+    "Several DKSs and barrelchests",
+    "Many zombie captains",
+    "Many zombie pirates",
+    "Rabid Jack (level 200)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 50000,
+      "display": "50,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 50000,
+      "display": "50,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Firemaking",
+      "amount": 50000,
+      "display": "50,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Thieving",
+      "amount": 50000,
+      "display": "50,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Black pearl (Zogoth)",
+      "display": "5 black pearls (Zogoth)",
+      "image": "https://runescape.wiki/images/thumb/Black_pearl_%28Zogoth%29_detail.png/100px-Black_pearl_%28Zogoth%29_detail.png?0199c"
+    },
+    {
+      "type": "item",
+      "name": "Rabid Jack hat",
+      "display": "Rabid Jack hat, sword and off-hand variant cosmetic overrides",
+      "image": "https://runescape.wiki/images/thumb/Rabid_Jack_hat_chathead.png/100px-Rabid_Jack_hat_chathead.png?061c4"
+    },
+    {
+      "type": "item",
+      "name": "Big Book o' Piracy",
+      "display": "Big Book o' Piracy",
+      "image": "https://runescape.wiki/images/thumb/Big_Book_o%27_Piracy_detail.png/100px-Big_Book_o%27_Piracy_detail.png?43fd5"
+    },
+    {
+      "type": "item",
+      "name": "Pirate impling",
+      "display": "Improved pirate impling loot",
+      "image": "https://runescape.wiki/images/thumb/Pirate_impling.png/100px-Pirate_impling.png?542e2"
+    },
+    {
+      "type": "item",
+      "name": "Skeletal Horror",
+      "display": "Chance to get a master clue from the Skeletal Horror improved to 1/12[1]",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Holy wrench",
+      "display": "Holy wrench will now work with Dungeoneering prayer necklaces and the Ectoplasmator",
+      "image": "https://runescape.wiki/images/thumb/Holy_wrench_detail.png/100px-Holy_wrench_detail.png?dccb8"
+    },
+    {
+      "type": "item",
+      "name": "Premier Club",
+      "display": "Gold Premier Club members could obtain 500 pieces of eight from the Guardian of the Premier Vault after completion of the quest until 1 April 2018.",
+      "image": null
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "xp",
+      "skill": "Ulthven Kreath",
+      "amount": null,
+      "display": "You may return to Ulthven Kreath to decipher four murals in the following order: Thieving, Agility, Firemaking, and Construction. Each mural grants 50,000 experience and requires level 85 in its respective skill. This completes the Roake Kal achievement and is a requirement for the master quest cape."
+    },
+    {
+      "type": "item",
+      "name": "Hatchet of bloom and blight",
+      "display": "Completion of Pieces of Hate is a pre-requisite for creating the hatchet of bloom and blight."
+    },
+    {
+      "type": "item",
+      "name": "As Rum Can Be",
+      "display": "As Rum Can Be"
+    },
+    {
+      "type": "item",
+      "name": "Better Get Kraken",
+      "display": "Better Get Kraken"
+    },
+    {
+      "type": "item",
+      "name": "Island Rock",
+      "display": "Island Rock"
+    },
+    {
+      "type": "item",
+      "name": "Jack Attack!",
+      "display": "Jack Attack!"
+    },
+    {
+      "type": "item",
+      "name": "Mos Ayes Le'",
+      "display": "Mos Ayes Le'"
+    },
+    {
+      "type": "item",
+      "name": "The Last Pirate",
+      "display": "The Last Pirate"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Enter the player-owned house portal. Postie Pete will appear and give you a letter from Bill Teach.",
+        "es": "Entra en el portal de la casa de un jugador. Postie Pete aparecerá y te dará una carta de Bill Teach."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Read the letter. (opciones de chat: Accept)",
+        "es": "Lee la carta. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Deposit all items.",
+        "es": "Deposita todos los objetos."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Rimmington Customs Office without any items, then talk to the Customs Sergeant. (opciones de chat: 1 Talk about Pieces of Hate. • 4 I would like to confess! • Any) You will be sent to the Rock.",
+        "es": "Ve a la Rimmington Customs Office sin ningún objeto y habla con el Customs Sergeant. (opciones de chat: 1 Hablar sobre Pieces of Hate. • 4 ¡Me gustaría confesar! • Cualquiera) Te enviarán a la Rock."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill Teach about Pieces of Hate.",
+        "es": "Habla con Bill Teach sobre Pieces of Hate."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Two-Eyed Eric through barred window. (opciones de chat: 1 Two-Eyed Eric • 3 Can you give me a hand? • 4 Goodbye.)",
+        "es": "Habla con Two-Eyed Eric a través de la ventana con barrotes. (opciones de chat: 1 Two-Eyed Eric • 3 ¿Puedes echarme una mano? • 4 Adiós.)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Use the hook on the bed, then combine the cloth with the hook.",
+        "es": "Usa el gancho en la cama y luego combina la tela con el gancho."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Go outside and use the cloth-hook on the fishing spot.",
+        "es": "Sal afuera y usa el gancho con tela en el lugar de pesca."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Use the fish on the perch rock to attract a seagull.",
+        "es": "Usa el pez sobre la roca de percas para atraer a una gaviota."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Use the fish on the door, then use the hook on the door.",
+        "es": "Usa el pez en la puerta y luego usa el gancho en la puerta."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Push the barrels by the door to block out the guards.",
+        "es": "Empuja los barriles junto a la puerta para bloquear el paso a los guardias."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Use the hook on Bill Teach's cell door.",
+        "es": "Usa el gancho en la puerta de la celda de Bill Teach."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Search the desk and locker. Put the customs uniform on.",
+        "es": "Registra el escritorio y la taquilla. Ponte el uniforme de aduanas."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the pile of crates to take a small crate.",
+        "es": "Investiga la pila de cajas para coger una caja pequeña."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Use the spoon on the crate to make a trap, then use the sandwich on it to bait it.",
+        "es": "Usa la cuchara en la caja para hacer una trampa y luego usa el sándwich en ella como cebo."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Use the trap on the rat hole in Bill Teach's cell. (opciones de chat: 3 [Firmly admonish the rat.] • 4 [Inform the rat of your plight.] • 2 [Introduce yourself properly.] • 4 [Ask for a way to free the others.])",
+        "es": "Usa la trampa en el agujero de rata de la celda de Bill Teach. (opciones de chat: 3 [Regañar firmemente a la rata.] • 4 [Informar a la rata de tu apuro.] • 2 [Presentarte adecuadamente.] • 4 [Pedir una forma de liberar a los demás.])"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Use the guard's keys on any remaining prisoner's cell door.",
+        "es": "Usa las llaves del guardia en la puerta de la celda de cualquier prisionero restante."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to open the door in the middle of the prison (leading to the stairs).",
+        "es": "Intenta abrir la puerta en medio de la prisión (que lleva a las escaleras)."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Madame Shih.",
+        "es": "Habla con Madame Shih."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Jimmy the Parrot (one of the pirates).",
+        "es": "Habla con Jimmy the Parrot (uno de los piratas)."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Open the door in the middle of the prison (leading to the stairs).",
+        "es": "Abre la puerta en medio de la prisión (que lleva a las escaleras)."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Investigate the poster next to the stairs, then climb the stairs wearing the customs outfit.",
+        "es": "Investiga el cartel junto a las escaleras y luego sube las escaleras llevando puesto el uniforme de aduanas."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "If the \"investigate\" option doesn't appear on the bed, make sure you have checked the poster downstairs.",
+        "es": "Si la opción \"investigar\" no aparece en la cama, asegúrate de haber revisado el cartel de abajo."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Search the lockers (to the north). Use the pineapple on the puddle of slime in the corner, then use it on Wilson (the rat).",
+        "es": "Registra las taquillas (al norte). Usa la piña en el charco de baba de la esquina y luego úsala en Wilson (la rata)."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Use Pineapple Wilson on the door to the south room.",
+        "es": "Usa Pineapple Wilson en la puerta de la habitación del sur."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Enter the room and investigate the east bed to find first floor keys.",
+        "es": "Entra en la habitación e investiga la cama del este para encontrar las llaves de la primera planta."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Open the north door between the beds.",
+        "es": "Abre la puerta norte entre las camas."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Right-click \"Use\" the 'rum' on the strange egg.",
+        "es": "Haz clic derecho y \"Usa\" el 'rum' en el huevo extraño."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 1,
+      "text": {
+        "en": "If you drink the 'rum' accidentally, then you can get a new one from the lockers to the east.",
+        "es": "Si accidentalmente te bebes el 'rum', puedes conseguir uno nuevo en las taquillas al este."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Climb up the stairs to the east.",
+        "es": "Sube las escaleras hacia el este."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, dive off the pier.",
+        "es": "Después de la escena cinemática, tírate desde el muelle."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Speak to anyone. (opciones de chat: Any • 1 Yes.) This is the first point where you can leave the quest and save progress.",
+        "es": "Habla con cualquiera. (opciones de chat: Cualquiera • 1 Sí.) Este es el primer punto donde puedes salir de la misión y guardar el progreso."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Sit in the chair in the north-east corner of Harpoon Joe's House of 'Rum'. (opciones de chat: 1 A Long Drop.)",
+        "es": "Siéntate en la silla de la esquina noreste de Harpoon Joe's House of 'Rum'. (opciones de chat: 1 A Long Drop.)"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Speak to the Zombie pirate head. (opciones de chat: Any • 2 [Kind interrogation.] • 3 Maybe we can come to an arrangement. • Any • 1 Deal.)",
+        "es": "Habla con la cabeza del pirata zombi. (opciones de chat: Cualquiera • 2 [Interrogatorio amable.] • 3 Quizás podamos llegar a un acuerdo. • Cualquiera • 1 Trato.)"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Go to the west of Varrock and speak to Gertrude in her house. (opciones de chat: 4 Ask about a pet for the zombie head.) (or (opciones de chat: 5 Ask about a pet for the zombie head.)if completed Rat Catchers)",
+        "es": "Ve al oeste de Varrock y habla con Gertrude en su casa. (opciones de chat: 4 Preguntar sobre una mascota para la cabeza zombi.) (o (opciones de chat: 5 Preguntar sobre una mascota para la cabeza zombi.) si has completado Rat Catchers)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Philop or Kanel inside Gertrude's house.",
+        "es": "Habla con Philop o Kanel dentro de la casa de Gertrude."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Go to the abandoned house northwest of the apothecary in south-west Varrock and search the jiggling crate to find Wilson. (opciones de chat: 1 Yes - I fear nothing. • 1 Yes - it's probably fine.)",
+        "es": "Ve a la casa abandonada al noroeste de la botica en el suroeste de Varrock y registra la caja que se mueve para encontrar a Wilson. (opciones de chat: 1 Sí, no temo a nada. • 1 Sí, seguramente esté bien.)"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Travel to the Karamja lodestone and head about 10 paces south of the deposit chest; the head will tell you to stop. (opciones de chat: 1 Put the zombie head down.)",
+        "es": "Viaja a la piedra de viaje de Karamja y camina unos 10 pasos al sur del cofre de depósito; la cabeza te dirá que pares. (opciones de chat: 1 Dejar en el suelo la cabeza zombi.)"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the head again. A cutscene of the sunset will start. (opciones de chat: Any)",
+        "es": "Habla de nuevo con la cabeza. Comenzará una escena cinemática del atardecer. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Prepare for combat. Return to Harpoon Joe's House of 'Rum' and return to the Interrogation Room by sitting in the north-east chair. (opciones de chat: 1 A Long Drop.)",
+        "es": "Prepárate para el combate. Vuelve a Harpoon Joe's House of 'Rum' y regresa a la Interrogation Room sentándote en la silla del noreste. (opciones de chat: 1 A Long Drop.)"
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "When ready for the fight, head south-west of Harpoon Joe's House of 'Rum' and row the rowboat. (opciones de chat: 1 Yes!)",
+        "es": "Cuando estés listo para la pelea, dirígete al suroeste de Harpoon Joe's House of 'Rum' y rema en el bote de remos. (opciones de chat: 1 ¡Sí!)"
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Enter the door to the south.",
+        "es": "Entra por la puerta al sur."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Kill all four tentacles; a cutscene follows.",
+        "es": "Mata a los cuatro tentáculos; sigue una escena cinemática."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Kill Zogoth; a cutscene follows.",
+        "es": "Mata a Zogoth; sigue una escena cinemática."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 1,
+      "text": {
+        "en": "Stay within melee range to avoid a typeless damage attack from the tentacles.",
+        "es": "Permanece dentro del alcance de combate cuerpo a cuerpo para evitar un ataque de daño sin tipo de los tentáculos."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "Move away from the water jet attack to avoid being pushed to the back of the boat.",
+        "es": "Aléjate del ataque del chorro de agua para evitar ser empujado a la parte trasera del barco."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 1,
+      "text": {
+        "en": "Move away from shadows when Zogoth shields itself to avoid acid spray attacks (occurs at 50% and 25% health). The acid will follow you around until the attack ends.",
+        "es": "Aléjate de las sombras cuando Zogoth se proteja con un escudo para evitar los ataques de rociado ácido (ocurre al 50% y al 25% de vida). El ácido te perseguirá hasta que termine el ataque."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Once on Mos Le'Harmless, during Rabid Jack's Invasion, the player must clear two waves of enemies.",
+        "es": "Una vez en Mos Le'Harmless, durante la Invasión de Rabid Jack, el jugador debe eliminar dos oleadas de enemigos."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Wave 1 (initial attack):",
+        "es": "Oleada 1 (ataque inicial):"
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "Kill the barrelchest and zombie captains at the main gate to the north and repair the barricades.",
+        "es": "Mata al barrelchest y a los capitanes zombis en la puerta principal al norte y repara las barricadas."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 1,
+      "text": {
+        "en": "Kill the zombie captains up the ramp (on the western wall), then help up the pirate on the wall.",
+        "es": "Mata a los capitanes zombis en la rampa (en la muralla oeste) y luego ayuda a subir al pirata en la muralla."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "text": {
+        "en": "Kill the zombie captains at the south-east coast of the town, then repair the cannons and sink the zomboats.",
+        "es": "Mata a los capitanes zombis en la costa sureste del pueblo y luego repara los cañones y hunde los zomboats."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 1,
+      "text": {
+        "en": "Kill the zombie captains at the south-west coast of the town, then repair the cannons and sink the zomboats.",
+        "es": "Mata a los capitanes zombis en la costa suroeste del pueblo y luego repara los cañones y hunde los zomboats."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Wave 2 (next attack):",
+        "es": "Oleada 2 (siguiente ataque):"
+      }
+    },
+    {
+      "index": 54,
+      "indent": 1,
+      "text": {
+        "en": "Kill the DKS and the zombie captains at the main gate and repair the barricades.",
+        "es": "Mata al DKS y a los capitanes zombis en la puerta principal y repara las barricadas."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 1,
+      "text": {
+        "en": "Kill the zombie captains up the ramp (on the western wall), then help up the pirate on the wall.",
+        "es": "Mata a los capitanes zombis en la rampa (en la muralla oeste) y luego ayuda a subir al pirata en la muralla."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 1,
+      "text": {
+        "en": "Kill the zombie captains at the south-east coast of the town, then repair the cannons and sink the zomboats.",
+        "es": "Mata a los capitanes zombis en la costa sureste del pueblo y luego repara los cañones y hunde los zomboats."
+      }
+    },
+    {
+      "index": 57,
+      "indent": 1,
+      "text": {
+        "en": "Kill the zombie captains at the south-west coast of the town, then repair the cannons and sink the zomboats.",
+        "es": "Mata a los capitanes zombis en la costa suroeste del pueblo y luego repara los cañones y hunde los zomboats."
+      }
+    },
+    {
+      "index": 58,
+      "indent": 1,
+      "text": {
+        "en": "Kill the zombie captains at river east of the town, then destroy the makeshift bridges.",
+        "es": "Mata a los capitanes zombis en el río al este del pueblo y luego destruye los puentes improvisados."
+      }
+    },
+    {
+      "index": 59,
+      "indent": 1,
+      "text": {
+        "en": "Kill the DKS and the zombie captains at the wheat field north of the town, then destroy the cannon.",
+        "es": "Mata al DKS y a los capitanes zombis en el campo de trigo al norte del pueblo y luego destruye el cañón."
+      }
+    },
+    {
+      "index": 60,
+      "indent": 1,
+      "text": {
+        "en": "Kill the DKS and the zombie captains at the coast north-west of the town, then destroy the grounded ship. This should be done last.",
+        "es": "Mata al DKS y a los capitanes zombis en la costa al noroeste del pueblo y luego destruye el barco varado. Esto debe hacerse al final."
+      }
+    },
+    {
+      "index": 61,
+      "indent": 0,
+      "text": {
+        "en": "Finish the conversation with the pirates in the invasion. You will not be able to progress without doing so.",
+        "es": "Termina la conversación con los piratas en la invasión. No podrás progresar sin hacerlo."
+      }
+    },
+    {
+      "index": 62,
+      "indent": 0,
+      "text": {
+        "en": "Head to Braindeath Island via Pirate Pete north of Port Phasmatys. (opciones de chat: 1 Travel to Braindeath Island (Pieces of Hate).) You can also use the pirate spell sheet (opciones de chat: 1 Braindeath Island • 1 Travel to Braindeath Island (Pieces of Hate).) or Dungeoneering cape. (opciones de chat: 8 Braindeath Island • 1 Travel to Braindeath Island (Pieces of Hate).)",
+        "es": "Dirígete a Braindeath Island a través de Pirate Pete al norte de Port Phasmatys. (opciones de chat: 1 Viajar a Braindeath Island (Pieces of Hate).) También puedes usar la hoja de hechizos pirata (opciones de chat: 1 Braindeath Island • 1 Viajar a Braindeath Island (Pieces of Hate).) o la capa de Mazmorreo. (opciones de chat: 8 Braindeath Island • 1 Viajar a Braindeath Island (Pieces of Hate).)"
+      }
+    },
+    {
+      "index": 63,
+      "indent": 0,
+      "text": {
+        "en": "Head south, and down the wooden stairs. Run west along the building and up the wooden stairs on the west of the bunkroom.",
+        "es": "Dirígete al sur y baja por las escaleras de madera. Corre al oeste a lo largo del edificio y sube por las escaleras de madera al oeste del dormitorio."
+      }
+    },
+    {
+      "index": 64,
+      "indent": 0,
+      "text": {
+        "en": "Head through the bunkroom to the east side, then north-east. Listen at the window to the room with Captain Braindeath.",
+        "es": "Atraviesa el dormitorio hasta el lado este y luego ve al noreste. Escucha por la ventana de la habitación con Captain Braindeath."
+      }
+    },
+    {
+      "index": 65,
+      "indent": 0,
+      "text": {
+        "en": "After the dialogue, head back to the bunkroom, and talk to Davey.",
+        "es": "Después del diálogo, vuelve al dormitorio y habla con Davey."
+      }
+    },
+    {
+      "index": 66,
+      "indent": 0,
+      "text": {
+        "en": "Head down the wooden stairs, put on the barrelchest disguise then talk to Captain Donnie south-east. (opciones de chat: 3 Mi-Gor is in need of some witchwood.)",
+        "es": "Baja por las escaleras de madera, ponte el disfraz de barrelchest y luego habla con Captain Donnie al sureste. (opciones de chat: 3 Mi-Gor necesita algo de witchwood.)"
+      }
+    },
+    {
+      "index": 67,
+      "indent": 0,
+      "text": {
+        "en": "Head up the nearby wooden stairs, and talk to the Barrelchest Mk I.",
+        "es": "Sube por las escaleras de madera cercanas y habla con Barrelchest Mk I."
+      }
+    },
+    {
+      "index": 68,
+      "indent": 0,
+      "text": {
+        "en": "Return to Captain Donnie again to learn the passphrase (opciones de chat: 2 Mi-Gor wants to see you right now!)",
+        "es": "Vuelve a hablar con Captain Donnie para aprender la contraseña (opciones de chat: 2 ¡Mi-Gor quiere verte ahora mismo!)"
+      }
+    },
+    {
+      "index": 69,
+      "indent": 0,
+      "text": {
+        "en": "Head back up the wooden stairs, and once again talk with the Barrelchest Mk I. (opciones de chat: 5 'How appropriate. You fight like a zombie sea cow.')",
+        "es": "Vuelve a subir por las escaleras de madera y habla de nuevo con Barrelchest Mk I. (opciones de chat: 5 'Qué apropiado. Luchas como una vaca marina zombi.')"
+      }
+    },
+    {
+      "index": 70,
+      "indent": 0,
+      "text": {
+        "en": "Remove the disguise, for speed.",
+        "es": "Quítate el disfraz, para ir más rápido."
+      }
+    },
+    {
+      "index": 71,
+      "indent": 0,
+      "text": {
+        "en": "Climb the ladder in the south-east corner of the building.",
+        "es": "Sube por la escalera de mano en la esquina sureste del edificio."
+      }
+    },
+    {
+      "index": 72,
+      "indent": 0,
+      "text": {
+        "en": "Head west, and take the Barrels of 'rum' from on top of the crate, head north and do the same again.",
+        "es": "Dirígete al oeste y coge los Barrels of 'rum' de encima de la caja, luego ve al norte y haz lo mismo de nuevo."
+      }
+    },
+    {
+      "index": 73,
+      "indent": 0,
+      "text": {
+        "en": "Block the pressure barrel (just south-east of the second of the barrels of 'rum'), then overload the pressure lever beside it.",
+        "es": "Bloquea el barril de presión (justo al sureste del segundo de los barriles de 'rum') y luego sobrecarga la palanca de presión de al lado."
+      }
+    },
+    {
+      "index": 74,
+      "indent": 0,
+      "text": {
+        "en": "Return down the ladder, and then the stairs.",
+        "es": "Vuelve a bajar por la escalera de mano y luego por las escaleras."
+      }
+    },
+    {
+      "index": 75,
+      "indent": 0,
+      "text": {
+        "en": "Head north-west and pass through the gate by 66.6...% Luke.",
+        "es": "Dirígete al noroeste y pasa por la puerta junto a 66.6...% Luke."
+      }
+    },
+    {
+      "index": 76,
+      "indent": 1,
+      "text": {
+        "en": "You cannot use the dungeoneering cape teleport here to get to the north of the island.",
+        "es": "No puedes usar el teletransporte de la capa de Mazmorreo aquí para llegar al norte de la isla."
+      }
+    },
+    {
+      "index": 77,
+      "indent": 0,
+      "text": {
+        "en": "Head north, up the mountain to the pool (marked with File:Water source map icon.png on the minimap) and investigate the perch rock.",
+        "es": "Dirígete al norte, sube la montaña hasta la charca (marcada con File:Water source map icon.png en el minimapa) e investiga la roca de percas."
+      }
+    },
+    {
+      "index": 78,
+      "indent": 0,
+      "text": {
+        "en": "Baron von Hattenkrapper will appear. Complete the dialogue, then select Unleash!",
+        "es": "Aparecerá Baron von Hattenkrapper. Completa el diálogo y luego selecciona ¡Desatar!"
+      }
+    },
+    {
+      "index": 79,
+      "indent": 0,
+      "text": {
+        "en": "Guide Baron von Hattenkrapper and hit the mysterious entrance to the south-west 3 times; a cutscene follows.",
+        "es": "Guía a Baron von Hattenkrapper y golpea la entrada misteriosa al suroeste 3 veces; sigue una escena cinemática."
+      }
+    },
+    {
+      "index": 80,
+      "indent": 0,
+      "text": {
+        "en": "Talk with Mi-Gor, and set sail.",
+        "es": "Habla con Mi-Gor y zarpa."
+      }
+    },
+    {
+      "index": 81,
+      "indent": 0,
+      "text": {
+        "en": "Head south and equip gear from the crate of diving gear, then head north and dive into the cracked hull.",
+        "es": "Dirígete al sur y equípate con el equipo de la caja de equipo de buceo, luego ve al norte y bucea en el casco agrietado."
+      }
+    },
+    {
+      "index": 82,
+      "indent": 0,
+      "text": {
+        "en": "Head south-west, and jump off the edge.",
+        "es": "Dirígete al suroeste y salta desde el borde."
+      }
+    },
+    {
+      "index": 83,
+      "indent": 0,
+      "text": {
+        "en": "Head south, then west, then north to the shimmering barrier.",
+        "es": "Dirígete al sur, luego al oeste y luego al norte hacia la barrera resplandeciente."
+      }
+    },
+    {
+      "index": 84,
+      "indent": 1,
+      "text": {
+        "en": "EPILEPSY WARNING: If you suffer from epilepsy, talk to the shimmering kitten to prevent aggravating symptoms.",
+        "es": "ADVERTENCIA DE EPILEPSIA: Si sufres de epilepsia, habla con el gatito resplandeciente para evitar agravar los síntomas."
+      }
+    },
+    {
+      "index": 85,
+      "indent": 2,
+      "text": {
+        "en": "You need to prepare for combat for the next part.",
+        "es": "Necesitas prepararte para el combate para la siguiente parte."
+      }
+    },
+    {
+      "index": 86,
+      "indent": 0,
+      "text": {
+        "en": "If well-prepared for combat, pass through the shimmering barrier; a cutscene follows.",
+        "es": "Si estás bien preparado para el combate, atraviesa la barrera resplandeciente; sigue una escena cinemática."
+      }
+    },
+    {
+      "index": 87,
+      "indent": 1,
+      "text": {
+        "en": "Note: If you choose to re-gear use the rowboat in the south-west of Mos Le'Harmless to get back to the temple.",
+        "es": "Nota: Si eliges volver a equiparte, usa el bote de remos al suroeste de Mos Le'Harmless para volver al templo."
+      }
+    },
+    {
+      "index": 88,
+      "indent": 0,
+      "text": {
+        "en": "Reduce Jack's health to 0.",
+        "es": "Reduce la vida de Jack a 0."
+      }
+    },
+    {
+      "index": 89,
+      "indent": 1,
+      "text": {
+        "en": "Stand at the north, south, west, east walls or doorway to avoid being damaged and stunned by the black hand in the centre of the room.",
+        "es": "Colócate en las paredes norte, sur, oeste, este o en la puerta para evitar ser dañado y aturdido por la mano negra en el centro de la sala."
+      }
+    },
+    {
+      "index": 90,
+      "indent": 1,
+      "text": {
+        "en": "Use Freedom or Anticipation if stunned by Jack's stun attack. Avoid running from Jack to reduce the frequency of this attack.",
+        "es": "Usa Freedom o Anticipation si Jack te aturde con su ataque de aturdimiento. Evita correr huyendo de Jack para reducir la frecuencia de este ataque."
+      }
+    },
+    {
+      "index": 91,
+      "indent": 1,
+      "text": {
+        "en": "Drink 'rum' from barrels in the room to reduce \"insanity\". Insanity is indicated by the black cat debuff icon and will cause Jack hallucinations to spawn and the camera to spin if it becomes too high. Drink as soon as the debuff icon appears.",
+        "es": "Bebe 'rum' de los barriles en la sala para reducir la \"locura\". La locura se indica con el icono de gato negro de efecto negativo y provocará que aparezcan alucinaciones de Jack y que la cámara gire si se vuelve demasiado alta. Bebe en cuanto aparezca el icono del efecto negativo."
+      }
+    },
+    {
+      "index": 92,
+      "indent": 1,
+      "text": {
+        "en": "If you die you can return to fight Rabid Jack by travelling back to Mos Le'Harmless and taking the small rowboat.",
+        "es": "Si mueres, puedes volver a luchar contra Rabid Jack viajando de nuevo a Mos Le'Harmless y tomando el pequeño bote de remos."
+      }
+    },
+    {
+      "index": 93,
+      "indent": 0,
+      "text": {
+        "en": "Loosen an ancient chain.",
+        "es": "Afloja una cadena antigua."
+      }
+    },
+    {
+      "index": 94,
+      "indent": 0,
+      "text": {
+        "en": "Repeat this process for the 3 other chains; a cutscene follows.",
+        "es": "Repite este proceso para las otras 3 cadenas; sigue una escena cinemática."
+      }
+    },
+    {
+      "index": 95,
+      "indent": 0,
+      "text": {
+        "en": "Speak with Madame Shih. (opciones de chat: 5 Let's go!)",
+        "es": "Habla con Madame Shih. (opciones de chat: 5 ¡Vamos!)"
+      }
+    },
+    {
+      "index": 96,
+      "indent": 0,
+      "text": {
+        "en": "Sit in the chair in Harpoon Joe's House of 'Rum' (opciones de chat: 1 A Long Drop.)",
+        "es": "Siéntate en la silla de Harpoon Joe's House of 'Rum' (opciones de chat: 1 A Long Drop.)"
+      }
+    },
+    {
+      "index": 97,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Bill Teach with 6 free inventory spaces; a cutscene follows.",
+        "es": "Habla con Bill Teach con 6 espacios libres en el inventario; sigue una escena cinemática."
+      }
+    },
+    {
+      "index": 98,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

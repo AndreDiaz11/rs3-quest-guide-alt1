@@ -1,0 +1,434 @@
+{
+  "id": "diamond-in-the-rough",
+  "title": "Diamond in the Rough",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:06:56.605Z",
+  "icon": "https://runescape.wiki/images/Diamond_in_the_Rough_icon.png",
+  "series": "Ozan",
+  "age": "5",
+  "timeline": "pathfinder",
+  "members": true,
+  "combatLevel": "4-5",
+  "difficulty": "Novice",
+  "length": "Medium to Long",
+  "releaseDate": "26 September 2012",
+  "startPoint": {
+    "en": "Speak to Osman in Al Kharid palace.",
+    "es": "Habla con Osman en el palacio de Al Kharid."
+  },
+  "requirements": {
+    "quests": [
+      "Stolen Hearts"
+    ],
+    "skills": []
+  },
+  "items": [],
+  "kills": [
+    "5 Bandit (level 2)",
+    "Bandit king (level 3)",
+    "Apep (level 5)",
+    "Heru (level 5)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 250,
+      "display": "250 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Thieving",
+      "amount": 250,
+      "display": "250 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Constitution",
+      "amount": 250,
+      "display": "250 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Combat level",
+      "amount": 250,
+      "display": "250 experience lamp in one of the following skills: Attack, Strength, Defence, Constitution, Ranged, Magic, Necromancy or Prayer",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Sapphire",
+      "display": "1 sapphire, 1 emerald, 1 ruby (if picked up from dung kalphites)",
+      "image": "https://runescape.wiki/images/thumb/Sapphire_detail.png/100px-Sapphire_detail.png?d62b2"
+    },
+    {
+      "type": "item",
+      "name": "Kalphite nursery",
+      "display": "Access to the Kalphite nursery, where you can obtain Aten (Heru's shield)(override) and Uraeus (Apep's axe)(override) from slicing dung kalphites",
+      "image": null
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "item",
+      "name": "Above the City",
+      "display": "Above the City"
+    },
+    {
+      "type": "item",
+      "name": "The Cave",
+      "display": "The Cave"
+    },
+    {
+      "type": "item",
+      "name": "The Chozan One",
+      "display": "The Chozan One"
+    },
+    {
+      "type": "item",
+      "name": "Evil",
+      "display": "Evil"
+    },
+    {
+      "type": "item",
+      "name": "Final Showdown",
+      "display": "Final Showdown"
+    },
+    {
+      "type": "item",
+      "name": "Quicksand!",
+      "display": "Quicksand!"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Osman in Al Kharid palace without a follower or pet. (opciones de chat: Accept)",
+        "es": "Habla con Osman en el palacio de Al Kharid sin un acompañante ni una mascota. (opciones de chat: Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ozan just outside the palace, north of your current location.",
+        "es": "Habla con Ozan justo fuera del palacio, al norte de tu ubicación actual."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, inspect the Het scales to receive the heavy weight.",
+        "es": "Después de la escena, examina las Het scales para recibir el heavy weight."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Climb the rope to end up on the roof (the vault has a teleblock active).",
+        "es": "Sube por la cuerda para llegar al tejado (la cámara acorazada tiene un teleblock activo)."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Home Teleport to Al Kharid lodestone.",
+        "es": "Usa el teletransporte a casa hacia el lodestone de Al Kharid."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Head south-east to the Shantay Pass.",
+        "es": "Dirígete al sureste, hacia el Shantay Pass."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Go through the Shantay Pass. (opciones de chat: 4 Let's keep going.)",
+        "es": "Cruza el Shantay Pass. (opciones de chat: 4 Let's keep going.)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 1,
+      "text": {
+        "en": "Do not interrupt the cutscene, or you will have to go back to the palace to retrieve Ozan.",
+        "es": "No interrumpas la escena, o tendrás que volver al palacio para recoger a Ozan."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the sundial (Het).",
+        "es": "Examina el reloj de sol (Het)."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Click the \"\"\" symbol on the outer ring to align the sundial to the symbol of Het (human face). Continue dialogue with Ozan.",
+        "es": "Haz clic en el símbolo \"\"\" del anillo exterior para alinear el reloj de sol con el símbolo de Het (rostro humano). Continúa el diálogo con Ozan."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Head south-west to the sundial (Apmeken). Inspect it. (opciones de chat: 1 Yes.)",
+        "es": "Dirígete al suroeste, hacia el reloj de sol (Apmeken). Examínalo. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 1,
+      "text": {
+        "en": "It is possible for the scene to be interrupted and nothing happens afterwards. In this case, just inspect it again.",
+        "es": "Es posible que la escena se interrumpa y no ocurra nada después. En ese caso, simplemente examínalo de nuevo."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, kill the bandits and their king.",
+        "es": "Después de la escena, mata a los bandits y a su rey."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Pick up the sundial gnomon dropped by the last bandit killed. Ozan will take it if the backpack is full.",
+        "es": "Recoge el sundial gnomon que suelta el último bandido derrotado. Ozan lo cogerá si tu mochila está llena."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the sundial to fix it.",
+        "es": "Examina el reloj de sol para repararlo."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Click the \"\" symbol on the left bottom corner of the outer ring to align the sundial to the symbol of Apmeken (monkey head). Continue dialogue with Ozan.",
+        "es": "Haz clic en el símbolo \"\" de la esquina inferior izquierda del anillo exterior para alinear el reloj de sol con el símbolo de Apmeken (cabeza de mono). Continúa el diálogo con Ozan."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Head north-west for a cutscene, north of the fairy ring. (opciones de chat: Any • Any • Any • Any)",
+        "es": "Dirígete al noroeste para ver una escena, al norte del fairy ring. (opciones de chat: Any • Any • Any • Any)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, keep entering any of the tunnels. Ozan will eventually mention he is sitting on something uncomfortable.",
+        "es": "Después de la escena, sigue entrando en cualquiera de los túneles. Ozan acabará mencionando que está sentado sobre algo incómodo."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the sundial (Crondis).",
+        "es": "Examina el reloj de sol (Crondis)."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Click the \"\" symbol on the right bottom corner of the outer ring to align it to Crondis (crocodile head).",
+        "es": "Haz clic en el símbolo \"\" de la esquina inferior derecha del anillo exterior para alinearlo con Crondis (cabeza de cocodrilo)."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Enter the tunnel the sunbeam points to and walk through the tunnel at the end of the path.",
+        "es": "Entra en el túnel al que apunta el rayo de sol y camina por el túnel hasta el final del camino."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Slice open the dung kalphites until the Kharid-ib is found.",
+        "es": "Corta a los dung kalphites hasta encontrar el Kharid-ib."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "A bronze scimitar can be found on the ground near the torch for players without a slashing weapon.",
+        "es": "Se puede encontrar un bronze scimitar en el suelo cerca de la antorcha para los jugadores que no tengan un arma cortante."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "The sparkling kalphites contain gems and must be slashed open. They appear to have an extra glowing circle near their heads.",
+        "es": "Los sparkling kalphites contienen gemas y deben cortarse. Parecen tener un círculo brillante extra cerca de la cabeza."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "You must slice open any three kalphites before they will begin to sparkle.",
+        "es": "Debes cortar a cualquier grupo de tres kalphites antes de que empiecen a brillar."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "Changing various game settings can help identify the sparkling ones.",
+        "es": "Cambiar varias configuraciones del juego puede ayudar a identificar a los que brillan."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 2,
+      "text": {
+        "en": "Switch your graphics settings' \"Lighting Detail\" option to \"Low\".",
+        "es": "Cambia la opción \"Lighting Detail\" de tus ajustes gráficos a \"Low\"."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 2,
+      "text": {
+        "en": "Switch your skybox setting \"Midday\".",
+        "es": "Cambia tu configuración de skybox a \"Midday\"."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 2,
+      "text": {
+        "en": "Switch your audio settings' \"Ambient Sounds\" option on. A twinkle sound indicates the sparkling one is nearby.",
+        "es": "Activa la opción \"Ambient Sounds\" en tus ajustes de audio. Un sonido de destello indica que el kalphite brillante está cerca."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "For the last kalphite, pick up the kharid-ib and a cutscene ensues.",
+        "es": "Para el último kalphite, recoge el kharid-ib y se desencadenará una escena."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Climb-out the exit (the rope that appears in the centre).",
+        "es": "Sube por la salida (la cuerda que aparece en el centro)."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Ozan or Leela.",
+        "es": "Habla con Ozan o Leela."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the sundial (Scabaras).",
+        "es": "Examina el reloj de sol (Scabaras)."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Click the \"\" symbol on the outer ring to align it to Scabaras (beetle).",
+        "es": "Haz clic en el símbolo \"\" del anillo exterior para alinearlo con Scabaras (escarabajo)."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Head south-west and talk to Lady Keli. (opciones de chat: 1 Yes. • 1 Yes.)",
+        "es": "Dirígete al suroeste y habla con Lady Keli. (opciones de chat: 1 Yes. • 1 Yes.)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Kill Apep and Heru.",
+        "es": "Mata a Apep y a Heru."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "Epilepsy warning: There is a full screen flash effect during the fight.",
+        "es": "Aviso de epilepsia: hay un efecto de destello en pantalla completa durante el combate."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Prince Ali Mirza.",
+        "es": "Habla con Prince Ali Mirza."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Continue dialogue with Osman and Leela.",
+        "es": "Continúa el diálogo con Osman y Leela."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

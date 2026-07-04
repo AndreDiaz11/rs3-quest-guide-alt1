@@ -1,0 +1,270 @@
+{
+  "id": "housing-of-parliament",
+  "title": "Housing of Parliament",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:29:20.688Z",
+  "icon": "https://runescape.wiki/images/thumb/Housing_of_Parliament_icon.png/50px-Housing_of_Parliament_icon.png",
+  "series": "City of Um",
+  "age": "Age of Chaos",
+  "timeline": "Age of Chaos",
+  "members": true,
+  "combatLevel": "None",
+  "difficulty": "Experienced",
+  "length": "Short",
+  "releaseDate": "12 February 2024",
+  "startPoint": {
+    "en": "Speak to Deryn in the City of Um's owlery.",
+    "es": "Habla con Deryn en el palomar de la City of Um."
+  },
+  "requirements": {
+    "quests": [
+      "Necromancy!"
+    ],
+    "skills": [
+      {
+        "skill": "Necromancy",
+        "level": 54
+      },
+      {
+        "skill": "Fishing",
+        "level": 66
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Bucket of water",
+      "display": "2 buckets of water",
+      "image": "https://runescape.wiki/images/thumb/Bucket_of_water_detail.png/100px-Bucket_of_water_detail.png?150f3"
+    },
+    {
+      "name": "King worm",
+      "display": "King worm",
+      "image": "https://runescape.wiki/images/thumb/King_worm_detail.png/100px-King_worm_detail.png?4dc9b"
+    },
+    {
+      "name": "Beetle bits",
+      "display": "Beetle bits (can be bought from a Pet Shop during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Beetle_bits_detail.png/100px-Beetle_bits_detail.png?54442"
+    },
+    {
+      "name": "Snail meat",
+      "display": "2 pieces of snail meat of any type",
+      "image": null
+    },
+    {
+      "name": "Raw ghostly sole",
+      "display": "Raw ghostly sole or ghostly sole",
+      "image": "https://runescape.wiki/images/thumb/Raw_ghostly_sole_detail.png/100px-Raw_ghostly_sole_detail.png?73768"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Necromancy",
+      "amount": 20000,
+      "display": "20,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Uncut moonstone",
+      "display": "An uncut moonstone",
+      "image": "https://runescape.wiki/images/thumb/Uncut_moonstone_detail.png/100px-Uncut_moonstone_detail.png?8b2a4"
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "item",
+      "name": "Soul (Well of Souls)",
+      "display": "25 souls added to the Well of Souls"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Deryn in the owlery, north of the Haunt on the Hill in the City of Um. (opciones de chat: Accept)",
+        "es": "Habla con Deryn en el palomar, al norte del Haunt on the Hill en la City of Um. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Take from the cleaning supplies (in the western corner of the owlery) a cleaning cloth. (opciones de chat: 1 Cleaning cloth.)",
+        "es": "Coge un paño de limpieza de los materiales de limpieza (en la esquina occidental del palomar). (opciones de chat: 1 Paño de limpieza.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Take from the cleaning supplies a scrubby brush. (opciones de chat: 2 Brush.)",
+        "es": "Coge un cepillo restregón de los materiales de limpieza. (opciones de chat: 2 Cepillo.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Clean up the three spots.",
+        "es": "Limpia las tres manchas."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 1,
+      "text": {
+        "en": "Clean up the owl droppings (either inside or outside on the ground). Only one is clickable.",
+        "es": "Limpia los excrementos de búho (ya sea dentro o fuera, en el suelo). Solo uno es clicable."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "text": {
+        "en": "Slash the cobweb (near the cleaning supplies).",
+        "es": "Corta la telaraña (cerca de los materiales de limpieza)."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "Brush away the dirt pile (near the southern corner on the ground).",
+        "es": "Barre el montón de suciedad (cerca de la esquina sur, en el suelo)."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Deryn.",
+        "es": "Habla con Deryn."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Take 6 nails from the toolbox located under the ladder, click on it 6 times.",
+        "es": "Coge 6 clavos de la caja de herramientas situada bajo la escalera, haz clic en ella 6 veces."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Build both piles of planks; one is inside the owlery and the other side of the same wall, outside.",
+        "es": "Construye ambas pilas de tablones; una está dentro del palomar y la otra en el lado opuesto de esa misma pared, fuera."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Deryn.",
+        "es": "Habla con Deryn."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Fill the empty trough outside.",
+        "es": "Llena el abrevadero vacío que hay fuera."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Deryn.",
+        "es": "Habla con Deryn."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Talk to either the pet shop owner in Taverley or the pet shop owner in Yanille.",
+        "es": "Habla con el dueño de la tienda de mascotas en Taverley o con el dueño de la tienda de mascotas en Yanille."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 1,
+      "text": {
+        "en": "Buy some beetle bits from the Pet Shop if you didn't get some beforehand.",
+        "es": "Compra unos trozos de escarabajo en la Pet Shop si no conseguiste alguno antes."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Deryn.",
+        "es": "Habla con Deryn."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Go to the City of Um clock tower, located east of Soul Supplies, and climb up the stairs in the eastern room.",
+        "es": "Ve a la torre del reloj de la City of Um, situada al este de Soul Supplies, y sube las escaleras de la sala este."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Take from the crate of hourglasses, in the southeast corner.",
+        "es": "Coge uno del cajón de relojes de arena, en la esquina sureste."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Smash the hourglass that you picked up.",
+        "es": "Rompe el reloj de arena que has cogido."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Use the hourglass 'sprinkles' on a snail meat for a snail with hourglass 'sprinkles'.",
+        "es": "Usa las \"chispitas\" del reloj de arena en una carne de caracol para obtener un caracol con chispitas de reloj de arena."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Return to the owlery and fill the empty trough inside.",
+        "es": "Vuelve al palomar y llena el abrevadero vacío que hay dentro."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Deryn to complete the quest.",
+        "es": "Habla con Deryn para completar la misión."
+      }
+    }
+  ]
+}

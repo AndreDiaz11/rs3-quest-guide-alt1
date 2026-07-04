@@ -1,0 +1,474 @@
+{
+  "id": "eagles-peak",
+  "title": "Eagles' Peak",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:12:15.175Z",
+  "icon": "https://runescape.wiki/images/Eagles%27_Peak_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "adventurer",
+  "members": true,
+  "combatLevel": "10-19",
+  "difficulty": "Novice",
+  "length": "Medium",
+  "releaseDate": "28 November 2006",
+  "startPoint": {
+    "en": "Talk to Charlie the Zookeeper in Ardougne Zoo.",
+    "es": "Habla con Charlie the Zookeeper en Ardougne Zoo."
+  },
+  "requirements": {
+    "quests": [
+      "Eagles' Peak"
+    ],
+    "skills": [
+      {
+        "skill": "Hunter",
+        "level": 27
+      },
+      {
+        "skill": "Agility",
+        "level": 25
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Yellow dye",
+      "display": "1 Yellow dye",
+      "image": "https://runescape.wiki/images/thumb/Yellow_dye_detail.png/100px-Yellow_dye_detail.png?d681c"
+    },
+    {
+      "name": "Swamp tar",
+      "display": "1 Swamp tar",
+      "image": "https://runescape.wiki/images/thumb/Swamp_tar_detail.png/100px-Swamp_tar_detail.png?27572"
+    },
+    {
+      "name": "Coins",
+      "display": "50 Coins",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    }
+  ],
+  "kills": [
+    "Kebbit (level 14)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Hunter",
+      "amount": 2500,
+      "display": "2,500 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Ferret (Hunter)",
+      "display": "Ability to capture ferrets using box traps",
+      "image": "https://runescape.wiki/images/thumb/Ferret_hunter_area.png/100px-Ferret_hunter_area.png?3d6bf"
+    },
+    {
+      "type": "item",
+      "name": "Rabbit snaring",
+      "display": "Ability to use ferrets to hunt multiple rabbits",
+      "image": "https://runescape.wiki/images/thumb/Rabbit_burrows.png/100px-Rabbit_burrows.png?a71d8"
+    },
+    {
+      "type": "item",
+      "name": "Eagle transport system",
+      "display": "Access to the Eagle transport system",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Eagle cape",
+      "display": "The eagle costume (eagle cape and fake beak) used during the quest",
+      "image": "https://runescape.wiki/images/thumb/Eagle_cape_detail.png/100px-Eagle_cape_detail.png?04b1e"
+    },
+    {
+      "type": "item",
+      "name": "Ardougne Zoo",
+      "display": "A ferret is put in the Ardougne Zoo",
+      "image": "https://runescape.wiki/images/thumb/Ardougne_zoo.png/100px-Ardougne_zoo.png?04d81"
+    },
+    {
+      "type": "item",
+      "name": "A box trap",
+      "display": "A box trap",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Where Eagles Lair",
+      "display": "Where Eagles Lair",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Charlie in Ardougne Zoo. (opciones de chat: 1 Ah, you sound like someone who needs a quest doing! • Accept)",
+        "es": "Habla con Charlie en Ardougne Zoo. (opciones de chat: 1 Ah, you sound like someone who needs a quest doing! • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Head to Eagles' Peak west of the Tree Gnome Stronghold.",
+        "es": "Dirígete a Eagles' Peak, al oeste de Tree Gnome Stronghold."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "If Eagles' Peak lodestone is activated, teleport to it and run northwest.",
+        "es": "Si la piedra de viaje de Eagles' Peak está activada, teletranspórtate allí y corre hacia el noroeste."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "Alternatively, teleport to the Memorial of Guthix using memory strands in the currency pouch and run southeast.",
+        "es": "Alternativamente, teletranspórtate al Memorial of Guthix usando hebras de memoria de la bolsa de moneda y corre hacia el sureste."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Go to the northern side of the mountain's base to a campsite.",
+        "es": "Ve al lado norte de la base de la montaña, hasta un campamento."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the books for a Bird book.",
+        "es": "Inspecciona los libros para encontrar un Bird book."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Read the book to obtain a Metal feather.",
+        "es": "Lee el libro para obtener una Metal feather."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Climb the rocks attached to the mountain next to the campsite (25 Agility needed).",
+        "es": "Escala las rocas pegadas a la montaña junto al campamento (se necesitan 25 de Agilidad)."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Use the metal feather on the rocky outcrop.",
+        "es": "Usa la pluma metálica en el saliente rocoso."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Enter the cave, then head south until a cutscene with Nickolaus plays.",
+        "es": "Entra en la cueva y dirígete hacia el sur hasta que se reproduzca una escena con Nickolaus."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Shout-to Nickolaus. (opciones de chat: 1 The Ardougne zookeeper sent me to find you. • 2 So it's not that you're trapped then? • 1 Could I help at all?)",
+        "es": "Grítale a Nickolaus. (opciones de chat: 1 The Ardougne zookeeper sent me to find you. • 2 So it's not that you're trapped then? • 1 Could I help at all?)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Pick up 10 eagle feathers in the dungeon (called \"giant feathers\" on the floor).",
+        "es": "Recoge 10 plumas de águila en la mazmorra (aparecen en el suelo como \"giant feathers\")."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Head to the south-east corner of Varrock to the Fancy Clothes Store.",
+        "es": "Dirígete a la esquina sureste de Varrock, a la Fancy Clothes Store."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Fancy-Dress shop owner. (opciones de chat: 2 Well, specifically I'm after a couple of bird costumes.)",
+        "es": "Habla con el dueño de la Fancy-Dress shop. (opciones de chat: 2 Well, specifically I'm after a couple of bird costumes.)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Have the owner make you two eagle capes and two fake beaks. (opciones de chat: 2 I've got the feathers and the materials you requested. • 1 Okay, here are the materials. Eagle me up.)",
+        "es": "Pídele al dueño que te haga dos capas de águila y dos picos falsos. (opciones de chat: 2 I've got the feathers and the materials you requested. • 1 Okay, here are the materials. Eagle me up.)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Equip your disguise (eagle cape and fake beak) and go back to the Eagle's Peak cave.",
+        "es": "Equípate el disfraz (capa de águila y pico falso) y regresa a la cueva de Eagles' Peak."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Go to the intersection by the entrance of the dungeon and follow the east path.",
+        "es": "Ve a la intersección junto a la entrada de la mazmorra y sigue el camino del este."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Go through the tunnel entrance.",
+        "es": "Atraviesa la entrada del túnel."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Exit the tunnel (next to the birdseed holder)",
+        "es": "Sal del túnel (junto al recipiente de semillas para pájaros)."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Enter the middle tunnel to the west. (South of the entrance you originally used to enter the cave)",
+        "es": "Entra en el túnel central hacia el oeste. (Al sur de la entrada que usaste originalmente para entrar en la cueva)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the stone pedestal and complete the trail by inspecting the first pile of rocks to the east, then north-east.",
+        "es": "Inspecciona el pedestal de piedra y completa el rastro inspeccionando el primer montón de rocas hacia el este, y luego hacia el noreste."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Inspect the opening in the wall to the north and kill the kebbit.",
+        "es": "Inspecciona la abertura en la pared al norte y mata al kebbit."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Take the silver feather dropped by the kebbit.",
+        "es": "Recoge la pluma plateada que suelta el kebbit."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Exit this tunnel back into the main cave.",
+        "es": "Sal de este túnel de vuelta a la cueva principal."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Go to the south-west corner of the main cave and enter through the entrance.",
+        "es": "Ve a la esquina suroeste de la cueva principal y entra por la entrada."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Try to grab the feather from the pedestal.",
+        "es": "Intenta agarrar la pluma del pedestal."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Operate each winch in the 4 corners of the room in any order.",
+        "es": "Acciona cada torno en las 4 esquinas de la sala, en cualquier orden."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Grab the bronze feather from the pedestal.",
+        "es": "Agarra la pluma de bronce del pedestal."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Leave the tunnel into the main cave.",
+        "es": "Sal del túnel de vuelta a la cueva principal."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Back in the main cave, head directly east to a stone door with an eagle carved in it.",
+        "es": "De vuelta en la cueva principal, dirígete directamente al este hasta una puerta de piedra con un águila tallada."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Use each feather on the door.",
+        "es": "Usa cada pluma en la puerta."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "Use the golden feather on the door",
+        "es": "Usa la pluma dorada en la puerta."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 1,
+      "text": {
+        "en": "Use the silver feather on the door",
+        "es": "Usa la pluma plateada en la puerta."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 1,
+      "text": {
+        "en": "Use the bronze feather on the door",
+        "es": "Usa la pluma de bronce en la puerta."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Open the stone door",
+        "es": "Abre la puerta de piedra."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "While wearing the disguise, click the eagle to Walk-past the giant eagle directly north",
+        "es": "Mientras llevas el disfraz puesto, haz clic en el águila para pasar caminando junto al águila gigante que está directamente al norte."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Nickolaus.",
+        "es": "Habla con Nickolaus."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Head back to the campsite by teleporting to Eagles' Peak lodestone and running northwest, or alternatively:",
+        "es": "Regresa al campamento teletransportándote a la piedra de viaje de Eagles' Peak y corriendo hacia el noroeste, o alternativamente:"
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Walk-past the eagle again",
+        "es": "Pasa caminando junto al águila de nuevo."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 1,
+      "text": {
+        "en": "Exit the main cave back to eagles peak",
+        "es": "Sal de la cueva principal de vuelta a Eagles' Peak."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 1,
+      "text": {
+        "en": "Climb down the rocks",
+        "es": "Baja escalando las rocas."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Nickolaus. (opciones de chat: 1 Well I was originally sent to find you because of a ferret. • 1 That sounds good to me.)",
+        "es": "Habla con Nickolaus. (opciones de chat: 1 Well I was originally sent to find you because of a ferret. • 1 That sounds good to me.)"
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Watch the cutscene.",
+        "es": "Observa la escena."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Take the ferret back to Charlie in the Ardougne Zoo.",
+        "es": "Lleva el hurón de vuelta a Charlie en el Ardougne Zoo."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

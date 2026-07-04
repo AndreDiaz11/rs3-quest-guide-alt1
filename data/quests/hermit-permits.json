@@ -1,0 +1,272 @@
+{
+  "id": "hermit-permits",
+  "title": "Hermit Permits",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:28:04.664Z",
+  "icon": "https://runescape.wiki/images/Hermit_Permits_icon.png",
+  "series": null,
+  "age": "age of chaos",
+  "timeline": "age of chaos",
+  "members": true,
+  "combatLevel": "30-39",
+  "difficulty": "Novice",
+  "length": "Short to Medium",
+  "releaseDate": "23 March 2026",
+  "startPoint": {
+    "en": "Read the village noticeboard in Wendlewick.",
+    "es": "Lee el tablón de anuncios del pueblo en Wendlewick."
+  },
+  "requirements": {
+    "quests": [
+      "Visions of Havenhythe"
+    ],
+    "skills": [
+      {
+        "skill": "Construction",
+        "level": 5
+      },
+      {
+        "skill": "Crafting",
+        "level": 15
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Ball of wool",
+      "display": "Ball of wool",
+      "image": "https://runescape.wiki/images/thumb/Ball_of_wool_detail.png/100px-Ball_of_wool_detail.png?22b70"
+    },
+    {
+      "name": "Seaweed",
+      "display": "6 seaweed (obtainable during quest)",
+      "image": "https://runescape.wiki/images/thumb/Seaweed_detail.png/100px-Seaweed_detail.png?20ad0"
+    },
+    {
+      "name": "Rope",
+      "display": "3 ropes",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    }
+  ],
+  "kills": [
+    "Crab (level 29)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 1000,
+      "display": "1,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Construction",
+      "amount": 500,
+      "display": "500 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Snippers",
+      "display": "Snippers, a feet slot cosmetic override",
+      "image": "https://runescape.wiki/images/Snippers.png?fa320"
+    }
+  ],
+  "postQuest": [
+    {
+      "type": "item",
+      "name": "Cramulet",
+      "display": "Ability to add the crabulet to the cramulet"
+    },
+    {
+      "type": "item",
+      "name": "Grocer Hannah",
+      "display": "An additional reward of 1,000 coins from Grocer Hannah"
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Read the Village Noticeboard in Wendlewick, just north of the pub. (opciones de chat: 4 HELP NEEDED! Crabs running amok. • Accept)",
+        "es": "Lee el Tablón de Anuncios del Pueblo en Wendlewick, justo al norte del pub. (opciones de chat: 4 ¡SE NECESITA AYUDA! Cangrejos campando a sus anchas. • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Grocer Hannah in the Wendlewick food shop, east of the bank. (opciones de chat: 1 Talk about 'Hermit Permits'. • Any • 1 I could try herding them out? • 2 What if I threatened them? • 3 I could just kill them all.)",
+        "es": "Habla con Grocer Hannah en la tienda de alimentos de Wendlewick, al este del banco. (opciones de chat: 1 Hablar sobre 'Permisos de Ermitaño'. • Cualquiera • 1 ¿Podría intentar guiarlos hacia fuera? • 2 ¿Y si los amenazara? • 3 Podría simplemente matarlos a todos.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Shelly, the crab in the store.",
+        "es": "Habla con Shelly, el cangrejo de la tienda."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Follow the crab, talking to it every time it stops.",
+        "es": "Sigue al cangrejo, hablando con él cada vez que se detenga."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Enter the cave to the east and talk to Hermit inside to the north-west.",
+        "es": "Entra en la cueva al este y habla con Hermit dentro, al noroeste."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Kill one of the crabs for a fresh crab claw, craft it into an crab amulet (unstrung), and use it on a ball of wool to make a crab amulet.",
+        "es": "Mata a uno de los cangrejos para obtener una pinza de cangrejo fresca, fabrícala en un amuleto de cangrejo (sin encordar), y úsalo en un ovillo de lana para hacer un amuleto de cangrejo."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Hermit again. (opciones de chat: Any)",
+        "es": "Habla de nuevo con Hermit. (opciones de chat: Cualquiera)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Equip the crabulet and talk to Shelly.",
+        "es": "Equípate el crabulet y habla con Shelly."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Return to Wendlewick, go back to the food shop, and talk to Shelly.",
+        "es": "Regresa a Wendlewick, vuelve a la tienda de alimentos y habla con Shelly."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "South of the Shrine of Inanna, go to the beach and talk to any of the crabs (Finn, Sandy, or Kai).",
+        "es": "Al sur del Shrine of Inanna, ve a la playa y habla con cualquiera de los cangrejos (Finn, Sandy o Kai)."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 1,
+      "text": {
+        "en": "(Optional) Travel via the canoe station (opciones de chat: 3 Wendlewick (Grotto)) on the dock next to the Burnt Lobster Tavern and then go south-west.",
+        "es": "(Opcional) Viaja mediante la estación de canoas (opciones de chat: 3 Wendlewick (Grotto)) en el muelle junto al Burnt Lobster Tavern y luego ve al suroeste."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Return to Wendlewick and talk to Adam (in the northern building). (opciones de chat: ? Talk about 'Hermit Permits'.)",
+        "es": "Regresa a Wendlewick y habla con Adam (en el edificio del norte). (opciones de chat: ? Hablar sobre 'Permisos de Ermitaño'.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zeke in the building to the east. (opciones de chat: 1 Talk about 'Hermit Permits'.)",
+        "es": "Habla con Zeke en el edificio del este. (opciones de chat: 1 Hablar sobre 'Permisos de Ermitaño'.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Esther upstairs in the lighthouse. (opciones de chat: 1 Talk about 'Hermit Permits'.)",
+        "es": "Habla con Esther en el piso de arriba del faro. (opciones de chat: 1 Hablar sobre 'Permisos de Ermitaño'.)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to 5 different villagers around Wendlewick to get them to sign the planning permission form. The shop and stall owners work for this. (opciones de chat: 1 Talk about 'Hermit Permits'.)",
+        "es": "Habla con 5 aldeanos diferentes por Wendlewick para conseguir que firmen el formulario de permiso de planificación. Los dueños de tiendas y puestos sirven para esto. (opciones de chat: 1 Hablar sobre 'Permisos de Ermitaño'.)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Talk to either Adam, Esther, or Zeke again. (opciones de chat: # Talk about 'Hermit Permits'.)",
+        "es": "Habla de nuevo con Adam, Esther o Zeke. (opciones de chat: # Hablar sobre 'Permisos de Ermitaño'.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Go back to the southern beach and talk to one of the crab leaders.",
+        "es": "Vuelve a la playa del sur y habla con uno de los líderes cangrejo."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "Seaweed can be collected to the west on the same beach.",
+        "es": "Se puede recolectar alga marina al oeste, en la misma playa."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 1,
+      "text": {
+        "en": "You also need to bring 3 ropes. If you have the Lorehound pet quest supplies track unlocked you can obtain from there.",
+        "es": "También necesitas traer 3 cuerdas. Si tienes desbloqueada la vía de suministros de la misión de la mascota Lorehound, puedes obtenerlas allí."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Build the three piles of driftwood on the beach into their huts.",
+        "es": "Construye las tres pilas de madera flotante de la playa en sus cabañas."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Finn, Sandy, or Kai.",
+        "es": "Habla con Finn, Sandy o Kai."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

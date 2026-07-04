@@ -1,0 +1,655 @@
+{
+  "id": "regicide",
+  "title": "Regicide",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:08:11.751Z",
+  "icon": "https://runescape.wiki/images/Regicide_icon.png",
+  "series": "Elf (Prifddinas)",
+  "age": "ambiguous",
+  "timeline": "legendary",
+  "members": true,
+  "combatLevel": "50-59",
+  "difficulty": "Master",
+  "length": "Long",
+  "releaseDate": "20 September 2004",
+  "startPoint": {
+    "en": "Receive a message from King Lathas's messenger (typically, this happens about 15 minutes after completing Underground Pass).",
+    "es": "Recibe un mensaje del mensajero de King Lathas (normalmente, esto ocurre unos 15 minutos después de completar Underground Pass)."
+  },
+  "requirements": {
+    "quests": [
+      "Underground Pass",
+      "Biohazard",
+      "Plague City"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 56
+      },
+      {
+        "skill": "Agility",
+        "level": 60
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Underground Pass (dungeon)",
+      "display": "Items to get through the Underground Pass (other items can be banked until the lodestone is active): A bow (excluding all chargebows) A few of bronze, iron, steel, mithril, adamant, rune, dragon, or dark arrows A plank (can be obtained in the underground pass) 1-5 ropes (you won't necessarily use all of them)",
+      "image": "https://runescape.wiki/images/thumb/Underground_Pass_Iban%27s_Maze.png/100px-Underground_Pass_Iban%27s_Maze.png?de4e7"
+    },
+    {
+      "name": "Bow",
+      "display": "A bow (excluding all chargebows)",
+      "image": null
+    },
+    {
+      "name": "Bronze arrow",
+      "display": "A few of bronze, iron, steel, mithril, adamant, rune, dragon, or dark arrows",
+      "image": "https://runescape.wiki/images/thumb/Bronze_arrow_5_detail.png/100px-Bronze_arrow_5_detail.png?4252d"
+    },
+    {
+      "name": "Plank",
+      "display": "A plank (can be obtained in the underground pass)",
+      "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
+    },
+    {
+      "name": "Rope",
+      "display": "1-5 ropes (you won't necessarily use all of them)",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    },
+    {
+      "name": "Limestone",
+      "display": "Limestone (limestone bricks will not work)",
+      "image": "https://runescape.wiki/images/thumb/Limestone_detail.png/100px-Limestone_detail.png?858aa"
+    },
+    {
+      "name": "Coal",
+      "display": "6-30 pieces of coal (coal in an orebox will not work)",
+      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    },
+    {
+      "name": "Empty pot",
+      "display": "An empty pot (can be obtained in the elf camp)",
+      "image": "https://runescape.wiki/images/thumb/Empty_pot_detail.png/100px-Empty_pot_detail.png?88ce6"
+    },
+    {
+      "name": "Strip of cloth",
+      "display": "A strip of cloth (made by using 2 balls of wool on a loom)",
+      "image": "https://runescape.wiki/images/thumb/Strip_of_cloth_detail.png/100px-Strip_of_cloth_detail.png?de870"
+    },
+    {
+      "name": "Cooked rabbit",
+      "display": "A cooked rabbit (can be obtained from charter traders or in Tirannwn after killing a rabbit and cooking the meat)",
+      "image": "https://runescape.wiki/images/thumb/Cooked_rabbit_detail.png/100px-Cooked_rabbit_detail.png?c4a7c"
+    }
+  ],
+  "kills": [
+    "Tyras guard (level 58)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 3,
+      "display": "3 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 13750,
+      "display": "13,750 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "15,000 coins",
+      "display": "15,000 coins",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Isafdar",
+      "display": "Access to Isafdar and the overpass of Arandar",
+      "image": "https://runescape.wiki/images/thumb/Isafdar_Forest.png/100px-Isafdar_Forest.png?605f9"
+    },
+    {
+      "type": "item",
+      "name": "Port Tyras",
+      "display": "Access to Port Tyras by using charter ships",
+      "image": "https://runescape.wiki/images/thumb/Port_Tyras.png/100px-Port_Tyras.png?a15e8"
+    },
+    {
+      "type": "item",
+      "name": "Dragon halberd",
+      "display": "Ability to wield and use a dragon halberd (bought for 325,000 coins from the quartermaster in Tyras Camp)",
+      "image": "https://runescape.wiki/images/thumb/Dragon_halberd_detail.png/100px-Dragon_halberd_detail.png?1e9f0"
+    },
+    {
+      "type": "item",
+      "name": "Chaeldar",
+      "display": "Ability to have elves assigned as a slayer task by Chaeldar, Sumona, Morvran, and Laniakea.",
+      "image": "https://runescape.wiki/images/thumb/Chaeldar.png/100px-Chaeldar.png?8229e"
+    },
+    {
+      "type": "item",
+      "name": "Breeze",
+      "display": "Breeze",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Elven Mist",
+      "display": "Elven Mist",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Everywhere",
+      "display": "Everywhere",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Forest",
+      "display": "Forest",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Lost Soul",
+      "display": "Lost Soul",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Meridian",
+      "display": "Meridian",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Overpass",
+      "display": "Overpass",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Riverside",
+      "display": "Riverside",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Well of Voyage (music track)",
+      "display": "Well of Voyage",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Woodland",
+      "display": "Woodland",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to King Lathas on the of Ardougne Castle.",
+        "es": "Habla con King Lathas en el Ardougne Castle."
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Travel through the Underground Pass which can be found on the far west side of West Ardougne. You do not need to find another Iban's doll or complete any of the steps from Underground Pass quest. You only need to reach Iban's temple.",
+        "es": "Viaja a través del Underground Pass, que se encuentra en el extremo oeste de West Ardougne. No necesitas encontrar otra Iban's doll ni completar ninguno de los pasos de la misión Underground Pass. Solo necesitas llegar al Iban's Temple."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Refer to this guide for instructions navigating the Underground Pass.",
+        "es": "Consulta esta guía para las instrucciones de cómo recorrer el Underground Pass."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Enter the well in Iban's Temple.",
+        "es": "Entra en el pozo del Iban's Temple."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Exit the cave to the west.",
+        "es": "Sal de la cueva por el oeste."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Run through the forest, talk to Idris. Watch him die then continue.",
+        "es": "Corre por el bosque, habla con Idris. Míralo morir y luego continúa."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "If Idris does not spawn, log out and back in to trigger the scene.",
+        "es": "Si Idris no aparece, cierra sesión y vuelve a entrar para activar la escena."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Go west to jump the leaves trap (a dark green patch on the ground).",
+        "es": "Ve hacia el oeste para saltar la trampa de hojas (una zona verde oscuro en el suelo)."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Proceed southwest of the musician. Between some trees find a trap of sticks on the ground, click the sticks (choose the \"pass\" option, clicking beyond the sticks has a 100% failure rate).",
+        "es": "Continúa hacia el suroeste del músico. Entre unos árboles encontrarás una trampa de palos en el suelo; haz clic en los palos (elige la opción \"pasar\"; hacer clic más allá de los palos tiene un 100% de probabilidad de fallo)."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "text": {
+        "en": "This may take a few tries (if you spam click the trap, it will let you pass - make sure you're clicking the trap itself, as it has a small hitbox. If you're running low on health, return to the musician to recuperate before trying again.",
+        "es": "Esto puede requerir varios intentos (si haces clic repetidamente en la trampa, te dejará pasar; asegúrate de hacer clic en la trampa en sí, ya que tiene un área de clic pequeña). Si te queda poca vida, vuelve con el músico para recuperarte antes de intentarlo de nuevo."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Continue south towards the lodestone.",
+        "es": "Continúa hacia el sur en dirección a la piedra de viaje."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Activate the Tirannwn lodestone once you find it.",
+        "es": "Activa la piedra de viaje de Tirannwn en cuanto la encuentres."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Run back north-west towards the elf camp.",
+        "es": "Vuelve corriendo hacia el noroeste, en dirección al campamento de los elfos."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Jump another leaves trap, run past the bears and cross the log into the elf camp.",
+        "es": "Salta otra trampa de hojas, corre pasando los osos y cruza el tronco hacia el campamento de los elfos."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lord Iorwerth.",
+        "es": "Habla con Lord Iorwerth."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Teleport to the Tirannwn lodestone, talk to the elf tracker.",
+        "es": "Teletranspórtate a la piedra de viaje de Tirannwn y habla con el rastreador elfo."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lord Iorwerth again which requires at least one free inventory space.",
+        "es": "Habla de nuevo con Lord Iorwerth, para lo cual necesitas al menos un espacio libre en el inventario."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the elf tracker back at the Tirannwn lodestone.",
+        "es": "Habla con el rastreador elfo de vuelta en la piedra de viaje de Tirannwn."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Follow the tracks just west of the lodestone in front of the dense forest entrance.",
+        "es": "Sigue las huellas justo al oeste de la piedra de viaje, frente a la entrada del bosque denso."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the elf tracker.",
+        "es": "Habla con el rastreador elfo."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Enter the dense forest and kill the guard that appears.",
+        "es": "Entra en el bosque denso y mata al guardia que aparece."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Go north, step-over the tripwire and go through more dense forest.",
+        "es": "Ve hacia el norte, pasa por encima del cable trampa y atraviesa más bosque denso."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "Stepping over avoids taking damage as opposed to walking through.",
+        "es": "Pasar por encima evita recibir daño, a diferencia de caminar a través."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Continue north through the dense forest and west, then once again through dense forest to enter Tyras Camp.",
+        "es": "Continúa hacia el norte a través del bosque denso y luego hacia el oeste, y de nuevo a través del bosque denso para entrar en Tyras Camp."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Talk to General Hining in the camp.",
+        "es": "Habla con General Hining en el campamento."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Take two barrels behind the largest rectangular tent.",
+        "es": "Coge dos barrels detrás de la tienda rectangular más grande."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "The second is required for completing Mourning's End Part I.",
+        "es": "El segundo es necesario para completar Mourning's End Part I."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Teleport to the Tirannwn loadstone again and head north-west into the elf camp to talk to Lord Iorwerth.",
+        "es": "Teletranspórtate de nuevo a la piedra de viaje de Tirannwn y dirígete hacia el noroeste, al campamento de los elfos, para hablar con Lord Iorwerth."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Read the Big Book of Bangs he gives you and pick up the empty pot north of him if you need one.",
+        "es": "Lee el Big Book of Bangs que te da y recoge la olla vacía al norte de él si necesitas una."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Teleport to the Tirannwn lodestone again and head south to reach the shoreline of the swamp.",
+        "es": "Teletranspórtate de nuevo a la piedra de viaje de Tirannwn y dirígete hacia el sur para llegar a la orilla del pantano."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Use the barrels on the tar to fill them into barrels of tar.",
+        "es": "Usa los barrels en el alquitrán para llenarlos y convertirlos en barrels of tar."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 1,
+      "text": {
+        "en": "There are only two clickable tiles near the corpse and trees. Mouse over along the shoreline until you find the clickable area.",
+        "es": "Solo hay dos casillas en las que se puede hacer clic cerca del cadáver y los árboles. Pasa el ratón a lo largo de la orilla hasta que encuentres la zona en la que se puede hacer clic."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Take some sulphur from the floor, then grind it into ground sulphur.",
+        "es": "Coge un poco de sulphur del suelo y luego muélelo para obtener ground sulphur."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Go to a furnace and use the limestone on it (opciones de chat: 1 Yes) to obtain some quicklime.",
+        "es": "Ve a un horno y usa la limestone en él (opciones de chat: 1 Sí) para obtener quicklime."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Chemist in Rimmington. (opciones de chat: 3 Ask about Regicide. • 1 What is naphtha and how do I make it? • 2 What's quicklime? • 3 What's brimstone?)",
+        "es": "Habla con el Chemist en Rimmington. (opciones de chat: 3 Preguntar sobre Regicide. • 1 ¿Qué es el naphtha y cómo se hace? • 2 ¿Qué es el quicklime? • 3 ¿Qué es el brimstone?)"
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "The book must be in your inventory, otherwise your Quest Journal will not update.",
+        "es": "El libro debe estar en tu inventario; de lo contrario, tu diario de misión no se actualizará."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Use your barrel of tar on the fractionation still outside.",
+        "es": "Usa tu barrel of tar en el fractionation still que hay fuera."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Click the tar regulator side twice.",
+        "es": "Haz clic dos veces en el lado del regulador de alquitrán."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Wait until the arrow gauge is within the green on the pressure valve side, then click the pressure valve once. This should keep the pressure indicator in the green without fluctuating.",
+        "es": "Espera hasta que la aguja del medidor esté dentro de la zona verde en el lado de la válvula de presión, y luego haz clic una vez en la válvula de presión. Esto debería mantener el indicador de presión en verde sin fluctuar."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Now add coal in 2x increments using the middle \"Add coal\" button to get the tar regulator indicator in the green.",
+        "es": "Ahora añade coal en incrementos de 2 usando el botón central \"Add coal\" para conseguir que el indicador del regulador de alquitrán esté en verde."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Now that the pressure valve and tar regulator are both in the green, the distillation bar at the bottom of the interface will begin to fill up.",
+        "es": "Ahora que tanto la válvula de presión como el regulador de alquitrán están en verde, la barra de destilación en la parte inferior de la interfaz comenzará a llenarse."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "When the distillation bar is full, you may exit out of the interface, You should now have a barrel of naptha in the backpack.",
+        "es": "Cuando la barra de destilación esté llena, puedes salir de la interfaz. Ahora deberías tener un barrel of naphtha en la mochila."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "If you plan on completing Mourning's End I a barrel of naphtha is required for that quest, repeat this process for a second barrel.",
+        "es": "Si planeas completar Mourning's End I, se necesita un barrel of naphtha para esa misión, así que repite este proceso para conseguir un segundo barrel."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Make the bomb:",
+        "es": "Fabrica la bomba:"
+      }
+    },
+    {
+      "index": 44,
+      "indent": 1,
+      "text": {
+        "en": "Use ground sulphur on the barrel of naphtha for naphtha mix.",
+        "es": "Usa el ground sulphur en el barrel of naphtha para obtener naphtha mix."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "Grind the quicklime with an empty pot in your backpack.",
+        "es": "Muele el quicklime con una olla vacía en tu mochila."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 1,
+      "text": {
+        "en": "Use the pot of quicklime on the naptha mix.",
+        "es": "Usa la olla de quicklime en el naphtha mix."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 1,
+      "text": {
+        "en": "Use a strip of cloth on the barrel bomb.",
+        "es": "Usa una tira de tela en el barrel bomb."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Teleport back to the Tirannwn lodestone.",
+        "es": "Teletranspórtate de nuevo a la piedra de viaje de Tirannwn."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "Kill and cook a rabbit just north if you didn't bring a cooked rabbit.",
+        "es": "Mata y cocina un conejo justo al norte si no has traído ya un conejo cocinado."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Head to the catapult north of Tyras Camp (west through the dense forest and tripwires if you used the lodestone).",
+        "es": "Dirígete a la catapulta al norte de Tyras Camp (hacia el oeste, a través del bosque denso y los cables trampa, si has usado la piedra de viaje)."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Right-click use the cooked rabbit on the Tyras guard standing next to the catapult.",
+        "es": "Haz clic derecho y usa el conejo cocinado en el guardia Tyras que está junto a la catapulta."
+      }
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "text": {
+        "en": "Use the barrel bomb on the catapult.",
+        "es": "Usa el barrel bomb en la catapulta."
+      }
+    },
+    {
+      "index": 53,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lord Iorwerth at the Elf Camp.",
+        "es": "Habla con Lord Iorwerth en el Elf Camp."
+      }
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "text": {
+        "en": "Attempt to enter Ardougne Castle. Arianwyn will talk to you.",
+        "es": "Intenta entrar en el Ardougne Castle. Arianwyn hablará contigo."
+      }
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "text": {
+        "en": "Talk to King Lathas.",
+        "es": "Habla con King Lathas."
+      }
+    },
+    {
+      "index": 56,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

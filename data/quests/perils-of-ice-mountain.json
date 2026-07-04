@@ -1,0 +1,285 @@
+{
+  "id": "perils-of-ice-mountain",
+  "title": "Perils of Ice Mountain",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:02:04.960Z",
+  "icon": "https://runescape.wiki/images/Perils_of_Ice_Mountain_icon.png",
+  "series": null,
+  "age": "ambiguous",
+  "timeline": "adventurer",
+  "members": false,
+  "combatLevel": "none",
+  "difficulty": "Novice",
+  "length": "Medium",
+  "releaseDate": "7 May 2008",
+  "startPoint": {
+    "en": "Talk to Lakki, on the road south of Ice Mountain.",
+    "es": "Habla con Lakki, en el camino al sur de Ice Mountain."
+  },
+  "requirements": {
+    "quests": [
+      "Perils of Ice Mountain"
+    ],
+    "skills": [
+      {
+        "skill": "Construction",
+        "level": 5
+      },
+      {
+        "skill": "Farming",
+        "level": 5
+      },
+      {
+        "skill": "Hunter",
+        "level": 5
+      },
+      {
+        "skill": "Thieving",
+        "level": 5
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Watering can",
+      "display": "1 watering can (with water, magic watering can from tool belt works as well)",
+      "image": "https://runescape.wiki/images/thumb/Watering_can_detail.png/100px-Watering_can_detail.png?e6eb5"
+    },
+    {
+      "name": "Compost",
+      "display": "1 Bucket of compost (or supercompost)",
+      "image": "https://runescape.wiki/images/thumb/Compost_detail.png/100px-Compost_detail.png?1621e"
+    },
+    {
+      "name": "Plank",
+      "display": "2 Wooden planks (protean planks won't work)",
+      "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
+    },
+    {
+      "name": "Nails",
+      "display": "2 nails of any metal (Non-members must use steel nails or lower)",
+      "image": null
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Knowledge of Ice Mountain",
+      "amount": null,
+      "display": "Knowledge of Ice Mountain, granting 500 experience in , , and",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Nurmof",
+      "display": "Permission to use the power station ladder (allows you to quickly access the mine carts and Nurmof)",
+      "image": "https://runescape.wiki/images/thumb/Nurmof.png/100px-Nurmof.png?24fc7"
+    },
+    {
+      "type": "item",
+      "name": "Brother Bordiss will attach sigils to blessed spirit shields for a price.",
+      "display": "Brother Bordiss will attach sigils to blessed spirit shields for a price.",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Icy Trouble Ahead",
+      "display": "Icy Trouble Ahead (Unlocked during the third cutscene)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Icy a Worried Gnome",
+      "display": "Icy a Worried Gnome (Unlocked after the second cutscene)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Lakki the delivery dwarf, who can be found to the east of the Invention Guild, north of Falador. (opciones de chat: 1 What's the matter? • 2 I could help you find the crate. • Accept)",
+        "es": "Habla con Lakki, el enano repartidor, al este del Invention Guild, al norte de Falador. (opciones de chat: 1 ¿Qué ocurre? • 2 Podría ayudarte a encontrar el cajón. • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Along the path west towards Falador are eight bushes you can search. Search each of them until a crate is found.",
+        "es": "A lo largo del camino hacia el oeste, hacia Falador, hay ocho arbustos que puedes registrar. Registra cada uno de ellos hasta encontrar un cajón."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Give the crate to Drorkar, who is in the Power Station west of the Dwarven Mines. (opciones de chat: 1 Yes. • 2 Okay.)",
+        "es": "Entrega el cajón a Drorkar, que está en la Power Station al oeste de las Dwarven Mines. (opciones de chat: 1 Sí. • 2 Vale.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Head to the Edgeville Monastery (use the Edgeville lodestone to save time).",
+        "es": "Dirígete al Edgeville Monastery (usa la piedra de viaje de Edgeville para ahorrar tiempo)."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Give the letter to Brother Bordiss in the garden. (opciones de chat: 1 I have a letter for you.)",
+        "es": "Entrega la carta a Brother Bordiss en el jardín. (opciones de chat: 1 Tengo una carta para ti.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Brother Althric. (opciones de chat: 2 Can I help? • 1 I'll go and get some compost.)",
+        "es": "Habla con Brother Althric. (opciones de chat: 2 ¿Puedo ayudar? • 1 Iré a buscar un poco de compost.)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Use compost on the dying roses, then water them. If your watering can is empty, you may use the fountains in the monastery to fill it.",
+        "es": "Usa el compost en las rosas moribundas y luego riégalas. Si tu regadera está vacía, puedes usar las fuentes del monasterio para llenarla."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Professor Arblenap (the gnome) half way up to the top of Ice Mountain. (opciones de chat: 1 What are you doing? • 2 Can I help?)",
+        "es": "Habla con Professor Arblenap (el gnomo) a mitad de camino hacia la cima de Ice Mountain. (opciones de chat: 1 ¿Qué estás haciendo? • 2 ¿Puedo ayudar?)"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Wield the icefiend net and catch the four baby icefiends.",
+        "es": "Equípate la icefiend net y atrapa a los cuatro baby icefiends."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Professor Arblenap.",
+        "es": "Habla con Professor Arblenap."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Oracle, who is just north on the mountain. (opciones de chat: 1 What happened to your tent? • 1 I could fix your tent for you.)",
+        "es": "Habla con el Oracle, que está justo al norte en la montaña. (opciones de chat: 1 ¿Qué le pasó a tu tienda? • 1 Podría arreglarte la tienda.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Take the wrecked tent from the base of the mountain, south of the Black Knights' Fortress entrance and east of the Oracle. It does not appear as a red dot on the minimap.",
+        "es": "Coge la wrecked tent de la base de la montaña, al sur de la entrada del Black Knights' Fortress y al este del Oracle. No aparece como un punto rojo en el minimapa."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "With the tent, two planks, and two nails, use the tent on the remains atop the mountain, next to the Oracle.",
+        "es": "Con la tienda, dos tablones y dos clavos, usa la tienda en los restos en la cima de la montaña, junto al Oracle."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Continue dialogue with the Oracle. (opciones de chat: 5 I'm going to go and do something.)",
+        "es": "Continúa el diálogo con el Oracle. (opciones de chat: 5 Voy a ir a hacer algo.)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Drorkar at the Power Station. (opciones de chat: 1 You've got to shut down this power station. • 4 The Oracle predicted it would cause the end of civilisation! • 4 I'll go and talk to Nurmof, then.)",
+        "es": "Habla con Drorkar en la Power Station. (opciones de chat: 1 Tienes que cerrar esta power station. • 4 ¡El Oracle predijo que causaría el fin de la civilización! • 4 Entonces iré a hablar con Nurmof.)"
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Pickpocket Drorkar for a Dwarven key.",
+        "es": "Roba a Drorkar para conseguir una Dwarven key."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Go in the Dwarven Mines and talk to Nurmof in the north-western corner of the mines, at the pickaxe shop. (opciones de chat: 4 You've got to shut down the power station! • 1 What was this other power source? • 3 Goodbye.)",
+        "es": "Entra en las Dwarven Mines y habla con Nurmof, en la esquina noroeste de las minas, en la tienda de picos. (opciones de chat: 4 ¡Tienes que cerrar la power station! • 1 ¿Cuál era esta otra fuente de energía? • 3 Adiós.)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Brother Bordiss at the Edgeville Monastery. (opciones de chat: 1 Nurmof says you made plans for an alternative power station.)",
+        "es": "Habla con Brother Bordiss en el Edgeville Monastery. (opciones de chat: 1 Nurmof dice que hiciste planes para una power station alternativa.)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Head back down into the Dwarven Mines, then immediately east into a small alcove.",
+        "es": "Regresa a las Dwarven Mines y luego dirígete de inmediato hacia el este, a una pequeña hendidura."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Open the small, bright chest against the north wall.",
+        "es": "Abre el cofre pequeño y brillante contra la pared norte."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Return to the pickaxe shop and talk to Nurmof. (opciones de chat: 4 You've got to shut down the power station. • 1 I have the plans to the alternative power station here.)",
+        "es": "Vuelve a la tienda de picos y habla con Nurmof. (opciones de chat: 4 Tienes que cerrar la power station. • 1 Tengo aquí los planos de la power station alternativa.)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

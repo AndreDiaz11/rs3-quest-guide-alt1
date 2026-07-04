@@ -1,0 +1,589 @@
+{
+  "id": "the-path-of-glouphrie",
+  "title": "The Path of Glouphrie",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:01:43.141Z",
+  "icon": "https://runescape.wiki/images/The_Path_of_Glouphrie_icon.png",
+  "series": "Gnome",
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "80-89",
+  "difficulty": "Experienced",
+  "length": "Long",
+  "releaseDate": "3 September 2007",
+  "startPoint": {
+    "en": "Talk to King Bolren in the Tree Gnome Village.",
+    "es": "Habla con King Bolren en Tree Gnome Village."
+  },
+  "requirements": {
+    "quests": [
+      "The Eyes of Glouphrie",
+      "The Grand Tree",
+      "Tree Gnome Village",
+      "Waterfall Quest"
+    ],
+    "skills": [
+      {
+        "skill": "Agility",
+        "level": 45
+      },
+      {
+        "skill": "Ranged",
+        "level": 47
+      },
+      {
+        "skill": "Slayer",
+        "level": 56
+      },
+      {
+        "skill": "Strength",
+        "level": 60
+      },
+      {
+        "skill": "Thieving",
+        "level": 56
+      },
+      {
+        "skill": "Fletching",
+        "level": 59
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Small crystal seed",
+      "display": "Small crystal seed or crystal saw (tools made from crystal tool seeds will not work)",
+      "image": "https://runescape.wiki/images/thumb/Small_crystal_seed_detail.png/100px-Small_crystal_seed_detail.png?3bf2d"
+    },
+    {
+      "name": "Crossbow",
+      "display": "A crossbow and mithril grapple (tool belt works)",
+      "image": "https://runescape.wiki/images/thumb/Crossbow_detail.png/100px-Crossbow_detail.png?70ca5"
+    },
+    {
+      "name": "A key",
+      "display": "A key (from the Waterfall Quest; can be re-obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/A_key_detail.png/100px-A_key_detail.png?d5cf4"
+    }
+  ],
+  "kills": [
+    "3 Warped terrorbirds (level 82)",
+    "Evil creature (level 0)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Strength",
+      "amount": 30000,
+      "display": "30,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Slayer",
+      "amount": 20000,
+      "display": "20,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Thieving",
+      "amount": 5000,
+      "display": "5,000 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 5000,
+      "display": "5,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Poison Waste Slayer Dungeon",
+      "display": "Access to Poison Waste Slayer Dungeon",
+      "image": "https://runescape.wiki/images/thumb/Arposandra_Sewers1.png/100px-Arposandra_Sewers1.png?a6db6"
+    },
+    {
+      "type": "item",
+      "name": "Spirit tree (Incomitatus)",
+      "display": "Access to a new spirit tree",
+      "image": "https://runescape.wiki/images/thumb/Spirit_tree_%28Incomitatus%2C_dying%29.png/100px-Spirit_tree_%28Incomitatus%2C_dying%29.png?42779"
+    },
+    {
+      "type": "item",
+      "name": "Tree Gnome Village (location)",
+      "display": "Ability to use the spirit trees for direct teleportation, skipping the route of travelling back to Tree Gnome Village",
+      "image": "https://runescape.wiki/images/thumb/Tree_Gnome_Village.png/100px-Tree_Gnome_Village.png?4e8cc"
+    },
+    {
+      "type": "item",
+      "name": "Crystal chime",
+      "display": "Ability to add the crystal chime to the tool belt.",
+      "image": "https://runescape.wiki/images/thumb/Crystal_chime_detail.png/100px-Crystal_chime_detail.png?a5073"
+    },
+    {
+      "type": "item",
+      "name": "Bolrie's Diary (music track)",
+      "display": "Bolrie's Diary (read Bolrie's Diary, which is attached to the lectern in Yewnock's machine room in the Gnome Village Dungeon; need to click on any chapter to unlock music)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Healin' Feelin'",
+      "display": "Healin' Feelin' (healing spirit tree at sewer entrance)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "The Longramble Scramble",
+      "display": "The Longramble Scramble (west of Castle Wars across river)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Storeroom Shuffle",
+      "display": "Storeroom Shuffle (Gnome Village Dungeon storeroom moving monoliths)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Terrorbird Tussle",
+      "display": "Terrorbird Tussle (Cutscene after Warped terrorbird battle)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Waste Defaced",
+      "display": "Waste Defaced (Poison Waste Slayer Dungeon)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Speak to King Bolren in the Tree Gnome Village. (opciones de chat: Accept)",
+        "es": "Habla con King Bolren en Tree Gnome Village. (opciones de chat: Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Squeeze through the loose railing to the west.",
+        "es": "Cuélate por la barandilla suelta al oeste."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Climb down ladder to the east.",
+        "es": "Baja por la escalera hacia el este."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "If you no longer have a key from the Waterfall Quest, go to the east side of the cave and search the off-colour crate to get one.",
+        "es": "Si ya no tienes una llave de la Waterfall Quest, ve al lado este de la cueva y registra la caja de color extraño para conseguir una."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 1,
+      "text": {
+        "en": "Note that the identically named a key also received from the Waterfall Quest will not work.",
+        "es": "Ten en cuenta que otra llave con el mismo nombre, también obtenida en la Waterfall Quest, no funcionará."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Go to the west side of the cave and talk to Golrie. (opciones de chat: 2 Anti-illusion devices)",
+        "es": "Ve al lado oeste de la cueva y habla con Golrie. (opciones de chat: 2 Dispositivos anti-ilusión)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Use the key on the northern gate.",
+        "es": "Usa la llave en la puerta norte."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Search the chest to obtain crystalline discs.",
+        "es": "Registra el cofre para obtener discos cristalinos."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 1,
+      "text": {
+        "en": "You may use drop trick to obtain more discs. You should drop all the discs to obtain a new batch of discs.",
+        "es": "Puedes usar el truco de soltar objetos para conseguir más discos. Deberías soltar todos los discos para obtener un nuevo lote de discos."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Golrie again. (opciones de chat: 2 Anti-illusion devices)",
+        "es": "Habla de nuevo con Golrie. (opciones de chat: 2 Dispositivos anti-ilusión)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Go to the eastern part of the cave and crawl through the tunnel (followers must be dismissed).",
+        "es": "Ve a la parte este de la cueva y gatea por el túnel (debes despedir a tus seguidores)."
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Push the monolith north.",
+        "es": "Empuja el monolito hacia el norte."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Search chest to obtain more crystalline discs.",
+        "es": "Registra el cofre para obtener más discos cristalinos."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "You may use drop trick to obtain more discs. You should drop all the discs to obtain a new batch of discs.",
+        "es": "Puedes usar el truco de soltar objetos para conseguir más discos. Deberías soltar todos los discos para obtener un nuevo lote de discos."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Go to the next set of monoliths and push the south-western one north.",
+        "es": "Ve al siguiente grupo de monolitos y empuja el del suroeste hacia el norte."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Push the north-west monolith east.",
+        "es": "Empuja el monolito del noroeste hacia el este."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Search the western chests to the north.",
+        "es": "Registra los cofres del oeste, al norte."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "Be sure you receive a key to a chest and Yewnock's notes.",
+        "es": "Asegúrate de recibir una llave para un cofre y las notas de Yewnock."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Push the small monolith south.",
+        "es": "Empuja el monolito pequeño hacia el sur."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Right-click sing-glass on the singing bowl to transform the seed into a crystal chime.",
+        "es": "Haz clic derecho en el cristal cantor sobre el cuenco cantor para transformar la semilla en un carillón de cristal."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 1,
+      "text": {
+        "en": "If you have a crystal saw instead of the small crystal seed, right-click revert-crystal on the singing bowl.",
+        "es": "Si tienes una sierra de cristal en lugar de la semilla de cristal pequeña, haz clic derecho en revertir-cristal sobre el cuenco cantor."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Push the north-west monolith west.",
+        "es": "Empuja el monolito del noroeste hacia el oeste."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Open the mahogany chest, then search it to obtain the strongroom key.",
+        "es": "Abre el cofre de caoba y luego regístralo para obtener la llave de la sala fuerte."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Push the south-east monolith west and open the western gate.",
+        "es": "Empuja el monolito del sureste hacia el oeste y abre la puerta oeste."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 1,
+      "text": {
+        "en": "If you are stuck, exit using either of the tunnels.",
+        "es": "Si te quedas atascado, sal por cualquiera de los túneles."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 1,
+      "text": {
+        "en": "Enter the tunnel again from the other side.",
+        "es": "Entra de nuevo en el túnel desde el otro lado."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 1,
+      "text": {
+        "en": "Push south-western monolith north.",
+        "es": "Empuja el monolito del suroeste hacia el norte."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 1,
+      "text": {
+        "en": "Open the western gate.",
+        "es": "Abre la puerta oeste."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Read the lectern (Chapter 1). Doing so unlocks a music track.",
+        "es": "Lee el atril (Capítulo 1). Al hacerlo, desbloqueas una pista musical."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Referencing the table below, insert discs on the left side of the machine to equal the values on the right side. Use Yewnock's exchanger to obtain shapes of lesser values (if you are having trouble, see the full guide here).",
+        "es": "Consultando la tabla de abajo, inserta discos en el lado izquierdo de la máquina para igualar los valores del lado derecho. Usa el intercambiador de Yewnock para obtener formas de valores menores (si tienes problemas, consulta la guía completa aquí)."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Drop all discs and 'A key to a chest' as you no longer need them. They are not the same shapes that will be used in The Prisoner of Glouphrie.",
+        "es": "Suelta todos los discos y \"Una llave para un cofre\" ya que no los necesitas más. No son las mismas formas que se usarán en The Prisoner of Glouphrie."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Exit through the way you came or teleport, returning to Tree Gnome Village.",
+        "es": "Sal por donde entraste o teletranspórtate, regresando a Tree Gnome Village."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Kill the evil creature near King Bolren. (If it respawns, hop worlds and try again.)",
+        "es": "Mata a la criatura maligna cerca de King Bolren. (Si reaparece, cambia de mundo e inténtalo de nuevo.)"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the king.",
+        "es": "Habla con el rey."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Use the Spirit Tree to travel to the Tree Gnome Stronghold.",
+        "es": "Usa el Spirit Tree para viajar al Tree Gnome Stronghold."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Climb to the of the Grand Tree.",
+        "es": "Sube a la cima del Grand Tree."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Gianne Jnr in the north-west corner. (opciones de chat: 2 Longramble the explorer)",
+        "es": "Habla con Gianne Jnr en la esquina noroeste. (opciones de chat: 2 Longramble el explorador)"
+      }
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "text": {
+        "en": "Head south-west of Castle Wars until you reach a bridge crossing a river. Ring of dueling, or fairy ring and head north-west, or Yanille lodestone for quick access.",
+        "es": "Dirígete al suroeste de Castle Wars hasta llegar a un puente que cruza un río. Usa el Ring of dueling, o el fairy ring y ve al noroeste, o la piedra de viaje de Yanille para un acceso rápido."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "text": {
+        "en": "Just north-east of the bridge, grapple the tree to cross the river.",
+        "es": "Justo al noreste del puente, engancha el árbol con el garfio para cruzar el río."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Longramble.",
+        "es": "Habla con Longramble."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "text": {
+        "en": "Head north and talk to the dying spirit tree.",
+        "es": "Dirígete al norte y habla con el árbol espiritual moribundo."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, use the crystal chime on the spirit tree, or ring the crystal chime when next to the spirit tree.",
+        "es": "Después de la escena, usa el carillón de cristal en el árbol espiritual, o hazlo sonar cuando estés junto al árbol espiritual."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "text": {
+        "en": "Go west into the large sewer entrance.",
+        "es": "Ve hacia el oeste, hacia la gran entrada de alcantarilla."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Travel through the dungeon until you reach a room with 4 doors, 2 warped tortoises, and a pit in the centre. (You may want to kill a warped tortoise/terrorbird for the achievement at this point as it is convenient to do so.)",
+        "es": "Viaja por la mazmorra hasta llegar a una sala con 4 puertas, 2 tortugas deformadas y un foso en el centro. (Puede que quieras matar a una tortuga deformada/pájaro del terror en este punto para el logro, ya que resulta conveniente hacerlo aquí.)"
+      }
+    },
+    {
+      "index": 44,
+      "indent": 1,
+      "text": {
+        "en": "Running through the tar will turn your run off - simply turn it back on.",
+        "es": "Correr por el alquitrán desactivará tu carrera; simplemente vuelve a activarla."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 1,
+      "text": {
+        "en": "You can Surge or Dive across the tar to avoid being slowed down.",
+        "es": "Puedes usar Surge o Dive para cruzar el alquitrán y evitar que te frene."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Enter the east room and kill the 3 warped terrorbirds.",
+        "es": "Entra en la sala del este y mata a los 3 pájaros del terror deformados."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 1,
+      "text": {
+        "en": "If you die, you will have to recreate the crystal chime after reobtaining the small crystal seed.",
+        "es": "Si mueres, tendrás que volver a crear el carillón de cristal después de recuperar la semilla de cristal pequeña."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Peek through the hatch door on the east side of the room.",
+        "es": "Echa un vistazo por la trampilla en el lado este de la sala."
+      }
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "text": {
+        "en": "People with sensitivity to light, seizures, or other ailments concerning flashing lights should be cautious during the escape scene (about 3–4 minutes). Recommended to hold spacebar and look away. You must watch the cutscene. In the event you cancel it, simply re-enter the room.",
+        "es": "Las personas sensibles a las luces intermitentes, con epilepsia u otras afecciones relacionadas deben tener precaución durante la escena de la huida (dura entre 3 y 4 minutos). Se recomienda mantener pulsada la barra espaciadora y apartar la vista. Debes ver la escena. Si la cancelas, simplemente vuelve a entrar en la sala."
+      }
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Hazelmere.",
+        "es": "Habla con Hazelmere."
+      }
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

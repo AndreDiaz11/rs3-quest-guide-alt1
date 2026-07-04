@@ -1,0 +1,122 @@
+{
+  "id": "doric-s-task-v-miniquest",
+  "title": "Doric's Task V (miniquest)",
+  "isMiniquest": true,
+  "guideLastUpdated": "2026-07-03T20:10:31.536Z",
+  "icon": "https://runescape.wiki/images/Doric%27s_Task_V_%28miniquest%29_icon.png",
+  "series": "Doric's Tasks",
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Experienced",
+  "length": "Short",
+  "releaseDate": "17 October 2012",
+  "startPoint": {
+    "en": "Speak to Doric in his hut just outside the gates of Taverley north of Falador.",
+    "es": "Habla con Doric en su cabaña justo a las afueras de las puertas de Taverley, al norte de Falador."
+  },
+  "requirements": {
+    "quests": [
+      "Doric's Task IV (miniquest)",
+      "Doric's Task III (miniquest)",
+      "Doric's Task II (miniquest)",
+      "Doric's Task I (miniquest)",
+      "What's Mine is Yours",
+      "Death Plateau"
+    ],
+    "skills": [
+      {
+        "skill": "Smithing",
+        "level": 50
+      },
+      {
+        "skill": "Mining",
+        "level": 50
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Rune bar",
+      "display": "12 rune bars or 6 rune bars 3 rune swords",
+      "image": "https://runescape.wiki/images/thumb/Rune_bar_detail.png/100px-Rune_bar_detail.png?62bc5"
+    },
+    {
+      "name": "6 rune bars",
+      "display": "6 rune bars",
+      "image": null
+    },
+    {
+      "name": "Rune sword",
+      "display": "3 rune swords",
+      "image": "https://runescape.wiki/images/thumb/Rune_sword_detail.png/100px-Rune_sword_detail.png?4f217"
+    },
+    {
+      "name": "Steel bar",
+      "display": "20 steel bars or 4 steel platebodies",
+      "image": "https://runescape.wiki/images/thumb/Steel_bar_detail.png/100px-Steel_bar_detail.png?cfb12"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 5000,
+      "display": "5,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Gofannon amulet",
+      "display": "15,000 charges for the Gofannon amulet",
+      "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Doric in his hut north of Falador. (opciones de chat: 1 Do you have any more Smithing tasks for me? • Accept)",
+        "es": "Habla con Doric en su cabaña al norte de Falador. (opciones de chat: 1 Do you have any more Smithing tasks for me? • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Smith 4 Gnome platebodies on Doric's anvil.",
+        "es": "Fabrica 4 petos de gnomo en el yunque de Doric."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "Have 4 steel platebodies in the backpack to make them.",
+        "es": "Necesitas 4 petos de acero en la mochila para poder fabricarlos."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Smith 3 rune swords +1 on any anvil.",
+        "es": "Fabrica 3 espadas rúnicas +1 en cualquier yunque."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Commander Montai on the Battlefield south of Ardougne.",
+        "es": "Habla con Commander Montai en el Battlefield al sur de Ardougne."
+      }
+    }
+  ]
+}

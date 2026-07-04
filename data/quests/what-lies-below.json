@@ -1,0 +1,252 @@
+{
+  "id": "what-lies-below",
+  "title": "What Lies Below",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:30:31.474Z",
+  "icon": "https://runescape.wiki/images/What_Lies_Below_icon.png",
+  "series": null,
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "40-49",
+  "difficulty": "Intermediate",
+  "length": "Short to Medium",
+  "releaseDate": "27 March 2007",
+  "startPoint": {
+    "en": "Talk to Rat Burgiss south of Varrock.",
+    "es": "Habla con Rat Burgiss, al sur de Varrock."
+  },
+  "requirements": {
+    "quests": [
+      "What Lies Below"
+    ],
+    "skills": [
+      {
+        "skill": "Runecrafting",
+        "level": 35
+      },
+      {
+        "skill": "Mining",
+        "level": 42
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Bowl",
+      "display": "Bowl",
+      "image": "https://runescape.wiki/images/thumb/Bowl_detail.png/100px-Bowl_detail.png?49c8f"
+    },
+    {
+      "name": "Chaos rune",
+      "display": "15 chaos runes or 15 pure essence (unnoted, so it's recommended to bring the stackable chaos runes, or store the essence in some pouches)",
+      "image": "https://runescape.wiki/images/thumb/Chaos_rune_detail.png/100px-Chaos_rune_detail.png?fa918"
+    },
+    {
+      "name": "Chaos altar",
+      "display": "Access to the chaos altar (requiring any item that acts as the chaos talisman, for example a wicked hood having consumed the talisman, or travelling through the Abyss)",
+      "image": "https://runescape.wiki/images/thumb/Chaos_Altar_inside.png/100px-Chaos_Altar_inside.png?e5826"
+    }
+  ],
+  "kills": [
+    "King Roald (Level 47)",
+    "5 Outlaws (Level 32)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Defence",
+      "amount": 2000,
+      "display": "2,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Runecrafting",
+      "amount": 8000,
+      "display": "8,000 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Beacon ring",
+      "display": "The Beacon ring",
+      "image": "https://runescape.wiki/images/thumb/Beacon_ring_detail.png/100px-Beacon_ring_detail.png?b9c46"
+    },
+    {
+      "type": "item",
+      "name": "Tunnel of Chaos",
+      "display": "Access to the Tunnel of Chaos, which provides a shortcut to the Chaos altar and the Chaos Tunnels",
+      "image": "https://runescape.wiki/images/thumb/Tunnel_of_Chaos.png/100px-Tunnel_of_Chaos.png?c3486"
+    },
+    {
+      "type": "item",
+      "name": "Historian Minas",
+      "display": "Ability to speak with Historian Minas in the Varrock Museum and give him the Dagon'hai history book you found during the quest in the Varrock Palace library for 5 kudos.",
+      "image": "https://runescape.wiki/images/thumb/Historian_Minas.png/100px-Historian_Minas.png?74d5d"
+    },
+    {
+      "type": "item",
+      "name": "Alternative Root",
+      "display": "Alternative Root (In the Tunnel of Chaos)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Complication",
+      "display": "Complication (In the Chaos altar - only unlocked if one has not visited it before)",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Surok's Theme",
+      "display": "Surok's Theme (In fight with King Roald)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Rat Burgiss, south-east of the Varrock lodestone by the crossroads to Lumbridge. (opciones de chat: 2 Hello there! • 3 Shall I get them back for you? • Accept)",
+        "es": "Habla con Rat Burgiss, al sureste de la piedra de viaje de Varrock, junto al cruce hacia Lumbridge. (opciones de chat: 2 ¡Hola! • 3 ¿Quiere que se las recupere? • Aceptar)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Immediately west of the Grand Exchange is a camp. Kill 5 outlaws there.",
+        "es": "Inmediatamente al oeste del Grand Exchange hay un campamento. Mata a 5 forajidos allí."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Take all 5 Rat's papers that they drop.",
+        "es": "Coge los 5 papeles de Rat que sueltan."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Use the 5 papers on an empty folder.",
+        "es": "Usa los 5 papeles en una carpeta vacía."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Rat Burgiss. (opciones de chat: 2 Hello there!)",
+        "es": "Habla con Rat Burgiss. (opciones de chat: 2 ¡Hola!)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Varrock palace library, and talk to Surok Magis. (opciones de chat: 1 Go on, then!)",
+        "es": "Ve a la biblioteca del palacio de Varrock y habla con Surok Magis. (opciones de chat: 1 ¡Adelante, pues!)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 1,
+      "text": {
+        "en": "Optional: search the bookcase south of the telescope in the north-east section of the room for the Dagon'hai History; it can be turned in to Historian Minas after the quest for 5 kudos.",
+        "es": "Opcional: busca en la estantería al sur del telescopio, en la sección noreste de la sala, la Dagon'hai History; se puede entregar a Historian Minas tras la misión a cambio de 5 puntos de reconocimiento."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Use any method to enter the chaos altar.",
+        "es": "Usa cualquier método para entrar en el altar del caos."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "With 15 chaos runes, use the wand on the altar.",
+        "es": "Con 15 runas de caos, usa la varita en el altar."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "text": {
+        "en": "If you brought essence instead, craft the runes now.",
+        "es": "Si has traído esencia en su lugar, crea las runas ahora."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Give Surok Magis a bowl and the infused wand. (opciones de chat: 1 I have the things you wanted!)",
+        "es": "Dale a Surok Magis un cuenco y la varita imbuida. (opciones de chat: 1 ¡Tengo las cosas que querías!)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Rat Burgiss. (opciones de chat: 2 Hello there! • 1 Yes! I have a letter for you.)",
+        "es": "Habla con Rat Burgiss. (opciones de chat: 2 ¡Hola! • 1 ¡Sí! Tengo una carta para ti.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Zaff, in his shop north-west of Varrock Square. (opciones de chat: 4 Rat Burgiss sent me.)",
+        "es": "Habla con Zaff, en su tienda al noroeste de Varrock Square. (opciones de chat: 4 Me envía Rat Burgiss.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Surok Magis. (opciones de chat: 1 Bring it on!)",
+        "es": "Habla con Surok Magis. (opciones de chat: 1 ¡Adelante!)"
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Attack King Roald, and right-click summon with the beacon ring when he has 1 life point remaining.",
+        "es": "Ataca a King Roald y, cuando le quede 1 punto de vida, haz clic derecho para invocar con el beacon ring."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "After the cutscene, return to Rat Burgiss. (opciones de chat: 2 Hello there!)",
+        "es": "Tras la escena cinemática, vuelve con Rat Burgiss. (opciones de chat: 2 ¡Hola!)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

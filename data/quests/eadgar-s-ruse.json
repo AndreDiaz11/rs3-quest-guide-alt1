@@ -1,0 +1,478 @@
+{
+  "id": "eadgar-s-ruse",
+  "title": "Eadgar's Ruse",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:11:56.196Z",
+  "icon": "https://runescape.wiki/images/Eadgar%27s_Ruse_icon.png",
+  "series": "Troll",
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Experienced",
+  "length": "Long",
+  "releaseDate": "5 October 2004",
+  "startPoint": {
+    "en": "Talk to Sanfew in Taverley.",
+    "es": "Habla con Sanfew en Taverley."
+  },
+  "requirements": {
+    "quests": [
+      "Druidic Ritual",
+      "Troll Stronghold",
+      "Death Plateau",
+      "Mad Eadgar",
+      "Troll Stronghold area"
+    ],
+    "skills": [
+      {
+        "skill": "Herblore",
+        "level": 31
+      },
+      {
+        "skill": "Prayer",
+        "level": 40
+      },
+      {
+        "skill": "Agility",
+        "level": 47
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Climbing boots",
+      "display": "Climbing boots or rock climbing boots (not required if the player has completed Love Story, and has the ability to make Trollheim teleport tablets)",
+      "image": "https://runescape.wiki/images/thumb/Climbing_boots_detail.png/100px-Climbing_boots_detail.png?91a45"
+    },
+    {
+      "name": "Vodka",
+      "display": "A bottle of vodka (can be bought along with a pineapple from Heckel Funch at the Gnome Stronghold or Grand Exchange)",
+      "image": "https://runescape.wiki/images/thumb/Vodka_detail.png/100px-Vodka_detail.png?a9317"
+    },
+    {
+      "name": "Pineapple chunks",
+      "display": "Pineapple chunks (Right click on pineapple, slice, and select option for pineapple chunks.)",
+      "image": "https://runescape.wiki/images/thumb/Pineapple_chunks_detail.png/100px-Pineapple_chunks_detail.png?c430d"
+    },
+    {
+      "name": "Wheat",
+      "display": "10 wheat (unnoted)",
+      "image": "https://runescape.wiki/images/thumb/Wheat_detail.png/100px-Wheat_detail.png?c974c"
+    },
+    {
+      "name": "Raw chicken",
+      "display": "5 raw chickens (unnoted, also there are chickens in Freda's backyard)",
+      "image": "https://runescape.wiki/images/thumb/Raw_chicken_detail.png/100px-Raw_chicken_detail.png?a5332"
+    },
+    {
+      "name": "Logs",
+      "display": "2 logs",
+      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+    },
+    {
+      "name": "Ranarr potion (unfinished)",
+      "display": "A ranarr potion (unfinished)",
+      "image": "https://runescape.wiki/images/thumb/Ranarr_potion_%28unfinished%29_detail.png/100px-Ranarr_potion_%28unfinished%29_detail.png?6ccff"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Herblore",
+      "amount": 11000,
+      "display": "11,000 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Goutweed",
+      "display": "Ability to grow and steal goutweed, which can be traded to Sanfew for herbs",
+      "image": "https://runescape.wiki/images/thumb/Goutweed_detail.png/100px-Goutweed_detail.png?1c570"
+    },
+    {
+      "type": "item",
+      "name": "Trollheim Teleport",
+      "display": "Ability to use the Trollheim Teleport spell",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
+    },
+    {
+      "type": "item",
+      "name": "Burnt meat",
+      "display": "Burnt meat",
+      "image": "https://runescape.wiki/images/thumb/Burnt_meat_detail.png/100px-Burnt_meat_detail.png?29287"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Start the quest by speaking to Sanfew, who lives on the east side of Taverley, south-west of the summoning shop. (opciones de chat: 2 Ask general questions. • 1 Have you any more work for me, to help reclaim the circle? • Accept)",
+        "es": "Comienza la misión hablando con Sanfew, que vive en el lado este de Taverley, al suroeste de la tienda de invocación. (opciones de chat: 2 Ask general questions. • 1 Have you any more work for me, to help reclaim the circle? • Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 1,
+      "text": {
+        "en": "If Zogre Flesh Eaters is not complete, use the following option: (opciones de chat: 1 Have you any more work for me? • Accept)",
+        "es": "Si Zogre Flesh Eaters no está completada, usa la siguiente opción: (opciones de chat: 1 Have you any more work for me? • Accept)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Equip your climbing boots and make your way to the Troll Stronghold via either the main entrance or the secret entrance.",
+        "es": "Equípate las botas de escalada y dirígete al Troll Stronghold, ya sea por la entrada principal o por la entrada secreta."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "text": {
+        "en": "From the main entrance, go south and then climb down the stairs into the Troll kitchen.",
+        "es": "Desde la entrada principal, ve hacia el sur y luego baja las escaleras hasta la cocina de los trolls."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 1,
+      "text": {
+        "en": "If using the secret entrance, go to the ambush commander and climb the nearby wall, then head west.",
+        "es": "Si usas la entrada secreta, ve hasta el ambush commander y escala el muro cercano, luego dirígete al oeste."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 2,
+      "text": {
+        "en": "Once inside, go all the way north and climb up the stairs.",
+        "es": "Una vez dentro, ve todo hacia el norte y sube las escaleras."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 2,
+      "text": {
+        "en": "Go south into the Troll kitchen.",
+        "es": "Ve hacia el sur, hasta la cocina de los trolls."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Speak to Burntmeat.",
+        "es": "Habla con Burntmeat."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Walk out of the stronghold's main entrance and head east to the top of the mountain (Eadgar's cave). Located on top of the mountain with the thrower trolls, the world map marks this as Trollheim.",
+        "es": "Sal por la entrada principal de la fortaleza y dirígete al este, hacia la cima de la montaña (la cueva de Eadgar). Situada en lo alto de la montaña con los trolls lanzadores, el mapa del mundo la marca como Trollheim."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Enter the cave.",
+        "es": "Entra en la cueva."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Eadgar. (opciones de chat: 2 What do you have to offer? • 1 I'd like some mountain goat stew, please.)",
+        "es": "Habla con Eadgar. (opciones de chat: 2 What do you have to offer? • 1 I'd like some mountain goat stew, please.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Parroty Pete at the Ardougne Zoo. He is located at the northern end by the wolves. (opciones de chat: 3 What do you feed them?)",
+        "es": "Habla con Parroty Pete en el Ardougne Zoo. Se encuentra en el extremo norte, junto a los lobos. (opciones de chat: 3 What do you feed them?)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Talk to him again. (opciones de chat: 2 When did you add it?)",
+        "es": "Habla con él de nuevo. (opciones de chat: 2 When did you add it?)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Use the pineapple chunks on the vodka to obtain alco-chunks.",
+        "es": "Usa los trozos de piña sobre el vodka para obtener alco-chunks."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Use the alco-chunks on the Aviary Hatch on the west side of the parrot cage for a drunk parrot.",
+        "es": "Usa los alco-chunks sobre la trampilla del aviario (Aviary Hatch), en el lado oeste de la jaula de loros, para obtener un loro borracho."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Return to Eadgar. (opciones de chat: 3 No thanks, Eadgar.)",
+        "es": "Vuelve con Eadgar. (opciones de chat: 3 No thanks, Eadgar.)"
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Go back to the stronghold and climb down the northern Stone Staircase.",
+        "es": "Regresa a la fortaleza y baja por la escalera de piedra del norte."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Unlock the Prison Door to the east and climb down the staircase.",
+        "es": "Abre la puerta de la prisión (Prison Door) al este y baja por la escalera."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Use the drunk parrot on the rack north of the prison cells.",
+        "es": "Usa el loro borracho sobre el estante al norte de las celdas de la prisión."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Tegid in Taverley for a dirty robe. He is located south of Sanfew, washing laundry in the lake. (opciones de chat: 2 Sanfew won't be happy...)",
+        "es": "Habla con Tegid en Taverley para conseguir una túnica sucia. Se encuentra al sur de Sanfew, lavando ropa en el lago. (opciones de chat: 2 Sanfew won't be happy...)"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Eadgar with the wheat, raw chickens, logs and the dirty robe. (opciones de chat: 3 No thanks, Eadgar.)",
+        "es": "Habla con Eadgar llevando el trigo, los pollos crudos, los troncos y la túnica sucia. (opciones de chat: 3 No thanks, Eadgar.)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Exit the cave and find a grassy area and pick the thistle.",
+        "es": "Sal de la cueva, busca una zona con hierba y recoge el cardo."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Use the troll thistle on a fire.",
+        "es": "Usa el cardo de troll sobre una hoguera."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "If you didn't bring logs, there are two fires just west in the encampment.",
+        "es": "Si no llevas troncos, hay dos hogueras un poco más al oeste, en el campamento."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Grind the dried thistle.",
+        "es": "Muele el cardo seco."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Use the ground thistle on ranarr potion (unfinished) to obtain a troll potion.",
+        "es": "Usa el cardo molido sobre la poción de ranarr (sin terminar) para obtener una poción de troll."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Eadgar to give him the potion.",
+        "es": "Habla con Eadgar para darle la poción."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Go back to the prison in Troll Stronghold.",
+        "es": "Regresa a la prisión del Troll Stronghold."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Search the rack to retrieve the drunk parrot.",
+        "es": "Busca en el estante para recuperar el loro borracho."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Eadgar (opciones de chat: 3 No thanks, Eadgar.) to obtain a fake man.",
+        "es": "Habla con Eadgar (opciones de chat: 3 No thanks, Eadgar.) para obtener un hombre falso (fake man)."
+      }
+    },
+    {
+      "index": 30,
+      "indent": 1,
+      "text": {
+        "en": "Speak to him again if you don't receive the fake man the first time.",
+        "es": "Habla con él de nuevo si no recibes el hombre falso la primera vez."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Burntmeat back in the kitchen of the stronghold. (opciones de chat: 2 I'll be going now.)",
+        "es": "Habla con Burntmeat de vuelta en la cocina de la fortaleza. (opciones de chat: 2 I'll be going now.)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Open and right-click search the Kitchen Drawers along the south wall for the storeroom key.",
+        "es": "Abre y registra con clic derecho los cajones de la cocina (Kitchen Drawers) a lo largo del muro sur para conseguir la llave del almacén."
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Climb-down the stone staircase directly north of the kitchen drawers to enter the storeroom.",
+        "es": "Baja por la escalera de piedra situada justo al norte de los cajones de la cocina para entrar en el almacén."
+      }
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "text": {
+        "en": "Open the Storeroom Door with the key.",
+        "es": "Abre la puerta del almacén (Storeroom Door) con la llave."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "text": {
+        "en": "Obtain goutweed:",
+        "es": "Consigue la hierba de gota (goutweed):"
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "At the next door, wait until the guard patrolling the northernmost lane goes south.",
+        "es": "En la siguiente puerta, espera hasta que el guardia que patrulla el pasillo más al norte se dirija hacia el sur."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Open the door and run west, then surge directly south to search the Goutweed Crate.",
+        "es": "Abre la puerta y corre hacia el oeste, luego usa Surge directamente hacia el sur para registrar el cajón de goutweed."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "If done correctly, you will surge through the western most guards and be able to immediately obtain a goutweed.",
+        "es": "Si lo haces correctamente, pasarás con Surge junto a los guardias más occidentales y podrás obtener de inmediato una goutweed."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 1,
+      "text": {
+        "en": "Alternatively, use safe spots (U-shaped areas with boxes on three sides) to pass the guards.",
+        "es": "Alternativamente, usa zonas seguras (áreas en forma de U con cajas en tres de sus lados) para pasar a los guardias."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 1,
+      "text": {
+        "en": "Run to the first safe spot, the middle safe spot in the third row of boxes from the entrance, after the trolls patrolling the first row and the eastern second row just pass you.",
+        "es": "Corre hasta la primera zona segura, la del medio en la tercera fila de cajas desde la entrada, justo después de que los trolls que patrullan la primera fila y la segunda fila del este pasen junto a ti."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "text": {
+        "en": "Wait for the troll which travels north on the western side to make the turn to the east, then run to the safe spot on the southern side of the third row.",
+        "es": "Espera a que el troll que se mueve hacia el norte por el lado oeste gire hacia el este, luego corre hasta la zona segura en el lado sur de la tercera fila."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "Wait until the troll guard approaching you from the south has turned the west, then run to the crate with the goutweed. Make sure that you are standing to the side of the crate or you will get caught.",
+        "es": "Espera hasta que el guardia troll que se acerca desde el sur haya girado hacia el oeste, luego corre hasta el cajón con la goutweed. Asegúrate de colocarte al lado del cajón o te atraparán."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Return to Taverley and talk to Sanfew with the goutweed.",
+        "es": "Regresa a Taverley y habla con Sanfew llevando la goutweed."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

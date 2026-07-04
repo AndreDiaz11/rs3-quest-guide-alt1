@@ -1,0 +1,524 @@
+{
+  "id": "the-giant-dwarf",
+  "title": "The Giant Dwarf",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:23:26.743Z",
+  "icon": "https://runescape.wiki/images/The_Giant_Dwarf_icon.png",
+  "series": "Dwarf (Red Axe)",
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "combatLevel": "none",
+  "difficulty": "Intermediate",
+  "length": "Medium to Long",
+  "releaseDate": "31 May 2005",
+  "startPoint": {
+    "en": "Talk to Commander Veldaban in the Black Guard headquarters on the western side of Keldagrim. To enter Keldagrim, talk to the dwarf boatman in the dwarven mine east of Rellekka. (via → )",
+    "es": "Habla con Commander Veldaban en el cuartel general de los Black Guard, en el lado oeste de Keldagrim. Para entrar en Keldagrim, habla con el barquero enano en la mina enana al este de Rellekka. (via → )"
+  },
+  "requirements": {
+    "quests": [
+      "The Giant Dwarf"
+    ],
+    "skills": [
+      {
+        "skill": "Crafting",
+        "level": 12
+      },
+      {
+        "skill": "Firemaking",
+        "level": 16
+      },
+      {
+        "skill": "Magic",
+        "level": 33
+      },
+      {
+        "skill": "Thieving",
+        "level": 14
+      },
+      {
+        "skill": "Mining",
+        "level": 20
+      },
+      {
+        "skill": "Smithing",
+        "level": 10
+      },
+      {
+        "skill": "Agility",
+        "level": 21
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Coins",
+      "display": "200 coins",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "name": "Firemaking",
+      "display": "Any logs that you can set fire to",
+      "image": "https://runescape.wiki/images/thumb/Firemaking_detail.png/100px-Firemaking_detail.png?4c3a6"
+    },
+    {
+      "name": "Coal",
+      "display": "1 coal",
+      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    },
+    {
+      "name": "Iron bar",
+      "display": "1 iron bar",
+      "image": "https://runescape.wiki/images/thumb/Iron_bar_detail.png/100px-Iron_bar_detail.png?2c5a5"
+    },
+    {
+      "name": "Telekinetic Grab",
+      "display": "Runes to cast Telekinetic Grab (1 law rune and 1 air rune)",
+      "image": "https://runescape.wiki/images/thumb/Telekinetic_Grab.gif/100px-Telekinetic_Grab.gif?e5e59"
+    },
+    {
+      "name": "Sapphire",
+      "display": "3 cut sapphires",
+      "image": "https://runescape.wiki/images/thumb/Sapphire_detail.png/100px-Sapphire_detail.png?d62b2"
+    },
+    {
+      "name": "Redberry pie",
+      "display": "1 Redberry pie (not required if you have completed The Knight's Sword quest)",
+      "image": "https://runescape.wiki/images/thumb/Redberry_pie_detail.png/100px-Redberry_pie_detail.png?11cb3"
+    },
+    {
+      "name": "The Giant Dwarf",
+      "display": "About 10 of each of the following items in your bank or metal bank, which may or may not be necessary for the timed delivery tasks. There is the Keldagrim bank and a metal bank access in Keldagrim, so you don't have to carry everything there. Once you're there, take the items out for use in the quest. Clay (not soft clay) Copper ore Tin ore Iron ore Silver ore Gold ore Mithril ore Coal Bronze bar Iron bar Silver bar Gold bar Steel bar Mithril bar",
+      "image": "https://runescape.wiki/images/thumb/The_Giant_Dwarf.png/100px-The_Giant_Dwarf.png?bb8c4"
+    },
+    {
+      "name": "Clay",
+      "display": "Clay (not soft clay)",
+      "image": "https://runescape.wiki/images/thumb/Clay_detail.png/100px-Clay_detail.png?748bb"
+    },
+    {
+      "name": "Copper ore",
+      "display": "Copper ore",
+      "image": "https://runescape.wiki/images/thumb/Copper_ore_detail.png/100px-Copper_ore_detail.png?2c4f9"
+    },
+    {
+      "name": "Tin ore",
+      "display": "Tin ore",
+      "image": "https://runescape.wiki/images/thumb/Tin_ore_detail.png/100px-Tin_ore_detail.png?82a5a"
+    },
+    {
+      "name": "Iron ore",
+      "display": "Iron ore",
+      "image": "https://runescape.wiki/images/thumb/Iron_ore_detail.png/100px-Iron_ore_detail.png?2d6f5"
+    },
+    {
+      "name": "Silver ore",
+      "display": "Silver ore",
+      "image": "https://runescape.wiki/images/thumb/Silver_ore_detail.png/100px-Silver_ore_detail.png?3a787"
+    },
+    {
+      "name": "Gold ore",
+      "display": "Gold ore",
+      "image": "https://runescape.wiki/images/thumb/Gold_ore_detail.png/100px-Gold_ore_detail.png?535cd"
+    },
+    {
+      "name": "Mithril ore",
+      "display": "Mithril ore",
+      "image": "https://runescape.wiki/images/thumb/Mithril_ore_detail.png/100px-Mithril_ore_detail.png?2d6f5"
+    },
+    {
+      "name": "Coal",
+      "display": "Coal",
+      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    },
+    {
+      "name": "Bronze bar",
+      "display": "Bronze bar",
+      "image": "https://runescape.wiki/images/thumb/Bronze_bar_detail.png/100px-Bronze_bar_detail.png?7b3ef"
+    },
+    {
+      "name": "Iron bar",
+      "display": "Iron bar",
+      "image": "https://runescape.wiki/images/thumb/Iron_bar_detail.png/100px-Iron_bar_detail.png?2c5a5"
+    },
+    {
+      "name": "Silver bar",
+      "display": "Silver bar",
+      "image": "https://runescape.wiki/images/thumb/Silver_bar_detail.png/100px-Silver_bar_detail.png?320b3"
+    },
+    {
+      "name": "Gold bar",
+      "display": "Gold bar",
+      "image": "https://runescape.wiki/images/thumb/Gold_bar_detail.png/100px-Gold_bar_detail.png?64b55"
+    },
+    {
+      "name": "Steel bar",
+      "display": "Steel bar",
+      "image": "https://runescape.wiki/images/thumb/Steel_bar_detail.png/100px-Steel_bar_detail.png?cfb12"
+    },
+    {
+      "name": "Mithril bar",
+      "display": "Mithril bar",
+      "image": "https://runescape.wiki/images/thumb/Mithril_bar_detail.png/100px-Mithril_bar_detail.png?e065f"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 2,
+      "display": "2 quest points",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 2500,
+      "display": "2,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Mining",
+      "amount": 2500,
+      "display": "2,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 2500,
+      "display": "2,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Firemaking",
+      "amount": 1500,
+      "display": "1,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Magic",
+      "amount": 1500,
+      "display": "1,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Thieving",
+      "amount": 1500,
+      "display": "1,500 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Keldagrim minecart system",
+      "display": "The ability to use the mine cart system to White Wolf Mountain (also requires completion of the quest Fishing Contest)",
+      "image": "https://runescape.wiki/images/thumb/Using_mine_cart.gif/100px-Using_mine_cart.gif?1b3a4"
+    },
+    {
+      "type": "item",
+      "name": "The ability to work for the company the player has chosen by completing tasks similar to the ones in the quest",
+      "display": "The ability to work for the company the player has chosen by completing tasks similar to the ones in the quest",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Gravestone",
+      "display": "The ability to use members-only gravestones, which last longer than the free-to-play gravestones",
+      "image": "https://runescape.wiki/images/Gravestone_map_icon.png?d10d9"
+    },
+    {
+      "type": "item",
+      "name": "Land of the Dwarves",
+      "display": "Land of the Dwarves",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Tale of Keldagrim",
+      "display": "Tale of Keldagrim",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Enter the tunnel between the two black statues, north-east of Rellekka, close to fairy ring . (teleport to the Fremennik Province and run north-east)",
+        "es": "Entra en el túnel entre las dos estatuas negras, al noreste de Rellekka, cerca del fairy ring . (teletranspórtate a Fremennik Province y corre al noreste)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Go through cave entrance east to Keldagrim.",
+        "es": "Ve por la entrada de la cueva al este hacia Keldagrim."
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the Dwarven Boatman inside the cave, not Dwarven Ferryman. (opciones de chat: 1 Yes.)",
+        "es": "Habla con el Dwarven Boatman dentro de la cueva, no con el Dwarven Ferryman. (opciones de chat: 1 Yes.)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Go west to the Black Guard H.Q.. Enter the building and talk to Commander Veldaban. The chat instance should end with you accepting the quest. (opciones de chat: Accept)",
+        "es": "Ve al oeste hacia el Black Guard H.Q.. Entra en el edificio y habla con Commander Veldaban. La conversación debería terminar con que aceptas la misión. (opciones de chat: Accept)"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Exit the house, go north-east across the bridge and talk to Blasidar the Sculptor just north-west of the brewery. (opciones de chat: 2 Yes, I will do this.)",
+        "es": "Sal de la casa, cruza el puente hacia el noreste y habla con Blasidar the Sculptor justo al noroeste de la cervecería. (opciones de chat: 2 Yes, I will do this.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "In the large building just west, talk to Vermundi at the silk icon. (opciones de chat: 2 Yes, I'm looking for some special clothes.)",
+        "es": "En el edificio grande justo al oeste, habla con Vermundi en el icono de seda. (opciones de chat: 2 Yes, I'm looking for some special clothes.)"
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "In the building west of the northern bridge, talk to the Librarian. (opciones de chat: 2 Do you know anything about King Alvis's clothes?)",
+        "es": "En el edificio al oeste del puente norte, habla con el Librarian. (opciones de chat: 2 Do you know anything about King Alvis's clothes?)"
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "While weighing less than 30kg, attempt to climb any bookcase.",
+        "es": "Mientras peses menos de 30kg, intenta trepar cualquier estantería de libros."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "With the book, return to Vermundi. (opciones de chat: 2 Yes, about those special clothes again...)",
+        "es": "Con el libro, vuelve con Vermundi. (opciones de chat: 2 Yes, about those special clothes again...)"
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Use coal and logs on her spinning machine.",
+        "es": "Usa carbón y troncos en su máquina de hilar."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Try to light it until the engine starts. (This may take several attempts)",
+        "es": "Intenta encenderla hasta que el motor arranque. (Esto puede requerir varios intentos)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Vermundi. (opciones de chat: 2 Yes, about those special clothes again... • 1 I'll pay.)",
+        "es": "Habla con Vermundi. (opciones de chat: 2 Yes, about those special clothes again... • 1 I'll pay.)"
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "In the far west of the city, talk to Saro at the anvil icon. (opciones de chat: 2 Yes, I'm looking for a pair of special boots.)",
+        "es": "En el extremo oeste de la ciudad, habla con Saro en el icono del yunque. (opciones de chat: 2 Yes, I'm looking for a pair of special boots.)"
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "North of the bank, talk to Dromund.",
+        "es": "Al norte del banco, habla con Dromund."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Take the left boot, from the table near the door, while his back is turned.",
+        "es": "Coge la bota izquierda de la mesa cerca de la puerta mientras esté de espaldas."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Leave his house and run around to the north edge, stand next to the western window (adjacent to the right boot).",
+        "es": "Sal de su casa y da la vuelta hasta el borde norte, colócate junto a la ventana oeste (junto a la bota derecha)."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "When his back is turned, cast Telekinetic Grab on the right boot through the window.",
+        "es": "Cuando esté de espaldas, lanza Telekinetic Grab sobre la bota derecha a través de la ventana."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Go to the north-west corner and talk to Santiri. (opciones de chat: 2 Yes, I'm looking for a particular battleaxe. • 2 Blasidar the sculptor needs it for his statue. • 2 Perhaps I can repair the axe?)",
+        "es": "Ve a la esquina noroeste y habla con Santiri. (opciones de chat: 2 Yes, I'm looking for a particular battleaxe. • 2 Blasidar the sculptor needs it for his statue. • 2 Perhaps I can repair the axe?)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Use 3 sapphires on the battleaxe.",
+        "es": "Usa 3 zafiros en el hacha de batalla."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "If you have not completed The Knight's Sword:",
+        "es": "Si no has completado The Knight's Sword:"
+      }
+    },
+    {
+      "index": 20,
+      "indent": 1,
+      "text": {
+        "en": "Take a redberry pie with you when you talk to Thurgo.",
+        "es": "Lleva contigo una redberry pie cuando hables con Thurgo."
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Thurgo in his small hut (fairy ring ), south of Port Sarim, and north of Mudskipper Point. (opciones de chat: 2 Something else. (3 if skillcape is owned) • 2 Would you like some redberry pie? • 3 Can you help me with this ancient axe? • 1 Return to Keldagrim immediately.)",
+        "es": "Habla con Thurgo en su pequeña cabaña (fairy ring ), al sur de Port Sarim, y al norte de Mudskipper Point. (opciones de chat: 2 Something else. (3 si tienes la capa de habilidad) • 2 Would you like some redberry pie? • 3 Can you help me with this ancient axe? • 1 Return to Keldagrim immediately.)"
+      }
+    },
+    {
+      "index": 22,
+      "indent": 1,
+      "text": {
+        "en": "If The Knight's Sword is complete (opciones de chat: 2 Something else. (3 if skillcape is owned) • 2 Can you help me with this ancient axe? • 1 Return to Keldagrim immediately.)",
+        "es": "Si has completado The Knight's Sword (opciones de chat: 2 Something else. (3 si tienes la capa de habilidad) • 2 Can you help me with this ancient axe? • 1 Return to Keldagrim immediately.)"
+      }
+    },
+    {
+      "index": 23,
+      "indent": 1,
+      "text": {
+        "en": "Have an iron bar to give to Thurgo (or access your metal bank via the anvil next to Thurgo to obtain one which is stored in it).",
+        "es": "Ten una barra de hierro para dársela a Thurgo (o accede a tu banco de metales mediante el yunque junto a Thurgo para obtener una guardada allí)."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "With the 4 items, talk to Riki the sculptor's model near Blasidar the sculptor.",
+        "es": "Con los 4 objetos, habla con Riki the sculptor's model cerca de Blasidar the sculptor."
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Blasidar for a cutscene.",
+        "es": "Habla con Blasidar para ver una escena."
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Run west to the marketplace building and up the stairs.",
+        "es": "Corre al oeste hacia el edificio del mercado y sube las escaleras."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Talk to any secretary (yellow is closest to metal bank) - your character's gender may disqualify your eligibility to work for that colour of company, consequently try another colour. (opciones de chat: 3 Is there anything I can help you with? • Any)",
+        "es": "Habla con cualquier secretaria (la amarilla es la más cercana al banco de metales) - el género de tu personaje puede impedirte trabajar para ese color de compañía, por lo que deberás probar con otro color. (opciones de chat: 3 Is there anything I can help you with? • Any)"
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Fetch them the required ore (must be un-noted). Repeat with the same secretary for a total of 4 tasks.",
+        "es": "Consígueles el mineral requerido (no debe estar marcado). Repite con la misma secretaria hasta completar un total de 4 tareas."
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the director. (opciones de chat: 3 Do you have any more tasks for me? • Any)",
+        "es": "Habla con el director. (opciones de chat: 3 Do you have any more tasks for me? • Any)"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Fetch them the required bars. You might need to repeat for a second task.",
+        "es": "Consígueles las barras requeridas. Puede que necesites repetir para una segunda tarea."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Talk to the director. (opciones de chat: 2 I'd like to officially join your company. • 3 Blasidar the sculptor has sent me. • 1 I would support you. • 1 Yes! Long live the [company]!)",
+        "es": "Habla con el director. (opciones de chat: 2 I'd like to officially join your company. • 3 Blasidar the sculptor has sent me. • 1 I would support you. • 1 Yes! Long live the [company]!)"
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Return to Commander Veldaban in Black Guard headquarters, where you started the quest (west of the palace and west of the bank). (opciones de chat: 1 I'm ready. • 2 I do NOT want to attend, I don't have time to waste. • 2 I just have a lot of smithing to do today, I can't attend.)",
+        "es": "Vuelve con Commander Veldaban en el cuartel general de los Black Guard, donde comenzaste la misión (al oeste del palacio y al oeste del banco). (opciones de chat: 1 I'm ready. • 2 I do NOT want to attend, I don't have time to waste. • 2 I just have a lot of smithing to do today, I can't attend.)"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}

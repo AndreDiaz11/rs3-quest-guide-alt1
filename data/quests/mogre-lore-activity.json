@@ -1,0 +1,90 @@
+{
+  "id": "mogre-lore-activity",
+  "title": "Mogre (lore activity)",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:39:42.911Z",
+  "icon": null,
+  "length": null,
+  "startPoint": {
+    "en": "Speak to Skippy located south-east of the town of Rimmington.",
+    "es": "Habla con Skippy, situado al sureste de la ciudad de Rimmington."
+  },
+  "requirements": {
+    "quests": [],
+    "skills": [
+      {
+        "skill": "Cooking",
+        "level": 20
+      }
+    ]
+  },
+  "items": [],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "item",
+      "name": "Mogre",
+      "display": "Ability to slay mogres at level 32 Slayer.",
+      "image": "https://runescape.wiki/images/thumb/Mogre.png/100px-Mogre.png?01f40"
+    },
+    {
+      "type": "item",
+      "name": "Giant crab",
+      "display": "Ability to own a giant crab pet, after completing the Freeing Pirate Pete subquest of Recipe for Disaster (with level 40 Summoning).",
+      "image": "https://runescape.wiki/images/thumb/Giant_crab_%28brown_and_green%29_pet.png/100px-Giant_crab_%28brown_and_green%29_pet.png?07b73"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Skippy, south-west of the Port Sarim lodestone. (opciones de chat: 2 Who are (Dramatic pause) THEY?)",
+        "es": "Habla con Skippy, al suroeste de la piedra de viaje de Port Sarim. (opciones de chat: 2 ¿Quiénes son (pausa dramática) ELLOS?)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "'Right-click' Skippy, Sober-Up. (opciones de chat: 1 Throw the water!)",
+        "es": "Haz clic derecho en Skippy, Espabilar. (opciones de chat: 1 ¡Tírale el agua!)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Skippy again to give him nettle tea.",
+        "es": "Vuelve a hablar con Skippy para darle té de ortiga."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Make a hangover cure by using chocolate dust on a bucket of milk, then snape grass on chocolatey milk.",
+        "es": "Prepara una cura para la resaca usando polvo de chocolate en un cubo de leche, y luego hierba snape en la leche achocolatada."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Give Skippy the hangover cure.",
+        "es": "Dale a Skippy la cura para la resaca."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Activity complete!",
+        "es": "¡Actividad completada!"
+      }
+    }
+  ]
+}

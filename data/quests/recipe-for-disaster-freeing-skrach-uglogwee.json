@@ -1,0 +1,303 @@
+{
+  "id": "recipe-for-disaster-freeing-skrach-uglogwee",
+  "title": "Recipe for Disaster: Freeing Skrach Uglogwee",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-04T02:07:25.118Z",
+  "icon": "https://runescape.wiki/images/Skrach_Uglogwee_icon.png",
+  "length": "Medium",
+  "startPoint": {
+    "en": "Inspect Skrach Uglogwee in the banquet hall in Lumbridge Castle.",
+    "es": "Inspecciona a Skrach Uglogwee en el salón de banquetes del Castillo de Lumbridge."
+  },
+  "requirements": {
+    "quests": [
+      "Recipe for Disaster: Another Cook's Quest",
+      "Cook's Assistant",
+      "Big Chompy Bird Hunting"
+    ],
+    "skills": [
+      {
+        "skill": "Cooking",
+        "level": 41
+      },
+      {
+        "skill": "Firemaking",
+        "level": 20
+      },
+      {
+        "skill": "Mining",
+        "level": 10
+      },
+      {
+        "skill": "Smithing",
+        "level": 10
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Raw chompy",
+      "display": "1 Raw chompy (if you don't burn the food, only one is needed)",
+      "image": "https://runescape.wiki/images/thumb/Raw_chompy_detail.png/100px-Raw_chompy_detail.png?c582e"
+    },
+    {
+      "name": "Ball of wool",
+      "display": "Ball of wool",
+      "image": "https://runescape.wiki/images/thumb/Ball_of_wool_detail.png/100px-Ball_of_wool_detail.png?22b70"
+    },
+    {
+      "name": "Iron spit",
+      "display": "Iron spit",
+      "image": null
+    },
+    {
+      "name": "Logs",
+      "display": "Logs",
+      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+    },
+    {
+      "name": "Ogre bellows",
+      "display": "Ogre bellows",
+      "image": "https://runescape.wiki/images/thumb/Ogre_bellows_detail.png/100px-Ogre_bellows_detail.png?dc56c"
+    },
+    {
+      "name": "Ogre bow",
+      "display": "Ogre bow or Comp ogre bow",
+      "image": "https://runescape.wiki/images/thumb/Ogre_bow_detail.png/100px-Ogre_bow_detail.png?e08a1"
+    },
+    {
+      "name": "Ogre arrows",
+      "display": "Ogre arrows or brutal arrows (bring extras or make more just in case you lose some)",
+      "image": null
+    }
+  ],
+  "kills": [
+    "Jubbly bird (Level 11)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Woodcutting",
+      "amount": 1500,
+      "display": "1,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Cooking",
+      "amount": 1500,
+      "display": "1,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Crafting",
+      "amount": 1500,
+      "display": "1,500 experience",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Ranged",
+      "amount": 1500,
+      "display": "1,500 experience",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Karamja",
+      "display": "Able to use the boat trip to travel between Karamja and Feldip Hills (you must pay a fee of chompies or exotic herbs that can be found on Karamja, such as rogue's purse)",
+      "image": "https://runescape.wiki/images/thumb/Karamja.png/100px-Karamja.png?42ba5"
+    },
+    {
+      "type": "item",
+      "name": "Culinaromancer's chest",
+      "display": "(Further) access to the Culinaromancer's chest",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Jubbly",
+      "amount": null,
+      "display": "The ability to hunt jubblies (counts for 1 point when hunting chompies, though provides more range experience when killed, and big bones as a drop when killed, and the raw jubbly gives more experience when cooked than a raw chompy)",
+      "image": null
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Inspect Skrach Uglogwee. (opciones de chat: 1 Yes, I'm sure I can get some Jubbly Chompy. • 2 Oh Ok then, I guess I'll talk to Rantz.)",
+        "es": "Inspecciona a Skrach Uglogwee. (opciones de chat: 1 Sí, estoy seguro de que puedo conseguir un Jubbly Chompy. • 2 Vale, entonces supongo que hablaré con Rantz.)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Head to Feldip Hills and talk to Rantz to the north-east. (opciones de chat: 1 I'm trying to free Skrach. Can you help? • 3 Ok, I'll do it.)",
+        "es": "Dirígete a Feldip Hills y habla con Rantz al noreste. (opciones de chat: 1 Estoy intentando liberar a Skrach. ¿Puedes ayudarme? • 3 Vale, lo haré.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "text": {
+        "en": "Follow the coast south and talk to Rantz. (opciones de chat: 1 I guess this is the watery place. What now?)",
+        "es": "Sigue la costa hacia el sur y habla con Rantz. (opciones de chat: 1 Supongo que este es el lugar acuático. ¿Y ahora qué?)"
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Cut the roots of the old tree, carve it",
+        "es": "Corta las raíces del viejo árbol, tállalo"
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Rantz. (opciones de chat: 1 Okay, the boat's ready; now tell me how to get a jubbly.)",
+        "es": "Habla con Rantz. (opciones de chat: 1 Vale, el barco está listo; ahora dime cómo conseguir un jubbly.)"
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "With a raw chompy, iron spit, and logs, teleport to the Karamja lodestone.",
+        "es": "Con un chompy crudo, un espetón de hierro y troncos, teletranspórtate a la piedra de viaje de Karamja."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "Head south until a row boat is seen along the western coast. Just south-east of the boat is a small tree with Rantz's arrow stuck in it.",
+        "es": "Dirígete hacia el sur hasta que veas un bote de remos a lo largo de la costa occidental. Justo al sureste del bote hay un árbol pequeño con la flecha de Rantz clavada en él."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "Use the iron spit on the raw chompy and light a fire just west of the small tree.",
+        "es": "Usa el espetón de hierro en el chompy crudo y enciende una hoguera justo al oeste del árbol pequeño."
+      }
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "text": {
+        "en": "Cook the chompy on the fire.",
+        "es": "Cocina el chompy en la hoguera."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "text": {
+        "en": "Board the nearby ogre boat. (opciones de chat: 1 Yes please, I'll get a lift back with you.)",
+        "es": "Sube al barco ogro cercano. (opciones de chat: 1 Sí, por favor, volveré contigo.)"
+      }
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Rantz. (opciones de chat: 1 Okay, now tell me how to get jubbly.)",
+        "es": "Habla con Rantz. (opciones de chat: 1 Vale, ahora dime cómo conseguir un jubbly.)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Make a balloon toad by using the following steps (it is advised to make a few in the event you burn the raw jubbly).",
+        "es": "Fabrica un sapo globo siguiendo estos pasos (se recomienda hacer varios por si quemas el jubbly crudo)."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 1,
+      "text": {
+        "en": "Just west, fill your ogre bellows with swamp bubbles from the swamp, then use the bellows on a swamp toad.",
+        "es": "Justo al oeste, llena tus fuelles de ogro con burbujas de pantano del pantano, luego usa los fuelles en un sapo de pantano."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 1,
+      "text": {
+        "en": "Directly west of the swamp pool, mine a feldip swamp rock (near ).",
+        "es": "Directamente al oeste de la charca del pantano, extrae una roca del pantano de Feldip (cerca de )."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 1,
+      "text": {
+        "en": "With the rock, toad, and a ball of wool in your inventory, use the bellows on the bloated toad again to make a balloon toad (the bellows must be filled).",
+        "es": "Con la roca, el sapo y una bola de lana en tu inventario, usa los fuelles en el sapo hinchado de nuevo para hacer un sapo globo (los fuelles deben estar llenos)."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Drop the balloon toad in the area where Rantz is.",
+        "es": "Suelta el sapo globo en la zona donde está Rantz."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "When a jubbly bird appears, kill it with an ogre bow and pluck it.",
+        "es": "Cuando aparezca un pájaro jubbly, mátalo con un arco de ogro y desplúmalo."
+      }
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "text": {
+        "en": "If a jubbly bird does not spawn by the time the balloon toad disappears, you will need to make another one.",
+        "es": "Si no aparece un pájaro jubbly antes de que el sapo globo desaparezca, tendrás que hacer otro."
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Head north to the ogre spit-roast fire and cook the raw jubbly. If you burn it, you must repeat the hunting process.",
+        "es": "Dirígete al norte hacia la hoguera de asado de ogro y cocina el jubbly crudo. Si lo quemas, deberás repetir el proceso de caza."
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Return to Lumbridge Castle and Use cooked jubbly on Skrach.",
+        "es": "Regresa al Castillo de Lumbridge y usa el jubbly cocinado en Skrach."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Subquest complete!",
+        "es": "¡Submisión completada!"
+      }
+    }
+  ]
+}

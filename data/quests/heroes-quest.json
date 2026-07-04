@@ -1,0 +1,634 @@
+{
+  "id": "heroes-quest",
+  "title": "Heroes' Quest",
+  "isMiniquest": false,
+  "guideLastUpdated": "2026-07-03T20:28:35.679Z",
+  "icon": "https://runescape.wiki/images/Heroes%27_Quest_icon.png",
+  "series": null,
+  "age": "5",
+  "timeline": "heroic",
+  "members": true,
+  "combatLevel": "70-79",
+  "difficulty": "Experienced",
+  "length": "Medium",
+  "releaseDate": "27 February 2002",
+  "startPoint": {
+    "en": "Talk to Achietties at the entrance to the Heroes' Guild in Burthorpe.",
+    "es": "Habla con Achietties en la entrada del Heroes' Guild en Burthorpe."
+  },
+  "requirements": {
+    "quests": [
+      "Shield of Arrav",
+      "Dragon Slayer"
+    ],
+    "skills": [
+      {
+        "skill": "Cooking",
+        "level": 53
+      },
+      {
+        "skill": "Fishing",
+        "level": 53
+      },
+      {
+        "skill": "Herblore",
+        "level": 25
+      },
+      {
+        "skill": "Mining",
+        "level": 50
+      },
+      {
+        "skill": "quest points",
+        "level": 56
+      },
+      {
+        "skill": "Defence",
+        "level": 25
+      },
+      {
+        "skill": "Agility",
+        "level": 70
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Ice gloves",
+      "display": "Ice gloves (can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Ice_gloves_detail.png/100px-Ice_gloves_detail.png?afd81"
+    },
+    {
+      "name": "Harralander potion (unfinished)",
+      "display": "Harralander potion (unfinished)",
+      "image": "https://runescape.wiki/images/thumb/Harralander_potion_%28unfinished%29_detail.png/100px-Harralander_potion_%28unfinished%29_detail.png?d8ba0"
+    },
+    {
+      "name": "Fishing rod",
+      "display": "Fishing rod (can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Fishing_rod_detail.png/100px-Fishing_rod_detail.png?ac201"
+    },
+    {
+      "name": "Fishing bait",
+      "display": "Fishing bait if baitless fishing is not unlocked (can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Fishing_bait_detail.png/100px-Fishing_bait_detail.png?adb3d"
+    },
+    {
+      "name": "Lockpick",
+      "display": "For completing the quest solo: Multiple lockpicks in case of failure, or a hair clip, or master thief's lockpick (tool belt works) Either one (you may switch your gang): Black Arm Gang members: black full helm, platebody and platelegs (plateskirt will not work; trimmed armour versions also do not work) Phoenix Gang members: 1,000 coins or ring of charos (a)",
+      "image": null
+    },
+    {
+      "name": "Lockpick",
+      "display": "Multiple lockpicks in case of failure, or a hair clip, or master thief's lockpick (tool belt works)",
+      "image": null
+    },
+    {
+      "name": "Black Arm Gang",
+      "display": "Either one (you may switch your gang): Black Arm Gang members: black full helm, platebody and platelegs (plateskirt will not work; trimmed armour versions also do not work) Phoenix Gang members: 1,000 coins or ring of charos (a)",
+      "image": null
+    },
+    {
+      "name": "Black Arm Gang",
+      "display": "Black Arm Gang members: black full helm, platebody and platelegs (plateskirt will not work; trimmed armour versions also do not work)",
+      "image": null
+    },
+    {
+      "name": "Phoenix Gang",
+      "display": "Phoenix Gang members: 1,000 coins or ring of charos (a)",
+      "image": null
+    },
+    {
+      "name": "Black Arm Gang",
+      "display": "For completing the quest with a partner: Black Arm Gang members: black full helm, platebody and platelegs (plateskirt will not work) Phoenix Gang members: ranged or magic weapons",
+      "image": null
+    },
+    {
+      "name": "Black Arm Gang",
+      "display": "Black Arm Gang members: black full helm, platebody and platelegs (plateskirt will not work)",
+      "image": null
+    },
+    {
+      "name": "Phoenix Gang",
+      "display": "Phoenix Gang members: ranged or magic weapons",
+      "image": null
+    }
+  ],
+  "kills": [
+    "Entranan firebird (level 1)",
+    "Grip (level 21) (only if completing the quest with a partner and only if part of the Phoenix Gang; does not fight back)",
+    "Jailer (level 39) (to obtain the dusty key, if required)",
+    "Ice Queen (level 77) (to obtain the ice gloves, if not already found)"
+  ],
+  "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 1,
+      "display": "1 quest point",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Attack",
+      "amount": 3075,
+      "display": "3,075 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Defence",
+      "amount": 3075,
+      "display": "3,075 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Strength",
+      "amount": 3075,
+      "display": "3,075 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Constitution",
+      "amount": 3075,
+      "display": "3,075 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Ranged",
+      "amount": 2075,
+      "display": "2,075 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Fishing",
+      "amount": 2725,
+      "display": "2,725 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Cooking",
+      "amount": 2825,
+      "display": "2,825 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Woodcutting",
+      "amount": 1575,
+      "display": "1,575 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Firemaking",
+      "amount": 1575,
+      "display": "1,575 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Smithing",
+      "amount": 2257,
+      "display": "2,257 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Mining",
+      "amount": 2575,
+      "display": "2,575 experience lamp",
+      "image": null
+    },
+    {
+      "type": "xp",
+      "skill": "Herblore",
+      "amount": 1325,
+      "display": "1,325 experience lamp",
+      "image": null
+    },
+    {
+      "type": "item",
+      "name": "Heroes' Guild",
+      "display": "Access to the Heroes' Guild",
+      "image": "https://runescape.wiki/images/thumb/Heroes%27_Guild.png/100px-Heroes%27_Guild.png?a9d28"
+    },
+    {
+      "type": "item",
+      "name": "Dragon battleaxe",
+      "display": "Ability to wield the dragon battleaxe and dragon mace, and buy them, along with their off-hand variants, from the Happy Heroes' H'emporium shop in the guild",
+      "image": "https://runescape.wiki/images/thumb/Dragon_battleaxe_detail.png/100px-Dragon_battleaxe_detail.png?a2dcd"
+    },
+    {
+      "type": "item",
+      "name": "Scarface Pete's mansion",
+      "display": "Access to Scarface Pete's mansion in Brimhaven (if you are in the Black Arm Gang)",
+      "image": "https://runescape.wiki/images/thumb/Scarface_Pete%27s_mansion.png/100px-Scarface_Pete%27s_mansion.png?9920e"
+    },
+    {
+      "type": "item",
+      "name": "Cap'n Arnav",
+      "display": "Access to Cap'n Arnav's garden (if you are in the Phoenix Gang)",
+      "image": "https://runescape.wiki/images/thumb/Cap%27n_Arnav.png/100px-Cap%27n_Arnav.png?ce37a"
+    }
+  ],
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Achietties outside the Heroes' Guild in Burthorpe. (opciones de chat: Accept)",
+        "es": "Habla con Achietties fuera del Heroes' Guild en Burthorpe. (opciones de chat: Accept)"
+      }
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Gerrant, the fishing shop owner in Port Sarim, about lava eels. He will give you a vial of blamish snail slime. (opciones de chat: 1 I want to find out how to catch a lava eel.)",
+        "es": "Habla con Gerrant, el dueño de la tienda de pesca en Port Sarim, sobre las anguilas de lava. Te dará un vial de baba de caracol blamish. (opciones de chat: 1 I want to find out how to catch a lava eel.)"
+      }
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "text": {
+        "en": "Buy a fishing rod and fishing bait from Gerrant if you don't already have them.",
+        "es": "Compra una caña de pescar y cebo de pesca a Gerrant si aún no los tienes."
+      }
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "text": {
+        "en": "Use the blamish snail slime on your harralander potion (unfinished).",
+        "es": "Usa la baba de caracol blamish en tu poción de harralander (sin terminar)."
+      }
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "text": {
+        "en": "Use the blamish oil on your fishing rod.",
+        "es": "Usa el aceite blamish en tu caña de pescar."
+      }
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "text": {
+        "en": "Enter Taverley dungeon.",
+        "es": "Entra en la Taverley dungeon."
+      }
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "text": {
+        "en": "If you already have a dusty key (a steel key ring with the dusty key works), or , skip the next step.",
+        "es": "Si ya tienes una dusty key (un llavero de acero con la dusty key sirve), o , omite el siguiente paso."
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "text": {
+        "en": "To obtain a dusty key:",
+        "es": "Para obtener una dusty key:"
+      }
+    },
+    {
+      "index": 8,
+      "indent": 1,
+      "text": {
+        "en": "Use the map (pictured right) to find Velrak the explorer. He is in the southern part of the dungeon.",
+        "es": "Usa el mapa (ilustrado a la derecha) para encontrar a Velrak the explorer. Se encuentra en la parte sur de la mazmorra."
+      }
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "text": {
+        "en": "Kill the Jailer standing by the prison and use the key he drops to get into Velrak's cell.",
+        "es": "Mata al Jailer que está junto a la prisión y usa la llave que suelta para entrar en la celda de Velrak."
+      }
+    },
+    {
+      "index": 10,
+      "indent": 1,
+      "text": {
+        "en": "Talk to him for the dusty key. (opciones de chat: 1 So..do you know anywhere good to explore? • 1 Yes, please!)",
+        "es": "Habla con él para conseguir la dusty key. (opciones de chat: 1 So..do you know anywhere good to explore? • 1 Yes, please!)"
+      }
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "text": {
+        "en": "Enter the area with the blue dragons, either by using your key on the locked door or by taking the Agility shortcut.",
+        "es": "Entra en la zona de los dragones azules, ya sea usando tu llave en la puerta cerrada o tomando el atajo de Agilidad."
+      }
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "text": {
+        "en": "Run to the southernmost lava pool.",
+        "es": "Corre hasta la charca de lava más al sur."
+      }
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "text": {
+        "en": "Catch a lava eel.",
+        "es": "Pesca una anguila de lava."
+      }
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "text": {
+        "en": "Cook the eel on a range or fire.",
+        "es": "Cocina la anguila en un horno o fuego."
+      }
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "text": {
+        "en": "Go to the Phoenix Gang Hideout in south-east Varrock, down the ladder into the hideout and talk to Straven, learning the gang password from him (Gherkin). Talk to him one more time.",
+        "es": "Ve al Phoenix Gang Hideout en el sureste de Varrock, baja por la escalera hacia el escondite y habla con Straven, aprendiendo de él la contraseña de la banda (Gherkin). Habla con él una vez más."
+      }
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "text": {
+        "en": "Go to Brimhaven and talk to Alfonse the waiter in the food shop. (opciones de chat: 2 Do you sell...gherkins?)",
+        "es": "Ve a Brimhaven y habla con Alfonse the waiter en la tienda de comida. (opciones de chat: 2 Do you sell...gherkins?)"
+      }
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "text": {
+        "en": "Go through the door and talk to Charlie the cook. (opciones de chat: 1 I'm looking for a gherkin... • 2 I want to steal Scarface Pete's candlesticks.)",
+        "es": "Cruza la puerta y habla con Charlie the cook. (opciones de chat: 1 I'm looking for a gherkin... • 2 I want to steal Scarface Pete's candlesticks.)"
+      }
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "text": {
+        "en": "Go to the mansion entrance to the west and talk to Garv. Bribe him with 1,000 coins, or free with a ring of charos (a). (opciones de chat: 1 OK)",
+        "es": "Ve a la entrada de la mansión al oeste y habla con Garv. Sobórnalo con 1.000 monedas, o gratis con un ring of charos (a). (opciones de chat: 1 OK)"
+      }
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "text": {
+        "en": "Enter the front door near the guard.",
+        "es": "Entra por la puerta principal cerca del guardia."
+      }
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "text": {
+        "en": "Go to the north-west part of the building and open the Treasure room door with a lockpick to enter. (opciones de chat: 1 OK)",
+        "es": "Ve a la parte noroeste del edificio y abre la puerta de la Treasure room con una ganzúa para entrar. (opciones de chat: 1 OK)"
+      }
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "text": {
+        "en": "Open the northern chest.",
+        "es": "Abre el cofre del norte."
+      }
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "text": {
+        "en": "Search the chest to take one candlestick.",
+        "es": "Registra el cofre para coger un candelabro."
+      }
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "text": {
+        "en": "Bring the candlestick back to Straven to receive a Master Thief's Armband.",
+        "es": "Lleva el candelabro de vuelta a Straven para recibir un Master Thief's Armband."
+      }
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "text": {
+        "en": "Go to south-west Varrock and talk to Katrine. (opciones de chat: 1 How can I get a master thief's armband? • Accept)",
+        "es": "Ve al suroeste de Varrock y habla con Katrine. (opciones de chat: 1 How can I get a master thief's armband? • Accept)"
+      }
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "text": {
+        "en": "Go to Brimhaven, to the building east of the bar (opciones de chat: 2 Four-leafed clover) and talk to Trobert. (opciones de chat: 1 So can you help me get Scarface Pete's candlesticks? • 1 I volunteer to undertake that mission!)",
+        "es": "Ve a Brimhaven, al edificio al este del bar (opciones de chat: 2 Four-leafed clover) y habla con Trobert. (opciones de chat: 1 So can you help me get Scarface Pete's candlesticks? • 1 I volunteer to undertake that mission!)"
+      }
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "text": {
+        "en": "Equip your Black armour.",
+        "es": "Equípate la Black armour."
+      }
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "text": {
+        "en": "Enter the large mansion in the north-west part of town.",
+        "es": "Entra en la gran mansión de la parte noroeste de la ciudad."
+      }
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "text": {
+        "en": "Talk to Grip. (opciones de chat: 2 So what do my duties involve?)",
+        "es": "Habla con Grip. (opciones de chat: 2 So what do my duties involve?)"
+      }
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "text": {
+        "en": "Go to the north-west part of the building and open the Treasure room door with a lockpick to enter. (opciones de chat: 1 OK)",
+        "es": "Ve a la parte noroeste del edificio y abre la puerta de la Treasure room con una ganzúa para entrar. (opciones de chat: 1 OK)"
+      }
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "text": {
+        "en": "Open the northern chest.",
+        "es": "Abre el cofre del norte."
+      }
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "text": {
+        "en": "Search the chest to take one candlestick.",
+        "es": "Registra el cofre para coger un candelabro."
+      }
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "text": {
+        "en": "Bring the candlestick back to Katrine to receive a Master Thief's Armband. (opciones de chat: 1 I have a candlestick now.)",
+        "es": "Lleva el candelabro de vuelta a Katrine para recibir un Master Thief's Armband. (opciones de chat: 1 I have a candlestick now.)"
+      }
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "text": {
+        "en": "If you do not have ice gloves:",
+        "es": "Si no tienes los ice gloves:"
+      }
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "text": {
+        "en": "Equip combat gear and food to kill a level 77 Ice Queen.",
+        "es": "Equípate con equipo de combate y comida para matar a la Ice Queen de nivel 77."
+      }
+    },
+    {
+      "index": 35,
+      "indent": 1,
+      "text": {
+        "en": "Teleport to Taverley and climb to the top of the White Wolf Mountain and enter the cave.",
+        "es": "Teletranspórtate a Taverley y sube hasta la cima de la White Wolf Mountain y entra en la cueva."
+      }
+    },
+    {
+      "index": 36,
+      "indent": 1,
+      "text": {
+        "en": "Mine the rock slide to the east.",
+        "es": "Extrae el rock slide hacia el este."
+      }
+    },
+    {
+      "index": 37,
+      "indent": 1,
+      "text": {
+        "en": "Climb down the south ladder.",
+        "es": "Baja por la escalera del sur."
+      }
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "text": {
+        "en": "Follow the tunnel south-west, then go up the ladder.",
+        "es": "Sigue el túnel hacia el suroeste, luego sube por la escalera."
+      }
+    },
+    {
+      "index": 39,
+      "indent": 1,
+      "text": {
+        "en": "Make sure your compass is pointed north and take the east ladder down.",
+        "es": "Asegúrate de que tu brújula apunte al norte y baja por la escalera del este."
+      }
+    },
+    {
+      "index": 40,
+      "indent": 1,
+      "text": {
+        "en": "Head north and follow the long tunnel all the way round, then use the ladder at the end.",
+        "es": "Ve hacia el norte y sigue el largo túnel hasta el final, luego usa la escalera al final."
+      }
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "text": {
+        "en": "Take the north ladder back down.",
+        "es": "Baja de nuevo por la escalera del norte."
+      }
+    },
+    {
+      "index": 42,
+      "indent": 1,
+      "text": {
+        "en": "Run north and kill the queen for her gloves.",
+        "es": "Corre hacia el norte y mata a la reina para conseguir sus guantes."
+      }
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "text": {
+        "en": "Bank any equipment (has combat stats).",
+        "es": "Guarda en el banco cualquier equipo (que tenga estadísticas de combate)."
+      }
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "text": {
+        "en": "Sail to Entrana or teleport to the law altar through the Abyss.",
+        "es": "Navega hasta Entrana o teletranspórtate al law altar a través del Abyss."
+      }
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "text": {
+        "en": "Equip the ice gloves.",
+        "es": "Equípate los ice gloves."
+      }
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "text": {
+        "en": "Kill the Firebird which is located on the northern part of the island, near the law altar, and take the Entranan firebird feather it drops.",
+        "es": "Mata al Firebird que se encuentra en la parte norte de la isla, cerca del law altar, y coge la Entranan firebird feather que suelta."
+      }
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "text": {
+        "en": "Take the feather, eel, and armband to Achietties outside the Heroes' Guild.",
+        "es": "Lleva la pluma, la anguila y el brazalete a Achietties fuera del Heroes' Guild."
+      }
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "text": {
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
+      }
+    }
+  ]
+}
