@@ -21,6 +21,24 @@ const PROGRESS_LABELS = {
   LOCKED: "Bloqueadas",
 };
 
+// Mismo orden que usa la interfaz nativa de RS3 para agrupar por longitud
+// (de más corta a más larga), en vez de orden alfabético.
+const LENGTH_ORDER = [
+  "Very Short",
+  "Short",
+  "Short to Medium",
+  "Medium",
+  "Medium to Long",
+  "Long",
+  "Long to Very Long",
+  "Very Long",
+  "Very, Very Long",
+];
+
+// Grupos colapsados por el usuario (por etiqueta de grupo), se pierde al recargar
+// la app — no hace falta persistirlo entre sesiones.
+const collapsedGroups = new Set();
+
 function groupKey(quest, sortBy) {
   switch (sortBy) {
     case "combat":
@@ -71,7 +89,20 @@ function groupAndSort(quests, sortBy) {
     groups.get(key).push(quest);
   }
 
-  const groupLabels = [...groups.keys()].sort((a, b) => a.localeCompare(b, "es"));
+  let groupLabels;
+  if (sortBy === "length") {
+    groupLabels = [...groups.keys()].sort((a, b) => {
+      const ia = LENGTH_ORDER.indexOf(a);
+      const ib = LENGTH_ORDER.indexOf(b);
+      if (ia === -1 && ib === -1) return a.localeCompare(b, "es");
+      if (ia === -1) return 1; // desconocidas al final
+      if (ib === -1) return -1;
+      return ia - ib;
+    });
+  } else {
+    groupLabels = [...groups.keys()].sort((a, b) => a.localeCompare(b, "es"));
+  }
+
   return groupLabels.map((label) => ({
     label,
     items: groups.get(label).sort((a, b) => a.title.localeCompare(b.title, "es")),
@@ -134,22 +165,25 @@ function renderCounter(container) {
   container.textContent = `Puntos de misión: ${doneQP} / ${totalQP} (quedan ${totalQP - doneQP})`;
 }
 
-/** Renders the full sidebar (filter bar + grouped quest list + counter) into the given elements. */
-export function renderSidebar({ filterBarEl, listEl, counterEl }, onSelect) {
-  filterBarEl.innerHTML = "";
-  renderFilterBar(filterBarEl, () => renderSidebar({ filterBarEl, listEl, counterEl }, onSelect));
-
+function renderList(listEl, onSelect) {
   const visible = filterQuests(state.index.quests);
   const grouped = groupAndSort(visible, state.activeFilters.sortBy);
 
   listEl.innerHTML = "";
   grouped.forEach((group) => {
+    const isCollapsed = group.label && collapsedGroups.has(group.label);
     if (group.label) {
       const heading = document.createElement("li");
       heading.className = "quest-group-heading";
-      heading.textContent = group.label;
+      heading.innerHTML = `<span class="group-toggle">${isCollapsed ? "▶" : "▼"}</span> ${group.label} <span class="group-count">(${group.items.length})</span>`;
+      heading.addEventListener("click", () => {
+        if (isCollapsed) collapsedGroups.delete(group.label);
+        else collapsedGroups.add(group.label);
+        renderList(listEl, onSelect);
+      });
       listEl.appendChild(heading);
     }
+    if (isCollapsed) return;
     group.items.forEach((quest) => {
       const li = document.createElement("li");
       li.textContent = quest.title;
@@ -159,6 +193,13 @@ export function renderSidebar({ filterBarEl, listEl, counterEl }, onSelect) {
       listEl.appendChild(li);
     });
   });
+}
 
+/** Renders the full sidebar (filter bar + grouped quest list + counter) into the given elements. */
+export function renderSidebar({ filterBarEl, listEl, counterEl }, onSelect) {
+  filterBarEl.innerHTML = "";
+  renderFilterBar(filterBarEl, () => renderSidebar({ filterBarEl, listEl, counterEl }, onSelect));
+
+  renderList(listEl, onSelect);
   renderCounter(counterEl);
 }

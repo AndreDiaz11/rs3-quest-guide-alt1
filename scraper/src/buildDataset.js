@@ -27,7 +27,15 @@ async function maybeTranslate(strings, skipTranslate) {
  * Assembles the final per-quest JSON (schema per the implementation plan) and
  * upserts its summary into data/index.json. Writes both to disk.
  */
-export async function buildQuestRecord({ title, metadata, steps, rewardsData, isMiniquest, skipTranslate }) {
+export async function buildQuestRecord({
+  title,
+  metadata,
+  steps,
+  rewardsData,
+  isMiniquest,
+  skipTranslate,
+  guideNote,
+}) {
   const id = titleToSlug(title);
   const now = new Date().toISOString();
 
@@ -78,6 +86,7 @@ export async function buildQuestRecord({ title, metadata, steps, rewardsData, is
     rewards,
     postQuest: rewardsData.postQuest,
     steps: stepsWithEs,
+    ...(guideNote ? { guideNote } : {}),
   };
 
   await mkdir(QUESTS_DIR, { recursive: true });

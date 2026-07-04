@@ -124,6 +124,12 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
     container.appendChild(list);
   }
 
+  if (quest.guideNote) {
+    container.appendChild(
+      el("div", { class: "guide-note", text: localizedText(quest.guideNote, lang) })
+    );
+  }
+
   container.appendChild(el("h2", { class: "section-title", text: "Pasos" }));
   const stepList = el("ul", { class: "step-list" });
   quest.steps.forEach((step) => {

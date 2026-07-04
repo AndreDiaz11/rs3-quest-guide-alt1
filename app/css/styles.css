@@ -86,16 +86,28 @@ body {
 #quest-list li.selected { background: rgba(201, 162, 39, 0.18); }
 
 #quest-list li.quest-group-heading {
-  cursor: default;
-  color: var(--text-dim);
+  cursor: pointer;
+  color: var(--gold);
   font-size: 0.75em;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-top: 8px;
   padding: 4px 8px 2px;
+  border-bottom: 1px solid var(--border);
+  user-select: none;
 }
 #quest-list li.quest-group-heading:hover {
-  background: none;
+  background: rgba(255, 255, 255, 0.05);
+}
+#quest-list li.quest-group-heading .group-toggle {
+  display: inline-block;
+  width: 12px;
+  font-size: 0.9em;
+}
+#quest-list li.quest-group-heading .group-count {
+  color: var(--text-dim);
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 #sidebar-filterbar {
@@ -289,6 +301,17 @@ h2.section-title {
   border-bottom: 1px solid var(--border);
   padding-bottom: 4px;
   margin-top: 22px;
+}
+
+.guide-note {
+  background: rgba(201, 162, 39, 0.1);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 8px 0 16px;
+  font-size: 0.85em;
+  font-style: italic;
+  color: var(--text-dim);
 }
 
 .postquest-list {

@@ -35,14 +35,30 @@ async function alreadyTranslated(title) {
   }
 }
 
+const HUB_QUEST_NOTE = {
+  en: "This quest is a hub for several sub-quests, each already listed separately in this app with its own step-by-step guide. There isn't a single walkthrough for the hub itself — check the wiki page for the full overview.",
+  es: "Esta misión es un resumen que agrupa varias sub-misiones, cada una ya listada por separado en esta app con su propia guía paso a paso. No existe una guía única para la misión en sí — consulta la página del wiki para ver el resumen completo.",
+};
+
 async function scrapeOne(title, { skipTranslate }) {
   const page = await fetchQuestPage(title);
 
   const metadata = parseMetadata(page);
-  const steps = parseSteps(page.quickGuideWikitext);
   const rewardsData = parseRewards(page.quickGuideHtml);
-
   const isMiniquest = /\(miniquest\)$/i.test(title);
+
+  let steps;
+  let guideNote;
+  try {
+    steps = parseSteps(page.quickGuideWikitext);
+  } catch (err) {
+    if (!err.message.includes("No {{Checklist")) throw err;
+    // "Hub" quests (e.g. Recipe for Disaster) group several sub-quests instead of
+    // having their own step-by-step Checklist. Still worth including for their
+    // quest points/completion tracking, just without a walkthrough of their own.
+    steps = [];
+    guideNote = HUB_QUEST_NOTE;
+  }
 
   const record = await buildQuestRecord({
     title,
@@ -51,6 +67,7 @@ async function scrapeOne(title, { skipTranslate }) {
     rewardsData,
     isMiniquest,
     skipTranslate,
+    guideNote,
   });
 
   console.log(`[done] ${title} -> data/quests/${record.id}.json (${steps.length} pasos)`);
