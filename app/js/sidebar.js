@@ -19,7 +19,10 @@ function filterQuests(quests) {
   });
 }
 
-function renderFilterBar(container, onChange) {
+// Se construye una sola vez; escribir en el buscador solo debe volver a
+// dibujar la lista, nunca la barra en sí — recrear el <input> en cada letra
+// le hacía perder el foco tras cada carácter.
+function buildFilterBar(container, onChange) {
   const bar = document.createElement("div");
   bar.id = "sidebar-filterbar";
 
@@ -36,14 +39,14 @@ function renderFilterBar(container, onChange) {
 
   const wrap = document.createElement("label");
   wrap.className = "sidebar-check";
-  const input = document.createElement("input");
-  input.type = "checkbox";
-  input.checked = state.activeFilters.showCompleted;
-  input.addEventListener("change", () => {
-    state.activeFilters.showCompleted = input.checked;
+  const checkbox = document.createElement("input");
+  checkbox.type = "checkbox";
+  checkbox.checked = state.activeFilters.showCompleted;
+  checkbox.addEventListener("change", () => {
+    state.activeFilters.showCompleted = checkbox.checked;
     onChange();
   });
-  wrap.appendChild(input);
+  wrap.appendChild(checkbox);
   wrap.appendChild(document.createTextNode("Mostrar completadas"));
   bar.appendChild(wrap);
 
@@ -84,10 +87,14 @@ function renderList(listEl, onSelect) {
   });
 }
 
-/** Renders the full sidebar (search + completed toggle + flat alphabetical list + counter). */
+const initializedFilterBars = new WeakSet();
+
+/** Renders the sidebar: builds the search/checkbox bar once, then (re)renders the list + counter. */
 export function renderSidebar({ filterBarEl, listEl, counterEl }, onSelect) {
-  filterBarEl.innerHTML = "";
-  renderFilterBar(filterBarEl, () => renderSidebar({ filterBarEl, listEl, counterEl }, onSelect));
+  if (!initializedFilterBars.has(filterBarEl)) {
+    initializedFilterBars.add(filterBarEl);
+    buildFilterBar(filterBarEl, () => renderSidebar({ filterBarEl, listEl, counterEl }, onSelect));
+  }
 
   renderList(listEl, onSelect);
   renderCounter(counterEl);
