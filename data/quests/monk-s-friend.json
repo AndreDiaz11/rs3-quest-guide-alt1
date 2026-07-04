@@ -2,7 +2,8 @@
   "id": "monk-s-friend",
   "title": "Monk's Friend",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:39:46.820Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:37.716Z",
   "icon": "https://runescape.wiki/images/Monk%27s_Friend_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -58,95 +59,127 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Monk%27s_Friend_reward.png?06c99",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Brother Omad on the of the Monastery south of East Ardougne zoo. (opciones de chat: 1 Why can't you sleep? • Accept)",
-        "es": "Habla con Brother Omad en el Monastery al sur del zoo de East Ardougne. (opciones de chat: 1 Why can't you sleep? • Accept)"
-      }
+        "en": "Talk to Brother Omad on the of the Monastery south of East Ardougne zoo.",
+        "es": "Habla con Brother Omad en el Monastery al sur del zoo de East Ardougne."
+      },
+      "chatOptions": [
+        "1 Why can't you sleep?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The secret tunnel",
       "text": {
         "en": "Exit the monastery and head west to the location shown on the map, there is a circle of stones (not visible on the minimap).",
         "es": "Sal del monastery y dirígete al oeste hasta la ubicación indicada en el mapa, donde hay un círculo de piedras (no visible en el minimapa)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The secret tunnel",
       "text": {
         "en": "Stand in the circle of stones and climb down the ladder that appears. The stones are the same colour as the grass in high graphics modes, and are very easy to overlook.",
         "es": "Colócate en el círculo de piedras y baja por la escalera que aparece. Las piedras tienen el mismo color que la hierba en modos gráficos altos, así que es muy fácil pasarlas por alto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The secret tunnel",
       "text": {
         "en": "Go south, enter the room with thieves, and grab the Child's blanket on the table to the east.",
         "es": "Ve hacia el sur, entra en la sala con los ladrones y coge la Child's blanket que hay sobre la mesa al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The secret tunnel",
       "text": {
-        "en": "Return to the monastery and talk to Brother Omad. (opciones de chat: 1 Is there anything else I can help with? • 1 Who's Brother Cedric? • 2 Where should I look?)",
-        "es": "Vuelve al monastery y habla con Brother Omad. (opciones de chat: 1 Is there anything else I can help with? • 1 Who's Brother Cedric? • 2 Where should I look?)"
-      }
+        "en": "Return to the monastery and talk to Brother Omad.",
+        "es": "Vuelve al monastery y habla con Brother Omad."
+      },
+      "chatOptions": [
+        "1 Is there anything else I can help with?",
+        "1 Who's Brother Cedric?",
+        "2 Where should I look?"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The party",
       "text": {
         "en": "North of the Monastery and near a crashed cart, Brother Cedric will be wandering around. Talk to him.",
         "es": "Al norte del Monastery, cerca de un carro volcado, encontrarás a Brother Cedric paseando. Habla con él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The party",
       "text": {
-        "en": "Talk to him again to give him a jug of water. (opciones de chat: 2 Yes, I'd be happy to!)",
-        "es": "Habla con él de nuevo para darle una jarra de agua. (opciones de chat: 2 Yes, I'd be happy to!)"
-      }
+        "en": "Talk to him again to give him a jug of water.",
+        "es": "Habla con él de nuevo para darle una jarra de agua."
+      },
+      "chatOptions": [
+        "2 Yes, I'd be happy to!"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The party",
       "text": {
         "en": "Talk to him once more to give him a set of logs.",
         "es": "Habla con él una vez más para darle un juego de troncos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The party",
       "text": {
         "en": "Talk to Brother Omad.",
         "es": "Habla con Brother Omad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The party",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The party",
       "text": {
         "en": "Pop a balloon for area task.",
         "es": "Revienta un globo para completar la tarea de área."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

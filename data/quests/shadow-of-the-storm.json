@@ -2,7 +2,8 @@
   "id": "shadow-of-the-storm",
   "title": "Shadow of the Storm",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:13:53.180Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:02.879Z",
   "icon": "https://runescape.wiki/images/Shadow_of_the_Storm_icon.png",
   "series": "Delrith",
   "age": "5",
@@ -103,223 +104,307 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Shadow_of_the_Storm_reward.png?d9257",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Father Reen south of Al Kharid bank. (opciones de chat: Accept)",
-        "es": "Habla con Father Reen al sur del banco de Al Kharid. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Father Reen south of Al Kharid bank.",
+        "es": "Habla con Father Reen al sur del banco de Al Kharid."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "He will give you Silverlight if you've dyed or destroyed it.",
         "es": "Te dará Silverlight si lo has teñido o destruido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Father Badden at Uzer, east of Shantay Pass. (Optional: take the magic carpet to Uzer) (opciones de chat: 1 Reen sent me. • 3 So what do you want me to do? • 1 How can I do that?)",
-        "es": "Habla con Father Badden en Uzer, al este de Shantay Pass. (Opcional: coge la alfombra mágica hasta Uzer) (opciones de chat: 1 Reen me envió. • 3 Entonces, ¿qué quieres que haga? • 1 ¿Cómo puedo hacer eso?)"
-      }
+        "en": "Talk to Father Badden at Uzer, east of Shantay Pass. (Optional: take the magic carpet to Uzer)",
+        "es": "Habla con Father Badden en Uzer, al este de Shantay Pass. (Opcional: coge la alfombra mágica hasta Uzer)"
+      },
+      "chatOptions": [
+        "1 Reen sent me.",
+        "3 So what do you want me to do?",
+        "1 How can I do that?"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Pick and grind a black mushroom (the closest is just south-east of the stairs east of Father Badden). Use it to dye Silverlight black. You can find some beside the staircase, downstairs east of the stairwell, or in the north east corner of the room, east of Evil Dave.",
         "es": "Recoge y muele un black mushroom (el más cercano está justo al sureste de las escaleras al este de Father Badden). Úsalo para teñir Silverlight de negro. Puedes encontrar algunos junto a la escalera, en el piso de abajo al este del hueco de la escalera, o en la esquina noreste de la sala, al este de Evil Dave."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Go down the stairs.",
         "es": "Baja las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "If you do not have the strange implement from The Golem quest, you can pick it up from the ground in the northwest room.",
         "es": "Si no tienes el strange implement de la misión The Golem, puedes recogerlo del suelo en la sala del noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Evil Dave wearing your three black items and your dyed Silverlight. He is standing at the entrance to Agrith Naar's demonic temple in the underground Uzer ruins. (opciones de chat: 2 I want to join your group. • 1 I'm evil!)",
-        "es": "Habla con Evil Dave llevando puestos tus tres objetos negros y tu Silverlight teñido. Está de pie en la entrada del templo demoníaco de Agrith Naar, en las ruinas subterráneas de Uzer. (opciones de chat: 2 Quiero unirme a tu grupo. • 1 ¡Soy malvado!)"
-      }
+        "en": "Talk to Evil Dave wearing your three black items and your dyed Silverlight. He is standing at the entrance to Agrith Naar's demonic temple in the underground Uzer ruins.",
+        "es": "Habla con Evil Dave llevando puestos tus tres objetos negros y tu Silverlight teñido. Está de pie en la entrada del templo demoníaco de Agrith Naar, en las ruinas subterráneas de Uzer."
+      },
+      "chatOptions": [
+        "2 I want to join your group.",
+        "1 I'm evil!"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Ritual",
       "text": {
-        "en": "Talk to Denath. (opciones de chat: 4 What do I have to do?)",
-        "es": "Habla con Denath. (opciones de chat: 4 ¿Qué tengo que hacer?)"
-      }
+        "en": "Talk to Denath.",
+        "es": "Habla con Denath."
+      },
+      "chatOptions": [
+        "4 What do I have to do?"
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Ritual",
       "text": {
-        "en": "Talk to Jennifer to get a demonic sigil mould. (opciones de chat: 2 Do you have the demonic sigil mould?)",
-        "es": "Habla con Jennifer para conseguir un demonic sigil mould. (opciones de chat: 2 ¿Tienes el demonic sigil mould?)"
-      }
+        "en": "Talk to Jennifer to get a demonic sigil mould.",
+        "es": "Habla con Jennifer para conseguir un demonic sigil mould."
+      },
+      "chatOptions": [
+        "2 Do you have the demonic sigil mould?"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Ritual",
       "text": {
-        "en": "Talk to Matthew. (opciones de chat: 3 Do you know what happened to Josef?)",
-        "es": "Habla con Matthew. (opciones de chat: 3 ¿Sabes qué le pasó a Josef?)"
-      }
+        "en": "Talk to Matthew.",
+        "es": "Habla con Matthew."
+      },
+      "chatOptions": [
+        "3 Do you know what happened to Josef?"
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Ritual",
       "text": {
-        "en": "Go to any furnace and smelt a demonic sigil. (opciones de chat: 1 Make Demonic sigil)",
-        "es": "Ve a cualquier horno y funde un demonic sigil. (opciones de chat: 1 Hacer Demonic sigil)"
-      }
+        "en": "Go to any furnace and smelt a demonic sigil.",
+        "es": "Ve a cualquier horno y funde un demonic sigil."
+      },
+      "chatOptions": [
+        "1 Make Demonic sigil"
+      ]
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Ritual",
       "text": {
         "en": "Your black outfit can be discarded at this point and replaced with combat gear. Keep Silverlight for the duration of the quest.",
         "es": "Puedes deshacerte de tu atuendo negro en este punto y sustituirlo por equipo de combate. Conserva Silverlight durante toda la misión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Ritual",
       "text": {
-        "en": "Talk to the clay golem outside the ruins about last night. (opciones de chat: 3 Did you see anything happen last night?)",
-        "es": "Habla con el clay golem fuera de las ruinas sobre lo ocurrido anoche. (opciones de chat: 3 ¿Viste algo ocurrir anoche?)"
-      }
+        "en": "Talk to the clay golem outside the ruins about last night.",
+        "es": "Habla con el clay golem fuera de las ruinas sobre lo ocurrido anoche."
+      },
+      "chatOptions": [
+        "3 Did you see anything happen last night?"
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Ritual",
       "text": {
         "en": "Look in the nearby Broken kilns for a book until you have found the Demonic tome (there's a broken kiln north of the Rug Merchant and one behind the walls east of the staircase that are easy to miss).",
         "es": "Busca en los Broken kilns cercanos un libro hasta que encuentres el Demonic tome (hay un broken kiln al norte del Rug Merchant y otro detrás de los muros al este de la escalera, que es fácil pasar por alto)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Ritual",
       "text": {
         "en": "Talk to Matthew back in the lair.",
         "es": "Habla con Matthew de vuelta en la guarida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Ritual",
       "text": {
-        "en": "Go north to talk to Denath and write down the incantation he tells you. (opciones de chat: 4)",
-        "es": "Ve al norte para hablar con Denath y anota el conjuro que te dice. (opciones de chat: 4)"
-      }
+        "en": "Go north to talk to Denath and write down the incantation he tells you.",
+        "es": "Ve al norte para hablar con Denath y anota el conjuro que te dice."
+      },
+      "chatOptions": [
+        "4"
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Ritual",
       "text": {
         "en": "Complete the circle and click the sigil to chant the incantation. Be sure to remember it, as you’ll need it again later in the quest.",
         "es": "Completa el círculo y haz clic en el sigil para recitar el conjuro. Asegúrate de recordarlo, ya que lo necesitarás de nuevo más adelante en la misión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Ritual",
       "text": {
         "en": "Be sure to take the sigil from the floor, or you will have to make a new one at a furnace.",
         "es": "Asegúrate de coger el sigil del suelo, o tendrás que hacer uno nuevo en un horno."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Ritual",
       "text": {
         "en": "Enter the portal and take Tanya's sigil.",
         "es": "Entra en el portal y coge el sigil de Tanya."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Ritual",
       "text": {
-        "en": "Tell Evil Dave to return to the lair - you should have 4 sigils now. (opciones de chat: 2 You've got to get back to the throne room!)",
-        "es": "Dile a Evil Dave que vuelva a la guarida; ahora deberías tener 4 sigils. (opciones de chat: 2 ¡Tienes que volver a la sala del trono!)"
-      }
+        "en": "Tell Evil Dave to return to the lair - you should have 4 sigils now.",
+        "es": "Dile a Evil Dave que vuelva a la guarida; ahora deberías tener 4 sigils."
+      },
+      "chatOptions": [
+        "2 You've got to get back to the throne room!"
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Rallying the troops",
       "text": {
-        "en": "Go up the stairs, talk to Father Badden and Father Reen. (opciones de chat: 3 Oh, don't be so simple-minded!)",
-        "es": "Sube las escaleras y habla con Father Badden y Father Reen. (opciones de chat: 3 ¡Oh, no seas tan simplón!)"
-      }
+        "en": "Go up the stairs, talk to Father Badden and Father Reen.",
+        "es": "Sube las escaleras y habla con Father Badden y Father Reen."
+      },
+      "chatOptions": [
+        "3 Oh, don't be so simple-minded!"
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Rallying the troops",
       "text": {
-        "en": "Talk to the golem. (opciones de chat: 4 [use strange implement])",
-        "es": "Habla con el golem. (opciones de chat: 4 [usar strange implement])"
-      }
+        "en": "Talk to the golem.",
+        "es": "Habla con el golem."
+      },
+      "chatOptions": [
+        "4 [use strange implement]"
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The final fight",
       "text": {
-        "en": "Talk to Matthew to start the incantation. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Matthew para comenzar el conjuro. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to Matthew to start the incantation.",
+        "es": "Habla con Matthew para comenzar el conjuro."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Chant demonic sigil and say the incantation normally. (If you have forgotten the incantation, it can be found on page 6 of the demonic tome.)",
         "es": "Recita el demonic sigil y di el conjuro con normalidad. (Si has olvidado el conjuro, puedes encontrarlo en la página 6 del demonic tome.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Kill the demon with the Silverlight (dyed). After defeating it, you will have the Darklight equipped.",
         "es": "Mata al demonio con el Silverlight (teñido). Tras derrotarlo, tendrás equipado el Darklight."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "The final fight",
       "text": {
         "en": "You can damage the demon with any combat style, but you must equip the Silverlight (dyed) as it dies.",
         "es": "Puedes dañar al demonio con cualquier estilo de combate, pero debes equipar el Silverlight (teñido) cuando muera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "the-branches-of-darkmeyer",
   "title": "The Branches of Darkmeyer",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T01:42:46.835Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:14.050Z",
   "icon": "https://runescape.wiki/images/The_Branches_of_Darkmeyer_icon.png",
   "series": "Myreque",
   "age": "5",
@@ -190,671 +191,904 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Branches_of_Darkmeyer_reward.png?53b9a",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Veliaf Hurtz in the Burgh de Rott pub's basement. (opciones de chat: 1 What's wrong? • 1 Is there anything I can do to help? • Accept • 1 Okay, I'll go.)",
-        "es": "Habla con Veliaf Hurtz en el sótano del pub de Burgh de Rott. (opciones de chat: 1 ¿Qué ocurre? • 1 ¿Hay algo que pueda hacer para ayudar? • Aceptar • 1 Vale, iré.)"
-      }
+        "en": "Talk to Veliaf Hurtz in the Burgh de Rott pub's basement.",
+        "es": "Habla con Veliaf Hurtz en el sótano del pub de Burgh de Rott."
+      },
+      "chatOptions": [
+        "1 What's wrong?",
+        "1 Is there anything I can do to help?",
+        "Accept",
+        "1 Okay, I'll go."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "South of the Burgh de Rott bank, enter the cave entrance.",
         "es": "Al sur del banco de Burgh de Rott, entra por la entrada de la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Take the letter on the floor.",
         "es": "Coge la carta que hay en el suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Search the coffin for a mysterious medallion (deals small amount of damage). (opciones de chat: 1)",
-        "es": "Registra el ataúd en busca de un misterioso medallón (te causará una pequeña cantidad de daño). (opciones de chat: 1)"
-      }
+        "en": "Search the coffin for a mysterious medallion (deals small amount of damage).",
+        "es": "Registra el ataúd en busca de un misterioso medallón (te causará una pequeña cantidad de daño)."
+      },
+      "chatOptions": [
+        "1"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Climb the rope to leave the cave and return to Veliaf Hurtz. (opciones de chat: 1 I found a medallion. • 1 Yes, please send me!)",
-        "es": "Sube por la cuerda para salir de la cueva y vuelve con Veliaf Hurtz. (opciones de chat: 1 He encontrado un medallón. • 1 ¡Sí, por favor, envíame!)"
-      }
+        "en": "Climb the rope to leave the cave and return to Veliaf Hurtz.",
+        "es": "Sube por la cuerda para salir de la cueva y vuelve con Veliaf Hurtz."
+      },
+      "chatOptions": [
+        "1 I found a medallion.",
+        "1 Yes, please send me!"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "An unexpected help",
       "text": {
         "en": "Once teleported, head to the northernmost room. The medallion can also teleport you to the Meiyerditch laboratory.",
         "es": "Una vez teletransportado, dirígete a la habitación más al norte. El medallón también puede teletransportarte al laboratorio de Meiyerditch."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "An unexpected help",
       "text": {
-        "en": "Talk to Safalaan. (opciones de chat: 2 What do you think of this medallion? • 2 What have the vampyres been doing? • 1 I've got a letter for you. • 1 What do you think? • 1 What do you think we should do? • 1 Of course.)",
-        "es": "Habla con Safalaan. (opciones de chat: 2 ¿Qué opinas de este medallón? • 2 ¿Qué han estado haciendo los vampyres? • 1 Tengo una carta para ti. • 1 ¿Qué opinas? • 1 ¿Qué crees que deberíamos hacer? • 1 Por supuesto.)"
-      }
+        "en": "Talk to Safalaan.",
+        "es": "Habla con Safalaan."
+      },
+      "chatOptions": [
+        "2 What do you think of this medallion?",
+        "2 What have the vampyres been doing?",
+        "1 I've got a letter for you.",
+        "1 What do you think?",
+        "1 What do you think we should do?",
+        "1 Of course."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Traversing Meiyerditch",
       "text": {
         "en": "Exit the base, go through the wall to the north and climb up the stairs.",
         "es": "Sal de la base, atraviesa el muro hacia el norte y sube las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Traversing Meiyerditch",
       "text": {
         "en": "Jump the floorboards to the west and go down the ladder.",
         "es": "Salta las tablas del suelo hacia el oeste y baja por la escalera de mano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Traversing Meiyerditch",
       "text": {
         "en": "Open the door, then go west a bit, then south to the building with the fireplace.",
         "es": "Abre la puerta, luego ve un poco hacia el oeste, y después hacia el sur hasta el edificio con la chimenea."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Traversing Meiyerditch",
       "text": {
         "en": "Enter the building and climb up the ladder, where you will briefly be held up by two vyrewatch.",
         "es": "Entra en el edificio y sube por la escalera de mano, donde te detendrán brevemente dos vyrewatch."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Traversing Meiyerditch",
       "text": {
         "en": "Now jump over the wall to the building to the west and climb down the ladder.",
         "es": "Ahora salta el muro hacia el edificio del oeste y baja por la escalera de mano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Traversing Meiyerditch",
       "text": {
         "en": "Open the door, exit and close the door.",
         "es": "Abre la puerta, sal y cierra la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Traversing Meiyerditch",
       "text": {
         "en": "Now go north and west around the next building. Enter it and go east, where Vertida will be standing and talk to him.",
         "es": "Ahora ve hacia el norte y bordea por el oeste el siguiente edificio. Entra en él y ve hacia el este, donde estará Vertida; habla con él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Traversing Meiyerditch",
       "text": {
         "en": "Climb the wall and speak to Mekritus A'hara.",
         "es": "Escala el muro y habla con Mekritus A'hara."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Traversing Meiyerditch",
       "text": {
         "en": "Stand on the lookout point for a cutscene.",
         "es": "Colócate en el punto de observación para ver una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Traversing Meiyerditch",
       "text": {
         "en": "Drop-down the floorboards to the east.",
         "es": "Baja por las tablas del suelo hacia el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Traversing Meiyerditch",
       "text": {
-        "en": "Talk to Nessie who is in the courtyard south of the building. (opciones de chat: 1 How do you know my name? • 1 What are you doing here?)",
-        "es": "Habla con Nessie, que está en el patio al sur del edificio. (opciones de chat: 1 ¿Cómo sabes mi nombre? • 1 ¿Qué haces aquí?)"
-      }
+        "en": "Talk to Nessie who is in the courtyard south of the building.",
+        "es": "Habla con Nessie, que está en el patio al sur del edificio."
+      },
+      "chatOptions": [
+        "1 How do you know my name?",
+        "1 What are you doing here?"
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Entering Darkmeyer",
       "text": {
         "en": "Attack Vanescula Drakan - she will knock you back (if she does not knock you back, dismiss any active conjured spirits, unequip any armour, and climb up and back down the wall to the east, then try talking to her again).",
         "es": "Ataca a Vanescula Drakan; te hará retroceder de un golpe (si no lo hace, deshaz cualquier espíritu invocado activo, quítate cualquier armadura, y sube y baja de nuevo por el muro hacia el este, luego intenta hablar con ella otra vez)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Entering Darkmeyer",
       "text": {
-        "en": "Talk to her and exhaust all options, eventually learning about the tree and receiving an envelope. (opciones de chat: 1 What are you doing here? • 1 How can you help? • 3 I'm not telling you anything, vampyre scum! • 2 How do you plan on freeing Meiyerditch? • 3 You won't get any information out of me. • 1 Why do you want to kill Drakan? • 3 Why should I trust you? • 1 I'll listen, for now. • 3 Tell me more about this tree. • 1 How do I know you are telling the truth?)",
-        "es": "Habla con ella y agota todas las opciones, hasta que finalmente te enteres sobre el árbol y recibas un sobre. (opciones de chat: 1 ¿Qué haces aquí? • 1 ¿Cómo puedes ayudar? • 3 No te voy a decir nada, escoria vampýrica. • 2 ¿Cómo planeas liberar Meiyerditch? • 3 No sacarás ninguna información de mí. • 1 ¿Por qué quieres matar a Drakan? • 3 ¿Por qué debería confiar en ti? • 1 Escucharé, por ahora. • 3 Cuéntame más sobre ese árbol. • 1 ¿Cómo sé que dices la verdad?)"
-      }
+        "en": "Talk to her and exhaust all options, eventually learning about the tree and receiving an envelope.",
+        "es": "Habla con ella y agota todas las opciones, hasta que finalmente te enteres sobre el árbol y recibas un sobre."
+      },
+      "chatOptions": [
+        "1 What are you doing here?",
+        "1 How can you help?",
+        "3 I'm not telling you anything, vampyre scum!",
+        "2 How do you plan on freeing Meiyerditch?",
+        "3 You won't get any information out of me.",
+        "1 Why do you want to kill Drakan?",
+        "3 Why should I trust you?",
+        "1 I'll listen, for now.",
+        "3 Tell me more about this tree.",
+        "1 How do I know you are telling the truth?"
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Entering Darkmeyer",
       "text": {
-        "en": "Teleport to Meiyerditch with the medallion (opciones de chat: 2 Meiyerditch) and take the envelope to Safalaan.",
+        "en": "Teleport to Meiyerditch with the medallion and take the envelope to Safalaan.",
         "es": "Teletranspórtate a Meiyerditch con el medallón (opciones de chat: 2 Meiyerditch) y lleva el sobre a Safalaan."
-      }
+      },
+      "chatOptions": [
+        "2 Meiyerditch"
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Entering Darkmeyer",
       "text": {
-        "en": "In the same room, talk to Vertida Sefalatis. (opciones de chat: 1 What do I need to go to Darkmeyer?)",
-        "es": "En la misma habitación, habla con Vertida Sefalatis. (opciones de chat: 1 ¿Qué necesito para ir a Darkmeyer?)"
-      }
+        "en": "In the same room, talk to Vertida Sefalatis.",
+        "es": "En la misma habitación, habla con Vertida Sefalatis."
+      },
+      "chatOptions": [
+        "1 What do I need to go to Darkmeyer?"
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Entering Darkmeyer",
       "text": {
         "en": "Head to the most south-western point within the Meiyerditch hideout. Search the crate for 30 smoke bombs.",
         "es": "Dirígete al punto más al suroeste dentro del escondite de Meiyerditch. Registra el cajón para conseguir 30 bombas de humo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Entering Darkmeyer",
       "text": {
-        "en": "With your medallion, teleport to the Meiyerditch laboratory. (opciones de chat: 3 Meiyerditch Laboratories)",
-        "es": "Con tu medallón, teletranspórtate al laboratorio de Meiyerditch. (opciones de chat: 3 Meiyerditch Laboratories)"
-      }
+        "en": "With your medallion, teleport to the Meiyerditch laboratory.",
+        "es": "Con tu medallón, teletranspórtate al laboratorio de Meiyerditch."
+      },
+      "chatOptions": [
+        "3 Meiyerditch Laboratories"
+      ]
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Entering Darkmeyer",
       "text": {
         "en": "Go up the stairs, open the door, go through the slashed tapestry, and then out of the building.",
         "es": "Sube las escaleras, abre la puerta, atraviesa el tapiz rasgado, y luego sal del edificio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Entering Darkmeyer",
       "text": {
         "en": "Run north and squeeze-through the grate on the north wall.",
         "es": "Corre hacia el norte y pásate a través de la reja en el muro norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Entering Darkmeyer",
       "text": {
-        "en": "Talk to Vanescula on the other side of the grate. (opciones de chat: 1 What did you tell Safalaan? • 1 So, where's this tree? • 1 Yes • 2 I'll get on with it, then.) In Darkmeyer, the vyrewatch will attack you when you pass them as opposed to in Meiyerditch.",
+        "en": "Talk to Vanescula on the other side of the grate. In Darkmeyer, the vyrewatch will attack you when you pass them as opposed to in Meiyerditch.",
         "es": "Habla con Vanescula al otro lado de la reja. (opciones de chat: 1 ¿Qué le dijiste a Safalaan? • 1 Entonces, ¿dónde está ese árbol? • 1 Sí • 2 Entonces, me pongo con ello.) En Darkmeyer, los vyrewatch te atacarán al pasar junto a ellos, a diferencia de en Meiyerditch."
-      }
+      },
+      "chatOptions": [
+        "1 What did you tell Safalaan?",
+        "1 So, where's this tree?",
+        "1 Yes",
+        "2 I'll get on with it, then."
+      ]
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Entering Darkmeyer",
       "text": {
         "en": "Use the smoke bombs to avoid being caught by vampyre juvinates. Do not go near vyrewatch.",
         "es": "Usa las bombas de humo para evitar que te atrapen los vampyre juvinates. No te acerques a los vyrewatch."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Entering Darkmeyer",
       "text": {
         "en": "Search chests inside buildings to find clothing (four pieces in total). You can use another smoke bomb before the previous one dissipates. Enter a building before your smoke shroud vanishes. Once in a building, immediately close the door.",
         "es": "Registra los cofres dentro de los edificios para encontrar prendas de ropa (cuatro piezas en total). Puedes usar otra bomba de humo antes de que se disipe la anterior. Entra en un edificio antes de que desaparezca tu manto de humo. Una vez dentro de un edificio, cierra la puerta inmediatamente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Entering Darkmeyer",
       "text": {
         "en": "Fix all four pieces and wear them. You no longer need to hide in smoke.",
         "es": "Repara las cuatro piezas y póntelas. Ya no necesitarás esconderte entre el humo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Entering Darkmeyer",
       "text": {
-        "en": "Return to Vanescula. (opciones de chat: 1 So can I go and get those logs now? • 1 No, of course not.)",
-        "es": "Vuelve con Vanescula. (opciones de chat: 1 Entonces, ¿puedo ir a por esos troncos ahora? • 1 No, claro que no.)"
-      }
+        "en": "Return to Vanescula.",
+        "es": "Vuelve con Vanescula."
+      },
+      "chatOptions": [
+        "1 So can I go and get those logs now?",
+        "1 No, of course not."
+      ]
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Gaining Status",
       "text": {
         "en": "Walk up the ramp to the north-east to enter the level of the city.",
         "es": "Sube por la rampa hacia el noreste para entrar en el nivel de la ciudad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Gaining Status",
       "text": {
         "en": "Talk to Sanguinus Varnis at the top of the ramp, telling him your vampyre name.",
         "es": "Habla con Sanguinus Varnis en la parte superior de la rampa, dile tu nombre de vampyre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Gaining Status",
       "text": {
         "en": "Completing vampyric tasks below increases your rating. After completing enough tasks in the middle tier of the city, your rating bar will be half full, allowing progression into the next tier of the city.",
         "es": "Completar las tareas vampýricas descritas a continuación aumenta tu reputación. Tras completar suficientes tareas en el nivel medio de la ciudad, tu barra de reputación estará medio llena, lo que te permitirá avanzar al siguiente nivel de la ciudad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Gaining Status",
       "text": {
         "en": "Talk to the Vyrewatch guard in the north-eastern jail.",
         "es": "Habla con el guardia Vyrewatch en la prisión del noreste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Middle tier",
       "text": {
         "en": "Complete any of the following tasks until you reach a half-full rating bar and access to the upper tier (proceed to next section).",
         "es": "Completa cualquiera de las siguientes tareas hasta alcanzar una barra de reputación medio llena y acceso al nivel superior (continúa con la siguiente sección)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "Middle tier",
       "text": {
-        "en": "Terrorising Maria Gadderanks (opciones de chat: 1 Quiet, rat. • 1 What a shame. I'm going to be back later for a tithe.), (opciones de chat: 1 Enough, vermin! • 1 He's dead.), (opciones de chat: 1 Silence, wretch! • 1 Perhaps we need to 'dispose' of this one.)",
-        "es": "Aterrorizar a Maria Gadderanks (opciones de chat: 1 Silencio, rata. • 1 Qué lástima. Volveré más tarde a por un diezmo.), (opciones de chat: 1 ¡Basta, alimaña! • 1 Está muerto.), (opciones de chat: 1 ¡Silencio, desgraciada! • 1 Quizás necesitemos «deshacernos» de esta.)"
-      }
+        "en": "Terrorising Maria Gadderanks , ,",
+        "es": "Aterrorizar a Maria Gadderanks (opciones de chat: 1 Silencio, rata. • 1 Qué lástima. Volveré más tarde a por un diezmo.), (opciones de chat: 1 ¡Basta, alimaña! • 1 Está muerto.),"
+      },
+      "chatOptions": [
+        "1 Quiet, rat.",
+        "1 What a shame. I'm going to be back later for a tithe.",
+        "1 Enough, vermin!",
+        "1 He's dead.",
+        "1 Silence, wretch!",
+        "1 Perhaps we need to 'dispose' of this one."
+      ]
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Middle tier",
       "text": {
         "en": "Use the Angry or Laugh emotes several times next to Maria Gadderanks",
         "es": "Usa las emociones Enfadarse o Reír varias veces junto a Maria Gadderanks."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "Middle tier",
       "text": {
         "en": "Talk to Maria while wielding the Gadderhammer",
         "es": "Habla con Maria mientras llevas equipado el Gadderhammer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 1,
+      "section": "Middle tier",
       "text": {
         "en": "Talk to Valentina Kaust , drink the vial of blood she gives you (if you are prepared to be damaged for half of your health) , and then use either chat option.",
         "es": "Habla con Valentina Kaust, bebe el frasco de sangre que te da (si estás dispuesto a que te dañe la mitad de tu vida) y luego usa cualquiera de las opciones de chat."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "Middle tier",
       "text": {
         "en": "Vandalise the four posters (after getting the task by speaking with Sanguinus Varnis), shown as purple squares on the image, and then report back to Sanguinus Varnis again.",
         "es": "Vandaliza los cuatro carteles (después de recibir la tarea al hablar con Sanguinus Varnis), que se muestran como cuadrados morados en la imagen, y luego informa de nuevo a Sanguinus Varnis."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "Middle tier",
       "text": {
         "en": "Recapture six bloodveld younglings (after talking to Grigan Kaninus ). These vanish for long periods of time, so they can appear in places you've already checked. They are displayed as yellow dots on the minimap.",
         "es": "Recaptura a seis bloodveld jóvenes (después de hablar con Grigan Kaninus). Estos desaparecen durante largos periodos de tiempo, así que pueden aparecer en lugares que ya has revisado. Se muestran como puntos amarillos en el minimapa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 1,
+      "section": "Middle tier",
       "text": {
         "en": "Talking to Sentinel Draemus, Sentinel Gorthaur, or Sentinel Mortshade about citizens in Meiyerditch, the Myreque, and Burgh de Rott (three conversations).",
         "es": "Habla con Sentinel Draemus, Sentinel Gorthaur o Sentinel Mortshade sobre los ciudadanos de Meiyerditch, los Myreque y Burgh de Rott (tres conversaciones)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Upper tier",
       "text": {
         "en": "Killing Captured Meiyerditch citizens for the Vyrewatch guards is the fastest way to fill the reputation bar, as each kill gives 2 reputation but there is a limit to how many you can kill in a short period of time. There are about a dozen locked in the jail and they respawn fairly quick. Start the task by talking to a Vyrewatch guard in the south-western jail.",
         "es": "Matar a los ciudadanos capturados de Meiyerditch para los guardias Vyrewatch es la forma más rápida de llenar la barra de reputación, ya que cada muerte otorga 2 puntos de reputación, aunque hay un límite de cuántos puedes matar en un corto periodo de tiempo. Hay alrededor de una docena encerrados en la prisión y reaparecen bastante rápido. Empieza la tarea hablando con un guardia Vyrewatch en la prisión del suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Upper tier",
       "text": {
         "en": "Entertaining Misdrievus Vakan then approach the nearby blood tither . Talk to Misdrievus Vakan again and then enter the building to the west for a cutscene.",
         "es": "Entretén a Misdrievus Vakan y luego acércate al tither de sangre cercano. Habla de nuevo con Misdrievus Vakan y luego entra en el edificio del oeste para ver una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Upper tier",
       "text": {
         "en": "Speaking to Vanescula Drakan to pledge allegiance to the Drakan family.",
         "es": "Habla con Vanescula Drakan para jurar lealtad a la familia Drakan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Upper tier",
       "text": {
         "en": "Talking to Sentinel Bloodmortis, Sentinel Noctantine, or Sentinel Plaguemanst about Vanstrom Klause and Lord Drakan (two conversations).",
         "es": "Habla con Sentinel Bloodmortis, Sentinel Noctantine o Sentinel Plaguemanst sobre Vanstrom Klause y Lord Drakan (dos conversaciones)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "The Arboretum",
       "text": {
         "en": "After gaining enough status in the upper tier, talk to Vanescula about entering the Arboretum.",
         "es": "Después de conseguir suficiente estatus en el nivel superior, habla con Vanescula sobre entrar en el Arboretum."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "The Arboretum",
       "text": {
         "en": "Enter the Arboretum (Ranis will stop you).",
         "es": "Intenta entrar en el Arboretum (Ranis te detendrá)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 1,
+      "section": "The Arboretum",
       "text": {
         "en": "Arboretum is a big temple-like building to the east",
         "es": "El Arboretum es un gran edificio parecido a un templo situado al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "The Arboretum",
       "text": {
         "en": "Proceed to enter the Arboretum.",
         "es": "Procede a entrar en el Arboretum."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "The Arboretum",
       "text": {
         "en": "Solve the four puzzles:",
         "es": "Resuelve los cuatro puzles:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 1,
+      "section": "The Arboretum",
       "text": {
         "en": "Check the health of the tree for the orb pattern.",
         "es": "Comprueba la salud del árbol para obtener el patrón de las esferas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 1,
+      "section": "The Arboretum",
       "text": {
         "en": "Pull the lever (along the eastern edge) to start the first puzzle.",
         "es": "Tira de la palanca (a lo largo del borde este) para empezar el primer puzle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 1,
+      "section": "The Arboretum",
       "text": {
         "en": "Rotating the orbs by clicking the left-bottom orb of a group of four orbs.",
         "es": "Rota las esferas haciendo clic en la esfera inferior izquierda de un grupo de cuatro esferas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 1,
+      "section": "The Arboretum",
       "text": {
         "en": "Match the orbs to the puzzle solution.",
         "es": "Haz coincidir las esferas con la solución del puzle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 1,
+      "section": "The Arboretum",
       "text": {
         "en": "When the puzzle is complete, pull the lever.",
         "es": "Cuando el puzle esté completo, tira de la palanca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "The Arboretum",
       "text": {
         "en": "Check the health of the tree again. Repeat the process for all four puzzles.",
         "es": "Comprueba de nuevo la salud del árbol. Repite el proceso para los cuatro puzles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "The Arboretum",
       "text": {
         "en": "Chop the tree for three blisterwood logs and a cutscene will play.",
         "es": "Tala el árbol para conseguir tres troncos de blisterwood y se reproducirá una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "The Arboretum",
       "text": {
         "en": "In the entrance room to the west, talk to Vanescula to be teleported to out of Darkmeyer.",
         "es": "En la habitación de entrada, al oeste, habla con Vanescula para que te teletransporte fuera de Darkmeyer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Preparing for the fight",
       "text": {
-        "en": "Use the medallion to go to Meiyerditch. (opciones de chat: 3 Meiyerditch)",
-        "es": "Usa el medallón para ir a Meiyerditch. (opciones de chat: 3 Meiyerditch)"
-      }
+        "en": "Use the medallion to go to Meiyerditch.",
+        "es": "Usa el medallón para ir a Meiyerditch."
+      },
+      "chatOptions": [
+        "3 Meiyerditch"
+      ]
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "Preparing for the fight",
       "text": {
-        "en": "Talk to Vertida Sefalatis. (opciones de chat: 1 I managed to get some logs from the blisterwood tree. • 1 We may be able to trust her, yes. • 1 I'd be happy to dispatch one of the Myreque's most fearsome opponents.)",
-        "es": "Habla con Vertida Sefalatis. (opciones de chat: 1 Conseguí algunos troncos del árbol de blisterwood. • 1 Puede que podamos confiar en ella, sí. • 1 Estaría encantado de acabar con uno de los enemigos más temidos de los Myreque.)"
-      }
+        "en": "Talk to Vertida Sefalatis.",
+        "es": "Habla con Vertida Sefalatis."
+      },
+      "chatOptions": [
+        "1 I managed to get some logs from the blisterwood tree.",
+        "1 We may be able to trust her, yes.",
+        "1 I'd be happy to dispatch one of the Myreque's most fearsome opponents."
+      ]
     },
     {
       "index": 62,
       "indent": 0,
+      "section": "Preparing for the fight",
       "text": {
         "en": "Talk to Vertida again for a bottle of holy water.",
         "es": "Habla de nuevo con Vertida para conseguir una botella de agua bendita."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 0,
+      "section": "Preparing for the fight",
       "text": {
-        "en": "Talk to Kael Forshaw for two silver sickles. (opciones de chat: 1 Do you have any sickles I could use? • 2 That's all, thanks.)",
-        "es": "Habla con Kael Forshaw para conseguir dos hoces de plata. (opciones de chat: 1 ¿Tienes alguna hoz que pueda usar? • 2 Eso es todo, gracias.)"
-      }
+        "en": "Talk to Kael Forshaw for two silver sickles.",
+        "es": "Habla con Kael Forshaw para conseguir dos hoces de plata."
+      },
+      "chatOptions": [
+        "1 Do you have any sickles I could use?",
+        "2 That's all, thanks."
+      ]
     },
     {
       "index": 64,
       "indent": 0,
+      "section": "Preparing for the fight",
       "text": {
-        "en": "Use the medallion to teleport back to Darkmeyer. (opciones de chat: 4 Darkmeyer). This will complete the achievement On Wings Of Bling.",
+        "en": "Use the medallion to teleport back to Darkmeyer. . This will complete the achievement On Wings Of Bling.",
         "es": "Usa el medallón para teletransportarte de vuelta a Darkmeyer. (opciones de chat: 4 Darkmeyer). Esto completará el logro On Wings Of Bling."
-      }
+      },
+      "chatOptions": [
+        "4 Darkmeyer"
+      ]
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "Preparing for the fight",
       "text": {
         "en": "Craft each of the logs into a staff, a polearm, and a set of stakes. Remember to set the quantity to 1 in the Build-X interface or you will lose the logs permanently. Fletching the blisterwood polearm leads to the achievement Raising The Stakes.",
         "es": "Fabrica con cada uno de los troncos un bastón, un arma de asta y un juego de estacas. Recuerda establecer la cantidad en 1 en la interfaz de Build-X o perderás los troncos permanentemente. Fabricar el arma de asta de blisterwood te dará el logro Raising The Stakes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 1,
+      "section": "Preparing for the fight",
       "text": {
         "en": "If you forgot to cut three logs, you can enter Arboretum without any issues and cut some more.",
         "es": "Si olvidaste cortar tres troncos, puedes entrar en el Arboretum sin ningún problema y cortar más."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "Preparing for the fight",
       "text": {
         "en": "Bank at the Darkmeyer Treasury. The bottle of holy water is required for the fights with Vanstrom Klause and Harold.",
         "es": "Guarda tus objetos en el banco del Tesoro de Darkmeyer. La botella de agua bendita es necesaria para los combates contra Vanstrom Klause y Harold."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 68,
       "indent": 0,
+      "section": "Preparing for the fight",
       "text": {
         "en": "Enter the house with Harold in it (just north-east of the captured citizens) and kill him with any weapon. You must throw the bottle of holy water over him to be able to kill him.",
         "es": "Entra en la casa donde está Harold (justo al noreste de los ciudadanos capturados) y mátalo con cualquier arma. Debes lanzarle la botella de agua bendita por encima para poder matarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 69,
       "indent": 0,
+      "section": "Preparing for the fight",
       "text": {
         "en": "Go back to the bank and prepare for the final fight with Vanstrom Klause who is east of Harold.",
         "es": "Vuelve al banco y prepárate para el combate final contra Vanstrom Klause, que está al este de Harold."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 70,
       "indent": 0,
+      "section": "The battle with Vanstrom",
       "text": {
         "en": "Only blisterwood weaponry can deal damage.",
         "es": "Solo las armas de blisterwood pueden causar daño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 71,
       "indent": 0,
+      "section": "The battle with Vanstrom",
       "text": {
         "en": "If you're attacking at a distance use Deflect/Protect from Magic; otherwise, Deflect/Protect from Melee.",
         "es": "Si atacas a distancia usa Desviar/Proteger de Magia; en caso contrario, Desviar/Proteger de Cuerpo a cuerpo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 72,
       "indent": 0,
+      "section": "The battle with Vanstrom",
       "text": {
         "en": "If he shouts \"Stare into the darkness!\" run to the edge of the arena and rotate your camera away from him. Maximum 4000 damage.",
         "es": "Si grita «¡Mira hacia la oscuridad!», corre hacia el borde de la arena y aparta la cámara de él. Daño máximo de 4000."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 73,
       "indent": 0,
+      "section": "The battle with Vanstrom",
       "text": {
         "en": "If he shouts \"Let the blood consume you!\" run away from the blood splodge on the floor. Maximum 6000 damage.",
         "es": "Si grita «¡Deja que la sangre te consuma!», aléjate corriendo de la mancha de sangre en el suelo. Daño máximo de 6000."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 74,
       "indent": 0,
+      "section": "The battle with Vanstrom",
       "text": {
         "en": "If he shouts \"Come, fiends, and aid your master!\" kill the two easy minions that he spawns.",
         "es": "Si grita «¡Venid, engendros, y ayudad a vuestro amo!», mata a los dos esbirros fáciles que invoca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 75,
       "indent": 0,
+      "section": "The battle with Vanstrom",
       "text": {
         "en": "If he throws blood bombs towards you, keep running around the room to avoid them. Maximum 4000 damage per bomb.",
         "es": "Si te lanza bombas de sangre, sigue corriendo por la sala para esquivarlas. Daño máximo de 4000 por bomba."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 76,
       "indent": 0,
+      "section": "The battle with Vanstrom",
       "text": {
         "en": "Once he is very low health he turns into a cloud. Keep using holy water near him until he loses all health. Unequip your ring of life if you're wearing one.",
         "es": "Cuando le quede muy poca vida, se transformará en una nube. Sigue usando agua bendita cerca de él hasta que pierda toda su vida. Quítate el ring of life si llevas uno equipado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 77,
       "indent": 1,
+      "section": "The battle with Vanstrom",
       "text": {
         "en": "If you are saved by a ring of life after a group of bloodveld guardians spawn, heal up and return without a ring of life. You will be damaged, but in a safe way. You will not have to redo the fight.",
         "es": "Si un ring of life te salva después de que aparezca un grupo de bloodveld guardianes, cúrate y vuelve sin llevar un ring of life. Recibirás daño, pero de forma segura. No tendrás que repetir el combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 78,
       "indent": 0,
+      "section": "The battle with Vanstrom",
       "text": {
         "en": "Use Deflect/Protect from Magic for this last part as Vanstom can do rapid magic damage to you whilst he is dying.",
         "es": "Usa Desviar/Proteger de Magia para esta última parte, ya que Vanstrom puede infligirte daño mágico rápido mientras agoniza."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 79,
       "indent": 0,
+      "section": "Finishing up in Darkmeyer",
       "text": {
         "en": "Take control of Vanescula and kill the Bloodveld guardians. It is recommended to use the Shriek attack repeatedly as soon as it recharges.",
         "es": "Toma el control de Vanescula y mata a los bloodveld guardianes. Se recomienda usar el ataque Chillido repetidamente en cuanto se recargue."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 80,
       "indent": 0,
+      "section": "Finishing up in Darkmeyer",
       "text": {
-        "en": "When you awaken, speak with Vertida (opciones de chat: 1 What happened? • 1 Vanstrom believed that Safalaan may be the Icyene blood.), and watch a short cutscene.",
+        "en": "When you awaken, speak with Vertida , and watch a short cutscene.",
         "es": "Cuando despiertes, habla con Vertida (opciones de chat: 1 ¿Qué ha pasado? • 1 Vanstrom creía que Safalaan podría ser la sangre Icyene.), y observa una breve escena."
-      }
+      },
+      "chatOptions": [
+        "1 What happened?",
+        "1 Vanstrom believed that Safalaan may be the Icyene blood."
+      ]
     },
     {
       "index": 81,
       "indent": 0,
+      "section": "Finishing up in Darkmeyer",
       "text": {
         "en": "Teleport to Burgh de Rott with the medallion and talk to Veliaf Hurtz.",
         "es": "Teletranspórtate a Burgh de Rott con el medallón y habla con Veliaf Hurtz."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 82,
       "indent": 0,
+      "section": "Finishing up in Darkmeyer",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

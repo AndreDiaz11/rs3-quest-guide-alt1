@@ -2,7 +2,8 @@
   "id": "merlin-s-crystal",
   "title": "Merlin's Crystal",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:38:25.864Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:36.361Z",
   "icon": "https://runescape.wiki/images/Merlin%27s_Crystal_icon.png",
   "series": "Camelot",
   "age": "5",
@@ -79,247 +80,328 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Merlin%27s_Crystal_reward.png?90717",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to King Arthur at Camelot. (opciones de chat: 1 I want to become a knight of the round table! • Accept)",
-        "es": "Habla con King Arthur en Camelot. (opciones de chat: 1 I want to become a knight of the round table! • Accept)"
-      }
+        "en": "Talk to King Arthur at Camelot.",
+        "es": "Habla con King Arthur en Camelot."
+      },
+      "chatOptions": [
+        "1 I want to become a knight of the round table!",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Sir Gawain nearby. Ask him how Merlin got stuck in the crystal. (opciones de chat: 3 Do you know how Merlin got trapped? • 2 Thank you for the information!)",
-        "es": "Habla con Sir Gawain, que está cerca. Pregúntale cómo quedó Merlin atrapado en el cristal. (opciones de chat: 3 Do you know how Merlin got trapped? • 2 Thank you for the information!)"
-      }
+        "en": "Talk to Sir Gawain nearby. Ask him how Merlin got stuck in the crystal.",
+        "es": "Habla con Sir Gawain, que está cerca. Pregúntale cómo quedó Merlin atrapado en el cristal."
+      },
+      "chatOptions": [
+        "3 Do you know how Merlin got trapped?",
+        "2 Thank you for the information!"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Go upstairs, and talk to Sir Lancelot. Ask if he has any ideas on getting into Keep Le Faye. (opciones de chat: 3 Any ideas on how to get into Morgan Le Faye's stronghold?)",
-        "es": "Sube las escaleras y habla con Sir Lancelot. Pregúntale si tiene alguna idea sobre cómo entrar en Keep Le Faye. (opciones de chat: 3 Any ideas on how to get into Morgan Le Faye's stronghold?)"
-      }
+        "en": "Go upstairs, and talk to Sir Lancelot. Ask if he has any ideas on getting into Keep Le Faye.",
+        "es": "Sube las escaleras y habla con Sir Lancelot. Pregúntale si tiene alguna idea sobre cómo entrar en Keep Le Faye."
+      },
+      "chatOptions": [
+        "3 Any ideas on how to get into Morgan Le Faye's stronghold?"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Hide in the crate just west of the candle-maker in Catherby. (opciones de chat: 1 Yes. • 1 Yes.)",
-        "es": "Escóndete en la caja situada justo al oeste del fabricante de velas en Catherby. (opciones de chat: 1 Yes. • 1 Yes.)"
-      }
+        "en": "Hide in the crate just west of the candle-maker in Catherby.",
+        "es": "Escóndete en la caja situada justo al oeste del fabricante de velas en Catherby."
+      },
+      "chatOptions": [
+        "1 Yes.",
+        "1 Yes."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Inside Keep Le Faye",
       "text": {
         "en": "Climb to the top floor.",
         "es": "Sube hasta la planta superior."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Inside Keep Le Faye",
       "text": {
         "en": "Attack Sir Mordred until his health drops to 0. If you use bleeds/poisons/conjures, future dialogue will be interrupted until the bleed/poison effect ends. Aggressive familiars would continue to attack when Sir Mordred goes back to full health after reaching 0 health, thus restarting the fight.",
         "es": "Ataca a Sir Mordred hasta que su salud llegue a 0. Si usas sangrados, venenos o conjuros, el diálogo futuro se interrumpirá hasta que termine el efecto. Los familiares agresivos seguirán atacando cuando Sir Mordred recupere toda su salud tras llegar a 0, reiniciando así el combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Inside Keep Le Faye",
       "text": {
-        "en": "Talk to Morgan Le Faye. Spare Mordred's life to discover how to save Merlin. (opciones de chat: 1 Tell me how to untrap Merlin and I might. • 2 Okay, I will do that.)",
-        "es": "Habla con Morgan Le Faye. Perdona la vida de Mordred para descubrir cómo salvar a Merlin. (opciones de chat: 1 Tell me how to untrap Merlin and I might. • 2 Okay, I will do that.)"
-      }
+        "en": "Talk to Morgan Le Faye. Spare Mordred's life to discover how to save Merlin.",
+        "es": "Habla con Morgan Le Faye. Perdona la vida de Mordred para descubrir cómo salvar a Merlin."
+      },
+      "chatOptions": [
+        "1 Tell me how to untrap Merlin and I might.",
+        "2 Okay, I will do that."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Inside Keep Le Faye",
       "text": {
         "en": "If you do not have bat bones, exit the keep to the west and kill a Giant bat.",
         "es": "Si no tienes huesos de murciélago, sal de la fortaleza hacia el oeste y mata a un Giant bat."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Getting a black candle",
       "text": {
-        "en": "Talk to the candle-maker in Catherby. (opciones de chat: 1 Have you got any black candles?)",
-        "es": "Habla con el fabricante de velas en Catherby. (opciones de chat: 1 Have you got any black candles?)"
-      }
+        "en": "Talk to the candle-maker in Catherby.",
+        "es": "Habla con el fabricante de velas en Catherby."
+      },
+      "chatOptions": [
+        "1 Have you got any black candles?"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Getting a black candle",
       "text": {
         "en": "Gather a bucket of wax from the beehives to the north-west. A bucket can be found at the beehives.",
         "es": "Recoge un cubo de cera de las colmenas al noroeste. Puedes encontrar un cubo junto a las colmenas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Getting a black candle",
       "text": {
         "en": "If you do not have insect repellent then speak to the beekeeper for some. You can also add it to your tool belt.",
         "es": "Si no tienes repelente de insectos, habla con el apicultor para conseguir uno. También puedes añadirlo a tu cinturón de herramientas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Getting a black candle",
       "text": {
         "en": "Left click the hive to use insect repellent on it and then use an empty bucket on a beehive to fill the bucket.",
         "es": "Haz clic izquierdo en la colmena para usar el repelente de insectos sobre ella y luego usa un cubo vacío en una colmena para llenarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Getting a black candle",
       "text": {
         "en": "Talk to the candle-maker again to get the black candle from him.",
         "es": "Vuelve a hablar con el fabricante de velas para conseguir la vela negra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Getting Excalibur",
       "text": {
-        "en": "Talk to the Lady of the Lake in southern Taverley. Ask about the sword Excalibur. (opciones de chat: 2 I seek the sword Excalibur.)",
-        "es": "Habla con la Lady of the Lake en el sur de Taverley. Pregúntale sobre la espada Excalibur. (opciones de chat: 2 I seek the sword Excalibur.)"
-      }
+        "en": "Talk to the Lady of the Lake in southern Taverley. Ask about the sword Excalibur.",
+        "es": "Habla con la Lady of the Lake en el sur de Taverley. Pregúntale sobre la espada Excalibur."
+      },
+      "chatOptions": [
+        "2 I seek the sword Excalibur."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Getting Excalibur",
       "text": {
         "en": "Go to Port Sarim.",
         "es": "Ve a Port Sarim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Getting Excalibur",
       "text": {
         "en": "If you don't have bread, buy a loaf from Wydin's Food Store, just south of the Port Sarim lodestone.",
         "es": "Si no tienes pan, compra una barra en Wydin's Food Store, justo al sur del pilar de viaje de Port Sarim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Getting Excalibur",
       "text": {
         "en": "Enter Grum's Gold Exchange to the north of Port Sarim lodestone.",
         "es": "Entra en Grum's Gold Exchange, al norte del pilar de viaje de Port Sarim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Getting Excalibur",
       "text": {
-        "en": "Give the beggar your bread. (opciones de chat: 1 Yes certainly.)",
-        "es": "Dale tu pan al mendigo. (opciones de chat: 1 Yes certainly.)"
-      }
+        "en": "Give the beggar your bread.",
+        "es": "Dale tu pan al mendigo."
+      },
+      "chatOptions": [
+        "1 Yes certainly."
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Getting Excalibur",
       "text": {
         "en": "The beggar will turn into the Lady of the Lake and give you Excalibur for your good deed.",
         "es": "El mendigo se transformará en la Lady of the Lake y te dará Excalibur por tu buena acción."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Ritual",
       "text": {
         "en": "Go to the Temple of Zamorak south of the Varrock east bank.",
         "es": "Ve al Temple of Zamorak, al sur del banco este de Varrock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Ritual",
       "text": {
         "en": "Check the chaos altar's inscription.",
         "es": "Examina la inscripción del altar del caos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Ritual",
       "text": {
         "en": "Return to Camelot and enter the gates.",
         "es": "Vuelve a Camelot y entra por las puertas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Ritual",
       "text": {
         "en": "Run north-east outside of the castle to the ritual site (the gazebo outside the castle).",
         "es": "Corre hacia el noreste, fuera del castillo, hasta el lugar del ritual (el cenador situado fuera del castillo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Ritual",
       "text": {
         "en": "Stand on the star and light the black candle.",
         "es": "Colócate sobre la estrella y enciende la vela negra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Ritual",
       "text": {
         "en": "Drop the bat bones on the star.",
         "es": "Deja caer los huesos de murciélago sobre la estrella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Ritual",
       "text": {
         "en": "The magic words are \"Snarthon Candtrick Termanto\". If you get this wrong, you will have to get the black candle remade; or click away before proceeding with the dialogue and re-drop the bat bones to try again.",
         "es": "Las palabras mágicas son \"Snarthon Candtrick Termanto\". Si te equivocas, tendrás que hacer que te fabriquen otra vela negra; o bien haz clic fuera antes de continuar con el diálogo y vuelve a dejar caer los huesos de murciélago para intentarlo de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Enter the castle and climb the top of the south-east tower.",
         "es": "Entra en el castillo y sube hasta lo alto de la torre sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Smash the giant crystal to free Merlin.",
         "es": "Rompe el cristal gigante para liberar a Merlin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to King Arthur.",
         "es": "Habla con King Arthur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "dimension-of-disaster-coin-of-the-realm",
   "title": "Dimension of Disaster: Coin of the Realm",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:07:30.412Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:57.978Z",
   "icon": "https://runescape.wiki/images/Dimension_of_Disaster_icon.png",
   "length": "Short",
   "startPoint": {
@@ -45,79 +46,111 @@
       "image": "https://runescape.wiki/images/thumb/Zemomark_25_detail.png/100px-Zemomark_25_detail.png?7dfdf"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Coin_of_the_Realm_reward.png?52ed1",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Aris.",
         "es": "Habla con Aris."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "# Replay: (opciones de chat: 1 Dimension of Disaster. • Accept • 1 Here's the coin. Tell my fortune. • 1 Ugh, we've been through this already.)",
-        "es": "# Replay: (opciones de chat: 1 Dimension of Disaster. • Accept • 1 Here's the coin. Tell my fortune. • 1 Ugh, we've been through this already.)"
-      }
+        "en": "# Replay:",
+        "es": "# Replay:"
+      },
+      "chatOptions": [
+        "1 Dimension of Disaster.",
+        "Accept",
+        "1 Here's the coin. Tell my fortune.",
+        "1 Ugh, we've been through this already."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Investigate coin, choose \"Flip\".",
         "es": "Examina la moneda y elige \"Flip\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Aris. (opciones de chat: 1 Dimension of Disaster. • Any)",
-        "es": "Habla con Aris. (opciones de chat: 1 Dimension of Disaster. • Any)"
-      }
+        "en": "Talk to Aris.",
+        "es": "Habla con Aris."
+      },
+      "chatOptions": [
+        "1 Dimension of Disaster.",
+        "Any"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "# Replay: (opciones de chat: 1 Dimension of Disaster. • 2 Skip it.)",
-        "es": "# Replay: (opciones de chat: 1 Dimension of Disaster. • 2 Skip it.)"
-      }
+        "en": "# Replay:",
+        "es": "# Replay:"
+      },
+      "chatOptions": [
+        "1 Dimension of Disaster.",
+        "2 Skip it."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Use Double-headed coin on fountain (at Varrock Square).",
         "es": "Usa la moneda de dos caras en la fuente (en la plaza de Varrock)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Enter dimensional portal.",
         "es": "Entra en el portal dimensional."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to the Image of Zemouregal. (opciones de chat: 3 Get to the point.)",
-        "es": "Habla con la Image of Zemouregal. (opciones de chat: 3 Get to the point.)"
-      }
+        "en": "Talk to the Image of Zemouregal.",
+        "es": "Habla con la Image of Zemouregal."
+      },
+      "chatOptions": [
+        "3 Get to the point."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "succession",
   "title": "Succession",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:18:20.888Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:08.761Z",
   "icon": "https://runescape.wiki/images/thumb/Succession_icon.png/50px-Succession_icon.png",
   "series": "Legacy of Zamorak",
   "age": "Age of Chaos",
@@ -74,6 +75,7 @@
       "image": "https://runescape.wiki/images/Dive.png?9df37"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Succession_reward.png?e633e",
   "postQuest": [
     {
       "type": "item",
@@ -95,538 +97,734 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Investigation time",
       "text": {
-        "en": "Talk to Adrasteia in the throne room on the of the White Knights' Castle. (opciones de chat: Accept • 1 Yes. • 4 Let's continue our journey.)",
-        "es": "Habla con Adrasteia en la sala del trono del White Knights' Castle. (opciones de chat: Aceptar • 1 Sí. • 4 Continuemos nuestro viaje.)"
-      }
+        "en": "Talk to Adrasteia in the throne room on the of the White Knights' Castle.",
+        "es": "Habla con Adrasteia en la sala del trono del White Knights' Castle."
+      },
+      "chatOptions": [
+        "Accept",
+        "1 Yes.",
+        "4 Let's continue our journey."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Clues in the prison",
       "text": {
-        "en": "Head to the Varrock Dig Site and enter ancient door leading to Senntisten. (opciones de chat: 1 Yes.)",
-        "es": "Dirígete al Varrock Dig Site y entra por la antigua puerta que lleva a Senntisten. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Head to the Varrock Dig Site and enter ancient door leading to Senntisten.",
+        "es": "Dirígete al Varrock Dig Site y entra por la antigua puerta que lleva a Senntisten."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Clues in the prison",
       "text": {
         "en": "Discover the large footprint downstairs. All discoverable entities in this quest should be marked by a red dot on your minimap. (1/5)",
         "es": "Descubre la gran huella en la planta de abajo. Todas las entidades descubribles en esta misión deberían estar marcadas con un punto rojo en tu minimapa. (1/5)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Clues in the prison",
       "text": {
         "en": "Go up the stairs.",
         "es": "Sube las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Clues in the prison",
       "text": {
         "en": "Discover one of the bodies of demon cultists. (2/5)",
         "es": "Descubre uno de los cuerpos de los cultistas demoníacos. (2/5)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Clues in the prison",
       "text": {
         "en": "Discover scratch marks. (3/5)",
         "es": "Descubre las marcas de arañazos. (3/5)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Clues in the prison",
       "text": {
         "en": "Discover ancient Zarosian architecture. (4/5)",
         "es": "Descubre la antigua arquitectura Zarosiana. (4/5)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Clues in the prison",
       "text": {
         "en": "Discover note from a worker in the western room along the southern part of the building where the wall is crumbled. (5/5)",
         "es": "Descubre la nota de un trabajador en la habitación oeste, en la parte sur del edificio, donde la pared está derrumbada. (5/5)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Clues in the prison",
       "text": {
         "en": "(You must dismiss followers for the following steps. Talk to Adrasteia again to continue.)",
         "es": "(Debes despedir a tus seguidores para los siguientes pasos. Habla de nuevo con Adrasteia para continuar.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Clues in the prison",
       "text": {
         "en": "Talk to one of the Khazard guards.",
         "es": "Habla con uno de los guardias Khazard."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Clues in the prison",
       "text": {
-        "en": "Reset the puzzle with one of the long chests. (opciones de chat: 1 Reset to starting position.)",
-        "es": "Reinicia el puzle con uno de los baúles largos. (opciones de chat: 1 Reiniciar a la posición inicial.)"
-      }
+        "en": "Reset the puzzle with one of the long chests.",
+        "es": "Reinicia el puzle con uno de los baúles largos."
+      },
+      "chatOptions": [
+        "1 Reset to starting position."
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Clues in the prison",
       "text": {
-        "en": "Reset the puzzle with one of the long chests again. (opciones de chat: 1 Reset to starting position.)",
-        "es": "Reinicia el puzle con uno de los baúles largos de nuevo. (opciones de chat: 1 Reiniciar a la posición inicial.)"
-      }
+        "en": "Reset the puzzle with one of the long chests again.",
+        "es": "Reinicia el puzle con uno de los baúles largos de nuevo."
+      },
+      "chatOptions": [
+        "1 Reset to starting position."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Clues in the prison",
       "text": {
-        "en": "Reset the puzzle with one of the long chests once more. (opciones de chat: 2 Skip this puzzle (2 attempts). • 1 Yes, I'm ready to move on. • 4 Let's continue our journey.)",
+        "en": "Reset the puzzle with one of the long chests once more.",
         "es": "Reinicia el puzle con uno de los baúles largos una vez más. (opciones de chat: 2 Saltar este puzle (2 intentos). • 1 Sí, estoy listo para continuar. • 4 Continuemos nuestro viaje.)"
-      }
+      },
+      "chatOptions": [
+        "2 Skip this puzzle (2 attempts).",
+        "1 Yes, I'm ready to move on.",
+        "4 Let's continue our journey."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Grand library clues",
       "text": {
-        "en": "Head to Menaphos and enter the Grand Library. (opciones de chat: 1 Succession. • 1 Yes.)",
-        "es": "Dirígete a Menaphos y entra en la Grand Library. (opciones de chat: 1 Sucesión. • 1 Sí.)"
-      }
+        "en": "Head to Menaphos and enter the Grand Library.",
+        "es": "Dirígete a Menaphos y entra en la Grand Library."
+      },
+      "chatOptions": [
+        "1 Succession.",
+        "1 Yes."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Grand library clues",
       "text": {
-        "en": "Talk to Adrasteia in the library. (opciones de chat: 3 Farewell.)",
-        "es": "Habla con Adrasteia en la biblioteca. (opciones de chat: 3 Adiós.)"
-      }
+        "en": "Talk to Adrasteia in the library.",
+        "es": "Habla con Adrasteia en la biblioteca."
+      },
+      "chatOptions": [
+        "3 Farewell."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Grand library clues",
       "text": {
         "en": "Discover The Corruption on the first level from top, near the south-eastern corner. (1/3)",
         "es": "Descubre The Corruption en el primer nivel desde arriba, cerca de la esquina sureste. (1/3)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Grand library clues",
       "text": {
         "en": "Discover The Secret Chamber opposite The Corruption, in the south-western corner. (2/3)",
         "es": "Descubre The Secret Chamber frente a The Corruption, en la esquina suroeste. (2/3)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Grand library clues",
       "text": {
-        "en": "Discover The Living Dead on the bottom level, near the north-eastern corner. (3/3) (opciones de chat: 1 Travel to the Magister's chamber (0/3).)",
+        "en": "Discover The Living Dead on the bottom level, near the north-eastern corner. (3/3)",
         "es": "Descubre The Living Dead en el nivel inferior, cerca de la esquina noreste. (3/3) (opciones de chat: 1 Viajar a la cámara del Magister (0/3).)"
-      }
+      },
+      "chatOptions": [
+        "1 Travel to the Magister's chamber (0/3)."
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "The Magister's chamber clues",
       "text": {
         "en": "Discover the imbued bones on the western side of the chamber. (1/3)",
         "es": "Descubre los huesos imbuidos en el lado oeste de la cámara. (1/3)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "The Magister's chamber clues",
       "text": {
         "en": "Discover the fragments of an obelisk next to the soul obelisk. (2/3)",
         "es": "Descubre los fragmentos de un obelisco junto al obelisco de almas. (2/3)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "The Magister's chamber clues",
       "text": {
         "en": "Touch the soul obelisk.",
         "es": "Toca el obelisco de almas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "The Magister's chamber clues",
       "text": {
         "en": "Climb the stairs.",
         "es": "Sube las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The Magister's chamber clues",
       "text": {
-        "en": "Discover the magical residue. (3/3) (opciones de chat: 1 Travel to the Soul Altar. (0/3).)",
+        "en": "Discover the magical residue. (3/3)",
         "es": "Descubre el residuo mágico. (3/3) (opciones de chat: 1 Viajar al Soul Altar. (0/3).)"
-      }
+      },
+      "chatOptions": [
+        "1 Travel to the Soul Altar. (0/3)."
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Soul altar clues",
       "text": {
         "en": "Discover the scorch marks. (1/3)",
         "es": "Descubre las marcas de quemaduras. (1/3)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Soul altar clues",
       "text": {
         "en": "Discover the Soul Altar. (2/3)",
         "es": "Descubre el Soul Altar. (2/3)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Soul altar clues",
       "text": {
         "en": "Talk to Ka. (3/3)",
         "es": "Habla con Ka. (3/3)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Vengeance and the Magister",
       "text": {
         "en": "You must dismiss followers and have no items for the following steps. Talk to Adrasteia again to continue or bank items.",
         "es": "Debes despedir a tus seguidores y no llevar ningún objeto para los siguientes pasos. Habla de nuevo con Adrasteia para continuar o guarda tus objetos en el banco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Vengeance and the Magister",
       "text": {
-        "en": "Defeat the Magister. (opciones de chat: 1 Yes, I'm ready to move on. • 4 Let's continue our journey.)",
-        "es": "Derrota al Magister. (opciones de chat: 1 Sí, estoy listo para continuar. • 4 Continuemos nuestro viaje.)"
-      }
+        "en": "Defeat the Magister.",
+        "es": "Derrota al Magister."
+      },
+      "chatOptions": [
+        "1 Yes, I'm ready to move on.",
+        "4 Let's continue our journey."
+      ]
     },
     {
       "index": 28,
       "indent": 1,
+      "section": "Vengeance and the Magister",
       "text": {
         "en": "All prayers are disabled. Use abilities in order to win the fight.",
         "es": "Todas las oraciones están desactivadas. Usa habilidades para ganar el combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Vengeance and the Magister",
       "text": {
-        "en": "If you die, you will be teleported to Menaphos gate. Enter the gate to return to the quest. (opciones de chat: 1 Yes.)",
-        "es": "Si mueres, serás teletransportado a la puerta de Menaphos. Entra por la puerta para volver a la misión. (opciones de chat: 1 Sí.)"
-      }
+        "en": "If you die, you will be teleported to Menaphos gate. Enter the gate to return to the quest.",
+        "es": "Si mueres, serás teletransportado a la puerta de Menaphos. Entra por la puerta para volver a la misión."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Vengeance and the Magister",
       "text": {
-        "en": "If you fail to defeat him twice, there will be an option to skip the combat phase. (opciones de chat: 2 Yes, and skip this combat encounter (2 attempts).)",
+        "en": "If you fail to defeat him twice, there will be an option to skip the combat phase.",
         "es": "Si no consigues derrotarlo dos veces, aparecerá la opción de saltar la fase de combate. (opciones de chat: 2 Sí, y saltar este combate (2 intentos).)"
-      }
+      },
+      "chatOptions": [
+        "2 Yes, and skip this combat encounter (2 attempts)."
+      ]
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Preparing disguise in the Wilderness",
       "text": {
-        "en": "Talk to Adrasteia in the throne room on the of the White Knights' Castle. (opciones de chat: 1 Yes. • 4 Never mind. • 1 Yes.)",
-        "es": "Habla con Adrasteia en la sala del trono del White Knights' Castle. (opciones de chat: 1 Sí. • 4 Da igual. • 1 Sí.)"
-      }
+        "en": "Talk to Adrasteia in the throne room on the of the White Knights' Castle.",
+        "es": "Habla con Adrasteia en la sala del trono del White Knights' Castle."
+      },
+      "chatOptions": [
+        "1 Yes.",
+        "4 Never mind.",
+        "1 Yes."
+      ]
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Preparing disguise in the Wilderness",
       "text": {
-        "en": "Mine the argonlike rocks for 28 argonlike ore north-east of Fort Forinthry. (opciones de chat: 4 Let's continue our journey)",
-        "es": "Extrae 28 argonlike ore de las rocas argonlike al noreste de Fort Forinthry. (opciones de chat: 4 Continuemos nuestro viaje)"
-      }
+        "en": "Mine the argonlike rocks for 28 argonlike ore north-east of Fort Forinthry.",
+        "es": "Extrae 28 argonlike ore de las rocas argonlike al noreste de Fort Forinthry."
+      },
+      "chatOptions": [
+        "4 Let's continue our journey"
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Preparing disguise in the Wilderness",
       "text": {
-        "en": "Smelt at the furnace in the eastern ruins. (opciones de chat: 4 Let's continue our journey)",
-        "es": "Funde el mineral en el horno de las ruinas del este. (opciones de chat: 4 Continuemos nuestro viaje)"
-      }
+        "en": "Smelt at the furnace in the eastern ruins.",
+        "es": "Funde el mineral en el horno de las ruinas del este."
+      },
+      "chatOptions": [
+        "4 Let's continue our journey"
+      ]
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Preparing disguise in the Wilderness",
       "text": {
         "en": "Smith at the anvil in the building west of the Mage Arena.",
         "es": "Forja en el yunque del edificio al oeste del Mage Arena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Preparing disguise in the Wilderness",
       "text": {
         "en": "Talk to Adrasteia.",
         "es": "Habla con Adrasteia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Mage Arena",
       "text": {
         "en": "Wear or wield all the needed items.",
         "es": "Ponte o equípate todos los objetos necesarios."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Mage Arena",
       "text": {
-        "en": "Talk to Adrasteia the Forgotten to the south-east up the stairs leading up to the Mage Arena. (opciones de chat: 1 Yes, enter the Mage Arena.)",
-        "es": "Habla con Adrasteia the Forgotten al sureste, subiendo las escaleras que llevan al Mage Arena. (opciones de chat: 1 Sí, entrar en el Mage Arena.)"
-      }
+        "en": "Talk to Adrasteia the Forgotten to the south-east up the stairs leading up to the Mage Arena.",
+        "es": "Habla con Adrasteia the Forgotten al sureste, subiendo las escaleras que llevan al Mage Arena."
+      },
+      "chatOptions": [
+        "1 Yes, enter the Mage Arena."
+      ]
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Mage Arena",
       "text": {
         "en": "(You must have no additional items for the following steps. If you do, you can deposit them through the dialogue.)",
         "es": "(No debes llevar objetos adicionales para los siguientes pasos. Si los llevas, puedes depositarlos a través del diálogo.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Mage Arena",
       "text": {
-        "en": "Talk to Vengeance. (opciones de chat: 3 I wait for orders. • 1 I chase after them. • 3 I refuse. • 1 I'm ready)",
-        "es": "Habla con Vengeance. (opciones de chat: 3 Espero órdenes. • 1 Los persigo. • 3 Me niego. • 1 Estoy listo)"
-      }
+        "en": "Talk to Vengeance.",
+        "es": "Habla con Vengeance."
+      },
+      "chatOptions": [
+        "3 I wait for orders.",
+        "1 I chase after them.",
+        "3 I refuse.",
+        "1 I'm ready"
+      ]
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Mage Arena",
       "text": {
         "en": "Defeat the 3 waves of enemies.",
         "es": "Derrota las 3 oleadas de enemigos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "Mage Arena",
       "text": {
         "en": "You can use prayers. It is recommended to use magic protection prayers in waves 1, 2 and melee protection in wave 3.",
         "es": "Puedes usar oraciones. Se recomienda usar oraciones de protección mágica en las oleadas 1 y 2, y protección contra melé en la oleada 3."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 1,
+      "section": "Mage Arena",
       "text": {
         "en": "After each enemy is defeated, restore your health with the health orbs.",
         "es": "Después de derrotar a cada enemigo, restaura tu salud con los orbes de salud."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 1,
+      "section": "Mage Arena",
       "text": {
-        "en": "If you fail a wave two times, the wave can be skipped to continue. (opciones de chat: 2 Yes, and skip this combat encounter (2 attempts).)",
+        "en": "If you fail a wave two times, the wave can be skipped to continue.",
         "es": "Si fallas una oleada dos veces, se puede saltar para continuar. (opciones de chat: 2 Sí, y saltar este combate (2 intentos).)"
-      }
+      },
+      "chatOptions": [
+        "2 Yes, and skip this combat encounter (2 attempts)."
+      ]
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Mage Arena",
       "text": {
         "en": "Discover the scuff marks. (1/4)",
         "es": "Descubre las marcas de arañazos. (1/4)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Mage Arena",
       "text": {
         "en": "Eavesdrop the defeated forgotten mage in the north. (2/4)",
         "es": "Escucha a escondidas al mago olvidado derrotado en el norte. (2/4)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Mage Arena",
       "text": {
         "en": "Discover the scorch mark. (3/4)",
         "es": "Descubre la marca de quemadura. (3/4)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Mage Arena",
       "text": {
         "en": "Eavesdrop the defeated forgotten mage in the south. (4/4). Then talk to Adrasteia.",
         "es": "Escucha a escondidas al mago olvidado derrotado en el sur. (4/4). Luego habla con Adrasteia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Mage Arena",
       "text": {
         "en": "Talk to Kolodion.",
         "es": "Habla con Kolodion."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Mage Arena",
       "text": {
-        "en": "Exit the Mage Arena. (opciones de chat: 1 Yes, search the caves beneath the Mage Arena.)",
-        "es": "Sal del Mage Arena. (opciones de chat: 1 Sí, buscar en las cuevas debajo del Mage Arena.)"
-      }
+        "en": "Exit the Mage Arena.",
+        "es": "Sal del Mage Arena."
+      },
+      "chatOptions": [
+        "1 Yes, search the caves beneath the Mage Arena."
+      ]
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Ritual marker",
       "text": {
         "en": "Inspect the modified ritual marker.",
         "es": "Inspecciona el marcador de ritual modificado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Ritual marker",
       "text": {
         "en": "Take the rune pouch.",
         "es": "Coge la rune pouch."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Ritual marker",
       "text": {
         "en": "Search the rune pouch in your backpack.",
         "es": "Registra la rune pouch en tu mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Ritual marker",
       "text": {
         "en": "Take the white dust and choose the option empty rune pouch.",
         "es": "Coge el polvo blanco y elige la opción vaciar rune pouch."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Ritual marker",
       "text": {
         "en": "Use the one measly fire rune on a sharp rock.",
         "es": "Usa la única y miserable fire rune en una roca afilada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Ritual marker",
       "text": {
-        "en": "Talk to Adrasteia (opciones de chat: 2 [Show an item in your backpack to Adrasteia.]) and choose the option inert fire rune fragments.",
+        "en": "Talk to Adrasteia and choose the option inert fire rune fragments.",
         "es": "Habla con Adrasteia (opciones de chat: 2 [Mostrar un objeto de tu mochila a Adrasteia.]) y elige la opción fragmentos inertes de fire rune."
-      }
+      },
+      "chatOptions": [
+        "2 [Show an item in your backpack to Adrasteia.]"
+      ]
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Ritual marker",
       "text": {
         "en": "Use the pouch of white dust on the sparkling pool to the south.",
         "es": "Usa la pouch of white dust en el estanque brillante al sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Ritual marker",
       "text": {
         "en": "Sabotage the modified ritual marker and choose the option volatile fire rune fragments.",
         "es": "Sabotea el marcador de ritual modificado y elige la opción fragmentos volátiles de fire rune."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Ritual marker",
       "text": {
         "en": "Conceal the blatantly sabotaged ritual marker and choose the option soggy pouch of grey paste.",
         "es": "Oculta el marcador de ritual descaradamente saboteado y elige la opción soggy pouch of grey paste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Ritual marker",
       "text": {
-        "en": "Step into the sparkling pool. (opciones de chat: 1 Exit the cave and return to the deep Wilderness. • 3 [Say nothing])",
-        "es": "Métete en el estanque brillante. (opciones de chat: 1 Salir de la cueva y volver al Wilderness profundo. • 3 [No decir nada])"
-      }
+        "en": "Step into the sparkling pool.",
+        "es": "Métete en el estanque brillante."
+      },
+      "chatOptions": [
+        "1 Exit the cave and return to the deep Wilderness.",
+        "3 [Say nothing]"
+      ]
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Seating plan",
       "text": {
-        "en": "Talk to Adrasteia. (opciones de chat: 2 I have the seating plan • 1 The Asgarnian Ambassador • 3 The Kandarian Ambassador • 4 The Menaphite Ambassador • 2 The Misthalinian Ambassador • Any • 1 Yes)",
-        "es": "Habla con Adrasteia. (opciones de chat: 2 Tengo el plan de asientos • 1 El embajador Asgarniano • 3 El embajador Kandariano • 4 El embajador Menaphita • 2 El embajador Misthalaniano • Cualquiera • 1 Sí)"
-      }
+        "en": "Talk to Adrasteia.",
+        "es": "Habla con Adrasteia."
+      },
+      "chatOptions": [
+        "2 I have the seating plan",
+        "1 The Asgarnian Ambassador",
+        "3 The Kandarian Ambassador",
+        "4 The Menaphite Ambassador",
+        "2 The Misthalinian Ambassador",
+        "Any",
+        "1 Yes"
+      ]
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "The coronation and usurpation",
       "text": {
         "en": "(Cutscenes appear between the following steps. Clicking out of the dialogue after any of the cutscenes will cause you to rewatch the cutscenes. This will be a roughly 7 minute process.)",
         "es": "(Aparecerán cinemáticas entre los siguientes pasos. Salir del diálogo después de cualquiera de las cinemáticas hará que vuelvas a verlas. Esto llevará un proceso de unos 7 minutos.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 0,
+      "section": "The coronation and usurpation",
       "text": {
         "en": "Kill 10 forgotten warriors.",
         "es": "Mata a 10 forgotten warriors."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 1,
+      "section": "The coronation and usurpation",
       "text": {
         "en": "Use the abilities via the interface at the top of the screen. Make frequent use of the Blast ability () to kill multiple enemies around you.",
         "es": "Usa las habilidades a través de la interfaz en la parte superior de la pantalla. Usa con frecuencia la habilidad Blast () para matar a varios enemigos a tu alrededor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 0,
+      "section": "The coronation and usurpation",
       "text": {
         "en": "Kill 20 more forgotten warriors.",
         "es": "Mata a 20 forgotten warriors más."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Continue dialogue with Adrasteia.",
         "es": "Continúa el diálogo con Adrasteia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

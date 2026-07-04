@@ -2,7 +2,8 @@
   "id": "rat-catchers",
   "title": "Rat Catchers",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:05:29.128Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:51.874Z",
   "icon": "https://runescape.wiki/images/Rat_Catchers_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -179,551 +180,728 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Rat_Catchers_reward.png?6ebb4",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Gertrude in west edge of Varrock. (opciones de chat: 3 Talk about the 'Ratcatchers' quest. • Accept)",
-        "es": "Habla con Gertrude en el extremo oeste de Varrock. (opciones de chat: 3 Hablar sobre la misión 'Ratcatchers'. • Aceptar)"
-      }
+        "en": "Talk to Gertrude in west edge of Varrock.",
+        "es": "Habla con Gertrude en el extremo oeste de Varrock."
+      },
+      "chatOptions": [
+        "3 Talk about the 'Ratcatchers' quest.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Starting out",
       "text": {
-        "en": "If you have a Hellcat out (opciones de chat: 4 Talk about the 'Ratcatchers' quest. • Accept)",
-        "es": "Si tienes un Hellcat fuera (opciones de chat: 4 Hablar sobre la misión 'Ratcatchers'. • Aceptar)"
-      }
+        "en": "If you have a Hellcat out",
+        "es": "Si tienes un Hellcat fuera"
+      },
+      "chatOptions": [
+        "4 Talk about the 'Ratcatchers' quest.",
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Take out your cat or kitten.",
         "es": "Saca a tu gato o gatito."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Talk to Phingspet or Grimesquit in the Varrock Sewers right next to the eastern entrance of Varrock Palace (down the manhole).",
         "es": "Habla con Phingspet o Grimesquit en las Varrock Sewers, justo al lado de la entrada este de Varrock Palace (bajando por la alcantarilla)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Catch 8 rats with your cat or kitten by choosing the \"interact-with\" option. (opciones de chat: 2 Chase-Vermin.)",
-        "es": "Atrapa 8 ratas con tu gato o gatito eligiendo la opción \"interactuar con\". (opciones de chat: 2 Perseguir alimañas.)"
-      }
+        "en": "Catch 8 rats with your cat or kitten by choosing the \"interact-with\" option.",
+        "es": "Atrapa 8 ratas con tu gato o gatito eligiendo la opción \"interactuar con\"."
+      },
+      "chatOptions": [
+        "2 Chase-Vermin."
+      ]
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "The \"Hide familiar options\" setting must be off in the Gameplay settings.",
         "es": "La opción \"Ocultar opciones de familiares\" debe estar desactivada en los ajustes de juego."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Talk to them again to obtain a rat pole.",
         "es": "Habla con ellos de nuevo para obtener un rat pole."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Just the ticket",
       "text": {
         "en": "Talk to Jimmy Dazzler in the house in East Ardougne, directly west of the Flying Horse Inn, north-west of the Ardougne Castle. Ensure you finish the dialogue, or you will not be able to follow the next step.",
         "es": "Habla con Jimmy Dazzler en la casa de East Ardougne, justo al oeste de Flying Horse Inn, al noroeste de Ardougne Castle. Asegúrate de terminar el diálogo, o no podrás seguir con el siguiente paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Just the ticket",
       "text": {
-        "en": "Read the \"directions\" scroll he gives you. (opciones de chat: 1 Follow the directions to the house.)",
-        "es": "Lee el pergamino de \"indicaciones\" que te da. (opciones de chat: 1 Seguir las indicaciones hasta la casa.)"
-      }
+        "en": "Read the \"directions\" scroll he gives you.",
+        "es": "Lee el pergamino de \"indicaciones\" que te da."
+      },
+      "chatOptions": [
+        "1 Follow the directions to the house."
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Going through the garden",
       "text": {
         "en": "Avoid guards whilst traversing throughout. You can use Surge or Dive to navigate quickly.",
         "es": "Evita a los guardias mientras avanzas por el camino. Puedes usar Surge o Dive para moverte rápidamente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Going through the garden",
       "text": {
         "en": "Hide behind the hedges directly west of the mansion when the southwest guard walks toward the bridge.",
         "es": "Escóndete detrás de los setos justo al oeste de la mansión cuando el guardia del suroeste camine hacia el puente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Going through the garden",
       "text": {
         "en": "Run to the north-west corner when the guard is behind the hedges.",
         "es": "Corre hacia la esquina noroeste cuando el guardia esté detrás de los setos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Going through the garden",
       "text": {
         "en": "Run to the hedges directly north of the mansion.",
         "es": "Corre hacia los setos justo al norte de la mansión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Going through the garden",
       "text": {
         "en": "Climb up the nearby trellis on the northern of the mansion.",
         "es": "Sube por el enrejado cercano en el lado norte de la mansión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Catching the rats",
       "text": {
         "en": "Once inside continue to avoid guards. You can hide by the potted flower on the balcony first.",
         "es": "Una vez dentro, sigue evitando a los guardias. Puedes esconderte primero junto a la maceta con flores del balcón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Catching the rats",
       "text": {
         "en": "Wield your rat pole.",
         "es": "Equípate el rat pole."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Catching the rats",
       "text": {
-        "en": "Catch 1 rat with your cat in the north-west room. You may pick up your cat to prevent stuck outside. (opciones de chat: 1 Yes.)",
-        "es": "Atrapa 1 rata con tu gato en la habitación del noroeste. Puedes coger a tu gato para evitar que se quede atascado fuera. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Catch 1 rat with your cat in the north-west room. You may pick up your cat to prevent stuck outside.",
+        "es": "Atrapa 1 rata con tu gato en la habitación del noroeste. Puedes coger a tu gato para evitar que se quede atascado fuera."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Catching the rats",
       "text": {
         "en": "Find your way into the opposite bedroom across the hall and wait (or wait for one guard to be on the balcony and the second have his back appropriately turned to dash to the next room).",
         "es": "Dirígete al dormitorio opuesto al otro lado del pasillo y espera (o espera a que un guardia esté en el balcón y el segundo tenga la espalda girada adecuadamente para correr a la siguiente habitación)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Catching the rats",
       "text": {
-        "en": "Catch 2 rats with your cat in the south-east room. (opciones de chat: 1 Yes. • 1 Yes.)",
-        "es": "Atrapa 2 ratas con tu gato en la habitación del sureste. (opciones de chat: 1 Sí. • 1 Sí.)"
-      }
+        "en": "Catch 2 rats with your cat in the south-east room.",
+        "es": "Atrapa 2 ratas con tu gato en la habitación del sureste."
+      },
+      "chatOptions": [
+        "1 Yes.",
+        "1 Yes."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Catching the rats",
       "text": {
         "en": "Go down the ladder in the north-east of this room.",
         "es": "Baja por la escalera en el noreste de esta habitación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Catching the rats",
       "text": {
-        "en": "Catch 3 rats with your cat in this room and the room to the north. (opciones de chat: 1 Yes. • 1 Yes. • 1 Yes.)",
-        "es": "Atrapa 3 ratas con tu gato en esta habitación y en la habitación al norte. (opciones de chat: 1 Sí. • 1 Sí. • 1 Sí.)"
-      }
+        "en": "Catch 3 rats with your cat in this room and the room to the north.",
+        "es": "Atrapa 3 ratas con tu gato en esta habitación y en la habitación al norte."
+      },
+      "chatOptions": [
+        "1 Yes.",
+        "1 Yes.",
+        "1 Yes."
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Catching the rats",
       "text": {
         "en": "Leave the area by using Home Teleport to Ardougne lodestone.",
         "es": "Abandona la zona usando el Teletransporte al hogar hacia la piedra de viaje de Ardougne."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 1,
+      "section": "Catching the rats",
       "text": {
         "en": "You can also return to the trellis and climb down it to return directly to Jimmy.",
         "es": "También puedes volver al enrejado y bajar por él para regresar directamente con Jimmy."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Catching the rats",
       "text": {
         "en": "Talk to Jimmy Dazzler.",
         "es": "Habla con Jimmy Dazzler."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "Catching the rats",
       "text": {
         "en": "You can destroy your directions scroll now.",
         "es": "Ya puedes destruir tu pergamino de indicaciones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Hooknosed Jack",
       "text": {
         "en": "Talk to Hooknosed Jack in south-east Varrock, inside the fenced area past the guard.",
         "es": "Habla con Hooknosed Jack en el sureste de Varrock, dentro del área vallada, pasando al guardia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Hooknosed Jack",
       "text": {
-        "en": "If you need to make the rat poison and do not have the ingredients (clean kwuarm, red spiders eggs and an empty vial) in the backpack on the first talk, talk to him again. (opciones de chat: 1 Can you make me some rat poison?)",
-        "es": "Si necesitas fabricar el veneno para ratas y no tienes los ingredientes (clean kwuarm, red spiders eggs y un vial vacío) en la mochila la primera vez que hables con él, habla con él de nuevo. (opciones de chat: 1 ¿Puedes hacerme veneno para ratas?)"
-      }
+        "en": "If you need to make the rat poison and do not have the ingredients (clean kwuarm, red spiders eggs and an empty vial) in the backpack on the first talk, talk to him again.",
+        "es": "Si necesitas fabricar el veneno para ratas y no tienes los ingredientes (clean kwuarm, red spiders eggs y un vial vacío) en la mochila la primera vez que hables con él, habla con él de nuevo."
+      },
+      "chatOptions": [
+        "1 Can you make me some rat poison?"
+      ]
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Hooknosed Jack",
       "text": {
         "en": "Climb up the ladder in the warehouse directly south of the Dancing Donkey Inn.",
         "es": "Sube por la escalera en el almacén justo al sur de Dancing Donkey Inn."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Hooknosed Jack",
       "text": {
         "en": "Use rat poison on all 4 pieces of cheese.",
         "es": "Usa el veneno para ratas en los 4 trozos de queso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Hooknosed Jack",
       "text": {
         "en": "Use poisoned cheese on all of the rat holes.",
         "es": "Usa el queso envenenado en todos los agujeros de ratas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Hooknosed Jack",
       "text": {
-        "en": "Talk to Hooknosed Jack. (opciones de chat: 2 Can I help?)",
-        "es": "Habla con Hooknosed Jack. (opciones de chat: 2 ¿Puedo ayudar?)"
-      }
+        "en": "Talk to Hooknosed Jack.",
+        "es": "Habla con Hooknosed Jack."
+      },
+      "chatOptions": [
+        "2 Can I help?"
+      ]
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Hooknosed Jack",
       "text": {
-        "en": "Talk to the Apothecary in south-western Varrock for cat antipoison. (opciones de chat: 5 I need to talk to you about cats.)",
-        "es": "Habla con el Apothecary en el suroeste de Varrock para conseguir el antídoto para gatos. (opciones de chat: 5 Necesito hablarte sobre gatos.)"
-      }
+        "en": "Talk to the Apothecary in south-western Varrock for cat antipoison.",
+        "es": "Habla con el Apothecary en el suroeste de Varrock para conseguir el antídoto para gatos."
+      },
+      "chatOptions": [
+        "5 I need to talk to you about cats."
+      ]
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Hooknosed Jack",
       "text": {
-        "en": "If the first option is not 'Can you make a strength potion?', (opciones de chat: # Talk about something else. • 5 I need to talk to you about cats.)",
-        "es": "Si la primera opción no es '¿Puedes hacer una poción de fuerza?', (opciones de chat: # Hablar sobre otra cosa. • 5 Necesito hablarte sobre gatos.)"
-      }
+        "en": "If the first option is not 'Can you make a strength potion?',",
+        "es": "Si la primera opción no es '¿Puedes hacer una poción de fuerza?',"
+      },
+      "chatOptions": [
+        "# Talk about something else.",
+        "5 I need to talk to you about cats."
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Hooknosed Jack",
       "text": {
         "en": "Talk to Hooknosed Jack. Finish the dialogue or you will not be able to progress.",
         "es": "Habla con Hooknosed Jack. Termina el diálogo o no podrás avanzar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Hooknosed Jack",
       "text": {
         "en": "Climb up the ladder in the warehouse.",
         "es": "Sube por la escalera en el almacén."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Hooknosed Jack",
       "text": {
-        "en": "Pick up your cat and use it on the hole in wall (not the rat holes). (opciones de chat: 1 Yes • 1 Be careful in there, cat!) Make sure you finish the dialogue to start the fight, life points bars appear.",
+        "en": "Pick up your cat and use it on the hole in wall (not the rat holes). Make sure you finish the dialogue to start the fight, life points bars appear.",
         "es": "Coge a tu gato y úsalo en el agujero de la pared (no en los agujeros de ratas). (opciones de chat: 1 Sí • 1 ¡Ten cuidado ahí dentro, gato!) Asegúrate de terminar el diálogo para iniciar el combate; aparecerán las barras de puntos de vida."
-      }
+      },
+      "chatOptions": [
+        "1 Yes",
+        "1 Be careful in there, cat!"
+      ]
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Hooknosed Jack",
       "text": {
         "en": "Keep using fish on the hole in wall (not on the cat) to restore the cat's life points until the king rat dies.",
         "es": "Sigue usando pescado en el agujero de la pared (no en el gato) para restaurar los puntos de vida del gato hasta que muera la rata rey."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Hooknosed Jack",
       "text": {
         "en": "If you lose your cat by going down the ladder, exit to lobby out and join the world should return it to you.",
         "es": "Si pierdes a tu gato al bajar por la escalera, sal al lobby y vuelve a entrar al mundo; esto debería devolvértelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "Hooknosed Jack",
       "text": {
         "en": "If you are in a group or have lootshare active, then the kill will not register and you will need to go down the ladder to reset the king rat.",
         "es": "Si estás en un grupo o tienes el reparto de botín activado, la muerte no se registrará y tendrás que bajar por la escalera para reiniciar a la rata rey."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Hooknosed Jack",
       "text": {
         "en": "You may retrieve your cat by calling your follower or by climbing down the ladder.",
         "es": "Puedes recuperar a tu gato llamando a tu seguidor o bajando por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Hooknosed Jack",
       "text": {
         "en": "Talk to Jack to tell him the king rat is dead.",
         "es": "Habla con Jack para decirle que la rata rey ha muerto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Smokin' Joe",
       "text": {
-        "en": "Talk to Smokin' Joe in east Keldagrim, just east of the mining shop. (opciones de chat: 1 I could help you.)",
-        "es": "Habla con Smokin' Joe en el este de Keldagrim, justo al este de la tienda de minería. (opciones de chat: 1 Podría ayudarte.)"
-      }
+        "en": "Talk to Smokin' Joe in east Keldagrim, just east of the mining shop.",
+        "es": "Habla con Smokin' Joe en el este de Keldagrim, justo al este de la tienda de minería."
+      },
+      "chatOptions": [
+        "1 I could help you."
+      ]
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Smokin' Joe",
       "text": {
         "en": ": If this is your first time entering Keldagrim proceed with the following route:",
         "es": ": Si es la primera vez que entras en Keldagrim, sigue la siguiente ruta:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 1,
+      "section": "Smokin' Joe",
       "text": {
         "en": "Enter the tunnel north-east of Rellekka and Fremennik Province lodestone.",
         "es": "Entra en el túnel al noreste de Rellekka y de la piedra de viaje de Fremennik Province."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "Smokin' Joe",
       "text": {
         "en": "Go-through the cave entrance between the two dwarven statues.",
         "es": "Atraviesa la entrada de la cueva entre las dos estatuas de enanos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 1,
+      "section": "Smokin' Joe",
       "text": {
         "en": "Talk to the Dwarven Boatman and get him to take you into Keldagrim, this may cause you to automatically start the quest The Giant Dwarf.",
         "es": "Habla con el Dwarven Boatman y consigue que te lleve a Keldagrim; esto puede hacer que empieces automáticamente la misión The Giant Dwarf."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 1,
+      "section": "Smokin' Joe",
       "text": {
         "en": "Proceed to the east part of Keldagrim and talk with Smokin' Joe.",
         "es": "Dirígete a la parte este de Keldagrim y habla con Smokin' Joe."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Smokin' Joe",
       "text": {
         "en": "Use some weeds on an empty pot and light the pot of weeds.",
         "es": "Usa unas malas hierbas en una olla vacía y enciende la olla con las malas hierbas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Smokin' Joe",
       "text": {
         "en": "Use the smouldering pot on the rat hole near the crates on the southern wall.",
         "es": "Usa la olla humeante en el agujero de rata cerca de las cajas en la pared sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Smokin' Joe",
       "text": {
         "en": "Use the pot on the same hole again with your cat out and your catspeak amulet on, your cat will offer to help.",
         "es": "Usa la olla en el mismo agujero de nuevo con tu gato fuera y el catspeak amulet puesto; tu gato se ofrecerá a ayudar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 1,
+      "section": "Smokin' Joe",
       "text": {
         "en": "If your cat doesn't automatically initiate a conversation with you, you may have to attempt this a third time.",
         "es": "Si tu gato no inicia automáticamente una conversación contigo, puede que tengas que intentarlo una tercera vez."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Smokin' Joe",
       "text": {
         "en": "Talk to Joe again.",
         "es": "Habla con Joe de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 1,
+      "section": "Smokin' Joe",
       "text": {
         "en": "You can drop the smouldering pot now.",
         "es": "Ya puedes tirar la olla humeante."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "The Face and the Felkrash",
       "text": {
         "en": "Talk to Felkrash, north of Port Sarim lodestone.",
         "es": "Habla con Felkrash, al norte de la piedra de viaje de Port Sarim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "The Face and the Felkrash",
       "text": {
         "en": "Talk to The Face nearby.",
         "es": "Habla con The Face, cerca de allí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "The Face and the Felkrash",
       "text": {
         "en": "Head south of the bar in Pollnivneach.",
         "es": "Dirígete al sur del bar en Pollnivneach."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "The Face and the Felkrash",
       "text": {
-        "en": "Throw a coin into the money pot next to Badir the Snake Charmer (opciones de chat: 1 Yes.) and then complete the conversation. (opciones de chat: 2 I want to talk to you about animal charming. • 3 What if I offered you some money? • 2 Forget about it. I don't care. • 2 Walk away slowly • 1 Stop) (unless wearing a ring of charos).",
+        "en": "Throw a coin into the money pot next to Badir the Snake Charmer and then complete the conversation. (unless wearing a ring of charos).",
         "es": "Lanza una moneda al bote de dinero junto a Badir the Snake Charmer (opciones de chat: 1 Sí.) y luego completa la conversación. (opciones de chat: 2 Quiero hablar contigo sobre el encantamiento de animales. • 3 ¿Y si te ofreciera algo de dinero? • 2 Olvídalo. No me importa. • 2 Alejarse lentamente • 1 Parar) (a menos que lleves puesto un ring of charos)."
-      }
+      },
+      "chatOptions": [
+        "1 Yes.",
+        "2 I want to talk to you about animal charming.",
+        "3 What if I offered you some money?",
+        "2 Forget about it. I don't care.",
+        "2 Walk away slowly",
+        "1 Stop"
+      ]
     },
     {
       "index": 57,
       "indent": 1,
+      "section": "The Face and the Felkrash",
       "text": {
         "en": "He will give you a music scroll.",
         "es": "Te dará un pergamino de música."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "The Face and the Felkrash",
       "text": {
         "en": "If you have a snake charm in bank, retrieve it.",
         "es": "Si tienes un snake charm en el banco, recupéralo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "The Face and the Felkrash",
       "text": {
         "en": "Return to Port Sarim.",
         "es": "Vuelve a Port Sarim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "The Face and the Felkrash",
       "text": {
         "en": "Play the snake charm. Only 1 note can be set per page.",
         "es": "Toca el snake charm. Solo se puede establecer 1 nota por página."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 1,
+      "section": "The Face and the Felkrash",
       "text": {
         "en": "Go through the pages and click the correct notes (one note per page). The red dots in the music scroll correspond to the black dots on the flutes.",
         "es": "Recorre las páginas y haz clic en las notas correctas (una nota por página). Los puntos rojos del pergamino de música corresponden a los puntos negros de las flautas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 1,
+      "section": "The Face and the Felkrash",
       "text": {
         "en": "On page 5, click the <) icon in the top left before you play the note. You can go back and make corrections to the pages if needed.",
         "es": "En la página 5, haz clic en el icono <) de la esquina superior izquierda antes de tocar la nota. Puedes volver atrás y corregir las páginas si es necesario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 1,
+      "section": "The Face and the Felkrash",
       "text": {
         "en": "Click play once all the notes are correctly selected.",
         "es": "Haz clic en reproducir una vez que todas las notas estén seleccionadas correctamente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 1,
+      "section": "The Face and the Felkrash",
       "text": {
         "en": "There will be short cutscene upon completing correctly.",
         "es": "Habrá una breve escena al completarlo correctamente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "The Face and the Felkrash",
       "text": {
         "en": "Talk to Felkrash.",
         "es": "Habla con Felkrash."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 1,
+      "section": "The Face and the Felkrash",
       "text": {
         "en": "You can destroy your music scroll now.",
         "es": "Ya puedes destruir tu pergamino de música."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "The Face and the Felkrash",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

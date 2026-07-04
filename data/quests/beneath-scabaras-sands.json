@@ -2,7 +2,8 @@
   "id": "beneath-scabaras-sands",
   "title": "Beneath Scabaras' Sands",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:51:02.521Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:39.416Z",
   "icon": "https://runescape.wiki/images/thumb/Beneath_Scabaras%27_Sands_icon.png/50px-Beneath_Scabaras%27_Sands_icon.png",
   "series": "Desert",
   "age": "Age of Chaos",
@@ -96,495 +97,660 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Beneath_Scabaras%27_Sands_reward.png?883f9",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Collecting reports",
       "text": {
-        "en": "Enter the Golden Palace in Menaphos. (opciones de chat: 1 Yes.)",
-        "es": "Entra en el Golden Palace en Menaphos. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Enter the Golden Palace in Menaphos.",
+        "es": "Entra en el Golden Palace en Menaphos."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Collecting reports",
       "text": {
-        "en": "Talk to Pharaoh Osman, Chosen of Tumeken. (opciones de chat: Accept)",
-        "es": "Habla con Pharaoh Osman, Chosen of Tumeken. (opciones de chat: Accept)"
-      }
+        "en": "Talk to Pharaoh Osman, Chosen of Tumeken.",
+        "es": "Habla con Pharaoh Osman, Chosen of Tumeken."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Collecting reports",
       "text": {
-        "en": "Go across the bridge east of the Menaphos lodestone into Sophanem and talk to the High Priest. (opciones de chat: 1 Talk about 'Beneath Scabaras' Sands'.)",
-        "es": "Cruza el puente al este de la piedra de viaje de Menaphos hacia Sophanem y habla con el High Priest. (opciones de chat: 1 Talk about 'Beneath Scabaras' Sands'.)"
-      }
+        "en": "Go across the bridge east of the Menaphos lodestone into Sophanem and talk to the High Priest.",
+        "es": "Cruza el puente al este de la piedra de viaje de Menaphos hacia Sophanem y habla con el High Priest."
+      },
+      "chatOptions": [
+        "1 Talk about 'Beneath Scabaras' Sands'."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Collecting reports",
       "text": {
-        "en": "Go to Pollnivneach and talk to Hakeem the Mayor. (opciones de chat: 1 Talk about 'Beneath Scabaras' Sands'.)",
-        "es": "Ve a Pollnivneach y habla con Hakeem the Mayor. (opciones de chat: 1 Talk about 'Beneath Scabaras' Sands'.)"
-      }
+        "en": "Go to Pollnivneach and talk to Hakeem the Mayor.",
+        "es": "Ve a Pollnivneach y habla con Hakeem the Mayor."
+      },
+      "chatOptions": [
+        "1 Talk about 'Beneath Scabaras' Sands'."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Collecting reports",
       "text": {
-        "en": "Go to Nardah and talk to Awusah the Mayor. (opciones de chat: 1 Talk about 'Beneath Scabaras' Sands'.)",
-        "es": "Ve a Nardah y habla con Awusah the Mayor. (opciones de chat: 1 Talk about 'Beneath Scabaras' Sands'.)"
-      }
+        "en": "Go to Nardah and talk to Awusah the Mayor.",
+        "es": "Ve a Nardah y habla con Awusah the Mayor."
+      },
+      "chatOptions": [
+        "1 Talk about 'Beneath Scabaras' Sands'."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Collecting reports",
       "text": {
-        "en": "Go to Al Kharid and talk to Emir Ali Mirza in the Al Kharid palace. (opciones de chat: 1 Talk about 'Beneath Scabaras' Sands'. • Any)",
-        "es": "Ve a Al Kharid y habla con Emir Ali Mirza en el Al Kharid palace. (opciones de chat: 1 Talk about 'Beneath Scabaras' Sands'. • Any)"
-      }
+        "en": "Go to Al Kharid and talk to Emir Ali Mirza in the Al Kharid palace.",
+        "es": "Ve a Al Kharid y habla con Emir Ali Mirza en el Al Kharid palace."
+      },
+      "chatOptions": [
+        "1 Talk about 'Beneath Scabaras' Sands'.",
+        "Any"
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Under attack!",
       "text": {
-        "en": "Enter the Golden Palace in Menaphos. (opciones de chat: 1 Yes.)",
-        "es": "Entra en el Golden Palace en Menaphos. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Enter the Golden Palace in Menaphos.",
+        "es": "Entra en el Golden Palace en Menaphos."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Under attack!",
       "text": {
         "en": "Kill the 4 Profane Scabarites and burst the 4 corrupted scarabs nearby.",
         "es": "Mata a los 4 Profane Scabarites y revienta los 4 corrupted scarabs cercanos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Under attack!",
       "text": {
         "en": "Head down the steps near the Menaphos lodestone and kill the 4 Profane Scabarites and burst the 4 corrupted scarabs.",
         "es": "Baja las escaleras cerca de la piedra de viaje de Menaphos y mata a los 4 Profane Scabarites y revienta los 4 corrupted scarabs."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Under attack!",
       "text": {
         "en": "The Profane Scabarites and corrupted scarabs from the previous step must be dealt with for the ones on the lower level to spawn.",
         "es": "Hay que acabar con los Profane Scabarites y corrupted scarabs del paso anterior para que aparezcan los del nivel inferior."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Under attack!",
       "text": {
         "en": "Head back up to the palace and talk to Commander Akhomet.",
         "es": "Regresa al palacio y habla con Commander Akhomet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Under attack!",
       "text": {
         "en": "Enter the Golden Palace and talk to Pharaoh Osman, Chosen of Tumeken.",
         "es": "Entra en el Golden Palace y habla con Pharaoh Osman, Chosen of Tumeken."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "The hunt for the golden scarab",
       "text": {
-        "en": "Enter the Grand Library. (opciones de chat: 1 Beneath Scabaras' Sands)",
-        "es": "Entra en la Grand Library. (opciones de chat: 1 Beneath Scabaras' Sands)"
-      }
+        "en": "Enter the Grand Library.",
+        "es": "Entra en la Grand Library."
+      },
+      "chatOptions": [
+        "1 Beneath Scabaras' Sands"
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "The hunt for the golden scarab",
       "text": {
         "en": "Talk to Kohnen's assistant. You do not need to follow the assistant, and can just run ahead to Leela and Maisa who are in the south-western corner (down two levels, yellow dot on the minimap).",
         "es": "Habla con el assistant de Kohnen. No necesitas seguir al assistant, puedes correr directamente hacia Leela y Maisa, que están en la esquina suroeste (dos niveles más abajo, punto amarillo en el minimapa)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "The hunt for the golden scarab",
       "text": {
         "en": "Talk to Leela or Maisa.",
         "es": "Habla con Leela o Maisa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "The hunt for the golden scarab",
       "text": {
         "en": "Search the nearby bookcases until you obtain The Shiny Scarab.",
         "es": "Registra las estanterías cercanas hasta obtener The Shiny Scarab."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "The hunt for the golden scarab",
       "text": {
         "en": "The location can be different for each player.",
         "es": "La ubicación puede variar para cada jugador."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "The hunt for the golden scarab",
       "text": {
         "en": "Talk to Leela or Maisa again.",
         "es": "Vuelve a hablar con Leela o Maisa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "The hunt for the golden scarab",
       "text": {
-        "en": "Enter the Uzer Mastaba. (opciones de chat: 1 Head directly to the Pharaoh Queen.)",
-        "es": "Entra en la Uzer Mastaba. (opciones de chat: 1 Head directly to the Pharaoh Queen.)"
-      }
+        "en": "Enter the Uzer Mastaba.",
+        "es": "Entra en la Uzer Mastaba."
+      },
+      "chatOptions": [
+        "1 Head directly to the Pharaoh Queen."
+      ]
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "The hunt for the golden scarab",
       "text": {
-        "en": "You may use fairy ring .",
+        "en": "You may use fairy ring DLQ.",
         "es": "Puedes usar el fairy ring."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "The hunt for the golden scarab",
       "text": {
         "en": "Talk to Senliten.",
         "es": "Habla con Senliten."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "The hunt for the golden scarab",
       "text": {
         "en": "Talk to Lead Archaeologist Kerner in the ruins of Uzer.",
         "es": "Habla con Lead Archaeologist Kerner en las ruinas de Uzer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The hunt for the golden scarab",
       "text": {
-        "en": "Talk to Lead Archaeologist Kerner again. (opciones de chat: 1 Yes)",
-        "es": "Vuelve a hablar con Lead Archaeologist Kerner. (opciones de chat: 1 Yes)"
-      }
+        "en": "Talk to Lead Archaeologist Kerner again.",
+        "es": "Vuelve a hablar con Lead Archaeologist Kerner."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "The hunt for the golden scarab",
       "text": {
         "en": "Gather scorched sand from any of the nearby locations. Continue screening the sand with the screening tray until you have 30 Kharidian gold and 2 ancient rubies.",
         "es": "Recoge scorched sand de cualquiera de las ubicaciones cercanas. Sigue tamizando la arena con la screening tray hasta conseguir 30 Kharidian gold y 2 ancient rubies."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "The hunt for the golden scarab",
       "text": {
         "en": "Restore the damaged golden scarab with the nearby archaeologist's workbench.",
         "es": "Repara el damaged golden scarab en la mesa de trabajo del arqueólogo cercana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "The hunt for the golden scarab",
       "text": {
-        "en": "Return and enter the Golden Palace (opciones de chat: 1 Yes.)",
-        "es": "Regresa y entra en el Golden Palace. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Return and enter the Golden Palace",
+        "es": "Regresa y entra en el Golden Palace."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Talk to Pharaoh Osman, Chosen of Tumeken.",
         "es": "Habla con Pharaoh Osman, Chosen of Tumeken."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Talk to Leela just outside the northern gates of Menaphos.",
         "es": "Habla con Leela justo fuera de las puertas norte de Menaphos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Release the golden scarab.",
         "es": "Libera el golden scarab."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Follow the golden scarab at the locations indicated on the map on the right until you reach the Scabarite Cavern.",
         "es": "Sigue al golden scarab por las ubicaciones indicadas en el mapa de la derecha hasta llegar a la Scabarite Cavern."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Discovering the temple",
       "text": {
         "en": "Teleporting directly to the cavern will not work.",
         "es": "Teletransportarte directamente a la cueva no funcionará."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "Discovering the temple",
       "text": {
         "en": "Don't miss the final golden scarab spot directly in front of the cavern. Doing so will cause you to have to repeat the entire path from Menaphos.",
         "es": "No te pierdas el último punto del golden scarab justo frente a la cueva. Si lo haces, tendrás que repetir todo el recorrido desde Menaphos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
-        "en": "Enter the cave entrance. (opciones de chat: 1 Yes.)",
-        "es": "Entra en la entrada de la cueva. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Enter the cave entrance.",
+        "es": "Entra en la entrada de la cueva."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Head south and follow the golden scarab once more.",
         "es": "Dirígete al sur y sigue al golden scarab una vez más."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Scavenge the piles of debris in the cavern until you have five sets of boat materials. If a Profane Scabarite appears, it must be killed to obtain the materials. Teleporting out will result in loss of materials.",
         "es": "Rebusca en los montones de escombros de la cueva hasta conseguir cinco sets de boat materials. Si aparece un Profane Scabarite, deberás matarlo para obtener los materiales. Teletransportarte fuera hará que pierdas los materiales."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Repair the old boat.",
         "es": "Repara el old boat."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Travel with the old boat.",
         "es": "Viaja con el old boat."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Head east and up the steps and talk to Scabaras.",
         "es": "Dirígete al este, sube las escaleras y habla con Scabaras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Go back down the steps and interact with Fear. You need to keep interacting with Fear to scare it up the steps to Scabaras. Guide it up the northern side of the steps as it is more likely to get stuck on the southern side.",
         "es": "Baja de nuevo las escaleras e interactúa con Fear. Debes seguir interactuando con Fear para asustarlo y hacer que suba las escaleras hasta Scabaras. Guíalo por el lado norte de las escaleras, ya que es más probable que se atasque en el lado sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 1,
+      "section": "Discovering the temple",
       "text": {
         "en": "Only use the guide going up the first two stairs, after that, it is not accurate!",
         "es": "Solo usa la guía al subir los dos primeros tramos de escaleras; después de eso, ¡ya no es precisa!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Go through all options during the flashback. Scabaras will expect a specific response to each of his three statements, and the order is random for each player.",
         "es": "Recorre todas las opciones durante el flashback. Scabaras esperará una respuesta específica a cada una de sus tres afirmaciones, y el orden es aleatorio para cada jugador."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "Discovering the temple",
       "text": {
-        "en": "\"Mention of his children would have given him pause.\" (opciones de chat: 3 Amascut and Icthlarin are not ready.)",
-        "es": "\"Mention of his children would have given him pause.\" (opciones de chat: 3 Amascut and Icthlarin are not ready.)"
-      }
+        "en": "\"Mention of his children would have given him pause.\"",
+        "es": "\"Mention of his children would have given him pause.\""
+      },
+      "chatOptions": [
+        "3 Amascut and Icthlarin are not ready."
+      ]
     },
     {
       "index": 42,
       "indent": 1,
+      "section": "Discovering the temple",
       "text": {
-        "en": "\"What if we had proposed an alternative?\" (opciones de chat: 1 There has to be another way.)",
-        "es": "\"What if we had proposed an alternative?\" (opciones de chat: 1 There has to be another way.)"
-      }
+        "en": "\"What if we had proposed an alternative?\"",
+        "es": "\"What if we had proposed an alternative?\""
+      },
+      "chatOptions": [
+        "1 There has to be another way."
+      ]
     },
     {
       "index": 43,
       "indent": 1,
+      "section": "Discovering the temple",
       "text": {
-        "en": "\"What would Lady Elidinis have thought?\" (opciones de chat: 2 What insight has Lady Elidinis provided?)",
-        "es": "\"What would Lady Elidinis have thought?\" (opciones de chat: 2 What insight has Lady Elidinis provided?)"
-      }
+        "en": "\"What would Lady Elidinis have thought?\"",
+        "es": "\"What would Lady Elidinis have thought?\""
+      },
+      "chatOptions": [
+        "2 What insight has Lady Elidinis provided?"
+      ]
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
-        "en": "Following the cutscene, continue through the dialogue. (opciones de chat: Any)",
-        "es": "Tras la escena, continúa con el diálogo. (opciones de chat: Any)"
-      }
+        "en": "Following the cutscene, continue through the dialogue.",
+        "es": "Tras la escena, continúa con el diálogo."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Interact with Ego at the bottom of the steps.",
         "es": "Interactúa con Ego al pie de las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Pick from a cavern dwellberry bush near the old boat. Filling your backpack with several is helpful, but only one cavern dwellberry is needed if you're picking it back up just after dropping them in the next step.",
         "es": "Recoge de un cavern dwellberry bush cerca del old boat. Es útil llenar tu inventario con varias, pero solo necesitas una cavern dwellberry si vas a recogerla justo después de soltarla en el siguiente paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Drop the cavern dwellberries to lure Ego up the steps.",
         "es": "Suelta las cavern dwellberries para atraer a Ego escaleras arriba."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 1,
+      "section": "Discovering the temple",
       "text": {
         "en": "Ego can only be lured within five game squares.",
         "es": "A Ego solo se le puede atraer dentro de cinco casillas de juego."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Go through all options during the second flashback.",
         "es": "Recorre todas las opciones durante el segundo flashback."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 1,
+      "section": "Discovering the temple",
       "text": {
-        "en": "\"Taking a firmer stance against her transgression may have dissuaded her.\" (opciones de chat: 1 That is unacceptable!)",
-        "es": "\"Taking a firmer stance against her transgression may have dissuaded her.\" (opciones de chat: 1 That is unacceptable!)"
-      }
+        "en": "\"Taking a firmer stance against her transgression may have dissuaded her.\"",
+        "es": "\"Taking a firmer stance against her transgression may have dissuaded her.\""
+      },
+      "chatOptions": [
+        "1 That is unacceptable!"
+      ]
     },
     {
       "index": 51,
       "indent": 1,
+      "section": "Discovering the temple",
       "text": {
-        "en": "\"What if we had challenged her perspective?\" (opciones de chat: 2 Your father sought to protect you.)",
-        "es": "\"What if we had challenged her perspective?\" (opciones de chat: 2 Your father sought to protect you.)"
-      }
+        "en": "\"What if we had challenged her perspective?\"",
+        "es": "\"What if we had challenged her perspective?\""
+      },
+      "chatOptions": [
+        "2 Your father sought to protect you."
+      ]
     },
     {
       "index": 52,
       "indent": 1,
+      "section": "Discovering the temple",
       "text": {
-        "en": "\"What if we had placated her?\" (opciones de chat: 3 You are right.)",
-        "es": "\"What if we had placated her?\" (opciones de chat: 3 You are right.)"
-      }
+        "en": "\"What if we had placated her?\"",
+        "es": "\"What if we had placated her?\""
+      },
+      "chatOptions": [
+        "3 You are right."
+      ]
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Following the cutscene, continue through the dialogue.",
         "es": "Tras la escena, continúa con el diálogo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Discovering the temple",
       "text": {
         "en": "Interact with Melancholy at the bottom of the steps and use the chat options to motivate the scarab to make it move up the steps repeatedly. Go through all chat options until it moves from each stop.",
         "es": "Interactúa con Melancholy al pie de las escaleras y utiliza las opciones de chat para motivar al scarab repetidamente y hacer que suba las escaleras. Recorre todas las opciones de chat hasta que avance en cada parada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Stomping out the grief",
       "text": {
         "en": "After the third flashback, head down the steps to find Grief.",
         "es": "Después del tercer flashback, baja las escaleras para encontrar a Grief."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 1,
+      "section": "Stomping out the grief",
       "text": {
         "en": "Grief appears as a red dot on the minimap.",
         "es": "Grief aparece como un punto rojo en el minimapa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Stomping out the grief",
       "text": {
         "en": "Keep stamping out Grief until it transforms into a level 146 monster.",
         "es": "Sigue pisoteando a Grief hasta que se transforme en un monstruo de nivel 146."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Stomping out the grief",
       "text": {
         "en": "Defeat the monster.",
         "es": "Derrota al monstruo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Stomping out the grief",
       "text": {
-        "en": "Talk to Scabaras. (opciones de chat: 1 Ask about Amascut's plan. • 5 Continue Quest.)",
-        "es": "Habla con Scabaras. (opciones de chat: 1 Ask about Amascut's plan. • 5 Continue Quest.)"
-      }
+        "en": "Talk to Scabaras.",
+        "es": "Habla con Scabaras."
+      },
+      "chatOptions": [
+        "1 Ask about Amascut's plan.",
+        "5 Continue Quest."
+      ]
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Stomping out the grief",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

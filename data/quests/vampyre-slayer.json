@@ -2,7 +2,8 @@
   "id": "vampyre-slayer",
   "title": "Vampyre Slayer",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:27:27.002Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:34.448Z",
   "icon": "https://runescape.wiki/images/Vampyre_Slayer_icon.png",
   "series": null,
   "age": "5",
@@ -59,111 +60,143 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Vampyre_Slayer_reward.png?b13f8",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "A vampyric threat",
       "text": {
-        "en": "Talk to Morgan in Draynor Village. (opciones de chat: 2 What terrible threat? • Accept)",
-        "es": "Habla con Morgan en Draynor Village. (opciones de chat: 2 ¿Qué amenaza terrible? • Aceptar)"
-      }
+        "en": "Talk to Morgan in Draynor Village.",
+        "es": "Habla con Morgan en Draynor Village."
+      },
+      "chatOptions": [
+        "2 What terrible threat?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "A vampyric threat",
       "text": {
         "en": "Go upstairs and search in the northern drawers to get a garlic.",
         "es": "Sube las escaleras y busca en los cajones del norte para conseguir un ajo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "A vampyric threat",
       "text": {
         "en": "Go to the Blue Moon Inn located in Varrock.",
         "es": "Ve a la Blue Moon Inn, situada en Varrock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "A vampyric threat",
       "text": {
-        "en": "Talk to Dr Harlow. (opciones de chat: 2 Are you Dr Harlow, the famous vampyre slayer?)",
-        "es": "Habla con Dr Harlow. (opciones de chat: 2 ¿Eres el Dr Harlow, el famoso cazador de vampyros?)"
-      }
+        "en": "Talk to Dr Harlow.",
+        "es": "Habla con Dr Harlow."
+      },
+      "chatOptions": [
+        "2 Are you Dr Harlow, the famous vampyre slayer?"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "A vampyric threat",
       "text": {
         "en": "Buy a beer from the bartender.",
         "es": "Compra una cerveza al camarero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "A vampyric threat",
       "text": {
         "en": "Talk to Dr. Harlow again to get a stake and stake hammer.",
         "es": "Vuelve a hablar con Dr. Harlow para conseguir una estaca y un martillo para estacas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Slaying a vampyre",
       "text": {
         "en": "Go to Draynor Manor which is just north of Draynor Village.",
         "es": "Ve a Draynor Manor, justo al norte de Draynor Village."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Slaying a vampyre",
       "text": {
         "en": "Enter the manor and go to the east side.",
         "es": "Entra en la mansión y ve al lado este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Slaying a vampyre",
       "text": {
         "en": "Walk down the stairs.",
         "es": "Baja las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Slaying a vampyre",
       "text": {
         "en": "Open the coffin in the back of the room.",
         "es": "Abre el ataúd al fondo de la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Slaying a vampyre",
       "text": {
         "en": "Fight Count Draynor until he is almost dead, your character will then automatically use the stake hammer on him to kill him.",
         "es": "Lucha contra Count Draynor hasta que esté casi muerto; tu personaje usará automáticamente el martillo para estacas sobre él para matarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Return to Morgan.",
         "es": "Vuelve con Morgan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

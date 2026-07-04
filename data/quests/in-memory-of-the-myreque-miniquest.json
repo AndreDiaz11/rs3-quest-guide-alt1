@@ -2,7 +2,8 @@
   "id": "in-memory-of-the-myreque-miniquest",
   "title": "In Memory of the Myreque (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:30:53.642Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:27.479Z",
   "icon": "https://runescape.wiki/images/In_Memory_of_the_Myreque_%28miniquest%29_icon.png",
   "series": null,
   "age": "5",
@@ -322,39 +323,50 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/In_Memory_of_the_Myreque_%28miniquest%29_reward.png?57972",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Off to Canifis",
       "text": {
-        "en": "Talk to Veliaf Hurtz north of Canifis. (opciones de chat: Accept)",
-        "es": "Habla con Veliaf Hurtz al norte de Canifis. (opciones de chat: Accept)"
-      }
+        "en": "Talk to Veliaf Hurtz north of Canifis.",
+        "es": "Habla con Veliaf Hurtz al norte de Canifis."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Off to Canifis",
       "text": {
         "en": "Build ten statues on the statue plinths with two granite (5kg) for each statue.",
         "es": "Construye diez estatuas en los pedestales para estatuas con dos granitos (5kg) por cada estatua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Off to Canifis",
       "text": {
         "en": "Add the following items to each statue along with a blisterwood sickle.",
         "es": "Añade los siguientes objetos a cada estatua junto con una hoz de blisterwood."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Veliaf Hurtz.",
         "es": "Habla con Veliaf Hurtz."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

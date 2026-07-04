@@ -2,7 +2,8 @@
   "id": "catapult-construction",
   "title": "Catapult Construction",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:56:32.061Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:45.690Z",
   "icon": "https://runescape.wiki/images/Catapult_Construction_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -119,159 +120,216 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Catapult_Construction_reward.png?ab2f6",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Fetching the materials",
       "text": {
-        "en": "North of the Tyras camp, talk to the guard next to the catapult. (opciones de chat: Accept • 1 I guess you're going to get fired, then. • 1 What do you suggest? • 1 Alright, I'll go and speak to General Hining.)",
-        "es": "Al norte del campamento Tyras, habla con el guardia junto a la catapulta. (opciones de chat: Accept • 1 Supongo que entonces te van a despedir. • 1 ¿Qué sugieres? • 1 De acuerdo, iré a hablar con General Hining.)"
-      }
+        "en": "North of the Tyras camp, talk to the guard next to the catapult.",
+        "es": "Al norte del campamento Tyras, habla con el guardia junto a la catapulta."
+      },
+      "chatOptions": [
+        "Accept",
+        "1 I guess you're going to get fired, then.",
+        "1 What do you suggest?",
+        "1 Alright, I'll go and speak to General Hining."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Fetching the materials",
       "text": {
-        "en": "Talk to General Hining in Tyras Camp. (opciones de chat: 1 So, the Tyras Camp catapult is broken? • 1 Perhaps I can help to repair it? • 2 General, I believe I can be of service to you.)",
-        "es": "Habla con General Hining en Tyras Camp. (opciones de chat: 1 Entonces, ¿la catapulta de Tyras Camp está rota? • 1 ¿Quizás pueda ayudar a repararla? • 2 General, creo que puedo serle de utilidad.)"
-      }
+        "en": "Talk to General Hining in Tyras Camp.",
+        "es": "Habla con General Hining en Tyras Camp."
+      },
+      "chatOptions": [
+        "1 So, the Tyras Camp catapult is broken?",
+        "1 Perhaps I can help to repair it?",
+        "2 General, I believe I can be of service to you."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Fetching the materials",
       "text": {
         "en": "Teleport to the Tirannwn lodestone, then take the north-western path, cross the leaves trap, and then the sticks trap (south west of the log crossing shortcut) to find the Catapult engineer.",
         "es": "Teletranspórtate a la piedra de viaje de Tirannwn, luego toma el camino del noroeste, cruza la trampa de hojas y después la trampa de palos (al suroeste del atajo de cruce de troncos) para encontrar al Catapult engineer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Fetching the materials",
       "text": {
-        "en": "Talk to the Catapult engineer for schematics. (opciones de chat: 3 General Hining asked me to find you. • 2 I'm quite an experienced carpenter.)",
-        "es": "Habla con el Catapult engineer para conseguir los planos. (opciones de chat: 3 General Hining me pidió que te encontrara. • 2 Soy un carpintero bastante experimentado.)"
-      }
+        "en": "Talk to the Catapult engineer for schematics.",
+        "es": "Habla con el Catapult engineer para conseguir los planos."
+      },
+      "chatOptions": [
+        "3 General Hining asked me to find you.",
+        "2 I'm quite an experienced carpenter."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Fetching the materials",
       "text": {
         "en": "Read the schematics.",
         "es": "Lee los planos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Fetching the materials",
       "text": {
         "en": "Talk to the engineer again.",
         "es": "Habla de nuevo con el ingeniero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Fetching the materials",
       "text": {
-        "en": "Talk to Rolad at the Dwarven Mine camp, south of Ice Mountain. (North-east of Falador lodestone) (opciones de chat: 2 Can I have the metal parts for the Tyras Camp catapult please?)",
-        "es": "Habla con Rolad en el campamento de Dwarven Mine, al sur de Ice Mountain. (Al noreste de la piedra de viaje de Falador) (opciones de chat: 2 ¿Podría darme las piezas metálicas para la catapulta de Tyras Camp, por favor?)"
-      }
+        "en": "Talk to Rolad at the Dwarven Mine camp, south of Ice Mountain. (North-east of Falador lodestone)",
+        "es": "Habla con Rolad en el campamento de Dwarven Mine, al sur de Ice Mountain. (Al noreste de la piedra de viaje de Falador)"
+      },
+      "chatOptions": [
+        "2 Can I have the metal parts for the Tyras Camp catapult please?"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Fetching the materials",
       "text": {
-        "en": "Talk to Thaki inside Port Sarim's pub. (opciones de chat: 2 You're right, I'm not a sailor.)",
-        "es": "Habla con Thaki dentro del pub de Port Sarim. (opciones de chat: 2 Tienes razón, no soy marinero.)"
-      }
+        "en": "Talk to Thaki inside Port Sarim's pub.",
+        "es": "Habla con Thaki dentro del pub de Port Sarim."
+      },
+      "chatOptions": [
+        "2 You're right, I'm not a sailor."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Fetching the materials",
       "text": {
         "en": "Search the drunken sailor outside.",
         "es": "Registra al marinero borracho de fuera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Fetching the materials",
       "text": {
         "en": "Wear the sailor's hat and talk to Thaki again.",
         "es": "Ponte el sombrero del marinero y habla de nuevo con Thaki."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Building the catapult",
       "text": {
         "en": "Return to the catapult north of the Tyras Camp and talk to the guard.",
         "es": "Vuelve a la catapulta al norte de Tyras Camp y habla con el guardia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Building the catapult",
       "text": {
         "en": "Copy the solution below. Use the big buttons to swap sides.",
         "es": "Copia la solución de abajo. Usa los botones grandes para cambiar de lado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Catapult testing",
       "text": {
-        "en": "Talk to the guard. (opciones de chat: 1 Yes, I'll have a go.)",
-        "es": "Habla con el guardia. (opciones de chat: 1 Sí, lo intentaré.)"
-      }
+        "en": "Talk to the guard.",
+        "es": "Habla con el guardia."
+      },
+      "chatOptions": [
+        "1 Yes, I'll have a go."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Catapult testing",
       "text": {
         "en": "Move the catapult left or right so the arrow at the bottom middle aligns with the target rock.",
         "es": "Mueve la catapulta a izquierda o derecha para que la flecha del centro inferior se alinee con la roca objetivo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Catapult testing",
       "text": {
         "en": "Shoot the middle rock - 0/6 green bars on Counterweight.",
         "es": "Dispara a la roca del medio - 0/6 barras verdes en Counterweight."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Catapult testing",
       "text": {
         "en": "Left rock (four points left of middle rock) - 5/6 green bars on Counterweight.",
         "es": "Roca izquierda (cuatro puntos a la izquierda de la roca del medio) - 5/6 barras verdes en Counterweight."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Catapult testing",
       "text": {
         "en": "Right rock (two points right of middle rock, one turn left from far right) - 6/6 green bars on Counterweight.",
         "es": "Roca derecha (dos puntos a la derecha de la roca del medio, un giro a la izquierda desde el extremo derecho) - 6/6 barras verdes en Counterweight."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Catapult testing",
       "text": {
         "en": "Talk to the guard again.",
         "es": "Habla de nuevo con el guardia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Catapult testing",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

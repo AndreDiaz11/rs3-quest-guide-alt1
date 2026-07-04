@@ -2,7 +2,8 @@
   "id": "holy-grail",
   "title": "Holy Grail",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:28:53.644Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:24.345Z",
   "icon": "https://runescape.wiki/images/Holy_Grail_icon.png",
   "series": "Camelot",
   "age": "5",
@@ -89,191 +90,256 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Holy_Grail_reward.png?e3c94",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Royal hunt",
       "text": {
-        "en": "Talk to King Arthur in Camelot Castle. (opciones de chat: 1 Tell me of this quest. • Accept)",
-        "es": "Habla con King Arthur en Camelot Castle. (opciones de chat: 1 Cuéntame sobre esta misión. • Aceptar)"
-      }
+        "en": "Talk to King Arthur in Camelot Castle.",
+        "es": "Habla con King Arthur en Camelot Castle."
+      },
+      "chatOptions": [
+        "1 Tell me of this quest.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Royal hunt",
       "text": {
-        "en": "Go to the using the staircase and talk to Merlin. (opciones de chat: 2 Where can I find Sir Galahad?)",
-        "es": "Sube por la escalera y habla con Merlin. (opciones de chat: 2 ¿Dónde puedo encontrar a Sir Galahad?)"
-      }
+        "en": "Go to the using the staircase and talk to Merlin.",
+        "es": "Sube por la escalera y habla con Merlin."
+      },
+      "chatOptions": [
+        "2 Where can I find Sir Galahad?"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The Fisher King",
       "text": {
         "en": "Go to Entrana by talking to a Monk of Entrana. You will be asked to bank armour and weapons, which can also be done at the bank deposit box at the docks.",
         "es": "Ve a Entrana hablando con un Monk of Entrana. Te pedirán que guardes tu armadura y armas en el banco, algo que también puedes hacer en el buzón de depósito bancario de los muelles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The Fisher King",
       "text": {
-        "en": "Speak to the high priest, who is in the main chapel of the church. (opciones de chat: 1 What can you tell me about this place?)",
-        "es": "Habla con el sumo sacerdote, que se encuentra en la capilla principal de la iglesia. (opciones de chat: 1 ¿Qué puedes contarme sobre este lugar?)"
-      }
+        "en": "Speak to the high priest, who is in the main chapel of the church.",
+        "es": "Habla con el sumo sacerdote, que se encuentra en la capilla principal de la iglesia."
+      },
+      "chatOptions": [
+        "1 What can you tell me about this place?"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The Fisher King",
       "text": {
-        "en": "Speak to the crone who appears. (opciones de chat: 4 I will go searching.)",
-        "es": "Habla con la anciana que aparece. (opciones de chat: 4 Iré a buscar.)"
-      }
+        "en": "Speak to the crone who appears.",
+        "es": "Habla con la anciana que aparece."
+      },
+      "chatOptions": [
+        "4 I will go searching."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Another realm",
       "text": {
         "en": "Head to Seers' Village lodestone.",
         "es": "Dirígete a la piedra de viaje de Seers' Village."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Another realm",
       "text": {
-        "en": "Talk to Galahad, located in a building west of McGrubor's Wood and east of the coal trucks. (opciones de chat: 2 I'm on a quest to find the Holy Grail! • 3 Why did you leave?)",
-        "es": "Habla con Galahad, que se encuentra en un edificio al oeste de McGrubor's Wood y al este de los camiones de carbón. (opciones de chat: 2 ¡Estoy en una misión para encontrar el Holy Grail! • 3 ¿Por qué te fuiste?)"
-      }
+        "en": "Talk to Galahad, located in a building west of McGrubor's Wood and east of the coal trucks.",
+        "es": "Habla con Galahad, que se encuentra en un edificio al oeste de McGrubor's Wood y al este de los camiones de carbón."
+      },
+      "chatOptions": [
+        "2 I'm on a quest to find the Holy Grail!",
+        "3 Why did you leave?"
+      ]
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Another realm",
       "text": {
         "en": "You must speak to the crone on Entrana first, or he will not give you the holy table napkin.",
         "es": "Primero debes hablar con la anciana en Entrana, o no te dará la holy table napkin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Another realm",
       "text": {
         "en": "Take the holy table napkin to the southern room of the top-most floor of Draynor Manor. The way to the topmost floor is by climbing the main staircase and using the ladder on the southern wall.",
         "es": "Lleva la holy table napkin a la habitación sur del piso más alto de Draynor Manor. Para llegar al piso más alto, sube por la escalera principal y usa la escalera de mano en la pared sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Another realm",
       "text": {
         "en": "Pick up the two magic whistles on the table.",
         "es": "Coge los dos magic whistle que hay sobre la mesa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Black guardian",
       "text": {
         "en": "Go to Brimhaven and blow the whistle under the wooden watchtower (refer to the map on the right).",
         "es": "Ve a Brimhaven y toca el silbato bajo la torre de vigilancia de madera (consulta el mapa a la derecha)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Black guardian",
       "text": {
         "en": "Go north-west and defeat Black Knight Titan with Excalibur. Low levels may find it useful to safespot the Black Knight Titan with Magic, Ranged, or Necromancy and last hit him with Excalibur.",
         "es": "Ve al noroeste y derrota a Black Knight Titan con Excalibur. Los jugadores de nivel bajo pueden encontrar útil atacar a Black Knight Titan desde una posición segura con Magia, Distancia o Nigromancia, y darle el golpe final con Excalibur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Black guardian",
       "text": {
-        "en": "Head south along the river and talk to the fisherman by the river. (opciones de chat: 2 Any idea how to get into the castle?)",
-        "es": "Dirígete al sur siguiendo el río y habla con el pescador junto al río. (opciones de chat: 2 ¿Tienes idea de cómo entrar en el castillo?)"
-      }
+        "en": "Head south along the river and talk to the fisherman by the river.",
+        "es": "Dirígete al sur siguiendo el río y habla con el pescador junto al río."
+      },
+      "chatOptions": [
+        "2 Any idea how to get into the castle?"
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Black guardian",
       "text": {
         "en": "Be sure to keep the magic whistle in your inventory from this point forward.",
         "es": "Asegúrate de mantener el magic whistle en tu inventario a partir de ahora."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Heirloom",
       "text": {
         "en": "Go south-west, to the castle. Take the grail bell on the ground outside the castle and ring it.",
         "es": "Ve al suroeste, hacia el castillo. Coge la grail bell del suelo fuera del castillo y hazla sonar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Heirloom",
       "text": {
-        "en": "Head upstairs using the south staircase and talk to the Fisher King. (opciones de chat: 3 You don't look too well.)",
-        "es": "Sube por la escalera sur y habla con el Fisher King. (opciones de chat: 3 No te ves muy bien.)"
-      }
+        "en": "Head upstairs using the south staircase and talk to the Fisher King.",
+        "es": "Sube por la escalera sur y habla con el Fisher King."
+      },
+      "chatOptions": [
+        "3 You don't look too well."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Heirloom",
       "text": {
         "en": "Talk to King Arthur in Camelot Castle. Make sure you have space to receive the magic gold feather.",
         "es": "Habla con King Arthur en Camelot Castle. Asegúrate de tener espacio para recibir la magic gold feather."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Heirloom",
       "text": {
         "en": "Teleport to the Falador lodestone.",
         "es": "Teletranspórtate a la piedra de viaje de Falador."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Heirloom",
       "text": {
-        "en": "Head north to the Goblin Village, go into the eastern house, and right-click to open the sacks to find Sir Percival. (opciones de chat: 3 Your father wishes to speak to you.)",
-        "es": "Dirígete al norte hacia Goblin Village, entra en la casa del este y haz clic derecho para abrir los sacos y encontrar a Sir Percival. (opciones de chat: 3 Tu padre quiere hablar contigo.)"
-      }
+        "en": "Head north to the Goblin Village, go into the eastern house, and right-click to open the sacks to find Sir Percival.",
+        "es": "Dirígete al norte hacia Goblin Village, entra en la casa del este y haz clic derecho para abrir los sacos y encontrar a Sir Percival."
+      },
+      "chatOptions": [
+        "3 Your father wishes to speak to you."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Heirloom",
       "text": {
-        "en": "Return to the Fisher King's castle in his realm by blowing your whistle north west of Brimhaven (or by using Fairy ring ).",
+        "en": "Return to the Fisher King's castle in his realm by blowing your whistle north west of Brimhaven (or by using Fairy ring BJR).",
         "es": "Regresa al castillo del Fisher King en su reino tocando tu silbato al noroeste de Brimhaven (o usando el Fairy ring)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Heirloom",
       "text": {
         "en": "Go up the staircase on the east side of the castle, climb to the top floor and grab the Holy grail.",
         "es": "Sube por la escalera del lado este del castillo, llega hasta el piso más alto y coge el Holy grail."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Heirloom",
       "text": {
         "en": "Go back to King Arthur.",
         "es": "Vuelve con King Arthur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Heirloom",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

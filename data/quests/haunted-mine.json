@@ -2,7 +2,8 @@
   "id": "haunted-mine",
   "title": "Haunted Mine",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:26:26.801Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:20.844Z",
   "icon": "https://runescape.wiki/images/Haunted_Mine_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -92,359 +93,456 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Haunted_Mine_reward.png?abc78",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Saradominist Zealot",
       "text": {
-        "en": "Speak to the Zealot, north of the mine west of Burgh de Rott. (opciones de chat: 1 I follow the path of Saradomin. • 1 I come seeking challenges and quests. • Accept • 1 Is there any other way into the mines? • 3 Can I borrow your key?)",
-        "es": "Habla con el Zealot, al norte de la mina, al oeste de Burgh de Rott. (opciones de chat: 1 I follow the path of Saradomin. • 1 I come seeking challenges and quests. • Accept • 1 Is there any other way into the mines? • 3 Can I borrow your key?)"
-      }
+        "en": "Speak to the Zealot, north of the mine west of Burgh de Rott.",
+        "es": "Habla con el Zealot, al norte de la mina, al oeste de Burgh de Rott."
+      },
+      "chatOptions": [
+        "1 I follow the path of Saradomin.",
+        "1 I come seeking challenges and quests.",
+        "Accept",
+        "1 Is there any other way into the mines?",
+        "3 Can I borrow your key?"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Saradominist Zealot",
       "text": {
         "en": "Pickpocket Zealot to get Zealot's key.",
         "es": "Roba al Zealot para conseguir la Zealot's key."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Saradominist Zealot",
       "text": {
         "en": "Climb over the cart to the south and crawl-down the cart tunnel.",
         "es": "Trepa por encima de la vagoneta al sur y gatea hacia abajo por el túnel de la vagoneta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Navigating the cave",
       "text": {
         "en": "Run directly west through the cave and crawl-through the cart tunnel.",
         "es": "Corre directamente hacia el oeste a través de la cueva y gatea a través del túnel de la vagoneta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Navigating the cave",
       "text": {
         "en": "Re-enter the cave via the southern entrance.",
         "es": "Vuelve a entrar en la cueva por la entrada sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Navigating the cave",
       "text": {
         "en": "Descend the nearby ladder to the east.",
         "es": "Baja por la escalera cercana al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Navigating the cave",
       "text": {
         "en": "Go down the ladder directly east.",
         "es": "Baja por la escalera directamente al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Navigating the cave",
       "text": {
         "en": "Go down the south ladder (beware of the moving cart — follow it as it moves south and step off the track when you can).",
         "es": "Baja por la escalera del sur (cuidado con la vagoneta en movimiento; síguela mientras se mueve hacia el sur y apártate de la vía cuando puedas)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Pick a glowing fungus (J).",
         "es": "Recoge un hongo brillante (J)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Use the glowing fungus on the mine cart (K).",
         "es": "Usa el hongo brillante en la vagoneta minera (K)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Check points settings (L).",
         "es": "Comprueba la configuración de puntos (L)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Compare your tracks to the correct version (pictured in bright red). Remember the letters where the track needs to be changed. Pull the levers at (M) and (N) so that the bright red arrows match. (You can also examine the levers to find the corresponding letter).",
         "es": "Compara tus vías con la versión correcta (mostrada en rojo brillante). Recuerda las letras donde la vía necesita cambiarse. Tira de las palancas en (M) y (N) para que las flechas rojas brillantes coincidan. (También puedes examinar las palancas para encontrar la letra correspondiente)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Return to (L) and check points settings. Click start.",
         "es": "Vuelve a (L) y comprueba la configuración de puntos. Haz clic en start."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "If you fail and manage to put the mine cart in water, you will need to pick another glowing fungus to put into the mine cart.",
         "es": "Si fallas y terminas metiendo la vagoneta minera en el agua, tendrás que recoger otro hongo brillante para ponerlo en la vagoneta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Your character will say \"I wonder if that cart is anywhere useful now?\" when the puzzle is complete.",
         "es": "Tu personaje dirá \"I wonder if that cart is anywhere useful now?\" cuando se complete el puzle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Make your way back to the very first cave room, by backtracking or teleporting out and coming back.",
         "es": "Regresa a la primera sala de la cueva, ya sea desandando el camino o teletransportándote fuera y volviendo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "You can use the Drakan's medallion or games necklace for quicker access if you have it, to teleport to Burgh de Rott. Otherwise continue with the instructions in this section.",
         "es": "Puedes usar el Drakan's medallion o el games necklace para un acceso más rápido si los tienes, para teletransportarte a Burgh de Rott. Si no, continúa con las instrucciones de esta sección."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Go up the ladder by the glowing fungus spawn.",
         "es": "Sube por la escalera junto al punto de aparición del hongo brillante."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Go north past the haunted cart, then the first wing east, climb up the ladder.",
         "es": "Ve hacia el norte pasando la vagoneta encantada, luego el primer ala hacia el este, y sube por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Go west, climb up the ladder.",
         "es": "Ve al oeste y sube por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Go west and exit the cave.",
         "es": "Ve al oeste y sal de la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Enter the northern cave.",
         "es": "Entra en la cueva del norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Go down the nearby ladder, just to the east.",
         "es": "Baja por la escalera cercana, justo al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Go north-east and down the ladder by the doors.",
         "es": "Ve al noreste y baja por la escalera junto a las puertas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Glowing mushrooms",
       "text": {
         "en": "Go west and down the ladder in the north-west corner.",
         "es": "Ve al oeste y baja por la escalera en la esquina noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Glowing mushrooms",
       "text": {
-        "en": "Search the cart just south to get the fungus. (opciones de chat: 1 Take it.)",
-        "es": "Registra la vagoneta justo al sur para conseguir el hongo. (opciones de chat: 1 Take it.)"
-      }
+        "en": "Search the cart just south to get the fungus.",
+        "es": "Registra la vagoneta justo al sur para conseguir el hongo."
+      },
+      "chatOptions": [
+        "1 Take it."
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Treus Dayth fight",
       "text": {
         "en": "With the fungus, go back up the ladder.",
         "es": "Con el hongo, vuelve a subir por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Treus Dayth fight",
       "text": {
         "en": "Run east, go past the ladder going up, and go down the ladder (beware of the moving cart).",
         "es": "Corre hacia el este, pasa la escalera que sube, y baja por la escalera (cuidado con la vagoneta en movimiento)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Treus Dayth fight",
       "text": {
         "en": "Run south (on the east path when it splits) and use Zealot's Key on water valve (P).",
         "es": "Corre hacia el sur (por el camino este cuando se divide) y usa la Zealot's Key en la válvula de agua (P)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Treus Dayth fight",
       "text": {
         "en": "Go down the lift directly south of the water valve.",
         "es": "Baja por el montacargas justo al sur de la válvula de agua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Treus Dayth fight",
       "text": {
         "en": "You should fall into a chamber full of water. From the flooded chamber, walk south onto the track and follow it to the east. Walk down the stairs.",
         "es": "Deberías caer en una cámara llena de agua. Desde la cámara inundada, camina hacia el sur hasta la vía y síguela hacia el este. Baja las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Treus Dayth fight",
       "text": {
         "en": "Go directly west and through the door.",
         "es": "Ve directamente al oeste y cruza la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Treus Dayth fight",
       "text": {
         "en": "Try to pick up the innocent looking key to the west, sitting on the crate just north of the crane.",
         "es": "Intenta coger la llave de aspecto inocente al oeste, que está sobre la caja justo al norte de la grúa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Treus Dayth fight",
       "text": {
         "en": "Kill Treus Dayth.",
         "es": "Mata a Treus Dayth."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Treus Dayth fight",
       "text": {
         "en": "Pick up the key.",
         "es": "Recoge la llave."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Treus Dayth fight",
       "text": {
         "en": "Optional: Add it to the steel key ring if you have it.",
         "es": "Opcional: Añádela al steel key ring si lo tienes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Getting the crystal",
       "text": {
         "en": "Walk up the stairs you came from (in the east room).",
         "es": "Sube las escaleras por donde viniste (en la sala este)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Getting the crystal",
       "text": {
         "en": "Walk down the stairs to the far west.",
         "es": "Baja las escaleras hacia el extremo oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Getting the crystal",
       "text": {
         "en": "Open the large door.",
         "es": "Abre la puerta grande."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Getting the crystal",
       "text": {
         "en": "Cut a piece of crystal outcrop.",
         "es": "Corta un trozo del afloramiento de cristal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Getting the crystal",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "Getting the crystal",
       "text": {
         "en": "[Optional] If you want extra salve amulets you can mine multiple crystals.",
         "es": "[Opcional] Si quieres amuletos de salve extra, puedes minar varios cristales."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 1,
+      "section": "Getting the crystal",
       "text": {
         "en": "[Optional] First mine a mithril ore vein to the near the large doors on cave level 2 for an achievement.",
         "es": "[Opcional] Primero mina una veta de mithril cerca de las puertas grandes en el nivel 2 de la cueva para conseguir un logro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 2,
+      "section": "Getting the crystal",
       "text": {
         "en": "You can get there by backtracking. Up the lift, then up the ladder to the north, then up the ladder to the north again. Through both large doors to the West and the vein is immediately north.",
         "es": "Puedes llegar allí desandando el camino. Sube por el montacargas, luego sube por la escalera hacia el norte, y luego sube de nuevo por la escalera hacia el norte. Cruza ambas puertas grandes hacia el oeste y la veta está justo al norte."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "lunar-diplomacy",
   "title": "Lunar Diplomacy",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T01:55:59.544Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:34.963Z",
   "icon": "https://runescape.wiki/images/Lunar_Diplomacy_icon.png",
   "series": "Fremennik",
   "age": "5",
@@ -211,847 +212,1101 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Lunar_Diplomacy_reward.png?e3746",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Choose the 'talk to' option on Lokar Searunner on Rellekka's westernmost dock. (opciones de chat: 2 You've been away from these parts for a while? • 1 Why did you leave? • Accept)",
-        "es": "Elige la opción 'hablar con' en Lokar Searunner en el muelle más occidental de Rellekka. (opciones de chat: 2 ¿Llevas un tiempo fuera de estos lares? • 1 ¿Por qué te fuiste? • Aceptar)"
-      }
+        "en": "Choose the 'talk to' option on Lokar Searunner on Rellekka's westernmost dock.",
+        "es": "Elige la opción 'hablar con' en Lokar Searunner en el muelle más occidental de Rellekka."
+      },
+      "chatOptions": [
+        "2 You've been away from these parts for a while?",
+        "1 Why did you leave?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Speak to Brundt the Chieftain in the Longhall for a seal of passage. (opciones de chat: 1 Ask about a seal of passage.)",
-        "es": "Habla con Brundt the Chieftain en el Longhall para conseguir un sello de paso. (opciones de chat: 1 Preguntar sobre un sello de paso.)"
-      }
+        "en": "Speak to Brundt the Chieftain in the Longhall for a seal of passage.",
+        "es": "Habla con Brundt the Chieftain en el Longhall para conseguir un sello de paso."
+      },
+      "chatOptions": [
+        "1 Ask about a seal of passage."
+      ]
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "You will need to keep the seal on you while on the island. Talking to anyone without it will teleport you back to Rellekka.",
         "es": "Deberás llevar el sello contigo mientras estés en la isla. Hablar con cualquiera sin él te teletransportará de vuelta a Rellekka."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Return and talk to Lokar. (opciones de chat: 1 Arrr! Yar! Let's be on our way, yar!)",
-        "es": "Vuelve y habla con Lokar. (opciones de chat: 1 ¡Arrr! ¡Yar! ¡En marcha, yar!)"
-      }
+        "en": "Return and talk to Lokar.",
+        "es": "Vuelve y habla con Lokar."
+      },
+      "chatOptions": [
+        "1 Arrr! Yar! Let's be on our way, yar!"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Climb the ladder and board the pirate ship. Talk to Captain Bentley about sailing to Lunar Isle. (opciones de chat: 4 Can we sail to Lunar Isle now?)",
-        "es": "Sube por la escalera y embarca en el barco pirata. Habla con Captain Bentley sobre navegar a Lunar Isle. (opciones de chat: 4 ¿Podemos navegar ya hacia Lunar Isle?)"
-      }
+        "en": "Climb the ladder and board the pirate ship. Talk to Captain Bentley about sailing to Lunar Isle.",
+        "es": "Sube por la escalera y embarca en el barco pirata. Habla con Captain Bentley sobre navegar a Lunar Isle."
+      },
+      "chatOptions": [
+        "4 Can we sail to Lunar Isle now?"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Climb down the central ladder.",
         "es": "Baja por la escalera central."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Below deck, talk to 'Bird's-Eye' Jack to the south-west.",
         "es": "Bajo cubierta, habla con 'Bird's-Eye' Jack al suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Captain Bentley again. (opciones de chat: 2 Perhaps it's the Navigator's fault?)",
-        "es": "Habla de nuevo con Captain Bentley. (opciones de chat: 2 ¿Quizás sea culpa del Navigator?)"
-      }
+        "en": "Talk to Captain Bentley again.",
+        "es": "Habla de nuevo con Captain Bentley."
+      },
+      "chatOptions": [
+        "2 Perhaps it's the Navigator's fault?"
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Return to 'Birds-Eye' Jack again.",
         "es": "Vuelve a hablar con 'Birds-Eye' Jack de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Talking to the crew",
       "text": {
         "en": "Must talk to them in this order.",
         "es": "Debes hablar con ellos en este orden."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Talking to the crew",
       "text": {
         "en": "Talk to 'Eagle-eye' Shultz at the very front of the ship (back upstairs).",
         "es": "Habla con 'Eagle-eye' Shultz en la proa del barco (subiendo de nuevo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Talking to the crew",
       "text": {
         "en": "Talk to 'Beefy' Burns on the lowest level of the ship.",
         "es": "Habla con 'Beefy' Burns en el nivel más bajo del barco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Talking to the crew",
       "text": {
         "en": "Talk to 'Lecherous' Lee on the very top level, at the south end of the ship.",
         "es": "Habla con 'Lecherous' Lee en el nivel más alto, en el extremo sur del barco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Talking to the crew",
       "text": {
         "en": "Talk to First mate 'Davey-boy' on the southern end of the deck near the stairs.",
         "es": "Habla con First mate 'Davey-boy' en el extremo sur de la cubierta, cerca de las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Talking to the crew",
       "text": {
         "en": "Climb up to the top level at the south end of the ship and talk to the cabin boy (2 inventory spaces required). He is next to Lecherous Lee.",
         "es": "Sube al nivel más alto en el extremo sur del barco y habla con el grumete (se requieren 2 espacios de inventario). Está junto a Lecherous Lee."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Searching for clues",
       "text": {
         "en": "Use the lens on the lantern. Light it.",
         "es": "Usa la lente en el farol. Enciéndelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Searching for clues",
       "text": {
         "en": "Use the lantern on the following objects and rub away the symbols:",
         "es": "Usa el farol en los siguientes objetos y frota para borrar los símbolos:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Searching for clues",
       "text": {
-        "en": "Cannon: Climb the ladder in the middle. The cannon is on the middle level at the south end of the ship. (opciones de chat: 1 Rub away!)",
-        "es": "Cañón: Sube por la escalera del medio. El cañón está en el nivel medio, en el extremo sur del barco. (opciones de chat: 1 ¡Frotar!)"
-      }
+        "en": "Cannon: Climb the ladder in the middle. The cannon is on the middle level at the south end of the ship.",
+        "es": "Cañón: Sube por la escalera del medio. El cañón está en el nivel medio, en el extremo sur del barco."
+      },
+      "chatOptions": [
+        "1 Rub away!"
+      ]
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Searching for clues",
       "text": {
-        "en": "Wallchart: Climb back up and enter the southernmost room. The wallchart is on the northwestern wall. (opciones de chat: 1 Rub away!)",
-        "es": "Mapa de pared: Sube de nuevo y entra en la habitación más al sur. El mapa de pared está en la pared noroeste. (opciones de chat: 1 ¡Frotar!)"
-      }
+        "en": "Wallchart: Climb back up and enter the southernmost room. The wallchart is on the northwestern wall.",
+        "es": "Mapa de pared: Sube de nuevo y entra en la habitación más al sur. El mapa de pared está en la pared noroeste."
+      },
+      "chatOptions": [
+        "1 Rub away!"
+      ]
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Searching for clues",
       "text": {
-        "en": "Chest: Climb down to the lowest level of the ship. The chest is on the ground at the northern end of the ship, just as you come down. (opciones de chat: 1 Rub away!)",
-        "es": "Cofre: Baja hasta el nivel más bajo del barco. El cofre está en el suelo, en el extremo norte del barco, justo al bajar. (opciones de chat: 1 ¡Frotar!)"
-      }
+        "en": "Chest: Climb down to the lowest level of the ship. The chest is on the ground at the northern end of the ship, just as you come down.",
+        "es": "Cofre: Baja hasta el nivel más bajo del barco. El cofre está en el suelo, en el extremo norte del barco, justo al bajar."
+      },
+      "chatOptions": [
+        "1 Rub away!"
+      ]
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Searching for clues",
       "text": {
-        "en": "Barrel: On the same level, the most southern stack of three barrels. (opciones de chat: 1 Rub away!)",
-        "es": "Barril: En el mismo nivel, la pila más al sur de tres barriles. (opciones de chat: 1 ¡Frotar!)"
-      }
+        "en": "Barrel: On the same level, the most southern stack of three barrels.",
+        "es": "Barril: En el mismo nivel, la pila más al sur de tres barriles."
+      },
+      "chatOptions": [
+        "1 Rub away!"
+      ]
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Searching for clues",
       "text": {
-        "en": "Support: Same level big support column in the middle of the ship. (opciones de chat: 1 Rub away!)",
-        "es": "Soporte: En el mismo nivel, la gran columna de soporte en el centro del barco. (opciones de chat: 1 ¡Frotar!)"
-      }
+        "en": "Support: Same level big support column in the middle of the ship.",
+        "es": "Soporte: En el mismo nivel, la gran columna de soporte en el centro del barco."
+      },
+      "chatOptions": [
+        "1 Rub away!"
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Searching for clues",
       "text": {
         "en": "Talk to Captain Bentley.",
         "es": "Habla con Captain Bentley."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Lunar Isle",
       "text": {
         "en": "Climb down the ladders and walk into the city (there will be a small cutscene).",
         "es": "Baja por las escaleras y entra en la ciudad (habrá una pequeña escena cinemática)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Lunar Isle",
       "text": {
         "en": "Go north-east outside the city and kill suqah until these items are obtained:",
         "es": "Ve al noreste, fuera de la ciudad, y mata suqah hasta conseguir estos objetos:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Lunar Isle",
       "text": {
         "en": "One suqah tooth.",
         "es": "Un diente de suqah."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "Lunar Isle",
       "text": {
         "en": "4 suqah hides.",
         "es": "4 pieles de suqah."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Lunar Isle",
       "text": {
         "en": "If not already in the backpack, one grimy guam and one grimy marrentill. Clean the herbs.",
         "es": "Si no los tienes ya en la mochila, un guam sucio y un marrentill sucio. Limpia las hierbas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Lunar Isle",
       "text": {
         "en": "Mine a lunar ore at the mine north-east of the city. Climb down the ladder and mine a stalagmite to the West of the rune essence rock. It looks like a rock jutting out of the ground.",
         "es": "Extrae un mineral lunar en la mina al noreste de la ciudad. Baja por la escalera y extrae una estalagmita al oeste de la roca de esencia de runas. Parece una roca que sobresale del suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Lunar Isle",
       "text": {
         "en": "Optional: Mine Rune Essence to complete Runes on the Moon, which is a Hard Fremennik achievement.",
         "es": "Opcional: Extrae Rune Essence para completar Runes on the Moon, que es un logro difícil de Fremennik."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Lunar Isle",
       "text": {
         "en": "Run to the south-east part of the island. Talk to the Oneiromancer near the astral altar.",
         "es": "Corre hacia la parte sureste de la isla. Habla con el Oneiromancer cerca del altar astral."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Lunar Isle",
       "text": {
-        "en": "Return to the city and enter the walking house in the northern section. Talk to Baba Yaga (1 inventory space required). (opciones de chat: 2 The Oneiromancer told me you may be able to help...)",
-        "es": "Vuelve a la ciudad y entra en la casa andante en la sección norte. Habla con Baba Yaga (se requiere 1 espacio de inventario). (opciones de chat: 2 El Oneiromancer me dijo que quizás podrías ayudarme...)"
-      }
+        "en": "Return to the city and enter the walking house in the northern section. Talk to Baba Yaga (1 inventory space required).",
+        "es": "Vuelve a la ciudad y entra en la casa andante en la sección norte. Habla con Baba Yaga (se requiere 1 espacio de inventario)."
+      },
+      "chatOptions": [
+        "2 The Oneiromancer told me you may be able to help..."
+      ]
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Lunar Isle",
       "text": {
         "en": "Use the vial on the sink.",
         "es": "Usa el vial en el fregadero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "Lunar Isle",
       "text": {
         "en": "Add a guam and a marrentill to the vial of water.",
         "es": "Añade un guam y un marrentill al vial de agua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "Lunar Isle",
       "text": {
         "en": "Grind the suqah tooth and use it on the vial to complete the potion.",
         "es": "Muele el diente de suqah y úsalo en el vial para completar la poción."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Lunar Isle",
       "text": {
         "en": "Return to the Oneiromancer with the potion.",
         "es": "Vuelve con el Oneiromancer con la poción."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Elemental runecrafting altars",
       "text": {
         "en": "Use your dramen staff/staves on the following altars in the listed order (you may need talismans to access if you do not have alternate teleports):",
         "es": "Usa tu dramen staff/staves en los siguientes altares, en el orden indicado (puede que necesites talismanes para acceder si no tienes teletransportes alternativos):"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Elemental runecrafting altars",
       "text": {
         "en": "Air (west of Varrock)",
         "es": "Aire (al oeste de Varrock)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "Elemental runecrafting altars",
       "text": {
         "en": "Fire (north of Al Kharid)",
         "es": "Fuego (al norte de Al Kharid)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 1,
+      "section": "Elemental runecrafting altars",
       "text": {
         "en": "Water (Lumbridge Swamp)",
         "es": "Agua (Lumbridge Swamp)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "Elemental runecrafting altars",
       "text": {
         "en": "Earth (south of Fort Forinthry)",
         "es": "Tierra (al sur de Fort Forinthry)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Elemental runecrafting altars",
       "text": {
         "en": "Before returning to the isle, smelt the lunar ore at any regular furnace and make a lunar helmet at a regular anvil.",
         "es": "Antes de volver a la isla, funde el mineral lunar en cualquier horno normal y fabrica un lunar helmet en un yunque normal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Elemental runecrafting altars",
       "text": {
         "en": "Travel back to Lunar Isle by selecting \"travel\" from Lokar Searunner in Rellekka at the westernmost dock.",
         "es": "Vuelve a Lunar Isle seleccionando \"viajar\" en Lokar Searunner en Rellekka, en el muelle más occidental."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Elemental runecrafting altars",
       "text": {
         "en": "Travel with Captain Bentley to Lunar Isle.",
         "es": "Viaja con Captain Bentley hasta Lunar Isle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Elemental runecrafting altars",
       "text": {
         "en": "Give a lunar staff to the Oneiromancer.",
         "es": "Entrega un lunar staff al Oneiromancer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Smithing lunar helm",
       "text": {
         "en": "If you have already made the lunar helm, you can skip the next 4 steps.",
         "es": "Si ya has fabricado el lunar helm, puedes saltarte los siguientes 4 pasos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 1,
+      "section": "Smithing lunar helm",
       "text": {
         "en": "Climb down ladder north-eastern part of the isle.",
         "es": "Baja por la escalera en la parte noreste de la isla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 1,
+      "section": "Smithing lunar helm",
       "text": {
         "en": "Mine a stalagmite for a lunar ore.",
         "es": "Extrae una estalagmita para conseguir mineral lunar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 1,
+      "section": "Smithing lunar helm",
       "text": {
         "en": "You have to use a furnace to smith the ore (the forge in the southern building will not work).",
         "es": "Debes usar un horno para forjar el mineral (la fragua del edificio sur no funcionará)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 1,
+      "section": "Smithing lunar helm",
       "text": {
         "en": "Use an anvil to make the helm, such as the one in the southern building.",
         "es": "Usa un yunque para fabricar el helm, como el que hay en el edificio sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Crafting lunar gear",
       "text": {
-        "en": "Talk to Pauline Polaris in the north-western-most building in the city. (opciones de chat: 2 Pauline.) Choose the correct answer \"Jane Blud-Hagic-Maid\". The answers are randomly ordered.",
+        "en": "Talk to Pauline Polaris in the north-western-most building in the city. Choose the correct answer \"Jane Blud-Hagic-Maid\". The answers are randomly ordered.",
         "es": "Habla con Pauline Polaris en el edificio más al noroeste de la ciudad. (opciones de chat: 2 Pauline.) Elige la respuesta correcta \"Jane Blud-Hagic-Maid\". Las respuestas aparecen en orden aleatorio."
-      }
+      },
+      "chatOptions": [
+        "2 Pauline."
+      ]
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Crafting lunar gear",
       "text": {
         "en": "Talk to Meteora south in the city.",
         "es": "Habla con Meteora, al sur de la ciudad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Crafting lunar gear",
       "text": {
         "en": "Kill Suqahs until one drops a special tiara. If you haven't already, pick up their hide as well as you'll need four hides later on.",
         "es": "Mata Suqahs hasta que uno suelte una tiara especial. Si no lo has hecho ya, recoge también su piel, ya que necesitarás cuatro pieles más adelante."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Crafting lunar gear",
       "text": {
         "en": "Give Meteora the tiara.",
         "es": "Entrega la tiara a Meteora."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Crafting lunar gear",
       "text": {
-        "en": "Talk to Rimae Sirsalis in the clothing store south of the bank about ceremonial clothes. (opciones de chat: 2 You know the ceremonial clothes?)",
-        "es": "Habla con Rimae Sirsalis en la tienda de ropa al sur del banco sobre la vestimenta ceremonial. (opciones de chat: 2 ¿Conoces la vestimenta ceremonial?)"
-      }
+        "en": "Talk to Rimae Sirsalis in the clothing store south of the bank about ceremonial clothes.",
+        "es": "Habla con Rimae Sirsalis en la tienda de ropa al sur del banco sobre la vestimenta ceremonial."
+      },
+      "chatOptions": [
+        "2 You know the ceremonial clothes?"
+      ]
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Crafting lunar gear",
       "text": {
-        "en": "Talk to Rimae Sirsalis again, she will tan your hides. (opciones de chat: 2 You know the ceremonial clothes? • 1 That seems like a fair deal.)",
-        "es": "Habla de nuevo con Rimae Sirsalis, ella curtirá tus pieles. (opciones de chat: 2 ¿Conoces la vestimenta ceremonial? • 1 Eso parece un trato justo.)"
-      }
+        "en": "Talk to Rimae Sirsalis again, she will tan your hides.",
+        "es": "Habla de nuevo con Rimae Sirsalis, ella curtirá tus pieles."
+      },
+      "chatOptions": [
+        "2 You know the ceremonial clothes?",
+        "1 That seems like a fair deal."
+      ]
     },
     {
       "index": 56,
       "indent": 1,
+      "section": "Crafting lunar gear",
       "text": {
         "en": "If you didn't bring thread, Rimae's shop sells some.",
         "es": "Si no has traído hilo, la tienda de Rimae vende algo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Crafting lunar gear",
       "text": {
         "en": "Craft a lunar torso, trousers, gloves, and boots from your hides.",
         "es": "Fabrica un torso, unos pantalones, unos guantes y unas botas lunares con tus pieles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Looking for lunar ring",
       "text": {
-        "en": "Go to the biggest building in the city (west of the lodestone) and talk to Selene (she might be outside). (opciones de chat: 2 I'm looking for a ring.)",
-        "es": "Ve al edificio más grande de la ciudad (al oeste de la lodestone) y habla con Selene (puede que esté fuera). (opciones de chat: 2 Estoy buscando un anillo.)"
-      }
+        "en": "Go to the biggest building in the city (west of the lodestone) and talk to Selene (she might be outside).",
+        "es": "Ve al edificio más grande de la ciudad (al oeste de la lodestone) y habla con Selene (puede que esté fuera)."
+      },
+      "chatOptions": [
+        "2 I'm looking for a ring."
+      ]
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Looking for lunar ring",
       "text": {
         "en": "Exit the city and run south. Dig up near blue flowers with a spade (tool belt doesn't work), they are the flowers to the furthest south west across the bridge.",
         "es": "Sal de la ciudad y corre hacia el sur. Cava cerca de las flores azules con una pala (el cinturón de herramientas no funciona), son las flores más al suroeste, cruzando el puente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Giving lunar gear",
       "text": {
         "en": "Give the Oneiromancer all your lunar gear.",
         "es": "Entrega al Oneiromancer todo tu equipo lunar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "Giving lunar gear",
       "text": {
         "en": "Talk to the Oneiromancer again with 11 free inventory slots.",
         "es": "Habla de nuevo con el Oneiromancer con 11 espacios libres de inventario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 0,
+      "section": "Dreamland",
       "text": {
         "en": "Use the vial on the kindling Oneiromancer just gave you to create soaked kindling.",
         "es": "Usa el vial en la yesca que el Oneiromancer acaba de darte para crear yesca empapada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 0,
+      "section": "Dreamland",
       "text": {
         "en": "Get your combat runes and supplies, dismiss your follower, and wear all your lunar items. Four backpack spaces are required.",
         "es": "Consigue tus runas de combate y suministros, despide a tu acompañante y ponte todos tus objetos lunares. Se requieren cuatro espacios de mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 0,
+      "section": "Dreamland",
       "text": {
         "en": "Do not carry an augmented crystal hatchet in the backpack to avoid a bug later in the quest.",
         "es": "No lleves un augmented crystal hatchet en la mochila para evitar un fallo más adelante en la misión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "Dreamland",
       "text": {
         "en": "Run to the biggest building in the city (west of the lodestone).",
         "es": "Corre hacia el edificio más grande de la ciudad (al oeste de la lodestone)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "Dreamland",
       "text": {
         "en": "Make sure you're wearing all 8 pieces of Lunar equipment; if you exit to lobby or logout, or are not wearing them all when you add the soaked kindling, you'll have to return to the Oneiromancer to get a new kindling.",
         "es": "Asegúrate de llevar puestas las 8 piezas del equipo lunar; si sales al lobby o cierras sesión, o no las llevas todas puestas al añadir la yesca empapada, tendrás que volver con el Oneiromancer para conseguir una yesca nueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "Dreamland",
       "text": {
         "en": "Light the ceremonial brazier then use the Soaked kindling on it to enter Dreamland.",
         "es": "Enciende el brasero ceremonial y luego usa la Yesca empapada en él para entrar en Dreamland."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 68,
       "indent": 0,
+      "section": "Dicing",
       "text": {
         "en": "Talk to Ethereal Man or Ethereal Lady.",
         "es": "Habla con Ethereal Man o Ethereal Lady."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 69,
       "indent": 0,
+      "section": "Dicing",
       "text": {
         "en": "Step on the yellow/green platform south-west of the island.",
         "es": "Ponte de pie en la plataforma amarilla/verde al suroeste de la isla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 70,
       "indent": 0,
+      "section": "Dicing",
       "text": {
         "en": "Talk to Ethereal Fluke.",
         "es": "Habla con Ethereal Fluke."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 71,
       "indent": 0,
+      "section": "Dicing",
       "text": {
         "en": "He will call out a number. You need to make the dice add up to the number he called. When you \"roll\" one of the dice, it will turn the die upside down, so each die only has two possible numbers (1 and 6, 2 and 5, 3 and 4).",
         "es": "Dirá en voz alta un número. Debes conseguir que los dados sumen ese número. Al \"lanzar\" uno de los dados, este se dará la vuelta, así que cada dado solo tiene dos números posibles (1 y 6, 2 y 5, 3 y 4)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 72,
       "indent": 0,
+      "section": "Dicing",
       "text": {
         "en": "He eventually teleports you back to the middle.",
         "es": "Finalmente te teletransportará de vuelta al centro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 73,
       "indent": 0,
+      "section": "Dicing",
       "text": {
         "en": "Talk to the Ethereal Man/Lady.",
         "es": "Habla con Ethereal Man/Lady."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 74,
       "indent": 0,
+      "section": "Number sequence",
       "text": {
         "en": "Head south-east and step on the pink/purple platform.",
         "es": "Dirígete al sureste y ponte de pie en la plataforma rosa/morada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 75,
       "indent": 0,
+      "section": "Number sequence",
       "text": {
         "en": "Talk to Ethereal Numerator.",
         "es": "Habla con Ethereal Numerator."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 76,
       "indent": 0,
+      "section": "Number sequence",
       "text": {
         "en": "Click on the numbers to complete the patterns for four times.",
         "es": "Haz clic en los números para completar los patrones cuatro veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 77,
       "indent": 0,
+      "section": "Number sequence",
       "text": {
         "en": "He eventually teleports you back to the middle.",
         "es": "Finalmente te teletransportará de vuelta al centro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 78,
       "indent": 0,
+      "section": "Number sequence",
       "text": {
         "en": "Talk to the Ethereal Man/Lady.",
         "es": "Habla con Ethereal Man/Lady."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 79,
       "indent": 0,
+      "section": "Logging race",
       "text": {
         "en": "Head north-east and step on the blue platform.",
         "es": "Dirígete al noreste y ponte de pie en la plataforma azul."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 80,
       "indent": 0,
+      "section": "Logging race",
       "text": {
-        "en": "Talk to Ethereal Perceptive. He might give you a hatchet. (opciones de chat: 1 Ok, let's go!) (Do not carry an augmented crystal hatchet in the backpack or you will be given the following message: \"You do not have a hatchet which you have the Woodcutting level to use\" even if you have another hatchet in the backpack or a hatchet on your toolbelt)",
+        "en": "Talk to Ethereal Perceptive. He might give you a hatchet. (Do not carry an augmented crystal hatchet in the backpack or you will be given the following message: \"You do not have a hatchet which you have the Woodcutting level to use\" even if you have another hatchet in the backpack or a hatchet on your toolbelt)",
         "es": "Habla con Ethereal Perceptive. Puede que te dé un hatchet. (opciones de chat: 1 Vale, ¡vamos!) (No lleves un augmented crystal hatchet en la mochila o recibirás el siguiente mensaje: \"No tienes un hacha que tengas el nivel de Leñado suficiente para usar\" incluso si tienes otra hacha en la mochila o un hacha en el cinturón de herramientas)"
-      }
+      },
+      "chatOptions": [
+        "1 Ok, let's go!"
+      ]
     },
     {
       "index": 81,
       "indent": 0,
+      "section": "Logging race",
       "text": {
         "en": "Run west and chop 20 dream logs, depositing them on your log pile.",
         "es": "Corre hacia el oeste y tala 20 dream logs, depositándolos en tu pila de troncos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 82,
       "indent": 0,
+      "section": "Logging race",
       "text": {
         "en": "He will teleport you once you've won the competition.",
         "es": "Te teletransportará una vez hayas ganado la competición."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 83,
       "indent": 0,
+      "section": "Logging race",
       "text": {
         "en": "Talk to the Ethereal Man/Lady.",
         "es": "Habla con Ethereal Man/Lady."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 84,
       "indent": 0,
+      "section": "Memorisation",
       "text": {
         "en": "Head north-west and step on the grey platform.",
         "es": "Dirígete al noroeste y ponte de pie en la plataforma gris."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 85,
       "indent": 0,
+      "section": "Memorisation",
       "text": {
         "en": "Talk to Ethereal Guide.",
         "es": "Habla con Ethereal Guide."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 86,
       "indent": 0,
+      "section": "Memorisation",
       "text": {
         "en": "Cross the chasm by jumping on the correct combination of Dream Puffs. Keep a note of the correct steps! You can use the table below to track your path: click cell to highlight it. Click again to cancel a highlight.",
         "es": "Cruza el abismo saltando sobre la combinación correcta de Dream Puffs. ¡Toma nota de los pasos correctos! Puedes usar la tabla de abajo para seguir tu camino: haz clic en una celda para resaltarla. Haz clic de nuevo para cancelar el resaltado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 87,
       "indent": 0,
+      "section": "Memorisation",
       "text": {
         "en": "Once complete, talk to the Ethereal Man/Lady.",
         "es": "Una vez completado, habla con Ethereal Man/Lady."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 88,
       "indent": 0,
+      "section": "The hurdles",
       "text": {
         "en": "Head east and step on the yellow platform.",
         "es": "Dirígete al este y ponte de pie en la plataforma amarilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 89,
       "indent": 0,
+      "section": "The hurdles",
       "text": {
-        "en": "Talk to Ethereal Expert and start the race. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Ethereal Expert y empieza la carrera. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to Ethereal Expert and start the race.",
+        "es": "Habla con Ethereal Expert y empieza la carrera."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 90,
       "indent": 0,
+      "section": "The hurdles",
       "text": {
         "en": "Jump over the hurdles. If you fail three times, you will lose the race. Run and stop before each hurdle, before clicking the orb to jump over.",
         "es": "Salta las vallas. Si fallas tres veces, perderás la carrera. Corre y detente antes de cada valla, antes de hacer clic en el orbe para saltarla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 91,
       "indent": 0,
+      "section": "The hurdles",
       "text": {
         "en": "After you have won talk to the Ethereal Man/Lady.",
         "es": "Después de ganar, habla con Ethereal Man/Lady."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 92,
       "indent": 0,
+      "section": "Copy cat",
       "text": {
         "en": "Head south-east and step on the green platform.",
         "es": "Dirígete al sureste y ponte de pie en la plataforma verde."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 93,
       "indent": 0,
+      "section": "Copy cat",
       "text": {
-        "en": "Talk to Ethereal Mimic. (opciones de chat: 1 Suppose I may as well have a go.)",
-        "es": "Habla con Ethereal Mimic. (opciones de chat: 1 Supongo que también podría intentarlo.)"
-      }
+        "en": "Talk to Ethereal Mimic.",
+        "es": "Habla con Ethereal Mimic."
+      },
+      "chatOptions": [
+        "1 Suppose I may as well have a go."
+      ]
     },
     {
       "index": 94,
       "indent": 0,
+      "section": "Copy cat",
       "text": {
         "en": "Click on them and then copy the emote that they perform. They teleport after each correct emote.",
         "es": "Haz clic en ellos y luego copia la emote que realicen. Te teletransportan después de cada emote correcta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 95,
       "indent": 0,
+      "section": "Copy cat",
       "text": {
         "en": "After five correct emotes, they'll teleport you back.",
         "es": "Tras cinco emotes correctas, te teletransportarán de vuelta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 96,
       "indent": 0,
+      "section": "Defeating me",
       "text": {
-        "en": "Talk to the Ethereal Man/Lady to begin the final fight. (opciones de chat: 1 Of course. I'm ready.)",
-        "es": "Habla con Ethereal Man/Lady para comenzar el combate final. (opciones de chat: 1 Por supuesto. Estoy listo.)"
-      }
+        "en": "Talk to the Ethereal Man/Lady to begin the final fight.",
+        "es": "Habla con Ethereal Man/Lady para comenzar el combate final."
+      },
+      "chatOptions": [
+        "1 Of course. I'm ready."
+      ]
     },
     {
       "index": 97,
       "indent": 0,
+      "section": "Defeating me",
       "text": {
         "en": "Kill Me (6,000 life points, weakness to fire spells). You can safe-spot them behind the dream tree.",
         "es": "Mata a Me (6.000 puntos de vida, débil frente a hechizos de fuego). Puedes atacarlo desde una posición segura detrás del dream tree."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 98,
       "indent": 1,
+      "section": "Defeating me",
       "text": {
         "en": "Should you forget your runes after entering the fight, you will not be able to leave the fight in any way unless you log out and back in. This will take you back to Lunar Isle where you can bank to get the runes.",
         "es": "Si olvidas tus runas después de entrar en el combate, no podrás salir de él de ninguna forma a menos que cierres sesión y vuelvas a entrar. Esto te llevará de vuelta a Lunar Isle, donde podrás usar el banco para conseguir las runas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 99,
       "indent": 1,
+      "section": "Defeating me",
       "text": {
         "en": "Be sure to equip your Seal of passage before speaking to a banker.",
         "es": "Asegúrate de equipar tu Seal of passage antes de hablar con un banquero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 100,
       "indent": 1,
+      "section": "Defeating me",
       "text": {
         "en": "Go back to the Oneiromancer again to get the kindling and potion to return back to the dream.",
         "es": "Vuelve de nuevo con el Oneiromancer para conseguir la yesca y la poción y regresar al sueño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 101,
       "indent": 1,
+      "section": "Defeating me",
       "text": {
         "en": "Re-equip your Lunar amulet before attempting to enter the dream.",
         "es": "Vuelve a equiparte tu Lunar amulet antes de intentar entrar en el sueño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 102,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Read the lectern to return to Lunar Isle. (opciones de chat: 1 Yes.)",
-        "es": "Lee el atril para volver a Lunar Isle. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Read the lectern to return to Lunar Isle.",
+        "es": "Lee el atril para volver a Lunar Isle."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 103,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to the Oneiromancer.",
         "es": "Habla con el Oneiromancer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 104,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

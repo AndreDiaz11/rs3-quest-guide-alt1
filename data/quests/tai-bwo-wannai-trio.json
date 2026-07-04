@@ -2,7 +2,8 @@
   "id": "tai-bwo-wannai-trio",
   "title": "Tai Bwo Wannai Trio",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:19:19.278Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:10.189Z",
   "icon": "https://runescape.wiki/images/Tai_Bwo_Wannai_Trio_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -133,6 +134,7 @@
       "image": "https://runescape.wiki/images/thumb/Smithing_detail.png/100px-Smithing_detail.png?0f0af"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Tai_Bwo_Wannai_Trio_reward.png?d14f9",
   "postQuest": [
     {
       "type": "xp",
@@ -193,354 +195,480 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Timfraku located upstairs in the house northwest of Tai Bwo Wannai. (opciones de chat: Any • 3 Trufitus sent me. • 1 Your gratitude is all I deserve. • Accept)",
-        "es": "Habla con Timfraku, que está en el piso de arriba de la casa al noroeste de Tai Bwo Wannai. (opciones de chat: Cualquiera • 3 Trufitus me envió. • 1 Solo merezco tu gratitud. • Aceptar)"
-      }
+        "en": "Talk to Timfraku located upstairs in the house northwest of Tai Bwo Wannai.",
+        "es": "Habla con Timfraku, que está en el piso de arriba de la casa al noroeste de Tai Bwo Wannai."
+      },
+      "chatOptions": [
+        "Any",
+        "3 Trufitus sent me.",
+        "1 Your gratitude is all I deserve.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Lubufu",
       "text": {
-        "en": "Go to the lake south of Tai Bwo Wannai and fish 23 raw karambwanji (just north of fairy ring code ).",
+        "en": "Go to the lake south of Tai Bwo Wannai and fish 23 raw karambwanji (just north of fairy ring code CKR).",
         "es": "Ve al lago al sur de Tai Bwo Wannai y pesca 23 karambwanji crudos (justo al norte del código de anillo de las hadas )."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Lubufu",
       "text": {
-        "en": "North of the Karamja lodestone, talk to Lubufu. (opciones de chat: 1 I wasn't going anywhere...)",
-        "es": "Al norte de la piedra de viaje de Karamja, habla con Lubufu. (opciones de chat: 1 No iba a ninguna parte...)"
-      }
+        "en": "North of the Karamja lodestone, talk to Lubufu.",
+        "es": "Al norte de la piedra de viaje de Karamja, habla con Lubufu."
+      },
+      "chatOptions": [
+        "1 I wasn't going anywhere..."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Lubufu",
       "text": {
-        "en": "Talk to him again. (opciones de chat: 1 Talk about him... • 3 What do you do? • 3 What do you use for bait? • 1 Talk about him... • 3 What do you do? • 4 I could help collect the bait. • 1 You sound like you could do with the help.)",
-        "es": "Habla con él de nuevo. (opciones de chat: 1 Hablar sobre él... • 3 ¿Qué haces? • 3 ¿Qué usas de cebo? • 1 Hablar sobre él... • 3 ¿Qué haces? • 4 Podría ayudar a recoger el cebo. • 1 Suena como si necesitaras ayuda.)"
-      }
+        "en": "Talk to him again.",
+        "es": "Habla con él de nuevo."
+      },
+      "chatOptions": [
+        "1 Talk about him...",
+        "3 What do you do?",
+        "3 What do you use for bait?",
+        "1 Talk about him...",
+        "3 What do you do?",
+        "4 I could help collect the bait.",
+        "1 You sound like you could do with the help."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Lubufu",
       "text": {
         "en": "Talk to Lubufu to give him 20 raw karambwanji.",
         "es": "Habla con Lubufu para darle 20 karambwanji crudos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Lubufu",
       "text": {
         "en": "Talk to Lubufu 3 more times as follows",
         "es": "Habla con Lubufu 3 veces más, como se indica a continuación"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Lubufu",
       "text": {
         "en": "Talk to him again.",
         "es": "Habla con él de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Lubufu",
       "text": {
-        "en": "Talk again. (opciones de chat: 3 What do you use to catch Karambwan?)",
-        "es": "Habla de nuevo. (opciones de chat: 3 ¿Qué usas para atrapar Karambwan?)"
-      }
+        "en": "Talk again.",
+        "es": "Habla de nuevo."
+      },
+      "chatOptions": [
+        "3 What do you use to catch Karambwan?"
+      ]
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Lubufu",
       "text": {
-        "en": "Talk a third time. (opciones de chat: 4 What does Karambwan taste like? • 1 Yes!)",
-        "es": "Habla una tercera vez. (opciones de chat: 4 ¿A qué sabe el Karambwan? • 1 ¡Sí!)"
-      }
+        "en": "Talk a third time.",
+        "es": "Habla una tercera vez."
+      },
+      "chatOptions": [
+        "4 What does Karambwan taste like?",
+        "1 Yes!"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Lubufu",
       "text": {
-        "en": "Drop the karambwan vessel and talk to him to get a second vessel, then pick up the first. (opciones de chat: 3 Actually, I've lost my Karambwan vessel. • Any)",
-        "es": "Suelta el vessel de karambwan y habla con él para conseguir un segundo vessel, luego recoge el primero. (opciones de chat: 3 En realidad, he perdido mi vessel de Karambwan. • Cualquiera)"
-      }
+        "en": "Drop the karambwan vessel and talk to him to get a second vessel, then pick up the first.",
+        "es": "Suelta el vessel de karambwan y habla con él para conseguir un segundo vessel, luego recoge el primero."
+      },
+      "chatOptions": [
+        "3 Actually, I've lost my Karambwan vessel.",
+        "Any"
+      ]
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Lubufu",
       "text": {
         "en": "Optional: Use 1 raw karambwanji on a karambwan vessel, then fish at the spot next to Lubufu (requires ) to complete a Medium Karamja achievement.",
         "es": "Opcional: Usa 1 karambwanji crudo en un vessel de karambwan, luego pesca en el punto junto a Lubufu (requiere ) para completar un logro de Karamja de nivel medio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Lubufu",
       "text": {
         "en": "Use another karambwanji on a vessel and keep it for the next step.",
         "es": "Usa otro karambwanji en un vessel y guárdalo para el siguiente paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Tiadeche",
       "text": {
-        "en": "Head to the north-east coast of Karamja, across the river and talk to Tiadeche (fairy ring code ). (opciones de chat: 3 Is there anything I can do to help?)",
-        "es": "Dirígete a la costa noreste de Karamja, cruza el río y habla con Tiadeche (código de anillo de las hadas ). (opciones de chat: 3 ¿Hay algo que pueda hacer para ayudar?)"
-      }
+        "en": "Head to the north-east coast of Karamja, across the river and talk to Tiadeche (fairy ring code DKP).",
+        "es": "Dirígete a la costa noreste de Karamja, cruza el río y habla con Tiadeche (código de anillo de las hadas )."
+      },
+      "chatOptions": [
+        "3 Is there anything I can do to help?"
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Tiadeche",
       "text": {
-        "en": "Use the loaded vessel on him. (opciones de chat: 1 Yes)",
-        "es": "Usa el vessel cargado en él. (opciones de chat: 1 Sí)"
-      }
+        "en": "Use the loaded vessel on him.",
+        "es": "Usa el vessel cargado en él."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Tiadeche",
       "text": {
         "en": "Head south, kill a jogre and take its bones.",
         "es": "Ve hacia el sur, mata a un jogre y recoge sus huesos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Tiadeche",
       "text": {
         "en": "Go to Musa Point and buy one Karamjan rum from the pub. You can also buy rum from the Dead Man's Chest in Brimhaven. The rum will break if you teleport with it in your inventory. It will be stolen by a monkey if you ride the cart to Shilo Village with it in your inventory.",
         "es": "Ve a Musa Point y compra un ron de Karamja en el pub. También puedes comprar ron en el Dead Man's Chest en Brimhaven. El ron se romperá si te teletransportas con él en tu inventario. Te lo robará un mono si viajas en el carro a Shilo Village con él en tu inventario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Tiadeche",
       "text": {
         "en": "Pick a banana or buy one from the traders at the Brimhaven dock, cut it for slices.",
         "es": "Recoge un plátano o cómpralo a los comerciantes en el muelle de Brimhaven, córtalo para obtener rodajas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Tiadeche",
       "text": {
         "en": "Use a banana slice on the Karamjan rum - you can now teleport without having the rum disappear from your inventory.",
         "es": "Usa una rodaja de plátano en el ron de Karamja - ahora podrás teletransportarte sin que el ron desaparezca de tu inventario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Tamayu and the Shaikahan",
       "text": {
-        "en": "Take some seaweed near the shore of Cairn Isle (fairy ring code ).",
+        "en": "Take some seaweed near the shore of Cairn Isle (fairy ring code CKR).",
         "es": "Recoge algas cerca de la orilla de Cairn Isle (código de anillo de las hadas )."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Tamayu and the Shaikahan",
       "text": {
         "en": "Chop nearby dead trees to get 2 logs to light (or go to the fire south of Tai Bwo Wannai).",
         "es": "Tala los árboles muertos cercanos para conseguir 2 troncos para encender (o ve a la hoguera al sur de Tai Bwo Wannai)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Tamayu and the Shaikahan",
       "text": {
         "en": "Use the Karambwan (not the Karambwanji) on the fire; select the option poison karambwan.",
         "es": "Usa el Karambwan (no el Karambwanji) en la hoguera; selecciona la opción envenenar karambwan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Tamayu and the Shaikahan",
       "text": {
         "en": "Grind the poison karambwan to make Karambwan paste (poison).",
         "es": "Muele el karambwan envenenado para hacer pasta de Karambwan (veneno)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Tamayu and the Shaikahan",
       "text": {
         "en": "Right-click use the paste on your spear to poison it.",
         "es": "Haz clic derecho para usar la pasta en tu lanza y envenenarla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Tamayu and the Shaikahan",
       "text": {
         "en": "Talk to Tamayu southeast of Tai Bwo Wannai, near the mining area.",
         "es": "Habla con Tamayu al sureste de Tai Bwo Wannai, cerca de la zona de minería."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Tamayu and the Shaikahan",
       "text": {
-        "en": "Talk to him again. (opciones de chat: 3 When will you succeed? • 1 Yes)",
-        "es": "Habla con él de nuevo. (opciones de chat: 3 ¿Cuándo tendrás éxito? • 1 Sí)"
-      }
+        "en": "Talk to him again.",
+        "es": "Habla con él de nuevo."
+      },
+      "chatOptions": [
+        "3 When will you succeed?",
+        "1 Yes"
+      ]
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Tamayu and the Shaikahan",
       "text": {
         "en": "After the cutscene, use the poisoned spear and agility potion (4) on him.",
         "es": "Tras la escena, usa la lanza envenenada y la poción de agilidad (4) en él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Tamayu and the Shaikahan",
       "text": {
         "en": "Talk to him again.",
         "es": "Habla con él de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Tamayu and the Shaikahan",
       "text": {
         "en": "Kill a nearby monkey, take its corpse, then use it on Tamayu to skin it.",
         "es": "Mata a un mono cercano, recoge su cadáver, luego úsalo en Tamayu para desollarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Tinsay",
       "text": {
-        "en": "Go to Cairn Isle (fairy ring code ), climb the rocks and cross the bridge. The surge ability can be used to bypass the agility check for the bridge.",
+        "en": "Go to Cairn Isle (fairy ring code CKR), climb the rocks and cross the bridge. The surge ability can be used to bypass the agility check for the bridge.",
         "es": "Ve a Cairn Isle (código de anillo de las hadas ), sube por las rocas y cruza el puente. La habilidad Ímpetu puede usarse para evitar la comprobación de agilidad del puente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Tinsay",
       "text": {
         "en": "Talk to Tinsay.",
         "es": "Habla con Tinsay."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Tinsay",
       "text": {
-        "en": "Give him the Karamjan rum. (opciones de chat: 1 Yes.)",
-        "es": "Dale el ron de Karamja. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Give him the Karamjan rum.",
+        "es": "Dale el ron de Karamja."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "Tinsay",
       "text": {
         "en": "Use banana slices on the Karamjan rum first if you did not in the previous section.",
         "es": "Usa rodajas de plátano en el ron de Karamja primero si no lo hiciste en la sección anterior."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Tinsay",
       "text": {
-        "en": "Use seaweed on the monkey skin, then give it to him. (opciones de chat: 1 Yes.)",
-        "es": "Usa algas en la piel de mono, luego dásela a él. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Use seaweed on the monkey skin, then give it to him.",
+        "es": "Usa algas en la piel de mono, luego dásela a él."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Tinsay",
       "text": {
         "en": "Right-click light the jogre bones. (Use a furnace if not level 30 in Firemaking.)",
         "es": "Haz clic derecho para encender los huesos de jogre. (Usa un horno si no tienes nivel 30 en Piromancia.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Tinsay",
       "text": {
         "en": "Grind your last raw karambwanji (the fish, not the octopus) into paste.",
         "es": "Muele tu último karambwanji crudo (el pez, no el pulpo) para hacer pasta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Tinsay",
       "text": {
         "en": "If there is no more raw karambwanji in your inventory, fish for more in the lake northeast of Cairn Isle.",
         "es": "Si no queda karambwanji crudo en tu inventario, pesca más en el lago al noreste de Cairn Isle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Tinsay",
       "text": {
         "en": "Pick up the burnt jogre bones once the fire dies, then use the green paste on it.",
         "es": "Recoge los huesos de jogre quemados una vez que se apague el fuego, luego usa la pasta verde en ellos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Tinsay",
       "text": {
         "en": "Light a log fire, then right-click use the pasty bones on the fire to cook it.",
         "es": "Enciende una hoguera de troncos, luego haz clic derecho para usar los huesos con pasta en la hoguera y cocinarlos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Tinsay",
       "text": {
-        "en": "Give him the marinated jogre bones. (opciones de chat: 1 Yes.)",
-        "es": "Dale los huesos de jogre marinados. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Give him the marinated jogre bones.",
+        "es": "Dale los huesos de jogre marinados."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Tinsay",
       "text": {
         "en": "Use a karambwan vessel on Tinsay so that he gives you a crafting manual.",
         "es": "Usa un vessel de karambwan en Tinsay para que te dé un manual de artesanía."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "Tinsay",
       "text": {
         "en": "If he will not take the Vessel go back to Tiadeche and use a loaded Vessel, one with a Karambwanji inside of it. After successfully catching a Karambwan, Tiadeche will ask you to take a Vessel to Tinsay to study. Tiadeche will keep the Vessel you give him so you will need to obtain a new one before returning to Tinsay.",
         "es": "Si no acepta el Vessel, vuelve con Tiadeche y usa un Vessel cargado, uno con un Karambwanji dentro. Tras atrapar con éxito un Karambwan, Tiadeche te pedirá que lleves un Vessel a Tinsay para que lo estudie. Tiadeche se quedará con el Vessel que le des, así que necesitarás conseguir uno nuevo antes de volver con Tinsay."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Finishing",
       "text": {
-        "en": "Talk to Tiadeche to give him the crafting manual (fairy ring ).",
+        "en": "Talk to Tiadeche to give him the crafting manual (fairy ring DKP).",
         "es": "Habla con Tiadeche para darle el manual de artesanía (anillo de las hadas )."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Finishing",
       "text": {
-        "en": "Return to Timfraku at the quest start. (opciones de chat: 4 Eternal gratitude accepted.)",
-        "es": "Vuelve con Timfraku al inicio de la misión. (opciones de chat: 4 Gratitud eterna aceptada.)"
-      }
+        "en": "Return to Timfraku at the quest start.",
+        "es": "Vuelve con Timfraku al inicio de la misión."
+      },
+      "chatOptions": [
+        "4 Eternal gratitude accepted."
+      ]
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Finishing",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

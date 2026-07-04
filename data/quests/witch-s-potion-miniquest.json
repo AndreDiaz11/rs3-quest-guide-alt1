@@ -2,7 +2,8 @@
   "id": "witch-s-potion-miniquest",
   "title": "Witch's Potion (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-04T02:34:26.332Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:38.976Z",
   "icon": "https://runescape.wiki/images/Witch%27s_Potion_%28miniquest%29_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -51,47 +52,61 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Witch%27s_Potion_%28miniquest%29_reward.png?10188",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Hetty in her house in Rimmington, west of the Port Sarim lodestone and south of Falador. (opciones de chat: 3 I'm looking for work. • Accept)",
-        "es": "Habla con Hetty en su casa en Rimmington, al oeste de la piedra de viaje de Port Sarim y al sur de Falador. (opciones de chat: 3 Estoy buscando trabajo. • Aceptar)"
-      }
+        "en": "Talk to Hetty in her house in Rimmington, west of the Port Sarim lodestone and south of Falador.",
+        "es": "Habla con Hetty en su casa en Rimmington, al oeste de la piedra de viaje de Port Sarim y al sur de Falador."
+      },
+      "chatOptions": [
+        "3 I'm looking for work.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Kill a rat for a rat's tail.",
         "es": "Mata a una rata para conseguir una cola de rata."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Some rats can be found in Brian's Archery Supplies.",
         "es": "Se pueden encontrar ratas en Brian's Archery Supplies."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Give her the ingredients.",
         "es": "Dale los ingredientes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Drink from the cauldron.",
         "es": "Bebe del caldero."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

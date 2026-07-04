@@ -2,7 +2,8 @@
   "id": "gertrude-s-cat",
   "title": "Gertrude's Cat",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:22:51.607Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:15.952Z",
   "icon": "https://runescape.wiki/images/Gertrude%27s_Cat_icon.png",
   "series": null,
   "age": "5",
@@ -80,135 +81,173 @@
       "image": "https://runescape.wiki/images/thumb/Stew_detail.png/100px-Stew_detail.png?0fb70"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Gertrude%27s_Cat_reward.png?b0315",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Go to Gertrude's house north-west of the Varrock lodestone.",
         "es": "Ve a la casa de Gertrude al noroeste de la piedra de viaje de Varrock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Gertrude. (opciones de chat: Accept)",
-        "es": "Habla con Gertrude. (opciones de chat: Accept)"
-      }
+        "en": "Talk to Gertrude.",
+        "es": "Habla con Gertrude."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Go behind the house and pick up a doogle leaf.",
         "es": "Ve detrás de la casa y recoge una hoja doogle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The secret hideout",
       "text": {
         "en": "Go to the northeastern corner of Varrock Square.",
         "es": "Ve a la esquina noreste de Varrock Square."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The secret hideout",
       "text": {
-        "en": "Talk to Shilop or Wilough, giving them 100 coins. (opciones de chat: 2 What will make you tell me? • 2 Okay then, I'll pay.)",
-        "es": "Habla con Shilop o Wilough, dándoles 100 monedas. (opciones de chat: 2 What will make you tell me? • 2 Okay then, I'll pay.)"
-      }
+        "en": "Talk to Shilop or Wilough, giving them 100 coins.",
+        "es": "Habla con Shilop o Wilough, dándoles 100 monedas."
+      },
+      "chatOptions": [
+        "2 What will make you tell me?",
+        "2 Okay then, I'll pay."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The secret hideout",
       "text": {
         "en": "Go south-west to an abandoned house between the Smithing workshop and the tanner, near the west wall of Varrock.",
         "es": "Ve al suroeste, hacia una casa abandonada entre el taller de Herrería y el curtidor, cerca del muro oeste de Varrock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The secret hideout",
       "text": {
         "en": "Climb a ladder found inside the building.",
         "es": "Sube por una escalera que encontrarás dentro del edificio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Convincing Fluffs",
       "text": {
         "en": "Don't skip any dialogue for this section.",
         "es": "No te saltes ningún diálogo en esta sección."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Convincing Fluffs",
       "text": {
         "en": "Use a bucket of milk on Fluffs.",
         "es": "Usa un cubo de leche en Fluffs."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Convincing Fluffs",
       "text": {
         "en": "Use a doogle sardine on Fluffs (use raw sardine on doogle leaf).",
         "es": "Usa una sardina doogle en Fluffs (usa una sardina cruda en la hoja doogle)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Convincing Fluffs",
       "text": {
         "en": "If this fails, talk to Gertrude and find out about doogle sardines.",
         "es": "Si esto falla, habla con Gertrude para averiguar más sobre las sardinas doogle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Convincing Fluffs",
       "text": {
         "en": "Climb down the ladder and search the jiggling crate in the ruined building directly east to find three little kittens. (Note: The location of the jiggling crate is different for every player.)",
         "es": "Baja por la escalera y registra la caja que se mueve en el edificio en ruinas justo al este para encontrar tres gatitos pequeños. (Nota: la ubicación de la caja que se mueve varía para cada jugador.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Convincing Fluffs",
       "text": {
         "en": "Return to Fluffs, and use the three little kittens on her (you might need to use them on her twice).",
         "es": "Vuelve con Fluffs y usa los tres gatitos pequeños en ella (puede que necesites usarlos dos veces)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Convincing Fluffs",
       "text": {
         "en": "Watch the cutscene.",
         "es": "Observa la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Return to Gertrude.",
         "es": "Vuelve con Gertrude."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

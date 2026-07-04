@@ -2,7 +2,8 @@
   "id": "king-s-ransom",
   "title": "King's Ransom",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:33:13.078Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:31.452Z",
   "icon": "https://runescape.wiki/images/King%27s_Ransom_icon.png",
   "series": "Camelot",
   "age": "5",
@@ -116,359 +117,457 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/King%27s_Ransom_reward.png?7a4fe",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Shady disappearances",
       "text": {
-        "en": "Talk to the Gossip south of the Sinclair Mansion (Fairy ring ). (opciones de chat: Accept)",
-        "es": "Habla con el Gossip al sur de Sinclair Mansion (Fairy ring). (opciones de chat: Accept)"
-      }
+        "en": "Talk to the Gossip south of the Sinclair Mansion (Fairy ring CJR).",
+        "es": "Habla con el Gossip al sur de Sinclair Mansion (Fairy ring)."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Shady disappearances",
       "text": {
         "en": "Talk to the Guard inside the gates.",
         "es": "Habla con el Guard que está dentro de las puertas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Déjà vu",
       "text": {
         "en": "From the outside, break the eastern smashed window of the mansion (right click to choose break).",
         "es": "Desde el exterior, rompe la ventana rota del lado este de la mansión (clic derecho para elegir romper)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Déjà vu",
       "text": {
         "en": "You might have to try again because of the dog",
         "es": "Puede que tengas que intentarlo de nuevo por culpa del perro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Déjà vu",
       "text": {
         "en": "Once inside, go to the large room and take the scrap paper next to the fireplace.",
         "es": "Una vez dentro, ve a la sala grande y coge el papel de desecho junto a la chimenea."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Déjà vu",
       "text": {
         "en": "Go up to the .",
         "es": "Sube hasta el ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Déjà vu",
       "text": {
         "en": "Take the address form from the table in the central northern room and read it.",
         "es": "Coge el formulario de dirección de la mesa en la sala central del norte y léelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Déjà vu",
       "text": {
         "en": "Search the nearby bookcase for a black knight helm.",
         "es": "Registra la estantería cercana en busca de un yelmo de Black Knight."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Déjà vu",
       "text": {
         "en": "Go back down the staircase and \"break\" the smashed window again to climb out.",
         "es": "Baja de nuevo por la escalera y \"rompe\" otra vez la ventana rota para salir trepando."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Déjà vu",
       "text": {
         "en": "Talk to the Guard three times. (you can click away after giving the items to skip the first 2 interactions)",
         "es": "Habla con el Guard tres veces (puedes hacer clic fuera para saltarte las dos primeras interacciones después de darle los objetos)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The Sinclairs",
       "text": {
         "en": "Talk to Gossip.",
         "es": "Habla con Gossip."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "The Sinclairs",
       "text": {
         "en": "Go to the Seers' Village Courthouse, directly south from the mansion gates.",
         "es": "Ve al Seers' Village Courthouse, justo al sur de las puertas de la mansión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "The Sinclairs",
       "text": {
         "en": "Talk to Anna.",
         "es": "Habla con Anna."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Courtroom drama",
       "text": {
         "en": "Dismiss any followers you might have and go down the stairs to begin the trial.",
         "es": "Despide a cualquier seguidor que tengas y baja las escaleras para comenzar el juicio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Courtroom drama",
       "text": {
         "en": "Call the dog handler as a witness , talk to Pierre.",
         "es": "Llama al adiestrador de perros como testigo, habla con Pierre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Courtroom drama",
       "text": {
         "en": "You may need to resize your interface and zoom out before descending the stairs since he appears near the bottom of the screen.",
         "es": "Puede que necesites redimensionar tu interfaz y alejar el zoom antes de bajar las escaleras, ya que él aparece cerca de la parte inferior de la pantalla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Courtroom drama",
       "text": {
         "en": "For the following options, talk to the judge to call a witness, then choose who you would like to call:",
         "es": "Para las siguientes opciones, habla con el juez para llamar a un testigo y luego elige a quién quieres llamar:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Courtroom drama",
       "text": {
         "en": "Call the butler , talk to Hobbes.",
         "es": "Llama al mayordomo, habla con Hobbes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Courtroom drama",
       "text": {
         "en": "Call the maid , talk to Mary.",
         "es": "Llama a la criada, habla con Mary."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Courtroom drama",
       "text": {
         "en": "After the balloons drop, exit via the gate.",
         "es": "Después de que caigan los globos, sal por la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Courtroom drama",
       "text": {
         "en": "Talk to Anna in her cell.",
         "es": "Habla con Anna en su celda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Jailbreaker",
       "text": {
         "en": "Go to the northeast of Camelot Castle, outside of the castle hedges",
         "es": "Ve al noreste de Camelot Castle, fuera de los setos del castillo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Jailbreaker",
       "text": {
         "en": "Search the statue.",
         "es": "Registra la estatua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Jailbreaker",
       "text": {
-        "en": "Talk to Merlin. (opciones de chat: 3 What do we do now? • 1 Reclaim Camelot. • 2 Retrieve the Holy Grail. • 3 Save King Arthur.)",
-        "es": "Habla con Merlin. (opciones de chat: 3 What do we do now? • 1 Reclaim Camelot. • 2 Retrieve the Holy Grail. • 3 Save King Arthur.)"
-      }
+        "en": "Talk to Merlin.",
+        "es": "Habla con Merlin."
+      },
+      "chatOptions": [
+        "3 What do we do now?",
+        "1 Reclaim Camelot.",
+        "2 Retrieve the Holy Grail.",
+        "3 Save King Arthur."
+      ]
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Jailbreaker",
       "text": {
         "en": "Reach the vent on the northern wall, it should trigger a cutscene in which the imprisoned knights lift Merlin out. Do not reach for the vent again afterwards.",
         "es": "Llega hasta el conducto de la pared norte; esto debería activar una escena en la que los caballeros encarcelados sacan a Merlin. No vuelvas a intentar alcanzar el conducto después de esto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Jailbreaker",
       "text": {
         "en": "If you don't see a cutscene, then talk to Merlin again and exhaust all options.",
         "es": "Si no ves ninguna escena, habla de nuevo con Merlin y agota todas las opciones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Jailbreaker",
       "text": {
         "en": "Cast Telekinetic Grab on the guard fixing his hair outside your cell door. Ask the knights around if you didn't bring any Telekinetic Grab runes.",
         "es": "Lanza Telekinetic Grab sobre el guardia que se arregla el pelo fuera de la puerta de tu celda. Pregunta a los caballeros cercanos si no trajiste runas de Telekinetic Grab."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Jailbreaker",
       "text": {
         "en": "Drop trick will work here if you would like an extra hairclip.",
         "es": "El truco de soltar objetos funcionará aquí si quieres conseguir una horquilla extra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Jailbreaker",
       "text": {
         "en": "Use the hairclip on the metal door.",
         "es": "Usa la horquilla en la puerta metálica."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Jailbreaker",
       "text": {
         "en": "Complete the puzzle.",
         "es": "Completa el rompecabezas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Jailbreaker",
       "text": {
         "en": "To complete this puzzle, you must set each of four tumblers to the correct height. The most foolproof way to do this (although not necessarily the quickest) is to set all tumblers to the lowest height and try the lock.",
         "es": "Para completar este rompecabezas, debes ajustar cada uno de los cuatro cilindros a la altura correcta. La forma más segura de hacerlo (aunque no necesariamente la más rápida) es poner todos los cilindros a la altura más baja e intentar abrir la cerradura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "Jailbreaker",
       "text": {
         "en": "If a tumbler shows a green circle, do not change that tumbler anymore.",
         "es": "Si un cilindro muestra un círculo verde, no lo cambies más."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Jailbreaker",
       "text": {
         "en": "For the remaining tumblers, they will each show a blue or red circle. Increase those tumblers height by one and try again.",
         "es": "Para los cilindros restantes, cada uno mostrará un círculo azul o rojo. Aumenta la altura de esos cilindros en uno e inténtalo de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "Jailbreaker",
       "text": {
         "en": "Continue until the lock unlocks. This method will take at most six attempts.",
         "es": "Continúa hasta que la cerradura se abra. Este método requerirá como máximo seis intentos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "The holy grail",
       "text": {
         "en": "Once you have bypassed the gate, climb up two sets of staircases to reach the top floor.",
         "es": "Una vez hayas superado la puerta, sube dos tramos de escaleras para llegar al piso superior."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "The holy grail",
       "text": {
         "en": "Search the table and click the purple cylinder second from the right.",
         "es": "Registra la mesa y haz clic en el cilindro púrpura, el segundo empezando por la derecha."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "For Camelot!",
       "text": {
-        "en": "Go to East Ardougne, northeast corner, and talk to Wizard Cromperty. (opciones de chat: 1 Talk about King's Ransom)",
-        "es": "Ve a East Ardougne, esquina noreste, y habla con Wizard Cromperty. (opciones de chat: 1 Talk about King's Ransom)"
-      }
+        "en": "Go to East Ardougne, northeast corner, and talk to Wizard Cromperty.",
+        "es": "Ve a East Ardougne, esquina noreste, y habla con Wizard Cromperty."
+      },
+      "chatOptions": [
+        "1 Talk about King's Ransom"
+      ]
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "For Camelot!",
       "text": {
         "en": "Equip your bronze med helm and iron chainbody and unequip other equipment, then enter the Black Knights' Fortress from Edgeville.",
         "es": "Equípate el bronze med helm y el iron chainbody, y quítate el resto del equipo; luego entra en Black Knights' Fortress desde Edgeville."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "For Camelot!",
       "text": {
         "en": "If you have the Skull of Remembrance, you can teleport to the of the fortress and head down to the .",
         "es": "Si tienes el Skull of Remembrance, puedes teletransportarte a la de la fortaleza y bajar hasta el ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "For Camelot!",
       "text": {
         "en": "Climb-down the ladder in the south-west corner.",
         "es": "Baja por la escalera de mano en la esquina suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "For Camelot!",
       "text": {
         "en": "Remove your bronze helm and iron chainbody, then free King Arthur.",
         "es": "Quítate el bronze helm y el iron chainbody, y libera a King Arthur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "For Camelot!",
       "text": {
         "en": "Talk to King Arthur. Give him the bronze helm and iron chainbody.",
         "es": "Habla con King Arthur. Dale el bronze helm y el iron chainbody."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "For Camelot!",
       "text": {
         "en": "Return to Camelot and talk to King Arthur.",
         "es": "Vuelve a Camelot y habla con King Arthur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "For Camelot!",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

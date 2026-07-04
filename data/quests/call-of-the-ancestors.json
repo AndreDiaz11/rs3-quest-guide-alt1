@@ -2,7 +2,8 @@
   "id": "call-of-the-ancestors",
   "title": "Call of the Ancestors",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:55:45.232Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:44.970Z",
   "icon": "https://runescape.wiki/images/Call_of_the_Ancestors_icon.png",
   "series": null,
   "age": "6",
@@ -71,439 +72,580 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Call_of_the_Ancestors_reward.png?abade",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "The Liberation of Mazcab grouping teleport may be helpful for a few parts of this quest. Especially if you lack reputation.",
         "es": "El teletransporte grupal de Liberation of Mazcab puede ser útil para algunas partes de esta misión. Especialmente si te falta reputación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Tunks at the desert goebie camp, north-west of the Menaphos gates. (opciones de chat: Accept)",
-        "es": "Habla con Tunks en el campamento goebie del desierto, al noroeste de las puertas de Menaphos. (opciones de chat: Accept)"
-      }
+        "en": "Talk to Tunks at the desert goebie camp, north-west of the Menaphos gates.",
+        "es": "Habla con Tunks en el campamento goebie del desierto, al noroeste de las puertas de Menaphos."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Go through the world window",
         "es": "Atraviesa la ventana al mundo"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Go slightly to the north then east to Kanatah.",
         "es": "Ve ligeramente hacia el norte y luego al este hasta Kanatah."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Acca Kanatah. (opciones de chat: 2 I've simply come to help. • 1 Talk about Call of the Ancestors. • 2 The airut are gathering to completely wipe out Kanatah. • 2 Ok, I'm done talking. What do I need to do?)",
-        "es": "Habla con Acca Kanatah. (opciones de chat: 2 Simplemente he venido a ayudar. • 1 Hablar sobre Call of the Ancestors. • 2 Los airut se están reuniendo para aniquilar por completo Kanatah. • 2 Vale, ya he terminado de hablar. ¿Qué necesito hacer?)"
-      }
+        "en": "Talk to Acca Kanatah.",
+        "es": "Habla con Acca Kanatah."
+      },
+      "chatOptions": [
+        "2 I've simply come to help.",
+        "1 Talk about Call of the Ancestors.",
+        "2 The airut are gathering to completely wipe out Kanatah.",
+        "2 Ok, I'm done talking. What do I need to do?"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "If you have a pet, dismiss it and go east to the beach and talk to Tunks for a cutscene. (opciones de chat: 1 No problem.)",
-        "es": "Si tienes una mascota, licénciala y ve al este hacia la playa y habla con Tunks para ver una escena. (opciones de chat: 1 Sin problema.)"
-      }
+        "en": "If you have a pet, dismiss it and go east to the beach and talk to Tunks for a cutscene.",
+        "es": "Si tienes una mascota, licénciala y ve al este hacia la playa y habla con Tunks para ver una escena."
+      },
+      "chatOptions": [
+        "1 No problem."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Gathering the bundles of logs",
       "text": {
         "en": "Jump over the chasm and collect the bundle of logs.",
         "es": "Salta sobre la grieta y recoge el fardo de troncos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Gathering the bundles of logs",
       "text": {
         "en": "Headbutt the cracked wall. Control Peck by clicking on him and squeeze through the hole. Gather the bundle of logs.",
         "es": "Da un cabezazo a la pared agrietada. Controla a Peck haciendo clic sobre él y cuélate por el agujero. Recoge el fardo de troncos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Gathering the bundles of logs",
       "text": {
-        "en": "Talk to Acca Kanatah. (opciones de chat: 1 Talk about Call of the Ancestors. • 2 Great, where do I get more?)",
-        "es": "Habla con Acca Kanatah. (opciones de chat: 1 Hablar sobre Call of the Ancestors. • 2 Genial, ¿dónde consigo más?)"
-      }
+        "en": "Talk to Acca Kanatah.",
+        "es": "Habla con Acca Kanatah."
+      },
+      "chatOptions": [
+        "1 Talk about Call of the Ancestors.",
+        "2 Great, where do I get more?"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Nemi poison",
       "text": {
-        "en": "Enter Nemi Forest, to the west of Mazcab. Select the correct option on the chatbox when entering the Forest. (opciones de chat: 1 Enter Nemi Forest for Call of the Ancestors.)",
-        "es": "Entra en Nemi Forest, al oeste de Mazcab. Selecciona la opción correcta en el cuadro de chat al entrar en el bosque. (opciones de chat: 1 Entrar en Nemi Forest para Call of the Ancestors.)"
-      }
+        "en": "Enter Nemi Forest, to the west of Mazcab. Select the correct option on the chatbox when entering the Forest.",
+        "es": "Entra en Nemi Forest, al oeste de Mazcab. Selecciona la opción correcta en el cuadro de chat al entrar en el bosque."
+      },
+      "chatOptions": [
+        "1 Enter Nemi Forest for Call of the Ancestors."
+      ]
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Nemi poison",
       "text": {
-        "en": "Talk to Mazcab guide by the city entrance to get to Nemi Forest faster, if you have the reputation. (opciones de chat: 2 Forest Entrance)",
-        "es": "Habla con el guía de Mazcab junto a la entrada de la ciudad para llegar más rápido a Nemi Forest, si tienes la reputación. (opciones de chat: 2 Forest Entrance)"
-      }
+        "en": "Talk to Mazcab guide by the city entrance to get to Nemi Forest faster, if you have the reputation.",
+        "es": "Habla con el guía de Mazcab junto a la entrada de la ciudad para llegar más rápido a Nemi Forest, si tienes la reputación."
+      },
+      "chatOptions": [
+        "2 Forest Entrance"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Nemi poison",
       "text": {
-        "en": "Talk to the Ancient goebie (opciones de chat: 1 Acca Kanatah needs to create more poison. • 1 Friend? • 1 Looks like we're visiting a temple then.)",
-        "es": "Habla con el Ancient goebie (opciones de chat: 1 Acca Kanatah necesita crear más veneno. • 1 ¿Amigo? • 1 Parece que vamos a visitar un templo entonces.)"
-      }
+        "en": "Talk to the Ancient goebie",
+        "es": "Habla con el Ancient goebie"
+      },
+      "chatOptions": [
+        "1 Acca Kanatah needs to create more poison.",
+        "1 Friend?",
+        "1 Looks like we're visiting a temple then."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Nemi poison",
       "text": {
-        "en": "Enter the temple to the north, then talk to Xinachto (opciones de chat: 1 I'm an adventurer! • 5 Goodbye.)",
-        "es": "Entra en el templo al norte, luego habla con Xinachto (opciones de chat: 1 ¡Soy un aventurero! • 5 Adiós.)"
-      }
+        "en": "Enter the temple to the north, then talk to Xinachto",
+        "es": "Entra en el templo al norte, luego habla con Xinachto"
+      },
+      "chatOptions": [
+        "1 I'm an adventurer!",
+        "5 Goodbye."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "First trial",
       "text": {
         "en": "Enter the first door on the western wall.",
         "es": "Entra por la primera puerta en la pared occidental."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "First trial",
       "text": {
         "en": "Control Lunch. Step on the second tile from the west, then the one east of it, then the easternmost one, then the westernmost one. Do not step on a pressure plate twice.",
         "es": "Controla a Lunch. Pisa la segunda baldosa desde el oeste, luego la que está al este de esa, luego la más oriental, luego la más occidental. No pises una placa de presión dos veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "First trial",
       "text": {
         "en": "Control Tunks. Jump over the chasm, then press the easternmost pressure plate, the one west of it, then the westernmost pressure plate, then the remaining one to the east of it.",
         "es": "Controla a Tunks. Salta sobre la grieta, luego pulsa la placa de presión más oriental, la que está al oeste de esa, luego la placa de presión más occidental, luego la restante al este de esa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "First trial",
       "text": {
         "en": "Control Lunch. Headbutt the cracked wall on the western wall. Then step on the westernmost plate.",
         "es": "Controla a Lunch. Da un cabezazo a la pared agrietada en la pared occidental. Luego pisa la placa más occidental."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "First trial",
       "text": {
         "en": "Control Peck. Squeeze through the small gap you just opened, and the one to the north, then investigate the magic.",
         "es": "Controla a Peck. Cuélate por el pequeño hueco que acabas de abrir, y por el que está al norte, luego investiga la magia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "First trial",
       "text": {
         "en": "To exit, control Lunch and exit the southern door.",
         "es": "Para salir, controla a Lunch y sal por la puerta sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Second trial",
       "text": {
         "en": "Enter the door on the eastern wall.",
         "es": "Entra por la puerta en la pared oriental."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Second trial",
       "text": {
         "en": "Control Tunks and jump over the chasm to the north once.",
         "es": "Controla a Tunks y salta sobre la grieta hacia el norte una vez."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Second trial",
       "text": {
         "en": "Control Lunch at the entrance and headbutt the cracked wall on the west.",
         "es": "Controla a Lunch en la entrada y da un cabezazo a la pared agrietada al oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Second trial",
       "text": {
         "en": "Control Peck, squeeze through, and pull the lever.",
         "es": "Controla a Peck, cuélate y tira de la palanca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Second trial",
       "text": {
         "en": "Control Lunch and push the heavy block onto the north-eastern pressure plate.",
         "es": "Controla a Lunch y empuja el bloque pesado hasta la placa de presión del noreste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Second trial",
       "text": {
         "en": "Control Tunks and stand on the pressure plate on the centre platform.",
         "es": "Controla a Tunks y ponte de pie sobre la placa de presión en la plataforma central."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Second trial",
       "text": {
         "en": "Control Lunch and pull the heavy block onto the south-eastern pressure plate. Walk around to stand on the north-eastern pressure plate.",
         "es": "Controla a Lunch y arrastra el bloque pesado hasta la placa de presión del sureste. Camina hasta ponerte de pie sobre la placa de presión del noreste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Second trial",
       "text": {
         "en": "Control Tunks, jump the chasm north and stand on one of the north-western pressure plates.",
         "es": "Controla a Tunks, salta la grieta hacia el norte y ponte de pie sobre una de las placas de presión del noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Second trial",
       "text": {
         "en": "Control Peck and squeeze through the north-western gap.",
         "es": "Controla a Peck y cuélate por el hueco del noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Second trial",
       "text": {
         "en": "Control Lunch, and walk past the three pillars and stand on one of the north-western pressure plates.",
         "es": "Controla a Lunch, y pasa junto a los tres pilares y ponte de pie sobre una de las placas de presión del noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Second trial",
       "text": {
         "en": "Control Peck and pull the lever, squeeze back through the gap and investigate the magic.",
         "es": "Controla a Peck y tira de la palanca, vuelve a colarte por el hueco e investiga la magia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Second trial",
       "text": {
         "en": "To exit, go through the southern door as any of the goebies.",
         "es": "Para salir, atraviesa la puerta sur con cualquiera de los goebies."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Third trial",
       "text": {
         "en": "Enter the door on the northern wall.",
         "es": "Entra por la puerta en la pared norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Third trial",
       "text": {
         "en": "Control Lunch and headbutt the western wall.",
         "es": "Controla a Lunch y da un cabezazo a la pared occidental."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Third trial",
       "text": {
         "en": "Control Peck and squeeze through. Pull the lever to reveal a pressure plate. :For these next instructions, Lunch needs to be placed in the correct positions after Tunks. You can pull the lever as many times as you like to reveal the pressure plate.",
         "es": "Controla a Peck y cuélate. Tira de la palanca para revelar una placa de presión. :Para las siguientes instrucciones, Lunch debe colocarse en las posiciones correctas después de Tunks. Puedes tirar de la palanca tantas veces como quieras para revelar la placa de presión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Lever 1",
       "text": {
         "en": "Control Tunks. Jump over chasm then place Tunks on the north-eastern small tile and then place Lunch on the south-eastern large tile.",
         "es": "Controla a Tunks. Salta sobre la grieta y luego coloca a Tunks en la baldosa pequeña del noreste y después coloca a Lunch en la baldosa grande del sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Lever 2",
       "text": {
         "en": "Place Tunks on the north-western small tile and then place Lunch on the south-eastern large tile.",
         "es": "Coloca a Tunks en la baldosa pequeña del noroeste y luego coloca a Lunch en la baldosa grande del sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Lever 2",
       "text": {
         "en": "Place Tunks on the south-eastern small tile and then place Lunch on the north-western large tile.",
         "es": "Coloca a Tunks en la baldosa pequeña del sureste y luego coloca a Lunch en la baldosa grande del noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Lever 3",
       "text": {
         "en": "Place Tunks on the southern small tile and then place Lunch on the north-western large tile.",
         "es": "Coloca a Tunks en la baldosa pequeña del sur y luego coloca a Lunch en la baldosa grande del noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Lever 3",
       "text": {
         "en": "Place Tunks on the south-western small tile and then place Lunch on the south-eastern large tile.",
         "es": "Coloca a Tunks en la baldosa pequeña del suroeste y luego coloca a Lunch en la baldosa grande del sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Lever 3",
       "text": {
         "en": "Place Tunks on the northern small tile and then place Lunch on the south-western large tile.",
         "es": "Coloca a Tunks en la baldosa pequeña del norte y luego coloca a Lunch en la baldosa grande del suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Lever 4",
       "text": {
         "en": "Place Tunks on the north-western small tile and then place Lunch on the south-western large tile.",
         "es": "Coloca a Tunks en la baldosa pequeña del noroeste y luego coloca a Lunch en la baldosa grande del suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Lever 4",
       "text": {
         "en": "Place Tunks on the north-eastern small tile and then place Lunch on the south-eastern large tile.",
         "es": "Coloca a Tunks en la baldosa pequeña del noreste y luego coloca a Lunch en la baldosa grande del sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Lever 4",
       "text": {
         "en": "Place Tunks on the eastern small tile and then place Lunch on the north-eastern large tile.",
         "es": "Coloca a Tunks en la baldosa pequeña del este y luego coloca a Lunch en la baldosa grande del noreste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Lever 4",
       "text": {
         "en": "Place Tunks on the south-eastern small tile and then place Lunch on the north-western large tile.",
         "es": "Coloca a Tunks en la baldosa pequeña del sureste y luego coloca a Lunch en la baldosa grande del noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Release Xinachto",
       "text": {
         "en": "Investigate the magic as Peck, then exit the southern door.",
         "es": "Investiga la magia con Peck, luego sal por la puerta sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Release Xinachto",
       "text": {
-        "en": "Talk to Xinachto, break the shackle. (opciones de chat: 4 Why is Xinchto allowing this to happen? • 2 You're right, break the shackles!)",
-        "es": "Habla con Xinachto, rompe el grillete. (opciones de chat: 4 ¿Por qué permite Xinchto que esto suceda? • 2 Tienes razón, ¡rompe los grilletes!)"
-      }
+        "en": "Talk to Xinachto, break the shackle.",
+        "es": "Habla con Xinachto, rompe el grillete."
+      },
+      "chatOptions": [
+        "4 Why is Xinchto allowing this to happen?",
+        "2 You're right, break the shackles!"
+      ]
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Release Xinachto",
       "text": {
         "en": "Go outside through the southern door.",
         "es": "Sal al exterior por la puerta sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Release Xinachto",
       "text": {
         "en": "Talk to the Ancient goebie.",
         "es": "Habla con el Ancient goebie."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Fighting",
       "text": {
         "en": "Kill the waves of Airut and chargers by clicking on the ground or the minimap to attack.",
         "es": "Mata las oleadas de Airut y chargers haciendo clic en el suelo o en el minimapa para atacar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 1,
+      "section": "Fighting",
       "text": {
         "en": "If you fail, speak to the Ancient goebie to start the waves again.",
         "es": "Si fallas, habla con el Ancient goebie para volver a iniciar las oleadas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Wrapping Up",
       "text": {
         "en": "Talk to the Ancient goebie to obtain poisonous nemi stalks.",
         "es": "Habla con el Ancient goebie para obtener tallos venenosos de nemi."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Wrapping Up",
       "text": {
         "en": "Run south-east to exit the Nemi forest.",
         "es": "Corre hacia el sureste para salir de Nemi Forest."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Wrapping Up",
       "text": {
-        "en": "Run east to Kanatah and talk to Acca Kanatah. (opciones de chat: 1 Talk about Call of the Ancestors. • 1 I found the poison. • 3 We explored a lost temple, freed a spirit and used forgotten magic to defeat airut.)",
-        "es": "Corre hacia el este hasta Kanatah y habla con Acca Kanatah. (opciones de chat: 1 Hablar sobre Call of the Ancestors. • 1 Encontré el veneno. • 3 Exploramos un templo perdido, liberamos un espíritu y usamos magia olvidada para derrotar a los airut.)"
-      }
+        "en": "Run east to Kanatah and talk to Acca Kanatah.",
+        "es": "Corre hacia el este hasta Kanatah y habla con Acca Kanatah."
+      },
+      "chatOptions": [
+        "1 Talk about Call of the Ancestors.",
+        "1 I found the poison.",
+        "3 We explored a lost temple, freed a spirit and used forgotten magic to defeat airut."
+      ]
     },
     {
       "index": 53,
       "indent": 1,
+      "section": "Wrapping Up",
       "text": {
-        "en": "Talk to Mazcab guide outside Nemi Forest to return quickly to Acca Kanatah if you have the reputation. (opciones de chat: 4 Kanatah)",
-        "es": "Habla con el guía de Mazcab fuera de Nemi Forest para volver rápidamente con Acca Kanatah si tienes la reputación. (opciones de chat: 4 Kanatah)"
-      }
+        "en": "Talk to Mazcab guide outside Nemi Forest to return quickly to Acca Kanatah if you have the reputation.",
+        "es": "Habla con el guía de Mazcab fuera de Nemi Forest para volver rápidamente con Acca Kanatah si tienes la reputación."
+      },
+      "chatOptions": [
+        "4 Kanatah"
+      ]
     }
   ]
 }

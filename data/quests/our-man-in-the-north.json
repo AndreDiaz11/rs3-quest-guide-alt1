@@ -2,7 +2,8 @@
   "id": "our-man-in-the-north",
   "title": "Our Man in the North",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:01:26.259Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:46.622Z",
   "icon": "https://runescape.wiki/images/Our_Man_in_the_North_icon.png",
   "series": "Desert",
   "age": "5",
@@ -71,6 +72,7 @@
       "image": "https://runescape.wiki/images/thumb/Menaphos_reputation.png/100px-Menaphos_reputation.png?63157"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Our_Man_in_the_North_reward.png?264ea",
   "postQuest": [
     {
       "type": "xp",
@@ -88,490 +90,631 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting off",
       "text": {
         "en": "Talk to Grand Vizier Hassan in the Merchant district, south of the bank deposit box.",
         "es": "Habla con el Gran Visir Hassan en el distrito de comerciantes, al sur de la caja de depósito del banco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The bloodline",
       "text": {
         "en": "Go to the Grand Library of Menaphos in the Imperial district. The entrance is next to the deposit box (bank chest).",
         "es": "Ve a la Gran Biblioteca de Menaphos en el distrito imperial. La entrada está junto a la caja de depósito (cofre del banco)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The bloodline",
       "text": {
-        "en": "Talk to Kohnen the librarian, who is just north of the entrance. (opciones de chat: 1 *whisper* I'm looking for a book.)",
-        "es": "Habla con Kohnen, el bibliotecario, que está justo al norte de la entrada. (opciones de chat: 1 *susurro* Estoy buscando un libro.)"
-      }
+        "en": "Talk to Kohnen the librarian, who is just north of the entrance.",
+        "es": "Habla con Kohnen, el bibliotecario, que está justo al norte de la entrada."
+      },
+      "chatOptions": [
+        "1 *whisper* I'm looking for a book."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The bloodline",
       "text": {
         "en": "Exit the Grand Library.",
         "es": "Sal de la Gran Biblioteca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The bloodline",
       "text": {
-        "en": "Head north to talk to Commander Akhomet. (opciones de chat: 1 Talk about Our Man in the North. • 2 Historical text and bloodlines.)",
-        "es": "Dirígete al norte para hablar con el Comandante Akhomet. (opciones de chat: 1 Hablar sobre Nuestro Hombre en el Norte. • 2 Texto histórico y linajes.)"
-      }
+        "en": "Head north to talk to Commander Akhomet.",
+        "es": "Dirígete al norte para hablar con el Comandante Akhomet."
+      },
+      "chatOptions": [
+        "1 Talk about Our Man in the North.",
+        "2 Historical text and bloodlines."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The bloodline",
       "text": {
         "en": "Head to Pollnivneach.",
         "es": "Dirígete a Pollnivneach."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The bloodline",
       "text": {
-        "en": "Speak to Aristarchus, who is north-west of the south magic carpet station. (opciones de chat: 1 Talk about Our Man in the North)",
-        "es": "Habla con Aristarchus, que está al noroeste de la estación sur de la alfombra mágica. (opciones de chat: 1 Hablar sobre Nuestro Hombre en el Norte)"
-      }
+        "en": "Speak to Aristarchus, who is north-west of the south magic carpet station.",
+        "es": "Habla con Aristarchus, que está al noroeste de la estación sur de la alfombra mágica."
+      },
+      "chatOptions": [
+        "1 Talk about Our Man in the North"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The bloodline",
       "text": {
         "en": "You will have to fight four Menaphite Thugs.",
         "es": "Tendrás que luchar contra cuatro Menaphite Thugs."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "The bloodline",
       "text": {
         "en": "They are level 122 and fight using melee.",
         "es": "Son de nivel 122 y luchan cuerpo a cuerpo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "The bloodline",
       "text": {
         "en": "You can hide behind Aristarchus if you need a safe spot and are using ranged/magic/necromancy.",
         "es": "Puedes esconderte detrás de Aristarchus si necesitas un lugar seguro y estás usando distancia/magia/nigromancia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The bloodline",
       "text": {
-        "en": "Speak to Aristarchus again who will agree to meet you in the library. (opciones de chat: 1 Talk about Our Man in the North)",
-        "es": "Habla de nuevo con Aristarchus, quien accederá a reunirse contigo en la biblioteca. (opciones de chat: 1 Hablar sobre Nuestro Hombre en el Norte)"
-      }
+        "en": "Speak to Aristarchus again who will agree to meet you in the library.",
+        "es": "Habla de nuevo con Aristarchus, quien accederá a reunirse contigo en la biblioteca."
+      },
+      "chatOptions": [
+        "1 Talk about Our Man in the North"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "The bloodline",
       "text": {
         "en": "Return to the Grand Library and speak to Aristarchus, who is south of the entrance inside the library.",
         "es": "Vuelve a la Gran Biblioteca y habla con Aristarchus, que está al sur de la entrada dentro de la biblioteca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "The bloodline",
       "text": {
-        "en": "Go to Uzer Mastaba and enter the pyramid to trigger a cutscene. (fairy code )",
+        "en": "Go to Uzer Mastaba and enter the pyramid to trigger a cutscene. (fairy code DLQ)",
         "es": "Ve a Uzer Mastaba y entra en la pirámide para activar una escena cinemática. (código de hada )"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "The bloodline",
       "text": {
-        "en": "After the cutscene, enter the pyramid once more and speak to Senliten. (opciones de chat: 4 Talk about Our Man in the North. • 4 Ozan is Senliten's descendant? • 2 Where are you going with this?)",
-        "es": "Después de la escena cinemática, entra de nuevo en la pirámide y habla con Senliten. (opciones de chat: 4 Hablar sobre Nuestro Hombre en el Norte. • 4 ¿Ozan es descendiente de Senliten? • 2 ¿Adónde quieres llegar con esto?)"
-      }
+        "en": "After the cutscene, enter the pyramid once more and speak to Senliten.",
+        "es": "Después de la escena cinemática, entra de nuevo en la pirámide y habla con Senliten."
+      },
+      "chatOptions": [
+        "4 Talk about Our Man in the North.",
+        "4 Ozan is Senliten's descendant?",
+        "2 Where are you going with this?"
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "The bloodline",
       "text": {
         "en": "Go to Al Kharid and speak to Osman, who is in the throne room, south of the lodestone.",
         "es": "Ve a Al Kharid y habla con Osman, que está en la sala del trono, al sur de la piedra de viaje."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "The bloodline",
       "text": {
         "en": "Speak to Emir Ali Mirza in front of the throne.",
         "es": "Habla con el Emir Ali Mirza frente al trono."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Leave the Palace and head north-east to Dommik's Crafting Store.",
         "es": "Sal del palacio y dirígete al noreste hacia la tienda de artesanía de Dommik."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Ignore the quest active area marked on the minimap.",
         "es": "Ignora el área activa de la misión marcada en el minimapa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Climb the stairs on the inside of the crafting store.",
         "es": "Sube las escaleras dentro de la tienda de artesanía."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Climb the ladder south of the stairs.",
         "es": "Sube la escalera de mano al sur de las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Follow these steps across the rooftops:",
         "es": "Sigue estos pasos por los tejados:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Walk across the plank to the south.",
         "es": "Cruza el tablón hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Slide down the awning to the south.",
         "es": "Deslízate por el toldo hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Go through the building.",
         "es": "Atraviesa el edificio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Walk across the washing line (north-west from where you started).",
         "es": "Cruza la cuerda de tender ropa (al noroeste de donde empezaste)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Climb the ladder to the west.",
         "es": "Sube la escalera de mano hacia el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Talk to Jabari.",
         "es": "Habla con Jabari."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Cross the planks to the west.",
         "es": "Cruza los tablones hacia el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Climb the ladder to the southwest.",
         "es": "Sube la escalera de mano hacia el suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Jump from the scaffold to the west.",
         "es": "Salta desde el andamio hacia el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Climb down the rug to the south.",
         "es": "Baja por la alfombra hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Swing across the wooden frame immediately west.",
         "es": "Balancéate por la estructura de madera inmediatamente al oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Jump from the scaffold (west) to the next building.",
         "es": "Salta desde el andamio (oeste) al siguiente edificio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Bounce on the awning (south) to the bank.",
         "es": "Rebota en el toldo (sur) hacia el banco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Climb up the brickwork to the west on the wall.",
         "es": "Sube por el ladrillo hacia el oeste en la pared."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Talk to Jabari.",
         "es": "Habla con Jabari."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Parrot drop on the rug to the south.",
         "es": "Salto de loro en la alfombra hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 2,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Do not shimmy across the rope.",
         "es": "No te balancees por la cuerda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Run north of the bank, west of the furnace, and talk to Jabari.",
         "es": "Corre al norte del banco, al oeste del horno, y habla con Jabari."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Run north-east of the Al Kharid lodestone into a tent, and talk to Jabari.",
         "es": "Corre al noreste de la piedra de viaje de Al Kharid hacia una tienda de campaña, y habla con Jabari."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Run north to the house near the north-east exit of Al Kharid, and talk to Jabari.",
         "es": "Corre hacia el norte, a la casa cerca de la salida noreste de Al Kharid, y habla con Jabari."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 2,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "You can get a free heal from the Surgeon General west of this house.",
         "es": "Puedes conseguir una curación gratuita del Cirujano General al oeste de esta casa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Tracking down Jabari",
       "text": {
         "en": "Go to Het's Oasis.",
         "es": "Ve al oasis de Het."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Fighting Jabari",
       "text": {
         "en": "Prepare to battle Jabari four times. He is level 112 and uses magic. He has a weakness to slash.",
         "es": "Prepárate para luchar contra Jabari cuatro veces. Es de nivel 112 y usa magia. Tiene debilidad al corte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Fighting Jabari",
       "text": {
-        "en": "Talk to Jabari. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Jabari. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to Jabari.",
+        "es": "Habla con Jabari."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Fighting Jabari",
       "text": {
         "en": "Jabari will teleport you into the centre of the arena, surrounding you with his clones.",
         "es": "Jabari te teletransportará al centro de la arena, rodeándote con sus clones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 1,
+      "section": "Fighting Jabari",
       "text": {
         "en": "Choosing the wrong Jabari will cause an explosion that damages the player and scales with level.",
         "es": "Elegir al Jabari equivocado provocará una explosión que daña al jugador y escala según el nivel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 1,
+      "section": "Fighting Jabari",
       "text": {
         "en": "Find the real Jabari by attacking the odd one out. As it is random for each player, it could be any of these:",
         "es": "Encuentra al verdadero Jabari atacando al que sea diferente. Como es aleatorio para cada jugador, podría ser cualquiera de estos:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 2,
+      "section": "Fighting Jabari",
       "text": {
         "en": "The only one facing backwards.",
         "es": "El único que mira hacia atrás."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 2,
+      "section": "Fighting Jabari",
       "text": {
         "en": "The only one in attack position.",
         "es": "El único en posición de ataque."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 2,
+      "section": "Fighting Jabari",
       "text": {
         "en": "The one with the smallest sceptre.",
         "es": "El que tiene el cetro más pequeño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 2,
+      "section": "Fighting Jabari",
       "text": {
         "en": "The largest one of them.",
         "es": "El más grande de todos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 2,
+      "section": "Fighting Jabari",
       "text": {
         "en": "The one targeted by the audience.",
         "es": "El que es señalado por el público."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 2,
+      "section": "Fighting Jabari",
       "text": {
         "en": "The one with the correctly spelled name.",
         "es": "El que tiene el nombre escrito correctamente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 2,
+      "section": "Fighting Jabari",
       "text": {
         "en": "The one with a different robe colour.",
         "es": "El que tiene un color de túnica diferente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 2,
+      "section": "Fighting Jabari",
       "text": {
         "en": "The one without prayer renewal particles.",
         "es": "El que no tiene partículas de renovación de oración."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 2,
+      "section": "Fighting Jabari",
       "text": {
         "en": "The one who is not translucent.",
         "es": "El que no es translúcido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Fighting Jabari",
       "text": {
         "en": "Talk to Het.",
         "es": "Habla con Het."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Fighting Jabari",
       "text": {
-        "en": "Talk to Emir Ali Mirza, in the Al Kharid throne room. (opciones de chat: 1 Talk about Our Man in the North.)",
-        "es": "Habla con el Emir Ali Mirza, en la sala del trono de Al Kharid. (opciones de chat: 1 Hablar sobre Nuestro Hombre en el Norte.)"
-      }
+        "en": "Talk to Emir Ali Mirza, in the Al Kharid throne room.",
+        "es": "Habla con el Emir Ali Mirza, en la sala del trono de Al Kharid."
+      },
+      "chatOptions": [
+        "1 Talk about Our Man in the North."
+      ]
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Fighting Jabari",
       "text": {
-        "en": "After the cutscene, talk to Emir Ali Mirza again. (opciones de chat: 1 Talk about Our Man in the North.)",
-        "es": "Después de la escena cinemática, habla de nuevo con el Emir Ali Mirza. (opciones de chat: 1 Hablar sobre Nuestro Hombre en el Norte.)"
-      }
+        "en": "After the cutscene, talk to Emir Ali Mirza again.",
+        "es": "Después de la escena cinemática, habla de nuevo con el Emir Ali Mirza."
+      },
+      "chatOptions": [
+        "1 Talk about Our Man in the North."
+      ]
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Fighting Jabari",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

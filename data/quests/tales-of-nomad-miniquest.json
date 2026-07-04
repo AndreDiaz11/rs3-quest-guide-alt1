@@ -2,7 +2,8 @@
   "id": "tales-of-nomad-miniquest",
   "title": "Tales of Nomad (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-04T02:20:52.489Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:10.542Z",
   "icon": "https://runescape.wiki/images/Tales_of_Nomad_%28miniquest%29_icon.png",
   "series": null,
   "age": "6",
@@ -54,47 +55,60 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Tales_of_Nomad_%28miniquest%29_reward.png?4e14d",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Visiting the memories of Nomad",
       "text": {
-        "en": "Enter the River of Noumenon by passing through the door behind Death in Death's office. (opciones de chat: 1 River Noumenon.)",
-        "es": "Entra en el River of Noumenon pasando por la puerta detrás de Death en la oficina de Death. (opciones de chat: 1 River Noumenon.)"
-      }
+        "en": "Enter the River of Noumenon by passing through the door behind Death in Death's office.",
+        "es": "Entra en el River of Noumenon pasando por la puerta detrás de Death en la oficina de Death."
+      },
+      "chatOptions": [
+        "1 River Noumenon."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Visiting the memories of Nomad",
       "text": {
         "en": "Approach the Sinister figure on the west side at the bottom of the stairs, then sift through Nomad's memory.",
         "es": "Acércate a la Sinister figure en el lado oeste, al pie de las escaleras, y luego rebusca en la memoria de Nomad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Visiting the memories of Nomad",
       "text": {
         "en": "In each of the following locations, in order, \"Sift through\", \"End\" and then \"Witness\" the memory and receive the text saying where the next memory is.",
         "es": "En cada una de las siguientes ubicaciones, en orden, \"Rebusca\", \"Termina\" y luego \"Presencia\" el recuerdo y recibe el texto que indica dónde está el siguiente recuerdo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Visiting the memories of Nomad",
       "text": {
         "en": "Once there is text overlaid on your screen, you can click away and move on to the next memory",
         "es": "Una vez que aparezca texto superpuesto en tu pantalla, puedes hacer clic fuera y pasar al siguiente recuerdo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Visiting the memories of Nomad",
       "text": {
         "en": "Return to the start point of the miniquest, and talk to the Sinister figure.",
         "es": "Regresa al punto de inicio de la minimisión y habla con la Sinister figure."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

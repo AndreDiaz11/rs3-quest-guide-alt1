@@ -2,7 +2,8 @@
   "id": "tuai-leit-s-own-miniquest",
   "title": "Tuai Leit's Own (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-04T02:26:04.225Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:33.062Z",
   "icon": "https://runescape.wiki/images/thumb/Tuai_Leit%27s_Own_%28miniquest%29_icon.png/50px-Tuai_Leit%27s_Own_%28miniquest%29_icon.png",
   "series": "Tales of the Arc",
   "age": "6",
@@ -103,183 +104,239 @@
       "image": "https://runescape.wiki/images/thumb/Tuai_Leit_teleport_detail.png/100px-Tuai_Leit_teleport_detail.png?ba6ce"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Tuai_Leit%27s_Own_%28miniquest%29_reward.png?bf22b",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Rumberry elixir",
       "text": {
-        "en": "Talk to Navigator Jemi (if you have just completed the Harbinger miniquest you may need to relog for the chat option to show up). (opciones de chat: 1 Tuai Leit's Own miniquest. • Accept)",
-        "es": "Habla con Navigator Jemi (si acabas de completar la miniquest Harbinger, puede que necesites reconectarte para que aparezca la opción de diálogo). (opciones de chat: 1 Miniquest Tuai Leit's Own. • Aceptar)"
-      }
+        "en": "Talk to Navigator Jemi (if you have just completed the Harbinger miniquest you may need to relog for the chat option to show up).",
+        "es": "Habla con Navigator Jemi (si acabas de completar la miniquest Harbinger, puede que necesites reconectarte para que aparezca la opción de diálogo)."
+      },
+      "chatOptions": [
+        "1 Tuai Leit's Own miniquest.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Rumberry elixir",
       "text": {
         "en": "Travel to Tuai Leit.",
         "es": "Viaja a Tuai Leit."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Rumberry elixir",
       "text": {
         "en": "Talk to Sensei Hakase in the middle of the island.",
         "es": "Habla con Sensei Hakase en el centro de la isla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Rumberry elixir",
       "text": {
         "en": "If you don't have them already, pick 30 rumberries at the south-west farming spot.",
         "es": "Si aún no las tienes, recoge 30 rumberries en la zona de cultivo del suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Rumberry elixir",
       "text": {
         "en": "Talk twice to Cheri the gnome on the south coast.",
         "es": "Habla dos veces con Cheri the gnome en la costa sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Rumberry elixir",
       "text": {
-        "en": "Take the rumberry elixir to Lookout Ekahi. (opciones de chat: 1 Tuai Leit's Own miniquest.)",
-        "es": "Lleva el elixir de rumberry a Lookout Ekahi. (opciones de chat: 1 Miniquest Tuai Leit's Own.)"
-      }
+        "en": "Take the rumberry elixir to Lookout Ekahi.",
+        "es": "Lleva el elixir de rumberry a Lookout Ekahi."
+      },
+      "chatOptions": [
+        "1 Tuai Leit's Own miniquest."
+      ]
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Rumberry elixir",
       "text": {
         "en": "Do not exit the dialogue or you will have to get another elixir.",
         "es": "No salgas del diálogo o tendrás que conseguir otro elixir."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Rumberry elixir",
       "text": {
         "en": "Return to Sensei Hakase.",
         "es": "Vuelve con Sensei Hakase."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Rumberry elixir",
       "text": {
         "en": "Chop down the inferior bamboo to the west of the island to reach Tuai Leit moai.",
         "es": "Corta el bambú inferior al oeste de la isla para llegar al Tuai Leit moai."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Rumberry elixir",
       "text": {
-        "en": "Talk to Tuai Leit moai. (opciones de chat: 3 I seek a cure for a spiritual affliction.)",
-        "es": "Habla con Tuai Leit moai. (opciones de chat: 3 Busco una cura para una dolencia espiritual.)"
-      }
+        "en": "Talk to Tuai Leit moai.",
+        "es": "Habla con Tuai Leit moai."
+      },
+      "chatOptions": [
+        "3 I seek a cure for a spiritual affliction."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Positive energy",
       "text": {
         "en": "If you don't have them already, harvest 30 positive energy from Cyclosis island.",
         "es": "Si aún no la tienes, recolecta 30 de energía positiva en la isla Cyclosis."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Positive energy",
       "text": {
         "en": "Travel to Aminishi with some spirit dragon charms.",
         "es": "Viaja a Aminishi con algunos spirit dragon charms."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Positive energy",
       "text": {
         "en": "Enter the spirit realm via The Well of Spirits in the easternmost part of the island near the Sakadagami.",
         "es": "Entra en el reino espiritual a través de The Well of Spirits, en la parte más oriental de la isla, cerca de Sakadagami."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Positive energy",
       "text": {
         "en": "Talk twice to Yulong in the spirit realm, on the south beach.",
         "es": "Habla dos veces con Yulong en el reino espiritual, en la playa sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Positive energy",
       "text": {
         "en": "Hand him the positive energy to trigger a cutscene with a white flash.",
         "es": "Entrégale la energía positiva para activar una escena cinemática con un destello blanco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Positive energy",
       "text": {
         "en": "Finish dialogue or you have to give positive energy again.",
         "es": "Termina el diálogo o tendrás que darle la energía positiva de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Positive energy",
       "text": {
         "en": "Leave the spirit realm. You can quickly leave by exiting to lobby or by logging out then back in.",
         "es": "Sal del reino espiritual. Puedes salir rápidamente yendo al lobby o desconectándote y volviendo a conectarte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Positive energy",
       "text": {
-        "en": "Talk to Lookout Ekahi. (opciones de chat: 1 Tuai Leit's Own miniquest.)",
-        "es": "Habla con Lookout Ekahi. (opciones de chat: 1 Miniquest Tuai Leit's Own.)"
-      }
+        "en": "Talk to Lookout Ekahi.",
+        "es": "Habla con Lookout Ekahi."
+      },
+      "chatOptions": [
+        "1 Tuai Leit's Own miniquest."
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Positive energy",
       "text": {
         "en": "Talk to Sensei Hakase in Tuai Leit.",
         "es": "Habla con Sensei Hakase en Tuai Leit."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Positive energy",
       "text": {
         "en": "Talk to Sensei Seaworth nearby.",
         "es": "Habla con Sensei Seaworth, que está cerca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Positive energy",
       "text": {
         "en": "Talk to Sojobo in the Waiko marketplace.",
         "es": "Habla con Sojobo en el mercado de Waiko."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Positive energy",
       "text": {
-        "en": "Talk to Navigator Jemi. (opciones de chat: 1 Tuai Leit's Own miniquest.)",
-        "es": "Habla con Navigator Jemi. (opciones de chat: 1 Miniquest Tuai Leit's Own.)"
-      }
+        "en": "Talk to Navigator Jemi.",
+        "es": "Habla con Navigator Jemi."
+      },
+      "chatOptions": [
+        "1 Tuai Leit's Own miniquest."
+      ]
     }
   ]
 }

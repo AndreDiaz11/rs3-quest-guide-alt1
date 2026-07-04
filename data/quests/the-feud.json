@@ -2,7 +2,8 @@
   "id": "the-feud",
   "title": "The Feud",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:18:46.754Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:18.083Z",
   "icon": "https://runescape.wiki/images/The_Feud_icon.png",
   "series": null,
   "age": "5",
@@ -108,471 +109,626 @@
       "image": "https://runescape.wiki/images/thumb/Beer_detail.png/100px-Beer_detail.png?047f1"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Feud_reward.png?774bf",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Ali Morrisane in Al Kharid. (opciones de chat: 1 If you are, then why are you still selling goods from a stall? • 2 I'd like to help you but.... • Accept • 1 No, I'm really too busy.)",
-        "es": "Habla con Ali Morrisane en Al Kharid. (opciones de chat: 1 If you are, then why are you still selling goods from a stall? • 2 I'd like to help you but.... • Accept • 1 No, I'm really too busy.)"
-      }
+        "en": "Talk to Ali Morrisane in Al Kharid.",
+        "es": "Habla con Ali Morrisane en Al Kharid."
+      },
+      "chatOptions": [
+        "1 If you are, then why are you still selling goods from a stall?",
+        "2 I'd like to help you but....",
+        "Accept",
+        "1 No, I'm really too busy."
+      ]
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Getting started",
       "text": {
-        "en": "If you do not have desert disguise, (opciones de chat: 1 If you are, then why are you still selling goods from a stall? • 2 I'd like to help you but.... • Accept • 2 Okay.) buy Kharidian headpiece and fake beard from the shop and then use these items on each other.",
+        "en": "If you do not have desert disguise, buy Kharidian headpiece and fake beard from the shop and then use these items on each other.",
         "es": "Si no tienes desert disguise, (opciones de chat: 1 If you are, then why are you still selling goods from a stall? • 2 I'd like to help you but.... • Accept • 2 Okay.) compra Kharidian headpiece y fake beard en la tienda y luego usa estos objetos el uno sobre el otro."
-      }
+      },
+      "chatOptions": [
+        "1 If you are, then why are you still selling goods from a stall?",
+        "2 I'd like to help you but....",
+        "Accept",
+        "2 Okay."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "In Pollnivneach",
       "text": {
         "en": "Travel to south Pollnivneach (talk to the rug merchant just outside Shantay Pass to get there using a magic carpet).",
         "es": "Viaja al sur de Pollnivneach (habla con el rug merchant justo fuera de Shantay Pass para llegar allí usando una alfombra mágica)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "In Pollnivneach",
       "text": {
         "en": "Head to the local bar.",
         "es": "Dirígete al bar local."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "In Pollnivneach",
       "text": {
-        "en": "If you do not have three glasses of beer, talk to Faisal the Barman to buy them. (opciones de chat: 1 Yes, I'd like a drink please.)",
-        "es": "Si no tienes tres vasos de cerveza, habla con Faisal the Barman para comprarlos. (opciones de chat: 1 Yes, I'd like a drink please.)"
-      }
+        "en": "If you do not have three glasses of beer, talk to Faisal the Barman to buy them.",
+        "es": "Si no tienes tres vasos de cerveza, habla con Faisal the Barman para comprarlos."
+      },
+      "chatOptions": [
+        "1 Yes, I'd like a drink please."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "In Pollnivneach",
       "text": {
         "en": "Right-click to use three glasses of beer on Jalal the Drunk. Finish the dialogue with each beer.",
         "es": "Haz clic derecho para usar los tres vasos de cerveza en Jalal the Drunk. Termina el diálogo con cada cerveza."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "In Pollnivneach",
       "text": {
         "en": "Talk to a Menaphite Thug, who can be found inside the bar or outside the west side of the bar. Make sure to right-click to avoid attacking him.",
         "es": "Habla con un Menaphite Thug, que se puede encontrar dentro del bar o fuera, en el lado oeste del bar. Asegúrate de hacer clic derecho para evitar atacarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "In Pollnivneach",
       "text": {
         "en": "Talk to a brigand or bandit in the North Pollnivneach. Again, right-click to talk to him.",
         "es": "Habla con un brigand o bandit en el norte de Pollnivneach. De nuevo, haz clic derecho para hablar con él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Trading the camels",
       "text": {
         "en": "Head to the kebab seller north-west of the well in the town centre. The map icon is File:Kebab seller map icon.png.",
         "es": "Dirígete al kebab seller al noroeste del pozo, en el centro de la ciudad. El icono del mapa es File:Kebab seller map icon.png."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Trading the camels",
       "text": {
-        "en": "Talk to Isma'il the Kebab seller to buy red hot sauce from him. (opciones de chat: 3 Would you sell me that bottle of special kebab sauce? • 2 No thanks, I'm good.)",
-        "es": "Habla con Isma'il the Kebab seller para comprarle red hot sauce. (opciones de chat: 3 Would you sell me that bottle of special kebab sauce? • 2 No thanks, I'm good.)"
-      }
+        "en": "Talk to Isma'il the Kebab seller to buy red hot sauce from him.",
+        "es": "Habla con Isma'il the Kebab seller para comprarle red hot sauce."
+      },
+      "chatOptions": [
+        "3 Would you sell me that bottle of special kebab sauce?",
+        "2 No thanks, I'm good."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Trading the camels",
       "text": {
-        "en": "In the house immediately to the south-west, talk to Sami the Camel Man to ask for two camels. Offer 500 coins. (opciones de chat: 4 Are those camels around the side for sale? • 2 What price do you want for both of them? • 3 Would 500 gold coins for the pair of them do?)",
-        "es": "En la casa inmediatamente al suroeste, habla con Sami the Camel Man para pedirle dos camellos. Ofrécele 500 monedas. (opciones de chat: 4 Are those camels around the side for sale? • 2 What price do you want for both of them? • 3 Would 500 gold coins for the pair of them do?)"
-      }
+        "en": "In the house immediately to the south-west, talk to Sami the Camel Man to ask for two camels. Offer 500 coins.",
+        "es": "En la casa inmediatamente al suroeste, habla con Sami the Camel Man para pedirle dos camellos. Ofrécele 500 monedas."
+      },
+      "chatOptions": [
+        "4 Are those camels around the side for sale?",
+        "2 What price do you want for both of them?",
+        "3 Would 500 gold coins for the pair of them do?"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Trading the camels",
       "text": {
         "en": "Use the sauce on a trough in the camel shop.",
         "es": "Usa la salsa en un abrevadero de la tienda de camellos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Trading the camels",
       "text": {
         "en": "Pick up the dung with a bucket in the backpack if the dung is brown. If it is green, use more sauce on a trough until it is brown.",
         "es": "Recoge el estiércol con un cubo de la mochila si el estiércol es marrón. Si es verde, usa más salsa en un abrevadero hasta que se vuelva marrón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Trading the camels",
       "text": {
         "en": "2 empty buckets can be found in the camel shop.",
         "es": "Se pueden encontrar 2 cubos vacíos en la tienda de camellos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Trading the camels",
       "text": {
         "en": "Obtain more buckets of dung if you plan to complete Dealing with Scabaras (1 bucket, does not consume) and My Arm's Big Adventure (3 buckets).",
         "es": "Consigue más cubos de estiércol si planeas completar Dealing with Scabaras (1 cubo, no se consume) y My Arm's Big Adventure (3 cubos)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Trading the camels",
       "text": {
         "en": "Talk to a brigand to the north to give them one of the receipts.",
         "es": "Habla con un brigand al norte para darle uno de los recibos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Trading the camels",
       "text": {
         "en": "Talk to a Menaphite Thug to the south to give them the other receipt.",
         "es": "Habla con un Menaphite Thug al sur para darle el otro recibo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Pickpocketing villagers",
       "text": {
-        "en": "Go south-west of Pollnivneach to a big purple tent and talk to Rashid the Operator to join his gang. (opciones de chat: 1 Yes, of course, those bandits should be taught a lesson. • 2 No thanks.)",
-        "es": "Ve al suroeste de Pollnivneach hasta una gran tienda de campaña morada y habla con Rashid the Operator para unirte a su banda. (opciones de chat: 1 Yes, of course, those bandits should be taught a lesson. • 2 No thanks.)"
-      }
+        "en": "Go south-west of Pollnivneach to a big purple tent and talk to Rashid the Operator to join his gang.",
+        "es": "Ve al suroeste de Pollnivneach hasta una gran tienda de campaña morada y habla con Rashid the Operator para unirte a su banda."
+      },
+      "chatOptions": [
+        "1 Yes, of course, those bandits should be taught a lesson.",
+        "2 No thanks."
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Pickpocketing villagers",
       "text": {
         "en": "Attempt to pickpocket a villager. You will fail and take 20 damage.",
         "es": "Intenta robarle a un aldeano. Fallarás y recibirás 20 de daño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Pickpocketing villagers",
       "text": {
-        "en": "Talk to Rashid the Operator for advice. (opciones de chat: 1 Yeah, I could do with a bit of advice. • 2 No thanks.)",
-        "es": "Habla con Rashid the Operator para pedirle consejo. (opciones de chat: 1 Yeah, I could do with a bit of advice. • 2 No thanks.)"
-      }
+        "en": "Talk to Rashid the Operator for advice.",
+        "es": "Habla con Rashid the Operator para pedirle consejo."
+      },
+      "chatOptions": [
+        "1 Yeah, I could do with a bit of advice.",
+        "2 No thanks."
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Pickpocketing villagers",
       "text": {
         "en": "Talk to the street urchin near the well or the fountain. Pay him ten coins and then pickpocket the villager with an arrow over their head. You will fail again and take 20 damage.",
         "es": "Habla con el street urchin cerca del pozo o la fuente. Págale diez monedas y luego roba al aldeano que tiene una flecha sobre la cabeza. Fallarás de nuevo y recibirás 20 de daño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Pickpocketing villagers",
       "text": {
-        "en": "Talk to Rashid the Operator. (opciones de chat: 1 Yeah, I could do with a bit of advice.)",
-        "es": "Habla con Rashid the Operator. (opciones de chat: 1 Yeah, I could do with a bit of advice.)"
-      }
+        "en": "Talk to Rashid the Operator.",
+        "es": "Habla con Rashid the Operator."
+      },
+      "chatOptions": [
+        "1 Yeah, I could do with a bit of advice."
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Pickpocketing villagers",
       "text": {
         "en": "Wield the oak-blackjack.",
         "es": "Equípate el oak-blackjack."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Pickpocketing villagers",
       "text": {
         "en": "Lure a villager into a secluded area. Knock out the villager with the blackjack and pickpocket them.",
         "es": "Atrae a un aldeano hacia una zona apartada. Déjalo inconsciente con el blackjack y róbale."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Mayor's wife's jewels",
       "text": {
         "en": "Talk to Rashid the Operator.",
         "es": "Habla con Rashid the Operator."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Mayor's wife's jewels",
       "text": {
         "en": "Wear the desert disguise and gloves.",
         "es": "Ponte el desert disguise y los guantes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Mayor's wife's jewels",
       "text": {
         "en": "Hide-behind the cactus near the mayor's house next to the fountain.",
         "es": "Escóndete detrás del cactus cerca de la casa del mayor's house, junto a la fuente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Mayor's wife's jewels",
       "text": {
         "en": "The disguise and the gloves can be safely unequipped after this step.",
         "es": "El disfraz y los guantes se pueden quitar sin problema después de este paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Mayor's wife's jewels",
       "text": {
         "en": "Use the keys on the door. If lost, talk to Rashid the Operator for another.",
         "es": "Usa las llaves en la puerta. Si las pierdes, habla con Rashid the Operator para conseguir otras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Mayor's wife's jewels",
       "text": {
         "en": "Climb the staircase on the northern side.",
         "es": "Sube la escalera en el lado norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Mayor's wife's jewels",
       "text": {
         "en": "Search the landscape picture near the bed.",
         "es": "Registra el cuadro del paisaje cerca de la cama."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Mayor's wife's jewels",
       "text": {
         "en": "Move the dial to 1, 1, 2, 3, 5, 8 in that order clockwise. Right-click the dials to help with the numbers. Click the centre square button will reset the mechanism.",
         "es": "Mueve el dial a 1, 1, 2, 3, 5, 8 en ese orden, en el sentido de las agujas del reloj. Haz clic derecho en los diales para ayudarte con los números. Si haces clic en el botón cuadrado del centro se reiniciará el mecanismo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Mayor's wife's jewels",
       "text": {
         "en": "1",
         "es": "1"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "Mayor's wife's jewels",
       "text": {
         "en": "1",
         "es": "1"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "Mayor's wife's jewels",
       "text": {
         "en": "2",
         "es": "2"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Mayor's wife's jewels",
       "text": {
         "en": "3",
         "es": "3"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "Mayor's wife's jewels",
       "text": {
         "en": "5",
         "es": "5"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Mayor's wife's jewels",
       "text": {
         "en": "8",
         "es": "8"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "The traitor",
       "text": {
         "en": "Talk to to Rashid the Operator to give the jewels.",
         "es": "Habla con Rashid the Operator para entregarle las joyas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "The traitor",
       "text": {
         "en": "Talk to a Menaphite Thug.",
         "es": "Habla con un Menaphite Thug."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "The traitor",
       "text": {
-        "en": "Talk to Rashid the Operator. (opciones de chat: 2 No thanks.)",
-        "es": "Habla con Rashid the Operator. (opciones de chat: 2 No thanks.)"
-      }
+        "en": "Talk to Rashid the Operator.",
+        "es": "Habla con Rashid the Operator."
+      },
+      "chatOptions": [
+        "2 No thanks."
+      ]
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "The traitor",
       "text": {
-        "en": "Talk to Faisal the Barman. (opciones de chat: 3 I'm looking for Traitorous Hesham. • 1 No thanks I'm ok.)",
-        "es": "Habla con Faisal the Barman. (opciones de chat: 3 I'm looking for Traitorous Hesham. • 1 No thanks I'm ok.)"
-      }
+        "en": "Talk to Faisal the Barman.",
+        "es": "Habla con Faisal the Barman."
+      },
+      "chatOptions": [
+        "3 I'm looking for Traitorous Hesham.",
+        "1 No thanks I'm ok."
+      ]
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "The traitor",
       "text": {
-        "en": "Right-click to talk to Badir the Snake Charmer sitting south of the bar. (opciones de chat: 1 Yes.)",
-        "es": "Haz clic derecho para hablar con Badir the Snake Charmer, sentado al sur del bar. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Right-click to talk to Badir the Snake Charmer sitting south of the bar.",
+        "es": "Haz clic derecho para hablar con Badir the Snake Charmer, sentado al sur del bar."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "The traitor",
       "text": {
         "en": "Right-click to use the snake charm on a desert snake north of the Menaphite tent and wait until it goes into the snake basket to become a full snake basket.",
         "es": "Haz clic derecho para usar el snake charm en una desert snake al norte de la tienda Menaphite y espera hasta que entre en la cesta de serpientes para convertirla en una cesta de serpientes llena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "The traitor",
       "text": {
-        "en": "If Badir the Snake Charmer did not give you a snake basket, it may be in your bank or talk to him again. (opciones de chat: 1 Wow, a snake charmer. Can I have a go? Can I have a go? Please?.)",
-        "es": "Si Badir the Snake Charmer no te dio una cesta de serpientes, puede que esté en tu banco, o habla con él de nuevo. (opciones de chat: 1 Wow, a snake charmer. Can I have a go? Can I have a go? Please?.)"
-      }
+        "en": "If Badir the Snake Charmer did not give you a snake basket, it may be in your bank or talk to him again.",
+        "es": "Si Badir the Snake Charmer no te dio una cesta de serpientes, puede que esté en tu banco, o habla con él de nuevo."
+      },
+      "chatOptions": [
+        "1 Wow, a snake charmer. Can I have a go? Can I have a go? Please?."
+      ]
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "The traitor",
       "text": {
         "en": "Talk to Maysa the Hag, in the house north-west of the bar, on the hill.",
         "es": "Habla con Maysa the Hag, en la casa al noroeste del bar, en la colina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "The traitor",
       "text": {
         "en": "Talk to Maysa the Hag the second time to give her the full snake basket and ugthanki dung respectively.",
         "es": "Habla con Maysa the Hag por segunda vez para darle la cesta de serpientes llena y el estiércol de ugthanki respectivamente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "The traitor",
       "text": {
         "en": "Use the Hag's poison on the table in the bar. It is the square one with a glass of beer on it, not the one with the empty beer glass.",
         "es": "Usa el veneno de la Hag en la mesa del bar. Es la mesa cuadrada que tiene un vaso de cerveza encima, no la que tiene el vaso de cerveza vacío."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "The traitor",
       "text": {
         "en": "Talk to Rashid the Operator.",
         "es": "Habla con Rashid the Operator."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Dealing with the thugs",
       "text": {
         "en": "Talk to the Menaphite Leader. Located outside the tent.",
         "es": "Habla con el Menaphite Leader. Se encuentra fuera de la tienda de campaña."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Dealing with the thugs",
       "text": {
         "en": "Kill the Tough Guy.",
         "es": "Mata al Tough Guy."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Dealing with the thugs",
       "text": {
-        "en": "Talk to a villager. (opciones de chat: 2 Ok I'll get to it.)",
-        "es": "Habla con un aldeano. (opciones de chat: 2 Ok I'll get to it.)"
-      }
+        "en": "Talk to a villager.",
+        "es": "Habla con un aldeano."
+      },
+      "chatOptions": [
+        "2 Ok I'll get to it."
+      ]
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Dealing with the thugs",
       "text": {
         "en": "Talk to the Bandit Leader east of the northern magic carpet station. The Bandit Leader will not appear if you did not talk to the villager in the previous step.",
         "es": "Habla con el Bandit Leader al este de la estación norte de alfombras mágicas. El Bandit Leader no aparecerá si no hablaste con el aldeano en el paso anterior."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Dealing with the thugs",
       "text": {
         "en": "Kill the Bandit champion.",
         "es": "Mata al Bandit champion."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Dealing with the thugs",
       "text": {
         "en": "Talk to a villager.",
         "es": "Habla con un aldeano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Dealing with the thugs",
       "text": {
         "en": "Talk to Hakeem the Mayor located next to the well in the middle of the town.",
         "es": "Habla con Hakeem the Mayor, ubicado junto al pozo en el centro de la ciudad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Dealing with the thugs",
       "text": {
         "en": "Return to Ali Morrisane in Al Kharid.",
         "es": "Vuelve con Ali Morrisane en Al Kharid."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Dealing with the thugs",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

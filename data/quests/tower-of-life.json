@@ -2,7 +2,8 @@
   "id": "tower-of-life",
   "title": "Tower of Life",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:25:05.307Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:31.333Z",
   "icon": "https://runescape.wiki/images/Tower_of_Life_icon.png",
   "series": null,
   "age": "5",
@@ -102,439 +103,568 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Tower_of_Life_reward.png?f7e1b",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Effigy at the Tower of Life near fairy ring code . (opciones de chat: 1 Sure, why not. • Accept)",
-        "es": "Habla con Effigy en la Tower of Life, cerca del fairy ring código . (opciones de chat: 1 Claro, ¿por qué no. • Aceptar)"
-      }
+        "en": "Talk to Effigy at the Tower of Life near fairy ring code .",
+        "es": "Habla con Effigy en la Tower of Life, cerca del fairy ring código ."
+      },
+      "chatOptions": [
+        "1 Sure, why not.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Bonafido, the builder lying down north of the door to the tower.",
         "es": "Habla con Bonafido, el constructor tumbado al norte de la puerta de la torre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Hard hat",
       "text": {
-        "en": "Talk to 'Black-eye'. (opciones de chat: 3 Three • 1 Torn curtains • 2 10 clay pieces)",
-        "es": "Habla con 'Black-eye'. (opciones de chat: 3 Tres • 1 Cortinas rotas • 2 10 trozos de arcilla)"
-      }
+        "en": "Talk to 'Black-eye'.",
+        "es": "Habla con 'Black-eye'."
+      },
+      "chatOptions": [
+        "3 Three",
+        "1 Torn curtains",
+        "2 10 clay pieces"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Shirt",
       "text": {
         "en": "Talk to 'The Guns' and give him the beer.",
         "es": "Habla con 'The Guns' y dale la cerveza."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Boots",
       "text": {
         "en": "Talk to 'No fingers'.",
         "es": "Habla con 'No fingers'."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Boots",
       "text": {
         "en": "Pickpocket the boots from him. It may take multiple attempts.",
         "es": "Róbale las botas. Puede que necesites varios intentos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Trousers",
       "text": {
         "en": "Search the plants south-east of the tower for the trousers.",
         "es": "Busca en las plantas al sureste de la torre para encontrar los pantalones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Gaining entry",
       "text": {
-        "en": "Equip the costume and talk to Bonafido. (opciones de chat: 2 Tea • 3 Whistle for attention • 1 Your legs are getting a bit cold • 2 Carry on, it'll fix itself)",
-        "es": "Equípate el disfraz y habla con Bonafido. (opciones de chat: 2 Té • 3 Silbar para llamar la atención • 1 Se te están enfriando las piernas • 2 Sigue, ya se arreglará solo)"
-      }
+        "en": "Equip the costume and talk to Bonafido.",
+        "es": "Equípate el disfraz y habla con Bonafido."
+      },
+      "chatOptions": [
+        "2 Tea",
+        "3 Whistle for attention",
+        "1 Your legs are getting a bit cold",
+        "2 Carry on, it'll fix itself"
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Tower repair",
       "text": {
         "en": "All of the items you need for the quest will be found on the of the tower in crates. Refer to image for item crate locations.",
         "es": "Todos los objetos que necesitas para la misión se encontrarán en el de la torre, en cajas. Consulta la imagen para ver las ubicaciones de las cajas de objetos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Pressure machine",
       "text": {
         "en": "Go to the .",
         "es": "Ve al ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Pressure machine",
       "text": {
         "en": "Fix the pressure machine.",
         "es": "Repara la máquina de presión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Pressure machine",
       "text": {
         "en": "Turn wheel 1 left until blocked.",
         "es": "Gira la rueda 1 a la izquierda hasta que se bloquee."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Pressure machine",
       "text": {
         "en": "Turn wheel 1 right until fixed.",
         "es": "Gira la rueda 1 a la derecha hasta que se arregle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Pressure machine",
       "text": {
         "en": "Pull left lever.",
         "es": "Tira de la palanca izquierda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Pressure machine",
       "text": {
         "en": "Turn wheel 2 left until blocked.",
         "es": "Gira la rueda 2 a la izquierda hasta que se bloquee."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Pressure machine",
       "text": {
         "en": "Turn wheel 2 right until fixed.",
         "es": "Gira la rueda 2 a la derecha hasta que se arregle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Pressure machine",
       "text": {
         "en": "Turn wheel 3 right until it reaches the hole.",
         "es": "Gira la rueda 3 a la derecha hasta que llegue al agujero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Pressure machine",
       "text": {
         "en": "Turn wheel 3 left until blocked.",
         "es": "Gira la rueda 3 a la izquierda hasta que se bloquee."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Pressure machine",
       "text": {
         "en": "Turn wheel 3 right until fixed.",
         "es": "Gira la rueda 3 a la derecha hasta que se arregle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Pressure machine",
       "text": {
         "en": "Pull right lever.",
         "es": "Tira de la palanca derecha."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Pressure machine",
       "text": {
         "en": "Turn wheel 4 right until it reaches the hole.",
         "es": "Gira la rueda 4 a la derecha hasta que llegue al agujero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Pressure machine",
       "text": {
         "en": "Turn wheel 4 left until blocked.",
         "es": "Gira la rueda 4 a la izquierda hasta que se bloquee."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Pressure machine",
       "text": {
         "en": "Turn wheel 4 right until fixed.",
         "es": "Gira la rueda 4 a la derecha hasta que se arregle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Pipe machine",
       "text": {
         "en": "Go to the .",
         "es": "Ve al ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Pipe machine",
       "text": {
         "en": "Fix the pipe machine and move the pieces as shown in image.",
         "es": "Repara la máquina de tuberías y mueve las piezas como se muestra en la imagen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "The cage",
       "text": {
         "en": "Go to the .",
         "es": "Ve al ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "The cage",
       "text": {
         "en": "Fix the cage using the instructions below.",
         "es": "Repara la jaula siguiendo las instrucciones a continuación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "The cage",
       "text": {
         "en": "Front side",
         "es": "Lado frontal"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Vertical 2",
         "es": "Vertical 2"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Horizontal 3",
         "es": "Horizontal 3"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Horizontal 2",
         "es": "Horizontal 2"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Turn right",
         "es": "Gira a la derecha"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "The cage",
       "text": {
         "en": "Right side",
         "es": "Lado derecho"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Vertical 4",
         "es": "Vertical 4"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Vertical 2",
         "es": "Vertical 2"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Horizontal 2",
         "es": "Horizontal 2"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Turn right",
         "es": "Gira a la derecha"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "The cage",
       "text": {
         "en": "Rear side",
         "es": "Lado trasero"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Horizontal 4",
         "es": "Horizontal 4"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Vertical 2",
         "es": "Vertical 2"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Vertical 3",
         "es": "Vertical 3"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Turn right",
         "es": "Gira a la derecha"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "The cage",
       "text": {
         "en": "Left side",
         "es": "Lado izquierdo"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Horizontal 2",
         "es": "Horizontal 2"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Horizontal 2",
         "es": "Horizontal 2"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 1,
+      "section": "The cage",
       "text": {
         "en": "Vertical 2",
         "es": "Vertical 2"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Homunculus",
       "text": {
         "en": "Return to the , exit the tower and talk to Effigy.",
         "es": "Vuelve al , sal de la torre y habla con Effigy."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Homunculus",
       "text": {
         "en": "Go to the top of the tower to start a cutscene.",
         "es": "Ve a la parte superior de la torre para iniciar una escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Homunculus",
       "text": {
         "en": "After the cutscene, talk to Effigy outside of the tower.",
         "es": "Después de la escena cinemática, habla con Effigy fuera de la torre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Homunculus",
       "text": {
-        "en": "Return to the top of the tower and talk to Homunculus. (opciones de chat: 1 Get some logs and a tinderbox. • 3 By ignition of gas in their belly as they exhale. • 3 Fletching, Crafting, Smithing. • 1 Bury them. • 2 Run, run as fast as you can. • 2 People mix together ingredients in vials. The nutrients will help you. • 3 Take a rune stone to an altar and use a talisman.)",
-        "es": "Vuelve a la parte superior de la torre y habla con Homunculus. (opciones de chat: 1 Consigue unos troncos y un yesquero. • 3 Por la ignición del gas en su vientre al exhalar. • 3 Fabricación de arcos, Artesanía, Herrería. • 1 Entiérralos. • 2 Corre, corre tan rápido como puedas. • 2 La gente mezcla ingredientes en frascos. Los nutrientes te ayudarán. • 3 Lleva una piedra rúnica a un altar y usa un talismán.)"
-      }
+        "en": "Return to the top of the tower and talk to Homunculus.",
+        "es": "Vuelve a la parte superior de la torre y habla con Homunculus."
+      },
+      "chatOptions": [
+        "1 Get some logs and a tinderbox.",
+        "3 By ignition of gas in their belly as they exhale.",
+        "3 Fletching, Crafting, Smithing.",
+        "1 Bury them.",
+        "2 Run, run as fast as you can.",
+        "2 People mix together ingredients in vials. The nutrients will help you.",
+        "3 Take a rune stone to an altar and use a talisman."
+      ]
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Return to Effigy for a final cutscene.",
         "es": "Vuelve con Effigy para una escena cinemática final."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Go down the trapdoor inside the tower.",
         "es": "Baja por la trampilla dentro de la torre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Homunculus.",
         "es": "Habla con Homunculus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

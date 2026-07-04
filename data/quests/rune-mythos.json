@@ -2,7 +2,8 @@
   "id": "rune-mythos",
   "title": "Rune Mythos",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:12:35.818Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:00.754Z",
   "icon": "https://runescape.wiki/images/thumb/Rune_Mythos_icon.png/50px-Rune_Mythos_icon.png",
   "series": "The First Necromancer",
   "age": "Age of Chaos",
@@ -81,71 +82,94 @@
       "image": "https://runescape.wiki/images/thumb/Lesser_Bone_Shield.gif/100px-Lesser_Bone_Shield.gif?23f52"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Rune_Mythos_reward.png?ae319",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
-        "en": "Talk to Malignius Mortifer next to the ritual site. (opciones de chat: 1 Yes. • Accept • 4 I'm good. What's next?)",
-        "es": "Habla con Malignius Mortifer junto al lugar del ritual. (opciones de chat: 1 Sí. • Aceptar • 4 Muy bien. ¿Qué toca ahora?)"
-      }
+        "en": "Talk to Malignius Mortifer next to the ritual site.",
+        "es": "Habla con Malignius Mortifer junto al lugar del ritual."
+      },
+      "chatOptions": [
+        "1 Yes.",
+        "Accept",
+        "4 I'm good. What's next?"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Perform a lesser essence ritual and collect impure essence from the ritual chest. Malignius Mortifer will give you eight basic ghostly ink, four regular ghostly ink, and 200 pure essence for the lesser essence ritual.",
         "es": "Realiza un ritual de esencia menor y recoge esencia impura del baúl del ritual. Malignius Mortifer te dará ocho tintas fantasmales básicas, cuatro tintas fantasmales normales y 200 esencias puras por el ritual de esencia menor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Walkthrough",
       "text": {
         "en": "You need two Elemental I glyphs, two Change I glyphs, and four light sources.",
         "es": "Necesitas dos glifos de Elemental I, dos glifos de Cambio I y cuatro fuentes de luz."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Withdraw the output of the ritual from the ritual chest on the ritual site.",
         "es": "Retira el resultado del ritual del baúl del ritual en el lugar del ritual."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Head to north-eastern area of the city and enter through the dark portal with some unnoted impure essence.",
         "es": "Dirígete a la zona noreste de la ciudad y entra por el portal oscuro con algo de esencia impura sin marcar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Attempt to make some spirit runes and interact with Rasial, the First Necromancer. Make sure to actually talk to him after his initial message, otherwise the quest will not progress.",
         "es": "Intenta crear algunas runas de espíritu e interactúa con Rasial, the First Necromancer. Asegúrate de hablar realmente con él después de su mensaje inicial, de lo contrario la misión no avanzará."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Craft your runes.",
         "es": "Fabrica tus runas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
-        "en": "Head back to Malignius to complete the quest. (opciones de chat: 1 Yes.)",
-        "es": "Vuelve con Malignius para completar la misión. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Head back to Malignius to complete the quest.",
+        "es": "Vuelve con Malignius para completar la misión."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     }
   ]
 }

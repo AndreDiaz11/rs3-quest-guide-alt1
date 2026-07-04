@@ -2,7 +2,8 @@
   "id": "do-no-evil",
   "title": "Do No Evil",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T01:49:42.063Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:00.496Z",
   "icon": "https://runescape.wiki/images/Do_No_Evil_icon.png",
   "series": "Desert",
   "age": "5",
@@ -291,6 +292,7 @@
       "image": "https://runescape.wiki/images/thumb/Clue_scroll_%28elite%29_detail.png/100px-Clue_scroll_%28elite%29_detail.png?96959"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Do_No_Evil_reward.png?6afa0",
   "postQuest": [
     {
       "type": "xp",
@@ -313,666 +315,883 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Before starting the quest",
       "text": {
         "en": "If you did not bring Leela to Senliten's tomb, speak to Leela in Draynor Village, who is just north of the northern fence line of the jail; she will teleport the player to Senliten. Leela can only be found there afterwards.",
         "es": "Si no has llevado a Leela a la tumba de Senliten, habla con Leela en Draynor Village, que se encuentra justo al norte de la línea de la valla norte de la cárcel; ella teletransportará al jugador hasta Senliten. A partir de entonces, Leela solo se podrá encontrar allí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Before starting the quest",
       "text": {
         "en": "If you need to return later, you can pick the option to return to the Pharaoh Queen directly (without having to go through the pyramid).",
         "es": "Si necesitas volver más tarde, puedes elegir la opción de regresar directamente con la Pharaoh Queen (sin tener que atravesar la pirámide)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Senliten's concern",
       "text": {
-        "en": "Talk to Senliten in Uzer Mastaba. (opciones de chat: 2 Talk about Do No Evil. • 3 Where are you going with this? • Accept)",
-        "es": "Habla con Senliten en Uzer Mastaba. (opciones de chat: 2 Hablar sobre Do No Evil. • 3 ¿A dónde quieres llegar con esto? • Aceptar)"
-      }
+        "en": "Talk to Senliten in Uzer Mastaba.",
+        "es": "Habla con Senliten en Uzer Mastaba."
+      },
+      "chatOptions": [
+        "2 Talk about Do No Evil.",
+        "3 Where are you going with this?",
+        "Accept"
+      ]
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Senliten's concern",
       "text": {
-        "en": "Inside the pyramid east of fairy ring code or north-east of Nardah which is easily reached by using Desert amulet 2 or above.",
+        "en": "Inside the pyramid east of fairy ring code DLQ or north-east of Nardah which is easily reached by using Desert amulet 2 or above.",
         "es": "Dentro de la pirámide, al este del código del fairy ring o al noreste de Nardah, a la que se llega fácilmente usando el Desert amulet 2 o superior."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Senliten's concern",
       "text": {
-        "en": "Head to Sophanem and talk to Jex north of the Sphinx. (opciones de chat: 2 Could you tell me more about the minor gods? • 4 Could you tell me more about Apmeken? • 1 Could you tell me more about Apmeken's connection with monkeys? • 2 Could you tell me more about Apmeken's followers? • 3 Could you tell me more about Apmeken's influence over the desert?)",
-        "es": "Dirígete a Sophanem y habla con Jex, al norte de la Sphinx. (opciones de chat: 2 ¿Podrías contarme más sobre los dioses menores? • 4 ¿Podrías contarme más sobre Apmeken? • 1 ¿Podrías contarme más sobre la conexión de Apmeken con los monos? • 2 ¿Podrías contarme más sobre los seguidores de Apmeken? • 3 ¿Podrías contarme más sobre la influencia de Apmeken sobre el desierto?)"
-      }
+        "en": "Head to Sophanem and talk to Jex north of the Sphinx.",
+        "es": "Dirígete a Sophanem y habla con Jex, al norte de la Sphinx."
+      },
+      "chatOptions": [
+        "2 Could you tell me more about the minor gods?",
+        "4 Could you tell me more about Apmeken?",
+        "1 Could you tell me more about Apmeken's connection with monkeys?",
+        "2 Could you tell me more about Apmeken's followers?",
+        "3 Could you tell me more about Apmeken's influence over the desert?"
+      ]
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Senliten's concern",
       "text": {
         "en": "Players can right click on Coenus by the bridge (near the Menaphos lodestone) to pass through to Sophanem.",
         "es": "Los jugadores pueden hacer clic derecho sobre Coenus, junto al puente (cerca del lodestone de Menaphos), para pasar a Sophanem."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Senliten's concern",
       "text": {
         "en": "To quickly enter the magic carpet network, use a charged amulet of glory and teleport to Al Kharid, or use a Desert amulet 2 to teleport to Nardah.",
         "es": "Para entrar rápidamente en la red de alfombras mágicas, usa un charged amulet of glory y teletranspórtate a Al Kharid, o usa un Desert amulet 2 para teletransportarte a Nardah."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Senliten's concern",
       "text": {
-        "en": "Drop your cat and talk to the Sphinx (opciones de chat: 2 Can you tell me about the gods of the Menaphites? • 3 Tell me about the minor gods. • 4 Tell me about Apmeken.)",
-        "es": "Suelta a tu gato y habla con la Sphinx (opciones de chat: 2 ¿Puedes hablarme sobre los dioses de los menaphitas? • 3 Cuéntame sobre los dioses menores. • 4 Cuéntame sobre Apmeken.)"
-      }
+        "en": "Drop your cat and talk to the Sphinx",
+        "es": "Suelta a tu gato y habla con la Sphinx"
+      },
+      "chatOptions": [
+        "2 Can you tell me about the gods of the Menaphites?",
+        "3 Tell me about the minor gods.",
+        "4 Tell me about Apmeken."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Senliten's concern",
       "text": {
-        "en": "Go back and talk to Senliten. (opciones de chat: 2 Talk about Do No Evil.).",
+        "en": "Go back and talk to Senliten. .",
         "es": "Vuelve y habla con Senliten. (opciones de chat: 2 Hablar sobre Do No Evil.)."
-      }
+      },
+      "chatOptions": [
+        "2 Talk about Do No Evil."
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Three Wise Monkeys",
       "text": {
-        "en": "Head to Ape Atoll and equip the monkey greegree and monkeyspeak amulet, then speak to three wise monkeys in the Temple of Marimbo (north-easternmost temple). (opciones de chat: 1 I'm trying to take some of our kind back to the desert. • 1 Admit to being a human.)",
-        "es": "Dirígete a Ape Atoll, equípate el monkey greegree y el monkeyspeak amulet, y luego habla con los tres monos sabios en el Temple of Marimbo (el templo más al noreste). (opciones de chat: 1 Estoy intentando llevar a algunos de los nuestros de vuelta al desierto. • 1 Admitir que eres un humano.)"
-      }
+        "en": "Head to Ape Atoll and equip the monkey greegree and monkeyspeak amulet, then speak to three wise monkeys in the Temple of Marimbo (north-easternmost temple).",
+        "es": "Dirígete a Ape Atoll, equípate el monkey greegree y el monkeyspeak amulet, y luego habla con los tres monos sabios en el Temple of Marimbo (el templo más al noreste)."
+      },
+      "chatOptions": [
+        "1 I'm trying to take some of our kind back to the desert.",
+        "1 Admit to being a human."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Three Wise Monkeys",
       "text": {
         "en": "Fill your entire backpack with Green bananas by using take banana from the pile of bananas crate to the east and lay a trail to lure the guard to the crate (you can place bananas every few squares to ensure the guard does not give up. Key-binding the Green banana will make this step easier). You will have to go counter-clockwise around the building due to the large gorilla posted on the north side. See the full guide for advice on luring the guard efficiently.",
         "es": "Llena toda tu mochila de Green bananas usando la opción take banana en el montón de plátanos situado en el cajón al este, y deja un rastro para atraer al guardia hacia el cajón (puedes colocar plátanos cada pocas casillas para asegurarte de que el guardia no se rinda. Asignar una tecla al Green banana facilitará este paso). Tendrás que rodear el edificio en sentido antihorario debido al gran gorila apostado en el lado norte. Consulta la guía completa para consejos sobre cómo atraer al guardia de forma eficiente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Three Wise Monkeys",
       "text": {
         "en": "Return to the three wise monkeys and talk to them.",
         "es": "Vuelve con los tres monos sabios y habla con ellos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Three Wise Monkeys",
       "text": {
         "en": "Remove your greegree and speak to them in human form.",
         "es": "Quítate el greegree y habla con ellos en forma humana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Three Wise Monkeys",
       "text": {
-        "en": "Equip your greegree and speak to them again. (opciones de chat: 2 The baboon head. • 4 On the monkey's shoulder.)",
-        "es": "Equípate el greegree y vuelve a hablar con ellos. (opciones de chat: 2 La cabeza de babuino. • 4 En el hombro del mono.)"
-      }
+        "en": "Equip your greegree and speak to them again.",
+        "es": "Equípate el greegree y vuelve a hablar con ellos."
+      },
+      "chatOptions": [
+        "2 The baboon head.",
+        "4 On the monkey's shoulder."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Three Wise Monkeys",
       "text": {
-        "en": "Talk to Awowogei, who is in the building south of the temple. (opciones de chat: 1 To build the greatest monkey colony ever! • 5 Next. • 3 Choc ices from Nardah.)",
-        "es": "Habla con Awowogei, que está en el edificio al sur del templo. (opciones de chat: 1 ¡Para construir la mayor colonia de monos jamás vista! • 5 Siguiente. • 3 Choc ices de Nardah.)"
-      }
+        "en": "Talk to Awowogei, who is in the building south of the temple.",
+        "es": "Habla con Awowogei, que está en el edificio al sur del templo."
+      },
+      "chatOptions": [
+        "1 To build the greatest monkey colony ever!",
+        "5 Next.",
+        "3 Choc ices from Nardah."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Three Wise Monkeys",
       "text": {
         "en": "If you don't have a monkeyspeak amulet mould, Hamab's crafting stall sells one, which is needed for the next step.",
         "es": "Si no tienes un monkeyspeak amulet mould, el puesto de artesanía de Hamab vende uno, que se necesita para el siguiente paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Chimp ice",
       "text": {
-        "en": "Talk to Rokuh in Nardah next to the fountain. (opciones de chat: 1 Commission Awowogei's choc ice. • 1 Deal! • 2 So, if I don't teleport it won't melt?)",
-        "es": "Habla con Rokuh en Nardah, junto a la fuente. (opciones de chat: 1 Encargar el choc ice de Awowogei. • 1 ¡Trato hecho! • 2 Entonces, ¿si no me teletransporto no se derretirá?)"
-      }
+        "en": "Talk to Rokuh in Nardah next to the fountain.",
+        "es": "Habla con Rokuh en Nardah, junto a la fuente."
+      },
+      "chatOptions": [
+        "1 Commission Awowogei's choc ice.",
+        "1 Deal!",
+        "2 So, if I don't teleport it won't melt?"
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Chimp ice",
       "text": {
         "en": "You should receive one chimp ice. If it melts, right click on Rokuh to buy another. Click to stop it from melting. Higher level spells, like Ice Barrage, will last longer.",
         "es": "Deberías recibir un chimp ice. Si se derrite, haz clic derecho sobre Rokuh para comprar otro. Haz clic para evitar que se derrita. Los hechizos de nivel más alto, como Ice Barrage, harán que dure más tiempo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Chimp ice",
       "text": {
         "en": "Unlike standard ancient spell casting, you do not need a staff/wand and orb/book for this. Only the runes are enough.",
         "es": "A diferencia de la lanzamiento estándar de hechizos antiguos, para esto no necesitas un staff/wand ni un orb/book. Solo bastan las runas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Chimp ice",
       "text": {
         "en": "Helpful things to keep in mind:",
         "es": "Cosas útiles a tener en cuenta:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Chimp ice",
       "text": {
         "en": "Looking at the world map prevents the chimp ice from melting.",
         "es": "Mirar el mapa del mundo evita que el chimp ice se derrita."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 2,
+      "section": "Chimp ice",
       "text": {
         "en": "If you are out of run energy, rest and pull up the world map.",
         "es": "Si te quedas sin energía de correr, descansa y abre el mapa del mundo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 1,
+      "section": "Chimp ice",
       "text": {
         "en": "Talking to NPC's prevents the chimp ice from melting.",
         "es": "Hablar con NPCs evita que el chimp ice se derrita."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "Chimp ice",
       "text": {
         "en": "Using transportation such as magic carpets and eagles prevents the chimp ice from melting.",
         "es": "Usar medios de transporte, como las alfombras mágicas y las águilas, evita que el chimp ice se derrita."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Chimp ice",
       "text": {
         "en": "Take the chimp ice to King Awowogei without teleporting (this route requires completion of Eagles' Peak. For a full list of routes, see the in-depth quest guide):",
         "es": "Lleva el chimp ice hasta King Awowogei sin teletransportarte (esta ruta requiere haber completado Eagles' Peak. Para ver una lista completa de rutas, consulta la guía detallada de la misión):"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Chimp ice",
       "text": {
         "en": "From Nardah, use the magic carpet to Uzer.",
         "es": "Desde Nardah, usa la alfombra mágica hasta Uzer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "Chimp ice",
       "text": {
         "en": "Run north-west to the desert eagle lair located north of the Uzer Hunter area and north-east of the Dominion Tower. Enter the tunnel shown in the picture, and use the rope that spawns nearby on an eagle to be transported.",
         "es": "Corre hacia el noroeste hasta la guarida de las águilas del desierto, situada al norte del área de Hunter de Uzer y al noreste de la Dominion Tower. Entra en el túnel que se muestra en la imagen y usa la cuerda que aparece cerca sobre un águila para ser transportado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Chimp ice",
       "text": {
         "en": "Exit the cave via the north-west entrance and climb down the mountain.",
         "es": "Sal de la cueva por la entrada del noroeste y baja de la montaña."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 1,
+      "section": "Chimp ice",
       "text": {
         "en": "Run east into Tree Gnome Stronghold, up of the Grand Tree and find Daero to the east to travel to the Secret Hangar.",
         "es": "Corre hacia el este, entra en Tree Gnome Stronghold, sube desde el Grand Tree y busca a Daero al este para viajar al Secret Hangar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Chimp ice",
       "text": {
         "en": "Talk to Waydar to travel to Crash Island.",
         "es": "Habla con Waydar para viajar a Crash Island."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Chimp ice",
       "text": {
         "en": "Talk to Lumdo to travel to Ape Atoll. You get a checkpoint here where you can restart if the chimp ice melts.",
         "es": "Habla con Lumdo para viajar a Ape Atoll. Aquí obtienes un punto de control desde el que puedes reiniciar si el chimp ice se derrite."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "Chimp ice",
       "text": {
         "en": "Run to King Awowogei. The chimp ice can't be frozen while transformed as a monkey, so choose your moments carefully. An easy method is to freeze it at the mahogany tree before the main gate, turn into a monkey, and enter the gate. Run east to the small obelisk across from the agility course and hide in the grass to freeze it again. Then turn back into a monkey, and run to King Awowogei.",
         "es": "Corre hacia King Awowogei. El chimp ice no puede congelarse mientras estás transformado en mono, así que elige bien tus momentos. Un método sencillo es congelarlo junto al mahogany tree antes de la puerta principal, transformarte en mono y entrar por la puerta. Corre hacia el este hasta el pequeño obelisco frente al curso de agilidad y escóndete en la hierba para congelarlo de nuevo. Luego vuelve a transformarte en mono y corre hacia King Awowogei."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Chimp ice",
       "text": {
         "en": "Go to the wise monkeys and add them to the barrel.",
         "es": "Ve con los monos sabios y añádelos al barril."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "The colony",
       "text": {
         "en": "Teleport to Bandit Camp in the Kharidian Desert",
         "es": "Teletranspórtate a Bandit Camp, en el Kharidian Desert."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "The colony",
       "text": {
         "en": "Head north-east around the cliff to the area shown here on the map (you need to be below the cliff) and release the monkeys (open the barrel).",
         "es": "Dirígete hacia el noreste, bordeando el acantilado, hasta la zona que se muestra aquí en el mapa (debes estar por debajo del acantilado) y libera a los monos (abre el barril)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "The colony",
       "text": {
         "en": "Equip Monkey Speak Amulet and talk to one of the Wise Monkeys.",
         "es": "Equípate el Monkey Speak Amulet y habla con uno de los Wise Monkeys."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "The colony",
       "text": {
-        "en": "With your ring of charos (a) equipped, speak to Ali Morrisane (north of the Al Kharid lodestone). (opciones de chat: 2 Talk about Do No Evil.)",
-        "es": "Con tu ring of charos (a) equipado, habla con Ali Morrisane (al norte del lodestone de Al Kharid). (opciones de chat: 2 Hablar sobre Do No Evil.)"
-      }
+        "en": "With your ring of charos (a) equipped, speak to Ali Morrisane (north of the Al Kharid lodestone).",
+        "es": "Con tu ring of charos (a) equipado, habla con Ali Morrisane (al norte del lodestone de Al Kharid)."
+      },
+      "chatOptions": [
+        "2 Talk about Do No Evil."
+      ]
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "The colony",
       "text": {
         "en": "There is currently an issue where this option might only show up after completing The Feud, despite this quest not being listed as a requirement any more.",
         "es": "Actualmente existe un problema por el que esta opción podría aparecer solo después de completar The Feud, a pesar de que esta misión ya no figura como requisito."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "The colony",
       "text": {
         "en": "Unequip your Ava's accumulator if you're wearing it.",
         "es": "Quítate el Ava's accumulator si lo llevas puesto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "The colony",
       "text": {
-        "en": "Take the crate to and talk to Ava in Draynor Manor until you get Ava's alerter. (opciones de chat: 5 Talk about making a metal detector.)",
-        "es": "Lleva el cajón y habla con Ava en Draynor Manor hasta que obtengas el Ava's alerter. (opciones de chat: 5 Hablar sobre cómo fabricar un detector de metales.)"
-      }
+        "en": "Take the crate to and talk to Ava in Draynor Manor until you get Ava's alerter.",
+        "es": "Lleva el cajón y habla con Ava en Draynor Manor hasta que obtengas el Ava's alerter."
+      },
+      "chatOptions": [
+        "5 Talk about making a metal detector."
+      ]
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "The colony",
       "text": {
         "en": "Pick up the spade in the easternmost room if you do not already have one.",
         "es": "Recoge la spade en la habitación más al este si aún no tienes una."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "The colony",
       "text": {
         "en": "Go to the fountain in the south-western corner of the manor's grounds.",
         "es": "Ve a la fuente situada en la esquina suroeste de los terrenos de la mansión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "The colony",
       "text": {
         "en": "Wear your Ava's alerter and walk two steps east from the dead tree that can be converted to a hidey-hole, just north-east of the fountain. Dig when it says Bwuk! Bwuk! Bwuk! Bwuk!",
         "es": "Ponte el Ava's alerter y camina dos pasos al este desde el árbol muerto que puede convertirse en un hidey-hole, justo al noreste de la fuente. Cava cuando diga ¡Bwuk! ¡Bwuk! ¡Bwuk! ¡Bwuk!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "The colony",
       "text": {
-        "en": "Return to Ava. (opciones de chat: 5 Talk about Ava's alerter.)",
-        "es": "Vuelve con Ava. (opciones de chat: 5 Hablar sobre el Ava's alerter.)"
-      }
+        "en": "Return to Ava.",
+        "es": "Vuelve con Ava."
+      },
+      "chatOptions": [
+        "5 Talk about Ava's alerter."
+      ]
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "The colony",
       "text": {
         "en": "Teleport to Bandit Camp and in the area north-east of the monkey camp search for crates using the map pictured right. You should dig up 5 crates, repeat this until you receive bundle of carpets.",
         "es": "Teletranspórtate a Bandit Camp y, en la zona al noreste del campamento de los monos, busca cajones usando el mapa mostrado a la derecha. Deberías desenterrar 5 cajones; repite esto hasta que recibas el bundle of carpets."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 1,
+      "section": "The colony",
       "text": {
         "en": "If you obtain any uncut gems or noted waterskins, save them for the next step.",
         "es": "Si obtienes gemas sin tallar o waterskins marcados, guárdalos para el siguiente paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 1,
+      "section": "The colony",
       "text": {
         "en": "If you discover a scarab, kill it and then dig again.",
         "es": "Si descubres un escarabajo, mátalo y luego vuelve a cavar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "The colony",
       "text": {
         "en": "Talk to the three wise monkeys twice for a book.",
         "es": "Habla dos veces con los tres monos sabios para obtener un libro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "The colony",
       "text": {
         "en": "Read the book or at least open it.",
         "es": "Lee el libro o, al menos, ábrelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Building the colony",
       "text": {
         "en": "Clear Rubble from the four building spots in the colony.",
         "es": "Despeja los escombros de los cuatro puntos de construcción en la colonia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Building the colony",
       "text": {
         "en": "Build-on the 3 stall plots using your supplies.",
         "es": "Construye en las 3 parcelas de puestos usando tus suministros."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Building the colony",
       "text": {
         "en": "Stock the stalls.",
         "es": "Abastece los puestos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 1,
+      "section": "Building the colony",
       "text": {
         "en": "Careful not to stock a stall twice - each one needs to be stocked with one set of items.",
         "es": "Ten cuidado de no abastecer un puesto dos veces; cada uno necesita ser abastecido con un solo conjunto de artículos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Building the colony",
       "text": {
         "en": "Build-on Tent plot",
         "es": "Construye en la parcela de la tienda de campaña."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Building the colony",
       "text": {
         "en": "Talk to the wise monkeys.",
         "es": "Habla con los monos sabios."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Building the colony",
       "text": {
-        "en": "Talk to them again. (opciones de chat: 2 Right, I'll get on with it.)",
-        "es": "Vuelve a hablar con ellos. (opciones de chat: 2 Bien, me pondré con ello.)"
-      }
+        "en": "Talk to them again.",
+        "es": "Vuelve a hablar con ellos."
+      },
+      "chatOptions": [
+        "2 Right, I'll get on with it."
+      ]
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Arming the colony",
       "text": {
         "en": "Head back to Ape Atoll and find the building with the monkey knife fighters; it is located just east of the building with the Monkey Child.",
         "es": "Vuelve a Ape Atoll y busca el edificio con los monkey knife fighters; está justo al este del edificio con el Monkey Child."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Arming the colony",
       "text": {
         "en": "Punch and then quickly pickpocket the monkey fighters for 6 Monkey knives. The success rate is fairly low, so be prepared to punch at least 30 monkeys.",
         "es": "Golpea y luego intenta hacer pickpocket rápidamente a los monkey fighters para conseguir 6 Monkey knives. La tasa de éxito es bastante baja, así que prepárate para golpear al menos a 30 monos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 1,
+      "section": "Arming the colony",
       "text": {
         "en": "If you are fast enough, you can get three pickpockets until the monkey wakes up again",
         "es": "Si eres lo bastante rápido, puedes hacer tres pickpockets antes de que el mono vuelva a despertarse."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Arming the colony",
       "text": {
         "en": "Return to the three wise monkeys and hand the knives over.",
         "es": "Vuelve con los tres monos sabios y entrégales los cuchillos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Arming the colony",
       "text": {
         "en": "Talk to the monkeys again.",
         "es": "Vuelve a hablar con los monos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "Boss fights",
       "text": {
-        "en": "Return to the pyramid south of the Ruins of Uzer, east of , and click the door for a cutscene.",
+        "en": "Return to the pyramid south of the Ruins of Uzer, east of DLQ, and click the door for a cutscene.",
         "es": "Vuelve a la pirámide al sur de las Ruins of Uzer, al este de , y haz clic en la puerta para ver una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 0,
+      "section": "Boss fights",
       "text": {
-        "en": "Enter the pyramid and speak to Senliten. (opciones de chat: 2 Talk about Do No Evil. • Any)",
-        "es": "Entra en la pirámide y habla con Senliten. (opciones de chat: 2 Hablar sobre Do No Evil. • Cualquiera)"
-      }
+        "en": "Enter the pyramid and speak to Senliten.",
+        "es": "Entra en la pirámide y habla con Senliten."
+      },
+      "chatOptions": [
+        "2 Talk about Do No Evil.",
+        "Any"
+      ]
     },
     {
       "index": 63,
       "indent": 0,
+      "section": "Boss fights",
       "text": {
         "en": "Teleport to Bandit Camp and head back to the colony.",
         "es": "Teletranspórtate a Bandit Camp y vuelve a la colonia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 0,
+      "section": "Boss fights",
       "text": {
         "en": "Investigate any Corpse to make a ghost monkey appear.",
         "es": "Investiga cualquier Corpse para hacer aparecer a un mono fantasma."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "Boss fights",
       "text": {
         "en": "Try to talk to the ghost monkey.",
         "es": "Intenta hablar con el mono fantasma."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "Boss fights",
       "text": {
         "en": "Use one of the amulets on the other to create a cramulet.",
         "es": "Usa uno de los amulets sobre el otro para crear un cramulet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "Boss fights",
       "text": {
-        "en": "Talk to the ghost monkey. (opciones de chat: 3 I must try to rescue them.)",
-        "es": "Habla con el mono fantasma. (opciones de chat: 3 Debo intentar rescatarlos.)"
-      }
+        "en": "Talk to the ghost monkey.",
+        "es": "Habla con el mono fantasma."
+      },
+      "chatOptions": [
+        "3 I must try to rescue them."
+      ]
     },
     {
       "index": 68,
       "indent": 0,
+      "section": "Leeuni",
       "text": {
-        "en": "Climb down the well in the middle of Pollnivneach, pass through the Wavering mystic barrier to the north (opciones de chat: 2 You're going to die here.).",
+        "en": "Climb down the well in the middle of Pollnivneach, pass through the Wavering mystic barrier to the north .",
         "es": "Baja por el pozo en el centro de Pollnivneach, atraviesa la Wavering mystic barrier hacia el norte (opciones de chat: 2 Vas a morir aquí.)."
-      }
+      },
+      "chatOptions": [
+        "2 You're going to die here."
+      ]
     },
     {
       "index": 69,
       "indent": 0,
+      "section": "Leeuni",
       "text": {
         "en": "Kill Leeuni (50,000 life points).",
         "es": "Mata a Leeuni (50.000 puntos de vida)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 70,
       "indent": 0,
+      "section": "Leeuni",
       "text": {
         "en": "After defeating Leeuni, talk to Iwazaru.",
         "es": "Después de derrotar a Leeuni, habla con Iwazaru."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 71,
       "indent": 0,
+      "section": "Leeuni",
       "text": {
         "en": "Return to the monkey colony and speak to the ghost monkey again to unlock the next boss.",
         "es": "Vuelve a la colonia de monos y habla de nuevo con el mono fantasma para desbloquear al siguiente jefe."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 72,
       "indent": 0,
+      "section": "Ayuni",
       "text": {
         "en": "Kill Ayuni (50,000 life points), who is accessed through a tunnel north of the Kalphite Queen within the Kalphite Hive (not the Exiled Kalphite Hive).",
         "es": "Mata a Ayuni (50.000 puntos de vida), a quien se accede a través de un túnel al norte de la Kalphite Queen, dentro de la Kalphite Hive (no de la Exiled Kalphite Hive)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 73,
       "indent": 1,
+      "section": "Ayuni",
       "text": {
         "en": "The Kalphite Queen can be avoided if you set up a custom encounter, as her spawn will be delayed initially. Use practice mode to avoid paying.",
         "es": "Se puede evitar a la Kalphite Queen si configuras un encuentro personalizado, ya que su aparición se retrasará inicialmente. Usa el modo práctica para no tener que pagar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 74,
       "indent": 0,
+      "section": "Ayuni",
       "text": {
-        "en": "After the battle, talk to Mizaru. Leave through the east exit to unlock a shortcut or get transported (opciones de chat: 5 Return to the colony.).",
+        "en": "After the battle, talk to Mizaru. Leave through the east exit to unlock a shortcut or get transported .",
         "es": "Después de la batalla, habla con Mizaru. Sal por la salida este para desbloquear un atajo, o serás transportado (opciones de chat: 5 Volver a la colonia.)."
-      }
+      },
+      "chatOptions": [
+        "5 Return to the colony."
+      ]
     },
     {
       "index": 75,
       "indent": 0,
+      "section": "Ayuni",
       "text": {
         "en": "Return to the monkey colony and speak to the ghost monkey again to unlock the next boss.",
         "es": "Vuelve a la colonia de monos y habla de nuevo con el mono fantasma para desbloquear al siguiente jefe."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 76,
       "indent": 0,
+      "section": "Eruni",
       "text": {
         "en": "Warning! Eruni hits much harder than the other two. Although she has lower defence. Be prepared for an intense fight. Protection prayers and high-healing food strongly recommended.",
         "es": "¡Aviso! Eruni golpea mucho más fuerte que las otras dos, aunque tiene menor defensa. Prepárate para un combate intenso. Se recomienda encarecidamente el uso de oraciones de protección y comida de alta curación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 77,
       "indent": 0,
+      "section": "Eruni",
       "text": {
         "en": "Head to the ruins of Uzer, down the steps and through the door to the north into the demonic realm.",
         "es": "Dirígete a las ruinas de Uzer, baja las escaleras y atraviesa la puerta hacia el norte, hacia el reino demoníaco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 78,
       "indent": 0,
+      "section": "Eruni",
       "text": {
         "en": "Eruni will be invincible whenever she summons lesser demons; they must be killed immediately.",
         "es": "Eruni será invencible siempre que invoque demonios menores; deben ser eliminados de inmediato."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 79,
       "indent": 0,
+      "section": "Eruni",
       "text": {
         "en": "After defeating Eruni, speak to Kikazaru, who will take you to the colony.",
         "es": "Tras derrotar a Eruni, habla con Kikazaru, quien te llevará a la colonia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 80,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Speak to the three wise monkeys at the colony - Apmeken will appear and speak to you. (opciones de chat: 2 And what of Apmeken?)",
-        "es": "Habla con los tres monos sabios en la colonia; Apmeken aparecerá y hablará contigo. (opciones de chat: 2 ¿Y qué hay de Apmeken?)"
-      }
+        "en": "Speak to the three wise monkeys at the colony - Apmeken will appear and speak to you.",
+        "es": "Habla con los tres monos sabios en la colonia; Apmeken aparecerá y hablará contigo."
+      },
+      "chatOptions": [
+        "2 And what of Apmeken?"
+      ]
     },
     {
       "index": 81,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Return to Senliten. (opciones de chat: 2 Talk about Do No Evil.)",
-        "es": "Vuelve con Senliten. (opciones de chat: 2 Hablar sobre Do No Evil.)"
-      }
+        "en": "Return to Senliten.",
+        "es": "Vuelve con Senliten."
+      },
+      "chatOptions": [
+        "2 Talk about Do No Evil."
+      ]
     },
     {
       "index": 82,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

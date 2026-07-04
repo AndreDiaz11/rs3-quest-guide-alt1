@@ -2,7 +2,8 @@
   "id": "unwelcome-guests",
   "title": "Unwelcome Guests",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:27:19.958Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:34.127Z",
   "icon": "https://runescape.wiki/images/thumb/Unwelcome_Guests_icon.png/50px-Unwelcome_Guests_icon.png",
   "series": "Fort Forinthry",
   "age": "Age of Chaos",
@@ -92,191 +93,253 @@
       "image": "https://runescape.wiki/images/thumb/Crypt_Wilderness.png/100px-Crypt_Wilderness.png?54870"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Unwelcome_Guests_reward.png?9555a",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting off",
       "text": {
-        "en": "Talk to Overseer Siv in the Command Centre at Fort Forinthry. (opciones de chat: 2 Talk about 'Unwelcome Guests'. • Accept)",
-        "es": "Habla con Overseer Siv en el Centro de Mando de Fort Forinthry. (opciones de chat: 2 Hablar sobre 'Unwelcome Guests'. • Aceptar)"
-      }
+        "en": "Talk to Overseer Siv in the Command Centre at Fort Forinthry.",
+        "es": "Habla con Overseer Siv en el Centro de Mando de Fort Forinthry."
+      },
+      "chatOptions": [
+        "2 Talk about 'Unwelcome Guests'.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting off",
       "text": {
         "en": "Talk to the Raptor, to the west.",
         "es": "Habla con el Raptor, hacia el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting off",
       "text": {
-        "en": "Go to the northern gates and open them. (opciones de chat: 1 Yes.)",
-        "es": "Ve hasta las puertas del norte y ábrelas. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Go to the northern gates and open them.",
+        "es": "Ve hasta las puertas del norte y ábrelas."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting off",
       "text": {
         "en": "Head west and slay ten fetid zombies.",
         "es": "Dirígete al oeste y elimina a diez fetid zombies."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Starting off",
       "text": {
         "en": "Talk to the Raptor once back inside the fort.",
         "es": "Habla con el Raptor una vez de vuelta dentro del fuerte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Strengthening the fortifications",
       "text": {
-        "en": "Talk to Bill. (opciones de chat: 1 Talk about 'Unwelcome Guests'.)",
-        "es": "Habla con Bill. (opciones de chat: 1 Hablar sobre 'Unwelcome Guests'.)"
-      }
+        "en": "Talk to Bill.",
+        "es": "Habla con Bill."
+      },
+      "chatOptions": [
+        "1 Talk about 'Unwelcome Guests'."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Strengthening the fortifications",
       "text": {
-        "en": "Leave via the northern gates into the Wilderness. (opciones de chat: 1 Yes, I understand the restrictions.)",
-        "es": "Sal por las puertas del norte hacia el Wilderness. (opciones de chat: 1 Sí, entiendo las restricciones.)"
-      }
+        "en": "Leave via the northern gates into the Wilderness.",
+        "es": "Sal por las puertas del norte hacia el Wilderness."
+      },
+      "chatOptions": [
+        "1 Yes, I understand the restrictions."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Strengthening the fortifications",
       "text": {
         "en": "Fully construct defences at the building supplies along the walls. Turning off auto-retaliate is recommended, otherwise construction will be interrupted when you are attacked.",
         "es": "Construye por completo las defensas en los suministros de construcción a lo largo de las murallas. Se recomienda desactivar el contraataque automático, ya que de lo contrario la construcción se interrumpirá si te atacan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Strengthening the fortifications",
       "text": {
         "en": "Three just outside the western walls of the fort.",
         "es": "Tres justo fuera de las murallas oeste del fuerte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Strengthening the fortifications",
       "text": {
         "en": "Two just outside the northern walls of the fort.",
         "es": "Dos justo fuera de las murallas norte del fuerte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Strengthening the fortifications",
       "text": {
         "en": "One just outside the eastern walls of the fort.",
         "es": "Uno justo fuera de las murallas este del fuerte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Building the Guardhouse",
       "text": {
-        "en": "Talk to Overseer Siv in the Command Centre. (opciones de chat: 2 Talk about 'Unwelcome Guests'.)",
-        "es": "Habla con Overseer Siv en el Centro de Mando. (opciones de chat: 2 Hablar sobre 'Unwelcome Guests'.)"
-      }
+        "en": "Talk to Overseer Siv in the Command Centre.",
+        "es": "Habla con Overseer Siv en el Centro de Mando."
+      },
+      "chatOptions": [
+        "2 Talk about 'Unwelcome Guests'."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Building the Guardhouse",
       "text": {
-        "en": "Talk to Bill. (opciones de chat: 1 Talk about 'Unwelcome Guests'.)",
-        "es": "Habla con Bill. (opciones de chat: 1 Hablar sobre 'Unwelcome Guests'.)"
-      }
+        "en": "Talk to Bill.",
+        "es": "Habla con Bill."
+      },
+      "chatOptions": [
+        "1 Talk about 'Unwelcome Guests'."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Building the Guardhouse",
       "text": {
         "en": "Start building the Guardhouse at the Fort Forinthry blueprints table.",
         "es": "Empieza a construir el Guardhouse en la mesa de planos de Fort Forinthry."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Building the Guardhouse",
       "text": {
         "en": "Head to the Guardhouse near the Raptor.",
         "es": "Dirígete al Guardhouse cerca del Raptor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Building the Guardhouse",
       "text": {
         "en": "Build at the Construction hotspots within the Guardhouse until it is complete.",
         "es": "Construye en los puntos de interés de Construcción dentro del Guardhouse hasta completarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Building the Guardhouse",
       "text": {
         "en": "Players can speed up this process by building at the optimal Construction hotspots.",
         "es": "Los jugadores pueden acelerar este proceso construyendo en los puntos de interés de Construcción óptimos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Building the Guardhouse",
       "text": {
         "en": "Talk to the Raptor or Overseer Siv to trigger a dialogue and watch the cutscene.",
         "es": "Habla con el Raptor o con Overseer Siv para iniciar un diálogo y ver la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Investigating the crypt",
       "text": {
-        "en": "Go to the northern gates and open them. (opciones de chat: 1 Yes.)",
-        "es": "Ve hasta las puertas del norte y ábrelas. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Go to the northern gates and open them.",
+        "es": "Ve hasta las puertas del norte y ábrelas."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Investigating the crypt",
       "text": {
         "en": "Head west and slay another ten fetid zombies.",
         "es": "Dirígete al oeste y elimina a otros diez fetid zombies."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Investigating the crypt",
       "text": {
         "en": "Watch the cutscene.",
         "es": "Mira la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Investigating the crypt",
       "text": {
         "en": "Go back to the Raptor.",
         "es": "Vuelve donde el Raptor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Investigating the crypt",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

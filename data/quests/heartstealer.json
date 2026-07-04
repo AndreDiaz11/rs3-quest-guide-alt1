@@ -2,7 +2,8 @@
   "id": "heartstealer",
   "title": "Heartstealer",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:27:39.910Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:22.943Z",
   "icon": "https://runescape.wiki/images/Heartstealer_icon.png",
   "series": null,
   "age": "6",
@@ -52,6 +53,7 @@
       "image": "https://runescape.wiki/images/thumb/Scarlet_Thief%27s_guise_chathead.png/100px-Scarlet_Thief%27s_guise_chathead.png?d4ed3"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Heartstealer_reward.png?457a4",
   "postQuest": [
     {
       "type": "xp",
@@ -64,250 +66,350 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Preparations of the heist",
       "text": {
-        "en": "Talk to Caelyn upstairs in the house directly north of Edgeville bank. (opciones de chat: 2 I'm listening... • 1 What do you need? • Accept • 1 Let's get the disguises. • 3 I'm on it.)",
-        "es": "Habla con Caelyn arriba en la casa justo al norte del banco de Edgeville. (opciones de chat: 2 Te escucho... • 1 ¿Qué necesitas? • Aceptar • 1 Consigamos los disfraces. • 3 Me pongo con ello.)"
-      }
+        "en": "Talk to Caelyn upstairs in the house directly north of Edgeville bank.",
+        "es": "Habla con Caelyn arriba en la casa justo al norte del banco de Edgeville."
+      },
+      "chatOptions": [
+        "2 I'm listening...",
+        "1 What do you need?",
+        "Accept",
+        "1 Let's get the disguises.",
+        "3 I'm on it."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Preparations of the heist",
       "text": {
-        "en": "Go to Thessalia's Fine Clothes in Varrock and talk to Thessalia to receive masquerade masks. (opciones de chat: 1 Talk about Heartstealer.)",
-        "es": "Ve a Thessalia's Fine Clothes en Varrock y habla con Thessalia para recibir máscaras de mascarada. (opciones de chat: 1 Hablar sobre Heartstealer.)"
-      }
+        "en": "Go to Thessalia's Fine Clothes in Varrock and talk to Thessalia to receive masquerade masks.",
+        "es": "Ve a Thessalia's Fine Clothes en Varrock y habla con Thessalia para recibir máscaras de mascarada."
+      },
+      "chatOptions": [
+        "1 Talk about Heartstealer."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Preparations of the heist",
       "text": {
-        "en": "Return to Caelyn. (opciones de chat: 2 Let's create some Smoke bombs. • 1 I'm ready.)",
-        "es": "Vuelve con Caelyn. (opciones de chat: 2 Creemos unas bombas de humo. • 1 Estoy listo.)"
-      }
+        "en": "Return to Caelyn.",
+        "es": "Vuelve con Caelyn."
+      },
+      "chatOptions": [
+        "2 Let's create some Smoke bombs.",
+        "1 I'm ready."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Preparations of the heist",
       "text": {
-        "en": "Click the interactable objects in the room. After failing, lower the difficulty setting by speaking with her. (opciones de chat: 3 That was tougher than I expected. • 1 Yes. • 1 I'm ready.)",
-        "es": "Haz clic en los objetos interactivos de la sala. Tras fallar, baja la dificultad hablando con ella. (opciones de chat: 3 Eso ha sido más difícil de lo que esperaba. • 1 Sí. • 1 Estoy listo.)"
-      }
+        "en": "Click the interactable objects in the room. After failing, lower the difficulty setting by speaking with her.",
+        "es": "Haz clic en los objetos interactivos de la sala. Tras fallar, baja la dificultad hablando con ella."
+      },
+      "chatOptions": [
+        "3 That was tougher than I expected.",
+        "1 Yes.",
+        "1 I'm ready."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Preparations of the heist",
       "text": {
         "en": "Follow Caelyn's instructions / the arrows to click on the areas of the room to make the smoke bombs.",
         "es": "Sigue las instrucciones de Caelyn / las flechas para hacer clic en las zonas de la sala y fabricar las bombas de humo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Preparations of the heist",
       "text": {
-        "en": "Finish the dialogue with Caelyn to receive paper and crayons. (opciones de chat: 3 I'll get started on that.)",
-        "es": "Termina el diálogo con Caelyn para recibir papel y lápices de colores. (opciones de chat: 3 Me pondré con eso.)"
-      }
+        "en": "Finish the dialogue with Caelyn to receive paper and crayons.",
+        "es": "Termina el diálogo con Caelyn para recibir papel y lápices de colores."
+      },
+      "chatOptions": [
+        "3 I'll get started on that."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Preparations of the heist",
       "text": {
-        "en": "Head to the Varrock Museum and pickpocket Curator Haig Halen. (opciones de chat: Any)",
-        "es": "Dirígete al Varrock Museum y roba al Curator Haig Halen. (opciones de chat: Cualquiera)"
-      }
+        "en": "Head to the Varrock Museum and pickpocket Curator Haig Halen.",
+        "es": "Dirígete al Varrock Museum y roba al Curator Haig Halen."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Preparations of the heist",
       "text": {
         "en": "Return to Caelyn.",
         "es": "Vuelve con Caelyn."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The heist",
       "text": {
-        "en": "Head to the Varrock Museum and talk to Caelyn outside. (opciones de chat: 1 Give her a pep talk. • 1 Yes)",
-        "es": "Dirígete al Varrock Museum y habla con Caelyn fuera. (opciones de chat: 1 Dale ánimos. • 1 Sí)"
-      }
+        "en": "Head to the Varrock Museum and talk to Caelyn outside.",
+        "es": "Dirígete al Varrock Museum y habla con Caelyn fuera."
+      },
+      "chatOptions": [
+        "1 Give her a pep talk.",
+        "1 Yes"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The heist",
       "text": {
-        "en": "Wear the Scarlet Thief's mask and talk to Caelyn again. (opciones de chat: 1 Yes.)",
-        "es": "Ponte la máscara de Scarlet Thief y vuelve a hablar con Caelyn. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Wear the Scarlet Thief's mask and talk to Caelyn again.",
+        "es": "Ponte la máscara de Scarlet Thief y vuelve a hablar con Caelyn."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The heist",
       "text": {
-        "en": "After a cutscene, attempt to walk-down the stairs, then climb-up the staircase to the east. (opciones de chat: Any)",
-        "es": "Tras una escena, intenta bajar las escaleras, luego sube por la escalera al este. (opciones de chat: Cualquiera)"
-      }
+        "en": "After a cutscene, attempt to walk-down the stairs, then climb-up the staircase to the east.",
+        "es": "Tras una escena, intenta bajar las escaleras, luego sube por la escalera al este."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "The heist",
       "text": {
         "en": "Talk to the Drunken Dwarf to the south.",
         "es": "Habla con el Drunken Dwarf al sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "The heist",
       "text": {
         "en": "Talk to the Bartender downstairs to get 1 drink token.",
         "es": "Habla con el Bartender abajo para conseguir 1 ficha de bebida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "The heist",
       "text": {
         "en": "Pickpocket an attendee south-west for 1 drink token.",
         "es": "Roba a un asistente al suroeste para conseguir 1 ficha de bebida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "The heist",
       "text": {
-        "en": "Talk to the masked woman to the west upstairs and accept the dance off. (opciones de chat: 3 We accept.)",
-        "es": "Habla con la mujer enmascarada al oeste, arriba, y acepta el duelo de baile. (opciones de chat: 3 Aceptamos.)"
-      }
+        "en": "Talk to the masked woman to the west upstairs and accept the dance off.",
+        "es": "Habla con la mujer enmascarada al oeste, arriba, y acepta el duelo de baile."
+      },
+      "chatOptions": [
+        "3 We accept."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "The heist",
       "text": {
         "en": "After the cutscene, talk to the masked woman again to get the 1 drink token.",
         "es": "Tras la escena, vuelve a hablar con la mujer enmascarada para conseguir la ficha de bebida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "The heist",
       "text": {
         "en": "Talk to Mr Mordaut, the dragon.",
         "es": "Habla con Mr Mordaut, el dragón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "The heist",
       "text": {
         "en": "Go downstairs and search the crate next to the Bartender to get a cheese tray.",
         "es": "Baja y registra la caja junto al Bartender para conseguir una bandeja de quesos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "The heist",
       "text": {
         "en": "Go upstairs and talk to Mr Mordaut again for the last drink token.",
         "es": "Sube y vuelve a hablar con Mr Mordaut para conseguir la última ficha de bebida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "The heist",
       "text": {
-        "en": "Talk to the Drunken Dwarf. (opciones de chat: 1 Start the distraction.)",
-        "es": "Habla con el Drunken Dwarf. (opciones de chat: 1 Iniciar la distracción.)"
-      }
+        "en": "Talk to the Drunken Dwarf.",
+        "es": "Habla con el Drunken Dwarf."
+      },
+      "chatOptions": [
+        "1 Start the distraction."
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "The heist",
       "text": {
         "en": "After another cutscene, go down to the basement.",
         "es": "Tras otra escena, baja al sótano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "The heist",
       "text": {
         "en": "Avoid the guards, following the wires on the ground to find the levers.",
         "es": "Evita a los guardias, siguiendo los cables por el suelo para encontrar las palancas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 1,
+      "section": "The heist",
       "text": {
         "en": "There is one lever in each of the north, east and western rooms. Avoid the guards by blocking their line of sight with objects where possible.",
         "es": "Hay una palanca en cada una de las salas norte, este y oeste. Evita a los guardias bloqueando su línea de visión con objetos cuando sea posible."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 2,
+      "section": "The heist",
       "text": {
         "en": "North: Avoid the guards and hide in the crate (halfway along the back wall) to avoid the guard.",
         "es": "Norte: Evita a los guardias y escóndete en la caja (a mitad de la pared del fondo) para esquivar al guardia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 2,
+      "section": "The heist",
       "text": {
         "en": "East: Hide in the crate (Halfway along the eastern wall) to avoid the guard.",
         "es": "Este: Escóndete en la caja (a mitad de la pared este) para esquivar al guardia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 2,
+      "section": "The heist",
       "text": {
         "en": "West: Notice the walking pattern of each guard. Then walk directly behind the guards along their route waiting for when they turn away to move.",
         "es": "Oeste: Fíjate en el patrón de movimiento de cada guardia. Luego camina justo detrás de los guardias siguiendo su ruta, esperando el momento en que se den la vuelta para moverte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "The heist",
       "text": {
         "en": "Pull the three levers.",
         "es": "Tira de las tres palancas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "The heist",
       "text": {
         "en": "Open the display case.",
         "es": "Abre la vitrina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "The heist",
       "text": {
-        "en": "After a cutscene, take from the display case. (opciones de chat: Any)",
-        "es": "Tras una escena, coge algo de la vitrina. (opciones de chat: Cualquiera)"
-      }
+        "en": "After a cutscene, take from the display case.",
+        "es": "Tras una escena, coge algo de la vitrina."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "The heist",
       "text": {
-        "en": "Talk to Caelyn. (opciones de chat: 1 What a twist! • 1 That's so sweet. • 2 Is this all?)",
-        "es": "Habla con Caelyn. (opciones de chat: 1 ¡Vaya giro! • 1 Qué tierno. • 2 ¿Esto es todo?)"
-      }
+        "en": "Talk to Caelyn.",
+        "es": "Habla con Caelyn."
+      },
+      "chatOptions": [
+        "1 What a twist!",
+        "1 That's so sweet.",
+        "2 Is this all?"
+      ]
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "The heist",
       "text": {
-        "en": "Continue dialogue with Caelyn. (opciones de chat: Any)",
-        "es": "Continúa el diálogo con Caelyn. (opciones de chat: Cualquiera)"
-      }
+        "en": "Continue dialogue with Caelyn.",
+        "es": "Continúa el diálogo con Caelyn."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     }
   ]
 }

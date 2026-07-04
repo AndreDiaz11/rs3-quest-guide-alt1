@@ -91,6 +91,7 @@ export async function buildQuestRecord({
     items,
     kills: metadata.kills,
     rewards,
+    rewardBannerImage: rewardsData.rewardBannerImage || null,
     postQuest: rewardsData.postQuest,
     steps: stepsWithEs,
     ...(guideNote ? { guideNote } : {}),

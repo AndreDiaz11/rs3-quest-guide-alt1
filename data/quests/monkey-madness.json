@@ -2,7 +2,8 @@
   "id": "monkey-madness",
   "title": "Monkey Madness",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T01:56:39.928Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:38.100Z",
   "icon": "https://runescape.wiki/images/Monkey_Madness_icon.png",
   "series": "Gnome",
   "age": "5",
@@ -168,615 +169,805 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Monkey_Madness_reward.png?0d44b",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Missing 10th squad",
       "text": {
-        "en": "Speak to King Narnode Shareen in the Grand Tree. He will give you a gnome royal seal. (opciones de chat: Accept)",
-        "es": "Habla con King Narnode Shareen en el Grand Tree. Te dará un gnome royal seal. (opciones de chat: Aceptar)"
-      }
+        "en": "Speak to King Narnode Shareen in the Grand Tree. He will give you a gnome royal seal.",
+        "es": "Habla con King Narnode Shareen en el Grand Tree. Te dará un gnome royal seal."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Missing 10th squad",
       "text": {
-        "en": "Right-click the ladder, select Top Floor, and take the glider from Captain Errdo to Karamja - 'Gandius'. (opciones de chat: 5)",
-        "es": "Haz clic derecho en la escalera, selecciona Top Floor, y toma el planeador de Captain Errdo hacia Karamja - 'Gandius'. (opciones de chat: 5)"
-      }
+        "en": "Right-click the ladder, select Top Floor, and take the glider from Captain Errdo to Karamja - 'Gandius'.",
+        "es": "Haz clic derecho en la escalera, selecciona Top Floor, y toma el planeador de Captain Errdo hacia Karamja - 'Gandius'."
+      },
+      "chatOptions": [
+        "5"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Missing 10th squad",
       "text": {
         "en": "Head north along the coast to reach the shipyard and try to enter through the gate.",
         "es": "Dirígete al norte a lo largo de la costa para llegar al astillero e intenta entrar por la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Missing 10th squad",
       "text": {
         "en": "Speak with G.L.O. Caranock in the hut southeast of the gate.",
         "es": "Habla con G.L.O. Caranock en la cabaña al sureste de la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Missing 10th squad",
       "text": {
         "en": "Return to King Narnode. He gives you Narnode's orders.",
         "es": "Regresa con King Narnode. Te dará las órdenes de Narnode."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Missing 10th squad",
       "text": {
         "en": "You can return to Captain Klemfoodle to take the glider to The Grand Tree - 'Ta Quir Priw'",
         "es": "Puedes volver con Captain Klemfoodle para tomar el planeador hacia The Grand Tree - 'Ta Quir Priw'."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Missing 10th squad",
       "text": {
-        "en": "Talk to Daero, found on the east side of the of the Grand Tree. He is at the Blurberry bar platform. (opciones de chat: 1 Talk about the journey • 4 Return to previous menu • 2 Talk about the 10th squad • 4 Return to previous menu • 3 Talk about Caranock • 4 Return to previous menu • 4 Leave... • 1 Who is it?)",
-        "es": "Habla con Daero, que se encuentra en el lado este del Grand Tree. Está en la plataforma del bar Blurberry. (opciones de chat: 1 Hablar sobre el viaje • 4 Volver al menú anterior • 2 Hablar sobre el décimo escuadrón • 4 Volver al menú anterior • 3 Hablar sobre Caranock • 4 Volver al menú anterior • 4 Irse... • 1 ¿Quién es?)"
-      }
+        "en": "Talk to Daero, found on the east side of the of the Grand Tree. He is at the Blurberry bar platform.",
+        "es": "Habla con Daero, que se encuentra en el lado este del Grand Tree. Está en la plataforma del bar Blurberry."
+      },
+      "chatOptions": [
+        "1 Talk about the journey",
+        "4 Return to previous menu",
+        "2 Talk about the 10th squad",
+        "4 Return to previous menu",
+        "3 Talk about Caranock",
+        "4 Return to previous menu",
+        "4 Leave...",
+        "1 Who is it?"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Solving puzzle before crashing",
       "text": {
         "en": "Talk to Daero.",
         "es": "Habla con Daero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Solving puzzle before crashing",
       "text": {
         "en": "Begin the puzzle by clicking on the Reinitialisation Panel to the south-east in front of the long pipe.",
         "es": "Comienza el puzzle haciendo clic en el Panel de Reinicialización al sureste, frente al tubo largo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Solving puzzle before crashing",
       "text": {
         "en": "Unscramble the puzzle. Caution: The A3 and A5 pieces look near identical and can make the solving the puzzle difficult (A3 should have a straight cloud bottom on the tile and A5 should have a small curve at the bottom right corner of the tile).",
         "es": "Resuelve el puzzle. Precaución: las piezas A3 y A5 se ven casi idénticas y pueden dificultar la resolución del puzzle (la A3 debe tener una nube plana en la parte inferior de la casilla y la A5 debe tener una pequeña curva en la esquina inferior derecha de la casilla)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Solving puzzle before crashing",
       "text": {
         "en": "You can use this [https://alexyuisingwu.github.io/sliding-puzzle-solver/ sliding puzzle solver].",
         "es": "Puedes usar este [https://alexyuisingwu.github.io/sliding-puzzle-solver/ resolvedor de puzzles deslizantes]."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Solving puzzle before crashing",
       "text": {
-        "en": "Or pay Glough 200,000 coins. He's located in the tree house south-east of the Grand Tree. (opciones de chat: 1 • 1 • 1) Speak to Daero at the Blurberry bar platform to return to the hangar; you will only have to complete the last move in the puzzle if you pay.",
+        "en": "Or pay Glough 200,000 coins. He's located in the tree house south-east of the Grand Tree. Speak to Daero at the Blurberry bar platform to return to the hangar; you will only have to complete the last move in the puzzle if you pay.",
         "es": "O pagar a Glough 200.000 monedas. Se encuentra en la casa del árbol al sureste del Grand Tree. (opciones de chat: 1 • 1 • 1) Habla con Daero en la plataforma del bar Blurberry para volver al hangar; si pagas, solo tendrás que completar el último movimiento del puzzle."
-      }
+      },
+      "chatOptions": [
+        "1",
+        "1",
+        "1"
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Solving puzzle before crashing",
       "text": {
-        "en": "There is a cutscene when the puzzle is correct. Speak to Daero and then to Waydar (opciones de chat: 1 Yes.) to fly to Crash Island.",
+        "en": "There is a cutscene when the puzzle is correct. Speak to Daero and then to Waydar to fly to Crash Island.",
         "es": "Hay una escena cuando el puzzle está correcto. Habla con Daero y luego con Waydar (opciones de chat: 1 Sí.) para volar a Crash Island."
-      }
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Solving puzzle before crashing",
       "text": {
         "en": "Speak to Lumdo.",
         "es": "Habla con Lumdo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Solving puzzle before crashing",
       "text": {
-        "en": "Speak to Waydar who will convince Lumdo to follow orders. (opciones de chat: 4 I cannot convince Lumdo to take us to the island…)",
-        "es": "Habla con Waydar, quien convencerá a Lumdo de seguir órdenes. (opciones de chat: 4 No puedo convencer a Lumdo de que nos lleve a la isla…)"
-      }
+        "en": "Speak to Waydar who will convince Lumdo to follow orders.",
+        "es": "Habla con Waydar, quien convencerá a Lumdo de seguir órdenes."
+      },
+      "chatOptions": [
+        "4 I cannot convince Lumdo to take us to the island…"
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Ape Atoll",
       "text": {
         "en": "Recommended: turn off auto-retaliate and leave it off until the final battle (Can be toggled on/off by clicking the button left of the adrenaline gauge on the Action Bar).",
         "es": "Recomendado: desactiva el contraataque automático y déjalo desactivado hasta la batalla final (se puede activar/desactivar haciendo clic en el botón a la izquierda del medidor de adrenalina en la barra de acción)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Ape Atoll",
       "text": {
         "en": "On the island, travel west then north to a bamboo gate. Stand there getting pelted by poisoned arrows until you are brought to a prison. You will take some damage and be poisoned.",
         "es": "En la isla, viaja al oeste y luego al norte hasta una puerta de bambú. Quédate ahí recibiendo flechas envenenadas hasta que te lleven a una prisión. Recibirás algo de daño y quedarás envenenado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Ape Atoll",
       "text": {
         "en": "Picklock the cell and escape the prison. Stay at least 2 squares away from the guards.",
         "es": "Forcejea la cerradura de la celda y escapa de la prisión. Mantente al menos a 2 casillas de distancia de los guardias."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Ape Atoll",
       "text": {
         "en": "Stay in the grass to hide from archer monkeys and travel south against the western wall of the Temple of Marimbo.",
         "es": "Quédate en la hierba para esconderte de los monos arqueros y viaja hacia el sur pegado a la pared occidental del Temple of Marimbo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Ape Atoll",
       "text": {
         "en": "Go east along the wall of the temple and around the monkey palace. Speak to Garkor.",
         "es": "Ve hacia el este siguiendo la pared del templo y rodea el palacio de los monos. Habla con Garkor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Zooknock",
       "text": {
         "en": "Head to the U-shaped building in the southern side of the monkey village. Enter through the southern door otherwise you will be knocked out.",
         "es": "Dirígete al edificio en forma de U en el lado sur de la aldea de los monos. Entra por la puerta sur, de lo contrario quedarás inconsciente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Zooknock",
       "text": {
         "en": "Stay on the dark brown ground at the perimeter of the room.",
         "es": "Permanece en el suelo marrón oscuro alrededor del perímetro de la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Zooknock",
       "text": {
         "en": "Search the stacked crates two tiles east of the trapdoor for monkey dentures (you can grab another for making a tooth creature).",
         "es": "Registra las cajas apiladas dos casillas al este de la trampilla en busca de una dentadura de mono (puedes coger otra para fabricar una criatura dentada)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Zooknock",
       "text": {
-        "en": "Search the south-easternmost crate (which is a different style and slightly darker brown) to crawl down into the basement - you may fall and take up to 50% of your life points in damage. (opciones de chat: 1 Yes, I’m sure)",
-        "es": "Registra la caja más al sureste (que tiene un estilo diferente y un tono ligeramente más oscuro de marrón) para bajar arrastrándote al sótano; podrías caer y sufrir hasta un 50% de tus puntos de vida en daño. (opciones de chat: 1 Sí, estoy seguro)"
-      }
+        "en": "Search the south-easternmost crate (which is a different style and slightly darker brown) to crawl down into the basement - you may fall and take up to 50% of your life points in damage.",
+        "es": "Registra la caja más al sureste (que tiene un estilo diferente y un tono ligeramente más oscuro de marrón) para bajar arrastrándote al sótano; podrías caer y sufrir hasta un 50% de tus puntos de vida en daño."
+      },
+      "chatOptions": [
+        "1 Yes, I’m sure"
+      ]
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Zooknock",
       "text": {
         "en": "In the northwest corner there's a cluster of crates around a stalagmite; search the crate directly south of the stalagmite for a monkeyspeak amulet mould.",
         "es": "En la esquina noroeste hay un grupo de cajas alrededor de una estalagmita; registra la caja justo al sur de la estalagmita para conseguir un molde de amuleto monkeyspeak."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Zooknock",
       "text": {
         "en": "If you needed to leave to obtain items, teleport to Al Kharid, go north, talk to Captain Dalbur to glide to the Tree Gnome Stronghold, then talk to Daero at Blurberry's Bar to return to the hangar , Waydar to return to Crash Island , and then Lumdo to return to Ape Atoll .",
         "es": "Si necesitaste salir para conseguir objetos, teletranspórtate a Al Kharid, ve al norte, habla con Captain Dalbur para planear hasta Tree Gnome Stronghold, luego habla con Daero en Blurberry's Bar para volver al hangar, con Waydar para volver a Crash Island, y luego con Lumdo para volver a Ape Atoll."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Zooknock",
       "text": {
         "en": "If you didn't need to leave to obtain items, go to the area where you first landed on Ape Atoll. There is a one-way shortcut south of Garkor.",
         "es": "Si no necesitaste salir para conseguir objetos, ve al área donde aterrizaste por primera vez en Ape Atoll. Hay un atajo de un solo sentido al sur de Garkor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Zooknock",
       "text": {
         "en": "Travel west until you see a dungeon on your mini-map. Climb down.",
         "es": "Viaja hacia el oeste hasta que veas una mazmorra en tu minimapa. Baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Ape Atoll Dungeon",
       "text": {
         "en": "Run through the long dungeon.",
         "es": "Corre a través de la larga mazmorra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Ape Atoll Dungeon",
       "text": {
         "en": "Protect from Melee is highly recommended here, as are antipoison and energy potions. Make sure to have several pieces of food (and/or Enhanced Excalibur) for healing from the traps and mobs.",
         "es": "Se recomienda encarecidamente Protect from Melee, así como pociones de antiveneno y energía. Asegúrate de llevar varias piezas de comida (y/o el Enhanced Excalibur) para curarte de las trampas y los monstruos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Ape Atoll Dungeon",
       "text": {
         "en": "At the end of the dungeon (the most north-eastern part), speak to Zooknock first.",
         "es": "Al final de la mazmorra (la parte más al noreste), habla primero con Zooknock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Ape Atoll Dungeon",
       "text": {
         "en": "Use the gold bar on Zooknock.",
         "es": "Usa la barra de oro en Zooknock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Ape Atoll Dungeon",
       "text": {
         "en": "Use the monkey dentures on Zooknock.",
         "es": "Usa la dentadura de mono en Zooknock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Ape Atoll Dungeon",
       "text": {
         "en": "Use the monkeyspeak amulet mould on Zooknock. He will give you an enchanted bar and your mould back.",
         "es": "Usa el molde de amuleto monkeyspeak en Zooknock. Te dará una barra encantada y te devolverá tu molde."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "Ape Atoll Dungeon",
       "text": {
         "en": "If you use the monkey bones on him here you '''don't''' need to get new ones when turning in the talisman. Monkey bones from the monkey zombies in the cave do not work. Keep your monkeyspeak amulet mould as it used in Do No Evil.",
         "es": "Si usas los huesos de mono en él aquí, '''no''' necesitarás conseguir unos nuevos al entregar el talismán. Los huesos de mono de los monos zombis de la cueva no funcionan. Conserva tu molde de amuleto monkeyspeak, ya que se usa en Do No Evil."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Ape Atoll Dungeon",
       "text": {
         "en": "Make sure you finish the dialogue after giving him the three items and the bones; otherwise, you will not receive the enchanted bar and your mould back. If you leave the area, you will have to run all the way back through this cave to finish the dialogue to get the enchanted gold bar.",
         "es": "Asegúrate de terminar el diálogo después de darle los tres objetos y los huesos; de lo contrario, no recibirás la barra encantada ni tu molde de vuelta. Si abandonas el área, tendrás que correr de vuelta por toda esta cueva para terminar el diálogo y conseguir la barra de oro encantada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Monkey's uncle",
       "text": {
         "en": "Return to Marim (Ape Atoll) (protect from missiles and surge to gate).",
         "es": "Regresa a Marim (Ape Atoll) (Protect from Missiles y usa surge hacia la puerta)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Monkey's uncle",
       "text": {
         "en": "Escape prison and run east into the temple.",
         "es": "Escapa de la prisión y corre hacia el este, hacia el templo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Monkey's uncle",
       "text": {
         "en": "Take the southern ladder up, the eastern ladder down, and then the trapdoor down into the dungeon.",
         "es": "Sube por la escalera sur, baja por la escalera este, y luego baja por la trampilla hacia la mazmorra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 1,
+      "section": "Monkey's uncle",
       "text": {
         "en": "Alternatively, you can kill one of the two gorilla guards blocking the trapdoor and climb down that way.",
         "es": "Alternativamente, puedes matar a uno de los dos guardias gorila que bloquean la trampilla y bajar por ahí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Monkey's uncle",
       "text": {
         "en": "Use the enchanted bar on a pillar of fire and use the amulet on a ball of wool to create an monkeyspeak amulet.",
         "es": "Usa la barra encantada en un pilar de fuego y usa el amuleto en una bola de lana para crear un amuleto monkeyspeak."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Monkey's uncle",
       "text": {
         "en": "Go to the banana garden west of the prison.",
         "es": "Ve al jardín de plátanos al oeste de la prisión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Monkey's uncle",
       "text": {
         "en": "Wait for the monkey's aunt to leave and quickly go into the garden through the corridor at its north-east corner.",
         "es": "Espera a que la tía del mono se marche y entra rápidamente al jardín por el corredor de su esquina noreste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Monkey's uncle",
       "text": {
         "en": "When she returns, run back into the corridor.",
         "es": "Cuando ella regrese, vuelve corriendo al corredor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "Monkey's uncle",
       "text": {
         "en": "You can stay in the area with red monkey knife fighters if the guards are called and climb the ladder to the south up and back down again.",
         "es": "Puedes quedarte en el área con los monos peleadores rojos con cuchillo si llaman a los guardias, y subir por la escalera del sur y volver a bajar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Monkey's uncle",
       "text": {
-        "en": "Equip the monkeyspeak amulet, talk to the monkey child, and talk to him again (opciones de chat: 4 Well I’ll be a monkey’s uncle!).",
+        "en": "Equip the monkeyspeak amulet, talk to the monkey child, and talk to him again .",
         "es": "Equípate el amuleto monkeyspeak, habla con el mono niño, y háblale de nuevo (opciones de chat: 4 ¡Vaya, seré tío de un mono!)."
-      }
+      },
+      "chatOptions": [
+        "4 Well I’ll be a monkey’s uncle!"
+      ]
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Monkey's uncle",
       "text": {
-        "en": "Talk to Monkey child again. (opciones de chat: 2 How many bananas did Aunty want?)",
-        "es": "Habla de nuevo con el mono niño. (opciones de chat: 2 ¿Cuántos plátanos quería la tía?)"
-      }
+        "en": "Talk to Monkey child again.",
+        "es": "Habla de nuevo con el mono niño."
+      },
+      "chatOptions": [
+        "2 How many bananas did Aunty want?"
+      ]
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Monkey's uncle",
       "text": {
         "en": "You will have to wait for The Monkey's Aunt to pass by the child once again before the child gives you the Monkey talisman.",
         "es": "Tendrás que esperar a que la tía del mono pase junto al niño una vez más antes de que el niño te dé el Monkey talisman."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 1,
+      "section": "Monkey's uncle",
       "text": {
-        "en": "If you're obtaining multiple for Recipe for Disaster: Freeing King Awowogei, Do No Evil or Monkey butler then repeat the same step as before (opciones de chat: 2 Wow - can I borrow it? • 1 Ok, I promise!) then speak to the Monkey child again. (opciones de chat: 2 I've lost that toy you gave me...)",
-        "es": "Si estás obteniendo varios para Recipe for Disaster: Freeing King Awowogei, Do No Evil o Monkey butler, repite el mismo paso que antes (opciones de chat: 2 Vaya, ¿puedo tomarlo prestado? • 1 ¡Vale, lo prometo!) y luego habla de nuevo con el mono niño. (opciones de chat: 2 He perdido ese juguete que me diste...)"
-      }
+        "en": "If you're obtaining multiple for Recipe for Disaster: Freeing King Awowogei, Do No Evil or Monkey butler then repeat the same step as before then speak to the Monkey child again.",
+        "es": "Si estás obteniendo varios para Recipe for Disaster: Freeing King Awowogei, Do No Evil o Monkey butler, repite el mismo paso que antes (opciones de chat: 2 Vaya, ¿puedo tomarlo prestado? • 1 ¡Vale, lo prometo!) y luego habla de nuevo con el mono niño."
+      },
+      "chatOptions": [
+        "2 Wow - can I borrow it?",
+        "1 Ok, I promise!",
+        "2 I've lost that toy you gave me..."
+      ]
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Monkey's uncle",
       "text": {
         "en": "Take your monkey bones and Monkey talisman and use it on Zooknock at the end of the dungeon under Ape Atoll.",
         "es": "Toma tus huesos de mono y el Monkey talisman y úsalos en Zooknock al final de la mazmorra bajo Ape Atoll."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 1,
+      "section": "Monkey's uncle",
       "text": {
         "en": "Make sure to make the standard Monkey greegree for the next steps as other forms will not work.",
         "es": "Asegúrate de fabricar el greegree de mono estándar para los siguientes pasos, ya que otras formas no funcionarán."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 2,
+      "section": "Monkey's uncle",
       "text": {
-        "en": "Bring other monkey bones and multiple talismans if you want to make more greegrees and (opciones de chat: 2 • 1) then use your Monkey talisman and different types of monkey bones on Zooknock.",
+        "en": "Bring other monkey bones and multiple talismans if you want to make more greegrees and then use your Monkey talisman and different types of monkey bones on Zooknock.",
         "es": "Trae otros huesos de mono y varios talismanes si quieres fabricar más greegrees y (opciones de chat: 2 • 1) luego usa tu Monkey talisman y diferentes tipos de huesos de mono en Zooknock."
-      }
+      },
+      "chatOptions": [
+        "2",
+        "1"
+      ]
     },
     {
       "index": 52,
       "indent": 3,
+      "section": "Monkey's uncle",
       "text": {
         "en": "You can use multiple greegrees on each other to save bank space.",
         "es": "Puedes usar varios greegrees entre sí para ahorrar espacio en el banco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Monkey's uncle",
       "text": {
         "en": "Watch the cutscene. Talk to Zooknock to receive your greegree.",
         "es": "Mira la escena. Habla con Zooknock para recibir tu greegree."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "King Awowogei",
       "text": {
         "en": "During this section, do not teleport while you're carrying the monkey or you will have to re-obtain the monkey. This includes spirit tree teleportation.",
         "es": "Durante esta sección, no te teletransportes mientras llevas al mono, o tendrás que volver a conseguirlo. Esto incluye la teletransportación por árbol espiritual."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "King Awowogei",
       "text": {
         "en": "Enter Ardougne Zoo and equip your greegree near the monkey zone. Speak to the monkey minder.",
         "es": "Entra en Ardougne Zoo y equípate el greegree cerca de la zona de los monos. Habla con el cuidador de monos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 1,
+      "section": "King Awowogei",
       "text": {
         "en": "If you have other monkeys types on your monkey greegree, make sure to swap it to the Karamjan monkey (brown with red cap). Otherwise the monkey minder will say to you that you aren't getting anywhere near his monkeys.",
         "es": "Si tienes otros tipos de monos en tu greegree, asegúrate de cambiarlo al mono karamjano (marrón con gorra roja). De lo contrario, el cuidador de monos te dirá que no te vas a acercar a sus monos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "King Awowogei",
       "text": {
         "en": "Talk to an unattackable monkey. Unequip the greegree and talk to the monkey minder again.",
         "es": "Habla con un mono no atacable. Quítate el greegree y habla de nuevo con el cuidador de monos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "King Awowogei",
       "text": {
-        "en": "Run to the Grand Tree and talk to Daero, (opciones de chat: 1) then Waydar, (opciones de chat: 1) and finally Lumdo.",
+        "en": "Run to the Grand Tree and talk to Daero, then Waydar, and finally Lumdo.",
         "es": "Corre hacia el Grand Tree y habla con Daero, (opciones de chat: 1) luego con Waydar, (opciones de chat: 1) y finalmente con Lumdo."
-      }
+      },
+      "chatOptions": [
+        "1",
+        "1"
+      ]
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "King Awowogei",
       "text": {
         "en": "Equip the greegree, pass through the gates.",
         "es": "Equípate el greegree, atraviesa las puertas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "King Awowogei",
       "text": {
         "en": "Return to Garkor by the kings palace (as a monkey) and speak to him.",
         "es": "Regresa con Garkor junto al palacio del rey (como mono) y habla con él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "King Awowogei",
       "text": {
         "en": "Talk to the elder guard west of Garkor, they will say you need permission from Kruk.",
         "es": "Habla con el guardia mayor al oeste de Garkor; te dirán que necesitas el permiso de Kruk."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 0,
+      "section": "King Awowogei",
       "text": {
         "en": "Head west from the main gate, walk round and up the hill and then cross the bridge to end up on the other side of the hill.",
         "es": "Dirígete al oeste desde la puerta principal, rodea y sube la colina, y luego cruza el puente para llegar al otro lado de la colina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 0,
+      "section": "King Awowogei",
       "text": {
         "en": "Talk to Kruk, who will grant you an audience with Awowogei.",
         "es": "Habla con Kruk, quien te concederá una audiencia con Awowogei."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 1,
+      "section": "King Awowogei",
       "text": {
         "en": "You may need to talk to Garkor, then with the Elder Guard outside of the throne room first.",
         "es": "Es posible que necesites hablar primero con Garkor, y luego con el guardia mayor fuera de la sala del trono."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "King Awowogei",
       "text": {
         "en": "Inside the throne room, talk to Awowogei.",
         "es": "Dentro de la sala del trono, habla con Awowogei."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "King Awowogei",
       "text": {
         "en": "Talk to him again to give him the rescued monkey.",
         "es": "Háblale de nuevo para entregarle al mono rescatado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "King Awowogei",
       "text": {
         "en": "Talk to the southern Elder Guard to exit the throne room.",
         "es": "Habla con el guardia mayor del sur para salir de la sala del trono."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 68,
       "indent": 0,
+      "section": "King Awowogei",
       "text": {
         "en": "Talk to Garkor, this will start a cutscene.",
         "es": "Habla con Garkor; esto iniciará una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 69,
       "indent": 0,
+      "section": "King Awowogei",
       "text": {
         "en": "Talk to Garkor again after the cutscene for the 10th squad sigil.",
         "es": "Habla de nuevo con Garkor tras la escena para conseguir el sello del décimo escuadrón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 70,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Right-click 10th squad sigil teleport when you are ready to kill Jungle Demon.",
         "es": "Haz clic derecho en el sello del décimo escuadrón para teletransportarte cuando estés listo para matar a Jungle Demon."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 71,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
         "en": "If you rub the sigil with your greegree equipped and with a full inventory, your greegree will drop on the ground.",
         "es": "Si frotas el sello con tu greegree equipado y con el inventario lleno, tu greegree caerá al suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 72,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Kill the Jungle demon.",
         "es": "Mata a Jungle Demon."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 73,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
         "en": "Prayer flicking between Protect from Melee and Magic (or Deflect Melee and Magic) can prevent most damage. Begin on Protect From Melee, and as the demon begins the animation for the magic attack swap to Protect from Magic, then wait for the hit and switch back to Protect from Melee. Otherwise, remain on Protect from or Deflect Magic.",
         "es": "Alternar oraciones entre Protect from Melee y Magic (o Deflect Melee y Magic) puede evitar la mayor parte del daño. Comienza con Protect From Melee, y cuando el demonio empiece la animación del ataque mágico, cambia a Protect from Magic, luego espera a recibir el golpe y vuelve a cambiar a Protect from Melee. En cualquier otro momento, permanece en Protect from o Deflect Magic."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 74,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Speak to King Narnode in the Grand Tree.",
         "es": "Habla con King Narnode en el Grand Tree."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 75,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

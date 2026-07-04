@@ -2,7 +2,8 @@
   "id": "jed-hunter-miniquest",
   "title": "Jed Hunter (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:31:30.430Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:29.371Z",
   "icon": "https://runescape.wiki/images/thumb/Jed_Hunter_%28miniquest%29_icon.png/50px-Jed_Hunter_%28miniquest%29_icon.png",
   "series": "Tales of the Arc",
   "age": "6",
@@ -96,167 +97,236 @@
       "image": "https://runescape.wiki/images/thumb/Medium_Hunter_XP_lamp_detail.png/100px-Medium_Hunter_XP_lamp_detail.png?4419a"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Jed_Hunter_%28miniquest%29_reward.png?8fa7d",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Lookout Ekahi",
       "text": {
-        "en": "Talk to Lookout Ekahi beside your ship in either Waiko or Aminishi. (opciones de chat: 1 Jed Hunter miniquest (if you have just completed the Head of the Family (miniquest) • Head of the Family miniquest then you may need to relog for this option to appear). • Accept • 1 Yes, I promise.)",
+        "en": "Talk to Lookout Ekahi beside your ship in either Waiko or Aminishi.",
         "es": "Habla con Lookout Ekahi junto a tu barco, ya sea en Waiko o en Aminishi. (opciones de chat: 1 Jed Hunter miniquest (si acabas de completar la minimisión Head of the Family • minimisión Head of the Family, puede que necesites reconectar para que aparezca esta opción). • Accept • 1 Yes, I promise.)"
-      }
+      },
+      "chatOptions": [
+        "1 Jed Hunter miniquest (if you have just completed the [[Head of the Family (miniquest)",
+        "Head of the Family miniquest]] then you may need to relog for this option to appear).",
+        "Accept",
+        "1 Yes, I promise."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Bosun Higgs",
       "text": {
-        "en": "Talk to Bosun Higgs beside your ship. (opciones de chat: 1 Jed Hunter miniquest.)",
-        "es": "Habla con Bosun Higgs junto a tu barco. (opciones de chat: 1 Jed Hunter miniquest.)"
-      }
+        "en": "Talk to Bosun Higgs beside your ship.",
+        "es": "Habla con Bosun Higgs junto a tu barco."
+      },
+      "chatOptions": [
+        "1 Jed Hunter miniquest."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Bosun Higgs",
       "text": {
         "en": "Talk to Sojobo in the centre of Waiko marketplace.",
         "es": "Habla con Sojobo en el centro del mercado de Waiko."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Bosun Higgs",
       "text": {
         "en": "Kill 3 Gu ronin on uncharted isles.",
         "es": "Mata a 3 Gu ronin en islas inexploradas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Bosun Higgs",
       "text": {
         "en": "Return to Sojobo on Waiko.",
         "es": "Vuelve con Sojobo en Waiko."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Bosun Higgs",
       "text": {
-        "en": "Return to Bosun Higgs with the Tetsu set. (opciones de chat: 1 Jed Hunter miniquest.)",
+        "en": "Return to Bosun Higgs with the Tetsu set.",
         "es": "Vuelve con Bosun Higgs con el set Tetsu."
-      }
+      },
+      "chatOptions": [
+        "1 Jed Hunter miniquest."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Navigator Jemi",
       "text": {
-        "en": "Talk to Navigator Jemi beside your ship. (opciones de chat: 1 Jed Hunter miniquest.)",
-        "es": "Habla con Navigator Jemi junto a tu barco. (opciones de chat: 1 Jed Hunter miniquest.)"
-      }
+        "en": "Talk to Navigator Jemi beside your ship.",
+        "es": "Habla con Navigator Jemi junto a tu barco."
+      },
+      "chatOptions": [
+        "1 Jed Hunter miniquest."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Navigator Jemi",
       "text": {
-        "en": "Talk to Sea Witch Kaula on the north-western shore of Whale's Maw. (opciones de chat: 4 Ask about communicating with the Thalassus.)",
-        "es": "Habla con Sea Witch Kaula en la costa noroeste de Whale's Maw. (opciones de chat: 4 Ask about communicating with the Thalassus.)"
-      }
+        "en": "Talk to Sea Witch Kaula on the north-western shore of Whale's Maw.",
+        "es": "Habla con Sea Witch Kaula en la costa noroeste de Whale's Maw."
+      },
+      "chatOptions": [
+        "4 Ask about communicating with the Thalassus."
+      ]
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Navigator Jemi",
       "text": {
         "en": "You may have to speak to her twice to give her the tortle shell bowls.",
         "es": "Puede que tengas que hablar con ella dos veces para entregarle los cuencos de concha de tortle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Navigator Jemi",
       "text": {
         "en": "Talk to Navigator Jemi while standing next to Kaula.",
         "es": "Habla con Navigator Jemi mientras estás junto a Kaula."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Navigator Jemi",
       "text": {
-        "en": "Go back to the ship and talk to Navigator Jemi. (opciones de chat: 1 Jed Hunter miniquest.)",
-        "es": "Vuelve al barco y habla con Navigator Jemi. (opciones de chat: 1 Jed Hunter miniquest.)"
-      }
+        "en": "Go back to the ship and talk to Navigator Jemi.",
+        "es": "Vuelve al barco y habla con Navigator Jemi."
+      },
+      "chatOptions": [
+        "1 Jed Hunter miniquest."
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Quartermaster Gully",
       "text": {
-        "en": "Talk to Quartermaster Gully beside your ship. (opciones de chat: 1 Jed Hunter miniquest.)",
-        "es": "Habla con Quartermaster Gully junto a tu barco. (opciones de chat: 1 Jed Hunter miniquest.)"
-      }
+        "en": "Talk to Quartermaster Gully beside your ship.",
+        "es": "Habla con Quartermaster Gully junto a tu barco."
+      },
+      "chatOptions": [
+        "1 Jed Hunter miniquest."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Quartermaster Gully",
       "text": {
         "en": "Talk to Rosie in the centre of Waiko.",
         "es": "Habla con Rosie en el centro de Waiko."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Quartermaster Gully",
       "text": {
         "en": "Talk to Rosie again.",
         "es": "Habla de nuevo con Rosie."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Quartermaster Gully",
       "text": {
-        "en": "Deliver the buoyancy materials back to Quartermaster Gully. (opciones de chat: 1 Jed Hunter miniquest.)",
-        "es": "Entrega los materiales de flotabilidad a Quartermaster Gully. (opciones de chat: 1 Jed Hunter miniquest.)"
-      }
+        "en": "Deliver the buoyancy materials back to Quartermaster Gully.",
+        "es": "Entrega los materiales de flotabilidad a Quartermaster Gully."
+      },
+      "chatOptions": [
+        "1 Jed Hunter miniquest."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Finale",
       "text": {
-        "en": "Talk to Lookout Ekahi. (opciones de chat: 1 Jed Hunter miniquest.)",
-        "es": "Habla con Lookout Ekahi. (opciones de chat: 1 Jed Hunter miniquest.)"
-      }
+        "en": "Talk to Lookout Ekahi.",
+        "es": "Habla con Lookout Ekahi."
+      },
+      "chatOptions": [
+        "1 Jed Hunter miniquest."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Finale",
       "text": {
         "en": "Talk to Yuehanxun the Dealer in the south-east of Waiko. She is at the last hut in the South of Waiko, north of the water barrel.",
         "es": "Habla con Yuehanxun the Dealer en el sureste de Waiko. Está en la última cabaña al sur de Waiko, al norte del barril de agua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Finale",
       "text": {
-        "en": "Talk to Lookout Ekahi at the boat to set sail. (opciones de chat: 1 Jed Hunter miniquest. • 1 Yes.)",
-        "es": "Habla con Lookout Ekahi en el barco para zarpar. (opciones de chat: 1 Jed Hunter miniquest. • 1 Yes.)"
-      }
+        "en": "Talk to Lookout Ekahi at the boat to set sail.",
+        "es": "Habla con Lookout Ekahi en el barco para zarpar."
+      },
+      "chatOptions": [
+        "1 Jed Hunter miniquest.",
+        "1 Yes."
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Finale",
       "text": {
-        "en": "Once on the ship, talk to Lookout Ekahi again. (opciones de chat: 1 Yes.)",
-        "es": "Una vez en el barco, habla de nuevo con Lookout Ekahi. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Once on the ship, talk to Lookout Ekahi again.",
+        "es": "Una vez en el barco, habla de nuevo con Lookout Ekahi."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Finale",
       "text": {
-        "en": "Once on the other ship, unlock the hold in the centre of the ship. (opciones de chat: 1 Yes.)",
-        "es": "Una vez en el otro barco, desbloquea la bodega en el centro del barco. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Once on the other ship, unlock the hold in the centre of the ship.",
+        "es": "Una vez en el otro barco, desbloquea la bodega en el centro del barco."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     }
   ]
 }

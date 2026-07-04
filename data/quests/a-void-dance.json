@@ -2,7 +2,8 @@
   "id": "a-void-dance",
   "title": "A Void Dance",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:28:51.574Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:33.599Z",
   "icon": "https://runescape.wiki/images/A_Void_Dance_icon.png",
   "series": "Void Knight",
   "age": "5",
@@ -163,535 +164,722 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/A_Void_Dance_reward.png?fcbf8",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting",
       "text": {
-        "en": "Speak with Commodore Tyr at the Void Knights' Outpost. (opciones de chat: Accept • 1 Why do you need me? • 1 Wait, you're sending Jessika? • 2 Where should I start? • 3 I'm on my way.)",
-        "es": "Habla con Commodore Tyr en el Void Knights' Outpost. (opciones de chat: Aceptar • 1 ¿Por qué me necesitas? • 1 Espera, ¿vas a enviar a Jessika? • 2 ¿Por dónde debería empezar? • 3 Ya voy en camino.)"
-      }
+        "en": "Speak with Commodore Tyr at the Void Knights' Outpost.",
+        "es": "Habla con Commodore Tyr en el Void Knights' Outpost."
+      },
+      "chatOptions": [
+        "Accept",
+        "1 Why do you need me?",
+        "1 Wait, you're sending Jessika?",
+        "2 Where should I start?",
+        "3 I'm on my way."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting",
       "text": {
         "en": "Speak with Captain Korasi.",
         "es": "Habla con Captain Korasi."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Pest-y business",
       "text": {
-        "en": "Head to the Port Sarim docks and speak to Korasi. (opciones de chat: 2 On my way.)",
-        "es": "Dirígete a los muelles de Port Sarim y habla con Korasi. (opciones de chat: 2 Voy en camino.)"
-      }
+        "en": "Head to the Port Sarim docks and speak to Korasi.",
+        "es": "Dirígete a los muelles de Port Sarim y habla con Korasi."
+      },
+      "chatOptions": [
+        "2 On my way."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Pest-y business",
       "text": {
-        "en": "Right-click talk to Captain Tobias, just north of Korasi. (opciones de chat: 2 No, thank you.)",
-        "es": "Haz clic derecho para hablar con Captain Tobias, justo al norte de Korasi. (opciones de chat: 2 No, gracias.)"
-      }
+        "en": "Right-click talk to Captain Tobias, just north of Korasi.",
+        "es": "Haz clic derecho para hablar con Captain Tobias, justo al norte de Korasi."
+      },
+      "chatOptions": [
+        "2 No, thank you."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Pest-y business",
       "text": {
-        "en": "Speak with Gerrant in the fishing shop. (opciones de chat: 1 I'm tracking an escaped animal.)",
-        "es": "Habla con Gerrant en la tienda de pesca. (opciones de chat: 1 Estoy siguiendo el rastro de un animal escapado.)"
-      }
+        "en": "Speak with Gerrant in the fishing shop.",
+        "es": "Habla con Gerrant en la tienda de pesca."
+      },
+      "chatOptions": [
+        "1 I'm tracking an escaped animal."
+      ]
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Pest-y business",
       "text": {
-        "en": "Or, if Heroes' Quest is complete (opciones de chat: 2 I'm tracking an escaped animal.)",
-        "es": "O, si Heroes' Quest está completada (opciones de chat: 2 Estoy siguiendo el rastro de un animal escapado.)"
-      }
+        "en": "Or, if Heroes' Quest is complete",
+        "es": "O, si Heroes' Quest está completada"
+      },
+      "chatOptions": [
+        "2 I'm tracking an escaped animal."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Pest-y business",
       "text": {
         "en": "Follow the path pictured right, searching the bushes, plants, and stones.",
         "es": "Sigue el camino mostrado a la derecha, registrando los arbustos, plantas y piedras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Pest-y business",
       "text": {
         "en": "Finally check the mound.",
         "es": "Finalmente, registra el montículo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Pest-y business",
       "text": {
-        "en": "Return to Captain Korasi at the docks. (opciones de chat: 2 See you there.)",
-        "es": "Vuelve con Captain Korasi en los muelles. (opciones de chat: 2 Nos vemos allí.)"
-      }
+        "en": "Return to Captain Korasi at the docks.",
+        "es": "Vuelve con Captain Korasi en los muelles."
+      },
+      "chatOptions": [
+        "2 See you there."
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Pest-y business",
       "text": {
-        "en": "Talk to the Bartender in Port Sarim's pub. (opciones de chat: 2 Bye then.)",
-        "es": "Habla con el Bartender en la taberna de Port Sarim. (opciones de chat: 2 Adiós entonces.)"
-      }
+        "en": "Talk to the Bartender in Port Sarim's pub.",
+        "es": "Habla con el Bartender en la taberna de Port Sarim."
+      },
+      "chatOptions": [
+        "2 Bye then."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Pest-y business",
       "text": {
         "en": "Search the piles of junk on the floor at the north-east corner for a key.",
         "es": "Registra los montones de basura en el suelo de la esquina noreste en busca de una llave."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Pest-y business",
       "text": {
         "en": "Go down the trapdoor in the north-west corner of the pub.",
         "es": "Baja por la trampilla en la esquina noroeste de la taberna."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Pest-y business",
       "text": {
         "en": "Inspect the suspicious-looking wall on the north side wall.",
         "es": "Inspecciona la pared sospechosa en el muro del lado norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Pest-y business",
       "text": {
         "en": "Open the door to the room south.",
         "es": "Abre la puerta de la sala al sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Pest-y business",
       "text": {
         "en": "Complete the puzzle (follow the steps below, or alternatively, use the image on the right to position the barrels in order to push out the barrow along the red-line path):",
         "es": "Completa el puzle (sigue los pasos indicados abajo, o bien, usa la imagen de la derecha para colocar los barriles y así poder empujar la carretilla siguiendo el camino de la línea roja):"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "The Barrel Puzzle",
       "text": {
         "en": "After completing the puzzle, leave the room.",
         "es": "Después de completar el puzle, sal de la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "The Barrel Puzzle",
       "text": {
-        "en": "Speak with the Bartender again. (opciones de chat: Any) At some circumstances you may still be stuck inside the room even after the empty barrel is out, you may hop worlds and climb down the trapdoor again.",
+        "en": "Speak with the Bartender again. At some circumstances you may still be stuck inside the room even after the empty barrel is out, you may hop worlds and climb down the trapdoor again.",
         "es": "Habla de nuevo con el Bartender. (opciones de chat: Cualquiera) En algunas ocasiones puede que sigas atrapado dentro de la sala incluso después de sacar el barril vacío; puedes cambiar de mundo y bajar de nuevo por la trampilla."
-      }
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Getting hotter...",
       "text": {
-        "en": "Speak to Korasi on the dock. (opciones de chat: 3 To Musa Point, then.)",
-        "es": "Habla con Korasi en el muelle. (opciones de chat: 3 A Musa Point, entonces.)"
-      }
+        "en": "Speak to Korasi on the dock.",
+        "es": "Habla con Korasi en el muelle."
+      },
+      "chatOptions": [
+        "3 To Musa Point, then."
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Getting hotter...",
       "text": {
         "en": "Travel to Musa Point by paying Captain Tobias, just north of Korasi.",
         "es": "Viaja a Musa Point pagando a Captain Tobias, justo al norte de Korasi."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Getting hotter...",
       "text": {
-        "en": "Speak with Zembo in the pub. (opciones de chat: 3 Seen anything odd lately?)",
-        "es": "Habla con Zembo en la taberna. (opciones de chat: 3 ¿Has visto algo raro últimamente?)"
-      }
+        "en": "Speak with Zembo in the pub.",
+        "es": "Habla con Zembo en la taberna."
+      },
+      "chatOptions": [
+        "3 Seen anything odd lately?"
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Getting hotter...",
       "text": {
         "en": "Speak with Shopkeeper Kofi in the general store directly west of the pub.",
         "es": "Habla con Shopkeeper Kofi en la tienda general justo al oeste de la taberna."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Getting hotter...",
       "text": {
         "en": "Take-from the table in the south-west corner of the shop.",
         "es": "Coge algo de la mesa en la esquina suroeste de la tienda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Getting hotter...",
       "text": {
         "en": "Use the chisel on the plank to make a jointed plank and a jointed log.",
         "es": "Usa el cincel en la tabla para hacer una tabla ensamblada y un tronco ensamblado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Getting hotter...",
       "text": {
         "en": "Use the jointed plank on the jointed log to make a joist.",
         "es": "Usa la tabla ensamblada en el tronco ensamblado para hacer una vigueta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Getting hotter...",
       "text": {
         "en": "Use the joist on the Shop wall on the north end of the shop.",
         "es": "Usa la vigueta en la pared de la tienda en el extremo norte de la tienda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Getting hotter...",
       "text": {
         "en": "Talk to Kofi for a cutscene.",
         "es": "Habla con Kofi para una cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Getting hotter...",
       "text": {
         "en": "Follow the trail just like the one at Port Sarim.",
         "es": "Sigue el rastro igual que el de Port Sarim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Getting hotter...",
       "text": {
         "en": "After Korasi and Jessika appear, search the mound again to get wood shards.",
         "es": "Después de que aparezcan Korasi y Jessika, registra de nuevo el montículo para obtener astillas de madera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Getting hotter...",
       "text": {
-        "en": "Finish dialogue with them. (opciones de chat: 3 Onwards, then.)",
-        "es": "Termina el diálogo con ellas. (opciones de chat: 3 Adelante, entonces.)"
-      }
+        "en": "Finish dialogue with them.",
+        "es": "Termina el diálogo con ellas."
+      },
+      "chatOptions": [
+        "3 Onwards, then."
+      ]
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Getting hotter...",
       "text": {
         "en": "With at least 16 free inventory spaces, head to Rimmington.",
         "es": "Con al menos 16 espacios libres en el inventario, dirígete a Rimmington."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Getting hotter...",
       "text": {
-        "en": "Ask Rommik in the crafting shop about the waxwood. (opciones de chat: 1 I need to ask you about waxwood.)",
-        "es": "Pregúntale a Rommik en la tienda de artesanía sobre la waxwood. (opciones de chat: 1 Necesito preguntarte sobre la waxwood.)"
-      }
+        "en": "Ask Rommik in the crafting shop about the waxwood.",
+        "es": "Pregúntale a Rommik en la tienda de artesanía sobre la waxwood."
+      },
+      "chatOptions": [
+        "1 I need to ask you about waxwood."
+      ]
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Gooey analysis",
       "text": {
         "en": "Go to westernmost building in Rimmington (Chemists's House, long with a green Taskmaster asterisk in it).",
         "es": "Ve al edificio más al oeste de Rimmington (Chemists's House, alargado y con un asterisco verde de Taskmaster)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Gooey analysis",
       "text": {
-        "en": "Inside, on the Eastern wall, talk to Korasi (opciones de chat: 3 I'll see about this experiment, then.).",
+        "en": "Inside, on the Eastern wall, talk to Korasi .",
         "es": "Dentro, en la pared este, habla con Korasi (opciones de chat: 3 Me encargaré de este experimento, entonces.)."
-      }
+      },
+      "chatOptions": [
+        "3 I'll see about this experiment, then."
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Gooey analysis",
       "text": {
-        "en": "Talk to the Chemist. (opciones de chat: 3 Ask about A Void Dance. • 1 Analyse the sample.)",
-        "es": "Habla con el Chemist. (opciones de chat: 3 Preguntar sobre A Void Dance. • 1 Analizar la muestra.)"
-      }
+        "en": "Talk to the Chemist.",
+        "es": "Habla con el Chemist."
+      },
+      "chatOptions": [
+        "3 Ask about A Void Dance.",
+        "1 Analyse the sample."
+      ]
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Gooey analysis",
       "text": {
-        "en": "Analyse the sample by keeping the power and heat at an OK level and keeping the current ingredient as the desired one. (opciones de chat: 2 Analyse the sample.)",
-        "es": "Analiza la muestra manteniendo la potencia y el calor en un nivel adecuado y manteniendo el ingrediente actual como el deseado. (opciones de chat: 2 Analizar la muestra.)"
-      }
+        "en": "Analyse the sample by keeping the power and heat at an OK level and keeping the current ingredient as the desired one.",
+        "es": "Analiza la muestra manteniendo la potencia y el calor en un nivel adecuado y manteniendo el ingrediente actual como el deseado."
+      },
+      "chatOptions": [
+        "2 Analyse the sample."
+      ]
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Gooey analysis",
       "text": {
         "en": "When you start to analyse the sample, the in-game table in the top-right shows the combination for how to make each sample. Put the correct secondary sample in the hopper to get the desired sample (top left table).",
         "es": "Cuando empieces a analizar la muestra, la tabla del juego en la parte superior derecha muestra la combinación para elaborar cada muestra. Coloca la muestra secundaria correcta en la tolva para obtener la muestra deseada (tabla superior izquierda)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Gooey analysis",
       "text": {
         "en": "If you are struggling refer to the full guide for more details.",
         "es": "Si tienes dificultades, consulta la guía completa para más detalles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Predicament",
       "text": {
-        "en": "Accept Jessika's offer to teleport you to Falador Park. (opciones de chat: 1 Go with Jessika.)",
-        "es": "Acepta la oferta de Jessika de teletransportarte a Falador Park. (opciones de chat: 1 Ir con Jessika.)"
-      }
+        "en": "Accept Jessika's offer to teleport you to Falador Park.",
+        "es": "Acepta la oferta de Jessika de teletransportarte a Falador Park."
+      },
+      "chatOptions": [
+        "1 Go with Jessika."
+      ]
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Predicament",
       "text": {
         "en": "Talk to Korasi or Jessika.",
         "es": "Habla con Korasi o Jessika."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Predicament",
       "text": {
-        "en": "South of the east Falador bank, talk to Ali Tist. (opciones de chat: 2 Yes, I would.)",
-        "es": "Al sur del banco este de Falador, habla con Ali Tist. (opciones de chat: 2 Sí, me gustaría.)"
-      }
+        "en": "South of the east Falador bank, talk to Ali Tist.",
+        "es": "Al sur del banco este de Falador, habla con Ali Tist."
+      },
+      "chatOptions": [
+        "2 Yes, I would."
+      ]
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Predicament",
       "text": {
         "en": "Attempt-puzzle with the puzzle box.",
         "es": "Intenta resolver el puzle con la caja de puzle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Predicament",
       "text": {
         "en": "Return to Korasi or Jessika.",
         "es": "Vuelve con Korasi o Jessika."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Predicament",
       "text": {
-        "en": "Propose a solution to open the box. (opciones de chat: Any • Any • Any)",
-        "es": "Propón una solución para abrir la caja. (opciones de chat: Cualquiera • Cualquiera • Cualquiera)"
-      }
+        "en": "Propose a solution to open the box.",
+        "es": "Propón una solución para abrir la caja."
+      },
+      "chatOptions": [
+        "Any",
+        "Any",
+        "Any"
+      ]
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Predicament",
       "text": {
         "en": "Talk to Ali Tist and then to Korasi or Jessika.",
         "es": "Habla con Ali Tist y luego con Korasi o Jessika."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Predicament",
       "text": {
-        "en": "On the of the western tower of White Knights' Castle, talk to Sir Amik Varze. (opciones de chat: 2 Speak about the A Void Dance quest.)",
-        "es": "En la torre oeste del White Knights' Castle, habla con Sir Amik Varze. (opciones de chat: 2 Hablar sobre la misión A Void Dance.)"
-      }
+        "en": "On the of the western tower of White Knights' Castle, talk to Sir Amik Varze.",
+        "es": "En la torre oeste del White Knights' Castle, habla con Sir Amik Varze."
+      },
+      "chatOptions": [
+        "2 Speak about the A Void Dance quest."
+      ]
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Predicament",
       "text": {
-        "en": "With the search warrant he gives, go back and talk to Ali Tist. (opciones de chat: 1 I want to examine your stock.)",
-        "es": "Con la orden de registro que te da, vuelve y habla con Ali Tist. (opciones de chat: 1 Quiero examinar tu mercancía.)"
-      }
+        "en": "With the search warrant he gives, go back and talk to Ali Tist.",
+        "es": "Con la orden de registro que te da, vuelve y habla con Ali Tist."
+      },
+      "chatOptions": [
+        "1 I want to examine your stock."
+      ]
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Whodunnit?",
       "text": {
         "en": "Speak with Korasi or Jessika to get a commorb.",
         "es": "Habla con Korasi o Jessika para conseguir un commorb."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Whodunnit?",
       "text": {
         "en": "You can right click the clue scroll to dig.",
         "es": "Puedes hacer clic derecho en el pergamino de pista para cavar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Quick thinking",
       "text": {
         "en": "Try to enter the hatchway and then again to enter the hideout.",
         "es": "Intenta entrar por la escotilla y luego intenta de nuevo entrar en el escondite."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Quick thinking",
       "text": {
         "en": "Talk to Korasi or Jessika for a second cutscene.",
         "es": "Habla con Korasi o Jessika para una segunda cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Quick thinking",
       "text": {
         "en": "Talk to Korasi or Jessika again for a void drone 'bug'.",
         "es": "Habla de nuevo con Korasi o Jessika para conseguir un \"bicho\" dron del vacío."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Quick thinking",
       "text": {
         "en": "Investigate the low box near the door without being caught by the workers to place the drone.",
         "es": "Investiga la caja baja cerca de la puerta sin que te descubran los trabajadores para colocar el dron."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Quick thinking",
       "text": {
         "en": "Wait until some workers go by, a cutscene will play.",
         "es": "Espera hasta que pasen algunos trabajadores; se reproducirá una cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Quick thinking",
       "text": {
         "en": "Investigate the low box to retrieve the drone.",
         "es": "Investiga la caja baja para recuperar el dron."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Quick thinking",
       "text": {
         "en": "Talk to Jessika.",
         "es": "Habla con Jessika."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Quick thinking",
       "text": {
         "en": "Pick-pocket a worker walking south from the guarded door.",
         "es": "Haz un robo de bolsillo a un trabajador que camina hacia el sur desde la puerta vigilada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Quick thinking",
       "text": {
-        "en": "Knock on the guarded door. (opciones de chat: Any)",
-        "es": "Llama a la puerta vigilada. (opciones de chat: Cualquiera)"
-      }
+        "en": "Knock on the guarded door.",
+        "es": "Llama a la puerta vigilada."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Quick thinking",
       "text": {
         "en": "Talk to Korasi.",
         "es": "Habla con Korasi."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Quick thinking",
       "text": {
         "en": "Enter the next room then right-click murder any indentured worker.",
         "es": "Entra en la siguiente sala y luego haz clic derecho para asesinar a cualquier trabajador forzado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "The enemies in next room can drain your prayer points to heal themselves.",
         "es": "Los enemigos de la siguiente sala pueden drenar tus puntos de oración para curarse a sí mismos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Enter the next door. Kill the Black Knight Guardian on your side.",
         "es": "Entra por la siguiente puerta. Mata al Black Knight Guardian de tu lado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Talk to the pest cage (void leech). (opciones de chat: 4 Enough of this. • Any)",
-        "es": "Habla con la jaula de plagas (void leech). (opciones de chat: 4 Basta de esto. • Cualquiera)"
-      }
+        "en": "Talk to the pest cage (void leech).",
+        "es": "Habla con la jaula de plagas (void leech)."
+      },
+      "chatOptions": [
+        "4 Enough of this.",
+        "Any"
+      ]
     },
     {
       "index": 62,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Accept the teleport to the Void Knights' Outpost. (opciones de chat: 1 Go with Korasi.)",
-        "es": "Acepta el teletransporte al Void Knights' Outpost. (opciones de chat: 1 Ir con Korasi.)"
-      }
+        "en": "Accept the teleport to the Void Knights' Outpost.",
+        "es": "Acepta el teletransporte al Void Knights' Outpost."
+      },
+      "chatOptions": [
+        "1 Go with Korasi."
+      ]
     },
     {
       "index": 63,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Commodore Tyr for a cutscene.",
         "es": "Habla con Commodore Tyr para una cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
         "en": "If you cancel the cutscene, you may need to lobby.",
         "es": "Si cancelas la cinemática, puede que necesites volver al lobby."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

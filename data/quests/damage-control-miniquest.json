@@ -2,7 +2,8 @@
   "id": "damage-control-miniquest",
   "title": "Damage Control (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:01:12.918Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:51.708Z",
   "icon": "https://runescape.wiki/images/thumb/Damage_Control_%28miniquest%29_icon.png/50px-Damage_Control_%28miniquest%29_icon.png",
   "series": "Tales of the Arc",
   "age": "6",
@@ -80,63 +81,85 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Damage_Control_%28miniquest%29_reward.png?3091e",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Travel to Waiko.",
         "es": "Viaja a Waiko."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Bosun Higgs who is next to your ship (if you have just completed the Harbinger miniquest you may need to relog for the chat option to show up). (opciones de chat: 1 Damage Control miniquest. • Accept)",
-        "es": "Habla con Bosun Higgs, que está junto a tu barco (si acabas de completar la miniaventura Harbinger, puede que necesites reconectarte para que aparezca la opción de diálogo). (opciones de chat: 1 Miniaventura Damage Control. • Aceptar)"
-      }
+        "en": "Talk to Bosun Higgs who is next to your ship (if you have just completed the Harbinger miniquest you may need to relog for the chat option to show up).",
+        "es": "Habla con Bosun Higgs, que está junto a tu barco (si acabas de completar la miniaventura Harbinger, puede que necesites reconectarte para que aparezca la opción de diálogo)."
+      },
+      "chatOptions": [
+        "1 Damage Control miniquest.",
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Talk to Rosie in the Waiko marketplace for a ship repair kit in exchange for 2,500 chimes.",
         "es": "Habla con Rosie en el mercado de Waiko para conseguir un kit de reparación de barco a cambio de 2500 chimes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Bosun Higgs to set sail. (opciones de chat: 1 Damage Control miniquest.)",
-        "es": "Habla con Bosun Higgs para zarpar. (opciones de chat: 1 Miniaventura Damage Control.)"
-      }
+        "en": "Talk to Bosun Higgs to set sail.",
+        "es": "Habla con Bosun Higgs para zarpar."
+      },
+      "chatOptions": [
+        "1 Damage Control miniquest."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Cannon parts",
       "text": {
         "en": "Collect the 6 cannon parts at the locations shown, while avoiding the malignant entity.",
         "es": "Recoge las 6 piezas de cañón en las ubicaciones indicadas, evitando a la entidad maligna."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Cannon parts",
       "text": {
         "en": "Take the Goshima note hanging on the left wooden pillar next to the gate entrance.",
         "es": "Coge la nota de Goshima que cuelga del pilar de madera de la izquierda, junto a la entrada de la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Cannon parts",
       "text": {
-        "en": "Talk to Bosun Higgs. (opciones de chat: 1 Damage Control miniquest.)",
-        "es": "Habla con Bosun Higgs. (opciones de chat: 1 Miniaventura Damage Control.)"
-      }
+        "en": "Talk to Bosun Higgs.",
+        "es": "Habla con Bosun Higgs."
+      },
+      "chatOptions": [
+        "1 Damage Control miniquest."
+      ]
     }
   ]
 }

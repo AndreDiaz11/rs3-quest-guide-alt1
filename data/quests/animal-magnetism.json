@@ -2,7 +2,8 @@
   "id": "animal-magnetism",
   "title": "Animal Magnetism",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:48:00.511Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:35.722Z",
   "icon": "https://runescape.wiki/images/Animal_Magnetism_icon.png",
   "series": null,
   "age": "5",
@@ -162,295 +163,395 @@
       "image": "https://runescape.wiki/images/thumb/Ava%27s_Odds_and_Ends.png/100px-Ava%27s_Odds_and_Ends.png?6afe6"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Animal_Magnetism_reward.png?24141",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Ava inside the western room of Draynor Manor. (opciones de chat: 1 I would be happy to make your home a better place. • Accept)",
-        "es": "Habla con Ava en la habitación del oeste de Draynor Manor. (opciones de chat: 1 Estaría encantado de mejorar tu hogar. • Aceptar)"
-      }
+        "en": "Talk to Ava inside the western room of Draynor Manor.",
+        "es": "Habla con Ava en la habitación del oeste de Draynor Manor."
+      },
+      "chatOptions": [
+        "1 I would be happy to make your home a better place.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "To get to her room, a candle sconce (North of the entrance) must be pulled.",
         "es": "Para llegar a su habitación, debes tirar de un candelabro de pared (al norte de la entrada)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Undead poultry",
       "text": {
-        "en": "Talk to Alice at the farm west of the Ectofuntus. (opciones de chat: 4 I'm here about a quest.)",
-        "es": "Habla con Alice en la granja al oeste del Ectofuntus. (opciones de chat: 4 Vengo por una misión.)"
-      }
+        "en": "Talk to Alice at the farm west of the Ectofuntus.",
+        "es": "Habla con Alice en la granja al oeste del Ectofuntus."
+      },
+      "chatOptions": [
+        "4 I'm here about a quest."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Undead poultry",
       "text": {
         "en": "Equip your ghostspeak amulet.",
         "es": "Equípate el ghostspeak amulet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Undead poultry",
       "text": {
         "en": "Talk to Alice's husband.",
         "es": "Habla con el marido de Alice."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Undead poultry",
       "text": {
-        "en": "Talk to Alice again. (opciones de chat: 4 I'm here about a quest.)",
-        "es": "Habla de nuevo con Alice. (opciones de chat: 4 Vengo por una misión.)"
-      }
+        "en": "Talk to Alice again.",
+        "es": "Habla de nuevo con Alice."
+      },
+      "chatOptions": [
+        "4 I'm here about a quest."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Undead poultry",
       "text": {
         "en": "Talk to Alice's husband.",
         "es": "Habla con el marido de Alice."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Undead poultry",
       "text": {
-        "en": "Talk to Alice again. (opciones de chat: 4 I'm here about a quest.)",
-        "es": "Habla de nuevo con Alice. (opciones de chat: 4 Vengo por una misión.)"
-      }
+        "en": "Talk to Alice again.",
+        "es": "Habla de nuevo con Alice."
+      },
+      "chatOptions": [
+        "4 I'm here about a quest."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Undead poultry",
       "text": {
         "en": "Talk to Alice's husband.",
         "es": "Habla con el marido de Alice."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Undead poultry",
       "text": {
-        "en": "Talk to Alice again. (opciones de chat: 4 I'm here about a quest.)",
-        "es": "Habla de nuevo con Alice. (opciones de chat: 4 Vengo por una misión.)"
-      }
+        "en": "Talk to Alice again.",
+        "es": "Habla de nuevo con Alice."
+      },
+      "chatOptions": [
+        "4 I'm here about a quest."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Undead poultry",
       "text": {
         "en": "Head to Netty's house east of the Slayer Tower.",
         "es": "Dirígete a la casa de Netty, al este de la Slayer Tower."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Undead poultry",
       "text": {
         "en": "If Vessel of the Harbinger is completed, Netty will be at the Last Call in the City of Um.",
         "es": "Si has completado Vessel of the Harbinger, Netty estará en el Last Call, en City of Um."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Undead poultry",
       "text": {
-        "en": "Unequip the ghostspeak amulet and talk to Netty. (opciones de chat: 2 I'm here about the farmers east of here.)",
-        "es": "Quítate el ghostspeak amulet y habla con Netty. (opciones de chat: 2 Vengo por los granjeros que viven al este de aquí.)"
-      }
+        "en": "Unequip the ghostspeak amulet and talk to Netty.",
+        "es": "Quítate el ghostspeak amulet y habla con Netty."
+      },
+      "chatOptions": [
+        "2 I'm here about the farmers east of here."
+      ]
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Undead poultry",
       "text": {
-        "en": "(opciones de chat: 1 Talk about 'Animal Magnetism.') if at the Last Call.",
+        "en": "if at the Last Call.",
         "es": "(opciones de chat: 1 Habla sobre 'Animal Magnetism'.) si está en el Last Call."
-      }
+      },
+      "chatOptions": [
+        "1 Talk about 'Animal Magnetism.'"
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Undead poultry",
       "text": {
-        "en": "Talk to Netty again to receive the altered ghostspeak amulet. (opciones de chat: 1 'Animal Magnetism'.)",
-        "es": "Habla de nuevo con Netty para recibir el ghostspeak amulet modificado. (opciones de chat: 1 'Animal Magnetism'.)"
-      }
+        "en": "Talk to Netty again to receive the altered ghostspeak amulet.",
+        "es": "Habla de nuevo con Netty para recibir el ghostspeak amulet modificado."
+      },
+      "chatOptions": [
+        "1 'Animal Magnetism'."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Undead poultry",
       "text": {
-        "en": "Talk to Alice's husband to give him the altered ghostspeak amulet. (opciones de chat: 1 Okay, you need it more than I do, I suppose.)",
-        "es": "Habla con el marido de Alice para darle el ghostspeak amulet modificado. (opciones de chat: 1 Está bien, supongo que tú lo necesitas más que yo.)"
-      }
+        "en": "Talk to Alice's husband to give him the altered ghostspeak amulet.",
+        "es": "Habla con el marido de Alice para darle el ghostspeak amulet modificado."
+      },
+      "chatOptions": [
+        "1 Okay, you need it more than I do, I suppose."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Undead poultry",
       "text": {
         "en": "Talk to him again.",
         "es": "Habla con él de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Undead poultry",
       "text": {
-        "en": "After the cutscene, buy two undead chickens from Alice's husband for 20 ecto-tokens. (opciones de chat: 1 Could I buy those chickens now, then? • 2 Could I buy 2 chickens?)",
-        "es": "Después de la escena, compra dos undead chickens al marido de Alice por 20 ecto-tokens. (opciones de chat: 1 ¿Podría comprar esos pollos ahora? • 2 ¿Podría comprar 2 pollos?)"
-      }
+        "en": "After the cutscene, buy two undead chickens from Alice's husband for 20 ecto-tokens.",
+        "es": "Después de la escena, compra dos undead chickens al marido de Alice por 20 ecto-tokens."
+      },
+      "chatOptions": [
+        "1 Could I buy those chickens now, then?",
+        "2 Could I buy 2 chickens?"
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Making a magnet",
       "text": {
         "en": "Talk to Ava in Draynor Manor.",
         "es": "Habla con Ava en Draynor Manor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Making a magnet",
       "text": {
         "en": "Talk to Helda who is also on the western side of the manor and give her five iron bars.",
         "es": "Habla con Helda, que también se encuentra en la parte oeste de la mansión, y dale cinco iron bars."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Making a magnet",
       "text": {
         "en": "Talk to Helda again to receive the selected iron.",
         "es": "Habla de nuevo con Helda para recibir el selected iron."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Making a magnet",
       "text": {
         "en": "Take the selected iron to the mine north-east of Rimmington (using the Port Sarim lodestone is recommended).",
         "es": "Lleva el selected iron a la mina al noreste de Rimmington (se recomienda usar la lodestone de Port Sarim)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Making a magnet",
       "text": {
         "en": "Face north and left click the selected iron to hammer it and make bar magnet.",
         "es": "Mira hacia el norte y haz clic izquierdo sobre el selected iron para martillearlo y crear un bar magnet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Making a magnet",
       "text": {
         "en": "Talk to Ava.",
         "es": "Habla con Ava."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Blessed hatchet",
       "text": {
         "en": "Attempt to cut an undead tree with a mithril hatchet. Undead trees can be found beside the path that leads you to the entrance.",
         "es": "Intenta talar un undead tree con un mithril hatchet. Los undead trees se encuentran junto al camino que lleva a la entrada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Blessed hatchet",
       "text": {
         "en": "Talk to Ava.",
         "es": "Habla con Ava."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Blessed hatchet",
       "text": {
-        "en": "Go to Burthorpe and talk to Turael (or Spria). (opciones de chat: 3 I'm here about a quest.)",
-        "es": "Ve a Burthorpe y habla con Turael (o Spria). (opciones de chat: 3 Vengo por una misión.)"
-      }
+        "en": "Go to Burthorpe and talk to Turael (or Spria).",
+        "es": "Ve a Burthorpe y habla con Turael (o Spria)."
+      },
+      "chatOptions": [
+        "3 I'm here about a quest."
+      ]
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Blessed hatchet",
       "text": {
-        "en": "Give them a mithril hatchet and holy symbol. (opciones de chat: 3 Hello, I'm here about those trees again. • 1 I'd love one, thanks.)",
-        "es": "Dale un mithril hatchet y un holy symbol. (opciones de chat: 3 Hola, vengo de nuevo por esos árboles. • 1 Me encantaría uno, gracias.)"
-      }
+        "en": "Give them a mithril hatchet and holy symbol.",
+        "es": "Dale un mithril hatchet y un holy symbol."
+      },
+      "chatOptions": [
+        "3 Hello, I'm here about those trees again.",
+        "1 I'd love one, thanks."
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Blessed hatchet",
       "text": {
         "en": "Attempt to cut another undead tree with the blessed hatchet until you receive some undead twigs.",
         "es": "Intenta talar otro undead tree con el blessed hatchet hasta que recibas algunas undead twigs."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Blessed hatchet",
       "text": {
         "en": "Talk to Ava.",
         "es": "Habla con Ava."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Ava to help her translate the note.",
         "es": "Habla con Ava para ayudarla a traducir la nota."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Translate Ava's research notes. The solution is in the image to the right.",
         "es": "Traduce las notas de investigación de Ava. La solución se encuentra en la imagen de la derecha."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Ava.",
         "es": "Habla con Ava."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Use the pattern with a piece of hard leather and polished buttons to create a container.",
         "es": "Usa el patrón con un trozo de hard leather y polished buttons para crear un contenedor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Ava.",
         "es": "Habla con Ava."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

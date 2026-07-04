@@ -2,7 +2,8 @@
   "id": "the-fremennik-trials",
   "title": "The Fremennik Trials",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T01:53:52.259Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:19.204Z",
   "icon": "https://runescape.wiki/images/The_Fremennik_Trials_icon.png",
   "series": "Fremennik",
   "age": "5",
@@ -245,759 +246,1036 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Fremennik_Trials_reward.png?35c17",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "The trials",
       "text": {
-        "en": "Talk to Brundt the Chieftain in the longhall in Rellekka. (opciones de chat: 3 Do you have any quests? • Accept • 1 I want to become a Fremennik!)",
-        "es": "Habla con Brundt the Chieftain en el salón de reuniones de Rellekka. (opciones de chat: 3 ¿Tienes alguna misión? • Aceptar • 1 ¡Quiero convertirme en un Fremennik!)"
-      }
+        "en": "Talk to Brundt the Chieftain in the longhall in Rellekka.",
+        "es": "Habla con Brundt the Chieftain en el salón de reuniones de Rellekka."
+      },
+      "chatOptions": [
+        "3 Do you have any quests?",
+        "Accept",
+        "1 I want to become a Fremennik!"
+      ]
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "The trials",
       "text": {
-        "en": "If Mountain Daughter has been completed but you never talked to Brundt the Chieftain after its completion: (opciones de chat: 2 Talk about something else • 3 Do you have any quests? • Accept • 1 I want to become a Fremennik!)",
-        "es": "Si has completado Mountain Daughter pero nunca has hablado con Brundt the Chieftain tras completarla: (opciones de chat: 2 Hablar sobre otra cosa • 3 ¿Tienes alguna misión? • Aceptar • 1 ¡Quiero convertirme en un Fremennik!)"
-      }
+        "en": "If Mountain Daughter has been completed but you never talked to Brundt the Chieftain after its completion:",
+        "es": "Si has completado Mountain Daughter pero nunca has hablado con Brundt the Chieftain tras completarla:"
+      },
+      "chatOptions": [
+        "2 Talk about something else",
+        "3 Do you have any quests?",
+        "Accept",
+        "1 I want to become a Fremennik!"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Manni the Reveller",
       "text": {
-        "en": "Talk to Manni the Reveller in the longhall next to Brundt. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Manni the Reveller en el salón de reuniones, junto a Brundt. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to Manni the Reveller in the longhall next to Brundt.",
+        "es": "Habla con Manni the Reveller en el salón de reuniones, junto a Brundt."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Manni the Reveller",
       "text": {
         "en": "Pick up a Keg of beer and beer from one of the tables.",
         "es": "Coge un Keg of beer y una cerveza de una de las mesas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Manni the Reveller",
       "text": {
-        "en": "Talk to the Poison Salesman at Forester's Arms in Seers' Village. (opciones de chat: 2 Talk about the Fremennik Trials. • 1 Yes.)",
-        "es": "Habla con el Poison Salesman en el Forester's Arms en Seers' Village. (opciones de chat: 2 Hablar sobre los Fremennik Trials. • 1 Sí.)"
-      }
+        "en": "Talk to the Poison Salesman at Forester's Arms in Seers' Village.",
+        "es": "Habla con el Poison Salesman en el Forester's Arms en Seers' Village."
+      },
+      "chatOptions": [
+        "2 Talk about the Fremennik Trials.",
+        "1 Yes."
+      ]
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Manni the Reveller",
       "text": {
         "en": "Buy a beer from the bartender nearby if you need one.",
         "es": "Compra una cerveza al tabernero cercano si necesitas una."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Manni the Reveller",
       "text": {
         "en": "Use beer on council workman at the bridge south of Rellekka.",
         "es": "Usa la cerveza en el council workman del puente al sur de Rellekka."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Manni the Reveller",
       "text": {
         "en": "Light the strange object and put-inside pipe on the outside eastern wall of the Rellekka longhall.",
         "es": "Enciende el objeto extraño e introduce la pipa en la pared exterior este del salón de reuniones de Rellekka."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Manni the Reveller",
       "text": {
         "en": "Enter the longhall. Use low alcohol keg on the keg of beer in the backpack.",
         "es": "Entra en el salón de reuniones. Usa el low alcohol keg en el keg of beer que tienes en la mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Manni the Reveller",
       "text": {
-        "en": "Challenge Manni. (opciones de chat: 1 Yes.)",
-        "es": "Desafía a Manni. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Challenge Manni.",
+        "es": "Desafía a Manni."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Olaf the Bard",
       "text": {
-        "en": "Speak to Olaf the Bard, who is located east of the longhall. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Olaf the Bard, que se encuentra al este del salón de reuniones. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Speak to Olaf the Bard, who is located east of the longhall.",
+        "es": "Habla con Olaf the Bard, que se encuentra al este del salón de reuniones."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Olaf the Bard",
       "text": {
         "en": "Travel south-east to the swaying tree, north-west of the Golden Apple Tree on the world map, surrounded by rabbits and doogle leaves.",
         "es": "Viaja hacia el sureste hasta el árbol oscilante, al noroeste del Golden Apple Tree en el mapa del mundo, rodeado de conejos y hojas de doogle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Olaf the Bard",
       "text": {
         "en": "Chop off a branch and craft it into an unstrung lyre.",
         "es": "Corta una rama y fabrica con ella una lira sin cuerdas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Olaf the Bard",
       "text": {
-        "en": "Head south-east and talk to Lalli. (opciones de chat: 1 Other human?)",
-        "es": "Dirígete al sureste y habla con Lalli. (opciones de chat: 1 ¿Otro humano?)"
-      }
+        "en": "Head south-east and talk to Lalli.",
+        "es": "Dirígete al sureste y habla con Lalli."
+      },
+      "chatOptions": [
+        "1 Other human?"
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Olaf the Bard",
       "text": {
         "en": "Talk to Askeladden south of the longhall.",
         "es": "Habla con Askeladden al sur del salón de reuniones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Olaf the Bard",
       "text": {
         "en": "Grab a raw potato, an onion, and cabbage from the farm in south-east Rellekka. It's recommended to pick an extra onion and cabbage in case you accidentally eat them.",
         "es": "Recoge una patata cruda, una cebolla y una col de la granja al sureste de Rellekka. Se recomienda coger una cebolla y una col adicionales por si te las comes accidentalmente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Olaf the Bard",
       "text": {
         "en": "\"Use\" the potato, onion, cabbage, and pet rock on Lalli's Stew.",
         "es": "\"Usa\" la patata, la cebolla, la col y la piedra mascota en el Lalli's Stew."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Olaf the Bard",
       "text": {
         "en": "Talk to Lalli to obtain a golden fleece.",
         "es": "Habla con Lalli para obtener un golden fleece."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Olaf the Bard",
       "text": {
         "en": "Use the drop trick to obtain another if you plan on completing Kili's Knowledge VII.",
         "es": "Usa el truco de soltar objetos (drop trick) para obtener otro si tienes planeado completar Kili's Knowledge VII."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Olaf the Bard",
       "text": {
         "en": "\"Use\" the golden fleece on a spinning wheel to make golden wool. There's one in south-west Rellekka.",
         "es": "\"Usa\" el golden fleece en una rueca para hacer lana dorada. Hay una en el suroeste de Rellekka."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Olaf the Bard",
       "text": {
         "en": "Use the wool on the unstrung lyre.",
         "es": "Usa la lana en la lira sin cuerdas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Olaf the Bard",
       "text": {
         "en": "Use your raw shark, manta ray or sea turtle on the strange altar south-west of Rellekka.",
         "es": "Usa tu tiburón crudo, manta ray o tortuga marina en el altar extraño al suroeste de Rellekka."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Olaf the Bard",
       "text": {
         "en": "Enter the backstage of the longhall through the north-east door. Play the enchanted lyre in front of the crowd. You will receive Olaf's vote.",
         "es": "Entra en la parte trasera del escenario del salón de reuniones por la puerta noreste. Toca la lira encantada frente a la multitud. Recibirás el voto de Olaf."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Sigli the Huntsman",
       "text": {
-        "en": "Talk to Sigli the Huntsman near Rellekka's southern entrance. (opciones de chat: 1 What's a Draugen? • 1 Yes.)",
-        "es": "Habla con Sigli the Huntsman cerca de la entrada sur de Rellekka. (opciones de chat: 1 ¿Qué es un Draugen? • 1 Sí.)"
-      }
+        "en": "Talk to Sigli the Huntsman near Rellekka's southern entrance.",
+        "es": "Habla con Sigli the Huntsman cerca de la entrada sur de Rellekka."
+      },
+      "chatOptions": [
+        "1 What's a Draugen?",
+        "1 Yes."
+      ]
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Sigli the Huntsman",
       "text": {
         "en": "Use the received hunters' talisman to locate and kill The Draugen. The Draugen is not visible until you get close to his location. Look for a tiny grey butterfly. There are only a few of these, one of which is the Draugen. Once in melee distance of the butterfly, use the 'Locate' function on the talisman once again, The Draugen will appear.",
         "es": "Usa el talismán de cazadores recibido para localizar y matar a The Draugen. The Draugen no es visible hasta que te acercas a su ubicación. Busca una diminuta mariposa gris. Solo hay unas pocas de estas, una de las cuales es el Draugen. Una vez estés a distancia de melé de la mariposa, usa de nuevo la función \"Localizar\" del talismán y The Draugen aparecerá."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Sigli the Huntsman",
       "text": {
         "en": "Return to Sigli to receive his vote.",
         "es": "Vuelve con Sigli para recibir su voto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Talk to Sigmund The Merchant in the marketplace. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Sigmund The Merchant en el mercado. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to Sigmund The Merchant in the marketplace.",
+        "es": "Habla con Sigmund The Merchant en el mercado."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Talk to the Sailor on the middle dock. Right-click and select Talk, as Travel is the default option (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Habla con el Sailor en el muelle central. Haz clic derecho y selecciona Hablar, ya que Viajar es la opción por defecto (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Talk to the Sailor on the middle dock. Right-click and select Talk, as Travel is the default option",
+        "es": "Habla con el Sailor en el muelle central. Haz clic derecho y selecciona Hablar, ya que Viajar es la opción por defecto"
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Talk to Olaf the Bard, east of the longhall. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Habla con Olaf the Bard, al este del salón de reuniones. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Talk to Olaf the Bard, east of the longhall.",
+        "es": "Habla con Olaf the Bard, al este del salón de reuniones."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Talk to Yrsa in the clothing store, just west of the marketplace. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Habla con Yrsa en la tienda de ropa, justo al oeste del mercado. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Talk to Yrsa in the clothing store, just west of the marketplace.",
+        "es": "Habla con Yrsa en la tienda de ropa, justo al oeste del mercado."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Talk to Brundt the Chieftain in the longhall. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Habla con Brundt the Chieftain en el salón de reuniones. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Talk to Brundt the Chieftain in the longhall.",
+        "es": "Habla con Brundt the Chieftain en el salón de reuniones."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Talk to Sigli the Huntsman south of the longhall. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Habla con Sigli the Huntsman al sur del salón de reuniones. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Talk to Sigli the Huntsman south of the longhall.",
+        "es": "Habla con Sigli the Huntsman al sur del salón de reuniones."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Talk to Skulgrimen in the helmet store just north of the longhall. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Habla con Skulgrimen en la tienda de cascos justo al norte del salón de reuniones. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Talk to Skulgrimen in the helmet store just north of the longhall.",
+        "es": "Habla con Skulgrimen en la tienda de cascos justo al norte del salón de reuniones."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Talk to the Fisherman on the first dock west of the helmet store. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Habla con el Fisherman en el primer muelle al oeste de la tienda de cascos. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Talk to the Fisherman on the first dock west of the helmet store.",
+        "es": "Habla con el Fisherman en el primer muelle al oeste de la tienda de cascos."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Talk to Swensen the Navigator in a house south of the market. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Habla con Swensen the Navigator en una casa al sur del mercado. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Talk to Swensen the Navigator in a house south of the market.",
+        "es": "Habla con Swensen the Navigator en una casa al sur del mercado."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Talk to Peer the Seer west of Swensen. (opciones de chat: 1 Ask about the Merchant's Trial) or (opciones de chat: 2 The Fremennik Trials • 1 Ask about the Merchant's Trial) if you've completed the easy Fremennik achievements",
+        "en": "Talk to Peer the Seer west of Swensen. or if you've completed the easy Fremennik achievements",
         "es": "Habla con Peer the Seer al oeste de Swensen. (opciones de chat: 1 Preguntar sobre el Merchant's Trial) o (opciones de chat: 2 The Fremennik Trials • 1 Preguntar sobre el Merchant's Trial) si has completado los logros fáciles de Fremennik"
-      }
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial",
+        "2 The Fremennik Trials",
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Talk to Thorvald the Warrior in the helmet store. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Habla con Thorvald the Warrior en la tienda de cascos. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Talk to Thorvald the Warrior in the helmet store.",
+        "es": "Habla con Thorvald the Warrior en la tienda de cascos."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Talk to Manni the Reveller in the longhall. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Habla con Manni the Reveller en el salón de reuniones. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Talk to Manni the Reveller in the longhall.",
+        "es": "Habla con Manni the Reveller en el salón de reuniones."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Talk to Thora the Barkeep in the longhall. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Habla con Thora the Barkeep en el salón de reuniones. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Talk to Thora the Barkeep in the longhall.",
+        "es": "Habla con Thora the Barkeep en el salón de reuniones."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Talk to Askeladden outside the longhall. (opciones de chat: 1 Ask about the Merchant's Trial • 1 Yes)",
-        "es": "Habla con Askeladden fuera del salón de reuniones. (opciones de chat: 1 Preguntar sobre el Merchant's Trial • 1 Sí)"
-      }
+        "en": "Talk to Askeladden outside the longhall.",
+        "es": "Habla con Askeladden fuera del salón de reuniones."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial",
+        "1 Yes"
+      ]
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Give the promissory note to Thora in the longhall. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Entrega el pagaré (promissory note) a Thora en el salón de reuniones. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Give the promissory note to Thora in the longhall.",
+        "es": "Entrega el pagaré (promissory note) a Thora en el salón de reuniones."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Give the legendary cocktail to Manni in the longhall. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Entrega el cóctel legendario a Manni en el salón de reuniones. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Give the legendary cocktail to Manni in the longhall.",
+        "es": "Entrega el cóctel legendario a Manni en el salón de reuniones."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Give the champions token to Thorvald in the helmet store. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Entrega el champions token a Thorvald en la tienda de cascos. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Give the champions token to Thorvald in the helmet store.",
+        "es": "Entrega el champions token a Thorvald en la tienda de cascos."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Give the warriors' contract to Peer southwest of the market. (opciones de chat: 1 Ask about the Merchant's Trial) or (opciones de chat: 2 The Fremennik Trials • 1 Ask about the Merchant's Trial) if you've completed the easy Fremennik achievements",
+        "en": "Give the warriors' contract to Peer southwest of the market. or if you've completed the easy Fremennik achievements",
         "es": "Entrega el warriors' contract a Peer al suroeste del mercado. (opciones de chat: 1 Preguntar sobre el Merchant's Trial) o (opciones de chat: 2 The Fremennik Trials • 1 Preguntar sobre el Merchant's Trial) si has completado los logros fáciles de Fremennik"
-      }
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial",
+        "2 The Fremennik Trials",
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Give the weather forecast to Swensen east of Peer. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Entrega el pronóstico del tiempo a Swensen al este de Peer. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Give the weather forecast to Swensen east of Peer.",
+        "es": "Entrega el pronóstico del tiempo a Swensen al este de Peer."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Give the sea fishing map to the Fisherman on the first dock west of the helmet store. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Entrega el mapa de pesca marina al Fisherman en el primer muelle al oeste de la tienda de cascos. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Give the sea fishing map to the Fisherman on the first dock west of the helmet store.",
+        "es": "Entrega el mapa de pesca marina al Fisherman en el primer muelle al oeste de la tienda de cascos."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Give the unusual fish to Skulgrimen in the helmet store. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Entrega el pez inusual a Skulgrimen en la tienda de cascos. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Give the unusual fish to Skulgrimen in the helmet store.",
+        "es": "Entrega el pez inusual a Skulgrimen en la tienda de cascos."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Give the custom bowstring to Sigli south of the longhall. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Entrega la cuerda de arco personalizada a Sigli al sur del salón de reuniones. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Give the custom bowstring to Sigli south of the longhall.",
+        "es": "Entrega la cuerda de arco personalizada a Sigli al sur del salón de reuniones."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Give the tracking map to Brundt in the longhall. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Entrega el mapa de rastreo a Brundt en el salón de reuniones. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Give the tracking map to Brundt in the longhall.",
+        "es": "Entrega el mapa de rastreo a Brundt en el salón de reuniones."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Give the fiscal statement to Yrsa in the clothing store, just west of the marketplace. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Entrega el informe fiscal a Yrsa en la tienda de ropa, justo al oeste del mercado. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Give the fiscal statement to Yrsa in the clothing store, just west of the marketplace.",
+        "es": "Entrega el informe fiscal a Yrsa en la tienda de ropa, justo al oeste del mercado."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Give the sturdy boots to Olaf east of the longhall. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Entrega las botas resistentes a Olaf al este del salón de reuniones. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Give the sturdy boots to Olaf east of the longhall.",
+        "es": "Entrega las botas resistentes a Olaf al este del salón de reuniones."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
-        "en": "Give the Fremennik ballad to the Sailor on the middle dock. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Entrega la balada Fremennik al Sailor en el muelle central. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Give the Fremennik ballad to the Sailor on the middle dock.",
+        "es": "Entrega la balada Fremennik al Sailor en el muelle central."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Sigmund The Merchant",
       "text": {
         "en": "Give the exotic flower to Sigmund in the marketplace. You will receive his vote.",
         "es": "Entrega la flor exótica a Sigmund en el mercado. Recibirás su voto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Swensen the Navigator",
       "text": {
-        "en": "Talk to Swensen the Navigator in his house south-west of the longhall. (opciones de chat: 1 Ask about the Merchant's Trial)",
-        "es": "Habla con Swensen the Navigator en su casa al suroeste del salón de reuniones. (opciones de chat: 1 Preguntar sobre el Merchant's Trial)"
-      }
+        "en": "Talk to Swensen the Navigator in his house south-west of the longhall.",
+        "es": "Habla con Swensen the Navigator en su casa al suroeste del salón de reuniones."
+      },
+      "chatOptions": [
+        "1 Ask about the Merchant's Trial"
+      ]
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Swensen the Navigator",
       "text": {
         "en": "Go down the ladder in the small room in his house. In each room, there are four portals. Enter them in the correct order to receive his vote. The first letter of each direction spells out the name SWENSEN. The correct order is as follows:",
         "es": "Baja por la escalera en la pequeña habitación de su casa. En cada habitación hay cuatro portales. Entra en ellos en el orden correcto para recibir su voto. La primera letra de cada dirección forma el nombre SWENSEN. El orden correcto es el siguiente:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 1,
+      "section": "Swensen the Navigator",
       "text": {
         "en": "South",
         "es": "Sur"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 1,
+      "section": "Swensen the Navigator",
       "text": {
         "en": "West",
         "es": "Oeste"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 1,
+      "section": "Swensen the Navigator",
       "text": {
         "en": "East",
         "es": "Este"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 1,
+      "section": "Swensen the Navigator",
       "text": {
         "en": "North",
         "es": "Norte"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 1,
+      "section": "Swensen the Navigator",
       "text": {
         "en": "South",
         "es": "Sur"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 1,
+      "section": "Swensen the Navigator",
       "text": {
         "en": "East",
         "es": "Este"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 1,
+      "section": "Swensen the Navigator",
       "text": {
         "en": "North",
         "es": "Norte"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 0,
+      "section": "Swensen the Navigator",
       "text": {
         "en": "Climb up the ladder, then talk to Swensen to receive his vote.",
         "es": "Sube por la escalera y luego habla con Swensen para recibir su voto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 0,
+      "section": "Thorvald the Warrior",
       "text": {
-        "en": "Talk to Thorvald the Warrior in the helmet store north of the longhall. (opciones de chat: 1 Yes.) In order to receive his vote, you must kill a special warrior called Koschei the Deathless. However, the fight has three rules:",
+        "en": "Talk to Thorvald the Warrior in the helmet store north of the longhall. In order to receive his vote, you must kill a special warrior called Koschei the Deathless. However, the fight has three rules:",
         "es": "Habla con Thorvald the Warrior en la tienda de cascos al norte del salón de reuniones. (opciones de chat: 1 Sí.) Para recibir su voto, debes matar a un guerrero especial llamado Koschei the Deathless. Sin embargo, el combate tiene tres reglas:"
-      }
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 64,
       "indent": 0,
+      "section": "Thorvald the Warrior",
       "text": {
         "en": ": You must defeat him at least three out of four times.",
         "es": ": Debes derrotarlo al menos tres de cuatro veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "Thorvald the Warrior",
       "text": {
         "en": ": You must fight to the death.",
         "es": ": Debes luchar a muerte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "Thorvald the Warrior",
       "text": {
         "en": ": You are not allowed to use weapons or armour or beasts of burden. This also means no runes, staves, etc (you can use food, prayer, rings of recoil, already summoned familiars, a pickaxe or hatchet removed from your tool belt, or even a dismantled godsword).",
         "es": ": No se te permite usar armas, armadura ni bestias de carga. Esto también significa que no puedes usar runas, varitas, etc. (puedes usar comida, oración, anillos de recoil, familiares ya invocados, un pickaxe o hatchet sacado del tool belt, o incluso una godsword desmontada)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "Thorvald the Warrior",
       "text": {
         "en": "Climb down the ladder and wait for him to appear to begin the fight.",
         "es": "Baja por la escalera y espera a que aparezca para comenzar el combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 68,
       "indent": 0,
+      "section": "Thorvald the Warrior",
       "text": {
         "en": "Defeat him three times and either kill him the fourth time or let yourself be defeated. (You will not die).",
         "es": "Derrótalo tres veces y, o bien mátalo la cuarta vez, o deja que te derrote. (No morirás)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 69,
       "indent": 0,
+      "section": "Thorvald the Warrior",
       "text": {
         "en": "Talk to Thorvald to receive his vote.",
         "es": "Habla con Thorvald para recibir su voto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 70,
       "indent": 0,
+      "section": "Peer the Seer",
       "text": {
-        "en": "Speak to Peer the Seer, who can be found south-west of the market in Rellekka. (opciones de chat: 1 Yes.) or (opciones de chat: 2 The Fremennik Trials • 1 Yes) if you've completed the easy Fremennik achievements",
+        "en": "Speak to Peer the Seer, who can be found south-west of the market in Rellekka. or if you've completed the easy Fremennik achievements",
         "es": "Habla con Peer the Seer, que se encuentra al suroeste del mercado en Rellekka. (opciones de chat: 1 Sí.) o (opciones de chat: 2 The Fremennik Trials • 1 Sí) si has completado los logros fáciles de Fremennik"
-      }
+      },
+      "chatOptions": [
+        "1 Yes.",
+        "2 The Fremennik Trials",
+        "1 Yes"
+      ]
     },
     {
       "index": 71,
       "indent": 0,
+      "section": "Peer the Seer",
       "text": {
         "en": "To enter his house, you must solve a simple riddle. Possible answers include: \"tree\", \"time\", \"life\", \"mage\", \"fire\", \"wind\", \"mind\" and \"disk\".",
         "es": "Para entrar en su casa, debes resolver un simple acertijo. Las posibles respuestas incluyen: \"tree\", \"time\", \"life\", \"mage\", \"fire\", \"wind\", \"mind\" y \"disk\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 72,
       "indent": 0,
+      "section": "Peer the Seer",
       "text": {
         "en": "Enter the building and climb the ladder.",
         "es": "Entra en el edificio y sube por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 73,
       "indent": 1,
+      "section": "Peer the Seer",
       "text": {
         "en": "Study the unicorn's head for an old red disk.",
         "es": "Examina la cabeza del unicornio para encontrar un disco rojo antiguo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 74,
       "indent": 1,
+      "section": "Peer the Seer",
       "text": {
         "en": "Study the bull's head for a wooden disk.",
         "es": "Examina la cabeza del toro para encontrar un disco de madera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 75,
       "indent": 1,
+      "section": "Peer the Seer",
       "text": {
         "en": "Search the bookcase for a red herring.",
         "es": "Busca en la estantería un red herring."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 76,
       "indent": 1,
+      "section": "Peer the Seer",
       "text": {
         "en": "Open then search the eastern chest for an empty jug.",
         "es": "Abre y luego registra el cofre este para obtener una jarra vacía."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 77,
       "indent": 1,
+      "section": "Peer the Seer",
       "text": {
         "en": "Open then search the south-west cupboard for an empty bucket.",
         "es": "Abre y luego registra el armario del suroeste para obtener un cubo vacío."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 78,
       "indent": 0,
+      "section": "Peer the Seer",
       "text": {
         "en": "Use the red herring on the cooking range to get sticky red goop.",
         "es": "Usa el red herring en la cocina para obtener una sustancia roja y pegajosa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 79,
       "indent": 0,
+      "section": "Peer the Seer",
       "text": {
         "en": "Use the goop on the wooden disk to get a second red disk.",
         "es": "Usa la sustancia en el disco de madera para obtener un segundo disco rojo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 80,
       "indent": 0,
+      "section": "Peer the Seer",
       "text": {
         "en": "Go down the eastern trapdoor and use the two disks on the abstract mural for a vase lid.",
         "es": "Baja por la trampilla este y usa los dos discos en el mural abstracto para obtener una tapa de jarrón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 81,
       "indent": 0,
+      "section": "Peer the Seer",
       "text": {
         "en": "Climb the ladder.",
         "es": "Sube por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 82,
       "indent": 1,
+      "section": "Peer the Seer",
       "text": {
         "en": "Use the empty jug on the tap, then the full jug on the empty bucket.",
         "es": "Usa la jarra vacía en el grifo, y luego la jarra llena en el cubo vacío."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 83,
       "indent": 1,
+      "section": "Peer the Seer",
       "text": {
         "en": "Use the empty jug on the tap again and fill the bucket. You'll have a full bucket and a 1/3rds full jug.",
         "es": "Usa la jarra vacía en el grifo de nuevo y llena el cubo. Tendrás un cubo lleno y una jarra llena a un tercio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 84,
       "indent": 1,
+      "section": "Peer the Seer",
       "text": {
         "en": "Use the full bucket on the drain to get an empty bucket. Or search the cupboard again.",
         "es": "Usa el cubo lleno en el desagüe para obtener un cubo vacío. O registra el armario de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 85,
       "indent": 1,
+      "section": "Peer the Seer",
       "text": {
         "en": "Use the 1/3rds full jug on the empty bucket.",
         "es": "Usa la jarra llena a un tercio en el cubo vacío."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 86,
       "indent": 1,
+      "section": "Peer the Seer",
       "text": {
         "en": "Use the empty jug on the tap, then use the full jug on the 1/5ths full bucket to get a 4/5ths full bucket.",
         "es": "Usa la jarra vacía en el grifo, y luego usa la jarra llena en el cubo lleno a un quinto para obtener un cubo lleno a cuatro quintos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 87,
       "indent": 1,
+      "section": "Peer the Seer",
       "text": {
         "en": "Use the 4/5ths full bucket on the northwestern chest to receive a vase.",
         "es": "Usa el cubo lleno a cuatro quintos en el cofre del noroeste para recibir un jarrón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 88,
       "indent": 1,
+      "section": "Peer the Seer",
       "text": {
         "en": "Use the vase on the tap.",
         "es": "Usa el jarrón en el grifo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 89,
       "indent": 1,
+      "section": "Peer the Seer",
       "text": {
         "en": "Use the vase lid on the vase of water to get a sealed vase.",
         "es": "Usa la tapa del jarrón en el jarrón de agua para obtener un jarrón sellado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 90,
       "indent": 0,
+      "section": "Peer the Seer",
       "text": {
         "en": "Use the sealed vase on the frozen table to receive a frozen key.",
         "es": "Usa el jarrón sellado en la mesa congelada para recibir una llave congelada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 91,
       "indent": 0,
+      "section": "Peer the Seer",
       "text": {
         "en": "Use the frozen key on the range, then go down the eastern trapdoor again and out the exit. You will receive Peer the Seer's vote.",
         "es": "Usa la llave congelada en la cocina, luego baja de nuevo por la trampilla este y sal por la salida. Recibirás el voto de Peer the Seer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 92,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Brundt the Chieftain in the longhall in Rellekka.",
         "es": "Habla con Brundt the Chieftain en el salón de reuniones de Rellekka."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 93,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Congratulations, quest complete!",
         "es": "¡Enhorabuena, misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

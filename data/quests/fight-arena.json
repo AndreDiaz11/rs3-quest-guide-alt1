@@ -2,7 +2,8 @@
   "id": "fight-arena",
   "title": "Fight Arena",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:19:20.741Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:12.786Z",
   "icon": "https://runescape.wiki/images/Fight_Arena_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -85,135 +86,172 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Fight_Arena_reward.png?8cbd1",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Lady Servil west of the Monastery which is south of Ardougne. (opciones de chat: Accept)",
-        "es": "Habla con Lady Servil al oeste del Monastery, que está al sur de Ardougne. (opciones de chat: Accept)"
-      }
+        "en": "Talk to Lady Servil west of the Monastery which is south of Ardougne.",
+        "es": "Habla con Lady Servil al oeste del Monastery, que está al sur de Ardougne."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Head east and into the northeasternmost building (south of the monastery).",
         "es": "Dirígete al este y entra en el edificio más al noreste (al sur del monasterio)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Borrow the Khazard armour from the northeasternmost suit of armour.",
         "es": "Pide prestada la Khazard armour de la armadura situada más al noreste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Equip the armour and enter the prison south of the building where you got the equipment (east of the big circle of the arena in the map).",
         "es": "Equípate la armadura y entra en la prisión al sur del edificio donde conseguiste el equipamiento (al este del gran círculo de la arena en el mapa)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Keys",
       "text": {
         "en": "Talk to the Lazy Khazard Guard sitting in the south-eastern corner of the jail.",
         "es": "Habla con el Lazy Khazard Guard sentado en la esquina sureste de la cárcel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Keys",
       "text": {
-        "en": "Talk to Angor in the bar to the west, and buy a bottle of Khali brew for five coins. (opciones de chat: 2 I'd like a Khali brew, please.)",
-        "es": "Habla con Angor en el bar del oeste y compra una Khali brew por cinco monedas. (opciones de chat: 2 I'd like a Khali brew, please.)"
-      }
+        "en": "Talk to Angor in the bar to the west, and buy a bottle of Khali brew for five coins.",
+        "es": "Habla con Angor en el bar del oeste y compra una Khali brew por cinco monedas."
+      },
+      "chatOptions": [
+        "2 I'd like a Khali brew, please."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Keys",
       "text": {
         "en": "Run back and talk to the Lazy Khazard Guard. Wait for him to pass out and then Steal keys from the table.",
         "es": "Vuelve corriendo y habla con el Lazy Khazard Guard. Espera a que se quede inconsciente y luego roba las llaves de la mesa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Keys",
       "text": {
         "en": "Use the keys on Sammy's cell door north of Lazy Khazard Guard.",
         "es": "Usa las llaves en la celda de Sammy, al norte del Lazy Khazard Guard."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The arena",
       "text": {
         "en": "Kill the Khazard ogre.",
         "es": "Mata al Khazard ogre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The arena",
       "text": {
         "en": "Talk to Hengrad.",
         "es": "Habla con Hengrad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The arena",
       "text": {
         "en": "Open the prison door.",
         "es": "Abre la puerta de la prisión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "The arena",
       "text": {
         "en": "Kill the Khazard scorpion.",
         "es": "Mata al Khazard scorpion."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "The arena",
       "text": {
         "en": "Kill Bouncer.",
         "es": "Mata a Bouncer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "The arena",
       "text": {
         "en": "Kill General Khazard or walk out the door.",
         "es": "Mata a General Khazard o sal por la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "The arena",
       "text": {
         "en": "Talk to Lady Servil at the quest start point northwest of the arena.",
         "es": "Habla con Lady Servil en el punto de inicio de la misión, al noroeste de la arena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "The arena",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

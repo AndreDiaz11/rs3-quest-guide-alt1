@@ -2,7 +2,8 @@
   "id": "between-a-rock",
   "title": "Between a Rock...",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:51:37.341Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:40.774Z",
   "icon": "https://runescape.wiki/images/thumb/Between_a_Rock..._icon.png/50px-Between_a_Rock..._icon.png",
   "series": null,
   "age": "ambiguous",
@@ -107,279 +108,370 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Between_a_Rock..._reward.png?131da",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "The dwarven scholar",
       "text": {
-        "en": "Talk to Dondakan the Dwarf about cannonballs in the Keldagrim south-west mine. (opciones de chat: 2 Why are you firing a cannon at a wall? • 1 So why were you trying to get through the rock again? • 1 Sounds interesting! • Accept • 3 I'll be back later.)",
-        "es": "Habla con Dondakan the Dwarf sobre balas de cañón en la mina suroeste de Keldagrim. (opciones de chat: 2 Why are you firing a cannon at a wall? • 1 So why were you trying to get through the rock again? • 1 Sounds interesting! • Accept • 3 I'll be back later.)"
-      }
+        "en": "Talk to Dondakan the Dwarf about cannonballs in the Keldagrim south-west mine.",
+        "es": "Habla con Dondakan the Dwarf sobre balas de cañón en la mina suroeste de Keldagrim."
+      },
+      "chatOptions": [
+        "2 Why are you firing a cannon at a wall?",
+        "1 So why were you trying to get through the rock again?",
+        "1 Sounds interesting!",
+        "Accept",
+        "3 I'll be back later."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The dwarven scholar",
       "text": {
         "en": "In the western half of the Keldagrim Palace (the big building in the centre of Keldagrim) , talk to the Dwarven Engineer.",
         "es": "En la mitad occidental del Keldagrim Palace (el edificio grande en el centro de Keldagrim), habla con el Dwarven Engineer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Arzinian Avatar",
       "text": {
         "en": "Teleport to the Falador lodestone and run north-east to the Dwarven mines (stay outside)",
         "es": "Teletranspórtate a la piedra de viaje de Falador y corre hacia el noreste hasta las Dwarven mines (quédate fuera)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Arzinian Avatar",
       "text": {
         "en": "Teleport using the skull sceptre and run west.",
         "es": "Teletranspórtate usando el skull sceptre y corre hacia el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Arzinian Avatar",
       "text": {
         "en": "Or teleport to the Invention Guild and run directly east.",
         "es": "O teletranspórtate al Invention Guild y corre directamente hacia el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Arzinian Avatar",
       "text": {
         "en": "Talk to Rolad, who is located in the most north-eastern building near the ladder to the mines. There is a pause in the dialogue; be sure to finish the whole conversation.",
         "es": "Habla con Rolad, que se encuentra en el edificio más al noreste, cerca de la escalera que baja a las minas. Hay una pausa en el diálogo; asegúrate de terminar toda la conversación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Arzinian Avatar",
       "text": {
         "en": "Go down the ladder to enter the Dwarven mines.",
         "es": "Baja por la escalera para entrar en las Dwarven mines."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Arzinian Avatar",
       "text": {
         "en": "Kill scorpions in the southeast to get the first page. It will appear in your backpack.",
         "es": "Mata escorpiones en el sureste para conseguir la primera página. Aparecerá en tu mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Arzinian Avatar",
       "text": {
         "en": "Search the mine carts just to the north for the second page. They may also be in the mine carts just south of the ladder you entered the dungeon from.",
         "es": "Registra las vagonetas mineras justo al norte para conseguir la segunda página. También pueden estar en las vagonetas justo al sur de la escalera por la que entraste a la mazmorra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Arzinian Avatar",
       "text": {
         "en": "Mine any ore rocks in the mine to find the last page (the rocks in the resource dungeon connected to the mine do not work).",
         "es": "Extrae cualquier roca de mineral en la mina para encontrar la última página (las rocas de la resource dungeon conectada a la mina no funcionan)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Arzinian Avatar",
       "text": {
-        "en": "Return to Rolad (opciones de chat: 1 Of course.) and read the book. Don't destroy the book yet.",
+        "en": "Return to Rolad and read the book. Don't destroy the book yet.",
         "es": "Vuelve con Rolad (opciones de chat: 1 Of course.) y lee el libro. No destruyas el libro todavía."
-      }
+      },
+      "chatOptions": [
+        "1 Of course."
+      ]
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Arzinian Avatar",
       "text": {
         "en": "If you don't have an ammo mould for the next step, it can be bought from Nulodion for 5 coins. The ammo mould can be stored on your tool belt.",
         "es": "Si no tienes un molde de munición para el siguiente paso, puedes comprarlo a Nulodion por 5 monedas. El molde de munición se puede guardar en el cinturón de herramientas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Yellow stones",
       "text": {
         "en": "Return to Dondakan in the Keldagrim south-west mine. Talk to him, and then use a gold bar on him.",
         "es": "Vuelve con Dondakan en la mina suroeste de Keldagrim. Habla con él y luego usa una barra de oro en él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Yellow stones",
       "text": {
         "en": "Head to any furnace with an ammo mould and make a golden cannonball.",
         "es": "Ve a cualquier horno con un molde de munición y fabrica una bala de cañón de oro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Yellow stones",
       "text": {
         "en": "There is a furnace in the west side of the Keldagrim Palace.",
         "es": "Hay un horno en el lado oeste del Keldagrim Palace."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Yellow stones",
       "text": {
-        "en": "Return to Dondakan and use the golden cannonball on him. (opciones de chat: 1 Yes, I'm sure this will crack open the rock. • 1 So you want to... fire me into the rock? • 2 I can't argue with that, shoot me in!)",
-        "es": "Vuelve con Dondakan y usa la bala de cañón de oro en él. (opciones de chat: 1 Yes, I'm sure this will crack open the rock. • 1 So you want to... fire me into the rock? • 2 I can't argue with that, shoot me in!)"
-      }
+        "en": "Return to Dondakan and use the golden cannonball on him.",
+        "es": "Vuelve con Dondakan y usa la bala de cañón de oro en él."
+      },
+      "chatOptions": [
+        "1 Yes, I'm sure this will crack open the rock.",
+        "1 So you want to... fire me into the rock?",
+        "2 I can't argue with that, shoot me in!"
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Cannon ergonomics",
       "text": {
-        "en": "Read the dwarven lore book to find a piece of base schematics. (opciones de chat: 1 Yes.)",
-        "es": "Lee el libro de sabiduría enana para encontrar una pieza de los esquemas base. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Read the dwarven lore book to find a piece of base schematics.",
+        "es": "Lee el libro de sabiduría enana para encontrar una pieza de los esquemas base."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Cannon ergonomics",
       "text": {
         "en": "If you lost the book, you may speak to Rolad.",
         "es": "Si perdiste el libro, puedes hablar con Rolad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Cannon ergonomics",
       "text": {
         "en": "Teleport to the Taverley lodestone, run north and enter the cave by the tree patch.",
         "es": "Teletranspórtate a la piedra de viaje de Taverley, corre hacia el norte y entra en la cueva junto a la parcela de árboles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Cannon ergonomics",
       "text": {
-        "en": "Go to the bar inside the Dwarven Tunnel and talk to Khorvak, a dwarven engineer. (opciones de chat: 1 No, I've had enough of buying drinks for people!)",
-        "es": "Ve al bar dentro del Dwarven Tunnel y habla con Khorvak, un ingeniero enano. (opciones de chat: 1 No, I've had enough of buying drinks for people!)"
-      }
+        "en": "Go to the bar inside the Dwarven Tunnel and talk to Khorvak, a dwarven engineer.",
+        "es": "Ve al bar dentro del Dwarven Tunnel y habla con Khorvak, un ingeniero enano."
+      },
+      "chatOptions": [
+        "1 No, I've had enough of buying drinks for people!"
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Cannon ergonomics",
       "text": {
         "en": "Talk to the Dwarven Engineer on the west side of the of the Keldagrim Palace (the same one you went to earlier) for another part of the schematics.",
         "es": "Habla con el Dwarven Engineer en el lado oeste del Keldagrim Palace (el mismo con el que hablaste antes) para conseguir otra parte de los esquemas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Cannon ergonomics",
       "text": {
         "en": "Assemble on any of the schematics.",
         "es": "Ensambla cualquiera de los esquemas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Cannon ergonomics",
       "text": {
         "en": "Move around (and rotate if needed) the pieces, referring to finished schematics pictured right.",
         "es": "Mueve (y gira si es necesario) las piezas, guiándote por los esquemas terminados que se muestran a la derecha."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Cannon ergonomics",
       "text": {
-        "en": "Smith a gold helmet on the anvil in the same room which requires three gold bars by using a gold bar on the anvil. (opciones de chat: 1 Gold helmet)",
-        "es": "Forja un casco de oro en el yunque de la misma sala, que requiere tres barras de oro, usando una barra de oro en el yunque. (opciones de chat: 1 Gold helmet)"
-      }
+        "en": "Smith a gold helmet on the anvil in the same room which requires three gold bars by using a gold bar on the anvil.",
+        "es": "Forja un casco de oro en el yunque de la misma sala, que requiere tres barras de oro, usando una barra de oro en el yunque."
+      },
+      "chatOptions": [
+        "1 Gold helmet"
+      ]
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "Cannon ergonomics",
       "text": {
-        "en": "If you are proceeding or completed Legends' Quest. (opciones de chat: 2 Gold helmet)",
-        "es": "Si estás realizando o has completado Legends' Quest. (opciones de chat: 2 Gold helmet)"
-      }
+        "en": "If you are proceeding or completed Legends' Quest.",
+        "es": "Si estás realizando o has completado Legends' Quest."
+      },
+      "chatOptions": [
+        "2 Gold helmet"
+      ]
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Striking gold",
       "text": {
         "en": "Prepare to fight a level 50-56 enemy, along with your gold helmet.",
         "es": "Prepárate para luchar contra un enemigo de nivel 50-56, junto con tu casco de oro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Striking gold",
       "text": {
-        "en": "Return to Dondakan, equip your gold helmet and ask him to shoot you into the rock. (opciones de chat: 1 You may fire when ready!)",
-        "es": "Vuelve con Dondakan, equípate el casco de oro y pídele que te dispare hacia la roca. (opciones de chat: 1 You may fire when ready!)"
-      }
+        "en": "Return to Dondakan, equip your gold helmet and ask him to shoot you into the rock.",
+        "es": "Vuelve con Dondakan, equípate el casco de oro y pídele que te dispare hacia la roca."
+      },
+      "chatOptions": [
+        "1 You may fire when ready!"
+      ]
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Striking gold",
       "text": {
         "en": "During the cutscene, click directly on the text \"Click to continue\", clicking anywhere else will exit and restart the cutscene.",
         "es": "Durante la escena cinemática, haz clic directamente en el texto \"Click to continue\"; hacer clic en cualquier otro lugar hará que salgas y reinicies la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Striking gold",
       "text": {
         "en": "Once inside the cave, do not remove the gold helmet or you will have to restart.",
         "es": "Una vez dentro de la cueva, no te quites el casco de oro o tendrás que empezar de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Striking gold",
       "text": {
         "en": "Mine at least 6 gold ores, which is required to damage the enemy, and keep them in the backpack. The more ores mined (up to a maximum of 15), the lower its combat level.",
         "es": "Extrae al menos 6 minerales de oro, necesarios para dañar al enemigo, y guárdalos en la mochila. Cuantos más minerales extraigas (hasta un máximo de 15), menor será su nivel de combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Striking gold",
       "text": {
         "en": "Jump-through the first wall of flames and right-click talk on the next ring of fire.",
         "es": "Salta a través de la primera pared de llamas y usa la opción de clic derecho \"talk\" en el siguiente anillo de fuego."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Striking gold",
       "text": {
         "en": "Kill the Arzinian Avatar.",
         "es": "Mata al Arzinian Avatar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Striking gold",
       "text": {
         "en": "Speak to Dondakan.",
         "es": "Habla con Dondakan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Striking gold",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

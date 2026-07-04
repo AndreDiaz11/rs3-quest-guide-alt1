@@ -2,7 +2,8 @@
   "id": "recipe-for-disaster-freeing-sir-amik-varze",
   "title": "Recipe for Disaster: Freeing Sir Amik Varze",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:07:14.282Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:54.524Z",
   "icon": "https://runescape.wiki/images/Sir_Amik_Varze_icon.png",
   "length": "Short to Medium",
   "startPoint": {
@@ -102,223 +103,289 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Recipe_for_Disaster_%28Freeing_Sir_Amik_Varze%29_reward.png?21354",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Sir Amik",
       "text": {
         "en": "Inspect Sir Amik Varze.",
         "es": "Inspecciona a Sir Amik Varze."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Sir Amik",
       "text": {
-        "en": "Talk to the Cook in the Lumbridge Castle kitchen. (opciones de chat: 4 More... • 5 More... • 2 Protecting Sir Amik Varze)",
-        "es": "Habla con el Cook en la cocina del Lumbridge Castle. (opciones de chat: 4 Más... • 5 Más... • 2 Protecting Sir Amik Varze)"
-      }
+        "en": "Talk to the Cook in the Lumbridge Castle kitchen.",
+        "es": "Habla con el Cook en la cocina del Lumbridge Castle."
+      },
+      "chatOptions": [
+        "4 More...",
+        "5 More...",
+        "2 Protecting Sir Amik Varze"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The Brulee",
       "text": {
         "en": "Use a bucket of milk with a pot of cream.",
         "es": "Usa un bucket of milk con un pot of cream."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The Brulee",
       "text": {
         "en": "Locate a windmill (Taverley windmill doesn't work) and pick up an empty pot on the .",
         "es": "Localiza un molino de viento (el Taverley windmill no funciona) y coge un pot vacío en el mismo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The Brulee",
       "text": {
         "en": "Put sweetcorn into the hopper on the .",
         "es": "Pon sweetcorn en la tolva del molino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The Brulee",
       "text": {
         "en": "Operate the hopper controls, then take from the flour bin on the .",
         "es": "Acciona los controles de la tolva y luego coge harina del cajón de harina del molino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The Brulee",
       "text": {
         "en": "Use the milky mixture with the pot of cornflour.",
         "es": "Usa la mezcla lechosa con el pot of cornflour."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Vanilla Pod",
       "text": {
-        "en": "Go to the Kharazi Jungle with a machete and hatchet (tool belt works for both) or use if unlocked.",
+        "en": "Go to the Kharazi Jungle with a machete and hatchet (tool belt works for both) or use CJS if unlocked.",
         "es": "Ve a la Kharazi Jungle con un machete y un hatchet (el tool belt sirve para ambos) o usa uno si lo tienes desbloqueado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Vanilla Pod",
       "text": {
         "en": "Have Radimus notes with you, if Legends' Quest isn't completed.",
         "es": "Lleva contigo las Radimus notes si no has completado la Legends' Quest."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Vanilla Pod",
       "text": {
         "en": "Head southwest of the pool to the beach to find five vanilla plants.",
         "es": "Dirígete al suroeste de la laguna, hacia la playa, para encontrar cinco vanilla plants."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Vanilla Pod",
       "text": {
         "en": "Search a Vanilla plant and add the vanilla pod to the cornflour mixture for brulee.",
         "es": "Registra una vanilla plant y añade la vanilla pod a la mezcla de cornflour para hacer la brulee."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Evil Chicken's Egg and Dragon Token",
       "text": {
-        "en": "Go to Draynor Village and talk to the Wise Old Man. (opciones de chat: 3/4 I'd just like to ask you something. <!-- Possible options (under unknown conditions) include 3 and 4 --> • 2 Strange beasts • 4 The Evil Chicken • 2 Thanks, maybe some other time.)",
+        "en": "Go to Draynor Village and talk to the Wise Old Man.",
         "es": "Ve a Draynor Village y habla con el Wise Old Man. (opciones de chat: 3/4 Solo quería preguntarte algo. <!-- Possible options (under unknown conditions) include 3 and 4 --> • 2 Bestias extrañas • 4 The Evil Chicken • 2 Gracias, quizás en otra ocasión.)"
-      }
+      },
+      "chatOptions": [
+        "3/4 I'd just like to ask you something. <!-- Possible options (under unknown conditions) include 3 and 4 -->",
+        "2 Strange beasts",
+        "4 The Evil Chicken",
+        "2 Thanks, maybe some other time."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Evil Chicken's Egg and Dragon Token",
       "text": {
         "en": "Head to Zanaris. Use a raw chicken on the Chicken shrine. (Kill a chicken near the shrine for a raw chicken if you need one).",
         "es": "Dirígete a Zanaris. Usa un raw chicken en el Chicken shrine. (Mata un pollo cerca del santuario para conseguir un raw chicken si lo necesitas)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Evil Chicken's Egg and Dragon Token",
       "text": {
         "en": "Head north and kill the Evil Chicken.",
         "es": "Ve hacia el norte y mata al Evil Chicken."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Evil Chicken's Egg and Dragon Token",
       "text": {
         "en": "If the chicken is not in the shrine, talk to the Cook and attempt to fight it again.",
         "es": "Si el pollo no está en el santuario, habla con el Cook e intenta luchar contra él de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Evil Chicken's Egg and Dragon Token",
       "text": {
         "en": "Take the evil chicken's egg (right-click the loot pile, as area loot won't show it).",
         "es": "Coge el egg del evil chicken (haz clic derecho en el montón de botín, ya que el botín de área no lo mostrará)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Evil Chicken's Egg and Dragon Token",
       "text": {
         "en": "Head south and kill a black dragon.",
         "es": "Dirígete al sur y mata a un black dragon."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Evil Chicken's Egg and Dragon Token",
       "text": {
         "en": "Take the dragon token it drops (right-click the loot pile, as area loot won't show it).",
         "es": "Coge el dragon token que suelta (haz clic derecho en el montón de botín, ya que el botín de área no lo mostrará)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Evil Chicken's Egg and Dragon Token",
       "text": {
         "en": "Use the egg on the brulee.",
         "es": "Usa el egg en la brulee."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Cinnamon",
       "text": {
         "en": "Craft your dramen branches branch, selecting pestle and mortar.",
         "es": "Elabora tu dramen branch, seleccionando el pestle and mortar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Cinnamon",
       "text": {
         "en": "If you do not have Dramen branches, cut one from the dramen tree in the Entrana Dungeon.",
         "es": "Si no tienes dramen branches, corta uno del dramen tree en la Entrana Dungeon."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Cinnamon",
       "text": {
         "en": "Add the cinnamon to the brulee.",
         "es": "Añade la cinnamon a la brulee."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Freeing Sir Amik",
       "text": {
         "en": "Wear the ice gloves or dragonfire protection, otherwise you can take up to 500 damage if you don't have them on for the next few steps.",
         "es": "Ponte los ice gloves o la dragonfire protection, de lo contrario podrías recibir hasta 500 de daño si no los llevas puestos durante los próximos pasos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Freeing Sir Amik",
       "text": {
         "en": "Rub the dragon token in either Lumbridge or Zanaris.",
         "es": "Frota el dragon token en Lumbridge o en Zanaris."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Freeing Sir Amik",
       "text": {
-        "en": "Ask the Fairy Dragon to flambé the brulee. (opciones de chat: 1 Please flambe this creme brulee for me.)",
-        "es": "Pídele al Fairy Dragon que flambée la brulee. (opciones de chat: 1 Por favor, flambea esta creme brulee para mí.)"
-      }
+        "en": "Ask the Fairy Dragon to flambé the brulee.",
+        "es": "Pídele al Fairy Dragon que flambée la brulee."
+      },
+      "chatOptions": [
+        "1 Please flambe this creme brulee for me."
+      ]
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Freeing Sir Amik",
       "text": {
         "en": "Head back to Lumbridge Castle then use brulee supreme on Sir Amik.",
         "es": "Regresa al Lumbridge Castle y luego usa la brulee supreme en Sir Amik."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Freeing Sir Amik",
       "text": {
         "en": "Subquest complete!",
         "es": "¡Submisión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

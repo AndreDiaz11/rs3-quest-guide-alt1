@@ -2,7 +2,8 @@
   "id": "purple-cat-miniquest",
   "title": "Purple Cat (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-04T02:05:01.869Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:50.533Z",
   "icon": "https://runescape.wiki/images/Purple_Cat_%28miniquest%29_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -51,207 +52,264 @@
       "image": "https://runescape.wiki/images/thumb/Pet_kitten_%28white_and_black%29_pet.png/100px-Pet_kitten_%28white_and_black%29_pet.png?b86b3"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Purple_Cat_%28miniquest%29_reward.png?5e7fb",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Wendy, West of Draynor lodestone. (opciones de chat: 4 Have you seen that purple cat wandering around? • 2 If I brought you a cat, could you make it purple? • Accept)",
-        "es": "Habla con Wendy, al oeste de la piedra de viaje de Draynor. (opciones de chat: 4 ¿Has visto ese gato morado que anda por ahí? • 2 Si te trajera un gato, ¿podrías teñirlo de morado? • Aceptar)"
-      }
+        "en": "Talk to Wendy, West of Draynor lodestone.",
+        "es": "Habla con Wendy, al oeste de la piedra de viaje de Draynor."
+      },
+      "chatOptions": [
+        "4 Have you seen that purple cat wandering around?",
+        "2 If I brought you a cat, could you make it purple?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Travel to Betty's Magic Emporium in Port Sarim and enter the trapdoor.",
         "es": "Viaja a Betty's Magic Emporium en Port Sarim y entra por la trampilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Lottie.",
         "es": "Habla con Lottie."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Blackbird to empty holding pen",
         "es": "Blackbird al corral vacío"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Lizard to Blackbird pen",
         "es": "Lizard al corral de Blackbird"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Rat to Rat pen",
         "es": "Rat al corral de Rat"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Snail to Reptile pen",
         "es": "Snail al corral de Reptile"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Spider to Spider pen",
         "es": "Spider al corral de Spider"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Bat to Snail pen",
         "es": "Bat al corral de Snail"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Lizard to Bat pen",
         "es": "Lizard al corral de Bat"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Spider to Blackbird pen",
         "es": "Spider al corral de Blackbird"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Snail to Spider pen",
         "es": "Snail al corral de Spider"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Rat to Reptile pen",
         "es": "Rat al corral de Reptile"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Spider to Rat pen",
         "es": "Spider al corral de Rat"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Lizard to Blackbird pen",
         "es": "Lizard al corral de Blackbird"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Bat to Bat pen",
         "es": "Bat al corral de Bat"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Snail to Snail pen",
         "es": "Snail al corral de Snail"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Lizard to Spider pen",
         "es": "Lizard al corral de Spider"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Spider to Blackbird pen",
         "es": "Spider al corral de Blackbird"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Rat to Rat pen",
         "es": "Rat al corral de Rat"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Lizard to Reptile pen",
         "es": "Lizard al corral de Reptile"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Spider to Spider pen",
         "es": "Spider al corral de Spider"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Solving puzzle",
       "text": {
         "en": "Blackbird to Blackbird pen",
         "es": "Blackbird al corral de Blackbird"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Open the chest to the northwest and search it.",
         "es": "Abre el cofre al noroeste y regístralo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Bring the magic unguent back to Wendy. (opciones de chat: 4 I have some magic unguent for you!)",
-        "es": "Llévale el ungüento mágico a Wendy. (opciones de chat: 4 ¡Tengo un poco de ungüento mágico para ti!)"
-      }
+        "en": "Bring the magic unguent back to Wendy.",
+        "es": "Llévale el ungüento mágico a Wendy."
+      },
+      "chatOptions": [
+        "4 I have some magic unguent for you!"
+      ]
     }
   ]
 }

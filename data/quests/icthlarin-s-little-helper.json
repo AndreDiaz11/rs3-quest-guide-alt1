@@ -2,7 +2,8 @@
   "id": "icthlarin-s-little-helper",
   "title": "Icthlarin's Little Helper",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:30:01.311Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:26.089Z",
   "icon": "https://runescape.wiki/images/Icthlarin%27s_Little_Helper_icon.png",
   "series": "Desert",
   "age": "5",
@@ -97,6 +98,7 @@
       "image": "https://runescape.wiki/images/thumb/Sophanem.png/100px-Sophanem.png?2bfdb"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Icthlarin%27s_Little_Helper_reward.png?78baf",
   "postQuest": [
     {
       "type": "item",
@@ -133,402 +135,523 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Head to the north of Sophanem. You can use the magic carpet network south of Shantay Pass from Al Kharid to get to Nardah, and then run southwest.",
         "es": "Dirígete al norte de Sophanem. Puedes usar la red de alfombras mágicas al sur de Shantay Pass desde Al Kharid para llegar a Nardah, y luego correr hacia el suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to the wanderer while your cat is following you. (opciones de chat: 1 Why? [Icthlarin's Little Helper] • Accept • 4 Tell me about Sophanem. [Icthlarin's Little Helper])",
-        "es": "Habla con el vagabundo mientras tu gato te sigue. (opciones de chat: 1 Why? [Icthlarin's Little Helper] • Accept • 4 Tell me about Sophanem. [Icthlarin's Little Helper])"
-      }
+        "en": "Talk to the wanderer while your cat is following you.",
+        "es": "Habla con el vagabundo mientras tu gato te sigue."
+      },
+      "chatOptions": [
+        "1 Why? [Icthlarin's Little Helper]",
+        "Accept",
+        "4 Tell me about Sophanem. [Icthlarin's Little Helper]"
+      ]
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "The wanderer is located a short distance north of Sophanem, east of the river but west of the Agility Pyramid.",
         "es": "El vagabundo se encuentra a poca distancia al norte de Sophanem, al este del río pero al oeste de la Agility Pyramid."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Open the northern door on the southern pyramid (picture of a cat).",
         "es": "Abre la puerta norte de la pirámide sur (con el dibujo de un gato)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Graverobbing",
       "text": {
         "en": "You will arrive inside a maze.",
         "es": "Llegarás al interior de un laberinto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Graverobbing",
       "text": {
         "en": "Run past the initial wall crushers and walk on the denser rubble (dotted lines indicate the locations of pitfall traps).",
         "es": "Corre pasando las trituradoras de pared iniciales y camina sobre los escombros más densos (las líneas de puntos indican la ubicación de las trampas de pozo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Graverobbing",
       "text": {
         "en": "Alternatively follow the path shown in the image to the right.",
         "es": "Alternativamente, sigue el camino mostrado en la imagen de la derecha."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Graverobbing",
       "text": {
         "en": "Avoid traps and aggressive monsters until you reach a pit.",
         "es": "Evita las trampas y los monstruos agresivos hasta llegar a un pozo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Graverobbing",
       "text": {
         "en": "[Optional] Run past the wall crushers to the east and open the chest to complete Icthlarin's Little Chest.",
         "es": "[Opcional] Corre pasando las trituradoras de pared hacia el este y abre el cofre para completar Icthlarin's Little Chest."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Graverobbing",
       "text": {
         "en": "Jump across the pit. This requires at least 20% run energy.",
         "es": "Salta a través del pozo. Esto requiere al menos un 20% de energía de carrera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Graverobbing",
       "text": {
         "en": "Open the doorway of the western room.",
         "es": "Abre la puerta de la sala oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Graverobbing",
       "text": {
         "en": "Solve the puzzle.",
         "es": "Resuelve el rompecabezas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Cats' help",
       "text": {
-        "en": "Talk to the Sphinx with your cat or kitten out. (opciones de chat: 1 I need help. • 1 Okay, that sounds fair. • 2 9. • 1 Totally positive.)",
-        "es": "Habla con la Sphinx con tu gato o gatito fuera. (opciones de chat: 1 I need help. • 1 Okay, that sounds fair. • 2 9. • 1 Totally positive.)"
-      }
+        "en": "Talk to the Sphinx with your cat or kitten out.",
+        "es": "Habla con la Sphinx con tu gato o gatito fuera."
+      },
+      "chatOptions": [
+        "1 I need help.",
+        "1 Okay, that sounds fair.",
+        "2 9.",
+        "1 Totally positive."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Cats' help",
       "text": {
         "en": "Pick up your cat and talk to the High Priest, located inside the Temple of Icthlarin in the south part of the city.",
         "es": "Recoge a tu gato y habla con el High Priest, ubicado dentro del Temple of Icthlarin, en la parte sur de la ciudad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Cats' help",
       "text": {
         "en": "Note down the name of the canopic jar in the backpack.",
         "es": "Anota el nombre de la vasija canópica en la mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Encountering the apparition",
       "text": {
         "en": "Go back to the southern pyramid and open the door.",
         "es": "Vuelve a la pirámide sur y abre la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Encountering the apparition",
       "text": {
         "en": "Go through the pyramid again. Jump across the pit and open the west doorway.",
         "es": "Atraviesa la pirámide otra vez. Salta el pozo y abre la puerta oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Encountering the apparition",
       "text": {
         "en": "Take the jar on the ground that has the same name as the one in the backpack previously.",
         "es": "Toma la vasija del suelo que tenga el mismo nombre que la que había antes en la mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Encountering the apparition",
       "text": {
         "en": "Kill the apparition that spawns. You can safe-spot it by using the table in the room (unless you have the canopic jar of Apmeken or Crondis).",
         "es": "Mata a la aparición que surja. Puedes ponerte a salvo usando la mesa de la sala (a menos que tengas la vasija canópica de Apmeken o Crondis)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Encountering the apparition",
       "text": {
         "en": "Take the jar again.",
         "es": "Vuelve a tomar la vasija."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Encountering the apparition",
       "text": {
         "en": "Open the doorway to exit the room.",
         "es": "Abre la puerta para salir de la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Encountering the apparition",
       "text": {
         "en": "Open the doorway to enter the west room again.",
         "es": "Abre la puerta para volver a entrar en la sala oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Encountering the apparition",
       "text": {
         "en": "Return the canopic jar by clicking the empty space with the lighting effect (the original location of your jar).",
         "es": "Devuelve la vasija canópica haciendo clic en el espacio vacío con el efecto de luz (la ubicación original de tu vasija)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Encountering the apparition",
       "text": {
         "en": "Exit the pyramid. Opening the doorway should automatically take you to the entrance.",
         "es": "Sal de la pirámide. Al abrir la puerta deberías ser llevado automáticamente a la entrada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Preparing for the ceremony",
       "text": {
-        "en": "Talk to the High Priest. (opciones de chat: 1 Sure, no problem.)",
-        "es": "Habla con el High Priest. (opciones de chat: 1 Sure, no problem.)"
-      }
+        "en": "Talk to the High Priest.",
+        "es": "Habla con el High Priest."
+      },
+      "chatOptions": [
+        "1 Sure, no problem."
+      ]
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Preparing for the ceremony",
       "text": {
         "en": "Talk to the embalmer at the spice shop, north-west of the temple.",
         "es": "Habla con el embalsamador en la tienda de especias, al noroeste del templo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Preparing for the ceremony",
       "text": {
-        "en": "Talk to the carpenter at the potter's wheel, just east of the southern pyramid. (opciones de chat: 2 Alright, I'll get the wood for you.)",
-        "es": "Habla con el carpintero junto al torno de alfarero, justo al este de la pirámide sur. (opciones de chat: 2 Alright, I'll get the wood for you.)"
-      }
+        "en": "Talk to the carpenter at the potter's wheel, just east of the southern pyramid.",
+        "es": "Habla con el carpintero junto al torno de alfarero, justo al este de la pirámide sur."
+      },
+      "chatOptions": [
+        "2 Alright, I'll get the wood for you."
+      ]
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Preparing for the ceremony",
       "text": {
         "en": "Talk to him again with willow logs in your inventory.",
         "es": "Vuelve a hablar con él llevando troncos de willow en tu inventario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Preparing for the ceremony",
       "text": {
         "en": "Talk to Raetul near the Sphinx to obtain linen.",
         "es": "Habla con Raetul, cerca de la Sphinx, para obtener lino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Preparing for the ceremony",
       "text": {
         "en": "Skip these steps if you already have salt:",
         "es": "Omite estos pasos si ya tienes sal:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Preparing for the ceremony",
       "text": {
         "en": "Bring an empty bucket just north of Sophanem to a small open lake (refer to map shown right).",
         "es": "Lleva un cubo vacío justo al norte de Sophanem hasta un pequeño lago abierto (consulta el mapa mostrado a la derecha)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "Preparing for the ceremony",
       "text": {
         "en": "Collect from the salty water for a bucket of salty water.",
         "es": "Recoge agua salada del lago para obtener un cubo de agua salada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Preparing for the ceremony",
       "text": {
         "en": "Head back inside Sophanem.",
         "es": "Vuelve al interior de Sophanem."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "Preparing for the ceremony",
       "text": {
-        "en": "Search the centre piece, located just south-east of the southern pyramid. (opciones de chat: 1 Pour your bucket of salty water into the font.)",
-        "es": "Examina la pieza central, ubicada justo al sureste de la pirámide sur. (opciones de chat: 1 Pour your bucket of salty water into the font.)"
-      }
+        "en": "Search the centre piece, located just south-east of the southern pyramid.",
+        "es": "Examina la pieza central, ubicada justo al sureste de la pirámide sur."
+      },
+      "chatOptions": [
+        "1 Pour your bucket of salty water into the font."
+      ]
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "Preparing for the ceremony",
       "text": {
-        "en": "Search the centre piece for a pile of salt. (opciones de chat: 1 Scrape it out.)",
-        "es": "Examina la pieza central para obtener un montón de sal. (opciones de chat: 1 Scrape it out.)"
-      }
+        "en": "Search the centre piece for a pile of salt.",
+        "es": "Examina la pieza central para obtener un montón de sal."
+      },
+      "chatOptions": [
+        "1 Scrape it out."
+      ]
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Preparing for the ceremony",
       "text": {
         "en": "Talk to the embalmer.",
         "es": "Habla con el embalsamador."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Preparing for the ceremony",
       "text": {
         "en": "Talk to the carpenter for a holy symbol.",
         "es": "Habla con el carpintero para conseguir un símbolo sagrado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Preparing for the ceremony",
       "text": {
         "en": "This may take a few seconds before he finishes the symbol.",
         "es": "Esto puede tardar unos segundos hasta que termine el símbolo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Icthlarin's little helper",
       "text": {
         "en": "Enter the pyramid once again and jump over the pit.",
         "es": "Entra de nuevo en la pirámide y salta el pozo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Icthlarin's little helper",
       "text": {
         "en": "Open the doorway of the eastern room.",
         "es": "Abre la puerta de la sala este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Icthlarin's little helper",
       "text": {
-        "en": "Search the first sarcophagus to your immediate west, on the northern wall, and hide the unholy symbol in it. (opciones de chat: 1 Hide the unholy symbol in this sarcophagus.)",
-        "es": "Examina el primer sarcófago justo al oeste, en la pared norte, y esconde el símbolo impío en él. (opciones de chat: 1 Hide the unholy symbol in this sarcophagus.)"
-      }
+        "en": "Search the first sarcophagus to your immediate west, on the northern wall, and hide the unholy symbol in it.",
+        "es": "Examina el primer sarcófago justo al oeste, en la pared norte, y esconde el símbolo impío en él."
+      },
+      "chatOptions": [
+        "1 Hide the unholy symbol in this sarcophagus."
+      ]
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "Icthlarin's little helper",
       "text": {
         "en": "Searching other sarcophagi is optional and not recommended.",
         "es": "Examinar otros sarcófagos es opcional y no se recomienda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Icthlarin's little helper",
       "text": {
         "en": "Open the doorway to exit the room.",
         "es": "Abre la puerta para salir de la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Icthlarin's little helper",
       "text": {
         "en": "Open the doorway to enter the eastern room again. Finish the dialogue with the High Priest and the wanderer.",
         "es": "Abre la puerta para volver a entrar en la sala este. Termina el diálogo con el High Priest y el vagabundo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Icthlarin's little helper",
       "text": {
         "en": "Kill the Possessed Priest.",
         "es": "Mata al Possessed Priest."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Icthlarin's little helper",
       "text": {
         "en": "Talk to the High Priest.",
         "es": "Habla con el High Priest."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Icthlarin's little helper",
       "text": {
-        "en": "Open the doorway to exit the room to return to the temple. (opciones de chat: 1 Yes, return to the high priest in Sophanem.)",
-        "es": "Abre la puerta para salir de la sala y volver al templo. (opciones de chat: 1 Yes, return to the high priest in Sophanem.)"
-      }
+        "en": "Open the doorway to exit the room to return to the temple.",
+        "es": "Abre la puerta para salir de la sala y volver al templo."
+      },
+      "chatOptions": [
+        "1 Yes, return to the high priest in Sophanem."
+      ]
     },
     {
       "index": 47,
       "indent": 1,
+      "section": "Icthlarin's little helper",
       "text": {
         "en": "You may be given the canopic jar again, which has no further use and can be dropped (it will turn to dust).",
         "es": "Puede que te den de nuevo la vasija canópica, que ya no tiene más uso y se puede soltar (se convertirá en polvo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Icthlarin's little helper",
       "text": {
         "en": "Talk to the High Priest.",
         "es": "Habla con el High Priest."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Icthlarin's little helper",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

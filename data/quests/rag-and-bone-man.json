@@ -2,7 +2,8 @@
   "id": "rag-and-bone-man",
   "title": "Rag and Bone Man",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:05:20.173Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:51.201Z",
   "icon": "https://runescape.wiki/images/Rag_and_Bone_Man_icon.png",
   "series": "Odd Old Man",
   "age": "ambiguous",
@@ -74,95 +75,121 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Rag_and_Bone_Man_reward.png?7d671",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to the Odd Old Man in Silvarea. (opciones de chat: 1 Anything I can do to help? • Accept)",
-        "es": "Habla con el Odd Old Man en Silvarea. (opciones de chat: 1 ¿Puedo ayudar en algo? • Aceptar)"
-      }
+        "en": "Talk to the Odd Old Man in Silvarea.",
+        "es": "Habla con el Odd Old Man en Silvarea."
+      },
+      "chatOptions": [
+        "1 Anything I can do to help?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Go to Draynor Village market and talk to Fortunato about the quest (do not steal from the stalls before talking to him, as you won't be able to initiate the conversation for a couple of minutes).",
         "es": "Ve al mercado de Draynor Village y habla con Fortunato sobre la misión (no robes en los puestos antes de hablar con él, ya que no podrás iniciar la conversación durante un par de minutos)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Buy 8 jugs of vinegar.",
         "es": "Compra 8 jarras de vinagre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Use the jugs of vinegar on your empty pots.",
         "es": "Usa las jarras de vinagre en tus vasijas vacías."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Gather and use each bone listed below on the pots of vinegar.",
         "es": "Consigue y usa cada hueso indicado a continuación en las vasijas de vinagre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Obtaining the Bones",
       "text": {
         "en": "Obtain the bones. Use the table below as a reference.",
         "es": "Consigue los huesos. Usa la tabla siguiente como referencia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Go back to the Odd Old Man's hut.",
         "es": "Vuelve a la cabaña del Odd Old Man."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Add logs, then a pot of bones to the pot boiler, and light it. Collect the bone when it finishes boiling after 12 seconds (hopping worlds will skip the boiling).",
         "es": "Añade troncos, luego una vasija de huesos a la caldera de huesos y enciéndela. Recoge el hueso cuando termine de hervir tras 12 segundos (cambiar de mundo saltará el hervido)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Repeat for the remaining bones.",
         "es": "Repite el proceso con los huesos restantes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to the Odd Old Man.",
         "es": "Habla con el Odd Old Man."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

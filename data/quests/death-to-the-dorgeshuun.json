@@ -2,7 +2,8 @@
   "id": "death-to-the-dorgeshuun",
   "title": "Death to the Dorgeshuun",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:03:37.394Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:54.089Z",
   "icon": "https://runescape.wiki/images/Death_to_the_Dorgeshuun_icon.png",
   "series": "Cave Goblin",
   "age": "5",
@@ -122,487 +123,641 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Death_to_the_Dorgeshuun_reward.png?30ea4",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "What's with the cabal?",
       "text": {
         "en": "Take a light source and go to the Lumbridge Castle cellar.",
         "es": "Coge una fuente de luz y ve al sótano del Lumbridge Castle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "What's with the cabal?",
       "text": {
         "en": "Squeeze through the hole in the wall.",
         "es": "Deslízate por el agujero de la pared."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "What's with the cabal?",
       "text": {
         "en": "Right click on Kazgar, and use the option \"Follow\".",
         "es": "Haz clic derecho en Kazgar y usa la opción \"Follow\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "What's with the cabal?",
       "text": {
-        "en": "Talk to Mistag and ask about the favour. (opciones de chat: 1 What is this favour? • Accept • 4 Can you show me the way out of the mines?)",
-        "es": "Habla con Mistag y pregúntale sobre el favor. (opciones de chat: 1 What is this favour? • Accept • 4 Can you show me the way out of the mines?)"
-      }
+        "en": "Talk to Mistag and ask about the favour.",
+        "es": "Habla con Mistag y pregúntale sobre el favor."
+      },
+      "chatOptions": [
+        "1 What is this favour?",
+        "Accept",
+        "4 Can you show me the way out of the mines?"
+      ]
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "What's with the cabal?",
       "text": {
         "en": "Alternatively to leave mines, right click on Mistag and use \"Follow\".",
         "es": "Alternativamente, para salir de las minas, haz clic derecho en Mistag y usa \"Follow\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "What's with the cabal?",
       "text": {
-        "en": "Return to the Lumbridge Castle cellar, talk to Zanik. (opciones de chat: 1 Yes, I'm [Player name]! • 1 Yes, I have two sets of robes!)",
-        "es": "Vuelve al sótano de Lumbridge Castle y habla con Zanik. (opciones de chat: 1 Yes, I'm [Player name]! • 1 Yes, I have two sets of robes!)"
-      }
+        "en": "Return to the Lumbridge Castle cellar, talk to Zanik.",
+        "es": "Vuelve al sótano de Lumbridge Castle y habla con Zanik."
+      },
+      "chatOptions": [
+        "1 Yes, I'm [Player name]!",
+        "1 Yes, I have two sets of robes!"
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Lumbridge safari",
       "text": {
         "en": "Talk to the Cook inside Lumbridge Castle.",
         "es": "Habla con el Cook dentro de Lumbridge Castle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Lumbridge safari",
       "text": {
-        "en": "Talk to Duke Horacio upstairs in the castle. (opciones de chat: 3 Have you heard of any HAM activity lately?)",
-        "es": "Habla con Duke Horacio en el piso de arriba del castillo. (opciones de chat: 3 Have you heard of any HAM activity lately?)"
-      }
+        "en": "Talk to Duke Horacio upstairs in the castle.",
+        "es": "Habla con Duke Horacio en el piso de arriba del castillo."
+      },
+      "chatOptions": [
+        "3 Have you heard of any HAM activity lately?"
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Lumbridge safari",
       "text": {
         "en": "Go east outside the castle on the for a cutscene.",
         "es": "Ve hacia el este, fuera del castillo, para ver una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Lumbridge safari",
       "text": {
         "en": "Talk to an unnamed man or a woman (there are many in the marketplace).",
         "es": "Habla con un hombre o mujer sin nombre (hay varios en el mercado)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Lumbridge safari",
       "text": {
-        "en": "Talk to either the Lumbridge General Store shopkeeper or his assistant. (opciones de chat: 2 No, thanks.)",
-        "es": "Habla con el tendero de la Lumbridge General Store o con su ayudante. (opciones de chat: 2 No, thanks.)"
-      }
+        "en": "Talk to either the Lumbridge General Store shopkeeper or his assistant.",
+        "es": "Habla con el tendero de la Lumbridge General Store o con su ayudante."
+      },
+      "chatOptions": [
+        "2 No, thanks."
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Lumbridge safari",
       "text": {
-        "en": "Talk to Doomsayer near the castle gate. (opciones de chat: 1 Don't worry, Zanik.)",
-        "es": "Habla con el Doomsayer cerca de la puerta del castillo. (opciones de chat: 1 Don't worry, Zanik.)"
-      }
+        "en": "Talk to Doomsayer near the castle gate.",
+        "es": "Habla con el Doomsayer cerca de la puerta del castillo."
+      },
+      "chatOptions": [
+        "1 Don't worry, Zanik."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Lumbridge safari",
       "text": {
         "en": "Talk to the Lumbridge Sage right in front of the castle gate.",
         "es": "Habla con el Lumbridge Sage justo delante de la puerta del castillo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Lumbridge safari",
       "text": {
         "en": "Take Zanik to a level 2 goblin across the east bridge.",
         "es": "Lleva a Zanik hasta un goblin de nivel 2 al otro lado del puente este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Lumbridge safari",
       "text": {
         "en": "Make sure to not click while Zanik walks off the bridge of the east side. She starts a dialogue that is easy to click away from accidentally.",
         "es": "Asegúrate de no hacer clic mientras Zanik cruza el puente por el lado este. Ella inicia un diálogo del que es fácil salirse sin querer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Lumbridge safari",
       "text": {
-        "en": "Talk to Father Aereck in the church. (opciones de chat: 4 Bye.)",
-        "es": "Habla con Father Aereck en la iglesia. (opciones de chat: 4 Bye.)"
-      }
+        "en": "Talk to Father Aereck in the church.",
+        "es": "Habla con Father Aereck en la iglesia."
+      },
+      "chatOptions": [
+        "4 Bye."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Lumbridge safari",
       "text": {
-        "en": "Talk to Bob at Bob's Brilliant Axes. (opciones de chat: 1 Let's go, Zanik.)",
-        "es": "Habla con Bob en Bob's Brilliant Axes. (opciones de chat: 1 Let's go, Zanik.)"
-      }
+        "en": "Talk to Bob at Bob's Brilliant Axes.",
+        "es": "Habla con Bob en Bob's Brilliant Axes."
+      },
+      "chatOptions": [
+        "1 Let's go, Zanik."
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Lumbridge safari",
       "text": {
-        "en": "Talk to Zanik. (opciones de chat: 3 Will you tell me about the mark on your forehead?)",
-        "es": "Habla con Zanik. (opciones de chat: 3 Will you tell me about the mark on your forehead?)"
-      }
+        "en": "Talk to Zanik.",
+        "es": "Habla con Zanik."
+      },
+      "chatOptions": [
+        "3 Will you tell me about the mark on your forehead?"
+      ]
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Lumbridge safari",
       "text": {
         "en": "If she doesn't have the talk option, teleport away and talk to her in the Lumbridge Castle cellar.",
         "es": "Si no tiene la opción de hablar, teletranspórtate y habla con ella en el sótano de Lumbridge Castle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Lumbridge safari",
       "text": {
         "en": "After the cutscene, put on your set of H.A.M. robes and prepare to head to the H.A.M. hideout.",
         "es": "Después de la escena, ponte tu set de H.A.M. robes y prepárate para ir al escondite de los H.A.M."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Requiescat in pace",
       "text": {
         "en": "Open and then climb down the trapdoor in the Lumbridge forest northwest of the Lumbridge Castle to enter the hideout.",
         "es": "Abre y baja por la trampilla en el bosque de Lumbridge, al noroeste de Lumbridge Castle, para entrar al escondite."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Requiescat in pace",
       "text": {
-        "en": "Talk with Johanhus Ulsbrecht (in the southern room) about the cave goblins. (opciones de chat: 4 Are you planning to do anything about the cave goblins? • 3 That's good.)",
-        "es": "Habla con Johanhus Ulsbrecht (en la sala sur) sobre los cave goblins. (opciones de chat: 4 Are you planning to do anything about the cave goblins? • 3 That's good.)"
-      }
+        "en": "Talk with Johanhus Ulsbrecht (in the southern room) about the cave goblins.",
+        "es": "Habla con Johanhus Ulsbrecht (en la sala sur) sobre los cave goblins."
+      },
+      "chatOptions": [
+        "4 Are you planning to do anything about the cave goblins?",
+        "3 That's good."
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Requiescat in pace",
       "text": {
         "en": "Go next to the southern hanging brazier in the main room - Zanik will spot a trapdoor (Make sure Zanik is beside you and not trapped in the previous room).",
         "es": "Ve junto al brasero colgante del sur en la sala principal; Zanik descubrirá una trampilla (asegúrate de que Zanik esté a tu lado y no atrapada en la sala anterior)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Requiescat in pace",
       "text": {
         "en": "Pick-lock on the hidden trap door by right clicking it, then climb down.",
         "es": "Forcemanezcase la cerradura de la trampilla oculta haciendo clic derecho sobre ella, luego baja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Slipping past the guards",
       "text": {
         "en": "Walk past the first guard (Zanik shoots him).",
         "es": "Pasa junto al primer guardia (Zanik le disparará)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Slipping past the guards",
       "text": {
         "en": "Squeeze through the crack in the wall behind where the first guard stood.",
         "es": "Deslízate por la grieta de la pared detrás de donde estaba el primer guardia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Slipping past the guards",
       "text": {
         "en": "Squeeze through the crack in the opposite wall while the guard in the corridor has his back turned.",
         "es": "Deslízate por la grieta de la pared opuesta mientras el guardia del pasillo te da la espalda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Slipping past the guards",
       "text": {
         "en": "Go behind the west guard. Talk to him for a cutscene.",
         "es": "Ve detrás del guardia del oeste. Habla con él para ver una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Slipping past the guards",
       "text": {
-        "en": "Continuing the dialogue then wait for the corridor's guard to turn his back, tell Zanik \"Now!\". (opciones de chat: 1 Now!)",
-        "es": "Continúa el diálogo y espera a que el guardia del pasillo te dé la espalda, luego dile a Zanik \"Now!\". (opciones de chat: 1 Now!)"
-      }
+        "en": "Continuing the dialogue then wait for the corridor's guard to turn his back, tell Zanik \"Now!\".",
+        "es": "Continúa el diálogo y espera a que el guardia del pasillo te dé la espalda, luego dile a Zanik \"Now!\"."
+      },
+      "chatOptions": [
+        "1 Now!"
+      ]
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Slipping past the guards",
       "text": {
         "en": "Go east to the end of the central corridor, but not around the corner.",
         "es": "Ve hacia el este hasta el final del pasillo central, pero sin doblar la esquina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Slipping past the guards",
       "text": {
-        "en": "Talk to Zanik, telling her to wait. (opciones de chat: 2 Wait here.)",
-        "es": "Habla con Zanik y dile que espere. (opciones de chat: 2 Wait here.)"
-      }
+        "en": "Talk to Zanik, telling her to wait.",
+        "es": "Habla con Zanik y dile que espere."
+      },
+      "chatOptions": [
+        "2 Wait here."
+      ]
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Slipping past the guards",
       "text": {
         "en": "Run out of the corridor and south down to the south-east corner, making the north-east guard follow you. Zanik will shoot him.",
         "es": "Sal corriendo del pasillo y ve hacia el sur hasta la esquina sureste, haciendo que el guardia del noreste te siga. Zanik le disparará."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Slipping past the guards",
       "text": {
         "en": "Go to the end of either the west or east passages, but not around the corner.",
         "es": "Ve hasta el final del pasillo oeste o este, pero sin doblar la esquina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "Slipping past the guards",
       "text": {
-        "en": "Talk to Zanik, telling her to wait again. (opciones de chat: 2 Wait here.)",
-        "es": "Habla con Zanik y dile de nuevo que espere. (opciones de chat: 2 Wait here.)"
-      }
+        "en": "Talk to Zanik, telling her to wait again.",
+        "es": "Habla con Zanik y dile de nuevo que espere."
+      },
+      "chatOptions": [
+        "2 Wait here."
+      ]
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Slipping past the guards",
       "text": {
         "en": "Go to the other passage, via the central corridor, and approach the guard (Zanik shoots him).",
         "es": "Ve al otro pasillo, pasando por el pasillo central, y acércate al guardia (Zanik le disparará)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Slipping past the guards",
       "text": {
         "en": "Listen at the door (you will be caught).",
         "es": "Escucha en la puerta (te atraparán)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Divine resurrection",
       "text": {
         "en": "Pick the jail's door lock and leave the H.A.M. hideout.",
         "es": "Forcemanezcase la cerradura de la puerta de la celda y sal del escondite de los H.A.M."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Divine resurrection",
       "text": {
         "en": "Pick up Zanik, lying near a tree south of the hideout entrance.",
         "es": "Recoge a Zanik, que está tumbada cerca de un árbol al sur de la entrada del escondite."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Divine resurrection",
       "text": {
         "en": "If you have finished the Tears of Guthix quest, you can teleport there with her using a games necklace.",
         "es": "Si ya has completado la misión Tears of Guthix, puedes teletransportarte allí con ella usando un games necklace."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Divine resurrection",
       "text": {
         "en": "Climb down the trapdoor in the Lumbridge castle, and squeeze through the hole in the cellar wall.",
         "es": "Baja por la trampilla en Lumbridge Castle y deslízate por el agujero en la pared del sótano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Divine resurrection",
       "text": {
         "en": "Squeeze through the hole to the south, run south then jump across the stepping stones.",
         "es": "Deslízate por el agujero hacia el sur, corre hacia el sur y luego salta por las piedras del paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Divine resurrection",
       "text": {
         "en": "Enter the tunnel to reach the Tears of Guthix cavern.",
         "es": "Entra en el túnel para llegar a la cueva de Tears of Guthix."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Divine resurrection",
       "text": {
         "en": "With Zanik in your inventory and both hands free, talk to Juna.",
         "es": "Con Zanik en tu inventario y ambas manos libres, habla con Juna."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Divine resurrection",
       "text": {
         "en": "Collect 20 blue tears from the walls to trigger a cutscene.",
         "es": "Recoge 20 lágrimas azules de las paredes para activar una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "Divine resurrection",
       "text": {
         "en": "Green tears empty your bowl.",
         "es": "Las lágrimas verdes vaciarán tu cuenco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Divine resurrection",
       "text": {
         "en": "Talk to Zanik.",
         "es": "Habla con Zanik."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "To be continued...",
       "text": {
         "en": "Prepare for the fight against Sigmund and his guards (but keep the H.A.M robes with you). Zanik is considered a follower. Pets and familiars cannot be used during the battle.",
         "es": "Prepárate para el combate contra Sigmund y sus guardias (pero conserva contigo el set de H.A.M. robes). Zanik cuenta como acompañante. No se pueden usar mascotas ni familiares durante la batalla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "To be continued...",
       "text": {
         "en": "Teleport to Lumbridge then enter the castle cellar.",
         "es": "Teletranspórtate a Lumbridge y luego entra en el sótano del castillo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "To be continued...",
       "text": {
-        "en": "Talk to Zanik and have her follow you. (opciones de chat: 1 Let's go!)",
-        "es": "Habla con Zanik y haz que te siga. (opciones de chat: 1 Let's go!)"
-      }
+        "en": "Talk to Zanik and have her follow you.",
+        "es": "Habla con Zanik y haz que te siga."
+      },
+      "chatOptions": [
+        "1 Let's go!"
+      ]
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "To be continued...",
       "text": {
         "en": "Go to Seth Groats's farm on the east side of the river near the cow paddock, enter the fenced area through the gap on the south side.",
         "es": "Ve a la granja de Seth Groats, en el lado este del río cerca del cercado de las vacas, y entra en la zona vallada por el hueco del lado sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "To be continued...",
       "text": {
         "en": "Unequip any weapons or shields.",
         "es": "Quítate cualquier arma o escudo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "To be continued...",
       "text": {
         "en": "Equip full H.A.M. set.",
         "es": "Equípate el set completo de H.A.M."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "To be continued...",
       "text": {
-        "en": "Search one of the empty crates by the tree. (opciones de chat: 1 I don't know, what are you thinking? • 1 Good idea.)",
-        "es": "Registra una de las cajas vacías junto al árbol. (opciones de chat: 1 I don't know, what are you thinking? • 1 Good idea.)"
-      }
+        "en": "Search one of the empty crates by the tree.",
+        "es": "Registra una de las cajas vacías junto al árbol."
+      },
+      "chatOptions": [
+        "1 I don't know, what are you thinking?",
+        "1 Good idea."
+      ]
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "To be continued...",
       "text": {
         "en": "After Zanik climbs in the crate, carry it down into the trapdoor just north of the empty crates.",
         "es": "Después de que Zanik se meta en la caja, llévala hasta la trampilla justo al norte de las cajas vacías."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "To be continued...",
       "text": {
         "en": "Go west and walk up to Sigmund, instead of immediately clicking to attack him. You must trigger the dialogue with Sigmund in order to have Zanik attack him, which is needed to complete the quest.",
         "es": "Ve hacia el oeste y acércate a Sigmund caminando, en lugar de atacarlo directamente. Debes activar el diálogo con Sigmund para que Zanik pueda atacarlo, lo cual es necesario para completar la misión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 1,
+      "section": "To be continued...",
       "text": {
         "en": "Kill the guards first. This allows Zanik to attack Sigmund who will then switch to Protect from Missiles.",
         "es": "Mata primero a los guardias. Esto permitirá que Zanik ataque a Sigmund, quien entonces cambiará a Protect from Missiles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 1,
+      "section": "To be continued...",
       "text": {
         "en": "Kill Sigmund, who uses the Protect from Missiles prayer. If he's protecting against your attack style, avoid him so he switches back to Protect from Missile.",
         "es": "Mata a Sigmund, que usa la oración Protect from Missiles. Si está protegiéndose contra tu estilo de ataque, evítalo para que vuelva a cambiar a Protect from Missiles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "To be continued...",
       "text": {
         "en": "Smash the drilling machine at the centre of the room.",
         "es": "Destruye la máquina perforadora en el centro de la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "To be continued...",
       "text": {
         "en": "Go east then south and unblock the tunnel for a cutscene. Note: If you forgot your lightsource, it is ok. You will be given a lit torch upon completing the cutscene.",
         "es": "Ve hacia el este y luego hacia el sur para desbloquear el túnel y ver una escena. Nota: si olvidaste tu fuente de luz, no pasa nada; recibirás una antorcha encendida al completar la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "To be continued...",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "beneath-cursed-tides",
   "title": "Beneath Cursed Tides",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:50:43.644Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:39.002Z",
   "icon": "https://runescape.wiki/images/Beneath_Cursed_Tides_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -131,447 +132,595 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Beneath_Cursed_Tides_reward.png?c67a9",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "The sunken island",
       "text": {
-        "en": "Talk to Wizard Myrtle at the fountain near the entrance to the Wizards' Tower. (Fairy ring ) (opciones de chat: 2 [Continue] • Accept • 1 I know Vannaka!)",
-        "es": "Habla con Wizard Myrtle en la fuente cerca de la entrada de la Wizards' Tower. (Fairy ring) (opciones de chat: 2 [Continuar] • Aceptar • 1 ¡Conozco a Vannaka!)"
-      }
+        "en": "Talk to Wizard Myrtle at the fountain near the entrance to the Wizards' Tower. (Fairy ring DIS)",
+        "es": "Habla con Wizard Myrtle en la fuente cerca de la entrada de la Wizards' Tower. (Fairy ring)"
+      },
+      "chatOptions": [
+        "2 [Continue]",
+        "Accept",
+        "1 I know Vannaka!"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The sunken island",
       "text": {
-        "en": "Go to the Edgeville Mausoleum just south of the bank and talk to Vannaka. (opciones de chat: 1 Talk about Beneath Cursed Tides. • 4 [Continue...] • 1 Yes, I do.)",
-        "es": "Ve al Edgeville Mausoleum, justo al sur del banco, y habla con Vannaka. (opciones de chat: 1 Hablar sobre Beneath Cursed Tides. • 4 [Continuar...] • 1 Sí, así es.)"
-      }
+        "en": "Go to the Edgeville Mausoleum just south of the bank and talk to Vannaka.",
+        "es": "Ve al Edgeville Mausoleum, justo al sur del banco, y habla con Vannaka."
+      },
+      "chatOptions": [
+        "1 Talk about Beneath Cursed Tides.",
+        "4 [Continue...]",
+        "1 Yes, I do."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The sunken island",
       "text": {
-        "en": "Return to the Wizards' Tower, and talk to Wizard Myrtle. (opciones de chat: 2 What's the plan then? • 1 How do I get to Mudskipper Point?)",
-        "es": "Vuelve a la Wizards' Tower y habla con Wizard Myrtle. (opciones de chat: 2 ¿Cuál es el plan entonces? • 1 ¿Cómo llego a Mudskipper Point?)"
-      }
+        "en": "Return to the Wizards' Tower, and talk to Wizard Myrtle.",
+        "es": "Vuelve a la Wizards' Tower y habla con Wizard Myrtle."
+      },
+      "chatOptions": [
+        "2 What's the plan then?",
+        "1 How do I get to Mudskipper Point?"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The sunken island",
       "text": {
-        "en": "Make your way to Mudskipper Point. The fastest route is via fairy ring . Alternatively, you can run south from the Port Sarim lodestone.",
+        "en": "Make your way to Mudskipper Point. The fastest route is via fairy ring AIQ. Alternatively, you can run south from the Port Sarim lodestone.",
         "es": "Dirígete a Mudskipper Point. La ruta más rápida es mediante el fairy ring. Como alternativa, puedes correr hacia el sur desde la piedra de viaje de Port Sarim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The sunken island",
       "text": {
-        "en": "Unequip your weapons and dismiss followers and then talk to Wizard Myrtle. (opciones de chat: 1 Sounds perfect, let's do this! • 2 I'd like to dive to the sunken island. • 1 Yes, I'm ready.)",
-        "es": "Desequipa tus armas, despide a tus seguidores y luego habla con Wizard Myrtle. (opciones de chat: 1 ¡Suena perfecto, hagámoslo! • 2 Me gustaría bucear hasta la isla hundida. • 1 Sí, estoy listo.)"
-      }
+        "en": "Unequip your weapons and dismiss followers and then talk to Wizard Myrtle.",
+        "es": "Desequipa tus armas, despide a tus seguidores y luego habla con Wizard Myrtle."
+      },
+      "chatOptions": [
+        "1 Sounds perfect, let's do this!",
+        "2 I'd like to dive to the sunken island.",
+        "1 Yes, I'm ready."
+      ]
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "The sunken island",
       "text": {
-        "en": "If you have completed the Recipe for Disaster: Freeing Pirate Pete subquest, or have built any kind of diving suit in the Aquarium. (opciones de chat: 1 Sounds perfect, let's do this. • 1 Underwater breathing spell. • 2 I'd like to dive to the sunken island. • 1 Yes, I'm ready.)",
-        "es": "Si has completado la submisión Recipe for Disaster: Freeing Pirate Pete, o has construido cualquier tipo de traje de buceo en el Aquarium. (opciones de chat: 1 Suena perfecto, hagámoslo. • 1 Hechizo de respiración submarina. • 2 Me gustaría bucear hasta la isla hundida. • 1 Sí, estoy listo.)"
-      }
+        "en": "If you have completed the Recipe for Disaster: Freeing Pirate Pete subquest, or have built any kind of diving suit in the Aquarium.",
+        "es": "Si has completado la submisión Recipe for Disaster: Freeing Pirate Pete, o has construido cualquier tipo de traje de buceo en el Aquarium."
+      },
+      "chatOptions": [
+        "1 Sounds perfect, let's do this.",
+        "1 Underwater breathing spell.",
+        "2 I'd like to dive to the sunken island.",
+        "1 Yes, I'm ready."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The sunken island",
       "text": {
         "en": "East of the room, read the message in the bottle for the key and open the door.",
         "es": "Al este de la sala, lee el mensaje de la botella para conseguir la llave y abre la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
         "en": "Talk to Brynna, the survival expert (directly to the south).",
         "es": "Habla con Brynna, la experta en supervivencia (justo al sur)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
         "en": "Catch two raw shrimps.",
         "es": "Captura dos camarones crudos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
         "en": "Gather the seaweed nearby.",
         "es": "Recolecta las algas cercanas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
         "en": "Cut a tree to get a soggy branch.",
         "es": "Corta un árbol para obtener una rama empapada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
         "en": "Interact with the boulder.",
         "es": "Interactúa con la roca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
         "en": "Cook both shrimp on the steam vent (two squares west of the boulder) to receive two boiled shrimps.",
         "es": "Cocina ambos camarones en el respiradero de vapor (dos casillas al oeste de la roca) para obtener dos camarones hervidos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
         "en": "Push the boulder (next to the steam vent) to get it hot enough to burn the shrimp next.",
         "es": "Empuja la roca (junto al respiradero de vapor) para calentarla lo suficiente y así poder quemar el siguiente camarón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
         "en": "Boil 1 shrimp again to burn it. Keep one boiled shrimp.",
         "es": "Hierve 1 camarón de nuevo para quemarlo. Conserva un camarón hervido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
         "en": "Talk to Brynna twice.",
         "es": "Habla con Brynna dos veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
         "en": "Continue through the west gate.",
         "es": "Continúa a través de la puerta oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
         "en": "Go to the building to the west and talk to the master chef.",
         "es": "Ve al edificio al oeste y habla con el master chef."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
-        "en": "Go to the large jellyfish south-east of the chef's house and play the music box. (opciones de chat: 2 Turn second handle. • 3 Turn third handle. • 1 Turn first handle.)",
-        "es": "Ve a la gran medusa al sureste de la casa del chef y toca la caja de música. (opciones de chat: 2 Girar la segunda manivela. • 3 Girar la tercera manivela. • 1 Girar la primera manivela.)"
-      }
+        "en": "Go to the large jellyfish south-east of the chef's house and play the music box.",
+        "es": "Ve a la gran medusa al sureste de la casa del chef y toca la caja de música."
+      },
+      "chatOptions": [
+        "2 Turn second handle.",
+        "3 Turn third handle.",
+        "1 Turn first handle."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
         "en": "Gather tasty seaweed.",
         "es": "Recolecta algas sabrosas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
         "en": "Talk to the master chef again.",
         "es": "Habla de nuevo con el master chef."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Krillinary expert",
       "text": {
         "en": "Prepare the large table 3 times by matching the 3 tastes with 3 ingredients (large table is in the same house).",
         "es": "Prepara la mesa grande 3 veces combinando los 3 sabores con 3 ingredientes (la mesa grande está en la misma casa)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
         "en": "Continue through the west door to the small house in the north.",
         "es": "Continúa por la puerta oeste hacia la pequeña casa al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
         "en": "Climb down the ladder.",
         "es": "Baja por la escalera de mano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
-        "en": "Talk to mining instructor. (opciones de chat: 1 Absolutely! • 3 Good bye.)",
-        "es": "Habla con el instructor de minería. (opciones de chat: 1 ¡Por supuesto! • 3 Adiós.)"
-      }
+        "en": "Talk to mining instructor.",
+        "es": "Habla con el instructor de minería."
+      },
+      "chatOptions": [
+        "1 Absolutely!",
+        "3 Good bye."
+      ]
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
         "en": "Mine soggy copper ore and soggy tin ore.",
         "es": "Extrae mena de cobre empapada y mena de estaño empapada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
         "en": "Add the ores to furnace.",
         "es": "Añade las menas al horno."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
         "en": "Right click and close the doors.",
         "es": "Haz clic derecho y cierra las puertas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
         "en": "Operate the pump and light the furnace.",
         "es": "Acciona la bomba y enciende el horno."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
         "en": "Retrieve the bronzish bar from the furnace.",
         "es": "Recupera la barra broncínea del horno."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
         "en": "Smith a bronze dagger.",
         "es": "Forja una daga de bronce."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
         "en": "Talk to the mining instructor again.",
         "es": "Habla de nuevo con el instructor de minería."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
         "en": "Continue through the east gate.",
         "es": "Continúa a través de la puerta este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
-        "en": "Talk to Vannaka, the combat instructor. (opciones de chat: 1 Sure, I'm up for a challenge. • 2 Let's get on with the task.)",
-        "es": "Habla con Vannaka, el instructor de combate. (opciones de chat: 1 Claro, estoy listo para un desafío. • 2 Vamos a por la tarea.)"
-      }
+        "en": "Talk to Vannaka, the combat instructor.",
+        "es": "Habla con Vannaka, el instructor de combate."
+      },
+      "chatOptions": [
+        "1 Sure, I'm up for a challenge.",
+        "2 Let's get on with the task."
+      ]
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
         "en": "Open the gate and click on the sword in the middle of the room to begin combat training.",
         "es": "Abre la verja y haz clic en la espada situada en el centro de la sala para comenzar el entrenamiento de combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
         "en": "Click on the rats and other elements bouncing on the screen.",
         "es": "Haz clic en las ratas y otros elementos que aparecen saltando en la pantalla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Mining and combat",
       "text": {
         "en": "Exit the cage and climb the ladder to the north-east.",
         "es": "Sal de la jaula y sube por la escalera de mano hacia el noreste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Fishy business",
       "text": {
-        "en": "Talk to the financial advisor in the house directly to the east. (opciones de chat: 1 Can we skip to the task?)",
-        "es": "Habla con el asesor financiero en la casa justo al este. (opciones de chat: 1 ¿Podemos saltar directamente a la tarea?)"
-      }
+        "en": "Talk to the financial advisor in the house directly to the east.",
+        "es": "Habla con el asesor financiero en la casa justo al este."
+      },
+      "chatOptions": [
+        "1 Can we skip to the task?"
+      ]
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Fishy business",
       "text": {
         "en": "Enter the vault (the code is 139).",
         "es": "Entra en la cámara acorazada (el código es 139)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Fishy business",
       "text": {
         "en": "Talk to the financial advisor again.",
         "es": "Habla de nuevo con el asesor financiero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Fishy friends and magic",
       "text": {
         "en": "Leave through the 2 doors to the east.",
         "es": "Sal por las 2 puertas hacia el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Fishy friends and magic",
       "text": {
         "en": "Head south to the church through double doors.",
         "es": "Dirígete al sur, hacia la iglesia, atravesando las puertas dobles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Fishy friends and magic",
       "text": {
         "en": "Talk to Brother Brace.",
         "es": "Habla con Brother Brace."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Fishy friends and magic",
       "text": {
         "en": "Read the friend list.",
         "es": "Lee la lista de amigos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Fishy friends and magic",
       "text": {
         "en": "There will be 2 fish just east of the bank and 3 fish back through the 2 doors leading through the bank.",
         "es": "Habrá 2 peces justo al este del banco y 3 peces de vuelta a través de las 2 puertas que llevan al banco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Fishy friends and magic",
       "text": {
         "en": "One of the five fish will tell you where the book is. Search for it.",
         "es": "Uno de los cinco peces te dirá dónde está el libro. Búscalo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Fishy friends and magic",
       "text": {
         "en": "Give the book to Brother Brace.",
         "es": "Entrega el libro a Brother Brace."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Fishy friends and magic",
       "text": {
-        "en": "Go through the south door to the south-east building and talk to Wizard Terrova. (opciones de chat: 1 I certainly am. • 1 Can you give me some runes to cast this 'strike of air'?)",
-        "es": "Atraviesa la puerta sur hacia el edificio del sureste y habla con Wizard Terrova. (opciones de chat: 1 Claro que sí. • 1 ¿Puedes darme algunas runas para lanzar este 'strike of air'?)"
-      }
+        "en": "Go through the south door to the south-east building and talk to Wizard Terrova.",
+        "es": "Atraviesa la puerta sur hacia el edificio del sureste y habla con Wizard Terrova."
+      },
+      "chatOptions": [
+        "1 I certainly am.",
+        "1 Can you give me some runes to cast this 'strike of air'?"
+      ]
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Fishy friends and magic",
       "text": {
         "en": "Attack a chicken.",
         "es": "Ataca a una gallina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Fishy friends and magic",
       "text": {
         "en": "Talk to the wizard.",
         "es": "Habla con el mago."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Commotion in the ocean",
       "text": {
         "en": "Pick any option during the cutscene.",
         "es": "Elige cualquier opción durante la escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Commotion in the ocean",
       "text": {
         "en": "Channel the spell while repelling Crassians.",
         "es": "Canaliza el hechizo mientras repeles a los Crassians."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Commotion in the ocean",
       "text": {
         "en": "Finish Hector Vivian.",
         "es": "Acaba con Hector Vivian."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Commotion in the ocean",
       "text": {
-        "en": "Talk to Wizard Myrtle. (opciones de chat: 1 We did it!)",
-        "es": "Habla con Wizard Myrtle. (opciones de chat: 1 ¡Lo conseguimos!)"
-      }
+        "en": "Talk to Wizard Myrtle.",
+        "es": "Habla con Wizard Myrtle."
+      },
+      "chatOptions": [
+        "1 We did it!"
+      ]
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Commotion in the ocean",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "rum-deal",
   "title": "Rum Deal",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:11:37.939Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:59.390Z",
   "icon": "https://runescape.wiki/images/Rum_Deal_icon.png",
   "series": "Pirate",
   "age": "5",
@@ -113,319 +114,404 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Rum_Deal_reward.png?31077",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Braindeath Island",
       "text": {
         "en": "Recharge your prayer if you have fewer than 470 points.",
         "es": "Recarga tu oración si tienes menos de 470 puntos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Braindeath Island",
       "text": {
-        "en": "Talk to Pirate Pete, north of Port Phasmatys. (opciones de chat: Accept • 1 Of course, I fear no demon! • 1 Nonsense! Keep the money!)",
-        "es": "Habla con Pirate Pete, al norte de Port Phasmatys. (opciones de chat: Aceptar • 1 ¡Por supuesto, no temo a ningún demonio! • 1 ¡Tonterías! ¡Quédate el dinero!)"
-      }
+        "en": "Talk to Pirate Pete, north of Port Phasmatys.",
+        "es": "Habla con Pirate Pete, al norte de Port Phasmatys."
+      },
+      "chatOptions": [
+        "Accept",
+        "1 Of course, I fear no demon!",
+        "1 Nonsense! Keep the money!"
+      ]
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Braindeath Island",
       "text": {
         "en": "If you have the ectophial it will place you close to Pirate Pete.",
         "es": "Si tienes el ectophial, te dejará cerca de Pirate Pete."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Blindweed",
       "text": {
-        "en": "Note: If at any point you leave the area you can return via Pirate Pete. (opciones de chat: 1 Okay!)",
-        "es": "Nota: Si en algún momento abandonas la zona, puedes volver a través de Pirate Pete. (opciones de chat: 1 ¡Vale!)"
-      }
+        "en": "Note: If at any point you leave the area you can return via Pirate Pete.",
+        "es": "Nota: Si en algún momento abandonas la zona, puedes volver a través de Pirate Pete."
+      },
+      "chatOptions": [
+        "1 Okay!"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Blindweed",
       "text": {
         "en": "Complete the dialogue with Captain Braindeath. He gives you a blindweed seed.",
         "es": "Completa el diálogo con Captain Braindeath. Te da una semilla de blindweed."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Blindweed",
       "text": {
         "en": "Run south and Climb-down a Wooden Stair.",
         "es": "Corre hacia el sur y baja por unas Wooden Stair."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Blindweed",
       "text": {
         "en": "Run south to the farming patches.",
         "es": "Corre hacia el sur hasta las parcelas de cultivo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Blindweed",
       "text": {
         "en": "Rake the south-easternmost Blindweed Patch (the only one which isn't labelled as 'trashed').",
         "es": "Rastrilla la Blindweed Patch más al sureste (la única que no está etiquetada como 'trashed')."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Blindweed",
       "text": {
         "en": "Use the seed on the patch.",
         "es": "Usa la semilla en la parcela."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Blindweed",
       "text": {
         "en": "Pick the blindweed once grown (can take up to 5 minutes).",
         "es": "Recoge la blindweed una vez haya crecido (puede tardar hasta 5 minutos)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Blindweed",
       "text": {
         "en": "Return to and Talk to Captain Braindeath.",
         "es": "Vuelve y habla con Captain Braindeath."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Blindweed",
       "text": {
         "en": "In the south-east corner of the building, Climb-up the Ladder.",
         "es": "En la esquina sureste del edificio, sube por la Ladder."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Blindweed",
       "text": {
         "en": "In the north-west corner, Deposit at the Hopper (1 tile east of the Pressure Barrel).",
         "es": "En la esquina noroeste, deposita en el Hopper (1 casilla al este del Pressure Barrel)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Stagnant water",
       "text": {
         "en": "Talk to Captain Braindeath, he'll give you an empty bucket if you don't already have one.",
         "es": "Habla con Captain Braindeath, te dará un cubo vacío si no tienes ya uno."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Stagnant water",
       "text": {
         "en": "Go to the bridges to the west and Open the Gate.",
         "es": "Ve a los puentes al oeste y abre la Gate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Stagnant water",
       "text": {
         "en": "Optional: Wear your ring of charos to distract 50% Luke.",
         "es": "Opcional: Ponte tu ring of charos para distraer a Luke con un 50% de probabilidad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Stagnant water",
       "text": {
         "en": "If no ring just click Open and your character will distract him.",
         "es": "Si no tienes el anillo, simplemente haz clic en Abrir y tu personaje lo distraerá."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Stagnant water",
       "text": {
         "en": "Continue north and up the mountain to the Stagnant Lake.",
         "es": "Continúa hacia el norte y sube la montaña hasta el Stagnant Lake."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Stagnant water",
       "text": {
         "en": "Fill at the Stagnant Lake.",
         "es": "Llena el cubo en el Stagnant Lake."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Stagnant water",
       "text": {
         "en": "Deposit at the Hopper from earlier (keep the empty bucket for later).",
         "es": "Deposita en el Hopper de antes (guarda el cubo vacío para más tarde)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Sluglings",
       "text": {
         "en": "Return to Captain Braindeath. He will give you a Fishbowl and net",
         "es": "Vuelve con Captain Braindeath. Te dará un Fishbowl y una red."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Sluglings",
       "text": {
         "en": "If you accidentally Untangle the fishbowl, just Use the bowl on the net to re-tangle them.",
         "es": "Si accidentalmente desenredas el fishbowl, simplemente usa el bowl en la red para volver a enredarlos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Sluglings",
       "text": {
         "en": "Fish a total of 5 sluglings and/or karamthulhu near the farming patches (a mix of 5 will work).",
         "es": "Pesca un total de 5 sluglings y/o karamthulhu cerca de las parcelas de cultivo (sirve una combinación de 5)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Sluglings",
       "text": {
         "en": "Use all 5 on the Pressure Barrel next to the Hopper.",
         "es": "Usa los 5 en el Pressure Barrel junto al Hopper."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Sluglings",
       "text": {
         "en": "Pull the lever.",
         "es": "Tira de la palanca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Trouble Brewing",
       "text": {
         "en": "Return to Captain Braindeath. He will give you a wrench.",
         "es": "Vuelve con Captain Braindeath. Te dará una llave inglesa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Trouble Brewing",
       "text": {
         "en": "Enter the western room and Talk to Davey to get the holy wrench.",
         "es": "Entra en la habitación del oeste y habla con Davey para conseguir la holy wrench."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Trouble Brewing",
       "text": {
         "en": "Right-click Use the wrench on the brewing control to the east (the object shaking crazily).",
         "es": "Haz clic derecho y usa la llave inglesa en el control de fermentación al este (el objeto que se agita frenéticamente)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Trouble Brewing",
       "text": {
         "en": "Kill the evil spirit.",
         "es": "Mata al evil spirit."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Trouble Brewing",
       "text": {
         "en": "Return to Captain Braindeath.",
         "es": "Vuelve con Captain Braindeath."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Trouble Brewing",
       "text": {
         "en": "Climb-down the nearby ladder to the south-west.",
         "es": "Baja por la escalera cercana al suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Trouble Brewing",
       "text": {
         "en": "With slayer gloves equipped, kill a fever spider and take its body.",
         "es": "Con los slayer gloves equipados, mata a un fever spider y coge su cuerpo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Trouble Brewing",
       "text": {
         "en": "Slayer gloves are not required with high life points or when safespotting the spider behind a crate (with Magic/Ranged/Necromancy)",
         "es": "Los slayer gloves no son necesarios si tienes muchos puntos de vida o si te colocas en un punto seguro tras una caja (con Magia/Distancia/Nigromancia) para atacar a la araña."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Trouble Brewing",
       "text": {
         "en": "Deposit at the hopper.",
         "es": "Deposita en el hopper."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Trouble Brewing",
       "text": {
         "en": "Return to Captain Braindeath.",
         "es": "Vuelve con Captain Braindeath."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Trouble Brewing",
       "text": {
         "en": "With an empty bucket, turn the Output Tap (south of the machinery) to receive unsanitary swill.",
         "es": "Con un cubo vacío, gira el Output Tap (al sur de la maquinaria) para recibir unsanitary swill."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Captain Donnie near the farming patches.",
         "es": "Habla con Captain Donnie cerca de las parcelas de cultivo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Return to Captain Braindeath.",
         "es": "Vuelve con Captain Braindeath."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

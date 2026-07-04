@@ -2,7 +2,8 @@
   "id": "rune-mechanics",
   "title": "Rune Mechanics",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:11:50.179Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:59.730Z",
   "icon": "https://runescape.wiki/images/Rune_Mechanics_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -133,191 +134,251 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Rune_Mechanics_reward.png?ea9a8",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Apprentice Clerval in the basement of the Mage Training Arena. (opciones de chat: Accept)",
-        "es": "Habla con Apprentice Clerval en el sótano del Mage Training Arena. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Apprentice Clerval in the basement of the Mage Training Arena.",
+        "es": "Habla con Apprentice Clerval en el sótano del Mage Training Arena."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Wizard Dougal",
       "text": {
-        "en": "Talk to Wizard Dougal who is also in the basement. (opciones de chat: 1 Complement him and massage his ego.)",
-        "es": "Habla con Wizard Dougal, que también está en el sótano. (opciones de chat: 1 Halágalo y adúlale el ego.)"
-      }
+        "en": "Talk to Wizard Dougal who is also in the basement.",
+        "es": "Habla con Wizard Dougal, que también está en el sótano."
+      },
+      "chatOptions": [
+        "1 Complement him and massage his ego."
+      ]
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Wizard Dougal",
       "text": {
         "en": "You need four free spaces in your inventory for Dougal to give you items. If he doesn't give you the items, he will not accept the steam runes.",
         "es": "Necesitas cuatro espacios libres en tu inventario para que Dougal te dé objetos. Si no te da los objetos, no aceptará las steam runes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Wizard Dougal",
       "text": {
         "en": "Wear the binding necklace that Dougal gave you.",
         "es": "Ponte el binding necklace que te dio Dougal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Wizard Dougal",
       "text": {
         "en": "Craft at least one steam rune. The remaining runes (4 steam runes, 5 mind runes, 5 body runes) can be obtained or bought ahead of time.",
         "es": "Fabrica al menos una steam rune. Las runas restantes (4 steam runes, 5 mind runes, 5 body runes) se pueden conseguir o comprar de antemano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Wizard Dougal",
       "text": {
         "en": "Steam runes can be crafted by using fire runes on the water altar (consuming a fire talisman).",
         "es": "Las steam runes se pueden fabricar usando fire runes en el altar del agua (esto consume un fire talisman)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Wizard Dougal",
       "text": {
         "en": "Alternatively, use water runes on the fire altar (consuming a water talisman).",
         "es": "Alternativamente, usa water runes en el altar del fuego (esto consume un water talisman)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Wizard Dougal",
       "text": {
         "en": "Talk to Wizard Dougal.",
         "es": "Habla con Wizard Dougal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Wizard Dougal",
       "text": {
         "en": "Give the runes to Clerval.",
         "es": "Dale las runas a Clerval."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Wizard Edvin",
       "text": {
-        "en": "Talk to Wizard Edvin who is also in the basement. (You will need to dismiss any pets currently active) (opciones de chat: 1 I guess I'll give it a try.)",
-        "es": "Habla con Wizard Edvin, que también está en el sótano. (Necesitarás despedir cualquier mascota que tengas activa) (opciones de chat: 1 Supongo que lo intentaré.)"
-      }
+        "en": "Talk to Wizard Edvin who is also in the basement. (You will need to dismiss any pets currently active)",
+        "es": "Habla con Wizard Edvin, que también está en el sótano. (Necesitarás despedir cualquier mascota que tengas activa)"
+      },
+      "chatOptions": [
+        "1 I guess I'll give it a try."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Wizard Edvin",
       "text": {
         "en": "Solve the portal maze.",
         "es": "Resuelve el laberinto de portales."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Wizard Edvin",
       "text": {
         "en": "From the start, go through the west portal, then go to the northern portal 3 times.",
         "es": "Desde el inicio, cruza el portal del oeste, luego dirígete al portal del norte 3 veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Wizard Edvin",
       "text": {
         "en": "Exit the maze.",
         "es": "Sal del laberinto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Wizard Edvin",
       "text": {
         "en": "Take Edvin's tool to Clerval.",
         "es": "Lleva la herramienta de Edvin a Clerval."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Wizard Shug",
       "text": {
         "en": "Obtain five pizazz points from Mage Training Arena minigame, if you don't already have five. Enchantment Pizazz points are easy to obtain by casting any level jewellery enchantment spell (Lvl-1 Enchant, Lvl-2 Enchant, Lvl-3 Enchant, Lvl-4 Enchant, Lvl-5 Enchant, Lvl-6 Enchant) on a dragonstone lying on the arena floor. (Requires at least level 7 Magic.)",
         "es": "Consigue cinco pizazz points del minijuego Mage Training Arena, si aún no tienes cinco. Los Enchantment Pizazz points se obtienen fácilmente lanzando cualquier hechizo de encantamiento de joyería (Lvl-1 Enchant, Lvl-2 Enchant, Lvl-3 Enchant, Lvl-4 Enchant, Lvl-5 Enchant, Lvl-6 Enchant) sobre una dragonstone que hay en el suelo de la arena. (Requiere al menos nivel 7 de Magia.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Wizard Shug",
       "text": {
-        "en": "Talk to Wizard Shug on the top floor of the arena. (opciones de chat: 2 Get back on topic! • 2 Get back on topic!)",
-        "es": "Habla con Wizard Shug en la planta superior de la arena. (opciones de chat: 2 ¡Vuelve al tema! • 2 ¡Vuelve al tema!)"
-      }
+        "en": "Talk to Wizard Shug on the top floor of the arena.",
+        "es": "Habla con Wizard Shug en la planta superior de la arena."
+      },
+      "chatOptions": [
+        "2 Get back on topic!",
+        "2 Get back on topic!"
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Wizard Shug",
       "text": {
         "en": "Enchant the emeralds using the workbench by Clerval.",
         "es": "Encanta las emeralds usando la mesa de trabajo que está junto a Clerval."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Talk to Clerval, holding 20 pure essence. (opciones de chat: 2 Comfort and reassure him.)",
-        "es": "Habla con Clerval, llevando 20 pure essence. (opciones de chat: 2 Consuélalo y tranquilízalo.)"
-      }
+        "en": "Talk to Clerval, holding 20 pure essence.",
+        "es": "Habla con Clerval, llevando 20 pure essence."
+      },
+      "chatOptions": [
+        "2 Comfort and reassure him."
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Fix the animation table nearby.",
         "es": "Repara la mesa de animación cercana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "When finished, click the green check button. (opciones de chat: 1 You are useless, but, yes, I'll do it.)",
-        "es": "Cuando termines, haz clic en el botón verde de verificación. (opciones de chat: 1 Eres un inútil, pero, vale, lo haré.)"
-      }
+        "en": "When finished, click the green check button.",
+        "es": "Cuando termines, haz clic en el botón verde de verificación."
+      },
+      "chatOptions": [
+        "1 You are useless, but, yes, I'll do it."
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Use the carving tool on the lump of rune essence.",
         "es": "Usa la herramienta de talla en el lump of rune essence."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Clerval.",
         "es": "Habla con Clerval."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

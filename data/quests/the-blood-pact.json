@@ -2,7 +2,8 @@
   "id": "the-blood-pact",
   "title": "The Blood Pact",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:52:57.377Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:13.654Z",
   "icon": "https://runescape.wiki/images/The_Blood_Pact_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -85,143 +86,196 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Blood_Pact_reward.png?549bf",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Start the quest by talking to Xenia in the Lumbridge graveyard. (opciones de chat: 1 What help do you need? • 1 I'll help you. • Accept)",
-        "es": "Empieza la misión hablando con Xenia en el cementerio de Lumbridge. (opciones de chat: 1 ¿Qué ayuda necesitas? • 1 Te ayudaré. • Aceptar)"
-      }
+        "en": "Start the quest by talking to Xenia in the Lumbridge graveyard.",
+        "es": "Empieza la misión hablando con Xenia en el cementerio de Lumbridge."
+      },
+      "chatOptions": [
+        "1 What help do you need?",
+        "1 I'll help you.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
         "en": "Enter the catacombs.",
         "es": "Entra en las catacumbas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
-        "en": "After a cutscene, proceed north. (opciones de chat: 4 I can handle this.)",
-        "es": "Tras una cutscene, avanza hacia el norte. (opciones de chat: 4 Puedo encargarme de esto.)"
-      }
+        "en": "After a cutscene, proceed north.",
+        "es": "Tras una cutscene, avanza hacia el norte."
+      },
+      "chatOptions": [
+        "4 I can handle this."
+      ]
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "The dungeon",
       "text": {
         "en": "Talk to Xenia if there is no dialogue.",
         "es": "Habla con Xenia si no hay diálogo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
-        "en": "Defeat Kayle then talk to him. (opciones de chat: 2 Yes. Now die!)",
-        "es": "Derrota a Kayle y luego habla con él. (opciones de chat: 2 Sí. ¡Ahora muere!)"
-      }
+        "en": "Defeat Kayle then talk to him.",
+        "es": "Derrota a Kayle y luego habla con él."
+      },
+      "chatOptions": [
+        "2 Yes. Now die!"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
         "en": "Take his chargebow.",
         "es": "Coge su chargebow."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "The dungeon",
       "text": {
         "en": "(Optional) Equip it if you don't have any Magic, Ranged, or Necromancy weapon.",
         "es": "(Opcional) Equípatelo si no tienes ningún arma de Magia, Distancia o Nigromancia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
         "en": "Head west, open the tomb door, and then go through it.",
         "es": "Ve hacia el oeste, abre la puerta de la tumba y luego crúzala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
         "en": "Defeat Caitlin.",
         "es": "Derrota a Caitlin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
         "en": "Go south and operate the winch.",
         "es": "Ve hacia el sur y acciona el torno."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
-        "en": "Talk to Caitlin. (opciones de chat: 2 Time for you to die!)",
-        "es": "Habla con Caitlin. (opciones de chat: 2 ¡Es hora de que mueras!)"
-      }
+        "en": "Talk to Caitlin.",
+        "es": "Habla con Caitlin."
+      },
+      "chatOptions": [
+        "2 Time for you to die!"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
         "en": "Take her staff.",
         "es": "Coge su bastón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
-        "en": "Go down one of the stairs to the west. (opciones de chat: Any)",
-        "es": "Baja por una de las escaleras hacia el oeste. (opciones de chat: Cualquiera)"
-      }
+        "en": "Go down one of the stairs to the west.",
+        "es": "Baja por una de las escaleras hacia el oeste."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
-        "en": "Defeat Reese and talk to him. (opciones de chat: 2 Time for you to die!)",
-        "es": "Derrota a Reese y habla con él. (opciones de chat: 2 ¡Es hora de que mueras!)"
-      }
+        "en": "Defeat Reese and talk to him.",
+        "es": "Derrota a Reese y habla con él."
+      },
+      "chatOptions": [
+        "2 Time for you to die!"
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
-        "en": "Untie Ilona. (opciones de chat: 1 Yes, rescue Ilona.)",
-        "es": "Desata a Ilona. (opciones de chat: 1 Sí, rescatar a Ilona.)"
-      }
+        "en": "Untie Ilona.",
+        "es": "Desata a Ilona."
+      },
+      "chatOptions": [
+        "1 Yes, rescue Ilona."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "A cutscene will occur. (opciones de chat: 1 I'm ready for my reward.)",
-        "es": "Ocurrirá una cutscene. (opciones de chat: 1 Estoy listo para mi recompensa.)"
-      }
+        "en": "A cutscene will occur.",
+        "es": "Ocurrirá una cutscene."
+      },
+      "chatOptions": [
+        "1 I'm ready for my reward."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

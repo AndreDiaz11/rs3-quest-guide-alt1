@@ -2,7 +2,8 @@
   "id": "in-pyre-need",
   "title": "In Pyre Need",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:30:56.228Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:28.131Z",
   "icon": "https://runescape.wiki/images/In_Pyre_Need_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -98,79 +99,101 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/In_Pyre_Need_reward.png?2cc00",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to the Priest of Guthix just southwest of the Piscatoris Fishing Colony (slightly north west if using fairy ring ). (opciones de chat: Accept • 4 No more questions.)",
-        "es": "Habla con el Priest of Guthix justo al suroeste de Piscatoris Fishing Colony (un poco al noroeste si usas el fairy ring). (opciones de chat: Accept • 4 No more questions.)"
-      }
+        "en": "Talk to the Priest of Guthix just southwest of the Piscatoris Fishing Colony (slightly north west if using fairy ring AKQ).",
+        "es": "Habla con el Priest of Guthix justo al suroeste de Piscatoris Fishing Colony (un poco al noroeste si usas el fairy ring)."
+      },
+      "chatOptions": [
+        "Accept",
+        "4 No more questions."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Enter the cave.",
         "es": "Entra en la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The Caves",
       "text": {
         "en": "Proceed through the caves whilst cutting twigs from the trees along the way (you should collect 5 total)",
         "es": "Avanza por las cuevas cortando ramitas de los árboles que encuentres por el camino (deberías recolectar 5 en total)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The Phoenix Lair",
       "text": {
         "en": "In the final cave, fletch the twigs into ribbons.",
         "es": "En la última cueva, fabrica cintas con las ramitas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The Phoenix Lair",
       "text": {
         "en": "Craft the pyre then light it.",
         "es": "Crea la pira y enciéndela."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The Phoenix Lair",
       "text": {
         "en": "Talk to the Phoenix.",
         "es": "Habla con el Phoenix."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The Phoenix Lair",
       "text": {
         "en": "Exit the cave entrance.",
         "es": "Sal por la entrada de la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The Phoenix Lair",
       "text": {
         "en": "Talk to Brian Twitcher (Priest of Guthix).",
         "es": "Habla con Brian Twitcher (Priest of Guthix)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The Phoenix Lair",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

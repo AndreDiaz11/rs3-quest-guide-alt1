@@ -2,7 +2,8 @@
   "id": "guys-and-dolls",
   "title": "Guys and Dolls",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:26:04.245Z",
+  "isSeasonal": true,
+  "guideLastUpdated": "2026-07-04T18:34:20.170Z",
   "icon": "https://runescape.wiki/images/thumb/Guys_and_Dolls_icon.png/50px-Guys_and_Dolls_icon.png",
   "series": "Harvest Hollow",
   "age": "Ambiguous",
@@ -78,72 +79,92 @@
       "image": "https://runescape.wiki/images/thumb/Emotes_tab.png/100px-Emotes_tab.png?6d16f"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Guys_and_Dolls_reward.png?579d9",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
-        "en": "Talk to Guy at the bonfire in Harvest Hollow. (opciones de chat: Accept)",
-        "es": "Habla con Guy en la hoguera en Harvest Hollow. (opciones de chat: Accept)"
-      }
+        "en": "Talk to Guy at the bonfire in Harvest Hollow.",
+        "es": "Habla con Guy en la hoguera en Harvest Hollow."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Talk to Dolly on the southern docks of City of Um, just east of Buried Bargains.",
         "es": "Habla con Dolly en los muelles del sur de City of Um, justo al este de Buried Bargains."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Talk to Guy at the bonfire.",
         "es": "Habla con Guy en la hoguera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Talk to Doyle on the western side of Harvest Hollow.",
         "es": "Habla con Doyle en el lado oeste de Harvest Hollow."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Deposit at the harvest cart next to Doyle.",
         "es": "Deposita en el carro de la cosecha junto a Doyle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
-        "en": "Talk to Doyle. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Doyle. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Talk to Doyle.",
+        "es": "Habla con Doyle."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Talk to Guy at the bonfire.",
         "es": "Habla con Guy en la hoguera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
-  ],
-  "isSeasonal": true
+  ]
 }

@@ -2,7 +2,8 @@
   "id": "the-death-of-chivalry",
   "title": "The Death of Chivalry",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:03:08.446Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:16.339Z",
   "icon": "https://runescape.wiki/images/The_Death_of_Chivalry_icon.png",
   "series": "Sliske's Game",
   "age": "6",
@@ -138,6 +139,7 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Death_of_Chivalry_reward.png?b8de1",
   "postQuest": [
     {
       "type": "item",
@@ -186,410 +188,530 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Meeting Saradomin",
       "text": {
-        "en": "Speak to Sir Owen in the garden north of the Edgeville Monastery. (opciones de chat: 1 The who with the what now? • 1 I guess I have one of those faces. • 1 Saradomin must have had a good reason...)",
-        "es": "Habla con Sir Owen en el jardín al norte del Edgeville Monastery. (opciones de chat: 1 ¿El quién con el qué ahora? • 1 Supongo que tengo una de esas caras. • 1 Saradomin debía tener una buena razón...)"
-      }
+        "en": "Speak to Sir Owen in the garden north of the Edgeville Monastery.",
+        "es": "Habla con Sir Owen en el jardín al norte del Edgeville Monastery."
+      },
+      "chatOptions": [
+        "1 The who with the what now?",
+        "1 I guess I have one of those faces.",
+        "1 Saradomin must have had a good reason..."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Meeting Saradomin",
       "text": {
-        "en": "Talk to Saradomin after the cutscene. (opciones de chat: 1 (Kneel before Saradomin.) • 2 How can I help? • Accept)",
+        "en": "Talk to Saradomin after the cutscene.",
         "es": "Habla con Saradomin tras la escena. (opciones de chat: 1 (Arrodíllate ante Saradomin.) • 2 ¿Cómo puedo ayudar? • Aceptar)"
-      }
+      },
+      "chatOptions": [
+        "1 (Kneel before Saradomin.)",
+        "2 How can I help?",
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Meeting Saradomin",
       "text": {
-        "en": "Alternatively if aligned with another god. (opciones de chat: 1 (Remain standing.) • Any • Any • Accept)",
+        "en": "Alternatively if aligned with another god.",
         "es": "Alternativamente, si estás alineado con otro dios. (opciones de chat: 1 (Permanece de pie.) • Cualquiera • Cualquiera • Aceptar)"
-      }
+      },
+      "chatOptions": [
+        "1 (Remain standing.)",
+        "Any",
+        "Any",
+        "Accept"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Meeting Saradomin",
       "text": {
         "en": "Pick up the suit of armour just south-west of you and equip it.",
         "es": "Recoge el traje de armadura justo al suroeste y equípatelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Meeting Saradomin",
       "text": {
-        "en": "Talk to Saradomin. (opciones de chat: 1 Yes, teleport us to the Black Knights' Fortress.) There are multiple possibilities, choice-wise, to get through this. The list below is just a recommended choice order.",
+        "en": "Talk to Saradomin. There are multiple possibilities, choice-wise, to get through this. The list below is just a recommended choice order.",
         "es": "Habla con Saradomin. (opciones de chat: 1 Sí, teletranspórtanos al Black Knights' Fortress.) Hay varias posibilidades de elección para completar esto. La siguiente lista es solo un orden recomendado de opciones."
-      }
+      },
+      "chatOptions": [
+        "1 Yes, teleport us to the Black Knights' Fortress."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Infiltrating the fortress",
       "text": {
         "en": "Open the Portcullis.",
         "es": "Abre el Portcullis."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Infiltrating the fortress",
       "text": {
-        "en": "Fortress guard: (guaranteed suspicion on first chat option) (opciones de chat: Any • 1 He is my prisoner. • 1 No, I have something... special planned for him.)",
-        "es": "Guardia de la fortaleza: (sospecha garantizada en la primera opción de chat) (opciones de chat: Cualquiera • 1 Es mi prisionero. • 1 No, tengo algo... especial planeado para él.)"
-      }
+        "en": "Fortress guard: (guaranteed suspicion on first chat option)",
+        "es": "Guardia de la fortaleza: (sospecha garantizada en la primera opción de chat)"
+      },
+      "chatOptions": [
+        "Any",
+        "1 He is my prisoner.",
+        "1 No, I have something... special planned for him."
+      ]
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Infiltrating the fortress",
       "text": {
         "en": "It is required to dismiss pets and familiars before proceeding.",
         "es": "Es necesario despedir a mascotas y familiares antes de continuar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Infiltrating the fortress",
       "text": {
-        "en": "Head north, to Lieutenant York: (opciones de chat: 2 Are you suggesting I cannot handle a mere knight of Saradomin?)",
-        "es": "Dirígete al norte, hacia Lieutenant York: (opciones de chat: 2 ¿Estás insinuando que no puedo con un simple caballero de Saradomin?)"
-      }
+        "en": "Head north, to Lieutenant York:",
+        "es": "Dirígete al norte, hacia Lieutenant York:"
+      },
+      "chatOptions": [
+        "2 Are you suggesting I cannot handle a mere knight of Saradomin?"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Infiltrating the fortress",
       "text": {
-        "en": "Head north-west, and climb up staircase. The fortress guard will stop you. (opciones de chat: 1 What do you want, maggot? • 2 This prisoner is to be sacrificed.)",
-        "es": "Dirígete al noroeste y sube las escaleras. El guardia de la fortaleza te detendrá. (opciones de chat: 1 ¿Qué quieres, gusano? • 2 Este prisionero será sacrificado.)"
-      }
+        "en": "Head north-west, and climb up staircase. The fortress guard will stop you.",
+        "es": "Dirígete al noroeste y sube las escaleras. El guardia de la fortaleza te detendrá."
+      },
+      "chatOptions": [
+        "1 What do you want, maggot?",
+        "2 This prisoner is to be sacrificed."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Infiltrating the fortress",
       "text": {
-        "en": "Head to the to the south, talk to Hierophant Marius. (opciones de chat: 2 Yes. • 3 I shall return after I deal with this Temple Knight.)",
-        "es": "Dirígete al sur y habla con Hierophant Marius. (opciones de chat: 2 Sí. • 3 Volveré después de encargarme de este Temple Knight.)"
-      }
+        "en": "Head to the to the south, talk to Hierophant Marius.",
+        "es": "Dirígete al sur y habla con Hierophant Marius."
+      },
+      "chatOptions": [
+        "2 Yes.",
+        "3 I shall return after I deal with this Temple Knight."
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Infiltrating the fortress",
       "text": {
-        "en": "Head south-east of the room, and climb up staircase. The fortress guard will stop you. (opciones de chat: 2 I am bringing him to the tallest tower. • 1 We need him to recover the weapon of power, as you know.)",
-        "es": "Dirígete al sureste de la sala y sube las escaleras. El guardia de la fortaleza te detendrá. (opciones de chat: 2 Lo llevo a la torre más alta. • 1 Lo necesitamos para recuperar el arma de poder, como ya sabes.)"
-      }
+        "en": "Head south-east of the room, and climb up staircase. The fortress guard will stop you.",
+        "es": "Dirígete al sureste de la sala y sube las escaleras. El guardia de la fortaleza te detendrá."
+      },
+      "chatOptions": [
+        "2 I am bringing him to the tallest tower.",
+        "1 We need him to recover the weapon of power, as you know."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Infiltrating the fortress",
       "text": {
-        "en": "Go upstairs, head north to Lieutenant Graves. (opciones de chat: 3 Stand aside. I will handle this. • 1 The prisoner stays with me.)",
-        "es": "Sube las escaleras, dirígete al norte hacia Lieutenant Graves. (opciones de chat: 3 Hazte a un lado. Yo me encargo. • 1 El prisionero se queda conmigo.)"
-      }
+        "en": "Go upstairs, head north to Lieutenant Graves.",
+        "es": "Sube las escaleras, dirígete al norte hacia Lieutenant Graves."
+      },
+      "chatOptions": [
+        "3 Stand aside. I will handle this.",
+        "1 The prisoner stays with me."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Infiltrating the fortress",
       "text": {
         "en": "Search the Lieutenant's body, and choose whether you want to kill him or not. It doesn't matter.",
         "es": "Registra el cuerpo del Lieutenant y decide si quieres matarlo o no. No importa cuál elijas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "The marker",
       "text": {
         "en": "Head up the stairs in the north-east to the ritual chamber.",
         "es": "Sube las escaleras del noreste hacia la cámara ritual."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "The marker",
       "text": {
         "en": "Search the wardrobe for a Letter from Lord Daquarius.",
         "es": "Registra el armario en busca de una Letter from Lord Daquarius."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "The marker",
       "text": {
         "en": "Search the box of candles for three red candles.",
         "es": "Registra la caja de velas en busca de tres velas rojas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "The marker",
       "text": {
         "en": "Search the shelf for chalk.",
         "es": "Registra la estantería en busca de tiza."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "The marker",
       "text": {
-        "en": "Pick up the Grimoire and read it. (opciones de chat: 1 Read the book.)",
-        "es": "Recoge el Grimoire y léelo. (opciones de chat: 1 Leer el libro.)"
-      }
+        "en": "Pick up the Grimoire and read it.",
+        "es": "Recoge el Grimoire y léelo."
+      },
+      "chatOptions": [
+        "1 Read the book."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "The marker",
       "text": {
         "en": "Use a candle on each stand, and fix the symbol on the floor.",
         "es": "Usa una vela en cada soporte y ajusta el símbolo en el suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "The marker",
       "text": {
         "en": "Light the candles.",
         "es": "Enciende las velas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "The marker",
       "text": {
         "en": "Use chalk on Ritual circle. Note: The below incantations must be said in the order as they are written.",
         "es": "Usa la tiza en el círculo ritual. Nota: los siguientes cánticos deben decirse en el orden en que están escritos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The candles",
       "text": {
-        "en": "Chant over the north-west candle. (opciones de chat: 3 Arom. • 4 Nahrea. • 2 Imperium.)",
-        "es": "Canta sobre la vela del noroeste. (opciones de chat: 3 Arom. • 4 Nahrea. • 2 Imperium.)"
-      }
+        "en": "Chant over the north-west candle.",
+        "es": "Canta sobre la vela del noroeste."
+      },
+      "chatOptions": [
+        "3 Arom.",
+        "4 Nahrea.",
+        "2 Imperium."
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "The candles",
       "text": {
-        "en": "Chant over the north-east candle. (opciones de chat: 2 Feritas. • 4 Silenti. • 2 Sepulchrum.)",
-        "es": "Canta sobre la vela del noreste. (opciones de chat: 2 Feritas. • 4 Silenti. • 2 Sepulchrum.)"
-      }
+        "en": "Chant over the north-east candle.",
+        "es": "Canta sobre la vela del noreste."
+      },
+      "chatOptions": [
+        "2 Feritas.",
+        "4 Silenti.",
+        "2 Sepulchrum."
+      ]
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "The candles",
       "text": {
-        "en": "Chant over the south-east candle. (opciones de chat: 4 Igasac. • 2 Perdimit. • 4 Ebulam.)",
-        "es": "Canta sobre la vela del sureste. (opciones de chat: 4 Igasac. • 2 Perdimit. • 4 Ebulam.)"
-      }
+        "en": "Chant over the south-east candle.",
+        "es": "Canta sobre la vela del sureste."
+      },
+      "chatOptions": [
+        "4 Igasac.",
+        "2 Perdimit.",
+        "4 Ebulam."
+      ]
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "The candles",
       "text": {
-        "en": "Enter the portal. (opciones de chat: 1 Yes, enter the portal.)",
-        "es": "Entra en el portal. (opciones de chat: 1 Sí, entrar en el portal.)"
-      }
+        "en": "Enter the portal.",
+        "es": "Entra en el portal."
+      },
+      "chatOptions": [
+        "1 Yes, enter the portal."
+      ]
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "The candles",
       "text": {
         "en": "You must remove the suit of armour that was equipped at the beginning of the quest.",
         "es": "Debes quitarte el traje de armadura que te equipaste al principio de la misión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "The Saradominist crypt",
       "text": {
         "en": "Defeat the three Black Knights.",
         "es": "Derrota a los tres Black Knights."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "The Saradominist crypt",
       "text": {
         "en": "Search their bodies for Cage door key.",
         "es": "Registra sus cuerpos en busca de la Cage door key."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "The Saradominist crypt",
       "text": {
         "en": "Unlock the hanging cage to the north, freeing the Damsel.",
         "es": "Abre la jaula colgante al norte, liberando a la Damsel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "The Saradominist crypt",
       "text": {
-        "en": "Talk to Dawn and learn all she knows. (opciones de chat: 1 Where are we? • 2 Who's Saint Elspeth? • 3 How did the Kinshra capture you? • 4 Continue. • 1 Let's take her with us.)",
-        "es": "Habla con Dawn y averigua todo lo que sabe. (opciones de chat: 1 ¿Dónde estamos? • 2 ¿Quién es Saint Elspeth? • 3 ¿Cómo te capturaron los Kinshra? • 4 Continuar. • 1 Vamos a llevárnosla con nosotros.)"
-      }
+        "en": "Talk to Dawn and learn all she knows.",
+        "es": "Habla con Dawn y averigua todo lo que sabe."
+      },
+      "chatOptions": [
+        "1 Where are we?",
+        "2 Who's Saint Elspeth?",
+        "3 How did the Kinshra capture you?",
+        "4 Continue.",
+        "1 Let's take her with us."
+      ]
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "The Saradominist crypt",
       "text": {
         "en": "Search the supply crate south of the portal.",
         "es": "Registra la caja de suministros al sur del portal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "The Saradominist crypt",
       "text": {
         "en": "Enter the doorway to the east.",
         "es": "Entra por la puerta al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "The Saradominist crypt",
       "text": {
-        "en": "Inspect the coffins or the heaps of bones. ===Fern===",
+        "en": "Inspect the coffins or the heaps of bones.",
         "es": "Inspecciona los ataúdes o los montones de huesos. ===Fern==="
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "The Wand of Resurrection",
       "text": {
-        "en": "Open the portcullis to the south.",
+        "en": "Head south, to the Wand of Resurrection.",
         "es": "Abre el Portcullis al sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "The Wand of Resurrection",
       "text": {
-        "en": "Search the Black Knight's bodies.",
+        "en": "Solve the puzzle by matching the tiles to lower the barrier.",
         "es": "Registra los cuerpos de los Black Knight."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
-      "indent": 0,
+      "indent": 1,
+      "section": "The Wand of Resurrection",
       "text": {
-        "en": "Talk to Fern and defeat her. (opciones de chat: 3 I am ready to be judged. • 1 I fight to protect the innocent. • 2 I'm ready.)",
-        "es": "Habla con Fern y derrótala. (opciones de chat: 3 Estoy listo para ser juzgado. • 1 Lucho para proteger a los inocentes. • 2 Estoy listo.)"
-      }
+        "en": "The image of the completed puzzle is taken with the compass facing south.",
+        "es": "Habla con Fern y derrótala."
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
-      "indent": 1,
+      "indent": 0,
+      "section": "The Wand of Resurrection",
       "text": {
-        "en": "If The Restless Ghost has been completed, (opciones de chat: 4 I am ready to be judged. • 1 I fight to protect the innocent. • 2 I'm ready.)",
-        "es": "Si se ha completado The Restless Ghost, (opciones de chat: 4 Estoy listo para ser juzgado. • 1 Lucho para proteger a los inocentes. • 2 Estoy listo.)"
-      }
+        "en": "Try to take the wand. A chat option appears. Select offer to risk your life.",
+        "es": "Si se ha completado The Restless Ghost,"
+      },
+      "chatOptions": [
+        "2 I shall sacrifice my own blood.",
+        "1 Yes."
+      ]
     },
     {
       "index": 38,
-      "indent": 1,
+      "indent": 0,
+      "section": "Fighting for the wand",
       "text": {
-        "en": "Dodge her charge ability.",
+        "en": "Head north. Talk to Dawn.",
         "es": "Esquiva su habilidad de carga."
-      }
+      },
+      "chatOptions": [
+        "3 Give me the wand or you won't live to regret it.",
+        "2 Continue"
+      ]
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Fighting for the wand",
       "text": {
-        "en": "Head south, to the Wand of Resurrection.",
+        "en": "Defeat the Black Knights and Sir Owen.",
         "es": "Dirígete al sur, hacia la Wand of Resurrection."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Fighting for the wand",
       "text": {
-        "en": "Solve the puzzle by matching the tiles to lower the barrier.",
+        "en": "Go north and open the portcullis.",
         "es": "Resuelve el puzle emparejando las baldosas para bajar la barrera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
-      "indent": 1,
+      "indent": 0,
+      "section": "Fighting for the wand",
       "text": {
-        "en": "The image of the completed puzzle is taken with the compass facing south.",
+        "en": "Kill Dawn. Refer to the full guide if you're having trouble.",
         "es": "La imagen del puzle completado se toma con la brújula orientada hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Saradomin and the wand",
       "text": {
-        "en": "Try to take the wand. A chat option appears. Select offer to risk your life. (opciones de chat: 2 I shall sacrifice my own blood. • 1 Yes.)",
-        "es": "Intenta coger la varita. Aparece una opción de chat. Elige ofrecer arriesgar tu vida. (opciones de chat: 2 Sacrificaré mi propia sangre. • 1 Sí.)"
-      }
+        "en": "Search Dawn's body.",
+        "es": "Intenta coger la varita. Aparece una opción de chat. Elige ofrecer arriesgar tu vida."
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Saradomin and the wand",
       "text": {
-        "en": "Head north. Talk to Dawn. (opciones de chat: 3 Give me the wand or you won't live to regret it. • 2 Continue)",
-        "es": "Dirígete al norte. Habla con Dawn. (opciones de chat: 3 Dame la varita o no vivirás para lamentarlo. • 2 Continuar)"
-      }
+        "en": "Head south, enter the Portcullis and speak with Saradomin.",
+        "es": "Dirígete al norte. Habla con Dawn."
+      },
+      "chatOptions": [
+        "4 I've made my decision.",
+        "2 I will give you the wand.",
+        "2 Were we too late?",
+        "Any",
+        "2 Why would you help us?",
+        "Any"
+      ]
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Saradomin and the wand",
       "text": {
-        "en": "Defeat the Black Knights and Sir Owen.",
+        "en": "When Saradomin asks if the player wants to be teleported back to Edgeville, it is recommended to stay in the tombs, to claim the extra post-quest rewards which require level 40 Strength and two other coffins requiring level 60 and 80 Strength.",
         "es": "Derrota a los Black Knights y a Sir Owen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
-      "text": {
-        "en": "Go north and open the portcullis.",
-        "es": "Ve al norte y abre el Portcullis."
-      }
-    },
-    {
-      "index": 46,
-      "indent": 0,
-      "text": {
-        "en": "Kill Dawn. Refer to the full guide if you're having trouble.",
-        "es": "Mata a Dawn. Consulta la guía completa si tienes problemas."
-      }
-    },
-    {
-      "index": 47,
-      "indent": 0,
-      "text": {
-        "en": "Search Dawn's body.",
-        "es": "Registra el cuerpo de Dawn."
-      }
-    },
-    {
-      "index": 48,
-      "indent": 0,
-      "text": {
-        "en": "Head south, enter the Portcullis and speak with Saradomin. (opciones de chat: 4 I've made my decision. • 2 I will give you the wand. • 2 Were we too late? • Any • 2 Why would you help us? • Any)",
-        "es": "Dirígete al sur, entra por el Portcullis y habla con Saradomin. (opciones de chat: 4 He tomado mi decisión. • 2 Te daré la varita. • 2 ¿Llegamos demasiado tarde? • Cualquiera • 2 ¿Por qué nos ayudarías? • Cualquiera)"
-      }
-    },
-    {
-      "index": 49,
-      "indent": 0,
-      "text": {
-        "en": "When Saradomin asks if the player wants to be teleported back to Edgeville, it is recommended to stay in the tombs, to claim the extra post-quest rewards which require level 40 Strength and two other coffins requiring level 60 and 80 Strength.",
-        "es": "Cuando Saradomin pregunte si el jugador quiere ser teletransportado de vuelta a Edgeville, se recomienda quedarse en las tumbas para reclamar las recompensas adicionales tras la misión, que requieren nivel 40 de Fuerza y otros dos ataúdes que requieren nivel 60 y 80 de Fuerza."
-      }
-    },
-    {
-      "index": 50,
-      "indent": 0,
+      "section": "Saradomin and the wand",
       "text": {
         "en": "Quest complete!",
-        "es": "¡Misión completada!"
-      }
+        "es": "Ve al norte y abre el Portcullis."
+      },
+      "chatOptions": []
     }
   ]
 }

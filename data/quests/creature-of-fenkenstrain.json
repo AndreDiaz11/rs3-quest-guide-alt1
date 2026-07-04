@@ -2,7 +2,8 @@
   "id": "creature-of-fenkenstrain",
   "title": "Creature of Fenkenstrain",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:59:38.990Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:50.582Z",
   "icon": "https://runescape.wiki/images/Creature_of_Fenkenstrain_icon.png",
   "series": null,
   "age": "5",
@@ -108,311 +109,402 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Creature_of_Fenkenstrain_reward.png?5c3ba",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Gravedigger",
       "text": {
-        "en": "Talk to Dr Fenkenstrain at his castle to the north-east of Canifis. (opciones de chat: Accept • 4 Braindead. • 4 Grave-digging.)",
-        "es": "Habla con Dr Fenkenstrain en su castillo, al noreste de Canifis. (opciones de chat: Accept • 4 Braindead. • 4 Grave-digging.)"
-      }
+        "en": "Talk to Dr Fenkenstrain at his castle to the north-east of Canifis.",
+        "es": "Habla con Dr Fenkenstrain en su castillo, al noreste de Canifis."
+      },
+      "chatOptions": [
+        "Accept",
+        "4 Braindead.",
+        "4 Grave-digging."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Gravedigger",
       "text": {
         "en": "Go upstairs by the eastern or western staircase and read from the bookcases in the western and eastern rooms:",
         "es": "Sube por la escalera este u oeste y lee los libreros de las habitaciones oeste y este:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Gravedigger",
       "text": {
-        "en": "\"The Joy Of Grave Digging\" in the west bookcase. (opciones de chat: 4 The Joy of Gravedigging)",
-        "es": "\"The Joy Of Grave Digging\" en el librero oeste. (opciones de chat: 4 The Joy of Gravedigging)"
-      }
+        "en": "\"The Joy Of Grave Digging\" in the west bookcase.",
+        "es": "\"The Joy Of Grave Digging\" en el librero oeste."
+      },
+      "chatOptions": [
+        "4 The Joy of Gravedigging"
+      ]
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Gravedigger",
       "text": {
-        "en": "\"Handy Maggot Avoidance Techniques\" in the east bookcase. (opciones de chat: 3 Handy Maggot Avoidance Techniques)",
-        "es": "\"Handy Maggot Avoidance Techniques\" en el librero este. (opciones de chat: 3 Handy Maggot Avoidance Techniques)"
-      }
+        "en": "\"Handy Maggot Avoidance Techniques\" in the east bookcase.",
+        "es": "\"Handy Maggot Avoidance Techniques\" en el librero este."
+      },
+      "chatOptions": [
+        "3 Handy Maggot Avoidance Techniques"
+      ]
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Gravedigger",
       "text": {
         "en": "Use the marble amulet on the obsidian amulet in your backpack to form the star amulet.",
         "es": "Usa el amulet de mármol en el amulet de obsidiana de tu mochila para formar el star amulet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Decapitated head",
       "text": {
         "en": "Equip your ghostspeak amulet.",
         "es": "Equípate el ghostspeak amulet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Decapitated head",
       "text": {
-        "en": "Talk to the Gardener Ghost on the in the northern side. (opciones de chat: 2 What happened to your head?)",
-        "es": "Habla con el Gardener Ghost en el lado norte. (opciones de chat: 2 What happened to your head?)"
-      }
+        "en": "Talk to the Gardener Ghost on the in the northern side.",
+        "es": "Habla con el Gardener Ghost en el lado norte."
+      },
+      "chatOptions": [
+        "2 What happened to your head?"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Decapitated head",
       "text": {
         "en": "Lead him south-east into the Haunted Woods. (Don't worry about him getting stuck he will teleport back to you)",
         "es": "Guíalo hacia el sureste, hacia el Haunted Woods. (No te preocupes si se atasca, se teletransportará de vuelta a ti)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Decapitated head",
       "text": {
         "en": "Periodically talk to him for directions and dig at graves by choosing the \"Dig\" option until the decapitated head is found.",
         "es": "Habla con él de vez en cuando para que te dé indicaciones y cava en las tumbas eligiendo la opción \"Dig\" hasta encontrar la cabeza decapitada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Decapitated head",
       "text": {
         "en": "The grave is about 10 squares east and 5 squares south of the fairy ring. Choose the \"Dig\" option on the nearby grave.",
         "es": "La tumba está unas 10 casillas al este y 5 al sur del fairy ring. Elige la opción \"Dig\" en la tumba cercana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Pickled brain",
       "text": {
         "en": "Go to the tavern in Canifis.",
         "es": "Ve a la taberna de Canifis."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Pickled brain",
       "text": {
         "en": "Take a pickled brain off the table for 50 coins or by using Telekinetic Grab on it.",
         "es": "Coge un cerebro en conserva de la mesa por 50 monedas, o usando Telekinetic Grab sobre él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Pickled brain",
       "text": {
         "en": "Telekinetic grabbing the brain completes a medium Morytania achievement, Brain Bending.",
         "es": "Usar Telekinetic Grab en el cerebro completa un logro de Morytania de dificultad media, Brain Bending."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Pickled brain",
       "text": {
         "en": "Use the decapitated head on the pickled brain.",
         "es": "Usa la cabeza decapitada en el cerebro en conserva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Arms, legs and torso",
       "text": {
         "en": "Head east of Fenkenstrain's Castle to the tombstones just west of the Musician.",
         "es": "Dirígete al este de Fenkenstrain's Castle, hacia las lápidas justo al oeste del Musician."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Arms, legs and torso",
       "text": {
         "en": "Use the star amulet on the easternmost memorial.",
         "es": "Usa el star amulet en el monumento más al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Arms, legs and torso",
       "text": {
         "en": "Push the memorial to enter Fenkenstrain's Dungeon.",
         "es": "Empuja el monumento para entrar en Fenkenstrain's Dungeon."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Arms, legs and torso",
       "text": {
         "en": "Kill an experiment creature with a wolf's body and woman's head and pick up the cavern key.",
         "es": "Mata a una criatura experimental con cuerpo de lobo y cabeza de mujer, y recoge la cavern key."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Arms, legs and torso",
       "text": {
         "en": "Continue north-west and open the entrance.",
         "es": "Continúa hacia el noroeste y abre la entrada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Arms, legs and torso",
       "text": {
         "en": "Go up the ladder.",
         "es": "Sube por la escalera de mano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Arms, legs and torso",
       "text": {
         "en": "Go north and right-click dig on all 3 of the graves to obtain torso, arms and legs",
         "es": "Ve al norte y haz clic derecho para cavar (\"dig\") en las 3 tumbas para obtener el torso, los brazos y las piernas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Lightning",
       "text": {
-        "en": "Teleport back to Canifis and talk to Dr Fenkenstrain in his castle. (opciones de chat: 1 I have some body parts for you.)",
-        "es": "Teletranspórtate de vuelta a Canifis y habla con Dr Fenkenstrain en su castillo. (opciones de chat: 1 I have some body parts for you.)"
-      }
+        "en": "Teleport back to Canifis and talk to Dr Fenkenstrain in his castle.",
+        "es": "Teletranspórtate de vuelta a Canifis y habla con Dr Fenkenstrain en su castillo."
+      },
+      "chatOptions": [
+        "1 I have some body parts for you."
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Lightning",
       "text": {
         "en": "Talk to Dr Fenkenstrain again to turn in needle and thread.",
         "es": "Habla de nuevo con Dr Fenkenstrain para entregarle la aguja y el hilo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Lightning",
       "text": {
-        "en": "Talk to the Gardener Ghost to receive the shed key. (opciones de chat: 2 Do you know where the key to the shed is?)",
-        "es": "Habla con el Gardener Ghost para recibir la shed key. (opciones de chat: 2 Do you know where the key to the shed is?)"
-      }
+        "en": "Talk to the Gardener Ghost to receive the shed key.",
+        "es": "Habla con el Gardener Ghost para recibir la shed key."
+      },
+      "chatOptions": [
+        "2 Do you know where the key to the shed is?"
+      ]
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Lightning",
       "text": {
         "en": "Enter the shed next to Gardener Ghost, and search the cupboard for a garden brush.",
         "es": "Entra en el cobertizo junto al Gardener Ghost y busca en el armario un garden brush."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Lightning",
       "text": {
         "en": "Take 3 garden canes from the pile just outside.",
         "es": "Coge 3 garden canes del montón que hay justo afuera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Lightning",
       "text": {
         "en": "Use the 3 garden canes on the brush for an extended brush, consuming 3 spools of bronze wire.",
         "es": "Usa las 3 garden canes en el cepillo para obtener un extended brush, consumiendo 3 spools of bronze wire."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Lightning",
       "text": {
         "en": "Go up the west stairs, and use the extended brush on the fireplace in the nearby room for a conductor mould.",
         "es": "Sube las escaleras del oeste y usa el extended brush en la chimenea de la habitación cercana para obtener un conductor mould."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Lightning",
       "text": {
         "en": "At any furnace, make the conductor with a silver bar. In the smelting interface, look under the 'casting metals & glass' section. Under the 'silver casting' subsection of that section, there will be an option to make a conductor.",
         "es": "En cualquier horno, fabrica el conductor con una barra de plata. En la interfaz de fundición, busca la sección 'casting metals & glass'. En la subsección 'silver casting' de esa sección, habrá una opción para fabricar un conductor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Lightning",
       "text": {
         "en": "Be sure to make only one, as the furnace will try to use multiple bars.",
         "es": "Asegúrate de fabricar solo uno, ya que el horno intentará usar varias barras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Lightning",
       "text": {
         "en": "Go back to the castle and go up either staircase.",
         "es": "Vuelve al castillo y sube por cualquiera de las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Lightning",
       "text": {
         "en": "Go up the ladder in the southern room.",
         "es": "Sube por la escalera de mano en la habitación sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Lightning",
       "text": {
         "en": "Repair the lightning conductor.",
         "es": "Repara el lightning conductor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Lord Rologarth",
       "text": {
         "en": "Talk to Dr Fenkenstrain.",
         "es": "Habla con Dr Fenkenstrain."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Lord Rologarth",
       "text": {
         "en": "Go upstairs and use the ladder in the central northern room.",
         "es": "Sube las escaleras y usa la escalera de mano en la habitación central del norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Lord Rologarth",
       "text": {
         "en": "Talk to Fenkenstrain's Monster.",
         "es": "Habla con Fenkenstrain's Monster."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Lord Rologarth",
       "text": {
         "en": "Pickpocket Dr Fenkenstrain.",
         "es": "Roba a Dr Fenkenstrain (pickpocket)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Lord Rologarth",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

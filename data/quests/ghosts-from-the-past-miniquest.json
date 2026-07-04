@@ -2,7 +2,8 @@
   "id": "ghosts-from-the-past-miniquest",
   "title": "Ghosts from the Past (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:23:22.852Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:16.661Z",
   "icon": "https://runescape.wiki/images/thumb/Ghosts_from_the_Past_%28miniquest%29_icon.png/50px-Ghosts_from_the_Past_%28miniquest%29_icon.png",
   "series": "Tales of the Arc",
   "age": "6",
@@ -68,55 +69,74 @@
       "image": "https://runescape.wiki/images/thumb/Islands_That_Once_Were_Turtles_teleport_detail.png/100px-Islands_That_Once_Were_Turtles_teleport_detail.png?bf02a"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Ghosts_from_the_Past_%28miniquest%29_reward.png?91b66",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Ghosts from the past",
       "text": {
         "en": "Travel to The Islands That Once Were Turtles.",
         "es": "Viaja a The Islands That Once Were Turtles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Ghosts from the past",
       "text": {
-        "en": "Talk to Quartermaster Gully (if you have just completed Harbringer you may need to relog for the chat option to show up). (opciones de chat: 1 Ghosts from the Past miniquest. • Accept • 5 Enough questions. Let's move on.)",
-        "es": "Habla con Quartermaster Gully (si acabas de completar Harbringer, puede que necesites reconectarte para que aparezca la opción de chat). (opciones de chat: 1 Miniaventura Ghosts from the Past. • Aceptar • 5 Suficientes preguntas. Sigamos adelante.)"
-      }
+        "en": "Talk to Quartermaster Gully (if you have just completed Harbringer you may need to relog for the chat option to show up).",
+        "es": "Habla con Quartermaster Gully (si acabas de completar Harbringer, puede que necesites reconectarte para que aparezca la opción de chat)."
+      },
+      "chatOptions": [
+        "1 Ghosts from the Past miniquest.",
+        "Accept",
+        "5 Enough questions. Let's move on."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Ghosts from the past",
       "text": {
         "en": "Climb both watchtowers on the island and talk to both skeletons of the Skulls pirate and the Skulls mercenary.",
         "es": "Sube a las dos atalayas de la isla y habla con los esqueletos del pirata Skulls y del mercenario Skulls."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Ghosts from the past",
       "text": {
         "en": "Continue north and climb up the observatory.",
         "es": "Continúa hacia el norte y sube al observatorio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Ghosts from the past",
       "text": {
         "en": "Talk to the skeleton of the Skulls thief at the top.",
         "es": "Habla con el esqueleto del ladrón Skulls en la cima."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Ghosts from the past",
       "text": {
-        "en": "Return to Quartermaster Gully. (opciones de chat: 1 Ghosts from the Past miniquest.)",
-        "es": "Regresa con Quartermaster Gully. (opciones de chat: 1 Miniaventura Ghosts from the Past.)"
-      }
+        "en": "Return to Quartermaster Gully.",
+        "es": "Regresa con Quartermaster Gully."
+      },
+      "chatOptions": [
+        "1 Ghosts from the Past miniquest."
+      ]
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "meeting-history",
   "title": "Meeting History",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:38:14.543Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:36.003Z",
   "icon": "https://runescape.wiki/images/Meeting_History_icon.png",
   "series": "Enchanted Key",
   "age": "5",
@@ -77,335 +78,432 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Meeting_History_reward.png?258d1",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Go to the Outpost.",
         "es": "Ve al Outpost."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Speak to Jorral. (opciones de chat: 2 Anything else I can help you with? • Accept)",
-        "es": "Habla con Jorral. (opciones de chat: 2 Anything else I can help you with? • Accept)"
-      }
+        "en": "Speak to Jorral.",
+        "es": "Habla con Jorral."
+      },
+      "chatOptions": [
+        "2 Anything else I can help you with?",
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "As needed, accept his offer to bank your items.",
         "es": "Si es necesario, acepta su oferta de guardar tus objetos en el banco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The right spot",
       "text": {
         "en": "Run east to the sheep pen across the river, or run north-west from Ardougne lodestone.",
         "es": "Corre hacia el este, hasta el corral de ovejas al otro lado del río, o corre hacia el noroeste desde la piedra de viaje de Ardougne."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The right spot",
       "text": {
         "en": "Right-click rub the key in the location shown right (stand on the flowers west of the sheep pen west of the lodestone).",
         "es": "Haz clic derecho para frotar la llave en la ubicación mostrada a la derecha (colócate sobre las flores al oeste del corral de ovejas, al oeste de la piedra de viaje)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The past",
       "text": {
         "en": "Talk to Laura.",
         "es": "Habla con Laura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The past",
       "text": {
         "en": "Rub the enchanted key again.",
         "es": "Frota de nuevo la llave encantada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The past",
       "text": {
         "en": "Return to Jorral and talk to him.",
         "es": "Vuelve con Jorral y habla con él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The past",
       "text": {
         "en": "After the cutscene, go back to the location shown above and rub the key again, choosing \"Past - A.\" (Don't forget to bank your traveller's necklace if you used it to get back to the outpost.)",
         "es": "Después de la escena, vuelve a la ubicación mostrada anteriormente y frota la llave de nuevo, eligiendo \"Past - A\". (No olvides guardar en el banco tu traveller's necklace si la usaste para volver al puesto avanzado.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Helping Jack",
       "text": {
         "en": "While in Past A, talk to Jack.",
         "es": "Mientras estés en Past A, habla con Jack."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Helping Jack",
       "text": {
-        "en": "Rub the key, go to Past B, talk to Jack. (opciones de chat: 2 Perhaps you'd spare the time if I read your mind with magic?)",
-        "es": "Frota la llave, ve a Past B y habla con Jack. (opciones de chat: 2 Perhaps you'd spare the time if I read your mind with magic?)"
-      }
+        "en": "Rub the key, go to Past B, talk to Jack.",
+        "es": "Frota la llave, ve a Past B y habla con Jack."
+      },
+      "chatOptions": [
+        "2 Perhaps you'd spare the time if I read your mind with magic?"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Helping Jack",
       "text": {
-        "en": "Answer with the following: (opciones de chat: 1 Super Jack The Fantasmic. • 2 Cosmic, mind, body, and fire runes. • 3 Misalionar. • 2 Seven. • 3 Trying to create fire. • 1 Create chocolate cakes. • 1 Good. • 3 Strawberry.)",
-        "es": "Responde con lo siguiente: (opciones de chat: 1 Super Jack The Fantasmic. • 2 Cosmic, mind, body, and fire runes. • 3 Misalionar. • 2 Seven. • 3 Trying to create fire. • 1 Create chocolate cakes. • 1 Good. • 3 Strawberry.)"
-      }
+        "en": "Answer with the following:",
+        "es": "Responde con lo siguiente:"
+      },
+      "chatOptions": [
+        "1 Super Jack The Fantasmic.",
+        "2 Cosmic, mind, body, and fire runes.",
+        "3 Misalionar.",
+        "2 Seven.",
+        "3 Trying to create fire.",
+        "1 Create chocolate cakes.",
+        "1 Good.",
+        "3 Strawberry."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Helping Jack",
       "text": {
         "en": "Go to Past A, take a spade and 6 plant pots from the backyard.",
         "es": "Ve a Past A, coge una pala y 6 macetas del patio trasero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Helping Jack",
       "text": {
         "en": "Use the spade or a plant pot on each seedling.",
         "es": "Usa la pala o una maceta en cada plántula."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Helping Jack",
       "text": {
         "en": "Use the seedling pots on the correct tree spots using this image.",
         "es": "Usa las macetas con plántulas en los lugares correctos para los árboles, según esta imagen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Helping Jack",
       "text": {
         "en": "Go to Past B, talk to Sarah about the trees.",
         "es": "Ve a Past B, habla con Sarah sobre los árboles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Helping Jack",
       "text": {
         "en": "Talk to Jack for a cutscene.",
         "es": "Habla con Jack para ver una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Healing Baby Sarah",
       "text": {
         "en": "Go to Past A, talk to Roger.",
         "es": "Ve a Past A, habla con Roger."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Healing Baby Sarah",
       "text": {
         "en": "Go to Past B, talk to Sarah.",
         "es": "Ve a Past B, habla con Sarah."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Healing Baby Sarah",
       "text": {
         "en": "Go to Past A, search the south-east side table inside to find a pestle and mortar, bucket of milk and a clean guam.",
         "es": "Ve a Past A y busca en la mesa auxiliar del lado sureste, dentro de la casa, para encontrar un mortero con maja, un cubo de leche y un guam limpio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Healing Baby Sarah",
       "text": {
         "en": "Search the middle shelf (south side) for a bowl.",
         "es": "Busca en la estantería central (lado sur) para encontrar un cuenco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Healing Baby Sarah",
       "text": {
         "en": "Use the bowl on the beehive just west of the house.",
         "es": "Usa el cuenco en la colmena justo al oeste de la casa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Healing Baby Sarah",
       "text": {
         "en": "Use the pestle and mortar on the clean guam.",
         "es": "Usa el mortero con maja en el guam limpio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Healing Baby Sarah",
       "text": {
         "en": "Use the bucket of milk on the bowl of honey.",
         "es": "Usa el cubo de leche en el cuenco de miel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Healing Baby Sarah",
       "text": {
         "en": "Add the ground guam.",
         "es": "Añade el guam molido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Healing Baby Sarah",
       "text": {
         "en": "Use the bowl of milk, honey and guam on Baby Sarah (right click so that you don't use the bowl on the basket).",
         "es": "Usa el cuenco con leche, miel y guam en Baby Sarah (haz clic derecho para no usar el cuenco en la cesta)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Healing Baby Sarah",
       "text": {
         "en": "Talk to Roger again for a cutscene.",
         "es": "Habla de nuevo con Roger para ver una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "A map for Laura",
       "text": {
         "en": "Go to Past B, talk to Laura.",
         "es": "Ve a Past B, habla con Laura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "A map for Laura",
       "text": {
         "en": "Go to Past A, search either the south-western or south-eastern shelves in the house for a papyrus and charcoal.",
         "es": "Ve a Past A y busca en las estanterías del suroeste o del sureste de la casa para encontrar un papiro y carbón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "A map for Laura",
       "text": {
         "en": "Use the charcoal on the papyrus.",
         "es": "Usa el carbón en el papiro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "A map for Laura",
       "text": {
         "en": "Give this to Laura.",
         "es": "Dale esto a Laura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "A map for Laura",
       "text": {
         "en": "Go to Past B, talk to Laura.",
         "es": "Ve a Past B, habla con Laura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Laura's brooch",
       "text": {
         "en": "Go to Past A.",
         "es": "Ve a Past A."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Laura's brooch",
       "text": {
         "en": "Inside the house, search the 3 stone bedside tables (One of them should contain the brooch)",
         "es": "Dentro de la casa, busca en las 3 mesitas de piedra junto a la cama (una de ellas debería contener el broche)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Laura's brooch",
       "text": {
         "en": "Use the brooch on the soil mound west of the shed Laura is building.",
         "es": "Usa el broche en el montículo de tierra al oeste del cobertizo que Laura está construyendo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Laura's brooch",
       "text": {
         "en": "Go to Past B, take the spade from the shed.",
         "es": "Ve a Past B, coge la pala del cobertizo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Laura's brooch",
       "text": {
         "en": "Dig up the brooch.",
         "es": "Desentierra el broche."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Laura's brooch",
       "text": {
         "en": "Talk to Laura for a cutscene.",
         "es": "Habla con Laura para ver una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Return to the present.",
         "es": "Vuelve al presente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Jorral.",
         "es": "Habla con Jorral."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

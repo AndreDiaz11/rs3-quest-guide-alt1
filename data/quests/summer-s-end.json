@@ -2,7 +2,8 @@
   "id": "summer-s-end",
   "title": "Summer's End",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:18:45.278Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:09.132Z",
   "icon": "https://runescape.wiki/images/Summer%27s_End_icon.png",
   "series": "Summer",
   "age": "ambiguous",
@@ -174,6 +175,7 @@
       "image": "https://runescape.wiki/images/thumb/Spirit_shield_detail.png/100px-Spirit_shield_detail.png?a6bae"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Summer%27s_End_reward.png?d2a56",
   "postQuest": [
     {
       "type": "item",
@@ -190,226 +192,288 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
-        "en": "Equip your ghost speak amulet and Talk to Summer at the Wilderness wall, north-east of Varrock. (opciones de chat: Accept)",
-        "es": "Equípate el amuleto de habla fantasmal y habla con Summer en el muro del Wilderness, al noreste de Varrock. (opciones de chat: Aceptar)"
-      }
+        "en": "Equip your ghost speak amulet and Talk to Summer at the Wilderness wall, north-east of Varrock.",
+        "es": "Equípate el amuleto de habla fantasmal y habla con Summer en el muro del Wilderness, al noreste de Varrock."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "Stand on the white portal.",
         "es": "Colócate sobre el portal blanco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "After the dialogue, equip and right-click operate Jennica's ring while standing on the portal to return to the real world.",
         "es": "Después del diálogo, equípate y haz clic derecho para usar el Jennica's ring mientras estás sobre el portal para volver al mundo real."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "Run northwest, past the dead trees to the dungeon, right-click and collapse the entrance.",
         "es": "Corre hacia el noroeste, pasando los árboles muertos hasta la mazmorra, haz clic derecho y colapsa la entrada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "Go back to the ruins and operate Jennica's ring while standing on the white portal to return to the spirit realm.",
         "es": "Vuelve a las ruinas y usa el Jennica's ring mientras estás sobre el portal blanco para volver al reino espiritual."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "Run north and lure the beast to the entrance with your blue charm familiar. Enter the cave before it has a chance to consume your familiar.",
         "es": "Corre hacia el norte y atrae a la bestia hacia la entrada con tu familiar de blue charm. Entra en la cueva antes de que tenga oportunidad de consumir a tu familiar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Inside the cave",
       "text": {
         "en": "Avoid the beast's ranged attacks by moving away from the missiles.",
         "es": "Evita los ataques a distancia de la bestia apartándote de los proyectiles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Inside the cave",
       "text": {
         "en": "Chop roots along the walls to obtain cursed willow logs. You will need 15 in total.",
         "es": "Corta las raíces junto a las paredes para obtener cursed willow logs. Necesitarás 15 en total."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Inside the cave",
       "text": {
         "en": "(Optional) Right-click use an extra log on the middle fire pit, and then lure the Beast behind it to avoid attacks while cutting the remaining logs.",
         "es": "(Opcional) Haz clic derecho para usar un tronco extra en la hoguera central, y luego atrae a la Beast detrás de ella para evitar los ataques mientras cortas los troncos restantes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Inside the cave",
       "text": {
         "en": "Right-click use 5 logs on one of the fire pits and then light it.",
         "es": "Haz clic derecho para usar 5 troncos en una de las hogueras y luego enciéndela."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Inside the cave",
       "text": {
         "en": "Do not light other fire pits during cutscene.",
         "es": "No enciendas otras hogueras durante la escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Inside the cave",
       "text": {
         "en": "Repeat for a total of three fire pits.",
         "es": "Repite esto hasta completar un total de tres hogueras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Inside the cave",
       "text": {
         "en": "If you die during the encounter your progress will be saved but unlit logs will be cleared.",
         "es": "Si mueres durante el encuentro, tu progreso se guardará pero los troncos sin encender se perderán."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Inside the cave",
       "text": {
         "en": "(Optional) Restock your food and return to Summer to continue.",
         "es": "(Opcional) Reabastece tu comida y vuelve con Summer para continuar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "The dark core",
       "text": {
-        "en": "Enter the next room by going through the passage in the south-east corner. (opciones de chat: 1 Yes, I know what to do.)",
-        "es": "Entra en la siguiente sala pasando por el pasadizo de la esquina sureste. (opciones de chat: 1 Sí, sé lo que tengo que hacer.)"
-      }
+        "en": "Enter the next room by going through the passage in the south-east corner.",
+        "es": "Entra en la siguiente sala pasando por el pasadizo de la esquina sureste."
+      },
+      "chatOptions": [
+        "1 Yes, I know what to do."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "The dark core",
       "text": {
         "en": "Avoid the missiles like before.",
         "es": "Evita los proyectiles como antes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "The dark core",
       "text": {
         "en": "Soon a dark core will appear, dig soft soil and lure the core into the hole.",
         "es": "Pronto aparecerá un dark core; cava tierra blanda y atrae al núcleo hacia el agujero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "The dark core",
       "text": {
         "en": "Unlike the previous room, all damage is avoidable in this room.",
         "es": "A diferencia de la sala anterior, en esta sala se puede evitar todo el daño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "The dark core",
       "text": {
         "en": "Run around the beast to avoid its missiles, but allow the beast to continuously attack without having to chase you to get the dark core to spawn faster.",
         "es": "Corre alrededor de la bestia para evitar sus proyectiles, pero deja que la bestia te ataque continuamente sin tener que perseguirte para que el dark core aparezca más rápido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "The dark core",
       "text": {
         "en": "Repeat this 3 times until you receive a cutscene.",
         "es": "Repite esto 3 veces hasta que recibas una escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "The dark core",
       "text": {
         "en": "If you die during this encounter, your progress is saved after each trapping.",
         "es": "Si mueres durante este encuentro, tu progreso se guarda después de cada captura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "The coloured graves",
       "text": {
-        "en": "Enter the next room by going through the passage to the east. (opciones de chat: 1 Yes, I am ready.)",
-        "es": "Entra en la siguiente sala pasando por el pasadizo hacia el este. (opciones de chat: 1 Sí, estoy listo.)"
-      }
+        "en": "Enter the next room by going through the passage to the east.",
+        "es": "Entra en la siguiente sala pasando por el pasadizo hacia el este."
+      },
+      "chatOptions": [
+        "1 Yes, I am ready."
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The coloured graves",
       "text": {
         "en": "Take note of which grave the yellow spirit enters.",
         "es": "Fíjate en qué tumba entra el espíritu amarillo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "The coloured graves",
       "text": {
         "en": "Wait for the Beast to charge a yellow attack and bless the grave marker.",
         "es": "Espera a que la Beast cargue un ataque amarillo y bendice la lápida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "The coloured graves",
       "text": {
         "en": "Blessing a grave consumes prayer points, which may be replenished at the altar in the room.",
         "es": "Bendecir una tumba consume puntos de oración, que pueden reponerse en el altar de la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "The coloured graves",
       "text": {
         "en": "Repeat for the red and blue spirit.",
         "es": "Repite esto con el espíritu rojo y el azul."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to the spirits then once outside, talk again.",
         "es": "Habla con los espíritus y luego, una vez fuera, habla de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "the-spirit-of-war",
   "title": "The Spirit of War",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:17:17.553Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:26.754Z",
   "icon": "https://runescape.wiki/images/thumb/The_Spirit_of_War_icon.png/50px-The_Spirit_of_War_icon.png",
   "series": "The First Necromancer",
   "age": "Age of Chaos",
@@ -96,151 +97,193 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Spirit_of_War_reward.png?e5c57",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Rescuing Wayward Souls",
       "text": {
         "en": "Interact with Kharen on the docks in the north-western City of Um, close to the transportation icon.",
         "es": "Interactúa con Kharen en los muelles del noroeste de la City of Um, cerca del icono de transporte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Rescuing Wayward Souls",
       "text": {
         "en": "Either:",
         "es": "Elige una opción:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Rescuing Wayward Souls",
       "text": {
-        "en": "Speak to Ed in a building to the north-east to rent a boat. (opciones de chat: 1 Take a boat out onto the lake.)",
-        "es": "Habla con Ed en un edificio al noreste para alquilar un bote. (opciones de chat: 1 Salir en un bote al lago.)"
-      }
+        "en": "Speak to Ed in a building to the north-east to rent a boat.",
+        "es": "Habla con Ed en un edificio al noreste para alquilar un bote."
+      },
+      "chatOptions": [
+        "1 Take a boat out onto the lake."
+      ]
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Rescuing Wayward Souls",
       "text": {
         "en": "Or choose the option Rent boat on Ed.",
         "es": "O elige la opción Alquilar bote sobre Ed."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Rescuing Wayward Souls",
       "text": {
         "en": "Rescue four Wayward Souls. They are ghastly sphere shapes floating above the Lake Mnemosyne in each of the four corners of the map. Some may be a good distance away from the coastline.",
         "es": "Rescata a cuatro Wayward Souls. Son formas esféricas fantasmales que flotan sobre el Lake Mnemosyne, en cada una de las cuatro esquinas del mapa. Algunas pueden estar bastante alejadas de la costa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Rescuing Wayward Souls",
       "text": {
         "en": "High contrast mode is beneficial for spotting them.",
         "es": "El modo de alto contraste es útil para localizarlas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Rescuing Wayward Souls",
       "text": {
         "en": "Dive and Surge can be used to speed up movement. The Mobile perk (must be on an armour piece, as both hands must be free) and using a powerburst of acceleration will also help.",
         "es": "Puedes usar Dive y Surge para acelerar el movimiento. La ventaja Mobile (debe estar en una pieza de armadura, ya que ambas manos deben estar libres) y usar un powerburst of acceleration también ayudarán."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Rescuing Wayward Souls",
       "text": {
         "en": "(Optional) Talk to Deano and Sammy when you see them for a reward of 25 souls each.",
         "es": "(Opcional) Habla con Deano y Sammy cuando los veas para obtener una recompensa de 25 souls cada uno."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Rescuing Wayward Souls",
       "text": {
         "en": "Return back to the docks and disembark in the dock south of Kharen. (Or teleport out of the rowboat.)",
         "es": "Vuelve a los muelles y desembarca en el muelle al sur de Kharen. (O teletranspórtate fuera del rowboat.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Fighting Hermod, the Spirit of War",
       "text": {
         "en": "Prepare for combat and don't forget to re-equip your weapons.",
         "es": "Prepárate para el combate y no olvides volver a equipar tus armas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Fighting Hermod, the Spirit of War",
       "text": {
-        "en": "Interact with Kharen. (opciones de chat: 1 Yes. • 1 Yes.)",
-        "es": "Interactúa con Kharen. (opciones de chat: 1 Sí. • 1 Sí.)"
-      }
+        "en": "Interact with Kharen.",
+        "es": "Interactúa con Kharen."
+      },
+      "chatOptions": [
+        "1 Yes.",
+        "1 Yes."
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Fighting Hermod, the Spirit of War",
       "text": {
         "en": "Go through the dialogue to travel to Rasial's Citadel.",
         "es": "Sigue el diálogo para viajar a la Citadel de Rasial."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Fighting Hermod, the Spirit of War",
       "text": {
         "en": "Speak to Rasial, the First Necromancer.",
         "es": "Habla con Rasial, the First Necromancer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Fighting Hermod, the Spirit of War",
       "text": {
         "en": "Fight Hermod, the Spirit of War in story mode.",
         "es": "Lucha contra Hermod, the Spirit of War en modo historia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Fighting Hermod, the Spirit of War",
       "text": {
         "en": "Kill minions when they appear, otherwise Hermod will be immune to damage",
         "es": "Elimina a los secuaces cuando aparezcan; de lo contrario, Hermod será inmune al daño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Fighting Hermod, the Spirit of War",
       "text": {
         "en": "Speak to Rasial, the First Necromancer once more.",
         "es": "Habla de nuevo con Rasial, the First Necromancer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Return and interact with Kharen with two free inventory spots.",
         "es": "Vuelve e interactúa con Kharen con dos espacios libres en el inventario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

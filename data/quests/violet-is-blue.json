@@ -2,7 +2,8 @@
   "id": "violet-is-blue",
   "title": "Violet is Blue",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:28:29.106Z",
+  "isSeasonal": true,
+  "guideLastUpdated": "2026-07-04T18:35:35.515Z",
   "icon": "https://runescape.wiki/images/Violet_is_Blue_icon.png",
   "series": "Violet Tendencies",
   "age": "ambiguous",
@@ -67,6 +68,7 @@
       "image": "https://runescape.wiki/images/thumb/Yeti_Town.png/100px-Yeti_Town.png?771ae"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Violet_is_Blue_reward.png?3e125",
   "postQuest": [
     {
       "type": "xp",
@@ -99,347 +101,452 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Violet found on the southern tip of White Wolf Mountain. (opciones de chat: Accept)",
-        "es": "Habla con Violet, que se encuentra en la punta sur de White Wolf Mountain. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Violet found on the southern tip of White Wolf Mountain.",
+        "es": "Habla con Violet, que se encuentra en la punta sur de White Wolf Mountain."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Enter the Land of Snow portal.",
         "es": "Entra en el portal de la Land of Snow."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Land of Snow",
       "text": {
         "en": "Run north towards Violet and a cutscene will ensue.",
         "es": "Corre hacia el norte en dirección a Violet y se reproducirá una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Land of Snow",
       "text": {
         "en": "Dodge snowballs and run up the hill. You can run straight up the far east side (or far west side) of the hill and avoid getting hit by any snowballs. If you cannot make it and get hit enough, eventually, it will ask if you want to make it easier.",
         "es": "Esquiva las bolas de nieve y sube corriendo la colina. Puedes subir directamente por el extremo este (o el extremo oeste) de la colina y evitar que te alcancen las bolas de nieve. Si no lo consigues y te golpean lo suficiente, eventualmente te preguntará si quieres que sea más fácil."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Land of Snow",
       "text": {
         "en": "Talk to Violet.",
         "es": "Habla con Violet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Land of Snow",
       "text": {
-        "en": "Knock on the door. (opciones de chat: 3 Break the door down. • 1 To go on an adventure.)",
-        "es": "Llama a la puerta. (opciones de chat: 3 Derribar la puerta. • 1 Ir de aventura.)"
-      }
+        "en": "Knock on the door.",
+        "es": "Llama a la puerta."
+      },
+      "chatOptions": [
+        "3 Break the door down.",
+        "1 To go on an adventure."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Land of Snow",
       "text": {
-        "en": "Talk to Trevor or Betty. (opciones de chat: 1 YOU'VE CAPTURED A HUMAN GIRL! • 1 Yes!)",
-        "es": "Habla con Trevor o Betty. (opciones de chat: 1 ¡HAS CAPTURADO A UNA CHICA HUMANA! • 1 ¡Sí!)"
-      }
+        "en": "Talk to Trevor or Betty.",
+        "es": "Habla con Trevor o Betty."
+      },
+      "chatOptions": [
+        "1 YOU'VE CAPTURED A HUMAN GIRL!",
+        "1 Yes!"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Land of Snow",
       "text": {
         "en": "Talk to Violet in the room to the north.",
         "es": "Habla con Violet en la habitación al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Land of Snow",
       "text": {
         "en": "Violet requests an object based on the starting letter five times. Search various objects around the room and bring her items that begin with the letter she requested.",
         "es": "Violet pide un objeto basado en una letra inicial cinco veces. Busca en varios objetos por la habitación y tráele objetos que empiecen por la letra que ha pedido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Going on an adventure",
       "text": {
         "en": "Talk to Trevor or Betty.",
         "es": "Habla con Trevor o Betty."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Going on an adventure",
       "text": {
-        "en": "Exit the building. (opciones de chat: 1 Go on an adventure!)",
-        "es": "Sal del edificio. (opciones de chat: 1 ¡Ir de aventura!)"
-      }
+        "en": "Exit the building.",
+        "es": "Sal del edificio."
+      },
+      "chatOptions": [
+        "1 Go on an adventure!"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Going on an adventure",
       "text": {
         "en": "Investigate the frozen bucket for an empty bucket.",
         "es": "Investiga el cubo congelado para conseguir un cubo vacío."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Going on an adventure",
       "text": {
         "en": "Investigate a maple tree two times to receive maple logs.",
         "es": "Investiga un árbol de arce dos veces para recibir troncos de arce."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Going on an adventure",
       "text": {
-        "en": "Investigate the logs to make a spile. (opciones de chat: 1 Yes.)",
-        "es": "Investiga los troncos para hacer un espiche. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Investigate the logs to make a spile.",
+        "es": "Investiga los troncos para hacer un espiche."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Going on an adventure",
       "text": {
         "en": "Use the spile on the maple tree.",
         "es": "Usa el espiche en el árbol de arce."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Going on an adventure",
       "text": {
         "en": "Use the empty bucket on the same maple tree to receive a bucket of syrup.",
         "es": "Usa el cubo vacío en el mismo árbol de arce para recibir un cubo de jarabe."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Going on an adventure",
       "text": {
         "en": "Walk north, and check four leaning trees along the path.",
         "es": "Camina hacia el norte y revisa cuatro árboles inclinados a lo largo del camino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Going on an adventure",
       "text": {
-        "en": "Talk to Trevor to receive the firefly jar. (opciones de chat: 1 Do you have anything useful?)",
-        "es": "Habla con Trevor para recibir el tarro de luciérnagas. (opciones de chat: 1 ¿Tienes algo útil?)"
-      }
+        "en": "Talk to Trevor to receive the firefly jar.",
+        "es": "Habla con Trevor para recibir el tarro de luciérnagas."
+      },
+      "chatOptions": [
+        "1 Do you have anything useful?"
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Going on an adventure",
       "text": {
         "en": "Shake multiple bushes and catch 10 fireflies. They may be difficult to see if playing on low graphics. To make this easier, right click the globe near your mini-map to toggle high contrast mode. This will make the fireflies stand out easier.",
         "es": "Sacude varios arbustos y captura 10 luciérnagas. Pueden ser difíciles de ver si juegas con gráficos bajos. Para facilitarlo, haz clic derecho en el globo cerca de tu minimapa para activar el modo de alto contraste. Esto hará que las luciérnagas se distingan más fácilmente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Going on an adventure",
       "text": {
         "en": "Talk to Violet.",
         "es": "Habla con Violet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Making snow heads",
       "text": {
         "en": "Talk to Violet.",
         "es": "Habla con Violet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Making snow heads",
       "text": {
-        "en": "Take icy snow from behind Violet. (opciones de chat: Any • Any • Any • Any • Any)",
-        "es": "Coge nieve helada detrás de Violet. (opciones de chat: Cualquiera • Cualquiera • Cualquiera • Cualquiera • Cualquiera)"
-      }
+        "en": "Take icy snow from behind Violet.",
+        "es": "Coge nieve helada detrás de Violet."
+      },
+      "chatOptions": [
+        "Any",
+        "Any",
+        "Any",
+        "Any",
+        "Any"
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Making snow heads",
       "text": {
         "en": "Click on the headless golems (spam clicking works) and put all 15 heads on.",
         "es": "Haz clic en los golems sin cabeza (hacer clic repetidamente funciona) y coloca las 15 cabezas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Making snow heads",
       "text": {
         "en": "Talk to Violet.",
         "es": "Habla con Violet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Making snowmen",
       "text": {
         "en": "Collect 75 snowballs at the pile of snow to the south.",
         "es": "Recoge 75 bolas de nieve en el montón de nieve al sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Making snowmen",
       "text": {
         "en": "Continually search the abandoned crate for 3 carrots, 3 top hats, 21 coal.",
         "es": "Registra repetidamente la caja abandonada para conseguir 3 zanahorias, 3 sombreros de copa y 21 carbones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Making snowmen",
       "text": {
         "en": "Prune a tree to the west three times for 6 branches.",
         "es": "Poda un árbol al oeste tres veces para conseguir 6 ramas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Making snowmen",
       "text": {
         "en": "Build all melted snowmen (24 Construction XP), then talk to Violet after each snowman.",
         "es": "Construye todos los muñecos de nieve derretidos (24 puntos de experiencia de Construcción), luego habla con Violet después de cada muñeco de nieve."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Making snowmen",
       "text": {
         "en": "Walk north.",
         "es": "Camina hacia el norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Crossing the ice",
       "text": {
         "en": "Reach into the icy water on the south-east shore to obtain a barrel.",
         "es": "Mete la mano en el agua helada de la orilla sureste para obtener un barril."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Crossing the ice",
       "text": {
         "en": "Talk to Violet.",
         "es": "Habla con Violet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Crossing the ice",
       "text": {
         "en": "Navigate the ice maze while pushing Violet as shown in the diagram. You may move diagonally.",
         "es": "Recorre el laberinto de hielo mientras empujas a Violet como se muestra en el diagrama. Puedes moverte en diagonal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Crossing the ice",
       "text": {
         "en": "The controls require precision, best to rotate your camera to give a birds eye view (top down) when trying to move diagonal. It may be helpful to think of a 3x3 square when moving diagonally, with the player character in the centre.",
         "es": "Los controles requieren precisión, es mejor rotar la cámara para tener una vista de pájaro (desde arriba) al intentar moverte en diagonal. Puede ser útil pensar en un cuadrado de 3x3 al moverte en diagonal, con el personaje del jugador en el centro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Constructing the sled",
       "text": {
         "en": "Talk to Violet.",
         "es": "Habla con Violet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Constructing the sled",
       "text": {
         "en": "Investigate:",
         "es": "Investiga:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Constructing the sled",
       "text": {
         "en": "The ice in the small pond to the north-east",
         "es": "El hielo en el pequeño estanque al noreste"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "Constructing the sled",
       "text": {
         "en": "The fire to the north",
         "es": "El fuego al norte"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Constructing the sled",
       "text": {
         "en": "The rotten barrel to the east of the sled (south-east of Violet)",
         "es": "El barril podrido al este del trineo (sureste de Violet)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "Constructing the sled",
       "text": {
         "en": "The crate just to the west of the sled",
         "es": "La caja justo al oeste del trineo"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Constructing the sled",
       "text": {
         "en": "Chop down the Yeti village sign, a few steps south of the crate.",
         "es": "Tala el cartel del Yeti village, unos pasos al sur de la caja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Constructing the sled",
       "text": {
         "en": "Investigate the open space, just east, multiple times while adding the items each time.",
         "es": "Investiga el espacio abierto, justo al este, varias veces añadiendo los objetos cada vez."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Constructing the sled",
       "text": {
         "en": "Talk to Violet. You can choose any name for the sled.",
         "es": "Habla con Violet. Puedes elegir cualquier nombre para el trineo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Constructing the sled",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
-  ],
-  "isSeasonal": true
+  ]
 }

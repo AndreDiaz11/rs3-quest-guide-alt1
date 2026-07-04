@@ -2,7 +2,8 @@
   "id": "doric-s-task-iii-miniquest",
   "title": "Doric's Task III (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:10:23.890Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:01.512Z",
   "icon": "https://runescape.wiki/images/Doric%27s_Task_III_%28miniquest%29_icon.png",
   "series": "Doric's Tasks",
   "age": "5",
@@ -74,31 +75,41 @@
       "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Doric%27s_Task_III_%28miniquest%29_reward.png?236a1",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Warhammers and longswords",
       "text": {
-        "en": "Speak to Doric in his hut north of Falador. (opciones de chat: 1 Do you have any more Smithing tasks for me? • Accept)",
-        "es": "Habla con Doric en su cabaña al norte de Falador. (opciones de chat: 1 ¿Tienes más tareas de Herrería para mí? • Aceptar)"
-      }
+        "en": "Speak to Doric in his hut north of Falador.",
+        "es": "Habla con Doric en su cabaña al norte de Falador."
+      },
+      "chatOptions": [
+        "1 Do you have any more Smithing tasks for me?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Warhammers and longswords",
       "text": {
         "en": "Make a mithril longsword +1 and a mithril warhammer +1.",
         "es": "Fabrica una espada larga de mithril +1 y un martillo de guerra de mithril +1."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Warhammers and longswords",
       "text": {
         "en": "Head north to Goblin village and talk to either General Bentnoze or General Wartface twice in the building in the back.",
         "es": "Dirígete al norte, hacia Goblin village, y habla dos veces con General Bentnoze o General Wartface en el edificio del fondo."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

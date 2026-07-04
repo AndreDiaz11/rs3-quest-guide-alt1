@@ -2,7 +2,8 @@
   "id": "wandering-ga-al-miniquest",
   "title": "Wandering Ga'al (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-04T02:29:35.660Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:36.165Z",
   "icon": "https://runescape.wiki/images/Wandering_Ga%27al_%28miniquest%29_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -51,23 +52,31 @@
       "image": "https://runescape.wiki/images/thumb/Fight_Cauldron_arena.png/100px-Fight_Cauldron_arena.png?52322"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Wandering_Ga%27al_%28miniquest%29_reward.png?68435",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Use a ring of visibility on a ring of stone anywhere outside of the TzHaar City.",
         "es": "Usa un ring of visibility en un ring of stone en cualquier lugar fuera de la TzHaar City."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to TzHaar-Ga'al-Kot. (opciones de chat: 3 Can you read the ancient TzHaar Language? • 1 Go. I'll meet you at the Fight Cauldron.)",
-        "es": "Habla con TzHaar-Ga'al-Kot. (opciones de chat: 3 ¿Puedes leer el antiguo idioma TzHaar? • 1 Adelante. Te veré en el Fight Cauldron.)"
-      }
+        "en": "Talk to TzHaar-Ga'al-Kot.",
+        "es": "Habla con TzHaar-Ga'al-Kot."
+      },
+      "chatOptions": [
+        "3 Can you read the ancient TzHaar Language?",
+        "1 Go. I'll meet you at the Fight Cauldron."
+      ]
     }
   ]
 }

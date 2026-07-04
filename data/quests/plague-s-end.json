@@ -2,7 +2,8 @@
   "id": "plague-s-end",
   "title": "Plague's End",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:03:41.500Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:49.083Z",
   "icon": "https://runescape.wiki/images/Plague%27s_End_icon.png",
   "series": "Elf (Prifddinas)",
   "age": "ambiguous",
@@ -195,855 +196,1158 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Plague%27s_End_reward.png?0be82",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Arianwyn in Lletya. (opciones de chat: 1 Let's go! • Accept • 1 I have the Mourner disguise with me. • 1 I'm ready to teleport.)",
-        "es": "Habla con Arianwyn en Lletya. (opciones de chat: 1 ¡Vamos! • Aceptar • 1 Tengo el disfraz de Mourner conmigo. • 1 Estoy listo para teletransportarme.)"
-      }
+        "en": "Talk to Arianwyn in Lletya.",
+        "es": "Habla con Arianwyn en Lletya."
+      },
+      "chatOptions": [
+        "1 Let's go!",
+        "Accept",
+        "1 I have the Mourner disguise with me.",
+        "1 I'm ready to teleport."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Enter western door.",
         "es": "Entra por la puerta oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Infiltration",
       "text": {
-        "en": "Open northern door. (opciones de chat: 3 We thought we saw a mouse. • 2 It might get into the food stores. • 1 We knew you were busy, so we dealt with it.)",
-        "es": "Abre la puerta norte. (opciones de chat: 3 Creímos ver un ratón. • 2 Podría meterse en las despensas de comida. • 1 Sabíamos que estabas ocupado, así que nos encargamos nosotros.)"
-      }
+        "en": "Open northern door.",
+        "es": "Abre la puerta norte."
+      },
+      "chatOptions": [
+        "3 We thought we saw a mouse.",
+        "2 It might get into the food stores.",
+        "1 We knew you were busy, so we dealt with it."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Infiltration",
       "text": {
         "en": "Head to the north-western room.",
         "es": "Dirígete a la sala del noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Infiltration",
       "text": {
         "en": "Talk to a Mourner.",
         "es": "Habla con un Mourner."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Infiltration",
       "text": {
-        "en": "Talk to Iestin Edern. (opciones de chat: 2 The captain wants you to hurry.)",
-        "es": "Habla con Iestin Edern. (opciones de chat: 2 El capitán quiere que te des prisa.)"
-      }
+        "en": "Talk to Iestin Edern.",
+        "es": "Habla con Iestin Edern."
+      },
+      "chatOptions": [
+        "2 The captain wants you to hurry."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Iorwerth master plan",
       "text": {
         "en": "Climb up the nearby stairs (north wall).",
         "es": "Sube por las escaleras cercanas (muro norte)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Iorwerth master plan",
       "text": {
-        "en": "Talk to the Mayor of Prifddinas in the house north of the camp. (opciones de chat: 2 I've got a report from Iestin Edern.)",
-        "es": "Habla con el Alcalde de Prifddinas en la casa al norte del campamento. (opciones de chat: 2 Tengo un informe de Iestin Edern.)"
-      }
+        "en": "Talk to the Mayor of Prifddinas in the house north of the camp.",
+        "es": "Habla con el Alcalde de Prifddinas en la casa al norte del campamento."
+      },
+      "chatOptions": [
+        "2 I've got a report from Iestin Edern."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Iorwerth master plan",
       "text": {
-        "en": "Talk to the Mourner at the bridge, south of the camp. (opciones de chat: 1 The mayor wants you to distribute the food to the crowd.)",
-        "es": "Habla con el Mourner en el puente, al sur del campamento. (opciones de chat: 1 El alcalde quiere que repartas la comida entre la multitud.)"
-      }
+        "en": "Talk to the Mourner at the bridge, south of the camp.",
+        "es": "Habla con el Mourner en el puente, al sur del campamento."
+      },
+      "chatOptions": [
+        "1 The mayor wants you to distribute the food to the crowd."
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Iorwerth master plan",
       "text": {
-        "en": "Return to the Mayor. (opciones de chat: 1 The guards are distributing it to the crowd!)",
-        "es": "Vuelve con el Alcalde. (opciones de chat: 1 ¡Los guardias la están repartiendo entre la multitud!)"
-      }
+        "en": "Return to the Mayor.",
+        "es": "Vuelve con el Alcalde."
+      },
+      "chatOptions": [
+        "1 The guards are distributing it to the crowd!"
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Iorwerth master plan",
       "text": {
         "en": "Take Iorwerth master plan from the desk.",
         "es": "Coge el plan maestro de Iorwerth del escritorio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Iorwerth master plan",
       "text": {
-        "en": "Head south-east back downstairs and talk to Iestin Edern. (opciones de chat: 1 I have a document with Lord Iorwerth's plans here. • 3 How can we stop him?)",
-        "es": "Dirígete al sureste, baja las escaleras y habla con Iestin Edern. (opciones de chat: 1 Tengo aquí un documento con los planes de Lord Iorwerth. • 3 ¿Cómo podemos detenerlo?)"
-      }
+        "en": "Head south-east back downstairs and talk to Iestin Edern.",
+        "es": "Dirígete al sureste, baja las escaleras y habla con Iestin Edern."
+      },
+      "chatOptions": [
+        "1 I have a document with Lord Iorwerth's plans here.",
+        "3 How can we stop him?"
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Incite an uprising",
       "text": {
-        "en": "Talk to Councillor Halgrive outside the East Ardougne church (south west of lodestone), located just west of the main square. (opciones de chat: 1 I need to show you this document.)",
-        "es": "Habla con el Concejal Halgrive fuera de la iglesia de East Ardougne (al suroeste de la piedra de viaje), situada justo al oeste de la plaza principal. (opciones de chat: 1 Necesito enseñarte este documento.)"
-      }
+        "en": "Talk to Councillor Halgrive outside the East Ardougne church (south west of lodestone), located just west of the main square.",
+        "es": "Habla con el Concejal Halgrive fuera de la iglesia de East Ardougne (al suroeste de la piedra de viaje), situada justo al oeste de la plaza principal."
+      },
+      "chatOptions": [
+        "1 I need to show you this document."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Incite an uprising",
       "text": {
-        "en": "Talk to Bravek in the upper floor of Civic Office of West Ardougne. (opciones de chat: 1 I need to show you this document. • 2 If you suspected, why didn't you do anything? • 2 We need to overthrow the Mourners.)",
-        "es": "Habla con Bravek en la planta superior de la Oficina Cívica de West Ardougne. (opciones de chat: 1 Necesito enseñarte este documento. • 2 Si lo sospechabas, ¿por qué no hiciste nada? • 2 Tenemos que derrocar a los Mourners.)"
-      }
+        "en": "Talk to Bravek in the upper floor of Civic Office of West Ardougne.",
+        "es": "Habla con Bravek en la planta superior de la Oficina Cívica de West Ardougne."
+      },
+      "chatOptions": [
+        "1 I need to show you this document.",
+        "2 If you suspected, why didn't you do anything?",
+        "2 We need to overthrow the Mourners."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Incite an uprising",
       "text": {
         "en": "Unequip 1 mourner piece. The people won't speak to you with a full set of mourner outfit equipped.",
         "es": "Quítate 1 pieza de mourner. La gente no te hablará si llevas el conjunto completo del atuendo de mourner."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Incite an uprising",
       "text": {
         "en": "Talk to the 6 people on the list:",
         "es": "Habla con las 6 personas de la lista:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Incite an uprising",
       "text": {
-        "en": "Ted or Martha Rehnison - In a building north of the civic office. (opciones de chat: 1 I need your help to overthrow the Mourners.)",
-        "es": "Ted o Martha Rehnison - En un edificio al norte de la oficina cívica. (opciones de chat: 1 Necesito tu ayuda para derrocar a los Mourners.)"
-      }
+        "en": "Ted or Martha Rehnison - In a building north of the civic office.",
+        "es": "Ted o Martha Rehnison - En un edificio al norte de la oficina cívica."
+      },
+      "chatOptions": [
+        "1 I need your help to overthrow the Mourners."
+      ]
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Incite an uprising",
       "text": {
-        "en": "Jethick - On the eastern side of the large paved area outside the civic office. (opciones de chat: 1 We would if we tore down the city's walls. Join my revolution!)",
-        "es": "Jethick - En el lado este de la gran zona pavimentada frente a la oficina cívica. (opciones de chat: 1 Lo haríamos si derribáramos las murallas de la ciudad. ¡Únete a mi revolución!)"
-      }
+        "en": "Jethick - On the eastern side of the large paved area outside the civic office.",
+        "es": "Jethick - En el lado este de la gran zona pavimentada frente a la oficina cívica."
+      },
+      "chatOptions": [
+        "1 We would if we tore down the city's walls. Join my revolution!"
+      ]
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Incite an uprising",
       "text": {
-        "en": "Nurse Sarah - In a building south-west of the church. (opciones de chat: 1 I'd feel better if you joined my revolution.)",
-        "es": "Enfermera Sarah - En un edificio al suroeste de la iglesia. (opciones de chat: 1 Me sentiría mejor si te unieras a mi revolución.)"
-      }
+        "en": "Nurse Sarah - In a building south-west of the church.",
+        "es": "Enfermera Sarah - En un edificio al suroeste de la iglesia."
+      },
+      "chatOptions": [
+        "1 I'd feel better if you joined my revolution."
+      ]
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Incite an uprising",
       "text": {
-        "en": "Carla - In an open area, north of the graveyard to the west of the church. (opciones de chat: 1 Join my revolution and avenge your son.)",
-        "es": "Carla - En una zona abierta, al norte del cementerio al oeste de la iglesia. (opciones de chat: 1 Únete a mi revolución y venga a tu hijo.)"
-      }
+        "en": "Carla - In an open area, north of the graveyard to the west of the church.",
+        "es": "Carla - En una zona abierta, al norte del cementerio al oeste de la iglesia."
+      },
+      "chatOptions": [
+        "1 Join my revolution and avenge your son."
+      ]
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Incite an uprising",
       "text": {
-        "en": "Koftik - Entrance to the Underground Pass. (opciones de chat: 1 I want to help you overthrow the Mourners.)",
-        "es": "Koftik - Entrada al Underground Pass. (opciones de chat: 1 Quiero ayudarte a derrocar a los Mourners.)"
-      }
+        "en": "Koftik - Entrance to the Underground Pass.",
+        "es": "Koftik - Entrada al Underground Pass."
+      },
+      "chatOptions": [
+        "1 I want to help you overthrow the Mourners."
+      ]
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Incite an uprising",
       "text": {
-        "en": "Elena - Found in the house just west of the log balance in the northern part of East Ardougne (from the lodestone run south-west and then take log balance to cross the river). (opciones de chat: 1 Yes - and it's time to stop them.)",
-        "es": "Elena - Se encuentra en la casa justo al oeste del tronco de equilibrio en la parte norte de East Ardougne (desde la piedra de viaje, ve al suroeste y luego cruza el río por el tronco de equilibrio). (opciones de chat: 1 Sí, y es hora de detenerlos.)"
-      }
+        "en": "Elena - Found in the house just west of the log balance in the northern part of East Ardougne (from the lodestone run south-west and then take log balance to cross the river).",
+        "es": "Elena - Se encuentra en la casa justo al oeste del tronco de equilibrio en la parte norte de East Ardougne (desde la piedra de viaje, ve al suroeste y luego cruza el río por el tronco de equilibrio)."
+      },
+      "chatOptions": [
+        "1 Yes - and it's time to stop them."
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
         "en": "Go to the church in West Ardougne.",
         "es": "Ve a la iglesia de West Ardougne."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
-        "en": "Talk to any of the 6 NPCs at the church (not the priest). (opciones de chat: 1 Yes - I'll explain everything, and then we'll strike! • 5 Enough talk - it's time to strike!)",
-        "es": "Habla con cualquiera de los 6 PNJ en la iglesia (no el sacerdote). (opciones de chat: 1 Sí, os lo explicaré todo, ¡y luego atacaremos! • 5 Basta de hablar, ¡es hora de atacar!)"
-      }
+        "en": "Talk to any of the 6 NPCs at the church (not the priest).",
+        "es": "Habla con cualquiera de los 6 PNJ en la iglesia (no el sacerdote)."
+      },
+      "chatOptions": [
+        "1 Yes - I'll explain everything, and then we'll strike!",
+        "5 Enough talk - it's time to strike!"
+      ]
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
         "en": "Head to the Mourner Headquarters (north-east).",
         "es": "Dirígete al Cuartel General de los Mourners (noreste)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
         "en": "Kick down door and kill the mourners. (If door is not closed, transport away and come back. No mourner gear needed.)",
         "es": "Derriba la puerta a patadas y mata a los mourners. (Si la puerta no está cerrada, teletranspórtate y vuelve. No hace falta equipo de mourner.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
         "en": "Open trapdoor in north-west corner and kill the mourners.",
         "es": "Abre la trampilla en la esquina noroeste y mata a los mourners."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
-        "en": "Defeat then talk to Head Mourner. (opciones de chat: 1 I have some questions. • 2 How were you going to summon the Dark Lord? • 3 Enough questions. • Any)",
-        "es": "Derrota y luego habla con el Mourner Jefe. (opciones de chat: 1 Tengo algunas preguntas. • 2 ¿Cómo pensabais invocar al Dark Lord? • 3 Basta de preguntas. • Cualquiera)"
-      }
+        "en": "Defeat then talk to Head Mourner.",
+        "es": "Derrota y luego habla con el Mourner Jefe."
+      },
+      "chatOptions": [
+        "1 I have some questions.",
+        "2 How were you going to summon the Dark Lord?",
+        "3 Enough questions.",
+        "Any"
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
         "en": "Talk to Elena with one free inventory space.",
         "es": "Habla con Elena con un espacio libre en el inventario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
         "en": "Go up to the and replace the Mourners standard.",
         "es": "Sube y reemplaza el estandarte de los Mourners."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
         "en": "Head to the entrance of Ardougne Castle.",
         "es": "Dirígete a la entrada del Ardougne Castle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
-        "en": "Talk to Sir Edmond at the entrance. (opciones de chat: 1 Yes)",
-        "es": "Habla con Sir Edmond en la entrada. (opciones de chat: 1 Sí)"
-      }
+        "en": "Talk to Sir Edmond at the entrance.",
+        "es": "Habla con Sir Edmond en la entrada."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
         "en": "Head upstairs, talk to King Lathas.",
         "es": "Sube las escaleras y habla con el Rey Lathas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
         "en": "Kill Sir Hugo.",
         "es": "Mata a Sir Hugo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
         "en": "Talk to King Lathas.",
         "es": "Habla con el Rey Lathas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
         "en": "Talk to Sir Edmond.",
         "es": "Habla con Sir Edmond."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
-        "en": "Return to Lletya, switch back into full mourner's gear and talk to Arianwyn to go back to the undercity. (opciones de chat: 1 I'm ready to teleport.)",
-        "es": "Vuelve a Lletya, cámbiate de nuevo al atuendo completo de mourner y habla con Arianwyn para volver a la ciudad subterránea. (opciones de chat: 1 Estoy listo para teletransportarme.)"
-      }
+        "en": "Return to Lletya, switch back into full mourner's gear and talk to Arianwyn to go back to the undercity.",
+        "es": "Vuelve a Lletya, cámbiate de nuevo al atuendo completo de mourner y habla con Arianwyn para volver a la ciudad subterránea."
+      },
+      "chatOptions": [
+        "1 I'm ready to teleport."
+      ]
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
-        "en": "Talk to Iestin Edern. (opciones de chat: 3 Okay - what do I do now? • 2 Go on... • 1 Yes - teleport me to Lletya now.)",
-        "es": "Habla con Iestin Edern. (opciones de chat: 3 Vale, ¿qué hago ahora? • 2 Continúa... • 1 Sí, teletranspórtame a Lletya ahora.)"
-      }
+        "en": "Talk to Iestin Edern.",
+        "es": "Habla con Iestin Edern."
+      },
+      "chatOptions": [
+        "3 Okay - what do I do now?",
+        "2 Go on...",
+        "1 Yes - teleport me to Lletya now."
+      ]
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
-        "en": "Talk to Gwir, just north. (opciones de chat: 1 I need to find the Elders of Prifddinas.)",
-        "es": "Habla con Gwir, justo al norte. (opciones de chat: 1 Necesito encontrar a los Ancianos de Prifddinas.)"
-      }
+        "en": "Talk to Gwir, just north.",
+        "es": "Habla con Gwir, justo al norte."
+      },
+      "chatOptions": [
+        "1 I need to find the Elders of Prifddinas."
+      ]
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
         "en": "If you don't have 3 free inventory spaces, use the bank in the building",
         "es": "Si no tienes 3 espacios libres en el inventario, usa el banco en el edificio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
-        "en": "Search a bookcase for The Lost Elders book. (opciones de chat: 1 The Lost Elders)",
-        "es": "Busca en una estantería el libro The Lost Elders. (opciones de chat: 1 The Lost Elders)"
-      }
+        "en": "Search a bookcase for The Lost Elders book.",
+        "es": "Busca en una estantería el libro The Lost Elders."
+      },
+      "chatOptions": [
+        "1 The Lost Elders"
+      ]
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
         "en": "Read the book.",
         "es": "Lee el libro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Time to attack",
       "text": {
-        "en": "Talk to Gwir for 2 items. (opciones de chat: 1 I need to find the Elders of Prifddinas. • 4 Lord Amlodd. • 5 More... • 2 Lady Meilyr. • 5 That's all.)",
-        "es": "Habla con Gwir para conseguir 2 objetos. (opciones de chat: 1 Necesito encontrar a los Ancianos de Prifddinas. • 4 Lord Amlodd. • 5 Más... • 2 Lady Meilyr. • 5 Eso es todo.)"
-      }
+        "en": "Talk to Gwir for 2 items.",
+        "es": "Habla con Gwir para conseguir 2 objetos."
+      },
+      "chatOptions": [
+        "1 I need to find the Elders of Prifddinas.",
+        "4 Lord Amlodd.",
+        "5 More...",
+        "2 Lady Meilyr.",
+        "5 That's all."
+      ]
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Finding Lady Ithell",
       "text": {
         "en": "The blue symbols you need to inspect are on the walls, near the floor, in Lletya. Ground level:",
         "es": "Los símbolos azules que debes inspeccionar están en las paredes, cerca del suelo, en Lletya. Planta baja:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "Finding Lady Ithell",
       "text": {
         "en": "Ranging shop (south west building), along western wall",
         "es": "Tienda de Distancia (edificio del suroeste), a lo largo del muro oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 1,
+      "section": "Finding Lady Ithell",
       "text": {
         "en": "Southern building, south wall.",
         "es": "Edificio del sur, muro sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 1,
+      "section": "Finding Lady Ithell",
       "text": {
         "en": "Bank, east wall, south of the table.",
         "es": "Banco, muro este, al sur de la mesa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Finding Lady Ithell",
       "text": {
         "en": "Upper level:",
         "es": "Planta superior:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 1,
+      "section": "Finding Lady Ithell",
       "text": {
         "en": "Up the central stairs, outside altar room, north wall",
         "es": "Subiendo por las escaleras centrales, fuera de la sala del altar, muro norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 1,
+      "section": "Finding Lady Ithell",
       "text": {
         "en": "Up the clothing store stairs, west wall.",
         "es": "Subiendo por las escaleras de la tienda de ropa, muro oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Finding Lady Ithell",
       "text": {
         "en": "Head to the centre of Lletya and build the statue hotspot.",
         "es": "Dirígete al centro de Lletya y construye el punto de interés de la estatua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Finding Lady Ithell",
       "text": {
         "en": "Climb upstairs.",
         "es": "Sube las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Finding Lady Ithell",
       "text": {
-        "en": "Speak to Kelyn. (opciones de chat: 4 It's time. I'm gathering the clan leaders.)",
-        "es": "Habla con Kelyn. (opciones de chat: 4 Es hora. Estoy reuniendo a los líderes de los clanes.)"
-      }
+        "en": "Speak to Kelyn.",
+        "es": "Habla con Kelyn."
+      },
+      "chatOptions": [
+        "4 It's time. I'm gathering the clan leaders."
+      ]
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Finding Lady Trahaearn",
       "text": {
         "en": "Make your way to the Well of Voyage:",
         "es": "Dirígete al Well of Voyage:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 1,
+      "section": "Finding Lady Trahaearn",
       "text": {
         "en": "Exit Lletya, pass tree (north-west).",
         "es": "Sal de Lletya, pasa el árbol (noroeste)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 1,
+      "section": "Finding Lady Trahaearn",
       "text": {
         "en": "Step-over tripwire (west).",
         "es": "Cruza el cable trampa (oeste)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 1,
+      "section": "Finding Lady Trahaearn",
       "text": {
         "en": "Enter dense forest (west).",
         "es": "Entra en el bosque denso (oeste)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 1,
+      "section": "Finding Lady Trahaearn",
       "text": {
         "en": "Jump leaves (north).",
         "es": "Salta sobre las hojas (norte)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 1,
+      "section": "Finding Lady Trahaearn",
       "text": {
         "en": "Head east until you find a cave entrance and enter it.",
         "es": "Ve hacia el este hasta encontrar la entrada de una cueva y entra en ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Finding Lady Trahaearn",
       "text": {
         "en": "Head east, mine cracked wall (south of the well).",
         "es": "Ve hacia el este, mina el muro agrietado (al sur del pozo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Finding Lady Trahaearn",
       "text": {
         "en": "Enter tunnel.",
         "es": "Entra en el túnel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "Finding Lady Trahaearn",
       "text": {
         "en": "Kill 3 level 70 automatons (each automaton uses a different side of the combat triangle).",
         "es": "Mata a 3 autómatas de nivel 70 (cada autómata usa un lado diferente del triángulo de combate)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 0,
+      "section": "Finding Lady Trahaearn",
       "text": {
-        "en": "Wake Lady Trahaearn. (opciones de chat: 1 Repair the exoskeleton. • 4 It's time. I'm gathering the clan leaders.)",
-        "es": "Despierta a Lady Trahaearn. (opciones de chat: 1 Repara el exoesqueleto. • 4 Es hora. Estoy reuniendo a los líderes de los clanes.)"
-      }
+        "en": "Wake Lady Trahaearn.",
+        "es": "Despierta a Lady Trahaearn."
+      },
+      "chatOptions": [
+        "1 Repair the exoskeleton.",
+        "4 It's time. I'm gathering the clan leaders."
+      ]
     },
     {
       "index": 63,
       "indent": 0,
+      "section": "Finding Lord Amlodd",
       "text": {
         "en": "Go north back into the room where you mined the wall.",
         "es": "Ve hacia el norte, de vuelta a la sala donde minaste el muro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 0,
+      "section": "Finding Lord Amlodd",
       "text": {
-        "en": "Use the Amlodd Charm on the obelisk to the north-west. (opciones de chat: 1 Create the Amlodd pouch.)",
-        "es": "Usa el Amlodd Charm en el obelisco al noroeste. (opciones de chat: 1 Crear la bolsa de Amlodd.)"
-      }
+        "en": "Use the Amlodd Charm on the obelisk to the north-west.",
+        "es": "Usa el Amlodd Charm en el obelisco al noroeste."
+      },
+      "chatOptions": [
+        "1 Create the Amlodd pouch."
+      ]
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "Finding Lord Amlodd",
       "text": {
-        "en": "Summon Amlodd pouch. (opciones de chat: 1 Are you my summoned creature now? Can I command you? • 3 It's time. I'm gathering the clan leaders.)",
-        "es": "Invoca la bolsa de Amlodd. (opciones de chat: 1 ¿Eres ahora mi criatura invocada? ¿Puedo darte órdenes? • 3 Es hora. Estoy reuniendo a los líderes de los clanes.)"
-      }
+        "en": "Summon Amlodd pouch.",
+        "es": "Invoca la bolsa de Amlodd."
+      },
+      "chatOptions": [
+        "1 Are you my summoned creature now? Can I command you?",
+        "3 It's time. I'm gathering the clan leaders."
+      ]
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "Finding Lord Crwys",
       "text": {
         "en": "Home teleport to Tirannwn Lodestone.",
         "es": "Teletranspórtate a la piedra de viaje de Tirannwn."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "Finding Lord Crwys",
       "text": {
         "en": "Pick a blue mushroom (you must have the Meilyr potion recipe in order to pick the mushrooms).",
         "es": "Coge una seta azul (debes tener la receta de la poción de Meilyr para poder coger las setas)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 68,
       "indent": 0,
+      "section": "Finding Lord Crwys",
       "text": {
         "en": "Enter Dense Forest (west of Tirannwn Lodestone).",
         "es": "Entra en el Dense Forest (al oeste de la piedra de viaje de Tirannwn)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 69,
       "indent": 0,
+      "section": "Finding Lord Crwys",
       "text": {
         "en": "Pick a red mushroom (these mushrooms are for later. Might appear very light shade of red).",
         "es": "Coge una seta roja (estas setas son para más adelante. Pueden aparecer de un tono rojo muy claro)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 70,
       "indent": 0,
+      "section": "Finding Lord Crwys",
       "text": {
         "en": "Step over trip-wire (north-west).",
         "es": "Cruza el cable trampa (noroeste)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 71,
       "indent": 0,
+      "section": "Finding Lord Crwys",
       "text": {
         "en": "Enter dense forest two times (north - do not pass the third one).",
         "es": "Entra en el bosque denso dos veces (norte, no pases la tercera vez)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 72,
       "indent": 0,
+      "section": "Finding Lord Crwys",
       "text": {
         "en": "Chop down tree (east).",
         "es": "Tala el árbol (este)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 73,
       "indent": 0,
+      "section": "Finding Lord Crwys",
       "text": {
         "en": "Inspect tree (west).",
         "es": "Inspecciona el árbol (oeste)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 74,
       "indent": 0,
+      "section": "Finding Lord Crwys",
       "text": {
         "en": "Use plant cure on the tree.",
         "es": "Usa la cura de plantas en el árbol."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 75,
       "indent": 0,
+      "section": "Finding Lord Crwys",
       "text": {
-        "en": "Talk to Lord Crwys. (opciones de chat: 4 It's time. I'm gathering the clan leaders.)",
-        "es": "Habla con Lord Crwys. (opciones de chat: 4 Es hora. Estoy reuniendo a los líderes de los clanes.)"
-      }
+        "en": "Talk to Lord Crwys.",
+        "es": "Habla con Lord Crwys."
+      },
+      "chatOptions": [
+        "4 It's time. I'm gathering the clan leaders."
+      ]
     },
     {
       "index": 76,
       "indent": 0,
+      "section": "Finding Lady Hefin",
       "text": {
         "en": "Make your way to the Poison Waste:",
         "es": "Dirígete al Poison Waste:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 77,
       "indent": 1,
+      "section": "Finding Lady Hefin",
       "text": {
-        "en": "Take Fairy ring code to the small island in the swamp. Head west once arriving onto the island via fairy ring.",
+        "en": "Take Fairy ring code DLR to the small island in the swamp. Head west once arriving onto the island via fairy ring.",
         "es": "Usa el código del fairy ring hacia la pequeña isla en el pantano. Al llegar a la isla mediante el fairy ring, dirígete hacia el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 78,
       "indent": 1,
+      "section": "Finding Lady Hefin",
       "text": {
         "en": "Alternatively, go to Lletya:",
         "es": "Alternativamente, ve a Lletya:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 79,
       "indent": 2,
+      "section": "Finding Lady Hefin",
       "text": {
         "en": "Exit Lletya, pass tree (north-west).",
         "es": "Sal de Lletya, pasa el árbol (noroeste)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 80,
       "indent": 2,
+      "section": "Finding Lady Hefin",
       "text": {
         "en": "Head far south to the large swamp area, past the magic trees.",
         "es": "Dirígete muy al sur hacia la gran zona pantanosa, más allá de los árboles mágicos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 81,
       "indent": 0,
+      "section": "Finding Lady Hefin",
       "text": {
         "en": "Jump the small rocks to each island, going west, referencing the map captioned right (read map from right to left).",
         "es": "Salta las pequeñas rocas de isla en isla, yendo hacia el oeste, siguiendo el mapa mostrado a la derecha (lee el mapa de derecha a izquierda)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 82,
       "indent": 0,
+      "section": "Finding Lady Hefin",
       "text": {
-        "en": "Talk to Elf Hermit. (opciones de chat: 2 I seek the wisdom of Seren. • 2 Seren's faithfulness to the elves. • 1 The symmetry of crystals. • 3 I don't know. • 4 It's time. I'm gathering the clan leaders.)",
-        "es": "Habla con el Elf Hermit. (opciones de chat: 2 Busco la sabiduría de Seren. • 2 La fidelidad de Seren hacia los elfos. • 1 La simetría de los cristales. • 3 No lo sé. • 4 Es hora. Estoy reuniendo a los líderes de los clanes.)"
-      }
+        "en": "Talk to Elf Hermit.",
+        "es": "Habla con el Elf Hermit."
+      },
+      "chatOptions": [
+        "2 I seek the wisdom of Seren.",
+        "2 Seren's faithfulness to the elves.",
+        "1 The symmetry of crystals.",
+        "3 I don't know.",
+        "4 It's time. I'm gathering the clan leaders."
+      ]
     },
     {
       "index": 83,
       "indent": 0,
+      "section": "Finding Lady Meilyr",
       "text": {
         "en": "Grind your red and blue Isafdar mushrooms.",
         "es": "Muele tus setas Isafdar rojas y azules."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 84,
       "indent": 0,
+      "section": "Finding Lady Meilyr",
       "text": {
         "en": "Use on super defence (3) potion.",
         "es": "Úsalas en una poción de super defensa (3)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 85,
       "indent": 0,
+      "section": "Finding Lady Meilyr",
       "text": {
         "en": "Teleport to Daemonheim by using ring of kinship or taking the ferry by talking to Bryll Thoksdottir in Taverley.",
         "es": "Teletranspórtate a Daemonheim usando el ring of kinship o toma el ferry hablando con Bryll Thoksdottir en Taverley."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 86,
       "indent": 0,
+      "section": "Finding Lady Meilyr",
       "text": {
         "en": "Drink Meilyr potion in the Dungeoneering lobby at Daemonheim.",
         "es": "Bebe la poción de Meilyr en el vestíbulo de Mazmorreo en Daemonheim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 87,
       "indent": 0,
+      "section": "Finding Lady Meilyr",
       "text": {
         "en": "Enter the portal that appears on the west side.",
         "es": "Entra en el portal que aparece en el lado oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 88,
       "indent": 0,
+      "section": "Finding Lady Meilyr",
       "text": {
-        "en": "Talk to Lady Meilyr. (opciones de chat: 4 It's time. I'm gathering the clan leaders.)",
-        "es": "Habla con Lady Meilyr. (opciones de chat: 4 Es hora. Estoy reuniendo a los líderes de los clanes.)"
-      }
+        "en": "Talk to Lady Meilyr.",
+        "es": "Habla con Lady Meilyr."
+      },
+      "chatOptions": [
+        "4 It's time. I'm gathering the clan leaders."
+      ]
     },
     {
       "index": 89,
       "indent": 0,
+      "section": "Distraction",
       "text": {
         "en": "Return to Lletya.",
         "es": "Vuelve a Lletya."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 90,
       "indent": 0,
+      "section": "Distraction",
       "text": {
-        "en": "Talk to Arianwyn. (opciones de chat: 1 I'm ready to teleport.)",
-        "es": "Habla con Arianwyn. (opciones de chat: 1 Estoy listo para teletransportarme.)"
-      }
+        "en": "Talk to Arianwyn.",
+        "es": "Habla con Arianwyn."
+      },
+      "chatOptions": [
+        "1 I'm ready to teleport."
+      ]
     },
     {
       "index": 91,
       "indent": 0,
+      "section": "Distraction",
       "text": {
-        "en": "Talk to Iestin Edern. (opciones de chat: 3 That's all for now.)",
-        "es": "Habla con Iestin Edern. (opciones de chat: 3 Eso es todo por ahora.)"
-      }
+        "en": "Talk to Iestin Edern.",
+        "es": "Habla con Iestin Edern."
+      },
+      "chatOptions": [
+        "3 That's all for now."
+      ]
     },
     {
       "index": 92,
       "indent": 0,
+      "section": "Distraction",
       "text": {
         "en": "Travel to Tyras Camp (west of Tirannwn lodestone) or charter ship to Tyras Camp via Port Sarim.",
         "es": "Viaja al Tyras Camp (al oeste de la piedra de viaje de Tirannwn) o toma un barco fletado hasta Tyras Camp vía Port Sarim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 93,
       "indent": 0,
+      "section": "Distraction",
       "text": {
         "en": "Talk to General Hining.",
         "es": "Habla con el General Hining."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 94,
       "indent": 0,
+      "section": "Distraction",
       "text": {
         "en": "Prepare for combat (fire-based spells preferred).",
         "es": "Prepárate para el combate (se prefieren hechizos de fuego)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 95,
       "indent": 0,
+      "section": "Distraction",
       "text": {
         "en": "Return to Lletya.",
         "es": "Vuelve a Lletya."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 96,
       "indent": 0,
+      "section": "Distraction",
       "text": {
         "en": "Talk to Arianwyn.",
         "es": "Habla con Arianwyn."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 97,
       "indent": 0,
+      "section": "Distraction",
       "text": {
         "en": "Talk to Iestin Edern.",
         "es": "Habla con Iestin Edern."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 98,
       "indent": 0,
+      "section": "Boss fight",
       "text": {
-        "en": "Enter the Grand Library and walk west to the puzzle. (opciones de chat: 2 Okay, what do I do now?)",
-        "es": "Entra en la Grand Library y camina hacia el oeste hasta el puzle. (opciones de chat: 2 Vale, ¿qué hago ahora?)"
-      }
+        "en": "Enter the Grand Library and walk west to the puzzle.",
+        "es": "Entra en la Grand Library y camina hacia el oeste hasta el puzle."
+      },
+      "chatOptions": [
+        "2 Okay, what do I do now?"
+      ]
     },
     {
       "index": 99,
       "indent": 0,
+      "section": "Boss fight",
       "text": {
         "en": "Talk to Lord Crwys to begin stage 1. :See the in-depth article for the strategy to solve the puzzles and defeat the monsters in between waves. :''For stages 1–5, it is best to work in reverse with the mirrors' beam (predicting the beam of light from the Seren seal) until the stages with locked mirrors.''",
         "es": "Habla con Lord Crwys para comenzar la etapa 1. :Consulta el artículo detallado para conocer la estrategia para resolver los puzles y derrotar a los monstruos entre las oleadas. :''Para las etapas 1-5, lo mejor es trabajar al revés con el rayo de los espejos (prediciendo el rayo de luz del sello de Seren) hasta llegar a las etapas con espejos bloqueados.''"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 100,
       "indent": 0,
+      "section": "Light puzzle",
       "text": {
         "en": "Direct light into the centre (place/rotate mirrors as needed).",
         "es": "Dirige la luz hacia el centro (coloca/gira los espejos según sea necesario)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 101,
       "indent": 0,
+      "section": "Light puzzle",
       "text": {
         "en": "Use Protect/Deflect Magic and keep moving when Dark Lord is alive. You can either kill the enemies between puzzles or tank their hits.",
         "es": "Usa Protect/Deflect Magic y sigue moviéndote mientras el Dark Lord esté vivo. Puedes matar a los enemigos entre puzles o aguantar sus golpes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 102,
       "indent": 1,
+      "section": "Light puzzle",
       "text": {
         "en": "Each puzzle completed saves, so you can leave for more food and return between puzzles/fights.",
         "es": "Cada puzle completado se guarda, así que puedes salir a por más comida y volver entre puzles/combates."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 103,
       "indent": 0,
+      "section": "Light puzzle",
       "text": {
         "en": "After directing the beam into the Crwys Crystal, there will be some dialogue.",
         "es": "Después de dirigir el rayo hacia el Crwys Crystal, habrá algo de diálogo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 104,
       "indent": 0,
+      "section": "Light puzzle",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 105,
       "indent": 0,
+      "section": "Light puzzle",
       "text": {
         "en": "Recommended: exit the Grand Library and speak to Arianwyn to teleport to the entrance of Prifddinas, or walk there yourself. After a skippable cutscene, the city of Prifddinas will be unlocked.",
         "es": "Recomendado: sal de la Grand Library y habla con Arianwyn para teletransportarte a la entrada de Prifddinas, o ve caminando tú mismo. Tras una escena que se puede omitir, se desbloqueará la ciudad de Prifddinas."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -1,15 +1,18 @@
-/* Colores placeholder (fantasía oscura) — los valores exactos se toman con
-   cuentagotas de las capturas de la interfaz nativa de RS3 en el milestone M2. */
+/* Paleta ajustada visualmente contra las capturas reales de la interfaz nativa
+   de RS3 compartidas durante el desarrollo (colores más vivos/saturados que la
+   aproximación inicial). */
 :root {
-  --bg-panel: #1c1712;
-  --bg-panel-alt: #241d16;
+  --bg-panel: #171310;
+  --bg-panel-alt: #211a13;
   --border: #4a3c28;
+  --border-light: #6b5738;
   --text: #d8c9a3;
   --text-dim: #a39372;
-  --gold: #c9a227;
-  --quest-green: #4caf50;
-  --quest-yellow: #d4b106;
-  --quest-red: #c0392b;
+  --gold: #e0b84a;
+  --gold-bright: #f5d576;
+  --quest-green: #3fce46;
+  --quest-yellow: #f0c419;
+  --quest-red: #ee3b3b;
   --quest-locked: #7a7a7a;
 }
 
@@ -24,16 +27,21 @@ body {
   color: var(--text);
 }
 
+h1, h2, .app-title-font {
+  font-family: "Cinzel", "Segoe UI", serif;
+}
+
 #app {
   display: flex;
   height: 100vh;
   min-height: 650px;
+  border: 1px solid var(--border-light);
 }
 
 #sidebar {
   width: 280px;
   flex-shrink: 0;
-  background: var(--bg-panel-alt);
+  background: linear-gradient(180deg, var(--bg-panel-alt), var(--bg-panel) 60%);
   border-right: 1px solid var(--border);
   display: flex;
   flex-direction: column;
@@ -43,22 +51,32 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 12px;
-  border-bottom: 1px solid var(--border);
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border-light);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 #app-title {
-  font-weight: bold;
-  color: var(--gold);
+  font-weight: 700;
+  color: var(--gold-bright);
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 #settings-btn {
-  background: none;
-  border: 1px solid var(--border);
-  color: var(--text);
+  background: var(--bg-panel);
+  border: 1px solid var(--border-light);
+  color: var(--gold);
   border-radius: 4px;
   cursor: pointer;
-  padding: 2px 8px;
+  padding: 3px 9px;
+  font-size: 1.05em;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+#settings-btn:hover {
+  color: var(--gold-bright);
+  border-color: var(--gold);
 }
 
 #quest-list {
@@ -70,20 +88,25 @@ body {
 }
 
 #quest-list li {
-  padding: 6px 8px;
+  padding: 6px 10px;
   border-radius: 3px;
   cursor: pointer;
+  font-size: 0.92em;
+  transition: background 0.1s;
 }
 
 #quest-list li:hover {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.07);
 }
 
 #quest-list li.status-completed { color: var(--quest-green); }
 #quest-list li.status-started { color: var(--quest-yellow); }
 #quest-list li.status-not-started { color: var(--quest-red); }
 #quest-list li.status-locked { color: var(--quest-locked); }
-#quest-list li.selected { background: rgba(201, 162, 39, 0.18); }
+#quest-list li.selected {
+  background: rgba(224, 184, 74, 0.16);
+  box-shadow: inset 2px 0 0 var(--gold);
+}
 
 #quest-list li.quest-list-empty {
   cursor: default;
@@ -108,7 +131,12 @@ body {
   color: var(--text);
   border: 1px solid var(--border);
   border-radius: 4px;
-  padding: 6px 8px;
+  padding: 7px 9px;
+}
+
+#quest-search:focus {
+  outline: none;
+  border-color: var(--gold);
 }
 
 #sidebar-checks {
@@ -125,6 +153,12 @@ body {
   font-size: 0.8em;
 }
 
+.sidebar-check input,
+.step-list input,
+#settings-modal input[type="checkbox"] {
+  accent-color: var(--gold);
+}
+
 #settings-overlay {
   position: fixed;
   inset: 0;
@@ -137,16 +171,17 @@ body {
 
 #settings-modal {
   background: var(--bg-panel-alt);
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-light);
   border-radius: 6px;
   padding: 20px 24px;
   width: 320px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
 }
 
 #settings-modal h2 {
   margin-top: 0;
-  color: var(--gold);
-  font-size: 1.1em;
+  color: var(--gold-bright);
+  font-size: 1.15em;
 }
 
 #settings-modal label {
@@ -165,6 +200,12 @@ body {
   color: var(--text);
   border: 1px solid var(--border);
   border-radius: 4px;
+}
+
+#settings-modal input:focus,
+#settings-modal select:focus {
+  outline: none;
+  border-color: var(--gold);
 }
 
 .settings-updated {
@@ -195,17 +236,25 @@ body {
   font-weight: bold;
 }
 
+#settings-save:hover {
+  background: var(--gold-bright);
+}
+
 #quest-counter {
-  padding: 8px 12px;
-  border-top: 1px solid var(--border);
+  padding: 10px 14px;
+  border-top: 1px solid var(--border-light);
   font-size: 0.85em;
-  color: var(--text-dim);
+  color: var(--gold);
+  background: rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  text-align: center;
 }
 
 #detail {
   flex: 1;
-  padding: 20px 28px;
+  padding: 22px 30px;
   overflow-y: auto;
+  background: radial-gradient(ellipse at top, var(--bg-panel-alt) 0%, var(--bg-panel) 70%);
 }
 
 #detail-placeholder {
@@ -215,19 +264,26 @@ body {
 .quest-header {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
   margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid var(--border-light);
 }
 
 .quest-header img {
-  width: 50px;
-  height: 50px;
+  width: 52px;
+  height: 52px;
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 2px;
 }
 
 .quest-header h1 {
   margin: 0;
-  color: var(--gold);
-  font-size: 1.4em;
+  color: var(--gold-bright);
+  font-size: 1.5em;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 .quest-meta-updated {
@@ -255,12 +311,18 @@ body {
 .item-chip {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 5px;
   background: var(--bg-panel-alt);
   border: 1px solid var(--border);
   border-radius: 4px;
-  padding: 2px 8px 2px 4px;
+  padding: 3px 9px 3px 5px;
   margin: 2px 4px 2px 0;
+  font-size: 0.92em;
+  transition: border-color 0.15s;
+}
+
+.item-chip:hover {
+  border-color: var(--border-light);
 }
 
 .item-chip img {
@@ -271,10 +333,11 @@ body {
 
 h2.section-title {
   color: var(--gold);
-  font-size: 1em;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 4px;
-  margin-top: 22px;
+  font-size: 1.05em;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 5px;
+  margin-top: 24px;
 }
 
 .seasonal-banner {
@@ -305,6 +368,112 @@ h2.section-title {
   color: var(--text-dim);
 }
 
+.requirements-list {
+  margin-bottom: 8px;
+}
+
+.requirement-items {
+  list-style: none;
+  margin: 0 0 6px;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+.requirement-items li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 0;
+}
+
+.req-met {
+  color: var(--quest-green, #4caf50);
+  font-weight: bold;
+}
+
+.req-unmet {
+  color: var(--quest-red, #c0392b);
+  font-weight: bold;
+}
+
+.req-unknown {
+  color: var(--text-dim);
+  font-weight: bold;
+}
+
+.items-plain-list {
+  list-style: none;
+  margin: 6px 0 8px;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+.items-plain-list li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 0;
+}
+
+.items-plain-list img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.step-section-title {
+  color: var(--gold, #c9a227);
+  font-size: 0.95em;
+  margin: 16px 0 4px;
+}
+
+.chat-options-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  margin-left: 6px;
+  padding: 0 4px;
+  line-height: 1;
+}
+
+.chat-options-popup {
+  position: relative;
+  background: var(--bg-panel-alt, #2a2620);
+  border: 1px solid var(--border-light, #c9a227);
+  border-radius: 4px;
+  padding: 8px 10px;
+  margin: 4px 0 4px 24px;
+  font-size: 0.85em;
+}
+
+.chat-options-popup ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chat-options-popup li {
+  padding: 2px 0;
+}
+
+.chat-options-close {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-dim);
+}
+
+.reward-banner {
+  display: block;
+  max-width: 100%;
+  margin: 6px 0 10px;
+  border-radius: 4px;
+}
+
 .step-list {
   list-style: none;
   margin: 0;
@@ -314,12 +483,19 @@ h2.section-title {
 .step-list li {
   display: flex;
   align-items: flex-start;
-  gap: 8px;
-  padding: 4px 0;
+  gap: 9px;
+  padding: 5px 6px;
+  border-radius: 3px;
+}
+
+.step-list li:hover {
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .step-list li.indent-1 {
-  margin-left: 24px;
+  margin-left: 26px;
+  font-size: 0.95em;
+  color: var(--text-dim);
 }
 
 .step-list input[type="checkbox"] {

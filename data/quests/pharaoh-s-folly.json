@@ -2,7 +2,8 @@
   "id": "pharaoh-s-folly",
   "title": "Pharaoh's Folly",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:02:16.156Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:47.318Z",
   "icon": "https://runescape.wiki/images/thumb/Pharaoh%27s_Folly_icon.png/50px-Pharaoh%27s_Folly_icon.png",
   "series": "Desert",
   "age": "Age of Chaos",
@@ -110,391 +111,531 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Pharaoh%27s_Folly_reward.png?762cf",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "The folly of man",
       "text": {
-        "en": "Talk with Leela outside of the northern gates of Menaphos. (opciones de chat: Accept • 2 We should get it over with. (Continue quest))",
+        "en": "Talk with Leela outside of the northern gates of Menaphos.",
         "es": "Habla con Leela fuera de las puertas norte de Menaphos. (opciones de chat: Aceptar • 2 Deberíamos acabar con esto de una vez. (Continuar misión))"
-      }
+      },
+      "chatOptions": [
+        "Accept",
+        "2 We should get it over with. (Continue quest)"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The folly of man",
       "text": {
-        "en": "Empty your backpack, worn equipment and dismiss any followers and then head to the throne room inside the Golden Palace. (opciones de chat: 1 Yes.)",
-        "es": "Vacía tu mochila, el equipo que llevas puesto y despide a cualquier seguidor, y luego dirígete a la sala del trono dentro del Golden Palace. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Empty your backpack, worn equipment and dismiss any followers and then head to the throne room inside the Golden Palace.",
+        "es": "Vacía tu mochila, el equipo que llevas puesto y despide a cualquier seguidor, y luego dirígete a la sala del trono dentro del Golden Palace."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The folly of man",
       "text": {
-        "en": "Talk to anyone inside to begin the conversation. (opciones de chat: Any)",
-        "es": "Habla con cualquiera dentro para empezar la conversación. (opciones de chat: Cualquiera)"
-      }
+        "en": "Talk to anyone inside to begin the conversation.",
+        "es": "Habla con cualquiera dentro para empezar la conversación."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
         "en": "Attempt to exit the shifting tomb via the rope.",
         "es": "Intenta salir de la tumba cambiante por la cuerda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
         "en": "Search the arrow shafts to receive a mysterious message and a spare arrow shaft.",
         "es": "Registra los astiles de flecha para recibir un misterioso mensaje y un astil de flecha de repuesto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
         "en": "Read the mysterious message.",
         "es": "Lee el misterioso mensaje."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
         "en": "Speak to the four cats (indicated by yellow dots on your minimap) to receive a curved bone:",
         "es": "Habla con los cuatro gatos (indicados por puntos amarillos en tu minimapa) para recibir un hueso curvo:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "A shifting perspective",
       "text": {
         "en": "Bestopet",
         "es": "Bestopet"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "A shifting perspective",
       "text": {
         "en": "Katarina",
         "es": "Katarina"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "A shifting perspective",
       "text": {
         "en": "Shebit",
         "es": "Shebit"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "A shifting perspective",
       "text": {
         "en": "Takhuit",
         "es": "Takhuit"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
         "en": "Mine crystalline corruption to obtain crystal shards.",
         "es": "Extrae corrupción cristalina para obtener fragmentos de cristal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
         "en": "Search treasure chests to obtain feathers.",
         "es": "Registra cofres del tesoro para obtener plumas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
         "en": "Smash urns to obtain a gut string.",
         "es": "Rompe urnas para obtener una cuerda de tripa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
         "en": "Search sarcophagi to obtain mouldy bandages. To do this, click on the panels the energy bounces off in the order of which it started.",
         "es": "Registra sarcófagos para obtener vendas mohosas. Para hacer esto, haz clic en los paneles en los que rebota la energía, en el orden en que empezó."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
         "en": "Use the gut string on the curved bone to create a fragile bow.",
         "es": "Usa la cuerda de tripa en el hueso curvo para crear un arco frágil."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
         "en": "Use the feathers on the spare arrow shaft to create a feathered spare arrow shaft.",
         "es": "Usa las plumas en el astil de flecha de repuesto para crear un astil de flecha de repuesto emplumado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
         "en": "Use the crystal shards on the feathered spare arrow shaft to make a scrappy arrow.",
         "es": "Usa los fragmentos de cristal en el astil de flecha de repuesto emplumado para hacer una flecha desvencijada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
         "en": "Stand next to the arrow shafts where the exit rope was, then fire arrow with the bow in your backpack.",
         "es": "Ponte junto a los astiles de flecha donde estaba la cuerda de salida, y luego dispara la flecha con el arco que llevas en la mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
         "en": "Exit the rope.",
         "es": "Sal por la cuerda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
         "en": "Talk to Ozan.",
         "es": "Habla con Ozan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "A shifting perspective",
       "text": {
-        "en": "Talk to Commander Akhomet outside the northern gates of Sophanem. (opciones de chat: Any • 2 Just tell me what to do. (Continue quest) • 5 I'll crack on. (Continue quest))",
+        "en": "Talk to Commander Akhomet outside the northern gates of Sophanem.",
         "es": "Habla con Commander Akhomet fuera de las puertas norte de Sophanem. (opciones de chat: Cualquiera • 2 Dime solo qué debo hacer. (Continuar misión) • 5 Me pondré manos a la obra. (Continuar misión))"
-      }
+      },
+      "chatOptions": [
+        "Any",
+        "2 Just tell me what to do. (Continue quest)",
+        "5 I'll crack on. (Continue quest)"
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The keys to Menaphos",
       "text": {
         "en": "Talk to the following people:",
         "es": "Habla con las siguientes personas:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "The keys to Menaphos",
       "text": {
         "en": "Maisa next to the High priest in Sophanem.",
         "es": "Maisa, junto al Sumo Sacerdote en Sophanem."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "The keys to Menaphos",
       "text": {
-        "en": "Grand Vizier Hassan in the south-west building of the Menaphos merchant district. (opciones de chat: 1 Yes.)",
-        "es": "Grand Vizier Hassan en el edificio del suroeste del distrito mercantil de Menaphos. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Grand Vizier Hassan in the south-west building of the Menaphos merchant district.",
+        "es": "Grand Vizier Hassan en el edificio del suroeste del distrito mercantil de Menaphos."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "The keys to Menaphos",
       "text": {
         "en": "Lydia in Pollnivneach, south-east of Sumona.",
         "es": "Lydia en Pollnivneach, al sureste de Sumona."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "The keys to Menaphos",
       "text": {
-        "en": "Emir Ali Mirza in the Al Kharid palace. (opciones de chat: 1 Yes.)",
-        "es": "Emir Ali Mirza en el palacio de Al Kharid. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Emir Ali Mirza in the Al Kharid palace.",
+        "es": "Emir Ali Mirza en el palacio de Al Kharid."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Jailbreaking Leela",
       "text": {
-        "en": "Talk to Ozan back in the Shifting Tombs lobby. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Ozan de vuelta en el vestíbulo de las Shifting Tombs. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to Ozan back in the Shifting Tombs lobby.",
+        "es": "Habla con Ozan de vuelta en el vestíbulo de las Shifting Tombs."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Jailbreaking Leela",
       "text": {
-        "en": "Exit the tomb west to the Imperial district. (opciones de chat: 1 Yes.)",
-        "es": "Sal de la tumba hacia el oeste, al distrito imperial. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Exit the tomb west to the Imperial district.",
+        "es": "Sal de la tumba hacia el oeste, al distrito imperial."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Jailbreaking Leela",
       "text": {
         "en": "Sneak past the guards and enter the library.",
         "es": "Escabúllete junto a los guardias y entra en la biblioteca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Jailbreaking Leela",
       "text": {
         "en": "Head north and around the edge of the pool towards the VIP skilling area.",
         "es": "Dirígete al norte y rodea el borde de la piscina hacia la zona de habilidades VIP."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "Jailbreaking Leela",
       "text": {
         "en": "Go west and go behind the two guards near the Golden Palace.",
         "es": "Ve hacia el oeste y colócate detrás de los dos guardias cerca del Golden Palace."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Jailbreaking Leela",
       "text": {
         "en": "Head south to the library, going behind the stationary guards. Be careful of the roaming guards who can still catch you.",
         "es": "Dirígete al sur hacia la biblioteca, pasando por detrás de los guardias estacionarios. Ten cuidado con los guardias que patrullan, ya que aún pueden atraparte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Jailbreaking Leela",
       "text": {
         "en": "Talk to Ozan for a cutscene, and finish the dialogue to get the signal torch.",
         "es": "Habla con Ozan para ver una escena, y termina el diálogo para conseguir la antorcha de señales."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Jailbreaking Leela",
       "text": {
         "en": "Go south and make your way to the staircase on the south side, avoiding the guard.",
         "es": "Ve hacia el sur y dirígete a la escalera en el lado sur, evitando al guardia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Jailbreaking Leela",
       "text": {
         "en": "Stand halfway down the stairs and use the signal torch in your backpack.",
         "es": "Colócate a mitad de la escalera y usa la antorcha de señales que llevas en la mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Jailbreaking Leela",
       "text": {
         "en": "Head a bit west and talk to Leela to have her follow you (you will be able to continue the next step if she gets stuck).",
         "es": "Ve un poco hacia el oeste y habla con Leela para que te siga (podrás continuar con el siguiente paso si se queda atascada)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Jailbreaking Leela",
       "text": {
-        "en": "Continue to the bottom floor using the eastern stairs and talk to Ozan. (opciones de chat: Any)",
-        "es": "Continúa hasta la planta baja usando la escalera del este y habla con Ozan. (opciones de chat: Cualquiera)"
-      }
+        "en": "Continue to the bottom floor using the eastern stairs and talk to Ozan.",
+        "es": "Continúa hasta la planta baja usando la escalera del este y habla con Ozan."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Jailbreaking Leela",
       "text": {
-        "en": "Speak to Leela or Ozan on the Sophanem beach. (opciones de chat: Any)",
-        "es": "Habla con Leela u Ozan en la playa de Sophanem. (opciones de chat: Cualquiera)"
-      }
+        "en": "Speak to Leela or Ozan on the Sophanem beach.",
+        "es": "Habla con Leela u Ozan en la playa de Sophanem."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "The end of the follies",
       "text": {
-        "en": "Head to the throne room inside the Golden Palace. (opciones de chat: 1 Yes.)",
-        "es": "Dirígete a la sala del trono dentro del Golden Palace. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Head to the throne room inside the Golden Palace.",
+        "es": "Dirígete a la sala del trono dentro del Golden Palace."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "The end of the follies",
       "text": {
         "en": "Talk to each of the members to turn the bar over their heads red. Exhausting all chat options is not required.",
         "es": "Habla con cada uno de los miembros para poner en rojo la barra sobre sus cabezas. No es necesario agotar todas las opciones de chat."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "The end of the follies",
       "text": {
-        "en": "Grand Vizier Ehsan. (opciones de chat: 2 I want to call a witness. • 4 Emissary Qar • 1 Emir Ali.)",
-        "es": "Grand Vizier Ehsan. (opciones de chat: 2 Quiero llamar a un testigo. • 4 Emissary Qar • 1 Emir Ali.)"
-      }
+        "en": "Grand Vizier Ehsan.",
+        "es": "Grand Vizier Ehsan."
+      },
+      "chatOptions": [
+        "2 I want to call a witness.",
+        "4 Emissary Qar",
+        "1 Emir Ali."
+      ]
     },
     {
       "index": 42,
       "indent": 1,
+      "section": "The end of the follies",
       "text": {
-        "en": "'Admiral' Wadud. (opciones de chat: 2 I want to call a witness. • 1 Lydia • 1 Coenus' death.)",
-        "es": "'Admiral' Wadud. (opciones de chat: 2 Quiero llamar a un testigo. • 1 Lydia • 1 La muerte de Coenus.)"
-      }
+        "en": "'Admiral' Wadud.",
+        "es": "'Admiral' Wadud."
+      },
+      "chatOptions": [
+        "2 I want to call a witness.",
+        "1 Lydia",
+        "1 Coenus' death."
+      ]
     },
     {
       "index": 43,
       "indent": 1,
+      "section": "The end of the follies",
       "text": {
-        "en": "Batal. (opciones de chat: 2 I want to call a witness. • 2 Maisa • 1 Scabaras.)",
-        "es": "Batal. (opciones de chat: 2 Quiero llamar a un testigo. • 2 Maisa • 1 Scabaras.)"
-      }
+        "en": "Batal.",
+        "es": "Batal."
+      },
+      "chatOptions": [
+        "2 I want to call a witness.",
+        "2 Maisa",
+        "1 Scabaras."
+      ]
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "The end of the follies",
       "text": {
-        "en": "Commander Akhomet. (opciones de chat: 2 I want to call a witness. • 3 Grand Visier Hassan • 2 Osman's strengths.)",
-        "es": "Commander Akhomet. (opciones de chat: 2 Quiero llamar a un testigo. • 3 Grand Visier Hassan • 2 Los puntos fuertes de Osman.)"
-      }
+        "en": "Commander Akhomet.",
+        "es": "Commander Akhomet."
+      },
+      "chatOptions": [
+        "2 I want to call a witness.",
+        "3 Grand Visier Hassan",
+        "2 Osman's strengths."
+      ]
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "The end of the follies",
       "text": {
-        "en": "Re-enter the Golden Palace (opciones de chat: 1 Go to throne room.)",
-        "es": "Vuelve a entrar en el Golden Palace (opciones de chat: 1 Ir a la sala del trono.)"
-      }
+        "en": "Re-enter the Golden Palace",
+        "es": "Vuelve a entrar en el Golden Palace"
+      },
+      "chatOptions": [
+        "1 Go to throne room."
+      ]
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "The end of the follies",
       "text": {
         "en": "Talk to Pharaoh Leela.",
         "es": "Habla con Pharaoh Leela."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "The end of the follies",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

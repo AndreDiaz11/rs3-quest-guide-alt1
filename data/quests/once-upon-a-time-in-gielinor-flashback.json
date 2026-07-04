@@ -2,7 +2,8 @@
   "id": "once-upon-a-time-in-gielinor-flashback",
   "title": "Once Upon a Time in Gielinor: Flashback",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:45:57.706Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:44.127Z",
   "icon": "https://runescape.wiki/images/Once_Upon_a_Time_in_Gielinor_Flashback_icon.png",
   "length": "Short",
   "startPoint": {
@@ -40,263 +41,358 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Once_Upon_a_Time_in_Gielinor_Flashback_reward.png?6b495",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting off",
       "text": {
-        "en": "Talk to Closure who can be found in the Closure's Study in Death's office. (opciones de chat: Accept)",
-        "es": "Habla con Closure, a quien puedes encontrar en Closure's Study, en la oficina de Death. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Closure who can be found in the Closure's Study in Death's office.",
+        "es": "Habla con Closure, a quien puedes encontrar en Closure's Study, en la oficina de Death."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting off",
       "text": {
         "en": "Watch the cutscene.",
         "es": "Mira la escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting off",
       "text": {
-        "en": "Talk to the bartender in the Blue Moon Inn for the handwritten message. (opciones de chat: 1 Yes.)",
-        "es": "Habla con el camarero en Blue Moon Inn para conseguir el mensaje escrito a mano. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to the bartender in the Blue Moon Inn for the handwritten message.",
+        "es": "Habla con el camarero en Blue Moon Inn para conseguir el mensaje escrito a mano."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting off",
       "text": {
         "en": "Read the handwritten message.",
         "es": "Lee el mensaje escrito a mano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Starting off",
       "text": {
         "en": "Head to the Jolly Boar Inn located north-east of Varrock, outside the city walls near the Infernal source digsite and the Fort Forinthry lodestone.",
         "es": "Dirígete a Jolly Boar Inn, ubicado al noreste de Varrock, fuera de las murallas de la ciudad, cerca del yacimiento arqueológico Infernal source y de la piedra de viaje de Fort Forinthry."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Starting off",
       "text": {
         "en": "Talk to Relomia at the bar for a stack of Closure's biographies.",
         "es": "Habla con Relomia en la barra para conseguir un montón de biografías de Closure."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Starting off",
       "text": {
         "en": "Return and talk to Closure with his biographies.",
         "es": "Regresa y habla con Closure con sus biografías."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Merlin",
       "text": {
         "en": "Talk to Merlin in the waiting room of Closure's office to enter his memory.",
         "es": "Habla con Merlin en la sala de espera de la oficina de Closure para entrar en su recuerdo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Merlin",
       "text": {
-        "en": "Interact with the Oneiric manipulator in your inventory to play the memory. (opciones de chat: 1 Play the memory)",
-        "es": "Interactúa con el Oneiric manipulator de tu inventario para reproducir el recuerdo. (opciones de chat: 1 Play the memory)"
-      }
+        "en": "Interact with the Oneiric manipulator in your inventory to play the memory.",
+        "es": "Interactúa con el Oneiric manipulator de tu inventario para reproducir el recuerdo."
+      },
+      "chatOptions": [
+        "1 Play the memory"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Merlin",
       "text": {
-        "en": "Interact with it again to reset the memory. (opciones de chat: 2 Reset the memory)",
-        "es": "Interactúa con él de nuevo para reiniciar el recuerdo. (opciones de chat: 2 Reset the memory)"
-      }
+        "en": "Interact with it again to reset the memory.",
+        "es": "Interactúa con él de nuevo para reiniciar el recuerdo."
+      },
+      "chatOptions": [
+        "2 Reset the memory"
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Merlin",
       "text": {
-        "en": "Interact with the NPC next to you (shares your character's name). (opciones de chat: 3 Excalibur)",
-        "es": "Interactúa con el NPC que está a tu lado (comparte el nombre de tu personaje). (opciones de chat: 3 Excalibur)"
-      }
+        "en": "Interact with the NPC next to you (shares your character's name).",
+        "es": "Interactúa con el NPC que está a tu lado (comparte el nombre de tu personaje)."
+      },
+      "chatOptions": [
+        "3 Excalibur"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Merlin",
       "text": {
         "en": "Interact with the Latsyrc crystal twice so it becomes a Giant crystal.",
         "es": "Interactúa con el Latsyrc crystal dos veces para que se convierta en un Giant crystal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Merlin",
       "text": {
         "en": "Interact with the 'Merlin sucks' shield on the western wall once so it becomes a Wallshield.",
         "es": "Interactúa con el escudo 'Merlin sucks' en la pared occidental una vez para que se convierta en un Wallshield."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Merlin",
       "text": {
-        "en": "Interact with the Oneiric manipulator in your inventory again. (opciones de chat: 1 Play the memory)",
-        "es": "Interactúa de nuevo con el Oneiric manipulator de tu inventario. (opciones de chat: 1 Play the memory)"
-      }
+        "en": "Interact with the Oneiric manipulator in your inventory again.",
+        "es": "Interactúa de nuevo con el Oneiric manipulator de tu inventario."
+      },
+      "chatOptions": [
+        "1 Play the memory"
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Merlin",
       "text": {
         "en": "Once back in Closure's office, talk to Merlin.",
         "es": "De vuelta en la oficina de Closure, habla con Merlin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Ozan",
       "text": {
         "en": "Talk to Ozan to enter his memory.",
         "es": "Habla con Ozan para entrar en su recuerdo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Ozan",
       "text": {
-        "en": "Interact with the Oneiric manipulator in your inventory to play the memory. (opciones de chat: 1 Play the memory)",
-        "es": "Interactúa con el Oneiric manipulator de tu inventario para reproducir el recuerdo. (opciones de chat: 1 Play the memory)"
-      }
+        "en": "Interact with the Oneiric manipulator in your inventory to play the memory.",
+        "es": "Interactúa con el Oneiric manipulator de tu inventario para reproducir el recuerdo."
+      },
+      "chatOptions": [
+        "1 Play the memory"
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Ozan",
       "text": {
-        "en": "Interact with the Oneiric manipulator to reset the memory. (opciones de chat: 2 Reset the memory)",
-        "es": "Interactúa con el Oneiric manipulator para reiniciar el recuerdo. (opciones de chat: 2 Reset the memory)"
-      }
+        "en": "Interact with the Oneiric manipulator to reset the memory.",
+        "es": "Interactúa con el Oneiric manipulator para reiniciar el recuerdo."
+      },
+      "chatOptions": [
+        "2 Reset the memory"
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Ozan",
       "text": {
-        "en": "Interact with Ozan. (opciones de chat: 2 Jump second.)",
-        "es": "Interactúa con Ozan. (opciones de chat: 2 Jump second.)"
-      }
+        "en": "Interact with Ozan.",
+        "es": "Interactúa con Ozan."
+      },
+      "chatOptions": [
+        "2 Jump second."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Ozan",
       "text": {
-        "en": "Interact with the NPC that shares your character name. (opciones de chat: 1 Jump first.)",
-        "es": "Interactúa con el NPC que comparte el nombre de tu personaje. (opciones de chat: 1 Jump first.)"
-      }
+        "en": "Interact with the NPC that shares your character name.",
+        "es": "Interactúa con el NPC que comparte el nombre de tu personaje."
+      },
+      "chatOptions": [
+        "1 Jump first."
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Ozan",
       "text": {
         "en": "Enter the portal and interact the empty cart once so it becomes a cart.",
         "es": "Entra por el portal e interactúa con el empty cart una vez para que se convierta en un cart."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Ozan",
       "text": {
-        "en": "Interact with the Oneiric manipulator in your inventory. (opciones de chat: 1 Play the memory)",
-        "es": "Interactúa con el Oneiric manipulator de tu inventario. (opciones de chat: 1 Play the memory)"
-      }
+        "en": "Interact with the Oneiric manipulator in your inventory.",
+        "es": "Interactúa con el Oneiric manipulator de tu inventario."
+      },
+      "chatOptions": [
+        "1 Play the memory"
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Ozan",
       "text": {
         "en": "Once back in Closure's office, talk to Ozan.",
         "es": "De vuelta en la oficina de Closure, habla con Ozan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Ava",
       "text": {
         "en": "Talk to Ava to enter her memory.",
         "es": "Habla con Ava para entrar en su recuerdo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Ava",
       "text": {
-        "en": "Interact with the Oneiric manipulator to play the memory. (opciones de chat: 1 Play the memory)",
-        "es": "Interactúa con el Oneiric manipulator para reproducir el recuerdo. (opciones de chat: 1 Play the memory)"
-      }
+        "en": "Interact with the Oneiric manipulator to play the memory.",
+        "es": "Interactúa con el Oneiric manipulator para reproducir el recuerdo."
+      },
+      "chatOptions": [
+        "1 Play the memory"
+      ]
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Ava",
       "text": {
-        "en": "Interact with the Oneiric manipulator. (opciones de chat: 2 Reset the memory)",
-        "es": "Interactúa con el Oneiric manipulator. (opciones de chat: 2 Reset the memory)"
-      }
+        "en": "Interact with the Oneiric manipulator.",
+        "es": "Interactúa con el Oneiric manipulator."
+      },
+      "chatOptions": [
+        "2 Reset the memory"
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Ava",
       "text": {
-        "en": "Interact with NPC that shares your character's name. (opciones de chat: 2 Undead chickens)",
-        "es": "Interactúa con el NPC que comparte el nombre de tu personaje. (opciones de chat: 2 Undead chickens)"
-      }
+        "en": "Interact with NPC that shares your character's name.",
+        "es": "Interactúa con el NPC que comparte el nombre de tu personaje."
+      },
+      "chatOptions": [
+        "2 Undead chickens"
+      ]
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Ava",
       "text": {
         "en": "Investigate Lever B on the wall twice so it becomes a lever.",
         "es": "Examina Lever B en la pared dos veces para que se convierta en un lever."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Ava",
       "text": {
         "en": "Investigate the Spooky clock twice so it becomes a wardrobe.",
         "es": "Examina el Spooky clock dos veces para que se convierta en un wardrobe."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Ava",
       "text": {
-        "en": "Interact with the Oneiric manipulator again. (opciones de chat: 1 Play the memory)",
-        "es": "Interactúa de nuevo con el Oneiric manipulator. (opciones de chat: 1 Play the memory)"
-      }
+        "en": "Interact with the Oneiric manipulator again.",
+        "es": "Interactúa de nuevo con el Oneiric manipulator."
+      },
+      "chatOptions": [
+        "1 Play the memory"
+      ]
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Ava",
       "text": {
         "en": "Once back in Closure's office, talk to Ava.",
         "es": "De vuelta en la oficina de Closure, habla con Ava."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Closure",
       "text": {
         "en": "Talk to Closure.",
         "es": "Habla con Closure."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

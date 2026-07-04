@@ -2,7 +2,8 @@
   "id": "blood-runs-deep",
   "title": "Blood Runs Deep",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:53:03.416Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:42.223Z",
   "icon": "https://runescape.wiki/images/thumb/Blood_Runs_Deep_icon.png/50px-Blood_Runs_Deep_icon.png",
   "series": "Fremennik",
   "age": "5",
@@ -120,455 +121,663 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Blood_Runs_Deep_reward.png?8d235",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "The sick man's dream world",
       "text": {
-        "en": "Talk to Baba Yaga on Lunar Isle about the man in the bed. (opciones de chat: 1 Talk about the man in the bed. • Accept • 1 Is there anything we can do? • 1 Yes? • 1 An excellent idea!)",
-        "es": "Habla con Baba Yaga en Lunar Isle sobre el hombre en la cama. (opciones de chat: 1 Hablar sobre el hombre en la cama. • Aceptar • 1 ¿Hay algo que podamos hacer? • 1 ¿Sí? • 1 ¡Una idea excelente!)"
-      }
+        "en": "Talk to Baba Yaga on Lunar Isle about the man in the bed.",
+        "es": "Habla con Baba Yaga en Lunar Isle sobre el hombre en la cama."
+      },
+      "chatOptions": [
+        "1 Talk about the man in the bed.",
+        "Accept",
+        "1 Is there anything we can do?",
+        "1 Yes?",
+        "1 An excellent idea!"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The sick man's dream world",
       "text": {
-        "en": "Talk to Baba Yaga again to go to the Dream World. (opciones de chat: 1 Talk about the man in the bed. • 1 I am ready. • 1 I've no idea. • 1 I think I've got it.)",
-        "es": "Vuelve a hablar con Baba Yaga para ir al Dream World. (opciones de chat: 1 Hablar sobre el hombre en la cama. • 1 Estoy listo. • 1 No tengo ni idea. • 1 Creo que lo he entendido.)"
-      }
+        "en": "Talk to Baba Yaga again to go to the Dream World.",
+        "es": "Vuelve a hablar con Baba Yaga para ir al Dream World."
+      },
+      "chatOptions": [
+        "1 Talk about the man in the bed.",
+        "1 I am ready.",
+        "1 I've no idea.",
+        "1 I think I've got it."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The sick man's dream world",
       "text": {
-        "en": "Listen Silas. (opciones de chat: 1 He's crazy.)",
-        "es": "Escucha a Silas. (opciones de chat: 1 Está loco.)"
-      }
+        "en": "Listen Silas.",
+        "es": "Escucha a Silas."
+      },
+      "chatOptions": [
+        "1 He's crazy."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The sick man's dream world",
       "text": {
         "en": "Search the bookcase to obtain a prophecy tablet.",
         "es": "Registra la estantería para obtener una tablilla de profecía."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The sick man's dream world",
       "text": {
         "en": "Climb the stairs.",
         "es": "Sube las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The sick man's dream world",
       "text": {
-        "en": "Eavesdrop-on Silas and continue through the tunnel. (opciones de chat: 1 She didn't count on us finding out.)",
-        "es": "Escucha a escondidas a Silas y continúa por el túnel. (opciones de chat: 1 No contaba con que lo descubriéramos.)"
-      }
+        "en": "Eavesdrop-on Silas and continue through the tunnel.",
+        "es": "Escucha a escondidas a Silas y continúa por el túnel."
+      },
+      "chatOptions": [
+        "1 She didn't count on us finding out."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The sick man's dream world",
       "text": {
-        "en": "Talk to Silas. (opciones de chat: 1 I'm a friend of your nephew.)",
-        "es": "Habla con Silas. (opciones de chat: 1 Soy amigo de tu sobrino.)"
-      }
+        "en": "Talk to Silas.",
+        "es": "Habla con Silas."
+      },
+      "chatOptions": [
+        "1 I'm a friend of your nephew."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The sick man's dream world",
       "text": {
-        "en": "Read Our Lives. (opciones de chat: 1 What do you mean, 'not working'?)",
-        "es": "Lee Our Lives. (opciones de chat: 1 ¿Qué quieres decir con 'no funciona'?)"
-      }
+        "en": "Read Our Lives.",
+        "es": "Lee Our Lives."
+      },
+      "chatOptions": [
+        "1 What do you mean, 'not working'?"
+      ]
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "The sick man's dream world",
       "text": {
         "en": "Prepare to face multiple (4-7) Dagannoth and Wallasalki at a time. This will go on for a few minutes.",
         "es": "Prepárate para enfrentarte a varios (4-7) Dagannoth y Wallasalki a la vez. Esto durará unos minutos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "The sick man's dream world",
       "text": {
         "en": "Do not use your dwarf multicannon in this area or you will lose it.",
         "es": "No uses tu cañón enano en esta zona o lo perderás."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The Dagannoth attack",
       "text": {
-        "en": "Talk to Baba Yaga to be teleported to Rellekka. (opciones de chat: 1 Talk about the man in the bed. • 1 What is? • 2 I'm ready. What's your trick?)",
-        "es": "Habla con Baba Yaga para ser teletransportado a Rellekka. (opciones de chat: 1 Hablar sobre el hombre en la cama. • 1 ¿Qué es? • 2 Estoy listo. ¿Cuál es tu truco?)"
-      }
+        "en": "Talk to Baba Yaga to be teleported to Rellekka.",
+        "es": "Habla con Baba Yaga para ser teletransportado a Rellekka."
+      },
+      "chatOptions": [
+        "1 Talk about the man in the bed.",
+        "1 What is?",
+        "2 I'm ready. What's your trick?"
+      ]
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "The Dagannoth attack",
       "text": {
         "en": "Prepare to face many Dagannoth.",
         "es": "Prepárate para enfrentarte a muchos Dagannoth."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "The Dagannoth attack",
       "text": {
         "en": "After killing sufficient Dagannoth, Brundt the Chieftain will command you to get onto his boat.",
         "es": "Tras matar suficientes Dagannoth, Brundt the Chieftain te ordenará subir a su barco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "The Dagannoth attack",
       "text": {
-        "en": "Talk to Queen Sigrid. (opciones de chat: 1 What is the matter, Your Majesty? • 1 I'll set out right away.)",
-        "es": "Habla con Queen Sigrid. (opciones de chat: 1 ¿Qué ocurre, Majestad? • 1 Partiré de inmediato.)"
-      }
+        "en": "Talk to Queen Sigrid.",
+        "es": "Habla con Queen Sigrid."
+      },
+      "chatOptions": [
+        "1 What is the matter, Your Majesty?",
+        "1 I'll set out right away."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "The Dagannoth attack",
       "text": {
-        "en": "Talk to Brundt to get another seal of passage. (opciones de chat: 2 I'll go with you.)",
-        "es": "Habla con Brundt para conseguir otro sello de paso. (opciones de chat: 2 Iré contigo.)"
-      }
+        "en": "Talk to Brundt to get another seal of passage.",
+        "es": "Habla con Brundt para conseguir otro sello de paso."
+      },
+      "chatOptions": [
+        "2 I'll go with you."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Saving King Vargas",
       "text": {
         "en": "Bank before teleporting to Waterbirth. Bring prayer potions and a full load of food. Leave 1 space empty.",
         "es": "Guarda tus objetos en el banco antes de teletransportarte a Waterbirth. Lleva pociones de oración y comida suficiente. Deja 1 espacio libre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Saving King Vargas",
       "text": {
         "en": "Talk to Jarvald (on the western pier) and select the option Travel-Waterbirth to head to Waterbirth Island. If he says he's not taking you, you will have to talk to him first and get to the option where you ask \"Can I come?\"",
         "es": "Habla con Jarvald (en el muelle occidental) y selecciona la opción Travel-Waterbirth para dirigirte a Waterbirth Island. Si dice que no te va a llevar, tendrás que hablar con él de nuevo hasta llegar a la opción donde preguntas \"¿Puedo ir contigo?\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Saving King Vargas",
       "text": {
-        "en": "Talk to Bardur near the cave entrance for a rope. (opciones de chat: 1 What kind of voices? • 1 Could it be an old man echoing from underground?)",
-        "es": "Habla con Bardur cerca de la entrada de la cueva para conseguir una cuerda. (opciones de chat: 1 ¿Qué tipo de voces? • 1 ¿Podría ser el eco de un anciano bajo tierra?)"
-      }
+        "en": "Talk to Bardur near the cave entrance for a rope.",
+        "es": "Habla con Bardur cerca de la entrada de la cueva para conseguir una cuerda."
+      },
+      "chatOptions": [
+        "1 What kind of voices?",
+        "1 Could it be an old man echoing from underground?"
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Saving King Vargas",
       "text": {
         "en": "Make your way to the southwestern tip of the island and tie the rope on the hole.",
         "es": "Dirígete a la punta suroeste de la isla y ata la cuerda al agujero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Saving King Vargas",
       "text": {
         "en": "Climb-down the hole.",
         "es": "Baja por el agujero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Saving King Vargas",
       "text": {
-        "en": "Talk to King Vargas. (opciones de chat: 1 We aren't out yet. • 1 Come on, this isn't the King Vargas I'm used to. • 1 No, I can imagine. • 1 Certainly, I've got some here.)",
-        "es": "Habla con King Vargas. (opciones de chat: 1 Aún no hemos salido. • 1 Vamos, este no es el King Vargas al que estoy acostumbrado. • 1 No, ya me lo imagino. • 1 Por supuesto, tengo algo aquí.)"
-      }
+        "en": "Talk to King Vargas.",
+        "es": "Habla con King Vargas."
+      },
+      "chatOptions": [
+        "1 We aren't out yet.",
+        "1 Come on, this isn't the King Vargas I'm used to.",
+        "1 No, I can imagine.",
+        "1 Certainly, I've got some here."
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Saving King Vargas",
       "text": {
         "en": "Lead King Vargas down the path to the north-east and go down the ladder.",
         "es": "Guía a King Vargas por el camino hacia el noreste y baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 1,
+      "section": "Saving King Vargas",
       "text": {
         "en": "Don't get too far ahead of King Vargas in the tunnels, or the dagannoth will get him and return him to the first chamber meaning you will have to start over. Staying close to King Vargas also ensures he will not be attacked so you won't have to feed him any food. It's recommended to turn off run while escorting King Vargas.",
         "es": "No te alejes demasiado de King Vargas en los túneles, o los dagannoth lo atraparán y lo devolverán a la primera cámara, lo que significa que tendrás que empezar de nuevo. Mantenerte cerca de King Vargas también asegura que no será atacado, así que no tendrás que darle comida. Se recomienda desactivar la carrera mientras escoltas a King Vargas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Saving King Vargas",
       "text": {
         "en": "Continue to the far-east side of the next tunnel, past the small obelisk, and climb up the ladder.",
         "es": "Continúa hacia el extremo este del siguiente túnel, pasando el pequeño obelisco, y sube por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Saving King Vargas",
       "text": {
         "en": "The next ladder to climb up is to the west, in this short tunnel dagannoth will spawn that prioritise attacking King Vargas, make sure you attack them so they will focus their attacks on you instead.",
         "es": "La siguiente escalera para subir está al oeste; en este túnel corto aparecerán dagannoth que priorizarán atacar a King Vargas, asegúrate de atacarlos para que centren sus ataques en ti."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Saving King Vargas",
       "text": {
-        "en": "Make your way through the last two short tunnels with rock lobsters and climb up the ladder. (opciones de chat: 1 Well, as quickly as you can, please. • 1 Don't touch anything!)",
-        "es": "Atraviesa los dos últimos túneles cortos con langostas de roca y sube por la escalera. (opciones de chat: 1 Bien, tan rápido como puedas, por favor. • 1 ¡No toques nada!)"
-      }
+        "en": "Make your way through the last two short tunnels with rock lobsters and climb up the ladder.",
+        "es": "Atraviesa los dos últimos túneles cortos con langostas de roca y sube por la escalera."
+      },
+      "chatOptions": [
+        "1 Well, as quickly as you can, please.",
+        "1 Don't touch anything!"
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Fremennik spiritual realm",
       "text": {
-        "en": "Talk to Eir. (opciones de chat: 1 Pardon? • 1 I'm not supposed to be here? • 1 Can you at least explain where I am? • 1 How do I get back then?)",
-        "es": "Habla con Eir. (opciones de chat: 1 ¿Perdón? • 1 ¿Se supone que no debería estar aquí? • 1 ¿Puedes al menos explicarme dónde estoy? • 1 ¿Entonces cómo vuelvo?)"
-      }
+        "en": "Talk to Eir.",
+        "es": "Habla con Eir."
+      },
+      "chatOptions": [
+        "1 Pardon?",
+        "1 I'm not supposed to be here?",
+        "1 Can you at least explain where I am?",
+        "1 How do I get back then?"
+      ]
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Fremennik spiritual realm",
       "text": {
-        "en": "Talk to Nial Swiftfling. (opciones de chat: 1 [Say nothing] • 1 The dagannoths are mounting a massive attack on nearby settlements. • 1 It's nothing I can't handle.)",
-        "es": "Habla con Nial Swiftfling. (opciones de chat: 1 [No decir nada] • 1 Los dagannoth están lanzando un ataque masivo contra los asentamientos cercanos. • 1 No es nada que no pueda manejar.)"
-      }
+        "en": "Talk to Nial Swiftfling.",
+        "es": "Habla con Nial Swiftfling."
+      },
+      "chatOptions": [
+        "1 [Say nothing]",
+        "1 The dagannoths are mounting a massive attack on nearby settlements.",
+        "1 It's nothing I can't handle."
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Fremennik spiritual realm",
       "text": {
-        "en": "Talk to Asleif Hamalsdotter. (opciones de chat: 1 Just passing through. • 1 You realise they're waiting for a huge battle? • 1 I don't recall that working out so well last time.)",
-        "es": "Habla con Asleif Hamalsdotter. (opciones de chat: 1 Solo estoy de paso. • 1 ¿Te das cuenta de que están esperando una gran batalla? • 1 No recuerdo que eso saliera tan bien la última vez.)"
-      }
+        "en": "Talk to Asleif Hamalsdotter.",
+        "es": "Habla con Asleif Hamalsdotter."
+      },
+      "chatOptions": [
+        "1 Just passing through.",
+        "1 You realise they're waiting for a huge battle?",
+        "1 I don't recall that working out so well last time."
+      ]
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Fremennik spiritual realm",
       "text": {
-        "en": "Talk to Eir. (opciones de chat: 1 Yes, please.)",
-        "es": "Habla con Eir. (opciones de chat: 1 Sí, por favor.)"
-      }
+        "en": "Talk to Eir.",
+        "es": "Habla con Eir."
+      },
+      "chatOptions": [
+        "1 Yes, please."
+      ]
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Fremennik spiritual realm",
       "text": {
         "en": "If the spiritual realm sequence is interrupted, speak with Brundt in the long hall in Rellekka to obtain a letter. Read the letter to return.",
         "es": "Si la secuencia del reino espiritual se interrumpe, habla con Brundt en el salón principal de Rellekka para obtener una carta. Lee la carta para regresar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Fremennik spiritual realm",
       "text": {
-        "en": "Speak to Brundt the Chieftain. (opciones de chat: Any)",
-        "es": "Habla con Brundt the Chieftain. (opciones de chat: Cualquiera)"
-      }
+        "en": "Speak to Brundt the Chieftain.",
+        "es": "Habla con Brundt the Chieftain."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Fremennik spiritual realm",
       "text": {
-        "en": "Talk to King Vargas. (opciones de chat: Any • Any • Any • Any • Any • Any • Any • Any • 2 [Cut to the chase])",
-        "es": "Habla con King Vargas. (opciones de chat: Cualquiera • Cualquiera • Cualquiera • Cualquiera • Cualquiera • Cualquiera • Cualquiera • Cualquiera • 2 [Ir al grano])"
-      }
+        "en": "Talk to King Vargas.",
+        "es": "Habla con King Vargas."
+      },
+      "chatOptions": [
+        "Any",
+        "Any",
+        "Any",
+        "Any",
+        "Any",
+        "Any",
+        "Any",
+        "Any",
+        "2 [Cut to the chase]"
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Fremennik spiritual realm",
       "text": {
-        "en": "Talk to Princess Astrid or Prince Brand. (opciones de chat: Any)",
-        "es": "Habla con Princess Astrid o Prince Brand. (opciones de chat: Cualquiera)"
-      }
+        "en": "Talk to Princess Astrid or Prince Brand.",
+        "es": "Habla con Princess Astrid o Prince Brand."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Fremennik spiritual realm",
       "text": {
-        "en": "Talk to Brundt to continue and bank. (opciones de chat: 2 Actually, could you drop me off at the bank on Etceteria?)",
-        "es": "Habla con Brundt para continuar y guardar tus objetos en el banco. (opciones de chat: 2 En realidad, ¿podrías dejarme en el banco de Etceteria?)"
-      }
+        "en": "Talk to Brundt to continue and bank.",
+        "es": "Habla con Brundt para continuar y guardar tus objetos en el banco."
+      },
+      "chatOptions": [
+        "2 Actually, could you drop me off at the bank on Etceteria?"
+      ]
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Fremennik spiritual realm",
       "text": {
         "en": "Prepare for a fight with Dagannoth sentinels and the Dagannoth Mother.",
         "es": "Prepárate para una lucha contra los Dagannoth sentinels y la Dagannoth Mother."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
-        "en": "Talk to Brundt in the long hall in Rellekka when you are ready. (opciones de chat: 2 Ask about the war against the daggermouths. • 1 Yes, let's go now.)",
-        "es": "Habla con Brundt en el salón principal de Rellekka cuando estés listo. (opciones de chat: 2 Preguntar sobre la guerra contra los daggermouths. • 1 Sí, vamos ahora.)"
-      }
+        "en": "Talk to Brundt in the long hall in Rellekka when you are ready.",
+        "es": "Habla con Brundt en el salón principal de Rellekka cuando estés listo."
+      },
+      "chatOptions": [
+        "2 Ask about the war against the daggermouths.",
+        "1 Yes, let's go now."
+      ]
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
-        "en": "Talk to Baba Yaga on the boat. (opciones de chat: 1 [Say nothing] • 2 What do you think? • 1 Yes, I have. • 1 No, of course not! • 1 I'm ready.)",
-        "es": "Habla con Baba Yaga en el barco. (opciones de chat: 1 [No decir nada] • 2 ¿Qué opinas? • 1 Sí, lo he hecho. • 1 ¡No, claro que no! • 1 Estoy listo.)"
-      }
+        "en": "Talk to Baba Yaga on the boat.",
+        "es": "Habla con Baba Yaga en el barco."
+      },
+      "chatOptions": [
+        "1 [Say nothing]",
+        "2 What do you think?",
+        "1 Yes, I have.",
+        "1 No, of course not!",
+        "1 I'm ready."
+      ]
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
         "en": "Climb down the hole on the southwestern tip of the island.",
         "es": "Baja por el agujero en la punta suroeste de la isla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
-        "en": "Enter the southern tunnel. (opciones de chat: 1 That sounds reasonable.)",
-        "es": "Entra en el túnel sur. (opciones de chat: 1 Eso suena razonable.)"
-      }
+        "en": "Enter the southern tunnel.",
+        "es": "Entra en el túnel sur."
+      },
+      "chatOptions": [
+        "1 That sounds reasonable."
+      ]
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
-        "en": "Enter the next tunnel to fight the Dagannoth sentinels. (opciones de chat: 1 Good luck.)",
-        "es": "Entra en el siguiente túnel para luchar contra los Dagannoth sentinels. (opciones de chat: 1 Buena suerte.)"
-      }
+        "en": "Enter the next tunnel to fight the Dagannoth sentinels.",
+        "es": "Entra en el siguiente túnel para luchar contra los Dagannoth sentinels."
+      },
+      "chatOptions": [
+        "1 Good luck."
+      ]
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "Waterbirth",
       "text": {
         "en": "After defeating the sentinels, you can go to bank to get more food. You don't need to fight the sentinels again. Also you don't need the tablets or the seal of passage for the fights (saves you a few slots for food).",
         "es": "Tras derrotar a los sentinels, puedes ir al banco para conseguir más comida. No necesitas volver a luchar contra los sentinels. Tampoco necesitas las tablillas ni el sello de paso para las peleas (te ahorra algunos espacios para comida)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
         "en": "Continue to the next tunnel.",
         "es": "Continúa hacia el siguiente túnel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
         "en": "Go to the south-east intersection and enter the tunnel entrance.",
         "es": "Ve hasta la intersección del sureste y entra por la entrada del túnel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "Waterbirth",
       "text": {
         "en": "Use the picture on the right for reference.",
         "es": "Usa la imagen de la derecha como referencia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
         "en": "Proceed south and enter the tunnel.",
         "es": "Continúa hacia el sur y entra en el túnel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
-        "en": "Go through the next tunnel and select either chat option. (opciones de chat: Any)",
-        "es": "Atraviesa el siguiente túnel y selecciona cualquiera de las opciones de diálogo. (opciones de chat: Cualquiera)"
-      }
+        "en": "Go through the next tunnel and select either chat option.",
+        "es": "Atraviesa el siguiente túnel y selecciona cualquiera de las opciones de diálogo."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
         "en": "Start the battle with Balmung (the special weapon you received from Brundt) and kill the Dagannoth Mother, switching styles according to her colour.",
         "es": "Comienza la batalla con Balmung (el arma especial que recibiste de Brundt) y mata a la Dagannoth Mother, cambiando de estilo según su color."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 1,
+      "section": "Waterbirth",
       "text": {
         "en": "If you have trouble telling between the colours (specially red/orange/yellow), you can use the chatbox. It will say \"The dagannoth changes to red...\" etc.",
         "es": "Si tienes problemas para distinguir los colores (especialmente rojo/naranja/amarillo), puedes usar el cuadro de chat. Dirá \"The dagannoth changes to red...\" etc."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
         "en": "After the Dagannoth Mother has been defeated, go back to the previous room, collect the pickaxe, plank, and tinderbox and use them to collapse one of the pillars.",
         "es": "Tras derrotar a la Dagannoth Mother, vuelve a la sala anterior, recoge el pico, la tabla y el yesquero, y úsalos para derribar uno de los pilares."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
-        "en": "Talk to Eir. (opciones de chat: 1 I seem to have died again. • 1 Yes, I am.)",
-        "es": "Habla con Eir. (opciones de chat: 1 Parece que he muerto otra vez. • 1 Sí, lo estoy.)"
-      }
+        "en": "Talk to Eir.",
+        "es": "Habla con Eir."
+      },
+      "chatOptions": [
+        "1 I seem to have died again.",
+        "1 Yes, I am."
+      ]
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
-        "en": "Check the bodies and finish chat. (opciones de chat: Any)",
-        "es": "Revisa los cuerpos y termina la conversación. (opciones de chat: Cualquiera)"
-      }
+        "en": "Check the bodies and finish chat.",
+        "es": "Revisa los cuerpos y termina la conversación."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
         "en": "Talk with Baba Yaga and Koschei.",
         "es": "Habla con Baba Yaga y Koschei."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
-        "en": "Attempt to climb up the rope. (opciones de chat: Any • Any)",
-        "es": "Intenta subir por la cuerda. (opciones de chat: Cualquiera • Cualquiera)"
-      }
+        "en": "Attempt to climb up the rope.",
+        "es": "Intenta subir por la cuerda."
+      },
+      "chatOptions": [
+        "Any",
+        "Any"
+      ]
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Waterbirth",
       "text": {
-        "en": "Speak to Brundt to receive your reward. (opciones de chat: 2 Ask about the war against the daggermouths.)",
-        "es": "Habla con Brundt para recibir tu recompensa. (opciones de chat: 2 Preguntar sobre la guerra contra los daggermouths.)"
-      }
+        "en": "Speak to Brundt to receive your reward.",
+        "es": "Habla con Brundt para recibir tu recompensa."
+      },
+      "chatOptions": [
+        "2 Ask about the war against the daggermouths."
+      ]
     }
   ]
 }

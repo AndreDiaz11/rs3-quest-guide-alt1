@@ -2,7 +2,8 @@
   "id": "doric-s-task-i-miniquest",
   "title": "Doric's Task I (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:10:14.851Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:00.832Z",
   "icon": "https://runescape.wiki/images/Doric%27s_Task_I_%28miniquest%29_icon.png",
   "series": "Doric's Tasks",
   "age": "5",
@@ -56,39 +57,53 @@
       "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Doric%27s_Task_I_%28miniquest%29_reward.png?c3090",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Delivery for Aksel",
       "text": {
-        "en": "Talk to Doric in his hut north of Falador. (opciones de chat: 1 Do you have any more Smithing tasks for me? • Accept)",
-        "es": "Habla con Doric en su cabaña al norte de Falador. (opciones de chat: 1 ¿Tienes más tareas de Herrería para mí? • Aceptar)"
-      }
+        "en": "Talk to Doric in his hut north of Falador.",
+        "es": "Habla con Doric en su cabaña al norte de Falador."
+      },
+      "chatOptions": [
+        "1 Do you have any more Smithing tasks for me?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Delivery for Aksel",
       "text": {
         "en": "Smith an iron full helm +1",
         "es": "Forja un yelmo completo de hierro +1"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Delivery for Aksel",
       "text": {
         "en": "It can not be purchased off the Grand Exchange or smithed on any other anvil but Doric's, however players can buy an unimproved iron full helm from the Grand Exchange and upgrade themselves to +1.",
         "es": "No se puede comprar en el Grand Exchange ni forjar en ningún yunque que no sea el de Doric, sin embargo los jugadores pueden comprar un yelmo completo de hierro sin mejorar en el Grand Exchange y mejorarlo ellos mismos a +1."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Delivery for Aksel",
       "text": {
-        "en": "Deliver it to Aksel at Artisans' Workshop. (opciones de chat: 1 Doric sent me here with another delivery.)",
-        "es": "Entrégaselo a Aksel en Artisans' Workshop. (opciones de chat: 1 Doric me ha enviado aquí con otra entrega.)"
-      }
+        "en": "Deliver it to Aksel at Artisans' Workshop.",
+        "es": "Entrégaselo a Aksel en Artisans' Workshop."
+      },
+      "chatOptions": [
+        "1 Doric sent me here with another delivery."
+      ]
     }
   ]
 }

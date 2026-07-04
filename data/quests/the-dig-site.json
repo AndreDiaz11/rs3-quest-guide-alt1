@@ -2,7 +2,8 @@
   "id": "the-dig-site",
   "title": "The Dig Site",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:07:11.632Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:16.712Z",
   "icon": "https://runescape.wiki/images/The_Dig_Site_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -129,359 +130,467 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Dig_Site_reward.png?4c976",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Speak to an examiner in the Exam Centre.",
         "es": "Habla con un examinador en el Exam Centre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "Teleport to the Archaeology Campus by using the archaeology journal and run south-east.",
         "es": "Teletranspórtate al Archaeology Campus usando el diario de arqueología y corre hacia el sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Talk to Seth Minas (site manager) in Archaeology Guild. Make sure you have the unstamped letter otherwise the dialogue with Seth does not progress.",
         "es": "Habla con Seth Minas (site manager) en Archaeology Guild. Asegúrate de tener la carta sin sellar, de lo contrario el diálogo con Seth no avanzará."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Grab a cup of tea from the desk in the south side of the building. It is behind Acting Guildmaster Reiniger or Drew (depends on your progress). Not required if you have one.",
         "es": "Coge una taza de té del escritorio en el lado sur del edificio. Está detrás de Acting Guildmaster Reiniger o de Drew (según tu progreso). No es necesario si ya tienes una."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Talk to an examiner in the Exam Centre; you will fail the exam.",
         "es": "Habla con un examinador en el Exam Centre; suspenderás el examen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Lost and found",
       "text": {
         "en": "Search the green bushes to the west of the Monolith in the middle of the Archaeology Campus (not the ones to the south, near the fences) until you find a teddy bear.",
         "es": "Registra los arbustos verdes al oeste del Monolith en el centro del Archaeology Campus (no los del sur, cerca de las vallas) hasta encontrar un osito de peluche."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Lost and found",
       "text": {
         "en": "Take the panning tray from the small building south of the screening station.",
         "es": "Coge la bandeja de bateo del pequeño edificio al sur de la estación de cribado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Lost and found",
       "text": {
         "en": "Pan the water to the east of where you found the panning tray. Someone will try to stop you. Give him the cup of tea to pan the water.",
         "es": "Batea el agua al este de donde encontraste la bandeja de bateo. Alguien intentará detenerte. Dale la taza de té para poder batear el agua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Lost and found",
       "text": {
         "en": "Pan until you find a special cup.",
         "es": "Batea hasta encontrar una taza especial."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Lost and found",
       "text": {
         "en": "Pan until you find an uncut opal if you have not already.",
         "es": "Batea hasta encontrar un ópalo sin tallar, si aún no lo has hecho."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Lost and found",
       "text": {
         "en": "Pickpocket the Dig Site workman in the north-east corner of the dig site until you get an animal skull.",
         "es": "Roba al Dig Site workman en la esquina noreste del yacimiento hasta conseguir una calavera de animal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Lost and found",
       "text": {
         "en": "Talk to Katarina (student) in the central area of the dig site.",
         "es": "Habla con Katarina (student) en la zona central del yacimiento."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Lost and found",
       "text": {
         "en": "Talk to her again.",
         "es": "Habla con ella de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Lost and found",
       "text": {
         "en": "Run south-east, talk to Dorian (student).",
         "es": "Corre hacia el sureste y habla con Dorian (student)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Lost and found",
       "text": {
         "en": "Talk to him again.",
         "es": "Habla con él de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Lost and found",
       "text": {
         "en": "Run west, talk to Eduardo (student) who can be found in the dig spot closest to the well.",
         "es": "Corre hacia el oeste y habla con Eduardo (student), que se encuentra en el punto de excavación más cercano al pozo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Lost and found",
       "text": {
         "en": "Talk to him again. :If the answer choices for the below options are not listed, you need to give the students their respective digsite finds, the cup, animal skull, and teddy bear before proceeding.",
         "es": "Habla con él de nuevo. :Si las opciones de respuesta de las siguientes acciones no aparecen listadas, debes entregar a los estudiantes sus respectivos hallazgos del yacimiento —la taza, la calavera de animal y el osito de peluche— antes de continuar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Exams",
       "text": {
-        "en": "Return to an examiner. (opciones de chat: 1 Yes, I certainly am. • 1 The study of the earth, its contents and history. • 3 All that have passed the appropriate Earth Sciences exam. • 2 Proper tools must be used.)",
-        "es": "Vuelve con un examinador. (opciones de chat: 1 Yes, I certainly am. • 1 The study of the earth, its contents and history. • 3 All that have passed the appropriate Earth Sciences exam. • 2 Proper tools must be used.)"
-      }
+        "en": "Return to an examiner.",
+        "es": "Vuelve con un examinador."
+      },
+      "chatOptions": [
+        "1 Yes, I certainly am.",
+        "1 The study of the earth, its contents and history.",
+        "3 All that have passed the appropriate Earth Sciences exam.",
+        "2 Proper tools must be used."
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Exams",
       "text": {
         "en": "Talk to all 3 students again.",
         "es": "Habla de nuevo con los 3 estudiantes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Exams",
       "text": {
-        "en": "Return to an examiner. (opciones de chat: 1 I am ready for the next exam. • 3 Samples taken in rough form; kept only in sealed containers. • 1 Finds must be carefully handled. • 2 Always handle with care; strike cleanly on its cleaving point.)",
-        "es": "Vuelve con un examinador. (opciones de chat: 1 I am ready for the next exam. • 3 Samples taken in rough form; kept only in sealed containers. • 1 Finds must be carefully handled. • 2 Always handle with care; strike cleanly on its cleaving point.)"
-      }
+        "en": "Return to an examiner.",
+        "es": "Vuelve con un examinador."
+      },
+      "chatOptions": [
+        "1 I am ready for the next exam.",
+        "3 Samples taken in rough form; kept only in sealed containers.",
+        "1 Finds must be carefully handled.",
+        "2 Always handle with care; strike cleanly on its cleaving point."
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Exams",
       "text": {
         "en": "Talk to all 3 students again.",
         "es": "Habla de nuevo con los 3 estudiantes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Exams",
       "text": {
         "en": "Katarina will demand an opal (talk to her again). You can obtain this by panning.",
         "es": "Katarina te pedirá un ópalo (habla con ella de nuevo). Puedes conseguirlo bateando."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Exams",
       "text": {
-        "en": "Return to an examiner. (opciones de chat: 1 I am ready for the last exam... • 1 Samples cleaned, and carried only in specimen jars. • 1 Brush carefully and slowly using short strokes. • 3 Handle bones very carefully and keep them away from other samples.)",
-        "es": "Vuelve con un examinador. (opciones de chat: 1 I am ready for the last exam... • 1 Samples cleaned, and carried only in specimen jars. • 1 Brush carefully and slowly using short strokes. • 3 Handle bones very carefully and keep them away from other samples.)"
-      }
+        "en": "Return to an examiner.",
+        "es": "Vuelve con un examinador."
+      },
+      "chatOptions": [
+        "1 I am ready for the last exam...",
+        "1 Samples cleaned, and carried only in specimen jars.",
+        "1 Brush carefully and slowly using short strokes.",
+        "3 Handle bones very carefully and keep them away from other samples."
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Exams",
       "text": {
         "en": "Optional: Give Seth Minas (site manager) the level 1, 2 and 3 certificates to receive a Fruit Blast or a chocolate cake. The Fruit Blast can be saved for the quest Recipe for Disaster: Another Cook's Quest.",
         "es": "Opcional: Entrega a Seth Minas (site manager) los certificados de nivel 1, 2 y 3 para recibir un Fruit Blast o un pastel de chocolate. El Fruit Blast se puede guardar para la misión Recipe for Disaster: Another Cook's Quest."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Helping the expert",
       "text": {
         "en": "Excavate the area on the ground named level 3 grid (near Dorian at the east digsite, see image) until you find an ancient talisman. It may take over 40 attempts to get it.",
         "es": "Excava la zona del suelo llamada level 3 grid (cerca de Dorian, en el yacimiento este, ver imagen) hasta encontrar un talismán antiguo. Puede que necesites más de 40 intentos para conseguirlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Helping the expert",
       "text": {
         "en": "Talk to Terry Balando back at the Exam Centre.",
         "es": "Habla con Terry Balando de vuelta en el Exam Centre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Helping the expert",
       "text": {
         "en": "Go to the north-eastern winch (a square hole in the ground with a rope going down it), at a dig site north from Dorian. You will also find Elissa wandering nearby and a training grid near the winch.",
         "es": "Dirígete al torno del noreste (un agujero cuadrado en el suelo con una cuerda que baja por él), en un yacimiento al norte de Dorian. También encontrarás a Elissa deambulando cerca y una zona de entrenamiento junto al torno."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Helping the expert",
       "text": {
         "en": "Operate the winch three times to hand in your invitation, attach a rope, and climb down.",
         "es": "Usa el torno tres veces para entregar tu invitación, atar una cuerda y bajar por ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Helping the expert",
       "text": {
         "en": "Pick up an arcenia root. One is directly to the east of the rope and another is west of the rope, under a torch on the wall. You may use Area Loot to pick them up.",
         "es": "Recoge una raíz de arcenia. Hay una justo al este de la cuerda y otra al oeste de la cuerda, bajo una antorcha en la pared. Puedes usar Area Loot para recogerlas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Helping the expert",
       "text": {
-        "en": "Search the bricks south-east of the rope. (opciones de chat: Any)",
-        "es": "Registra los ladrillos al sureste de la cuerda. (opciones de chat: Any)"
-      }
+        "en": "Search the bricks south-east of the rope.",
+        "es": "Registra los ladrillos al sureste de la cuerda."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Helping the expert",
       "text": {
         "en": "Climb back up, then climb down the winch near Katarina to the southwest.",
         "es": "Sube de nuevo y luego baja por el torno cerca de Katarina, al suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Helping the expert",
       "text": {
-        "en": "Talk to Doug Deeping to receive a chest key. (opciones de chat: 4 How could I move a large pile of rocks?)",
-        "es": "Habla con Doug Deeping para recibir una llave de cofre. (opciones de chat: 4 How could I move a large pile of rocks?)"
-      }
+        "en": "Talk to Doug Deeping to receive a chest key.",
+        "es": "Habla con Doug Deeping para recibir una llave de cofre."
+      },
+      "chatOptions": [
+        "4 How could I move a large pile of rocks?"
+      ]
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Explosives expert",
       "text": {
         "en": "Optional: Search the sack for an extra charcoal. Do not grind it. You will need it for Desert Treasure, but cannot get it from here after completing the quest.",
         "es": "Opcional: Registra el saco para conseguir carbón extra. No lo muelas. Lo necesitarás para Desert Treasure, pero no podrás conseguirlo aquí una vez completada la misión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Explosives expert",
       "text": {
         "en": "Go back to the northeastern winch and climb down, use the key to unlock the chest in the north east room and search it for ammonium nitrate.",
         "es": "Vuelve al torno del noreste y baja por él, usa la llave para abrir el cofre en la sala noreste y regístralo para encontrar nitrato de amonio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Explosives expert",
       "text": {
         "en": "Use the trowel on the closed barrel directly east of the chest.",
         "es": "Usa la paleta en el barril cerrado justo al este del cofre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Explosives expert",
       "text": {
         "en": "Use a vial on the barrel.",
         "es": "Usa un vial en el barril."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Explosives expert",
       "text": {
         "en": "Grind the charcoal.",
         "es": "Muele el carbón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Explosives expert",
       "text": {
         "en": "If you didn't bring charcoal, search the sack of charcoal a few steps north.",
         "es": "Si no trajiste carbón, registra el saco de carbón unos pasos al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Explosives expert",
       "text": {
         "en": "Mix the nitroglycerine and ammonium nitrate together, add ground charcoal, then finally add the arcenia root.",
         "es": "Mezcla la nitroglicerina y el nitrato de amonio, añade el carbón molido y, finalmente, añade la raíz de arcenia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Explosives expert",
       "text": {
         "en": "Search the bricks to the south and select the compound on the brick.",
         "es": "Registra los ladrillos al sur y selecciona el compuesto sobre el ladrillo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Explosives expert",
       "text": {
         "en": "Search the brick again, select your tinderbox.",
         "es": "Registra el ladrillo de nuevo y selecciona tu yesquero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Explosives expert",
       "text": {
         "en": "Enter the large chamber, take the stone tablet.",
         "es": "Entra en la gran cámara y coge la tablilla de piedra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Use the tablet on Terry Balando in the Exam Centre.",
         "es": "Usa la tablilla en Terry Balando, en el Exam Centre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

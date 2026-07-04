@@ -2,7 +2,8 @@
   "id": "extinction",
   "title": "Extinction",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T01:51:01.771Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:09.741Z",
   "icon": "https://runescape.wiki/images/Extinction_icon.png",
   "series": "The Elder God Wars",
   "age": "6",
@@ -170,1527 +171,1969 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Extinction_reward.png?294b7",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Defending Senntisten",
       "text": {
-        "en": "Talk to Moia or Hebe outside of Senntisten, north of the Archaeology Guild. (opciones de chat: Accept)",
-        "es": "Habla con Moia o Hebe fuera de Senntisten, al norte del Archaeology Guild. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Moia or Hebe outside of Senntisten, north of the Archaeology Guild.",
+        "es": "Habla con Moia o Hebe fuera de Senntisten, al norte del Archaeology Guild."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Defending Senntisten",
       "text": {
-        "en": "Enter Senntisten via the ancient door. (opciones de chat: 1 Yes.)",
-        "es": "Entra en Senntisten por la puerta antigua. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Enter Senntisten via the ancient door.",
+        "es": "Entra en Senntisten por la puerta antigua."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Defending Senntisten",
       "text": {
         "en": "Kill 12 TzekHaar monsters.",
         "es": "Mata a 12 monstruos TzekHaar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Defending Senntisten",
       "text": {
         "en": "Enter the cathedral door to the south.",
         "es": "Entra por la puerta de la catedral al sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Defending Senntisten",
       "text": {
-        "en": "Talk to Moia. (opciones de chat: ~ • 3 Continue...)",
-        "es": "Habla con Moia. (opciones de chat: ~ • 3 Continuar...)"
-      }
+        "en": "Talk to Moia.",
+        "es": "Habla con Moia."
+      },
+      "chatOptions": [
+        "~",
+        "3 Continue..."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Croesus Front",
       "text": {
         "en": "Head out of the cathedral to the east and continue east to the Croesus Front.",
         "es": "Sal de la catedral hacia el este y continúa hacia el este hasta el Croesus Front."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Croesus Front",
       "text": {
         "en": "Remove each fungus from the skilling node; Croesus will use mechanics from the boss fight in the following order: Yellow Smoke, Stun, Green Smoke, Blue Smoke, Slime, Red Smoke.",
         "es": "Elimina cada hongo del nodo de habilidad; Croesus usará las mecánicas de la lucha contra el jefe en el siguiente orden: Humo Amarillo, Aturdimiento, Humo Verde, Humo Azul, Limo, Humo Rojo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Croesus Front",
       "text": {
         "en": "You may want to bring either super restore potions or the runes for Crystal Mask.",
         "es": "Puede que quieras llevar pociones de super restore o las runas para Crystal Mask."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 2,
+      "section": "Croesus Front",
       "text": {
         "en": "If your stats get too low, Gorvek will save you by teleporting you back to the cathedral. Your fungus removal progress will be saved.",
         "es": "Si tus estadísticas bajan demasiado, Gorvek te salvará teletransportándote de vuelta a la catedral. Tu progreso de eliminación de hongos se guardará."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Croesus Front",
       "text": {
         "en": "Fishing",
         "es": "Pesca"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Croesus Front",
       "text": {
         "en": "Woodcutting",
         "es": "Leñado"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Croesus Front",
       "text": {
         "en": "Mining",
         "es": "Minería"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Croesus Front",
       "text": {
         "en": "Hunter",
         "es": "Caza"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Croesus Front",
       "text": {
         "en": "Return to the cathedral and talk to Saradomin. You can't teleport back, but you can lobby and re-enter Senntisten.",
         "es": "Vuelve a la catedral y habla con Saradomin. No puedes teletransportarte de vuelta, pero puedes ir al lobby y volver a entrar en Senntisten."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Glacor Front",
       "text": {
         "en": "Head out of the cathedral to the south. Pass through the barrier and talk to Azzanadra. This is an unsafe death.",
         "es": "Sal de la catedral hacia el sur. Atraviesa la barrera y habla con Azzanadra. Esto es una muerte insegura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Glacor Front",
       "text": {
         "en": "Light the braziers following the combinations below, after lighting, enter the portal and kill the generating glacors. You can ignore the glacytes.",
         "es": "Enciende los braseros siguiendo las combinaciones de abajo; tras encenderlos, entra en el portal y mata a los glacors que se generen. Puedes ignorar a los glacytes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Glacor Front",
       "text": {
         "en": "Food is advised as whilst lighting the braziers the Arch-Glacor will use similar mechanics from the boss fight.",
         "es": "Se recomienda llevar comida, ya que mientras enciendes los braseros el Arch-Glacor usará mecánicas similares a las de la lucha contra el jefe."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Glacor Front",
       "text": {
         "en": "Light only the east brazier, then enter portal to kill the glacor.",
         "es": "Enciende solo el brasero este, luego entra en el portal para matar al glacor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Glacor Front",
       "text": {
         "en": "Extinguish the east brazier and light only the middle brazier, then enter portal to kill the glacor.",
         "es": "Apaga el brasero este y enciende solo el brasero central, luego entra en el portal para matar al glacor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Glacor Front",
       "text": {
         "en": "Extinguish the middle brazier and light only the west brazier, then enter portal to kill the glacor.",
         "es": "Apaga el brasero central y enciende solo el brasero oeste, luego entra en el portal para matar al glacor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Glacor Front",
       "text": {
         "en": "Lastly, light both the west and middle braziers, then enter portal and kill the glacor.",
         "es": "Por último, enciende tanto el brasero oeste como el central, luego entra en el portal y mata al glacor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Glacor Front",
       "text": {
         "en": "Return to the Cathedral and talk to Saradomin. You can lobby to get there faster.",
         "es": "Vuelve a la catedral y habla con Saradomin. Puedes ir al lobby para llegar más rápido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Nodon Front",
       "text": {
         "en": "Head out of the Cathedral to the west and command the abandoned siege engine.",
         "es": "Sal de la catedral hacia el oeste y da órdenes al siege engine abandonado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "Nodon Front",
       "text": {
         "en": "Click attack on each of the siege engines to destroy them, and for the two at the back, click on the floor nearby.",
         "es": "Haz clic en atacar en cada uno de los siege engines para destruirlos, y para los dos del fondo, haz clic en el suelo cercano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "Nodon Front",
       "text": {
         "en": "Repeat this a few times until you enter another dialogue with Kerapac.",
         "es": "Repite esto varias veces hasta que entres en otro diálogo con Kerapac."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Nodon Front",
       "text": {
         "en": "After the dialogue, kill the remaining siege engines.",
         "es": "Después del diálogo, mata a los siege engines restantes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Nodon Front",
       "text": {
         "en": "Return to the Cathedral and talk to Seren.",
         "es": "Vuelve a la catedral y habla con Seren."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Searching for Seren",
       "text": {
-        "en": "Talk to Moia. (opciones de chat: 4 Continue...)",
-        "es": "Habla con Moia. (opciones de chat: 4 Continuar...)"
-      }
+        "en": "Talk to Moia.",
+        "es": "Habla con Moia."
+      },
+      "chatOptions": [
+        "4 Continue..."
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Searching for Seren",
       "text": {
         "en": "Retrieve the Measure.",
         "es": "Recupera el Measure."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Searching for Seren",
       "text": {
-        "en": "If the quest Fate of the Gods is not done or if The Measure is lost, upon finishing dialogue with Vicendithas (see below), visit Mr Mordaut east of the Anachronia lodestone to reclaim it, the quest does not need to be completed. If option does not exist, talk to Vicendithas and try again. (opciones de chat: 3 Extinction (Quest))",
+        "en": "If the quest Fate of the Gods is not done or if The Measure is lost, upon finishing dialogue with Vicendithas (see below), visit Mr Mordaut east of the Anachronia lodestone to reclaim it, the quest does not need to be completed. If option does not exist, talk to Vicendithas and try again.",
         "es": "Si la misión Fate of the Gods no está hecha o si el Measure se ha perdido, al terminar el diálogo con Vicendithas (ver más abajo), visita a Mr Mordaut al este de la piedra de viaje de Anachronia para recuperarlo; no es necesario completar la misión. Si la opción no existe, habla con Vicendithas e inténtalo de nuevo. (opciones de chat: 3 Extinction (Misión))"
-      }
+      },
+      "chatOptions": [
+        "3 Extinction (Quest)"
+      ]
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Searching for Seren",
       "text": {
         "en": "Alternatively, teleport to the World Gate and travel to the Elder Halls where it can be picked up from the north of where you teleport in.",
         "es": "Alternativamente, teletranspórtate al World Gate y viaja a los Elder Halls, donde se puede recoger al norte de donde te teletransportas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Searching for Seren",
       "text": {
         "en": "Teleport to the Anachronia lodestone, and head north to the Effigy Incubator laboratory.",
         "es": "Teletranspórtate a la piedra de viaje de Anachronia y dirígete al norte hasta el laboratorio Effigy Incubator."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Searching for Seren",
       "text": {
-        "en": "Enter the door under the Dragonkin statue. (opciones de chat: 1 Yes.)",
-        "es": "Entra por la puerta bajo la estatua Dragonkin. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Enter the door under the Dragonkin statue.",
+        "es": "Entra por la puerta bajo la estatua Dragonkin."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Searching for Seren",
       "text": {
         "en": "Do the following once inside the Effigy Incubator area:",
         "es": "Haz lo siguiente una vez dentro del área de Effigy Incubator:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "Searching for Seren",
       "text": {
         "en": "Talk to Vicendithas.",
         "es": "Habla con Vicendithas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Searching for Seren",
       "text": {
         "en": "Talk to Vicendithas again to give him the Measure.",
         "es": "Habla con Vicendithas de nuevo para darle el Measure."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "Searching for Seren",
       "text": {
         "en": "Talk to Hannibus.",
         "es": "Habla con Hannibus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Searching for Seren",
       "text": {
         "en": "Talk to Vicendithas.",
         "es": "Habla con Vicendithas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "Searching for Seren",
       "text": {
         "en": "Talk to Hannibus again.",
         "es": "Habla con Hannibus de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 1,
+      "section": "Searching for Seren",
       "text": {
         "en": "Talk to Vicendithas again.",
         "es": "Habla con Vicendithas de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "Searching for Seren",
       "text": {
         "en": "Wait a moment and talk to Vicendithas again.",
         "es": "Espera un momento y habla con Vicendithas de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "Searching for Seren",
       "text": {
-        "en": "Activate the communication device and talk to Moia. (opciones de chat: 2 Continue.)",
-        "es": "Activa el dispositivo de comunicación y habla con Moia. (opciones de chat: 2 Continuar.)"
-      }
+        "en": "Activate the communication device and talk to Moia.",
+        "es": "Activa el dispositivo de comunicación y habla con Moia."
+      },
+      "chatOptions": [
+        "2 Continue."
+      ]
     },
     {
       "index": 42,
       "indent": 1,
+      "section": "Searching for Seren",
       "text": {
-        "en": "Talk to Vicendithas. (opciones de chat: 2 Continue.)",
-        "es": "Habla con Vicendithas. (opciones de chat: 2 Continuar.)"
-      }
+        "en": "Talk to Vicendithas.",
+        "es": "Habla con Vicendithas."
+      },
+      "chatOptions": [
+        "2 Continue."
+      ]
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Hopping worlds",
       "text": {
-        "en": "Go to the World Gate and talk to Moia (or one of the other NPCs). (opciones de chat: 4 Tarddiad)",
-        "es": "Ve al World Gate y habla con Moia (o con otro de los NPC). (opciones de chat: 4 Tarddiad)"
-      }
+        "en": "Go to the World Gate and talk to Moia (or one of the other NPCs).",
+        "es": "Ve al World Gate y habla con Moia (o con otro de los NPC)."
+      },
+      "chatOptions": [
+        "4 Tarddiad"
+      ]
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
         "en": "Closest teleport is Sixth-Age circuit or Eagles' Peak lodestone. ;Tarddiad",
         "es": "El teletransporte más cercano es el Sixth-Age circuit o la piedra de viaje de Eagles' Peak. ;Tarddiad"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Hopping worlds",
       "text": {
         "en": "Enter the World Gate to Tarddiad and do the following once inside:",
         "es": "Entra en el World Gate hacia Tarddiad y haz lo siguiente una vez dentro:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
         "en": "Talk to Hannibus (or one of the other NPCs).",
         "es": "Habla con Hannibus (o con otro de los NPC)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Hopping worlds",
       "text": {
         "en": "Investigate the three resonating crystals:",
         "es": "Investiga los tres cristales resonantes:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
         "en": "First crystal: to the south-east, next to Vicendithas.",
         "es": "Primer cristal: al sureste, junto a Vicendithas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
         "en": "Second crystal: just north-east of the first, next to Adrasteia and Moia.",
         "es": "Segundo cristal: justo al noreste del primero, junto a Adrasteia y Moia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
         "en": "Third crystal: in the Stone Gazebo, west of the previous crystal.",
         "es": "Tercer cristal: en el Stone Gazebo, al oeste del cristal anterior."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Hopping worlds",
       "text": {
         "en": "Talk to Vicendithas (or one of the other NPCs) to the north over the bridge. ;Naragun",
         "es": "Habla con Vicendithas (o con otro de los NPC) al norte, cruzando el puente. ;Naragun"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Hopping worlds",
       "text": {
         "en": "Talk to Moia (or one of the other NPCs) and then enter the World Gate to Naragun and do the following:",
         "es": "Habla con Moia (o con otro de los NPC) y luego entra en el World Gate hacia Naragun y haz lo siguiente:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
         "en": "Talk to Hannibus (or one of the other NPCs) just inside the World Gate.",
         "es": "Habla con Hannibus (o con otro de los NPC) justo dentro del World Gate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
         "en": "Continue up the path and talk to Adrasteia or Hannibus.",
         "es": "Continúa por el camino y habla con Adrasteia o Hannibus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
         "en": "Continue along the path and talk to Vicendithas or Moia.",
         "es": "Continúa por el camino y habla con Vicendithas o Moia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
         "en": "Continue to the end of the path and talk to Adrasteia (or one of the other NPCs).",
         "es": "Continúa hasta el final del camino y habla con Adrasteia (o con otro de los NPC)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Hopping worlds",
       "text": {
         "en": "Exit Naragun using the World Gate.",
         "es": "Sal de Naragun usando el World Gate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
         "en": "Talk to Moia (or one of the other NPCs). ;Kethsi",
         "es": "Habla con Moia (o con otro de los NPC). ;Kethsi"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Hopping worlds",
       "text": {
         "en": "Enter the World Gate to Kethsi and do the following:",
         "es": "Entra en el World Gate hacia Kethsi y haz lo siguiente:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
-        "en": "Continue the dialogue with Kerapac. (opciones de chat: Any • Any • Any) ;Freneskae",
+        "en": "Continue the dialogue with Kerapac. ;Freneskae",
         "es": "Continúa el diálogo con Kerapac. (opciones de chat: Cualquiera • Cualquiera • Cualquiera) ;Freneskae"
-      }
+      },
+      "chatOptions": [
+        "Any",
+        "Any",
+        "Any"
+      ]
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "Hopping worlds",
       "text": {
         "en": "Enter the World Gate again to Freneskae and do the following:",
         "es": "Entra de nuevo en el World Gate hacia Freneskae y haz lo siguiente:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
-        "en": "Talk to Adrasteia (or one of the other NPCs). (opciones de chat: 1 Yes)",
-        "es": "Habla con Adrasteia (o con otro de los NPC). (opciones de chat: 1 Sí)"
-      }
+        "en": "Talk to Adrasteia (or one of the other NPCs).",
+        "es": "Habla con Adrasteia (o con otro de los NPC)."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 63,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
-        "en": "Descend ledge to the north. (opciones de chat: 1 Extinction)",
-        "es": "Desciende por el saliente al norte. (opciones de chat: 1 Extinction)"
-      }
+        "en": "Descend ledge to the north.",
+        "es": "Desciende por el saliente al norte."
+      },
+      "chatOptions": [
+        "1 Extinction"
+      ]
     },
     {
       "index": 64,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
         "en": "Talk to Hannibus (or one of the other NPCs).",
         "es": "Habla con Hannibus (o con otro de los NPC)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 1,
+      "section": "Hopping worlds",
       "text": {
-        "en": "Exit rock face to the west. (opciones de chat: 1 Continue Extinction.)",
-        "es": "Sal por la pared rocosa al oeste. (opciones de chat: 1 Continuar Extinction.)"
-      }
+        "en": "Exit rock face to the west.",
+        "es": "Sal por la pared rocosa al oeste."
+      },
+      "chatOptions": [
+        "1 Continue Extinction."
+      ]
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "Final stop",
       "text": {
         "en": "Approach the dark portal.",
         "es": "Acércate al portal oscuro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "Final stop",
       "text": {
-        "en": "Descend the ledge to the north again. (opciones de chat: 1 Extinction)",
-        "es": "Desciende de nuevo por el saliente al norte. (opciones de chat: 1 Extinction)"
-      }
+        "en": "Descend the ledge to the north again.",
+        "es": "Desciende de nuevo por el saliente al norte."
+      },
+      "chatOptions": [
+        "1 Extinction"
+      ]
     },
     {
       "index": 68,
       "indent": 0,
+      "section": "Final stop",
       "text": {
         "en": "Talk to Hannibus (or one of the other NPCs).",
         "es": "Habla con Hannibus (o con otro de los NPC)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 69,
       "indent": 0,
+      "section": "Final stop",
       "text": {
-        "en": "Exit rock face again. (opciones de chat: 1 Continue Extinction.)",
-        "es": "Sal de nuevo por la pared rocosa. (opciones de chat: 1 Continuar Extinction.)"
-      }
+        "en": "Exit rock face again.",
+        "es": "Sal de nuevo por la pared rocosa."
+      },
+      "chatOptions": [
+        "1 Continue Extinction."
+      ]
     },
     {
       "index": 70,
       "indent": 0,
+      "section": "Final stop",
       "text": {
-        "en": "Talk to Moia (or one of the other NPCs) (opciones de chat: 4 Continue...) and a cutscene will play.",
+        "en": "Talk to Moia (or one of the other NPCs) and a cutscene will play.",
         "es": "Habla con Moia (o con otro de los NPC) (opciones de chat: 4 Continuar...) y se reproducirá una escena cinemática."
-      }
+      },
+      "chatOptions": [
+        "4 Continue..."
+      ]
     },
     {
       "index": 71,
       "indent": 0,
+      "section": "First visit",
       "text": {
-        "en": "When you are ready to start, approach dark portal. (opciones de chat: 1 Yes)",
-        "es": "Cuando estés listo para empezar, acércate al portal oscuro. (opciones de chat: 1 Sí)"
-      }
+        "en": "When you are ready to start, approach dark portal.",
+        "es": "Cuando estés listo para empezar, acércate al portal oscuro."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 72,
       "indent": 0,
+      "section": "First visit",
       "text": {
         "en": "Mine the two shadow animica rocks and crush the resulting shadow animica for a total of 8% attunement. (8% total attunement.)",
         "es": "Extrae las dos rocas de shadow animica y machaca la shadow animica resultante para obtener un total del 8% de sintonización. (8% de sintonización total.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 73,
       "indent": 0,
+      "section": "First visit",
       "text": {
         "en": "Capture the two motes of shadow anima for 8% attunement. (16% total attunement.)",
         "es": "Captura las dos motas de shadow anima para obtener un 8% de sintonización. (16% de sintonización total.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 74,
       "indent": 0,
+      "section": "First visit",
       "text": {
         "en": "Enter the rift in the east.",
         "es": "Entra en la grieta del este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 75,
       "indent": 0,
+      "section": "First visit",
       "text": {
         "en": "Capture the skittish mote of shadow anima for 4% attunement. (20% total attunement; you now move slightly faster.)",
         "es": "Captura la mota huidiza de shadow anima para obtener un 4% de sintonización. (20% de sintonización total; ahora te mueves un poco más rápido.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 76,
       "indent": 0,
+      "section": "First visit",
       "text": {
         "en": "Capture the telekinetic soul remnant.",
         "es": "Captura el remanente de alma telekinético."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 77,
       "indent": 0,
+      "section": "First visit",
       "text": {
         "en": "Return back to the initial area.",
         "es": "Vuelve al área inicial."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 78,
       "indent": 0,
+      "section": "First visit",
       "text": {
         "en": "Levitate the boulder using the enduring soul remnant.",
         "es": "Levita la roca usando el remanente de alma perdurable."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 79,
       "indent": 0,
+      "section": "First visit",
       "text": {
         "en": "Move the boulder out of the way to open the way north.",
         "es": "Mueve la roca para abrir el camino hacia el norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 80,
       "indent": 0,
+      "section": "First visit",
       "text": {
         "en": "Mine the shadow animica rock and crush the resulting shadow animica for 4% attunement. (24% total attunement.)",
         "es": "Extrae la roca de shadow animica y machaca la shadow animica resultante para obtener un 4% de sintonización. (24% de sintonización total.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 81,
       "indent": 0,
+      "section": "First visit",
       "text": {
         "en": "Capture the abyssal soul remnant.",
         "es": "Captura el remanente de alma abisal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 82,
       "indent": 0,
+      "section": "First visit",
       "text": {
         "en": "Use the abyssal soul remnant to enter the rift in the south.",
         "es": "Usa el remanente de alma abisal para entrar en la grieta del sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 83,
       "indent": 0,
+      "section": "First visit",
       "text": {
         "en": "Capture the regular and skittish motes of shadow anima for 8% attunement. (32% total attunement.)",
         "es": "Captura las motas normal y huidiza de shadow anima para obtener un 8% de sintonización. (32% de sintonización total.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 84,
       "indent": 0,
+      "section": "First visit",
       "text": {
         "en": "Leave via the extra action button or wait for the time to expire",
         "es": "Sal mediante el botón de acción extra o espera a que se agote el tiempo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 85,
       "indent": 0,
+      "section": "Second visit",
       "text": {
         "en": "Re-enter Erebus and re-obtain the abyssal soul remnant. The following must be done without exiting, so you may wish to re-enter again after obtaining the remnant to guarantee you have enough time.",
         "es": "Vuelve a entrar en Erebus y vuelve a obtener el remanente de alma abisal. Lo siguiente debe hacerse sin salir, así que quizá quieras volver a entrar de nuevo tras obtener el remanente para asegurarte de tener suficiente tiempo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 86,
       "indent": 0,
+      "section": "Second visit",
       "text": {
         "en": "Capture the telekinetic soul remnant.",
         "es": "Captura el remanente de alma telekinético."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 87,
       "indent": 0,
+      "section": "Second visit",
       "text": {
         "en": "Use the abyssal soul remnant to enter the rift in the west.",
         "es": "Usa el remanente de alma abisal para entrar en la grieta del oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 88,
       "indent": 0,
+      "section": "Second visit",
       "text": {
         "en": "Capture the regular and skittish motes of shadow anima for 8% attunement. (40% total attunement; you may now stay for a minute and 15 seconds at a time without the handicap.)",
         "es": "Captura las motas normal y huidiza de shadow anima para obtener un 8% de sintonización. (40% de sintonización total; ahora puedes quedarte un minuto y 15 segundos seguidos sin la penalización.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 89,
       "indent": 0,
+      "section": "Second visit",
       "text": {
         "en": "Levitate the boulder using the enduring soul remnant.",
         "es": "Levita la roca usando el remanente de alma perdurable."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 90,
       "indent": 0,
+      "section": "Second visit",
       "text": {
         "en": "Move the boulder out of the way to open the way east.",
         "es": "Mueve la roca para abrir el camino hacia el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 91,
       "indent": 0,
+      "section": "Second visit",
       "text": {
         "en": "Mine the shadow animica rock and crush the resulting shadow animica for 4% attunement. (44% total attunement.)",
         "es": "Extrae la roca de shadow animica y machaca la shadow animica resultante para obtener un 4% de sintonización. (44% de sintonización total.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 92,
       "indent": 0,
+      "section": "Second visit",
       "text": {
         "en": "Capture the two regular and one skittish mote of shadow anima for 12% attunement. (56% total attunement.)",
         "es": "Captura las dos motas normales y una huidiza de shadow anima para obtener un 12% de sintonización. (56% de sintonización total.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 93,
       "indent": 0,
+      "section": "Second visit",
       "text": {
         "en": "Leave via the extra action button or wait for the time to expire",
         "es": "Sal mediante el botón de acción extra o espera a que se agote el tiempo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 94,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Re-enter Erebus and re-obtain the abyssal and enduring soul remnants. The following must be done without exiting, so you may wish to re-enter again after obtaining the remnants to guarantee you have enough time.",
         "es": "Vuelve a entrar en Erebus y vuelve a obtener los remanentes de alma abisal y perdurable. Lo siguiente debe hacerse sin salir, así que quizá quieras volver a entrar de nuevo tras obtener los remanentes para asegurarte de tener suficiente tiempo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 95,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Use the abyssal soul remnant to enter the rift in the west.",
         "es": "Usa el remanente de alma abisal para entrar en la grieta del oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 96,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Levitate the boulder using the enduring soul remnant.",
         "es": "Levita la roca usando el remanente de alma perdurable."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 97,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Move the boulder on one of the three circles on the timeworn lodestone in the east.",
         "es": "Mueve la roca hasta uno de los tres círculos de la timeworn lodestone en el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 98,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Return to the initial area and capture another telekinetic soul remnant.",
         "es": "Vuelve al área inicial y captura otro remanente de alma telekinético."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 99,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Return to the area with the three circles and levitate the boulder (which has an abyssal soul remnant underneath) using the enduring soul remnant.",
         "es": "Vuelve al área con los tres círculos y levita la roca (que tiene un remanente de alma abisal debajo) usando el remanente de alma perdurable."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 100,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Move the boulder to another of the circles of the timeworn lodestone.",
         "es": "Mueve la roca a otro de los círculos de la timeworn lodestone."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 101,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Capture the revealed abyssal soul remnant.",
         "es": "Captura el remanente de alma abisal revelado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 102,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Use the abyssal soul remnant to enter the rift in the east.",
         "es": "Usa el remanente de alma abisal para entrar en la grieta del este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 103,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Capture the mote of shadow anima for 4% attunement. (60% total attunement; you may now run.)",
         "es": "Captura la mota de shadow anima para obtener un 4% de sintonización. (60% de sintonización total; ahora puedes correr.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 104,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Capture the telekinetic soul remnant.",
         "es": "Captura el remanente de alma telekinético."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 105,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Return to the previous area.",
         "es": "Vuelve al área anterior."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 106,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Levitate the remaining boulder using the enduring soul remnant.",
         "es": "Levita la roca restante usando el remanente de alma perdurable."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 107,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Move the boulder to the last circle on the timeworn lodestone.",
         "es": "Mueve la roca hasta el último círculo de la timeworn lodestone."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 108,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Go on top of the timeworn lodestone. You will be teleported to an island and find the relic of the titans. Carrying this causes the western rift in the initial area to be active when entering Erebus, and automatically moves the three boulders on timeworn lodestone when entering any rifts.",
         "es": "Sube encima de la timeworn lodestone. Serás teletransportado a una isla y encontrarás la relic of the titans. Llevarla hace que la grieta oeste del área inicial esté activa al entrar en Erebus, y mueve automáticamente las tres rocas de la timeworn lodestone al entrar en cualquier grieta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 109,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Mine the shadow animica rock and crush the resulting shadow animica for 4% attunement. (64% total attunement.)",
         "es": "Extrae la roca de shadow animica y machaca la shadow animica resultante para obtener un 4% de sintonización. (64% de sintonización total.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 110,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Capture the mote of shadow anima for 4% attunement. (68% total attunement.)",
         "es": "Captura la mota de shadow anima para obtener un 4% de sintonización. (68% de sintonización total.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 111,
       "indent": 0,
+      "section": "Third visit",
       "text": {
         "en": "Leave via the extra action button or wait for the time to expire",
         "es": "Sal mediante el botón de acción extra o espera a que se agote el tiempo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 112,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Re-enter Erebus and re-obtain the abyssal and enduring soul remnants. The following must be done without exiting, so you may wish to re-enter again after obtaining the remnants to guarantee you have enough time.",
         "es": "Vuelve a entrar en Erebus y vuelve a obtener los remanentes de alma abisal y perdurable. Lo siguiente debe hacerse sin salir, así que quizá quieras volver a entrar de nuevo tras obtener los remanentes para asegurarte de tener suficiente tiempo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 113,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Navigate back to the island through the timeworn lodestone, ensuring you still have the soul remnants.",
         "es": "Regresa a la isla a través de la timeworn lodestone, asegurándote de conservar los remanentes de alma."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 114,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Use the dark shadow anima bridge to traverse to the next island. (The anima bridges are one-way only.)",
         "es": "Usa el puente oscuro de shadow anima para cruzar a la siguiente isla. (Los puentes de anima son de un solo sentido.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 115,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Capture the two motes of shadow anima for 8% attunement. (76% total attunement.)",
         "es": "Captura las dos motas de shadow anima para obtener un 8% de sintonización. (76% de sintonización total.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 116,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Levitate the boulder next to the Boiling Rift using the enduring soul remnant.",
         "es": "Levita la roca junto a la Boiling Rift usando el remanente de alma perdurable."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 117,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Move the boulder to open the way to the inactive rift.",
         "es": "Mueve la roca para abrir el camino hacia la grieta inactiva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 118,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Enter the rift using the abyssal soul remnant.",
         "es": "Entra en la grieta usando el remanente de alma abisal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 119,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Mine the shadow animica rock and crush the resulting shadow animica for 4% attunement. (80% total attunement; you may now stay for a minute and 30 seconds at a time without the handicap.)",
         "es": "Extrae la roca de shadow animica y machaca la shadow animica resultante para obtener un 4% de sintonización. (80% de sintonización total; ahora puedes quedarte un minuto y 30 segundos seguidos sin la penalización.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 120,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Capture the two motes of shadow anima for 8% attunement. (88% total attunement.)",
         "es": "Captura las dos motas de shadow anima para obtener un 8% de sintonización. (88% de sintonización total.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 121,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Use the dark shadow anima bridge to traverse to the next island.",
         "es": "Usa el puente oscuro de shadow anima para cruzar a la siguiente isla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 122,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Capture the three motes of shadow anima for 12% attunement. (100% total attunement.)",
         "es": "Captura las tres motas de shadow anima para obtener un 12% de sintonización. (100% de sintonización total.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 123,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Harvest the font of unimaginable memories to receive an unimaginable memory.",
         "es": "Recolecta de la font of unimaginable memories para recibir un unimaginable memory."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 124,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Re-enter Erebus and re-obtain an abyssal soul remnant.",
         "es": "Vuelve a entrar en Erebus y vuelve a obtener un remanente de alma abisal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 125,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Navigate back to the Boiling Rift.",
         "es": "Regresa a la Boiling Rift."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 126,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Give the unimaginable memory to the Boiling Rift to transform it into a soul geyser.",
         "es": "Entrega el unimaginable memory a la Boiling Rift para transformarla en un soul geyser."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 127,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Activate the soul geyser to travel to the next island.",
         "es": "Activa el soul geyser para viajar a la siguiente isla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 128,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Use the abyssal soul remnant to activate the inactive rift and travel through it.",
         "es": "Usa el remanente de alma abisal para activar la grieta inactiva y viajar a través de ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 129,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "Activate the Idol of the Leviathan.",
         "es": "Activa el Idol of the Leviathan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 130,
       "indent": 0,
+      "section": "Fourth visit",
       "text": {
         "en": "A cutscene will play.",
         "es": "Se reproducirá una escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 131,
       "indent": 0,
+      "section": "Iaia",
       "text": {
         "en": "Talk to Moia (or one of the other NPCs).",
         "es": "Habla con Moia (o con otro de los NPC)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 132,
       "indent": 0,
+      "section": "Iaia",
       "text": {
         "en": "Take the 5 needle shards on the floor.",
         "es": "Recoge los 5 needle shards del suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 133,
       "indent": 0,
+      "section": "Iaia",
       "text": {
         "en": "Talk to Hannibus.",
         "es": "Habla con Hannibus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 134,
       "indent": 0,
+      "section": "Iaia",
       "text": {
-        "en": "Descend ledge to the north. (opciones de chat: 1 Extinction)",
-        "es": "Desciende por el saliente al norte. (opciones de chat: 1 Extinction)"
-      }
+        "en": "Descend ledge to the north.",
+        "es": "Desciende por el saliente al norte."
+      },
+      "chatOptions": [
+        "1 Extinction"
+      ]
     },
     {
       "index": 135,
       "indent": 0,
+      "section": "Iaia",
       "text": {
-        "en": "Talk to Hannibus (or one of the other NPCs). (opciones de chat: ~ • ~)",
-        "es": "Habla con Hannibus (o con otro de los NPC). (opciones de chat: ~ • ~)"
-      }
+        "en": "Talk to Hannibus (or one of the other NPCs).",
+        "es": "Habla con Hannibus (o con otro de los NPC)."
+      },
+      "chatOptions": [
+        "~",
+        "~"
+      ]
     },
     {
       "index": 136,
       "indent": 0,
+      "section": "Iaia",
       "text": {
         "en": "Teleport through the portal.",
         "es": "Teletranspórtate a través del portal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 137,
       "indent": 0,
+      "section": "Iaia",
       "text": {
         "en": "Talk to Moia (or one of the other NPCs).",
         "es": "Habla con Moia (o con otro de los NPC)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 138,
       "indent": 0,
+      "section": "Iaia",
       "text": {
         "en": "Talk to Elder Chahoua to the south.",
         "es": "Habla con Elder Chahoua al sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 139,
       "indent": 0,
+      "section": "Iaia",
       "text": {
         "en": "Talk to the Pastkeeper (north of Elder Chahoua, next to Hannibus).",
         "es": "Habla con el Pastkeeper (al norte de Elder Chahoua, junto a Hannibus)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 140,
       "indent": 0,
+      "section": "Iaia",
       "text": {
         "en": "Talk to the Plantkeeper (north of Seren).",
         "es": "Habla con el Plantkeeper (al norte de Seren)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 141,
       "indent": 1,
+      "section": "Iaia",
       "text": {
         "en": "Take 4 different seeds from around Iaia.",
         "es": "Recoge 4 semillas diferentes por los alrededores de Iaia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 142,
       "indent": 2,
+      "section": "Iaia",
       "text": {
         "en": "Just north-east of the Plantkeeper - flowering marsh plant.",
         "es": "Justo al noreste del Plantkeeper: flowering marsh plant."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 143,
       "indent": 2,
+      "section": "Iaia",
       "text": {
         "en": "West of the Plantkeeper - roundleaf marsh plant (slightly south and before the path continues west).",
         "es": "Al oeste del Plantkeeper: roundleaf marsh plant (un poco al sur y antes de que el camino continúe hacia el oeste)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 144,
       "indent": 2,
+      "section": "Iaia",
       "text": {
         "en": "South-west of the Plantkeeper - marsh-fire plant.",
         "es": "Al suroeste del Plantkeeper: marsh-fire plant."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 145,
       "indent": 2,
+      "section": "Iaia",
       "text": {
         "en": "Just east of Elder Chahoua - longleaf marsh plant.",
         "es": "Justo al este de Elder Chahoua: longleaf marsh plant."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 146,
       "indent": 1,
+      "section": "Iaia",
       "text": {
         "en": "Talk to the Plantkeeper.",
         "es": "Habla con el Plantkeeper."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 147,
       "indent": 0,
+      "section": "Iaia",
       "text": {
         "en": "Talk to the Pondkeeper (north-east of the Plantkeeper).",
         "es": "Habla con el Pondkeeper (al noreste del Plantkeeper)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 148,
       "indent": 1,
+      "section": "Iaia",
       "text": {
         "en": "Catch 4 fish in the fishing spot just north.",
         "es": "Pesca 4 peces en el punto de pesca justo al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 149,
       "indent": 1,
+      "section": "Iaia",
       "text": {
         "en": "Talk to the Pondkeeper.",
         "es": "Habla con el Pondkeeper."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 150,
       "indent": 0,
+      "section": "Iaia",
       "text": {
         "en": "Talk to the Craftmaster (south-east of the Pondkeeper).",
         "es": "Habla con el Craftmaster (al sureste del Pondkeeper)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 151,
       "indent": 1,
+      "section": "Iaia",
       "text": {
         "en": "Collect the 3 Ilujankan tools nearby to the east.",
         "es": "Recoge las 3 herramientas Ilujankan cercanas al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 152,
       "indent": 1,
+      "section": "Iaia",
       "text": {
         "en": "Talk to the Craftmaster.",
         "es": "Habla con el Craftmaster."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 153,
       "indent": 0,
+      "section": "Finale",
       "text": {
         "en": "This is the final boss fight. Deaths are unsafe, so focus on surviving.",
         "es": "Esta es la lucha final contra el jefe. Las muertes son inseguras, así que concéntrate en sobrevivir."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 154,
       "indent": 1,
+      "section": "Finale",
       "text": {
         "en": "Each phase serves as a checkpoint, so if you teleport or die during the fight, you will resume from the start of the phase you left off at.",
         "es": "Cada fase sirve como punto de control, así que si te teletransportas o mueres durante la lucha, continuarás desde el inicio de la fase en la que te encontrabas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 155,
       "indent": 1,
+      "section": "Finale",
       "text": {
-        "en": "Re-gear if necessary and teleport back to the World Gate to resume, (opciones de chat: 1 Continue Extinction). Enter the World Gate twice.",
+        "en": "Re-gear if necessary and teleport back to the World Gate to resume, . Enter the World Gate twice.",
         "es": "Vuelve a equiparte si es necesario y teletranspórtate de vuelta al World Gate para continuar (opciones de chat: 1 Continuar Extinction). Entra en el World Gate dos veces."
-      }
+      },
+      "chatOptions": [
+        "1 Continue Extinction"
+      ]
     },
     {
       "index": 156,
       "indent": 0,
+      "section": "Finale",
       "text": {
         "en": "Talk to Moia.",
         "es": "Habla con Moia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 157,
       "indent": 0,
+      "section": "Finale",
       "text": {
         "en": "Talk to Seren.",
         "es": "Habla con Seren."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 158,
       "indent": 0,
+      "section": "Finale",
       "text": {
         "en": "Talk to Vicendithas.",
         "es": "Habla con Vicendithas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 159,
       "indent": 0,
+      "section": "Finale",
       "text": {
         "en": "Place 2 Needle shards on any of the marked spots.",
         "es": "Coloca 2 needle shards en cualquiera de los puntos marcados."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 160,
       "indent": 1,
+      "section": "Finale",
       "text": {
         "en": "Kill the small shadows that spawn to gain a light core.",
         "es": "Mata a las sombras pequeñas que aparecen para obtener un light core."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 161,
       "indent": 1,
+      "section": "Finale",
       "text": {
         "en": "Attack the Dark Lord while having a light core in your inventory and repeat.",
         "es": "Ataca al Dark Lord mientras tengas un light core en tu inventario y repite."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 162,
       "indent": 1,
+      "section": "Finale",
       "text": {
         "en": "After the Dark Lord is dead, move the unstable energy to the Light Lord until it also dies.",
         "es": "Después de que el Dark Lord muera, mueve la energía inestable hacia el Light Lord hasta que también muera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 163,
       "indent": 0,
+      "section": "Finale",
       "text": {
         "en": "Place another Needle shard on any marked spot.",
         "es": "Coloca otro needle shard en cualquier punto marcado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 164,
       "indent": 1,
+      "section": "Finale",
       "text": {
         "en": "Kill the Small, Large, and Enraged muspahs; after each wave, damage Mah's Core (Mah wisp).",
         "es": "Mata a los muspahs Small, Large y Enraged; después de cada oleada, daña al Mah's Core (Mah wisp)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 165,
       "indent": 2,
+      "section": "Finale",
       "text": {
         "en": "Avoid the fire walls (magic damage), lightning and fire balls (typeless damage).",
         "es": "Evita los muros de fuego (daño de magia), los rayos y las bolas de fuego (daño sin tipo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 166,
       "indent": 2,
+      "section": "Finale",
       "text": {
         "en": "Low level players may try to trap the melee muspah behind the core or Seren for semi safe-spotting.",
         "es": "Los jugadores de nivel bajo pueden intentar atrapar al muspah de melé detrás del núcleo o de Seren para conseguir una posición semisegura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 167,
       "indent": 0,
+      "section": "Finale",
       "text": {
         "en": "Place another Needle shard on any marked spot.",
         "es": "Coloca otro needle shard en cualquier punto marcado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 168,
       "indent": 1,
+      "section": "Finale",
       "text": {
         "en": "Avoid the fire, and then avoid the eggs (Surge and Bladed Dive can help).",
         "es": "Evita el fuego, y luego evita los huevos (Surge y Bladed Dive pueden ayudar)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 169,
       "indent": 1,
+      "section": "Finale",
       "text": {
         "en": "Focus on surviving for around 2 minutes; you do not need to kill everything.",
         "es": "Concéntrate en sobrevivir durante unos 2 minutos; no necesitas matarlo todo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 170,
       "indent": 1,
+      "section": "Finale",
       "text": {
         "en": "Defensive abilities such as Barricade and Reflect can help.",
         "es": "Las habilidades defensivas como Barricade y Reflect pueden ayudar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 171,
       "indent": 1,
+      "section": "Finale",
       "text": {
         "en": "A powerburst of vitality may be very helpful.",
         "es": "Un powerburst of vitality puede ser muy útil."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 172,
       "indent": 1,
+      "section": "Finale",
       "text": {
         "en": "Try staying in the south-west corner as the eggs won't go there.",
         "es": "Intenta quedarte en la esquina suroeste, ya que los huevos no llegarán allí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 173,
       "indent": 1,
+      "section": "Finale",
       "text": {
         "en": "If you survive long enough, you can continue.",
         "es": "Si sobrevives el tiempo suficiente, podrás continuar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 174,
       "indent": 0,
+      "section": "Finale",
       "text": {
         "en": "Head south towards the World Gate. Don't Surge or Bladed Dive as you may encounter a bug and have to talk to Seren again.",
         "es": "Dirígete al sur hacia el World Gate. No uses Surge ni Bladed Dive, ya que podrías encontrarte con un fallo y tener que hablar con Seren de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 175,
       "indent": 0,
+      "section": "Finale",
       "text": {
         "en": "Activate the World Gate for a cutscene.",
         "es": "Activa el World Gate para ver una escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 176,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Talk to Seren. (opciones de chat: ~)",
-        "es": "Habla con Seren. (opciones de chat: ~)"
-      }
+        "en": "Talk to Seren.",
+        "es": "Habla con Seren."
+      },
+      "chatOptions": [
+        "~"
+      ]
     },
     {
       "index": 177,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Return to Senntisten via the ancient door. (opciones de chat: 1 Yes)",
-        "es": "Vuelve a Senntisten por la puerta antigua. (opciones de chat: 1 Sí)"
-      }
+        "en": "Return to Senntisten via the ancient door.",
+        "es": "Vuelve a Senntisten por la puerta antigua."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 178,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
         "en": "You are able to use the Pontifex shadow ring teleport option to teleport to the surface entrance.",
         "es": "Puedes usar la opción de teletransporte del Pontifex shadow ring para teletransportarte a la entrada de superficie."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 179,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Head south, enter Cathedral door, and talk to Azzanadra.",
         "es": "Dirígete al sur, entra por la puerta de la catedral y habla con Azzanadra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 180,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Azzanadra again after Saradomin and Armadyl leave.",
         "es": "Habla de nuevo con Azzanadra después de que Saradomin y Armadyl se marchen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 181,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Exit Senntisten (can leave quickly by lobbying or teleporting with your pontifex shadow ring) and talk to Azzanadra outside with 4 backpack space. (opciones de chat: 4 Continue...)",
-        "es": "Sal de Senntisten (puedes salir rápidamente yendo al lobby o teletransportándote con tu pontifex shadow ring) y habla con Azzanadra fuera teniendo 4 espacios libres en la mochila. (opciones de chat: 4 Continuar...)"
-      }
+        "en": "Exit Senntisten (can leave quickly by lobbying or teleporting with your pontifex shadow ring) and talk to Azzanadra outside with 4 backpack space.",
+        "es": "Sal de Senntisten (puedes salir rápidamente yendo al lobby o teletransportándote con tu pontifex shadow ring) y habla con Azzanadra fuera teniendo 4 espacios libres en la mochila."
+      },
+      "chatOptions": [
+        "4 Continue..."
+      ]
     },
     {
       "index": 182,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 183,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Unlock the Dream of Iaia and claim warped gem:",
         "es": "Desbloquea el Dream of Iaia y reclama la warped gem:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 184,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Vicendithas in the Effigy Incubator laboratory.",
         "es": "Habla con Vicendithas en el laboratorio Effigy Incubator."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 185,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
-        "en": "Talk to Hannibus. (opciones de chat: 3 [Continue.] • 1 Yes.)",
-        "es": "Habla con Hannibus. (opciones de chat: 3 [Continuar.] • 1 Sí.)"
-      }
+        "en": "Talk to Hannibus.",
+        "es": "Habla con Hannibus."
+      },
+      "chatOptions": [
+        "3 [Continue.]",
+        "1 Yes."
+      ]
     },
     {
       "index": 186,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
-        "en": "Enter the hibernation pod to the west near the exit. (opciones de chat: 2 Yes, and don't ask me again.)",
-        "es": "Entra en la cápsula de hibernación al oeste, cerca de la salida. (opciones de chat: 2 Sí, y no me lo vuelvas a preguntar.)"
-      }
+        "en": "Enter the hibernation pod to the west near the exit.",
+        "es": "Entra en la cápsula de hibernación al oeste, cerca de la salida."
+      },
+      "chatOptions": [
+        "2 Yes, and don't ask me again."
+      ]
     },
     {
       "index": 187,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
-        "en": "Exit via the hibernation pod. (opciones de chat: 2 Yes, and don't ask me again.)",
-        "es": "Sal a través de la cápsula de hibernación. (opciones de chat: 2 Sí, y no me lo vuelvas a preguntar.)"
-      }
+        "en": "Exit via the hibernation pod.",
+        "es": "Sal a través de la cápsula de hibernación."
+      },
+      "chatOptions": [
+        "2 Yes, and don't ask me again."
+      ]
     },
     {
       "index": 188,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
-        "en": "Talk to Vicendithas for the warped gem. (opciones de chat: 1 Do you have any Extinction rewards for me?)",
-        "es": "Habla con Vicendithas para conseguir la warped gem. (opciones de chat: 1 ¿Tienes alguna recompensa de Extinction para mí?)"
-      }
+        "en": "Talk to Vicendithas for the warped gem.",
+        "es": "Habla con Vicendithas para conseguir la warped gem."
+      },
+      "chatOptions": [
+        "1 Do you have any Extinction rewards for me?"
+      ]
     },
     {
       "index": 189,
       "indent": 2,
+      "section": "Finishing up",
       "text": {
-        "en": "Combine the gem with a ring of vigour in your backpack. (opciones de chat: 1 Yes.) This causes the effects of the ring of vigour to become passive effects for the player.",
+        "en": "Combine the gem with a ring of vigour in your backpack. This causes the effects of the ring of vigour to become passive effects for the player.",
         "es": "Combina la gema con un ring of vigour en tu mochila. (opciones de chat: 1 Sí.) Esto hace que los efectos del ring of vigour se conviertan en efectos pasivos para el jugador."
-      }
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     }
   ]
 }

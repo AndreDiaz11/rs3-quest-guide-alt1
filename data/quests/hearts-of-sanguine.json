@@ -2,7 +2,8 @@
   "id": "hearts-of-sanguine",
   "title": "Hearts of Sanguine",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:27:17.910Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:22.607Z",
   "icon": "https://runescape.wiki/images/thumb/Hearts_of_Sanguine_icon.png/50px-Hearts_of_Sanguine_icon.png",
   "series": "Sanguine",
   "age": "Age of Chaos",
@@ -99,6 +100,7 @@
       "image": "https://runescape.wiki/images/thumb/Silverquill%2C_the_Dreadhog.png/100px-Silverquill%2C_the_Dreadhog.png?73d7f"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Hearts_of_Sanguine_reward.png?8f353",
   "postQuest": [
     {
       "type": "item",
@@ -115,474 +117,628 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Creepy behind",
       "text": {
-        "en": "Talk to Adam in his house in Wendlewick, north of the well. (opciones de chat: 1 Talk about 'Hearts of Sanguine'. • Accept)",
-        "es": "Habla con Adam en su casa en Wendlewick, al norte del pozo. (opciones de chat: 1 Hablar sobre 'Hearts of Sanguine'. • Aceptar)"
-      }
+        "en": "Talk to Adam in his house in Wendlewick, north of the well.",
+        "es": "Habla con Adam en su casa en Wendlewick, al norte del pozo."
+      },
+      "chatOptions": [
+        "1 Talk about 'Hearts of Sanguine'.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Creepy behind",
       "text": {
-        "en": "Go north-east into the Highweald Forest and talk to Raz in her cabin at the bottom of the river. (opciones de chat: 1 Talk about 'Hearts of Sanguine'.)",
-        "es": "Ve al noreste hacia el Highweald Forest y habla con Raz en su cabaña, al fondo del río. (opciones de chat: 1 Hablar sobre 'Hearts of Sanguine'.)"
-      }
+        "en": "Go north-east into the Highweald Forest and talk to Raz in her cabin at the bottom of the river.",
+        "es": "Ve al noreste hacia el Highweald Forest y habla con Raz en su cabaña, al fondo del río."
+      },
+      "chatOptions": [
+        "1 Talk about 'Hearts of Sanguine'."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Creepy behind",
       "text": {
         "en": "Go north along the east side of the river and inspect the dead bear.",
         "es": "Ve al norte por el lado este del río e inspecciona el oso muerto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Creepy behind",
       "text": {
-        "en": "Talk to Raz. (opciones de chat: 1 Talk about 'Hearts of Sanguine'.)",
-        "es": "Habla con Raz. (opciones de chat: 1 Hablar sobre 'Hearts of Sanguine'.)"
-      }
+        "en": "Talk to Raz.",
+        "es": "Habla con Raz."
+      },
+      "chatOptions": [
+        "1 Talk about 'Hearts of Sanguine'."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Local gossip",
       "text": {
-        "en": "Talk to Bartender Gefen inside the Burnt Lobster Tavern south-east of the Wendlewick lodestone. (opciones de chat: 1 Talk about 'Hearts of Sanguine'.)",
-        "es": "Habla con Bartender Gefen dentro de la Burnt Lobster Tavern, al sureste de la piedra de viaje de Wendlewick. (opciones de chat: 1 Hablar sobre 'Hearts of Sanguine'.)"
-      }
+        "en": "Talk to Bartender Gefen inside the Burnt Lobster Tavern south-east of the Wendlewick lodestone.",
+        "es": "Habla con Bartender Gefen dentro de la Burnt Lobster Tavern, al sureste de la piedra de viaje de Wendlewick."
+      },
+      "chatOptions": [
+        "1 Talk about 'Hearts of Sanguine'."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Local gossip",
       "text": {
         "en": "Buy a Wendlewick ale from the bartender.",
         "es": "Compra una Wendlewick ale al tabernero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Local gossip",
       "text": {
-        "en": "Talk to Matthew. He is sitting alone at the table in the north-western corner of the tavern. (opciones de chat: 1 Talk about 'Hearts of Sanguine') Give him a Wendlewick ale. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Matthew. Está sentado solo en la mesa de la esquina noroeste de la taberna. (opciones de chat: 1 Hablar sobre 'Hearts of Sanguine') Dale una Wendlewick ale. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to Matthew. He is sitting alone at the table in the north-western corner of the tavern. Give him a Wendlewick ale.",
+        "es": "Habla con Matthew. Está sentado solo en la mesa de la esquina noroeste de la taberna. (opciones de chat: 1 Hablar sobre 'Hearts of Sanguine') Dale una Wendlewick ale."
+      },
+      "chatOptions": [
+        "1 Talk about 'Hearts of Sanguine'",
+        "1 Yes."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Local gossip",
       "text": {
         "en": "Talk to Miriam, the musician outside.",
         "es": "Habla con Miriam, la música que está afuera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Local gossip",
       "text": {
-        "en": "Talk to Jacob, sitting alone outside. (opciones de chat: 1 Talk about 'Hearts of Sanguine'.)",
-        "es": "Habla con Jacob, que está sentado solo afuera. (opciones de chat: 1 Hablar sobre 'Hearts of Sanguine'.)"
-      }
+        "en": "Talk to Jacob, sitting alone outside.",
+        "es": "Habla con Jacob, que está sentado solo afuera."
+      },
+      "chatOptions": [
+        "1 Talk about 'Hearts of Sanguine'."
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Local gossip",
       "text": {
-        "en": "Talk to Bartender Gefen. (opciones de chat: 1 Talk about 'Hearts of Sanguine'.)",
-        "es": "Habla con Bartender Gefen. (opciones de chat: 1 Hablar sobre 'Hearts of Sanguine'.)"
-      }
+        "en": "Talk to Bartender Gefen.",
+        "es": "Habla con Bartender Gefen."
+      },
+      "chatOptions": [
+        "1 Talk about 'Hearts of Sanguine'."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Local gossip",
       "text": {
-        "en": "Go back and talk to Adam. (opciones de chat: 1 Talk about 'Hearts of Sanguine'.)",
-        "es": "Vuelve y habla con Adam. (opciones de chat: 1 Hablar sobre 'Hearts of Sanguine'.)"
-      }
+        "en": "Go back and talk to Adam.",
+        "es": "Vuelve y habla con Adam."
+      },
+      "chatOptions": [
+        "1 Talk about 'Hearts of Sanguine'."
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "To the farm",
       "text": {
-        "en": "Go south-east to the Eastfold Farm (further south-east than the Marigold Farm) and talk to Farmer Rachel. (opciones de chat: 1 Talk about 'Hearts of Sanguine'.)",
-        "es": "Ve al sureste hacia Eastfold Farm (más al sureste que Marigold Farm) y habla con Farmer Rachel. (opciones de chat: 1 Hablar sobre 'Hearts of Sanguine'.)"
-      }
+        "en": "Go south-east to the Eastfold Farm (further south-east than the Marigold Farm) and talk to Farmer Rachel.",
+        "es": "Ve al sureste hacia Eastfold Farm (más al sureste que Marigold Farm) y habla con Farmer Rachel."
+      },
+      "chatOptions": [
+        "1 Talk about 'Hearts of Sanguine'."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "To the farm",
       "text": {
         "en": "Investigate the bloodsplatter to the north at the broken fence.",
         "es": "Investiga las salpicaduras de sangre al norte, junto a la valla rota."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "To the farm",
       "text": {
         "en": "Follow the blood trail to the north-east and enter the cave entrance.",
         "es": "Sigue el rastro de sangre hacia el noreste y entra en la entrada de la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "To the farm",
       "text": {
-        "en": "Talk to Anya. (opciones de chat: 4 What are we dealing with? (Continue Quest) • 2 What do I need to do? (Continue Quest))",
+        "en": "Talk to Anya.",
         "es": "Habla con Anya. (opciones de chat: 4 What are we dealing with? (Continuar misión) • 2 What do I need to do? (Continuar misión))"
-      }
+      },
+      "chatOptions": [
+        "4 What are we dealing with? (Continue Quest)",
+        "2 What do I need to do? (Continue Quest)"
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "To the farm",
       "text": {
-        "en": "Teleport to the Wendlewick lodestone, go to the of the lighthouse, and talk to Esther. (opciones de chat: 1 Talk about 'Hearts of Sanguine'. • 2 (Continue Quest))",
+        "en": "Teleport to the Wendlewick lodestone, go to the of the lighthouse, and talk to Esther.",
         "es": "Teletranspórtate a la piedra de viaje de Wendlewick, dirígete al faro y habla con Esther. (opciones de chat: 1 Hablar sobre 'Hearts of Sanguine'. • 2 (Continuar misión))"
-      }
+      },
+      "chatOptions": [
+        "1 Talk about 'Hearts of Sanguine'.",
+        "2 (Continue Quest)"
+      ]
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "To the farm",
       "text": {
         "en": "Be sure to finish the second set of dialogue with Esther before continuing.",
         "es": "Asegúrate de terminar el segundo bloque de diálogo con Esther antes de continuar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
         "en": "Go south-east, then west up the hill and pick the poppies next to the stone structure at the top to obtain a Wendlewick poppy.",
         "es": "Ve al sureste, luego hacia el oeste subiendo la colina, y recoge las amapolas junto a la estructura de piedra en la cima para obtener una Wendlewick poppy."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
         "en": "To the south-west of the Shrine of Inanna, near the jackalope burrows, kill a hedgehog and pick up the hedgehog spines.",
         "es": "Al suroeste del Shrine of Inanna, cerca de las madrigueras de jackalope, mata a un erizo y recoge las púas de erizo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
         "en": "East of the shrine, pick the wolf's tongue mushrooms near the fairy ring to obtain wolf's tongue.",
         "es": "Al este del santuario, recoge los hongos wolf's tongue cerca del círculo de hadas para obtener wolf's tongue."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
-        "en": "Return to Esther. (opciones de chat: 1 Talk about 'Hearts of Sanguine'.)",
-        "es": "Vuelve con Esther. (opciones de chat: 1 Hablar sobre 'Hearts of Sanguine'.)"
-      }
+        "en": "Return to Esther.",
+        "es": "Vuelve con Esther."
+      },
+      "chatOptions": [
+        "1 Talk about 'Hearts of Sanguine'."
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
         "en": "Take a vial from the vial cabinet.",
         "es": "Toma un vial del armario de viales."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
         "en": "Fill it with oil from the vat of oil.",
         "es": "Llénalo con aceite de la tina de aceite."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
         "en": "Sterilise the vial of oil at the fireplace.",
         "es": "Esteriliza el vial de aceite en la chimenea."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
         "en": "Take hedgehog spines from the bucket of hedgehog spines, grind them, and mix the crushed hedgehog spines with the vial of oil (s).",
         "es": "Toma púas de erizo del cubo de púas de erizo, muélelas y mezcla las púas de erizo trituradas con el vial de aceite (s)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
         "en": "Take a Wendlewick poppy from the sack of flowers, press it on the table, and mix the pressed Wendlewick poppy with the vial of oil (crushed hedgehog spine).",
         "es": "Toma una Wendlewick poppy del saco de flores, prénsala en la mesa, y mezcla la Wendlewick poppy prensada con el vial de aceite (púas de erizo trituradas)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
         "en": "Take wolf's tongue from the sack of mushrooms, weigh out 30g on the desk, and mix the wolf's tongue (30g) with the vial of oil (crushed hedgehog spine, pressed Wendlewick poppy).",
         "es": "Toma wolf's tongue del saco de hongos, pesa 30g en el escritorio, y mezcla el wolf's tongue (30g) con el vial de aceite (púas de erizo trituradas, Wendlewick poppy prensada)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
         "en": "You should now have antisanguine.",
         "es": "Ahora deberías tener antisanguine."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 1,
+      "section": "Gathering ingredients",
       "text": {
         "en": "If at any point you have a black ruined potion, repeat the process from the beginning.",
         "es": "Si en algún momento obtienes una poción negra arruinada, repite el proceso desde el principio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
-        "en": "Talk to Esther. (opciones de chat: 1 Talk about 'Hearts of Sanguine'.)",
-        "es": "Habla con Esther. (opciones de chat: 1 Hablar sobre 'Hearts of Sanguine'.)"
-      }
+        "en": "Talk to Esther.",
+        "es": "Habla con Esther."
+      },
+      "chatOptions": [
+        "1 Talk about 'Hearts of Sanguine'."
+      ]
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
         "en": "Go to the lake south of the Shrine of Inanna and test antisanguine on the hedgehog (only the non-attackable hedgehog in this area will work).",
         "es": "Ve al lago al sur del Shrine of Inanna y prueba el antisanguine en el erizo (solo funcionará con el erizo no atacable de esta zona)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "Gathering ingredients",
       "text": {
         "en": "Kill it.",
         "es": "Mátalo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
         "en": "Go to the other side of the spring-fed pond (on the east side of the stepping stones) and test antisanguine on the duck.",
         "es": "Ve al otro lado del estanque alimentado por el manantial (en el lado este de las piedras para cruzar) y prueba el antisanguine en el pato."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Gathering ingredients",
       "text": {
         "en": "Go north-east and test antisanguine on the badger.",
         "es": "Ve al noreste y prueba el antisanguine en el tejón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Getting a havensilver weapon",
       "text": {
         "en": "Go back to Wendlewick and talk to Liat inside the smithy to the east. If someone left the door open, she may wander outside.",
         "es": "Vuelve a Wendlewick y habla con Liat dentro de la herrería al este. Si alguien dejó la puerta abierta, puede que ella esté deambulando afuera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Getting a havensilver weapon",
       "text": {
         "en": "Go to the Highweald Forest mine (head directly north from the smithy) and talk to Gidon.",
         "es": "Ve a la mina de Highweald Forest (directamente al norte de la herrería) y habla con Gidon."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "Getting a havensilver weapon",
       "text": {
         "en": "Mine 10 copper ores and 10 tin ores if you do not have any in the backpack.",
         "es": "Extrae 10 menas de cobre y 10 de estaño si no tienes ninguna en la mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Getting a havensilver weapon",
       "text": {
         "en": "Return to Wendlewick and give Liat 10 copper ores and 10 tin ores, both need to be un-noted.",
         "es": "Vuelve a Wendlewick y dale a Liat 10 menas de cobre y 10 de estaño, ambas deben estar sin marcar (un-noted)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Getting a havensilver weapon",
       "text": {
         "en": "Return to the mine and enter the cave entrance.",
         "es": "Vuelve a la mina y entra en la entrada de la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Getting a havensilver weapon",
       "text": {
         "en": "Talk to Gidon.",
         "es": "Habla con Gidon."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Getting a havensilver weapon",
       "text": {
         "en": "Mine 4 havensilver ore.",
         "es": "Extrae 4 menas de havensilver."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Getting a havensilver weapon",
       "text": {
         "en": "Return and talk to Liat.",
         "es": "Vuelve y habla con Liat."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Getting a havensilver weapon",
       "text": {
         "en": "Smelt the ores at the furnace into havensilver bars.",
         "es": "Funde las menas en la fragua para obtener lingotes de havensilver."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Getting a havensilver weapon",
       "text": {
         "en": "Smith them at the forge and anvil into a havensilver greatsword.",
         "es": "Fórjalos en la forja y el yunque para crear un havensilver greatsword."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Fight",
       "text": {
         "en": "Equip the Havensilver greatsword.",
         "es": "Equípate el Havensilver greatsword."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 1,
+      "section": "Fight",
       "text": {
         "en": "Unequip armour that decreases melee accuracy (e.g. necromancy armour) or use melee armour.",
         "es": "Quítate cualquier armadura que reduzca la precisión de combate cuerpo a cuerpo (por ejemplo, armadura de Nigromancia) o usa armadura de combate cuerpo a cuerpo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Fight",
       "text": {
-        "en": "Return to the Blighted Cave east of the Marigold Farm and talk to Anya outside of it. (opciones de chat: Any)",
-        "es": "Vuelve a la Blighted Cave al este de Marigold Farm y habla con Anya afuera de ella. (opciones de chat: Cualquiera)"
-      }
+        "en": "Return to the Blighted Cave east of the Marigold Farm and talk to Anya outside of it.",
+        "es": "Vuelve a la Blighted Cave al este de Marigold Farm y habla con Anya afuera de ella."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 47,
       "indent": 1,
+      "section": "Fight",
       "text": {
         "en": "Canoe station option 2 is a nearby quick travel spot to the cave.",
         "es": "La opción 2 de la estación de canoas es un punto de viaje rápido cercano a la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Fight",
       "text": {
         "en": "Enter the cave, drink the antisanguine.",
         "es": "Entra en la cueva y bebe el antisanguine."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 1,
+      "section": "Fight",
       "text": {
         "en": "You may reclaim it from Anya.",
         "es": "Puedes recuperarlo de Anya."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Fight",
       "text": {
         "en": "Attack the Sanguine heart.",
         "es": "Ataca al Sanguine heart."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 1,
+      "section": "Fight",
       "text": {
         "en": "It will spawn sanguine tumours 3 times during the fight which will make the heart immune to damage until they are destroyed.",
         "es": "Generará sanguine tumours 3 veces durante el combate, lo que hará que el corazón sea inmune al daño hasta que sean destruidos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 1,
+      "section": "Fight",
       "text": {
         "en": "It will periodically launch an exploding pustule to the tile you are standing on, you need to move before it explodes to avoid damage and removal of antisanguine protection effect.",
         "es": "Periódicamente lanzará una pústula explosiva a la casilla en la que estés parado; debes moverte antes de que explote para evitar daño y la pérdida del efecto de protección del antisanguine."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 1,
+      "section": "Fight",
       "text": {
         "en": "It may be beneficial to take additional doses of antisanguine during the fight if damaged.",
         "es": "Puede ser útil tomar dosis adicionales de antisanguine durante el combate si resultas dañado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 1,
+      "section": "Fight",
       "text": {
         "en": "Death here is safe, placing you outside the cave.",
         "es": "Morir aquí es seguro, te dejará fuera de la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Fight",
       "text": {
         "en": "Once the heart reaches 1 life point, attack it again.",
         "es": "Una vez que el corazón llegue a 1 punto de vida, atácalo de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Fight",
       "text": {
-        "en": "Leave the cave exit and talk to Anya again. (opciones de chat: Any)",
-        "es": "Sal de la cueva y habla de nuevo con Anya. (opciones de chat: Cualquiera)"
-      }
+        "en": "Leave the cave exit and talk to Anya again.",
+        "es": "Sal de la cueva y habla de nuevo con Anya."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Fight",
       "text": {
-        "en": "Return to Wendlewick and talk to Adam. (opciones de chat: 1 Talk about 'Hearts of Sanguine'.)",
-        "es": "Vuelve a Wendlewick y habla con Adam. (opciones de chat: 1 Hablar sobre 'Hearts of Sanguine'.)"
-      }
+        "en": "Return to Wendlewick and talk to Adam.",
+        "es": "Vuelve a Wendlewick y habla con Adam."
+      },
+      "chatOptions": [
+        "1 Talk about 'Hearts of Sanguine'."
+      ]
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Fight",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "missing-presumed-death",
   "title": "Missing, Presumed Death",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:39:22.352Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:37.087Z",
   "icon": "https://runescape.wiki/images/Missing%2C_Presumed_Death_icon.png",
   "series": "Sliske's Game",
   "age": "6",
@@ -105,6 +106,7 @@
       "image": "https://runescape.wiki/images/Invitation_box_detail.png?1f8e1"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Missing%2C_Presumed_Death_reward.png?6c52f",
   "postQuest": [
     {
       "type": "item",
@@ -164,386 +166,558 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "First crime scene",
       "text": {
-        "en": "Speak to Brother Samwell (west of Paterdomus and east of Varrock). (opciones de chat: ~ • ~ • Accept)",
-        "es": "Habla con Brother Samwell (al oeste de Paterdomus y al este de Varrock). (opciones de chat: ~ • ~ • Aceptar)"
-      }
+        "en": "Speak to Brother Samwell (west of Paterdomus and east of Varrock).",
+        "es": "Habla con Brother Samwell (al oeste de Paterdomus y al este de Varrock)."
+      },
+      "chatOptions": [
+        "~",
+        "~",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "First crime scene",
       "text": {
         "en": "Search for the following clues.",
         "es": "Busca las siguientes pistas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "First crime scene",
       "text": {
-        "en": "Investigate northernmost slaughtered monk. (opciones de chat: 2 Investigate torso.)",
-        "es": "Investiga al monje masacrado más al norte. (opciones de chat: 2 Investigar el torso.)"
-      }
+        "en": "Investigate northernmost slaughtered monk.",
+        "es": "Investiga al monje masacrado más al norte."
+      },
+      "chatOptions": [
+        "2 Investigate torso."
+      ]
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "First crime scene",
       "text": {
         "en": "Investigate nearby plant (east of the chest).",
         "es": "Investiga la planta cercana (al este del cofre)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "First crime scene",
       "text": {
         "en": "Investigate the tree with the arrow stuck in it (south of him).",
         "es": "Investiga el árbol con la flecha clavada (al sur de él)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "First crime scene",
       "text": {
-        "en": "Talk to Brother Samwell. (opciones de chat: 2 I think I've found all the clues. • Any)",
-        "es": "Habla con Brother Samwell. (opciones de chat: 2 Creo que he encontrado todas las pistas. • Cualquiera)"
-      }
+        "en": "Talk to Brother Samwell.",
+        "es": "Habla con Brother Samwell."
+      },
+      "chatOptions": [
+        "2 I think I've found all the clues.",
+        "Any"
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Second crime scene",
       "text": {
-        "en": "Up the limestone quarry, speak to Odd Old Man. (opciones de chat: 2 Ask about the slaughtered monks. • 1 Persuade him. • 1 Persuade him. • 2 Threaten him.)",
-        "es": "Sube por la cantera de piedra caliza y habla con Odd Old Man. (opciones de chat: 2 Preguntar sobre los monjes masacrados. • 1 Persuadirlo. • 1 Persuadirlo. • 2 Amenazarlo.)"
-      }
+        "en": "Up the limestone quarry, speak to Odd Old Man.",
+        "es": "Sube por la cantera de piedra caliza y habla con Odd Old Man."
+      },
+      "chatOptions": [
+        "2 Ask about the slaughtered monks.",
+        "1 Persuade him.",
+        "1 Persuade him.",
+        "2 Threaten him."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Second crime scene",
       "text": {
-        "en": "Talk to Brother Samwell. (opciones de chat: 1 He saw an elf heading east along the path. • 1 He saw a very tall, dark, hooded figure escaping. • Any)",
-        "es": "Habla con Brother Samwell. (opciones de chat: 1 Vio a un elfo dirigirse hacia el este por el camino. • 1 Vio a una figura encapuchada muy alta y oscura escapando. • Cualquiera)"
-      }
+        "en": "Talk to Brother Samwell.",
+        "es": "Habla con Brother Samwell."
+      },
+      "chatOptions": [
+        "1 He saw an elf heading east along the path.",
+        "1 He saw a very tall, dark, hooded figure escaping.",
+        "Any"
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Second crime scene",
       "text": {
         "en": "Search for additional clues by following the crystals to the east.",
         "es": "Busca pistas adicionales siguiendo los cristales hacia el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Second crime scene",
       "text": {
-        "en": "Investigate the killed elf ranger (southeast of the Temple). (opciones de chat: 1 Investigate arms. • 4 Listen to the trapped soul.)",
-        "es": "Investiga al elfo ranger asesinado (al sureste del Temple). (opciones de chat: 1 Investigar los brazos. • 4 Escuchar al alma atrapada.)"
-      }
+        "en": "Investigate the killed elf ranger (southeast of the Temple).",
+        "es": "Investiga al elfo ranger asesinado (al sureste del Temple)."
+      },
+      "chatOptions": [
+        "1 Investigate arms.",
+        "4 Listen to the trapped soul."
+      ]
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Second crime scene",
       "text": {
         "en": "Investigate the plant west of her, near the middle pile of crystals next to the stairs.",
         "es": "Investiga la planta al oeste de ella, cerca del montón central de cristales junto a las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Second crime scene",
       "text": {
         "en": "Investigate the clothing on the fence, to the south of the tree.",
         "es": "Investiga la ropa sobre la valla, al sur del árbol."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Second crime scene",
       "text": {
-        "en": "Talk to Blaze Sharpeye by the beacon. (opciones de chat: 2 Ask about the murdered elf. • 2 Threaten him. • 2 Threaten him. • 1 Persuade him.)",
-        "es": "Habla con Blaze Sharpeye junto a la baliza. (opciones de chat: 2 Preguntar sobre el elfo asesinado. • 2 Amenazarlo. • 2 Amenazarlo. • 1 Persuadirlo.)"
-      }
+        "en": "Talk to Blaze Sharpeye by the beacon.",
+        "es": "Habla con Blaze Sharpeye junto a la baliza."
+      },
+      "chatOptions": [
+        "2 Ask about the murdered elf.",
+        "2 Threaten him.",
+        "2 Threaten him.",
+        "1 Persuade him."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Second crime scene",
       "text": {
-        "en": "Return to Brother Samwell. (opciones de chat: 2 I think I've found all the clues. • Any)",
-        "es": "Regresa con Brother Samwell. (opciones de chat: 2 Creo que he encontrado todas las pistas. • Cualquiera)"
-      }
+        "en": "Return to Brother Samwell.",
+        "es": "Regresa con Brother Samwell."
+      },
+      "chatOptions": [
+        "2 I think I've found all the clues.",
+        "Any"
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Valina's information",
       "text": {
-        "en": "Go to the Wizards' Tower and speak to Wizard Valina inside the entry way on the lectern. (opciones de chat: 2 I was told by Brother Samwell that you might be able to help us. • 1 Ask about the elves. • 2 Ask about Saradominist wizards. • Any • 3 Ask about teleportation.)",
-        "es": "Ve a la Wizards' Tower y habla con Wizard Valina dentro de la entrada, junto al atril. (opciones de chat: 2 Brother Samwell me dijo que podríais ayudarnos. • 1 Preguntar sobre los elfos. • 2 Preguntar sobre los magos saradoministas. • Cualquiera • 3 Preguntar sobre teletransporte.)"
-      }
+        "en": "Go to the Wizards' Tower and speak to Wizard Valina inside the entry way on the lectern.",
+        "es": "Ve a la Wizards' Tower y habla con Wizard Valina dentro de la entrada, junto al atril."
+      },
+      "chatOptions": [
+        "2 I was told by Brother Samwell that you might be able to help us.",
+        "1 Ask about the elves.",
+        "2 Ask about Saradominist wizards.",
+        "Any",
+        "3 Ask about teleportation."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Fighting with Icthlarin",
       "text": {
-        "en": "Return to Brother Samwell. (opciones de chat: Any • 5 I think somebody else did this.)",
-        "es": "Regresa con Brother Samwell. (opciones de chat: Cualquiera • 5 Creo que alguien más hizo esto.)"
-      }
+        "en": "Return to Brother Samwell.",
+        "es": "Regresa con Brother Samwell."
+      },
+      "chatOptions": [
+        "Any",
+        "5 I think somebody else did this."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Fighting with Icthlarin",
       "text": {
-        "en": "Learn from Icthlarin about Death's disappearance. (opciones de chat: Any • 2 Someone killed these people. • 1 Why does this concern you? • 1 Is everyone who dies trapped now? • 4 Continue. • 1 I'm ready to help.)",
-        "es": "Descubre junto a Icthlarin la desaparición de Death. (opciones de chat: Cualquiera • 2 Alguien mató a esta gente. • 1 ¿Por qué te concierne esto? • 1 ¿Ahora todos los que mueren quedan atrapados? • 4 Continuar. • 1 Estoy listo para ayudar.)"
-      }
+        "en": "Learn from Icthlarin about Death's disappearance.",
+        "es": "Descubre junto a Icthlarin la desaparición de Death."
+      },
+      "chatOptions": [
+        "Any",
+        "2 Someone killed these people.",
+        "1 Why does this concern you?",
+        "1 Is everyone who dies trapped now?",
+        "4 Continue.",
+        "1 I'm ready to help."
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Fighting with Icthlarin",
       "text": {
         "en": "Defeat attacking wights.",
         "es": "Derrota a los wights atacantes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Fighting with Icthlarin",
       "text": {
-        "en": "Finish the conversation with Icthlarin. (opciones de chat: Any • Any)",
-        "es": "Termina la conversación con Icthlarin. (opciones de chat: Cualquiera • Cualquiera)"
-      }
+        "en": "Finish the conversation with Icthlarin.",
+        "es": "Termina la conversación con Icthlarin."
+      },
+      "chatOptions": [
+        "Any",
+        "Any"
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Fighting with Icthlarin",
       "text": {
-        "en": "While standing next to Icthlarin, open the invitation box. (opciones de chat: 1 We must, Death needs our help.)",
-        "es": "Estando junto a Icthlarin, abre la caja de invitación. (opciones de chat: 1 Debemos hacerlo, Death necesita nuestra ayuda.)"
-      }
+        "en": "While standing next to Icthlarin, open the invitation box.",
+        "es": "Estando junto a Icthlarin, abre la caja de invitación."
+      },
+      "chatOptions": [
+        "1 We must, Death needs our help."
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
-        "en": "Once in the citadel, talk to Icthlarin. (opciones de chat: 1 I want to continue to the citadel.) A cutscene will play.",
+        "en": "Once in the citadel, talk to Icthlarin. A cutscene will play.",
         "es": "Una vez en la ciudadela, habla con Icthlarin. (opciones de chat: 1 Quiero continuar hacia la ciudadela.) Se reproducirá una cutscene."
-      }
+      },
+      "chatOptions": [
+        "1 I want to continue to the citadel."
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Enter the door to the west then north to the window to watch another cutscene.",
         "es": "Entra por la puerta al oeste y luego al norte hasta la ventana para ver otra cutscene."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Walk out the south window; jump the gap; run across the planks; drop down the rocks; climb up the rock face; walk in the western window.",
         "es": "Sal por la ventana sur; salta el hueco; corre por las tablas; baja por las rocas; sube por la pared rocosa; entra por la ventana occidental."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Climb through the obstacle to the north.",
         "es": "Trepa por el obstáculo hacia el norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Open the north door, then continue north into the next room.",
         "es": "Abre la puerta norte, y luego continúa hacia el norte hasta la siguiente sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Pull all three levers in the room (on the west, south, and east walls) to create light.",
         "es": "Tira de las tres palancas de la sala (en las paredes oeste, sur y este) para crear luz."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Lead all the wights that spawn (a group of 3, then 4) into the light to be able to damage them.",
         "es": "Conduce a todos los wights que aparezcan (un grupo de 3, luego de 4) hacia la luz para poder dañarlos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "View the east window for another cutscene.",
         "es": "Observa por la ventana este para ver otra cutscene."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Open the door to the north, then continue east into the next room.",
         "es": "Abre la puerta al norte, y luego continúa hacia el este hasta la siguiente sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
-        "en": "Use the viewing panel. (opciones de chat: 3 Stop wasting my time. • 2 What do I do? • Any), then rotate the bottom-left machine once, the top-left one twice, the top-right three times and the bottom-right machine once.",
+        "en": "Use the viewing panel. , then rotate the bottom-left machine once, the top-left one twice, the top-right three times and the bottom-right machine once.",
         "es": "Usa el panel de visualización. (opciones de chat: 3 Deja de hacerme perder el tiempo. • 2 ¿Qué debo hacer? • Cualquiera), luego gira la máquina inferior izquierda una vez, la superior izquierda dos veces, la superior derecha tres veces y la inferior derecha una vez."
-      }
+      },
+      "chatOptions": [
+        "3 Stop wasting my time.",
+        "2 What do I do?",
+        "Any"
+      ]
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "View the south window for another cutscene.",
         "es": "Observa por la ventana sur para ver otra cutscene."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Open the door to the east, then continue south into the next room.",
         "es": "Abre la puerta al este, y luego continúa hacia el sur hasta la siguiente sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
-        "en": "Talk to the statue of Death. (opciones de chat: 2 Get to the point. • Any • 3 How do I answer?)",
-        "es": "Habla con la estatua de Death. (opciones de chat: 2 Ir al grano. • Cualquiera • 3 ¿Cómo respondo?)"
-      }
+        "en": "Talk to the statue of Death.",
+        "es": "Habla con la estatua de Death."
+      },
+      "chatOptions": [
+        "2 Get to the point.",
+        "Any",
+        "3 How do I answer?"
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Open the chest and take the correct item, then place on the answer plinth pedestal.",
         "es": "Abre el cofre y coge el objeto correcto, luego colócalo en el pedestal de respuesta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "The Citadel",
       "text": {
-        "en": "First chest (east) (opciones de chat: 3 Take sand.), place on answer plinth. (opciones de chat: 1 Yes, final answer.)",
-        "es": "Primer cofre (este) (opciones de chat: 3 Coger arena.), colócalo en el pedestal de respuesta. (opciones de chat: 1 Sí, respuesta final.)"
-      }
+        "en": "First chest (east) , place on answer plinth.",
+        "es": "Primer cofre (este) (opciones de chat: 3 Coger arena.), colócalo en el pedestal de respuesta."
+      },
+      "chatOptions": [
+        "3 Take sand.",
+        "1 Yes, final answer."
+      ]
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "The Citadel",
       "text": {
-        "en": "Second chest (middle) (opciones de chat: 2 Take water.), place on answer plinth. (opciones de chat: 1 Yes, final answer.)",
-        "es": "Segundo cofre (medio) (opciones de chat: 2 Coger agua.), colócalo en el pedestal de respuesta. (opciones de chat: 1 Sí, respuesta final.)"
-      }
+        "en": "Second chest (middle) , place on answer plinth.",
+        "es": "Segundo cofre (medio) (opciones de chat: 2 Coger agua.), colócalo en el pedestal de respuesta."
+      },
+      "chatOptions": [
+        "2 Take water.",
+        "1 Yes, final answer."
+      ]
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "The Citadel",
       "text": {
-        "en": "Second chest, again (opciones de chat: 1 Take Shadow.), place on answer plinth. (opciones de chat: 1 Yes, final answer.)",
-        "es": "Segundo cofre, de nuevo (opciones de chat: 1 Coger Shadow.), colócalo en el pedestal de respuesta. (opciones de chat: 1 Sí, respuesta final.)"
-      }
+        "en": "Second chest, again , place on answer plinth.",
+        "es": "Segundo cofre, de nuevo (opciones de chat: 1 Coger Shadow.), colócalo en el pedestal de respuesta."
+      },
+      "chatOptions": [
+        "1 Take Shadow.",
+        "1 Yes, final answer."
+      ]
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "View the west window for another cutscene.",
         "es": "Observa por la ventana oeste para ver otra cutscene."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Open the south door, then jump off the drop.",
         "es": "Abre la puerta sur, y luego salta desde el borde."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
-        "en": "Speak to one of the Barrows brothers to enter the main room. (opciones de chat: 1 Yes.)",
-        "es": "Habla con uno de los Barrows brothers para entrar en la sala principal. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Speak to one of the Barrows brothers to enter the main room.",
+        "es": "Habla con uno de los Barrows brothers para entrar en la sala principal."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
-        "en": "After a cutscene, walk forward to continue talking with the Gods. (opciones de chat: 1 Let Sliske carry on with his show. • Any • Any • Any)",
-        "es": "Después de una cutscene, avanza para seguir hablando con los Gods. (opciones de chat: 1 Dejar que Sliske continúe con su espectáculo. • Cualquiera • Cualquiera • Cualquiera)"
-      }
+        "en": "After a cutscene, walk forward to continue talking with the Gods.",
+        "es": "Después de una cutscene, avanza para seguir hablando con los Gods."
+      },
+      "chatOptions": [
+        "1 Let Sliske carry on with his show.",
+        "Any",
+        "Any",
+        "Any"
+      ]
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Run around rear of other gods and stamp out the smaller flames on the ground to reach Death's cage while avoiding the fireballs from Strisath. Free him from his cage.",
         "es": "Corre alrededor de la parte trasera de los otros dioses y apaga las llamas más pequeñas en el suelo para llegar a la jaula de Death, evitando las bolas de fuego de Strisath. Libéralo de su jaula."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 1,
+      "section": "The Citadel",
       "text": {
         "en": "The flames might be difficult to see with low graphics settings, especially with shadows turned off.",
         "es": "Las llamas pueden ser difíciles de ver con ajustes gráficos bajos, especialmente con las sombras desactivadas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Run back behind Icthlarin.",
         "es": "Corre de vuelta detrás de Icthlarin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "The Citadel",
       "text": {
         "en": "Getting hit by the fireballs will reset your progress.",
         "es": "Recibir el impacto de las bolas de fuego reiniciará tu progreso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Speak to Icthlarin.",
         "es": "Habla con Icthlarin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Speak with Brother Samwell.",
         "es": "Habla con Brother Samwell."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "The Citadel",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

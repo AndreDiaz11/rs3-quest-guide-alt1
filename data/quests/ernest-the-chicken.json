@@ -2,7 +2,8 @@
   "id": "ernest-the-chicken",
   "title": "Ernest the Chicken",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:15:05.496Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:08.986Z",
   "icon": "https://runescape.wiki/images/Ernest_the_Chicken_icon.png",
   "series": null,
   "age": "5",
@@ -64,279 +65,355 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Ernest_the_Chicken_reward.png?9f204",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Veronica located just inside the gate to Draynor Manor. (opciones de chat: Accept)",
-        "es": "Habla con Veronica, que se encuentra justo dentro de la puerta de Draynor Manor. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Veronica located just inside the gate to Draynor Manor.",
+        "es": "Habla con Veronica, que se encuentra justo dentro de la puerta de Draynor Manor."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Enter the manor. (opciones de chat: 1 Yes.)",
-        "es": "Entra en la mansión. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Enter the manor.",
+        "es": "Entra en la mansión."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Pressure gauge",
       "text": {
         "en": "On the , grab the fish food in the room south of the staircase.",
         "es": "En la , coge la comida para peces en la sala al sur de la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Pressure gauge",
       "text": {
         "en": "On the , take the poison from the room south of the kitchen, in the northwest of the manor.",
         "es": "En la , toma el veneno de la sala al sur de la cocina, en el noroeste de la mansión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Pressure gauge",
       "text": {
         "en": "Use the poison on the fish food.",
         "es": "Usa el veneno en la comida para peces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Pressure gauge",
       "text": {
         "en": "Exit the manor through the eastern-most room (or teleport to the Draynor lodestone) and walk to the fountain in the southwest corner of the yard.",
         "es": "Sal de la mansión por la sala más al este (o teletranspórtate a la piedra de viaje de Draynor) y camina hasta la fuente en la esquina suroeste del patio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Pressure gauge",
       "text": {
         "en": "Use the poisoned fish food on the fountain.",
         "es": "Usa la comida envenenada en la fuente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Pressure gauge",
       "text": {
         "en": "Search the fountain for the pressure gauge.",
         "es": "Busca en la fuente el manómetro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Rubber tube",
       "text": {
         "en": "Walk along the west side of the manor until a compost heap is found.",
         "es": "Camina por el lado oeste de la mansión hasta encontrar un montón de compost."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Rubber tube",
       "text": {
         "en": "Search it for a grimy key.",
         "es": "Búscalo para encontrar una llave mugrienta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Rubber tube",
       "text": {
         "en": "Go inside the manor and enter the small room behind the staircase.",
         "es": "Entra en la mansión y ve a la pequeña sala detrás de la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Rubber tube",
       "text": {
         "en": "Take the rubber tube.",
         "es": "Coge el tubo de goma."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Oil can",
       "text": {
         "en": "Return to the entrance hall of the manor and go into the room to the west.",
         "es": "Vuelve al vestíbulo de la mansión y entra en la sala al oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Oil can",
       "text": {
         "en": "Search the candle sconce on the western wall to open the wall.",
         "es": "Busca en el candelabro de pared del muro oeste para abrir la pared."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Oil can",
       "text": {
         "en": "Climb down the trap door ladder to the north in the new room.",
         "es": "Baja por la escalera de la trampilla hacia el norte en la nueva sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Oil can",
       "text": {
         "en": "There will be a puzzle with the solution as follows.",
         "es": "Habrá un puzle cuya solución es la siguiente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Puzzle solution",
       "text": {
         "en": "Pull levers A, B up",
         "es": "Sube las palancas A y B"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Puzzle solution",
       "text": {
         "en": "Enter Door 1",
         "es": "Entra por la Puerta 1"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Puzzle solution",
       "text": {
         "en": "Pull lever D up",
         "es": "Sube la palanca D"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Puzzle solution",
       "text": {
         "en": "Enter Door 1",
         "es": "Entra por la Puerta 1"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Puzzle solution",
       "text": {
         "en": "Pull levers A, B down",
         "es": "Baja las palancas A y B"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Puzzle solution",
       "text": {
         "en": "Enter Doors 3, 4 & 5",
         "es": "Entra por las Puertas 3, 4 y 5"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Puzzle solution",
       "text": {
         "en": "Pull levers E, F up",
         "es": "Sube las palancas E y F"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Puzzle solution",
       "text": {
         "en": "Enter Doors 6 & 7",
         "es": "Entra por las Puertas 6 y 7"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Puzzle solution",
       "text": {
         "en": "Pull lever C up",
         "es": "Sube la palanca C"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Puzzle solution",
       "text": {
         "en": "Enter Doors 7 & 6",
         "es": "Entra por las Puertas 7 y 6"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Puzzle solution",
       "text": {
         "en": "Pull lever E down",
         "es": "Baja la palanca E"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Puzzle solution",
       "text": {
         "en": "Enter Doors 6, 8 & 3",
         "es": "Entra por las Puertas 6, 8 y 3"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Puzzle solution",
       "text": {
         "en": "Go through Door 9 and obtain the oil can.",
         "es": "Pasa por la Puerta 9 y consigue la lata de aceite."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Leave the basement.",
         "es": "Sal del sótano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Pull the lever on the eastern wall.",
         "es": "Tira de la palanca en el muro este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Go up the stairs, then up the ladder, and talk to to Professor Oddenstein. (opciones de chat: 1. I'm looking for a guy called Ernest. • 2. Change him back this instant!)",
-        "es": "Sube las escaleras, luego sube por la escalera de mano, y habla con el Profesor Oddenstein. (opciones de chat: 1. Estoy buscando a un tipo llamado Ernest. • 2. ¡Devuélvelo a la normalidad ahora mismo!)"
-      }
+        "en": "Go up the stairs, then up the ladder, and talk to to Professor Oddenstein.",
+        "es": "Sube las escaleras, luego sube por la escalera de mano, y habla con el Profesor Oddenstein."
+      },
+      "chatOptions": [
+        "1. I'm looking for a guy called Ernest.",
+        "2. Change him back this instant!"
+      ]
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to him again.",
         "es": "Habla con él de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

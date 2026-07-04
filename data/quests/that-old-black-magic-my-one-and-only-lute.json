@@ -2,7 +2,8 @@
   "id": "that-old-black-magic-my-one-and-only-lute",
   "title": "That Old Black Magic: My One and Only Lute",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:22:23.329Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:12.661Z",
   "icon": "https://runescape.wiki/images/thumb/That_Old_Black_Magic_icon.png/50px-That_Old_Black_Magic_icon.png",
   "length": "Short",
   "startPoint": {
@@ -38,47 +39,64 @@
       "image": "https://runescape.wiki/images/Soul_%28Well_of_Souls%29.png?69d0c"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/That_Old_Black_Magic_-_My_One_and_Only_Lute_reward.png?b6329",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Help the band",
       "text": {
-        "en": "Talk to Lady Grey, behind Death in the City of Um and agree to get her guitar back. (opciones de chat: Accept)",
-        "es": "Habla con Lady Grey, detrás de Death en la City of Um, y acepta recuperar su guitarra. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Lady Grey, behind Death in the City of Um and agree to get her guitar back.",
+        "es": "Habla con Lady Grey, detrás de Death en la City of Um, y acepta recuperar su guitarra."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Help the band",
       "text": {
         "en": "Travel to Lumbridge Catacombs.",
         "es": "Viaja a las Lumbridge Catacombs."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Help the band",
       "text": {
         "en": "At the end of the catacombs, kill Dragith Nurn using necromancy and pick up Lady Grey's guitar.",
         "es": "Al final de las catacumbas, mata a Dragith Nurn usando nigromancia y recoge la guitarra de Lady Grey."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Help the band",
       "text": {
-        "en": "Return to the City of Um and speak to Lady Grey. Hand her the guitar. (opciones de chat: 1 Yes. • 1 Trumpeter. • 4 None right now.)",
-        "es": "Vuelve a la City of Um y habla con Lady Grey. Entrégale la guitarra. (opciones de chat: 1 Sí. • 1 Trumpeter. • 4 Nada por ahora.)"
-      }
+        "en": "Return to the City of Um and speak to Lady Grey. Hand her the guitar.",
+        "es": "Vuelve a la City of Um y habla con Lady Grey. Entrégale la guitarra."
+      },
+      "chatOptions": [
+        "1 Yes.",
+        "1 Trumpeter.",
+        "4 None right now."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Help the band",
       "text": {
         "en": "Subquest complete!",
         "es": "¡Submisión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

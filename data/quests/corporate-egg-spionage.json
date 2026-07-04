@@ -2,7 +2,8 @@
   "id": "corporate-egg-spionage",
   "title": "Corporate Egg-spionage",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:59:33.311Z",
+  "isSeasonal": true,
+  "guideLastUpdated": "2026-07-04T18:33:49.938Z",
   "icon": "https://runescape.wiki/images/thumb/Corporate_Egg-spionage_icon.png/50px-Corporate_Egg-spionage_icon.png",
   "series": "Blooming Burrow",
   "age": "Ambiguous",
@@ -59,104 +60,138 @@
       "image": "https://runescape.wiki/images/thumb/Blooming_Burrow.png/100px-Blooming_Burrow.png?388f9"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Corporate_Egg-spionage_reward.png?93ea4",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Learning about a business opportunity",
       "text": {
-        "en": "Talk to the Easter Bunny outside their house in the Blooming Burrow. (opciones de chat: 1 Do you have a quest for me? • Accept)",
-        "es": "Habla con Easter Bunny fuera de su casa en Blooming Burrow. (opciones de chat: 1 ¿Tienes una misión para mí? • Aceptar)"
-      }
+        "en": "Talk to the Easter Bunny outside their house in the Blooming Burrow.",
+        "es": "Habla con Easter Bunny fuera de su casa en Blooming Burrow."
+      },
+      "chatOptions": [
+        "1 Do you have a quest for me?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Inside the factory",
       "text": {
         "en": "Go to the Egg Plant on the western side of the burrow and talk to either the Easter Bunny, Angus Almond, Carmilla Caramel, or Chad Berry.",
         "es": "Ve a Egg Plant, en el lado oeste de la madriguera, y habla con Easter Bunny, Angus Almond, Carmilla Caramel o Chad Berry."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Inside the factory",
       "text": {
         "en": "Talk to the Easter Bunny just north.",
         "es": "Habla con Easter Bunny justo al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Confrontation",
       "text": {
         "en": "Just outside of the Egg Plant, north-east of Nougat Bunny's stall, confront the Suspicious Rabbit.",
         "es": "Justo fuera de Egg Plant, al noreste del puesto de Nougat Bunny, enfréntate al Suspicious Rabbit."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Confrontation",
       "text": {
         "en": "Go east by passing the two bridges and then midway south (north of the Thieving icons on the map) and confront the Loitering Hare.",
         "es": "Ve hacia el este cruzando los dos puentes y luego hacia el sur, a mitad de camino (al norte de los iconos de Robo en el mapa), y enfréntate al Loitering Hare."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Confrontation",
       "text": {
         "en": "Go all the way south-east and confront the Odd Jackrabbit from behind.",
         "es": "Ve todo el camino hacia el sureste y enfréntate al Odd Jackrabbit por la espalda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Confrontation",
       "text": {
         "en": "Talk to the Easter Bunny.",
         "es": "Habla con Easter Bunny."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Translation",
       "text": {
         "en": "Talk to Count Rivance outside of Gerrant's Fishy Business at the eastern wall.",
         "es": "Habla con Count Rivance fuera de Gerrant's Fishy Business, junto al muro este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Corporate synergy",
       "text": {
-        "en": "Talk to the Easter Bunny. (opciones de chat: 1 Yes!)",
-        "es": "Habla con Easter Bunny. (opciones de chat: 1 ¡Sí!)"
-      }
+        "en": "Talk to the Easter Bunny.",
+        "es": "Habla con Easter Bunny."
+      },
+      "chatOptions": [
+        "1 Yes!"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Corporate synergy",
       "text": {
-        "en": "Talk to either Angus Almond, Carmilla Caramel, or Chad Berry. (opciones de chat: 1 Carmilla has been replacing your gold with chocolate coins! • 2 You pay your employees overtime! • 2 You've been cooking the books! • 3 You have an almond allergy!)",
-        "es": "Habla con Angus Almond, Carmilla Caramel o Chad Berry. (opciones de chat: 1 ¡Carmilla ha estado cambiando tu oro por monedas de chocolate! • 2 ¡Pagas horas extra a tus empleados! • 2 ¡Has estado maquillando las cuentas! • 3 ¡Tienes alergia a las almendras!)"
-      }
+        "en": "Talk to either Angus Almond, Carmilla Caramel, or Chad Berry.",
+        "es": "Habla con Angus Almond, Carmilla Caramel o Chad Berry."
+      },
+      "chatOptions": [
+        "1 Carmilla has been replacing your gold with chocolate coins!",
+        "2 You pay your employees overtime!",
+        "2 You've been cooking the books!",
+        "3 You have an almond allergy!"
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Corporate synergy",
       "text": {
         "en": "Talk to the Easter Bunny.",
         "es": "Habla con Easter Bunny."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Corporate synergy",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
-  ],
-  "isSeasonal": true
+  ]
 }

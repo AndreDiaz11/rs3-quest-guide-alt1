@@ -2,7 +2,8 @@
   "id": "shilo-village",
   "title": "Shilo Village",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:14:39.083Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:04.227Z",
   "icon": "https://runescape.wiki/images/Shilo_Village_icon.png",
   "series": null,
   "age": "5",
@@ -104,359 +105,481 @@
       "image": "https://runescape.wiki/images/thumb/Yanni_Salika.png/100px-Yanni_Salika.png?4719b"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Shilo_Village_reward.png?fad64",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Teleport to Karamja (shortest teleport is ) and run far south/southeast to the southeast corner of Shilo Village.",
+        "en": "Teleport to Karamja (shortest teleport is CKR) and run far south/southeast to the southeast corner of Shilo Village.",
         "es": "Teletranspórtate a Karamja (el teletransporte más corto es ) y corre bien al sur/sureste hasta la esquina sureste de Shilo Village."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Speak to Mosol Rei near the Broken cart. (opciones de chat: 1 Why do I need to run? • 1 Rashiliyia? Who is she? • 1 What can we do? • 4 I'll go see the Shaman. • Accept) He will give you a wampum belt.",
+        "en": "Speak to Mosol Rei near the Broken cart. He will give you a wampum belt.",
         "es": "Habla con Mosol Rei cerca del Broken cart. (opciones de chat: 1 ¿Por qué tengo que correr? • 1 ¿Rashiliyia? ¿Quién es ella? • 1 ¿Qué podemos hacer? • 4 Iré a ver al Shaman. • Aceptar) Te dará un wampum belt."
-      }
+      },
+      "chatOptions": [
+        "1 Why do I need to run?",
+        "1 Rashiliyia? Who is she?",
+        "1 What can we do?",
+        "4 I'll go see the Shaman.",
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Teleport to the Karamja lodestone and run southeast to Trufitus, northeast of Tai Bwo Wannai Village, west of the hardwood grove.",
         "es": "Teletranspórtate a la piedra de viaje de Karamja y corre hacia el sureste hasta Trufitus, al noreste de Tai Bwo Wannai Village, al oeste de la arboleda de madera dura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Use the belt on Trufitus. Tell him you're going to search for \"Ah Za Rhoon\". (opciones de chat: 2 Mosol Rei said something about a legend? • 1 Why was it called Ah Za Rhoon? • 3 I am going to search for Ah Za Rhoon! • 1 Yes, I will seriously look for Ah Za Rhoon and I'd appreciate your help.)",
-        "es": "Usa el cinturón en Trufitus. Dile que vas a buscar \"Ah Za Rhoon\". (opciones de chat: 2 ¿Mosol Rei dijo algo sobre una leyenda? • 1 ¿Por qué se llamaba Ah Za Rhoon? • 3 ¡Voy a buscar Ah Za Rhoon! • 1 Sí, voy a buscar Ah Za Rhoon en serio y agradecería tu ayuda.)"
-      }
+        "en": "Use the belt on Trufitus. Tell him you're going to search for \"Ah Za Rhoon\".",
+        "es": "Usa el cinturón en Trufitus. Dile que vas a buscar \"Ah Za Rhoon\"."
+      },
+      "chatOptions": [
+        "2 Mosol Rei said something about a legend?",
+        "1 Why was it called Ah Za Rhoon?",
+        "3 I am going to search for Ah Za Rhoon!",
+        "1 Yes, I will seriously look for Ah Za Rhoon and I'd appreciate your help."
+      ]
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "If you don't yet have a chisel, a rope and torch, you should get those now from Jiminua's Jungle Store. You may also craft bronze wire at the nearby anvil.",
         "es": "Si todavía no tienes un chisel, una rope y una torch, deberías conseguirlos ahora en Jiminua's Jungle Store. También puedes fabricar bronze wire en el yunque cercano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The mound",
       "text": {
         "en": "Travel east of Trufitus' hut, cross a wooden log and then head south to the mound of earth surrounded by three dead trees, Ah Za Rhoon.",
         "es": "Viaja al este de la choza de Trufitus, cruza un tronco de madera y luego dirígete al sur hacia el montículo de tierra rodeado de tres árboles muertos, Ah Za Rhoon."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The mound",
       "text": {
-        "en": "Search the mound of earth and select excavate. (opciones de chat: 1 Try to excavate the mound.)",
-        "es": "Registra el montículo de tierra y selecciona excavar. (opciones de chat: 1 Intentar excavar el montículo.)"
-      }
+        "en": "Search the mound of earth and select excavate.",
+        "es": "Registra el montículo de tierra y selecciona excavar."
+      },
+      "chatOptions": [
+        "1 Try to excavate the mound."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The mound",
       "text": {
         "en": "Use a lit torch on the fissure.",
         "es": "Usa una torch encendida en la fisura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "The mound",
       "text": {
         "en": "To obtain a lit torch, light the torch in the backpack.",
         "es": "Para obtener una torch encendida, enciende la torch en la mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The mound",
       "text": {
         "en": "Use a rope on the fissure.",
         "es": "Usa una rope en la fisura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The mound",
       "text": {
-        "en": "Search the fissure, climb down. (opciones de chat: 1 Yes, I'll give it a go!)",
-        "es": "Registra la fisura, baja escalando. (opciones de chat: 1 ¡Sí, lo intentaré!)"
-      }
+        "en": "Search the fissure, climb down.",
+        "es": "Registra la fisura, baja escalando."
+      },
+      "chatOptions": [
+        "1 Yes, I'll give it a go!"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Ah Za Rhoon",
       "text": {
-        "en": "Search the cave in (see map) and wiggle through the rocks to proceed to the second area. (opciones de chat: 1 Yes, I'll wriggle through.)",
-        "es": "Registra el derrumbe (mira el mapa) y arrástrate entre las rocas para pasar a la segunda zona. (opciones de chat: 1 Sí, me arrastraré.)"
-      }
+        "en": "Search the cave in (see map) and wiggle through the rocks to proceed to the second area.",
+        "es": "Registra el derrumbe (mira el mapa) y arrástrate entre las rocas para pasar a la segunda zona."
+      },
+      "chatOptions": [
+        "1 Yes, I'll wriggle through."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Ah Za Rhoon",
       "text": {
-        "en": "After wiggling through, follow along the west side of the wall and search the loose rocks against the northwestern wall for a tattered scroll. (opciones de chat: 1 Yes, I'll carefully move the rocks to see what's behind them.)",
-        "es": "Después de arrastrarte, sigue el lado oeste de la pared y registra las rocas sueltas contra la pared noroeste para encontrar un tattered scroll. (opciones de chat: 1 Sí, moveré las rocas con cuidado para ver qué hay detrás.)"
-      }
+        "en": "After wiggling through, follow along the west side of the wall and search the loose rocks against the northwestern wall for a tattered scroll.",
+        "es": "Después de arrastrarte, sigue el lado oeste de la pared y registra las rocas sueltas contra la pared noroeste para encontrar un tattered scroll."
+      },
+      "chatOptions": [
+        "1 Yes, I'll carefully move the rocks to see what's behind them."
+      ]
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Ah Za Rhoon",
       "text": {
         "en": "You might fail and take damage, retry until you succeed.",
         "es": "Puede que falles y recibas daño, inténtalo de nuevo hasta que lo consigas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Ah Za Rhoon",
       "text": {
         "en": "Search the old sacks in the far southeast corner for a crumpled scroll.",
         "es": "Registra los viejos sacos en la esquina sureste lejana para encontrar un crumpled scroll."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Ah Za Rhoon",
       "text": {
-        "en": "Search the ancient gallows to the north for the Zadimus corpse. (opciones de chat: 2 Yes, I may find something else on the corpse.)",
-        "es": "Registra la antigua horca al norte para encontrar el cadáver de Zadimus. (opciones de chat: 2 Sí, puede que encuentre algo más en el cadáver.)"
-      }
+        "en": "Search the ancient gallows to the north for the Zadimus corpse.",
+        "es": "Registra la antigua horca al norte para encontrar el cadáver de Zadimus."
+      },
+      "chatOptions": [
+        "2 Yes, I may find something else on the corpse."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Ah Za Rhoon",
       "text": {
-        "en": "Read both scrolls. (opciones de chat: 1 Yes please.)",
-        "es": "Lee ambos pergaminos. (opciones de chat: 1 Sí, por favor.)"
-      }
+        "en": "Read both scrolls.",
+        "es": "Lee ambos pergaminos."
+      },
+      "chatOptions": [
+        "1 Yes please."
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Burial",
       "text": {
         "en": "Use the Karamja lodestone/Tai Bwo Wannai teleport to get back to Trufitus.",
         "es": "Usa la piedra de viaje de Karamja/el teletransporte de Tai Bwo Wannai para volver con Trufitus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Burial",
       "text": {
-        "en": "Use the two scrolls and the corpse on Trufitus and ask about the sacred ground. (opciones de chat: 1 Is there any sacred ground around here?)",
-        "es": "Usa los dos pergaminos y el cadáver en Trufitus y pregúntale sobre la tierra sagrada. (opciones de chat: 1 ¿Hay alguna tierra sagrada por aquí?)"
-      }
+        "en": "Use the two scrolls and the corpse on Trufitus and ask about the sacred ground.",
+        "es": "Usa los dos pergaminos y el cadáver en Trufitus y pregúntale sobre la tierra sagrada."
+      },
+      "chatOptions": [
+        "1 Is there any sacred ground around here?"
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Burial",
       "text": {
         "en": "Walk west to the nearby Tribal Statue. Bury the corpse then talk to the Spirit of Zadimus for the bone shard.",
         "es": "Camina hacia el oeste hasta la Tribal Statue cercana. Entierra el cadáver y luego habla con el Spirit of Zadimus para obtener el fragmento de hueso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Burial",
       "text": {
-        "en": "Use the bone shard on Trufitus. (opciones de chat: 1 It appeared when I buried Zadimus' corpse. • 1 He said something after he gave it to me. • 1 The spirit said something about keys and kin?)",
-        "es": "Usa el fragmento de hueso en Trufitus. (opciones de chat: 1 Apareció cuando enterré el cadáver de Zadimus. • 1 Dijo algo después de dármelo. • 1 ¿El espíritu dijo algo sobre llaves y parientes?)"
-      }
+        "en": "Use the bone shard on Trufitus.",
+        "es": "Usa el fragmento de hueso en Trufitus."
+      },
+      "chatOptions": [
+        "1 It appeared when I buried Zadimus' corpse.",
+        "1 He said something after he gave it to me.",
+        "1 The spirit said something about keys and kin?"
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Burial",
       "text": {
-        "en": "Talk to Trufitus. (opciones de chat: 2 I need help with Bervirius.) Ensure Trufitus mentions the need to find the Tomb of Bervirius.",
+        "en": "Talk to Trufitus. Ensure Trufitus mentions the need to find the Tomb of Bervirius.",
         "es": "Habla con Trufitus. (opciones de chat: 2 Necesito ayuda con Bervirius.) Asegúrate de que Trufitus mencione la necesidad de encontrar la Tomb of Bervirius."
-      }
+      },
+      "chatOptions": [
+        "2 I need help with Bervirius."
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Cairn Island",
       "text": {
         "en": "Head southwest to Cairn Isle by climbing the rocks and going across the bridge. Be careful, you can sometimes fall - use the Surge ability to bypass this.",
         "es": "Dirígete al suroeste hacia Cairn Isle escalando las rocas y cruzando el puente. Ten cuidado, a veces puedes caerte; usa la habilidad Surge para evitarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Cairn Island",
       "text": {
-        "en": "Search the well stacked rocks to the north to enter the Tomb of Bervirius. If you fail search again until you are able to enter. (opciones de chat: 1 Yes please, I can think of nothing nicer!)",
-        "es": "Registra las rocas bien apiladas al norte para entrar en la Tomb of Bervirius. Si fallas, vuelve a registrar hasta que puedas entrar. (opciones de chat: 1 Sí, por favor, ¡no se me ocurre nada mejor!)"
-      }
+        "en": "Search the well stacked rocks to the north to enter the Tomb of Bervirius. If you fail search again until you are able to enter.",
+        "es": "Registra las rocas bien apiladas al norte para entrar en la Tomb of Bervirius. Si fallas, vuelve a registrar hasta que puedas entrar."
+      },
+      "chatOptions": [
+        "1 Yes please, I can think of nothing nicer!"
+      ]
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Cairn Island",
       "text": {
         "en": "Inside, run south and search the tomb dolmen to receive three items: sword pommel, locating crystal, and Bervirius notes.",
         "es": "Dentro, corre al sur y registra el dolmen de la tumba para recibir tres objetos: sword pommel, locating crystal y Bervirius notes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Cairn Island",
       "text": {
         "en": "If you do not have enough space the notes will drop on the ground.",
         "es": "Si no tienes suficiente espacio, las notas caerán al suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Cairn Island",
       "text": {
         "en": "Read all 3 options on the Bervirius notes.",
         "es": "Lee las 3 opciones en las Bervirius notes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Cairn Island",
       "text": {
         "en": "Use the chisel on the sword pommel to create bone beads (the chisel on the tool belt will not work).",
         "es": "Usa el chisel en el sword pommel para crear bone beads (el chisel del cinturón de herramientas no funcionará)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Cairn Island",
       "text": {
         "en": "Use the bone beads on the bronze wire to create beads of the dead.",
         "es": "Usa las bone beads en el bronze wire para crear beads of the dead."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Cairn Island",
       "text": {
         "en": "You can make the bronze wire from a bronze bar at an anvil near Trufitus.",
         "es": "Puedes fabricar el bronze wire a partir de una bronze bar en un yunque cerca de Trufitus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Rashiliyia's Tomb",
       "text": {
         "en": "Travel east of Trufitus' hut, over the agility log and run north, to the general area of The Shaikahan.",
         "es": "Viaja al este de la choza de Trufitus, cruza el tronco de agilidad y corre hacia el norte, hasta la zona general de The Shaikahan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Rashiliyia's Tomb",
       "text": {
         "en": "Search the foliage, then attempt to open the Ancient Door. (See the map for the location.)",
         "es": "Registra el follaje, luego intenta abrir la Ancient Door. (Consulta el mapa para ver la ubicación.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Rashiliyia's Tomb",
       "text": {
         "en": "Use a chisel on the bone shard.",
         "es": "Usa un chisel en el fragmento de hueso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Rashiliyia's Tomb",
       "text": {
         "en": "Equip the beads of the dead.",
         "es": "Equípate las beads of the dead."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Rashiliyia's Tomb",
       "text": {
         "en": "Use the bone key on the door to open it.",
         "es": "Usa la bone key en la puerta para abrirla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Rashiliyia's Tomb",
       "text": {
         "en": "Open the ancient metal gate.",
         "es": "Abre la puerta metálica antigua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Rashiliyia's Tomb",
       "text": {
         "en": "Climb down the rock.",
         "es": "Baja escalando la roca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Rashiliyia's Tomb",
       "text": {
         "en": "Run to the south west corner and use 3 bones on the tomb doors. Be careful not to bury them instead.",
         "es": "Corre hasta la esquina suroeste y usa 3 huesos en las puertas de la tumba. Ten cuidado de no enterrarlos por error."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Rashiliyia's Tomb",
       "text": {
         "en": "Open the doors and search the tomb dolmen.",
         "es": "Abre las puertas y registra el dolmen de la tumba."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Rashiliyia's Tomb",
       "text": {
         "en": "Kill all 3 forms of Nazastarool. The stalagmites to the east of the tomb dolmen can be used as a safe spot.",
         "es": "Mata las 3 formas de Nazastarool. Las estalagmitas al este del dolmen de la tumba se pueden usar como zona segura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Rashiliyia's Tomb",
       "text": {
         "en": "Search the tomb dolmen again for a Rashiliyia corpse.",
         "es": "Registra de nuevo el dolmen de la tumba para obtener el cadáver de Rashiliyia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Travel back to the Tomb of Bervirius on Cairn Isle.",
         "es": "Vuelve a la Tomb of Bervirius en Cairn Isle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Use the Rashiliyia corpse on the tomb dolmen.",
         "es": "Usa el cadáver de Rashiliyia en el dolmen de la tumba."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

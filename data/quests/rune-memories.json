@@ -2,7 +2,8 @@
   "id": "rune-memories",
   "title": "Rune Memories",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:11:59.383Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:00.072Z",
   "icon": "https://runescape.wiki/images/Rune_Memories_icon.png",
   "series": "Ariane",
   "age": "5",
@@ -72,6 +73,7 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Rune_Memories_reward.png?6652c",
   "postQuest": [
     {
       "type": "item",
@@ -94,546 +96,721 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Enter the ruins beneath the Wizards' Tower.",
         "es": "Entra en las ruinas bajo la Wizards' Tower."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Pass through the first door, cross the fallen statue then pass through the second door. In the ruins and talk to Ariane. (opciones de chat: 2 What do you need help with? • 2 I'd be happy to help. • Accept • 3 How can I get you out? • 3 Okay, what do you want me to do?)",
-        "es": "Pasa por la primera puerta, cruza la estatua caída y luego pasa por la segunda puerta. En las ruinas, habla con Ariane. (opciones de chat: 2 ¿Con qué necesitas ayuda? • 2 Estaré encantado/a de ayudar. • Aceptar • 3 ¿Cómo puedo sacarte de ahí? • 3 Vale, ¿qué quieres que haga?)"
-      }
+        "en": "Pass through the first door, cross the fallen statue then pass through the second door. In the ruins and talk to Ariane.",
+        "es": "Pasa por la primera puerta, cruza la estatua caída y luego pasa por la segunda puerta. En las ruinas, habla con Ariane."
+      },
+      "chatOptions": [
+        "2 What do you need help with?",
+        "2 I'd be happy to help.",
+        "Accept",
+        "3 How can I get you out?",
+        "3 Okay, what do you want me to do?"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Use the prepared fire rune on a red vortex and the prepared air rune on a grey vortex.",
         "es": "Usa la runa de fuego preparada en un vórtice rojo y la runa de aire preparada en un vórtice gris."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Ariane. (opciones de chat: 4 OK, I'll do that now.)",
-        "es": "Habla con Ariane. (opciones de chat: 4 Vale, lo haré ahora mismo.)"
-      }
+        "en": "Talk to Ariane.",
+        "es": "Habla con Ariane."
+      },
+      "chatOptions": [
+        "4 OK, I'll do that now."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Memories",
       "text": {
         "en": "Head through the eastern library door.",
         "es": "Dirígete a través de la puerta este de la biblioteca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Memories",
       "text": {
         "en": "Put the glowing fire rune on the red chair and the glowing air rune on the grey chair.",
         "es": "Coloca la runa de fuego brillante en la silla roja y la runa de aire brillante en la silla gris."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Memories",
       "text": {
         "en": "Head west back through the door.",
         "es": "Ve hacia el oeste de vuelta por la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Memories",
       "text": {
-        "en": "Talk to Ariane. (opciones de chat: 1 I saw them talking about the 'teleportation problem'. • 2 So, what now?)",
-        "es": "Habla con Ariane. (opciones de chat: 1 Les oí hablar sobre el \"problema de teleportación\". • 2 Entonces, ¿ahora qué?)"
-      }
+        "en": "Talk to Ariane.",
+        "es": "Habla con Ariane."
+      },
+      "chatOptions": [
+        "1 I saw them talking about the 'teleportation problem'.",
+        "2 So, what now?"
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The meeting of the head wizards",
       "text": {
         "en": "Use each prepared rune on a vortex corresponding to the colour of the background of the rune.",
         "es": "Usa cada runa preparada en un vórtice que corresponda al color de fondo de la runa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The meeting of the head wizards",
       "text": {
-        "en": "Talk to Ariane. (opciones de chat: 3 OK, I'll do that now.)",
-        "es": "Habla con Ariane. (opciones de chat: 3 Vale, lo haré ahora mismo.)"
-      }
+        "en": "Talk to Ariane.",
+        "es": "Habla con Ariane."
+      },
+      "chatOptions": [
+        "3 OK, I'll do that now."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The meeting of the head wizards",
       "text": {
         "en": "Head west and climb up the staircase to go back to the room with the rune guardian.",
         "es": "Ve hacia el oeste y sube las escaleras para volver a la sala con el guardián de runas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "The meeting of the head wizards",
       "text": {
         "en": "Use the following glowing runes on the corresponding statues:",
         "es": "Usa las siguientes runas brillantes en las estatuas correspondientes:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "The meeting of the head wizards",
       "text": {
         "en": "Glowing cosmic rune on the Grey Order statue (north-west)",
         "es": "Runa cósmica brillante en la estatua de la Orden Gris (noroeste)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "The meeting of the head wizards",
       "text": {
         "en": "Glowing nature rune on the Green Order statue (north-east)",
         "es": "Runa de naturaleza brillante en la estatua de la Orden Verde (noreste)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "The meeting of the head wizards",
       "text": {
         "en": "Glowing law rune on the Blue Order statue (south-east)",
         "es": "Runa de ley brillante en la estatua de la Orden Azul (sureste)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "The meeting of the head wizards",
       "text": {
         "en": "Glowing chaos rune on the Red Order statue (south-west)",
         "es": "Runa de caos brillante en la estatua de la Orden Roja (suroeste)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "The meeting of the head wizards",
       "text": {
-        "en": "Go back down to the main chamber and talk to Ariane. (opciones de chat: 1 The Green master stole the Red apprentice's idea! • 3 Okay, so what do we do now? • 3 OK.)",
-        "es": "Vuelve a bajar a la cámara principal y habla con Ariane. (opciones de chat: 1 ¡El maestro Verde robó la idea del aprendiz Rojo! • 3 Vale, entonces, ¿qué hacemos ahora? • 3 Vale.)"
-      }
+        "en": "Go back down to the main chamber and talk to Ariane.",
+        "es": "Vuelve a bajar a la cámara principal y habla con Ariane."
+      },
+      "chatOptions": [
+        "1 The Green master stole the Red apprentice's idea!",
+        "3 Okay, so what do we do now?",
+        "3 OK."
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Memories of the Abyss",
       "text": {
         "en": "Head through the northern studies door then into the north-eastern room.",
         "es": "Dirígete a través de la puerta norte de los estudios y luego a la sala noreste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Memories of the Abyss",
       "text": {
         "en": "Use the following glowing runes on the corresponding chairs:",
         "es": "Usa las siguientes runas brillantes en las sillas correspondientes:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Memories of the Abyss",
       "text": {
         "en": "Glowing chaos rune on the large chair",
         "es": "Runa de caos brillante en la silla grande"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Memories of the Abyss",
       "text": {
         "en": "Glowing fire rune on the middle chair",
         "es": "Runa de fuego brillante en la silla del medio"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Memories of the Abyss",
       "text": {
-        "en": "Return to the main chamber and talk to Ariane. (opciones de chat: 1 The Red master summoned a demon! • 3 So what do we do now? • 3 OK.)",
-        "es": "Vuelve a la cámara principal y habla con Ariane. (opciones de chat: 1 ¡El maestro Rojo invocó a un demonio! • 3 Entonces, ¿qué hacemos ahora? • 3 Vale.)"
-      }
+        "en": "Return to the main chamber and talk to Ariane.",
+        "es": "Vuelve a la cámara principal y habla con Ariane."
+      },
+      "chatOptions": [
+        "1 The Red master summoned a demon!",
+        "3 So what do we do now?",
+        "3 OK."
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The teleportation debate",
       "text": {
         "en": "Head through the eastern library door.",
         "es": "Dirígete a través de la puerta este de la biblioteca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "The teleportation debate",
       "text": {
         "en": "In the centre, use the glowing runes on the corresponding scenery:",
         "es": "En el centro, usa las runas brillantes en el mobiliario correspondiente:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "The teleportation debate",
       "text": {
         "en": "Glowing air rune on the grey chair",
         "es": "Runa de aire brillante en la silla gris"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "The teleportation debate",
       "text": {
         "en": "Glowing fire rune on the red chair",
         "es": "Runa de fuego brillante en la silla roja"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "The teleportation debate",
       "text": {
         "en": "Glowing earth rune on the green chair",
         "es": "Runa de tierra brillante en la silla verde"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "The teleportation debate",
       "text": {
         "en": "Glowing water rune on the blue chair",
         "es": "Runa de agua brillante en la silla azul"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 1,
+      "section": "The teleportation debate",
       "text": {
         "en": "Glowing chaos rune on the table",
         "es": "Runa de caos brillante en la mesa"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "The teleportation debate",
       "text": {
-        "en": "Return to the main chamber and talk to Ariane. (opciones de chat: 1 The wizards were about to start the ritual. • 3 OK, what now? • 2 OK.)",
-        "es": "Vuelve a la cámara principal y habla con Ariane. (opciones de chat: 1 Los magos estaban a punto de comenzar el ritual. • 3 Vale, ¿ahora qué? • 2 Vale.)"
-      }
+        "en": "Return to the main chamber and talk to Ariane.",
+        "es": "Vuelve a la cámara principal y habla con Ariane."
+      },
+      "chatOptions": [
+        "1 The wizards were about to start the ritual.",
+        "3 OK, what now?",
+        "2 OK."
+      ]
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "The teleportation debate",
       "text": {
         "en": "Head through the eastern library door.",
         "es": "Dirígete a través de la puerta este de la biblioteca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "The teleportation debate",
       "text": {
         "en": "Search the shelves for:",
         "es": "Busca en las estanterías:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "The teleportation debate",
       "text": {
         "en": "Document fragment (1/5)",
         "es": "Fragmento de documento (1/5)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "The teleportation debate",
       "text": {
         "en": "Document fragment (3/5)",
         "es": "Fragmento de documento (3/5)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "The teleportation debate",
       "text": {
         "en": "Return to the main chamber.",
         "es": "Vuelve a la cámara principal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "The teleportation debate",
       "text": {
         "en": "Head through the northern studies door.",
         "es": "Dirígete a través de la puerta norte de los estudios."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "The teleportation debate",
       "text": {
         "en": "Search the crates and chests in each room for:",
         "es": "Busca en las cajas y cofres de cada sala:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "The teleportation debate",
       "text": {
         "en": "Document fragment (2/5)",
         "es": "Fragmento de documento (2/5)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "The teleportation debate",
       "text": {
         "en": "Document fragment (4/5)",
         "es": "Fragmento de documento (4/5)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 1,
+      "section": "The teleportation debate",
       "text": {
         "en": "Document fragment (5/5)",
         "es": "Fragmento de documento (5/5)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "The teleportation debate",
       "text": {
         "en": "Diary",
         "es": "Diario"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "The teleportation debate",
       "text": {
-        "en": "Return to the main chamber and talk to Ariane. (opciones de chat: 2 I found some document fragments. • 2 I found a diary in the ruins. • 3 Enough about the diary. • 2 OK.)",
-        "es": "Vuelve a la cámara principal y habla con Ariane. (opciones de chat: 2 Encontré algunos fragmentos de documento. • 2 Encontré un diario en las ruinas. • 3 Ya basta de hablar del diario. • 2 Vale.)"
-      }
+        "en": "Return to the main chamber and talk to Ariane.",
+        "es": "Vuelve a la cámara principal y habla con Ariane."
+      },
+      "chatOptions": [
+        "2 I found some document fragments.",
+        "2 I found a diary in the ruins.",
+        "3 Enough about the diary.",
+        "2 OK."
+      ]
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "The beam",
       "text": {
         "en": "Place your glowing runes in their corresponding positions on the floor surrounding the blue beam:",
         "es": "Coloca tus runas brillantes en sus posiciones correspondientes en el suelo alrededor del haz de luz azul:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 1,
+      "section": "The beam",
       "text": {
         "en": "North: Law",
         "es": "Norte: Ley"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "The beam",
       "text": {
         "en": "North-east: Fire",
         "es": "Noreste: Fuego"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 1,
+      "section": "The beam",
       "text": {
         "en": "East: Nature",
         "es": "Este: Naturaleza"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 1,
+      "section": "The beam",
       "text": {
         "en": "South-east: Air",
         "es": "Sureste: Aire"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 1,
+      "section": "The beam",
       "text": {
         "en": "South: Chaos",
         "es": "Sur: Caos"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 1,
+      "section": "The beam",
       "text": {
         "en": "South-west: Water",
         "es": "Suroeste: Agua"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 1,
+      "section": "The beam",
       "text": {
         "en": "West: Cosmic",
         "es": "Oeste: Cósmica"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 1,
+      "section": "The beam",
       "text": {
         "en": "North-west: Earth",
         "es": "Noroeste: Tierra"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "The beam",
       "text": {
         "en": "A cutscene ensues when the placement is correct.",
         "es": "Se desencadena una escena cinemática cuando la colocación es correcta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "The beam",
       "text": {
-        "en": "Head back up to the surface and talk to Wizard Ellaron at the Wizards' Tower entrance. (opciones de chat: 2 Ariane is hurt in the ruins of the old Tower! • 3 I didn't say she was in a coma. • 4 Enough talk! Prepare to fight, Red Wizard!)",
-        "es": "Vuelve a la superficie y habla con Wizard Ellaron en la entrada de la Wizards' Tower. (opciones de chat: 2 ¡Ariane está herida en las ruinas de la antigua torre! • 3 No dije que estuviera en coma. • 4 ¡Basta de hablar! ¡Prepárate para luchar, Red Wizard!)"
-      }
+        "en": "Head back up to the surface and talk to Wizard Ellaron at the Wizards' Tower entrance.",
+        "es": "Vuelve a la superficie y habla con Wizard Ellaron en la entrada de la Wizards' Tower."
+      },
+      "chatOptions": [
+        "2 Ariane is hurt in the ruins of the old Tower!",
+        "3 I didn't say she was in a coma.",
+        "4 Enough talk! Prepare to fight, Red Wizard!"
+      ]
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "The burning tower",
       "text": {
         "en": "Talk to Ariane.",
         "es": "Habla con Ariane."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "The burning tower",
       "text": {
         "en": "Use the following prepared runes on Ariane corresponding to the beam Must be completed in order from top to bottom:",
         "es": "Usa las siguientes runas preparadas en Ariane según el haz correspondiente. Debe completarse en orden de arriba a abajo:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 1,
+      "section": "The burning tower",
       "text": {
         "en": "Cosmic rune - Thick (spinning) grey beam",
         "es": "Runa cósmica - Haz gris grueso (giratorio)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 1,
+      "section": "The burning tower",
       "text": {
         "en": "Water rune - Simple blue beam",
         "es": "Runa de agua - Haz azul simple"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "The burning tower",
       "text": {
         "en": "Ascend the beam",
         "es": "Asciende por el haz"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 1,
+      "section": "The burning tower",
       "text": {
         "en": "Earth rune - Simple green beam",
         "es": "Runa de tierra - Haz verde simple"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 1,
+      "section": "The burning tower",
       "text": {
         "en": "Fire rune - Simple red beam",
         "es": "Runa de fuego - Haz rojo simple"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "The burning tower",
       "text": {
         "en": "Ascend the beam",
         "es": "Asciende por el haz"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 1,
+      "section": "The burning tower",
       "text": {
         "en": "Law rune - Thick (spinning) blue beam",
         "es": "Runa de ley - Haz azul grueso (giratorio)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 1,
+      "section": "The burning tower",
       "text": {
         "en": "Nature rune - Thick (spinning) green beam",
         "es": "Runa de naturaleza - Haz verde grueso (giratorio)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 0,
+      "section": "The burning tower",
       "text": {
         "en": "Ascend the beam",
         "es": "Asciende por el haz"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 1,
+      "section": "The burning tower",
       "text": {
         "en": "Chaos rune - Thick (spinning) red beam",
         "es": "Runa de caos - Haz rojo grueso (giratorio)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 1,
+      "section": "The burning tower",
       "text": {
         "en": "Air rune - Simple grey beam",
         "es": "Runa de aire - Haz gris simple"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "The burning tower",
       "text": {
-        "en": "Talk to Ariane. (opciones de chat: 1 Are you OK? • 2 So... what now? • 3 So, is there a reward? • 3 We did find out what happened to the old tower.)",
-        "es": "Habla con Ariane. (opciones de chat: 1 ¿Estás bien? • 2 Entonces... ¿ahora qué? • 3 Entonces, ¿hay recompensa? • 3 Sí que descubrimos lo que le pasó a la antigua torre.)"
-      }
+        "en": "Talk to Ariane.",
+        "es": "Habla con Ariane."
+      },
+      "chatOptions": [
+        "1 Are you OK?",
+        "2 So... what now?",
+        "3 So, is there a reward?",
+        "3 We did find out what happened to the old tower."
+      ]
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "The burning tower",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

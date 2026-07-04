@@ -2,7 +2,8 @@
   "id": "demon-slayer",
   "title": "Demon Slayer",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:04:31.969Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:54.782Z",
   "icon": "https://runescape.wiki/images/Demon_Slayer_icon.png",
   "series": "Delrith",
   "age": "5",
@@ -61,199 +62,263 @@
       "image": "https://runescape.wiki/images/thumb/Historian_Minas.png/100px-Historian_Minas.png?74d5d"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Demon_Slayer_reward.png?ebeb0",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "The trials",
       "text": {
-        "en": "Talk to Gideon Bede inside the church in north-east Varrock. (opciones de chat: Accept)",
-        "es": "Habla con Gideon Bede dentro de la iglesia en el noreste de Varrock. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Gideon Bede inside the church in north-east Varrock.",
+        "es": "Habla con Gideon Bede dentro de la iglesia en el noreste de Varrock."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The trials",
       "text": {
         "en": "Climb down the trapdoor in the room.",
         "es": "Baja por la trampilla de la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The trials",
       "text": {
-        "en": "Walk north and speak to any of the spirits. (opciones de chat: 1 I come seeking Silverlight.)",
-        "es": "Camina hacia el norte y habla con cualquiera de los espíritus. (opciones de chat: 1 Vengo en busca de Silverlight.)"
-      }
+        "en": "Walk north and speak to any of the spirits.",
+        "es": "Camina hacia el norte y habla con cualquiera de los espíritus."
+      },
+      "chatOptions": [
+        "1 I come seeking Silverlight."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Mind",
       "text": {
-        "en": "Speak to the Spirit of the Mind inside the eastern room. (opciones de chat: 1 Yes. • 1 I seek the Silverlight. • 3 A sword that slays demons. • 2 A powerful demon threatens Varrock. • 1 Delrith. • 3 Gideon Bede.)",
-        "es": "Habla con el Spirit of the Mind dentro de la sala oriental. (opciones de chat: 1 Sí. • 1 Busco la Silverlight. • 3 Una espada que mata demonios. • 2 Un poderoso demonio amenaza Varrock. • 1 Delrith. • 3 Gideon Bede.)"
-      }
+        "en": "Speak to the Spirit of the Mind inside the eastern room.",
+        "es": "Habla con el Spirit of the Mind dentro de la sala oriental."
+      },
+      "chatOptions": [
+        "1 Yes.",
+        "1 I seek the Silverlight.",
+        "3 A sword that slays demons.",
+        "2 A powerful demon threatens Varrock.",
+        "1 Delrith.",
+        "3 Gideon Bede."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Faith",
       "text": {
-        "en": "Speak to the Spirit of Faith in the northern room, who'll guide you to the other side. (opciones de chat: 1 Yes.)",
-        "es": "Habla con el Spirit of Faith en la sala del norte, que te guiará hasta el otro lado. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Speak to the Spirit of Faith in the northern room, who'll guide you to the other side.",
+        "es": "Habla con el Spirit of Faith en la sala del norte, que te guiará hasta el otro lado."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Faith",
       "text": {
         "en": "The correct pathway is:",
         "es": "El camino correcto es:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Faith",
       "text": {
         "en": "3 north",
         "es": "3 norte"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Faith",
       "text": {
         "en": "2 east",
         "es": "2 este"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Faith",
       "text": {
         "en": "3 north",
         "es": "3 norte"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Faith",
       "text": {
         "en": "2 west",
         "es": "2 oeste"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Faith",
       "text": {
         "en": "1 south",
         "es": "1 sur"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Faith",
       "text": {
         "en": "2 west",
         "es": "2 oeste"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Faith",
       "text": {
         "en": "4 north",
         "es": "4 norte"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Body",
       "text": {
-        "en": "Speak to the Spirit of the Body in the western room. (opciones de chat: 1 Yes.)",
-        "es": "Habla con el Spirit of the Body en la sala occidental. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Speak to the Spirit of the Body in the western room.",
+        "es": "Habla con el Spirit of the Body en la sala occidental."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Body",
       "text": {
         "en": "Defeat all 10 skeletons.",
         "es": "Derrota a los 10 esqueletos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "For Varrock!",
       "text": {
         "en": "Talk to the spirits in the central room.",
         "es": "Habla con los espíritus en la sala central."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "For Varrock!",
       "text": {
         "en": "Take Silverlight from the altar. Make sure you actually take the Silverlight in the rock in the centre of the room or you will not be able to do the next steps.",
         "es": "Coge la Silverlight del altar. Asegúrate de coger realmente la Silverlight que está en la roca en el centro de la sala, o no podrás continuar con los siguientes pasos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "For Varrock!",
       "text": {
         "en": "Go back up the ladder.",
         "es": "Vuelve a subir por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "For Varrock!",
       "text": {
         "en": "Read the scroll to the north of the trapdoor.",
         "es": "Lee el pergamino al norte de la trampilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "For Varrock!",
       "text": {
         "en": "Head south to Aubury's Rune Shop. South of the shop is a trapdoor just outside the Zamorak temple. Climb down the trapdoor.",
         "es": "Dirígete al sur hacia Aubury's Rune Shop. Al sur de la tienda hay una trampilla justo fuera del templo de Zamorak. Baja por la trampilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "For Varrock!",
       "text": {
         "en": "Make your way west to the large room, killing all the cultists along the way.",
         "es": "Avanza hacia el oeste hasta la sala grande, matando a todos los cultistas por el camino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "For Varrock!",
       "text": {
         "en": "Fight Delrith. Run into Gideon's dome shield to negate most of the damage. Only Silverlight or Darklight will work.",
         "es": "Lucha contra Delrith. Corre hacia el escudo en forma de cúpula de Gideon para anular la mayor parte del daño. Solo funcionarán Silverlight o Darklight."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "For Varrock!",
       "text": {
         "en": "Speak to Gideon again.",
         "es": "Habla de nuevo con Gideon."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "For Varrock!",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

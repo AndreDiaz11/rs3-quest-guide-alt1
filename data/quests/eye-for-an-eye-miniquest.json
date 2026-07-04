@@ -2,7 +2,8 @@
   "id": "eye-for-an-eye-miniquest",
   "title": "Eye for an Eye (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:16:10.664Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:10.074Z",
   "icon": "https://runescape.wiki/images/thumb/Eye_for_an_Eye_%28miniquest%29_icon.png/50px-Eye_for_an_Eye_%28miniquest%29_icon.png",
   "series": "Tales of the Arc",
   "age": "6",
@@ -94,135 +95,184 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Eye_for_an_Eye_%28miniquest%29_reward.png?5466a",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Ichi on the east side of Cyclosis island (if you have just completed the Jed Hunter miniquest you may need to relog for the chat option to show up). (opciones de chat: Accept)",
-        "es": "Habla con Ichi en el lado este de la isla de Cyclosis (si acabas de completar la miniquest Jed Hunter, puede que necesites reconectarte para que aparezca la opción de chat). (opciones de chat: Accept)"
-      }
+        "en": "Talk to Ichi on the east side of Cyclosis island (if you have just completed the Jed Hunter miniquest you may need to relog for the chat option to show up).",
+        "es": "Habla con Ichi en el lado este de la isla de Cyclosis (si acabas de completar la miniquest Jed Hunter, puede que necesites reconectarte para que aparezca la opción de chat)."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Lookout Ekahi. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Lookout Ekahi. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Talk to Lookout Ekahi.",
+        "es": "Habla con Lookout Ekahi."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Night watch",
       "text": {
         "en": "Talk to Lookout Ekahi again, in the centre of the island.",
         "es": "Habla de nuevo con Lookout Ekahi, en el centro de la isla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Night watch",
       "text": {
         "en": "Kill all 27 Zyclopes.",
         "es": "Mata a los 27 Zyclopes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Night watch",
       "text": {
-        "en": "Talk to Lookout Ekahi. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Lookout Ekahi. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Talk to Lookout Ekahi.",
+        "es": "Habla con Lookout Ekahi."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Night watch",
       "text": {
         "en": "Talk to Lookout Ekahi again.",
         "es": "Habla de nuevo con Lookout Ekahi."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Night watch",
       "text": {
         "en": "Talk to Ichi.",
         "es": "Habla con Ichi."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Night watch",
       "text": {
-        "en": "Talk to See in the south-west corner of the island. (opciones de chat: 1 Do you know anything about zyclopes?)",
-        "es": "Habla con See en la esquina suroeste de la isla. (opciones de chat: 1 Do you know anything about zyclopes?)"
-      }
+        "en": "Talk to See in the south-west corner of the island.",
+        "es": "Habla con See en la esquina suroeste de la isla."
+      },
+      "chatOptions": [
+        "1 Do you know anything about zyclopes?"
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Night watch",
       "text": {
         "en": "Mine 30 sea salt crystals from the salty crabletines on the north-west beach if you don't have them already.",
         "es": "Mina 30 cristales de sal marina de los salty crabletines en la playa noroeste, si aún no los tienes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Night watch",
       "text": {
-        "en": "Talk to Sinuman in the north-east corner for a bag of crushed salt. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Sinuman en la esquina noreste para conseguir una bolsa de sal triturada. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Talk to Sinuman in the north-east corner for a bag of crushed salt.",
+        "es": "Habla con Sinuman en la esquina noreste para conseguir una bolsa de sal triturada."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Night watch",
       "text": {
-        "en": "Talk to Daya on the west side of the island to receive a bag of blessed salt. (opciones de chat: 1 Do you know anything about zyclopes?)",
-        "es": "Habla con Daya en el lado oeste de la isla para recibir una bolsa de sal bendita. (opciones de chat: 1 Do you know anything about zyclopes?)"
-      }
+        "en": "Talk to Daya on the west side of the island to receive a bag of blessed salt.",
+        "es": "Habla con Daya en el lado oeste de la isla para recibir una bolsa de sal bendita."
+      },
+      "chatOptions": [
+        "1 Do you know anything about zyclopes?"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Night watch",
       "text": {
-        "en": "Return to Ichi east on the island. (opciones de chat: 1 Yes.)",
-        "es": "Vuelve con Ichi, al este de la isla. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Return to Ichi east on the island.",
+        "es": "Vuelve con Ichi, al este de la isla."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Searching for Lookout Ekahi",
       "text": {
         "en": "Go along the northern coast and speak to Undead Jed. Do not click anywhere until Undead Jed becomes attackable.",
         "es": "Recorre la costa norte y habla con Undead Jed. No hagas clic en ningún sitio hasta que Undead Jed se pueda atacar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Searching for Lookout Ekahi",
       "text": {
         "en": "Kill Undead Jed.",
         "es": "Mata a Undead Jed."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Searching for Lookout Ekahi",
       "text": {
         "en": "Talk to Lookout Ekahi.",
         "es": "Habla con Lookout Ekahi."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Searching for Lookout Ekahi",
       "text": {
-        "en": "Talk to Lookout Ekahi again. (opciones de chat: 1 Eye for an Eye miniquest.)",
-        "es": "Habla de nuevo con Lookout Ekahi. (opciones de chat: 1 Eye for an Eye miniquest.)"
-      }
+        "en": "Talk to Lookout Ekahi again.",
+        "es": "Habla de nuevo con Lookout Ekahi."
+      },
+      "chatOptions": [
+        "1 Eye for an Eye miniquest."
+      ]
     }
   ]
 }

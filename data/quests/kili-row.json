@@ -2,7 +2,8 @@
   "id": "kili-row",
   "title": "Kili Row",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:32:16.921Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:30.427Z",
   "icon": "https://runescape.wiki/images/thumb/Kili_Row_icon.png/50px-Kili_Row_icon.png",
   "series": "City of Um",
   "age": "Age of Chaos",
@@ -81,79 +82,100 @@
       "image": "https://runescape.wiki/images/thumb/Thalmund.png/100px-Thalmund.png?7b880"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Kili_Row_reward.png?14e9a",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Kili by the anvils in north-eastern corner of the City of Um (opciones de chat: Accept)",
-        "es": "Habla con Kili junto a los yunques en la esquina noreste de la City of Um (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Kili by the anvils in north-eastern corner of the City of Um",
+        "es": "Habla con Kili junto a los yunques en la esquina noreste de la City of Um"
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Lesser ensoul material ritual",
       "text": {
         "en": "Go to the ritual site in the City of Um",
         "es": "Ve al lugar de rituales en la City of Um"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Lesser ensoul material ritual",
       "text": {
         "en": "Select the Lesser ensoul material (Kili Row) with the pedestal",
         "es": "Selecciona el Lesser ensoul material (Kili Row) con el pedestal"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Lesser ensoul material ritual",
       "text": {
         "en": "Complete the ritual (requires Change I glyph which requires two inkwells of regular ghostly ink and one inkwell of basic ghostly ink to draw)",
         "es": "Completa el ritual (requiere el glifo Change I, que a su vez requiere dos tinteros de tinta fantasmal normal y un tintero de tinta fantasmal básica para dibujarlo)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Lesser ensoul material ritual",
       "text": {
         "en": "Withdraw the output of the ritual from the ritual chest on the ritual site",
         "es": "Retira el resultado del ritual del cofre de rituales en el lugar de rituales"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Soul urn",
       "text": {
         "en": "Go back to Kili to get a soul urn",
         "es": "Vuelve con Kili para conseguir una urna de almas"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Soul urn",
       "text": {
         "en": "Kill five chickens using Necromancy anywhere or go back to the ritual site and perform a lesser communion ritual",
         "es": "Mata cinco pollos usando Nigromancia en cualquier lugar, o vuelve al lugar de rituales y realiza un ritual de comunión menor"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Kili",
         "es": "Habla con Kili"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

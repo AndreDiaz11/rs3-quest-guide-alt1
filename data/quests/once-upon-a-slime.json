@@ -2,7 +2,8 @@
   "id": "once-upon-a-slime",
   "title": "Once Upon a Slime",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:45:44.152Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:43.439Z",
   "icon": "https://runescape.wiki/images/Once_Upon_a_Slime_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -52,6 +53,7 @@
       "image": "https://runescape.wiki/images/thumb/Bucket_detail.png/100px-Bucket_detail.png?3d544"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Once_Upon_a_Slime_reward.png?fda59",
   "postQuest": [
     {
       "type": "item",
@@ -63,114 +65,157 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Return of the king",
       "text": {
-        "en": "Talk to Peter, next to the well in Rimmington. (opciones de chat: 1 Yeah, I know all about it • 1 Aye, I mean, yes. • Accept)",
-        "es": "Habla con Peter, junto al pozo en Rimmington. (opciones de chat: 1 Sí, lo sé todo • 1 Sí, digo, eso. • Aceptar)"
-      }
+        "en": "Talk to Peter, next to the well in Rimmington.",
+        "es": "Habla con Peter, junto al pozo en Rimmington."
+      },
+      "chatOptions": [
+        "1 Yeah, I know all about it",
+        "1 Aye, I mean, yes.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Return of the king",
       "text": {
         "en": "After the cutscene, continue talking to Peter.",
         "es": "Después de la escena, sigue hablando con Peter."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Top hat shenanigans",
       "text": {
-        "en": "Talk to Thessalia in her clothing store in Varrock for a giant top hat. (opciones de chat: 1 Talk about Once Upon a Slime.)",
-        "es": "Habla con Thessalia en su tienda de ropa en Varrock para conseguir un sombrero de copa gigante. (opciones de chat: 1 Hablar sobre Once Upon a Slime.)"
-      }
+        "en": "Talk to Thessalia in her clothing store in Varrock for a giant top hat.",
+        "es": "Habla con Thessalia en su tienda de ropa en Varrock para conseguir un sombrero de copa gigante."
+      },
+      "chatOptions": [
+        "1 Talk about Once Upon a Slime."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Top hat shenanigans",
       "text": {
         "en": "Talk to Peter next to the well in Rimmington.",
         "es": "Habla con Peter junto al pozo en Rimmington."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Top hat shenanigans",
       "text": {
-        "en": "Return to Thessalia. (opciones de chat: 1 Talk about Once Upon a Slime.)",
-        "es": "Vuelve con Thessalia. (opciones de chat: 1 Hablar sobre Once Upon a Slime.)"
-      }
+        "en": "Return to Thessalia.",
+        "es": "Vuelve con Thessalia."
+      },
+      "chatOptions": [
+        "1 Talk about Once Upon a Slime."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Shrinking Machine",
       "text": {
         "en": "Talk to Eva inside the building south of Varrock east bank. The building is attached to Aubury's Rune Shop, and features an anvil.",
         "es": "Habla con Eva dentro del edificio al sur del banco este de Varrock. El edificio está unido a la tienda de runas de Aubury y tiene un yunque."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Shrinking Machine",
       "text": {
-        "en": "Shrink Something on the Shrinking Machine. (opciones de chat: 1 Silver Button • 3 Hot • 1 Red Button • 2 Increase • 2 No • 1 KSL) It will automatically put in the hat to shrink it.",
+        "en": "Shrink Something on the Shrinking Machine. It will automatically put in the hat to shrink it.",
         "es": "Encoge algo en la máquina de encoger. (opciones de chat: 1 Botón plateado • 3 Caliente • 1 Botón rojo • 2 Aumentar • 2 No • 1 KSL) Automáticamente pondrá el sombrero para encogerlo."
-      }
+      },
+      "chatOptions": [
+        "1 Silver Button",
+        "3 Hot",
+        "1 Red Button",
+        "2 Increase",
+        "2 No",
+        "1 KSL"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Shrinking Machine",
       "text": {
         "en": "Go back to Peter and return the top hat.",
         "es": "Vuelve con Peter y devuélvele el sombrero de copa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Gloop gloop gloop",
       "text": {
         "en": "After the cutscene, talk to Peter again.",
         "es": "Después de la escena, habla de nuevo con Peter."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Gloop gloop gloop",
       "text": {
         "en": "Poke the Queen Slime for pink goop.",
         "es": "Pincha a la Queen Slime para conseguir baba rosa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Gloop gloop gloop",
       "text": {
         "en": "Talk to Peter.",
         "es": "Habla con Peter."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Gloop gloop gloop",
       "text": {
         "en": "Use the bucket on the cauldron in Hetty's house, east of the well in Rimmington.",
         "es": "Usa el cubo en el caldero de la casa de Hetty, al este del pozo en Rimmington."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Gloop gloop gloop",
       "text": {
         "en": "Use the bucket of purple goop on King Slime and watch the cutscene.",
         "es": "Usa el cubo de baba morada en King Slime y observa la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Gloop gloop gloop",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "observatory-quest",
   "title": "Observatory Quest",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:44:59.469Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:42.422Z",
   "icon": "https://runescape.wiki/images/Observatory_Quest_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -76,6 +77,7 @@
       "image": "https://runescape.wiki/images/thumb/Teleport_Tablet.gif/100px-Teleport_Tablet.gif?4eead"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Observatory_Quest_reward.png?3f44e",
   "postQuest": [
     {
       "type": "item",
@@ -92,170 +94,225 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to the Observatory professor in the house near the Observatory which is located north of Castle Wars. (opciones de chat: 1 Talk about the Observatory Quest. • 2 An Observatory? • Accept)",
-        "es": "Habla con el profesor del Observatory en la casa cercana al Observatory, situado al norte de Castle Wars. (opciones de chat: 1 Talk about the Observatory Quest. • 2 An Observatory? • Accept)"
-      }
+        "en": "Talk to the Observatory professor in the house near the Observatory which is located north of Castle Wars.",
+        "es": "Habla con el profesor del Observatory en la casa cercana al Observatory, situado al norte de Castle Wars."
+      },
+      "chatOptions": [
+        "1 Talk about the Observatory Quest.",
+        "2 An Observatory?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Obtain a bronze bar, 3 planks, and molten glass.",
         "es": "Consigue una barra de bronce, 3 tablones y vidrio fundido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to the professor three times (until he takes all of the above items). (opciones de chat: 1 Talk about the Observatory Quest.)",
-        "es": "Habla con el profesor tres veces (hasta que se quede con todos los objetos anteriores). (opciones de chat: 1 Talk about the Observatory Quest.)"
-      }
+        "en": "Talk to the professor three times (until he takes all of the above items).",
+        "es": "Habla con el profesor tres veces (hasta que se quede con todos los objetos anteriores)."
+      },
+      "chatOptions": [
+        "1 Talk about the Observatory Quest."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Obtaining a lens",
       "text": {
         "en": "Leave the house and go east to the abandoned buildings.",
         "es": "Sal de la casa y dirígete al este, hacia los edificios abandonados."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Obtaining a lens",
       "text": {
         "en": "Climb down the stairs in the western building.",
         "es": "Baja las escaleras del edificio situado al oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Obtaining a lens",
       "text": {
         "en": "Open and then search specific chests for a goblin kitchen key.",
         "es": "Abre y luego registra ciertos cofres en busca de la llave de la cocina de los goblins."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Obtaining a lens",
       "text": {
         "en": "Be sure to finish the dialogue after searching to receive the key.",
         "es": "Asegúrate de terminar el diálogo después de registrar el cofre para recibir la llave."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Obtaining a lens",
       "text": {
         "en": "Every dead end will have a searchable chest. Head south (and slightly east) first and if the key is not found in the two chests directly south from the stairs, it is guaranteed to be in the far south-east chest in the dungeon.",
         "es": "Cada callejón sin salida tendrá un cofre que se puede registrar. Dirígete primero al sur (y un poco al este); si la llave no está en los dos cofres situados justo al sur de las escaleras, se encontrará con toda seguridad en el cofre más alejado, al sureste de la mazmorra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Obtaining a lens",
       "text": {
         "en": "Go back to the staircase at the entrance, but do not exit the dungeon.",
         "es": "Vuelve a las escaleras de la entrada, pero no salgas de la mazmorra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Obtaining a lens",
       "text": {
         "en": "Go east, then north, and then head west until a guard is seen guarding a kitchen.",
         "es": "Ve al este, luego al norte y después dirígete al oeste hasta ver a un guardia vigilando una cocina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Obtaining a lens",
       "text": {
         "en": "Kill him or lure him away from the kitchen.",
         "es": "Mátalo o atráelo lejos de la cocina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Obtaining a lens",
       "text": {
         "en": "Inspect the stove in the kitchen to receive lens mould.",
         "es": "Inspecciona el horno de la cocina para recibir el molde de lente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Obtaining a lens",
       "text": {
-        "en": "Return to the surface and talk to the professor. (opciones de chat: 1 Talk about the Observatory Quest.)",
-        "es": "Vuelve a la superficie y habla con el profesor. (opciones de chat: 1 Talk about the Observatory Quest.)"
-      }
+        "en": "Return to the surface and talk to the professor.",
+        "es": "Vuelve a la superficie y habla con el profesor."
+      },
+      "chatOptions": [
+        "1 Talk about the Observatory Quest."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Obtaining a lens",
       "text": {
         "en": "Use the lens mould on the molten glass.",
         "es": "Usa el molde de lente en el vidrio fundido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Obtaining a lens",
       "text": {
-        "en": "Talk to the professor. (opciones de chat: 1 Talk about the Observatory Quest.)",
-        "es": "Habla con el profesor. (opciones de chat: 1 Talk about the Observatory Quest.)"
-      }
+        "en": "Talk to the professor.",
+        "es": "Habla con el profesor."
+      },
+      "chatOptions": [
+        "1 Talk about the Observatory Quest."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Go back to the abandoned building and climb down the stairs.",
         "es": "Vuelve al edificio abandonado y baja las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Head to the southern section and climb the stairs to the observatory, as indicated on the map.",
         "es": "Dirígete a la sección sur y sube las escaleras hacia el observatorio, tal como se indica en el mapa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Watch the cutscene.",
         "es": "Observa la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Go upstairs. Look through the telescope and identify which constellation is seen (see table below).",
         "es": "Sube las escaleras. Mira a través del telescopio e identifica qué constelación se ve (consulta la tabla de abajo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Talk to the professor and tell him which constellation was seen. (opciones de chat: 1 Talk about the Observatory Quest. • ?)",
-        "es": "Habla con el profesor y dile qué constelación viste. (opciones de chat: 1 Talk about the Observatory Quest. • ?)"
-      }
+        "en": "Talk to the professor and tell him which constellation was seen.",
+        "es": "Habla con el profesor y dile qué constelación viste."
+      },
+      "chatOptions": [
+        "1 Talk about the Observatory Quest.",
+        "?"
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

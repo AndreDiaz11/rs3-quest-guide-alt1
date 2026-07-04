@@ -2,7 +2,8 @@
   "id": "spirit-of-summer",
   "title": "Spirit of Summer",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:16:58.605Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:06.682Z",
   "icon": "https://runescape.wiki/images/Spirit_of_Summer_icon.png",
   "series": "Summer",
   "age": "ambiguous",
@@ -169,6 +170,7 @@
       "image": "https://runescape.wiki/images/thumb/Goth_leprechaun_chathead.png/100px-Goth_leprechaun_chathead.png?acca8"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Spirit_of_Summer_reward.png?fcd69",
   "postQuest": [
     {
       "type": "xp",
@@ -208,362 +210,467 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "The farm",
       "text": {
         "en": "Talk to the spirit at the Wilderness wall north of Infernal Source Dig Site.",
         "es": "Habla con el espíritu en el muro del Wilderness, al norte de Infernal Source Dig Site."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The farm",
       "text": {
         "en": "Keep trying to catch the spirit until you see a cutscene.",
         "es": "Sigue intentando atrapar al espíritu hasta que veas una cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The farm",
       "text": {
         "en": "Talk to the father figure with a ghostspeak amulet equipped.",
         "es": "Habla con la figura paterna llevando puesto un ghostspeak amulet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The farm",
       "text": {
         "en": "Use the table below to respond to the man's emotes.",
         "es": "Usa la tabla de abajo para responder a los emotes del hombre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "The farm",
       "text": {
         "en": "Don't repeat yourself.",
         "es": "No te repitas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "The farm",
       "text": {
         "en": "Use the Think emote to see the emote again. Talk to him and your character will say the emote he is doing.",
         "es": "Usa el emote Pensar para volver a ver el emote. Háblale y tu personaje dirá el emote que está haciendo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "The farm",
       "text": {
         "en": "The rings around the girl will disappear on successful emotes. When all the rings are gone, the girl is free.",
         "es": "Los anillos alrededor de la chica desaparecerán con cada emote exitoso. Cuando todos los anillos hayan desaparecido, la chica quedará libre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The farm",
       "text": {
-        "en": "Once the girl is free, talk to her. (opciones de chat: 1 What's going on here? • 1 Okay, I will come with you to the village you're talking about.)",
-        "es": "Una vez que la chica esté libre, habla con ella. (opciones de chat: 1 ¿Qué está pasando aquí? • 1 Vale, iré contigo a la aldea de la que hablas.)"
-      }
+        "en": "Once the girl is free, talk to her.",
+        "es": "Una vez que la chica esté libre, habla con ella."
+      },
+      "chatOptions": [
+        "1 What's going on here?",
+        "1 Okay, I will come with you to the village you're talking about."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Fixing the village",
       "text": {
-        "en": "Once in the village, ask the girl to be taken back. (opciones de chat: 3 Can you take me back, please?)",
-        "es": "Una vez en la aldea, pídele a la chica que te lleve de vuelta. (opciones de chat: 3 ¿Puedes llevarme de vuelta, por favor?)"
-      }
+        "en": "Once in the village, ask the girl to be taken back.",
+        "es": "Una vez en la aldea, pídele a la chica que te lleve de vuelta."
+      },
+      "chatOptions": [
+        "3 Can you take me back, please?"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Fixing the village",
       "text": {
         "en": "Search a crate for a limpwurt seed.",
         "es": "Busca en una caja una semilla de limpwurt."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Fixing the village",
       "text": {
         "en": "Rake the farming patch and plant the seed.",
         "es": "Rastrilla la parcela de cultivo y planta la semilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Fixing the village",
       "text": {
         "en": "Note: You can use a Supreme growth potion (leafy) on it, but do not harvest the roots yet.",
         "es": "Nota: Puedes usar una Supreme growth potion (leafy) en ella, pero no coseches las raíces todavía."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Fixing the village",
       "text": {
         "en": "Wait limpwurt plant to grow (roughly 20 minutes), but do not harvest it. You cannot continue the quest until the plant grows.",
         "es": "Espera a que la planta de limpwurt crezca (unos 20 minutos), pero no la coseches. No podrás continuar la misión hasta que la planta crezca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Fixing the village",
       "text": {
         "en": "Pick up 4 steel nails and a hammer in the anvil building (south east).",
         "es": "Recoge 4 steel nails y un hammer en el edificio del yunque (sureste)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Fixing the village",
       "text": {
         "en": "Note: Sometimes you will find only 3 nails there. More nails can be found in the sacks or the building west of the farming patch, near the bucket. You can also smith nails on the anvil.",
         "es": "Nota: A veces solo encontrarás 3 nails allí. Puedes encontrar más nails en los sacos o en el edificio al oeste de la parcela de cultivo, cerca del cubo. También puedes forjar nails en el yunque."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Fixing the village",
       "text": {
         "en": "Pick up 2 planks in the centre-most building.",
         "es": "Recoge 2 planks en el edificio más central."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Fixing the village",
       "text": {
         "en": "Use a plank on the wardrobe in the building south-east of the statue.",
         "es": "Usa un plank en el armario del edificio al sureste de la estatua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Fixing the village",
       "text": {
         "en": "With three free inventory slots, Pick from the Hollow log near the statue for button mushrooms.",
         "es": "Con tres espacios libres en el inventario, recolecta button mushrooms del Hollow log cerca de la estatua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Fixing the village",
       "text": {
         "en": "Grab a bucket from the building directly west of the farm patch.",
         "es": "Coge un bucket del edificio justo al oeste de la parcela de cultivo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Fixing the village",
       "text": {
         "en": "Use the bucket on the barrel of water south-east of the farming patch which is just outside the anvil building.",
         "es": "Usa el bucket en el barril de agua al sureste de la parcela de cultivo, justo fuera del edificio del yunque."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Fixing the village",
       "text": {
         "en": "After the limpwurt plant is grown, talk to the spirit for a cutscene.",
         "es": "Después de que la planta de limpwurt haya crecido, habla con el espíritu para ver una cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Fixing the village",
       "text": {
-        "en": "Talk to her again and agree to come along. (opciones de chat: 1 Okay, I'll come along.)",
-        "es": "Habla con ella de nuevo y acepta acompañarla. (opciones de chat: 1 Vale, te acompaño.)"
-      }
+        "en": "Talk to her again and agree to come along.",
+        "es": "Habla con ella de nuevo y acepta acompañarla."
+      },
+      "chatOptions": [
+        "1 Okay, I'll come along."
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Back in the farm",
       "text": {
-        "en": "Talk to Summer Bonde once more to be taken back. (opciones de chat: 3 Can you take me back?)",
-        "es": "Habla con Summer Bonde una vez más para que te lleve de vuelta. (opciones de chat: 3 ¿Puedes llevarme de vuelta?)"
-      }
+        "en": "Talk to Summer Bonde once more to be taken back.",
+        "es": "Habla con Summer Bonde una vez más para que te lleve de vuelta."
+      },
+      "chatOptions": [
+        "3 Can you take me back?"
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Back in the farm",
       "text": {
         "en": "Take a skull and 5 bones east of the farm.",
         "es": "Coge un skull y 5 bones al este de la granja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Back in the farm",
       "text": {
         "en": "Stand in the portal which is the white circle.",
         "es": "Colócate en el portal, que es el círculo blanco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Back in the farm",
       "text": {
-        "en": "Talk to Summer Bonde. (opciones de chat: 2 What exactly is going on here? • 1 Of course, I will help you.)",
-        "es": "Habla con Summer Bonde. (opciones de chat: 2 ¿Qué está pasando exactamente aquí? • 1 Por supuesto, te ayudaré.)"
-      }
+        "en": "Talk to Summer Bonde.",
+        "es": "Habla con Summer Bonde."
+      },
+      "chatOptions": [
+        "2 What exactly is going on here?",
+        "1 Of course, I will help you."
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Back in the farm",
       "text": {
         "en": "Follow her and Climb-down the Trapdoor.",
         "es": "Síguela y baja por la Trapdoor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Back in the farm",
       "text": {
         "en": "Use the skull on the altar, then right-click each of the 5x bones to \"Use\" it on the altar. You do not need to move around the altar to use bones and skull.",
         "es": "Usa el skull en el altar, luego haz clic derecho en cada uno de los 5 bones para \"Usar\" en el altar. No necesitas moverte alrededor del altar para usar los bones y el skull."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 1,
+      "section": "Back in the farm",
       "text": {
         "en": "Note: Take care not to bury the bones.",
         "es": "Nota: Ten cuidado de no enterrar los bones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Back in the farm",
       "text": {
-        "en": "If she is not right next to you, Climb-up the ladder and then in both situations, talk to Summer again. (opciones de chat: 1 What should I do now? • 3 I better get to work, then.)",
-        "es": "Si ella no está justo a tu lado, sube por la escalera y, en ambos casos, habla de nuevo con Summer. (opciones de chat: 1 ¿Qué debería hacer ahora? • 3 Mejor me pongo a trabajar, entonces.)"
-      }
+        "en": "If she is not right next to you, Climb-up the ladder and then in both situations, talk to Summer again.",
+        "es": "Si ella no está justo a tu lado, sube por la escalera y, en ambos casos, habla de nuevo con Summer."
+      },
+      "chatOptions": [
+        "1 What should I do now?",
+        "3 I better get to work, then."
+      ]
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "Optional: Customise your interface to allow you to dismiss familiars as fast as possible.",
         "es": "Opcional: Personaliza tu interfaz para poder despedir a tus familiares lo más rápido posible."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "Run north to the wolf platform.",
         "es": "Corre hacia el norte hasta la plataforma del lobo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "Summon a spirit wolf so that it stands on the platform (it doesn't have to be in the centre).",
         "es": "Invoca a un spirit wolf para que se coloque sobre la plataforma (no hace falta que esté en el centro)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "The Spirit Beast will only be lured to a platform with a familiar summoned.",
         "es": "El Spirit Beast solo será atraído a una plataforma si tienes un familiar invocado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "Dismiss the familiar as soon as the beast steps on the platform. (As the spirit beast foot is midair about to land.)",
         "es": "Despide al familiar en cuanto la bestia pise la plataforma (justo cuando la pata del spirit beast esté en el aire a punto de aterrizar)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Luring the beast",
       "text": {
         "en": "There will be a cutscene that plays the very first time the beast approaches the platform. This is not the success cutscene.",
         "es": "Se reproducirá una cinemática la primera vez que la bestia se acerque a la plataforma. Esta no es la cinemática de éxito."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "Luring the beast",
       "text": {
         "en": "The beast does not need to fully be on the platform.",
         "es": "La bestia no necesita estar completamente sobre la plataforma."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Luring the beast",
       "text": {
         "en": "Your familiar will be dismissed immediately without the \"are you sure\" warning; a lightning effect will show if successful.",
         "es": "Tu familiar será despedido de inmediato sin el aviso de \"¿estás seguro?\"; si tiene éxito, se mostrará un efecto de rayo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "Don't let the beast consume your familiar, and don't move your familiar off the platform. It is helpful to try to position yourself between the beast and your familiar.",
         "es": "No dejes que la bestia consuma a tu familiar, y no muevas a tu familiar fuera de la plataforma. Es útil intentar colocarte entre la bestia y tu familiar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "A cutscene in which the spirit beast is electrified, and the next summoning platform will appear will play if you have succeeded.",
         "es": "Si has tenido éxito, se reproducirá una cinemática en la que el spirit beast queda electrificado, y aparecerá la siguiente plataforma de invocación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "If you have to teleport out for more pouches, you must talk to Summer by the quest start location to return to the spirit realm.",
         "es": "Si tienes que teletransportarte fuera para conseguir más pouches, debes hablar con Summer junto al lugar de inicio de la misión para volver al spirit realm."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "Repeat this process with the desert wyrm, using the platform that appears during the cutscene. You can also push the Spirit Beast by walking at beast to position the creature, but it can give you some damage and may push you away sometimes.",
         "es": "Repite este proceso con el desert wyrm, usando la plataforma que aparece durante la cinemática. También puedes empujar al Spirit Beast caminando hacia él para colocar a la criatura, pero puede hacerte algo de daño y a veces puede empujarte lejos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "And again, for the spirit scorpion - the platform is far west.",
         "es": "Y de nuevo, para el spirit scorpion: la plataforma está muy al oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "Talk to any of the spirits by the Spirit Beast.",
         "es": "Habla con cualquiera de los espíritus junto al Spirit Beast."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Luring the beast",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

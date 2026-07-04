@@ -2,7 +2,8 @@
   "id": "druidic-ritual",
   "title": "Druidic Ritual",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:11:24.028Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:04.533Z",
   "icon": "https://runescape.wiki/images/Druidic_Ritual_icon.png",
   "series": null,
   "age": "5",
@@ -58,95 +59,126 @@
       "image": "https://runescape.wiki/images/thumb/Note_detail.png/100px-Note_detail.png?03c5f"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Druidic_Ritual_reward.png?70f17",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Kaqemeex south of the Heroes' Guild. (opciones de chat: 1 Talk about Druidic Ritual. • 1 What do you need help with? • 1 I'm pretty sure I've heard that before. • Accept)",
-        "es": "Habla con Kaqemeex al sur de la Heroes' Guild. (opciones de chat: 1 Talk about Druidic Ritual. • 1 What do you need help with? • 1 I'm pretty sure I've heard that before. • Accept)"
-      }
+        "en": "Talk to Kaqemeex south of the Heroes' Guild.",
+        "es": "Habla con Kaqemeex al sur de la Heroes' Guild."
+      },
+      "chatOptions": [
+        "1 Talk about Druidic Ritual.",
+        "1 What do you need help with?",
+        "1 I'm pretty sure I've heard that before.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Run directly south and enter the last house on the west near the Herblore icon.",
         "es": "Corre directamente hacia el sur y entra en la última casa al oeste, cerca del icono de Herboristería."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Sanfew. (opciones de chat: 1 I've been sent to help make an ointment of imbalance for Kaqemeex. • 4 Ok, I'll do that then.)",
-        "es": "Habla con Sanfew. (opciones de chat: 1 I've been sent to help make an ointment of imbalance for Kaqemeex. • 4 Ok, I'll do that then.)"
-      }
+        "en": "Talk to Sanfew.",
+        "es": "Habla con Sanfew."
+      },
+      "chatOptions": [
+        "1 I've been sent to help make an ointment of imbalance for Kaqemeex.",
+        "4 Ok, I'll do that then."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Untainted living water",
       "text": {
         "en": "Go north and enter the Burthorpe Slayer Cave directly east of the crayfish pond.",
         "es": "Ve hacia el norte y entra en la Burthorpe Slayer Cave, justo al este del estanque de cangrejos de río."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Untainted living water",
       "text": {
         "en": "Head south and fill your vial at the subterranean spring for a vial of living water.",
         "es": "Dirígete al sur y llena tu vial en el manantial subterráneo para obtener un vial of living water."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Untainted living water",
       "text": {
         "en": "Exit the cave.",
         "es": "Sal de la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Wandering wyrmwood",
       "text": {
         "en": "Head south until you find wandering wyrmwood, then take-from one of them for wandering wyrmwood.",
         "es": "Ve hacia el sur hasta encontrar wandering wyrmwood, luego usa la opción \"take-from\" en uno de ellos para obtener wandering wyrmwood."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Stone scales",
       "text": {
         "en": "At the west part of the lake, bait the Sparkling Fishing Spot.",
         "es": "En la parte oeste del lago, usa cebo en el Sparkling Fishing Spot."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Stone scales",
       "text": {
         "en": "Gather-scales from the stone fish, choosing the chisel option.",
         "es": "Recolecta escamas del stone fish, eligiendo la opción del cincel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Sanfew for a cutscene.",
         "es": "Habla con Sanfew para ver una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

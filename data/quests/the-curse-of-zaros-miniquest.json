@@ -2,7 +2,8 @@
   "id": "the-curse-of-zaros-miniquest",
   "title": "The Curse of Zaros (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:01:05.530Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:15.580Z",
   "icon": "https://runescape.wiki/images/The_Curse_of_Zaros_%28miniquest%29_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -81,103 +82,140 @@
       "image": "https://runescape.wiki/images/thumb/Ghostly_cloak_detail.png/100px-Ghostly_cloak_detail.png?cf7c3"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Curse_of_Zaros_%28miniquest%29_reward.png?a4ae0",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Make sure you are wearing your ring of visibility and your ghostspeak amulet.",
         "es": "Asegúrate de llevar puestos tu ring of visibility y tu ghostspeak amulet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Speak to the Mysterious ghost near Glarial's tombstone northwest of the Fishing Guild. (opciones de chat: Accept)",
-        "es": "Habla con el Mysterious ghost cerca de la lápida de Glarial, al noroeste del Fishing Guild. (opciones de chat: Accept)"
-      }
+        "en": "Speak to the Mysterious ghost near Glarial's tombstone northwest of the Fishing Guild.",
+        "es": "Habla con el Mysterious ghost cerca de la lápida de Glarial, al noroeste del Fishing Guild."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "This ghost will give you one of three clues which determine your entire route, which we will label Sequence 1, 2, and 3:",
         "es": "Este fantasma te dará una de tres pistas que determinarán toda tu ruta, las cuales etiquetaremos como Secuencia 1, 2 y 3:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Sequence 1 - He mentions pirates and a shipwreck.",
         "es": "Secuencia 1 - Menciona a unos piratas y un naufragio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Sequence 2 - He mentions the thief being north-east of there.",
         "es": "Secuencia 2 - Menciona que el ladrón está al noreste de allí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Sequence 3 - He mentions the thief being south-east of there.",
         "es": "Secuencia 3 - Menciona que el ladrón está al sureste de allí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Talking to the ghosts",
       "text": {
-        "en": "Make your way and speak to Rennard in the location given in the table above to receive Ghostly gloves. (opciones de chat: 1 Tell me your story)",
-        "es": "Dirígete y habla con Rennard en la ubicación indicada en la tabla anterior para recibir los Ghostly gloves. (opciones de chat: 1 Tell me your story)"
-      }
+        "en": "Make your way and speak to Rennard in the location given in the table above to receive Ghostly gloves.",
+        "es": "Dirígete y habla con Rennard en la ubicación indicada en la tabla anterior para recibir los Ghostly gloves."
+      },
+      "chatOptions": [
+        "1 Tell me your story"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Talking to the ghosts",
       "text": {
-        "en": "Make your way and speak to Kharrim in the location given in the table above to receive Ghostly boots. (opciones de chat: 1 Tell me your story)",
-        "es": "Dirígete y habla con Kharrim en la ubicación indicada en la tabla anterior para recibir los Ghostly boots. (opciones de chat: 1 Tell me your story)"
-      }
+        "en": "Make your way and speak to Kharrim in the location given in the table above to receive Ghostly boots.",
+        "es": "Dirígete y habla con Kharrim en la ubicación indicada en la tabla anterior para recibir los Ghostly boots."
+      },
+      "chatOptions": [
+        "1 Tell me your story"
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Talking to the ghosts",
       "text": {
-        "en": "Make your way and speak to Lennissa in the location given in the table above to receive Ghostly robe bottom. (opciones de chat: 1 Tell me your story)",
-        "es": "Dirígete y habla con Lennissa en la ubicación indicada en la tabla anterior para recibir el Ghostly robe bottom. (opciones de chat: 1 Tell me your story)"
-      }
+        "en": "Make your way and speak to Lennissa in the location given in the table above to receive Ghostly robe bottom.",
+        "es": "Dirígete y habla con Lennissa en la ubicación indicada en la tabla anterior para recibir el Ghostly robe bottom."
+      },
+      "chatOptions": [
+        "1 Tell me your story"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Talking to the ghosts",
       "text": {
-        "en": "Make your way and speak to Dhalak in the location given in the table above to receive Ghostly hood. (opciones de chat: 1 Tell me your story)",
-        "es": "Dirígete y habla con Dhalak en la ubicación indicada en la tabla anterior para recibir el Ghostly hood. (opciones de chat: 1 Tell me your story)"
-      }
+        "en": "Make your way and speak to Dhalak in the location given in the table above to receive Ghostly hood.",
+        "es": "Dirígete y habla con Dhalak en la ubicación indicada en la tabla anterior para recibir el Ghostly hood."
+      },
+      "chatOptions": [
+        "1 Tell me your story"
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Talking to the ghosts",
       "text": {
-        "en": "Make your way and speak to Viggora in the location given in the table above to receive Ghostly cloak. (opciones de chat: 1 Tell me your story)",
-        "es": "Dirígete y habla con Viggora en la ubicación indicada en la tabla anterior para recibir el Ghostly cloak. (opciones de chat: 1 Tell me your story)"
-      }
+        "en": "Make your way and speak to Viggora in the location given in the table above to receive Ghostly cloak.",
+        "es": "Dirígete y habla con Viggora en la ubicación indicada en la tabla anterior para recibir el Ghostly cloak."
+      },
+      "chatOptions": [
+        "1 Tell me your story"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Talking to the ghosts",
       "text": {
         "en": "Miniquest complete!",
         "es": "¡Miniquest completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "desperate-creatures",
   "title": "Desperate Creatures",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:05:22.903Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:55.845Z",
   "icon": "https://runescape.wiki/images/Desperate_Creatures_icon.png",
   "series": "The Elder God Wars",
   "age": "6",
@@ -38,263 +39,363 @@
       "image": "https://runescape.wiki/images/thumb/Colossi_%26_the_time_of_colossi_detail.png/100px-Colossi_%26_the_time_of_colossi_detail.png?7b977"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Desperate_Creatures_reward.png?0a43f",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting off",
       "text": {
-        "en": "Speak to the Curator just north of Burthorpe lodestone. (opciones de chat: ? Talk about 'Desperate Creatures'. • Accept • 3 What do I need to do first?)",
-        "es": "Habla con el Curator justo al norte de la piedra vía de Burthorpe. (opciones de chat: ? Talk about 'Desperate Creatures'. • Accept • 3 What do I need to do first?)"
-      }
+        "en": "Speak to the Curator just north of Burthorpe lodestone.",
+        "es": "Habla con el Curator justo al norte de la piedra vía de Burthorpe."
+      },
+      "chatOptions": [
+        "? Talk about 'Desperate Creatures'.",
+        "Accept",
+        "3 What do I need to do first?"
+      ]
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Starting off",
       "text": {
         "en": "Slayer cape teleport to Turael/Spria is a good option as you'll need to teleport a few times.",
         "es": "El teletransporte con la capa de Slayer a Turael/Spria es una buena opción, ya que necesitarás teletransportarte varias veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Task 1",
       "text": {
         "en": "Teleport to Anachronia and run west.",
         "es": "Teletranspórtate a Anachronia y corre hacia el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Task 1",
       "text": {
         "en": "Use the Tome of tracking to find all four flowers.",
         "es": "Usa el Tome of tracking para encontrar las cuatro flores."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Task 1",
       "text": {
-        "en": "After the dialogue between Hannibus and Vindicta teleport back to Burthorpe and speak to the Curator. (opciones de chat: ? Talk about 'Desperate Creatures'. • 1 Talk about your progress.)",
-        "es": "Después del diálogo entre Hannibus y Vindicta, teletranspórtate de vuelta a Burthorpe y habla con el Curator. (opciones de chat: ? Talk about 'Desperate Creatures'. • 1 Talk about your progress.)"
-      }
+        "en": "After the dialogue between Hannibus and Vindicta teleport back to Burthorpe and speak to the Curator.",
+        "es": "Después del diálogo entre Hannibus y Vindicta, teletranspórtate de vuelta a Burthorpe y habla con el Curator."
+      },
+      "chatOptions": [
+        "? Talk about 'Desperate Creatures'.",
+        "1 Talk about your progress."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Task 1",
       "text": {
-        "en": "Talk to the Curator again for the next task. (opciones de chat: ? Talk about 'Desperate Creatures'. • 1 Talk about your progress.)",
-        "es": "Habla con el Curator de nuevo para la siguiente tarea. (opciones de chat: ? Talk about 'Desperate Creatures'. • 1 Talk about your progress.)"
-      }
+        "en": "Talk to the Curator again for the next task.",
+        "es": "Habla con el Curator de nuevo para la siguiente tarea."
+      },
+      "chatOptions": [
+        "? Talk about 'Desperate Creatures'.",
+        "1 Talk about your progress."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Task 2",
       "text": {
         "en": "Teleport to Anachronia.",
         "es": "Teletranspórtate a Anachronia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Task 2",
       "text": {
         "en": "Find the 4 shrubberies around the camp using the tome.",
         "es": "Encuentra los 4 arbustos alrededor del campamento usando el tome."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Task 2",
       "text": {
-        "en": "Finish the dialogue with Mr Mordaut and teleport back to Burthorpe and speak to the Curator. (opciones de chat: ? Talk about Desperate Creatures. • 1 Talk about your progress.)",
-        "es": "Termina el diálogo con Mr Mordaut, teletranspórtate de vuelta a Burthorpe y habla con el Curator. (opciones de chat: ? Talk about Desperate Creatures. • 1 Talk about your progress.)"
-      }
+        "en": "Finish the dialogue with Mr Mordaut and teleport back to Burthorpe and speak to the Curator.",
+        "es": "Termina el diálogo con Mr Mordaut, teletranspórtate de vuelta a Burthorpe y habla con el Curator."
+      },
+      "chatOptions": [
+        "? Talk about Desperate Creatures.",
+        "1 Talk about your progress."
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Task 2",
       "text": {
-        "en": "Talk to the Curator again for the next task. (opciones de chat: ? Talk about Desperate Creatures. • 1 Talk about your progress.)",
-        "es": "Habla con el Curator de nuevo para la siguiente tarea. (opciones de chat: ? Talk about Desperate Creatures. • 1 Talk about your progress.)"
-      }
+        "en": "Talk to the Curator again for the next task.",
+        "es": "Habla con el Curator de nuevo para la siguiente tarea."
+      },
+      "chatOptions": [
+        "? Talk about Desperate Creatures.",
+        "1 Talk about your progress."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Task 3",
       "text": {
         "en": "Teleport to Anachronia and navigate to the Anachronia Swamp Fortress.",
         "es": "Teletranspórtate a Anachronia y dirígete al Anachronia Swamp Fortress."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Task 3",
       "text": {
         "en": "Teleport to the Xolo dig site using the Orthen teleportation device or teleport to Laniakea via Slayer cape.",
         "es": "Teletranspórtate al Xolo dig site usando el Orthen teleportation device, o teletranspórtate a Laniakea mediante la capa de Slayer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Task 3",
       "text": {
         "en": "Alternatively exit Anachronia base camp to the north down the stairs, not via the Agility shortcut.",
         "es": "Alternativamente, sal del Anachronia base camp hacia el norte bajando las escaleras, no mediante el atajo de Agilidad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Task 3",
       "text": {
         "en": "Run east to the liverworts.",
         "es": "Corre hacia el este hasta los liverworts."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Task 3",
       "text": {
         "en": "Run south past the lampenfloras while staying as far west as possible.",
         "es": "Corre hacia el sur pasando los lampenfloras, manteniéndote lo más al oeste posible."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Task 3",
       "text": {
         "en": "Find all four mushrooms.",
         "es": "Encuentra las cuatro setas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Task 3",
       "text": {
-        "en": "Finish the dialogue with Zaros and teleport back to Burthorpe and speak to the Curator. (opciones de chat: ? Talk about Desperate Creatures. • 1 Talk about your progress.)",
-        "es": "Termina el diálogo con Zaros, teletranspórtate de vuelta a Burthorpe y habla con el Curator. (opciones de chat: ? Talk about Desperate Creatures. • 1 Talk about your progress.)"
-      }
+        "en": "Finish the dialogue with Zaros and teleport back to Burthorpe and speak to the Curator.",
+        "es": "Termina el diálogo con Zaros, teletranspórtate de vuelta a Burthorpe y habla con el Curator."
+      },
+      "chatOptions": [
+        "? Talk about Desperate Creatures.",
+        "1 Talk about your progress."
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Task 3",
       "text": {
-        "en": "Talk to the Curator again for the next task. (opciones de chat: ? Talk about Desperate Creatures. • 1 Talk about your progress.)",
-        "es": "Habla con el Curator de nuevo para la siguiente tarea. (opciones de chat: ? Talk about Desperate Creatures. • 1 Talk about your progress.)"
-      }
+        "en": "Talk to the Curator again for the next task.",
+        "es": "Habla con el Curator de nuevo para la siguiente tarea."
+      },
+      "chatOptions": [
+        "? Talk about Desperate Creatures.",
+        "1 Talk about your progress."
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Task 4",
       "text": {
         "en": "Teleport to Anachronia and navigate to an area south of the liverworts and north of the lampenfloras.",
         "es": "Teletranspórtate a Anachronia y dirígete a una zona al sur de los liverworts y al norte de los lampenfloras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Task 4",
       "text": {
         "en": "The fastest way to get there is by teleporting to Anachronia and running slightly east to use the Orthen teleportation device. Then teleporting to the Moksha ritual site and then exiting and running north-east.",
         "es": "La forma más rápida de llegar es teletransportándote a Anachronia y corriendo un poco hacia el este para usar el Orthen teleportation device. Luego teletranspórtate al Moksha ritual site y sal corriendo hacia el noreste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Task 4",
       "text": {
         "en": "Alternatively, leave Anachronia base camp to the north down the stairs, not via the Agility shortcut. Run east to the liverworts. Run south towards the lampenfloras.",
         "es": "Alternativamente, sal del Anachronia base camp hacia el norte bajando las escaleras, no mediante el atajo de Agilidad. Corre hacia el este hasta los liverworts. Corre hacia el sur en dirección a los lampenfloras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Task 4",
       "text": {
         "en": "Find all four insects.",
         "es": "Encuentra los cuatro insectos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Task 4",
       "text": {
-        "en": "Finish the dialogue with Charos and Thok and teleport back to Burthorpe and speak to the Curator. (opciones de chat: ? Talk about Desperate Creatures. • 1 Talk about your progress.)",
-        "es": "Termina el diálogo con Charos y Thok, teletranspórtate de vuelta a Burthorpe y habla con el Curator. (opciones de chat: ? Talk about Desperate Creatures. • 1 Talk about your progress.)"
-      }
+        "en": "Finish the dialogue with Charos and Thok and teleport back to Burthorpe and speak to the Curator.",
+        "es": "Termina el diálogo con Charos y Thok, teletranspórtate de vuelta a Burthorpe y habla con el Curator."
+      },
+      "chatOptions": [
+        "? Talk about Desperate Creatures.",
+        "1 Talk about your progress."
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Task 4",
       "text": {
-        "en": "Talk to the Curator again for the next task. (opciones de chat: ? Talk about Desperate Creatures. • 1 Talk about your progress.)",
-        "es": "Habla con el Curator de nuevo para la siguiente tarea. (opciones de chat: ? Talk about Desperate Creatures. • 1 Talk about your progress.)"
-      }
+        "en": "Talk to the Curator again for the next task.",
+        "es": "Habla con el Curator de nuevo para la siguiente tarea."
+      },
+      "chatOptions": [
+        "? Talk about Desperate Creatures.",
+        "1 Talk about your progress."
+      ]
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Task 5",
       "text": {
         "en": "Teleport to Anachronia and run north.",
         "es": "Teletranspórtate a Anachronia y corre hacia el norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Task 5",
       "text": {
         "en": "Fastest way to get there is by using the War's Retreat boss portal / the Max Guild boss portal or the Grouping System teleporting to Rex Matriarchs and heading west to the Teleportation Device and activating it, taking you where you need to be.",
         "es": "La forma más rápida de llegar es usando el portal de jefes de War's Retreat / el portal de jefes de Max Guild o el Grouping System teletransportándote a Rex Matriarchs y dirigiéndote hacia el oeste hasta el Teleportation Device, activándolo para que te lleve donde necesitas ir."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "Task 5",
       "text": {
         "en": "Alternatively, leave Anachronia base camp through the southern exit and head north-east to central Anachronia",
         "es": "Alternativamente, sal del Anachronia base camp por la salida sur y dirígete hacia el noreste, hacia el centro de Anachronia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Task 5",
       "text": {
         "en": "Find all four frogs.",
         "es": "Encuentra las cuatro ranas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Task 5",
       "text": {
         "en": "Finish the dialogue with Prehistoric Potterington.",
         "es": "Termina el diálogo con Prehistoric Potterington."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Task 5",
       "text": {
-        "en": "Teleport back to Burthorpe and speak to the Curator. (opciones de chat: ? Talk about Desperate Creatures. • 1 Talk about your progress.)",
-        "es": "Teletranspórtate de vuelta a Burthorpe y habla con el Curator. (opciones de chat: ? Talk about Desperate Creatures. • 1 Talk about your progress.)"
-      }
+        "en": "Teleport back to Burthorpe and speak to the Curator.",
+        "es": "Teletranspórtate de vuelta a Burthorpe y habla con el Curator."
+      },
+      "chatOptions": [
+        "? Talk about Desperate Creatures.",
+        "1 Talk about your progress."
+      ]
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Speak to Seren on the of the Burthorpe Castle. (opciones de chat: 1 Talk about 'Desperate Creatures'.)",
-        "es": "Habla con Seren en lo alto del Burthorpe Castle. (opciones de chat: 1 Talk about 'Desperate Creatures'.)"
-      }
+        "en": "Speak to Seren on the of the Burthorpe Castle.",
+        "es": "Habla con Seren en lo alto del Burthorpe Castle."
+      },
+      "chatOptions": [
+        "1 Talk about 'Desperate Creatures'."
+      ]
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Go downstairs, head south and speak to the Curator. (opciones de chat: ? Talk about 'Desperate Creatures'.)",
-        "es": "Baja las escaleras, dirígete hacia el sur y habla con el Curator. (opciones de chat: ? Talk about 'Desperate Creatures'.)"
-      }
+        "en": "Go downstairs, head south and speak to the Curator.",
+        "es": "Baja las escaleras, dirígete hacia el sur y habla con el Curator."
+      },
+      "chatOptions": [
+        "? Talk about 'Desperate Creatures'."
+      ]
     }
   ]
 }

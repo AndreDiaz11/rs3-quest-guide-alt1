@@ -2,7 +2,8 @@
   "id": "the-lost-tribe",
   "title": "The Lost Tribe",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:36:49.049Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:24.230Z",
   "icon": "https://runescape.wiki/images/The_Lost_Tribe_icon.png",
   "series": "Cave Goblin",
   "age": "5",
@@ -90,6 +91,7 @@
       "image": "https://runescape.wiki/images/thumb/Nardok%27s_Bone_Weapons.png/100px-Nardok%27s_Bone_Weapons.png?49737"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Lost_Tribe_reward.png?d2529",
   "postQuest": [
     {
       "type": "item",
@@ -116,346 +118,476 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "The goblin",
       "text": {
-        "en": "Talk to Sigmund on the of Lumbridge castle. (opciones de chat: 1 Do you have any quests for me? • Accept)",
-        "es": "Habla con Sigmund en el de Lumbridge castle. (opciones de chat: 1 Do you have any quests for me? • Accept)"
-      }
+        "en": "Talk to Sigmund on the of Lumbridge castle.",
+        "es": "Habla con Sigmund en el de Lumbridge castle."
+      },
+      "chatOptions": [
+        "1 Do you have any quests for me?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The goblin",
       "text": {
         "en": "Talk to the following NPCs about Lumbridge cellar around the castle until one of them mentions a goblin:",
         "es": "Habla con los siguientes NPCs sobre el sótano de Lumbridge por todo el castillo hasta que uno de ellos mencione a un goblin:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "The goblin",
       "text": {
-        "en": "Duke Horacio, in the same room. (opciones de chat: 3 What happened in the cellar?).",
+        "en": "Duke Horacio, in the same room. .",
         "es": "Duke Horacio, en la misma sala. (opciones de chat: 3 What happened in the cellar?)."
-      }
+      },
+      "chatOptions": [
+        "3 What happened in the cellar?"
+      ]
     },
     {
       "index": 3,
       "indent": 2,
+      "section": "The goblin",
       "text": {
-        "en": "(opciones de chat: 4 What happened in the cellar?) if Dragon Slayer has been started/completed.",
+        "en": "if Dragon Slayer has been started/completed.",
         "es": "(opciones de chat: 4 What happened in the cellar?) si Dragon Slayer se ha empezado/completado."
-      }
+      },
+      "chatOptions": [
+        "4 What happened in the cellar?"
+      ]
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "The goblin",
       "text": {
-        "en": "Cook, just downstairs. (opciones de chat: 4 Do you know what happened in the castle cellar?)",
-        "es": "Cook, justo abajo. (opciones de chat: 4 Do you know what happened in the castle cellar?)"
-      }
+        "en": "Cook, just downstairs.",
+        "es": "Cook, justo abajo."
+      },
+      "chatOptions": [
+        "4 Do you know what happened in the castle cellar?"
+      ]
     },
     {
       "index": 5,
       "indent": 2,
+      "section": "The goblin",
       "text": {
-        "en": "(opciones de chat: 2 Ask about what happened in the castle cellar) if Recipe for Disaster has been started but not finished; or",
+        "en": "if Recipe for Disaster has been started but not finished; or",
         "es": "(opciones de chat: 2 Ask about what happened in the castle cellar) si Recipe for Disaster se ha empezado pero no terminado; o"
-      }
+      },
+      "chatOptions": [
+        "2 Ask about what happened in the castle cellar"
+      ]
     },
     {
       "index": 6,
       "indent": 2,
+      "section": "The goblin",
       "text": {
-        "en": "(opciones de chat: 5 Do you know what happened in the castle cellar?) if Cook's Assistant has not started.",
+        "en": "if Cook's Assistant has not started.",
         "es": "(opciones de chat: 5 Do you know what happened in the castle cellar?) si Cook's Assistant no se ha empezado."
-      }
+      },
+      "chatOptions": [
+        "5 Do you know what happened in the castle cellar?"
+      ]
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "The goblin",
       "text": {
-        "en": "Hans, in the courtyard. (opciones de chat: 4 Do you know what happened in the cellar?)",
-        "es": "Hans, en el patio. (opciones de chat: 4 Do you know what happened in the cellar?)"
-      }
+        "en": "Hans, in the courtyard.",
+        "es": "Hans, en el patio."
+      },
+      "chatOptions": [
+        "4 Do you know what happened in the cellar?"
+      ]
     },
     {
       "index": 8,
       "indent": 2,
+      "section": "The goblin",
       "text": {
-        "en": "(opciones de chat: 2 Talk about something else. • 4 Do you know what happened in the cellar?) during 2026, for the 25th Anniversary celebrations.",
+        "en": "during 2026, for the 25th Anniversary celebrations.",
         "es": "(opciones de chat: 2 Talk about something else. • 4 Do you know what happened in the cellar?) durante 2026, por las celebraciones del 25 Aniversario."
-      }
+      },
+      "chatOptions": [
+        "2 Talk about something else.",
+        "4 Do you know what happened in the cellar?"
+      ]
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "The goblin",
       "text": {
-        "en": "Father Aereck, in the church. If you have not previously spoken to him about gravestones, you must complete that dialogue, then speak to him again. (opciones de chat: 1 Do you know what happened in the castle cellar?)",
-        "es": "Father Aereck, en la iglesia. Si no has hablado con él antes sobre las lápidas, debes completar ese diálogo, y luego hablar con él de nuevo. (opciones de chat: 1 Do you know what happened in the castle cellar?)"
-      }
+        "en": "Father Aereck, in the church. If you have not previously spoken to him about gravestones, you must complete that dialogue, then speak to him again.",
+        "es": "Father Aereck, en la iglesia. Si no has hablado con él antes sobre las lápidas, debes completar ese diálogo, y luego hablar con él de nuevo."
+      },
+      "chatOptions": [
+        "1 Do you know what happened in the castle cellar?"
+      ]
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "The goblin",
       "text": {
-        "en": "Bob the smith, in his axe shop. (opciones de chat: 4 Do you know what happened in the castle cellar?)",
-        "es": "Bob the smith, en su tienda de hachas. (opciones de chat: 4 Do you know what happened in the castle cellar?)"
-      }
+        "en": "Bob the smith, in his axe shop.",
+        "es": "Bob the smith, en su tienda de hachas."
+      },
+      "chatOptions": [
+        "4 Do you know what happened in the castle cellar?"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "The goblin",
       "text": {
-        "en": "Talk to Duke Horacio. (opciones de chat: 3 \"X\" says he saw something in the cellar.)",
-        "es": "Habla con Duke Horacio. (opciones de chat: 3 \"X\" says he saw something in the cellar.)"
-      }
+        "en": "Talk to Duke Horacio.",
+        "es": "Habla con Duke Horacio."
+      },
+      "chatOptions": [
+        "3 \"X\" says he saw something in the cellar."
+      ]
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "The goblin",
       "text": {
-        "en": "(opciones de chat: 4 \"X\" says he saw something in the cellar.) if Dragon Slayer has been started/completed.",
+        "en": "if Dragon Slayer has been started/completed.",
         "es": "(opciones de chat: 4 \"X\" says he saw something in the cellar.) si Dragon Slayer se ha empezado/completado."
-      }
+      },
+      "chatOptions": [
+        "4 \"X\" says he saw something in the cellar."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Dorgeshuun",
       "text": {
         "en": "Descend the trapdoor in the kitchen.",
         "es": "Baja por la trampilla de la cocina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Dorgeshuun",
       "text": {
         "en": "Mine the wall rubble to the east.",
         "es": "Mina los escombros de la pared al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Dorgeshuun",
       "text": {
         "en": "Squeeze through the hole and take the brooch.",
         "es": "Pasa por el agujero y coge el broche."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Dorgeshuun",
       "text": {
         "en": "Optional: Mine the wall rubble to the south for a shortcut to the Lumbridge Swamp Caves.",
         "es": "Opcional: Mina los escombros de la pared al sur para un atajo hacia las Lumbridge Swamp Caves."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Dorgeshuun",
       "text": {
         "en": "Show the brooch to the Duke.",
         "es": "Muéstrale el broche al Duke."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Dorgeshuun",
       "text": {
-        "en": "(opciones de chat: 4 I dug through the rubble...) if Dragon Slayer has been started/completed.",
+        "en": "if Dragon Slayer has been started/completed.",
         "es": "(opciones de chat: 4 I dug through the rubble...) si Dragon Slayer se ha empezado/completado."
-      }
+      },
+      "chatOptions": [
+        "4 I dug through the rubble..."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Dorgeshuun",
       "text": {
-        "en": "Talk to Reldo in Varrock Palace about the brooch. (opciones de chat: 3 Ask about the brooch.)",
-        "es": "Habla con Reldo en Varrock Palace sobre el broche. (opciones de chat: 3 Ask about the brooch.)"
-      }
+        "en": "Talk to Reldo in Varrock Palace about the brooch.",
+        "es": "Habla con Reldo en Varrock Palace sobre el broche."
+      },
+      "chatOptions": [
+        "3 Ask about the brooch."
+      ]
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Dorgeshuun",
       "text": {
-        "en": "(opciones de chat: 2 [Talk to Reldo.] • 3 Ask about the brooch.) if you completed Desperate Times.",
+        "en": "if you completed Desperate Times.",
         "es": "(opciones de chat: 2 [Talk to Reldo.] • 3 Ask about the brooch.) si has completado Desperate Times."
-      }
+      },
+      "chatOptions": [
+        "2 [Talk to Reldo.]",
+        "3 Ask about the brooch."
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Dorgeshuun",
       "text": {
         "en": "Search the northern most bookcase on the western wall for a goblin symbol book.",
         "es": "Busca en la estantería más al norte del muro oeste un libro con el símbolo goblin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Dorgeshuun",
       "text": {
         "en": "Read the book to the end.",
         "es": "Lee el libro hasta el final."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "Dorgeshuun",
       "text": {
         "en": "Reldo will force-greet you and mention the Goblin Village.",
         "es": "Reldo te hablará de forma forzosa y mencionará el Goblin Village."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Dorgeshuun",
       "text": {
-        "en": "Talk to Generals Bentnoze and Wartface in the Goblin Village. Make sure you have the brooch with you. (opciones de chat: 2 Have you ever heard of the Dorgeshuun? • 3 It doesn't really matter • 2 Well either way they refused to fight • 3 Well I found a brooch underground... • 3 Well why not show me both greetings? • 1 Thanks)",
-        "es": "Habla con Generals Bentnoze y Wartface en el Goblin Village. Asegúrate de llevar el broche contigo. (opciones de chat: 2 Have you ever heard of the Dorgeshuun? • 3 It doesn't really matter • 2 Well either way they refused to fight • 3 Well I found a brooch underground... • 3 Well why not show me both greetings? • 1 Thanks)"
-      }
+        "en": "Talk to Generals Bentnoze and Wartface in the Goblin Village. Make sure you have the brooch with you.",
+        "es": "Habla con Generals Bentnoze y Wartface en el Goblin Village. Asegúrate de llevar el broche contigo."
+      },
+      "chatOptions": [
+        "2 Have you ever heard of the Dorgeshuun?",
+        "3 It doesn't really matter",
+        "2 Well either way they refused to fight",
+        "3 Well I found a brooch underground...",
+        "3 Well why not show me both greetings?",
+        "1 Thanks"
+      ]
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Finding the lost tribe",
       "text": {
         "en": "Grab your light source and return to Lumbridge Castle.",
         "es": "Coge tu fuente de luz y vuelve a Lumbridge Castle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Finding the lost tribe",
       "text": {
         "en": "Climb down the trapdoor in the kitchen.",
         "es": "Baja por la trampilla de la cocina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Finding the lost tribe",
       "text": {
         "en": "Squeeze through the hole in the wall you mined earlier.",
         "es": "Pasa por el agujero en la pared que minaste antes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Finding the lost tribe",
       "text": {
         "en": "Run through the Goblin Mine (pictured right).",
         "es": "Atraviesa la Goblin Mine (imagen a la derecha)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Finding the lost tribe",
       "text": {
         "en": "Use the Goblin Bow emote near Mistag.",
         "es": "Usa la emote Goblin Bow cerca de Mistag."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Finding the lost tribe",
       "text": {
         "en": "Right-click follow on Mistag.",
         "es": "Haz clic derecho y selecciona seguir en Mistag."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Sigmund's treachery",
       "text": {
         "en": "Talk to the Duke.",
         "es": "Habla con el Duke."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Sigmund's treachery",
       "text": {
-        "en": "(opciones de chat: 4 I've made contact with the cave goblins...) if Dragon Slayer has been started/completed.",
+        "en": "if Dragon Slayer has been started/completed.",
         "es": "(opciones de chat: 4 I've made contact with the cave goblins...) si Dragon Slayer se ha empezado/completado."
-      }
+      },
+      "chatOptions": [
+        "4 I've made contact with the cave goblins..."
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Sigmund's treachery",
       "text": {
         "en": "Pickpocket Sigmund for a key.",
         "es": "Roba a Sigmund para conseguir una llave."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Sigmund's treachery",
       "text": {
         "en": "Open the chest in the other room for a H.A.M. hood, shirt, and robe. Make sure to have 3 backpack spaces, otherwise the outfit might disappear with no means of receiving it again.",
         "es": "Abre el cofre en la otra sala para conseguir un H.A.M. hood, shirt, y robe. Asegúrate de tener 3 espacios en la mochila, de lo contrario el conjunto podría desaparecer sin posibilidad de recuperarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Sigmund's treachery",
       "text": {
         "en": "Enter the H.A.M. Hideout in the Lumbridge forest northwest of the Lumbridge Castle by opening and then climbing down the trapdoor.",
         "es": "Entra en el H.A.M. Hideout en el bosque de Lumbridge al noroeste de Lumbridge Castle abriendo y bajando por la trampilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Sigmund's treachery",
       "text": {
         "en": "Search the crate near the ladder for the missing silverware.",
         "es": "Busca en la caja cerca de la escalera la cubertería perdida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Making peace",
       "text": {
         "en": "Return to the Duke.",
         "es": "Vuelve con el Duke."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "Making peace",
       "text": {
-        "en": "(opciones de chat: 4 I found the missing silverware in the HAM cave!) if Dragon Slayer has been started/completed.",
+        "en": "if Dragon Slayer has been started/completed.",
         "es": "(opciones de chat: 4 I found the missing silverware in the HAM cave!) si Dragon Slayer se ha empezado/completado."
-      }
+      },
+      "chatOptions": [
+        "4 I found the missing silverware in the HAM cave!"
+      ]
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Making peace",
       "text": {
         "en": "Go back down the trapdoor in the castle kitchen.",
         "es": "Vuelve a bajar por la trampilla de la cocina del castillo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Making peace",
       "text": {
         "en": "Squeeze through the hole in the wall and follow Kazgar, who'll be waiting just on the other side.",
         "es": "Pasa por el agujero en la pared y sigue a Kazgar, que estará esperando justo al otro lado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Making peace",
       "text": {
         "en": "Talk to Mistag.",
         "es": "Habla con Mistag."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Making peace",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

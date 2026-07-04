@@ -2,7 +2,8 @@
   "id": "spiritual-enlightenment-miniquest",
   "title": "Spiritual Enlightenment (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-04T02:17:39.489Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:07.374Z",
   "icon": "https://runescape.wiki/images/thumb/Spiritual_Enlightenment_%28miniquest%29_icon.png/50px-Spiritual_Enlightenment_%28miniquest%29_icon.png",
   "series": "Tales of the Arc",
   "age": "6",
@@ -59,111 +60,140 @@
       "image": "https://runescape.wiki/images/thumb/Arhat.png/100px-Arhat.png?b6d60"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Spiritual_Enlightenment_%28miniquest%29_reward.png?81c33",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Creatures of Aminishi",
       "text": {
-        "en": "Charter a ship to Aminishi and talk to Ling. (opciones de chat: Accept)",
-        "es": "Fleta un barco a Aminishi y habla con Ling. (opciones de chat: Aceptar)"
-      }
+        "en": "Charter a ship to Aminishi and talk to Ling.",
+        "es": "Fleta un barco a Aminishi y habla con Ling."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Creatures of Aminishi",
       "text": {
         "en": "If you have just completed Impressing the Locals, you may need to relog for the chat option to show up.",
         "es": "Si acabas de completar Impressing the Locals, puede que necesites reconectar para que aparezca la opción de chat."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Creatures of Aminishi",
       "text": {
         "en": "Kill creatures on the island until you receive 3 books.",
         "es": "Mata criaturas en la isla hasta que recibas 3 libros."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Creatures of Aminishi",
       "text": {
         "en": "Ordered from best drop rate to worst, kill Anagami, Sakadagami or Sotapanna.",
         "es": "Ordenados de mejor a peor tasa de aparición, mata a Anagami, Sakadagami o Sotapanna."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Creatures of Aminishi",
       "text": {
         "en": "The 3 book names are:",
         "es": "Los nombres de los 3 libros son:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 2,
+      "section": "Creatures of Aminishi",
       "text": {
         "en": "The Path of the Dragon",
         "es": "The Path of the Dragon"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 2,
+      "section": "Creatures of Aminishi",
       "text": {
         "en": "The Path of the Monk",
         "es": "The Path of the Monk"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 2,
+      "section": "Creatures of Aminishi",
       "text": {
         "en": "The Path of the Elemental",
         "es": "The Path of the Elemental"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Creatures of Aminishi",
       "text": {
         "en": "Pick up some spirit dragon charms because you will need 1-2 later. (Note: Ensure to have toggled off your spirit imp destroy option)",
         "es": "Recoge algunos spirit dragon charms porque los necesitarás más adelante (1-2). (Nota: asegúrate de haber desactivado la opción de destrucción automática de tu spirit imp)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Creatures of Aminishi",
       "text": {
         "en": "Return to Ling.",
         "es": "Vuelve con Ling."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Spirit realm",
       "text": {
         "en": "Enter The Well of Spirits on the middle tier to travel to the spirit realm.",
         "es": "Entra en The Well of Spirits en el nivel intermedio para viajar al reino espiritual."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Spirit realm",
       "text": {
         "en": "Head south-west and talk to Yulong on the shore. He is exactly where you would find Ling outside the spirit realm.",
         "es": "Dirígete al suroeste y habla con Yulong en la orilla. Está exactamente donde encontrarías a Ling fuera del reino espiritual."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Spirit realm",
       "text": {
         "en": "Return to Ling.",
         "es": "Vuelve con Ling."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

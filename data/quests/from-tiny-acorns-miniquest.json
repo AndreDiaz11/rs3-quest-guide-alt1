@@ -2,7 +2,8 @@
   "id": "from-tiny-acorns-miniquest",
   "title": "From Tiny Acorns (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:21:55.393Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:14.859Z",
   "icon": "https://runescape.wiki/images/From_Tiny_Acorns_%28miniquest%29_icon.png",
   "series": "Thieves' Guild",
   "age": "ambiguous",
@@ -70,103 +71,131 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/From_Tiny_Acorns_%28miniquest%29_reward.png?054e1",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Talk to Darren Lightfinger in the Thieves' Guild.",
         "es": "Habla con Darren Lightfinger en el Thieves' Guild."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
-        "en": "Talk to the market guard in Varrock Square. (opciones de chat: 2 Who's the dwarf over there? • 1 Do you know what he's working on?)",
-        "es": "Habla con el guardia del mercado en Varrock Square. (opciones de chat: 2 ¿Quién es ese enano de ahí? • 1 ¿Sabes en qué está trabajando?)"
-      }
+        "en": "Talk to the market guard in Varrock Square.",
+        "es": "Habla con el guardia del mercado en Varrock Square."
+      },
+      "chatOptions": [
+        "2 Who's the dwarf over there?",
+        "1 Do you know what he's working on?"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Pickpocket Urist Loric until successful. He is the dwarf just north east of the Varrock General Store.",
         "es": "Roba a Urist Loric hasta conseguirlo. Es el enano que está justo al noreste de la Varrock General Store."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Left click to put-down Urist's talisman.",
         "es": "Haz clic izquierdo para soltar el talismán de Urist."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "To steal from the crafting stall, follow these steps quickly:",
         "es": "Para robar en el puesto de artesanía, sigue estos pasos rápidamente:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Walkthrough",
       "text": {
         "en": "Talk to Urist Loric again.",
         "es": "Habla de nuevo con Urist Loric."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Walkthrough",
       "text": {
         "en": "Run to the guard and right-click to distract him.",
         "es": "Corre hacia el guardia y haz clic derecho para distraerlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Walkthrough",
       "text": {
         "en": "Steal from the crafting stall.",
         "es": "Roba en el puesto de artesanía."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Talk to Urist Loric for the banker's note.",
         "es": "Habla con Urist Loric para conseguir el pagaré del banco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Go back to the Thieves' Guild",
         "es": "Vuelve al Thieves' Guild."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Use the banker's note on Darren with the toy dragon in the backpack.",
         "es": "Usa el pagaré del banco en Darren, con el dragón de juguete en la mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Miniquest complete!",
         "es": "¡Minimisión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

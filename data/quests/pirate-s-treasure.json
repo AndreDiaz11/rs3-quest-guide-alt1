@@ -2,7 +2,8 @@
   "id": "pirate-s-treasure",
   "title": "Pirate's Treasure",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:03:20.464Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:48.388Z",
   "icon": "https://runescape.wiki/images/Pirate%27s_Treasure_icon.png",
   "series": "Pirate",
   "age": "5",
@@ -62,183 +63,240 @@
       "image": "https://runescape.wiki/images/thumb/Musa_Point_banana_plantation.png/100px-Musa_Point_banana_plantation.png?bcb19"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Pirate%27s_Treasure_reward.png?8cc72",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Redbeard Frank just outside Port Sarim's pub. (opciones de chat: 1 I'm in search of treasure. • Accept)",
-        "es": "Habla con Redbeard Frank, justo a las afueras del pub de Port Sarim. (opciones de chat: 1 Estoy en busca de un tesoro. • Aceptar)"
-      }
+        "en": "Talk to Redbeard Frank just outside Port Sarim's pub.",
+        "es": "Habla con Redbeard Frank, justo a las afueras del pub de Port Sarim."
+      },
+      "chatOptions": [
+        "1 I'm in search of treasure.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Walk south along the docks, pay 30 coins to Captain Tobias to go to Karamja. (opciones de chat: 1 Yes please.)",
-        "es": "Camina hacia el sur a lo largo de los muelles, paga 30 monedas al Captain Tobias para ir a Karamja. (opciones de chat: 1 Sí, por favor.)"
-      }
+        "en": "Walk south along the docks, pay 30 coins to Captain Tobias to go to Karamja.",
+        "es": "Camina hacia el sur a lo largo de los muelles, paga 30 monedas al Captain Tobias para ir a Karamja."
+      },
+      "chatOptions": [
+        "1 Yes please."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The smuggling job",
       "text": {
         "en": "Head inside the pub.",
         "es": "Entra en el pub."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The smuggling job",
       "text": {
         "en": "Buy one Karamjan rum from Zembo.",
         "es": "Compra un Karamjan rum a Zembo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The smuggling job",
       "text": {
         "en": "Do not leave the island yet or more rum will have to be obtained.",
         "es": "No abandones aún la isla, o tendrás que conseguir más ron."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The smuggling job",
       "text": {
         "en": "Pick 10 bananas from the Banana Trees to the north-west.",
         "es": "Recoge 10 plátanos de los Banana Trees al noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The smuggling job",
       "text": {
         "en": "Go east to the house by the docks.",
         "es": "Ve hacia el este, a la casa junto a los muelles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The smuggling job",
       "text": {
-        "en": "Talk to Luthas about the officer. (opciones de chat: 2 That customs officer is annoying isn't she?), then talk to him a second time to ask for a job. (opciones de chat: 1 Could you offer me employment on your plantation?)",
-        "es": "Habla con Luthas sobre la oficial. (opciones de chat: 2 Esa oficial de aduanas es molesta, ¿verdad?), luego háblale una segunda vez para pedirle trabajo. (opciones de chat: 1 ¿Podrías darme trabajo en tu plantación?)"
-      }
+        "en": "Talk to Luthas about the officer. , then talk to him a second time to ask for a job.",
+        "es": "Habla con Luthas sobre la oficial. (opciones de chat: 2 Esa oficial de aduanas es molesta, ¿verdad?), luego háblale una segunda vez para pedirle trabajo."
+      },
+      "chatOptions": [
+        "2 That customs officer is annoying isn't she?",
+        "1 Could you offer me employment on your plantation?"
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The smuggling job",
       "text": {
         "en": "On the east side of Luthas' house will be a wooden crate.",
         "es": "En el lado este de la casa de Luthas habrá una caja de madera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The smuggling job",
       "text": {
         "en": "Use the Karamjan rum on the crate, then right-click Fill the crate.",
         "es": "Usa el Karamjan rum en la caja y luego haz clic derecho en Llenar la caja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The smuggling job",
       "text": {
         "en": "Talk to Luthas.",
         "es": "Habla con Luthas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Retrieving the rum",
       "text": {
         "en": "Head to Wydin's Food Store in Port Sarim.",
         "es": "Dirígete a Wydin's Food Store en Port Sarim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Retrieving the rum",
       "text": {
-        "en": "Equip your white apron and attempt to open the door to the back room. (opciones de chat: 1 Well, can I get a job here?)",
-        "es": "Equípate el white apron e intenta abrir la puerta de la trastienda. (opciones de chat: 1 Bueno, ¿puedo conseguir trabajo aquí?)"
-      }
+        "en": "Equip your white apron and attempt to open the door to the back room.",
+        "es": "Equípate el white apron e intenta abrir la puerta de la trastienda."
+      },
+      "chatOptions": [
+        "1 Well, can I get a job here?"
+      ]
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Retrieving the rum",
       "text": {
         "en": "A free white apron can be obtained from the back wall in the fishing store.",
         "es": "Se puede conseguir un white apron gratis en la pared del fondo de la tienda de pesca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Retrieving the rum",
       "text": {
         "en": "Search the crate with the banana on it.",
         "es": "Registra la caja que tiene un plátano encima."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Retrieving the rum",
       "text": {
-        "en": "With the rum, return to Redbeard Frank for a chest key. (opciones de chat: 1 Ok thanks, I'll go and get it.)",
-        "es": "Con el ron, vuelve con Redbeard Frank para conseguir una llave de cofre. (opciones de chat: 1 Ok, gracias, iré a por ella.)"
-      }
+        "en": "With the rum, return to Redbeard Frank for a chest key.",
+        "es": "Con el ron, vuelve con Redbeard Frank para conseguir una llave de cofre."
+      },
+      "chatOptions": [
+        "1 Ok thanks, I'll go and get it."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Treasure hunting",
       "text": {
         "en": "Go upstairs in the Blue Moon Inn in south Varrock.",
         "es": "Sube las escaleras en el Blue Moon Inn, al sur de Varrock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Treasure hunting",
       "text": {
         "en": "Open the chest in the south-west room for a pirate message. Read it.",
         "es": "Abre el cofre en la habitación del suroeste para conseguir un mensaje de pirata. Léelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Treasure hunting",
       "text": {
         "en": "Go to Falador Park and stand on the east end of the pond, directly west of the statue of Saradomin, indicated by X on the ground.",
         "es": "Ve a Falador Park y colócate en el extremo este del estanque, justo al oeste de la estatua de Saradomin, indicado con una X en el suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Treasure hunting",
       "text": {
         "en": "Right-click Dig using the pirate message. Kill the gardener. Alternatively, leave the site for a while and the gardener will be gone.",
         "es": "Haz clic derecho en Cavar usando el mensaje de pirata. Mata al jardinero. Alternativamente, deja el lugar un rato y el jardinero se irá."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Treasure hunting",
       "text": {
         "en": "Right-click Dig using the message again.",
         "es": "Haz clic derecho en Cavar usando el mensaje de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Treasure hunting",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "making-history",
   "title": "Making History",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:38:05.300Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:35.643Z",
   "icon": "https://runescape.wiki/images/Making_History_icon.png",
   "series": "Enchanted Key",
   "age": "5",
@@ -112,191 +113,260 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Making_History_reward.png?83c26",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting the quest",
       "text": {
         "en": "Go to the Outpost; an old, now-derelict tower to the north of West Ardougne.",
         "es": "Ve al Outpost, una torre antigua y ahora en ruinas al norte de West Ardougne."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Starting the quest",
       "text": {
         "en": "Traveller's necklace teleports directly to the Outpost.",
         "es": "El Traveller's necklace teletransporta directamente al Outpost."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Starting the quest",
       "text": {
         "en": "Eagles' Peak lodestone and run south, then south east.",
         "es": "Piedra de viaje de Eagles' Peak y corre al sur, luego al sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting the quest",
       "text": {
-        "en": "Speak with Jorral for a cutscene. (opciones de chat: 1 Tell me more.)",
-        "es": "Habla con Jorral para ver una escena. (opciones de chat: 1 Tell me more.)"
-      }
+        "en": "Speak with Jorral for a cutscene.",
+        "es": "Habla con Jorral para ver una escena."
+      },
+      "chatOptions": [
+        "1 Tell me more."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Starting the quest",
       "text": {
-        "en": "After the cutscene, agree to help. (opciones de chat: Accept)",
-        "es": "Después de la escena, acepta ayudar. (opciones de chat: Accept)"
-      }
+        "en": "After the cutscene, agree to help.",
+        "es": "Después de la escena, acepta ayudar."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Erin",
       "text": {
-        "en": "Talk to the silver merchant in the East Ardougne marketplace. (opciones de chat: 3 Ask about the outpost.)",
-        "es": "Habla con el mercader de plata en el mercado de East Ardougne. (opciones de chat: 3 Ask about the outpost.)"
-      }
+        "en": "Talk to the silver merchant in the East Ardougne marketplace.",
+        "es": "Habla con el mercader de plata en el mercado de East Ardougne."
+      },
+      "chatOptions": [
+        "3 Ask about the outpost."
+      ]
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Erin",
       "text": {
         "en": "Do not steal from the stall otherwise the merchant will not talk with you.",
         "es": "No robes del puesto o el mercader no querrá hablar contigo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Erin",
       "text": {
         "en": "Ring of dueling to Castle Wars, run north and cross the bridge south of the Observatory.",
         "es": "Ring of dueling hasta Castle Wars, corre al norte y cruza el puente al sur del Observatory."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Erin",
       "text": {
-        "en": "West of fairy ring and north-west of Yanille lodestone.",
+        "en": "West of fairy ring CIQ and north-west of Yanille lodestone.",
         "es": "Al oeste del fairy ring y al noroeste de la piedra de viaje de Yanille."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Erin",
       "text": {
         "en": "When you're just north of the bridge, play hot-and-cold by feeling the key and walking around until it feels steaming hot, and use the spade to dig. (Between the two trees)",
         "es": "Cuando estés justo al norte del puente, juega a frío-caliente sintiendo la llave y caminando alrededor hasta que se sienta ardiendo, y usa la pala para cavar. (Entre los dos árboles)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Erin",
       "text": {
         "en": "Use the key on the chest to unlock it.",
         "es": "Usa la llave en el cofre para abrirlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Droalak",
       "text": {
         "en": "Speak to Droalak south of the General Store in Port Phasmatys.",
         "es": "Habla con Droalak al sur del General Store en Port Phasmatys."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Droalak",
       "text": {
         "en": "Ectophial or Port Sarim lodestone and charter ship to Port Phasmatys.",
         "es": "Ectophial o piedra de viaje de Port Sarim y barco fletado hasta Port Phasmatys."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Droalak",
       "text": {
         "en": "Wear the ghostspeak amulet.",
         "es": "Equípate el ghostspeak amulet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Droalak",
       "text": {
         "en": "Talk to Melina in the building east of the General Store with a sapphire amulet in your inventory.",
         "es": "Habla con Melina en el edificio al este del General Store con un sapphire amulet en tu inventario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Droalak",
       "text": {
         "en": "Talk to Droalak again for the scroll.",
         "es": "Habla de nuevo con Droalak para conseguir el pergamino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Dron",
       "text": {
         "en": "Talk to Blanin, west of the cow pen in Rellekka.",
         "es": "Habla con Blanin, al oeste del corral de vacas en Rellekka."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Dron",
       "text": {
-        "en": "Talk to Dron, west of the helmet shop. (opciones de chat: 3 I'm after important answers. • 2 Why you're the famous warrior Dron!)",
-        "es": "Habla con Dron, al oeste de la tienda de cascos. (opciones de chat: 3 I'm after important answers. • 2 Why you're the famous warrior Dron!)"
-      }
+        "en": "Talk to Dron, west of the helmet shop.",
+        "es": "Habla con Dron, al oeste de la tienda de cascos."
+      },
+      "chatOptions": [
+        "3 I'm after important answers.",
+        "2 Why you're the famous warrior Dron!"
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Dron",
       "text": {
-        "en": "Answer his quiz. (opciones de chat: 2 An iron mace. • 1 Breakfast. • 2 Lunch. • 1 Bunnies. • 2 Red. • 2 36. • 1 8. • 3 Fifth and Fourth. • 3 Northeast side of town. • 1 Blanin. • 1 Fluffy. • 1 12, but what does that have to do with anything?)",
-        "es": "Responde a su cuestionario. (opciones de chat: 2 An iron mace. • 1 Breakfast. • 2 Lunch. • 1 Bunnies. • 2 Red. • 2 36. • 1 8. • 3 Fifth and Fourth. • 3 Northeast side of town. • 1 Blanin. • 1 Fluffy. • 1 12, but what does that have to do with anything?)"
-      }
+        "en": "Answer his quiz.",
+        "es": "Responde a su cuestionario."
+      },
+      "chatOptions": [
+        "2 An iron mace.",
+        "1 Breakfast.",
+        "2 Lunch.",
+        "1 Bunnies.",
+        "2 Red.",
+        "2 36.",
+        "1 8.",
+        "3 Fifth and Fourth.",
+        "3 Northeast side of town.",
+        "1 Blanin.",
+        "1 Fluffy.",
+        "1 12, but what does that have to do with anything?"
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Jorral",
       "text": {
         "en": "Return to Jorral at the outpost, talk to him until he gives you a Letter.",
         "es": "Vuelve con Jorral en el Outpost y habla con él hasta que te dé una Letter."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Jorral",
       "text": {
         "en": "Talk to King Lathas on the of Ardougne Castle. (Remove Mourner Outfit if equipped)",
         "es": "Habla con King Lathas en el Ardougne Castle. (Quítate el Mourner Outfit si lo llevas puesto)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Jorral",
       "text": {
         "en": "Return to Jorral.",
         "es": "Vuelve con Jorral."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Jorral",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

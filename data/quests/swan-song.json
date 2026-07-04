@@ -2,7 +2,8 @@
   "id": "swan-song",
   "title": "Swan Song",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:18:58.048Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:09.480Z",
   "icon": "https://runescape.wiki/images/Swan_Song_icon.png",
   "series": "Wise Old Man",
   "age": "ambiguous",
@@ -169,215 +170,286 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Swan_Song_reward.png?7431d",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Trollish",
       "text": {
-        "en": "Talk to Herman Caranos outside the Piscatoris Fishing Colony (fairy ring code or memory strand teleport, then run northeast). (opciones de chat: 1 What's the rush? • 1 Do you need any help? • Accept)",
-        "es": "Habla con Herman Caranos fuera de Piscatoris Fishing Colony (código de fairy ring o teletransporte con memory strand y luego corre hacia el noreste). (opciones de chat: 1 ¿A qué viene tanta prisa? • 1 ¿Necesitas ayuda? • Aceptar)"
-      }
+        "en": "Talk to Herman Caranos outside the Piscatoris Fishing Colony (fairy ring code AKQ or memory strand teleport, then run northeast).",
+        "es": "Habla con Herman Caranos fuera de Piscatoris Fishing Colony (código de fairy ring o teletransporte con memory strand y luego corre hacia el noreste)."
+      },
+      "chatOptions": [
+        "1 What's the rush?",
+        "1 Do you need any help?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The Wise Old Man",
       "text": {
-        "en": "Talk to the Wise Old Man in Draynor. (opciones de chat: 1 Would you like to go on a quest?)",
-        "es": "Habla con el Wise Old Man en Draynor. (opciones de chat: 1 ¿Te gustaría emprender una misión?)"
-      }
+        "en": "Talk to the Wise Old Man in Draynor.",
+        "es": "Habla con el Wise Old Man en Draynor."
+      },
+      "chatOptions": [
+        "1 Would you like to go on a quest?"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Battle at the colony",
       "text": {
-        "en": "Head back to the Piscatoris Colony. Talk to the Wise Old Man. (opciones de chat: 1 I'm ready to fight.)",
-        "es": "Vuelve a Piscatoris Colony. Habla con el Wise Old Man. (opciones de chat: 1 Estoy listo para luchar.)"
-      }
+        "en": "Head back to the Piscatoris Colony. Talk to the Wise Old Man.",
+        "es": "Vuelve a Piscatoris Colony. Habla con el Wise Old Man."
+      },
+      "chatOptions": [
+        "1 I'm ready to fight."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Battle at the colony",
       "text": {
         "en": "Kill the sea trolls and open the colony gate.",
         "es": "Mata a los sea trolls y abre la puerta de la colonia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Battle at the colony",
       "text": {
         "en": "Talk to Herman in the eastern building.",
         "es": "Habla con Herman en el edificio oriental."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Repairing the colony",
       "text": {
         "en": "Talk to Franklin Caranos near the entrance.",
         "es": "Habla con Franklin Caranos cerca de la entrada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Repairing the colony",
       "text": {
         "en": "In the building directly north of Franklin, use a log on the firebox, then light the firebox by clicking on it.",
         "es": "En el edificio situado justo al norte de Franklin, usa un tronco en el firebox y luego enciéndelo haciendo clic sobre él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Repairing the colony",
       "text": {
         "en": "Logs and iron ores can be obtained just outside of the colony. The firebox is the metal box on the east side of the metal press.",
         "es": "Se pueden obtener troncos y mena de hierro justo a las afueras de la colonia. El firebox es la caja metálica situada en el lado este de la Metal Press."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Repairing the colony",
       "text": {
         "en": "Use 5 iron bars on the Metal Press to get 5 iron sheets.",
         "es": "Usa 5 barras de hierro en la Metal Press para obtener 5 iron sheets."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Repairing the colony",
       "text": {
         "en": "Use the iron sheets on the broken colony walls to the west.",
         "es": "Usa las iron sheets en los muros dañados de la colonia, al oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Repairing the colony",
       "text": {
         "en": "Talk to Franklin.",
         "es": "Habla con Franklin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Repairing the colony",
       "text": {
         "en": "Right-click on Arnold Lydspor in the bank to talk to him.",
         "es": "Haz clic derecho sobre Arnold Lydspor en el banco para hablar con él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Repairing the colony",
       "text": {
         "en": "Catch at least five fresh monkfish to the northwest. You'll be attacked by sea trolls when fishing. This can take up to 10 minutes depending on your Fishing level.",
         "es": "Pesca al menos cinco monkfish frescos al noroeste. Serás atacado por sea trolls mientras pescas. Esto puede llevar hasta 10 minutos dependiendo de tu nivel de Pesca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Repairing the colony",
       "text": {
         "en": "Cook the monkfish in the kitchen southwest. You will need to turn in five fresh monkfish; if any are burned, fish for more. To cook them, just use them on the range and don't proceed on Make-X interface.",
         "es": "Cocina los monkfish en la cocina al suroeste. Deberás entregar cinco monkfish frescos; si alguno se quema, pesca más. Para cocinarlos, simplemente úsalos en el range y no continúes en la interfaz de Fabricar-X."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Repairing the colony",
       "text": {
         "en": "Talk to Arnold.",
         "es": "Habla con Arnold."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Raising an army",
       "text": {
-        "en": "Talk to the Wise Old Man and Herman (furthest building to the east). (opciones de chat: 2 Something else.)",
-        "es": "Habla con el Wise Old Man y con Herman (el edificio más alejado, al este). (opciones de chat: 2 Otra cosa.)"
-      }
+        "en": "Talk to the Wise Old Man and Herman (furthest building to the east).",
+        "es": "Habla con el Wise Old Man y con Herman (el edificio más alejado, al este)."
+      },
+      "chatOptions": [
+        "2 Something else."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Raising an army",
       "text": {
-        "en": "Talk to Wizard Frumscone in the basement of the Wizards' Guild in Yanille. (opciones de chat: 2 I'll see what the necromancer needs me to do.)",
-        "es": "Habla con Wizard Frumscone en el sótano de Wizards' Guild en Yanille. (opciones de chat: 2 Veré qué necesita de mí el nigromante.)"
-      }
+        "en": "Talk to Wizard Frumscone in the basement of the Wizards' Guild in Yanille.",
+        "es": "Habla con Wizard Frumscone en el sótano de Wizards' Guild en Yanille."
+      },
+      "chatOptions": [
+        "2 I'll see what the necromancer needs me to do."
+      ]
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Raising an army",
       "text": {
         "en": "Fetch the required supplies now, if you haven't already.",
         "es": "Consigue ahora los suministros necesarios, si aún no lo has hecho."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Raising an army",
       "text": {
-        "en": "Talk to Malignius Mortifer northwest of Port Sarim near the crossroads. (opciones de chat: 2 I need help with saving a fishing colony.)",
-        "es": "Habla con Malignius Mortifer al noroeste de Port Sarim, cerca del cruce de caminos. (opciones de chat: 2 Necesito ayuda para salvar una colonia pesquera.)"
-      }
+        "en": "Talk to Malignius Mortifer northwest of Port Sarim near the crossroads.",
+        "es": "Habla con Malignius Mortifer al noroeste de Port Sarim, cerca del cruce de caminos."
+      },
+      "chatOptions": [
+        "2 I need help with saving a fishing colony."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Raising an army",
       "text": {
         "en": "Talk to any Almost Master Crafter inside the Crafting Guild until one talks to you about crafting pot lids.",
         "es": "Habla con cualquier Almost Master Crafter dentro de Crafting Guild hasta que uno te hable sobre fabricar tapas de olla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Raising an army",
       "text": {
-        "en": "Talk to Malignius Mortifer, he will teleport you to the colony, so gear up before speaking with him. (opciones de chat: 2 I've spoken to the master crafter...)",
-        "es": "Habla con Malignius Mortifer; te teletransportará a la colonia, así que equípate bien antes de hablar con él. (opciones de chat: 2 He hablado con el master crafter...)"
-      }
+        "en": "Talk to Malignius Mortifer, he will teleport you to the colony, so gear up before speaking with him.",
+        "es": "Habla con Malignius Mortifer; te teletransportará a la colonia, así que equípate bien antes de hablar con él."
+      },
+      "chatOptions": [
+        "2 I've spoken to the master crafter..."
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "The final battle",
       "text": {
-        "en": "Talk to Herman. (opciones de chat: 1 I'm ready. Let's fight!)",
-        "es": "Habla con Herman. (opciones de chat: 1 Estoy listo. ¡A luchar!)"
-      }
+        "en": "Talk to Herman.",
+        "es": "Habla con Herman."
+      },
+      "chatOptions": [
+        "1 I'm ready. Let's fight!"
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The final battle",
       "text": {
         "en": "Kill the Sea Troll Queen.",
         "es": "Mata a la Sea Troll Queen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "The final battle",
       "text": {
         "en": "Banks recover health rapidly, and while the bank isn't functional until quest completion, you can run into the building and next to the banker to recover health.",
         "es": "Los bancos recuperan la vida rápidamente, y aunque el banco no esté operativo hasta completar la misión, puedes correr al edificio y colocarte junto al banquero para recuperar vida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "The final battle",
       "text": {
         "en": "Talk to Herman.",
         "es": "Habla con Herman."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "The final battle",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

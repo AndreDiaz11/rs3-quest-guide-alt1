@@ -2,7 +2,8 @@
   "id": "the-temple-at-senntisten",
   "title": "The Temple at Senntisten",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:21:31.069Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:27.775Z",
   "icon": "https://runescape.wiki/images/The_Temple_at_Senntisten_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -132,6 +133,7 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Temple_at_Senntisten_reward.png?ef566",
   "postQuest": [
     {
       "type": "xp",
@@ -154,466 +156,637 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "The mysterious archaeologist",
       "text": {
-        "en": "Talk to Ali the Wise in the northernmost building in Nardah. (opciones de chat: 1 How goes the research? • 1 Well, I certainly don't like those of the Zamorakian faction. • 1 Zaros seems to be an honourable god. • Accept • 2 Can you help me get to the Digsite Exam Centre?)",
-        "es": "Habla con Ali the Wise en el edificio más al norte de Nardah. (opciones de chat: 1 ¿Cómo va la investigación? • 1 Bueno, desde luego no me gustan los de la facción Zamorakiana. • 1 Zaros parece ser un dios honorable. • Aceptar • 2 ¿Puedes ayudarme a llegar al Digsite Exam Centre?)"
-      }
+        "en": "Talk to Ali the Wise in the northernmost building in Nardah.",
+        "es": "Habla con Ali the Wise en el edificio más al norte de Nardah."
+      },
+      "chatOptions": [
+        "1 How goes the research?",
+        "1 Well, I certainly don't like those of the Zamorakian faction.",
+        "1 Zaros seems to be an honourable god.",
+        "Accept",
+        "2 Can you help me get to the Digsite Exam Centre?"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The mysterious archaeologist",
       "text": {
         "en": "Go to the Exam Centre.",
         "es": "Ve al Exam Centre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "The mysterious archaeologist",
       "text": {
         "en": "If you asked Ali for help getting there, he gave you a Dig Site pendant (or Ali's pendant if you have not unlocked the ability to create Dig Site pendants) to teleport directly there.",
         "es": "Si le pediste a Ali ayuda para llegar allí, te dio un Dig Site pendant (o el pendiente de Ali si no has desbloqueado la habilidad de crear Dig Site pendants) para teletransportarte directamente allí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "The mysterious archaeologist",
       "text": {
         "en": "Alternatively, teleporting to Varrock Dig Site with either pendant for the first time will grant you the Return to Senntisten achievement.",
         "es": "Alternativamente, teletransportarte a Varrock Dig Site con cualquiera de los dos pendientes por primera vez te otorgará el logro Return to Senntisten."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The mysterious archaeologist",
       "text": {
-        "en": "Talk to Dr. Nabanik outside of the Exam Centre south of the Digsite. (opciones de chat: 1 (Whisper) Why are we speaking so quietly? • 1 Azzanadra? You are quite the master of disguise. • 1 Why are you here, away from the pyramid? • 2 What's Ali's part in this? • 3 Why all the secrecy? • 4 Just tell me what you want.)",
+        "en": "Talk to Dr. Nabanik outside of the Exam Centre south of the Digsite.",
         "es": "Habla con Dr. Nabanik fuera del Exam Centre, al sur del Digsite. (opciones de chat: 1 (Susurro) ¿Por qué estamos hablando tan bajo? • 1 ¿Azzanadra? Sí que eres un maestro del disfraz. • 1 ¿Por qué estás aquí, lejos de la pirámide? • 2 ¿Qué papel tiene Ali en todo esto? • 3 ¿Por qué tanto secretismo? • 4 Simplemente dime qué es lo que quieres.)"
-      }
+      },
+      "chatOptions": [
+        "1 (Whisper) Why are we speaking so quietly?",
+        "1 Azzanadra? You are quite the master of disguise.",
+        "1 Why are you here, away from the pyramid?",
+        "2 What's Ali's part in this?",
+        "3 Why all the secrecy?",
+        "4 Just tell me what you want."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The mysterious archaeologist",
       "text": {
-        "en": "Talk to Terry Balando inside the exam centre for a restoration certificate. (opciones de chat: 1 I'm here about a close friend of mine: Dr Nabanik. • 1 He was in the pyramid for a very long time. • 1 I've seen those beetles and they're huge. • 1 He studies pyramids, particularly their interiors. • 1 He has an aged benefactor.)",
-        "es": "Habla con Terry Balando dentro del exam centre para conseguir un certificado de restauración. (opciones de chat: 1 Estoy aquí por un buen amigo mío: Dr Nabanik. • 1 Estuvo en la pirámide durante muchísimo tiempo. • 1 He visto esos escarabajos y son enormes. • 1 Estudia pirámides, en particular sus interiores. • 1 Tiene un benefactor de avanzada edad.)"
-      }
+        "en": "Talk to Terry Balando inside the exam centre for a restoration certificate.",
+        "es": "Habla con Terry Balando dentro del exam centre para conseguir un certificado de restauración."
+      },
+      "chatOptions": [
+        "1 I'm here about a close friend of mine: Dr Nabanik.",
+        "1 He was in the pyramid for a very long time.",
+        "1 I've seen those beetles and they're huge.",
+        "1 He studies pyramids, particularly their interiors.",
+        "1 He has an aged benefactor."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The mysterious archaeologist",
       "text": {
         "en": "Talk to Dr. Nabanik. He will give you a rope.",
         "es": "Habla con Dr. Nabanik. Te dará una cuerda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The mysterious archaeologist",
       "text": {
         "en": "Use the rope on the winch in the north-east dig site, north of The Stormbreaker ship.",
         "es": "Usa la cuerda en el torno del dig site del noreste, al norte del barco The Stormbreaker."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The mysterious archaeologist",
       "text": {
         "en": "Operate the winch to enter the Digsite dungeon.",
         "es": "Acciona el torno para entrar en la Digsite dungeon."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The mysterious archaeologist",
       "text": {
-        "en": "Talk to Azzanadra in the southern part of the dungeon. (opciones de chat: 1 I'd like to talk about the temple. • 1 Is there anything I can do to help? • 1 Okay, what do I need to do? • 2 Tell me about the mission in the north. • Any)",
-        "es": "Habla con Azzanadra en la parte sur de la mazmorra. (opciones de chat: 1 Me gustaría hablar sobre el templo. • 1 ¿Hay algo que pueda hacer para ayudar? • 1 Vale, ¿qué necesito hacer? • 2 Cuéntame sobre la misión en el norte. • Cualquiera)"
-      }
+        "en": "Talk to Azzanadra in the southern part of the dungeon.",
+        "es": "Habla con Azzanadra en la parte sur de la mazmorra."
+      },
+      "chatOptions": [
+        "1 I'd like to talk about the temple.",
+        "1 Is there anything I can do to help?",
+        "1 Okay, what do I need to do?",
+        "2 Tell me about the mission in the north.",
+        "Any"
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The mysterious archaeologist",
       "text": {
         "en": "Open the ruined backpack for a battered letter and heat globe.",
         "es": "Abre la mochila destrozada para conseguir una carta maltrecha y un globo térmico."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "The mysterious archaeologist",
       "text": {
-        "en": "Read the letter and then talk to Azzanadra. (opciones de chat: 1 I'd like to talk about the temple. • 1 Tell me about the mission in Morytania. • 1 I have some questions about the mission in Morytania. • 2 Do you have any advice for me? • 3 Let's talk about something else. • 4 Tell me about the artefacts you need. • 1 Tell me about the fortress artefact. • 2 Tell me about the Barrows artefact. • 4 Never mind.)",
-        "es": "Lee la carta y luego habla con Azzanadra. (opciones de chat: 1 Me gustaría hablar sobre el templo. • 1 Cuéntame sobre la misión en Morytania. • 1 Tengo algunas preguntas sobre la misión en Morytania. • 2 ¿Tienes algún consejo para mí? • 3 Hablemos de otra cosa. • 4 Cuéntame sobre los artefactos que necesitas. • 1 Cuéntame sobre el artefacto de la fortaleza. • 2 Cuéntame sobre el artefacto de los Barrows. • 4 Da igual.)"
-      }
+        "en": "Read the letter and then talk to Azzanadra.",
+        "es": "Lee la carta y luego habla con Azzanadra."
+      },
+      "chatOptions": [
+        "1 I'd like to talk about the temple.",
+        "1 Tell me about the mission in Morytania.",
+        "1 I have some questions about the mission in Morytania.",
+        "2 Do you have any advice for me?",
+        "3 Let's talk about something else.",
+        "4 Tell me about the artefacts you need.",
+        "1 Tell me about the fortress artefact.",
+        "2 Tell me about the Barrows artefact.",
+        "4 Never mind."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Barrows icon",
       "text": {
         "en": "Travel to the Barrows.",
         "es": "Viaja hasta los Barrows."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Barrows icon",
       "text": {
         "en": "Kill the six Barrows Brothers found in their tombs below the ground.",
         "es": "Mata a los seis Barrows Brothers que se encuentran en sus tumbas bajo tierra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Barrows icon",
       "text": {
         "en": "Barrows amulets can be used to skip killing up to three brothers.",
         "es": "Los Barrows amulets se pueden usar para saltarse la muerte de hasta tres hermanos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Barrows icon",
       "text": {
         "en": "Amulets can only be used on the tombs before the brother is summoned.",
         "es": "Los amuletos solo se pueden usar en las tumbas antes de que se invoque al hermano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Barrows icon",
       "text": {
         "en": "The final brother must be killed without using an amulet.",
         "es": "El último hermano debe ser derrotado sin usar ningún amuleto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Barrows icon",
       "text": {
         "en": "Once all six brothers are dead, search the chest at the centre of the tunnels beneath the crypts to get the Barrows icon.",
         "es": "Una vez que los seis hermanos estén muertos, registra el cofre en el centro de los túneles bajo las criptas para conseguir el Barrows icon."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Frostenhorn",
       "text": {
         "en": "Go to the Ghorrock fortress:",
         "es": "Ve a la fortaleza de Ghorrock:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Frostenhorn",
       "text": {
-        "en": "First use the canoe near Erjolf from Tale of the Muspah for a quick access. It is located on the west coast of the Rellekka Hunter area, north of fairy ring code .",
+        "en": "First use the canoe near Erjolf from Tale of the Muspah for a quick access. It is located on the west coast of the Rellekka Hunter area, north of fairy ring code DKS.",
         "es": "Primero usa la canoa cerca de Erjolf de Tale of the Muspah para un acceso rápido. Se encuentra en la costa oeste de la zona de Rellekka Hunter, al norte del código de fairy ring ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Frostenhorn",
       "text": {
         "en": "Go east and place the heat globe on the pedestal near the ice block entrance.",
         "es": "Ve hacia el este y coloca el globo térmico en el pedestal cerca de la entrada del bloque de hielo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Frostenhorn",
       "text": {
         "en": "Squeeze past the ice block.",
         "es": "Pasa apretujándote junto al bloque de hielo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Frostenhorn",
       "text": {
         "en": "Enter the fortress through the south entrance and climb-up the stairs to the west.",
         "es": "Entra en la fortaleza por la entrada sur y sube las escaleras hacia el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Frostenhorn",
       "text": {
         "en": "Run to the south-east corner of the castle and climb-down the stairs east.",
         "es": "Corre hasta la esquina sureste del castillo y baja las escaleras hacia el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Frostenhorn",
       "text": {
         "en": "Scale up the damaged wall north of the door.",
         "es": "Escala el muro dañado al norte de la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Frostenhorn",
       "text": {
         "en": "Climb down the smashed rampart in the north-west corner.",
         "es": "Baja por la almena destrozada en la esquina noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Frostenhorn",
       "text": {
         "en": "Enter the trapdoor in front of you.",
         "es": "Entra por la trampilla que tienes delante."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Upper level",
       "text": {
         "en": "Run east and take the heat globe.",
         "es": "Corre hacia el este y coge el globo térmico."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Upper level",
       "text": {
         "en": "Return to the entrance room of the basement, and place the heat globe on the pedestal on the west side.",
         "es": "Regresa a la sala de entrada del sótano y coloca el globo térmico en el pedestal del lado oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Upper level",
       "text": {
         "en": "A waterfiend will be released. It is immune to fire damage, but does not need to be killed.",
         "es": "Se liberará un waterfiend. Es inmune al daño de fuego, pero no es necesario matarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Upper level",
       "text": {
         "en": "Go inside the west room, then right-click the radiant pedestal to cast Telekinetic Grab on it.",
         "es": "Entra en la sala oeste, luego haz clic derecho en el pedestal radiante para lanzar Telekinetic Grab sobre él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Upper level",
       "text": {
         "en": "Use the globe on this room's pedestal. Go down the trapdoor.",
         "es": "Usa el globo en el pedestal de esta sala. Baja por la trampilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Upper level",
       "text": {
         "en": "A waterfiend will be released. It is immune to fire damage, but does not need to be killed.",
         "es": "Se liberará un waterfiend. Es inmune al daño de fuego, pero no es necesario matarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Lower level",
       "text": {
         "en": "Pick up the globe in the southern room.",
         "es": "Coge el globo en la sala del sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Lower level",
       "text": {
         "en": "Use it on the pedestal back in the northern room with the ladder. 2 waterfiends will spawn.",
         "es": "Úsalo en el pedestal de vuelta en la sala del norte con la escalera. Aparecerán 2 waterfiends."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Lower level",
       "text": {
         "en": "Loot the crates in the south room for 40 law runes and 300 air runes.",
         "es": "Saquea las cajas de la sala del sur para conseguir 40 law runes y 300 air runes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Lower level",
       "text": {
         "en": "Go to the east room and take the globe from the pedestal for an imperfect heat globe.",
         "es": "Ve a la sala del este y coge el globo del pedestal para conseguir un globo térmico imperfecto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Lower level",
       "text": {
         "en": "Exit the dungeon the way you entered.",
         "es": "Sal de la mazmorra por donde entraste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Surface",
       "text": {
         "en": "Scale the damaged wall to the west, then head to the north-east corner to the destroyed pedestal.",
         "es": "Escala el muro dañado hacia el oeste, luego dirígete a la esquina noreste, hasta el pedestal destruido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Surface",
       "text": {
         "en": "Insert-globe in the smashed globe-holder on the ground.",
         "es": "Elige la opción \"Insert-globe\" en el soporte de globo destrozado en el suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Surface",
       "text": {
         "en": "Choose the push option on the smashed globe-holder on the ground.",
         "es": "Elige la opción \"Empujar\" en el soporte de globo destrozado en el suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Surface",
       "text": {
         "en": "After a cutscene, climb down the smashed rampart in the north-west corner.",
         "es": "Después de una escena cinemática, baja por la almena destrozada en la esquina noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Surface",
       "text": {
-        "en": "Return to the dungeon by re-entering the trapdoor. (opciones de chat: 1 Yes, carry on from where I was.)",
-        "es": "Regresa a la mazmorra volviendo a entrar por la trampilla. (opciones de chat: 1 Sí, continúa desde donde lo dejé.)"
-      }
+        "en": "Return to the dungeon by re-entering the trapdoor.",
+        "es": "Regresa a la mazmorra volviendo a entrar por la trampilla."
+      },
+      "chatOptions": [
+        "1 Yes, carry on from where I was."
+      ]
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Lower level",
       "text": {
         "en": "Go down the trapdoor in the western room.",
         "es": "Baja por la trampilla en la sala oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Lower level",
       "text": {
         "en": "Run through the dungeon and take the heat globe from the pedestal in the southwestern corner.",
         "es": "Corre a través de la mazmorra y coge el globo térmico del pedestal en la esquina suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Lower level",
       "text": {
         "en": "Head back east through the hallway you ran through until you reach the southeast corner, where the path turns north.",
         "es": "Regresa hacia el este por el pasillo por el que corriste hasta llegar a la esquina sureste, donde el camino gira hacia el norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Lower level",
       "text": {
         "en": "At that corner, look for a pipe on the south wall.",
         "es": "En esa esquina, busca una tubería en la pared sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Lower level",
       "text": {
         "en": "Choose the \"Place-globe\" option on the pipe.",
         "es": "Elige la opción \"Place-globe\" en la tubería."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Lower level",
       "text": {
         "en": "Choose the \"Whack\" option on the pipe.",
         "es": "Elige la opción \"Whack\" en la tubería."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Lower level",
       "text": {
         "en": "Continue into the southeastern room and climb the ladder to go up.",
         "es": "Continúa hacia la sala sureste y sube por la escalera para subir."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Upper level",
       "text": {
         "en": "Head west and kill the ice demon (it cannot be damaged by water spells).",
         "es": "Dirígete hacia el oeste y mata al ice demon (no puede ser dañado por hechizos de agua)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Upper level",
       "text": {
         "en": "Take the Frostenhorn that it drops.",
         "es": "Coge el Frostenhorn que suelta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "The big bang",
       "text": {
-        "en": "Return to Azzanadra with the items back at the Senntisten Temple underneath the Dig Site. (opciones de chat: 1 I'd like to talk about the temple. • 1 I have something here for you. • 1 What does the Frosthorn do? • 1 Okay, what do I need to obtain next?)",
-        "es": "Regresa con Azzanadra con los objetos, de vuelta en el Senntisten Temple bajo el Dig Site. (opciones de chat: 1 Me gustaría hablar sobre el templo. • 1 Tengo algo aquí para ti. • 1 ¿Qué hace el Frosthorn? • 1 Vale, ¿qué necesito conseguir a continuación?)"
-      }
+        "en": "Return to Azzanadra with the items back at the Senntisten Temple underneath the Dig Site.",
+        "es": "Regresa con Azzanadra con los objetos, de vuelta en el Senntisten Temple bajo el Dig Site."
+      },
+      "chatOptions": [
+        "1 I'd like to talk about the temple.",
+        "1 I have something here for you.",
+        "1 What does the Frosthorn do?",
+        "1 Okay, what do I need to obtain next?"
+      ]
     },
     {
       "index": 53,
       "indent": 1,
+      "section": "The big bang",
       "text": {
         "en": "The Dig Site pendant can be used to teleport outside the temple (option 2).",
         "es": "El Dig Site pendant se puede usar para teletransportarte fuera del templo (opción 2)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "The big bang",
       "text": {
-        "en": "Back outside near the winch, talk to the Assassin for a relic. (opciones de chat: 1 Mask or no mask, I remember you. • Any • Any • Any)",
-        "es": "De vuelta afuera cerca del torno, habla con el Assassin para conseguir una reliquia. (opciones de chat: 1 Con máscara o sin ella, te recuerdo. • Cualquiera • Cualquiera • Cualquiera)"
-      }
+        "en": "Back outside near the winch, talk to the Assassin for a relic.",
+        "es": "De vuelta afuera cerca del torno, habla con el Assassin para conseguir una reliquia."
+      },
+      "chatOptions": [
+        "1 Mask or no mask, I remember you.",
+        "Any",
+        "Any",
+        "Any"
+      ]
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "The big bang",
       "text": {
-        "en": "Return to Azzanadra. (opciones de chat: 1 I'd like to talk about the temple. • 5 Anyway, what now? • 2 I'm not interested, I just want a reward • 3 Boring! Get on with it!)",
-        "es": "Regresa con Azzanadra. (opciones de chat: 1 Me gustaría hablar sobre el templo. • 5 En fin, ¿ahora qué? • 2 No me interesa, solo quiero mi recompensa • 3 ¡Qué aburrido! ¡Continúa de una vez!)"
-      }
+        "en": "Return to Azzanadra.",
+        "es": "Regresa con Azzanadra."
+      },
+      "chatOptions": [
+        "1 I'd like to talk about the temple.",
+        "5 Anyway, what now?",
+        "2 I'm not interested, I just want a reward",
+        "3 Boring! Get on with it!"
+      ]
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "The big bang",
       "text": {
-        "en": "After the cutscene, speak to Azzanadra again. (opciones de chat: 1 I'm glad I could help. • Any)",
-        "es": "Después de la escena cinemática, habla de nuevo con Azzanadra. (opciones de chat: 1 Me alegro de haber podido ayudar. • Cualquiera)"
-      }
+        "en": "After the cutscene, speak to Azzanadra again.",
+        "es": "Después de la escena cinemática, habla de nuevo con Azzanadra."
+      },
+      "chatOptions": [
+        "1 I'm glad I could help.",
+        "Any"
+      ]
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "The big bang",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

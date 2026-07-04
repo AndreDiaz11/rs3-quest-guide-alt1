@@ -2,7 +2,8 @@
   "id": "defender-of-varrock",
   "title": "Defender of Varrock",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T01:47:34.799Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:54.441Z",
   "icon": "https://runescape.wiki/images/Defender_of_Varrock_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -156,335 +157,437 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Defender_of_Varrock_reward.png?e6368",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Tracking",
       "text": {
         "en": "Dismiss any followers now.",
         "es": "Despide a tus seguidores ahora."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Tracking",
       "text": {
-        "en": "Talk to Captain Rovin in Varrock Palace, on the of north-west tower. (opciones de chat: 1 Ooh, good, sounds like a quest. • Accept • 1 Okay, let's get going.)",
-        "es": "Habla con Captain Rovin en Varrock Palace, en la torre noroeste. (opciones de chat: 1 Oh, bien, suena a una misión. • Aceptar • 1 Vale, vamos allá.)"
-      }
+        "en": "Talk to Captain Rovin in Varrock Palace, on the of north-west tower.",
+        "es": "Habla con Captain Rovin en Varrock Palace, en la torre noroeste."
+      },
+      "chatOptions": [
+        "1 Ooh, good, sounds like a quest.",
+        "Accept",
+        "1 Okay, let's get going."
+      ]
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Tracking",
       "text": {
         "en": "If he will not give you the quest, make sure you have claimed kudos from Historian Minas at Varrock Museum.",
         "es": "Si no te da la misión, asegúrate de haber reclamado los kudos de Historian Minas en Varrock Museum."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Tracking",
       "text": {
-        "en": "Enter the Graveyard of Shadows, then talk to Hartwin. (opciones de chat: 1 I want to talk about the mission.)",
-        "es": "Entra en el Graveyard of Shadows y luego habla con Hartwin. (opciones de chat: 1 Quiero hablar sobre la misión.)"
-      }
+        "en": "Enter the Graveyard of Shadows, then talk to Hartwin.",
+        "es": "Entra en el Graveyard of Shadows y luego habla con Hartwin."
+      },
+      "chatOptions": [
+        "1 I want to talk about the mission."
+      ]
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Tracking",
       "text": {
         "en": "Make sure Hartwin is following you in this section.",
         "es": "Asegúrate de que Hartwin te esté siguiendo en esta sección."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Tracking",
       "text": {
         "en": "If you lose Hartwin for any reason, he can be found back at the Varrock Palace.",
         "es": "Si pierdes a Hartwin por cualquier motivo, puedes encontrarlo de nuevo en Varrock Palace."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Tracking",
       "text": {
         "en": "Inspect the tree stump just south of the west graveyard entrance (just south of the arch) to uncover more footprints.",
         "es": "Examina el tocón de árbol justo al sur de la entrada oeste del cementerio (justo al sur del arco) para descubrir más huellas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Tracking",
       "text": {
         "en": "Follow the footprints and continue searching bushes, trees, stumps, mushrooms, and bones to uncover more footprints.",
         "es": "Sigue las huellas y continúa registrando arbustos, árboles, tocones, setas y huesos para descubrir más huellas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Tracking",
       "text": {
         "en": "Search the small forest of dead trees south of the Graveyard of Shadows, northwest of the Chaos Temple for a grubby key.",
         "es": "Registra el pequeño bosque de árboles muertos al sur del Graveyard of Shadows, al noroeste del Chaos Temple, para encontrar una llave mugrienta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Tracking",
       "text": {
         "en": "The trail eventually leads to Simon near the Chaos Temple.",
         "es": "El rastro finalmente lleva hasta Simon, cerca del Chaos Temple."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Tracking",
       "text": {
         "en": "Run south to the trapdoor, unlock it using the grubby key and climb down.",
         "es": "Corre hacia el sur hasta la trampilla, ábrela con la llave mugrienta y baja por ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Undead army",
       "text": {
         "en": "Run north and look over the balcony.",
         "es": "Corre hacia el norte y mira por encima del balcón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Undead army",
       "text": {
         "en": "Run west and take 3 bottles.",
         "es": "Corre hacia el oeste y coge 3 botellas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Undead army",
       "text": {
         "en": "Kill 3 armoured zombies, using the bottles on red mist to fill them.",
         "es": "Mata a 3 zombis acorazados, usando las botellas en la niebla roja para llenarlas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Undead army",
       "text": {
         "en": "Proceed deeper into the cave through the door.",
         "es": "Adéntrate más en la cueva a través de la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Undead army",
       "text": {
         "en": "Run north and kill 3 armoured zombies again, using the bottles on red mist to fill them.",
         "es": "Corre hacia el norte y mata a 3 zombis acorazados de nuevo, usando las botellas en la niebla roja para llenarlas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Undead army",
       "text": {
         "en": "Go through the next door and look over another balcony.",
         "es": "Cruza la siguiente puerta y mira por encima de otro balcón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Undead army",
       "text": {
         "en": "Hartwin will give you a Varrock teleport tablet to return to Varrock quickly.",
         "es": "Hartwin te dará una Varrock teleport tablet para regresar a Varrock rápidamente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Undead army",
       "text": {
         "en": "Return to Captain Rovin in Varrock.",
         "es": "Regresa con Captain Rovin en Varrock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "The Sacred Forge",
       "text": {
-        "en": "Talk to Thurgo in Thurgo's Peninsula, south of Port Sarim lodestone, north of fairy ring . (opciones de chat: 3 I'd like to ask about the Shield of Arrav.) or (opciones de chat: 4 I'd like to ask about the Shield of Arrav.) if you have 99 Smithing.",
+        "en": "Talk to Thurgo in Thurgo's Peninsula, south of Port Sarim lodestone, north of fairy ring AIQ. or if you have 99 Smithing.",
         "es": "Habla con Thurgo en Thurgo's Peninsula, al sur del lodestone de Port Sarim, al norte del fairy ring. (opciones de chat: 3 Me gustaría preguntar sobre el Shield of Arrav.) o (opciones de chat: 4 Me gustaría preguntar sobre el Shield of Arrav.) si tienes 99 de Herrería."
-      }
+      },
+      "chatOptions": [
+        "3 I'd like to ask about the Shield of Arrav.",
+        "4 I'd like to ask about the Shield of Arrav."
+      ]
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "The Sacred Forge",
       "text": {
         "en": "If you don't have a blurite ore, now is the opportune time to mine one in the snowy area of the dungeon nearby.",
         "es": "Si no tienes mineral de blurite, ahora es el momento oportuno para minar uno en la zona nevada de la mazmorra cercana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "The Sacred Forge",
       "text": {
         "en": "Climb Ice Mountain, west of Edgeville.",
         "es": "Sube a Ice Mountain, al oeste de Edgeville."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The Sacred Forge",
       "text": {
         "en": "Dig with your spade 2 steps on east of the white tree, next to the material caches, near the dungeon icon (link=).",
         "es": "Cava con tu pala 2 pasos al este del árbol blanco, junto a los alijos de materiales, cerca del icono de mazmorra (link=)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "The Sacred Forge",
       "text": {
         "en": "Dig the churned-up snow then enter the hole.",
         "es": "Cava la nieve removida y luego entra en el agujero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "The Sacred Forge",
       "text": {
         "en": "Talk to Ramarno. If you have a redberry pie, you can give it to Ramarno for 1,000 Smithing experience.",
         "es": "Habla con Ramarno. Si tienes un redberry pie, puedes dárselo a Ramarno para obtener 1.000 puntos de experiencia en Herrería."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "The Sacred Forge",
       "text": {
         "en": "Use blurite ore on the forge.",
         "es": "Usa el mineral de blurite en la fragua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "The Sacred Forge",
       "text": {
         "en": "Talk to Ramarno for a cutscene (note that pressing escape during the cutscene will reset it).",
         "es": "Habla con Ramarno para ver una escena (ten en cuenta que pulsar escape durante la escena la reiniciará)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Zombie invasion",
       "text": {
         "en": "Return to Captain Rovin, ignoring the zombies. He gives you a restored shield.",
         "es": "Regresa con Captain Rovin, ignorando a los zombis. Te entregará un escudo restaurado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Zombie invasion",
       "text": {
         "en": "Talk to Reldo in the library on the : \"''I'd like to talk about the invading zombies.''\" <!--This can be either 3, 4, or 5, depending on account progression-->",
         "es": "Habla con Reldo en la biblioteca sobre: \"''Me gustaría hablar sobre los zombis invasores.''\" <!--This can be either 3, 4, or 5, depending on account progression-->"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Zombie invasion",
       "text": {
         "en": "Read the Varrock Census on the lectern.",
         "es": "Lee el Varrock Census en el atril."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Zombie invasion",
       "text": {
         "en": "Search the scrolls on the floor a few steps south after talking to Reldo about the situation.",
         "es": "Registra los pergaminos en el suelo unos pasos al sur, después de hablar con Reldo sobre la situación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Zombie invasion",
       "text": {
         "en": "Read the list of elders.",
         "es": "Lee la lista de ancianos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Shield of Arrav",
       "text": {
         "en": "Talk to the following NPCs until one mentions they are not a blood descendant:",
         "es": "Habla con los siguientes NPC hasta que uno mencione que no es un descendiente de sangre:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "Shield of Arrav",
       "text": {
-        "en": "King Roald, southeast corner of the (opciones de chat: 1 Talk about Zombies.) or (opciones de chat: 2 Talk about Zombies.) if the quest Lord of Vampyrium has been completed.",
+        "en": "King Roald, southeast corner of the or if the quest Lord of Vampyrium has been completed.",
         "es": "King Roald, en la esquina sureste del (opciones de chat: 1 Hablar sobre los zombis.) o (opciones de chat: 2 Hablar sobre los zombis.) si se ha completado la misión Lord of Vampyrium."
-      }
+      },
+      "chatOptions": [
+        "1 Talk about Zombies.",
+        "2 Talk about Zombies."
+      ]
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "Shield of Arrav",
       "text": {
-        "en": "Aeonisig Raispher, next to King Roald. (opciones de chat: 1 Defender of Varrock. • 1 Talk about the zombie invasion.)",
-        "es": "Aeonisig Raispher, junto a King Roald. (opciones de chat: 1 Defensor de Varrock. • 1 Hablar sobre la invasión zombi.)"
-      }
+        "en": "Aeonisig Raispher, next to King Roald.",
+        "es": "Aeonisig Raispher, junto a King Roald."
+      },
+      "chatOptions": [
+        "1 Defender of Varrock.",
+        "1 Talk about the zombie invasion."
+      ]
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Shield of Arrav",
       "text": {
         "en": "Sir Prysin, west of the king.",
         "es": "Sir Prysin, al oeste del rey."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "Shield of Arrav",
       "text": {
-        "en": "Curator Haig Halen, in the Varrock Museum. (opciones de chat: 1 Talk about the zombie invasion.)",
-        "es": "Curator Haig Halen, en el Varrock Museum. (opciones de chat: 1 Hablar sobre la invasión zombi.)"
-      }
+        "en": "Curator Haig Halen, in the Varrock Museum.",
+        "es": "Curator Haig Halen, en el Varrock Museum."
+      },
+      "chatOptions": [
+        "1 Talk about the zombie invasion."
+      ]
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Shield of Arrav",
       "text": {
         "en": "Horvik the smith north-east of Varrock Square.",
         "es": "Horvik the smith, al noreste de Varrock Square."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Shield of Arrav",
       "text": {
-        "en": "Talk to Dimintheis in south-east Varrock where you started the quest Family Crest. (opciones de chat: 2 Ask about something else.)",
-        "es": "Habla con Dimintheis en el sureste de Varrock, donde comenzaste la misión Family Crest. (opciones de chat: 2 Preguntar sobre otra cosa.)"
-      }
+        "en": "Talk to Dimintheis in south-east Varrock where you started the quest Family Crest.",
+        "es": "Habla con Dimintheis en el sureste de Varrock, donde comenzaste la misión Family Crest."
+      },
+      "chatOptions": [
+        "2 Ask about something else."
+      ]
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Shield of Arrav",
       "text": {
         "en": "Talk to Captain Rovin.",
         "es": "Habla con Captain Rovin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Shield of Arrav",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

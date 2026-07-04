@@ -2,7 +2,8 @@
   "id": "head-of-the-family-miniquest",
   "title": "Head of the Family (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:26:54.247Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:21.569Z",
   "icon": "https://runescape.wiki/images/thumb/Head_of_the_Family_%28miniquest%29_icon.png/50px-Head_of_the_Family_%28miniquest%29_icon.png",
   "series": "Tales of the Arc",
   "age": "6",
@@ -100,127 +101,164 @@
       "image": "https://runescape.wiki/images/thumb/Cap%27n_Ekahi.png/100px-Cap%27n_Ekahi.png?ef5e0"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Head_of_the_Family_%28miniquest%29_reward.png?70ed0",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Moai transport",
       "text": {
-        "en": "Talk to the Waiko moai on the hill north-east of Waiko (if you have just completed Impressing the Locals you may need to relog for the chat options to appear). (opciones de chat: Accept • 1 Hello. Who are you? • 4 Farewell.)",
-        "es": "Habla con el moai de Waiko en la colina al noreste de Waiko (si acabas de completar Impressing the Locals, puede que necesites reconectarte para que aparezcan las opciones de chat). (opciones de chat: Accept • 1 Hello. Who are you? • 4 Farewell.)"
-      }
+        "en": "Talk to the Waiko moai on the hill north-east of Waiko (if you have just completed Impressing the Locals you may need to relog for the chat options to appear).",
+        "es": "Habla con el moai de Waiko en la colina al noreste de Waiko (si acabas de completar Impressing the Locals, puede que necesites reconectarte para que aparezcan las opciones de chat)."
+      },
+      "chatOptions": [
+        "Accept",
+        "1 Hello. Who are you?",
+        "4 Farewell."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Moai transport",
       "text": {
         "en": "Charter a ship to Aminishi (Use Quartermaster Gully).",
         "es": "Contrata un barco a Aminishi (usa a Quartermaster Gully)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Moai transport",
       "text": {
         "en": "Run north along the west coast and talk to Aminishi moai.",
         "es": "Corre hacia el norte a lo largo de la costa oeste y habla con el moai de Aminishi."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Moai transport",
       "text": {
         "en": "Sail back to Waiko and talk to Rosie in the north-west section of the marketplace. Don't buy any supplies.",
         "es": "Navega de vuelta a Waiko y habla con Rosie en la sección noroeste del mercado. No compres suministros."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Moai transport",
       "text": {
         "en": "Run south-east past the bamboo stalks and talk to Yuehanxun the Dealer. Confirm the payment of 15 fish oil.",
         "es": "Corre hacia el sureste pasando los tallos de bambú y habla con Yuehanxun the Dealer. Confirma el pago de 15 aceites de pescado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Moai transport",
       "text": {
-        "en": "Sail to Whale's Maw and on the north-west coast, talk to Sea Witch Kaula. (opciones de chat: 3 Tell me of the moai that travelled on water.)",
-        "es": "Navega hasta Whale's Maw y en la costa noroeste, habla con Sea Witch Kaula. (opciones de chat: 3 Tell me of the moai that travelled on water.)"
-      }
+        "en": "Sail to Whale's Maw and on the north-west coast, talk to Sea Witch Kaula.",
+        "es": "Navega hasta Whale's Maw y en la costa noroeste, habla con Sea Witch Kaula."
+      },
+      "chatOptions": [
+        "3 Tell me of the moai that travelled on water."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Moai transport",
       "text": {
         "en": "Return to Rosie for a soil bag. Don't buy any supplies.",
         "es": "Regresa con Rosie para conseguir una bolsa de tierra. No compres suministros."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Moai transport",
       "text": {
         "en": "Sail to Aminishi and fill the bag on the beach.",
         "es": "Navega hasta Aminishi y llena la bolsa en la playa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Moai transport",
       "text": {
         "en": "Return to Rosie (with filled bag, 5 bamboo, and 150 chimes) and confirm the payment. Don't buy any supplies.",
         "es": "Regresa con Rosie (con la bolsa llena, 5 bambús y 150 chimes) y confirma el pago. No compres suministros."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Moai transport",
       "text": {
         "en": "Sail to Aminishi, run east and talk to Cap'n Ekahi. Confirm the payment of 300 chimes.",
         "es": "Navega hasta Aminishi, corre hacia el este y habla con Cap'n Ekahi. Confirma el pago de 300 chimes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Moai transport",
       "text": {
         "en": "Talk to Aminishi moai, north of your ship.",
         "es": "Habla con el moai de Aminishi, al norte de tu barco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "An eye for an eye",
       "text": {
         "en": "Travel by the Rowboat next to Cap'n Ekahi on Aminishi.",
         "es": "Viaja en el Rowboat junto a Cap'n Ekahi en Aminishi."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "An eye for an eye",
       "text": {
         "en": "Enable deflect Melee and defeat the 3 cyclopes. There is a safespot behind the mast.",
         "es": "Activa desviar Melee y derrota a los 3 cíclopes. Hay un lugar seguro detrás del mástil."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "An eye for an eye",
       "text": {
         "en": "Return to Waiko moai where you started the quest.",
         "es": "Regresa con el moai de Waiko donde empezaste la misión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "An eye for an eye",
       "text": {
         "en": "Miniquest complete!",
         "es": "¡Miniquest completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

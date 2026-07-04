@@ -2,7 +2,8 @@
   "id": "lost-city",
   "title": "Lost City",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:36:32.910Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:33.925Z",
   "icon": "https://runescape.wiki/images/Lost_City_icon.png",
   "series": "Fairy",
   "age": "5",
@@ -79,167 +80,219 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Lost_City_reward.png?50b0e",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Seeking the lost city",
       "text": {
-        "en": "Talk to the Warrior northwest of the Lumbridge swamp to start the quest. (opciones de chat: 1 Why are you camped out here? • 1 Who's Zanaris? • 1 If it's hidden, how are you planning to find it? • 2 Looks like you don't know either. • Accept)",
-        "es": "Habla con el Warrior al noroeste del Lumbridge swamp para comenzar la misión. (opciones de chat: 1 ¿Por qué estás acampado aquí? • 1 ¿Quién es Zanaris? • 1 Si está oculta, ¿cómo piensas encontrarla? • 2 Parece que tú tampoco lo sabes. • Aceptar)"
-      }
+        "en": "Talk to the Warrior northwest of the Lumbridge swamp to start the quest.",
+        "es": "Habla con el Warrior al noroeste del Lumbridge swamp para comenzar la misión."
+      },
+      "chatOptions": [
+        "1 Why are you camped out here?",
+        "1 Who's Zanaris?",
+        "1 If it's hidden, how are you planning to find it?",
+        "2 Looks like you don't know either.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Seeking the lost city",
       "text": {
         "en": "Attempt to chop the swamp tree south of the campsite - There will be an option to \"chop\" tree instead of \"chop down\" tree, and a quest icon File:Lost City entity icon.png on the tooltip.",
         "es": "Intenta talar el árbol del pantano al sur del campamento - Aparecerá la opción de \"talar\" el árbol en lugar de \"cortar\" el árbol, y un icono de misión File:Lost City entity icon.png en la descripción emergente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Seeking the lost city",
       "text": {
-        "en": "Talk to Shamus. (opciones de chat: 2 I've been in that shed and I didn't see a city. • 1 Yes, please, a teleport would be useful.)",
-        "es": "Habla con Shamus. (opciones de chat: 2 He estado en ese cobertizo y no vi ninguna ciudad. • 1 Sí, por favor, un teletransporte sería útil.)"
-      }
+        "en": "Talk to Shamus.",
+        "es": "Habla con Shamus."
+      },
+      "chatOptions": [
+        "2 I've been in that shed and I didn't see a city.",
+        "1 Yes, please, a teleport would be useful."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Bring items to craft a weapon on Entrana. If you plan on using magic, you must have a magic weapon; you cannot cast spells without one. You can also remove tool belt items once you enter the dungeon, e.g. a mithril hatchet, for use in combat.",
         "es": "Trae objetos para fabricar un arma en Entrana. Si piensas usar magia, debes tener un arma mágica; no puedes lanzar hechizos sin una. También puedes sacar objetos del cinturón de herramientas al entrar en la mazmorra, como un hacha de mithril, para usarlos en combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Talk to the monks in Port Sarim to be transported to Entrana.",
         "es": "Habla con los monjes en Port Sarim para que te transporten a Entrana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Do not craft your weapons now or you'll be thrown out of Entrana.",
         "es": "No fabriques tus armas ahora o serás expulsado de Entrana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Run north-west though the wooded area to the dungeon entrance ladder.",
         "es": "Corre hacia el noroeste a través de la zona boscosa hasta la escalera de entrada a la mazmorra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Entrana",
       "text": {
-        "en": "Enter the dungeon. (opciones de chat: 2 Well, that is a risk I will have to take.)",
-        "es": "Entra en la mazmorra. (opciones de chat: 2 Bueno, es un riesgo que tendré que asumir.)"
-      }
+        "en": "Enter the dungeon.",
+        "es": "Entra en la mazmorra."
+      },
+      "chatOptions": [
+        "2 Well, that is a risk I will have to take."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Craft your weapons now.",
         "es": "Fabrica tus armas ahora."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Run to the southern-most part of the dungeon.",
         "es": "Corre hasta la parte más al sur de la mazmorra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Chop the dramen tree.",
         "es": "Tala el árbol dramen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Kill the dramen tree spirit.",
         "es": "Mata al espíritu del árbol dramen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Entrana",
       "text": {
         "en": "Make sure to let the dialogue appear before chopping again, or you may spawn a second spirit.",
         "es": "Asegúrate de dejar que aparezca el diálogo antes de volver a talar, o podrías hacer aparecer un segundo espíritu."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Chop the dramen tree again.",
         "es": "Tala el árbol dramen otra vez."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Craft the dramen branch using a knife.",
         "es": "Fabrica la rama de dramen usando un cuchillo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Entrana",
       "text": {
         "en": "If you have not completed the quest Recipe for Disaster: Freeing Sir Amik Varze yet, you may want to get a second dramen branch and craft it with the pestle and mortar. This gives an item required for the quest, cinnamon, and saves an otherwise necessary second trip to the island.",
         "es": "Si aún no has completado la misión Recipe for Disaster: Freeing Sir Amik Varze, quizás quieras conseguir una segunda rama de dramen y fabricarla con el mortero y la maja. Esto te da un objeto necesario para esa misión, canela, y te ahorra un viaje adicional a la isla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Enter the door to the east or teleport out.",
         "es": "Entra por la puerta hacia el este o teletranspórtate fuera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Zanaris",
       "text": {
         "en": "Wield your dramen staff.",
         "es": "Equípate el bastón de dramen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Zanaris",
       "text": {
         "en": "Enter the shed in the centre of the Lumbridge swamp (south-east of the quest start).",
         "es": "Entra en el cobertizo en el centro del Lumbridge swamp (al sureste del inicio de la misión)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Zanaris",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

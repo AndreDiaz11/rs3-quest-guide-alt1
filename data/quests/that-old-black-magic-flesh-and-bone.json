@@ -2,7 +2,8 @@
   "id": "that-old-black-magic-flesh-and-bone",
   "title": "That Old Black Magic: Flesh and Bone",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:22:13.842Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:11.963Z",
   "icon": "https://runescape.wiki/images/thumb/That_Old_Black_Magic_icon.png/50px-That_Old_Black_Magic_icon.png",
   "length": "Short",
   "startPoint": {
@@ -54,55 +55,75 @@
       "image": "https://runescape.wiki/images/Soul_%28Well_of_Souls%29.png?69d0c"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/That_Old_Black_Magic-_Flesh_and_Bone_reward.png?f9eb2",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Delivering the keys",
       "text": {
         "en": "Talk to Zommy 'Brains' Walker (red pin on map to the right) at the centre of the City of Um, behind Death, to accept the subquest.",
         "es": "Habla con Zommy 'Brains' Walker (marcador rojo en el mapa a la derecha) en el centro de la City of Um, detrás de Death, para aceptar la submisión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Delivering the keys",
       "text": {
-        "en": "Head north-east to talk to the Former Master Crafter (blue pin on map to the right). (opciones de chat: 1 Ask about piano keys.)",
-        "es": "Dirígete al noreste para hablar con el Former Master Crafter (marcador azul en el mapa a la derecha). (opciones de chat: 1 Preguntar sobre las teclas de piano.)"
-      }
+        "en": "Head north-east to talk to the Former Master Crafter (blue pin on map to the right).",
+        "es": "Dirígete al noreste para hablar con el Former Master Crafter (marcador azul en el mapa a la derecha)."
+      },
+      "chatOptions": [
+        "1 Ask about piano keys."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Delivering the keys",
       "text": {
-        "en": "Talk to him to give him 520 bone runes and 360 flesh runes. (opciones de chat: 1 Yes. • 1 Yes.)",
-        "es": "Habla con él para darle 520 bone runes y 360 flesh runes. (opciones de chat: 1 Sí. • 1 Sí.)"
-      }
+        "en": "Talk to him to give him 520 bone runes and 360 flesh runes.",
+        "es": "Habla con él para darle 520 bone runes y 360 flesh runes."
+      },
+      "chatOptions": [
+        "1 Yes.",
+        "1 Yes."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Delivering the keys",
       "text": {
         "en": "Take the white and black piano keys from the Former Master Crafter and return to Zommy.",
         "es": "Coge las teclas de piano blancas y negras del Former Master Crafter y vuelve con Zommy."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Delivering the keys",
       "text": {
-        "en": "Give Zommy the piano keys. (opciones de chat: 1 Yes.)",
-        "es": "Dale las teclas de piano a Zommy. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Give Zommy the piano keys.",
+        "es": "Dale las teclas de piano a Zommy."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Delivering the keys",
       "text": {
         "en": "Subquest complete!",
         "es": "¡Submisión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

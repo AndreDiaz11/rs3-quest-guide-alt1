@@ -2,7 +2,8 @@
   "id": "rebuilding-edgeville-miniquest",
   "title": "Rebuilding Edgeville (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-04T02:06:30.457Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:52.196Z",
   "icon": "https://runescape.wiki/images/Rebuilding_Edgeville_%28miniquest%29_icon.png",
   "series": null,
   "age": "6",
@@ -147,143 +148,185 @@
       "image": "https://runescape.wiki/images/thumb/Effy_pet.png/100px-Effy_pet.png?7f749"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Rebuilding_Edgeville_%28miniquest%29_reward.png?401ad",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Checklist",
       "text": {
-        "en": "Start by talking to Vannaka near the lever teleport from Edgeville, for a To-Do list. (opciones de chat: 3 Did you see what attacked Edgeville? • Accept).",
+        "en": "Start by talking to Vannaka near the lever teleport from Edgeville, for a To-Do list. .",
         "es": "Empieza hablando con Vannaka cerca del teletransporte de la palanca desde Edgeville, para obtener una lista de tareas. (opciones de chat: 3 ¿Viste qué atacó Edgeville? • Aceptar)."
-      }
+      },
+      "chatOptions": [
+        "3 Did you see what attacked Edgeville?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Checklist",
       "text": {
         "en": "Head to Aggie's house which is north-west of the Draynor Village bank and take the broom when Aggie is not looking at you to obtain Aggie's broom (uncharged).",
         "es": "Dirígete a la casa de Aggie, al noroeste del banco de Draynor Village, y coge la escoba cuando Aggie no te esté mirando para obtener la escoba de Aggie (sin cargar)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Checklist",
       "text": {
         "en": "Charge the uncharged broom with 100 water runes to obtain Aggie's broom.",
         "es": "Carga la escoba sin cargar con 100 runas de agua para obtener la escoba de Aggie."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Checklist",
       "text": {
         "en": "Head back to Edgeville and sweep four scorch marks.",
         "es": "Vuelve a Edgeville y barre las cuatro marcas de quemaduras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Checklist",
       "text": {
-        "en": "Talk to Jeffery, who is east of the bank and near a furnace, for Jeffery's hammer. (opciones de chat: 2 Have you seen the damage done to Edgeville?)",
-        "es": "Habla con Jeffery, que está al este del banco y cerca de una fragua, para conseguir el martillo de Jeffery. (opciones de chat: 2 ¿Has visto los daños causados en Edgeville?)"
-      }
+        "en": "Talk to Jeffery, who is east of the bank and near a furnace, for Jeffery's hammer.",
+        "es": "Habla con Jeffery, que está al este del banco y cerca de una fragua, para conseguir el martillo de Jeffery."
+      },
+      "chatOptions": [
+        "2 Have you seen the damage done to Edgeville?"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Checklist",
       "text": {
         "en": "Fix the following buildings by getting close to the locations and selecting the first option of the hammer in your backpack. You will need to remove them from your plank box if using that to carry them.",
         "es": "Repara los siguientes edificios acercándote a las ubicaciones y seleccionando la primera opción del martillo en tu mochila. Deberás sacarlos de tu caja de tablones si la usas para transportarlos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Checklist",
       "text": {
         "en": "The house north of the bank, requiring ten mahogany planks.",
         "es": "La casa al norte del banco, que requiere diez tablones de caoba."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Checklist",
       "text": {
         "en": "The market stall north of the bank, requiring ten planks.",
         "es": "El puesto de mercado al norte del banco, que requiere diez tablones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Checklist",
       "text": {
         "en": "The broken window on the north side of the bank, requiring five planks and a unit of molten glass.",
         "es": "La ventana rota en el lado norte del banco, que requiere cinco tablones y una unidad de vidrio fundido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Checklist",
       "text": {
         "en": "Jeffery's Armoury, east of the bank, requiring five planks.",
         "es": "La armería de Jeffery, al este del banco, que requiere cinco tablones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Checklist",
       "text": {
         "en": "The guard house, north-east of the bank, requiring a marble block.",
         "es": "La casa de guardia, al noreste del banco, que requiere un bloque de mármol."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Checklist",
       "text": {
         "en": "The house across River Lum, between the river and Grand Exchange, requiring ten oak planks.",
         "es": "La casa al otro lado del River Lum, entre el río y el Grand Exchange, que requiere diez tablones de roble."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Checklist",
       "text": {
         "en": "Use five bittercap mushrooms on the fairy ring south of Quercus.",
         "es": "Usa cinco setas bittercap en el círculo de hadas al sur de Quercus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Checklist",
       "text": {
         "en": "Clear the Destroyed Roof and Destroyed Wall just west of the fairy ring.",
         "es": "Despeja el Tejado Destruido y la Pared Destruida justo al oeste del círculo de hadas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Checklist",
       "text": {
         "en": "Consecrate or desecrate the burnt skeleton north of the bank.",
         "es": "Consagra o profana el esqueleto quemado al norte del banco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Checklist",
       "text": {
         "en": "Nurture four burnt trees. Any four around Edgeville work.",
         "es": "Nutre cuatro árboles quemados. Sirven cualesquiera cuatro alrededor de Edgeville."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Checklist",
       "text": {
-        "en": "Go back to Vannaka for your reward. (opciones de chat: 3 Rebuilding Edgeville)",
-        "es": "Vuelve con Vannaka para conseguir tu recompensa. (opciones de chat: 3 Reconstruyendo Edgeville)"
-      }
+        "en": "Go back to Vannaka for your reward.",
+        "es": "Vuelve con Vannaka para conseguir tu recompensa."
+      },
+      "chatOptions": [
+        "3 Rebuilding Edgeville"
+      ]
     }
   ]
 }

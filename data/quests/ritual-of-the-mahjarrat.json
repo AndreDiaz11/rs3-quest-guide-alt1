@@ -2,7 +2,8 @@
   "id": "ritual-of-the-mahjarrat",
   "title": "Ritual of the Mahjarrat",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:09:08.313Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:57.636Z",
   "icon": "https://runescape.wiki/images/Ritual_of_the_Mahjarrat_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -181,6 +182,7 @@
       "image": "https://runescape.wiki/images/thumb/Fate_of_the_Gods.png/100px-Fate_of_the_Gods.png?bd99b"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Ritual_of_the_Mahjarrat_reward.png?ff5b1",
   "postQuest": [
     {
       "type": "item",
@@ -212,986 +214,1263 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Sir Tiffy Cashien in Falador Park about the Ritual of the Mahjarrat. (opciones de chat: # Ritual of the Mahjarrat. • Accept)",
-        "es": "Habla con Sir Tiffy Cashien en Falador Park sobre el Ritual of the Mahjarrat. (opciones de chat: # Ritual of the Mahjarrat. • Aceptar)"
-      }
+        "en": "Talk to Sir Tiffy Cashien in Falador Park about the Ritual of the Mahjarrat.",
+        "es": "Habla con Sir Tiffy Cashien en Falador Park sobre el Ritual of the Mahjarrat."
+      },
+      "chatOptions": [
+        "# Ritual of the Mahjarrat.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Accept the teleport.",
         "es": "Acepta el teletransporte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Mos Le'Harmless",
       "text": {
-        "en": "Talk to Sir Tendeth in the southern pub on Mos Le'Harmless. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Sir Tendeth en el pub del sur de Mos Le'Harmless. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to Sir Tendeth in the southern pub on Mos Le'Harmless.",
+        "es": "Habla con Sir Tendeth en el pub del sur de Mos Le'Harmless."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Mos Le'Harmless",
       "text": {
         "en": "Talk to Sir Tendeth again after the cutscene.",
         "es": "Habla de nuevo con Sir Tendeth después de la escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Mos Le'Harmless",
       "text": {
         "en": "Talk to the injured pirates outside and other pirates outside.",
         "es": "Habla con los piratas heridos de fuera y con los otros piratas que hay fuera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The mighty jungle",
       "text": {
         "en": "Go north past the walls, to the blue area marked on the mini-map.",
         "es": "Ve al norte, más allá de las murallas, hasta la zona azul marcada en el minimapa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The mighty jungle",
       "text": {
         "en": "Using the western side of the trees as cover and following the burnt areas, head to the east side of the island.",
         "es": "Usando el lado oeste de los árboles como cobertura y siguiendo las zonas quemadas, dirígete hacia el lado este de la isla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "The mighty jungle",
       "text": {
         "en": "Hide west of tropical trees and jungle grass with the examine Looks good for hiding in.... Once north of Trouble Brewing, you must keep hiding on the west side of the trees or grass. Do not move too quickly. Count at least 1 or 2 seconds before moving to next square.",
         "es": "Escóndete al oeste de los árboles tropicales y la hierba de la jungla con el examinar Parece un buen lugar para esconderse.... Una vez al norte de Trouble Brewing, debes seguir escondiéndote en el lado oeste de los árboles o la hierba. No te muevas demasiado rápido. Cuenta al menos 1 o 2 segundos antes de moverte a la siguiente casilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "The mighty jungle",
       "text": {
         "en": "Surge, the Magic ability may be used.",
         "es": "Se puede usar Surge, la habilidad de Magia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "The mighty jungle",
       "text": {
         "en": "The music will change when you are not behind cover.",
         "es": "La música cambiará cuando no estés bajo cobertura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "The mighty jungle",
       "text": {
         "en": "If hit by a fireball, heal by entering the nearby bank.",
         "es": "Si te alcanza una bola de fuego, cúrate entrando en el banco cercano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "The mighty jungle",
       "text": {
         "en": "Remaining in the open for too long will cause a fireball to do damage and reset the player to the town gates.",
         "es": "Permanecer demasiado tiempo al descubierto hará que una bola de fuego te haga daño y te reinicie en las puertas de la ciudad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "The mighty jungle",
       "text": {
         "en": "If you misclick while going through the dialogue during the cutscene, you will exit it. Take one step to the west then step back behind the tree to re-trigger the cutscene.",
         "es": "Si haces clic por error mientras avanza el diálogo durante la escena cinemática, saldrás de ella. Da un paso hacia el oeste y luego retrocede detrás del árbol para volver a activar la escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "The mighty jungle",
       "text": {
         "en": "After the cutscene, report back to Sir Tiffy.",
         "es": "Después de la escena cinemática, informa a Sir Tiffy."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "The archives",
       "text": {
-        "en": "Talk to Sir Tiffy and explain the situation to him. (opciones de chat: 2 Ritual of the Mahjarrat. • 3 I think they were dragonkin.) If you haven't completed Quiet Before the Swarm then (opciones de chat: 1 Ritual of the Mahjarrat. • 3 I think they were dragonkin.)",
-        "es": "Habla con Sir Tiffy y explícale la situación. (opciones de chat: 2 Ritual of the Mahjarrat. • 3 Creo que eran dragonkin.) Si no has completado Quiet Before the Swarm, entonces (opciones de chat: 1 Ritual of the Mahjarrat. • 3 Creo que eran dragonkin.)"
-      }
+        "en": "Talk to Sir Tiffy and explain the situation to him. If you haven't completed Quiet Before the Swarm then",
+        "es": "Habla con Sir Tiffy y explícale la situación. (opciones de chat: 2 Ritual of the Mahjarrat. • 3 Creo que eran dragonkin.) Si no has completado Quiet Before the Swarm, entonces"
+      },
+      "chatOptions": [
+        "2 Ritual of the Mahjarrat.",
+        "3 I think they were dragonkin.",
+        "1 Ritual of the Mahjarrat.",
+        "3 I think they were dragonkin."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "The archives",
       "text": {
-        "en": "Talk to Lady Table or Sir Tiffy. (opciones de chat: 1 I think I understand the reincarnation bit. • 2 He's reincarnated as a cat. • 1 I think I understand the stonetoucher part. • 3 I think it's me.)",
-        "es": "Habla con Lady Table o con Sir Tiffy. (opciones de chat: 1 Creo que entiendo lo de la reencarnación. • 2 Se ha reencarnado en un gato. • 1 Creo que entiendo lo de tocapiedras. • 3 Creo que soy yo.)"
-      }
+        "en": "Talk to Lady Table or Sir Tiffy.",
+        "es": "Habla con Lady Table o con Sir Tiffy."
+      },
+      "chatOptions": [
+        "1 I think I understand the reincarnation bit.",
+        "2 He's reincarnated as a cat.",
+        "1 I think I understand the stonetoucher part.",
+        "3 I think it's me."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "The archives",
       "text": {
         "en": "Use the Catspeak Amulet to find Bob back on the surface, who will be roaming anywhere in Asgarnia or Misthalin. Or can be easily found in Apprentice Clara's Shop in Burthorpe.",
         "es": "Usa el Catspeak Amulet para encontrar a Bob de vuelta en la superficie, que estará vagando por cualquier parte de Asgarnia o Misthalin. También se le puede encontrar fácilmente en la tienda de Apprentice Clara en Burthorpe."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "The archives",
       "text": {
         "en": "Once found, ask him for his collar.",
         "es": "Una vez encontrado, pídele su collar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "The archives",
       "text": {
         "en": "Study Bob's collar — the back, too!",
         "es": "Estudia el collar de Bob... ¡también la parte de atrás!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
-        "en": "Go through any fairy ring, dial and teleport to the Gorak Plane.",
+        "en": "Go through any fairy ring, dial DIR and teleport to the Gorak Plane.",
         "es": "Pasa por cualquier fairy ring, marca el código y teletranspórtate al Gorak Plane."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
-        "en": "Right-click on the fairy ring and click \"Select Destination\", dial and teleport to Kethsi.",
+        "en": "Right-click on the fairy ring and click \"Select Destination\", dial AKS and teleport to Kethsi.",
         "es": "Haz clic derecho en el fairy ring y selecciona \"Select Destination\", marca el código y teletranspórtate a Kethsi."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Head north-west and search the rubble west of the mural to get tetrahedron 4. (If you do not receive the tetrahedron 4, check the bank for it.)",
         "es": "Ve al noroeste y registra los escombros al oeste del mural para obtener el tetrahedron 4. (Si no recibes el tetrahedron 4, revisa el banco para ver si está allí.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Go south-east and climb up the ramp.",
         "es": "Ve al sureste y sube por la rampa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Use Bob's collar on the wall design and solve the puzzle by positioning Bob's collar, pictured right.",
         "es": "Usa el collar de Bob en el diseño de la pared y resuelve el puzle colocando el collar de Bob, como se muestra en la imagen de la derecha."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Press the up arrow once to submit your puzzle solution.",
         "es": "Pulsa la flecha hacia arriba una vez para enviar tu solución del puzle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Investigate the wall design to get tetrahedron 1, statue arm, note to you, note to Robert and Robert's necklace. Robert's necklace has no purpose in the quest and may be destroyed or banked.",
         "es": "Investiga el diseño de la pared para obtener el tetrahedron 1, el brazo de la estatua, una nota para ti, una nota para Robert y el collar de Robert. El collar de Robert no tiene ninguna utilidad en la misión y puede destruirse o guardarse en el banco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Go south-west and jump across the ledge.",
         "es": "Ve al suroeste y salta hasta la cornisa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Use the Statue arm on the statue.",
         "es": "Usa el brazo de la estatua en la estatua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Cross the fallen spire that appears and go down the ladder.",
         "es": "Cruza la torre caída que aparece y baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Go east and up the wall jump.",
         "es": "Ve al este y sube por el salto de pared."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Climb the wall to the west.",
         "es": "Escala la pared hacia el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Use the swing pole to the north.",
         "es": "Usa la pértiga oscilante hacia el norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Walk across the beam.",
         "es": "Camina por la viga."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Jump east over the gap.",
         "es": "Salta hacia el este para cruzar el hueco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Jump from the floor to the south.",
         "es": "Salta desde el suelo hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Go down the southern ladder twice.",
         "es": "Baja dos veces por la escalera del sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Squeeze through the pipe to the northeast of the ladder.",
         "es": "Pásate a través de la tubería al noreste de la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Use a pickaxe to mine the rocks or right-click and choose mine if using the pickaxe on your tool belt.",
         "es": "Usa un pickaxe para minar las rocas, o haz clic derecho y elige minar si usas el pickaxe de tu tool belt."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Climb the nearby wall and run across the walls to the west. If you fail either wall run or the handholds, go back to the pipe.",
         "es": "Escala la pared cercana y corre por las paredes hacia el oeste. Si fallas en la carrera por la pared o en los asideros, vuelve a la tubería."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Climb across the handholds then go down the ladder.",
         "es": "Cruza por los asideros y luego baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Go east (along the northern coast) and search the rubble to find tetrahedron 3 and a strange device.",
         "es": "Ve al este (a lo largo de la costa norte) y registra los escombros para encontrar el tetrahedron 3 y un extraño dispositivo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Go back up the ladder twice and jump from the floor to the south. If you fail this jump, go back to the pipe.",
         "es": "Vuelve a subir por la escalera dos veces y salta desde el suelo hacia el sur. Si fallas este salto, vuelve a la tubería."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Slide down the roof to the south",
         "es": "Deslízate por el tejado hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 1,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Grab the nearby spade if you didn't have one with you.",
         "es": "Coge la pala cercana si no llevabas una contigo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Walk across the plank to the south.",
         "es": "Camina por la tabla hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Traversing Isle of Sann",
       "text": {
         "en": "Search the rubble to find tetrahedron 2.",
         "es": "Registra los escombros para encontrar el tetrahedron 2."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "The lost library",
       "text": {
         "en": "Once all four tetrahedrons are collected, go down the stairs north of the area where tetrahedron 2 was located.",
         "es": "Una vez recogidos los cuatro tetrahedrons, baja las escaleras al norte de la zona donde estaba el tetrahedron 2."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "The lost library",
       "text": {
         "en": "Use each tetrahedron on an indentation (on the walls close to the entrance, also a second spade spawns by the stairs)",
         "es": "Usa cada tetrahedron en una hendidura (en las paredes cercanas a la entrada; también aparece una segunda pala junto a las escaleras)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "The lost library",
       "text": {
         "en": "Check the quest journal for the code that must be found.",
         "es": "Revisa el diario de la misión para ver el código que debes encontrar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "The lost library",
       "text": {
         "en": "Find the coordinates received and dig there with a spade to receive a Kethsian key. The strange device tells you your current location. Below is a map of Kethsi with coordinates.",
         "es": "Encuentra las coordenadas recibidas y cava allí con una pala para obtener una Kethsian key. El extraño dispositivo te indica tu ubicación actual. Abajo hay un mapa de Kethsi con las coordenadas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "The lost library",
       "text": {
         "en": "Go back to the dungeon and through the door to the south.",
         "es": "Vuelve a la mazmorra y pasa por la puerta hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "The lost library",
       "text": {
         "en": "Search the southern bookcase for Dathana's message.",
         "es": "Registra la estantería del sur para encontrar el mensaje de Dathana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 1,
+      "section": "The lost library",
       "text": {
         "en": "Optional: Search the south-east bookcase for the tune banite ore scroll.",
         "es": "Opcional: Registra la estantería del sureste para encontrar el pergamino de la tune banite ore."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Planning",
       "text": {
-        "en": "Read the message, then take it to Sir Tiffy. (opciones de chat: 2 Ritual of the Mahjarrat.) If you haven't completed Quiet Before the Swarm then (opciones de chat: 1 Ritual of the Mahjarrat.)",
-        "es": "Lee el mensaje y llévaselo a Sir Tiffy. (opciones de chat: 2 Ritual of the Mahjarrat.) Si no has completado Quiet Before the Swarm, entonces (opciones de chat: 1 Ritual of the Mahjarrat.)"
-      }
+        "en": "Read the message, then take it to Sir Tiffy. If you haven't completed Quiet Before the Swarm then",
+        "es": "Lee el mensaje y llévaselo a Sir Tiffy. (opciones de chat: 2 Ritual of the Mahjarrat.) Si no has completado Quiet Before the Swarm, entonces"
+      },
+      "chatOptions": [
+        "2 Ritual of the Mahjarrat.",
+        "1 Ritual of the Mahjarrat."
+      ]
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Planning",
       "text": {
-        "en": "Go to the White Knights' Castle and talk to either Idria, Thaerisk Cemphier, or Akrisae. (opciones de chat: 3 So, instead, you'd risk all our lives? • 1 I can't think of another way. • 2 Yes, we'll have to be careful. • 3 I will risk my own life to negotiate.)",
-        "es": "Ve al White Knights' Castle y habla con Idria, Thaerisk Cemphier o Akrisae. (opciones de chat: 3 Entonces, ¿en su lugar, arriesgarías todas nuestras vidas? • 1 No se me ocurre otra manera. • 2 Sí, tendremos que ser cuidadosos. • 3 Arriesgaré mi propia vida para negociar.)"
-      }
+        "en": "Go to the White Knights' Castle and talk to either Idria, Thaerisk Cemphier, or Akrisae.",
+        "es": "Ve al White Knights' Castle y habla con Idria, Thaerisk Cemphier o Akrisae."
+      },
+      "chatOptions": [
+        "3 So, instead, you'd risk all our lives?",
+        "1 I can't think of another way.",
+        "2 Yes, we'll have to be careful.",
+        "3 I will risk my own life to negotiate."
+      ]
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Planning",
       "text": {
         "en": "Make sure to get Arrav's heart before going to speak to Azzanadra or he will not talk to you about this quest.",
         "es": "Asegúrate de conseguir el corazón de Arrav antes de ir a hablar con Azzanadra, o no querrá hablarte sobre esta misión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Planning",
       "text": {
-        "en": "Go to the north-eastern Varrock Dig Site winch, climb down and talk to Azzanadra. Ask him about the quest. (opciones de chat: 1 Ritual of the Mahjarrat.)",
-        "es": "Ve al torno del noreste del Varrock Dig Site, baja y habla con Azzanadra. Pregúntale sobre la misión. (opciones de chat: 1 Ritual of the Mahjarrat.)"
-      }
+        "en": "Go to the north-eastern Varrock Dig Site winch, climb down and talk to Azzanadra. Ask him about the quest.",
+        "es": "Ve al torno del noreste del Varrock Dig Site, baja y habla con Azzanadra. Pregúntale sobre la misión."
+      },
+      "chatOptions": [
+        "1 Ritual of the Mahjarrat."
+      ]
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Setting up the site",
       "text": {
-        "en": "From the Rellekka Hunter area (fairy ring code: ) take the canoe (north-west from fairy ring code: , north of Larry and past the hunter area) to the Mahjarrat Ritual Site Cavern, then squeeze-past the ice block to the east (do not enter the cavern itself). This allows one to skip the Wilderness.",
+        "en": "From the Rellekka Hunter area (fairy ring code: DKS) take the canoe (north-west from fairy ring code: DKS, north of Larry and past the hunter area) to the Mahjarrat Ritual Site Cavern, then squeeze-past the ice block to the east (do not enter the cavern itself). This allows one to skip the Wilderness.",
         "es": "Desde la zona de caza de Rellekka (código de fairy ring: ), coge la canoa (al noroeste desde el código de fairy ring: , al norte de Larry y pasada la zona de caza) hasta la Mahjarrat Ritual Site Cavern, y luego pásate por el bloque de hielo hacia el este (no entres en la propia cueva). Esto permite saltarse el Wilderness."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 1,
+      "section": "Setting up the site",
       "text": {
         "en": "If there is no heat globe on the pedestal, you may reclaim it from Azzanadra and place on it.",
         "es": "Si no hay un heat globe en el pedestal, puedes recuperarlo de Azzanadra y colocarlo en él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Setting up the site",
       "text": {
         "en": "At the Ghorrock Fort, jump over the pillar to the south (it is outside of the walls of the fort, there is no red line to indicate it, the obstacle is to the south along a line of trees and pillars.) then go through the tunnel.",
         "es": "En el Ghorrock Fort, salta sobre el pilar hacia el sur (está fuera de las murallas del fuerte; no hay ninguna línea roja que lo indique, el obstáculo está al sur a lo largo de una línea de árboles y pilares) y luego pasa por el túnel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 1,
+      "section": "Setting up the site",
       "text": {
         "en": "Avoid the undead Broavs or the player will get thrown into Zemouregal's dungeon. To escape, search the bed and lift up the tiles to the east of the cell. Enter the tunnel to escape.",
         "es": "Evita a los Broavs no muertos, o el jugador acabará arrojado a la mazmorra de Zemouregal. Para escapar, registra la cama y levanta las baldosas al este de la celda. Entra en el túnel para escapar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "Setting up the site",
       "text": {
         "en": "Several items will need to be placed around the ritual site:",
         "es": "Habrá que colocar varios objetos alrededor del lugar del ritual:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 1,
+      "section": "Setting up the site",
       "text": {
         "en": "Northern Beacon: Run west from the ice entrance at the north of the plateau. Place the beacon on the closest tree.",
         "es": "Baliza norte: Corre hacia el oeste desde la entrada de hielo al norte de la meseta. Coloca la baliza en el árbol más cercano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 1,
+      "section": "Setting up the site",
       "text": {
         "en": "Southern Beacon: Run directly south, and place the second beacon in the tree south-south-west of the ritual stone. If this is done correctly, you should have a message saying the south beacon is opposite the northern beacon.",
         "es": "Baliza sur: Corre directamente hacia el sur y coloca la segunda baliza en el árbol al sur-suroeste de la piedra del ritual. Si lo haces correctamente, deberías recibir un mensaje diciendo que la baliza sur está enfrente de la baliza norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 1,
+      "section": "Setting up the site",
       "text": {
         "en": "'''Arrav's Heart:''' Place Arrav's heart in the rocks south of the ritual marker. The site is several paces south of the marker and just a pace or two east. If you cannot place the heart in a pile of rocks, you are at the wrong place.",
         "es": "'''Corazón de Arrav:''' Coloca el corazón de Arrav en las rocas al sur del marcador del ritual. El lugar está a varios pasos al sur del marcador y uno o dos pasos al este. Si no puedes colocar el corazón en un montón de rocas, estás en el lugar equivocado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 1,
+      "section": "Setting up the site",
       "text": {
         "en": "Western Beacon: Run up the west side of the plateau until you find a tree just north of a central line. Place the beacon here. Using the tree just south of the central line will not work.",
         "es": "Baliza oeste: Corre por el lado oeste de la meseta hasta que encuentres un árbol justo al norte de una línea central. Coloca la baliza aquí. Usar el árbol justo al sur de la línea central no funcionará."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 1,
+      "section": "Setting up the site",
       "text": {
         "en": "Eastern Beacon: Run straight east and place the beacon on the tree directly opposite the western tree. You should have a message saying the east beacon is directly opposite the west beacon.",
         "es": "Baliza este: Corre directamente hacia el este y coloca la baliza en el árbol justo enfrente del árbol oeste. Deberías recibir un mensaje diciendo que la baliza este está directamente enfrente de la baliza oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 67,
       "indent": 1,
+      "section": "Setting up the site",
       "text": {
         "en": "Go to the north-west corner of the plateau and look for an Overhanging Tree above the Cavern entrance. Use a rope on it to create a rope climb from the beach to the plateau, turning it into a Snow-covered Tree with an attached rope. This will be used for your allies to climb to the ritual. (From now on, you can also use the rope yourself to get between the canoe landing site and the plateau without having to go past the dragons around Ghorrock.)",
         "es": "Ve a la esquina noroeste de la meseta y busca un Overhanging Tree encima de la entrada de la Cavern. Usa una cuerda en él para crear una subida de cuerda desde la playa hasta la meseta, convirtiéndolo en un Snow-covered Tree con una cuerda atada. Esto lo usarán tus aliados para subir hasta el ritual. (A partir de ahora, tú también puedes usar la cuerda para moverte entre el punto de desembarco de la canoa y la meseta sin tener que pasar por delante de los dragones cerca de Ghorrock.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 68,
       "indent": 0,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "Head to Zemouregal's fort which is south-west of the ritual site.",
         "es": "Dirígete al fuerte de Zemouregal, que está al suroeste del lugar del ritual."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 69,
       "indent": 0,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "Kill the Armoured zombie outside of the main entrance and pick up the Code key and Decoder strips.",
         "es": "Mata al Armoured zombie que hay fuera de la entrada principal y recoge el Code key y las Decoder strips."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 70,
       "indent": 0,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "Read the code key and open the main entrance by obtaining the code from the key and strips. (In this example we take the code \"EIHC\", see the image on the right for the solution)",
         "es": "Lee el code key y abre la entrada principal obteniendo el código de la llave y las tiras. (En este ejemplo tomamos el código \"EIHC\"; consulta la imagen de la derecha para ver la solución.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 71,
       "indent": 1,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "Drag the red strip number 1 to the first letter of the code key (example: \"E\").",
         "es": "Arrastra la tira roja número 1 hasta la primera letra del code key (ejemplo: \"E\")."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 72,
       "indent": 1,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "A single number will be revealed by the code strip (example: \"E\" row). Enter that number in the code box using the controls.",
         "es": "La tira de código revelará un único número (ejemplo: fila \"E\"). Introduce ese número en el cuadro de código usando los controles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 73,
       "indent": 1,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "Drag the red strip number 2 to the second letter of the code key (example: \"I\").",
         "es": "Arrastra la tira roja número 2 hasta la segunda letra del code key (ejemplo: \"I\")."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 74,
       "indent": 1,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "A single number will be revealed by the code strip (example: \"I\" row). Enter that number in the code box using the controls.",
         "es": "La tira de código revelará un único número (ejemplo: fila \"I\"). Introduce ese número en el cuadro de código usando los controles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 75,
       "indent": 1,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "Drag the red strip number 3 to the third letter of the code key (example: \"H\").",
         "es": "Arrastra la tira roja número 3 hasta la tercera letra del code key (ejemplo: \"H\")."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 76,
       "indent": 1,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "A single number will be revealed by the code strip (example: \"H\" row). Enter that number in the code box using the controls.",
         "es": "La tira de código revelará un único número (ejemplo: fila \"H\"). Introduce ese número en el cuadro de código usando los controles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 77,
       "indent": 1,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "Drag the red strip number 4 to the fourth letter of the code key (example: \"C\").",
         "es": "Arrastra la tira roja número 4 hasta la cuarta letra del code key (ejemplo: \"C\")."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 78,
       "indent": 1,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "A single number will be revealed by the code strip (example: \"C\" row). Enter that number in the code box using the controls.",
         "es": "La tira de código revelará un único número (ejemplo: fila \"C\"). Introduce ese número en el cuadro de código usando los controles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 79,
       "indent": 0,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "Go through the front door and search the crate by the north-eastern weapon rack for the storeroom's Code key.",
         "es": "Pasa por la puerta principal y registra la caja junto al armero del noreste para encontrar el Code key del almacén."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 80,
       "indent": 0,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "Read it and use it to open the storeroom door to the west in the same manner as the front entrance.",
         "es": "Léelo y úsalo para abrir la puerta del almacén hacia el oeste, de la misma manera que hiciste con la entrada principal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 81,
       "indent": 0,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "In the northern part of the storeroom, search the crates (2 empty spaces required).",
         "es": "En la parte norte del almacén, registra las cajas (se necesitan 2 espacios vacíos)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 82,
       "indent": 0,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "Read the Heart magic notes.",
         "es": "Lee las notas de Heart magic."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 83,
       "indent": 0,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "Exit the room, head up the western stairs, and stand next to the southern door to listen to Zemouregal and Sharathteerk (you may have to move to the tile east of the door to allow the dialogue to play).",
         "es": "Sal de la habitación, sube por las escaleras del oeste y colócate junto a la puerta del sur para escuchar a Zemouregal y Sharathteerk (puede que tengas que moverte a la baldosa al este de la puerta para que se reproduzca el diálogo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 84,
       "indent": 0,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "Head back downstairs, then go up the eastern stairs. Use the previously acquired Code key to enter the reliquary.",
         "es": "Vuelve a bajar las escaleras y luego sube por las escaleras del este. Usa el Code key que conseguiste antes para entrar en el reliquary."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 85,
       "indent": 0,
+      "section": "Zemouregal's fort",
       "text": {
         "en": "Smash the black stone in the southern half of the room.",
         "es": "Rompe la piedra negra en la mitad sur de la habitación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 86,
       "indent": 0,
+      "section": "Searching for the Stone of Jas",
       "text": {
         "en": "Exit the fortress and head to the south-eastern part of the ritual site.",
         "es": "Sal de la fortaleza y dirígete a la parte sureste del lugar del ritual."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 87,
       "indent": 0,
+      "section": "Searching for the Stone of Jas",
       "text": {
-        "en": "Talk to Movario. (opciones de chat: 1 So, you're still working for Lucien? • 1 What are you doing up here?)",
-        "es": "Habla con Movario. (opciones de chat: 1 Entonces, ¿sigues trabajando para Lucien? • 1 ¿Qué haces aquí arriba?)"
-      }
+        "en": "Talk to Movario.",
+        "es": "Habla con Movario."
+      },
+      "chatOptions": [
+        "1 So, you're still working for Lucien?",
+        "1 What are you doing up here?"
+      ]
     },
     {
       "index": 88,
       "indent": 0,
+      "section": "Searching for the Stone of Jas",
       "text": {
         "en": "With the ring of visibility equipped, run west from Movario along southern wall of the site to find a shadow pedestal (almost directly south-east from the ritual marker).",
         "es": "Con el ring of visibility equipado, corre hacia el oeste desde Movario a lo largo de la muralla sur del lugar para encontrar un shadow pedestal (casi directamente al sureste del marcador del ritual)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 89,
       "indent": 0,
+      "section": "Searching for the Stone of Jas",
       "text": {
         "en": "Go back inside the centre of the Ghorrock Castle courtyard (past the dragons), and climb the western stairs next to the statue of Khazard.",
         "es": "Vuelve al interior del centro del patio del Ghorrock Castle (pasando junto a los dragones) y sube por las escaleras del oeste junto a la estatua de Khazard."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 90,
       "indent": 0,
+      "section": "Searching for the Stone of Jas",
       "text": {
         "en": "Go east and climb down the stairs.",
         "es": "Ve al este y baja por las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 91,
       "indent": 0,
+      "section": "Searching for the Stone of Jas",
       "text": {
         "en": "Scale the Damaged Wall next to the door.",
         "es": "Escala la Damaged Wall junto a la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 92,
       "indent": 0,
+      "section": "Searching for the Stone of Jas",
       "text": {
         "en": "Run past the smashed pedestal, and climb down the smashed rampart on west side of the trapdoor in the courtyard.",
         "es": "Corre más allá del pedestal destrozado y baja por la muralla destrozada en el lado oeste de la trampilla en el patio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 93,
       "indent": 0,
+      "section": "Searching for the Stone of Jas",
       "text": {
         "en": "Enter the trapdoor. The icefiends encountered here will hit hard and there will be a good number of them. Bring high level food (sharks or swordfish) just in case for comfortable exploration.",
         "es": "Entra por la trampilla. Los icefiends que encontrarás aquí golpean fuerte y hay bastantes. Lleva comida de alto nivel (sharks o swordfish) por si acaso, para explorar con más comodidad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 94,
       "indent": 0,
+      "section": "Searching for the Stone of Jas",
       "text": {
         "en": "Enter the room to the west and then head south.",
         "es": "Entra en la habitación del oeste y luego dirígete hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 95,
       "indent": 0,
+      "section": "Searching for the Stone of Jas",
       "text": {
         "en": "Take the Heat globe and exit the same way you came.",
         "es": "Coge el Heat globe y sal por donde entraste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 96,
       "indent": 0,
+      "section": "Searching for the Stone of Jas",
       "text": {
         "en": "Return to the shadow pedestal, south east of the ritual marker.",
         "es": "Vuelve al shadow pedestal, al sureste del marcador del ritual."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 97,
       "indent": 0,
+      "section": "Searching for the Stone of Jas",
       "text": {
         "en": "Put the globe on the pedestal.",
         "es": "Coloca el globe en el pedestal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 98,
       "indent": 1,
+      "section": "Searching for the Stone of Jas",
       "text": {
         "en": "If you try to put heat globe on the shadow pedestal and it says \"That could be a good idea, but you've got other things to do first.\", it means either that the beacons are not aligned properly, you have not placed Arrav's heart in the rocks to the south of the Ritual marker, you haven't placed the rope to the north-west of the tunnel or you have not talked to Movario after having done so. If you are completely sure you have done all of these things, talk to Movario to the east of the shadow pedestal, and he will place the heat globe in the pedestal. A few players have removed a beacon from a tree and put in back in the tree—this also has worked. Some report that reading the notes/Dathana's message also fixes this.",
         "es": "Si intentas colocar el heat globe en el shadow pedestal y aparece el mensaje \"Podría ser una buena idea, pero primero tienes otras cosas que hacer.\", significa que las balizas no están alineadas correctamente, que no has colocado el corazón de Arrav en las rocas al sur del marcador del ritual, que no has colocado la cuerda al noroeste del túnel, o que no has hablado con Movario después de hacer todo eso. Si estás completamente seguro de haber hecho todo esto, habla con Movario al este del shadow pedestal, y él colocará el heat globe en el pedestal. Algunos jugadores han retirado una baliza de un árbol y la han vuelto a poner en el árbol; esto también ha funcionado. Algunos informan de que leer las notas o el mensaje de Dathana también soluciona el problema."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 99,
       "indent": 0,
+      "section": "The ritual",
       "text": {
         "en": "Enter the newly opened entrance, south of the shadowy pedestal.",
         "es": "Entra por la entrada recién abierta, al sur del shadow pedestal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 100,
       "indent": 0,
+      "section": "The ritual",
       "text": {
         "en": "Follow the open passageway and touch the Stone of Jas.",
         "es": "Sigue el pasadizo abierto y toca la Stone of Jas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 101,
       "indent": 0,
+      "section": "Khazard",
       "text": {
         "en": "After the cutscenes, defeat Khazard.",
         "es": "Después de las escenas cinemáticas, derrota a Khazard."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 102,
       "indent": 0,
+      "section": "Khazard",
       "text": {
         "en": "It helps to pray against magic and when Bouncer is summoned, lure him to Wahisietel so that he dies.",
         "es": "Ayuda rezar contra la magia y, cuando se invoque a Bouncer, atráelo hacia Wahisietel para que muera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 103,
       "indent": 0,
+      "section": "Ice titans",
       "text": {
         "en": "Defeat the Enhanced ice titans.",
         "es": "Derrota a los Enhanced ice titans."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 104,
       "indent": 1,
+      "section": "Ice titans",
       "text": {
         "en": "Lucien will be casting spells at the player whilst fighting the ice titans. If a smoking black skull is flying towards you, move at least two squares away from your current position. Also, praying melee completely negates damage from the titans' normal attacks. If ice starts encasing the player, they should click rapidly on the ground around them to escape.",
         "es": "Lucien lanzará hechizos contra el jugador mientras luchas contra los ice titans. Si una calavera negra humeante vuela hacia ti, muévete al menos dos casillas fuera de tu posición actual. Además, rezar melee anula por completo el daño de los ataques normales de los titanes. Si el hielo empieza a envolver al jugador, debe hacer clic rápidamente en el suelo a su alrededor para escapar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 105,
       "indent": 1,
+      "section": "Ice titans",
       "text": {
         "en": "You will only be able to damage the two enhanced ice titans that run at you; your teammates must kill the rest.",
         "es": "Solo podrás hacer daño a los dos enhanced ice titans que corren hacia ti; tus compañeros deben matar al resto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 106,
       "indent": 1,
+      "section": "Ice titans",
       "text": {
         "en": "Avoid attacking Lucien, as doing so causes Lucien to hit you with a high damage attack.",
         "es": "Evita atacar a Lucien, ya que hacerlo provoca que Lucien te golpee con un ataque de mucho daño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 107,
       "indent": 0,
+      "section": "Ice demons",
       "text": {
         "en": "Defeat the Ice Demons",
         "es": "Derrota a los Ice Demons."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 108,
       "indent": 1,
+      "section": "Ice demons",
       "text": {
         "en": "Praying against magic helps limit the damage the demons can cause. They will also summon icicles which will fall around the player. When this happens, run out of the icicles to avoid being trapped due to Lucien still casting the skull spell at the player.",
         "es": "Rezar contra la magia ayuda a limitar el daño que causan los demonios. También invocarán carámbanos que caerán alrededor del jugador. Cuando esto ocurra, corre fuera de los carámbanos para evitar quedar atrapado, ya que Lucien seguirá lanzando el hechizo de la calavera contra el jugador."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 109,
       "indent": 1,
+      "section": "Ice demons",
       "text": {
         "en": "You will only be able to damage the two ice demons that run at you; your teammates must kill the rest.",
         "es": "Solo podrás hacer daño a los dos ice demons que corren hacia ti; tus compañeros deben matar al resto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 110,
       "indent": 1,
+      "section": "Ice demons",
       "text": {
         "en": "You are able to use Split Soul on the two that your teammates are meant to kill to speed up the process.",
         "es": "Puedes usar Split Soul en los dos que se supone que deben matar tus compañeros para acelerar el proceso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 111,
       "indent": 0,
+      "section": "Arrav",
       "text": {
         "en": "Attack the armoured zombies until Arrav is summoned.",
         "es": "Ataca a los armoured zombies hasta que se invoque a Arrav."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 112,
       "indent": 0,
+      "section": "Arrav",
       "text": {
         "en": "Attack Arrav until he follows you. You may have to attack the zombies before Arrav will follow you.",
         "es": "Ataca a Arrav hasta que empiece a seguirte. Puede que tengas que atacar a los zombies antes de que Arrav te siga."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 113,
       "indent": 0,
+      "section": "Arrav",
       "text": {
         "en": "Lure him over to where his heart is placed and wait for Arrav to fight Zemouregal before proceeding.",
         "es": "Atráelo hacia donde está colocado su corazón y espera a que Arrav luche contra Zemouregal antes de continuar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 114,
       "indent": 1,
+      "section": "Arrav",
       "text": {
         "en": "If you have a combat follower out, it is best to dismiss it when Arrav starts following you. Otherwise, it is possible that the combat familiar and Arrav will fight. If this occurs when Arrav gets his heart back, the familiar's attack may distract Arrav from attacking Zemouregal. Instead, Arrav will stand near the rockpile where his heart was hidden and will not move. This is a glitch, and the only way to overcome it is to leave the battle, return, and fight the fourth battle again from its start.",
         "es": "Si tienes un combat follower activo, es mejor despedirlo cuando Arrav empiece a seguirte. De lo contrario, es posible que el familiar de combate y Arrav luchen entre sí. Si esto ocurre cuando Arrav recupera su corazón, el ataque del familiar puede distraer a Arrav de atacar a Zemouregal. En su lugar, Arrav se quedará quieto junto al montón de rocas donde estaba escondido su corazón y no se moverá. Esto es un fallo, y la única forma de solucionarlo es abandonar el combate, volver y luchar de nuevo la cuarta batalla desde el principio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 115,
       "indent": 0,
+      "section": "The broken beacon",
       "text": {
         "en": "Head to where the southern beacon was.",
         "es": "Dirígete a donde estaba la baliza sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 116,
       "indent": 0,
+      "section": "The broken beacon",
       "text": {
         "en": "Turn on a prayer against ranged or magic attacks and pick up the beacon pieces.",
         "es": "Activa una oración contra ataques de distancia o de magia y recoge las piezas de la baliza."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 117,
       "indent": 0,
+      "section": "The broken beacon",
       "text": {
         "en": "Click on a piece to assemble all of them and then place the beacon back into the tree.",
         "es": "Haz clic en una pieza para ensamblarlas todas y luego vuelve a colocar la baliza en el árbol."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 118,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Watch the cutscenes and pick a number for the new hiding spot for the Stone of Jas.",
         "es": "Observa las escenas cinemáticas y elige un número para el nuevo escondite de la Stone of Jas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 119,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Go to the stalls area of the town (north-west of where the bank would be in Draynor Village) in the destroyed version of Draynor Village.",
         "es": "Ve a la zona de los puestos del pueblo (al noroeste de donde estaría el banco en Draynor Village) en la versión destruida de Draynor Village."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 120,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Watch the last cutscene.",
         "es": "Observa la última escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 121,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Talk to Sir Tiffy. (opciones de chat: 1 Ritual of the Mahjarrat.) If Quiet Before the Swarm isn't completed (opciones de chat: 2 Ritual of the Mahjarrat.).",
+        "en": "Talk to Sir Tiffy. If Quiet Before the Swarm isn't completed .",
         "es": "Habla con Sir Tiffy. (opciones de chat: 1 Ritual of the Mahjarrat.) Si no se ha completado Quiet Before the Swarm (opciones de chat: 2 Ritual of the Mahjarrat.)."
-      }
+      },
+      "chatOptions": [
+        "1 Ritual of the Mahjarrat.",
+        "2 Ritual of the Mahjarrat."
+      ]
     },
     {
       "index": 122,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

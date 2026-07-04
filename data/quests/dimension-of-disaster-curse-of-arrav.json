@@ -2,7 +2,8 @@
   "id": "dimension-of-disaster-curse-of-arrav",
   "title": "Dimension of Disaster: Curse of Arrav",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:07:33.464Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:58.337Z",
   "icon": "https://runescape.wiki/images/Dimension_of_Disaster_Curse_of_Arrav_icon.png",
   "length": "Medium to Long",
   "startPoint": {
@@ -203,639 +204,810 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Curse_of_Arrav_%28Dimension_of_Disaster%29_reward.png?11715",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Arrav in the centre of the castle to start the quest. (opciones de chat: Accept)",
-        "es": "Habla con Arrav en el centro del castillo para empezar la misión. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Arrav in the centre of the castle to start the quest.",
+        "es": "Habla con Arrav en el centro del castillo para empezar la misión."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Talk to Ernie upstairs in a pottery building south of the east bank in New Varrock and east of Aubury's Rune Shop to get a decorated cooking urn.",
         "es": "Habla con Ernie, en el piso de arriba de un edificio de cerámica al sur del banco este de New Varrock y al este de la Aubury's Rune Shop, para conseguir una urna de cocina decorada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Preparing the jar",
       "text": {
         "en": "If you have an active urn in your bank in the real dimension, it might get teleported to you and will count towards the quest progression.",
         "es": "Si tienes una urna activa en tu banco de la dimensión real, es posible que se teletransporte hasta ti y cuente para el progreso de la misión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Go to the zombie cow pen south-east of the eastern bank, kill roughly 11 cows (the exact number of meat needed varies), and collect the raw undead beef. It needs one backpack space or the urn may not start filling.",
         "es": "Ve al corral de vacas zombis al sureste del banco este, mata unas 11 vacas (el número exacto de carne necesaria varía) y recoge la carne de muerto viviente cruda. Necesitas un espacio libre en la mochila o puede que la urna no empiece a llenarse."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Chop and light some logs (there is a tree west next to Ernie's house) and cook the meat to fill your cooking urn.",
         "es": "Corta y enciende unos troncos (hay un árbol al oeste, junto a la casa de Ernie) y cocina la carne para llenar tu urna de cocina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Preparing the jar",
       "text": {
         "en": "Also, a range can be used to cook the raw undead beef.",
         "es": "También se puede usar un fogón para cocinar la carne de muerto viviente cruda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Preparing the jar",
       "text": {
         "en": "If you have a started decorated cooking urn in your real bank, you might need a free inventory space for it to teleport into your inventory when you start cooking.",
         "es": "Si tienes una urna de cocina decorada ya empezada en tu banco real, puede que necesites un espacio libre en el inventario para que se teletransporte a tu inventario cuando empieces a cocinar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 2,
+      "section": "Preparing the jar",
       "text": {
         "en": "Note: There is still a bug with this quest where sometimes you will receive a stackable urn whilst having a partially filled one in your inventory. You may need to go to the real Varrock to check your bank.*",
         "es": "Nota: sigue existiendo un fallo en esta misión por el cual a veces recibirás una urna apilable mientras tienes una parcialmente llena en el inventario. Puede que necesites ir al Varrock real para comprobar tu banco.*"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Use the full cooking urn on Ernie if your setting to teleport full urns automatically is disabled. Otherwise, when full, it will teleport directly to him.",
         "es": "Usa la urna de cocina llena en Ernie si tienes desactivada la opción de teletransportar urnas llenas automáticamente. Si no, cuando esté llena, se teletransportará directamente a él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
-        "en": "Talk to Ernie to get an empty canopic jar. (opciones de chat: 1 Now will you give me the canopic jar? • 4 Farewell.)",
-        "es": "Habla con Ernie para conseguir un tarro canopo vacío. (opciones de chat: 1 ¿Ahora me darás el tarro canopo? • 4 Adiós.)"
-      }
+        "en": "Talk to Ernie to get an empty canopic jar.",
+        "es": "Habla con Ernie para conseguir un tarro canopo vacío."
+      },
+      "chatOptions": [
+        "1 Now will you give me the canopic jar?",
+        "4 Farewell."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Stop at Aubury's Magic Shop for 1 cosmic and 10 earth runes (a staff of earth also works).",
         "es": "Pasa por la Aubury's Magic Shop para conseguir 1 runa cósmica y 10 runas de tierra (un báculo de tierra también sirve)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Preparing the jar",
       "text": {
         "en": "Optional: sell the cooked meat to the general store.<!--Easier than dropping them one at a time-->",
         "es": "Opcional: vende la carne cocinada en la tienda general.<!--Easier than dropping them one at a time-->"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Buy a diamond from Urist Loric in New Varrock square and cut it.",
         "es": "Compra un diamante a Urist Loric en la plaza de New Varrock y córtalo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Preparing the jar",
       "text": {
         "en": "Optional: buy the 3 other gems, cut them, and sell them in the General Store for more Zemomarks than purchase price.",
         "es": "Opcional: compra las otras 3 gemas, córtalas y véndelas en la tienda general por más Zemomarks que el precio de compra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Buy gold ore from Sani at the furnace west of New Varrock square.",
         "es": "Compra mena de oro a Sani en la fragua al oeste de la plaza de New Varrock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Make a diamond ring",
         "es": "Fabrica un anillo de diamante."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Preparing the jar",
       "text": {
         "en": "Smelt the ore by clicking on the furnace and then the gold ore under \"Core Ores\" on the left side of the smelting menu",
         "es": "Funde la mena haciendo clic en la fragua y luego en la mena de oro bajo \"Core Ores\" en el lado izquierdo del menú de fundición."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Preparing the jar",
       "text": {
         "en": "Make a diamond ring by clicking on the furnace and then the gold bar under the \"Casting Metals\" menu on the left side of the smelting menu.",
         "es": "Fabrica un anillo de diamante haciendo clic en la fragua y luego en la barra de oro bajo el menú \"Casting Metals\" en el lado izquierdo del menú de fundición."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Enchant the diamond ring to get a ring of life (1 cosmic, 10 earth runes and have standard magic book active).",
         "es": "Encanta el anillo de diamante para obtener un anillo de vida (1 runa cósmica, 10 runas de tierra, y ten activo el libro de magia estándar)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "If you don't already have one, buy a watering can at the general store in New Varrock Square and fill it up. Alternatively, you can pick up an already filled watering can in the atrium (centre room) of the castle.",
         "es": "Si aún no tienes una, compra una regadera en la tienda general de la plaza de New Varrock y llénala. Alternativamente, puedes recoger una regadera ya llena en el atrio (sala central) del castillo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Preparing the jar",
       "text": {
         "en": "Replay: Not needed if you saved vial of purple mist.",
         "es": "Repetición: no es necesario si guardaste el vial de bruma púrpura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Go to the church in north-east of New Varrock and speak with Father Lawrence. If you are using Ancient Curse prayers, switch to normal prayers by praying at the altar.",
         "es": "Ve a la iglesia al noreste de New Varrock y habla con Father Lawrence. Si estás usando oraciones Ancient Curse, cambia a oraciones normales rezando en el altar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Activate a prayer depending on what Father Lawrence says:",
         "es": "Activa una oración según lo que diga Father Lawrence:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "After activating the correct prayer five times, Father Lawrence will give you the sacred oil.",
         "es": "Después de activar la oración correcta cinco veces, Father Lawrence te dará el aceite sagrado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Make sure you have a vial of red mist",
         "es": "Asegúrate de tener un vial de bruma roja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Preparing the jar",
       "text": {
         "en": "If you need one:",
         "es": "Si necesitas uno:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 2,
+      "section": "Preparing the jar",
       "text": {
         "en": "Get a vial from the kitchen on the of the castle.",
         "es": "Consigue un vial en la cocina del castillo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 2,
+      "section": "Preparing the jar",
       "text": {
         "en": "Head to the using the stairs in the south-eastern corner of the fort.",
         "es": "Dirígete usando las escaleras en la esquina sureste del fuerte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 2,
+      "section": "Preparing the jar",
       "text": {
         "en": "Kill an armoured zombie and collect the red mist that they drop.",
         "es": "Mata a un zombi acorazado y recoge la bruma roja que suelta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Go to the south-eastern corner of the in New Varrock Castle and pass through the north red barrier.",
         "es": "Ve a la esquina sureste del castillo de New Varrock y pasa por la barrera roja del norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Search the corpse of Ambassador Ferrnook to obtain dwellberries.",
         "es": "Registra el cadáver del Ambassador Ferrnook para obtener endrinas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
         "en": "Add the sacred oil, ring of life, and dwellberries to the canopic jar and make a prepared canopic jar.",
         "es": "Añade el aceite sagrado, el anillo de vida y las endrinas al tarro canopo para hacer un tarro canopo preparado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Preparing the jar",
       "text": {
         "en": "If you accidentally eat the dwellberries, simply search the corpse again.",
         "es": "Si te comes las endrinas por accidente, simplemente registra el cadáver de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Preparing the jar",
       "text": {
-        "en": "Show the canopic jar to Arrav. (opciones de chat: 1 Where is your heart? • 2 How do I get into the vault? • 3 How do I get through orange and purple barriers? • 4 Farewell.)",
-        "es": "Muéstrale el tarro canopo a Arrav. (opciones de chat: 1 ¿Dónde está tu corazón? • 2 ¿Cómo entro en la bóveda? • 3 ¿Cómo paso por las barreras naranja y púrpura? • 4 Adiós.)"
-      }
+        "en": "Show the canopic jar to Arrav.",
+        "es": "Muéstrale el tarro canopo a Arrav."
+      },
+      "chatOptions": [
+        "1 Where is your heart?",
+        "2 How do I get into the vault?",
+        "3 How do I get through orange and purple barriers?",
+        "4 Farewell."
+      ]
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Obtaining the heart",
       "text": {
         "en": "Talk to Arrav.",
         "es": "Habla con Arrav."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Obtaining the heart",
       "text": {
         "en": "Replay: If you kept the orange and the purple mists, skip ahead to taking the heart after this.",
         "es": "Repetición: si conservaste las brumas naranja y púrpura, salta directamente a coger el corazón después de esto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Obtaining the heart",
       "text": {
         "en": "Get two vials from the easternmost room and fill them with water.",
         "es": "Consigue dos viales en la sala más al este y llénalos con agua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Obtaining the heart",
       "text": {
         "en": "Talk to Ellamaria in the south-easternmost room near the steel cages to get Delphinium seeds.",
         "es": "Habla con Ellamaria en la sala más al sureste, cerca de las jaulas de acero, para conseguir semillas de Delphinium."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Obtaining the heart",
       "text": {
         "en": "Rake the Delphinium patch that's east of Arrav in the courtyard and plant the seeds, then water the patch and pick them.",
         "es": "Rastrilla el parcelas de Delphinium al este de Arrav en el patio, planta las semillas, riega el parcelas y recógelas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Obtaining the heart",
       "text": {
         "en": "If you don't have three total vials of red mist, head upstairs with empty vials and kill armoured zombies to collect the mist.",
         "es": "Si no tienes un total de tres viales de bruma roja, sube al piso de arriba con viales vacíos y mata zombis acorazados para recoger la bruma."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Obtaining the heart",
       "text": {
         "en": "Buy an onion from Xuan north-west of the fountain, or pickpocket zombie citizens until you get one.",
         "es": "Compra una cebolla a Xuan, al noroeste de la fuente, o roba a ciudadanos zombis hasta conseguir una."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Obtaining the heart",
       "text": {
         "en": "Talk to Thessalia and have her make a yellow dye and a blue dye.",
         "es": "Habla con Thessalia y pídele que haga un tinte amarillo y un tinte azul."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Obtaining the heart",
       "text": {
         "en": "Use the yellow and blue dyes on separate vials of red mist to get a vial of orange mist and a vial of purple mist.",
         "es": "Usa los tintes amarillo y azul en viales separados de bruma roja para obtener un vial de bruma naranja y un vial de bruma púrpura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Obtaining the heart",
       "text": {
         "en": "Go back to the New Varrock castle and enter the north-west room (orange barrier) on the and search the desk to get a code key. Optional: search the chest in this room (90 thieving and lockpick required) to complete an elite task/achievement.",
         "es": "Vuelve al castillo de New Varrock y entra en la sala noroeste (barrera naranja) y registra el escritorio para conseguir una llave de código. Opcional: registra el baúl de esta sala (requiere 90 de Robo y ganzúa) para completar una tarea/logro élite."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Obtaining the heart",
       "text": {
         "en": "Go up one floor, to the to the south-east corner by the armoured zombies.",
         "es": "Sube un piso, hacia la esquina sureste, junto a los zombis acorazados."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 1,
+      "section": "Obtaining the heart",
       "text": {
         "en": "Replay: If you kept the dyes/mists, skip to this step.",
         "es": "Repetición: si conservaste los tintes/brumas, salta a este paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 1,
+      "section": "Obtaining the heart",
       "text": {
         "en": "In the south-eastern room, search the Crate of decoder strips to get decoder strips if you don't have them and can't remember the combination.",
         "es": "En la sala del sureste, registra la caja de tiras decodificadoras para conseguirlas si no las tienes y no recuerdas la combinación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 2,
+      "section": "Obtaining the heart",
       "text": {
         "en": "Replay: Skip this step if you kept the decoder strips or you remember the combination.",
         "es": "Repetición: sáltate este paso si conservaste las tiras decodificadoras o recuerdas la combinación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Taking the heart",
       "text": {
         "en": "Enter the north-easternmost room on the (purple barrier). Search the footlocker near the bed to get a vault key.",
         "es": "Entra en la sala más al noreste (barrera púrpura). Registra el baúl junto a la cama para conseguir una llave de la bóveda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Taking the heart",
       "text": {
         "en": "Head to the south-westernmost room, unlock the large vault door to the west, and enter the room.",
         "es": "Dirígete a la sala más al suroeste, abre la gran puerta de la bóveda hacia el oeste y entra en la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 1,
+      "section": "Taking the heart",
       "text": {
         "en": "Before proceeding across the light beams, it is highly recommended that you deface the 3 paintings on the north wall of this room to complete the Bank-Z achievement. If you don't do it now, you need to replay all 4 New Varrock quests in order to complete this New Varrock achievement.",
         "es": "Antes de cruzar los rayos de luz, se recomienda encarecidamente destrozar las 3 pinturas de la pared norte de esta sala para completar el logro Bank-Z. Si no lo haces ahora, tendrás que repetir las 4 misiones de New Varrock en orden para completar este logro de New Varrock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Taking the heart",
       "text": {
         "en": "Equip the mithril crossbow and mithril grapple, and grapple the chandelier on the ceiling to cross the beams of light. If you've lost your crossbow and grapple, you can reclaim them from your respective gang, Black arm or Phoenix.",
         "es": "Equípate la ballesta de mithril y el garfio de mithril, y engancha la lámpara de araña del techo para cruzar los rayos de luz. Si has perdido tu ballesta y garfio, puedes recuperarlos de tu banda respectiva, Black Arm o Phoenix."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Taking the heart",
       "text": {
         "en": "Fill in the code using the decoding strips and the code you got from Zemouregal's desk in the downstairs study to unlock the door (the code is random for everyone).",
         "es": "Rellena el código usando las tiras decodificadoras y el código que conseguiste del escritorio de Zemouregal en el estudio de abajo para desbloquear la puerta (el código es aleatorio para cada jugador)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 1,
+      "section": "Taking the heart",
       "text": {
         "en": "Replay: The old code is displayed in chatbox, but the final combination is the same every time. If needed, decoder strips can be found in the armoured zombie room to the east of the vault outer door.",
         "es": "Repetición: el código antiguo se muestra en el cuadro de chat, pero la combinación final es siempre la misma. Si es necesario, se pueden encontrar tiras decodificadoras en la sala de zombis acorazados al este de la puerta exterior de la bóveda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Taking the heart",
       "text": {
         "en": "Enter the vault and take the heart from the pedestal.",
         "es": "Entra en la bóveda y coge el corazón del pedestal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Taking the heart",
       "text": {
         "en": "Return to Arrav and talk to him.",
         "es": "Vuelve con Arrav y habla con él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Taking the heart",
       "text": {
         "en": "Go to the Museum in east New Varrock.",
         "es": "Ve al Museum en el este de New Varrock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Taking the heart",
       "text": {
         "en": "Press the big red button (near the rock remains) to distract Orlando Smith (choose any option).",
         "es": "Pulsa el gran botón rojo (cerca de los restos de roca) para distraer a Orlando Smith (elige cualquier opción)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 1,
+      "section": "Taking the heart",
       "text": {
         "en": "Pickpocket the key from Curator Haig Halen",
         "es": "Roba la llave del Curator Haig Halen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 1,
+      "section": "Taking the heart",
       "text": {
         "en": "Then take the shield of Arrav from the display case.",
         "es": "Luego coge el shield of Arrav de la vitrina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 1,
+      "section": "Taking the heart",
       "text": {
         "en": "If you have not completed the elite achievement Dark Imperator-ment, pressing the button again and using the remaining three options will do so (requires 91 Constitution and 75 in each of Attack, Magic and Ranged).",
         "es": "Si no has completado el logro élite Dark Imperator-ment, al pulsar el botón de nuevo y usar las tres opciones restantes lo conseguirás (requiere 91 de Constitución y 75 en Ataque, Magia y Distancia)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "Taking the heart",
       "text": {
         "en": "Head back to Arrav and talk to him to give him the shield and Darklight.",
         "es": "Vuelve con Arrav y habla con él para entregarle el shield y Darklight."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 0,
+      "section": "The Fight",
       "text": {
         "en": "Open the throne room door (behind Arrav) and enter the room by pressing OK",
         "es": "Abre la puerta de la sala del trono (detrás de Arrav) y entra en la sala pulsando OK."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 0,
+      "section": "The Fight",
       "text": {
         "en": "Talk to Sharathteerk.",
         "es": "Habla con Sharathteerk."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 0,
+      "section": "The Fight",
       "text": {
         "en": "Defeat Sharathteerk. You can spare or kill him, it doesn't matter.",
         "es": "Derrota a Sharathteerk. Puedes perdonarlo o matarlo, no importa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 1,
+      "section": "The Fight",
       "text": {
         "en": "Pick-up the healing orb to heal yourself back to full health.",
         "es": "Recoge el orbe curativo para recuperar toda tu salud."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "The Fight",
       "text": {
         "en": "Go up the north-east stairs.",
         "es": "Sube las escaleras del noreste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "The Fight",
       "text": {
         "en": "Defeat Zemouregal",
         "es": "Derrota a Zemouregal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 68,
       "indent": 1,
+      "section": "The Fight",
       "text": {
         "en": "Replay: You can choose to skip the fight if you've purchased this option from Aris' Reward Shop.",
         "es": "Repetición: puedes optar por saltarte el combate si has comprado esta opción en la Aris' Reward Shop."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 69,
       "indent": 1,
+      "section": "The Fight",
       "text": {
         "en": "For the Moo-er of All Bombs achievement: it is highly recommended that you lure the five cows to him in order to complete the achievement on your first time through so you can skip the fight in the future (assuming you purchased this option from Aris' Reward Shop).",
         "es": "Para el logro Moo-er of All Bombs: se recomienda encarecidamente atraer las cinco vacas hacia él para completar el logro la primera vez, así podrás saltarte el combate en el futuro (suponiendo que hayas comprado esa opción en la Aris' Reward Shop)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 70,
       "indent": 2,
+      "section": "The Fight",
       "text": {
         "en": "This can be easily completed in the final phase of the fight, during which he spawns many cows continuously, thus be wary of attacking him in this final phase before getting the achievement.",
         "es": "Esto se puede completar fácilmente en la fase final del combate, durante la cual invoca muchas vacas continuamente, así que ten cuidado al atacarlo en esta fase final antes de conseguir el logro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 71,
       "indent": 2,
+      "section": "The Fight",
       "text": {
         "en": "You must destroy all the Protection Portals before the cows will damage Zemouregal (and count towards your achievement).",
         "es": "Debes destruir todos los Protection Portals antes de que las vacas puedan dañar a Zemouregal (y de que cuente para tu logro)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 72,
       "indent": 2,
+      "section": "The Fight",
       "text": {
         "en": "If you are having troubles remember the following:",
         "es": "Si tienes problemas, recuerda lo siguiente:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 73,
       "indent": 3,
+      "section": "The Fight",
       "text": {
         "en": "You can use the cows to help you destroy the portals.",
         "es": "Puedes usar las vacas para ayudarte a destruir los portales."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 74,
       "indent": 3,
+      "section": "The Fight",
       "text": {
         "en": "Each portal you have tagged before being exploded will still drop healing orbs, so if HP is a problem you should try to hit as many portals as you can 1-2 times and moving on to the next.",
         "es": "Cada portal que hayas marcado antes de que explote seguirá soltando orbes curativos, así que si tienes problemas de salud, intenta golpear tantos portales como puedas 1-2 veces y pasar al siguiente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 75,
       "indent": 3,
+      "section": "The Fight",
       "text": {
         "en": "It is better to die and try the fight again than to accidentally kill Zemouregal because completing this fight will force you to replay through the entirety of Dimension of Disaster again including all four of the quests again.",
         "es": "Es mejor morir e intentar el combate de nuevo que matar accidentalmente a Zemouregal, porque completar este combate te obligará a repetir por completo Dimension of Disaster, incluidas las cuatro misiones de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 76,
       "indent": 0,
+      "section": "The Fight",
       "text": {
-        "en": "Final cutscene. (opciones de chat: 4 I guess this is goodbye.)",
-        "es": "Escena final. (opciones de chat: 4 Supongo que esto es un adiós.)"
-      }
+        "en": "Final cutscene.",
+        "es": "Escena final."
+      },
+      "chatOptions": [
+        "4 I guess this is goodbye."
+      ]
     },
     {
       "index": 77,
       "indent": 0,
+      "section": "Complete main quest",
       "text": {
         "en": "Be sure to talk to Aris and complete the main quest to earn your silver pennies.",
         "es": "Asegúrate de hablar con Aris y completar la misión principal para ganar tus silver pennies."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 78,
       "indent": 1,
+      "section": "Complete main quest",
       "text": {
         "en": "Do not use \"Complete\" in her right-click menu. You will not be rewarded your 5 silver pennies.",
         "es": "No uses \"Completar\" en su menú del clic derecho. No recibirás tus 5 silver pennies."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

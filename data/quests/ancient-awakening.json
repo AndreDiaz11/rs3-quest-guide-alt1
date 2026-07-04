@@ -2,7 +2,8 @@
   "id": "ancient-awakening",
   "title": "Ancient Awakening",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:47:38.948Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:35.370Z",
   "icon": "https://runescape.wiki/images/thumb/Ancient_Awakening_icon.png/50px-Ancient_Awakening_icon.png",
   "series": "Fort Forinthry",
   "age": "Age of Chaos",
@@ -99,311 +100,418 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Ancient_Awakening_reward.png?bd89a",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting off",
       "text": {
-        "en": "Talk to Overseer Siv in the Command Centre in the Fort Forinthry. (opciones de chat: 2 Talk about 'Ancient Awakening'. • Accept • Any)",
-        "es": "Habla con Overseer Siv en el Command Centre de Fort Forinthry. (opciones de chat: 2 Habla sobre 'Ancient Awakening'. • Aceptar • Cualquiera)"
-      }
+        "en": "Talk to Overseer Siv in the Command Centre in the Fort Forinthry.",
+        "es": "Habla con Overseer Siv en el Command Centre de Fort Forinthry."
+      },
+      "chatOptions": [
+        "2 Talk about 'Ancient Awakening'.",
+        "Accept",
+        "Any"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting off",
       "text": {
         "en": "Go north of Fort Forinthry and enter the Wilderness crypt entrance. Pray Protect from Magic against the risen ghosts inside.",
         "es": "Ve al norte de Fort Forinthry y entra en la entrada de la cripta de Wilderness. Usa la oración Protección contra Magia contra los espíritus resucitados del interior."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Finding artefacts",
       "text": {
         "en": "Go across the bridge and enter the ancient door.",
         "es": "Cruza el puente y entra por la puerta antigua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Finding artefacts",
       "text": {
         "en": "If the bridge is missing, log out and back in to have it reappear.",
         "es": "Si el puente no aparece, cierra sesión y vuelve a entrar para que reaparezca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Finding artefacts",
       "text": {
-        "en": "Talk to any character near the map table. (opciones de chat: Any • Any • Any)",
-        "es": "Habla con cualquier personaje cerca de la mesa del mapa. (opciones de chat: Cualquiera • Cualquiera • Cualquiera)"
-      }
+        "en": "Talk to any character near the map table.",
+        "es": "Habla con cualquier personaje cerca de la mesa del mapa."
+      },
+      "chatOptions": [
+        "Any",
+        "Any",
+        "Any"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Finding artefacts",
       "text": {
         "en": "Collect 20 dragonkin artefacts in the tomb. Kill any tomb zombies that appear, and then collect the artefacts they drop. The zombies are based on your combat level, e.g. 3,200 life points at combat level 152. One can be collected from each Dragonkin artefact hotspot throughout the crypt as well.",
         "es": "Recoge 20 artefactos dragonkin en la tumba. Mata a los zombis de la tumba que aparezcan y recoge después los artefactos que suelten. Los zombis se generan según tu nivel de combate, por ejemplo, 3.200 puntos de vida con nivel de combate 152. También puedes recoger uno en cada punto de interés de artefactos Dragonkin repartidos por la cripta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Finding artefacts",
       "text": {
-        "en": "Talk to anyone near the map table again. (opciones de chat: Any)",
-        "es": "Vuelve a hablar con cualquiera cerca de la mesa del mapa. (opciones de chat: Cualquiera)"
-      }
+        "en": "Talk to anyone near the map table again.",
+        "es": "Vuelve a hablar con cualquiera cerca de la mesa del mapa."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Jolly Boar Inn",
       "text": {
         "en": "Go to the Jolly Boar Inn, south-west of Fort Forinthry. Use the marker to continue the quest at the entrance, then stay on the .",
         "es": "Ve al Jolly Boar Inn, al suroeste de Fort Forinthry. Usa el marcador para continuar la misión en la entrada y quédate en el ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Jolly Boar Inn",
       "text": {
-        "en": "Talk to Bill at the bar. (opciones de chat: 2 I don't need to know your family history, Bill.)",
-        "es": "Habla con Bill en la barra. (opciones de chat: 2 No necesito conocer tu historia familiar, Bill.)"
-      }
+        "en": "Talk to Bill at the bar.",
+        "es": "Habla con Bill en la barra."
+      },
+      "chatOptions": [
+        "2 I don't need to know your family history, Bill."
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Jolly Boar Inn",
       "text": {
-        "en": "Go up the staircase, talk to Ellamaria. (opciones de chat: 4 Let's skip the small talk.)",
-        "es": "Sube las escaleras y habla con Ellamaria. (opciones de chat: 4 Dejémonos de charlas triviales.)"
-      }
+        "en": "Go up the staircase, talk to Ellamaria.",
+        "es": "Sube las escaleras y habla con Ellamaria."
+      },
+      "chatOptions": [
+        "4 Let's skip the small talk."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Jolly Boar Inn",
       "text": {
         "en": "Continue the quest with the marker near the bridge west of the Champions' Guild.",
         "es": "Continúa la misión con el marcador cerca del puente al oeste del Champions' Guild."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Jolly Boar Inn",
       "text": {
-        "en": "Talk to Aster slightly south. (opciones de chat: 3 I need you to return to the fort.)",
-        "es": "Habla con Aster, un poco más al sur. (opciones de chat: 3 Necesito que vuelvas al fuerte.)"
-      }
+        "en": "Talk to Aster slightly south.",
+        "es": "Habla con Aster, un poco más al sur."
+      },
+      "chatOptions": [
+        "3 I need you to return to the fort."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Jolly Boar Inn",
       "text": {
         "en": "Go back to Fort Forinthry, continue Ancient Awakening at the Town Hall.",
         "es": "Regresa a Fort Forinthry y continúa Ancient Awakening en el Town Hall."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Jolly Boar Inn",
       "text": {
         "en": "Talk to anyone in the Town Hall.",
         "es": "Habla con cualquiera en el Town Hall."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Jolly Boar Inn",
       "text": {
-        "en": "Leave through the marker at the entrance to the Town Hall. (opciones de chat: 1 Yes.)",
-        "es": "Sal por el marcador de la entrada del Town Hall. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Leave through the marker at the entrance to the Town Hall.",
+        "es": "Sal por el marcador de la entrada del Town Hall."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Ungael",
       "text": {
         "en": "Gear up for combat.",
         "es": "Equípate para el combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Ungael",
       "text": {
         "en": "Most of the enemies are weak to magic (earth or fire spells)",
         "es": "La mayoría de los enemigos son débiles frente a la magia (hechizos de tierra o fuego)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Ungael",
       "text": {
-        "en": "Go to the Grove east of the fort and interact with the rowboat to travel to Ungael. (opciones de chat: 1 Yes.)",
-        "es": "Ve a la arboleda al este del fuerte e interactúa con el bote de remos para viajar a Ungael. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Go to the Grove east of the fort and interact with the rowboat to travel to Ungael.",
+        "es": "Ve a la arboleda al este del fuerte e interactúa con el bote de remos para viajar a Ungael."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Ungael",
       "text": {
         "en": "Kill all of the attacking monsters.",
         "es": "Derrota a todos los monstruos que ataquen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Ungael",
       "text": {
         "en": "Talk to the team and make your way north-east up the path.",
         "es": "Habla con el equipo y avanza hacia el noreste por el camino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Ungael",
       "text": {
         "en": "Interact with the Ruins Entrance.",
         "es": "Interactúa con la entrada de las ruinas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Ungael",
       "text": {
-        "en": "Go up the stairs to the east, then head west. Interact with the tower entrance. (opciones de chat: 1 Yes.)",
-        "es": "Sube las escaleras hacia el este y luego dirígete al oeste. Interactúa con la entrada de la torre. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Go up the stairs to the east, then head west. Interact with the tower entrance.",
+        "es": "Sube las escaleras hacia el este y luego dirígete al oeste. Interactúa con la entrada de la torre."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Ungael",
       "text": {
         "en": "Watch the cutscene. You cannot bank inbetween waves. Prepare for a long fight. If you are lower level, you can let your allies deal most of the damage and you can focus on the enemies who attack you. If you run away from your attacker, it might shift its focus on your ally, meaning you can save food.",
         "es": "Observa la escena. No puedes usar el banco entre oleadas. Prepárate para un combate largo. Si tienes un nivel más bajo, puedes dejar que tus aliados hagan la mayor parte del daño y centrarte en los enemigos que te ataquen a ti. Si huyes de tu atacante, puede que este se centre en tu aliado, permitiéndote ahorrar comida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Undead waves",
       "text": {
         "en": "Defeat 12 waves of Zemouregal's minions. After each wave of enemies, you have to activate necrotic energy and sometimes choose a power-up for one of your allies. See the full guide for details on all waves and power-ups.",
         "es": "Derrota 12 oleadas de los secuaces de Zemouregal. Después de cada oleada de enemigos, debes activar energía necrótica y, a veces, elegir una mejora para uno de tus aliados. Consulta la guía completa para más detalles sobre todas las oleadas y mejoras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Undead waves",
       "text": {
         "en": "Watch the cutscene.",
         "es": "Observa la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Getting off the island",
       "text": {
-        "en": "Talk to Aster. (opciones de chat: Any)",
-        "es": "Habla con Aster. (opciones de chat: Cualquiera)"
-      }
+        "en": "Talk to Aster.",
+        "es": "Habla con Aster."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Getting off the island",
       "text": {
         "en": "Interact with the doorway to the south.",
         "es": "Interactúa con la puerta al sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Getting off the island",
       "text": {
         "en": "Walk west, then south, then interact with runic projector.",
         "es": "Camina hacia el oeste, luego al sur, y después interactúa con el proyector rúnico."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Getting off the island",
       "text": {
         "en": "Collect three motes of energy from:",
         "es": "Recoge tres motas de energía de:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Getting off the island",
       "text": {
         "en": "Go north to catch the mote just outside the tower.",
         "es": "Ve al norte para atrapar la mota justo fuera de la torre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Getting off the island",
       "text": {
         "en": "Searching bookcase in the north.",
         "es": "Busca en la estantería del norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "Getting off the island",
       "text": {
         "en": "Searching ruined pillar in the south-west.",
         "es": "Busca en el pilar en ruinas del suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Getting off the island",
       "text": {
         "en": "Interact with the runic projector.",
         "es": "Interactúa con el proyector rúnico."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Listen to the archivist. (opciones de chat: Any • 2 What is this place? • 3 Tell me about Vorkath. • 4 Tell me about this tomb. • 1 Can you activate this conduit?)",
-        "es": "Escucha al archivero. (opciones de chat: Cualquiera • 2 ¿Qué es este lugar? • 3 Háblame de Vorkath. • 4 Háblame de esta tumba. • 1 ¿Puedes activar este conducto?)"
-      }
+        "en": "Listen to the archivist.",
+        "es": "Escucha al archivero."
+      },
+      "chatOptions": [
+        "Any",
+        "2 What is this place?",
+        "3 Tell me about Vorkath.",
+        "4 Tell me about this tomb.",
+        "1 Can you activate this conduit?"
+      ]
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Inspect the mysterious device to the south-east.",
         "es": "Examina el dispositivo misterioso al sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Finish the conversation.",
         "es": "Termina la conversación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Return to Fort Forinthry and continue via the marker in front of the Town Hall.",
         "es": "Regresa a Fort Forinthry y continúa a través del marcador frente al Town Hall."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to anyone in the Town Hall.",
         "es": "Habla con cualquiera en el Town Hall."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

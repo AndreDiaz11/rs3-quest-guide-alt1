@@ -2,7 +2,8 @@
   "id": "a-guild-of-our-own-miniquest",
   "title": "A Guild of Our Own (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:25:38.201Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:32.218Z",
   "icon": "https://runescape.wiki/images/A_Guild_of_Our_Own_%28miniquest%29_icon.png",
   "series": "Thieves' Guild",
   "age": "ambiguous",
@@ -97,167 +98,216 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/A_Guild_of_Our_Own_%28miniquest%29_reward.png?bfd70",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Overview",
       "text": {
-        "en": "Talk to Darren Lightfinger just inside of the Thieves' Guild in Lumbridge. (opciones de chat: Accept)",
-        "es": "Habla con Darren Lightfinger justo dentro del Thieves' Guild en Lumbridge. (opciones de chat: Accept)"
-      }
+        "en": "Talk to Darren Lightfinger just inside of the Thieves' Guild in Lumbridge.",
+        "es": "Habla con Darren Lightfinger justo dentro del Thieves' Guild en Lumbridge."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Overview",
       "text": {
-        "en": "Talk to Chief Thief Robin. (opciones de chat: 3 About this caper...)",
-        "es": "Habla con Chief Thief Robin. (opciones de chat: 3 About this caper...)"
-      }
+        "en": "Talk to Chief Thief Robin.",
+        "es": "Habla con Chief Thief Robin."
+      },
+      "chatOptions": [
+        "3 About this caper..."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Overview",
       "text": {
         "en": "Use a bowl on an onion to make chopped onion.",
         "es": "Usa un cuenco en una cebolla para hacer cebolla picada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Overview",
       "text": {
         "en": "Use irit potion (unfinished) with chopped onion to get a vial of stench.",
         "es": "Usa la irit potion (unfinished) con la cebolla picada para obtener un vial of stench."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Overview",
       "text": {
         "en": "Talk to Chief Thief Robin to get a vial of stench (a).",
         "es": "Habla con Chief Thief Robin para conseguir un vial of stench (a)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Overview",
       "text": {
         "en": "If it does not work, talk to Darren Lightfinger about a disguise, and then talk to Robin again.",
         "es": "Si no funciona, habla con Darren Lightfinger sobre un disfraz, y luego habla de nuevo con Robin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Guild registry",
       "text": {
         "en": "In a building south-east of Ardougne market, pickpocket the Registrar for a cuckoo clock key.",
         "es": "En un edificio al sureste del mercado de Ardougne, roba al Registrar para conseguir una cuckoo clock key."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Guild registry",
       "text": {
         "en": "Get ready, the next steps are time sensitive. You can try again if you fail with no consequence. Make sure to equip a blackjack first.",
         "es": "Prepárate, los siguientes pasos están cronometrados. Puedes intentarlo de nuevo si fallas, sin ninguna consecuencia. Asegúrate de equipar primero un blackjack."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Guild registry",
       "text": {
         "en": "In the north room, wind the clock on the wall.",
         "es": "En la sala del norte, dale cuerda al reloj de la pared."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Guild registry",
       "text": {
         "en": "Go in the south room, wait for the Registrar to get to the clock room.",
         "es": "Ve a la sala del sur y espera a que el Registrar llegue a la sala del reloj."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Guild registry",
       "text": {
         "en": "Lure, knock out, then steal-from the guard.",
         "es": "Atrae, deja inconsciente y luego roba al guardia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Guild registry",
       "text": {
         "en": "Pull the vault lever behind the desk.",
         "es": "Tira de la palanca de la cámara acorazada detrás del escritorio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Guild registry",
       "text": {
         "en": "Go down the trapdoor that opens, the following steps are no longer time sensitive.",
         "es": "Baja por la trampilla que se abre; a partir de aquí los pasos ya no están cronometrados."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Guild registry",
       "text": {
         "en": "Right-click pick-lock on the vault door.",
         "es": "Haz clic derecho y elige forzar la cerradura en la puerta de la cámara acorazada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Guild registry",
       "text": {
         "en": "Right-click check the chest for traps, then open it. You should receive some bonds.",
         "es": "Haz clic derecho y comprueba si el cofre tiene trampas, luego ábrelo. Deberías recibir unos bonds."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Guild registry",
       "text": {
-        "en": "Inspect the boxes under the square hole in the wall to exit. (opciones de chat: 1 Leave the vault.)",
-        "es": "Inspecciona las cajas bajo el agujero cuadrado en la pared para salir. (opciones de chat: 1 Leave the vault.)"
-      }
+        "en": "Inspect the boxes under the square hole in the wall to exit.",
+        "es": "Inspecciona las cajas bajo el agujero cuadrado en la pared para salir."
+      },
+      "chatOptions": [
+        "1 Leave the vault."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Bank (recommended) or destroy your vial of stench (a).",
         "es": "Guarda en el banco (recomendado) o destruye tu vial of stench (a)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Re-enter the building and talk to the Registrar.",
         "es": "Vuelve a entrar en el edificio y habla con el Registrar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Return to Darren Lightfinger. (opciones de chat: 3 I'd like to talk about the caper I'm doing for you.)",
-        "es": "Regresa con Darren Lightfinger. (opciones de chat: 3 I'd like to talk about the caper I'm doing for you.)"
-      }
+        "en": "Return to Darren Lightfinger.",
+        "es": "Regresa con Darren Lightfinger."
+      },
+      "chatOptions": [
+        "3 I'd like to talk about the caper I'm doing for you."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Miniquest complete!",
         "es": "¡Miniquest completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

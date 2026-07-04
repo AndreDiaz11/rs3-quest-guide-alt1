@@ -2,7 +2,8 @@
   "id": "clock-tower",
   "title": "Clock Tower",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:58:03.902Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:47.803Z",
   "icon": "https://runescape.wiki/images/Clock_Tower_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -52,199 +53,250 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Clock_Tower_reward.png?5eddd",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Brother Kojo at the Clock Tower located south-west on the path going south from Ardougne Zoo. (opciones de chat: Accept)",
-        "es": "Habla con Brother Kojo en el Clock Tower situado al suroeste, en el camino que va hacia el sur desde el Ardougne Zoo. (opciones de chat: Accept)"
-      }
+        "en": "Talk to Brother Kojo at the Clock Tower located south-west on the path going south from Ardougne Zoo.",
+        "es": "Habla con Brother Kojo en el Clock Tower situado al suroeste, en el camino que va hacia el sur desde el Ardougne Zoo."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Go into the central room and down the ladder.",
         "es": "Entra en la sala central y baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Go through the northeast passage and look for a tile with four colours.",
         "es": "Ve por el pasillo noreste y busca una baldosa con cuatro colores."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Black cog",
       "text": {
         "en": "Enter the northeast door closest to the dark grey tile and go as far east as possible.",
         "es": "Entra por la puerta noreste más cercana a la baldosa gris oscuro y ve lo más al este posible."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Black cog",
       "text": {
         "en": "There will be a cog surrounded by fire. With a bucket of water in your inventory or Ice gloves equipped, pick it up.",
         "es": "Habrá un engranaje rodeado de fuego. Con un cubo de agua en tu inventario o los Ice gloves equipados, recógelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Black cog",
       "text": {
         "en": "Place the black cog on the black spindle, next to the ladder you came down when you entered the dungeon.",
         "es": "Coloca el engranaje negro en el eje negro, junto a la escalera por la que bajaste al entrar en la mazmorra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Red cog",
       "text": {
         "en": "Go back to the tile room and head through the door by the red tile.",
         "es": "Vuelve a la sala de las baldosas y dirígete a la puerta junto a la baldosa roja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Red cog",
       "text": {
         "en": "Go to the end of the passage and grab the cog in the room with the ogres.",
         "es": "Ve hasta el final del pasillo y coge el engranaje en la sala con los ogros."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Red cog",
       "text": {
         "en": "Return to the entrance and go up the ladder, to the and place the red cog on the red spindle.",
         "es": "Vuelve a la entrada, sube por la escalera hasta la , y coloca el engranaje rojo en el eje rojo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Blue cog",
       "text": {
         "en": "Exit the clock tower.",
         "es": "Sal del Clock Tower."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Blue cog",
       "text": {
         "en": "Go just south of the Ardougne Zoo, near the camel enclosure, in a corner against the fence, and down the ladder.",
         "es": "Ve justo al sur del Ardougne Zoo, cerca del recinto de los camellos, en una esquina junto a la valla, y baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Blue cog",
       "text": {
         "en": "Follow the path. Push the wall at the end and pick up the cog.",
         "es": "Sigue el camino. Empuja la pared del final y recoge el engranaje."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Blue cog",
       "text": {
         "en": "Climb the nearby ladder.",
         "es": "Sube por la escalera cercana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Blue cog",
       "text": {
         "en": "Re-enter the Clocktower north of you and climb the stairs to the , and place the blue cog on the blue spindle.",
         "es": "Vuelve a entrar en el Clocktower que tienes al norte y sube las escaleras hasta la , y coloca el engranaje azul en el eje azul."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "White cog",
       "text": {
         "en": "Return to the basement",
         "es": "Vuelve al sótano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "White cog",
       "text": {
         "en": "Enter the north-west door closest to the white tile.",
         "es": "Entra por la puerta noroeste más cercana a la baldosa blanca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "White cog",
       "text": {
         "en": "Follow the western passage and pick up the rat poison.",
         "es": "Sigue el pasillo occidental y recoge el veneno para ratas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "White cog",
       "text": {
         "en": "Go up the middle path, and pull the western red lever on the southern wall to so that both prison doors are open.",
         "es": "Sube por el camino central y tira de la palanca roja occidental en la pared sur para que ambas puertas de la prisión queden abiertas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "White cog",
       "text": {
         "en": "Go through the gates and use the rat poison on the food trough, which is on the southern wall.",
         "es": "Cruza las verjas y usa el veneno para ratas en el comedero, que está en la pared sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "White cog",
       "text": {
         "en": "Wait for the game message 'They seem to be dying.' then head through the west gate and pick the cog up.",
         "es": "Espera a que aparezca el mensaje del juego 'Parece que están muriendo.' y luego dirígete hacia la verja oeste y recoge el engranaje."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "White cog",
       "text": {
         "en": "Climb up the ladder, enter the clock tower, and climb the stairs to the .",
         "es": "Sube por la escalera, entra en el Clock Tower y sube las escaleras hasta la ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "White cog",
       "text": {
         "en": "Place the white cog on the white spindle at the top of the clock tower.",
         "es": "Coloca el engranaje blanco en el eje blanco, en lo alto del Clock Tower."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Report back to Brother Kojo, on the of the Clock Tower.",
         "es": "Informa de vuelta a Brother Kojo, en la del Clock Tower."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

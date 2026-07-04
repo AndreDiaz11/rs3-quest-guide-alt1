@@ -2,7 +2,8 @@
   "id": "nomad-s-elegy",
   "title": "Nomad's Elegy",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T01:58:37.837Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:41.671Z",
   "icon": "https://runescape.wiki/images/Nomad%27s_Elegy_icon.png",
   "series": "Sliske's Game",
   "age": "6",
@@ -223,503 +224,657 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Nomad%27s_Elegy_reward.png?9e6fb",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Beginning",
       "text": {
         "en": "Make sure you have combat equipment (but not your familiar yet) from this point. If you die, you will be returned to Death's office and will have to leave and re-enter via Death's Hourglass (i.e. not War's Retreat) to resume progress with the quest.",
         "es": "Asegúrate de llevar equipo de combate (pero todavía no a tu familiar) a partir de este punto. Si mueres, volverás a la oficina de Death y tendrás que salir y volver a entrar a través del Death's Hourglass (es decir, no desde War's Retreat) para continuar con el progreso de la misión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Beginning",
       "text": {
-        "en": "Speak to Zimberfizz in the Soul Wars area. (opciones de chat: 2 Talk about Nomad's Elegy • Accept)",
-        "es": "Habla con Zimberfizz en la zona de Soul Wars. (opciones de chat: 2 Hablar sobre Nomad's Elegy • Aceptar)"
-      }
+        "en": "Speak to Zimberfizz in the Soul Wars area.",
+        "es": "Habla con Zimberfizz en la zona de Soul Wars."
+      },
+      "chatOptions": [
+        "2 Talk about Nomad's Elegy",
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Beginning",
       "text": {
         "en": "Investigate Nomad's tent to the east.",
         "es": "Investiga la tienda de Nomad al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Beginning",
       "text": {
         "en": "Investigate the throne, some crystals to the west, and sticky goo south of that.",
         "es": "Investiga el trono, unos cristales al oeste, y una masa pegajosa al sur de estos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Beginning",
       "text": {
         "en": "Investigate the strange emissions to the southwest. You will be sent to Death's Realm.",
         "es": "Investiga las extrañas emanaciones al suroeste. Serás enviado al Death's Realm."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Beginning",
       "text": {
         "en": "Go through the dialogue and travel through Death's door to the north (the mosaic of Death behind his desk).",
         "es": "Completa el diálogo y viaja a través de la puerta de Death al norte (el mosaico de Death detrás de su escritorio)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Freeing Zanik",
       "text": {
-        "en": "Speak to Death again. (opciones de chat: 1 What do we need to do now? • 5 I have to go.)",
-        "es": "Habla de nuevo con Death. (opciones de chat: 1 ¿Qué tenemos que hacer ahora? • 5 Tengo que irme.)"
-      }
+        "en": "Speak to Death again.",
+        "es": "Habla de nuevo con Death."
+      },
+      "chatOptions": [
+        "1 What do we need to do now?",
+        "5 I have to go."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Freeing Zanik",
       "text": {
         "en": "Embark on the Bloodstained Jetty to the north-east. (You cannot bring a familiar here.)",
         "es": "Embarca en el Bloodstained Jetty al noreste. (No puedes traer a tu familiar aquí.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Freeing Zanik",
       "text": {
         "en": "If you leave the Underworld, you can return by entering Death's Office from Draynor. Do not enter from War's Retreat.",
         "es": "Si abandonas el Underworld, puedes volver entrando en la Death's Office desde Draynor. No entres desde War's Retreat."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Freeing Zanik",
       "text": {
         "en": "Defeat oncoming waves of Bandosians to protect the cave goblins. There are three waves, and progress is saved after each wave. Aggression potions can help, though some of the Bandosians can slip past.",
         "es": "Derrota las oleadas de Bandosians que se acercan para proteger a los cave goblins. Hay tres oleadas, y el progreso se guarda tras cada una. Las pociones de agresión pueden ayudar, aunque algunos Bandosians pueden colarse."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Gathering your allies",
       "text": {
         "en": "Embark on the Dusty Jetty to the north-west.",
         "es": "Embarca en el Dusty Jetty al noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Gathering your allies",
       "text": {
         "en": "Speak to Astrid/Brand.",
         "es": "Habla con Astrid/Brand."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Jessika/Korasi",
       "text": {
         "en": "Speak to Korasi/Jessika in the house north of Bob's Brilliant Axes.",
         "es": "Habla con Korasi/Jessika en la casa al norte de Bob's Brilliant Axes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Jessika/Korasi",
       "text": {
-        "en": "Travel to the south-west of Lumbridge Castle grounds. Speak to Wizard Grayzag for half of Korasi's/Jessika's memories. (opciones de chat: 1 I'm not Korasi/Jessika. • 3 My name is Korasi/Jessika. • 2 Wizard Grayzag? • 2 You represent danger. • 4 I am not afraid of you! • 1 Then I won't fail.)",
-        "es": "Viaja al suroeste de los terrenos de Lumbridge Castle. Habla con Wizard Grayzag para conseguir la mitad de los recuerdos de Korasi/Jessika. (opciones de chat: 1 No soy Korasi/Jessika. • 3 Me llamo Korasi/Jessika. • 2 ¿Wizard Grayzag? • 2 Representas un peligro. • 4 ¡No te tengo miedo! • 1 Entonces no fallaré.)"
-      }
+        "en": "Travel to the south-west of Lumbridge Castle grounds. Speak to Wizard Grayzag for half of Korasi's/Jessika's memories.",
+        "es": "Viaja al suroeste de los terrenos de Lumbridge Castle. Habla con Wizard Grayzag para conseguir la mitad de los recuerdos de Korasi/Jessika."
+      },
+      "chatOptions": [
+        "1 I'm not Korasi/Jessika.",
+        "3 My name is Korasi/Jessika.",
+        "2 Wizard Grayzag?",
+        "2 You represent danger.",
+        "4 I am not afraid of you!",
+        "1 Then I won't fail."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Jessika/Korasi",
       "text": {
         "en": "Travel to the of the Lumbridge Castle wall using the southern gate ladder (not within the main castle keep), and speak to the person you saved in The Void Stares Back to recover the other half of Korasi's/Jessika's memory.",
         "es": "Viaja hasta la de la muralla de Lumbridge Castle usando la escalera de la puerta sur (no dentro de la torre principal del castillo), y habla con la persona que salvaste en The Void Stares Back para recuperar la otra mitad del recuerdo de Korasi/Jessika."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Jessika/Korasi",
       "text": {
         "en": "Combine the memory halves.",
         "es": "Combina las dos mitades del recuerdo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Jessika/Korasi",
       "text": {
         "en": "Return Korasi's/Jessika's completed memory to her north of Bob's Axes.",
         "es": "Devuelve el recuerdo completo de Korasi/Jessika al norte de Bob's Axes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Hazelmere",
       "text": {
         "en": "Talk to Hazelmere on the of Lumbridge castle.",
         "es": "Habla con Hazelmere en la de Lumbridge Castle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Hazelmere",
       "text": {
         "en": "Find and talk to him again on the and above on the above where the bank normally is by using the ladder on the north side of the building.",
         "es": "Encuéntralo y habla con él de nuevo en la y encima de la, sobre donde normalmente está el banco, usando la escalera en el lado norte del edificio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Hazelmere",
       "text": {
         "en": "Climb either of the two tower ladders of the castle gate (not within the main castle keep); he will be on the .",
         "es": "Sube por cualquiera de las dos escaleras de las torres de la puerta del castillo (no dentro de la torre principal); estará en la ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Hazelmere",
       "text": {
         "en": "Speak to Hazelmere in what would normally be Bob's Axes.",
         "es": "Habla con Hazelmere en lo que normalmente sería Bob's Axes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Hazelmere",
       "text": {
         "en": "Speak to Hazelmere west of Lumbridge Castle.",
         "es": "Habla con Hazelmere al oeste de Lumbridge Castle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Hazelmere",
       "text": {
-        "en": "Speak to Hazelmere next to Astrid/Brand. (opciones de chat: 1 I need you to help me fight Nomad.)",
-        "es": "Habla con Hazelmere junto a Astrid/Brand. (opciones de chat: 1 Necesito que me ayudes a luchar contra Nomad.)"
-      }
+        "en": "Speak to Hazelmere next to Astrid/Brand.",
+        "es": "Habla con Hazelmere junto a Astrid/Brand."
+      },
+      "chatOptions": [
+        "1 I need you to help me fight Nomad."
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Xenia",
       "text": {
         "en": "Speak to Xenia in the Lumbridge Castle .",
         "es": "Habla con Xenia en la de Lumbridge Castle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Xenia",
       "text": {
         "en": "Attempt to open the chest in the northern room on the .",
         "es": "Intenta abrir el cofre en la sala norte de la ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Xenia",
       "text": {
         "en": "Kill Guilt, pick up the guilt ridden key, then open and search the chest for a Xenia memory half. The key will not drop if you are in a group.",
         "es": "Mata a Guilt, recoge la llave cargada de culpa, y luego abre y registra el cofre para conseguir la mitad de un recuerdo de Xenia. La llave no caerá si estás en un grupo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Xenia",
       "text": {
         "en": "Climb to the and attempt to open the chest in the room.",
         "es": "Sube a la e intenta abrir el cofre en la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Xenia",
       "text": {
         "en": "Kill Shame, pick up the shame filled key, then open and search the chest for a other Xenia memory half.",
         "es": "Mata a Shame, recoge la llave llena de vergüenza, y luego abre y registra el cofre para conseguir la otra mitad del recuerdo de Xenia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Xenia",
       "text": {
         "en": "Combine the memory halves and return the completed memory to Xenia.",
         "es": "Combina las dos mitades del recuerdo y devuelve el recuerdo completo a Xenia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Xenia",
       "text": {
-        "en": "Talk to Astrid/Brand. (opciones de chat: Any)",
-        "es": "Habla con Astrid/Brand. (opciones de chat: Cualquiera)"
-      }
+        "en": "Talk to Astrid/Brand.",
+        "es": "Habla con Astrid/Brand."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Xenia",
       "text": {
         "en": "Enter the portal to leave.",
         "es": "Entra en el portal para salir."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Interrogation",
       "text": {
         "en": "Plan the war table in the centre area.",
         "es": "Planifica en la mesa de guerra situada en la zona central."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Interrogation",
       "text": {
         "en": "Begin interrogating Legio Septimus. The player has the option to kill him outright by repeated torture which will end this section quickly, or to make his willpower low and restore his sanity high, so he answers your questions truthfully which unlocks a shortcut in the battering ram battle later.",
         "es": "Comienza a interrogar a Legio Septimus. El jugador tiene la opción de matarlo directamente mediante tortura repetida, lo que terminará esta sección rápidamente, o bien reducir su fuerza de voluntad y restaurar su cordura al máximo, para que responda tus preguntas con sinceridad, lo cual desbloquea un atajo en la batalla del ariete más adelante."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "Interrogation",
       "text": {
         "en": "To kill him outright, select Threaten him, then 'remove' crystals until Legio dies.",
         "es": "Para matarlo directamente, selecciona Amenazarlo, y luego 'elimina' cristales hasta que Legio muera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "Interrogation",
       "text": {
         "en": "To fully interrogate him instead, threaten him until it is no longer effective. Then use Zanik's Good Cop option and Xenia's Bad Cop option until his sanity is about 50%. Then use Charm to lower his willpower to about 50% as well. Finally raise his sanity back up to about 80% using Zanik's Bad Cop option and Xenia's Good Cop Option. Ask the questions, and his answers should be sane and cooperative. Once answered, choose whether to kill or release him (choice currently has no effect on future events)",
         "es": "Para interrogarlo por completo en su lugar, amenázalo hasta que deje de ser efectivo. Luego usa la opción de Poli Bueno de Zanik y la opción de Poli Malo de Xenia hasta que su cordura esté alrededor del 50%. Después usa Encanto para reducir también su fuerza de voluntad a aproximadamente el 50%. Finalmente, sube su cordura de nuevo hasta alrededor del 80% usando la opción de Poli Malo de Zanik y la opción de Poli Bueno de Xenia. Haz las preguntas, y sus respuestas deberían ser coherentes y cooperativas. Una vez respondidas, elige si matarlo o liberarlo (la elección actualmente no tiene efecto en eventos futuros)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Battering ram",
       "text": {
         "en": "Click the war table and select any two companions.",
         "es": "Haz clic en la mesa de guerra y selecciona a dos compañeros cualesquiera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Battering ram",
       "text": {
         "en": "Collect 25 wood and 25 metal. You can put both companions on the same material; by the time you complete the other, they will be finished.",
         "es": "Recoge 25 de madera y 25 de metal. Puedes poner a ambos compañeros en el mismo material; para cuando completes el otro, ya habrán terminado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Battering ram",
       "text": {
         "en": "Leave through the exit once complete.",
         "es": "Sal por la salida una vez completado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Battering ram",
       "text": {
         "en": "Build the battering ram to the north (takes a few minutes while dialogue plays).",
         "es": "Construye el ariete al norte (tarda unos minutos mientras se reproduce el diálogo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Battering ram",
       "text": {
         "en": "Return to the war table.",
         "es": "Vuelve a la mesa de guerra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Battering ram",
       "text": {
         "en": "Slowly walk the battering ram across the bridge and through the doors.",
         "es": "Lleva lentamente el ariete a través del puente y por las puertas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Battering ram",
       "text": {
         "en": "Choose to either head north and assault the fortress head-on, or if you unlocked the information in the earlier interrogation, detour through the east door and enter the secret passage in the north wall of the cave, which will bypass the second half of the assault.",
         "es": "Elige dirigirte al norte y asaltar la fortaleza de frente, o bien, si desbloqueaste la información durante el interrogatorio anterior, desviarte por la puerta este y entrar en el pasaje secreto en la pared norte de la cueva, lo que te permitirá saltarte la segunda mitad del asalto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Battering ram",
       "text": {
         "en": "Once inside, you'll have to fight Nomad.",
         "es": "Una vez dentro, tendrás que luchar contra Nomad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "First combat phase",
       "text": {
         "en": "Dwindle away Nomad's health, and move away from the centre of the bridge to avoid Gielinor's hand. Also move away from shadows that appear on the ground to avoid rapid powerful magic attacks. Use Surge if you can.",
         "es": "Reduce la salud de Nomad, y aléjate del centro del puente para evitar la mano de Gielinor. Aléjate también de las sombras que aparecen en el suelo para evitar los rápidos y poderosos ataques mágicos. Usa Oleada si puedes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Xenia",
       "text": {
         "en": "Stand in the middle of each of the three sections in the area and constantly use the 3 abilities made available. Move to the next one when one side is finished.",
         "es": "Colócate en el centro de cada una de las tres secciones del área y usa constantemente las 3 habilidades disponibles. Muévete a la siguiente cuando termines con un lado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 1,
+      "section": "Xenia",
       "text": {
         "en": "Use Fire Blast when Rorarii are present.",
         "es": "Usa Ráfaga de Fuego cuando haya Rorarii presentes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 1,
+      "section": "Xenia",
       "text": {
         "en": "Use Shield Dome when Gladii are present.",
         "es": "Usa Cúpula de Escudo cuando haya Gladii presentes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 1,
+      "section": "Xenia",
       "text": {
         "en": "Use Shadow Stalk when Scutarii are present.",
         "es": "Usa Acecho de Sombras cuando haya Scutarii presentes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 1,
+      "section": "Xenia",
       "text": {
         "en": "Every time you attack a Capsarii, it will heal Xenia for a small amount.",
         "es": "Cada vez que ataques a un Capsarii, curará a Xenia una pequeña cantidad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Second combat phase",
       "text": {
         "en": "In addition to the previous phase's attacks, when Nomad teleports you near him and orders you to 'face his wrath', switch to your shield to use Resonance to negate any and all damage from the attack.",
         "es": "Además de los ataques de la fase anterior, cuando Nomad te teletransporte cerca de él y te ordene 'enfrentar su ira', cambia a tu escudo para usar Resonancia y anular todo el daño del ataque."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Death",
       "text": {
         "en": "Go directly north, south, east and west of Gielinor. Each time provoking him and quickly getting out of the way, to then use Scythe on the hand, and finally claim the released spirit.",
         "es": "Ve directamente al norte, sur, este y oeste de Gielinor. Cada vez, provócalo y aléjate rápidamente del camino, para luego usar Guadaña sobre la mano, y finalmente reclamar el espíritu liberado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Third combat phase",
       "text": {
         "en": "In addition to the previous phases' attacks, Nomad will create a clone of himself when he reaches half health. Kill them both (you might kill Nomad first, in which case you will move on).",
         "es": "Además de los ataques de las fases anteriores, Nomad creará un clon de sí mismo cuando llegue a la mitad de su salud. Mata a ambos (podrías matar a Nomad primero, en cuyo caso continuarás)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Icthlarin",
       "text": {
         "en": "Quickly and without stopping, run around the area anti-clockwise, releasing the souls as you get in the middle of a group of them. Make sure to get over half of the initial total number of spirits.",
         "es": "Rápidamente y sin detenerte, corre por el área en sentido antihorario, liberando las almas al llegar al centro de un grupo de ellas. Asegúrate de conseguir más de la mitad del número total inicial de espíritus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Icthlarin",
       "text": {
         "en": "The more souls you release, the more powerful the attack reflected onto Gielinor will be.",
         "es": "Cuantas más almas liberes, más poderoso será el ataque reflejado sobre Gielinor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Icthlarin",
       "text": {
         "en": "Once all souls have been released, continue circling until Gielinor stops firing the beam, then shield yourself from Gielinor's attack with the ability, in order to reflect the damage onto Gielinor.",
         "es": "Una vez liberadas todas las almas, sigue rodeando hasta que Gielinor deje de disparar el rayo, y luego protégete del ataque de Gielinor con la habilidad, para reflejar el daño sobre Gielinor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Icthlarin",
       "text": {
         "en": "You will have to repeat this process a few times.",
         "es": "Tendrás que repetir este proceso varias veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Final combat phase",
       "text": {
         "en": "In this phase, Nomad will only be using rapid melee attacks. Kill him by any means. If using Ranged, Magic or Necromancy, then you can run around the room to avoid damage from Nomad, using Surge to gain distance. Watch out for Gielinor's attacks. Protect from Melee or Deflect Melee, especially combined with Devotion, can reduce or negate much of Nomad's damage in this phase, though the speed of his attacks can still be problematic.",
         "es": "En esta fase, Nomad solo usará ataques rápidos de melé. Mátalo por cualquier medio. Si usas Distancia, Magia o Nigromancia, puedes correr por la sala para evitar el daño de Nomad, usando Oleada para ganar distancia. Ten cuidado con los ataques de Gielinor. Protección contra Melé o Desviar Melé, especialmente combinado con Devoción, puede reducir o anular gran parte del daño de Nomad en esta fase, aunque la velocidad de sus ataques puede seguir siendo un problema."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Aftermath",
       "text": {
-        "en": "Choose who ends Gielinor. (opciones de chat: Any)",
-        "es": "Elige quién acaba con Gielinor. (opciones de chat: Cualquiera)"
-      }
+        "en": "Choose who ends Gielinor.",
+        "es": "Elige quién acaba con Gielinor."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Aftermath",
       "text": {
-        "en": "Decide Nomad's fate. (opciones de chat: Any • Any • Any)",
-        "es": "Decide el destino de Nomad. (opciones de chat: Cualquiera • Cualquiera • Cualquiera)"
-      }
+        "en": "Decide Nomad's fate.",
+        "es": "Decide el destino de Nomad."
+      },
+      "chatOptions": [
+        "Any",
+        "Any",
+        "Any"
+      ]
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Aftermath",
       "text": {
-        "en": "After the cutscene, speak with Death. (opciones de chat: Any)",
-        "es": "Después de la cinemática, habla con Death. (opciones de chat: Cualquiera)"
-      }
+        "en": "After the cutscene, speak with Death.",
+        "es": "Después de la cinemática, habla con Death."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Aftermath",
       "text": {
-        "en": "Choose Zanik's fate. (opciones de chat: Any • Any • Any)",
-        "es": "Decide el destino de Zanik. (opciones de chat: Cualquiera • Cualquiera • Cualquiera)"
-      }
+        "en": "Choose Zanik's fate.",
+        "es": "Decide el destino de Zanik."
+      },
+      "chatOptions": [
+        "Any",
+        "Any",
+        "Any"
+      ]
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "Aftermath",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

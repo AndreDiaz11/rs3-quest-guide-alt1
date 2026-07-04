@@ -2,7 +2,8 @@
   "id": "sheep-herder",
   "title": "Sheep Herder",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:14:15.658Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:03.210Z",
   "icon": "https://runescape.wiki/images/Sheep_Herder_icon.png",
   "series": null,
   "age": "5",
@@ -64,87 +65,114 @@
       "image": "https://runescape.wiki/images/thumb/Cattleprod_detail.png/100px-Cattleprod_detail.png?e8f67"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Sheep_Herder_reward.png?6b9f6",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Councillor Halgrive south of the Ardougne church and north of the zoo. (opciones de chat: 1 What's wrong? • Accept)",
-        "es": "Habla con Councillor Halgrive al sur de la iglesia de Ardougne y al norte del zoo. (opciones de chat: 1 ¿Qué ocurre? • Aceptar)"
-      }
+        "en": "Talk to Councillor Halgrive south of the Ardougne church and north of the zoo.",
+        "es": "Habla con Councillor Halgrive al sur de la iglesia de Ardougne y al norte del zoo."
+      },
+      "chatOptions": [
+        "1 What's wrong?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Doctor Orbon inside the church and buy a pair of clothes for 100 coins. (opciones de chat: 2 Talk about something else. • 2 Ok, I'll take it.)",
-        "es": "Habla con Doctor Orbon dentro de la iglesia y compra un conjunto de ropa por 100 monedas. (opciones de chat: 2 Hablar sobre otra cosa. • 2 Vale, me lo llevo.)"
-      }
+        "en": "Talk to Doctor Orbon inside the church and buy a pair of clothes for 100 coins.",
+        "es": "Habla con Doctor Orbon dentro de la iglesia y compra un conjunto de ropa por 100 monedas."
+      },
+      "chatOptions": [
+        "2 Talk about something else.",
+        "2 Ok, I'll take it."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Herding the sheep",
       "text": {
         "en": "Return to the lodestone and go west until you reach the fenced enclosure with a stone building and incinerator (looks like a furnace). It is south of the fishing guild.",
         "es": "Vuelve a la piedra de viaje y ve hacia el oeste hasta llegar al recinto vallado con un edificio de piedra y un incinerador (parece un horno). Está al sur del gremio de pesca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Herding the sheep",
       "text": {
         "en": "Equip the plague jacket and trousers and enter the gate.",
         "es": "Equípate la chaqueta y los pantalones de la peste y entra por la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Herding the sheep",
       "text": {
         "en": "Pick up the cattleprod inside the stone enclosure, equip it.",
         "es": "Recoge el aguijón para ganado dentro del recinto de piedra y equípatelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Herding the sheep",
       "text": {
         "en": "Prod 1 of each colour sheep in and through the incinerator pen's gate. If the sheep are stuck, simply switch worlds.",
         "es": "Aguijonea a una oveja de cada color para que entre y atraviese la puerta del corral del incinerador. Si las ovejas se quedan atascadas, simplemente cambia de mundo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Euthanising the sheep",
       "text": {
         "en": "Enter the pen and use the sheep feed on each of them.",
         "es": "Entra en el corral y usa el pienso para ovejas en cada una de ellas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Euthanising the sheep",
       "text": {
         "en": "Take all 4 bones, then use them on the incinerator.",
         "es": "Recoge los 4 huesos y luego úsalos en el incinerador."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Return to Councillor Halgrive.",
         "es": "Vuelve con Councillor Halgrive."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

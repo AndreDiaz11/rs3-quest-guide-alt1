@@ -2,7 +2,8 @@
   "id": "tree-gnome-village",
   "title": "Tree Gnome Village",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:25:17.211Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:31.682Z",
   "icon": "https://runescape.wiki/images/Tree_Gnome_Village_icon.png",
   "series": "Gnome",
   "age": "5",
@@ -60,143 +61,187 @@
       "image": "https://runescape.wiki/images/thumb/Gnome_amulet_detail.png/100px-Gnome_amulet_detail.png?03504"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Tree_Gnome_Village_reward.png?b4d2a",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Head through the Gnome Maze and squeeze through the loose railing.",
         "es": "Atraviesa el Gnome Maze y cuélate por la barandilla suelta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to King Bolren. (opciones de chat: 2 Can I help at all? • Accept)",
-        "es": "Habla con King Bolren. (opciones de chat: 2 ¿Puedo ayudar en algo? • Aceptar)"
-      }
+        "en": "Talk to King Bolren.",
+        "es": "Habla con King Bolren."
+      },
+      "chatOptions": [
+        "2 Can I help at all?",
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The ballista",
       "text": {
-        "en": "Talk to Commander Montai north of the maze. He is wearing red and will be wandering near the catapult to the east of where you are exited out of the maze. (opciones de chat: 1 Ok, I'll gather some wood.)",
-        "es": "Habla con Commander Montai al norte del laberinto. Va vestido de rojo y estará merodeando cerca de la catapulta, al este de donde saliste del laberinto. (opciones de chat: 1 Vale, iré a recoger madera.)"
-      }
+        "en": "Talk to Commander Montai north of the maze. He is wearing red and will be wandering near the catapult to the east of where you are exited out of the maze.",
+        "es": "Habla con Commander Montai al norte del laberinto. Va vestido de rojo y estará merodeando cerca de la catapulta, al este de donde saliste del laberinto."
+      },
+      "chatOptions": [
+        "1 Ok, I'll gather some wood."
+      ]
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "The ballista",
       "text": {
         "en": "Talk to him again to give him six logs.",
         "es": "Habla con él de nuevo para darle seis troncos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The ballista",
       "text": {
-        "en": "Talk to Commander Montai again. (opciones de chat: 2 I'll try my best)",
-        "es": "Habla de nuevo con Commander Montai. (opciones de chat: 2 Lo intentaré con todas mis fuerzas)"
-      }
+        "en": "Talk to Commander Montai again.",
+        "es": "Habla de nuevo con Commander Montai."
+      },
+      "chatOptions": [
+        "2 I'll try my best"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The ballista",
       "text": {
         "en": "Talk to the 3 tracker gnomes (map locations below).",
         "es": "Habla con los 3 gnomos rastreadores (ubicaciones en el mapa más abajo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The ballista",
       "text": {
         "en": "West of Commander Montai, fire the ballista and choose coordinate until successful.",
         "es": "Al oeste de Commander Montai, dispara la ballesta y elige coordenadas hasta acertar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Orbs",
       "text": {
         "en": "The building next to Tracker gnome 1, climb over the crumbled wall which is to the right of the locked door.",
         "es": "En el edificio junto al Tracker gnome 1, trepa por el muro derrumbado que hay a la derecha de la puerta cerrada con llave."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Orbs",
       "text": {
         "en": "Climb up the ladder and search the chest for an orb of protection.",
         "es": "Sube por la escalera y registra el cofre para conseguir un orb of protection."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Orbs",
       "text": {
         "en": "Climb back down the ladder and head out the door or climb back over the crumbled wall.",
         "es": "Baja de nuevo por la escalera y sal por la puerta, o vuelve a trepar por el muro derrumbado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Orbs",
       "text": {
         "en": "Run back towards the north-west entrance of the maze, click Elkoy to Follow him.",
         "es": "Vuelve corriendo hacia la entrada noroeste del laberinto y haz clic en Elkoy para seguirle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Orbs",
       "text": {
-        "en": "Talk to King Bolren. (opciones de chat: 1 I will find the warlord and bring back the orbs.)",
-        "es": "Habla con King Bolren. (opciones de chat: 1 Encontraré al señor de la guerra y traeré los orbes de vuelta.)"
-      }
+        "en": "Talk to King Bolren.",
+        "es": "Habla con King Bolren."
+      },
+      "chatOptions": [
+        "1 I will find the warlord and bring back the orbs."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Orbs",
       "text": {
         "en": "Head north-west of the battlefield and follow the Ardougne wall all the way west.",
         "es": "Dirígete al noroeste del campo de batalla y sigue la muralla de Ardougne todo el camino hacia el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Orbs",
       "text": {
         "en": "Kill the Khazard warlord.",
         "es": "Mata al Khazard warlord."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Orbs",
       "text": {
         "en": "Return back to the maze and follow Elkoy.",
         "es": "Regresa al laberinto y sigue a Elkoy."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Orbs",
       "text": {
         "en": "Talk to King Bolren.",
         "es": "Habla con King Bolren."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Orbs",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

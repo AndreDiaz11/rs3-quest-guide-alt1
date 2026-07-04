@@ -2,7 +2,8 @@
   "id": "salt-in-the-wound",
   "title": "Salt in the Wound",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:12:41.054Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:01.120Z",
   "icon": "https://runescape.wiki/images/Salt_in_the_Wound_icon.png",
   "series": "Temple Knight",
   "age": "ambiguous",
@@ -114,511 +115,662 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Salt_in_the_Wound_reward.png?8e5fe",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting off",
       "text": {
-        "en": "Talk to Kennith along the east coast of Daemonheim near the Fremennik ship (Shadow reef). (opciones de chat: 1 What are you doing here? • Accept)",
-        "es": "Habla con Kennith en la costa este de Daemonheim, cerca del barco de los Fremennik (Shadow reef). (opciones de chat: 1 ¿Qué estás haciendo aquí? • Aceptar)"
-      }
+        "en": "Talk to Kennith along the east coast of Daemonheim near the Fremennik ship (Shadow reef).",
+        "es": "Habla con Kennith en la costa este de Daemonheim, cerca del barco de los Fremennik (Shadow reef)."
+      },
+      "chatOptions": [
+        "1 What are you doing here?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting off",
       "text": {
         "en": "Go west, and talk to him again.",
         "es": "Ve hacia el oeste y habla con él de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting off",
       "text": {
-        "en": "Talk to Ezekial (opciones de chat: Any) then Eva (Temple Knight) and tell her you're ready to start. (opciones de chat: Any • 4 I'm ready. Let's go!)",
-        "es": "Habla con Ezekial (opciones de chat: Cualquiera) y luego con Eva (Temple Knight) y dile que estás listo para empezar. (opciones de chat: Cualquiera • 4 Estoy listo. ¡Vamos!)"
-      }
+        "en": "Talk to Ezekial then Eva (Temple Knight) and tell her you're ready to start.",
+        "es": "Habla con Ezekial (opciones de chat: Cualquiera) y luego con Eva (Temple Knight) y dile que estás listo para empezar."
+      },
+      "chatOptions": [
+        "Any",
+        "Any",
+        "4 I'm ready. Let's go!"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting off",
       "text": {
         "en": "Enter the opening formed in the mountain nearby.",
         "es": "Entra por la abertura formada en la montaña cercana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Daemonheim Dungeon",
       "text": {
         "en": "Head east two rooms",
         "es": "Dirígete dos salas hacia el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Daemonheim Dungeon",
       "text": {
         "en": "Kill the three enemies in this room",
         "es": "Mata a los tres enemigos de esta sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Daemonheim Dungeon",
       "text": {
         "en": "Find the blue key on the floor",
         "es": "Encuentra la llave azul en el suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Daemonheim Dungeon",
       "text": {
         "en": "Return to the first room and unlock and enter the puzzle room door",
         "es": "Vuelve a la primera sala y desbloquea y entra por la puerta de la sala del rompecabezas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The Puzzle Room",
       "text": {
         "en": "Choose a hero (preferably the one with the most health).",
         "es": "Elige a un héroe (preferiblemente el que tenga más vida)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The Puzzle Room",
       "text": {
         "en": "One way to solve the puzzle is:",
         "es": "Una forma de resolver el rompecabezas es:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "The Puzzle Room",
       "text": {
         "en": "Jump south across the first gap",
         "es": "Salta hacia el sur cruzando el primer hueco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "The Puzzle Room",
       "text": {
         "en": "Jump west twice",
         "es": "Salta hacia el oeste dos veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "The Puzzle Room",
       "text": {
         "en": "Jump south",
         "es": "Salta hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "The Puzzle Room",
       "text": {
         "en": "Jump north, back to the same spot",
         "es": "Salta hacia el norte, de vuelta al mismo punto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "The Puzzle Room",
       "text": {
         "en": "Jump east three times",
         "es": "Salta hacia el este tres veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "The Puzzle Room",
       "text": {
         "en": "Jump south twice and the puzzle is completed.",
         "es": "Salta hacia el sur dos veces y el rompecabezas se completará."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "The Puzzle Room",
       "text": {
         "en": "Inspect the Seeker of Truth and return across the gap. (Quickest method is to get caught and teleported back).",
         "es": "Inspecciona al Seeker of Truth y regresa cruzando el hueco. (El método más rápido es dejarse atrapar y ser teletransportado de vuelta)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "The Puzzle Room",
       "text": {
-        "en": "Kennith will then teleport you to the Fishing Platform. (opciones de chat: 1 Teleport to Fishing Platform.)",
-        "es": "Kennith te teletransportará entonces a la Fishing Platform. (opciones de chat: 1 Teletransportarse a la Fishing Platform.)"
-      }
+        "en": "Kennith will then teleport you to the Fishing Platform.",
+        "es": "Kennith te teletransportará entonces a la Fishing Platform."
+      },
+      "chatOptions": [
+        "1 Teleport to Fishing Platform."
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Fishing Platform",
       "text": {
         "en": "Once on the platform talk to Kennith.",
         "es": "Una vez en la plataforma, habla con Kennith."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Fishing Platform",
       "text": {
-        "en": "Talk with Bailey. (opciones de chat: 3 *Punch him* • 2 So, you don't feel pain? • 2 No pain? Prove it.)",
-        "es": "Habla con Bailey. (opciones de chat: 3 *Golpéalo* • 2 Entonces, ¿no sientes dolor? • 2 ¿Sin dolor? Demuéstralo.)"
-      }
+        "en": "Talk with Bailey.",
+        "es": "Habla con Bailey."
+      },
+      "chatOptions": [
+        "3 *Punch him*",
+        "2 So, you don't feel pain?",
+        "2 No pain? Prove it."
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Fishing Platform",
       "text": {
         "en": "Head east to the fishing spots.",
         "es": "Dirígete hacia el este, a los puntos de pesca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Fishing Platform",
       "text": {
         "en": "Lure the fishing spot and go back to Kennith, the slug will follow you.",
         "es": "Atrae al punto de pesca y regresa junto a Kennith; la babosa te seguirá."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Fishing Platform",
       "text": {
         "en": "Talk to Kennith and he will give you a Seeker gland.",
         "es": "Habla con Kennith y te dará una Seeker gland."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Fishing Platform",
       "text": {
         "en": "Combine the ingredients to make the anti-mind control serum.",
         "es": "Combina los ingredientes para elaborar el suero anti-control mental."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Fishing Platform",
       "text": {
-        "en": "Talk to Kennith, a little to the west. (opciones de chat: 1 What should we do now?)",
-        "es": "Habla con Kennith, un poco al oeste. (opciones de chat: 1 ¿Qué deberíamos hacer ahora?)"
-      }
+        "en": "Talk to Kennith, a little to the west.",
+        "es": "Habla con Kennith, un poco al oeste."
+      },
+      "chatOptions": [
+        "1 What should we do now?"
+      ]
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Fishing Platform",
       "text": {
-        "en": "Talk to the Slug thralls. (opciones de chat: 2 Why can't we come in? • 2 I'm not a stranger. • 3 I seek enlightenment in the joining. • 3 I wish to hear...)",
-        "es": "Habla con los Slug thralls. (opciones de chat: 2 ¿Por qué no podemos entrar? • 2 No soy un desconocido. • 3 Busco la iluminación en la unión. • 3 Deseo escuchar...)"
-      }
+        "en": "Talk to the Slug thralls.",
+        "es": "Habla con los Slug thralls."
+      },
+      "chatOptions": [
+        "2 Why can't we come in?",
+        "2 I'm not a stranger.",
+        "3 I seek enlightenment in the joining.",
+        "3 I wish to hear..."
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "First Room",
       "text": {
         "en": "Leave one character by the Witchaven villager just north of the entrance and move the other 2 to the metal gate to the north-east and kill the Risen knight.",
         "es": "Deja a un personaje junto al aldeano de Witchaven, justo al norte de la entrada, y mueve a los otros 2 hacia la puerta metálica del noreste, y mata al Risen knight."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "First Room",
       "text": {
         "en": "Use the character you left behind to knock out the Witchaven villager and proceed south with your player.",
         "es": "Usa al personaje que dejaste atrás para dejar inconsciente al aldeano de Witchaven y avanza hacia el sur con tu jugador."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "First Room",
       "text": {
         "en": "Go into the room with the lever and pull it.",
         "es": "Entra en la sala con la palanca y tira de ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "First Room",
       "text": {
         "en": "The metal door to the north will now be open. Send a character through.",
         "es": "La puerta metálica del norte se abrirá ahora. Envía a un personaje a través de ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "First Room",
       "text": {
         "en": "Pull your player's lever again.",
         "es": "Tira de la palanca de tu jugador de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "First Room",
       "text": {
         "en": "Use the character you left near the entrance to knock out the other villager again, allowing your player to run north to the other characters you left by the gate.",
         "es": "Usa al personaje que dejaste cerca de la entrada para dejar inconsciente al otro aldeano de nuevo, permitiendo que tu jugador corra hacia el norte para reunirse con los otros personajes que dejaste junto a la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "First Room",
       "text": {
         "en": "Bring the character you left at the entrance to join your player. Use the character in the room to pull the lever to let you all in. Pull the lever again and run south, east, and then north to the exit while killing any risen knights in your path.",
         "es": "Lleva al personaje que dejaste en la entrada para que se reúna con tu jugador. Usa al personaje de la sala para tirar de la palanca y dejaros entrar a todos. Tira de la palanca de nuevo y corre hacia el sur, este y luego norte hacia la salida mientras matas a cualquier Risen knight en tu camino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Second Room",
       "text": {
         "en": "Send everyone to the north as far as they can go while avoiding the villager.",
         "es": "Envía a todos hacia el norte lo más lejos posible mientras evitas al aldeano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Second Room",
       "text": {
         "en": "Pull the lever and send Kennith and your player into the room to the east. Send Ezekial to the western room and leave Eva in the central chamber.",
         "es": "Tira de la palanca y envía a Kennith y a tu jugador a la sala del este. Envía a Ezekial a la sala del oeste y deja a Eva en la cámara central."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Second Room",
       "text": {
         "en": "Leave Kennith in the eastern room and send your player south to pull the lever.",
         "es": "Deja a Kennith en la sala del este y envía a tu jugador hacia el sur para tirar de la palanca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Second Room",
       "text": {
         "en": "After the lever is pulled send Kennith into the easternmost room to pull the lever.",
         "es": "Después de tirar de la palanca, envía a Kennith a la sala más al este para tirar de la palanca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Second Room",
       "text": {
         "en": "Have your player pull the southern lever again.",
         "es": "Haz que tu jugador tire de la palanca del sur de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Second Room",
       "text": {
         "en": "Send Ezekial west (if not already in the western room) then all the way south to pull the lever.",
         "es": "Envía a Ezekial al oeste (si no está ya en la sala del oeste) y luego totalmente hacia el sur para tirar de la palanca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Second Room",
       "text": {
         "en": "Make Kennith pull the lever again and then send him into the southernmost room on his side to pull the lever.",
         "es": "Haz que Kennith tire de la palanca de nuevo y luego envíalo a la sala más al sur de su lado para tirar de la palanca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Second Room",
       "text": {
         "en": "Send your player back to the central chamber with Eva.",
         "es": "Envía a tu jugador de vuelta a la cámara central con Eva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Second Room",
       "text": {
         "en": "Make Ezekial pull his lever again and then send Kennith back to the central chamber.",
         "es": "Haz que Ezekial tire de su palanca de nuevo y luego envía a Kennith de vuelta a la cámara central."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Second Room",
       "text": {
         "en": "Make Ezekial pull the lever once more and send him back to the central chamber.",
         "es": "Haz que Ezekial tire de la palanca una vez más y envíalo de vuelta a la cámara central."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Second Room",
       "text": {
         "en": "Now that your party is regrouped, go to the next room.",
         "es": "Ahora que tu grupo está reunido, ve a la siguiente sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Third Room",
       "text": {
         "en": "Kill all of the Risen Knights.",
         "es": "Mata a todos los Risen Knights."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Third Room",
       "text": {
         "en": "Send a character to each of the rooms in the four corners.",
         "es": "Envía a un personaje a cada una de las salas de las cuatro esquinas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Third Room",
       "text": {
         "en": "Pull all four levers in the following order: northeast, southeast, southwest, & then northwest.",
         "es": "Tira de las cuatro palancas en el siguiente orden: noreste, sureste, suroeste y luego noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Third Room",
       "text": {
         "en": "Run to the newly opened gates and 'regroup' all of the characters. Proceed to the next room.",
         "es": "Corre hacia las puertas recién abiertas y \"reagrupa\" a todos los personajes. Continúa hacia la siguiente sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Fourth Room",
       "text": {
-        "en": "Use your player to investigate the strange device. Put your arm in. (opciones de chat: 1 Put your arm in.)",
-        "es": "Usa a tu jugador para investigar el extraño dispositivo. Mete el brazo dentro. (opciones de chat: 1 Meter el brazo dentro.)"
-      }
+        "en": "Use your player to investigate the strange device. Put your arm in.",
+        "es": "Usa a tu jugador para investigar el extraño dispositivo. Mete el brazo dentro."
+      },
+      "chatOptions": [
+        "1 Put your arm in."
+      ]
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Fourth Room",
       "text": {
         "en": "Kill the first wave of knights with Kennith, Ezekial, and Eva. Your player will then investigate the second hole.",
         "es": "Mata a la primera oleada de caballeros con Kennith, Ezekial y Eva. Tu jugador investigará entonces el segundo agujero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Fourth Room",
       "text": {
         "en": "Kill the second wave of knights. Your player will investigate the third hole.",
         "es": "Mata a la segunda oleada de caballeros. Tu jugador investigará el tercer agujero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Fourth Room",
       "text": {
         "en": "Kill the third wave of knights.",
         "es": "Mata a la tercera oleada de caballeros."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Fourth Room",
       "text": {
         "en": "Enter the tunnel to the north.",
         "es": "Entra en el túnel hacia el norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Fifth Room",
       "text": {
         "en": "Use Kennith to speak to Brother Maledict to the west.",
         "es": "Usa a Kennith para hablar con Brother Maledict, al oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Fifth Room",
       "text": {
         "en": "Once the gate is open, knock down the wall in the west room with Ezekial and move Kennith north. Place him as close as possible to Mother Mallum while standing on the western ledge.",
         "es": "Una vez que la puerta esté abierta, derriba la pared de la sala del oeste con Ezekial y mueve a Kennith hacia el norte. Colócalo lo más cerca posible de Mother Mallum mientras permanece en el saliente occidental."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Fifth Room",
       "text": {
         "en": "Take control of Ezekial and knock down the wall to the east and proceed north.",
         "es": "Toma el control de Ezekial y derriba la pared del este, luego avanza hacia el norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Fifth Room",
       "text": {
         "en": "Kill the knight and position Ezekial directly opposite Kennith.",
         "es": "Mata al caballero y coloca a Ezekial justo enfrente de Kennith."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Fifth Room",
       "text": {
         "en": "Take control of Kennith and attack Mother Mallum.",
         "es": "Toma el control de Kennith y ataca a Mother Mallum."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Fifth Room",
       "text": {
         "en": "You now have control of Eva. Talk to Mayor Hobbs and knock him out, then attack Mallum.",
         "es": "Ahora tienes el control de Eva. Habla con Mayor Hobbs y déjalo inconsciente, luego ataca a Mallum."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Fifth Room",
       "text": {
         "en": "Move Eva north of the statue and topple it.",
         "es": "Mueve a Eva al norte de la estatua y derríbala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Fifth Room",
       "text": {
-        "en": "Talk to Lucy. (opciones de chat: Any)",
-        "es": "Habla con Lucy. (opciones de chat: Cualquiera)"
-      }
+        "en": "Talk to Lucy.",
+        "es": "Habla con Lucy."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "Fifth Room",
       "text": {
         "en": "Leave the Citadel using the cave exit.",
         "es": "Sal de la Citadel usando la salida de la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 0,
+      "section": "Fifth Room",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

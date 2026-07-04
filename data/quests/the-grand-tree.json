@@ -2,7 +2,8 @@
   "id": "the-grand-tree",
   "title": "The Grand Tree",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:24:38.147Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:20.618Z",
   "icon": "https://runescape.wiki/images/The_Grand_Tree_icon.png",
   "series": "Gnome",
   "age": "5",
@@ -108,319 +109,419 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Grand_Tree_reward.png?53590",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Speak to King Narnode Shareen on the of the Grand Tree. (opciones de chat: 1 You seem worried, what's up? • Accept)",
-        "es": "Habla con King Narnode Shareen en la copa del Grand Tree. (opciones de chat: 1 Pareces preocupado, ¿qué ocurre? • Aceptar)"
-      }
+        "en": "Speak to King Narnode Shareen on the of the Grand Tree.",
+        "es": "Habla con King Narnode Shareen en la copa del Grand Tree."
+      },
+      "chatOptions": [
+        "1 You seem worried, what's up?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The crisis",
       "text": {
         "en": "Take the bark sample and book to Hazelmere; he lives east of Yanille (pictured).",
         "es": "Lleva la muestra de corteza y el libro a Hazelmere; vive al este de Yanille (en la imagen)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "The crisis",
       "text": {
-        "en": "If you have A Fairy Tale II - Cure a Queen completed, you can use code , otherwise teleport to the Yanille lodestone.",
+        "en": "If you have A Fairy Tale II - Cure a Queen completed, you can use code CLS, otherwise teleport to the Yanille lodestone.",
         "es": "Si has completado A Fairy Tale II - Cure a Queen, puedes usar el código , de lo contrario teletranspórtate a la piedra de viaje de Yanille."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The crisis",
       "text": {
         "en": "Up the ladder, talk to Hazelmere.",
         "es": "Sube la escalera y habla con Hazelmere."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The crisis",
       "text": {
         "en": "Take Hazelmere's scroll back to the King.",
         "es": "Lleva el pergamino de Hazelmere de vuelta al King."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The crisis",
       "text": {
-        "en": "Talk to the King. (opciones de chat: 1 I think so! • 5 None of the above. • 5 None of the above. • 2 A man came to me with the King's seal. • 1 I gave the man Daconia rocks. • 4 And Daconia rocks will kill the tree!)",
-        "es": "Habla con el King. (opciones de chat: 1 ¡Creo que sí! • 5 Ninguna de las anteriores. • 5 Ninguna de las anteriores. • 2 Un hombre vino a verme con el sello del King. • 1 Le di al hombre rocas Daconia. • 4 ¡Y las rocas Daconia matarán al árbol!)"
-      }
+        "en": "Talk to the King.",
+        "es": "Habla con el King."
+      },
+      "chatOptions": [
+        "1 I think so!",
+        "5 None of the above.",
+        "5 None of the above.",
+        "2 A man came to me with the King's seal.",
+        "1 I gave the man Daconia rocks.",
+        "4 And Daconia rocks will kill the tree!"
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Climb up the ladder of the tree house south-east of the Grand Tree, north of the Agility course.",
         "es": "Sube por la escalera de la casa del árbol al sureste del Grand Tree, al norte de la pista de Agilidad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Speak to Glough.",
         "es": "Habla con Glough."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Speak to the King.",
         "es": "Habla con el King."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Climb to the top floor of the Grand Tree.",
         "es": "Sube hasta el piso más alto del Grand Tree."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Talk to Charlie the prisoner.",
         "es": "Habla con Charlie, el prisionero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Return to Glough's tree house.",
         "es": "Regresa a la casa del árbol de Glough."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Search the cupboard north of the ladder to get Glough's journal.",
         "es": "Registra el armario al norte de la escalera para obtener el diario de Glough."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Speak to Glough.",
         "es": "Habla con Glough."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Speak to Charlie and leave your prison cell.",
         "es": "Habla con Charlie y abandona tu celda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Glough",
       "text": {
-        "en": "Talk to the Captain Errdo just north of the cells to get to Karamja. (opciones de chat: 1 Take me to Karamja, please.)",
-        "es": "Habla con Captain Errdo, justo al norte de las celdas, para ir a Karamja. (opciones de chat: 1 Llévame a Karamja, por favor.)"
-      }
+        "en": "Talk to the Captain Errdo just north of the cells to get to Karamja.",
+        "es": "Habla con Captain Errdo, justo al norte de las celdas, para ir a Karamja."
+      },
+      "chatOptions": [
+        "1 Take me to Karamja, please."
+      ]
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Glough",
       "text": {
         "en": "Beware if you are low level, there are multiple level 57 Jogres here so be ready.",
         "es": "Ten cuidado si tienes un nivel bajo, hay varios Jogres de nivel 57 aquí, así que prepárate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Run east and attempt to open the gate.",
         "es": "Corre hacia el este e intenta abrir la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Glough",
       "text": {
-        "en": "Tell him you work for Glough, Ka-Lu-Min is the password. (opciones de chat: 2 Glough sent me. • 1 Ka. • 2 Lu. • 2 Min.)",
-        "es": "Dile que trabajas para Glough, la contraseña es Ka-Lu-Min. (opciones de chat: 2 Glough me envió. • 1 Ka. • 2 Lu. • 2 Min.)"
-      }
+        "en": "Tell him you work for Glough, Ka-Lu-Min is the password.",
+        "es": "Dile que trabajas para Glough, la contraseña es Ka-Lu-Min."
+      },
+      "chatOptions": [
+        "2 Glough sent me.",
+        "1 Ka.",
+        "2 Lu.",
+        "2 Min."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Once inside, run east to the south dock.",
         "es": "Una vez dentro, corre hacia el este hasta el muelle sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Glough",
       "text": {
-        "en": "Either kill the foreman, or talk to him and answer his questions. (opciones de chat: 3 Sadly his wife is no longer with us! • 2 He loves worm holes. • 1 Anita.)",
-        "es": "Puedes matar al capataz, o hablar con él y responder sus preguntas. (opciones de chat: 3 ¡Lamentablemente su esposa ya no está con nosotros! • 2 Le encantan los agujeros de gusano. • 1 Anita.)"
-      }
+        "en": "Either kill the foreman, or talk to him and answer his questions.",
+        "es": "Puedes matar al capataz, o hablar con él y responder sus preguntas."
+      },
+      "chatOptions": [
+        "3 Sadly his wife is no longer with us!",
+        "2 He loves worm holes.",
+        "1 Anita."
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Take the Lumber order.",
         "es": "Coge el pedido de madera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Talk to Femi at the Gnome Stronghold gates to enter inside.",
         "es": "Habla con Femi en las puertas de Gnome Stronghold para entrar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "Glough",
       "text": {
         "en": "You may offer help to get inside for free, or 1,000 coins if you do not.",
         "es": "Puedes ofrecerte a ayudar para entrar gratis, o pagar 1.000 monedas si no lo haces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "Glough",
       "text": {
         "en": "Alternatively teleport to the spirit tree if Tree Gnome Village quest is complete.",
         "es": "Alternativamente, teletranspórtate al árbol espiritual si has completado la misión Tree Gnome Village."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Talk to the King.",
         "es": "Habla con el King."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Talk to Charlie the prisoner.",
         "es": "Habla con Charlie, el prisionero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Speak to Anita. She can be found in the northwesternmost tree house in the stronghold.",
         "es": "Habla con Anita. Se encuentra en la casa del árbol más al noroeste del stronghold."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Use the key on the chest in Glough's house and search it to receive the invasion plans.",
         "es": "Usa la llave en el cofre de la casa de Glough y regístralo para recibir los planes de invasión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Glough",
       "text": {
         "en": "Talk to the king. Make sure you have 4 free inventory spaces before you do this step, as he will give you 4 twigs.",
         "es": "Habla con el King. Asegúrate de tener 4 espacios libres en el inventario antes de hacer esto, ya que te dará 4 ramitas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "The fight",
       "text": {
         "en": "Prepare to fight a level 98 black demon. Magic works well here, as the demon has a weakness to water spells. There is a safespot along the south wall, behind some rocks where Glough is standing. Using a halberd will allow lower levels to effectively melee the demon using the safespot.",
         "es": "Prepárate para luchar contra un black demon de nivel 98. La Magia funciona bien aquí, ya que el demonio es débil contra los hechizos de agua. Hay una zona segura junto al muro sur, detrás de unas rocas donde está Glough. Usar una alabarda permitirá a niveles más bajos luchar cuerpo a cuerpo eficazmente usando la zona segura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "The fight",
       "text": {
         "en": "Go to the top level of Glough's house.",
         "es": "Ve al piso más alto de la casa de Glough."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "The fight",
       "text": {
         "en": "Use the twigs on the pillars to spell TUZO.",
         "es": "Usa las ramitas en los pilares para deletrear TUZO."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "The fight",
       "text": {
         "en": "Open the trapdoor.",
         "es": "Abre la trampilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "The fight",
       "text": {
         "en": "Kill the demon. (Can be safespotted by standing within the rocks to the south)",
         "es": "Mata al demonio. (Puedes ponerte a salvo dentro de las rocas al sur)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Run to the middle of the cave and talk to the king. Don't click away yet, wait for the scripted dialogue to finish.",
         "es": "Corre hacia el centro de la cueva y habla con el King. No cierres el diálogo todavía, espera a que termine la conversación con guion."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Search the nearby roots for a rock. If you don't find the rock try the other roots in the cave. Be sure to space-through or click through the text boxes, or else the Daconia rock may not appear in your inventory.",
         "es": "Registra las raíces cercanas en busca de una roca. Si no la encuentras, prueba con otras raíces de la cueva. Asegúrate de avanzar los cuadros de texto con la barra espaciadora o haciendo clic, o de lo contrario la roca Daconia podría no aparecer en tu inventario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Take the rock to the king.",
         "es": "Lleva la roca al King."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

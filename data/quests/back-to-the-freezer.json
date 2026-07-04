@@ -2,7 +2,8 @@
   "id": "back-to-the-freezer",
   "title": "Back to the Freezer",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:49:52.060Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:37.546Z",
   "icon": "https://runescape.wiki/images/Back_to_the_Freezer_icon.png",
   "series": "Penguin",
   "age": "6",
@@ -164,599 +165,771 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Back_to_the_Freezer_reward.png?38e0c",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Start",
       "text": {
-        "en": "Talk to Chuck in the Ardougne Zoo (opciones de chat: 1 Back to the Freezer Quest • Accept)",
-        "es": "Habla con Chuck en el Ardougne Zoo (opciones de chat: 1 Back to the Freezer Quest • Accept)"
-      }
+        "en": "Talk to Chuck in the Ardougne Zoo",
+        "es": "Habla con Chuck en el Ardougne Zoo"
+      },
+      "chatOptions": [
+        "1 Back to the Freezer Quest",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Start",
       "text": {
         "en": "Note down the blue text.",
         "es": "Anota el texto en azul."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Start",
       "text": {
         "en": "Alternatively, the Passphrase may also be found in your quest journal.",
         "es": "Como alternativa, la Passphrase también se puede encontrar en tu diario de misiones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Start",
       "text": {
         "en": "In the Rellekka marketplace, talk to Skot or Mundsen.",
         "es": "En el mercado de Rellekka, habla con Skot o Mundsen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Start",
       "text": {
         "en": "When prompted, tell them the passphrase from Chuck.",
         "es": "Cuando te lo pidan, diles la contraseña que te dio Chuck."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Desert",
       "text": {
         "en": "After telling the passphrase, finish the dialogue and cutscene.",
         "es": "Después de decir la contraseña, termina el diálogo y la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Desert",
       "text": {
-        "en": "South-west of Pollnivneach, talk to Dundee, who will give you a crocspeak amulet. (opciones de chat: 1 Ask about the penguins.)",
-        "es": "Al suroeste de Pollnivneach, habla con Dundee, quien te dará un crocspeak amulet. (opciones de chat: 1 Ask about the penguins.)"
-      }
+        "en": "South-west of Pollnivneach, talk to Dundee, who will give you a crocspeak amulet.",
+        "es": "Al suroeste de Pollnivneach, habla con Dundee, quien te dará un crocspeak amulet."
+      },
+      "chatOptions": [
+        "1 Ask about the penguins."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Desert",
       "text": {
         "en": "Equip the crocspeak amulet.",
         "es": "Equípate el crocspeak amulet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Desert",
       "text": {
-        "en": "Just west, talk to Croc. (opciones de chat: 4 Bye)",
-        "es": "Justo al oeste, habla con Croc. (opciones de chat: 4 Bye)"
-      }
+        "en": "Just west, talk to Croc.",
+        "es": "Justo al oeste, habla con Croc."
+      },
+      "chatOptions": [
+        "4 Bye"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Desert",
       "text": {
         "en": "South-west, investigate the T.A.R.D.I.S..",
         "es": "Al suroeste, investiga el T.A.R.D.I.S.."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The secret-secret agent",
       "text": {
-        "en": "Return to Chuck in Ardougne. (opciones de chat: 1 Back to the Freezer Quest)",
-        "es": "Vuelve con Chuck en Ardougne. (opciones de chat: 1 Back to the Freezer Quest)"
-      }
+        "en": "Return to Chuck in Ardougne.",
+        "es": "Vuelve con Chuck en Ardougne."
+      },
+      "chatOptions": [
+        "1 Back to the Freezer Quest"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "The secret-secret agent",
       "text": {
         "en": "Note down the agent's favourite food Chuck tells you. Favourite food may be found in your quest journal.",
         "es": "Anota la comida favorita del agente que Chuck te menciona. La comida favorita también puede encontrarse en tu diario de misiones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "The secret-secret agent",
       "text": {
         "en": "Return to the T.A.R.D.I.S.",
         "es": "Vuelve al T.A.R.D.I.S."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "The secret-secret agent",
       "text": {
         "en": "Unequip any item in your cape and weapon slot.",
         "es": "Quítate cualquier objeto que tengas en las ranuras de capa y arma."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "The secret-secret agent",
       "text": {
         "en": "With your clockwork suit in your backpack talk to any named penguin and you will automatically equip your clockwork suit.",
         "es": "Con tu clockwork suit en la mochila, habla con cualquier pingüino con nombre y te lo equiparás automáticamente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "The secret-secret agent",
       "text": {
         "en": "If you don't have a clockwork suit with you return to the zoo and speak with Chuck. Chuck will give you a clockwork suit.",
         "es": "Si no tienes un clockwork suit contigo, vuelve al zoo y habla con Chuck. Chuck te dará un clockwork suit."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "The secret-secret agent",
       "text": {
         "en": "In order, talk to the following penguins:",
         "es": "En orden, habla con los siguientes pingüinos:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "The secret-secret agent",
       "text": {
-        "en": "Emperor Wing (opciones de chat: 1 Remind me what happened. • 2 What happened to you at the party?)",
-        "es": "Emperor Wing (opciones de chat: 1 Remind me what happened. • 2 What happened to you at the party?)"
-      }
+        "en": "Emperor Wing",
+        "es": "Emperor Wing"
+      },
+      "chatOptions": [
+        "1 Remind me what happened.",
+        "2 What happened to you at the party?"
+      ]
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "The secret-secret agent",
       "text": {
-        "en": "Elon (opciones de chat: 2 What happened to you at the party?)",
-        "es": "Elon (opciones de chat: 2 What happened to you at the party?)"
-      }
+        "en": "Elon",
+        "es": "Elon"
+      },
+      "chatOptions": [
+        "2 What happened to you at the party?"
+      ]
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "The secret-secret agent",
       "text": {
-        "en": "Hugh (opciones de chat: 2 What happened to you at the party?)",
-        "es": "Hugh (opciones de chat: 2 What happened to you at the party?)"
-      }
+        "en": "Hugh",
+        "es": "Hugh"
+      },
+      "chatOptions": [
+        "2 What happened to you at the party?"
+      ]
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "The secret-secret agent",
       "text": {
-        "en": "Gordon (opciones de chat: 2 What happened to you at the party? • 3 Are you a spy?)",
-        "es": "Gordon (opciones de chat: 2 What happened to you at the party? • 3 Are you a spy?)"
-      }
+        "en": "Gordon",
+        "es": "Gordon"
+      },
+      "chatOptions": [
+        "2 What happened to you at the party?",
+        "3 Are you a spy?"
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "The secret-secret agent",
       "text": {
         "en": "Gordon will give you a G.P.S.. If he does not, simply talk to him again.",
         "es": "Gordon te dará un G.P.S.. Si no lo hace, simplemente vuelve a hablar con él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The secret-secret agent",
       "text": {
         "en": "Walk to the edge of the icy patch to get out of the clockwork suit.",
         "es": "Camina hasta el borde de la zona helada para salir del clockwork suit."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "Head to the pier north of Fremennik Province lodestone and north-east of Rellekka, travel to the Iceberg via the smaller boat.",
         "es": "Dirígete al muelle al norte del lodestone de Fremennik Province y al noreste de Rellekka, viaja al Iceberg en el barco pequeño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "Locate with the G.P.S., follow the directions until you find the Mysterious Hatch.",
         "es": "Localiza con el G.P.S. y sigue las indicaciones hasta encontrar el Mysterious Hatch."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "To the north-east, right click Jim the polar bear and choose \"Tuxedo-Time\".",
         "es": "Al noreste, haz clic derecho en Jim the polar bear y elige \"Tuxedo-Time\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "Interact with the hatch and type in \"1234\" to enter.",
         "es": "Interactúa con la trampilla y escribe \"1234\" para entrar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "Enter the north-east room and search the interactable cupboard on the north wall for a hat.",
         "es": "Entra en la sala del noreste y registra el armario interactivo en la pared norte para encontrar un sombrero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "Exit the room and then follow the corridor south.",
         "es": "Sal de la sala y luego sigue el pasillo hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "Head west and take the first turn north. Enter the large door leading to the large room in the centre of the bunker.",
         "es": "Ve hacia el oeste y toma el primer giro hacia el norte. Entra por la puerta grande que lleva a la sala grande en el centro del búnker."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "Enter the locker room to your west and search Gordon's locker on the west side for the de-lore-ing device parts list and de-lore-ing device (incomplete).",
         "es": "Entra en el vestuario al oeste y registra la taquilla de Gordon en el lado oeste para conseguir la lista de piezas del de-lore-ing device y el de-lore-ing device (incompleto)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "Exit the large door to go back to the main corridor",
         "es": "Sal por la puerta grande para volver al pasillo principal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "Enter the southwest room full of crates and search or look in them until you find both a hammer and flax.",
         "es": "Entra en la sala del suroeste llena de cajas y regístralas o mira dentro hasta que encuentres un martillo y flax."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "In the north-western most room, Peruse the ice shelf (looks like a normal shelf) for The Penguin Book of Gielinor.",
         "es": "En la sala más al noroeste, examina la estantería de hielo (parece una estantería normal) para conseguir The Penguin Book of Gielinor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "Behind you, Get Ice from the Ice Maker by the door to take ice cubes.",
         "es": "Detrás de ti, consigue hielo del Ice Maker junto a la puerta para conseguir cubitos de hielo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "Use the hammer on the ice cubes to create the flax cap-ice-i-tor.",
         "es": "Usa el martillo en los cubitos de hielo para crear el flax cap-ice-i-tor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "Use the flax cap-ice-i-tor on the de-lore-ing device (incomplete) for the de-lore-ing device.",
         "es": "Usa el flax cap-ice-i-tor en el de-lore-ing device (incompleto) para obtener el de-lore-ing device."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "The secret bunker",
       "text": {
         "en": "Operate the de-lore-ing device.",
         "es": "Activa el de-lore-ing device."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Time travelling!",
       "text": {
         "en": "Take the monkey wrench (north & slightly east), use it on the de-lore-ing device then operate the device again.",
         "es": "Coge la monkey wrench (al norte y ligeramente al este), úsala en el de-lore-ing device y luego vuelve a activar el dispositivo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Time travelling!",
       "text": {
         "en": "Take the penguin bongos and cowbells in the north-west corner, use either on the device, operate the device again.",
         "es": "Coge los penguin bongos y los cowbells en la esquina noroeste, usa cualquiera de los dos en el dispositivo y vuelve a activarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Time travelling!",
       "text": {
         "en": "Pick cabbage, use it on the device, operate the device again.",
         "es": "Recoge una col, úsala en el dispositivo y vuelve a activarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Time travelling!",
       "text": {
         "en": "Speak to the man with a dragon pickaxe, use worthless old boots on the device, operate the device one last time.",
         "es": "Habla con el hombre que lleva un dragon pickaxe, usa las worthless old boots en el dispositivo y actívalo una última vez."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Back in the bunker",
       "text": {
         "en": "Talk to Gordon in the south-western room.",
         "es": "Habla con Gordon en la sala del suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Back in the bunker",
       "text": {
         "en": "Talk to Elon in the centre of the bunker.",
         "es": "Habla con Elon en el centro del búnker."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Back in the bunker",
       "text": {
         "en": "Get the fishing rod from the corner of the War room south of the big door.",
         "es": "Consigue la caña de pescar en la esquina de la War room al sur de la puerta grande."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Back in the bunker",
       "text": {
         "en": "Go to the 'cold storage' crate room in the southwest and search until you have both the cog and coolant holder.",
         "es": "Ve a la sala de cajas de 'cold storage' en el suroeste y busca hasta conseguir tanto el engranaje como el coolant holder."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Back in the bunker",
       "text": {
         "en": "Use the cog on the fishing rod to create the 'fishvention' rod.",
         "es": "Usa el engranaje en la caña de pescar para crear la caña 'fishvention'."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Back in the bunker",
       "text": {
         "en": "Go to the western room and gather Pure S-now - wait until you have gathered all 2,000. (Process takes about a minute)",
         "es": "Ve a la sala del oeste y recoge Pure S-now - espera hasta reunir los 2.000. (El proceso tarda aproximadamente un minuto)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Back in the bunker",
       "text": {
         "en": "Search the crate north of the Mysterious Ice Block in the same room for a lemon.",
         "es": "Registra la caja al norte del Mysterious Ice Block en la misma sala para encontrar un limón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Back in the bunker",
       "text": {
         "en": "Use the Mysterious ice block in the room to craft 2000 lemon sole runes.",
         "es": "Usa el Mysterious ice block de la sala para fabricar 2000 lemon sole runes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Back in the bunker",
       "text": {
         "en": "Go to the north-western room and click on the Ice Maker twice to create cool-ant and an ice box.",
         "es": "Ve a la sala del noroeste y haz clic en el Ice Maker dos veces para crear cool-ant y una nevera portátil."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Back in the bunker",
       "text": {
         "en": "Talk to Buzz who is in the prison in the eastern room for 21 killerwatt energy.",
         "es": "Habla con Buzz, que está en la prisión de la sala del este, para conseguir 21 unidades de energía killerwatt."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Back in the bunker",
       "text": {
         "en": "Leave the bunker via the door to the north.",
         "es": "Sal del búnker por la puerta al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Back in the bunker",
       "text": {
-        "en": "Walk east, talk to Jim the polar bear to exit your disguise. (opciones de chat: 1 Yes)",
-        "es": "Camina hacia el este y habla con Jim the polar bear para quitarte el disfraz. (opciones de chat: 1 Yes)"
-      }
+        "en": "Walk east, talk to Jim the polar bear to exit your disguise.",
+        "es": "Camina hacia el este y habla con Jim the polar bear para quitarte el disfraz."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Getting Energy",
       "text": {
         "en": "Equip your insulated boots and prepare for combat.",
         "es": "Equípate las insulated boots y prepárate para el combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Getting Energy",
       "text": {
         "en": "Make your way to the top floor of Draynor Manor (staircase then ladder).",
         "es": "Dirígete a la planta superior de Draynor Manor (escaleras y luego una escalera de mano)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Getting Energy",
       "text": {
         "en": "Enter the eastern room, then the Interdimensional Rift.",
         "es": "Entra en la sala del este y luego en el Interdimensional Rift."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Getting Energy",
       "text": {
         "en": "Kill 10 Killerwatts until you have 121 killerwatt energy.",
         "es": "Mata a 10 Killerwatts hasta conseguir 121 de energía killerwatt."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "Return to the iceberg.",
         "es": "Vuelve al iceberg."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 1,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "Head to a pier north of Fremennik Province lodestone and north-east of Rellekka, travel to the Iceberg via the smaller boat.",
         "es": "Dirígete a un muelle al norte del lodestone de Fremennik Province y al noreste de Rellekka, viaja al Iceberg en el barco pequeño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "Head to north-east of the iceberg, talk with Jim the polar bear, right click \"Tuxedo-Time\".",
         "es": "Ve al noreste del iceberg, habla con Jim the polar bear y haz clic derecho en \"Tuxedo-Time\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "Re-enter the bunker via the Mysterious Hatch.",
         "es": "Vuelve a entrar en el búnker por el Mysterious Hatch."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 0,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "In the centre of the bunker, talk to Elon to give him all the items.",
         "es": "En el centro del búnker, habla con Elon para entregarle todos los objetos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 0,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "Fill the energy container to the north-west with your divination energy.",
         "es": "Llena el contenedor de energía al noroeste con tu energía de divination."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 0,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "Configure the battery control station, north-west.",
         "es": "Configura la estación de control de la batería, al noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "Solve the puzzle. See the full guide for advice on solving the puzzle.",
         "es": "Resuelve el puzle. Consulta la guía completa para obtener consejos sobre cómo resolverlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "Once complete, speak to the following penguins, in order:",
         "es": "Una vez completado, habla con los siguientes pingüinos, en orden:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 67,
       "indent": 1,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "Elon, in the same (central) room, roaming around T.A.R.D.I.S.",
         "es": "Elon, en la misma sala (central), rondando cerca del T.A.R.D.I.S."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 68,
       "indent": 1,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "Gordon, in the south-west room (northern part).",
         "es": "Gordon, en la sala del suroeste (parte norte)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 69,
       "indent": 1,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "Hugh roaming around the north-west room.",
         "es": "Hugh, rondando por la sala del noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 70,
       "indent": 1,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "Emperor Wing, in the central room again, easy to recognise due to his size.",
         "es": "Emperor Wing, de nuevo en la sala central, fácil de reconocer por su tamaño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 71,
       "indent": 0,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "Click the T.A.R.D.I.S. in the centre for a cutscene.",
         "es": "Haz clic en el T.A.R.D.I.S. en el centro para ver una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 72,
       "indent": 0,
+      "section": "Returning to the iceberg",
       "text": {
-        "en": "Return to Chuck. (opciones de chat: 1 Back to the Freezer Quest)",
-        "es": "Vuelve con Chuck. (opciones de chat: 1 Back to the Freezer Quest)"
-      }
+        "en": "Return to Chuck.",
+        "es": "Vuelve con Chuck."
+      },
+      "chatOptions": [
+        "1 Back to the Freezer Quest"
+      ]
     },
     {
       "index": 73,
       "indent": 0,
+      "section": "Returning to the iceberg",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "the-prisoner-of-glouphrie",
   "title": "The Prisoner of Glouphrie",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:04:43.692Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:25.664Z",
   "icon": "https://runescape.wiki/images/The_Prisoner_of_Glouphrie_icon.png",
   "series": "Gnome",
   "age": "ambiguous",
@@ -141,279 +142,358 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Prisoner_of_Glouphrie_reward.png?c1924",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Speak to Golrie in the Gnome Village Dungeon. (opciones de chat: 2 [Look at the letter] • Accept • 4 What should we do next?) (Note: If you run into a bug where you can't click the X to close the letter without it moving your character, right-click on the X and click \"Close\" or press \"Esc\" on your keyboard to close the note.)",
+        "en": "Speak to Golrie in the Gnome Village Dungeon. (Note: If you run into a bug where you can't click the X to close the letter without it moving your character, right-click on the X and click \"Close\" or press \"Esc\" on your keyboard to close the note.)",
         "es": "Habla con Golrie en Gnome Village Dungeon. (opciones de chat: 2 [Mirar la carta] • Aceptar • 4 ¿Qué deberíamos hacer ahora?) (Nota: Si te encuentras con un error por el cual no puedes hacer clic en la X para cerrar la carta sin que se mueva tu personaje, haz clic derecho en la X y pulsa \"Cerrar\", o pulsa \"Esc\" en tu teclado para cerrar la nota.)"
-      }
+      },
+      "chatOptions": [
+        "2 [Look at the letter]",
+        "Accept",
+        "4 What should we do next?"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "After asking what is next, you will be transported to the surface for a conversation with Golrana.",
         "es": "Después de preguntar qué hacer a continuación, serás transportado a la superficie para hablar con Golrana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk with Golrana inside the Gnome Village.",
         "es": "Habla con Golrana dentro de Gnome Village."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Teleport to Castle Wars (or follow Elkoy out of the maze) and head to the highlighted area north of the Observatory and south of the Ourania altar (just north-east of the crystal tree). Make sure to pass the Observatory on its eastern side, alternatively use a 'Chipped' Watchtower teleport to teleport directly there.",
         "es": "Teletranspórtate a Castle Wars (o sigue a Elkoy fuera del laberinto) y dirígete a la zona resaltada al norte del Observatory y al sur del altar de Ourania (justo al noreste del árbol de cristal). Asegúrate de pasar por el lado este del Observatory, o bien usa un teletransporte de Watchtower \"Astillado\" para llegar directamente allí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Make sure to dismiss your pet/follower. Talk to Golrana.",
         "es": "Asegúrate de despedir a tu mascota/acompañante. Habla con Golrana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Walk up the path north-west until you reach a large dead tree. Search it, then climb-through it.",
         "es": "Sube por el camino hacia el noroeste hasta llegar a un gran árbol muerto. Regístralo y luego atraviésalo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Investigate the ledge on the south end of the chasm (the wall near the rocks at the south of the room), continue the conversation with Golrana, she then will cross the chasm and throw a rope for you to cross.",
         "es": "Investiga la cornisa en el extremo sur de la sima (la pared cerca de las rocas al sur de la sala), continúa la conversación con Golrana; ella entonces cruzará la sima y te lanzará una cuerda para que cruces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "If you encounter a bug in which Golrana disappears, simply re-log and continue from two steps prior.",
         "es": "Si te encuentras con un error en el que Golrana desaparece, simplemente vuelve a conectarte y continúa desde dos pasos antes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Move south and continue through the cave by jumping across gaps.",
         "es": "Muévete hacia el sur y continúa por la cueva saltando entre los huecos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Travel north-west until reaching a water stream with stepping stones, but do not cross yet.",
         "es": "Viaja hacia el noroeste hasta llegar a una corriente de agua con piedras de paso, pero no cruces todavía."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Before crossing the set of stepping stones, investigate the small crevice in the south wall to your immediate east.",
         "es": "Antes de cruzar el conjunto de piedras de paso, investiga la pequeña grieta en la pared sur, justo a tu este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Golrana will enter the crevice and emerge on the other side, she then will move a stone for you to complete the jumping part.",
         "es": "Golrana entrará en la grieta y saldrá por el otro lado; ella entonces moverá una piedra para que puedas completar la parte de los saltos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Cross the stepping stones, head southwest until you reach a crevice, then climb-through and out of the cave.",
         "es": "Cruza las piedras de paso, dirígete al suroeste hasta llegar a una grieta, luego atraviésala y sal de la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Go west to the ledge overlooking Lletya and investigate the sturdy tree, then climb-down it.",
         "es": "Ve hacia el oeste hasta la cornisa que da a Lletya e investiga el árbol robusto, luego baja por él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Bolrie's Lab",
       "text": {
         "en": "After a cutscene, take the handwritten book on the crate next to you and read it.",
         "es": "Después de una escena, coge el libro escrito a mano que hay sobre la caja junto a ti y léelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Bolrie's Lab",
       "text": {
         "en": "Search all crates, lamps, shelves and the picture in the room. You will be notified when you have gathered everything in the room.",
         "es": "Registra todas las cajas, lámparas, estantes y el cuadro de la sala. Se te notificará cuando hayas reunido todo en la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Bolrie's Lab",
       "text": {
         "en": "Build the crate at the desk north of the ladder, then calibrate it.",
         "es": "Construye la caja en el escritorio al norte de la escalera, luego calíbrala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Bolrie's Lab",
       "text": {
         "en": "Note down the number and colour value for all three.",
         "es": "Anota el número y el valor de color para los tres."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Bolrie's Lab",
       "text": {
         "en": "Use the calculator below to get a working pair of shapes for each of the three value pairs. Note down the pair of shapes for each.",
         "es": "Usa la calculadora de abajo para obtener un par de formas válido para cada uno de los tres pares de valores. Anota el par de formas para cada uno."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Bolrie's Lab",
       "text": {
         "en": "Once you sing all 6 desired shapes, calibrate the device then insert the correct shapes into their corresponding slots.",
         "es": "Una vez que hayas conseguido las 6 formas deseadas, calibra el dispositivo e inserta las formas correctas en sus ranuras correspondientes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Bolrie's Lab",
       "text": {
         "en": "Click the green tick mark at the bottom to complete the puzzle.",
         "es": "Haz clic en la marca de verificación verde de abajo para completar el rompecabezas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Arposandra",
       "text": {
         "en": "Climb up the ladder and talk to Golrana underneath the steps just to the east of Lletya centre. (If you teleport to Lletya instead of leaving via the ladder, she will not appear. You can return to the lab from a trapdoor in the sheep pen in the northwest Lletya.)",
         "es": "Sube por la escalera y habla con Golrana bajo los escalones justo al este del centro de Lletya. (Si te teletransportas a Lletya en lugar de salir por la escalera, ella no aparecerá. Puedes volver al laboratorio desde una trampilla en el redil de ovejas al noroeste de Lletya.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Arposandra",
       "text": {
         "en": "Once back up on the ledge, walk past the large boulder to the east, and Golrana should spot an air vent.",
         "es": "Una vez de vuelta en la cornisa, camina más allá de la gran roca hacia el este, y Golrana debería detectar un conducto de ventilación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Arposandra",
       "text": {
         "en": "Open the air vent on the rock wall just south of the boulder, then climb-down it.",
         "es": "Abre el conducto de ventilación en la pared rocosa justo al sur de la roca, luego bájate por él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Arposandra",
       "text": {
         "en": "After the cutscene Climb-up the stairs just next to you.",
         "es": "Después de la escena, sube por las escaleras justo a tu lado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Arposandra",
       "text": {
         "en": "Head east to the prison and rotate the watcher once.",
         "es": "Dirígete al este hacia la prisión y gira el vigía una vez."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Arposandra",
       "text": {
         "en": "Enter the prison through the metal doors. Talk to the guard.",
         "es": "Entra en la prisión por las puertas metálicas. Habla con el guardia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Arposandra",
       "text": {
-        "en": "Pick-lock on the northwest cell door. Talk to Bolrie. (opciones de chat: 1 I fell down the shaft and we got separated. • 2 Ilfeen. • 3 Gena. • 3 42. • 1 The Grand Tree.)",
-        "es": "Fuerza la cerradura de la celda del noroeste. Habla con Bolrie. (opciones de chat: 1 Me caí por el conducto y nos separamos. • 2 Ilfeen. • 3 Gena. • 3 42. • 1 The Grand Tree.)"
-      }
+        "en": "Pick-lock on the northwest cell door. Talk to Bolrie.",
+        "es": "Fuerza la cerradura de la celda del noroeste. Habla con Bolrie."
+      },
+      "chatOptions": [
+        "1 I fell down the shaft and we got separated.",
+        "2 Ilfeen.",
+        "3 Gena.",
+        "3 42.",
+        "1 The Grand Tree."
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Arposandra",
       "text": {
         "en": "Lead Bolrie out of the jail and west to the corridor behind the stairs you just came up.",
         "es": "Guía a Bolrie fuera de la cárcel y hacia el oeste, por el pasillo detrás de las escaleras por las que acabas de subir."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Arposandra",
       "text": {
         "en": "Continue through the door in the end and watch the cutscene.",
         "es": "Continúa por la puerta del final y observa la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Arposandra",
       "text": {
         "en": "After the cutscene, stand north of the big boulder and push it southward to block the air vent.",
         "es": "Después de la escena, colócate al norte de la gran roca y empújala hacia el sur para bloquear el conducto de ventilación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Arposandra",
       "text": {
         "en": "Talk to the gnomes for a cutscene.",
         "es": "Habla con los gnomos para ver una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Arposandra",
       "text": {
         "en": "Talk to them again to watch a second cutscene.",
         "es": "Habla con ellos de nuevo para ver una segunda escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Arposandra",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

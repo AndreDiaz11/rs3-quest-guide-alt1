@@ -2,7 +2,8 @@
   "id": "enakhra-s-lament",
   "title": "Enakhra's Lament",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:14:34.517Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:07.983Z",
   "icon": "https://runescape.wiki/images/Enakhra%27s_Lament_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -182,335 +183,463 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Enakhra%27s_Lament_reward.png?a45de",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Head to the granite and sandstone quarry southwest of the Bandit Camp lodestone.",
         "es": "Dirígete a la cantera de granito y arenisca al suroeste de la piedra de viaje de Bandit Camp."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Lazim. (opciones de chat: Accept • 2 Okay, I'll get on with it.)",
-        "es": "Habla con Lazim. (opciones de chat: Accept • 2 Okay, I'll get on with it.)"
-      }
+        "en": "Talk to Lazim.",
+        "es": "Habla con Lazim."
+      },
+      "chatOptions": [
+        "Accept",
+        "2 Okay, I'll get on with it."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "If you don't already have your sandstones, mine 5 of sandstone in the nearby quarry.",
         "es": "Si aún no tienes tus areniscas, extrae 5 de arenisca en la cantera cercana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Give Lazim 32 of sandstone. (opciones de chat: 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a small 2 kg block.)",
-        "es": "Dale a Lazim 32 de arenisca. (opciones de chat: 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a small 2 kg block.)"
-      }
+        "en": "Give Lazim 32 of sandstone.",
+        "es": "Dale a Lazim 32 de arenisca."
+      },
+      "chatOptions": [
+        "1 Yes, I have more stone.",
+        "1 Here's a medium 5 kg block.",
+        "1 Yes, I have more stone.",
+        "1 Here's a medium 5 kg block.",
+        "1 Yes, I have more stone.",
+        "1 Here's a medium 5 kg block.",
+        "1 Yes, I have more stone.",
+        "1 Here's a medium 5 kg block.",
+        "1 Yes, I have more stone.",
+        "1 Here's a medium 5 kg block.",
+        "1 Yes, I have more stone.",
+        "1 Here's a medium 5 kg block.",
+        "1 Yes, I have more stone.",
+        "1 Here's a small 2 kg block."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Craft the sandstone (32kg) he gives you, use it on the flat ground.",
         "es": "Talla la arenisca (32 kg) que te da, úsala en el suelo llano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Lazim.",
         "es": "Habla con Lazim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Give Lazim another 20&nbsp;kg of sandstone. (opciones de chat: 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block.)",
-        "es": "Dale a Lazim otros 20&nbsp;kg de arenisca. (opciones de chat: 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block. • 1 Yes, I have more stone. • 1 Here's a medium 5 kg block.)"
-      }
+        "en": "Give Lazim another 20&nbsp;kg of sandstone.",
+        "es": "Dale a Lazim otros 20&nbsp;kg de arenisca."
+      },
+      "chatOptions": [
+        "1 Yes, I have more stone.",
+        "1 Here's a medium 5 kg block.",
+        "1 Yes, I have more stone.",
+        "1 Here's a medium 5 kg block.",
+        "1 Yes, I have more stone.",
+        "1 Here's a medium 5 kg block.",
+        "1 Yes, I have more stone.",
+        "1 Here's a medium 5 kg block."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Craft the sandstone (20kg) he gives you, use it on the statue base.",
         "es": "Talla la arenisca (20 kg) que te da, úsala en la base de la estatua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Chisel the headless statue, speak to Lazim.",
         "es": "Cincela la estatua sin cabeza y habla con Lazim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Mine or obtain two 5 granite chunks.",
         "es": "Extrae u obtén dos trozos de granito de 5."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Craft a 5 chunk of granite. (opciones de chat: 1 Carve a head for the statue. • 4 The head of a camel)",
-        "es": "Talla un trozo de granito de 5. (opciones de chat: 1 Carve a head for the statue. • 4 The head of a camel)"
-      }
+        "en": "Craft a 5 chunk of granite.",
+        "es": "Talla un trozo de granito de 5."
+      },
+      "chatOptions": [
+        "1 Carve a head for the statue.",
+        "4 The head of a camel"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Use the stone camel head on the headless statue.",
         "es": "Usa la cabeza de camello de piedra en la estatua sin cabeza."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Underground",
       "text": {
         "en": "Speak to Lazim.",
         "es": "Habla con Lazim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Underground",
       "text": {
         "en": "Talk to him again.",
         "es": "Vuelve a hablar con él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Underground",
       "text": {
-        "en": "Interact with the fallen statue four times, use the \"Chisel\" option. (opciones de chat: 1 Chisel • 1 Remove the statue's left arm) (opciones de chat: 1 Chisel • 1 Remove the statue's right arm) (opciones de chat: 1 Chisel • 1 Remove the statue's left leg) (opciones de chat: 1 Chisel)",
-        "es": "Interactúa cuatro veces con la estatua caída, usando la opción \"Chisel\". (opciones de chat: 1 Chisel • 1 Remove the statue's left arm) (opciones de chat: 1 Chisel • 1 Remove the statue's right arm) (opciones de chat: 1 Chisel • 1 Remove the statue's left leg) (opciones de chat: 1 Chisel)"
-      }
+        "en": "Interact with the fallen statue four times, use the \"Chisel\" option.",
+        "es": "Interactúa cuatro veces con la estatua caída, usando la opción \"Chisel\". (opciones de chat: 1 Chisel • 1 Remove the statue's left arm) (opciones de chat: 1 Chisel • 1 Remove the statue's right arm) (opciones de chat: 1 Chisel • 1 Remove the statue's left leg)"
+      },
+      "chatOptions": [
+        "1 Chisel",
+        "1 Remove the statue's left arm",
+        "1 Chisel",
+        "1 Remove the statue's right arm",
+        "1 Chisel",
+        "1 Remove the statue's left leg",
+        "1 Chisel"
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Underground",
       "text": {
         "en": "Take-sigil from the nearby pedestal for the letter \"M\".",
         "es": "Coge el sigilo del pedestal cercano correspondiente a la letra \"M\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Underground",
       "text": {
         "en": "Go north and through the door. Click to skip the cutscene.",
         "es": "Ve hacia el norte y cruza la puerta. Haz clic para saltar la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Underground",
       "text": {
         "en": "Go all the way west and through the door to the south. Click to skip the cutscene.",
         "es": "Ve todo el camino hacia el oeste y cruza la puerta hacia el sur. Haz clic para saltar la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Underground",
       "text": {
         "en": "Go south and take the path to east which is leading to the middle room. Unlock the door using the M sigil.",
         "es": "Ve hacia el sur y toma el camino hacia el este que lleva a la sala central. Desbloquea la puerta usando el sigilo M."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Underground",
       "text": {
         "en": "Optionally, leave the middle room and go through the remaining two outer doors, gather the remaining three sigils, and unlock the remaining three doors that lead to the middle room. The outer doors will become permanently locked post-quest if the stone limbs are destroyed as they cannot be reclaimed.",
         "es": "Opcionalmente, sal de la sala central y cruza las dos puertas exteriores restantes, recoge los tres sigilos restantes y desbloquea las tres puertas restantes que llevan a la sala central. Las puertas exteriores quedarán bloqueadas permanentemente tras la misión si se destruyen las extremidades de piedra, ya que no podrán recuperarse."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Underground",
       "text": {
         "en": "Climb up the middle room's ladder.",
         "es": "Sube por la escalera de la sala central."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Enakhra's temple",
       "text": {
         "en": "Use your soft clay on the pedestal for a camel mould (p).",
         "es": "Usa tu arcilla blanda en el pedestal para conseguir un molde de camello (p)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Enakhra's temple",
       "text": {
-        "en": "Craft your second chunk of granite 5. (opciones de chat: 1 Carve a shape to fit the pedestal.)",
-        "es": "Talla tu segundo trozo de granito de 5. (opciones de chat: 1 Carve a shape to fit the pedestal.)"
-      }
+        "en": "Craft your second chunk of granite 5.",
+        "es": "Talla tu segundo trozo de granito de 5."
+      },
+      "chatOptions": [
+        "1 Carve a shape to fit the pedestal."
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Enakhra's temple",
       "text": {
         "en": "Use the new head on the pedestal, a cutscene starts (which can be skipped).",
         "es": "Usa la nueva cabeza en el pedestal; se inicia una escena (que se puede saltar)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Enakhra's temple",
       "text": {
         "en": "Talk to Lazim.",
         "es": "Habla con Lazim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Enakhra's temple",
       "text": {
-        "en": "Use either bread, cake, pie, potato, or a pizza on Pentyn in the north-western room. (opciones de chat: 4 It's okay, I don't need any help.)",
-        "es": "Usa pan, tarta, pastel, patata o pizza en Pentyn, en la sala del noroeste. (opciones de chat: 4 It's okay, I don't need any help.)"
-      }
+        "en": "Use either bread, cake, pie, potato, or a pizza on Pentyn in the north-western room.",
+        "es": "Usa pan, tarta, pastel, patata o pizza en Pentyn, en la sala del noroeste."
+      },
+      "chatOptions": [
+        "4 It's okay, I don't need any help."
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Enakhra's temple",
       "text": {
         "en": "Go to the west room, equip your staff or wand, melt the fountain using a fire spell.",
         "es": "Ve a la sala del oeste, equipa tu bastón o varita y derrite la fuente usando un hechizo de fuego."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Enakhra's temple",
       "text": {
         "en": "If you have a waterskin, you can refill it at the fountain for a Hard Desert Achievement, Enaqua.",
         "es": "Si tienes un odre, puedes rellenarlo en la fuente para conseguir el Logro Difícil del Desierto, Enaqua."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Enakhra's temple",
       "text": {
         "en": "Go to the northeast room, clear the furnace with a staff or wand equipped using an air spell.",
         "es": "Ve a la sala del noreste y limpia el horno con un bastón o varita equipado usando un hechizo de aire."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Enakhra's temple",
       "text": {
         "en": "Retrieve coal from the metal bank if it is not already in the backpack.",
         "es": "Recupera carbón del banco de metal si no lo tienes ya en la mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Enakhra's temple",
       "text": {
         "en": "Go to the east room, investigate each brazier, using the respective resource on each of them.",
         "es": "Ve a la sala del este, examina cada brasero y usa el recurso correspondiente en cada uno de ellos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "Enakhra's temple",
       "text": {
         "en": "Retrieve coal from the metal bank at the furnace in the northeast room if you did not bring it.",
         "es": "Recupera carbón del banco de metal junto al horno en la sala del noreste si no lo trajiste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Enakhra's temple",
       "text": {
         "en": "Pass-through the magical barrier in the centre, climb-up the ladder.",
         "es": "Atraviesa la barrera mágica del centro y sube por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Finishing off",
       "text": {
         "en": "Talk to Lazim.",
         "es": "Habla con Lazim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Finishing off",
       "text": {
         "en": "Climb-over pile of bones south.",
         "es": "Trepa por el montón de huesos hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Finishing off",
       "text": {
         "en": "Climb-down the stone ladder.",
         "es": "Baja por la escalera de piedra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Finishing off",
       "text": {
-        "en": "Talk to the Boneguard. (opciones de chat: 2 Of course, I'll help you out. • 4 Okay, I'll start building.)",
-        "es": "Habla con el Boneguard. (opciones de chat: 2 Of course, I'll help you out. • 4 Okay, I'll start building.)"
-      }
+        "en": "Talk to the Boneguard.",
+        "es": "Habla con el Boneguard."
+      },
+      "chatOptions": [
+        "2 Of course, I'll help you out.",
+        "4 Okay, I'll start building."
+      ]
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Finishing off",
       "text": {
         "en": "Take-rock from the nearby rubble for a chunk of sandstone. Do this three times.",
         "es": "Coge una roca de los escombros cercanos para obtener un trozo de arenisca. Hazlo tres veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Finishing off",
       "text": {
         "en": "Inspect the wall to add the sandstone then inspect it again to chisel it. Repeat this twice more.",
         "es": "Examina el muro para añadir la arenisca y luego vuelve a examinarlo para cincelarla. Repite esto dos veces más."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Finishing off",
       "text": {
         "en": "Talk to the Boneguard for the final cutscene (this can also be skipped).",
         "es": "Habla con el Boneguard para la escena final (esta también se puede saltar)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Finishing off",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

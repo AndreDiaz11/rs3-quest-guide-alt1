@@ -2,7 +2,8 @@
   "id": "the-giant-dwarf",
   "title": "The Giant Dwarf",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:23:26.743Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:19.906Z",
   "icon": "https://runescape.wiki/images/The_Giant_Dwarf_icon.png",
   "series": "Dwarf (Red Axe)",
   "age": "5",
@@ -246,279 +247,393 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Giant_Dwarf_reward.png?7ec3f",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Under arrest",
       "text": {
-        "en": "Enter the tunnel between the two black statues, north-east of Rellekka, close to fairy ring . (teleport to the Fremennik Province and run north-east)",
+        "en": "Enter the tunnel between the two black statues, north-east of Rellekka, close to fairy ring DKS. (teleport to the Fremennik Province and run north-east)",
         "es": "Entra en el túnel entre las dos estatuas negras, al noreste de Rellekka, cerca del fairy ring . (teletranspórtate a Fremennik Province y corre al noreste)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Under arrest",
       "text": {
         "en": "Go through cave entrance east to Keldagrim.",
         "es": "Ve por la entrada de la cueva al este hacia Keldagrim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Under arrest",
       "text": {
-        "en": "Talk to the Dwarven Boatman inside the cave, not Dwarven Ferryman. (opciones de chat: 1 Yes.)",
-        "es": "Habla con el Dwarven Boatman dentro de la cueva, no con el Dwarven Ferryman. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Talk to the Dwarven Boatman inside the cave, not Dwarven Ferryman.",
+        "es": "Habla con el Dwarven Boatman dentro de la cueva, no con el Dwarven Ferryman."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Under arrest",
       "text": {
-        "en": "Go west to the Black Guard H.Q.. Enter the building and talk to Commander Veldaban. The chat instance should end with you accepting the quest. (opciones de chat: Accept)",
-        "es": "Ve al oeste hacia el Black Guard H.Q.. Entra en el edificio y habla con Commander Veldaban. La conversación debería terminar con que aceptas la misión. (opciones de chat: Accept)"
-      }
+        "en": "Go west to the Black Guard H.Q.. Enter the building and talk to Commander Veldaban. The chat instance should end with you accepting the quest.",
+        "es": "Ve al oeste hacia el Black Guard H.Q.. Entra en el edificio y habla con Commander Veldaban. La conversación debería terminar con que aceptas la misión."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Under arrest",
       "text": {
-        "en": "Exit the house, go north-east across the bridge and talk to Blasidar the Sculptor just north-west of the brewery. (opciones de chat: 2 Yes, I will do this.)",
-        "es": "Sal de la casa, cruza el puente hacia el noreste y habla con Blasidar the Sculptor justo al noroeste de la cervecería. (opciones de chat: 2 Yes, I will do this.)"
-      }
+        "en": "Exit the house, go north-east across the bridge and talk to Blasidar the Sculptor just north-west of the brewery.",
+        "es": "Sal de la casa, cruza el puente hacia el noreste y habla con Blasidar the Sculptor justo al noroeste de la cervecería."
+      },
+      "chatOptions": [
+        "2 Yes, I will do this."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "King's clothes",
       "text": {
-        "en": "In the large building just west, talk to Vermundi at the silk icon. (opciones de chat: 2 Yes, I'm looking for some special clothes.)",
-        "es": "En el edificio grande justo al oeste, habla con Vermundi en el icono de seda. (opciones de chat: 2 Yes, I'm looking for some special clothes.)"
-      }
+        "en": "In the large building just west, talk to Vermundi at the silk icon.",
+        "es": "En el edificio grande justo al oeste, habla con Vermundi en el icono de seda."
+      },
+      "chatOptions": [
+        "2 Yes, I'm looking for some special clothes."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "King's clothes",
       "text": {
-        "en": "In the building west of the northern bridge, talk to the Librarian. (opciones de chat: 2 Do you know anything about King Alvis's clothes?)",
-        "es": "En el edificio al oeste del puente norte, habla con el Librarian. (opciones de chat: 2 Do you know anything about King Alvis's clothes?)"
-      }
+        "en": "In the building west of the northern bridge, talk to the Librarian.",
+        "es": "En el edificio al oeste del puente norte, habla con el Librarian."
+      },
+      "chatOptions": [
+        "2 Do you know anything about King Alvis's clothes?"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "King's clothes",
       "text": {
         "en": "While weighing less than 30kg, attempt to climb any bookcase.",
         "es": "Mientras peses menos de 30kg, intenta trepar cualquier estantería de libros."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "King's clothes",
       "text": {
-        "en": "With the book, return to Vermundi. (opciones de chat: 2 Yes, about those special clothes again...)",
-        "es": "Con el libro, vuelve con Vermundi. (opciones de chat: 2 Yes, about those special clothes again...)"
-      }
+        "en": "With the book, return to Vermundi.",
+        "es": "Con el libro, vuelve con Vermundi."
+      },
+      "chatOptions": [
+        "2 Yes, about those special clothes again..."
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "King's clothes",
       "text": {
         "en": "Use coal and logs on her spinning machine.",
         "es": "Usa carbón y troncos en su máquina de hilar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "King's clothes",
       "text": {
         "en": "Try to light it until the engine starts. (This may take several attempts)",
         "es": "Intenta encenderla hasta que el motor arranque. (Esto puede requerir varios intentos)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "King's clothes",
       "text": {
-        "en": "Talk to Vermundi. (opciones de chat: 2 Yes, about those special clothes again... • 1 I'll pay.)",
-        "es": "Habla con Vermundi. (opciones de chat: 2 Yes, about those special clothes again... • 1 I'll pay.)"
-      }
+        "en": "Talk to Vermundi.",
+        "es": "Habla con Vermundi."
+      },
+      "chatOptions": [
+        "2 Yes, about those special clothes again...",
+        "1 I'll pay."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "King's boots",
       "text": {
-        "en": "In the far west of the city, talk to Saro at the anvil icon. (opciones de chat: 2 Yes, I'm looking for a pair of special boots.)",
-        "es": "En el extremo oeste de la ciudad, habla con Saro en el icono del yunque. (opciones de chat: 2 Yes, I'm looking for a pair of special boots.)"
-      }
+        "en": "In the far west of the city, talk to Saro at the anvil icon.",
+        "es": "En el extremo oeste de la ciudad, habla con Saro en el icono del yunque."
+      },
+      "chatOptions": [
+        "2 Yes, I'm looking for a pair of special boots."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "King's boots",
       "text": {
         "en": "North of the bank, talk to Dromund.",
         "es": "Al norte del banco, habla con Dromund."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "King's boots",
       "text": {
         "en": "Take the left boot, from the table near the door, while his back is turned.",
         "es": "Coge la bota izquierda de la mesa cerca de la puerta mientras esté de espaldas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "King's boots",
       "text": {
         "en": "Leave his house and run around to the north edge, stand next to the western window (adjacent to the right boot).",
         "es": "Sal de su casa y da la vuelta hasta el borde norte, colócate junto a la ventana oeste (junto a la bota derecha)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "King's boots",
       "text": {
         "en": "When his back is turned, cast Telekinetic Grab on the right boot through the window.",
         "es": "Cuando esté de espaldas, lanza Telekinetic Grab sobre la bota derecha a través de la ventana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "King's axe",
       "text": {
-        "en": "Go to the north-west corner and talk to Santiri. (opciones de chat: 2 Yes, I'm looking for a particular battleaxe. • 2 Blasidar the sculptor needs it for his statue. • 2 Perhaps I can repair the axe?)",
-        "es": "Ve a la esquina noroeste y habla con Santiri. (opciones de chat: 2 Yes, I'm looking for a particular battleaxe. • 2 Blasidar the sculptor needs it for his statue. • 2 Perhaps I can repair the axe?)"
-      }
+        "en": "Go to the north-west corner and talk to Santiri.",
+        "es": "Ve a la esquina noroeste y habla con Santiri."
+      },
+      "chatOptions": [
+        "2 Yes, I'm looking for a particular battleaxe.",
+        "2 Blasidar the sculptor needs it for his statue.",
+        "2 Perhaps I can repair the axe?"
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "King's axe",
       "text": {
         "en": "Use 3 sapphires on the battleaxe.",
         "es": "Usa 3 zafiros en el hacha de batalla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "King's axe",
       "text": {
         "en": "If you have not completed The Knight's Sword:",
         "es": "Si no has completado The Knight's Sword:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "King's axe",
       "text": {
         "en": "Take a redberry pie with you when you talk to Thurgo.",
         "es": "Lleva contigo una redberry pie cuando hables con Thurgo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "King's axe",
       "text": {
-        "en": "Talk to Thurgo in his small hut (fairy ring ), south of Port Sarim, and north of Mudskipper Point. (opciones de chat: 2 Something else. (3 if skillcape is owned) • 2 Would you like some redberry pie? • 3 Can you help me with this ancient axe? • 1 Return to Keldagrim immediately.)",
+        "en": "Talk to Thurgo in his small hut (fairy ring AIQ), south of Port Sarim, and north of Mudskipper Point.",
         "es": "Habla con Thurgo en su pequeña cabaña (fairy ring ), al sur de Port Sarim, y al norte de Mudskipper Point. (opciones de chat: 2 Something else. (3 si tienes la capa de habilidad) • 2 Would you like some redberry pie? • 3 Can you help me with this ancient axe? • 1 Return to Keldagrim immediately.)"
-      }
+      },
+      "chatOptions": [
+        "2 Something else. (3 if skillcape is owned)",
+        "2 Would you like some redberry pie?",
+        "3 Can you help me with this ancient axe?",
+        "1 Return to Keldagrim immediately."
+      ]
     },
     {
       "index": 22,
       "indent": 1,
+      "section": "King's axe",
       "text": {
-        "en": "If The Knight's Sword is complete (opciones de chat: 2 Something else. (3 if skillcape is owned) • 2 Can you help me with this ancient axe? • 1 Return to Keldagrim immediately.)",
+        "en": "If The Knight's Sword is complete",
         "es": "Si has completado The Knight's Sword (opciones de chat: 2 Something else. (3 si tienes la capa de habilidad) • 2 Can you help me with this ancient axe? • 1 Return to Keldagrim immediately.)"
-      }
+      },
+      "chatOptions": [
+        "2 Something else. (3 if skillcape is owned)",
+        "2 Can you help me with this ancient axe?",
+        "1 Return to Keldagrim immediately."
+      ]
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "King's axe",
       "text": {
         "en": "Have an iron bar to give to Thurgo (or access your metal bank via the anvil next to Thurgo to obtain one which is stored in it).",
         "es": "Ten una barra de hierro para dársela a Thurgo (o accede a tu banco de metales mediante el yunque junto a Thurgo para obtener una guardada allí)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "King's axe",
       "text": {
         "en": "With the 4 items, talk to Riki the sculptor's model near Blasidar the sculptor.",
         "es": "Con los 4 objetos, habla con Riki the sculptor's model cerca de Blasidar the sculptor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "King's axe",
       "text": {
         "en": "Talk to Blasidar for a cutscene.",
         "es": "Habla con Blasidar para ver una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Climbing the corporate ladder",
       "text": {
         "en": "Run west to the marketplace building and up the stairs.",
         "es": "Corre al oeste hacia el edificio del mercado y sube las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Climbing the corporate ladder",
       "text": {
-        "en": "Talk to any secretary (yellow is closest to metal bank) - your character's gender may disqualify your eligibility to work for that colour of company, consequently try another colour. (opciones de chat: 3 Is there anything I can help you with? • Any)",
-        "es": "Habla con cualquier secretaria (la amarilla es la más cercana al banco de metales) - el género de tu personaje puede impedirte trabajar para ese color de compañía, por lo que deberás probar con otro color. (opciones de chat: 3 Is there anything I can help you with? • Any)"
-      }
+        "en": "Talk to any secretary (yellow is closest to metal bank) - your character's gender may disqualify your eligibility to work for that colour of company, consequently try another colour.",
+        "es": "Habla con cualquier secretaria (la amarilla es la más cercana al banco de metales) - el género de tu personaje puede impedirte trabajar para ese color de compañía, por lo que deberás probar con otro color."
+      },
+      "chatOptions": [
+        "3 Is there anything I can help you with?",
+        "Any"
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Climbing the corporate ladder",
       "text": {
         "en": "Fetch them the required ore (must be un-noted). Repeat with the same secretary for a total of 4 tasks.",
         "es": "Consígueles el mineral requerido (no debe estar marcado). Repite con la misma secretaria hasta completar un total de 4 tareas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Climbing the corporate ladder",
       "text": {
-        "en": "Talk to the director. (opciones de chat: 3 Do you have any more tasks for me? • Any)",
-        "es": "Habla con el director. (opciones de chat: 3 Do you have any more tasks for me? • Any)"
-      }
+        "en": "Talk to the director.",
+        "es": "Habla con el director."
+      },
+      "chatOptions": [
+        "3 Do you have any more tasks for me?",
+        "Any"
+      ]
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Climbing the corporate ladder",
       "text": {
         "en": "Fetch them the required bars. You might need to repeat for a second task.",
         "es": "Consígueles las barras requeridas. Puede que necesites repetir para una segunda tarea."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Climbing the corporate ladder",
       "text": {
-        "en": "Talk to the director. (opciones de chat: 2 I'd like to officially join your company. • 3 Blasidar the sculptor has sent me. • 1 I would support you. • 1 Yes! Long live the [company]!)",
-        "es": "Habla con el director. (opciones de chat: 2 I'd like to officially join your company. • 3 Blasidar the sculptor has sent me. • 1 I would support you. • 1 Yes! Long live the [company]!)"
-      }
+        "en": "Talk to the director.",
+        "es": "Habla con el director."
+      },
+      "chatOptions": [
+        "2 I'd like to officially join your company.",
+        "3 Blasidar the sculptor has sent me.",
+        "1 I would support you.",
+        "1 Yes! Long live the [company]!"
+      ]
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Climbing the corporate ladder",
       "text": {
-        "en": "Return to Commander Veldaban in Black Guard headquarters, where you started the quest (west of the palace and west of the bank). (opciones de chat: 1 I'm ready. • 2 I do NOT want to attend, I don't have time to waste. • 2 I just have a lot of smithing to do today, I can't attend.)",
-        "es": "Vuelve con Commander Veldaban en el cuartel general de los Black Guard, donde comenzaste la misión (al oeste del palacio y al oeste del banco). (opciones de chat: 1 I'm ready. • 2 I do NOT want to attend, I don't have time to waste. • 2 I just have a lot of smithing to do today, I can't attend.)"
-      }
+        "en": "Return to Commander Veldaban in Black Guard headquarters, where you started the quest (west of the palace and west of the bank).",
+        "es": "Vuelve con Commander Veldaban en el cuartel general de los Black Guard, donde comenzaste la misión (al oeste del palacio y al oeste del banco)."
+      },
+      "chatOptions": [
+        "1 I'm ready.",
+        "2 I do NOT want to attend, I don't have time to waste.",
+        "2 I just have a lot of smithing to do today, I can't attend."
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Climbing the corporate ladder",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "recipe-for-disaster-freeing-evil-dave",
   "title": "Recipe for Disaster: Freeing Evil Dave",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:06:44.585Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:53.519Z",
   "icon": "https://runescape.wiki/images/Evil_Dave_icon.png",
   "length": "Medium to Long",
   "startPoint": {
@@ -83,103 +84,135 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Recipe_for_Disaster_%28Freeing_Evil_Dave%29_reward.png?009f9",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Freeing Evil Dave",
       "text": {
         "en": "Inspect Evil Dave inside Lumbridge Castle Banquet Hall.",
         "es": "Inspecciona a Evil Dave dentro del salón de banquetes de Lumbridge Castle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Freeing Evil Dave",
       "text": {
-        "en": "West of Edgeville's bank, talk to Doris. (opciones de chat: 1 Is Dave in? • 1 Yes, I'm evil!)",
-        "es": "Al oeste del banco de Edgeville, habla con Doris. (opciones de chat: 1 ¿Está Dave? • 1 ¡Sí, soy malvado!)"
-      }
+        "en": "West of Edgeville's bank, talk to Doris.",
+        "es": "Al oeste del banco de Edgeville, habla con Doris."
+      },
+      "chatOptions": [
+        "1 Is Dave in?",
+        "1 Yes, I'm evil!"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Freeing Evil Dave",
       "text": {
         "en": "Head into the house's basement.",
         "es": "Dirígete al sótano de la casa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Freeing Evil Dave",
       "text": {
-        "en": "Talk to Evil Dave. (opciones de chat: 2 General chat • 3 What did you eat at the secret council meeting? • 4 You've got to tell me because the magic requires it!)",
-        "es": "Habla con Evil Dave. (opciones de chat: 2 Charla general • 3 ¿Qué comiste en la reunión secreta del consejo? • 4 ¡Tienes que decírmelo porque la magia lo requiere!)"
-      }
+        "en": "Talk to Evil Dave.",
+        "es": "Habla con Evil Dave."
+      },
+      "chatOptions": [
+        "2 General chat",
+        "3 What did you eat at the secret council meeting?",
+        "4 You've got to tell me because the magic requires it!"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Freeing Evil Dave",
       "text": {
         "en": "Return to Doris. If you miss this step, the hellrats will only drop ashes.",
         "es": "Vuelve con Doris. Si te saltas este paso, las hellrats solo soltarán cenizas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Freeing Evil Dave",
       "text": {
         "en": "Head back in the basement, interact with your cat and select \"Chase-Vermin\". (Switch off 'Hide Familiar Options' in Gameplay->Combat & Action Bar-> 'Choose Option' Menu)",
         "es": "Vuelve al sótano, interactúa con tu gato y selecciona \"Chase-Vermin\". (Desactiva 'Hide Familiar Options' en Gameplay->Combat & Action Bar-> menú 'Choose Option')"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Freeing Evil Dave",
       "text": {
         "en": "As your cat catches the rats, pick up the spices that drop.",
         "es": "Mientras tu gato caza las ratas, recoge las especias que suelten."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Freeing Evil Dave",
       "text": {
         "en": "Do so until at least six doses of each of the four spices are collected.",
         "es": "Hazlo hasta reunir al menos seis dosis de cada una de las cuatro especias."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Freeing Evil Dave",
       "text": {
         "en": "Make Dave's Evil stew by combining doses of each spice on the stews.",
         "es": "Prepara el Dave's Evil stew combinando dosis de cada especia en los stews."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Freeing Evil Dave",
       "text": {
         "en": "After determining the right combination, have Evil Dave taste it and finish the dialogue. This won't consume the stew.",
         "es": "Tras determinar la combinación correcta, haz que Evil Dave lo pruebe y termina el diálogo. Esto no consumirá el stew."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Freeing Evil Dave",
       "text": {
         "en": "Head to Lumbridge and give Evil Dave the stew.",
         "es": "Dirígete a Lumbridge y dale el stew a Evil Dave."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Freeing Evil Dave",
       "text": {
         "en": "Subquest complete!",
         "es": "¡Submisión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

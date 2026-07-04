@@ -2,7 +2,8 @@
   "id": "wiz-kid",
   "title": "Wiz Kid",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:35:39.730Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:39.667Z",
   "icon": "https://runescape.wiki/images/Wiz_Kid_icon.png",
   "series": "No",
   "age": "Age of Chaos",
@@ -93,143 +94,191 @@
       "image": "https://runescape.wiki/images/thumb/Marigold_Farm.png/100px-Marigold_Farm.png?928e8"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Wiz_Kid_reward.png?17f21",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Training Ben",
       "text": {
-        "en": "Talk to Ben at Marigold Farm in Havenhythe. (opciones de chat: Accept • ~)",
-        "es": "Habla con Ben en Marigold Farm, en Havenhythe. (opciones de chat: Aceptar • ~)"
-      }
+        "en": "Talk to Ben at Marigold Farm in Havenhythe.",
+        "es": "Habla con Ben en Marigold Farm, en Havenhythe."
+      },
+      "chatOptions": [
+        "Accept",
+        "~"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Training Ben",
       "text": {
-        "en": "Talk to him again to give him the runes. (opciones de chat: 1 Yes, I brought enough runes for me too.)",
-        "es": "Habla con él de nuevo para darle las runas. (opciones de chat: 1 Sí, he traído runas suficientes también para mí.)"
-      }
+        "en": "Talk to him again to give him the runes.",
+        "es": "Habla con él de nuevo para darle las runas."
+      },
+      "chatOptions": [
+        "1 Yes, I brought enough runes for me too."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Training Ben",
       "text": {
-        "en": "Talk to him again to continue the quest. (opciones de chat: 1 Yes.)",
-        "es": "Habla con él de nuevo para continuar la misión. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to him again to continue the quest.",
+        "es": "Habla con él de nuevo para continuar la misión."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Teleportation",
       "text": {
         "en": "Cast the Wendlewick Teleport spell, and talk to him again.",
         "es": "Lanza el hechizo de Teletransporte a Wendlewick y habla con él de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Teleportation",
       "text": {
         "en": "Enter the windmill to the north, climb up the ladder to the top floor, and talk to him.",
         "es": "Entra en el molino de viento al norte, sube por la escalera hasta la planta superior y habla con él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Teleportation",
       "text": {
         "en": "Go back to the bottom floor and talk to him outside.",
         "es": "Vuelve a la planta baja y habla con él fuera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Telekinetic Grab",
       "text": {
         "en": "Go to the farmhouse to the south and take the flowers off the counter in the eastern room.",
         "es": "Ve a la granja al sur y coge las flores del mostrador de la habitación este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Telekinetic Grab",
       "text": {
         "en": "Place the flowers on the stool east of Ben, then cast Telekinetic Grab on them.",
         "es": "Coloca las flores en el taburete al este de Ben, y luego lánzales el hechizo Agarre Telekinético."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Telekinetic Grab",
       "text": {
         "en": "Place the flowers back on the stool and talk to Ben.",
         "es": "Vuelve a colocar las flores en el taburete y habla con Ben."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Bones to Bananas",
       "text": {
         "en": "If you don't already have bones, head to the western side of the farmhouse and dig in the dirt mound for 2 sets of crow bones.",
         "es": "Si aún no tienes huesos, dirígete al lado oeste de la granja y cava en el montículo de tierra para conseguir 2 juegos de huesos de cuervo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Bones to Bananas",
       "text": {
         "en": "Place a bone on the stool near Ben, then cast the Bones to Bananas spell.",
         "es": "Coloca un hueso en el taburete cerca de Ben, y luego lanza el hechizo Huesos a Plátanos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Bones to Bananas",
       "text": {
         "en": "Talk to Ben.",
         "es": "Habla con Ben."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Finding a Mentor",
       "text": {
-        "en": "Go to the Wizards' Tower and talk to Archmage Sedridor to the southwest. (opciones de chat: 1 Talk about 'Wiz Kid'.)",
-        "es": "Ve a la Torre de los Magos y habla con Archmage Sedridor, al suroeste. (opciones de chat: 1 Hablar sobre 'Wiz Kid'.)"
-      }
+        "en": "Go to the Wizards' Tower and talk to Archmage Sedridor to the southwest.",
+        "es": "Ve a la Torre de los Magos y habla con Archmage Sedridor, al suroeste."
+      },
+      "chatOptions": [
+        "1 Talk about 'Wiz Kid'."
+      ]
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Finding a Mentor",
       "text": {
         "en": "If unlocked, the teleport option on stardust in the currency pouch places you near Archmage Sedridor.",
         "es": "Si está desbloqueada, la opción de teletransporte del polvo estelar en la bolsa de moneda te lleva cerca de Archmage Sedridor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Finding a Mentor",
       "text": {
-        "en": "Go down one floor and talk to Wizard Isidor to the west. (opciones de chat: 1 Talk about 'Wiz Kid'.)",
-        "es": "Baja una planta y habla con Wizard Isidor, al oeste. (opciones de chat: 1 Hablar sobre 'Wiz Kid'.)"
-      }
+        "en": "Go down one floor and talk to Wizard Isidor to the west.",
+        "es": "Baja una planta y habla con Wizard Isidor, al oeste."
+      },
+      "chatOptions": [
+        "1 Talk about 'Wiz Kid'."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Finding a Mentor",
       "text": {
-        "en": "Return to Ben and talk to him or Wizard Isidor. (opciones de chat: 1 Yes.)",
-        "es": "Vuelve con Ben y habla con él o con Wizard Isidor. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Return to Ben and talk to him or Wizard Isidor.",
+        "es": "Vuelve con Ben y habla con él o con Wizard Isidor."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Finding a Mentor",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

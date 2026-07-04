@@ -2,7 +2,8 @@
   "id": "mogre-lore-activity",
   "title": "Mogre (lore activity)",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:39:42.911Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:37.399Z",
   "icon": null,
   "length": null,
   "startPoint": {
@@ -36,55 +37,72 @@
       "image": "https://runescape.wiki/images/thumb/Giant_crab_%28brown_and_green%29_pet.png/100px-Giant_crab_%28brown_and_green%29_pet.png?07b73"
     }
   ],
+  "rewardBannerImage": null,
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Skippy, south-west of the Port Sarim lodestone. (opciones de chat: 2 Who are (Dramatic pause) THEY?)",
+        "en": "Talk to Skippy, south-west of the Port Sarim lodestone.",
         "es": "Habla con Skippy, al suroeste de la piedra de viaje de Port Sarim. (opciones de chat: 2 ¿Quiénes son (pausa dramática) ELLOS?)"
-      }
+      },
+      "chatOptions": [
+        "2 Who are (Dramatic pause) THEY?"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "'Right-click' Skippy, Sober-Up. (opciones de chat: 1 Throw the water!)",
-        "es": "Haz clic derecho en Skippy, Espabilar. (opciones de chat: 1 ¡Tírale el agua!)"
-      }
+        "en": "'Right-click' Skippy, Sober-Up.",
+        "es": "Haz clic derecho en Skippy, Espabilar."
+      },
+      "chatOptions": [
+        "1 Throw the water!"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Skippy again to give him nettle tea.",
         "es": "Vuelve a hablar con Skippy para darle té de ortiga."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Make a hangover cure by using chocolate dust on a bucket of milk, then snape grass on chocolatey milk.",
         "es": "Prepara una cura para la resaca usando polvo de chocolate en un cubo de leche, y luego hierba snape en la leche achocolatada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Give Skippy the hangover cure.",
         "es": "Dale a Skippy la cura para la resaca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Activity complete!",
         "es": "¡Actividad completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

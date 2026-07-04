@@ -2,7 +2,8 @@
   "id": "fur-n-seek",
   "title": "Fur 'n Seek",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:22:00.373Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:15.233Z",
   "icon": "https://runescape.wiki/images/Fur_%27n_Seek_icon.png",
   "series": "Odd Old Man",
   "age": "ambiguous",
@@ -102,71 +103,90 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Fur_%27n_Seek_reward.png?2e7a8",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to the Odd Old Man in Silvarea. (opciones de chat: Accept)",
-        "es": "Habla con el Odd Old Man en Silvarea. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to the Odd Old Man in Silvarea.",
+        "es": "Habla con el Odd Old Man en Silvarea."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Obtaining the furs",
       "text": {
         "en": "Make your way to Fremennik Province.",
         "es": "Dirígete a Fremennik Province."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Obtaining the furs",
       "text": {
         "en": "Obtain the animal fur. Use the table below as a reference.",
         "es": "Consigue el pelaje de animal. Usa la tabla de abajo como referencia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Use a bag of salt on each of the hides.",
         "es": "Usa una bolsa de sal en cada una de las pieles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Return to the Odd Old Man's house with 8 of any type of logs and the scrubbed hides in inventory.",
         "es": "Vuelve a la casa del Odd Old Man con 8 troncos de cualquier tipo y las pieles limpias en el inventario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Head to the north-east, add logs to the fire pit and stretch skins on the ribcage. Do not walk away after clicking - it will process all furs automatically.",
         "es": "Dirígete al noreste, añade troncos a la hoguera y estira las pieles sobre la caja torácica. No te alejes después de hacer clic; procesará todos los pelajes automáticamente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to the Odd Old Man.",
         "es": "Habla con el Odd Old Man."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

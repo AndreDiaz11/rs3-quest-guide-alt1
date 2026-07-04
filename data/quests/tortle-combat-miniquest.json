@@ -2,7 +2,8 @@
   "id": "tortle-combat-miniquest",
   "title": "Tortle Combat (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-04T02:24:31.190Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:30.981Z",
   "icon": "https://runescape.wiki/images/Tortle_Combat_%28miniquest%29_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -117,191 +118,265 @@
       "image": "https://runescape.wiki/images/thumb/Ninja_Tortle_Hood_chathead.png/100px-Ninja_Tortle_Hood_chathead.png?a65a0"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Tortle_Combat_%28miniquest%29_reward.png?9f78c",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Postie Pete-za by the entrance to Varrock Sewers with at least 1 free inventory space. (opciones de chat: Accept)",
-        "es": "Habla con Postie Pete-za junto a la entrada de Varrock Sewers con al menos 1 espacio libre en el inventario. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Postie Pete-za by the entrance to Varrock Sewers with at least 1 free inventory space.",
+        "es": "Habla con Postie Pete-za junto a la entrada de Varrock Sewers con al menos 1 espacio libre en el inventario."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Open the manhole and enter the Varrock Sewers.",
         "es": "Abre la alcantarilla y entra en las Varrock Sewers."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Go east and squeeze through the pipe.",
         "es": "Ve al este y pasa a través de la tubería."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Wolfgang on the bridge. (opciones de chat: 4 What will you do now? • 1 Yes)",
-        "es": "Habla con Wolfgang en el puente. (opciones de chat: 4 ¿Qué harás ahora? • 1 Sí)"
-      }
+        "en": "Talk to Wolfgang on the bridge.",
+        "es": "Habla con Wolfgang en el puente."
+      },
+      "chatOptions": [
+        "4 What will you do now?",
+        "1 Yes"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to the Varrock estate agent. He is located in a building just north of the sewer entrance. (opciones de chat: 1 Tortle Combat.)",
-        "es": "Habla con el agente inmobiliario de Varrock. Se encuentra en un edificio justo al norte de la entrada de la alcantarilla. (opciones de chat: 1 Tortle Combat.)"
-      }
+        "en": "Talk to the Varrock estate agent. He is located in a building just north of the sewer entrance.",
+        "es": "Habla con el agente inmobiliario de Varrock. Se encuentra en un edificio justo al norte de la entrada de la alcantarilla."
+      },
+      "chatOptions": [
+        "1 Tortle Combat."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Return to Wolfgang. (opciones de chat: 1 You should probably stop sending rats to the estate agent.)",
-        "es": "Vuelve con Wolfgang. (opciones de chat: 1 Probablemente deberías dejar de enviar ratas al agente inmobiliario.)"
-      }
+        "en": "Return to Wolfgang.",
+        "es": "Vuelve con Wolfgang."
+      },
+      "chatOptions": [
+        "1 You should probably stop sending rats to the estate agent."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Build the equipment around the area with the 16 planks, 2 buckets of sand, 1 empty sack, 3 ropes, and 60 iron nails.",
         "es": "Construye el equipamiento en la zona con las 16 tablas, 2 cubos de arena, 1 saco vacío, 3 cuerdas y 60 clavos de hierro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Wolfgang. (opciones de chat: 1 I have constructed all your equipment!)",
-        "es": "Habla con Wolfgang. (opciones de chat: 1 ¡He construido todo tu equipamiento!)"
-      }
+        "en": "Talk to Wolfgang.",
+        "es": "Habla con Wolfgang."
+      },
+      "chatOptions": [
+        "1 I have constructed all your equipment!"
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Gustav to the north of Wolfgang.",
         "es": "Habla con Gustav, al norte de Wolfgang."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Granny Potterington at Manor Farm with a kebab and Dense honeycomb in your inventory. (opciones de chat: 1 [Ask about Tortle Combat.])",
-        "es": "Habla con Granny Potterington en Manor Farm con un kebab y un panal denso en el inventario. (opciones de chat: 1 [Preguntar sobre Tortle Combat.])"
-      }
+        "en": "Talk to Granny Potterington at Manor Farm with a kebab and Dense honeycomb in your inventory.",
+        "es": "Habla con Granny Potterington en Manor Farm con un kebab y un panal denso en el inventario."
+      },
+      "chatOptions": [
+        "1 [Ask about Tortle Combat.]"
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Use the extremely dense honeycomb on your adult or elder common brown rabbit.",
         "es": "Usa el panal extremadamente denso en tu conejo marrón común adulto o anciano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Bring Gustav the soft clay, 2 law runes and the plump rabbit.",
         "es": "Llévale a Gustav la arcilla blanda, 2 law runes y el conejo rollizo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Edvard to the south.",
         "es": "Habla con Edvard, al sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Wolfgang.",
         "es": "Habla con Wolfgang."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Johann to the southwest.",
         "es": "Habla con Johann, al suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Hofuthand at the west side of Grand Exchange. (opciones de chat: 1 [Tortle Combat.])",
-        "es": "Habla con Hofuthand en el lado oeste del Grand Exchange. (opciones de chat: 1 [Tortle Combat.])"
-      }
+        "en": "Talk to Hofuthand at the west side of Grand Exchange.",
+        "es": "Habla con Hofuthand en el lado oeste del Grand Exchange."
+      },
+      "chatOptions": [
+        "1 [Tortle Combat.]"
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Return to Johann.",
         "es": "Vuelve con Johann."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "You will then need to give each tortle its correct weapon.",
         "es": "A continuación, tendrás que darle a cada tortle su arma correcta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Getting started",
       "text": {
-        "en": "Gustav. (opciones de chat: 1 Give Gustav a weapon • 5 Dwarven army axe)",
-        "es": "Gustav. (opciones de chat: 1 Dar un arma a Gustav • 5 Dwarven army axe)"
-      }
+        "en": "Gustav.",
+        "es": "Gustav."
+      },
+      "chatOptions": [
+        "1 Give Gustav a weapon",
+        "5 Dwarven army axe"
+      ]
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Getting started",
       "text": {
-        "en": "Johann. (opciones de chat: 1 Give Johann a weapon • 4 Old rake handle)",
-        "es": "Johann. (opciones de chat: 1 Dar un arma a Johann • 4 Old rake handle)"
-      }
+        "en": "Johann.",
+        "es": "Johann."
+      },
+      "chatOptions": [
+        "1 Give Johann a weapon",
+        "4 Old rake handle"
+      ]
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Getting started",
       "text": {
-        "en": "\"Weird\" Alfred. (northeast) (opciones de chat: 1 Give \"Weird\" Alfred a weapon • 8 Rabid chinchompa)",
-        "es": "\"Weird\" Alfred. (noreste) (opciones de chat: 1 Dar un arma a \"Weird\" Alfred • 8 Rabid chinchompa)"
-      }
+        "en": "\"Weird\" Alfred. (northeast)",
+        "es": "\"Weird\" Alfred. (noreste)"
+      },
+      "chatOptions": [
+        "1 Give \"Weird\" Alfred a weapon",
+        "8 Rabid chinchompa"
+      ]
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Getting started",
       "text": {
-        "en": "Wolfgang. (opciones de chat: 1 Give Wolfgang a weapon • 1 Mismatched set of cutlery)",
-        "es": "Wolfgang. (opciones de chat: 1 Dar un arma a Wolfgang • 1 Mismatched set of cutlery)"
-      }
+        "en": "Wolfgang.",
+        "es": "Wolfgang."
+      },
+      "chatOptions": [
+        "1 Give Wolfgang a weapon",
+        "1 Mismatched set of cutlery"
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Wolfgang, wait for the cutscene, and then talk with him again",
         "es": "Habla con Wolfgang, espera a que termine la escena, y luego habla con él de nuevo"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

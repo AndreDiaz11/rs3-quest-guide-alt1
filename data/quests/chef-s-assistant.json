@@ -2,7 +2,8 @@
   "id": "chef-s-assistant",
   "title": "Chef's Assistant",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:56:41.211Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:46.032Z",
   "icon": "https://runescape.wiki/images/Chef%27s_Assistant_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -103,6 +104,7 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Chef%27s_Assistant_reward.png?bbef5",
   "postQuest": [
     {
       "type": "xp",
@@ -115,146 +117,208 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Head to the Cooks' Guild, the building just south-west of the Grand Exchange main entrance.",
         "es": "Dirígete al Cooks' Guild, el edificio justo al suroeste de la entrada principal del Grand Exchange."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "To start, talk to the Head chef in the Cooks' Guild. (opciones de chat: 1 Do you have any quests for me? • 1 Of course, discrete is my middle name! • Accept • 2 Cool story, can we get on with this? • 1 Sounds tasty! • 2 Consider myself braced. • 2 Pull yourself together! • 1 Would you like me to get some more for you?)",
-        "es": "Para empezar, habla con el Head chef en el Cooks' Guild. (opciones de chat: 1 Do you have any quests for me? • 1 Of course, discrete is my middle name! • Accept • 2 Cool story, can we get on with this? • 1 Sounds tasty! • 2 Consider myself braced. • 2 Pull yourself together! • 1 Would you like me to get some more for you?)"
-      }
+        "en": "To start, talk to the Head chef in the Cooks' Guild.",
+        "es": "Para empezar, habla con el Head chef en el Cooks' Guild."
+      },
+      "chatOptions": [
+        "1 Do you have any quests for me?",
+        "1 Of course, discrete is my middle name!",
+        "Accept",
+        "2 Cool story, can we get on with this?",
+        "1 Sounds tasty!",
+        "2 Consider myself braced.",
+        "2 Pull yourself together!",
+        "1 Would you like me to get some more for you?"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Obtaining the ingredients",
       "text": {
-        "en": "Speak to Phil or Delphie in Falador, south of the party room. (opciones de chat: 1 Sure, what do I need?)",
-        "es": "Habla con Phil o Delphie en Falador, al sur de la party room. (opciones de chat: 1 Sure, what do I need?)"
-      }
+        "en": "Speak to Phil or Delphie in Falador, south of the party room.",
+        "es": "Habla con Phil o Delphie en Falador, al sur de la party room."
+      },
+      "chatOptions": [
+        "1 Sure, what do I need?"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Obtaining the ingredients",
       "text": {
         "en": "Repair the broken dairy churn in the northern part of the room using logs and a steel bar.",
         "es": "Repara la broken dairy churn en la parte norte de la sala usando logs y una steel bar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Obtaining the ingredients",
       "text": {
         "en": "Speak with Phil or Delphie again.",
         "es": "Habla de nuevo con Phil o Delphie."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Obtaining the ingredients",
       "text": {
         "en": "Use bucket of milk on the dairy churn and churn it into some cream cheese.",
         "es": "Usa un bucket of milk en la dairy churn y bátelo para conseguir cream cheese."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Obtaining the ingredients",
       "text": {
         "en": "If not done already, make a pot of cream and a pat of butter once you're there.",
         "es": "Si no lo has hecho ya, prepara un pot of cream y un pat of butter una vez estés allí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Obtaining the ingredients",
       "text": {
-        "en": "Return to the head chef in the Cook's Guild. (opciones de chat: 1 Talk about 'Chef's Assistant'.)",
-        "es": "Regresa con el head chef en el Cook's Guild. (opciones de chat: 1 Talk about 'Chef's Assistant'.)"
-      }
+        "en": "Return to the head chef in the Cook's Guild.",
+        "es": "Regresa con el head chef en el Cook's Guild."
+      },
+      "chatOptions": [
+        "1 Talk about 'Chef's Assistant'."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Obtaining the ingredients",
       "text": {
         "en": "Make biscuits by combining a pot of flour and pat of butter, then cooking the dough at the range upstairs. Be aware you can burn the biscuits in which case you need to make new ones.",
         "es": "Prepara biscuits combinando un pot of flour y un pat of butter, y luego cocina la masa en el range de arriba. Ten en cuenta que puedes quemar los biscuits, en cuyo caso tendrás que hacer otros nuevos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Obtaining the ingredients",
       "text": {
         "en": "Pick up cake tin from upstairs if you do not already have one.",
         "es": "Recoge el cake tin de la planta de arriba si aún no tienes uno."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Obtaining the ingredients",
       "text": {
-        "en": "Speak to the head chef. (opciones de chat: 1 Talk about 'Chef's Assistant'. • 1 Sorry Chef.)",
-        "es": "Habla con el head chef. (opciones de chat: 1 Talk about 'Chef's Assistant'. • 1 Sorry Chef.)"
-      }
+        "en": "Speak to the head chef.",
+        "es": "Habla con el head chef."
+      },
+      "chatOptions": [
+        "1 Talk about 'Chef's Assistant'.",
+        "1 Sorry Chef."
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Obtaining the ingredients",
       "text": {
         "en": "Click the cake tin to create cheesecake.",
         "es": "Haz clic en el cake tin para crear un cheesecake."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Obtaining the ingredients",
       "text": {
-        "en": "Speak to the head chef again. (opciones de chat: 1 Talk about 'Chef's Assistant'.)",
-        "es": "Habla de nuevo con el head chef. (opciones de chat: 1 Talk about 'Chef's Assistant'.)"
-      }
+        "en": "Speak to the head chef again.",
+        "es": "Habla de nuevo con el head chef."
+      },
+      "chatOptions": [
+        "1 Talk about 'Chef's Assistant'."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Cheesy delivery!",
       "text": {
-        "en": "Deliver the cheesecake to Mess Sergeant Ramsey, can be found east of the Taverley lodestone, inside The Pick and Lute pub. (opciones de chat: 1 The Head Chef asked me to bring you this to try.)",
-        "es": "Entrega el cheesecake a Mess Sergeant Ramsey, que se encuentra al este del Taverley lodestone, dentro del pub The Pick and Lute. (opciones de chat: 1 The Head Chef asked me to bring you this to try.)"
-      }
+        "en": "Deliver the cheesecake to Mess Sergeant Ramsey, can be found east of the Taverley lodestone, inside The Pick and Lute pub.",
+        "es": "Entrega el cheesecake a Mess Sergeant Ramsey, que se encuentra al este del Taverley lodestone, dentro del pub The Pick and Lute."
+      },
+      "chatOptions": [
+        "1 The Head Chef asked me to bring you this to try."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Cheesy delivery!",
       "text": {
-        "en": "Deliver the cheesecake to the Cook in Lumbridge, who can be found inside the Lumbridge Castle. (opciones de chat: 1 Yes)",
-        "es": "Entrega el cheesecake al Cook en Lumbridge, que se encuentra dentro del Lumbridge Castle. (opciones de chat: 1 Yes)"
-      }
+        "en": "Deliver the cheesecake to the Cook in Lumbridge, who can be found inside the Lumbridge Castle.",
+        "es": "Entrega el cheesecake al Cook en Lumbridge, que se encuentra dentro del Lumbridge Castle."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Cheesy delivery!",
       "text": {
-        "en": "Deliver the cheesecake to the Cook of the Jolly Boar Inn, who can be found in the Jolly Boar Inn, south of Fort Forinthry. (opciones de chat: 1 The Head Chef asked me to bring you this to try.)",
-        "es": "Entrega el cheesecake al Cook del Jolly Boar Inn, que se encuentra en el Jolly Boar Inn, al sur de Fort Forinthry. (opciones de chat: 1 The Head Chef asked me to bring you this to try.)"
-      }
+        "en": "Deliver the cheesecake to the Cook of the Jolly Boar Inn, who can be found in the Jolly Boar Inn, south of Fort Forinthry.",
+        "es": "Entrega el cheesecake al Cook del Jolly Boar Inn, que se encuentra en el Jolly Boar Inn, al sur de Fort Forinthry."
+      },
+      "chatOptions": [
+        "1 The Head Chef asked me to bring you this to try."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Cheesy delivery!",
       "text": {
-        "en": "Return to the head chef. (opciones de chat: 1 Talk about 'Chef's Assistant'.)",
-        "es": "Regresa con el head chef. (opciones de chat: 1 Talk about 'Chef's Assistant'.)"
-      }
+        "en": "Return to the head chef.",
+        "es": "Regresa con el head chef."
+      },
+      "chatOptions": [
+        "1 Talk about 'Chef's Assistant'."
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Cheesy delivery!",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "recipe-for-disaster-another-cook-s-quest",
   "title": "Recipe for Disaster: Another Cook's Quest",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:06:38.682Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:52.834Z",
   "icon": "https://runescape.wiki/images/Another_Cook%27s_Quest_icon.png",
   "length": "Short",
   "startPoint": {
@@ -91,55 +92,73 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Another_Cooks_Quest_reward.png?7df19",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Another small favour",
       "text": {
-        "en": "Talk to the Cook in the kitchen of Lumbridge Castle. (opciones de chat: 1 Do you have any other quests for me? • Any • 1 What seems to be the problem? • Accept)",
-        "es": "Habla con el Cook en la cocina de Lumbridge Castle. (opciones de chat: 1 ¿Tienes alguna otra misión para mí? • Cualquiera • 1 ¿Cuál parece ser el problema? • Aceptar)"
-      }
+        "en": "Talk to the Cook in the kitchen of Lumbridge Castle.",
+        "es": "Habla con el Cook en la cocina de Lumbridge Castle."
+      },
+      "chatOptions": [
+        "1 Do you have any other quests for me?",
+        "Any",
+        "1 What seems to be the problem?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Another small favour",
       "text": {
         "en": "Use the ashes on the fruit blast.",
         "es": "Usa las cenizas en el fruit blast."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Another small favour",
       "text": {
         "en": "Give the items to the cook.",
         "es": "Dale los objetos al cook."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Another small favour",
       "text": {
         "en": "Subquest complete!",
         "es": "¡Submisión completada!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Another small favour",
       "text": {
         "en": "Go through the dining hall door and complete the dialogue to unlock the rest of subquests.",
         "es": "Atraviesa la puerta del dining hall y completa el diálogo para desbloquear el resto de las submisiones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Another small favour",
       "text": {
         "en": "It is recommended to inspect each character first, complete every subquest outside this instanced area and then finish all of them at once.",
         "es": "Se recomienda inspeccionar primero a cada personaje, completar todas las submisiones fuera de esta área instanciada y luego terminarlas todas a la vez."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

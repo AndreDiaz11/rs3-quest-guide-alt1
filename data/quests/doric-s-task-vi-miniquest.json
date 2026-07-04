@@ -2,7 +2,8 @@
   "id": "doric-s-task-vi-miniquest",
   "title": "Doric's Task VI (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:10:34.373Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:02.857Z",
   "icon": "https://runescape.wiki/images/Doric%27s_Task_VI_%28miniquest%29_icon.png",
   "series": "Doric's Tasks",
   "age": "5",
@@ -71,31 +72,43 @@
       "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Doric%27s_Task_VI_%28miniquest%29_reward.png?21e70",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Fremennik of War",
       "text": {
-        "en": "Speak to Doric in his hut north of Falador. (opciones de chat: 1 Do you have any more Smithing tasks for me? • Accept)",
-        "es": "Habla con Doric en su cabaña al norte de Falador. (opciones de chat: 1 ¿Tienes más tareas de Herrería para mí? • Aceptar)"
-      }
+        "en": "Speak to Doric in his hut north of Falador.",
+        "es": "Habla con Doric en su cabaña al norte de Falador."
+      },
+      "chatOptions": [
+        "1 Do you have any more Smithing tasks for me?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Fremennik of War",
       "text": {
         "en": "Smith an orikalkum warhammer +3. This cannot be one that was bought or traded, or smithed before accepting the quest.",
         "es": "Forja un orikalkum warhammer +3. No puede ser uno que hayas comprado, intercambiado o forjado antes de aceptar la misión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Fremennik of War",
       "text": {
-        "en": "Deliver the warhammer to Skulgrimen, in the armour hut just north of the long hall in Rellekka. (opciones de chat: 3 I have your order from Doric & Son.)",
-        "es": "Entrega el warhammer a Skulgrimen, en la cabaña de armaduras justo al norte del gran salón de Rellekka. (opciones de chat: 3 Tengo tu pedido de Doric & Son.)"
-      }
+        "en": "Deliver the warhammer to Skulgrimen, in the armour hut just north of the long hall in Rellekka.",
+        "es": "Entrega el warhammer a Skulgrimen, en la cabaña de armaduras justo al norte del gran salón de Rellekka."
+      },
+      "chatOptions": [
+        "3 I have your order from Doric & Son."
+      ]
     }
   ]
 }

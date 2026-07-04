@@ -2,7 +2,8 @@
   "id": "tears-of-guthix-quest",
   "title": "Tears of Guthix (quest)",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:21:21.949Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:11.293Z",
   "icon": "https://runescape.wiki/images/Tears_of_Guthix_%28quest%29_icon.png",
   "series": null,
   "age": "5",
@@ -139,159 +140,210 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Tears_of_Guthix_reward.png?2cdea",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Use a cut sapphire on an oil filled bullseye lantern.",
         "es": "Usa un zafiro tallado en una linterna de diana rellena de aceite."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Light the sapphire lantern.",
         "es": "Enciende la linterna de zafiro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Travel to the dark hole under tree slightly north west of the water altar in Lumbridge Swamp.",
         "es": "Viaja hasta el agujero oscuro bajo el árbol un poco al noroeste del altar de agua en Lumbridge Swamp."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Climb down the hole to access Lumbridge Swamp Caves.",
         "es": "Baja por el agujero para acceder a las Lumbridge Swamp Caves."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "If this is your first visit, Use the rope on the tree.",
         "es": "Si es tu primera visita, usa la cuerda en el árbol."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Recommended: Equip a spiny helmet/slayer helmet to negate damage from wall beasts, or use a movement ability like Surge or Dive to prevent the wall beasts from attacking.",
         "es": "Recomendado: Equípate un spiny helmet/slayer helmet para anular el daño de los wall beasts, o usa una habilidad de movimiento como Surge o Dive para evitar que los wall beasts te ataquen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Run to the south east end of the cavern.",
         "es": "Corre hasta el extremo sureste de la caverna."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Jump-across the stepping stone to the south (see shortcut icon on the map shown)",
         "es": "Salta sobre la piedra de paso hacia el sur (mira el icono de atajo en el mapa mostrado)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Enter the tunnel.",
         "es": "Entra en el túnel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Travelling with light creature",
       "text": {
         "en": "Dismiss all followers and un-equip items held in hand.",
         "es": "Despide a todos tus seguidores y quítate los objetos equipados en la mano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Travelling with light creature",
       "text": {
         "en": "On the north side of the cavern near the entrance, Right-click travel across cavern on a light creature.",
         "es": "En el lado norte de la caverna, cerca de la entrada, haz clic derecho para viajar a través de la caverna sobre una criatura de luz."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Travelling with light creature",
       "text": {
         "en": "Mine one of the rocks.",
         "es": "Mina una de las rocas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Travelling with light creature",
       "text": {
         "en": "Jump the cliff to the east.",
         "es": "Salta el acantilado hacia el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Travelling with light creature",
       "text": {
-        "en": "Run north and talk to Juna (opciones de chat: 1 Okay... • Accept)",
-        "es": "Corre hacia el norte y habla con Juna (opciones de chat: 1 Vale... • Aceptar)"
-      }
+        "en": "Run north and talk to Juna",
+        "es": "Corre hacia el norte y habla con Juna"
+      },
+      "chatOptions": [
+        "1 Okay...",
+        "Accept"
+      ]
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Travelling with light creature",
       "text": {
-        "en": "If you've already completed The Chosen Commander. (opciones de chat: 4 So I'm an enemy of the gods now? • ~ • 1 Okay... • Accept)",
-        "es": "Si ya has completado The Chosen Commander. (opciones de chat: 4 ¿Así que ahora soy enemigo de los dioses? • ~ • 1 Vale... • Aceptar)"
-      }
+        "en": "If you've already completed The Chosen Commander.",
+        "es": "Si ya has completado The Chosen Commander."
+      },
+      "chatOptions": [
+        "4 So I'm an enemy of the gods now?",
+        "~",
+        "1 Okay...",
+        "Accept"
+      ]
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Travelling with light creature",
       "text": {
-        "en": "If you completed World Wakes (opciones de chat: 2 I'd like to talk about something else. • 1 Okay... • Accept)",
-        "es": "Si has completado World Wakes (opciones de chat: 2 Me gustaría hablar de otra cosa. • 1 Vale... • Aceptar)"
-      }
+        "en": "If you completed World Wakes",
+        "es": "Si has completado World Wakes"
+      },
+      "chatOptions": [
+        "2 I'd like to talk about something else.",
+        "1 Okay...",
+        "Accept"
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Travelling with light creature",
       "text": {
         "en": "Craft the magic stone into a stone bowl.",
         "es": "Fabrica el cuenco de piedra a partir de la piedra mágica."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Travelling with light creature",
       "text": {
         "en": "Talk to Juna again.",
         "es": "Habla con Juna de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Travelling with light creature",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

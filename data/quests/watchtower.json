@@ -2,7 +2,8 @@
   "id": "watchtower",
   "title": "Watchtower",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:29:49.478Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:36.895Z",
   "icon": "https://runescape.wiki/images/Watchtower_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -148,623 +149,802 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Watchtower_reward.png?c5343",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Make your way to the watchtower north-east of the Yanille lodestone.",
         "es": "Dirígete al watchtower al noreste de la lodestone de Yanille."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Climb up the trellis outside on this building's northern wall, then take the ladder to the top floor of the Watchtower.",
         "es": "Sube por el enrejado exterior en la pared norte de este edificio, luego sube por la escalera hasta la planta superior del Watchtower."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to the Watchtower Wizard on the top floor of the Watchtower. (opciones de chat: 1 What’s the matter? • 1 So how come the spell doesn’t work? • Accept)",
-        "es": "Habla con el Watchtower Wizard en la planta superior del Watchtower. (opciones de chat: 1 ¿Qué ocurre? • 1 Entonces, ¿por qué no funciona el hechizo? • Aceptar)"
-      }
+        "en": "Talk to the Watchtower Wizard on the top floor of the Watchtower.",
+        "es": "Habla con el Watchtower Wizard en la planta superior del Watchtower."
+      },
+      "chatOptions": [
+        "1  What’s the matter?",
+        "1 So how come the spell doesn’t work?",
+        "Accept"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The pawns",
       "text": {
         "en": "Climb down the ladders to return to the bottom floor.",
         "es": "Baja por las escaleras para volver a la planta baja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The pawns",
       "text": {
         "en": "Search the northwesternmost bush just outside the watchtower to find fingernails.",
         "es": "Registra el arbusto más al noroeste justo fuera del watchtower para encontrar unas uñas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The pawns",
       "text": {
-        "en": "Return to the Watchtower Wizard. (opciones de chat: 1 What do you suggest I do? • 1 So what do I do?)",
-        "es": "Vuelve con el Watchtower Wizard. (opciones de chat: 1 ¿Qué me sugieres hacer? • 1 Entonces, ¿qué hago?)"
-      }
+        "en": "Return to the Watchtower Wizard.",
+        "es": "Vuelve con el Watchtower Wizard."
+      },
+      "chatOptions": [
+        "1 What do you suggest I do?",
+        "1 So what do I do?"
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The kings",
       "text": {
-        "en": "Talk to Og, an ogre north-west of the Yanille lodestone. (opciones de chat: 1 I seek entrance to the city of ogres.)",
-        "es": "Habla con Og, un ogro al noroeste de la lodestone de Yanille. (opciones de chat: 1 Busco entrar en la ciudad de los ogros.)"
-      }
+        "en": "Talk to Og, an ogre north-west of the Yanille lodestone.",
+        "es": "Habla con Og, un ogro al noroeste de la lodestone de Yanille."
+      },
+      "chatOptions": [
+        "1 I seek entrance to the city of ogres."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The kings",
       "text": {
         "en": "Walk south toward the lake's west side, use rope on the branch of a long-branched tree to swing over.",
         "es": "Camina hacia el sur, hacia el lado oeste del lago, y usa una cuerda en la rama de un árbol de ramas largas para columpiarte y cruzar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The kings",
       "text": {
-        "en": "Talk to Grew. (opciones de chat: 1 Don't eat me; I can help you.)",
-        "es": "Habla con Grew. (opciones de chat: 1 No me comas; puedo ayudarte.)"
-      }
+        "en": "Talk to Grew.",
+        "es": "Habla con Grew."
+      },
+      "chatOptions": [
+        "1 Don't eat me; I can help you."
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The kings",
       "text": {
         "en": "Pick up some jangerberries dropped on Grew's island.",
         "es": "Recoge unas jangerberries caídas en la isla de Grew."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The kings",
       "text": {
         "en": "Head to and enter the cave entrance marked on the world map () southwest of Gu'Tanoth and southeast of Jiggig, and you will arrive at the island east of Gu'Tanoth.",
         "es": "Dirígete a la entrada de la cueva marcada en el mapa del mundo () al suroeste de Gu'Tanoth y al sureste de Jiggig, y llegarás a la isla al este de Gu'Tanoth."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "The kings",
       "text": {
         "en": "If you didn't bring a death rune, one spawns directly south of the tunnel entrance.",
         "es": "Si no has traído una death rune, aparece una directamente al sur de la entrada del túnel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "The kings",
       "text": {
         "en": "To get there you can:",
         "es": "Para llegar allí puedes:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 2,
+      "section": "The kings",
       "text": {
         "en": "Leave the island and head to south-east to the passage between Gu'Tanoth and the island south of Yanille, then head to south-west to the cave entrance.",
         "es": "Sal de la isla y dirígete al sureste hacia el paso entre Gu'Tanoth y la isla al sur de Yanille, luego dirígete al suroeste hacia la entrada de la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 2,
+      "section": "The kings",
       "text": {
-        "en": "You can use fairy ring and head north-west to reach there.",
+        "en": "You can use fairy ring AKS and head north-west to reach there.",
         "es": "Puedes usar un fairy ring e ir hacia el noroeste para llegar allí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 2,
+      "section": "The kings",
       "text": {
-        "en": "If A Fairy Tale III - Battle at Ork's Rift is completed, you can use fairy ring , head north to exit the tunnel, and head south-east for quicker access.",
+        "en": "If A Fairy Tale III - Battle at Ork's Rift is completed, you can use fairy ring ALP, head north to exit the tunnel, and head south-east for quicker access.",
         "es": "Si has completado A Fairy Tale III - Battle at Ork's Rift, puedes usar el fairy ring , dirigirte al norte para salir del túnel, y luego al sureste para un acceso más rápido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 2,
+      "section": "The kings",
       "text": {
-        "en": "If The Grand Tree quest is completed and partially completed the quest One Small Favour, you can use gnome glider to fly to the Feldip Hills (opciones de chat: 6 Lemantolly Undri) and head north-west for quicker access.",
+        "en": "If The Grand Tree quest is completed and partially completed the quest One Small Favour, you can use gnome glider to fly to the Feldip Hills and head north-west for quicker access.",
         "es": "Si has completado la misión The Grand Tree y completado parcialmente la misión One Small Favour, puedes usar el gnome glider para volar a las Feldip Hills (opciones de chat: 6 Lemantolly Undri) y dirigirte al noroeste para un acceso más rápido."
-      }
+      },
+      "chatOptions": [
+        "6 Lemantolly Undri"
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "The kings",
       "text": {
-        "en": "Talk to Toban twice, he will take the dragon bones and give you relic part 3. (opciones de chat: 1 I seek entrance to the city of ogres. • 1 I could do something for you…)",
-        "es": "Habla con Toban dos veces; se llevará los dragon bones y te dará la relic part 3. (opciones de chat: 1 Busco entrar en la ciudad de los ogros. • 1 Podría hacer algo por ti…)"
-      }
+        "en": "Talk to Toban twice, he will take the dragon bones and give you relic part 3.",
+        "es": "Habla con Toban dos veces; se llevará los dragon bones y te dará la relic part 3."
+      },
+      "chatOptions": [
+        "1 I seek entrance to the city of ogres.",
+        "1 I could do something for you…"
+      ]
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "The kings",
       "text": {
         "en": "If you didn't bring a second rope, take one now from the island.",
         "es": "Si no has traído una segunda cuerda, coge una ahora de la isla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "The kings",
       "text": {
         "en": "Talk to Gorad and tell him that you have come to knock out his teeth",
         "es": "Habla con Gorad y dile que has venido a romperle los dientes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "The kings",
       "text": {
         "en": "Kill Gorad and take the ogre tooth.",
         "es": "Mata a Gorad y coge el ogre tooth."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "The kings",
       "text": {
         "en": "Open the Chest and take the gold.",
         "es": "Abre el Chest y coge el oro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The kings",
       "text": {
         "en": "Go back and talk to Grew, giving him the tooth and consuming the second rope.",
         "es": "Vuelve y habla con Grew, dándole el diente y consumiendo la segunda cuerda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "The kings",
       "text": {
         "en": "If you didn't get the yellow crystal, talk to Grew again and ask for it.",
         "es": "Si no conseguiste el yellow crystal, habla de nuevo con Grew y pídeselo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "The kings",
       "text": {
         "en": "Talk to Og, north of Grew's island to receive the relic part 1.",
         "es": "Habla con Og, al norte de la isla de Grew, para recibir la relic part 1."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Gu'Tanoth",
       "text": {
         "en": "Talk to the Watchtower Wizard until you receive an Ogre relic (there is a break in the conversation).",
         "es": "Habla con el Watchtower Wizard hasta que recibas un Ogre relic (hay una pausa en la conversación)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "Gu'Tanoth",
       "text": {
         "en": "If you didn't bring a light source, take the lit candle from the of Watchtower.",
         "es": "Si no has traído una fuente de luz, coge la vela encendida del Watchtower."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Gu'Tanoth",
       "text": {
         "en": "Enter Gu'Tanoth from the north-eastern corner and go west along the northern path.",
         "es": "Entra en Gu'Tanoth por la esquina noreste y ve hacia el oeste siguiendo el camino del norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Gu'Tanoth",
       "text": {
         "en": "Use the Ogre relic on one of the guards at the west gate. Do not talk to them or you will be hit for some damage and sent back near Copernicus.",
         "es": "Usa el Ogre relic en uno de los guardias de la puerta oeste. No hables con ellos o te golpearán causándote daño y te enviarán de vuelta cerca de Copernicus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Gu'Tanoth",
       "text": {
         "en": "Head south-east to the Ogre trader marked with link= on the map but don't talk to him.",
         "es": "Dirígete al sureste hacia el Ogre trader marcado con link= en el mapa, pero no hables con él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Gu'Tanoth",
       "text": {
         "en": "Steal a rock cake from the counter.",
         "es": "Roba un rock cake del mostrador."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Gu'Tanoth",
       "text": {
         "en": "Return to the path and continue south.",
         "es": "Vuelve al camino y continúa hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Gu'Tanoth",
       "text": {
-        "en": "Talk to the guards (opciones de chat: 1 But I am a friend to ogres...), then give (but do not eat) a rock cake to be able to climb over the battlement.",
+        "en": "Talk to the guards , then give (but do not eat) a rock cake to be able to climb over the battlement.",
         "es": "Habla con los guardias (opciones de chat: 1 Pero soy amigo de los ogros...), luego dale (pero no te lo comas) un rock cake para poder trepar por la almena."
-      }
+      },
+      "chatOptions": [
+        "1 But I am a friend to ogres..."
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Gu'Tanoth",
       "text": {
-        "en": "Continue up the path and jump over the gap, paying 20 coins to the guards (opciones de chat: 1 Okay, I'll pay it.).",
+        "en": "Continue up the path and jump over the gap, paying 20 coins to the guards .",
         "es": "Continúa por el camino y salta el hueco, pagando 20 monedas a los guardias (opciones de chat: 1 Vale, lo pagaré.)."
-      }
+      },
+      "chatOptions": [
+        "1 Okay, I'll pay it."
+      ]
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Gu'Tanoth",
       "text": {
-        "en": "Talk to one of the City guard. Make sure to use the \"Talk-to\" option on the guard. (opciones de chat: 2 I seek passage into the skavid caves.), then talk to them again and give them a death rune.",
+        "en": "Talk to one of the City guard. Make sure to use the \"Talk-to\" option on the guard. , then talk to them again and give them a death rune.",
         "es": "Habla con uno de los City guard. Asegúrate de usar la opción \"Hablar con\" en el guardia. (opciones de chat: 2 Busco paso hacia las cuevas skavid.), luego habla con ellos de nuevo y dales una death rune."
-      }
+      },
+      "chatOptions": [
+        "2 I seek passage into the skavid caves."
+      ]
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "The skavids",
       "text": {
         "en": "Enter the green-pinned east cave, marked 4, on the map. (See map next to(above on mobile) this text, click on the east green marker to reveal the cave number).",
         "es": "Entra en la cueva este marcada con un pin verde, señalada con el número 4, en el mapa. (Consulta el mapa junto a (arriba en móvil) este texto, haz clic en el marcador verde este para revelar el número de la cueva)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "The skavids",
       "text": {
-        "en": "Talk to the Scared skavid. (opciones de chat: 2 Okay, okay, I’m not going to hurt you.)",
-        "es": "Habla con el Scared skavid. (opciones de chat: 2 Vale, vale, no voy a hacerte daño.)"
-      }
+        "en": "Talk to the Scared skavid.",
+        "es": "Habla con el Scared skavid."
+      },
+      "chatOptions": [
+        "2 Okay, okay, I’m not going to hurt you."
+      ]
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "The skavids",
       "text": {
         "en": "Enter the green-pinned north cave, marked 1.",
         "es": "Entra en la cueva norte marcada con un pin verde, señalada con el número 1."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "The skavids",
       "text": {
         "en": "Talk to the skavid (respond with \"Ig\").",
         "es": "Habla con el skavid (responde con \"Ig\")."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "The skavids",
       "text": {
         "en": "While in this cave, pick up two cave nightshades.",
         "es": "Mientras estés en esta cueva, recoge dos cave nightshades."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "The skavids",
       "text": {
         "en": "Attempting to pick up a cave nightshade without gloves results in a dialogue \"You have been poisoned by the plant!\", causing minor damage.",
         "es": "Intentar recoger una cave nightshade sin guantes provoca el diálogo \"¡Has sido envenenado por la planta!\", causando daño menor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "The skavids",
       "text": {
         "en": "Attempting to pick up a cave nightshade with regular, non-armoured gloves results in the same dialogue as above and another suggesting to wear armoured gloves, \"Maybe you should wear armoured gloves instead\".",
         "es": "Intentar recoger una cave nightshade con guantes normales, no blindados, provoca el mismo diálogo anterior y otro que sugiere usar guantes blindados: \"Quizá deberías usar guantes blindados en su lugar\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "The skavids",
       "text": {
         "en": "Enter the grey-pinned north cave, marked 2.",
         "es": "Entra en la cueva norte marcada con un pin gris, señalada con el número 2."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 1,
+      "section": "The skavids",
       "text": {
         "en": "Talk to the skavid (respond with \"Ar\").",
         "es": "Habla con el skavid (responde con \"Ar\")."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "The skavids",
       "text": {
         "en": "Enter the red-pinned north cave, marked 3.",
         "es": "Entra en la cueva norte marcada con un pin rojo, señalada con el número 3."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 1,
+      "section": "The skavids",
       "text": {
         "en": "Talk to the skavid (respond with \"Cur\").",
         "es": "Habla con el skavid (responde con \"Cur\")."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "The skavids",
       "text": {
         "en": "Enter the grey-pinned east cave, marked 5.",
         "es": "Entra en la cueva este marcada con un pin gris, señalada con el número 5."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 1,
+      "section": "The skavids",
       "text": {
         "en": "Talk to the skavid (respond with \"Nod\").",
         "es": "Habla con el skavid (responde con \"Nod\")."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "The skavids",
       "text": {
         "en": "Return to the green-pinned east cave, marked 4.",
         "es": "Vuelve a la cueva este marcada con un pin verde, señalada con el número 4."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 1,
+      "section": "The skavids",
       "text": {
         "en": "Talk to the Scared skavid.",
         "es": "Habla con el Scared skavid."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "The skavids",
       "text": {
         "en": "Go to a gate south of the 4 cave entrance.",
         "es": "Ve a una puerta al sur de la entrada de la cueva 4."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "The skavids",
       "text": {
         "en": "Talk to one of the ogre guards and he will take the gold bar and let you in.",
         "es": "Habla con uno de los ogre guards y se llevará el gold bar y te dejará entrar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "The skavids",
       "text": {
         "en": "Enter the red-pinned south cave, marked 6.",
         "es": "Entra en la cueva sur marcada con un pin rojo, señalada con el número 6."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "The skavids",
       "text": {
         "en": "Talk to the Mad skavid to obtain the pink crystal.",
         "es": "Habla con el Mad skavid para obtener el pink crystal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 1,
+      "section": "The skavids",
       "text": {
         "en": "If he says \"Ar cur,\" the correct response is \"Gor.\"",
         "es": "Si dice \"Ar cur,\" la respuesta correcta es \"Gor.\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 1,
+      "section": "The skavids",
       "text": {
         "en": "If he says \"Bidith ig,\" the correct response is \"Cur.\"",
         "es": "Si dice \"Bidith ig,\" la respuesta correcta es \"Cur.\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 1,
+      "section": "The skavids",
       "text": {
         "en": "If he says \"Gor nod,\" the correct response is \"Tanath.\"",
         "es": "Si dice \"Gor nod,\" la respuesta correcta es \"Tanath.\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 1,
+      "section": "The skavids",
       "text": {
         "en": "If he says \"Cur tanath,\" the correct response is \"Bidith.\"",
         "es": "Si dice \"Cur tanath,\" la respuesta correcta es \"Bidith.\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Invincible",
       "text": {
         "en": "Head back to Ogre trader marked with link= on the map (Ogre marketplace).",
         "es": "Vuelve al Ogre trader marcado con link= en el mapa (Ogre marketplace)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Invincible",
       "text": {
         "en": "Use a cave nightshade on one of the enclave guards.",
         "es": "Usa una cave nightshade en uno de los enclave guards."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Invincible",
       "text": {
         "en": "Enter the enclave while the guard is distracted.",
         "es": "Entra en el enclave mientras el guardia está distraído."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "Invincible",
       "text": {
         "en": "After the cutscene, Home teleport to Yanille lodestone, head back to the Watchtower and talk to the Watchtower Wizard.",
         "es": "Después de la cutscene, teletranspórtate a casa hacia la lodestone de Yanille, vuelve al Watchtower y habla con el Watchtower Wizard."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 0,
+      "section": "Invincible",
       "text": {
         "en": "Add jangerberries to guam potion (unfinished)",
         "es": "Añade jangerberries a la guam potion (sin terminar)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 0,
+      "section": "Invincible",
       "text": {
         "en": "Grind bat bones, then add them to the potion.",
         "es": "Muele bat bones y añádelos a la poción."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 0,
+      "section": "Invincible",
       "text": {
         "en": "Talk to the Watchtower Wizard (there is a break in the conversation).",
         "es": "Habla con el Watchtower Wizard (hay una pausa en la conversación)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "Invincible",
       "text": {
         "en": "Return to the Ogre marketplace.",
         "es": "Vuelve al Ogre marketplace."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "Invincible",
       "text": {
         "en": "Use the second cave nightshade on an enclave guard to distract them and enter the enclave again.",
         "es": "Usa la segunda cave nightshade en un enclave guard para distraerlo y entra de nuevo en el enclave."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "Invincible",
       "text": {
         "en": "Use the potion on the six ogre shamans in the enclave to kill them.",
         "es": "Usa la poción en los seis ogre shamans del enclave para matarlos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 68,
       "indent": 1,
+      "section": "Invincible",
       "text": {
         "en": "If you attack a shaman, it will hit you with a very powerful Magic blow, dealing half your life points in damage.",
         "es": "Si atacas a un shaman, te golpeará con un poderosísimo ataque de Magia, causándote daño equivalente a la mitad de tus puntos de vida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 69,
       "indent": 0,
+      "section": "Invincible",
       "text": {
         "en": "Mine the Rock of Dalgroth on the peninsula in the centre of the enclave.",
         "es": "Extrae mineral de la Rock of Dalgroth en la península en el centro del enclave."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 70,
       "indent": 0,
+      "section": "Back in action",
       "text": {
         "en": "Return to the Watchtower and talk to the Watchtower Wizard.",
         "es": "Vuelve al Watchtower y habla con el Watchtower Wizard."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 71,
       "indent": 0,
+      "section": "Back in action",
       "text": {
         "en": "Use the pink crystal on the north-eastern pillar.",
         "es": "Usa el pink crystal en el pilar del noreste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 72,
       "indent": 0,
+      "section": "Back in action",
       "text": {
         "en": "Use the green crystal on the south-eastern pillar.",
         "es": "Usa el green crystal en el pilar del sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 73,
       "indent": 0,
+      "section": "Back in action",
       "text": {
         "en": "Use the yellow crystal on the south-western pillar.",
         "es": "Usa el yellow crystal en el pilar del suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 74,
       "indent": 0,
+      "section": "Back in action",
       "text": {
         "en": "Use the blue crystal on the north-western pillar.",
         "es": "Usa el blue crystal en el pilar del noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 75,
       "indent": 0,
+      "section": "Back in action",
       "text": {
         "en": "Pull the lever on the west side of the room.",
         "es": "Tira de la palanca en el lado oeste de la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 76,
       "indent": 0,
+      "section": "Back in action",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

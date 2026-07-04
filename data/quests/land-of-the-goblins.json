@@ -2,7 +2,8 @@
   "id": "land-of-the-goblins",
   "title": "Land of the Goblins",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:33:52.334Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:32.480Z",
   "icon": "https://runescape.wiki/images/Land_of_the_Goblins_icon.png",
   "series": "Cave Goblin",
   "age": "5",
@@ -243,503 +244,689 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Land_of_the_Goblins_reward.png?07c39",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Land of the Goblins",
       "text": {
-        "en": "Talk to Grubfoot in the Dorgeshuun Mines. (opciones de chat: 2 Mistag, why won't you let Grubfoot into the city? • 3 I'll take responsibility for Grubfoot. • Accept)",
-        "es": "Habla con Grubfoot en las Minas Dorgeshuun. (opciones de chat: 2 Mistag, ¿por qué no dejas que Grubfoot entre en la ciudad? • 3 Yo me haré responsable de Grubfoot. • Aceptar)"
-      }
+        "en": "Talk to Grubfoot in the Dorgeshuun Mines.",
+        "es": "Habla con Grubfoot en las Minas Dorgeshuun."
+      },
+      "chatOptions": [
+        "2 Mistag, why won't you let Grubfoot into the city?",
+        "3 I'll take responsibility for Grubfoot.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Land of the Goblins",
       "text": {
         "en": "Dismiss any familiar or Grubfoot won't follow you.",
         "es": "Despide a cualquier familiar, o Grubfoot no te seguirá."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Yu'biusk",
       "text": {
         "en": "With Grubfoot following, enter Dorgesh-Kaan using the door to the south and head north-west where Oldak is.",
         "es": "Con Grubfoot siguiéndote, entra en Dorgesh-Kaan usando la puerta del sur y dirígete al noroeste, donde está Oldak."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Yu'biusk",
       "text": {
-        "en": "In the north-west room, talk to Zanik. (opciones de chat: 3 So why have you come to talk to Zanik? • 3 What was this new dream? • 2 How do you know your dream was true? • Any • 1 I promise not to tell anyone where the temple is. • 1 I'm ready.)",
-        "es": "En la habitación del noroeste, habla con Zanik. (opciones de chat: 3 Entonces, ¿por qué has venido a hablar con Zanik? • 3 ¿Cuál era ese nuevo sueño? • 2 ¿Cómo sabes que tu sueño era cierto? • Cualquiera • 1 Prometo no decirle a nadie dónde está el templo. • 1 Estoy listo.)"
-      }
+        "en": "In the north-west room, talk to Zanik.",
+        "es": "En la habitación del noroeste, habla con Zanik."
+      },
+      "chatOptions": [
+        "3 So why have you come to talk to Zanik?",
+        "3 What was this new dream?",
+        "2 How do you know your dream was true?",
+        "Any",
+        "1 I promise not to tell anyone where the temple is.",
+        "1 I'm ready."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "You not a goblin!",
       "text": {
         "en": "If you forgot to bring the toadflax potion, proceed until Zanik has entered into the temple.",
         "es": "Si olvidaste traer la poción de toadflax, continúa hasta que Zanik haya entrado en el templo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "You not a goblin!",
       "text": {
         "en": "Otherwise, you will need to go back to Oldak in Dorgesh-Kaan to meet with her, and provide him two law runes and one molten glass.",
         "es": "De lo contrario, tendrás que volver con Oldak en Dorgesh-Kaan para reunirte con ella, y darle dos runas de ley y un vidrio fundido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "You not a goblin!",
       "text": {
         "en": "Once you teleport with Zanik, head north-west to the temple entrance blocked by two goblin guards.",
         "es": "Una vez te teletransportes con Zanik, dirígete al noroeste hacia la entrada del templo bloqueada por dos guardias goblin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "You not a goblin!",
       "text": {
         "en": "Pick and grind a black mushroom into an empty vial if you don't already have black mushroom ink.",
         "es": "Recoge y muele un hongo negro en un vial vacío si aún no tienes tinta de hongo negro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "You not a goblin!",
       "text": {
         "en": "Talk to the guards and they will allow Zanik to pass into the temple.",
         "es": "Habla con los guardias y dejarán que Zanik pase al templo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "You not a goblin!",
       "text": {
-        "en": "Talk to the Makeover Mage south-west of Falador. (opciones de chat: 4 Can you turn me into a goblin? • 1 I need to slip past some goblin guards. • 3 Can you turn me into a goblin or not?)",
-        "es": "Habla con el Makeover Mage al suroeste de Falador. (opciones de chat: 4 ¿Puedes convertirme en un goblin? • 1 Necesito colarme pasando a unos guardias goblin. • 3 ¿Puedes convertirme en un goblin o no?)"
-      }
+        "en": "Talk to the Makeover Mage south-west of Falador.",
+        "es": "Habla con el Makeover Mage al suroeste de Falador."
+      },
+      "chatOptions": [
+        "4 Can you turn me into a goblin?",
+        "1 I need to slip past some goblin guards.",
+        "3 Can you turn me into a goblin or not?"
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "You not a goblin!",
       "text": {
         "en": "Use the pharmakos berries on an unfinished toadflax potion to create the goblin potion.",
         "es": "Usa las bayas pharmakos en una poción de toadflax sin terminar para crear la poción de goblin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "You not a goblin!",
       "text": {
         "en": "(Optional) After making the potion, collect another set of pharmakos berries if planning to complete the Contract Claws mystery.",
         "es": "(Opcional) Después de hacer la poción, recoge otro conjunto de bayas pharmakos si planeas completar el misterio de Contract Claws."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "You not a goblin!",
       "text": {
         "en": "Head to the goblin cave (just north of the Ardougne lodestone).",
         "es": "Dirígete a la cueva goblin (justo al norte de la piedra de viaje de Ardougne)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Transmogrification",
       "text": {
         "en": "Unequip all items and dismiss any followers.",
         "es": "Quítate todo el equipo y despide a cualquier acompañante."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Transmogrification",
       "text": {
         "en": "In front of the goblin guards, drink the goblin potion (pick any goblin appearance).",
         "es": "Frente a los guardias goblin, bebe la poción de goblin (elige cualquier apariencia goblin)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Transmogrification",
       "text": {
-        "en": "Climb down the entrance. (opciones de chat: 1 Me want get into temple. • 1 Yes, I'm [goblin name].)",
-        "es": "Baja por la entrada. (opciones de chat: 1 Me want get into temple. • 1 Yes, I'm [goblin name].)"
-      }
+        "en": "Climb down the entrance.",
+        "es": "Baja por la entrada."
+      },
+      "chatOptions": [
+        "1 Me want get into temple.",
+        "1 Yes, I'm [goblin name]."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Transmogrification",
       "text": {
-        "en": "North, sitting on his throne, talk to the High Priest. (opciones de chat: 1 Can you tell me about Yu'biusk? • 1 I understand the ways of the Big High War God. • 1 I'm ready for the test.)",
-        "es": "Al norte, sentado en su trono, habla con el High Priest. (opciones de chat: 1 ¿Puedes hablarme de Yu'biusk? • 1 Entiendo los caminos del Big High War God. • 1 Estoy listo para la prueba.)"
-      }
+        "en": "North, sitting on his throne, talk to the High Priest.",
+        "es": "Al norte, sentado en su trono, habla con el High Priest."
+      },
+      "chatOptions": [
+        "1 Can you tell me about Yu'biusk?",
+        "1 I understand the ways of the Big High War God.",
+        "1 I'm ready for the test."
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Transmogrification",
       "text": {
-        "en": "Take the quiz. (opciones de chat: 1 True. • 1 The Big High War God commands it. • 2 False. • 2 Goblins were not mighty warriors before he chose us. • 2 False. • 1 That's one of the commandments. • 2 Lead goblins to victory over the whole world.)",
-        "es": "Realiza el cuestionario. (opciones de chat: 1 Verdadero. • 1 El Big High War God lo ordena. • 2 Falso. • 2 Los goblins no eran guerreros poderosos antes de que él nos eligiera. • 2 Falso. • 1 Ese es uno de los mandamientos. • 2 Guiar a los goblins hacia la victoria sobre el mundo entero.)"
-      }
+        "en": "Take the quiz.",
+        "es": "Realiza el cuestionario."
+      },
+      "chatOptions": [
+        "1 True.",
+        "1 The Big High War God commands it.",
+        "2 False.",
+        "2 Goblins were not mighty warriors before he chose us.",
+        "2 False.",
+        "1 That's one of the commandments.",
+        "2 Lead goblins to victory over the whole world."
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Transmogrification",
       "text": {
-        "en": "After the quiz, ask about Yu'biusk. (opciones de chat: 1 Can you tell me about Yu'biusk? • 2 Where is Yu'biusk? • 5 Never mind.)",
-        "es": "Después del cuestionario, pregunta sobre Yu'biusk. (opciones de chat: 1 ¿Puedes hablarme de Yu'biusk? • 2 ¿Dónde está Yu'biusk? • 5 Da igual.)"
-      }
+        "en": "After the quiz, ask about Yu'biusk.",
+        "es": "Después del cuestionario, pregunta sobre Yu'biusk."
+      },
+      "chatOptions": [
+        "1 Can you tell me about Yu'biusk?",
+        "2 Where is Yu'biusk?",
+        "5 Never mind."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Transmogrification",
       "text": {
         "en": "Dye your goblin mail black with the mushroom ink.",
         "es": "Tiñe tu cota goblin de negro con la tinta de hongo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Transmogrification",
       "text": {
         "en": "Wear the black goblin mail and go in the north-east room by talking to the goblin in the passage.",
         "es": "Ponte la cota goblin negra y entra en la habitación del noreste hablando con el goblin del pasillo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Transmogrification",
       "text": {
         "en": "Pickpocket the priest for a key. Keep this key. You will need it later.",
         "es": "Roba una llave al sacerdote. Guarda esta llave. La necesitarás más adelante."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Transmogrification",
       "text": {
         "en": "Search the crate in the room to find the teleport sphere.",
         "es": "Registra la caja en la habitación para encontrar la esfera de teletransporte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Transmogrification",
       "text": {
-        "en": "Talk to Zanik, she will teleport. (opciones de chat: 1 I have a teleport sphere here.)",
-        "es": "Habla con Zanik, ella se teletransportará. (opciones de chat: 1 Tengo una esfera de teletransporte aquí.)"
-      }
+        "en": "Talk to Zanik, she will teleport.",
+        "es": "Habla con Zanik, ella se teletransportará."
+      },
+      "chatOptions": [
+        "1 I have a teleport sphere here."
+      ]
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Whitefish",
       "text": {
         "en": "Leave the cave.",
         "es": "Sal de la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Whitefish",
       "text": {
         "en": "You can equip a piece of equipment to be thrown out, then you can teleport to Draynor.",
         "es": "Puedes equipar una pieza de equipo para que te la quiten, y así podrás teletransportarte a Draynor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Whitefish",
       "text": {
-        "en": "Talk to Aggie in Draynor Village. (opciones de chat: 4 More... • 2 Can you make dyes for me please? • 4 Can you make black or white dye?)",
-        "es": "Habla con Aggie en Draynor Village. (opciones de chat: 4 Más... • 2 ¿Puedes hacerme tintes, por favor? • 4 ¿Puedes hacer tinte negro o blanco?)"
-      }
+        "en": "Talk to Aggie in Draynor Village.",
+        "es": "Habla con Aggie en Draynor Village."
+      },
+      "chatOptions": [
+        "4 More...",
+        "2 Can you make dyes for me please?",
+        "4 Can you make black or white dye?"
+      ]
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Whitefish",
       "text": {
-        "en": "Or, if Vampyre Slayer is complete. (opciones de chat: 5 More... • 2 Can you make dyes for me please? • 4 Can you make black or white dye?)",
-        "es": "O, si Vampyre Slayer está completa. (opciones de chat: 5 Más... • 2 ¿Puedes hacerme tintes, por favor? • 4 ¿Puedes hacer tinte negro o blanco?)"
-      }
+        "en": "Or, if Vampyre Slayer is complete.",
+        "es": "O, si Vampyre Slayer está completa."
+      },
+      "chatOptions": [
+        "5 More...",
+        "2 Can you make dyes for me please?",
+        "4 Can you make black or white dye?"
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Whitefish",
       "text": {
         "en": "Teleport to Seers' Village lodestone and head south-west to Hemenster near the Ranging Guild. Alternatively, use a combat bracelet.",
         "es": "Teletranspórtate a la piedra de viaje de Seers' Village y dirígete al suroeste hasta Hemenster, cerca de la Ranging Guild. Alternativamente, usa un brazalete de combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Whitefish",
       "text": {
         "en": "Be sure to have a raw slimy eel or you will have to repeat the next steps.",
         "es": "Asegúrate de tener una anguila viscosa cruda o tendrás que repetir los siguientes pasos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Whitefish",
       "text": {
-        "en": "Attempt to open the gate near Morris. (opciones de chat: 3 I need to catch a Hemenster whitefish.)",
-        "es": "Intenta abrir la puerta cerca de Morris. (opciones de chat: 3 Necesito atrapar un pez blanco de Hemenster.)"
-      }
+        "en": "Attempt to open the gate near Morris.",
+        "es": "Intenta abrir la puerta cerca de Morris."
+      },
+      "chatOptions": [
+        "3 I need to catch a Hemenster whitefish."
+      ]
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Whitefish",
       "text": {
         "en": "After finishing the dialogue, open the gate.",
         "es": "Después de terminar el diálogo, abre la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Whitefish",
       "text": {
         "en": "Catch a whitefish.",
         "es": "Atrapa un pez blanco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Whitefish",
       "text": {
         "en": "Return to Aggie and use the goblin mail on her.",
         "es": "Vuelve con Aggie y usa la cota goblin en ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Macabre crypt",
       "text": {
         "en": "Unequip any items and dismiss any followers.",
         "es": "Quítate cualquier objeto equipado y despide a cualquier acompañante."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Macabre crypt",
       "text": {
         "en": "Go back to the goblin temple entrance, take a sip of your goblin potion, and equip your white goblin mail.",
         "es": "Vuelve a la entrada del templo goblin, bebe un sorbo de tu poción de goblin, y equípate la cota goblin blanca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Macabre crypt",
       "text": {
         "en": "Enter the temple.",
         "es": "Entra en el templo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Macabre crypt",
       "text": {
         "en": "Steal the white key from the priest in the room west of the temple.",
         "es": "Roba la llave blanca del sacerdote en la habitación al oeste del templo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "Macabre crypt",
       "text": {
         "en": "Remove the goblin mail to leave the room quicker.",
         "es": "Quítate la cota goblin para salir de la habitación más rápido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Macabre crypt",
       "text": {
         "en": "Repeat the operation of stealing keys, dying your mail in the following order:",
         "es": "Repite la operación de robar llaves, tiñendo tu cota en el siguiente orden:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "Macabre crypt",
       "text": {
         "en": "Yellow (north-west)",
         "es": "Amarillo (noroeste)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "Macabre crypt",
       "text": {
         "en": "Purple (south-west)",
         "es": "Morado (suroeste)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 1,
+      "section": "Macabre crypt",
       "text": {
         "en": "Orange (south-east)",
         "es": "Naranja (sureste)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 1,
+      "section": "Macabre crypt",
       "text": {
         "en": "Blue (east)",
         "es": "Azul (este)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Prepare for battle",
       "text": {
         "en": "Enter the crypt (large door north of the temple).",
         "es": "Entra en la cripta (la puerta grande al norte del templo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Prepare for battle",
       "text": {
         "en": "Prepare for battle by equipping weapons and armour.",
         "es": "Prepárate para la batalla equipando armas y armadura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Prepare for battle",
       "text": {
         "en": "Use the Say-name option on each of the graves. After killing them, talk to them.",
         "es": "Usa la opción de decir el nombre en cada una de las tumbas. Después de matarlos, habla con ellos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 1,
+      "section": "Prepare for battle",
       "text": {
-        "en": "South-west: Snothead (opciones de chat: 1 Where is Yu'biusk? • 1 What was your predecessor's name? • 4 Goodbye.)",
-        "es": "Suroeste: Snothead (opciones de chat: 1 ¿Dónde está Yu'biusk? • 1 ¿Cuál era el nombre de tu predecesor? • 4 Adiós.)"
-      }
+        "en": "South-west: Snothead",
+        "es": "Suroeste: Snothead"
+      },
+      "chatOptions": [
+        "1 Where is Yu'biusk?",
+        "1 What was your predecessor's name?",
+        "4 Goodbye."
+      ]
     },
     {
       "index": 48,
       "indent": 1,
+      "section": "Prepare for battle",
       "text": {
-        "en": "South-east: Snailfeet (opciones de chat: 2 Snailfeet)",
-        "es": "Sureste: Snailfeet (opciones de chat: 2 Snailfeet)"
-      }
+        "en": "South-east: Snailfeet",
+        "es": "Sureste: Snailfeet"
+      },
+      "chatOptions": [
+        "2 Snailfeet"
+      ]
     },
     {
       "index": 49,
       "indent": 1,
+      "section": "Prepare for battle",
       "text": {
-        "en": "North-west: Mosschin (opciones de chat: 3 Mosschin)",
-        "es": "Noroeste: Mosschin (opciones de chat: 3 Mosschin)"
-      }
+        "en": "North-west: Mosschin",
+        "es": "Noroeste: Mosschin"
+      },
+      "chatOptions": [
+        "3 Mosschin"
+      ]
     },
     {
       "index": 50,
       "indent": 1,
+      "section": "Prepare for battle",
       "text": {
-        "en": "North-east: Redeyes (opciones de chat: 4 Redeyes)",
-        "es": "Noreste: Redeyes (opciones de chat: 4 Redeyes)"
-      }
+        "en": "North-east: Redeyes",
+        "es": "Noreste: Redeyes"
+      },
+      "chatOptions": [
+        "4 Redeyes"
+      ]
     },
     {
       "index": 51,
       "indent": 1,
+      "section": "Prepare for battle",
       "text": {
-        "en": "North: Strongbones (ignore his skeleton minions) (opciones de chat: 5 Strongbones)",
-        "es": "Norte: Strongbones (ignora a sus esbirros esqueleto) (opciones de chat: 5 Strongbones)"
-      }
+        "en": "North: Strongbones (ignore his skeleton minions)",
+        "es": "Norte: Strongbones (ignora a sus esbirros esqueleto)"
+      },
+      "chatOptions": [
+        "5 Strongbones"
+      ]
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Prepare for battle",
       "text": {
-        "en": "Talk to Strongbones after defeating him. (opciones de chat: 1 Where is Yu'biusk? • 4 Goodbye.)",
-        "es": "Habla con Strongbones después de derrotarlo. (opciones de chat: 1 ¿Dónde está Yu'biusk? • 4 Adiós.)"
-      }
+        "en": "Talk to Strongbones after defeating him.",
+        "es": "Habla con Strongbones después de derrotarlo."
+      },
+      "chatOptions": [
+        "1 Where is Yu'biusk?",
+        "4 Goodbye."
+      ]
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Home portal",
       "text": {
         "en": "Return to Dorgesh-Kaan and speak with Zanik in the north-west (Oldak's lab).",
         "es": "Vuelve a Dorgesh-Kaan y habla con Zanik en el noroeste (el laboratorio de Oldak)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Home portal",
       "text": {
-        "en": "With a light source, head to the south end of Dorgesh-Kaan using fairy code . Alternatively, without using fairy rings:",
+        "en": "With a light source, head to the south end of Dorgesh-Kaan using fairy code AJQ. Alternatively, without using fairy rings:",
         "es": "Con una fuente de luz, dirígete al extremo sur de Dorgesh-Kaan usando el código de hadas . Alternativamente, sin usar los círculos de hadas:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 1,
+      "section": "Home portal",
       "text": {
         "en": "Go up the stairs to the agility course.",
         "es": "Sube las escaleras hacia el curso de agilidad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 1,
+      "section": "Home portal",
       "text": {
         "en": "At the start of the agility course, climb down the ladder west of the agility cable.",
         "es": "Al inicio del curso de agilidad, baja por la escalera al oeste del cable de agilidad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 1,
+      "section": "Home portal",
       "text": {
         "en": "Follow the cave path east then south to the Fairy ring.",
         "es": "Sigue el camino de la cueva hacia el este y luego hacia el sur hasta el círculo de hadas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Home portal",
       "text": {
         "en": "Adjust the machines next to Oldak, use combination 9-4-1, activate the machine.",
         "es": "Ajusta las máquinas junto a Oldak, usa la combinación 9-4-1, activa la máquina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Home portal",
       "text": {
         "en": "Open the strange box in the north-western part of Yu'biusk for a cutscene.",
         "es": "Abre la caja extraña en la parte noroeste de Yu'biusk para ver una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Home portal",
       "text": {
         "en": "Continue dialogue with Oldak.",
         "es": "Continúa el diálogo con Oldak."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "Home portal",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

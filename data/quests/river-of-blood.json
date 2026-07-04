@@ -2,7 +2,8 @@
   "id": "river-of-blood",
   "title": "River of Blood",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:10:06.976Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:58.005Z",
   "icon": "https://runescape.wiki/images/River_of_Blood_icon.png",
   "series": "Myreque",
   "age": "5",
@@ -199,6 +200,7 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/River_of_Blood_reward.png?9bb34",
   "postQuest": [
     {
       "type": "item",
@@ -230,730 +232,945 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Preparations for Aeonisig",
       "text": {
         "en": "Talk to King Roald in Varrock Palace.",
         "es": "Habla con King Roald en el Varrock Palace."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Preparations for Aeonisig",
       "text": {
-        "en": "Talk to Drezel in the Paterdomus mausoleum west of Canifis (fairy ring , invitation box or Skeletal horror Teleport for quick access).",
+        "en": "Talk to Drezel in the Paterdomus mausoleum west of Canifis (fairy ring CKS, invitation box or Skeletal horror Teleport for quick access).",
         "es": "Habla con Drezel en el mausoleo de Paterdomus, al oeste de Canifis (usa el anillo de las hadas, la caja de invitación o el teletransporte de Skeletal horror para acceder rápidamente)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Preparations for Aeonisig",
       "text": {
         "en": "Reclaim the wolfbane dagger if you had previously destroyed it.",
         "es": "Recupera la daga wolfbane si la habías destruido anteriormente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Preparations for Aeonisig",
       "text": {
         "en": "Talk to Aeonisig south of the temple. You can use the invitation box to get there. Otherwise, exit the building on the west side and head towards the beacon (or exit east side and use agility shortcut). He is at the bottom of the stairs.",
         "es": "Habla con Aeonisig, al sur del templo. Puedes usar la caja de invitación para llegar hasta allí. De lo contrario, sal del edificio por el lado oeste y dirígete hacia el faro (o sal por el lado este y usa el atajo de agilidad). Se encuentra al pie de las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Preparations for Aeonisig",
       "text": {
         "en": "Defeat the 3 Vyrewatches using blisterwood weapons.",
         "es": "Derrota a los 3 Vyrewatches usando armas de blisterwood."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Preparations for Aeonisig",
       "text": {
-        "en": "Talk to Aeonisig. (opciones de chat: Any • 4 Farewell.)",
-        "es": "Habla con Aeonisig. (opciones de chat: Cualquiera • 4 Despedirse.)"
-      }
+        "en": "Talk to Aeonisig.",
+        "es": "Habla con Aeonisig."
+      },
+      "chatOptions": [
+        "Any",
+        "4 Farewell."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Preparations for Aeonisig",
       "text": {
         "en": "Talk to Captain Rovin (one of the three guards slightly north east) to supply him with armour.",
         "es": "Habla con Captain Rovin (uno de los tres guardias, ligeramente al noreste) para suministrarle la armadura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Preparations for Aeonisig",
       "text": {
         "en": "Kill all Zamorak monks in the temple - you can use any combat style/gear here.",
         "es": "Mata a todos los monjes de Zamorak en el templo; puedes usar cualquier estilo de combate o equipamiento."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Preparations for Aeonisig",
       "text": {
         "en": "Kill the Zamorakian leader and bodyguard on the top floor - you can use any combat style/gear here.",
         "es": "Mata al líder zamorakiano y a su guardaespaldas en la planta superior; puedes usar cualquier estilo de combate o equipamiento."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Preparations for Aeonisig",
       "text": {
-        "en": "Return and talk to Aeonisig. Go through all the chat options. (opciones de chat: Any)",
-        "es": "Vuelve y habla con Aeonisig. Repasa todas las opciones de diálogo. (opciones de chat: Cualquiera)"
-      }
+        "en": "Return and talk to Aeonisig. Go through all the chat options.",
+        "es": "Vuelve y habla con Aeonisig. Repasa todas las opciones de diálogo."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Finding the scroll",
       "text": {
-        "en": "Talk to Drezel. (opciones de chat: 2 Talk About something else)",
-        "es": "Habla con Drezel. (opciones de chat: 2 Hablar sobre otra cosa)"
-      }
+        "en": "Talk to Drezel.",
+        "es": "Habla con Drezel."
+      },
+      "chatOptions": [
+        "2 Talk About something else"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Finding the scroll",
       "text": {
         "en": "Climb-down the nearby trapdoor.",
         "es": "Baja por la trampilla cercana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Finding the scroll",
       "text": {
         "en": "If the trapdoor isn't open, use the temple library key on the keyhole which can be obtained from Drezel.",
         "es": "Si la trampilla no está abierta, usa la llave de la biblioteca del templo en la cerradura, que se puede obtener de Drezel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Finding the scroll",
       "text": {
         "en": "Pull 7 books off the bookcases in the correct order until you find the Blood of the Covenant:",
         "es": "Saca 7 libros de las estanterías en el orden correcto hasta encontrar el Blood of the Covenant:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Finding the scroll",
       "text": {
         "en": "Lumbridge",
         "es": "Lumbridge"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Finding the scroll",
       "text": {
         "en": "Varrock",
         "es": "Varrock"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Finding the scroll",
       "text": {
         "en": "Edgeville",
         "es": "Edgeville"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Finding the scroll",
       "text": {
         "en": "Falador",
         "es": "Falador"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Finding the scroll",
       "text": {
         "en": "Rimmington",
         "es": "Rimmington"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Finding the scroll",
       "text": {
         "en": "Taverley",
         "es": "Taverley"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Finding the scroll",
       "text": {
         "en": "Draynor",
         "es": "Draynor"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Finding the scroll",
       "text": {
         "en": "\"Blood of the Covenant\"",
         "es": "\"Blood of the Covenant\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Finding the scroll",
       "text": {
         "en": "Read the book.",
         "es": "Lee el libro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Finding the scroll",
       "text": {
         "en": "Climb-up the ladder.",
         "es": "Sube por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Finding the scroll",
       "text": {
         "en": "Talk to Ivan Strom.",
         "es": "Habla con Ivan Strom."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Finding the scroll",
       "text": {
         "en": "Enter the trapdoor behind Canifis pub, search the southern wall in the room and take the first cave entrance on the east side of the tunnel.",
         "es": "Entra por la trampilla detrás del pub de Canifis, registra la pared sur de la habitación y toma la primera entrada de cueva en el lado este del túnel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "Finding the scroll",
       "text": {
         "en": "If players are taken to Mort'ton they need to go to the Temple Trekking noticeboard next to the temple west of Canifis, click on the medium NPC and on the right hand side, they'll see the NPC with level 99, which is rewarded with the ability to toggle a shortcut from the trapdoor. After toggling it the door will function as normal or the boat can be taken back to the swamp and run to the cellar doors from here to access the tomb without toggling the function.",
         "es": "Si los jugadores son llevados a Mort'ton, deben ir al tablón de anuncios de Temple Trekking junto al templo al oeste de Canifis, hacer clic en el NPC de dificultad media y, en el lado derecho, verán al NPC de nivel 99, que otorga la habilidad de activar un atajo desde la trampilla. Una vez activado, la puerta funcionará con normalidad, o también se puede tomar el barco de vuelta al pantano y correr hasta las puertas del sótano desde allí para acceder a la tumba sin necesidad de activar la función."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Finding the scroll",
       "text": {
-        "en": "Use a Guthix balance on the tomb and open it. (opciones de chat: 1)",
-        "es": "Usa un Guthix balance en la tumba y ábrela. (opciones de chat: 1)"
-      }
+        "en": "Use a Guthix balance on the tomb and open it.",
+        "es": "Usa un Guthix balance en la tumba y ábrela."
+      },
+      "chatOptions": [
+        "1"
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Finding the scroll",
       "text": {
         "en": "Open the scroll case and read the Scroll of Balance.",
         "es": "Abre el estuche del pergamino y lee el Scroll of Balance."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Finding the scroll",
       "text": {
         "en": "Burn a Blisterwood log and take the ashes. They spawn immediately upon lighting the fire.",
         "es": "Quema un tronco de blisterwood y recoge las cenizas. Aparecen inmediatamente al encender el fuego."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Finding the scroll",
       "text": {
-        "en": "Grind the silvthril bar at the ectofuntus grinder. (opciones de chat: 1)",
-        "es": "Muele la barra de silvthril en la piedra de moler del ectofuntus. (opciones de chat: 1)"
-      }
+        "en": "Grind the silvthril bar at the ectofuntus grinder.",
+        "es": "Muele la barra de silvthril en la piedra de moler del ectofuntus."
+      },
+      "chatOptions": [
+        "1"
+      ]
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Finding the scroll",
       "text": {
         "en": "Use the silvthril dust on the Altar of Nature in the Nature Grotto.",
         "es": "Usa el polvo de silvthril en el Altar of Nature en el Nature Grotto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Finding the scroll",
       "text": {
         "en": "Use any of the three ingredients on a super restore (3) to make a super Guthix balance potion. Keep the Ivandis's serum in your inventory for later use.",
         "es": "Usa cualquiera de los tres ingredientes en una super restore (3) para preparar una super poción de Guthix balance. Guarda el Ivandis's serum en tu inventario para usarlo más tarde."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Clash of armies",
       "text": {
         "en": "Talk to Drezel.",
         "es": "Habla con Drezel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Clash of armies",
       "text": {
         "en": "Pour the Super Guthix balance into the well in the main room to the west.",
         "es": "Vierte la Super Guthix balance en el pozo de la sala principal, al oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Clash of armies",
       "text": {
-        "en": "Talk to Aeonisig south of the church. (opciones de chat: 3 About equipping the Varrock guard... • 2 About claiming the Paterdomus temple... • Any • 1 About strengthening the Salve barrier... • 3 I should investigate this.)",
-        "es": "Habla con Aeonisig, al sur de la iglesia. (opciones de chat: 3 Sobre equipar a los guardias de Varrock... • 2 Sobre reclamar el templo de Paterdomus... • Cualquiera • 1 Sobre fortalecer la barrera de Salve... • 3 Debería investigar esto.)"
-      }
+        "en": "Talk to Aeonisig south of the church.",
+        "es": "Habla con Aeonisig, al sur de la iglesia."
+      },
+      "chatOptions": [
+        "3 About equipping the Varrock guard...",
+        "2 About claiming the Paterdomus temple...",
+        "Any",
+        "1 About strengthening the Salve barrier...",
+        "3 I should investigate this."
+      ]
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Clash of armies",
       "text": {
         "en": "Talk to Vanescula on the bridge.",
         "es": "Habla con Vanescula en el puente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Clash of armies",
       "text": {
-        "en": "Use the the broken Saradomin statue shortcut to the east if you have 65 Agility or teleport to the fairy ring .",
+        "en": "Use the the broken Saradomin statue shortcut to the east if you have 65 Agility or teleport to the fairy ring CKS.",
         "es": "Usa el atajo de la estatua rota de Saradomin al este si tienes 65 de Agilidad, o teletranspórtate con el anillo de las hadas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Clash of armies",
       "text": {
         "en": "Kill the feral vampyres.",
         "es": "Mata a los vampyres salvajes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Clash of armies",
       "text": {
         "en": "Kill the Wyrd while stepping away from its special attacks.",
         "es": "Mata al Wyrd mientras te alejas de sus ataques especiales."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "Clash of armies",
       "text": {
         "en": "The Sonic Wave attack deals 7,500 damage when praying melee. Otherwise, it will deal 15,000 damage. This can be avoided by stepping at least two squares back. It is also important to note that if you step off the bridge at any time you will have to redo the fight.",
         "es": "El ataque Sonic Wave inflige 7500 de daño si rezas melé. De lo contrario, infligirá 15000 de daño. Esto se puede evitar retrocediendo al menos dos casillas. También es importante tener en cuenta que si sales del puente en cualquier momento, tendrás que repetir el combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Clash of armies",
       "text": {
         "en": "Talk to Ivan Strom on the bridge over the salve river.",
         "es": "Habla con Ivan Strom en el puente sobre el río Salve."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Travel to Burgh de Rott via Drakan's medallion.",
         "es": "Viaja a Burgh de Rott mediante el Drakan's medallion."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Travel on the boat south of Burgh de Rott to the Icyene graveyard.",
         "es": "Viaja en el barco al sur de Burgh de Rott hasta el cementerio Icyene."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Talk to Efaritay.",
         "es": "Habla con Efaritay."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Inspect the Queen Efaritay statue within the northern crypt, and take the pendant.",
         "es": "Examina la estatua de Queen Efaritay dentro de la cripta del norte y toma el colgante."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Talk to Efaritay.",
         "es": "Habla con Efaritay."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Craft a Blisterwood shaft from blisterwood logs.",
         "es": "Fabrica un Blisterwood shaft a partir de troncos de blisterwood."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Use the shaft on the sunspear with the wolfbane dagger and blisterwood shaft in your inventory.",
         "es": "Usa el shaft en el sunspear teniendo la daga wolfbane y el Blisterwood shaft en tu inventario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Talk to Efaritay.",
         "es": "Habla con Efaritay."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
-        "en": "Teleport to the Meiyerditch Laboratories via Drakan's medallion. (opciones de chat: 5)",
-        "es": "Teletranspórtate a los Meiyerditch Laboratories mediante el Drakan's medallion. (opciones de chat: 5)"
-      }
+        "en": "Teleport to the Meiyerditch Laboratories via Drakan's medallion.",
+        "es": "Teletranspórtate a los Meiyerditch Laboratories mediante el Drakan's medallion."
+      },
+      "chatOptions": [
+        "5"
+      ]
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Talk to Sarius.",
         "es": "Habla con Sarius."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Run through the tunnel to the room with the mutated bloodveld.",
         "es": "Corre por el túnel hasta la sala con el mutated bloodveld."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Take the book from the research table on the north side and read it.",
         "es": "Toma el libro de la mesa de investigación en el lado norte y léelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Talk to Sarius.",
         "es": "Habla con Sarius."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Climb the stairs and run north-west into the mine.",
         "es": "Sube las escaleras y corre hacia el noroeste, hacia la mina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "With your vampyre disguise on, talk to a guard about the refinery. (if you don't have your disguise on you must manually fill the cart up with 15 ores yourself)",
         "es": "Con tu disfraz de vampyre puesto, habla con un guardia sobre la refinería (si no llevas puesto el disfraz, tendrás que llenar el carro manualmente con 15 minerales tú mismo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
-        "en": "Talk to one of the Juvinate guards. (opciones de chat: 1 Where's the daeyalt refinery?)",
-        "es": "Habla con uno de los guardias Juvinate. (opciones de chat: 1 ¿Dónde está la refinería de daeyalt?)"
-      }
+        "en": "Talk to one of the Juvinate guards.",
+        "es": "Habla con uno de los guardias Juvinate."
+      },
+      "chatOptions": [
+        "1 Where's the daeyalt refinery?"
+      ]
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Push the cart.",
         "es": "Empuja el carro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Kill the juvinates.",
         "es": "Mata a los juvinates."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Combatting haemalchemy",
       "text": {
         "en": "Open the 5 cell doors.",
         "es": "Abre las 5 puertas de las celdas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 0,
+      "section": "Refinery puzzle",
       "text": {
-        "en": "Run north and talk to Emilia. (opciones de chat: 5 Let the anger flow through you.)",
-        "es": "Corre hacia el norte y habla con Emilia. (opciones de chat: 5 Deja que la ira fluya a través de ti.)"
-      }
+        "en": "Run north and talk to Emilia.",
+        "es": "Corre hacia el norte y habla con Emilia."
+      },
+      "chatOptions": [
+        "5 Let the anger flow through you."
+      ]
     },
     {
       "index": 62,
       "indent": 0,
+      "section": "Refinery puzzle",
       "text": {
-        "en": "Talk to Sorin. (opciones de chat: 4 Isn't this technology awesome?)",
-        "es": "Habla con Sorin. (opciones de chat: 4 ¿No es asombrosa esta tecnología?)"
-      }
+        "en": "Talk to Sorin.",
+        "es": "Habla con Sorin."
+      },
+      "chatOptions": [
+        "4 Isn't this technology awesome?"
+      ]
     },
     {
       "index": 63,
       "indent": 0,
+      "section": "Refinery puzzle",
       "text": {
-        "en": "Talk to Ileana. (opciones de chat: 3 I don't approve of this, and neither should you.)",
-        "es": "Habla con Ileana. (opciones de chat: 3 No apruebo esto, y tú tampoco deberías.)"
-      }
+        "en": "Talk to Ileana.",
+        "es": "Habla con Ileana."
+      },
+      "chatOptions": [
+        "3 I don't approve of this, and neither should you."
+      ]
     },
     {
       "index": 64,
       "indent": 0,
+      "section": "Refinery puzzle",
       "text": {
-        "en": "Talk to Razvan. (opciones de chat: 2 You should be ashamed. Have you no remorse?)",
-        "es": "Habla con Razvan. (opciones de chat: 2 Deberías estar avergonzado. ¿No sientes remordimiento alguno?)"
-      }
+        "en": "Talk to Razvan.",
+        "es": "Habla con Razvan."
+      },
+      "chatOptions": [
+        "2 You should be ashamed. Have you no remorse?"
+      ]
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "Refinery puzzle",
       "text": {
-        "en": "Talk to Florin. (opciones de chat: 1 Cheer up. Don't give up hope.)",
-        "es": "Habla con Florin. (opciones de chat: 1 Anímate. No pierdas la esperanza.)"
-      }
+        "en": "Talk to Florin.",
+        "es": "Habla con Florin."
+      },
+      "chatOptions": [
+        "1 Cheer up. Don't give up hope."
+      ]
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "Refinery puzzle",
       "text": {
-        "en": "Tithe the Shadum blood lock located on the south western part of the wall. (opciones de chat: 6 I accept my fate and put my hand in the machine.)",
-        "es": "Realiza la ofrenda en el Shadum blood lock situado en la parte suroeste de la pared. (opciones de chat: 6 Acepto mi destino y pongo mi mano en la máquina.)"
-      }
+        "en": "Tithe the Shadum blood lock located on the south western part of the wall.",
+        "es": "Realiza la ofrenda en el Shadum blood lock situado en la parte suroeste de la pared."
+      },
+      "chatOptions": [
+        "6 I accept my fate and put my hand in the machine."
+      ]
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "Extract the refined daeyalt from the refined daeyalt mine.",
         "es": "Extrae el daeyalt refinado de la mina de daeyalt refinado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 68,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "Inspect the rejuvenation tank.",
         "es": "Examina el tanque de rejuvenecimiento."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 69,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "Climb the stairs and talk to Safalaan.",
         "es": "Sube las escaleras y habla con Safalaan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 70,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "Kill the Skeleton Hellhounds.",
         "es": "Mata a los Skeleton Hellhounds."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 71,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "Climb the stairs.",
         "es": "Sube las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 72,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "On the northern end of the room, go into the eastern door into a long, narrow hallway.",
         "es": "En el extremo norte de la sala, entra por la puerta este a un pasillo largo y estrecho."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 73,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "Go into the Library through a door on the southern wall of the hallway.",
         "es": "Entra en la biblioteca por una puerta en la pared sur del pasillo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 74,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "Take the bottle of holy water from the table (red dot on the map).",
         "es": "Toma la botella de agua bendita de la mesa (punto rojo en el mapa)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 75,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "Continue east through the narrow hallway.",
         "es": "Continúa hacia el este por el pasillo estrecho."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 76,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "Throw the bottle of holy water on Harold and climb the stairs.",
         "es": "Lanza la botella de agua bendita a Harold y sube las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 77,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "Cut a log from the blisterwood tree.",
         "es": "Corta un tronco del árbol de blisterwood."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 78,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "Light the firepit in front of the Stone of Jas. It is a small black ring immediately in front of the stone, easy to miss.",
         "es": "Enciende el hogar frente a la Stone of Jas. Es un pequeño anillo negro justo delante de la piedra, fácil de pasar por alto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 79,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "Roll the barrel of gunpowder.",
         "es": "Haz rodar el barril de pólvora."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 80,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "Unlock the blood seal in the northern room.",
         "es": "Abre el sello de sangre en la sala del norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 81,
       "indent": 0,
+      "section": "Curing vampyrism",
       "text": {
         "en": "Climb the stairs.",
         "es": "Sube las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 82,
       "indent": 0,
+      "section": "Wyrd's woe",
       "text": {
         "en": "Kill Safalaan with the Sunspear.",
         "es": "Mata a Safalaan con el Sunspear."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 83,
       "indent": 0,
+      "section": "Wyrd's woe",
       "text": {
         "en": "Talk to Efaritay.",
         "es": "Habla con Efaritay."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 84,
       "indent": 0,
+      "section": "Wyrd's woe",
       "text": {
         "en": "Use the daeyalt and Ivandis' serum on Safalaan's blood.",
         "es": "Usa el daeyalt y el Ivandis' serum en la sangre de Safalaan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 85,
       "indent": 0,
+      "section": "Wyrd's woe",
       "text": {
         "en": "Talk to Efaritay.",
         "es": "Habla con Efaritay."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 86,
       "indent": 0,
+      "section": "Wyrd's woe",
       "text": {
         "en": "Pour the extreme Guthix balance potion into the Paterdomus well.",
         "es": "Vierte la poción extreme Guthix balance en el pozo de Paterdomus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 87,
       "indent": 0,
+      "section": "Wyrd's woe",
       "text": {
         "en": "Talk to Vanescula on the bridge.",
         "es": "Habla con Vanescula en el puente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 88,
       "indent": 0,
+      "section": "Wyrd's woe",
       "text": {
         "en": "Watch the cutscene and then talk to Vanescula once more.",
         "es": "Observa la escena y luego habla con Vanescula una vez más."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 89,
       "indent": 0,
+      "section": "Wyrd's woe",
       "text": {
         "en": "Talk to King Roald.",
         "es": "Habla con King Roald."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 90,
       "indent": 0,
+      "section": "Wyrd's woe",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

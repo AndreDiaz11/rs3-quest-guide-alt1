@@ -2,7 +2,8 @@
   "id": "recipe-for-disaster-freeing-pirate-pete",
   "title": "Recipe for Disaster: Freeing Pirate Pete",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:07:04.059Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:54.181Z",
   "icon": "https://runescape.wiki/images/Pirate_Pete_icon.png",
   "length": "Short",
   "startPoint": {
@@ -120,279 +121,364 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Recipe_for_Disaster_%28Freeing_Pirate_Pete%29_reward.png?d1738",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Pirate Pete",
       "text": {
         "en": "Inspect Pirate Pete in the banquet hall in Lumbridge Castle.",
         "es": "Inspecciona a Pirate Pete en el salón de banquetes del Lumbridge Castle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Pirate Pete",
       "text": {
-        "en": "Talk to the Cook in the Lumbridge Castle. (opciones de chat: 3 Protecting the Pirate • 1 Where do I get Ground Cod? • 2 Where do I get Ground Giant Crab Meat? • 3 Where do I get Breadcrumbs? • 5 Thanks!)",
-        "es": "Habla con el Cook en el Lumbridge Castle. (opciones de chat: 3 Protegiendo al pirata • 1 ¿Dónde consigo Ground Cod? • 2 ¿Dónde consigo Ground Giant Crab Meat? • 3 ¿Dónde consigo Breadcrumbs? • 5 ¡Gracias!)"
-      }
+        "en": "Talk to the Cook in the Lumbridge Castle.",
+        "es": "Habla con el Cook en el Lumbridge Castle."
+      },
+      "chatOptions": [
+        "3 Protecting the Pirate",
+        "1 Where do I get Ground Cod?",
+        "2 Where do I get Ground Giant Crab Meat?",
+        "3 Where do I get Breadcrumbs?",
+        "5 Thanks!"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Diving",
       "text": {
         "en": "Bank any Summoning pouches or Pets.",
         "es": "Guarda en el banco cualquier bolsa de Invocación o mascota."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Diving",
       "text": {
-        "en": "Talk to Murphy on the docks of Port Khazard. (opciones de chat: 1 Talk about Recipe for Disaster.)",
-        "es": "Habla con Murphy en los muelles de Port Khazard. (opciones de chat: 1 Hablar sobre Recipe for Disaster.)"
-      }
+        "en": "Talk to Murphy on the docks of Port Khazard.",
+        "es": "Habla con Murphy en los muelles de Port Khazard."
+      },
+      "chatOptions": [
+        "1 Talk about Recipe for Disaster."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Diving",
       "text": {
-        "en": "With your fishbowl, talk to him again. (opciones de chat: 1 Talk about Recipe for Disaster. • 2 Not just yet.)",
-        "es": "Con tu fishbowl, habla con él de nuevo. (opciones de chat: 1 Hablar sobre Recipe for Disaster. • 2 Todavía no.)"
-      }
+        "en": "With your fishbowl, talk to him again.",
+        "es": "Con tu fishbowl, habla con él de nuevo."
+      },
+      "chatOptions": [
+        "1 Talk about Recipe for Disaster.",
+        "2 Not just yet."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Diving",
       "text": {
         "en": "Equip the fishbowl helmet and diving apparatus.",
         "es": "Equípate el fishbowl helmet y el diving apparatus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Diving",
       "text": {
-        "en": "Whilst weighing under or exactly 27, having your needle and bronze wire, talk to Murphy again. (opciones de chat: 1 Talk about Recipe for Disaster. • 1 Yes, Let's go diving.)",
-        "es": "Mientras pesas 27 o menos, y llevando tu needle y bronze wire, habla con Murphy de nuevo. (opciones de chat: 1 Hablar sobre Recipe for Disaster. • 1 Sí, vamos a bucear.)"
-      }
+        "en": "Whilst weighing under or exactly 27, having your needle and bronze wire, talk to Murphy again.",
+        "es": "Mientras pesas 27 o menos, y llevando tu needle y bronze wire, habla con Murphy de nuevo."
+      },
+      "chatOptions": [
+        "1 Talk about Recipe for Disaster.",
+        "1 Yes, Let's go diving."
+      ]
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Diving",
       "text": {
         "en": "There is a bank deposit box next to Murphy.",
         "es": "Hay una caja de depósito bancario junto a Murphy."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Diving",
       "text": {
         "en": "Pick some kelp (your inventory is hidden).",
         "es": "Recoge algo de kelp (tu inventario está oculto)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Diving",
       "text": {
         "en": "It is advisable to obtain multiple in the event you burn the fishcake.",
         "es": "Es recomendable conseguir varios por si se te quema el fishcake."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Diving",
       "text": {
         "en": "Swim north and talk to Nung.",
         "es": "Nada hacia el norte y habla con Nung."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Diving",
       "text": {
         "en": "Head west to the Mudskipper cave and pick up five rocks.",
         "es": "Dirígete al oeste hacia la cueva Mudskipper y recoge cinco rocas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Diving",
       "text": {
         "en": "Enter the cave and equip your weapon.",
         "es": "Entra en la cueva y equípate tu arma."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Diving",
       "text": {
         "en": "Kill mudskippers for 5 hides.",
         "es": "Mata mudskippers para conseguir 5 hides."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Diving",
       "text": {
         "en": "Return to Nung with the five hides, your needle, and three bronze wire.",
         "es": "Regresa con Nung con las cinco hides, tu needle y tres bronze wire."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Diving",
       "text": {
         "en": "Talk to Nung again.",
         "es": "Habla con Nung de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Diving",
       "text": {
         "en": "Enter the crab pen and equip your weapon.",
         "es": "Entra en el corral de cangrejos y equípate tu arma."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Diving",
       "text": {
         "en": "Kill some crabs and take their meat.",
         "es": "Mata algunos cangrejos y coge su carne."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Diving",
       "text": {
         "en": "It is advised to obtain multiple in the event you burn the fishcake.",
         "es": "Se recomienda conseguir varias por si se te quema el fishcake."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Diving",
       "text": {
         "en": "While in the pen teleport out to Lumbridge.",
         "es": "Mientras estés en el corral, teletranspórtate a Lumbridge."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Diving",
       "text": {
         "en": "Alternatively, leave the crab pen and climb up the anchor chain to the south.",
         "es": "Alternativamente, sal del corral de cangrejos y sube por la cadena del ancla hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Freeing Pirate Pete",
       "text": {
         "en": "Return to the kitchen in Lumbridge Castle.",
         "es": "Regresa a la cocina del Lumbridge Castle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Freeing Pirate Pete",
       "text": {
         "en": "Prepare the ingredients:",
         "es": "Prepara los ingredientes:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "Freeing Pirate Pete",
       "text": {
         "en": "Grind the kelp.",
         "es": "Muele el kelp."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "Freeing Pirate Pete",
       "text": {
         "en": "Choose the Grind option on the crab meat.",
         "es": "Elige la opción Moler en la carne de cangrejo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Freeing Pirate Pete",
       "text": {
         "en": "Choose the Grind option on the raw cod.",
         "es": "Elige la opción Moler en el bacalao crudo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "Freeing Pirate Pete",
       "text": {
         "en": "Choose the Slice option on the bread.",
         "es": "Elige la opción Cortar en el pan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Freeing Pirate Pete",
       "text": {
         "en": "If at any point while preparing the ingredients, the message \"Nothing interesting happens\" appears, talk to the Cook.",
         "es": "Si en algún momento mientras preparas los ingredientes aparece el mensaje \"No ocurre nada interesante\", habla con el Cook."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Freeing Pirate Pete",
       "text": {
-        "en": "Talk to the Cook. (opciones de chat: 3 Protecting the Pirate)",
-        "es": "Habla con el Cook. (opciones de chat: 3 Protegiendo al pirata)"
-      }
+        "en": "Talk to the Cook.",
+        "es": "Habla con el Cook."
+      },
+      "chatOptions": [
+        "3 Protecting the Pirate"
+      ]
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Freeing Pirate Pete",
       "text": {
         "en": "Use the ingredients on each other.",
         "es": "Usa los ingredientes unos sobre otros."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Freeing Pirate Pete",
       "text": {
         "en": "Cook the Raw fishcake.",
         "es": "Cocina el Raw fishcake."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Freeing Pirate Pete",
       "text": {
         "en": "Use fishcake on Pirate Pete.",
         "es": "Usa el fishcake en Pirate Pete."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Freeing Pirate Pete",
       "text": {
         "en": "If the fishcake is eaten, you need to re-obtain all of the ingredients.",
         "es": "Si el fishcake se come, tendrás que volver a conseguir todos los ingredientes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Freeing Pirate Pete",
       "text": {
         "en": "Subquest complete!",
         "es": "¡Submisión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

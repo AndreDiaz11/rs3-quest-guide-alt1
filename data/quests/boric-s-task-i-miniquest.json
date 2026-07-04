@@ -2,7 +2,8 @@
   "id": "boric-s-task-i-miniquest",
   "title": "Boric's Task I (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T19:53:30.630Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:42.559Z",
   "icon": "https://runescape.wiki/images/Boric%27s_Task_I_%28miniquest%29_icon.png",
   "series": "Boric's Tasks",
   "age": "5",
@@ -56,47 +57,63 @@
       "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Boric%27s_Task_I_%28miniquest%29_reward.png?eeff5",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Mining some coal",
       "text": {
-        "en": "Head down the stairs behind Doric's hut to speak to Boric. (opciones de chat: 1 Do you have any Mining tasks for me? • Accept)",
-        "es": "Baja las escaleras que hay detrás de la cabaña de Doric para hablar con Boric. (opciones de chat: 1 Do you have any Mining tasks for me? • Accept)"
-      }
+        "en": "Head down the stairs behind Doric's hut to speak to Boric.",
+        "es": "Baja las escaleras que hay detrás de la cabaña de Doric para hablar con Boric."
+      },
+      "chatOptions": [
+        "1 Do you have any Mining tasks for me?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Mining some coal",
       "text": {
         "en": "Head to Seers' Village coal truck mining site, west of McGrubor's Wood.",
         "es": "Dirígete a la zona de minería del carro de carbón de Seers' Village, al oeste de McGrubor's Wood."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Mining some coal",
       "text": {
         "en": "Deposit 30 coal into the coal truck.",
         "es": "Deposita 30 unidades de carbón en el carro de carbón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Mining some coal",
       "text": {
         "en": "It does not need to be mined, it can be purchased off the Grand exchange. Make sure it isn't noted.",
         "es": "No es necesario minerarlo, se puede comprar en el Grand Exchange. Asegúrate de que no esté anotado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Mining some coal",
       "text": {
-        "en": "Talk to the Dwarven Miner to the south. (opciones de chat: 1 Yes.)",
-        "es": "Habla con el Dwarven Miner al sur. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Talk to the Dwarven Miner to the south.",
+        "es": "Habla con el Dwarven Miner al sur."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     }
   ]
 }

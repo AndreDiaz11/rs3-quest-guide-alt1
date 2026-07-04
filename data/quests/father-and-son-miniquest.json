@@ -2,7 +2,8 @@
   "id": "father-and-son-miniquest",
   "title": "Father and Son (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:18:44.391Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:11.889Z",
   "icon": "https://runescape.wiki/images/Father_and_Son_%28miniquest%29_icon.png",
   "series": null,
   "age": "6",
@@ -34,31 +35,43 @@
       "image": "https://runescape.wiki/images/Medium_Hunter_XP_lamp_%28Father_and_Son%29_detail.png?8cd91"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Father_and_Son_%28miniquest%29_reward.png?6d6b2",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Irwinsson. (opciones de chat: 1 Tell me more about yourself. • Accept)",
-        "es": "Habla con Irwinsson. (opciones de chat: 1 Cuéntame más sobre ti. • Aceptar)"
-      }
+        "en": "Talk to Irwinsson.",
+        "es": "Habla con Irwinsson."
+      },
+      "chatOptions": [
+        "1 Tell me more about yourself.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Sigli the Huntsman located at the main gate of Rellekka.",
         "es": "Habla con Sigli the Huntsman, ubicado en la puerta principal de Rellekka."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Head back to Anachronia and give Irwinsson his greatbow. (opciones de chat: 1 Talk about Sigli.)",
-        "es": "Vuelve a Anachronia y entrégale a Irwinsson su arco largo. (opciones de chat: 1 Hablar sobre Sigli.)"
-      }
+        "en": "Head back to Anachronia and give Irwinsson his greatbow.",
+        "es": "Vuelve a Anachronia y entrégale a Irwinsson su arco largo."
+      },
+      "chatOptions": [
+        "1 Talk about Sigli."
+      ]
     }
   ]
 }

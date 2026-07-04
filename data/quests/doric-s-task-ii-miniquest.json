@@ -2,7 +2,8 @@
   "id": "doric-s-task-ii-miniquest",
   "title": "Doric's Task II (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:10:18.773Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:01.180Z",
   "icon": "https://runescape.wiki/images/Doric%27s_Task_II_%28miniquest%29_icon.png",
   "series": "Doric's Tasks",
   "age": "5",
@@ -63,103 +64,137 @@
       "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Doric%27s_Task_II_%28miniquest%29_reward.png?000ad",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Attack of the Trolls",
       "text": {
-        "en": "Speak to Doric in his hut north of Falador. (opciones de chat: 1 Do you have any more Smithing tasks for me? • Accept)",
-        "es": "Habla con Doric en su cabaña al norte de Falador. (opciones de chat: 1 ¿Tienes más tareas de Herrería para mí? • Aceptar)"
-      }
+        "en": "Speak to Doric in his hut north of Falador.",
+        "es": "Habla con Doric en su cabaña al norte de Falador."
+      },
+      "chatOptions": [
+        "1 Do you have any more Smithing tasks for me?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Attack of the Trolls",
       "text": {
         "en": "Smith two steel chainbodies.",
         "es": "Forja dos cotas de malla de acero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Attack of the Trolls",
       "text": {
         "en": "Make sure you are smithing chainbodies, not platebodies.",
         "es": "Asegúrate de forjar cotas de malla, no petos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Attack of the Trolls",
       "text": {
         "en": "Purchasing chainbodies from the Grand Exchange will not complete the task.",
         "es": "Comprar cotas de malla en el Grand Exchange no completará la tarea."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Attack of the Trolls",
       "text": {
-        "en": "Deliver the chainbodies to Commander Denulth, north-east of Burthorpe lodestone. (opciones de chat: 1 Ask about Doric's Tasks)",
-        "es": "Entrega las cotas de malla a Commander Denulth, al noreste de la piedra de viaje de Burthorpe. (opciones de chat: 1 Preguntar sobre las tareas de Doric)"
-      }
+        "en": "Deliver the chainbodies to Commander Denulth, north-east of Burthorpe lodestone.",
+        "es": "Entrega las cotas de malla a Commander Denulth, al noreste de la piedra de viaje de Burthorpe."
+      },
+      "chatOptions": [
+        "1 Ask about Doric's Tasks"
+      ]
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Attack of the Trolls",
       "text": {
         "en": "There are breaks in the dialogue. Make sure the conversation is completed.",
         "es": "Hay pausas en el diálogo. Asegúrate de completar la conversación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Attack of the Trolls",
       "text": {
-        "en": "Return to Doric and speak to him. (opciones de chat: 1 Do you have any more Smithing tasks for me?)",
-        "es": "Vuelve con Doric y habla con él. (opciones de chat: 1 ¿Tienes más tareas de Herrería para mí?)"
-      }
+        "en": "Return to Doric and speak to him.",
+        "es": "Vuelve con Doric y habla con él."
+      },
+      "chatOptions": [
+        "1 Do you have any more Smithing tasks for me?"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Attack of the Trolls",
       "text": {
         "en": "Have 2 unnoted bronze bars in your inventory.",
         "es": "Ten 2 barras de bronce sin marcar en tu inventario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Attack of the Trolls",
       "text": {
         "en": "Use the anvil in the same room as Doric to make the cannon repair part.",
         "es": "Usa el yunque de la misma sala que Doric para fabricar la pieza de reparación del cañón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Attack of the Trolls",
       "text": {
         "en": "Return to Burthorpe and head north to the castle. Outside the castle, climb the ladder west of the entrance to reach the roof.",
         "es": "Vuelve a Burthorpe y dirígete al norte hacia el castillo. Fuera del castillo, sube por la escalera al oeste de la entrada para llegar al tejado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Attack of the Trolls",
       "text": {
         "en": "Repair the middle broken cannon to the north.",
         "es": "Repara el cañón roto del centro, al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Attack of the Trolls",
       "text": {
-        "en": "Return to Commander Denulth. (opciones de chat: 1 I've fixed the cannon.)",
-        "es": "Vuelve con Commander Denulth. (opciones de chat: 1 He arreglado el cañón.)"
-      }
+        "en": "Return to Commander Denulth.",
+        "es": "Vuelve con Commander Denulth."
+      },
+      "chatOptions": [
+        "1 I've fixed the cannon."
+      ]
     }
   ]
 }

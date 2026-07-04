@@ -2,7 +2,8 @@
   "id": "scorpion-catcher",
   "title": "Scorpion Catcher",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:13:02.811Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:01.461Z",
   "icon": "https://runescape.wiki/images/Scorpion_Catcher_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -58,143 +59,186 @@
       "image": "https://runescape.wiki/images/thumb/Thormac.png/100px-Thormac.png?e401c"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Scorpion_Catcher_reward.png?ec0c5",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Thormac on the top floor of the Sorcerer's Tower, south of Seers' Village, north-east of the Ardougne Lodestone. Be sure to get the scorpion cage from him and don't skip any dialogue. (opciones de chat: 1 • Accept)",
-        "es": "Habla con Thormac en el piso superior de la Sorcerer's Tower, al sur de Seers' Village, al noreste del Ardougne Lodestone. Asegúrate de conseguir la jaula para escorpiones de él y no te saltes ningún diálogo. (opciones de chat: 1 • Aceptar)"
-      }
+        "en": "Talk to Thormac on the top floor of the Sorcerer's Tower, south of Seers' Village, north-east of the Ardougne Lodestone. Be sure to get the scorpion cage from him and don't skip any dialogue.",
+        "es": "Habla con Thormac en el piso superior de la Sorcerer's Tower, al sur de Seers' Village, al noreste del Ardougne Lodestone. Asegúrate de conseguir la jaula para escorpiones de él y no te saltes ningún diálogo."
+      },
+      "chatOptions": [
+        "1",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "First scorpion",
       "text": {
-        "en": "Teleport to the Seers' Village lodestone, run east, and speak to a Seer (south-west of the bank). (opciones de chat: 2 Talk about Scorpion Catcher. • 2 Your friend Thormac sent me to speak to you.) (You have to wait for a while until dialogue appears again)",
+        "en": "Teleport to the Seers' Village lodestone, run east, and speak to a Seer (south-west of the bank). (You have to wait for a while until dialogue appears again)",
         "es": "Teletranspórtate al lodestone de Seers' Village, corre hacia el este y habla con un Seer (al suroeste del banco). (opciones de chat: 2 Hablar sobre Scorpion Catcher. • 2 Tu amigo Thormac me ha enviado a hablar contigo.) (Tienes que esperar un rato hasta que aparezca de nuevo el diálogo)"
-      }
+      },
+      "chatOptions": [
+        "2 Talk about Scorpion Catcher.",
+        "2 Your friend Thormac sent me to speak to you."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "First scorpion",
       "text": {
         "en": "Bring the scorpion cage and go into Taverley Dungeon and enter the poison spider area. You need to use the dusty key on the blue dragon door and follow the dungeon around past the black demons.",
         "es": "Lleva la jaula para escorpiones y entra en la Taverley Dungeon, dirígete a la zona de las arañas venenosas. Necesitas usar la dusty key en la puerta del dragón azul y seguir la mazmorra pasando los demonios negros."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "First scorpion",
       "text": {
         "en": "Note if you don't have a dusty key yet, defeat the jailer east of the Black Knights' Base, and pick up his dropped key. There will be a prisoner named Velrak the explorer who thanks you for freeing him and will give you the dusty key to you who is south of the jailer.",
         "es": "Nota: si aún no tienes una dusty key, derrota al carcelero al este de la Black Knights' Base y recoge la llave que suelta. Habrá un prisionero llamado Velrak the explorer que te agradecerá haberlo liberado y te dará la dusty key, situado al sur del carcelero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "First scorpion",
       "text": {
         "en": "Directly south of the level 80 Agility shortcut, search the old wall to enter a small room.",
         "es": "Justo al sur del atajo de Agilidad de nivel 80, registra el muro antiguo para entrar en una pequeña habitación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "First scorpion",
       "text": {
         "en": "If the wall does not open go back to the Seer and make sure to finish the dialogue.",
         "es": "Si el muro no se abre, vuelve con el Seer y asegúrate de terminar el diálogo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "First scorpion",
       "text": {
         "en": "Use the scorpion cage on the Kharidian scorpion.",
         "es": "Usa la jaula para escorpiones en el Kharidian scorpion."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Second scorpion",
       "text": {
         "en": "Go to the Barbarian Outpost (a games necklace is helpful).",
         "es": "Ve al Barbarian Outpost (un games necklace resulta útil)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Second scorpion",
       "text": {
         "en": "Go inside the fenced area near the entrance to the Agility course.",
         "es": "Entra en la zona vallada cerca de la entrada del circuito de Agilidad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Second scorpion",
       "text": {
         "en": "Go inside the building in the north-east corner of the area.",
         "es": "Entra en el edificio situado en la esquina noreste de la zona."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Second scorpion",
       "text": {
         "en": "Use the scorpion cage on the Kharidian scorpion.",
         "es": "Usa la jaula para escorpiones en el Kharidian scorpion."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Third scorpion",
       "text": {
         "en": "Go to the Edgeville Monastery (a combat bracelet is helpful, or the Edgeville lodestone).",
         "es": "Ve al Edgeville Monastery (un combat bracelet resulta útil, o el lodestone de Edgeville)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Third scorpion",
       "text": {
         "en": "Climb the eastern ladder and go to the east side of the floor.",
         "es": "Sube por la escalera este y dirígete al lado este de la planta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Third scorpion",
       "text": {
-        "en": "If you are stopped, talk to Abbot Langley and join the order. (opciones de chat: 1 Well can I join your order?)",
-        "es": "Si te detienen, habla con Abbot Langley y únete a la orden. (opciones de chat: 1 ¿Puedo unirme a vuestra orden?)"
-      }
+        "en": "If you are stopped, talk to Abbot Langley and join the order.",
+        "es": "Si te detienen, habla con Abbot Langley y únete a la orden."
+      },
+      "chatOptions": [
+        "1 Well can I join your order?"
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Third scorpion",
       "text": {
         "en": "Catch the scorpion.",
         "es": "Atrapa al escorpión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Return to Thormac.",
         "es": "Vuelve con Thormac."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

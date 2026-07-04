@@ -2,7 +2,8 @@
   "id": "shades-of-mort-ton",
   "title": "Shades of Mort'ton",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:13:37.763Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:02.491Z",
   "icon": "https://runescape.wiki/images/Shades_of_Mort%27ton_icon.png",
   "series": null,
   "age": "5",
@@ -118,271 +119,352 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Shades_of_Mort%27ton_reward.png?30c96",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Enter the south-western ruined house in Mort'ton.",
         "es": "Entra en la casa en ruinas del suroeste de Mort'ton."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Teleport to Canifis and run south-west to the gate of the swamp (must have Nature Spirit quest started), and then head to Mort'ton.",
         "es": "Teletranspórtate a Canifis y corre hacia el suroeste hasta la puerta del pantano (debes haber empezado la misión Nature Spirit), y luego dirígete a Mort'ton."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Getting started",
       "text": {
-        "en": "Teleport to fairy ring and then run south by south-east to where the map says the Hollows, to find a rowboat that takes you there.",
+        "en": "Teleport to fairy ring BKR and then run south by south-east to where the map says the Hollows, to find a rowboat that takes you there.",
         "es": "Teletranspórtate al fairy ring y luego corre hacia el sur, en dirección sureste, hasta el lugar que el mapa marca como the Hollows, para encontrar una barca de remos que te lleve hasta allí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Alternatively use Drakan's medallion to teleport to the Barrows and run west.",
         "es": "Alternativamente, usa el Drakan's medallion para teletransportarte a los Barrows y corre hacia el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Search the shelf on the wall and read the diary. (opciones de chat: Accept)",
-        "es": "Registra la estantería de la pared y lee el diario. (opciones de chat: Aceptar)"
-      }
+        "en": "Search the shelf on the wall and read the diary.",
+        "es": "Registra la estantería de la pared y lee el diario."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "If you do not find it, it's probably already in your bank.",
         "es": "Si no lo encuentras, probablemente ya esté en tu banco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "(Optional) Chop three swamp trees nearby and burn two logs to get the ashes.",
         "es": "(Opcional) Tala tres swamp trees cercanos y quema dos troncos para obtener cenizas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "If you have an Underworld Grimoire equipped make sure to disable the auto-storage function, otherwise your ashes will be sent to the bank.",
         "es": "Si tienes equipado el Underworld Grimoire, asegúrate de desactivar la función de almacenamiento automático, o de lo contrario tus cenizas se enviarán al banco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "(Optional) Pick up the vials (on the ground near the shelf) and search the smashed table for extra tarromin and one grimy rogue's purse.",
         "es": "(Opcional) Recoge los viales (en el suelo cerca de la estantería) y registra la mesa destrozada para conseguir tarromin extra y un grimy rogue's purse."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Serum 207",
       "text": {
         "en": "Make vials of water by using the empty vials on the sink nearby.",
         "es": "Fabrica vials of water usando los viales vacíos en el fregadero cercano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Serum 207",
       "text": {
         "en": "Make Serum 207 by adding clean tarromin and ashes to a vial of water.",
         "es": "Fabrica Serum 207 añadiendo tarromin limpio y cenizas a un vial of water."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Serum 207",
       "text": {
-        "en": "Use it on Razmire (afflicted) in the general store. (opciones de chat: 4 What are all these shadowy creatures? • 1 Yes, I'll dispatch those dark and evil creatures.)",
-        "es": "Úsalo en Razmire (afflicted) en la tienda general. (opciones de chat: 4 ¿Qué son todas estas criaturas sombrías? • 1 Sí, acabaré con esas criaturas oscuras y malvadas.)"
-      }
+        "en": "Use it on Razmire (afflicted) in the general store.",
+        "es": "Úsalo en Razmire (afflicted) en la tienda general."
+      },
+      "chatOptions": [
+        "4 What are all these shadowy creatures?",
+        "1 Yes, I'll dispatch those dark and evil creatures."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Serum 207",
       "text": {
         "en": "Kill five Loar Shades and pick up their remains. Be sure to talk to Razmire first. They can be safespotted using the rocks south west of the waypost in the middle of town.",
         "es": "Mata a cinco Loar Shades y recoge sus restos. Asegúrate de hablar primero con Razmire. Se les puede atacar desde una posición segura usando las rocas al suroeste del poste indicador en el centro del pueblo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Serum 207",
       "text": {
         "en": "Give him the remains. He may require more Serum 207.",
         "es": "Dale los restos. Puede que necesite más Serum 207."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Serum 207",
       "text": {
         "en": "Use the serum on Ulsquire Shauncy, located in the house east of the general store.",
         "es": "Usa el suero en Ulsquire Shauncy, que se encuentra en la casa al este de la tienda general."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Serum 207",
       "text": {
-        "en": "Wait a minute and ask him about the remains and the temple. (opciones de chat: 1 What did you find out about the remains? • 2 What can you tell me about that temple? • 5 Ok, thanks.)",
-        "es": "Espera un momento y pregúntale sobre los restos y el templo. (opciones de chat: 1 ¿Qué averiguaste sobre los restos? • 2 ¿Qué puedes contarme sobre ese templo? • 5 Vale, gracias.)"
-      }
+        "en": "Wait a minute and ask him about the remains and the temple.",
+        "es": "Espera un momento y pregúntale sobre los restos y el templo."
+      },
+      "chatOptions": [
+        "1 What did you find out about the remains?",
+        "2 What can you tell me about that temple?",
+        "5 Ok, thanks."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Serum 207",
       "text": {
-        "en": "Talk to Razmire. (opciones de chat: 3 I have another question. • 2 What can you tell me about that temple? • 4 Can you open a store for me? • 1 Can I see the general store please?)",
-        "es": "Habla con Razmire. (opciones de chat: 3 Tengo otra pregunta. • 2 ¿Qué puedes contarme sobre ese templo? • 4 ¿Puedes abrirme una tienda? • 1 ¿Puedo ver la tienda general, por favor?)"
-      }
+        "en": "Talk to Razmire.",
+        "es": "Habla con Razmire."
+      },
+      "chatOptions": [
+        "3 I have another question.",
+        "2 What can you tell me about that temple?",
+        "4 Can you open a store for me?",
+        "1 Can I see the general store please?"
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Serum 207",
       "text": {
         "en": "Buy at least one olive oil from his general store and optionally a Flamtaer hammer.",
         "es": "Compra al menos un olive oil en su tienda general y, opcionalmente, un Flamtaer hammer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Serum 207",
       "text": {
         "en": "Open his builders' store.",
         "es": "Abre su tienda de constructores."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Serum 207",
       "text": {
         "en": "Buy 5 timber beams, 5 limestone bricks, 25 swamp paste.",
         "es": "Compra 5 timber beams, 5 limestone bricks y 25 swamp paste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Repairing the temple",
       "text": {
         "en": "Hop to World 88 which is the official world for this minigame.",
         "es": "Cambia al Mundo 88, que es el mundo oficial para este minijuego."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Repairing the temple",
       "text": {
         "en": "Head north-east and kill shades or repair the temple to increase your sanctity.",
         "es": "Dirígete al noreste y mata shades o repara el templo para aumentar tu santidad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Repairing the temple",
       "text": {
         "en": "Repair the temple until you reach 100% and at least 20 sanctity.",
         "es": "Repara el templo hasta alcanzar el 100% y al menos 20 de santidad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Repairing the temple",
       "text": {
         "en": "Light the sacred altar in the centre of the temple.",
         "es": "Enciende el altar sagrado en el centro del templo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Repairing the temple",
       "text": {
         "en": "For solo questers: Shade luring dummies can be used to distract the Loar Shades when repairing the temple. Using the Flamtaer bracelet, the solo player can instantly create the temple walls section by section, until at 100%.",
         "es": "Para quienes hagan la misión en solitario: los shade luring dummies se pueden usar para distraer a los Loar Shades mientras reparas el templo. Usando el Flamtaer bracelet, el jugador en solitario puede crear instantáneamente las secciones de las paredes del templo, una a una, hasta llegar al 100%."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Repairing the temple",
       "text": {
         "en": "Use your olive oil on the flame to make sacred oil.",
         "es": "Usa tu olive oil en la llama para hacer sacred oil."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Repairing the temple",
       "text": {
         "en": "(Optional) Use Serum 207 on the flame to make Serum 208, which permanently cures NPCs.",
         "es": "(Opcional) Usa Serum 207 en la llama para hacer Serum 208, que cura a los NPC de forma permanente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Repairing the temple",
       "text": {
         "en": "(Optional) Use the Serum 208 on Razmire and Ulsquire in the houses nearby to permanently cure them.",
         "es": "(Opcional) Usa el Serum 208 en Razmire y Ulsquire, en las casas cercanas, para curarlos permanentemente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Burning a shade",
       "text": {
         "en": "Use the sacred oil on a log to create a pyre log.",
         "es": "Usa el sacred oil en un tronco para crear un pyre log."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Burning a shade",
       "text": {
         "en": "Head to south-western Mort'ton to the Funeral Fires (do not cross the river to the west). The Funeral Fires appear as black crosshairs on the minimap on the western part of the Mort'ton.",
         "es": "Dirígete al suroeste de Mort'ton, a los Funeral Fires (no cruces el río hacia el oeste). Los Funeral Fires aparecen como cruces negras en el minimapa, en la parte occidental de Mort'ton."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Burning a shade",
       "text": {
         "en": "Use the Pyre Log to light the fire, then use the Loar Remains to sacrifice them on the funeral pyre.",
         "es": "Usa el Pyre Log para encender el fuego, luego usa los Loar Remains para sacrificarlos en la pira funeraria."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Burning a shade",
       "text": {
         "en": "Talk to Ulsquire.",
         "es": "Habla con Ulsquire."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Burning a shade",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "daughter-of-chaos",
   "title": "Daughter of Chaos",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:01:55.425Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:52.061Z",
   "icon": "https://runescape.wiki/images/thumb/Daughter_of_Chaos_icon.png/50px-Daughter_of_Chaos_icon.png",
   "series": "Legacy of Zamorak",
   "age": "Age of Chaos",
@@ -83,311 +84,402 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Daughter_of_Chaos_reward.png?058e5",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Adrasteia in the White Knights' Castle's throne room (, east side). (opciones de chat: Accept • 2 I'll see it done.)",
-        "es": "Habla con Adrasteia en la sala del trono del Castillo de los White Knights (, lado este). (opciones de chat: Aceptar • 2 Me aseguraré de que se haga.)"
-      }
+        "en": "Talk to Adrasteia in the White Knights' Castle's throne room (, east side).",
+        "es": "Habla con Adrasteia en la sala del trono del Castillo de los White Knights (, lado este)."
+      },
+      "chatOptions": [
+        "Accept",
+        "2 I'll see it done."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Anne Dimitri downstairs 1 floor in the interrogation room (, centre). (opciones de chat: Any)",
-        "es": "Habla con Anne Dimitri, 1 piso abajo, en la sala de interrogatorios (, centro). (opciones de chat: Cualquiera)"
-      }
+        "en": "Talk to Anne Dimitri downstairs 1 floor in the interrogation room (, centre).",
+        "es": "Habla con Anne Dimitri, 1 piso abajo, en la sala de interrogatorios (, centro)."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Teleport to Edgeville.",
         "es": "Teletranspórtate a Edgeville."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Cross the Wilderness wall north of the Grand Exchange underwall tunnel.",
         "es": "Cruza el muro del Wilderness al norte del túnel subterráneo del Grand Exchange."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "Make sure PVP is turned off. Most of the quest takes place in instances.",
         "es": "Asegúrate de tener el PVP desactivado. La mayor parte de la misión transcurre en instancias."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Abandoned camp",
       "text": {
-        "en": "Talk to Anne Dimitri. (opciones de chat: 1 I'm ready.)",
-        "es": "Habla con Anne Dimitri. (opciones de chat: 1 Estoy listo.)"
-      }
+        "en": "Talk to Anne Dimitri.",
+        "es": "Habla con Anne Dimitri."
+      },
+      "chatOptions": [
+        "1 I'm ready."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Abandoned camp",
       "text": {
         "en": "Talk to Anne Dimitri again after arriving at the abandoned camp.",
         "es": "Habla de nuevo con Anne Dimitri al llegar al campamento abandonado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Abandoned camp",
       "text": {
         "en": "Investigate 3 points of interest. (yellow dots on minimap)",
         "es": "Investiga 3 puntos de interés. (puntos amarillos en el minimapa)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Abandoned camp",
       "text": {
         "en": "Talk to Anne Dimitri.",
         "es": "Habla con Anne Dimitri."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Abandoned camp",
       "text": {
         "en": "Capture 6 memory fragments.",
         "es": "Captura 6 fragmentos de memoria."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Abandoned camp",
       "text": {
         "en": "Interact with the Restored Memory twice. Make sure to have dismissed your familiar.",
         "es": "Interactúa con el Restored Memory dos veces. Asegúrate de haber despedido a tu familiar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Abandoned camp",
       "text": {
         "en": "As Moia:",
         "es": "Como Moia:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Abandoned camp",
       "text": {
         "en": "Talk to Bilrach in the west.",
         "es": "Habla con Bilrach al oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Abandoned camp",
       "text": {
         "en": "Kill the 9 enemies.",
         "es": "Mata a los 9 enemigos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 2,
+      "section": "Abandoned camp",
       "text": {
         "en": "You have Vault, Drain, and Blast abilities that you can trigger with the buttons on your screen (not the ability bar).",
         "es": "Tienes las habilidades Vault, Drain y Blast, que puedes activar con los botones en pantalla (no en la barra de habilidades)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 2,
+      "section": "Abandoned camp",
       "text": {
         "en": "Use Vault to escape the area of effect of chaos rifts.",
         "es": "Usa Vault para escapar del área de efecto de las grietas del caos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 2,
+      "section": "Abandoned camp",
       "text": {
         "en": "Use Drain as often as possible for healing. This ability is channelled. Moia will be uncommanded for a brief time by running to the target as this ability needs to be use semi-close to the enemy.",
         "es": "Usa Drain tan a menudo como sea posible para curarte. Esta habilidad es canalizada. Moia quedará sin control durante un breve momento al correr hacia el objetivo, ya que esta habilidad debe usarse a corta distancia del enemigo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 2,
+      "section": "Abandoned camp",
       "text": {
         "en": "Use Blast as often as possible near enemies to deal extra damage.",
         "es": "Usa Blast tan a menudo como sea posible cerca de los enemigos para infligir daño extra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 2,
+      "section": "Abandoned camp",
       "text": {
         "en": "If you die, you can lower the combat difficulty at any point of the quest when restarting the battle at Anne Dimitri in Wilderness.",
         "es": "Si mueres, puedes reducir la dificultad de combate en cualquier momento de la misión al reiniciar la batalla con Anne Dimitri en el Wilderness."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 2,
+      "section": "Abandoned camp",
       "text": {
         "en": "Optionally, use the health orbs after killing any of the 9 required enemies.",
         "es": "Opcionalmente, usa las esferas de vida tras matar a cualquiera de los 9 enemigos requeridos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Abandoned camp",
       "text": {
         "en": "Talk to Bilrach again.",
         "es": "Habla de nuevo con Bilrach."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Red Dragon Isle",
       "text": {
-        "en": "Talk to Anne Dimitri. (opciones de chat: 4 We should move on.)",
-        "es": "Habla con Anne Dimitri. (opciones de chat: 4 Deberíamos continuar.)"
-      }
+        "en": "Talk to Anne Dimitri.",
+        "es": "Habla con Anne Dimitri."
+      },
+      "chatOptions": [
+        "4 We should move on."
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Red Dragon Isle",
       "text": {
         "en": "Talk to Anne Dimitri again.",
         "es": "Habla de nuevo con Anne Dimitri."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Red Dragon Isle",
       "text": {
         "en": "Inspect 3 points of interest.",
         "es": "Inspecciona 3 puntos de interés."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Red Dragon Isle",
       "text": {
         "en": "Talk to Anne Dimitri.",
         "es": "Habla con Anne Dimitri."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Red Dragon Isle",
       "text": {
         "en": "Capture 6 memory fragments.",
         "es": "Captura 6 fragmentos de memoria."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Red Dragon Isle",
       "text": {
         "en": "Interact with the Restored Memory twice.",
         "es": "Interactúa con el Restored Memory dos veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Red Dragon Isle",
       "text": {
         "en": "As Moia:",
         "es": "Como Moia:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 1,
+      "section": "Red Dragon Isle",
       "text": {
         "en": "Kill the 6 enemies as in the previous section.",
         "es": "Mata a los 6 enemigos como en la sección anterior."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Red Dragon Isle",
       "text": {
         "en": "Talk to the wounded cultist in the south-western corner of the isle.",
         "es": "Habla con el cultista herido en la esquina suroeste de la isla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Wilderness Crater",
       "text": {
         "en": "Talk to Anne Dimitri.",
         "es": "Habla con Anne Dimitri."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Wilderness Crater",
       "text": {
         "en": "Interact with the Restored Memory.",
         "es": "Interactúa con el Restored Memory."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Wilderness Crater",
       "text": {
         "en": "As Moia:",
         "es": "Como Moia:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "Wilderness Crater",
       "text": {
         "en": "Kill Avaryss, the Unceasing using the abilities as in previous sections. She periodically summons two greater demons that can be killed for health orbs.",
         "es": "Mata a Avaryss, the Unceasing usando las habilidades como en las secciones anteriores. Ella invoca periódicamente a dos greater demons que pueden matarse para obtener esferas de vida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Confronting Moia",
       "text": {
-        "en": "Talk to Moia. (opciones de chat: Any • Any)",
-        "es": "Habla con Moia. (opciones de chat: Cualquiera • Cualquiera)"
-      }
+        "en": "Talk to Moia.",
+        "es": "Habla con Moia."
+      },
+      "chatOptions": [
+        "Any",
+        "Any"
+      ]
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Confronting Moia",
       "text": {
-        "en": "Talk to Trindine. (opciones de chat: 2 I'll report back to Adrasteia.)",
-        "es": "Habla con Trindine. (opciones de chat: 2 Le informaré a Adrasteia.)"
-      }
+        "en": "Talk to Trindine.",
+        "es": "Habla con Trindine."
+      },
+      "chatOptions": [
+        "2 I'll report back to Adrasteia."
+      ]
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Reporting back",
       "text": {
         "en": "Talk to Adrasteia in the White Knights' Castle's throne room (, east side).",
         "es": "Habla con Adrasteia en la sala del trono del Castillo de los White Knights (, lado este)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Reporting back",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "civil-war-ii-miniquest",
   "title": "Civil War II (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T19:57:55.861Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:47.086Z",
   "icon": "https://runescape.wiki/images/thumb/Civil_War_II_%28miniquest%29_icon.png/50px-Civil_War_II_%28miniquest%29_icon.png",
   "series": "Legacy of Zamorak",
   "age": "Age of Chaos",
@@ -41,39 +42,53 @@
       "image": "https://runescape.wiki/images/thumb/Infernal_Puzzle_Box_detail.png/100px-Infernal_Puzzle_Box_detail.png?20f96"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Civil_War_II_%28miniquest%29_reward.png?8483d",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Contacting Anne Dimitri",
       "text": {
-        "en": "Talk to Anne Dimitri (just north of Quercus in the Wilderness). (opciones de chat: Accept)",
-        "es": "Habla con Anne Dimitri (justo al norte de Quercus, en el Wilderness). (opciones de chat: Accept)"
-      }
+        "en": "Talk to Anne Dimitri (just north of Quercus in the Wilderness).",
+        "es": "Habla con Anne Dimitri (justo al norte de Quercus, en el Wilderness)."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Contacting Anne Dimitri",
       "text": {
-        "en": "Talk to Nikkel (west of the PvP hatch, west of Quercus). (opciones de chat: 1 Discuss Civil War II. • Any)",
-        "es": "Habla con Nikkel (al oeste de la trampilla PvP, al oeste de Quercus). (opciones de chat: 1 Discuss Civil War II. • Any)"
-      }
+        "en": "Talk to Nikkel (west of the PvP hatch, west of Quercus).",
+        "es": "Habla con Nikkel (al oeste de la trampilla PvP, al oeste de Quercus)."
+      },
+      "chatOptions": [
+        "1 Discuss Civil War II.",
+        "Any"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The recording",
       "text": {
         "en": "Talk to Anne Dimitri. Watch the cutscene.",
         "es": "Habla con Anne Dimitri. Observa la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The recording",
       "text": {
         "en": "Miniquest complete!",
         "es": "¡Minimisión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

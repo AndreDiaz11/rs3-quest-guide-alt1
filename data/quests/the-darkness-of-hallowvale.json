@@ -2,7 +2,8 @@
   "id": "the-darkness-of-hallowvale",
   "title": "The Darkness of Hallowvale",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T01:45:36.061Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:15.958Z",
   "icon": "https://runescape.wiki/images/The_Darkness_of_Hallowvale_icon.png",
   "series": "Myreque",
   "age": "5",
@@ -164,927 +165,1218 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Darkness_of_Hallowvale_reward.png?034d7",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Go to Burgh de Rott, then enter in the inn where you will climb over the broken down wall and climb down trapdoor in the northwest of inn.",
         "es": "Ve a Burgh de Rott y luego entra en la posada, donde trepa por el muro derruido y bajarás por la trampilla situada al noroeste de la posada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Veliaf Hurtz in the Burgh de Rott pub basement. (opciones de chat: 4 Is there something I can do to help you? • Accept • 1 What is the Sanguinesti region? • 2 How can I search for the Sanguinesti order of the Myreque? • 3 Can you tell me about the Sanguinesti Myreque? • 4 Tell me again how to get into the Sanguinesti region. • 5 Ok, thanks.)",
-        "es": "Habla con Veliaf Hurtz en el sótano del pub de Burgh de Rott. (opciones de chat: 4 ¿Hay algo en lo que pueda ayudarte? • Aceptar • 1 ¿Qué es la región de Sanguinesti? • 2 ¿Cómo puedo buscar a la orden Sanguinesti del Myreque? • 3 ¿Puedes hablarme sobre el Myreque de Sanguinesti? • 4 Dime otra vez cómo llegar a la región de Sanguinesti. • 5 Vale, gracias.)"
-      }
+        "en": "Talk to Veliaf Hurtz in the Burgh de Rott pub basement.",
+        "es": "Habla con Veliaf Hurtz en el sótano del pub de Burgh de Rott."
+      },
+      "chatOptions": [
+        "4 Is there something I can do to help you?",
+        "Accept",
+        "1 What is the Sanguinesti region?",
+        "2 How can I search for the Sanguinesti order of the Myreque?",
+        "3 Can you tell me about the Sanguinesti Myreque?",
+        "4 Tell me again how to get into the Sanguinesti region.",
+        "5 Ok, thanks."
+      ]
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "Search the chest to the north for garlic if you do not have one.",
         "es": "Busca en el cofre situado al norte para conseguir ajo si no tienes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Run south-east of the pub until you find a boathouse.",
         "es": "Corre al sureste del pub hasta encontrar un cobertizo para botes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Search the boat, then use a plank on it to fix it.",
         "es": "Busca en el bote y luego usa una tabla en él para repararlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "South of the boat, use plank on the boat chute to fix it.",
         "es": "Al sur del bote, usa una tabla en la rampa del bote para repararla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Push the boat down the chute, then go down to the docks and board the boat. If a Vyrewatch stops you at any point, just activate Freedom and walk away.",
         "es": "Empuja el bote por la rampa, luego baja hasta los muelles y sube al bote. Si un Vyrewatch te detiene en algún momento, simplemente activa Freedom y aléjate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "Keybind may not work, recommended to click the ability on your action bar or in the Defence abilities tab.",
         "es": "Puede que la tecla asignada no funcione; se recomienda hacer clic en la habilidad desde la barra de acciones o en la pestaña de habilidades de Defensa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Exit the boat by jumping onto the nearby rock, and continue north-west a short distance.",
         "es": "Sal del bote saltando a la roca cercana y continúa una corta distancia hacia el noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Just before the shore, kick down the floor, and climb down it as shown on the image on the right.",
         "es": "Justo antes de la orilla, derriba el suelo de una patada y baja por él como se muestra en la imagen de la derecha."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Climb the wall rubble to the north and talk to a Meiyerditch citizen. (opciones de chat: 4 (whisper) Do you know about the Myreque? • 4 (whisper) I really need to meet the Myreque. • 4 How can Old Man Ral help me?)",
+        "en": "Climb the wall rubble to the north and talk to a Meiyerditch citizen.",
         "es": "Trepa por los escombros del muro hacia el norte y habla con un ciudadano de Meiyerditch. (opciones de chat: 4 (susurro) ¿Sabes algo sobre el Myreque? • 4 (susurro) Realmente necesito reunirme con el Myreque. • 4 ¿Cómo puede ayudarme Old Man Ral?)"
-      }
+      },
+      "chatOptions": [
+        "4 (whisper) Do you know about the Myreque?",
+        "4 (whisper) I really need to meet the Myreque.",
+        "4 How can Old Man Ral help me?"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "North of the wall rubble, talk to Old Man Ral (File:Task map icon.png Taskmaster icon on the map). (opciones de chat: 4 Someone said you could help me. • 4 Old Man Ral, the sage of Sanguinesti.)",
-        "es": "Al norte de los escombros del muro, habla con Old Man Ral (File:Task map icon.png icono de Taskmaster en el mapa). (opciones de chat: 4 Alguien dijo que podrías ayudarme. • 4 Old Man Ral, el sabio de Sanguinesti.)"
-      }
+        "en": "North of the wall rubble, talk to Old Man Ral (File:Task map icon.png Taskmaster icon on the map).",
+        "es": "Al norte de los escombros del muro, habla con Old Man Ral (File:Task map icon.png icono de Taskmaster en el mapa)."
+      },
+      "chatOptions": [
+        "4 Someone said you could help me.",
+        "4 Old Man Ral, the sage of Sanguinesti."
+      ]
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "(Optional) If you want to reduce detection chance by the Vyrewatch, you can buy a set of Vyrewatch clothing from Trader Sven just south of Old Man Ral before continuing.",
         "es": "(Opcional) Si quieres reducir la probabilidad de ser detectado por los Vyrewatch, puedes comprar un conjunto de ropa Vyrewatch a Trader Sven, justo al sur de Old Man Ral, antes de continuar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Sector 1 directions",
       "text": {
         "en": "Go to the house south-west of Old Man Ral with the door facing north (the western of the two houses with northern doors – it has a sickle next to it on the outside wall). Open the door and enter it.",
         "es": "Ve a la casa al suroeste de Old Man Ral con la puerta orientada al norte (la más occidental de las dos casas con puertas al norte; tiene una hoz junto a ella en el muro exterior). Abre la puerta y entra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Sector 1 directions",
       "text": {
         "en": "Climb up the ladder there.",
         "es": "Sube por la escalera que hay allí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Sector 1 directions",
       "text": {
         "en": "Jump to the floorboards in the south.",
         "es": "Salta a las tablas del suelo en el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Sector 1 directions",
       "text": {
         "en": "Jump to the floorboards in the east.",
         "es": "Salta a las tablas del suelo en el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Sector 1 directions",
       "text": {
         "en": "Go to the north-east corner of the room, push the wall and walk across the floor.",
         "es": "Ve a la esquina noreste de la habitación, empuja el muro y camina por el suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Sector 1 directions",
       "text": {
         "en": "Crawl under the wall to the north.",
         "es": "Gatea por debajo del muro hacia el norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Sector 1 directions",
       "text": {
         "en": "Go north to the second room, look on the west side, push the wall and walk across the floor.",
         "es": "Ve al norte hasta la segunda habitación, mira en el lado oeste, empuja el muro y camina por el suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Sector 1 directions",
       "text": {
         "en": "Climb down the ladder.",
         "es": "Baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Sector 1 directions",
       "text": {
         "en": "Search the table next to the wall, open the trapdoor table, and go through the trapdoor tunnel.",
         "es": "Busca en la mesa junto al muro, abre la mesa con trampilla y pasa por el túnel de la trampilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Sector 1 directions",
       "text": {
         "en": "Climb up the shelf next to the sickle logo in the north-west corner of the room.",
         "es": "Sube por la estantería junto al símbolo de la hoz en la esquina noroeste de la habitación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Sector 1 directions",
       "text": {
         "en": "Crawl under the wall to the east side.",
         "es": "Gatea por debajo del muro hacia el lado este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Sector 1 directions",
       "text": {
         "en": "Jump to the floorboards in the east.",
         "es": "Salta a las tablas del suelo en el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Sector 1 directions",
       "text": {
         "en": "Climb down the ladder.",
         "es": "Baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Sector 1 directions",
       "text": {
         "en": "Search the pots near the eastern door to get a key and use it to open the door.",
         "es": "Busca en las macetas cerca de la puerta este para conseguir una llave y úsala para abrir la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Climb up the ladder in the room to the east, by the sickle.",
         "es": "Sube por la escalera en la habitación del este, junto a la hoz."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Jump to the floorboards in the south.",
         "es": "Salta a las tablas del suelo en el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Go east, south, west then climb up the shelf to the south.",
         "es": "Ve al este, al sur, al oeste y luego sube por la estantería hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Climb up the ladder in the west.",
         "es": "Sube por la escalera en el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Jump to the floorboards in the south.",
         "es": "Salta a las tablas del suelo en el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Walk a little to the south-west and climb down the ladder once.",
         "es": "Camina un poco hacia el suroeste y baja por la escalera una vez."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Go east through the rooms and walk across the washing line.",
         "es": "Ve al este a través de las habitaciones y camina por el tendedero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Climb down the ladder.",
         "es": "Baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Push the wall to the north and walk across the floor.",
         "es": "Empuja el muro hacia el norte y camina por el suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Climb up the shelf to the north.",
         "es": "Sube por la estantería hacia el norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Climb down the shelf in the north-eastern corner.",
         "es": "Baja por la estantería en la esquina noreste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Jump to the floorboards in the north.",
         "es": "Salta a las tablas del suelo en el norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Jump to the floorboards in the north again.",
         "es": "Salta de nuevo a las tablas del suelo en el norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Go to the north end of the house and jump to the floorboards in the east.",
         "es": "Ve al extremo norte de la casa y salta a las tablas del suelo en el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Climb up the ladder to the east.",
         "es": "Sube por la escalera hacia el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Search the wall to the west to get the ladder top.",
         "es": "Busca en el muro hacia el oeste para conseguir la parte superior de la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Sector 2 directions",
       "text": {
         "en": "Climb down the same ladder, repair the broken ladder going down by using the ladder top from inventory to broken ladder and climb down the ladder.",
         "es": "Baja por la misma escalera, repara la escalera rota que baja usando la parte superior de la escalera del inventario sobre la escalera rota y baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Sector 3 directions",
       "text": {
         "en": "Open the door to the east and go northwest outside. Go past the house immediately north of the house you just left and into the house with a door on its east side. You should be in a room that has an unlit fireplace, a portrait, and some sort of wall east of it joined to a room that is a perfect diamond.",
         "es": "Abre la puerta hacia el este y sal al noroeste. Pasa por la casa justo al norte de la que acabas de dejar y entra en la casa con una puerta en su lado este. Deberías estar en una habitación que tiene una chimenea apagada, un retrato y algún tipo de muro al este de ella conectado a una habitación con forma de diamante perfecto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Sector 3 directions",
       "text": {
         "en": "Go west through the door into the next room, then north out of the house until you see barricades.",
         "es": "Ve al oeste por la puerta hacia la siguiente habitación, luego al norte fuera de la casa hasta que veas barricadas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Sector 3 directions",
       "text": {
         "en": "Head east at the sickle logo, past the north side of the house with two buckets. Enter the first door to your south; you should be east of the room with two buckets and north of the diamond room from earlier.",
         "es": "Dirígete al este en el símbolo de la hoz, pasando por el lado norte de la casa con dos cubos. Entra por la primera puerta a tu sur; deberías estar al este de la habitación con dos cubos y al norte de la habitación en forma de diamante de antes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Sector 3 directions",
       "text": {
         "en": "Climb up the ladder.",
         "es": "Sube por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Sector 3 directions",
       "text": {
         "en": "Jump to the floorboards in the east.",
         "es": "Salta a las tablas del suelo en el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Sector 3 directions",
       "text": {
         "en": "Climb down the stairs.",
         "es": "Baja por las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Sector 3 directions",
       "text": {
         "en": "Go south along the eastern side of the stairs. Attempt to push the wall and choose a knife or a sickle to unlock the latch (tool belt knife works), allowing you to push it open.",
         "es": "Ve al sur por el lado este de las escaleras. Intenta empujar el muro y elige un cuchillo o una hoz para abrir el pestillo (el cuchillo del cinturón de herramientas funciona), lo que te permitirá empujarlo y abrirlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Sector 3 directions",
       "text": {
         "en": "Push the decorated wall from the southern side.",
         "es": "Empuja el muro decorado desde el lado sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Sector 3 directions",
       "text": {
         "en": "Open the lumpy rug on the southeast square in the 4-square pattern of the rug. If you take too long, you will have to push the wall again as the mechanism will quickly reset.",
         "es": "Abre la alfombra abultada en el cuadrado sureste del patrón de 4 cuadrados de la alfombra. Si tardas demasiado, tendrás que empujar el muro otra vez, ya que el mecanismo se reiniciará rápidamente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Sector 3 directions",
       "text": {
         "en": "Climb down trapdoor to enter the hideout.",
         "es": "Baja por la trampilla para entrar en el escondite."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Myreque meetings",
       "text": {
-        "en": "Run far north and talk to Vertida. (opciones de chat: 3 What should I do now? • 4 Okay, thanks.)",
-        "es": "Corre bien al norte y habla con Vertida. (opciones de chat: 3 ¿Qué debería hacer ahora? • 4 Vale, gracias.)"
-      }
+        "en": "Run far north and talk to Vertida.",
+        "es": "Corre bien al norte y habla con Vertida."
+      },
+      "chatOptions": [
+        "3 What should I do now?",
+        "4 Okay, thanks."
+      ]
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Myreque meetings",
       "text": {
-        "en": "Take the message back to Veliaf Hurtz who is in the basement of the pub in Burgh de Rott. (opciones de chat: 1 I have a message for you from Vertida! • 3 What do you want me to do? • 4 Okay, thanks.)",
-        "es": "Lleva el mensaje de vuelta a Veliaf Hurtz, que está en el sótano del pub de Burgh de Rott. (opciones de chat: 1 ¡Tengo un mensaje para ti de Vertida! • 3 ¿Qué quieres que haga? • 4 Vale, gracias.)"
-      }
+        "en": "Take the message back to Veliaf Hurtz who is in the basement of the pub in Burgh de Rott.",
+        "es": "Lleva el mensaje de vuelta a Veliaf Hurtz, que está en el sótano del pub de Burgh de Rott."
+      },
+      "chatOptions": [
+        "1 I have a message for you from Vertida!",
+        "3 What do you want me to do?",
+        "4 Okay, thanks."
+      ]
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Ambush at Paterdomus",
       "text": {
-        "en": "Talk to Drezel in the Mausoleum under the Paterdomus temple west of Canifis. Use or the invitation box to teleport nearby. (opciones de chat: 2 Did you hear the sounds as well? • 5 Okay, thanks.)",
-        "es": "Habla con Drezel en el Mausoleum bajo el templo de Paterdomus, al oeste de Canifis. Utiliza la invitation box para teletransportarte cerca. (opciones de chat: 2 ¿Tú también oíste los sonidos? • 5 Vale, gracias.)"
-      }
+        "en": "Talk to Drezel in the Mausoleum under the Paterdomus temple west of Canifis. Use CKS or the invitation box to teleport nearby.",
+        "es": "Habla con Drezel en el Mausoleum bajo el templo de Paterdomus, al oeste de Canifis. Utiliza la invitation box para teletransportarte cerca."
+      },
+      "chatOptions": [
+        "2 Did you hear the sounds as well?",
+        "5 Okay, thanks."
+      ]
     },
     {
       "index": 57,
       "indent": 1,
+      "section": "Ambush at Paterdomus",
       "text": {
-        "en": "If you have destroyed your Temple library key (opciones de chat: 1 Talk about items.)",
-        "es": "Si has destruido tu Temple library key (opciones de chat: 1 Hablar sobre objetos.)"
-      }
+        "en": "If you have destroyed your Temple library key",
+        "es": "Si has destruido tu Temple library key"
+      },
+      "chatOptions": [
+        "1 Talk about items."
+      ]
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Ambush at Paterdomus",
       "text": {
         "en": "Take the west exit, past the monuments.",
         "es": "Toma la salida oeste, pasando los monumentos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 0,
+      "section": "Ambush at Paterdomus",
       "text": {
         "en": "Search the small bush slightly south-west of the western church steps.",
         "es": "Busca en el pequeño arbusto ligeramente al suroeste de los escalones de la iglesia occidental."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Ambush at Paterdomus",
       "text": {
         "en": "Return and talk to Drezel in the Mausoleum. He will give you runes to teleport to Varrock.",
         "es": "Vuelve y habla con Drezel en el Mausoleum. Te dará runas para teletransportarte a Varrock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 1,
+      "section": "Ambush at Paterdomus",
       "text": {
-        "en": "Depending on other running quests, you might need to talk to him. (opciones de chat: 2 Talk about something else.)",
-        "es": "Dependiendo de otras misiones en curso, puede que necesites hablar con él. (opciones de chat: 2 Hablar sobre otra cosa.)"
-      }
+        "en": "Depending on other running quests, you might need to talk to him.",
+        "es": "Dependiendo de otras misiones en curso, puede que necesites hablar con él."
+      },
+      "chatOptions": [
+        "2 Talk about something else."
+      ]
     },
     {
       "index": 62,
       "indent": 0,
+      "section": "Ambush at Paterdomus",
       "text": {
-        "en": "Talk to King Roald in the Varrock Palace. (opciones de chat: 1 Talk about Darkness of Hallowvale. • 4 What should I do now? • 1 Yes thanks, I'll accept the free teleport.)",
-        "es": "Habla con King Roald en el Varrock Palace. (opciones de chat: 1 Hablar sobre Darkness of Hallowvale. • 4 ¿Qué debería hacer ahora? • 1 Sí, gracias, aceptaré el teletransporte gratuito.)"
-      }
+        "en": "Talk to King Roald in the Varrock Palace.",
+        "es": "Habla con King Roald en el Varrock Palace."
+      },
+      "chatOptions": [
+        "1 Talk about Darkness of Hallowvale.",
+        "4 What should I do now?",
+        "1 Yes thanks, I'll accept the free teleport."
+      ]
     },
     {
       "index": 63,
       "indent": 1,
+      "section": "Ambush at Paterdomus",
       "text": {
         "en": "You will be teleported back to the Paterdomus.",
         "es": "Serás teletransportado de vuelta a Paterdomus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
-        "en": "Talk to Drezel about what to do next. (opciones de chat: 2 What should I do now? • 3 Okay, thanks.)",
-        "es": "Habla con Drezel sobre qué hacer a continuación. (opciones de chat: 2 ¿Qué debería hacer ahora? • 3 Vale, gracias.)"
-      }
+        "en": "Talk to Drezel about what to do next.",
+        "es": "Habla con Drezel sobre qué hacer a continuación."
+      },
+      "chatOptions": [
+        "2 What should I do now?",
+        "3 Okay, thanks."
+      ]
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
-        "en": "Talk to Veliaf Hurtz back in the basement of the pub in Burgh de Rott. (opciones de chat: 1 I was attacked near to Paterdomus! • 2 King Roald cannot send troops! • 3 What should we do now? • 4 Okay, thanks.)",
-        "es": "Habla de nuevo con Veliaf Hurtz en el sótano del pub de Burgh de Rott. (opciones de chat: 1 ¡Me atacaron cerca de Paterdomus! • 2 ¡King Roald no puede enviar tropas! • 3 ¿Qué deberíamos hacer ahora? • 4 Vale, gracias.)"
-      }
+        "en": "Talk to Veliaf Hurtz back in the basement of the pub in Burgh de Rott.",
+        "es": "Habla de nuevo con Veliaf Hurtz en el sótano del pub de Burgh de Rott."
+      },
+      "chatOptions": [
+        "1 I was attacked near to Paterdomus!",
+        "2 King Roald cannot send troops!",
+        "3 What should we do now?",
+        "4 Okay, thanks."
+      ]
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
-        "en": "Return to Meiyerditch using the boat in the boathouse south-east and try to get caught by a Vyrewatch. (opciones de chat: 2 Do a bit of menial work)",
-        "es": "Vuelve a Meiyerditch usando el bote del cobertizo al sureste e intenta que un Vyrewatch te atrape. (opciones de chat: 2 Hacer un poco de trabajo servil)"
-      }
+        "en": "Return to Meiyerditch using the boat in the boathouse south-east and try to get caught by a Vyrewatch.",
+        "es": "Vuelve a Meiyerditch usando el bote del cobertizo al sureste e intenta que un Vyrewatch te atrape."
+      },
+      "chatOptions": [
+        "2 Do a bit of menial work"
+      ]
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Mine 15 ore from the walls. (Only requires 1 backpack space as the ores stack)",
         "es": "Extrae 15 minerales de los muros. (Solo requiere 1 espacio en la mochila, ya que los minerales se apilan)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 68,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
-        "en": "Use them on a minecart (opciones de chat: 1 Yes, I'll place it all in the cart.), then talk to a guard.",
+        "en": "Use them on a minecart , then talk to a guard.",
         "es": "Úsalos en un minecart (opciones de chat: 1 Sí, lo pondré todo en el carro.), luego habla con un guardia."
-      }
+      },
+      "chatOptions": [
+        "1 Yes, I'll place it all in the cart."
+      ]
     },
     {
       "index": 69,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Run south-east to the house marked on the map (right).",
         "es": "Corre al sureste hasta la casa marcada en el mapa (derecha)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 70,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Go south through 3 doors and up the ladder.",
         "es": "Ve al sur a través de 3 puertas y sube por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 71,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Jump the floorboards to the east, descend the stairs and enter the hideout.",
         "es": "Salta a las tablas del suelo hacia el este, baja las escaleras y entra en el escondite."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 72,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
-        "en": "Talk to Vertida (opciones de chat: 3 What should I do now? • 2 Okay, lead the way.)",
-        "es": "Habla con Vertida (opciones de chat: 3 ¿Qué debería hacer ahora? • 2 Vale, guía el camino.)"
-      }
+        "en": "Talk to Vertida",
+        "es": "Habla con Vertida"
+      },
+      "chatOptions": [
+        "3 What should I do now?",
+        "2 Okay, lead the way."
+      ]
     },
     {
       "index": 73,
       "indent": 1,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "You will be teleported back to sector 1.",
         "es": "Serás teletransportado de vuelta al sector 1."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 74,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Climb down the ladder, open the door, run south and climb over the wall rubble near the shore.",
         "es": "Baja por la escalera, abre la puerta, corre al sur y trepa por los escombros del muro cerca de la orilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 75,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Run south and climb the fallen floorboards back towards the boat and onto the top of the wall.",
         "es": "Corre al sur y sube por las tablas caídas de vuelta hacia el bote y hasta la parte superior del muro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 76,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Run north along the top of the wall and climb down the ladder.",
         "es": "Corre al norte por la parte superior del muro y baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 77,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Choose the \"search\" option on the rocky surface.",
         "es": "Elige la opción \"buscar\" en la superficie rocosa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 78,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Open the barricade to the north; then go north, and climb up the ladder.",
         "es": "Abre la barricada hacia el norte; luego ve al norte y sube por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 79,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
-        "en": "Keep running north along the wall, over more ladders. Talk to Safalaan at the very end to receive papyrus and charcoal. (opciones de chat: 2 I was attacked near Paterdomus on my travels. • 1 Can I help in some way? • 3 Okay, thanks.)",
-        "es": "Sigue corriendo al norte por el muro, pasando más escaleras. Habla con Safalaan al final del todo para recibir papyrus y charcoal. (opciones de chat: 2 Me atacaron cerca de Paterdomus durante mis viajes. • 1 ¿Puedo ayudar de alguna forma? • 3 Vale, gracias.)"
-      }
+        "en": "Keep running north along the wall, over more ladders. Talk to Safalaan at the very end to receive papyrus and charcoal.",
+        "es": "Sigue corriendo al norte por el muro, pasando más escaleras. Habla con Safalaan al final del todo para recibir papyrus y charcoal."
+      },
+      "chatOptions": [
+        "2 I was attacked near Paterdomus on my travels.",
+        "1 Can I help in some way?",
+        "3 Okay, thanks."
+      ]
     },
     {
       "index": 80,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Run clockwise around the wall until you reach the north wall and see a sickle drawn on the ground.",
         "es": "Corre en sentido horario alrededor del muro hasta llegar al muro norte y ver una hoz dibujada en el suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 81,
       "indent": 1,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "If playing on high graphics settings, the sickle will be hard to see due to the shadows on the ground. The sickle is located just past where the shadows first appear on the north wall.",
         "es": "Si juegas con gráficos altos, la hoz será difícil de ver debido a las sombras en el suelo. La hoz está ubicada justo después de donde aparecen por primera vez las sombras en el muro norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 82,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Use the papyrus on the charcoal and watch the cutscene.",
         "es": "Usa el papyrus en el charcoal y observa la cutscene."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 83,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Go anticlockwise around the wall to a sickle on the west wall, and then one on south wall. Use papyrus on charcoal at each of the symbols.",
         "es": "Ve en sentido antihorario alrededor del muro hasta una hoz en el muro oeste, y luego una en el muro sur. Usa papyrus en charcoal en cada uno de los símbolos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 84,
       "indent": 1,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Western wall",
         "es": "Muro oeste"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 85,
       "indent": 1,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Southern wall",
         "es": "Muro sur"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 86,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Watch cutscene. Let Vanstrom attack you a bit which will knock you out.",
         "es": "Observa la cutscene. Deja que Vanstrom te ataque un poco, lo que te dejará inconsciente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 87,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Talk to and finish the dialogue with Sarius if she didn't automatically talk to you when Vanstrom knocked you out. You must talk with Sarius until she disappears, otherwise Safalaan will say your sketches are not genuine in the next step.",
         "es": "Habla y termina el diálogo con Sarius si no te habló automáticamente cuando Vanstrom te dejó inconsciente. Debes hablar con Sarius hasta que desaparezca; de lo contrario, Safalaan dirá que tus bocetos no son auténticos en el siguiente paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 88,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "After being knocked out, go back to the south wall and finish your final sketch.",
         "es": "Después de quedar inconsciente, vuelve al muro sur y termina tu boceto final."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 89,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "Go south back to the ladder and climb down.",
         "es": "Ve al sur de vuelta a la escalera y bájala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 90,
       "indent": 0,
+      "section": "Meeting Safalaan Hallow",
       "text": {
-        "en": "Return to the hideout and talk to Safalaan (opciones de chat: 1 I have all the sketches for you! • 4 What should I do now? • 5 Okay, Thanks.)",
-        "es": "Vuelve al escondite y habla con Safalaan (opciones de chat: 1 ¡Tengo todos los bocetos para ti! • 4 ¿Qué debería hacer ahora? • 5 Vale, gracias.)"
-      }
+        "en": "Return to the hideout and talk to Safalaan",
+        "es": "Vuelve al escondite y habla con Safalaan"
+      },
+      "chatOptions": [
+        "1 I have all the sketches for you!",
+        "4 What should I do now?",
+        "5 Okay, Thanks."
+      ]
     },
     {
       "index": 91,
       "indent": 1,
+      "section": "Meeting Safalaan Hallow",
       "text": {
         "en": "The quickest way to return is to get noticed by the Vyrewatch, get sent to the mine, and then go southeast to the hideout as before. If you are having trouble getting noticed just log out and log back in.",
         "es": "La forma más rápida de volver es hacer que un Vyrewatch te note, que te envíen a la mina, y luego ir al sureste hasta el escondite como antes. Si tienes problemas para que te noten, simplemente cierra sesión y vuelve a entrar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 92,
       "indent": 0,
+      "section": "Locating the laboratory",
       "text": {
         "en": "Leave the hideout, push the wall, climb the stairs, jump the gap, down the ladder.",
         "es": "Sal del escondite, empuja el muro, sube las escaleras, salta el hueco y baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 93,
       "indent": 0,
+      "section": "Locating the laboratory",
       "text": {
         "en": "Go out the north door, walk slightly west and then south, and open the door to a room with a fireplace. Look at the fireplace.",
         "es": "Sal por la puerta norte, camina un poco hacia el oeste y luego al sur, y abre la puerta de una habitación con una chimenea. Mira la chimenea."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 94,
       "indent": 0,
+      "section": "Locating the laboratory",
       "text": {
         "en": "Choose knife from tool belt option to receive a Message.",
         "es": "Elige la opción de cuchillo del cinturón de herramientas para recibir un Message."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 95,
       "indent": 0,
+      "section": "Locating the laboratory",
       "text": {
         "en": "Read the message.",
         "es": "Lee el mensaje."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 96,
       "indent": 0,
+      "section": "Locating the laboratory",
       "text": {
         "en": "Search the portrait on the south wall and slash it with the knife.",
         "es": "Busca en el retrato del muro sur y córtalo con el cuchillo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 97,
       "indent": 0,
+      "section": "Locating the laboratory",
       "text": {
         "en": "Search the portrait again to pick up a large ornate key.",
         "es": "Busca en el retrato otra vez para recoger una large ornate key."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 98,
       "indent": 0,
+      "section": "Locating the laboratory",
       "text": {
-        "en": "Talk to Safalaan in the base and give him the message. (opciones de chat: 2 I have a message for you Safalaan - it may be important.)",
-        "es": "Habla con Safalaan en la base y dale el mensaje. (opciones de chat: 2 Tengo un mensaje para ti, Safalaan; puede ser importante.)"
-      }
+        "en": "Talk to Safalaan in the base and give him the message.",
+        "es": "Habla con Safalaan en la base y dale el mensaje."
+      },
+      "chatOptions": [
+        "2 I have a message for you Safalaan - it may be important."
+      ]
     },
     {
       "index": 99,
       "indent": 0,
+      "section": "Locating the laboratory",
       "text": {
         "en": "Leave the hideout, push the wall, climb the stairs, jump the gap, down the ladder.",
         "es": "Sal del escondite, empuja el muro, sube las escaleras, salta el hueco y baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 100,
       "indent": 0,
+      "section": "Locating the laboratory",
       "text": {
         "en": "Run north through three doors.",
         "es": "Corre al norte a través de tres puertas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 101,
       "indent": 0,
+      "section": "Locating the laboratory",
       "text": {
         "en": "Head to north-east in Meiyerditch (follow the eastern wall north). There is a bright red and yellow tapestry (with a door on the east side of the room).",
         "es": "Dirígete al noreste en Meiyerditch (sigue el muro este hacia el norte). Hay un tapiz rojo y amarillo brillante (con una puerta en el lado este de la habitación)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 102,
       "indent": 0,
+      "section": "Locating the laboratory",
       "text": {
         "en": "Look-at the tapestry and slash it with a knife.",
         "es": "Mira el tapiz y córtalo con un cuchillo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 103,
       "indent": 0,
+      "section": "Locating the laboratory",
       "text": {
         "en": "Walk-through the slashed tapestry.",
         "es": "Atraviesa el tapiz cortado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 104,
       "indent": 0,
+      "section": "Locating the laboratory",
       "text": {
         "en": "Use the large ornate key on the vampyre statue.",
         "es": "Usa la large ornate key en la estatua de vampyre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 105,
       "indent": 0,
+      "section": "Locating the laboratory",
       "text": {
         "en": "Go east through the door, then down the staircase, and telekinetic grab Haemalchemy (Vol. 1).",
         "es": "Ve al este por la puerta, luego baja las escaleras y coge con telekinetic grab el Haemalchemy (Vol. 1)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 106,
       "indent": 1,
+      "section": "Locating the laboratory",
       "text": {
         "en": "Runes can be found by searching the broken rune case directly west of the stairs.",
         "es": "Se pueden encontrar runas buscando en la vitrina de runas rota, justo al oeste de las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 107,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Head back to the Meiyerditch Myreque base:",
         "es": "Vuelve a la base del Myreque en Meiyerditch:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 108,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
         "en": "Go up the staircase, out the door, and through the tapestry.",
         "es": "Sube las escaleras, sal por la puerta y atraviesa el tapiz."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 109,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
         "en": "Run south to the previously marked building through three doors.",
         "es": "Corre al sur hacia el edificio marcado anteriormente, a través de tres puertas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 110,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
         "en": "Go up the ladder, jump to the east floorboards, down the stairs.",
         "es": "Sube por la escalera, salta a las tablas del suelo del este y baja las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 111,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
         "en": "Push the wall, push the decorated wall, open the lumpy rug, and climb down the trap door.",
         "es": "Empuja el muro, empuja el muro decorado, abre la alfombra abultada y baja por la trampilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 112,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Speak to Safalaan. Be sure he hands you a sealed message and shortcut key, which the key can be added to the key ring after the completion of One Small Favour.",
         "es": "Habla con Safalaan. Asegúrate de que te entregue un sealed message y una shortcut key, la cual se puede añadir al key ring tras completar One Small Favour."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 113,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Take the sealed message to Veliaf in the Burgh de Rott cellar. (opciones de chat: 1 I have a message for you from Safalaan.)",
-        "es": "Lleva el sealed message a Veliaf en el sótano de Burgh de Rott. (opciones de chat: 1 Tengo un mensaje para ti de Safalaan.)"
-      }
+        "en": "Take the sealed message to Veliaf in the Burgh de Rott cellar.",
+        "es": "Lleva el sealed message a Veliaf en el sótano de Burgh de Rott."
+      },
+      "chatOptions": [
+        "1 I have a message for you from Safalaan."
+      ]
     },
     {
       "index": 114,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

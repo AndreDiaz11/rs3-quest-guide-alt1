@@ -2,7 +2,8 @@
   "id": "housing-of-parliament",
   "title": "Housing of Parliament",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:29:20.688Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:25.376Z",
   "icon": "https://runescape.wiki/images/thumb/Housing_of_Parliament_icon.png/50px-Housing_of_Parliament_icon.png",
   "series": "City of Um",
   "age": "Age of Chaos",
@@ -82,6 +83,7 @@
       "image": "https://runescape.wiki/images/thumb/Uncut_moonstone_detail.png/100px-Uncut_moonstone_detail.png?8b2a4"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/thumb/Housing_of_Parliament_reward.png/512px-Housing_of_Parliament_reward.png?e1070",
   "postQuest": [
     {
       "type": "item",
@@ -93,178 +95,228 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "A lot of mess",
       "text": {
-        "en": "Talk to Deryn in the owlery, north of the Haunt on the Hill in the City of Um. (opciones de chat: Accept)",
-        "es": "Habla con Deryn en el palomar, al norte del Haunt on the Hill en la City of Um. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Deryn in the owlery, north of the Haunt on the Hill in the City of Um.",
+        "es": "Habla con Deryn en el palomar, al norte del Haunt on the Hill en la City of Um."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "A lot of mess",
       "text": {
-        "en": "Take from the cleaning supplies (in the western corner of the owlery) a cleaning cloth. (opciones de chat: 1 Cleaning cloth.)",
-        "es": "Coge un paño de limpieza de los materiales de limpieza (en la esquina occidental del palomar). (opciones de chat: 1 Paño de limpieza.)"
-      }
+        "en": "Take from the cleaning supplies (in the western corner of the owlery) a cleaning cloth.",
+        "es": "Coge un paño de limpieza de los materiales de limpieza (en la esquina occidental del palomar)."
+      },
+      "chatOptions": [
+        "1 Cleaning cloth."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "A lot of mess",
       "text": {
-        "en": "Take from the cleaning supplies a scrubby brush. (opciones de chat: 2 Brush.)",
-        "es": "Coge un cepillo restregón de los materiales de limpieza. (opciones de chat: 2 Cepillo.)"
-      }
+        "en": "Take from the cleaning supplies a scrubby brush.",
+        "es": "Coge un cepillo restregón de los materiales de limpieza."
+      },
+      "chatOptions": [
+        "2 Brush."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "A lot of mess",
       "text": {
         "en": "Clean up the three spots.",
         "es": "Limpia las tres manchas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "A lot of mess",
       "text": {
         "en": "Clean up the owl droppings (either inside or outside on the ground). Only one is clickable.",
         "es": "Limpia los excrementos de búho (ya sea dentro o fuera, en el suelo). Solo uno es clicable."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "A lot of mess",
       "text": {
         "en": "Slash the cobweb (near the cleaning supplies).",
         "es": "Corta la telaraña (cerca de los materiales de limpieza)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "A lot of mess",
       "text": {
         "en": "Brush away the dirt pile (near the southern corner on the ground).",
         "es": "Barre el montón de suciedad (cerca de la esquina sur, en el suelo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Building the troughs",
       "text": {
         "en": "Talk to Deryn.",
         "es": "Habla con Deryn."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Building the troughs",
       "text": {
         "en": "Take 6 nails from the toolbox located under the ladder, click on it 6 times.",
         "es": "Coge 6 clavos de la caja de herramientas situada bajo la escalera, haz clic en ella 6 veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Building the troughs",
       "text": {
         "en": "Build both piles of planks; one is inside the owlery and the other side of the same wall, outside.",
         "es": "Construye ambas pilas de tablones; una está dentro del palomar y la otra en el lado opuesto de esa misma pared, fuera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Water trough for a nice bath",
       "text": {
         "en": "Talk to Deryn.",
         "es": "Habla con Deryn."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Water trough for a nice bath",
       "text": {
         "en": "Fill the empty trough outside.",
         "es": "Llena el abrevadero vacío que hay fuera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Consulting professionals",
       "text": {
         "en": "Talk to Deryn.",
         "es": "Habla con Deryn."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Consulting professionals",
       "text": {
         "en": "Talk to either the pet shop owner in Taverley or the pet shop owner in Yanille.",
         "es": "Habla con el dueño de la tienda de mascotas en Taverley o con el dueño de la tienda de mascotas en Yanille."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Consulting professionals",
       "text": {
         "en": "Buy some beetle bits from the Pet Shop if you didn't get some beforehand.",
         "es": "Compra unos trozos de escarabajo en la Pet Shop si no conseguiste alguno antes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Taste testing",
       "text": {
         "en": "Talk to Deryn.",
         "es": "Habla con Deryn."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Some appetising sprinkles",
       "text": {
         "en": "Go to the City of Um clock tower, located east of Soul Supplies, and climb up the stairs in the eastern room.",
         "es": "Ve a la torre del reloj de la City of Um, situada al este de Soul Supplies, y sube las escaleras de la sala este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Some appetising sprinkles",
       "text": {
         "en": "Take from the crate of hourglasses, in the southeast corner.",
         "es": "Coge uno del cajón de relojes de arena, en la esquina sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Some appetising sprinkles",
       "text": {
         "en": "Smash the hourglass that you picked up.",
         "es": "Rompe el reloj de arena que has cogido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Some appetising sprinkles",
       "text": {
         "en": "Use the hourglass 'sprinkles' on a snail meat for a snail with hourglass 'sprinkles'.",
         "es": "Usa las \"chispitas\" del reloj de arena en una carne de caracol para obtener un caracol con chispitas de reloj de arena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "One last thing",
       "text": {
         "en": "Return to the owlery and fill the empty trough inside.",
         "es": "Vuelve al palomar y llena el abrevadero vacío que hay dentro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "One last thing",
       "text": {
         "en": "Talk to Deryn to complete the quest.",
         "es": "Habla con Deryn para completar la misión."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

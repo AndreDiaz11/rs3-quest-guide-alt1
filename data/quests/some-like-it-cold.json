@@ -2,7 +2,8 @@
   "id": "some-like-it-cold",
   "title": "Some Like It Cold",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:16:04.827Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:05.647Z",
   "icon": "https://runescape.wiki/images/Some_Like_It_Cold_icon.png",
   "series": "Penguin",
   "age": "5",
@@ -140,495 +141,642 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Some_Like_It_Cold_reward.png?8e1f7",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Chuck the polar bear in Ardougne Zoo.",
         "es": "Habla con Chuck, el oso polar, en el Ardougne Zoo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Speak to him again. (opciones de chat: 1 Some Like It Cold Quest • Accept)",
-        "es": "Habla con él de nuevo. (opciones de chat: 1 Misión Some Like It Cold • Aceptar)"
-      }
+        "en": "Speak to him again.",
+        "es": "Habla con él de nuevo."
+      },
+      "chatOptions": [
+        "1 Some Like It Cold Quest",
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Speak to him a final time to be teleported (opciones de chat: 1 Some Like It Cold Quest • 1 Yes)",
-        "es": "Habla con él una última vez para que te teletransporte (opciones de chat: 1 Misión Some Like It Cold • 1 Sí)"
-      }
+        "en": "Speak to him a final time to be teleported",
+        "es": "Habla con él una última vez para que te teletransporte"
+      },
+      "chatOptions": [
+        "1 Some Like It Cold Quest",
+        "1 Yes"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The seal",
       "text": {
         "en": "After being teleported by Chuck, head west to the seals.",
         "es": "Tras ser teletransportado por Chuck, dirígete al oeste hacia las focas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The seal",
       "text": {
-        "en": "Wake up the seal that can be interacted with. (opciones de chat: 3 I'm looking for a polar bear. • 1 How can I entertain you?)",
-        "es": "Despierta a la foca con la que se puede interactuar. (opciones de chat: 3 Estoy buscando un oso polar. • 1 ¿Cómo puedo entretenerte?)"
-      }
+        "en": "Wake up the seal that can be interacted with.",
+        "es": "Despierta a la foca con la que se puede interactuar."
+      },
+      "chatOptions": [
+        "3 I'm looking for a polar bear.",
+        "1 How can I entertain you?"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The seal",
       "text": {
         "en": "Use the Dance or Jump For Joy emote.",
         "es": "Usa la emoción Bailar o Saltar de alegría."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The seal",
       "text": {
-        "en": "Talk to the seal. (opciones de chat: 1 What's wrong with penguins? • 2 Where does your band live?)",
-        "es": "Habla con la foca. (opciones de chat: 1 ¿Qué tienen de malo los pingüinos? • 2 ¿Dónde vive tu grupo?)"
-      }
+        "en": "Talk to the seal.",
+        "es": "Habla con la foca."
+      },
+      "chatOptions": [
+        "1 What's wrong with penguins?",
+        "2 Where does your band live?"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The seal",
       "text": {
-        "en": "Use the smaller boat to the north-east. (opciones de chat: 1 Yes.)",
-        "es": "Usa el bote más pequeño al noreste. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Use the smaller boat to the north-east.",
+        "es": "Usa el bote más pequeño al noreste."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The seal",
       "text": {
         "en": "Talk to Ping & Pong. You don't need to be in your tuxedo for this.",
         "es": "Habla con Ping & Pong. No necesitas llevar puesto tu esmoquin para esto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The seal",
       "text": {
         "en": "After receiving the items from them, do one of the following:",
         "es": "Tras recibir los objetos de ellos, haz una de las siguientes opciones:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "The seal",
       "text": {
         "en": "Option one: Use a crafting table 4 in a player-owned house to make their rock costume. To return, use the Fremennik Province lodestone and head north to board the ship to iceberg.",
         "es": "Opción uno: Usa una mesa de trabajo 4 en una casa de un jugador para fabricar sus disfraces de roca. Para volver, usa la piedra de viaje de Fremennik Province y dirígete al norte para embarcar en el barco hacia el iceberg."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "The seal",
       "text": {
         "en": "Option two: Head to the north-east corner of the Iceberg and right-click Jim and select 'tuxedo-time'. Head to the north-west and investigate the avalanche of snow. Follow the main hall to the end and talk to the gate guard in the booth. After proceeding through the door, head east and then follow the western wall in the war-room to the western workbench. Craft Ping & Pong's costumes there. To get out of the room click the red button west of the gate. Go to Jim to get out of tuxedo.",
         "es": "Opción dos: Dirígete a la esquina noreste del Iceberg y haz clic derecho en Jim y selecciona 'tuxedo-time'. Ve al noroeste e investiga el alud de nieve. Sigue el pasillo principal hasta el final y habla con el guardia de la puerta en la garita. Después de pasar por la puerta, dirígete al este y luego sigue el muro occidental de la sala de guerra hasta el banco de trabajo del oeste. Fabrica ahí los disfraces de Ping & Pong. Para salir de la sala, haz clic en el botón rojo al oeste de la puerta. Ve donde Jim para quitarte el esmoquin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "The seal",
       "text": {
         "en": "Give Ping & Pong their costumes.",
         "es": "Entrega a Ping & Pong sus disfraces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "The seal",
       "text": {
-        "en": "Board the nearby boat to return to the seals. (opciones de chat: 1 Yes.)",
-        "es": "Embarca en el bote cercano para volver con las focas. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Board the nearby boat to return to the seals.",
+        "es": "Embarca en el bote cercano para volver con las focas."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "The seal",
       "text": {
-        "en": "Talk to the seal, bank any items and head to the camp. There is a deposit box option when talking to the seal. (opciones de chat: 1 Yes.)",
-        "es": "Habla con la foca, guarda cualquier objeto en el banco y dirígete al campamento. Hay una opción de caja de depósito al hablar con la foca. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to the seal, bank any items and head to the camp. There is a deposit box option when talking to the seal.",
+        "es": "Habla con la foca, guarda cualquier objeto en el banco y dirígete al campamento. Hay una opción de caja de depósito al hablar con la foca."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Talk to Teddy, the polar bear in a clown costume, in the centre of the camp.",
         "es": "Habla con Teddy, el oso polar disfrazado de payaso, en el centro del campamento."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Talk to Larry, north of Teddy",
         "es": "Habla con Larry, al norte de Teddy."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Talk to Teddy again.",
         "es": "Habla con Teddy de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Talk to Noodle outside the south-west building.",
         "es": "Habla con Noodle, fuera del edificio del suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Try to open the door to the southern building where the Walrus is in.",
         "es": "Intenta abrir la puerta del edificio del sur donde está el Walrus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
-        "en": "Take the bat in the box (slightly west of the door where the walrus is) from the front of the building. (opciones de chat: 1 Yes.)",
-        "es": "Coge el bate que hay en la caja (un poco al oeste de la puerta donde está el walrus) desde la parte delantera del edificio. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Take the bat in the box (slightly west of the door where the walrus is) from the front of the building.",
+        "es": "Coge el bate que hay en la caja (un poco al oeste de la puerta donde está el walrus) desde la parte delantera del edificio."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Encourage Teddy, Ping & Pong, and Bouncer to make noise by clicking on them. Click Ping, then Pong, then Bouncer, then Teddy until a cutscene starts. Their bars should all be blue, so it's a good idea to walk in circles.",
         "es": "Anima a Teddy, Ping & Pong, y Bouncer a hacer ruido haciendo clic en ellos. Haz clic en Ping, luego en Pong, luego en Bouncer, luego en Teddy, hasta que comience una escena. Todas sus barras deberían estar azules, así que es buena idea caminar en círculos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "When the Walrus is outside, enter his building and steal the egg from the table.",
         "es": "Cuando el Walrus esté fuera, entra en su edificio y roba el huevo de la mesa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Give the egg to Larry in the north.",
         "es": "Entrega el huevo a Larry, al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Talk to Teddy.",
         "es": "Habla con Teddy."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Talk to all six of the unnamed penguins. (Four in the courtyard, one between the north and north-west buildings and one on fishing grate in the north-east corner)",
         "es": "Habla con los seis pingüinos sin nombre. (Cuatro en el patio, uno entre los edificios del norte y del noroeste, y uno sobre la rejilla de pesca en la esquina noreste)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Talk to Teddy.",
         "es": "Habla con Teddy."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Talk to Plaza outside the easternmost building.",
         "es": "Habla con Plaza, fuera del edificio más al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Collect the following items:",
         "es": "Recoge los siguientes objetos:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Fish the fishing hole in the north-east until you receive a shark tooth and squid.",
         "es": "Pesca en el agujero de pesca del noreste hasta que consigas un diente de tiburón y un calamar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Take a board from the wood scrap pile north of the easternmost building.",
         "es": "Coge una tabla del montón de restos de madera al norte del edificio más al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Search the shelves in the easternmost building for olive oil, popsicle tray, and a rock carving hammer.",
         "es": "Registra las estanterías del edificio más al este en busca de aceite de oliva, una bandeja de polos y un martillo tallador de rocas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Right click Teddy and \"Tear off fabric\".",
         "es": "Haz clic derecho en Teddy y selecciona \"Tear off fabric\" (Arrancar tela)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Search the shelves in the south-west building for lye and a cork screw.",
         "es": "Registra las estanterías del edificio del suroeste en busca de lejía y un sacacorchos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Once all of the supplies are obtained:",
         "es": "Una vez obtenidos todos los suministros:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Use the lye on the olive oil.",
         "es": "Usa la lejía en el aceite de oliva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Use the unmoulded soap on the popsicle tray.",
         "es": "Usa el jabón sin moldear en la bandeja de polos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Use the squid on the popsicle tray.",
         "es": "Usa el calamar en la bandeja de polos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Use the hammer on the soap.",
         "es": "Usa el martillo en el jabón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 1,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "With a shark tooth in your backpack, use the ripped fabric on the board.",
         "es": "Con un diente de tiburón en tu mochila, usa la tela rasgada en la tabla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Talk to Plaza.",
         "es": "Habla con Plaza."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
         "en": "Talk to Teddy.",
         "es": "Habla con Teddy."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Prisoner of Walrus Camp",
       "text": {
-        "en": "Talk to Astoria outside the easternmost building. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Astoria, fuera del edificio más al este. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to Astoria outside the easternmost building.",
+        "es": "Habla con Astoria, fuera del edificio más al este."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Reparations",
       "text": {
         "en": "Defeat Astoria in a game of Battlefish.",
         "es": "Derrota a Astoria en una partida de Battlefish."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "Reparations",
       "text": {
         "en": "Place your fish anywhere on the board.",
         "es": "Coloca tu pez en cualquier lugar del tablero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 1,
+      "section": "Reparations",
       "text": {
         "en": "You can click on the \"HIT\" and \"MISS\" notifications to speed up this section considerably. But beware spam clicking may exit the game making you start over.",
         "es": "Puedes hacer clic en las notificaciones de \"HIT\" (ACIERTO) y \"MISS\" (FALLO) para acelerar considerablemente esta parte. Pero cuidado, hacer clic de forma repetida puede hacer que salgas del juego y tengas que empezar de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 1,
+      "section": "Reparations",
       "text": {
         "en": "Solution:",
         "es": "Solución:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Reparations",
       "text": {
         "en": "In the small building just south-east, take from the circus prop crate on the northern wall.",
         "es": "En el edificio pequeño justo al sureste, coge algo de la caja de accesorios de circo en la pared norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Reparations",
       "text": {
         "en": "Talk to Teddy.",
         "es": "Habla con Teddy."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Reparations",
       "text": {
         "en": "To repair the engine:",
         "es": "Para reparar el motor:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 1,
+      "section": "Reparations",
       "text": {
         "en": "Use Bowling pin -> lever opening",
         "es": "Usa el bolo -> apertura de la palanca"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 1,
+      "section": "Reparations",
       "text": {
         "en": "Use Hula hoop -> broken valve wheel",
         "es": "Usa el aro de hula-hop -> rueda de válvula rota"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 1,
+      "section": "Reparations",
       "text": {
         "en": "Use Circus plate -> pressure gauge",
         "es": "Usa el plato de circo -> manómetro de presión"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 1,
+      "section": "Reparations",
       "text": {
         "en": "Use Foam finger -> pressure gauge",
         "es": "Usa el dedo de espuma -> manómetro de presión"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 1,
+      "section": "Reparations",
       "text": {
         "en": "Use Balloon -> metal wire",
         "es": "Usa el globo -> cable metálico"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 1,
+      "section": "Reparations",
       "text": {
         "en": "Use Insulated wire -> wirebox",
         "es": "Usa el cable aislado -> caja de cables"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 1,
+      "section": "Reparations",
       "text": {
         "en": "Use Cloth -> cracked pipe",
         "es": "Usa la tela -> tubería agrietada"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Escape",
       "text": {
-        "en": "Talk to Teddy. (opciones de chat: 2 No, I know what needs to be done.)",
-        "es": "Habla con Teddy. (opciones de chat: 2 No, sé lo que hay que hacer.)"
-      }
+        "en": "Talk to Teddy.",
+        "es": "Habla con Teddy."
+      },
+      "chatOptions": [
+        "2 No, I know what needs to be done."
+      ]
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Escape",
       "text": {
         "en": "Defeat the seals in Battlefish (if you accidentally exit, click on the periscope through the door to the left).",
         "es": "Derrota a las focas en Battlefish (si sales accidentalmente, haz clic en el periscopio a través de la puerta de la izquierda)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 1,
+      "section": "Escape",
       "text": {
         "en": "Solution:",
         "es": "Solución:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 0,
+      "section": "Escape",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

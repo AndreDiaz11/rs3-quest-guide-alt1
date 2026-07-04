@@ -2,7 +2,8 @@
   "id": "the-slug-menace",
   "title": "The Slug Menace",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:15:34.145Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:26.409Z",
   "icon": "https://runescape.wiki/images/The_Slug_Menace_icon.png",
   "series": "Temple Knight",
   "age": "5",
@@ -139,359 +140,465 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Slug_Menace_reward.png?6bbd4",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Witchaven weirdness",
       "text": {
         "en": "Talk to Sir Tiffy Cashien in Falador park.",
         "es": "Habla con Sir Tiffy Cashien en el parque de Falador."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Witchaven weirdness",
       "text": {
-        "en": "Talk to Col. O'Niall on the pier in Witchaven (fairy ring or Cape of Legends and run south). (opciones de chat: 3 Who are the important people in Witchaven? • 4 That's enough for now.)",
-        "es": "Habla con Col. O'Niall en el muelle de Witchaven (anillo de las hadas o Cape of Legends y corre hacia el sur). (opciones de chat: 3 ¿Quiénes son las personas importantes en Witchaven? • 4 Ya es suficiente por ahora.)"
-      }
+        "en": "Talk to Col. O'Niall on the pier in Witchaven (fairy ring BLR or Cape of Legends and run south).",
+        "es": "Habla con Col. O'Niall en el muelle de Witchaven (anillo de las hadas o Cape of Legends y corre hacia el sur)."
+      },
+      "chatOptions": [
+        "3 Who are the important people in Witchaven?",
+        "4 That's enough for now."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Witchaven weirdness",
       "text": {
-        "en": "Talk to Mayor Hobb in the western building just south of Caroline. (opciones de chat: Any • 2 What improvements are you making to the shrine? • 4 Nothing at the moment thanks.)",
-        "es": "Habla con Mayor Hobb en el edificio del oeste, justo al sur de Caroline. (opciones de chat: Cualquiera • 2 ¿Qué mejoras estás haciendo en el santuario? • 4 Nada por ahora, gracias.)"
-      }
+        "en": "Talk to Mayor Hobb in the western building just south of Caroline.",
+        "es": "Habla con Mayor Hobb en el edificio del oeste, justo al sur de Caroline."
+      },
+      "chatOptions": [
+        "Any",
+        "2 What improvements are you making to the shrine?",
+        "4 Nothing at the moment thanks."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Witchaven weirdness",
       "text": {
         "en": "When you try to exit the building, Savant will contact you and request that you scan nearby the Mayor using the Commorb v2",
         "es": "Cuando intentes salir del edificio, Savant te contactará y te pedirá que escanees cerca del alcalde usando el Commorb v2."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Witchaven weirdness",
       "text": {
         "en": "Go back into the mayor's building, stand beside him and begin scanning.",
         "es": "Vuelve al edificio del alcalde, ponte a su lado y empieza a escanear."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Witchaven weirdness",
       "text": {
-        "en": "Talk to Brother Maledict in the church. (opciones de chat: 4 That's enough for now.)",
-        "es": "Habla con Brother Maledict en la iglesia. (opciones de chat: 4 Ya es suficiente por ahora.)"
-      }
+        "en": "Talk to Brother Maledict in the church.",
+        "es": "Habla con Brother Maledict en la iglesia."
+      },
+      "chatOptions": [
+        "4 That's enough for now."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Witchaven weirdness",
       "text": {
         "en": "Talk to Holgart to the north.",
         "es": "Habla con Holgart al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Witchaven weirdness",
       "text": {
-        "en": "Report back to Col. O'Niall. (opciones de chat: 4 That's enough for now.)",
-        "es": "Informa a Col. O'Niall. (opciones de chat: 4 Ya es suficiente por ahora.)"
-      }
+        "en": "Report back to Col. O'Niall.",
+        "es": "Informa a Col. O'Niall."
+      },
+      "chatOptions": [
+        "4 That's enough for now."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Imposing door",
       "text": {
         "en": "Climb-down the old ruin entrance west of Witchaven.",
         "es": "Baja por la entrada de las antiguas ruinas al oeste de Witchaven."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Imposing door",
       "text": {
         "en": "Push the wall to your immediate east.",
         "es": "Empuja el muro que tienes justo al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Imposing door",
       "text": {
         "en": "Enter the Wall Opening",
         "es": "Entra por la abertura del muro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Imposing door",
       "text": {
         "en": "Run through the cave until you reach a set of imposing doors.",
         "es": "Corre por la cueva hasta llegar a un imponente par de puertas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Imposing door",
       "text": {
         "en": "Take the Agility shortcut (requires level 30).",
         "es": "Toma el atajo de Agilidad (requiere nivel 30)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Imposing door",
       "text": {
         "en": "Savant will contact you.",
         "es": "Savant te contactará."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Imposing door",
       "text": {
         "en": "Scan with the commorb to obtain a door transcription.",
         "es": "Escanea con el commorb para obtener una transcripción de la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Imposing door",
       "text": {
         "en": "Pick up the dead sea slug on the ground nearby. You only need one.",
         "es": "Recoge la babosa de mar muerta que hay en el suelo cerca. Solo necesitas una."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Imposing door",
       "text": {
-        "en": "Talk to Jorral in the small Outpost, north-west of West Ardougne. (opciones de chat: 2 Translations)",
-        "es": "Habla con Jorral en el pequeño Outpost, al noroeste de West Ardougne. (opciones de chat: 2 Traducciones)"
-      }
+        "en": "Talk to Jorral in the small Outpost, north-west of West Ardougne.",
+        "es": "Habla con Jorral en el pequeño Outpost, al noroeste de West Ardougne."
+      },
+      "chatOptions": [
+        "2 Translations"
+      ]
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Imposing door",
       "text": {
         "en": "Traveller's necklace to the Outpost.",
         "es": "Usa el collar de viajero hacia el Outpost."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Imposing door",
       "text": {
         "en": "Savant will contact you while talking to Jorral and after.",
         "es": "Savant te contactará mientras hablas con Jorral y después."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Imposing door",
       "text": {
-        "en": "Talk to Col. O'Niall in Witchaven (fairy ring or cape of legends and run south).",
+        "en": "Talk to Col. O'Niall in Witchaven (fairy ring BLR or cape of legends and run south).",
         "es": "Habla con Col. O'Niall en Witchaven (anillo de las hadas o Cape of Legends y corre hacia el sur)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Imposing door",
       "text": {
         "en": "Go near the church (a cutscene will begin).",
         "es": "Acércate a la iglesia (comenzará una escena)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Imposing door",
       "text": {
-        "en": "Talk to Brother Maledict in the church. (opciones de chat: 2 Talk about something else)",
-        "es": "Habla con Brother Maledict en la iglesia. (opciones de chat: 2 Hablar de otra cosa)"
-      }
+        "en": "Talk to Brother Maledict in the church.",
+        "es": "Habla con Brother Maledict en la iglesia."
+      },
+      "chatOptions": [
+        "2 Talk about something else"
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Page pieces",
       "text": {
         "en": "Search the Mayor's study desk. You may fail, so repeat until you receive Page 1.",
         "es": "Registra el escritorio del estudio del alcalde. Puede que falles, así que repite hasta que recibas la Page 1."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Page pieces",
       "text": {
         "en": "Talk to Ezekial Lovecraft in the fishing shop.",
         "es": "Habla con Ezekial Lovecraft en la tienda de pesca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Page pieces",
       "text": {
         "en": "Talk to Col. O'Niall. This step requires 3 backpack spaces.",
         "es": "Habla con Col. O'Niall. Este paso requiere 3 espacios en la mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Page pieces",
       "text": {
         "en": "Try to use the swamp paste on the fragments.",
         "es": "Intenta usar la pasta de pantano sobre los fragmentos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "Page pieces",
       "text": {
         "en": "Savant will contact you.",
         "es": "Savant te contactará."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Page pieces",
       "text": {
         "en": "Talk to Jeb to reach the fishing platform.",
         "es": "Habla con Jeb para llegar a la plataforma de pesca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Page pieces",
       "text": {
         "en": "Talk to Bailey to the west.",
         "es": "Habla con Bailey al oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Page pieces",
       "text": {
         "en": "Use the Sea slug glue on the fragments.",
         "es": "Usa el pegamento de babosa de mar sobre los fragmentos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Page pieces",
       "text": {
         "en": "Use the image to solve the puzzle, there are 2 sides to the pieces so you might need to flip some.",
         "es": "Usa la imagen para resolver el rompecabezas, las piezas tienen 2 caras así que puede que necesites voltear algunas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Shaped runes",
       "text": {
         "en": "With essence in your inventory, right click the papers to create 5 shapes.",
         "es": "Con esencia en tu inventario, haz clic derecho sobre los papeles para crear 5 formas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Shaped runes",
       "text": {
         "en": "Page 1 to shape a blank earth rune.",
         "es": "Page 1 para dar forma a una runa de tierra en blanco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "Shaped runes",
       "text": {
         "en": "Page 1 to shape a blank air rune.",
         "es": "Page 1 para dar forma a una runa de aire en blanco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "Shaped runes",
       "text": {
         "en": "Page 2 to shape a blank fire rune.",
         "es": "Page 2 para dar forma a una runa de fuego en blanco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Shaped runes",
       "text": {
         "en": "Page 2 to shape a blank water rune.",
         "es": "Page 2 para dar forma a una runa de agua en blanco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "Shaped runes",
       "text": {
         "en": "Page 3 to shape a blank mind rune.",
         "es": "Page 3 para dar forma a una runa de mente en blanco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Shaped runes",
       "text": {
         "en": "Use the blank runes on their respective runecrafting altars.",
         "es": "Usa las runas en blanco en sus respectivos altares de creación de runas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Final fight",
       "text": {
         "en": "Climb down the old ruins in Witchaven, then enter the wall opening to your immediate east.",
         "es": "Baja por las antiguas ruinas en Witchaven, luego entra por la abertura del muro que tienes justo al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Final fight",
       "text": {
         "en": "Follow the path to the imposing door again.",
         "es": "Sigue el camino de vuelta hasta el imponente par de puertas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Final fight",
       "text": {
         "en": "Use the runes on the door. Immediately after the placement of the last elemental block, a cutscene will happen prompting you into combat.",
         "es": "Usa las runas en la puerta. Inmediatamente después de colocar el último bloque elemental, ocurrirá una escena que te llevará al combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Final fight",
       "text": {
         "en": "Kill the Slug Prince.",
         "es": "Mata al Slug Prince."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Final fight",
       "text": {
-        "en": "Talk to Sir Tiffy. (opciones de chat: 1 The Slug Menace.)",
-        "es": "Habla con Sir Tiffy. (opciones de chat: 1 La amenaza de las babosas.)"
-      }
+        "en": "Talk to Sir Tiffy.",
+        "es": "Habla con Sir Tiffy."
+      },
+      "chatOptions": [
+        "1 The Slug Menace."
+      ]
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Final fight",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

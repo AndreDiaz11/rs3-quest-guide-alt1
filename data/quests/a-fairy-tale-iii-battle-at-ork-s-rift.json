@@ -2,7 +2,8 @@
   "id": "a-fairy-tale-iii-battle-at-ork-s-rift",
   "title": "A Fairy Tale III - Battle at Ork's Rift",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:17:28.371Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:31.895Z",
   "icon": "https://runescape.wiki/images/A_Fairy_Tale_III_-_Battle_at_Ork%27s_Rift_icon.png",
   "series": "Fairy",
   "age": "5",
@@ -172,6 +173,7 @@
       "image": "https://runescape.wiki/images/thumb/Mos_le%27harmless.png/100px-Mos_le%27harmless.png?fb1dd"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/A_Fairy_Tale_III_-_Battle_at_Ork%27s_Rift_reward.png?e31e0",
   "postQuest": [
     {
       "type": "xp",
@@ -194,554 +196,739 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Use any fairy ring to travel to Zanaris. If you can start the quest, you will be redirected to the Sparse Plane.",
         "es": "Usa cualquier anillo de hadas para viajar a Zanaris. Si puedes empezar la misión, serás redirigido a Sparse Plane."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Starting out",
       "text": {
-        "en": "If you cannot start the quest, enter and leave Zanaris via fairy rings repeatedly until Fairy Very Wise appears and talks to you. It may require up to 30 minutes after completing A Fairy Tale II - Cure a Queen. If you've declined her before, you have to travel by fairy ring to reach her.",
+        "en": "If you cannot start the quest, enter and leave Zanaris via fairy rings repeatedly until Fairy Very Wise appears and talks to you. It may require up to 30 minutes after completing A Fairy Tale II - Cure a Queen. If you've declined her before, you have to travel by fairy ring BIR to reach her.",
         "es": "Si no puedes empezar la misión, entra y sal de Zanaris mediante anillos de hadas repetidamente hasta que Fairy Very Wise aparezca y hable contigo. Puede tardar hasta 30 minutos tras completar A Fairy Tale II - Cure a Queen. Si la has rechazado antes, tendrás que viajar en anillo de hadas para llegar hasta ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Fairy Very Wise and accept her offer (opciones de chat: 4 Of course I'll help. What do I need to do?). After accepting her offer, Nuff's certificate is no longer needed to reach the Fairy Resistance headquarters.",
+        "en": "Talk to Fairy Very Wise and accept her offer . After accepting her offer, Nuff's certificate is no longer needed to reach the Fairy Resistance headquarters.",
         "es": "Habla con Fairy Very Wise y acepta su oferta (opciones de chat: 4 Of course I'll help. What do I need to do?). Tras aceptar su oferta, ya no necesitarás el certificado de Nuff para llegar al cuartel general de la Fairy Resistance."
-      }
+      },
+      "chatOptions": [
+        "4 Of course I'll help. What do I need to do?"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Accept the teleport from her (opciones de chat: 1 Please teleport me there right away!), or use the fairy ring to get to the Fairy Resistance headquarters (, , , ).",
+        "en": "Accept the teleport from her , or use the fairy ring to get to the Fairy Resistance headquarters (AIR, DLR, DJQ, AJS).",
         "es": "Acepta el teletransporte que te ofrece (opciones de chat: 1 Please teleport me there right away!), o usa el anillo de hadas para llegar al cuartel general de la Fairy Resistance (, , , )."
-      }
+      },
+      "chatOptions": [
+        "1 Please teleport me there right away!"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to the Fairy Queen south-east in the headquarters and then finish talking to the Tooth Fairy (she automatically speaks to you after you speak with the queen). (opciones de chat: 2 Yes, I'll help. • Accept)",
-        "es": "Habla con la Fairy Queen al sureste del cuartel general y luego termina de hablar con el Tooth Fairy (te hablará automáticamente después de que hables con la reina). (opciones de chat: 2 Yes, I'll help. • Accept)"
-      }
+        "en": "Talk to the Fairy Queen south-east in the headquarters and then finish talking to the Tooth Fairy (she automatically speaks to you after you speak with the queen).",
+        "es": "Habla con la Fairy Queen al sureste del cuartel general y luego termina de hablar con el Tooth Fairy (te hablará automáticamente después de que hables con la reina)."
+      },
+      "chatOptions": [
+        "2 Yes, I'll help.",
+        "Accept"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Be wary of cutscenes that may trigger epilepsy. Talk to the Tooth Fairy, then turn on the projector to watch the first briefing. (opciones de chat: <!-- Do not change! Better option for person with epilepsy.--> • 2 Show a non-flickering briefing.)",
-        "es": "Ten cuidado con las escenas cinemáticas que pueden provocar epilepsia. Habla con el Tooth Fairy y luego enciende el proyector para ver la primera reunión informativa. (opciones de chat: <!-- Do not change! Better option for person with epilepsy.--> • 2 Show a non-flickering briefing.)"
-      }
+        "en": "Be wary of cutscenes that may trigger epilepsy. Talk to the Tooth Fairy, then turn on the projector to watch the first briefing.",
+        "es": "Ten cuidado con las escenas cinemáticas que pueden provocar epilepsia. Habla con el Tooth Fairy y luego enciende el proyector para ver la primera reunión informativa."
+      },
+      "chatOptions": [
+        "<!-- Do not change! Better option for person with epilepsy.-->",
+        "2 Show a non-flickering briefing."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to the Tooth Fairy again after the briefing. (opciones de chat: 5 Right, I understand about fairy tooth magic now. • 1 Yes, I'm ready.)",
-        "es": "Habla de nuevo con el Tooth Fairy tras la reunión informativa. (opciones de chat: 5 Right, I understand about fairy tooth magic now. • 1 Yes, I'm ready.)"
-      }
+        "en": "Talk to the Tooth Fairy again after the briefing.",
+        "es": "Habla de nuevo con el Tooth Fairy tras la reunión informativa."
+      },
+      "chatOptions": [
+        "5 Right, I understand about fairy tooth magic now.",
+        "1 Yes, I'm ready."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Turn on the projector to watch the second briefing.",
         "es": "Enciende el proyector para ver la segunda reunión informativa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "End of cutscenes.",
         "es": "Fin de las escenas cinemáticas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "After both briefings, agree to collect her wand. (opciones de chat: 3 Yes, I'll go and collect your wand.)",
-        "es": "Después de ambas reuniones informativas, acepta ir a recoger su varita. (opciones de chat: 3 Yes, I'll go and collect your wand.)"
-      }
+        "en": "After both briefings, agree to collect her wand.",
+        "es": "Después de ambas reuniones informativas, acepta ir a recoger su varita."
+      },
+      "chatOptions": [
+        "3 Yes, I'll go and collect your wand."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Run north-west and take a hammer and secateurs from on top of the crates. You may use area loot. Use them on each other to create a tooth extractor.",
         "es": "Corre hacia el noroeste y coge un martillo y unas tijeras de podar de encima de las cajas. Puedes usar el saqueo por área. Úsalos el uno sobre el otro para crear un extractor de dientes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Leave through the fairy ring.",
         "es": "Sal a través del anillo de hadas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Gnarly",
       "text": {
         "en": "Go to the house north-west of Zanaris bank. Use your tooth extractor on the door to pick the lock on it.",
         "es": "Ve a la casa al noroeste del banco de Zanaris. Usa tu extractor de dientes en la puerta para forzar la cerradura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Gnarly",
       "text": {
-        "en": "Talk to Gnarly. (opciones de chat: 4 Can I do something for you...in return for the wand?)",
-        "es": "Habla con Gnarly. (opciones de chat: 4 Can I do something for you...in return for the wand?)"
-      }
+        "en": "Talk to Gnarly.",
+        "es": "Habla con Gnarly."
+      },
+      "chatOptions": [
+        "4 Can I do something for you...in return for the wand?"
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Gnarly",
       "text": {
         "en": "In no particular order, compliment him with the following responses (Only 3 compliments may be needed to continue to the next part):",
         "es": "En cualquier orden, hazle los siguientes cumplidos (puede que solo se necesiten 3 cumplidos para continuar con la siguiente parte):"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Gnarly",
       "text": {
         "en": "\"Your enamel shimmers like a river of silver in the moonlight.\"",
         "es": "\"Your enamel shimmers like a river of silver in the moonlight.\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Gnarly",
       "text": {
         "en": "\"I've never seen such amazing, inspired and dream-like toothiness.\"",
         "es": "\"I've never seen such amazing, inspired and dream-like toothiness.\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Gnarly",
       "text": {
         "en": "\"I can see your bicuspid ancestry is an example to all molar-kind.\"",
         "es": "\"I can see your bicuspid ancestry is an example to all molar-kind.\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Gnarly",
       "text": {
         "en": "\"You're a wonderful guard tooth with lovely cusps.\"",
         "es": "\"You're a wonderful guard tooth with lovely cusps.\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Gnarly",
       "text": {
-        "en": "Use the bucket of milk on him (opciones de chat: 2 Okay, I'll close my eyes. • 2 Okay, okay! Keep your enamel on, I'll pick you up.). Gnarly should jump into your inventory.",
+        "en": "Use the bucket of milk on him . Gnarly should jump into your inventory.",
         "es": "Usa el cubo de leche en él (opciones de chat: 2 Okay, I'll close my eyes. • 2 Okay, okay! Keep your enamel on, I'll pick you up.). Gnarly debería saltar a tu inventario."
-      }
+      },
+      "chatOptions": [
+        "2 Okay, I'll close my eyes.",
+        "2 Okay, okay! Keep your enamel on, I'll pick you up."
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Gnarly",
       "text": {
         "en": "Use the fairy rings to go back to the Fairy Resistance HQ.",
         "es": "Usa los anillos de hadas para volver al cuartel general de la Fairy Resistance."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Gnarly",
       "text": {
         "en": "Talk to the Tooth Fairy in the south-east room, then turn on the projector.",
         "es": "Habla con el Tooth Fairy en la sala del sureste y luego enciende el proyector."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Gnarly",
       "text": {
-        "en": "After the briefing, agree to the tooth extraction. (opciones de chat: 2 Yes, I understand all of that. • 2 Yes, I accept. • 3 Pain? Bring it on! Replace my tooth. • 4 Okay, thanks.)",
-        "es": "Después de la reunión informativa, acepta la extracción del diente. (opciones de chat: 2 Yes, I understand all of that. • 2 Yes, I accept. • 3 Pain? Bring it on! Replace my tooth. • 4 Okay, thanks.)"
-      }
+        "en": "After the briefing, agree to the tooth extraction.",
+        "es": "Después de la reunión informativa, acepta la extracción del diente."
+      },
+      "chatOptions": [
+        "2 Yes, I understand all of that.",
+        "2 Yes, I accept.",
+        "3 Pain? Bring it on! Replace my tooth.",
+        "4 Okay, thanks."
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Gnarly",
       "text": {
         "en": "Step onto the yellow flowers and use the wave emote. There will be a cutscene.",
         "es": "Ponte de pie sobre las flores amarillas y usa la emoción de saludo (wave). Habrá una escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Gnarly",
       "text": {
         "en": "Leave through the fairy ring.",
         "es": "Sal a través del anillo de hadas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Bre'egth's Tooth",
       "text": {
-        "en": "Talk to General Bre'egth outside of the Zanaris mill, northwest of the fairy ring. (opciones de chat: 3 What's wrong with your mouth?)",
-        "es": "Habla con General Bre'egth fuera del molino de Zanaris, al noroeste del anillo de hadas. (opciones de chat: 3 What's wrong with your mouth?)"
-      }
+        "en": "Talk to General Bre'egth outside of the Zanaris mill, northwest of the fairy ring.",
+        "es": "Habla con General Bre'egth fuera del molino de Zanaris, al noroeste del anillo de hadas."
+      },
+      "chatOptions": [
+        "3 What's wrong with your mouth?"
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Bre'egth's Tooth",
       "text": {
-        "en": "Talk to any other Ork about K'Chunk. (opciones de chat: 4 Do you know anything about K'Chunk?)",
-        "es": "Habla con cualquier otro Ork sobre K'Chunk. (opciones de chat: 4 Do you know anything about K'Chunk?)"
-      }
+        "en": "Talk to any other Ork about K'Chunk.",
+        "es": "Habla con cualquier otro Ork sobre K'Chunk."
+      },
+      "chatOptions": [
+        "4 Do you know anything about K'Chunk?"
+      ]
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Bre'egth's Tooth",
       "text": {
-        "en": "Run to the fairy ring, talk to Fairy Fixit about K'Chunk. (opciones de chat: 2 What do you know about K'Chunk?)",
-        "es": "Corre hacia el anillo de hadas y habla con Fairy Fixit sobre K'Chunk. (opciones de chat: 2 What do you know about K'Chunk?)"
-      }
+        "en": "Run to the fairy ring, talk to Fairy Fixit about K'Chunk.",
+        "es": "Corre hacia el anillo de hadas y habla con Fairy Fixit sobre K'Chunk."
+      },
+      "chatOptions": [
+        "2 What do you know about K'Chunk?"
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Bre'egth's Tooth",
       "text": {
-        "en": "Teleport to and talk to K'Chunk. (opciones de chat: 4 You knocked out Bre'egth's tooth, didn't you?)",
-        "es": "Teletranspórtate y habla con K'Chunk. (opciones de chat: 4 You knocked out Bre'egth's tooth, didn't you?)"
-      }
+        "en": "Teleport to DIP and talk to K'Chunk.",
+        "es": "Teletranspórtate y habla con K'Chunk."
+      },
+      "chatOptions": [
+        "4 You knocked out Bre'egth's tooth, didn't you?"
+      ]
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Bre'egth's Tooth",
       "text": {
         "en": "Recommended: Bring 4 regular planks and 8 nails of any kind to fix the bridge by using a plank on the broken bridge.",
         "es": "Recomendado: lleva 4 tablones normales y 8 clavos de cualquier tipo para arreglar el puente usando un tablón sobre el puente roto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Bre'egth's Tooth",
       "text": {
         "en": "Recommended: Bring 8 willow logs if you have level 85 Firemaking, light the bonfire for K'Chunk and receive 10,000 Firemaking experience.",
         "es": "Recomendado: lleva 8 troncos de sauce si tienes nivel 85 de Piromancia, enciende la hoguera para K'Chunk y recibe 10.000 puntos de experiencia en Piromancia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Bre'egth's Tooth",
       "text": {
         "en": "Pickpocket him for the tooth.",
         "es": "Róbale para conseguir el diente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Gromblod's Tooth",
       "text": {
-        "en": "Teleport to .",
+        "en": "Teleport to BKQ.",
         "es": "Teletranspórtate a ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Gromblod's Tooth",
       "text": {
-        "en": "Head down the waterfall to talk to the Wood Dryad to the west. (opciones de chat: 2 Have you seen Gromblod?)",
-        "es": "Baja por la cascada para hablar con la Wood Dryad al oeste. (opciones de chat: 2 Have you seen Gromblod?)"
-      }
+        "en": "Head down the waterfall to talk to the Wood Dryad to the west.",
+        "es": "Baja por la cascada para hablar con la Wood Dryad al oeste."
+      },
+      "chatOptions": [
+        "2 Have you seen Gromblod?"
+      ]
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Gromblod's Tooth",
       "text": {
         "en": "Talk to General Gromblod.",
         "es": "Habla con General Gromblod."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Gromblod's Tooth",
       "text": {
         "en": "Talk to the Wood Dryad again.",
         "es": "Habla de nuevo con la Wood Dryad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Gromblod's Tooth",
       "text": {
-        "en": "Teleport to .",
+        "en": "Teleport to CLR.",
         "es": "Teletranspórtate a ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Gromblod's Tooth",
       "text": {
         "en": "Pick a mango from the mango tree.",
         "es": "Coge un mango del árbol de mango."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "Gromblod's Tooth",
       "text": {
         "en": "Optional: unblock this end of the hollow log if you haven't yet.",
         "es": "Opcional: desbloquea este extremo del tronco hueco si aún no lo has hecho."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Gromblod's Tooth",
       "text": {
-        "en": "Return to .",
+        "en": "Return to BKQ.",
         "es": "Vuelve a ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Gromblod's Tooth",
       "text": {
         "en": "Talk to Gromblod, giving him the mango, he will spit it out about 15 tiles south of where he is standing. It does not appear as a red dot on the minimap.",
         "es": "Habla con Gromblod, dale el mango; lo escupirá a unas 15 casillas al sur de donde está de pie. No aparece como un punto rojo en el minimapa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Gromblod's Tooth",
       "text": {
         "en": "Pick up the mango with tooth and use the tooth extractor on it.",
         "es": "Recoge el mango con el diente y usa el extractor de dientes sobre él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Shredflesh's Tooth",
       "text": {
-        "en": "Teleport to and talk to General Shredflesh. (opciones de chat: 4 Can I help with something? • 1 So your tooth is really hurting, is it? • 2 Which tooth is it that's so terribly painful and hurting? • 3 And the pain is very high is it? • 4 I'm a dentist; I can extract it for you!)",
-        "es": "Teletranspórtate a y habla con General Shredflesh. (opciones de chat: 4 Can I help with something? • 1 So your tooth is really hurting, is it? • 2 Which tooth is it that's so terribly painful and hurting? • 3 And the pain is very high is it? • 4 I'm a dentist; I can extract it for you!)"
-      }
+        "en": "Teleport to ALP and talk to General Shredflesh.",
+        "es": "Teletranspórtate a y habla con General Shredflesh."
+      },
+      "chatOptions": [
+        "4 Can I help with something?",
+        "1 So your tooth is really hurting, is it?",
+        "2 Which tooth is it that's so terribly painful and hurting?",
+        "3 And the pain is very high is it?",
+        "4 I'm a dentist; I can extract it for you!"
+      ]
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Shredflesh's Tooth",
       "text": {
         "en": "In no particular order, calm him with the following responses:",
         "es": "En cualquier orden, tranquilízalo con las siguientes respuestas:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "Shredflesh's Tooth",
       "text": {
         "en": "\"What's a bit of pain for a huge ork hero like you?\"",
         "es": "\"What's a bit of pain for a huge ork hero like you?\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 1,
+      "section": "Shredflesh's Tooth",
       "text": {
         "en": "\"If the tooth isn't pulled out, all your teeth will hurt much worse!\"",
         "es": "\"If the tooth isn't pulled out, all your teeth will hurt much worse!\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 1,
+      "section": "Shredflesh's Tooth",
       "text": {
         "en": "\"Let me pull it out! What are you, an ork or a goblin?\"",
         "es": "\"Let me pull it out! What are you, an ork or a goblin?\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 1,
+      "section": "Shredflesh's Tooth",
       "text": {
         "en": "\"I'll make sure it doesn't hurt a bit; I'm a professional.\"",
         "es": "\"I'll make sure it doesn't hurt a bit; I'm a professional.\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Shredflesh's Tooth",
       "text": {
         "en": "Use the extractor on him.",
         "es": "Usa el extractor en él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Shredflesh's Tooth",
       "text": {
         "en": "Clear the pile of rock behind him if you haven't yet already.",
         "es": "Despeja la pila de rocas detrás de él si aún no lo has hecho."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Shredflesh's Tooth",
       "text": {
         "en": "Go back and talk to the Tooth Fairy in the hideout.",
         "es": "Vuelve y habla con el Tooth Fairy en el escondite."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Shredflesh's Tooth",
       "text": {
-        "en": "Turn-on the projector to watch another briefing. (opciones de chat: 5 Okay, thanks.)",
-        "es": "Enciende el proyector para ver otra reunión informativa. (opciones de chat: 5 Okay, thanks.)"
-      }
+        "en": "Turn-on the projector to watch another briefing.",
+        "es": "Enciende el proyector para ver otra reunión informativa."
+      },
+      "chatOptions": [
+        "5 Okay, thanks."
+      ]
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Shredflesh's Tooth",
       "text": {
         "en": "She gives you the fairy wand.",
         "es": "Ella te da la varita de hada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "The final battle",
       "text": {
         "en": "Prepare for the final battle, with the above listed items.",
         "es": "Prepárate para la batalla final con los objetos mencionados anteriormente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "The final battle",
       "text": {
-        "en": "Teleport to , , , . (If the fairy ring at does not appear, lobby and start over.)",
+        "en": "Teleport to BIR, DIP, CLR, ALP. (If the fairy ring at BIR does not appear, lobby and start over.)",
         "es": "Teletranspórtate a , , , . (Si el anillo de hadas en no aparece, sal al lobby y vuelve a empezar.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "The final battle",
       "text": {
         "en": "Look-through the fairy tree where you'll encounter a cutscene.",
         "es": "Mira a través del árbol de hadas donde presenciarás una escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "The final battle",
       "text": {
         "en": "After the cutscene talk to the Tooth Fairy.",
         "es": "Después de la escena cinemática, habla con el Tooth Fairy."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "The final battle",
       "text": {
         "en": "How to kill the Fairy Godfather:",
         "es": "Cómo matar al Fairy Godfather:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 1,
+      "section": "The final battle",
       "text": {
         "en": "Use all 3 teeth on the farming patches.",
         "es": "Usa los 3 dientes en las parcelas de cultivo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 1,
+      "section": "The final battle",
       "text": {
         "en": "Stand by the patches and kill the generals and ork warriors; Prioritise any general using the drum near the rift, to stop new orks from spawning.",
         "es": "Quédate junto a las parcelas y mata a los generales y guerreros ork; prioriza a cualquier general que use el tambor cerca de la grieta, para detener la aparición de nuevos orks."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 1,
+      "section": "The final battle",
       "text": {
         "en": "Once the teeth have grown, instruct them to fight.",
         "es": "Una vez que los dientes hayan crecido, ordénales que luchen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 1,
+      "section": "The final battle",
       "text": {
         "en": "Focus on ork warriors while the teeth focus on killing the generals.",
         "es": "Concéntrate en los guerreros ork mientras los dientes se centran en matar a los generales."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 1,
+      "section": "The final battle",
       "text": {
         "en": "After you and the teeth kill the generals, kill the godfather.",
         "es": "Después de que tú y los dientes matéis a los generales, mata al Godfather."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 1,
+      "section": "The final battle",
       "text": {
         "en": "You must let the teeth attack the godfather to reduce the shields. Ensure all 3 teeth are attacking the godfather at once, as each one removes a layer of his 3-layer shield.",
         "es": "Debes dejar que los dientes ataquen al Godfather para reducir sus escudos. Asegúrate de que los 3 dientes atacan al Godfather a la vez, ya que cada uno elimina una capa de su escudo de 3 capas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 1,
+      "section": "The final battle",
       "text": {
         "en": "If all 3 teeth are not attacking the godfather, you will not land hits as his shield will still be active. The melee tooth will not path around the player if you are in the way.",
         "es": "Si los 3 dientes no están atacando al Godfather, no lograrás golpearlo, ya que su escudo seguirá activo. El diente de cuerpo a cuerpo no rodeará al jugador si estás en su camino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "The final battle",
       "text": {
         "en": "Talk to the Fairy Godfather for a cutscene.",
         "es": "Habla con el Fairy Godfather para ver una escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "The final battle",
       "text": {
-        "en": "Continue dialogue with the Fairy Queen and accept her teleport. (opciones de chat: 1 Yes, please teleport me there now.)",
-        "es": "Continúa el diálogo con la Fairy Queen y acepta su teletransporte. (opciones de chat: 1 Yes, please teleport me there now.)"
-      }
+        "en": "Continue dialogue with the Fairy Queen and accept her teleport.",
+        "es": "Continúa el diálogo con la Fairy Queen y acepta su teletransporte."
+      },
+      "chatOptions": [
+        "1 Yes, please teleport me there now."
+      ]
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "The final battle",
       "text": {
-        "en": "Talk to Martin the Master Gardener. (opciones de chat: 2 Talk about farming problems and fairies.)",
-        "es": "Habla con Martin the Master Gardener. (opciones de chat: 2 Talk about farming problems and fairies.)"
-      }
+        "en": "Talk to Martin the Master Gardener.",
+        "es": "Habla con Martin the Master Gardener."
+      },
+      "chatOptions": [
+        "2 Talk about farming problems and fairies."
+      ]
     },
     {
       "index": 68,
       "indent": 0,
+      "section": "The final battle",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

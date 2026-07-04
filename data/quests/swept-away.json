@@ -2,7 +2,8 @@
   "id": "swept-away",
   "title": "Swept Away",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:19:08.761Z",
+  "isSeasonal": true,
+  "guideLastUpdated": "2026-07-04T18:35:09.843Z",
   "icon": "https://runescape.wiki/images/Swept_Away_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -47,6 +48,7 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Swept_Away_reward.png?f50b7",
   "postQuest": [
     {
       "type": "xp",
@@ -64,267 +66,359 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Maggie who is located just west of the Draynor lodestone. (opciones de chat: 1 Oo, something smells rather...interesting! • 1 Is there any way I could help? • Accept • 1 Sure, I can do that for you.)",
-        "es": "Habla con Maggie, que se encuentra justo al oeste del lodestone de Draynor. (opciones de chat: 1 Oo, ¡algo huele bastante... interesante! • 1 ¿Hay alguna forma en que pueda ayudar? • Aceptar • 1 Claro, puedo hacer eso por ti.)"
-      }
+        "en": "Talk to Maggie who is located just west of the Draynor lodestone.",
+        "es": "Habla con Maggie, que se encuentra justo al oeste del lodestone de Draynor."
+      },
+      "chatOptions": [
+        "1 Oo, something smells rather...interesting!",
+        "1 Is there any way I could help?",
+        "Accept",
+        "1 Sure, I can do that for you."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Betty",
       "text": {
-        "en": "Talk to Betty in furthest north-western house in Port Sarim. (opciones de chat: 1 Talk to Betty about Swept Away.)",
-        "es": "Habla con Betty en la casa más al noroeste de Port Sarim. (opciones de chat: 1 Hablar con Betty sobre Swept Away.)"
-      }
+        "en": "Talk to Betty in furthest north-western house in Port Sarim.",
+        "es": "Habla con Betty en la casa más al noroeste de Port Sarim."
+      },
+      "chatOptions": [
+        "1 Talk to Betty about Swept Away."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Betty",
       "text": {
         "en": "Enter the trapdoor in the south-east corner of the house.",
         "es": "Entra por la trampilla en la esquina sureste de la casa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Betty",
       "text": {
-        "en": "Talk to Lottie. (opciones de chat: 2 I need to retrieve Betty's wand.)",
-        "es": "Habla con Lottie. (opciones de chat: 2 Necesito recuperar la varita de Betty.)"
-      }
+        "en": "Talk to Lottie.",
+        "es": "Habla con Lottie."
+      },
+      "chatOptions": [
+        "2 I need to retrieve Betty's wand."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Betty",
       "text": {
         "en": "Complete the puzzle.",
         "es": "Completa el puzle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Betty",
       "text": {
         "en": "Put the blackbird in the holding pen.",
         "es": "Pon el mirlo en el corral de retención."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Betty",
       "text": {
         "en": "Put the rat in the blackbird pen.",
         "es": "Pon la rata en el corral de los mirlos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Betty",
       "text": {
         "en": "Put the spider in the spiders pen.",
         "es": "Pon la araña en el corral de las arañas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Betty",
       "text": {
         "en": "Put the lizard in the reptiles pen.",
         "es": "Pon el lagarto en el corral de los reptiles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Betty",
       "text": {
         "en": "Put the rat in the rat pen.",
         "es": "Pon la rata en el corral de las ratas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Betty",
       "text": {
         "en": "Put the blackbird in the blackbird pen.",
         "es": "Pon el mirlo en el corral de los mirlos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Betty",
       "text": {
         "en": "Open and search the chest near the ladder you came from.",
         "es": "Abre y registra el cofre cerca de la escalera por la que viniste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Betty",
       "text": {
-        "en": "Climb up the ladder and talk to Betty. (opciones de chat: 1 Talk to Betty about Swept Away.)",
-        "es": "Sube por la escalera y habla con Betty. (opciones de chat: 1 Hablar con Betty sobre Swept Away.)"
-      }
+        "en": "Climb up the ladder and talk to Betty.",
+        "es": "Sube por la escalera y habla con Betty."
+      },
+      "chatOptions": [
+        "1 Talk to Betty about Swept Away."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Hetty",
       "text": {
         "en": "Head to Rimmington (run southwest from Betty's shop in Port Sarim).",
         "es": "Dirígete a Rimmington (corre hacia el suroeste desde la tienda de Betty en Port Sarim)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Hetty",
       "text": {
-        "en": "Talk to Hetty. (opciones de chat: 2 Talk about Swept Away.)",
-        "es": "Habla con Hetty. (opciones de chat: 2 Hablar sobre Swept Away.)"
-      }
+        "en": "Talk to Hetty.",
+        "es": "Habla con Hetty."
+      },
+      "chatOptions": [
+        "2 Talk about Swept Away."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Hetty",
       "text": {
         "en": "Enter the trapdoor just south of her house.",
         "es": "Entra por la trampilla justo al sur de su casa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Hetty",
       "text": {
-        "en": "Talk to Gus. (opciones de chat: 1 It's a deal.)",
-        "es": "Habla con Gus. (opciones de chat: 1 Trato hecho.)"
-      }
+        "en": "Talk to Gus.",
+        "es": "Habla con Gus."
+      },
+      "chatOptions": [
+        "1 It's a deal."
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Hetty",
       "text": {
         "en": "Take from the crate that's labelled \"Newts and Toads\".",
         "es": "Coge algo de la caja etiquetada como \"Newts and Toads\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Hetty",
       "text": {
         "en": "Place the label of the creature you removed on that box.",
         "es": "Coloca la etiqueta de la criatura que quitaste en esa caja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Hetty",
       "text": {
         "en": "If you placed the \"Newts\" label previously, place the \"Toads\" label on the \"Newts\" crate. Otherwise place the \"Newts\" label on the \"Toads\" crate.",
         "es": "Si colocaste antes la etiqueta \"Newts\", coloca la etiqueta \"Toads\" en la caja de \"Newts\". Si no, coloca la etiqueta \"Newts\" en la caja de \"Toads\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Hetty",
       "text": {
         "en": "Place the remaining label on the last box and talk to Gus.",
         "es": "Coloca la etiqueta restante en la última caja y habla con Gus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Hetty",
       "text": {
         "en": "Take a newt from the newt crate.",
         "es": "Coge un tritón de la caja de tritones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Hetty",
       "text": {
-        "en": "Talk to Hetty. (opciones de chat: 2 Talk about Swept Away.)",
-        "es": "Habla con Hetty. (opciones de chat: 2 Hablar sobre Swept Away.)"
-      }
+        "en": "Talk to Hetty.",
+        "es": "Habla con Hetty."
+      },
+      "chatOptions": [
+        "2 Talk about Swept Away."
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Hetty",
       "text": {
         "en": "Use the ointment on the broom.",
         "es": "Usa el ungüento en la escoba."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Aggie",
       "text": {
-        "en": "Talk to Aggie in Draynor Village. (opciones de chat: 2 Talk about Swept Away. • 1 Yes, I'm ready to go now.) You will get teleported to a new area.",
+        "en": "Talk to Aggie in Draynor Village. You will get teleported to a new area.",
         "es": "Habla con Aggie en Draynor Village. (opciones de chat: 2 Hablar sobre Swept Away. • 1 Sí, ya estoy lista para ir.) Serás teletransportado a una nueva zona."
-      }
+      },
+      "chatOptions": [
+        "2 Talk about Swept Away.",
+        "1 Yes, I'm ready to go now."
+      ]
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Aggie",
       "text": {
         "en": "Talk to Aggie again.",
         "es": "Habla de nuevo con Aggie."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Aggie",
       "text": {
         "en": "Complete the puzzle.",
         "es": "Completa el puzle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Aggie",
       "text": {
-        "en": "Talk to Aggie (opciones de chat: 3 I'd like to go back to Draynor, please.)",
-        "es": "Habla con Aggie (opciones de chat: 3 Me gustaría volver a Draynor, por favor.)"
-      }
+        "en": "Talk to Aggie",
+        "es": "Habla con Aggie"
+      },
+      "chatOptions": [
+        "3 I'd like to go back to Draynor, please."
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Talk to Maggie. (opciones de chat: 1 I have good news for you. • 1 Of course I could.)",
-        "es": "Habla con Maggie. (opciones de chat: 1 Tengo buenas noticias para ti. • 1 Por supuesto que podría.)"
-      }
+        "en": "Talk to Maggie.",
+        "es": "Habla con Maggie."
+      },
+      "chatOptions": [
+        "1 I have good news for you.",
+        "1 Of course I could."
+      ]
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Stir the cauldron with the broomstick.",
         "es": "Remueve el caldero con el palo de escoba."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Talk to Maggie. (opciones de chat: 1 I've stirred the cauldron for you.)",
-        "es": "Habla con Maggie. (opciones de chat: 1 He removido el caldero por ti.)"
-      }
+        "en": "Talk to Maggie.",
+        "es": "Habla con Maggie."
+      },
+      "chatOptions": [
+        "1 I've stirred the cauldron for you."
+      ]
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
         "en": "If drinking the Goulash after the quest, you may want to disable the setting that destroys empty bowls when eating.",
         "es": "Si bebes el Goulash después de la misión, quizá quieras desactivar la opción que destruye los cuencos vacíos al comer."
-      }
+      },
+      "chatOptions": []
     }
-  ],
-  "isSeasonal": true
+  ]
 }

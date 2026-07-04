@@ -2,7 +2,8 @@
   "id": "heroes-quest",
   "title": "Heroes' Quest",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:28:35.679Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:24.011Z",
   "icon": "https://runescape.wiki/images/Heroes%27_Quest_icon.png",
   "series": null,
   "age": "5",
@@ -236,399 +237,527 @@
       "image": "https://runescape.wiki/images/thumb/Cap%27n_Arnav.png/100px-Cap%27n_Arnav.png?ce37a"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Heroes%27_Quest_reward.png?56fab",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Achietties outside the Heroes' Guild in Burthorpe. (opciones de chat: Accept)",
-        "es": "Habla con Achietties fuera del Heroes' Guild en Burthorpe. (opciones de chat: Accept)"
-      }
+        "en": "Talk to Achietties outside the Heroes' Guild in Burthorpe.",
+        "es": "Habla con Achietties fuera del Heroes' Guild en Burthorpe."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Lava eel",
       "text": {
-        "en": "Talk to Gerrant, the fishing shop owner in Port Sarim, about lava eels. He will give you a vial of blamish snail slime. (opciones de chat: 1 I want to find out how to catch a lava eel.)",
-        "es": "Habla con Gerrant, el dueño de la tienda de pesca en Port Sarim, sobre las anguilas de lava. Te dará un vial de baba de caracol blamish. (opciones de chat: 1 I want to find out how to catch a lava eel.)"
-      }
+        "en": "Talk to Gerrant, the fishing shop owner in Port Sarim, about lava eels. He will give you a vial of blamish snail slime.",
+        "es": "Habla con Gerrant, el dueño de la tienda de pesca en Port Sarim, sobre las anguilas de lava. Te dará un vial de baba de caracol blamish."
+      },
+      "chatOptions": [
+        "1 I want to find out how to catch a lava eel."
+      ]
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Lava eel",
       "text": {
         "en": "Buy a fishing rod and fishing bait from Gerrant if you don't already have them.",
         "es": "Compra una caña de pescar y cebo de pesca a Gerrant si aún no los tienes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Lava eel",
       "text": {
         "en": "Use the blamish snail slime on your harralander potion (unfinished).",
         "es": "Usa la baba de caracol blamish en tu poción de harralander (sin terminar)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Lava eel",
       "text": {
         "en": "Use the blamish oil on your fishing rod.",
         "es": "Usa el aceite blamish en tu caña de pescar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Lava eel",
       "text": {
         "en": "Enter Taverley dungeon.",
         "es": "Entra en la Taverley dungeon."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Lava eel",
       "text": {
         "en": "If you already have a dusty key (a steel key ring with the dusty key works), or , skip the next step.",
         "es": "Si ya tienes una dusty key (un llavero de acero con la dusty key sirve), o , omite el siguiente paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Lava eel",
       "text": {
         "en": "To obtain a dusty key:",
         "es": "Para obtener una dusty key:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Lava eel",
       "text": {
         "en": "Use the map (pictured right) to find Velrak the explorer. He is in the southern part of the dungeon.",
         "es": "Usa el mapa (ilustrado a la derecha) para encontrar a Velrak the explorer. Se encuentra en la parte sur de la mazmorra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Lava eel",
       "text": {
         "en": "Kill the Jailer standing by the prison and use the key he drops to get into Velrak's cell.",
         "es": "Mata al Jailer que está junto a la prisión y usa la llave que suelta para entrar en la celda de Velrak."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Lava eel",
       "text": {
-        "en": "Talk to him for the dusty key. (opciones de chat: 1 So..do you know anywhere good to explore? • 1 Yes, please!)",
-        "es": "Habla con él para conseguir la dusty key. (opciones de chat: 1 So..do you know anywhere good to explore? • 1 Yes, please!)"
-      }
+        "en": "Talk to him for the dusty key.",
+        "es": "Habla con él para conseguir la dusty key."
+      },
+      "chatOptions": [
+        "1 So..do you know anywhere good to explore?",
+        "1 Yes, please!"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Lava eel",
       "text": {
         "en": "Enter the area with the blue dragons, either by using your key on the locked door or by taking the Agility shortcut.",
         "es": "Entra en la zona de los dragones azules, ya sea usando tu llave en la puerta cerrada o tomando el atajo de Agilidad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Lava eel",
       "text": {
         "en": "Run to the southernmost lava pool.",
         "es": "Corre hasta la charca de lava más al sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Lava eel",
       "text": {
         "en": "Catch a lava eel.",
         "es": "Pesca una anguila de lava."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Lava eel",
       "text": {
         "en": "Cook the eel on a range or fire.",
         "es": "Cocina la anguila en un horno o fuego."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Method (Phoenix Gang)",
       "text": {
         "en": "Go to the Phoenix Gang Hideout in south-east Varrock, down the ladder into the hideout and talk to Straven, learning the gang password from him (Gherkin). Talk to him one more time.",
         "es": "Ve al Phoenix Gang Hideout en el sureste de Varrock, baja por la escalera hacia el escondite y habla con Straven, aprendiendo de él la contraseña de la banda (Gherkin). Habla con él una vez más."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Method (Phoenix Gang)",
       "text": {
-        "en": "Go to Brimhaven and talk to Alfonse the waiter in the food shop. (opciones de chat: 2 Do you sell...gherkins?)",
-        "es": "Ve a Brimhaven y habla con Alfonse the waiter en la tienda de comida. (opciones de chat: 2 Do you sell...gherkins?)"
-      }
+        "en": "Go to Brimhaven and talk to Alfonse the waiter in the food shop.",
+        "es": "Ve a Brimhaven y habla con Alfonse the waiter en la tienda de comida."
+      },
+      "chatOptions": [
+        "2 Do you sell...gherkins?"
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Method (Phoenix Gang)",
       "text": {
-        "en": "Go through the door and talk to Charlie the cook. (opciones de chat: 1 I'm looking for a gherkin... • 2 I want to steal Scarface Pete's candlesticks.)",
-        "es": "Cruza la puerta y habla con Charlie the cook. (opciones de chat: 1 I'm looking for a gherkin... • 2 I want to steal Scarface Pete's candlesticks.)"
-      }
+        "en": "Go through the door and talk to Charlie the cook.",
+        "es": "Cruza la puerta y habla con Charlie the cook."
+      },
+      "chatOptions": [
+        "1 I'm looking for a gherkin...",
+        "2 I want to steal Scarface Pete's candlesticks."
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Method (Phoenix Gang)",
       "text": {
-        "en": "Go to the mansion entrance to the west and talk to Garv. Bribe him with 1,000 coins, or free with a ring of charos (a). (opciones de chat: 1 OK)",
-        "es": "Ve a la entrada de la mansión al oeste y habla con Garv. Sobórnalo con 1.000 monedas, o gratis con un ring of charos (a). (opciones de chat: 1 OK)"
-      }
+        "en": "Go to the mansion entrance to the west and talk to Garv. Bribe him with 1,000 coins, or free with a ring of charos (a).",
+        "es": "Ve a la entrada de la mansión al oeste y habla con Garv. Sobórnalo con 1.000 monedas, o gratis con un ring of charos (a)."
+      },
+      "chatOptions": [
+        "1 OK"
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Method (Phoenix Gang)",
       "text": {
         "en": "Enter the front door near the guard.",
         "es": "Entra por la puerta principal cerca del guardia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Method (Phoenix Gang)",
       "text": {
-        "en": "Go to the north-west part of the building and open the Treasure room door with a lockpick to enter. (opciones de chat: 1 OK)",
-        "es": "Ve a la parte noroeste del edificio y abre la puerta de la Treasure room con una ganzúa para entrar. (opciones de chat: 1 OK)"
-      }
+        "en": "Go to the north-west part of the building and open the Treasure room door with a lockpick to enter.",
+        "es": "Ve a la parte noroeste del edificio y abre la puerta de la Treasure room con una ganzúa para entrar."
+      },
+      "chatOptions": [
+        "1 OK"
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Method (Phoenix Gang)",
       "text": {
         "en": "Open the northern chest.",
         "es": "Abre el cofre del norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Method (Phoenix Gang)",
       "text": {
         "en": "Search the chest to take one candlestick.",
         "es": "Registra el cofre para coger un candelabro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Method (Phoenix Gang)",
       "text": {
         "en": "Bring the candlestick back to Straven to receive a Master Thief's Armband.",
         "es": "Lleva el candelabro de vuelta a Straven para recibir un Master Thief's Armband."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Method (Black Arm)",
       "text": {
-        "en": "Go to south-west Varrock and talk to Katrine. (opciones de chat: 1 How can I get a master thief's armband? • Accept)",
-        "es": "Ve al suroeste de Varrock y habla con Katrine. (opciones de chat: 1 How can I get a master thief's armband? • Accept)"
-      }
+        "en": "Go to south-west Varrock and talk to Katrine.",
+        "es": "Ve al suroeste de Varrock y habla con Katrine."
+      },
+      "chatOptions": [
+        "1 How can I get a master thief's armband?",
+        "Accept"
+      ]
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Method (Black Arm)",
       "text": {
-        "en": "Go to Brimhaven, to the building east of the bar (opciones de chat: 2 Four-leafed clover) and talk to Trobert. (opciones de chat: 1 So can you help me get Scarface Pete's candlesticks? • 1 I volunteer to undertake that mission!)",
-        "es": "Ve a Brimhaven, al edificio al este del bar (opciones de chat: 2 Four-leafed clover) y habla con Trobert. (opciones de chat: 1 So can you help me get Scarface Pete's candlesticks? • 1 I volunteer to undertake that mission!)"
-      }
+        "en": "Go to Brimhaven, to the building east of the bar and talk to Trobert.",
+        "es": "Ve a Brimhaven, al edificio al este del bar (opciones de chat: 2 Four-leafed clover) y habla con Trobert."
+      },
+      "chatOptions": [
+        "2 Four-leafed clover",
+        "1 So can you help me get Scarface Pete's candlesticks?",
+        "1 I volunteer to undertake that mission!"
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Method (Black Arm)",
       "text": {
         "en": "Equip your Black armour.",
         "es": "Equípate la Black armour."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Method (Black Arm)",
       "text": {
         "en": "Enter the large mansion in the north-west part of town.",
         "es": "Entra en la gran mansión de la parte noroeste de la ciudad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Method (Black Arm)",
       "text": {
-        "en": "Talk to Grip. (opciones de chat: 2 So what do my duties involve?)",
-        "es": "Habla con Grip. (opciones de chat: 2 So what do my duties involve?)"
-      }
+        "en": "Talk to Grip.",
+        "es": "Habla con Grip."
+      },
+      "chatOptions": [
+        "2 So what do my duties involve?"
+      ]
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Method (Black Arm)",
       "text": {
-        "en": "Go to the north-west part of the building and open the Treasure room door with a lockpick to enter. (opciones de chat: 1 OK)",
-        "es": "Ve a la parte noroeste del edificio y abre la puerta de la Treasure room con una ganzúa para entrar. (opciones de chat: 1 OK)"
-      }
+        "en": "Go to the north-west part of the building and open the Treasure room door with a lockpick to enter.",
+        "es": "Ve a la parte noroeste del edificio y abre la puerta de la Treasure room con una ganzúa para entrar."
+      },
+      "chatOptions": [
+        "1 OK"
+      ]
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Method (Black Arm)",
       "text": {
         "en": "Open the northern chest.",
         "es": "Abre el cofre del norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Method (Black Arm)",
       "text": {
         "en": "Search the chest to take one candlestick.",
         "es": "Registra el cofre para coger un candelabro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Method (Black Arm)",
       "text": {
-        "en": "Bring the candlestick back to Katrine to receive a Master Thief's Armband. (opciones de chat: 1 I have a candlestick now.)",
-        "es": "Lleva el candelabro de vuelta a Katrine para recibir un Master Thief's Armband. (opciones de chat: 1 I have a candlestick now.)"
-      }
+        "en": "Bring the candlestick back to Katrine to receive a Master Thief's Armband.",
+        "es": "Lleva el candelabro de vuelta a Katrine para recibir un Master Thief's Armband."
+      },
+      "chatOptions": [
+        "1 I have a candlestick now."
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Entrana firebird feather",
       "text": {
         "en": "If you do not have ice gloves:",
         "es": "Si no tienes los ice gloves:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "Entrana firebird feather",
       "text": {
         "en": "Equip combat gear and food to kill a level 77 Ice Queen.",
         "es": "Equípate con equipo de combate y comida para matar a la Ice Queen de nivel 77."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Entrana firebird feather",
       "text": {
         "en": "Teleport to Taverley and climb to the top of the White Wolf Mountain and enter the cave.",
         "es": "Teletranspórtate a Taverley y sube hasta la cima de la White Wolf Mountain y entra en la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "Entrana firebird feather",
       "text": {
         "en": "Mine the rock slide to the east.",
         "es": "Extrae el rock slide hacia el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Entrana firebird feather",
       "text": {
         "en": "Climb down the south ladder.",
         "es": "Baja por la escalera del sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "Entrana firebird feather",
       "text": {
         "en": "Follow the tunnel south-west, then go up the ladder.",
         "es": "Sigue el túnel hacia el suroeste, luego sube por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 1,
+      "section": "Entrana firebird feather",
       "text": {
         "en": "Make sure your compass is pointed north and take the east ladder down.",
         "es": "Asegúrate de que tu brújula apunte al norte y baja por la escalera del este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "Entrana firebird feather",
       "text": {
         "en": "Head north and follow the long tunnel all the way round, then use the ladder at the end.",
         "es": "Ve hacia el norte y sigue el largo túnel hasta el final, luego usa la escalera al final."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "Entrana firebird feather",
       "text": {
         "en": "Take the north ladder back down.",
         "es": "Baja de nuevo por la escalera del norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 1,
+      "section": "Entrana firebird feather",
       "text": {
         "en": "Run north and kill the queen for her gloves.",
         "es": "Corre hacia el norte y mata a la reina para conseguir sus guantes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Entrana firebird feather",
       "text": {
         "en": "Bank any equipment (has combat stats).",
         "es": "Guarda en el banco cualquier equipo (que tenga estadísticas de combate)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Entrana firebird feather",
       "text": {
         "en": "Sail to Entrana or teleport to the law altar through the Abyss.",
         "es": "Navega hasta Entrana o teletranspórtate al law altar a través del Abyss."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Entrana firebird feather",
       "text": {
         "en": "Equip the ice gloves.",
         "es": "Equípate los ice gloves."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Entrana firebird feather",
       "text": {
         "en": "Kill the Firebird which is located on the northern part of the island, near the law altar, and take the Entranan firebird feather it drops.",
         "es": "Mata al Firebird que se encuentra en la parte norte de la isla, cerca del law altar, y coge la Entranan firebird feather que suelta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Take the feather, eel, and armband to Achietties outside the Heroes' Guild.",
         "es": "Lleva la pluma, la anguila y el brazalete a Achietties fuera del Heroes' Guild."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "phite-club",
   "title": "'Phite Club",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:02:32.757Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:47.660Z",
   "icon": "https://runescape.wiki/images/%27Phite_Club_icon.png",
   "series": "Desert",
   "age": "5",
@@ -96,183 +97,254 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/%27Phite_Club_reward.png?0df88",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Speak with Grand Vizier Hassan in the Merchant district of Menaphos. (opciones de chat: 1 Talk about 'Phite Club. • Accept • Any • 2 I'll help if I get to end him.)",
-        "es": "Habla con el Gran Visir Hassan en el distrito de los Mercaderes de Menaphos. (opciones de chat: 1 Hablar sobre el club 'Phite. • Aceptar • Cualquiera • 2 Ayudaré si puedo acabar con él.)"
-      }
+        "en": "Speak with Grand Vizier Hassan in the Merchant district of Menaphos.",
+        "es": "Habla con el Gran Visir Hassan en el distrito de los Mercaderes de Menaphos."
+      },
+      "chatOptions": [
+        "1 Talk about 'Phite Club.",
+        "Accept",
+        "Any",
+        "2 I'll help if I get to end him."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "One small favour",
       "text": {
         "en": "Speak to the faction heads, preferably ending with worker (closest to tomb)",
         "es": "Habla con los líderes de las facciones, terminando preferiblemente con el de los Trabajadores (el más cercano a la tumba)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "One small favour",
       "text": {
-        "en": "Speak to Grand Vizier Ehsan (Merchant) also in the same building. (opciones de chat: 1 Talk about 'Phite Club. • Any)",
-        "es": "Habla con el Gran Visir Ehsan (Mercaderes) también en el mismo edificio. (opciones de chat: 1 Hablar sobre el club 'Phite. • Cualquiera)"
-      }
+        "en": "Speak to Grand Vizier Ehsan (Merchant) also in the same building.",
+        "es": "Habla con el Gran Visir Ehsan (Mercaderes) también en el mismo edificio."
+      },
+      "chatOptions": [
+        "1 Talk about 'Phite Club.",
+        "Any"
+      ]
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "One small favour",
       "text": {
-        "en": "Speak to 'Admiral' Wadud (Ports) in the Golden Scarab Inn in the Port district. (opciones de chat: 1 Talk about 'Phite Club. • Any)",
-        "es": "Habla con el 'Almirante' Wadud (Puertos) en el Golden Scarab Inn del distrito Portuario. (opciones de chat: 1 Hablar sobre el club 'Phite. • Cualquiera)"
-      }
+        "en": "Speak to 'Admiral' Wadud (Ports) in the Golden Scarab Inn in the Port district.",
+        "es": "Habla con el 'Almirante' Wadud (Puertos) en el Golden Scarab Inn del distrito Portuario."
+      },
+      "chatOptions": [
+        "1 Talk about 'Phite Club.",
+        "Any"
+      ]
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "One small favour",
       "text": {
-        "en": "Speak to Commander Akhomet (Imperial) in the Imperial district. (opciones de chat: 1 Talk about 'Phite Club.)",
-        "es": "Habla con el Comandante Akhomet (Imperial) en el distrito Imperial. (opciones de chat: 1 Hablar sobre el club 'Phite.)"
-      }
+        "en": "Speak to Commander Akhomet (Imperial) in the Imperial district.",
+        "es": "Habla con el Comandante Akhomet (Imperial) en el distrito Imperial."
+      },
+      "chatOptions": [
+        "1 Talk about 'Phite Club."
+      ]
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "One small favour",
       "text": {
-        "en": "Speak to Batal (Worker) in the Worker district. (opciones de chat: 1 Talk about 'Phite Club.)",
-        "es": "Habla con Batal (Trabajadores) en el distrito de los Trabajadores. (opciones de chat: 1 Hablar sobre el club 'Phite.)"
-      }
+        "en": "Speak to Batal (Worker) in the Worker district.",
+        "es": "Habla con Batal (Trabajadores) en el distrito de los Trabajadores."
+      },
+      "chatOptions": [
+        "1 Talk about 'Phite Club."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "One small favour",
       "text": {
         "en": "Enter the Shifting Tombs and speak to Ozan inside.",
         "es": "Entra en las Shifting Tombs y habla con Ozan dentro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "One small favour",
       "text": {
         "en": "Exit the Shifting Tombs and use the mask you received from Ozan with the bucket of blood next to the fish stall in the Merchant district.",
         "es": "Sal de las Shifting Tombs y usa la máscara que recibiste de Ozan con el cubo de sangre junto al puesto de pescado en el distrito de los Mercaderes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "One small favour",
       "text": {
-        "en": "Speak to Akhomet in the Imperial district. (opciones de chat: 1 Talk about 'Phite Club.)",
-        "es": "Habla con Akhomet en el distrito Imperial. (opciones de chat: 1 Hablar sobre el club 'Phite.)"
-      }
+        "en": "Speak to Akhomet in the Imperial district.",
+        "es": "Habla con Akhomet en el distrito Imperial."
+      },
+      "chatOptions": [
+        "1 Talk about 'Phite Club."
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "One small favour",
       "text": {
-        "en": "Give the signets to Batal in the Worker district. (opciones de chat: 1 Talk about 'Phite Club.)",
-        "es": "Entrega los sellos a Batal en el distrito de los Trabajadores. (opciones de chat: 1 Hablar sobre el club 'Phite.)"
-      }
+        "en": "Give the signets to Batal in the Worker district.",
+        "es": "Entrega los sellos a Batal en el distrito de los Trabajadores."
+      },
+      "chatOptions": [
+        "1 Talk about 'Phite Club."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "One small favour",
       "text": {
-        "en": "Give the certificate to Wadud in the Port district. (opciones de chat: 1 Talk about 'Phite Club.)",
-        "es": "Entrega el certificado a Wadud en el distrito Portuario. (opciones de chat: 1 Hablar sobre el club 'Phite.)"
-      }
+        "en": "Give the certificate to Wadud in the Port district.",
+        "es": "Entrega el certificado a Wadud en el distrito Portuario."
+      },
+      "chatOptions": [
+        "1 Talk about 'Phite Club."
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "One small favour",
       "text": {
-        "en": "Speak to Ehsan in the Merchant district. (opciones de chat: 1 Talk about 'Phite Club.)",
-        "es": "Habla con Ehsan en el distrito de los Mercaderes. (opciones de chat: 1 Hablar sobre el club 'Phite.)"
-      }
+        "en": "Speak to Ehsan in the Merchant district.",
+        "es": "Habla con Ehsan en el distrito de los Mercaderes."
+      },
+      "chatOptions": [
+        "1 Talk about 'Phite Club."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Confronting the Pharaoh",
       "text": {
         "en": "Gear up for a battle.",
         "es": "Equípate para una batalla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Confronting the Pharaoh",
       "text": {
-        "en": "Speak to Hassan in the Merchant district. (opciones de chat: 1 Talk about 'Phite Club. • 1 Yes, let's go confront the Pharaoh.)",
-        "es": "Habla con Hassan en el distrito de los Mercaderes. (opciones de chat: 1 Hablar sobre el club 'Phite. • 1 Sí, vayamos a enfrentarnos al Faraón.)"
-      }
+        "en": "Speak to Hassan in the Merchant district.",
+        "es": "Habla con Hassan en el distrito de los Mercaderes."
+      },
+      "chatOptions": [
+        "1 Talk about 'Phite Club.",
+        "1 Yes, let's go confront the Pharaoh."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Confronting the Pharaoh",
       "text": {
         "en": "Kill four level 105 Menaphos palace guards. This will be a checkpoint for the final fight.",
         "es": "Mata a cuatro guardias del palacio de Menaphos de nivel 105. Esto servirá como punto de control para el combate final."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Confronting the Pharaoh",
       "text": {
         "en": "Use Protect from Magic prayer and finish off the ones using melee combat style first.",
         "es": "Usa la oración Protección ante Magia y elimina primero a los que usan el estilo de combate cuerpo a cuerpo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Confronting the Pharaoh",
       "text": {
         "en": "Fight the Pharaoh.",
         "es": "Enfréntate al Faraón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Confronting the Pharaoh",
       "text": {
         "en": "Use Protect from Magic.",
         "es": "Usa Protección ante Magia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Confronting the Pharaoh",
       "text": {
         "en": "\"Kneel\" or \"Usurpers!\" - Use the freedom ability to break free and prevent further damage.",
         "es": "\"Arrodíllate\" o \"¡Usurpadores!\" - Usa la habilidad de libertad para liberarte y evitar más daño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Confronting the Pharaoh",
       "text": {
         "en": "Move off the green fire as soon as it spawns.",
         "es": "Aléjate del fuego verde en cuanto aparezca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Finale",
       "text": {
         "en": "Watch the cutscene.",
         "es": "Observa la escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Finale",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

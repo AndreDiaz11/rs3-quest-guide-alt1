@@ -2,6 +2,7 @@ import { fetchIndex, fetchQuest } from "./dataset.js";
 import { renderQuestDetail } from "./detail.js";
 import { renderSidebar } from "./sidebar.js";
 import { fetchRuneMetricsQuests } from "./runemetrics.js";
+import { fetchPlayerLevels } from "./skills.js";
 import { matchRuneMetricsToDataset } from "./matching.js";
 import { openSettingsModal, loadSettings } from "./settings.js";
 import { state, questStatus } from "./state.js";
@@ -34,11 +35,18 @@ async function selectQuest(id) {
 async function refreshRuneMetrics() {
   if (!state.settings.username) {
     state.runemetricsStatus = new Map();
+    state.playerLevels = null;
     return { noUsername: true };
   }
   try {
     const { quests, invalidOrPrivate, noUsername } = await fetchRuneMetricsQuests(state.settings.username);
     state.runemetricsStatus = await matchRuneMetricsToDataset(quests, state.index.quests);
+    try {
+      state.playerLevels = await fetchPlayerLevels(state.settings.username);
+    } catch (err) {
+      console.error("[skills] fallo al consultar niveles del jugador:", err);
+      state.playerLevels = null;
+    }
     return { invalidOrPrivate, noUsername };
   } catch (err) {
     // Red fetch failure (CORS, sin conexión, etc.) — no debe tumbar la app,

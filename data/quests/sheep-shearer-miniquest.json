@@ -2,7 +2,8 @@
   "id": "sheep-shearer-miniquest",
   "title": "Sheep Shearer (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-04T02:14:21.098Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:03.537Z",
   "icon": "https://runescape.wiki/images/Sheep_Shearer_%28miniquest%29_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -47,6 +48,7 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Sheep_Shearer_%28miniquest%29_reward.png?f6154",
   "postQuest": [
     {
       "type": "item",
@@ -58,98 +60,136 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "If you already have the 20 unnoted balls of wool",
       "text": {
-        "en": "Talk to Fred the Farmer north of Lumbridge. (opciones de chat: 3 I'm looking for work. • 1 It takes all sorts, I suppose. • Accept • 1 Of course! • 1 I'm something of an expert, actually.)",
-        "es": "Habla con Fred the Farmer al norte de Lumbridge. (opciones de chat: 3 Estoy buscando trabajo. • 1 Supongo que hay gente de todo tipo. • Aceptar • 1 ¡Por supuesto! • 1 De hecho, soy algo así como un experto.)"
-      }
+        "en": "Talk to Fred the Farmer north of Lumbridge.",
+        "es": "Habla con Fred the Farmer al norte de Lumbridge."
+      },
+      "chatOptions": [
+        "3 I'm looking for work.",
+        "1 It takes all sorts, I suppose.",
+        "Accept",
+        "1 Of course!",
+        "1 I'm something of an expert, actually."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "If you already have the 20 unnoted balls of wool",
       "text": {
         "en": "Fred takes the 20 balls of wool. Congratulations, miniquest complete!",
         "es": "Fred coge las 20 bolas de lana. ¡Enhorabuena, minimisión completada!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "If you don't have the balls of wool",
       "text": {
-        "en": "Talk to Fred the Farmer north of Lumbridge. (opciones de chat: 3 I'm looking for work. • 1 It takes all sorts, I suppose. • Accept • 1 Of course! • 1 I'm something of an expert, actually.)",
-        "es": "Habla con Fred the Farmer al norte de Lumbridge. (opciones de chat: 3 Estoy buscando trabajo. • 1 Supongo que hay gente de todo tipo. • Aceptar • 1 ¡Por supuesto! • 1 De hecho, soy algo así como un experto.)"
-      }
+        "en": "Talk to Fred the Farmer north of Lumbridge.",
+        "es": "Habla con Fred the Farmer al norte de Lumbridge."
+      },
+      "chatOptions": [
+        "3 I'm looking for work.",
+        "1 It takes all sorts, I suppose.",
+        "Accept",
+        "1 Of course!",
+        "1 I'm something of an expert, actually."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "If you don't have the balls of wool",
       "text": {
         "en": "Climb-over the stile into the sheep pen west of his house.",
         "es": "Cruza la valla trepando hacia el redil de ovejas al oeste de su casa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "If you don't have the balls of wool",
       "text": {
         "en": "Alternatively purchase 20 balls of wool from the Grand exchange and continue to the last step.",
         "es": "Alternativamente, compra 20 bolas de lana en el Grand Exchange y continúa con el último paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "If you don't have the balls of wool",
       "text": {
         "en": "Shear the six sheep.",
         "es": "Esquila las seis ovejas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "If you don't have the balls of wool",
       "text": {
         "en": "You cannot shear black sheep, rams or the odd-looking sheep. If you attack a ram and cannot kill it, run out of the pen until it stops targeting you.",
         "es": "No puedes esquilar ovejas negras, carneros ni la oveja de aspecto extraño. Si atacas a un carnero y no puedes matarlo, sal corriendo del redil hasta que deje de tenerte como objetivo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "If you don't have the balls of wool",
       "text": {
         "en": "Wait 12 seconds for their wool to grow back, shearing them again.",
         "es": "Espera 12 segundos a que les vuelva a crecer la lana y esquílalas de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "If you don't have the balls of wool",
       "text": {
         "en": "Repeat this process until you have 20 pieces of wool.",
         "es": "Repite este proceso hasta que tengas 20 piezas de lana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "If you don't have the balls of wool",
       "text": {
         "en": "Head to the of the Lumbridge Castle.",
         "es": "Dirígete al Lumbridge Castle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "If you don't have the balls of wool",
       "text": {
         "en": "Use the spinning wheel in the southern room to spin the balls of wool.",
         "es": "Usa la rueca en la sala sur para hilar las bolas de lana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "If you don't have the balls of wool",
       "text": {
-        "en": "Talk to Fred and hand them in. (opciones de chat: 1 I have some balls of wool for you.)",
-        "es": "Habla con Fred y entrégaselas. (opciones de chat: 1 Tengo unas bolas de lana para ti.)"
-      }
+        "en": "Talk to Fred and hand them in.",
+        "es": "Habla con Fred y entrégaselas."
+      },
+      "chatOptions": [
+        "1 I have some balls of wool for you."
+      ]
     }
   ]
 }

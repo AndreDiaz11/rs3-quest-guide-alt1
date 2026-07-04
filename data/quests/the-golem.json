@@ -2,7 +2,8 @@
   "id": "the-golem",
   "title": "The Golem",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:24:00.999Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:20.259Z",
   "icon": "https://runescape.wiki/images/The_Golem_icon.png",
   "series": null,
   "age": "5",
@@ -113,263 +114,337 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Golem_reward.png?f386e",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Incomplete Mission",
       "text": {
-        "en": "Head east of the Shantay Pass to Uzer (north-east of the fairy ring ).",
+        "en": "Head east of the Shantay Pass to Uzer (north-east of the fairy ring DLQ).",
         "es": "Dirígete al este de Shantay Pass hacia Uzer (al noreste del fairy ring)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Incomplete Mission",
       "text": {
         "en": "If running from the Shantay Pass, pick up the phoenix feather on the way.",
         "es": "Si vienes corriendo desde Shantay Pass, recoge la pluma de phoenix por el camino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Incomplete Mission",
       "text": {
-        "en": "Talk to the broken clay golem. (opciones de chat: Accept)",
-        "es": "Habla con el gólem de arcilla roto. (opciones de chat: Accept)"
-      }
+        "en": "Talk to the broken clay golem.",
+        "es": "Habla con el gólem de arcilla roto."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Incomplete Mission",
       "text": {
         "en": "With four soft clay in your backpack, use one on the golem. All four will be used to repair the golem.",
         "es": "Con cuatro arcilla blanda en tu mochila, usa una en el gólem. Se usarán las cuatro para reparar al gólem."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Incomplete Mission",
       "text": {
-        "en": "Talk to the golem. (opciones de chat: 1 How do I open the portal?)",
-        "es": "Habla con el gólem. (opciones de chat: 1 How do I open the portal?)"
-      }
+        "en": "Talk to the golem.",
+        "es": "Habla con el gólem."
+      },
+      "chatOptions": [
+        "1 How do I open the portal?"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Incomplete Mission",
       "text": {
         "en": "Pick up and read the letter west of the broken clay golem.",
         "es": "Recoge y lee la carta al oeste del gólem de arcilla roto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Incomplete Mission",
       "text": {
         "en": "Pick a black mushroom, found on the south-east corner of the stairs leading into the ruins.",
         "es": "Recoge una black mushroom, que se encuentra en la esquina sureste de las escaleras que llevan a las ruinas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Incomplete Mission",
       "text": {
         "en": "Climb down the stairs in the ruins east of the golem.",
         "es": "Baja las escaleras en las ruinas al este del gólem."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Incomplete Mission",
       "text": {
         "en": "Head to the north-western room and pick up the strange implement.",
         "es": "Dirígete a la sala del noroeste y recoge el strange implement."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Statuette",
       "text": {
         "en": "Teleport to the Varrock Dig Site using the Archaeology journal, or teleport to Varrock and run east, or teleport to Fort Forinthry and run south.",
         "es": "Teletranspórtate al Varrock Dig Site usando el diario de Arqueología, o teletranspórtate a Varrock y corre hacia el este, o teletranspórtate a Fort Forinthry y corre hacia el sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Statuette",
       "text": {
-        "en": "Use the letter on Elissa and talk to Elissa who is east of the winch in the north-east corner of the digsite (just north of The Stormbreaker ship). (opciones de chat: 3 I found a letter in the desert with your name on.)",
-        "es": "Usa la carta en Elissa y habla con Elissa, que está al este del torno en la esquina noreste del yacimiento (justo al norte del barco The Stormbreaker). (opciones de chat: 3 I found a letter in the desert with your name on.)"
-      }
+        "en": "Use the letter on Elissa and talk to Elissa who is east of the winch in the north-east corner of the digsite (just north of The Stormbreaker ship).",
+        "es": "Usa la carta en Elissa y habla con Elissa, que está al este del torno en la esquina noreste del yacimiento (justo al norte del barco The Stormbreaker)."
+      },
+      "chatOptions": [
+        "3 I found a letter in the desert with your name on."
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Statuette",
       "text": {
         "en": "Head to the Exam Centre just south of the Dig Site.",
         "es": "Dirígete al Exam Centre, justo al sur del Dig Site."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Statuette",
       "text": {
         "en": "Search the bookshelf on the southern wall and read Varmen's notes.",
         "es": "Registra la estantería en la pared sur y lee las notas de Varmen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Statuette",
       "text": {
-        "en": "Talk to Curator Haig Halen in the Varrock Museum about the statuette. (opciones de chat: 3 I'm looking for a statuette recovered from the city of Uzer. • 1 I want to open a portal to the lair of an elder-demon.)",
-        "es": "Habla con Curator Haig Halen en el Varrock Museum sobre la estatuilla. (opciones de chat: 3 I'm looking for a statuette recovered from the city of Uzer. • 1 I want to open a portal to the lair of an elder-demon.)"
-      }
+        "en": "Talk to Curator Haig Halen in the Varrock Museum about the statuette.",
+        "es": "Habla con Curator Haig Halen en el Varrock Museum sobre la estatuilla."
+      },
+      "chatOptions": [
+        "3 I'm looking for a statuette recovered from the city of Uzer.",
+        "1 I want to open a portal to the lair of an elder-demon."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Statuette",
       "text": {
         "en": "Pickpocket him for the display cabinet key.",
         "es": "Róbale la llave de la vitrina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Statuette",
       "text": {
         "en": "Head upstairs and use the display cabinet key on the northwestern most case to get the statuette.",
         "es": "Sube las escaleras y usa la llave de la vitrina en la vitrina más al noroeste para conseguir la estatuilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "The portal",
       "text": {
         "en": "Return to Shantay Pass and cross into the desert.",
         "es": "Vuelve a Shantay Pass y cruza hacia el desierto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "The portal",
       "text": {
         "en": "Go east to the Desert Phoenix, and grab a phoenix feather.",
         "es": "Ve al este hacia el Desert Phoenix y recoge una pluma de phoenix."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "The portal",
       "text": {
         "en": "Make sure you un-equip any item porters, as wearing an activated Porter or grace of the elves will teleport the feather to your bank.",
         "es": "Asegúrate de quitarte cualquier porter que lleves equipado, ya que llevar un Porter activado o la grace of the elves teletransportará la pluma a tu banco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "The portal",
       "text": {
         "en": "Make sure you un-equip the Thieving Cape or Thieving master cape, as they will cause the feather to be noted.",
         "es": "Asegúrate de quitarte la Thieving Cape o la Thieving master cape, ya que harán que la pluma se anote."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "The portal",
       "text": {
         "en": "Go to the ruins of Uzer where you started the quest and go back down the stairs.",
         "es": "Ve a las ruinas de Uzer donde empezaste la misión y baja de nuevo las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "The portal",
       "text": {
         "en": "In the centre of the room will be four alcoves. Place the statuette in the empty one.",
         "es": "En el centro de la sala habrá cuatro hornacinas. Coloca la estatuilla en la que esté vacía."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The portal",
       "text": {
         "en": "Turn the statuettes so they all point north towards the double doors. You may have to click \"turn\" more than once.",
         "es": "Gira las estatuillas para que todas apunten hacia el norte, hacia las puertas dobles. Puede que tengas que hacer clic en \"girar\" más de una vez."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "The portal",
       "text": {
         "en": "Go north, through the double doors.",
         "es": "Ve hacia el norte, a través de las puertas dobles."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "The portal",
       "text": {
         "en": "Optional: Take the gems from the throne at the north side of the room to unlock the achievement Looting the Demon Throne and obtain two cut rubies, two cut emeralds, and two cut sapphires.",
         "es": "Opcional: Toma las gemas del trono en el lado norte de la sala para desbloquear el logro Looting the Demon Throne y obtener dos rubíes tallados, dos esmeraldas talladas y dos zafiros tallados."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "The portal",
       "text": {
         "en": "Go back through the south portal.",
         "es": "Regresa por el portal del sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "The golem",
       "text": {
         "en": "Go back upstairs and talk to the golem.",
         "es": "Sube de nuevo las escaleras y habla con el gólem."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "The golem",
       "text": {
         "en": "With an empty vial in your backpack, right click Grind the black mushroom (Don't left click \"Eat\" it).",
         "es": "Con un vial vacío en tu mochila, haz clic derecho para Moler la black mushroom (no hagas clic izquierdo en \"Comer\")."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "The golem",
       "text": {
         "en": "Use the phoenix feather on the black mushroom ink.",
         "es": "Usa la pluma de phoenix en la tinta de black mushroom."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "The golem",
       "text": {
         "en": "Use the phoenix quill pen on a piece of papyrus to get the golem program.",
         "es": "Usa la phoenix quill pen en un trozo de papyrus para obtener el golem program."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "The golem",
       "text": {
         "en": "Use the Strange implement on the golem then quickly use the newly acquired golem program on the golem.",
         "es": "Usa el strange implement en el gólem y luego, rápidamente, usa el golem program recién obtenido en el gólem."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "The golem",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

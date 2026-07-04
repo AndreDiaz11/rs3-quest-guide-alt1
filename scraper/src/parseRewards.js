@@ -48,10 +48,16 @@ export function parseRewards(quickGuideHtml) {
   const rewards = [];
   const postQuest = [];
   let pastAdditionalMarker = false;
+  let rewardBannerImage = null;
 
   let node = sectionRoot.next();
   while (node.length && !node.is(".mw-heading")) {
-    if (node.is("dl") && /additional rewards/i.test(node.text())) {
+    if (node.is("figure") && !rewardBannerImage) {
+      // The wiki's own reward banner image (e.g. "X reward.png"), shown above
+      // the reward list on the actual quest page.
+      const src = node.find("img").attr("src");
+      if (src) rewardBannerImage = src.startsWith("http") ? src : `https://runescape.wiki${src}`;
+    } else if (node.is("dl") && /additional rewards/i.test(node.text())) {
       pastAdditionalMarker = true;
     } else if (node.is("ul")) {
       const target = pastAdditionalMarker ? postQuest : rewards;
@@ -60,5 +66,5 @@ export function parseRewards(quickGuideHtml) {
     node = node.next();
   }
 
-  return { rewards, postQuest };
+  return { rewards, postQuest, rewardBannerImage };
 }

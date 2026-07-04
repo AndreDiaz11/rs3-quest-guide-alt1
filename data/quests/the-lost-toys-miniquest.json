@@ -2,7 +2,8 @@
   "id": "the-lost-toys-miniquest",
   "title": "The Lost Toys (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:36:46.246Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:23.849Z",
   "icon": "https://runescape.wiki/images/The_Lost_Toys_%28miniquest%29_icon.png",
   "series": null,
   "age": "5",
@@ -44,31 +45,42 @@
       "image": "https://runescape.wiki/images/thumb/Draccles_detail.png/100px-Draccles_detail.png?eabaa"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Lost_Toys_%28miniquest%29_reward.png?343b9",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Off to Lex",
       "text": {
-        "en": "Talk to Lex on the west side of the Hair of the Dog tavern, south of the Canifis lodestone. (opciones de chat: Accept)",
-        "es": "Habla con Lex en el lado oeste de la taberna Hair of the Dog, al sur de la piedra de viaje de Canifis. (opciones de chat: Accept)"
-      }
+        "en": "Talk to Lex on the west side of the Hair of the Dog tavern, south of the Canifis lodestone.",
+        "es": "Habla con Lex en el lado oeste de la taberna Hair of the Dog, al sur de la piedra de viaje de Canifis."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Locations",
       "text": {
         "en": "Squeeze all 13 plushies.",
         "es": "Aprieta los 13 peluches."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Locations",
       "text": {
-        "en": "Teleport back to Canifis and talk to Lex. (opciones de chat: 1 Yes.)",
-        "es": "Teletranspórtate de vuelta a Canifis y habla con Lex. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Teleport back to Canifis and talk to Lex.",
+        "es": "Teletranspórtate de vuelta a Canifis y habla con Lex."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     }
   ]
 }

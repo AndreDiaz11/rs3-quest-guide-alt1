@@ -1,3 +1,5 @@
+import { normalizeTitle } from "./titleNormalize.js";
+
 let aliasesPromise = null;
 
 async function loadAliases() {
@@ -7,21 +9,6 @@ async function loadAliases() {
       .catch(() => ({}));
   }
   return aliasesPromise;
-}
-
-function normalizeTitle(title) {
-  return title
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    // Strip wiki disambiguation suffixes ("(miniquest)", "(quest)") so both sides
-    // of the match compare the same bare name — RuneMetrics never includes the
-    // "(quest)" wiki-disambiguation suffix, and by the time we get here the
-    // "(miniquest)" suffix has already been split off the RuneMetrics side, so
-    // the dataset side must have it stripped too or every miniquest fails to match.
-    .replace(/\s*\((miniquest|quest)\)\s*$/i, "")
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim();
 }
 
 /** Strips RuneMetrics's "(miniquest)" suffix, returning the base title + a flag. */

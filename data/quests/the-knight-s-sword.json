@@ -2,7 +2,8 @@
   "id": "the-knight-s-sword",
   "title": "The Knight's Sword",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:33:29.556Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:22.420Z",
   "icon": "https://runescape.wiki/images/The_Knight%27s_Sword_icon.png",
   "series": null,
   "age": "5",
@@ -76,239 +77,328 @@
       "image": "https://runescape.wiki/images/thumb/Blurite_bar_detail.png/100px-Blurite_bar_detail.png?ae4f5"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Knight%27s_Sword_reward.png?57a42",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Squire Asrol in the White Knights' Castle courtyard in Falador. (opciones de chat: 1 Chat • 1 And how is life as a squire? • 2 I can make a new sword if you like... • 1 So would these dwarves make another one? • Accept)",
-        "es": "Habla con Squire Asrol en el patio del White Knights' Castle en Falador. (opciones de chat: 1 Chat • 1 And how is life as a squire? • 2 I can make a new sword if you like... • 1 So would these dwarves make another one? • Accept)"
-      }
+        "en": "Talk to Squire Asrol in the White Knights' Castle courtyard in Falador.",
+        "es": "Habla con Squire Asrol en el patio del White Knights' Castle en Falador."
+      },
+      "chatOptions": [
+        "1 Chat",
+        "1 And how is life as a squire?",
+        "2 I can make a new sword if you like...",
+        "1 So would these dwarves make another one?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Reldo in Varrock Palace library about the Imcando dwarf tribe. (opciones de chat: 3 What do you know about the Imcando dwarves?)",
-        "es": "Habla con Reldo en la biblioteca del Varrock Palace sobre la tribu de enanos Imcando. (opciones de chat: 3 What do you know about the Imcando dwarves?)"
-      }
+        "en": "Talk to Reldo in Varrock Palace library about the Imcando dwarf tribe.",
+        "es": "Habla con Reldo en la biblioteca del Varrock Palace sobre la tribu de enanos Imcando."
+      },
+      "chatOptions": [
+        "3 What do you know about the Imcando dwarves?"
+      ]
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "If The Giant Dwarf quest is complete, skip this step.",
         "es": "Si la misión The Giant Dwarf está completada, omite este paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "If wielding ring of charos remove that, otherwise option does not appear.",
         "es": "Si llevas puesto el ring of charos, quítatelo; de lo contrario, la opción no aparecerá."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Thurgo south of Port Sarim (pictured right, north of fairy ring ) with a Redberry pie in the inventory. (opciones de chat: 2 Something else. • 2 Would you like some redberry pie?)",
-        "es": "Habla con Thurgo, al sur de Port Sarim (en la imagen de la derecha, al norte del fairy ring), llevando una Redberry pie en el inventario. (opciones de chat: 2 Something else. • 2 Would you like some redberry pie?)"
-      }
+        "en": "Talk to Thurgo south of Port Sarim (pictured right, north of fairy ring AIQ) with a Redberry pie in the inventory.",
+        "es": "Habla con Thurgo, al sur de Port Sarim (en la imagen de la derecha, al norte del fairy ring), llevando una Redberry pie en el inventario."
+      },
+      "chatOptions": [
+        "2 Something else.",
+        "2 Would you like some redberry pie?"
+      ]
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Getting started",
       "text": {
-        "en": "If Smithing cape is obtained (opciones de chat: 3 Something else. • 2 Would you like some redberry pie?)",
-        "es": "Si ya tienes la Smithing cape (opciones de chat: 3 Something else. • 2 Would you like some redberry pie?)"
-      }
+        "en": "If Smithing cape is obtained",
+        "es": "Si ya tienes la Smithing cape"
+      },
+      "chatOptions": [
+        "3 Something else.",
+        "2 Would you like some redberry pie?"
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to him again. (opciones de chat: 2 Something else.)",
-        "es": "Habla con él de nuevo. (opciones de chat: 2 Something else.)"
-      }
+        "en": "Talk to him again.",
+        "es": "Habla con él de nuevo."
+      },
+      "chatOptions": [
+        "2 Something else."
+      ]
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Getting started",
       "text": {
-        "en": "If Smithing cape is obtained (opciones de chat: 3 Something else.)",
-        "es": "Si ya tienes la Smithing cape (opciones de chat: 3 Something else.)"
-      }
+        "en": "If Smithing cape is obtained",
+        "es": "Si ya tienes la Smithing cape"
+      },
+      "chatOptions": [
+        "3 Something else."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The portrait",
       "text": {
-        "en": "Talk to Squire Asrol. (opciones de chat: 1 Chat)",
-        "es": "Habla con Squire Asrol. (opciones de chat: 1 Chat)"
-      }
+        "en": "Talk to Squire Asrol.",
+        "es": "Habla con Squire Asrol."
+      },
+      "chatOptions": [
+        "1 Chat"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The portrait",
       "text": {
         "en": "Climb the ladder to the east, then the first staircase to the west.",
         "es": "Sube por la escalera de mano hacia el este, luego toma la primera escalera hacia el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The portrait",
       "text": {
         "en": "Enter Sir Vyvin's room directly south.",
         "es": "Entra en la habitación de Sir Vyvin, justo al sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "The portrait",
       "text": {
         "en": "Look for a cupboard and open it then search it.",
         "es": "Busca un armario, ábrelo y regístralo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "The portrait",
       "text": {
         "en": "If Sir Vyvin keeps noticing, four methods can be used to distract him.",
         "es": "Si Sir Vyvin sigue dándose cuenta, se pueden usar cuatro métodos para distraerlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 2,
+      "section": "The portrait",
       "text": {
         "en": "Have a friend talk to Sir Vyvin while you open and search the cupboard.",
         "es": "Pide a un amigo que hable con Sir Vyvin mientras abres y registras el armario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 2,
+      "section": "The portrait",
       "text": {
         "en": "Open the door to his room and wait for him to walk out. However, this will take a very long time, so keep hopping worlds until you arrive at one where he's already outside, or alternatively just shut the door when he leaves and then search the cupboard.",
         "es": "Abre la puerta de su habitación y espera a que salga. Sin embargo, esto puede tardar mucho tiempo, así que sigue cambiando de mundo hasta llegar a uno en el que ya esté fuera, o simplemente cierra la puerta cuando salga y luego registra el armario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 2,
+      "section": "The portrait",
       "text": {
         "en": "Wait until he is behind the door, then quickly search the cupboard.",
         "es": "Espera hasta que esté detrás de la puerta, luego registra rápidamente el armario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 2,
+      "section": "The portrait",
       "text": {
         "en": "Wait until Sir Vyvin looks at a wall, then quickly search the cupboard.",
         "es": "Espera hasta que Sir Vyvin mire hacia una pared, luego registra rápidamente el armario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "The sword",
       "text": {
-        "en": "Give Thurgo the portrait. (opciones de chat: 2 Something else.)",
-        "es": "Entrega el retrato a Thurgo. (opciones de chat: 2 Something else.)"
-      }
+        "en": "Give Thurgo the portrait.",
+        "es": "Entrega el retrato a Thurgo."
+      },
+      "chatOptions": [
+        "2 Something else."
+      ]
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "The sword",
       "text": {
-        "en": "If Skillcape in Smithing is obtained (opciones de chat: 3 Something else.)",
-        "es": "Si ya tienes la Skillcape de Smithing (opciones de chat: 3 Something else.)"
-      }
+        "en": "If Skillcape in Smithing is obtained",
+        "es": "Si ya tienes la Skillcape de Smithing"
+      },
+      "chatOptions": [
+        "3 Something else."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "The sword",
       "text": {
         "en": "Climb down the trapdoor on the hill east of Thurgo's house to enter the Asgarnian Ice Dungeon.",
         "es": "Baja por la trampilla en la colina al este de la casa de Thurgo para entrar en el Asgarnian Ice Dungeon."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "The sword",
       "text": {
         "en": "Follow the dungeon until blurite rocks are seen (see the map).",
         "es": "Sigue la mazmorra hasta que veas rocas de blurite (consulta el mapa)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "The sword",
       "text": {
         "en": "Mine a blurite ore.",
         "es": "Extrae un mineral de blurite."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 1,
+      "section": "The sword",
       "text": {
         "en": "If you wish to complete Defender of Varrock later, mine an extra blurite ore.",
         "es": "Si deseas completar más adelante la misión Defender of Varrock, extrae un mineral de blurite adicional."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "The sword",
       "text": {
         "en": "If you wish to complete the medium Falador achievements later, mine another one.",
         "es": "Si deseas completar más adelante los logros de dificultad media de Falador, extrae uno más."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Talk to Thurgo with the materials. (opciones de chat: 2 Something else.)",
-        "es": "Habla con Thurgo llevando los materiales. (opciones de chat: 2 Something else.)"
-      }
+        "en": "Talk to Thurgo with the materials.",
+        "es": "Habla con Thurgo llevando los materiales."
+      },
+      "chatOptions": [
+        "2 Something else."
+      ]
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
-        "en": "If Skillcape in Smithing is obtained (opciones de chat: 3 Something else.)",
-        "es": "Si ya tienes la Skillcape de Smithing (opciones de chat: 3 Something else.)"
-      }
+        "en": "If Skillcape in Smithing is obtained",
+        "es": "Si ya tienes la Skillcape de Smithing"
+      },
+      "chatOptions": [
+        "3 Something else."
+      ]
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
         "en": "Bars can be withdrawn at the anvil in Thurgo's hut.",
         "es": "Las barras se pueden retirar en el yunque de la cabaña de Thurgo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Report back to the Squire Asrol. (opciones de chat: 1 Chat)",
-        "es": "Vuelve a informar a Squire Asrol. (opciones de chat: 1 Chat)"
-      }
+        "en": "Report back to the Squire Asrol.",
+        "es": "Vuelve a informar a Squire Asrol."
+      },
+      "chatOptions": [
+        "1 Chat"
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

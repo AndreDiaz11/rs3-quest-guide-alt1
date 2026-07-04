@@ -2,7 +2,8 @@
   "id": "osseous-rex",
   "title": "Osseous Rex",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:01:19.367Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:46.282Z",
   "icon": "https://runescape.wiki/images/Osseous_Rex_icon.png",
   "series": null,
   "age": "Age of Chaos",
@@ -61,159 +62,201 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Osseous_Rex_reward.png?e8d00",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Learning about Osseous",
       "text": {
-        "en": "Talk to the 'Calm' Archaeologist at the rex skeleton in Anachronia base camp to begin the quest. (opciones de chat: Accept • 1 Yes.)",
-        "es": "Habla con el Arqueólogo 'Tranquilo' junto al esqueleto de rex en el campamento base de Anachronia para empezar la misión. (opciones de chat: Aceptar • 1 Sí.)"
-      }
+        "en": "Talk to the 'Calm' Archaeologist at the rex skeleton in Anachronia base camp to begin the quest.",
+        "es": "Habla con el Arqueólogo 'Tranquilo' junto al esqueleto de rex en el campamento base de Anachronia para empezar la misión."
+      },
+      "chatOptions": [
+        "Accept",
+        "1 Yes."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Learning about Osseous",
       "text": {
         "en": "Head to the teleportation device in the spirit grove.",
         "es": "Dirígete al dispositivo de teletransporte en la arboleda espiritual."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Learning about Osseous",
       "text": {
         "en": "Activate the teleportation device.",
         "es": "Activa el dispositivo de teletransporte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Learning about Osseous",
       "text": {
         "en": "Head east and talk to the 'Calm' Archaeologist.",
         "es": "Ve hacia el este y habla con el Arqueólogo 'Tranquilo'."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Finding a teleportation crystal",
       "text": {
         "en": "Go north-east towards the Matriarch lair entrance, and then through the archway to the north and follow the path anti-clockwise until you reach an Ancient Artefact (Inactive).",
         "es": "Ve hacia el noreste en dirección a la entrada de la guarida de la Matriarch, y luego atraviesa el arco hacia el norte y sigue el camino en sentido antihorario hasta llegar a un Artefacto Antiguo (Inactivo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Finding a teleportation crystal",
       "text": {
         "en": "Activate the Ancient Artefact (Inactive) to unlock the first gate.",
         "es": "Activa el Artefacto Antiguo (Inactivo) para desbloquear la primera puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Finding a teleportation crystal",
       "text": {
         "en": "Go back to the area near the archaeologist and Pass Through the gate.",
         "es": "Regresa a la zona cercana al arqueólogo y Atraviesa la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Finding a teleportation crystal",
       "text": {
         "en": "Go south, then east, then north through the arch, and activate the second Ancient Artefact (Inactive).",
         "es": "Ve hacia el sur, luego hacia el este, luego hacia el norte a través del arco, y activa el segundo Artefacto Antiguo (Inactivo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Finding a teleportation crystal",
       "text": {
         "en": "A cutscene ensues, unlocking two more gates.",
         "es": "Se produce una escena cinemática, que desbloquea dos puertas más."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Finding a teleportation crystal",
       "text": {
         "en": "Go south, looping around to the immediate west and Pass Through the gate.",
         "es": "Ve hacia el sur, rodeando hasta el oeste inmediato y Atraviesa la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Finding a teleportation crystal",
       "text": {
         "en": "Go east, following the path south and around anti-clockwise up a hill.",
         "es": "Ve hacia el este, siguiendo el camino hacia el sur y rodeando en sentido antihorario cuesta arriba."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Finding a teleportation crystal",
       "text": {
         "en": "Pass Through the gate.",
         "es": "Atraviesa la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Finding a teleportation crystal",
       "text": {
         "en": "Uncover the soil.",
         "es": "Descubre la tierra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Finding a teleportation crystal",
       "text": {
         "en": "Excavate the crystallised rubble for a teleportation crystal (damaged).",
         "es": "Excava los escombros cristalizados para conseguir un cristal de teletransporte (dañado)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Restore the teleportation crystal (damaged) at an archaeologist's workbench.",
         "es": "Restaura el cristal de teletransporte (dañado) en una mesa de trabajo de arqueólogo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to the 'Calm' Archaeologist in the Rex Matriarch lair with the restored teleportation crystal.",
         "es": "Habla con el Arqueólogo 'Tranquilo' en la guarida de la Rex Matriarch con el cristal de teletransporte restaurado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
         "en": "He will no longer be found in in the Anachronia base camp, you have to travel to the Rex Matriarch lair to speak with him.",
         "es": "Ya no se le encontrará en el campamento base de Anachronia, tendrás que viajar a la guarida de la Rex Matriarch para hablar con él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Watch the cutscene.",
         "es": "Observa la escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "hopespear-s-will-miniquest",
   "title": "Hopespear's Will (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:29:04.349Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:24.681Z",
   "icon": "https://runescape.wiki/images/Hopespear%27s_Will_%28miniquest%29_icon.png",
   "series": null,
   "age": "5",
@@ -89,119 +90,169 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Hopespear%27s_Will_%28miniquest%29_reward.png?d4a62",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Make sure you have 5 free inventory spaces.",
         "es": "Asegúrate de tener 5 espacios libres en el inventario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Head to the cave entrance located just east of the Fishing Guild's entrance. Manor farm Teleport is a quick teleport nearby. Enter the cave and walk north-west until you find two goblin guards guarding the entrance to the temple.",
         "es": "Dirígete a la entrada de la cueva situada justo al este de la entrada del Fishing Guild. Manor farm Teleport es un teletransporte rápido cercano. Entra en la cueva y camina hacia el noroeste hasta encontrar a dos guardias goblin custodiando la entrada al templo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Drink one dose of the goblin potion and climb down the stairs to the north. Do not equip anything when in goblin form.",
         "es": "Bebe una dosis de la poción de goblin y baja las escaleras hacia el norte. No te equipes nada mientras estés en forma de goblin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Once in the temple, enter the crypt through the door to the north. Equip your ring of visibility and amulet of ghostspeak.",
         "es": "Una vez en el templo, entra en la cripta por la puerta del norte. Equípate el ring of visibility y el amulet of ghostspeak."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "If you have received the ability to see into the Shadow Realm from Sliske, you do not need to equip the ring to see Hopespear.",
         "es": "Si has recibido de Sliske la habilidad de ver el Shadow Realm, no necesitas equiparte el anillo para ver a Hopespear."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Speak to the Ghost. (opciones de chat: 1 I'm [Player name] • 4 Tell me about the prophecy. • 4 Tell me more about the Chosen Commander. • 3 Tell me about the Big High War God. • 2 Why are you here? • 2 I visited Yu'Biusk. • ~ • 1 What is it? • Accept • 1 I'll do that.)",
-        "es": "Habla con el Ghost. (opciones de chat: 1 I'm [Player name] • 4 Tell me about the prophecy. • 4 Tell me more about the Chosen Commander. • 3 Tell me about the Big High War God. • 2 Why are you here? • 2 I visited Yu'Biusk. • ~ • 1 What is it? • Accept • 1 I'll do that.)"
-      }
+        "en": "Speak to the Ghost.",
+        "es": "Habla con el Ghost."
+      },
+      "chatOptions": [
+        "1 I'm [Player name]",
+        "4 Tell me about the prophecy.",
+        "4 Tell me more about the Chosen Commander.",
+        "3 Tell me about the Big High War God.",
+        "2 Why are you here?",
+        "2 I visited Yu'Biusk.",
+        "~",
+        "1 What is it?",
+        "Accept",
+        "1 I'll do that."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Priests to kill",
       "text": {
         "en": "For the next part, you have to kill each priest skeleton and collect its bones. Make sure to unequip everything for the whole duration of the fight.",
         "es": "Para la siguiente parte, tienes que matar a cada esqueleto sacerdote y recoger sus huesos. Asegúrate de desequiparte todo durante toda la duración del combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Priests to kill",
       "text": {
-        "en": "At the south-west grave, say the name (opciones de chat: 1 Snothead) Kill Snothead.",
+        "en": "At the south-west grave, say the name Kill Snothead.",
         "es": "En la tumba del suroeste, di el nombre (opciones de chat: 1 Snothead) Mata a Snothead."
-      }
+      },
+      "chatOptions": [
+        "1 Snothead"
+      ]
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Priests to kill",
       "text": {
-        "en": "At the south-east grave, say the name (opciones de chat: 2 Snailfeet) Kill Snailfeet.",
+        "en": "At the south-east grave, say the name Kill Snailfeet.",
         "es": "En la tumba del sureste, di el nombre (opciones de chat: 2 Snailfeet) Mata a Snailfeet."
-      }
+      },
+      "chatOptions": [
+        "2 Snailfeet"
+      ]
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Priests to kill",
       "text": {
-        "en": "At the north-west grave, say the name (opciones de chat: 3 Mosschin) Kill Mosschin.",
+        "en": "At the north-west grave, say the name Kill Mosschin.",
         "es": "En la tumba del noroeste, di el nombre (opciones de chat: 3 Mosschin) Mata a Mosschin."
-      }
+      },
+      "chatOptions": [
+        "3 Mosschin"
+      ]
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Priests to kill",
       "text": {
-        "en": "At the north-east grave, say the name (opciones de chat: 4 Redeyes) Kill Redeyes.",
+        "en": "At the north-east grave, say the name Kill Redeyes.",
         "es": "En la tumba del noreste, di el nombre (opciones de chat: 4 Redeyes) Mata a Redeyes."
-      }
+      },
+      "chatOptions": [
+        "4 Redeyes"
+      ]
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Priests to kill",
       "text": {
-        "en": "At the northern grave, say the name (opciones de chat: 5 Strongbones) Kill Strongbones.",
+        "en": "At the northern grave, say the name Kill Strongbones.",
         "es": "En la tumba del norte, di el nombre (opciones de chat: 5 Strongbones) Mata a Strongbones."
-      }
+      },
+      "chatOptions": [
+        "5 Strongbones"
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "To Yu'biusk",
       "text": {
-        "en": "Teleport out and use a fairy ring to .",
+        "en": "Teleport out and use a fairy ring to BLQ.",
         "es": "Teletranspórtate fuera y usa un fairy ring para ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "To Yu'biusk",
       "text": {
         "en": "Bury all five newly acquired bones.",
         "es": "Entierra los cinco huesos recién obtenidos."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -19,9 +19,9 @@ function parseInfobox(mainWikitext) {
   if (content === null) return {};
   const fields = parseKeyValueTemplate(content);
   return {
-    release: fields.release ? wikitextToPlain(fields.release) : null,
+    release: fields.release ? wikitextToPlain(fields.release).text : null,
     members: (fields.members || "").toLowerCase() === "yes",
-    area: fields.area ? wikitextToPlain(fields.area) : null,
+    area: fields.area ? wikitextToPlain(fields.area).text : null,
     difficulty: fields.difficulty || null,
     combatLevel: fields.combat || null,
     timeline: fields.timeline || null,

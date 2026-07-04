@@ -2,7 +2,8 @@
   "id": "civil-war-i-miniquest",
   "title": "Civil War I (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T19:57:51.794Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:46.729Z",
   "icon": "https://runescape.wiki/images/thumb/Civil_War_I_%28miniquest%29_icon.png/50px-Civil_War_I_%28miniquest%29_icon.png",
   "series": "Legacy of Zamorak",
   "age": "Age of Chaos",
@@ -40,55 +41,71 @@
       "image": "https://runescape.wiki/images/thumb/Infernal_Puzzle_Box_detail.png/100px-Infernal_Puzzle_Box_detail.png?20f96"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Civil_War_I_%28miniquest%29_reward.png?51095",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Letter from Anne Dimitri",
       "text": {
-        "en": "Talk to Adrasteia ( of the White Knights' Castle's eastern side). (opciones de chat: Accept • Any)",
-        "es": "Habla con Adrasteia (en el lado este del White Knights' Castle). (opciones de chat: Accept • Any)"
-      }
+        "en": "Talk to Adrasteia ( of the White Knights' Castle's eastern side).",
+        "es": "Habla con Adrasteia (en el lado este del White Knights' Castle)."
+      },
+      "chatOptions": [
+        "Accept",
+        "Any"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Meeting Anne Dimitri",
       "text": {
         "en": "Teleport to Edgeville.",
         "es": "Teletranspórtate a Edgeville."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Meeting Anne Dimitri",
       "text": {
         "en": "Talk to Anne Dimitri (just north of Quercus in the Wilderness).",
         "es": "Habla con Anne Dimitri (justo al norte de Quercus, en el Wilderness)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Meeting Anne Dimitri",
       "text": {
         "en": "Kill 144 demons in the Wilderness for the Gross Misconduct achievement if not already completed.",
         "es": "Mata a 144 demonios en el Wilderness para conseguir el logro Gross Misconduct, si aún no lo has completado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Jerrod's offer",
       "text": {
         "en": "Talk to Anne Dimitri. (This is done automatically if you already had Gross Misconduct completed.)",
         "es": "Habla con Anne Dimitri. (Esto se hace automáticamente si ya tenías completado Gross Misconduct)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Jerrod's offer",
       "text": {
         "en": "Miniquest complete!",
         "es": "¡Minimisión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

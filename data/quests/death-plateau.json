@@ -2,7 +2,8 @@
   "id": "death-plateau",
   "title": "Death Plateau",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:03:29.686Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:53.751Z",
   "icon": "https://runescape.wiki/images/Death_Plateau_icon.png",
   "series": "Troll",
   "age": "5",
@@ -66,175 +67,227 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Death_Plateau_reward.png?a9016",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Commander Denulth who is located north east of the Burthorpe Lodestone, south of the agility course. (opciones de chat: 1 Do you have any quests for me? • Accept) (The quest icon can be hidden by the block of soldiers he's south of.)",
+        "en": "Talk to Commander Denulth who is located north east of the Burthorpe Lodestone, south of the agility course. (The quest icon can be hidden by the block of soldiers he's south of.)",
         "es": "Habla con Commander Denulth, que se encuentra al noreste de la piedra de viaje de Burthorpe, al sur de la pista de agilidad. (opciones de chat: 1 ¿Tienes alguna misión para mí? • Aceptar) (El icono de la misión puede quedar oculto por el grupo de soldados al sur del cual se encuentra.)"
-      }
+      },
+      "chatOptions": [
+        "1 Do you have any quests for me?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The dwarves",
       "text": {
         "en": "Head west past the castle and through a defensive wall.",
         "es": "Dirígete hacia el oeste, pasando el castillo, y atraviesa un muro defensivo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The dwarves",
       "text": {
         "en": "Go north (past troll invasion) and into a cave.",
         "es": "Ve hacia el norte (pasando la invasión de trolls) y entra en una cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The dwarves",
       "text": {
-        "en": "Talk to Sabbot. (opciones de chat: 1 I've been sent to look for a route to Death Plateau. Can you help?)",
-        "es": "Habla con Sabbot. (opciones de chat: 1 Me han enviado a buscar una ruta hacia Death Plateau. ¿Puedes ayudarme?)"
-      }
+        "en": "Talk to Sabbot.",
+        "es": "Habla con Sabbot."
+      },
+      "chatOptions": [
+        "1 I've been sent to look for a route to Death Plateau. Can you help?"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The dwarves",
       "text": {
         "en": "Exit the cave and follow the path to the west.",
         "es": "Sal de la cueva y sigue el camino hacia el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The dwarves",
       "text": {
         "en": "At the intersection, head west and then go south and into a house.",
         "es": "En la intersección, ve hacia el oeste y luego hacia el sur, hasta entrar en una casa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The dwarves",
       "text": {
         "en": "Talk to Freda.",
         "es": "Habla con Freda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Boots and routes",
       "text": {
         "en": "Home Teleport to Burthorpe.",
         "es": "Usa el teletransporte a casa para ir a Burthorpe."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Boots and routes",
       "text": {
-        "en": "Speak to Dunstan outside the house to the south-east of Denulth to add spikes to the climbing boots. (opciones de chat: 1 Can you put some fresh spikes on these climbing boots for me?)",
-        "es": "Habla con Dunstan, fuera de la casa al sureste de Denulth, para que añada pinchos a las botas de escalada. (opciones de chat: 1 ¿Puedes ponerle pinchos nuevos a estas botas de escalada?)"
-      }
+        "en": "Speak to Dunstan outside the house to the south-east of Denulth to add spikes to the climbing boots.",
+        "es": "Habla con Dunstan, fuera de la casa al sureste de Denulth, para que añada pinchos a las botas de escalada."
+      },
+      "chatOptions": [
+        "1 Can you put some fresh spikes on these climbing boots for me?"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Boots and routes",
       "text": {
         "en": "Bring the spiked boots back to Freda.",
         "es": "Lleva las botas con pinchos de vuelta a Freda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Boots and routes",
       "text": {
         "en": "Read the Survey that is received.",
         "es": "Lee el Survey que recibas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Boots and routes",
       "text": {
         "en": "Go back to Sabbot's cave and mine the wall west of him.",
         "es": "Vuelve a la cueva de Sabbot y mina la pared al oeste de él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Boots and routes",
       "text": {
         "en": "Proceed through the cavern's obstacles and climb the cliffside at the end.",
         "es": "Atraviesa los obstáculos de la caverna y escala el acantilado al final."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Boots and routes",
       "text": {
         "en": "Exit the cave through the cave exit.",
         "es": "Sal de la cueva por la salida de la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Boots and routes",
       "text": {
-        "en": "The Map will approach the player. (opciones de chat: 3 Prepare to die, troll!)",
-        "es": "The Map se acercará al jugador. (opciones de chat: 3 ¡Prepárate para morir, troll!)"
-      }
+        "en": "The Map will approach the player.",
+        "es": "The Map se acercará al jugador."
+      },
+      "chatOptions": [
+        "3 Prepare to die, troll!"
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Boots and routes",
       "text": {
         "en": "Kill The Map.",
         "es": "Mata a The Map."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Boots and routes",
       "text": {
         "en": "The Map will not be counted as killed if you are in a group.",
         "es": "The Map no contará como eliminado si estás en un grupo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Boots and routes",
       "text": {
         "en": "Home Teleport to Burthorpe.",
         "es": "Usa el teletransporte a casa para ir a Burthorpe."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Commander Denulth.",
         "es": "Habla con Commander Denulth."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Watch or skip the cutscene.",
         "es": "Mira o sáltate la escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "field-of-screams",
   "title": "Field of Screams",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:19:09.455Z",
+  "isSeasonal": true,
+  "guideLastUpdated": "2026-07-04T18:34:12.438Z",
   "icon": "https://runescape.wiki/images/thumb/Field_of_Screams_icon.png/50px-Field_of_Screams_icon.png",
   "series": "Harvest Hollow",
   "age": "Ambiguous",
@@ -70,256 +71,337 @@
       "image": "https://runescape.wiki/images/thumb/Clan_confections_10_detail.png/100px-Clan_confections_10_detail.png?f9cf3"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Field_of_Screams_reward.png?64855",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Learning about Halloween plans",
       "text": {
-        "en": "Talk to Death, Famine, Frank, Pestilence, or War in the Harvest Hollow. (opciones de chat: Accept)",
-        "es": "Habla con Death, Famine, Frank, Pestilence o War en Harvest Hollow. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Death, Famine, Frank, Pestilence, or War in the Harvest Hollow.",
+        "es": "Habla con Death, Famine, Frank, Pestilence o War en Harvest Hollow."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Learning about Halloween plans",
       "text": {
         "en": "Wear or enable as a cosmetic override four components from the above table. If wearing an item, you must not override its slot with a cosmetic override.",
         "es": "Viste o activa como apariencia cuatro componentes de la tabla anterior. Si llevas puesto un objeto, no debes sustituir su ranura con una apariencia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Learning about Halloween plans",
       "text": {
-        "en": "Talk again to one of Death, Famine, Frank, Pestilence, or War. (opciones de chat: 1 Yes. • 1 Can you check my outfit?) (This choice will affect the quest's rewards.)",
+        "en": "Talk again to one of Death, Famine, Frank, Pestilence, or War. (This choice will affect the quest's rewards.)",
         "es": "Vuelve a hablar con Death, Famine, Frank, Pestilence o War. (opciones de chat: 1 Sí. • 1 ¿Puedes revisar mi atuendo?) (Esta elección afectará a las recompensas de la misión.)"
-      }
+      },
+      "chatOptions": [
+        "1 Yes.",
+        "1 Can you check my outfit?"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Gertrude",
       "text": {
         "en": "Talk to the clan representative just outside of Gertrude's house.",
         "es": "Habla con el representante del clan justo fuera de la casa de Gertrude."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Gertrude",
       "text": {
         "en": "Talk to Gertrude.",
         "es": "Habla con Gertrude."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Gertrude",
       "text": {
         "en": "Talk to the clan representative again.",
         "es": "Vuelve a hablar con el representante del clan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Ambassador Spanfipple",
       "text": {
         "en": "Talk to the clan representative in the of the east side of the White Knights' Castle outside the room where Sir Renitee and Ambassador Spanfipple are.",
         "es": "Habla con el representante del clan en el lado este del White Knights' Castle, fuera de la sala donde están Sir Renitee y el Ambassador Spanfipple."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Ambassador Spanfipple",
       "text": {
         "en": "Talk to Ambassador Spanfipple.",
         "es": "Habla con el Ambassador Spanfipple."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Ambassador Spanfipple",
       "text": {
         "en": "Head back downstairs, go to the west stairs of the castle, go upstairs, and investigate the suit of armour. (The correct suits of armour in this step and following steps periodically say and are marked with a quest icon in their tooltip.)",
         "es": "Baja de nuevo, ve a las escaleras del oeste del castillo, sube y examina la armadura. (Las armaduras correctas en este paso y en los siguientes lo indican periódicamente y aparecen marcadas con un icono de misión en su descripción emergente.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Ambassador Spanfipple",
       "text": {
         "en": "Head back downstairs, climb the ladder on the north-east side of the castle to get to the . Investigate the suit of armour.",
         "es": "Baja de nuevo, sube por la escalera de mano en el lado noreste del castillo para llegar a la . Examina la armadura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Ambassador Spanfipple",
       "text": {
-        "en": "Go downstairs back to , then head to the east side to investigate the suit of armour. (opciones de chat: 1. Trick)",
-        "es": "Baja de nuevo hasta , luego dirígete al lado este para examinar la armadura. (opciones de chat: 1. Engañar)"
-      }
+        "en": "Go downstairs back to , then head to the east side to investigate the suit of armour.",
+        "es": "Baja de nuevo hasta , luego dirígete al lado este para examinar la armadura."
+      },
+      "chatOptions": [
+        "1. Trick"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Ambassador Spanfipple",
       "text": {
         "en": "Go up the ladder to the east and talk to Ambassador Spanfipple.",
         "es": "Sube por la escalera de mano hacia el este y habla con el Ambassador Spanfipple."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Ambassador Spanfipple",
       "text": {
         "en": "Talk to the clan representative.",
         "es": "Habla con el representante del clan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Duke Horacio",
       "text": {
         "en": "Talk to the clan representative on the of Lumbridge Castle outside Duke Horacio's room.",
         "es": "Habla con el representante del clan en el de Lumbridge Castle, fuera de la sala del Duke Horacio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Duke Horacio",
       "text": {
         "en": "Read duke's dream diary on a table in the south-eastern corner of the room.",
         "es": "Lee el diario de sueños del duque en una mesa en la esquina sureste de la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Duke Horacio",
       "text": {
         "en": "Talk to the cook downstairs.",
         "es": "Habla con el cocinero de abajo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Duke Horacio",
       "text": {
-        "en": "Talk to any examiner in Exam Centre for a quiz. (opciones de chat: 1 Yes.)",
-        "es": "Habla con cualquier examinador en el Exam Centre para hacer un examen. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to any examiner in Exam Centre for a quiz.",
+        "es": "Habla con cualquier examinador en el Exam Centre para hacer un examen."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Duke Horacio",
       "text": {
         "en": "Answer three questions correctly. (The questions are randomly selected and may not be in the following order.)",
         "es": "Responde correctamente a tres preguntas. (Las preguntas se seleccionan al azar y pueden no aparecer en el siguiente orden.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Duke Horacio",
       "text": {
-        "en": "\"How many legs do dragons have?\" (opciones de chat: 2 4.)",
-        "es": "«¿Cuántas patas tienen los dragones?» (opciones de chat: 2 4.)"
-      }
+        "en": "\"How many legs do dragons have?\"",
+        "es": "«¿Cuántas patas tienen los dragones?»"
+      },
+      "chatOptions": [
+        "2 4."
+      ]
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Duke Horacio",
       "text": {
-        "en": "\"True or false: bronze, silver and mithril are all types of ferrous dragon.\" (opciones de chat: 2 False.)",
-        "es": "«Verdadero o falso: el bronce, la plata y el mithril son todos tipos de dragón ferroso.» (opciones de chat: 2 Falso.)"
-      }
+        "en": "\"True or false: bronze, silver and mithril are all types of ferrous dragon.\"",
+        "es": "«Verdadero o falso: el bronce, la plata y el mithril son todos tipos de dragón ferroso.»"
+      },
+      "chatOptions": [
+        "2 False."
+      ]
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Duke Horacio",
       "text": {
-        "en": "\"What are the three main classifications of dragon?\" (opciones de chat: 3 Chromatic, ferrous, and gemstone.)",
-        "es": "«¿Cuáles son las tres clasificaciones principales de dragón?» (opciones de chat: 3 Cromático, ferroso y gema.)"
-      }
+        "en": "\"What are the three main classifications of dragon?\"",
+        "es": "«¿Cuáles son las tres clasificaciones principales de dragón?»"
+      },
+      "chatOptions": [
+        "3 Chromatic, ferrous, and gemstone."
+      ]
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Duke Horacio",
       "text": {
-        "en": "\"Which of these is the weakest type of dragon?\" (opciones de chat: 1 Black.)",
-        "es": "«¿Cuál de estos es el tipo de dragón más débil?» (opciones de chat: 1 Negro.)"
-      }
+        "en": "\"Which of these is the weakest type of dragon?\"",
+        "es": "«¿Cuál de estos es el tipo de dragón más débil?»"
+      },
+      "chatOptions": [
+        "1 Black."
+      ]
     },
     {
       "index": 22,
       "indent": 1,
+      "section": "Duke Horacio",
       "text": {
-        "en": "\"Which of these would not protect you against dragonfire?\" (opciones de chat: 3 Dragonstones.)",
-        "es": "«¿Cuál de estos no te protegería del fuego de dragón?» (opciones de chat: 3 Piedras dracónicas.)"
-      }
+        "en": "\"Which of these would not protect you against dragonfire?\"",
+        "es": "«¿Cuál de estos no te protegería del fuego de dragón?»"
+      },
+      "chatOptions": [
+        "3 Dragonstones."
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Duke Horacio",
       "text": {
         "en": "Talk to the cook.",
         "es": "Habla con el cocinero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Duke Horacio",
       "text": {
         "en": "Talk to Duke Horacio.",
         "es": "Habla con Duke Horacio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Duke Horacio",
       "text": {
         "en": "Talk to the clan representative.",
         "es": "Habla con el representante del clan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Maize Maze",
       "text": {
         "en": "Talk to the captain you chose earlier in Harvest Hollow (either Death, Famine, Frank, Pestilence, or War).",
         "es": "Habla con el capitán que elegiste antes en Harvest Hollow (Death, Famine, Frank, Pestilence o War)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Maize Maze",
       "text": {
         "en": "If you haven't completed Maize Maze before:",
         "es": "Si no has completado antes el Maize Maze:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 1,
+      "section": "Maize Maze",
       "text": {
         "en": "Complete the Maize Maze.",
         "es": "Completa el Maize Maze."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Maize Maze",
       "text": {
         "en": "Talk to the captain you chose earlier.",
         "es": "Habla con el capitán que elegiste antes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Maize Maze",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
-  ],
-  "isSeasonal": true
+  ]
 }

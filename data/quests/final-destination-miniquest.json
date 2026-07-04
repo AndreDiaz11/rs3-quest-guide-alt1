@@ -2,7 +2,8 @@
   "id": "final-destination-miniquest",
   "title": "Final Destination (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:19:26.477Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:13.137Z",
   "icon": "https://runescape.wiki/images/thumb/Final_Destination_%28miniquest%29_icon.png/50px-Final_Destination_%28miniquest%29_icon.png",
   "series": "Tales of the Arc",
   "age": "6",
@@ -95,127 +96,162 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Final_Destination_%28miniquest%29_reward.png?9577c",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Commandeering the ship",
       "text": {
-        "en": "Talk to Lookout Ekahi (if you have just completed the previous miniquests you may need to relog for the chat option to show up). (opciones de chat: 1 Final Destination miniquest. • Accept • 1 Yes.)",
-        "es": "Habla con Lookout Ekahi (si acabas de completar las miniaventuras anteriores, puede que tengas que reconectarte para que aparezca la opción de chat). (opciones de chat: 1 Final Destination miniquest. • Accept • 1 Yes.)"
-      }
+        "en": "Talk to Lookout Ekahi (if you have just completed the previous miniquests you may need to relog for the chat option to show up).",
+        "es": "Habla con Lookout Ekahi (si acabas de completar las miniaventuras anteriores, puede que tengas que reconectarte para que aparezca la opción de chat)."
+      },
+      "chatOptions": [
+        "1 Final Destination miniquest.",
+        "Accept",
+        "1 Yes."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Commandeering the ship",
       "text": {
         "en": "Fire the cannon.",
         "es": "Dispara el cañón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Commandeering the ship",
       "text": {
         "en": "Climb the ladder.",
         "es": "Sube por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Commandeering the ship",
       "text": {
         "en": "Kill the Zyclopses.",
         "es": "Mata a los Zyclopses."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Commandeering the ship",
       "text": {
         "en": "Climb another ladder.",
         "es": "Sube por otra escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Commandeering the ship",
       "text": {
         "en": "Kill the zombies.",
         "es": "Mata a los zombis."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Commandeering the ship",
       "text": {
         "en": "Kill the 2 skeletons.",
         "es": "Mata a los 2 esqueletos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Commandeering the ship",
       "text": {
         "en": "Climb the ladder.",
         "es": "Sube por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Commandeering the ship",
       "text": {
         "en": "Kill 2 more Zyclopses.",
         "es": "Mata a 2 Zyclopses más."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Commandeering the ship",
       "text": {
         "en": "Defeat Captain Cora then talk to her.",
         "es": "Derrota a Captain Cora y luego habla con ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Goshima",
       "text": {
         "en": "Talk to Captain Cora again.",
         "es": "Habla de nuevo con Captain Cora."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Goshima",
       "text": {
         "en": "Run east to the gates. Cora will talk to you.",
         "es": "Corre hacia el este hasta las puertas. Cora hablará contigo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Goshima",
       "text": {
         "en": "Run southwest to the destroyed colony. Cora will talk to you again.",
         "es": "Corre hacia el suroeste hasta la colonia destruida. Cora hablará contigo de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Goshima",
       "text": {
         "en": "Jiangshi will appear between the colony and the gates, talk to Jiangshi.",
         "es": "Jiangshi aparecerá entre la colonia y las puertas, habla con Jiangshi."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Goshima",
       "text": {
         "en": "Talk to Captain Cora.",
         "es": "Habla con Captain Cora."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

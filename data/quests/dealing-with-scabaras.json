@@ -2,7 +2,8 @@
   "id": "dealing-with-scabaras",
   "title": "Dealing with Scabaras",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:02:35.123Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:53.426Z",
   "icon": "https://runescape.wiki/images/Dealing_with_Scabaras_icon.png",
   "series": "Desert",
   "age": "5",
@@ -132,6 +133,7 @@
       "image": "https://runescape.wiki/images/thumb/Enchanted_water_tiara_detail.png/100px-Enchanted_water_tiara_detail.png?f3503"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Dealing_with_Scarabas_reward.png?b61e1",
   "postQuest": [
     {
       "type": "item",
@@ -158,418 +160,554 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Running errands",
       "text": {
-        "en": "Talk to the High Priest in Sophanem. (opciones de chat: 1 What news? • Accept)",
-        "es": "Habla con el Sumo Sacerdote en Sophanem. (opciones de chat: 1 What news? • Accept)"
-      }
+        "en": "Talk to the High Priest in Sophanem.",
+        "es": "Habla con el Sumo Sacerdote en Sophanem."
+      },
+      "chatOptions": [
+        "1 What news?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Running errands",
       "text": {
         "en": "Climb the ladder behind the altar.",
         "es": "Sube por la escalera detrás del altar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Running errands",
       "text": {
-        "en": "After the cutscene, talk to Maisa. (opciones de chat: 1 Why are you here?)",
-        "es": "Después de la escena, habla con Maisa. (opciones de chat: 1 Why are you here?)"
-      }
+        "en": "After the cutscene, talk to Maisa.",
+        "es": "Después de la escena, habla con Maisa."
+      },
+      "chatOptions": [
+        "1 Why are you here?"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Running errands",
       "text": {
         "en": "Talk to the High Priest.",
         "es": "Habla con el Sumo Sacerdote."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Running errands",
       "text": {
         "en": "Go to the south-east of the Agility Pyramid, take the rope shortcut just to the east.",
         "es": "Ve al sureste de la Agility Pyramid y toma el atajo de la cuerda justo al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Running errands",
       "text": {
         "en": "If you haven't unlocked this shortcut, enter to the swamp south-east of Sophanem and go north, then climb the fallen pillar and the low wall. Last, use the rope on the rock.",
         "es": "Si no has desbloqueado este atajo, entra al pantano al sureste de Sophanem y ve hacia el norte, luego sube por el pilar caído y el muro bajo. Por último, usa la cuerda en la roca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Running errands",
       "text": {
-        "en": "Climb over the low wall and talk to Lead archaeologist Abigail and Assistant archaeologist Kerner by the tents. Read their questions carefully and always round down the answer. (opciones de chat: 1 I've had dealings with his sort before; feel free to test me.)",
-        "es": "Sube por el muro bajo y habla con Lead archaeologist Abigail y Assistant archaeologist Kerner junto a las tiendas. Lee sus preguntas con atención y redondea siempre la respuesta hacia abajo. (opciones de chat: 1 I've had dealings with his sort before; feel free to test me.)"
-      }
+        "en": "Climb over the low wall and talk to Lead archaeologist Abigail and Assistant archaeologist Kerner by the tents. Read their questions carefully and always round down the answer.",
+        "es": "Sube por el muro bajo y habla con Lead archaeologist Abigail y Assistant archaeologist Kerner junto a las tiendas. Lee sus preguntas con atención y redondea siempre la respuesta hacia abajo."
+      },
+      "chatOptions": [
+        "1 I've had dealings with his sort before; feel free to test me."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Running errands",
       "text": {
         "en": "Talk to them again for an empty crate.",
         "es": "Habla con ellos de nuevo para conseguir una caja vacía."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Distressing bronze gear",
       "text": {
         "en": "Fetch the bronze gear that are written in your quest journal.",
         "es": "Consigue el engranaje de bronce que se indica en tu diario de misión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Distressing bronze gear",
       "text": {
         "en": "At this point, if you have 60 Crafting, continue with the section Distressing by players.",
         "es": "Llegados a este punto, si tienes 60 de Artesanía, continúa con la sección Distressing by players."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Distressing by archaeologists",
       "text": {
         "en": "Use the bronze gear on the crate.",
         "es": "Usa el engranaje de bronce en la caja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Distressing by archaeologists",
       "text": {
-        "en": "Return to the archaeologists. This will take 3 hours so if 60 Crafting is achievable by any boosts within that time frame it is highly recommended to do that instead. (opciones de chat: 1 Indeed, I am. • 1 Indeed, I would.)",
-        "es": "Vuelve con los arqueólogos. Esto tardará 3 horas, así que si es posible alcanzar 60 de Artesanía mediante alguna mejora en ese tiempo, se recomienda encarecidamente hacerlo en su lugar. (opciones de chat: 1 Indeed, I am. • 1 Indeed, I would.)"
-      }
+        "en": "Return to the archaeologists. This will take 3 hours so if 60 Crafting is achievable by any boosts within that time frame it is highly recommended to do that instead.",
+        "es": "Vuelve con los arqueólogos. Esto tardará 3 horas, así que si es posible alcanzar 60 de Artesanía mediante alguna mejora en ese tiempo, se recomienda encarecidamente hacerlo en su lugar."
+      },
+      "chatOptions": [
+        "1 Indeed, I am.",
+        "1 Indeed, I would."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Distressing by archaeologists",
       "text": {
         "en": "Continue with the section Collecting scabarite notes.",
         "es": "Continúa con la sección Collecting scabarite notes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Distressing by players",
       "text": {
         "en": "While standing in the desert, use Ugthanki dung on the bronze items.",
         "es": "Estando en el desierto, usa estiércol de Ugthanki en los objetos de bronce."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Distressing by players",
       "text": {
         "en": "Use the oxidized bronze items on the crate.",
         "es": "Usa los objetos de bronce oxidados en la caja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Collecting scabarite notes",
       "text": {
-        "en": "Talk to Simon Templeton at the Agility Pyramid. (opciones de chat: 1 Some archaeologists asked me to deliver some artefacts to you. • 1 I'd like to supply some gold objects from Pyramid Plunder. • 1 I'd like to supply a golden Agility Pyramid artefact. • 1 I'd like to supply a crate of bronze antiquities.)",
-        "es": "Habla con Simon Templeton en la Agility Pyramid. (opciones de chat: 1 Some archaeologists asked me to deliver some artefacts to you. • 1 I'd like to supply some gold objects from Pyramid Plunder. • 1 I'd like to supply a golden Agility Pyramid artefact. • 1 I'd like to supply a crate of bronze antiquities.)"
-      }
+        "en": "Talk to Simon Templeton at the Agility Pyramid.",
+        "es": "Habla con Simon Templeton en la Agility Pyramid."
+      },
+      "chatOptions": [
+        "1 Some archaeologists asked me to deliver some artefacts to you.",
+        "1 I'd like to supply some gold objects from Pyramid Plunder.",
+        "1 I'd like to supply a golden Agility Pyramid artefact.",
+        "1 I'd like to supply a crate of bronze antiquities."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Collecting scabarite notes",
       "text": {
         "en": "Talk to the archaeologists (back at the campfire along the shortcut to the east) for a book scabaras research.",
         "es": "Habla con los arqueólogos (de vuelta en la hoguera junto al atajo hacia el este) para conseguir un libro scabaras research."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Collecting scabarite notes",
       "text": {
         "en": "Kill undead creatures nearby until you get 4 different scabarite notes. They should have different examine texts.",
         "es": "Mata criaturas no muertas cercanas hasta conseguir 4 notas scabarite diferentes. Deben tener textos de examinar distintos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Collecting scabarite notes",
       "text": {
         "en": "Dried zombies and skeletons to the north.",
         "es": "Zombis secos y esqueletos al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Collecting scabarite notes",
       "text": {
         "en": "Mummies to the west.",
         "es": "Momias al oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Collecting scabarite notes",
       "text": {
         "en": "Locust lancers, rangers, scabaras lancers, and rangers in the swamp to the south-east.",
         "es": "Locust lancers, rangers, scabaras lancers y rangers en el pantano al sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Collecting scabarite notes",
       "text": {
         "en": "Copy the notes to the scabaras research.",
         "es": "Copia las notas al scabaras research."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Collecting scabarite notes",
       "text": {
         "en": "Talk to the archaeologists for a key scabarite key.",
         "es": "Habla con los arqueólogos para conseguir una llave scabarite key."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Collecting scabarite notes",
       "text": {
         "en": "Run north and enter the northernmost dungeon.",
         "es": "Corre hacia el norte y entra en la mazmorra más al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Preparation",
       "text": {
         "en": "This section is a race against time. Read it fully before continuing. You need to pass all challenges successfully in one go, otherwise you need to tell the clay golem to reset the levers so you can try again.",
         "es": "Esta sección es una carrera contrarreloj. Léela por completo antes de continuar. Debes superar todos los desafíos con éxito de una sola vez; de lo contrario, tendrás que decirle al clay golem que reinicie las palancas para poder intentarlo de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Preparation",
       "text": {
         "en": "It is possible to empty the storage box of logs so you might need to bring your own in case you fail at first attempt. If you have a lower Firemaking level, you might not be able to stoke the furnace. For example, the storage box may give you magic logs, but if your Firemaking level is below 95, you won't be able to continue, unless you bring your own logs.",
         "es": "Es posible vaciar la caja de almacenamiento de troncos, así que puede que necesites traer los tuyos propios por si fallas en el primer intento. Si tienes un nivel de Piromancia más bajo, puede que no puedas avivar el horno. Por ejemplo, la caja de almacenamiento puede darte troncos mágicos, pero si tu nivel de Piromancia es inferior a 95, no podrás continuar, a menos que traigas tus propios troncos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Challenges",
       "text": {
         "en": "Use the logs on the furnace to stoke the furnace.",
         "es": "Usa los troncos en el horno para avivarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Challenges",
       "text": {
-        "en": "Talk to the golem. (opciones de chat: 3 I am ready for you to operate the levers. • 4 Set the mysterious box room to the highest power. • 1 Set the empty room to the second highest power. • 2 Set the narrow walkway room to the second lowest power.)",
-        "es": "Habla con el golem. (opciones de chat: 3 I am ready for you to operate the levers. • 4 Set the mysterious box room to the highest power. • 1 Set the empty room to the second highest power. • 2 Set the narrow walkway room to the second lowest power.)"
-      }
+        "en": "Talk to the golem.",
+        "es": "Habla con el golem."
+      },
+      "chatOptions": [
+        "3 I am ready for you to operate the levers.",
+        "4 Set the mysterious box room to the highest power.",
+        "1 Set the empty room to the second highest power.",
+        "2 Set the narrow walkway room to the second lowest power."
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Challenges",
       "text": {
         "en": "Relight the furnace.",
         "es": "Vuelve a encender el horno."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Challenges",
       "text": {
         "en": "Enter the narrow walkway room.",
         "es": "Entra en la sala del pasillo estrecho."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Challenges",
       "text": {
         "en": "Cross the pipe and pull the lever.",
         "es": "Cruza la tubería y tira de la palanca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Challenges",
       "text": {
         "en": "Enter the empty room.",
         "es": "Entra en la sala vacía."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Challenges",
       "text": {
         "en": "Pull the lever.",
         "es": "Tira de la palanca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Challenges",
       "text": {
         "en": "Enter the scarab room.",
         "es": "Entra en la sala del escarabajo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "Challenges",
       "text": {
         "en": "Kill the level 92 giant scarab.",
         "es": "Mata al giant scarab de nivel 92."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 1,
+      "section": "Challenges",
       "text": {
         "en": "Pull the lever.",
         "es": "Tira de la palanca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Challenges",
       "text": {
         "en": "Enter the mysterious box room.",
         "es": "Entra en la sala de la caja misteriosa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Challenges",
       "text": {
         "en": "Investigate the mysterious mechanism to start the puzzle. Clicking outside of the interface will fail the attempt and you'll have to start the whole process over.",
         "es": "Investiga el mecanismo misterioso para iniciar el puzle. Hacer clic fuera de la interfaz hará fallar el intento y tendrás que empezar todo el proceso de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "Challenges",
       "text": {
         "en": "Starting from the upper left corner, note the runes shown, flipping three runes in a row. Do this for all rows until all runes are noted. You should finish with 8 attempts left.",
         "es": "Empezando desde la esquina superior izquierda, anota las runas mostradas, volteando tres runas seguidas en una fila. Haz esto para todas las filas hasta que todas las runas queden anotadas. Deberías terminar con 8 intentos restantes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 1,
+      "section": "Challenges",
       "text": {
         "en": "On the right side of the interface to increase your attempts from 20 to 35. Click on the cog, mechanical screw parts and dial (three areas) and you will receive an extra 15 attempts giving 35 in total. If you don't, you will fail partway through the puzzle in the next section!",
         "es": "En el lado derecho de la interfaz, aumenta tus intentos de 20 a 35. Haz clic en el engranaje, las piezas mecánicas del tornillo y el dial (tres áreas) y recibirás 15 intentos extra, dando un total de 35. ¡Si no lo haces, fallarás a mitad del puzle en la siguiente sección!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "Challenges",
       "text": {
         "en": "Flip the rune in the upper left corner. Use your notes to identify the locations of other matching runes and flip them over (You are matching groups of 3 runes). Continue until all runes have been flipped.",
         "es": "Voltea la runa de la esquina superior izquierda. Usa tus notas para identificar las ubicaciones de las demás runas coincidentes y voltéalas (estás emparejando grupos de 3 runas). Continúa hasta que todas las runas hayan sido volteadas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Challenges",
       "text": {
         "en": "Once you have completed all 4 challenges in a row, it is possible to teleport out and restock without having to do them again.",
         "es": "Una vez hayas completado los 4 desafíos seguidos, es posible teletransportarte fuera y reabastecerte sin tener que repetirlos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Vault area",
       "text": {
         "en": "Run to the High Priest of Scabaras in the north-west room in the dungeon. Disarm the traps along the way.",
         "es": "Corre hacia el Sumo Sacerdote de Scabaras en la sala noroeste de la mazmorra. Desactiva las trampas por el camino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Vault area",
       "text": {
-        "en": "Talk to the High Priest. (opciones de chat: 2 Conversion, eh? • 2 I do not fear your pathetic beetle-brained magics.)",
-        "es": "Habla con el Sumo Sacerdote. (opciones de chat: 2 Conversion, eh? • 2 I do not fear your pathetic beetle-brained magics.)"
-      }
+        "en": "Talk to the High Priest.",
+        "es": "Habla con el Sumo Sacerdote."
+      },
+      "chatOptions": [
+        "2 Conversion, eh?",
+        "2 I do not fear your pathetic beetle-brained magics."
+      ]
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Vault area",
       "text": {
         "en": "Defeat him.",
         "es": "Derrótalo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Vault area",
       "text": {
-        "en": "Talk to him again. (opciones de chat: 4 By all the deities, what is going on here? • 1 I sense the hand of the Devourer in this. Am I correct?)",
-        "es": "Habla con él de nuevo. (opciones de chat: 4 By all the deities, what is going on here? • 1 I sense the hand of the Devourer in this. Am I correct?)"
-      }
+        "en": "Talk to him again.",
+        "es": "Habla con él de nuevo."
+      },
+      "chatOptions": [
+        "4 By all the deities, what is going on here?",
+        "1 I sense the hand of the Devourer in this. Am I correct?"
+      ]
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Vault area",
       "text": {
         "en": "Defeat him.",
         "es": "Derrótalo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Vault area",
       "text": {
-        "en": "Talk to him once more. (opciones de chat: 4 By all the deities, what is going on here? • 2 Sounds like the Devourer dragged you into heresy for her own ends.)",
-        "es": "Habla con él una vez más. (opciones de chat: 4 By all the deities, what is going on here? • 2 Sounds like the Devourer dragged you into heresy for her own ends.)"
-      }
+        "en": "Talk to him once more.",
+        "es": "Habla con él una vez más."
+      },
+      "chatOptions": [
+        "4 By all the deities, what is going on here?",
+        "2 Sounds like the Devourer dragged you into heresy for her own ends."
+      ]
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Vault area",
       "text": {
         "en": "Defeat him.",
         "es": "Derrótalo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Vault area",
       "text": {
-        "en": "Talk to him once more. (opciones de chat: 2 Conversion, eh? • 1 I sense the hand of the Devourer in this. Am I correct?)",
-        "es": "Habla con él una vez más. (opciones de chat: 2 Conversion, eh? • 1 I sense the hand of the Devourer in this. Am I correct?)"
-      }
+        "en": "Talk to him once more.",
+        "es": "Habla con él una vez más."
+      },
+      "chatOptions": [
+        "2 Conversion, eh?",
+        "1 I sense the hand of the Devourer in this. Am I correct?"
+      ]
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Vault area",
       "text": {
         "en": "Return to the High Priest in Sophanem.",
         "es": "Vuelve con el Sumo Sacerdote en Sophanem."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Vault area",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

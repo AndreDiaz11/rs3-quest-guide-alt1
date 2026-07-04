@@ -2,7 +2,8 @@
   "id": "elemental-workshop-i",
   "title": "Elemental Workshop I",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:13:15.513Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:06.596Z",
   "icon": "https://runescape.wiki/images/Elemental_Workshop_I_icon.png",
   "series": "Elemental Workshop",
   "age": "ambiguous",
@@ -95,183 +96,230 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Elemental_Workshop_I_reward.png?de4f8",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "In Seers' Village, go to the house immediately south of the anvil.",
         "es": "En Seers' Village, dirígete a la casa que está justo al sur del yunque."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Search the bookcase on the eastern wall to find a battered book.",
         "es": "Busca en la librería de la pared este para encontrar un libro maltrecho."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Read the book, (opciones de chat: Accept) then right-click on the book and click \"Cut-open\" to get a battered key. Do not drop the book.",
+        "en": "Read the book, then right-click on the book and click \"Cut-open\" to get a battered key. Do not drop the book.",
         "es": "Lee el libro, (opciones de chat: Aceptar) luego haz clic derecho sobre el libro y selecciona \"Cortar\" para obtener una llave maltrecha. No sueltes el libro."
-      }
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Go to the building with the anvil and click on the northern wall to open the odd-looking wall.",
         "es": "Ve al edificio con el yunque y haz clic en la pared norte para abrir la extraña pared."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Go down the stairs.",
         "es": "Baja las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Repairing a workshop",
       "text": {
         "en": "Go into the room to the north.",
         "es": "Entra en la sala al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Repairing a workshop",
       "text": {
         "en": "(Red Indicator) Turn the water controls east of the water wheel to turn it green",
         "es": "(Indicador rojo) Gira los controles de agua al este de la rueda hidráulica para ponerlos en verde."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Repairing a workshop",
       "text": {
         "en": "(Red Indicator) Turn the water controls west of the water wheel to turn it green.",
         "es": "(Indicador rojo) Gira los controles de agua al oeste de la rueda hidráulica para ponerlos en verde."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Repairing a workshop",
       "text": {
         "en": "Pull the lever by the water wheel.",
         "es": "Tira de la palanca junto a la rueda hidráulica."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Repairing a workshop",
       "text": {
         "en": "(Optional) To obtain leather, search the crate north of the staircase in the middle room.",
         "es": "(Opcional) Para obtener cuero, busca en el cajón al norte de la escalera en la sala central."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Repairing a workshop",
       "text": {
         "en": "Go to the eastern room.",
         "es": "Ve a la sala este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Repairing a workshop",
       "text": {
         "en": "With thread and leather, fix the bellows.",
         "es": "Con hilo y cuero, repara el fuelle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Repairing a workshop",
       "text": {
         "en": "Pull the lever by the bellows.",
         "es": "Tira de la palanca junto al fuelle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Repairing a workshop",
       "text": {
         "en": "Go to the western room and mine an elemental rock.",
         "es": "Ve a la sala oeste y extrae una roca elemental."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Repairing a workshop",
       "text": {
         "en": "Kill the earth elemental and pick up the elemental ore it drops.",
         "es": "Mata al elemental de tierra y recoge el mineral elemental que suelta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Repairing a workshop",
       "text": {
         "en": "Go back to the middle room and search the small boxes in the north-east part of the room to obtain a stone bowl.",
         "es": "Vuelve a la sala central y busca en las cajas pequeñas de la zona noreste de la sala para obtener un cuenco de piedra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Go to the south room.",
         "es": "Ve a la sala sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Use the stone bowl on the lava trough to the south.",
         "es": "Usa el cuenco de piedra en el canal de lava al sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Use the bowl of lava on the furnace in the room.",
         "es": "Usa el cuenco de lava en el horno de la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Use the elemental ore and four coal on the furnace.",
         "es": "Usa el mineral elemental y cuatro carbones en el horno."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "With the slashed book, go to the middle room and smith an elemental shield on an anvil workbench.",
         "es": "Con el libro cortado, ve a la sala central y forja un escudo elemental en la mesa de trabajo del yunque."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

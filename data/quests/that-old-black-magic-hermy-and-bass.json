@@ -2,7 +2,8 @@
   "id": "that-old-black-magic-hermy-and-bass",
   "title": "That Old Black Magic: Hermy and Bass",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:22:17.672Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:12.312Z",
   "icon": "https://runescape.wiki/images/thumb/That_Old_Black_Magic_icon.png/50px-That_Old_Black_Magic_icon.png",
   "length": "Long",
   "startPoint": {
@@ -53,87 +54,114 @@
       "image": "https://runescape.wiki/images/Soul_%28Well_of_Souls%29.png?69d0c"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/That_Old_Black_Magic-_Hermy_and_Bass_reward.png?058ec",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "The drummer",
       "text": {
-        "en": "Talk to Lady Grey about the drummer. (opciones de chat: ? Drummer.)",
-        "es": "Habla con Lady Grey sobre el percusionista. (opciones de chat: ? Percusionista.)"
-      }
+        "en": "Talk to Lady Grey about the drummer.",
+        "es": "Habla con Lady Grey sobre el percusionista."
+      },
+      "chatOptions": [
+        "? Drummer."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The drummer",
       "text": {
         "en": "Kill Hermod, the Spirit of War until you receive animated drumsticks.",
         "es": "Mata a Hermod, the Spirit of War hasta que recibas las animated drumsticks."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "The drummer",
       "text": {
         "en": "Requires 65 Necromancy and completion of The Spirit of War.",
         "es": "Requiere 65 de Nigromancia y haber completado The Spirit of War."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The drummer",
       "text": {
-        "en": "Return to Lady Grey. (opciones de chat: ? Drummer.)",
-        "es": "Vuelve con Lady Grey. (opciones de chat: ? Percusionista.)"
-      }
+        "en": "Return to Lady Grey.",
+        "es": "Vuelve con Lady Grey."
+      },
+      "chatOptions": [
+        "? Drummer."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The drummer",
       "text": {
         "en": "Talk to the The Spirit of Rhythm.",
         "es": "Habla con The Spirit of Rhythm."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The drummer",
       "text": {
-        "en": "Unequip items from both hand slots and talk to Ed. (opciones de chat: 1 Take a boat out onto the lake.)",
-        "es": "Quítate los objetos de ambas ranuras de las manos y habla con Ed. (opciones de chat: 1 Salir a navegar en barca por el lago.)"
-      }
+        "en": "Unequip items from both hand slots and talk to Ed.",
+        "es": "Quítate los objetos de ambas ranuras de las manos y habla con Ed."
+      },
+      "chatOptions": [
+        "1 Take a boat out onto the lake."
+      ]
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "The drummer",
       "text": {
         "en": "He's in the boat rental shop east of the northernmost docks.",
         "es": "Está en la tienda de alquiler de barcas al este de los muelles más al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The drummer",
       "text": {
         "en": "Manifest the animated drumsticks and a splash will appear at the location of a lost drum. Refer to the location maps below.",
         "es": "Manifiesta las animated drumsticks y aparecerá un chapoteo en la ubicación de un tambor perdido. Consulta los mapas de ubicación a continuación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The drummer",
       "text": {
         "en": "Continue to manifest the animated drumsticks until you have found all four drums.",
         "es": "Sigue manifestando las animated drumsticks hasta que hayas encontrado los cuatro tambores."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The drummer",
       "text": {
         "en": "Return to the bandstand and talk to the The Spirit of Rhythm.",
         "es": "Vuelve al quiosco de música y habla con The Spirit of Rhythm."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

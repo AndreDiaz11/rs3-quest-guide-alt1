@@ -2,7 +2,8 @@
   "id": "lost-her-marbles-miniquest",
   "title": "Lost Her Marbles (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:36:43.741Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:34.251Z",
   "icon": "https://runescape.wiki/images/Lost_Her_Marbles_%28miniquest%29_icon.png",
   "series": "Thieves' Guild",
   "age": "ambiguous",
@@ -65,6 +66,7 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Lost_Her_Marbles_%28miniquest%29_reward.png?b970b",
   "postQuest": [
     {
       "type": "item",
@@ -116,42 +118,52 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Overview",
       "text": {
         "en": "Talk to Darren Lightfinger.",
         "es": "Habla con Darren Lightfinger."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Return to Darren Lightfinger.",
         "es": "Vuelve con Darren Lightfinger."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Darren . Talk to Robin to collect your loot.",
         "es": "Habla con Darren. Habla con Robin para recoger tu botín."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
         "en": "Repeat 4 times in total.",
         "es": "Repite esto 4 veces en total."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talking to Robin the 4th time completes the Miniquest.",
         "es": "Al hablar con Robin por 4ª vez se completa la minimisión."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

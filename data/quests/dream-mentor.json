@@ -2,7 +2,8 @@
   "id": "dream-mentor",
   "title": "Dream Mentor",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:11:11.324Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:04.207Z",
   "icon": "https://runescape.wiki/images/thumb/Dream_Mentor_icon.png/50px-Dream_Mentor_icon.png",
   "series": "Fremennik",
   "age": "5",
@@ -135,303 +136,383 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Dream_Mentor_reward.png?ac2ed",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "A helping hand",
       "text": {
         "en": "Enter the mine in the north-east area of Lunar Isle.",
         "es": "Entra en la mina de la zona noreste de Lunar Isle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "A helping hand",
       "text": {
         "en": "Crawl-through the cave entrance (quest minimap icon).",
         "es": "Arrástrate por la entrada de la cueva (icono de misión en el minimapa)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "A helping hand",
       "text": {
-        "en": "Talk to the fallen man (close the interface when it appears). (opciones de chat: Accept)",
-        "es": "Habla con el hombre caído (cierra la interfaz cuando aparezca). (opciones de chat: Accept)"
-      }
+        "en": "Talk to the fallen man (close the interface when it appears).",
+        "es": "Habla con el hombre caído (cierra la interfaz cuando aparezca)."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "A helping hand",
       "text": {
         "en": "Starting with one of your 7 item foods, feed him 4 food while cycling through your different foods.",
         "es": "Empezando por una de las 7 comidas que llevas, dale de comer 4 alimentos alternando entre tus diferentes comidas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "A helping hand",
       "text": {
         "en": "Starting with a food item of which you brought 7 items will ensure you do not run out of variety.",
         "es": "Empezar con un alimento del que llevas 7 unidades te asegurará no quedarte sin variedad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "A helping hand",
       "text": {
-        "en": "Talk to him again. (opciones de chat: 1 Just don't worry. • 1 Of course.)",
-        "es": "Habla con él de nuevo. (opciones de chat: 1 Just don't worry. • 1 Of course.)"
-      }
+        "en": "Talk to him again.",
+        "es": "Habla con él de nuevo."
+      },
+      "chatOptions": [
+        "1 Just don't worry.",
+        "1 Of course."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "A helping hand",
       "text": {
         "en": "Feed him 4 more food as before.",
         "es": "Dale de comer 4 alimentos más como antes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Raising his spirit",
       "text": {
         "en": "Talk to repeatedly to raise his spirits:",
         "es": "Habla con él repetidamente para animarlo:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Raising his spirit",
       "text": {
         "en": "Of the four chat options, choose the one that appears on the table below.",
         "es": "De las cuatro opciones de chat, elige la que aparece en la tabla de abajo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Raising his spirit",
       "text": {
         "en": "Select the response according to the table.",
         "es": "Selecciona la respuesta según la tabla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Raising his spirit",
       "text": {
         "en": "Repeat until a short cutscene plays and he sits up.",
         "es": "Repite hasta que se reproduzca una breve escena y él se incorpore."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Raising his spirit",
       "text": {
         "en": "Feed him 6 more food.",
         "es": "Dale de comer 6 alimentos más."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Raising his spirit",
       "text": {
         "en": "Talk to him and raise his spirit as before until he stands up.",
         "es": "Habla con él y anímalo como antes hasta que se ponga de pie."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Raising his spirit",
       "text": {
         "en": "Exit the cave and climb up the ladder.",
         "es": "Sal de la cueva y sube por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Raising his spirit",
       "text": {
         "en": "Or just use the Lunar Isle lodestone",
         "es": "O simplemente usa la piedra de viaje de Lunar Isle"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Raising his spirit",
       "text": {
         "en": "Talk to 'Bird's-Eye' Jack in the bank. You will need 1 free inventory space for Cyrisus's chest.",
         "es": "Habla con 'Bird's-Eye' Jack en el banco. Necesitarás 1 espacio libre en el inventario para el cofre de Cyrisus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Raising his spirit",
       "text": {
         "en": "Select the equipment he needs. The equipment is usually, but not always, dependent on your highest combat stats (Magic, Ranged, Melee):",
         "es": "Selecciona el equipo que necesita. El equipo suele depender, aunque no siempre, de tus estadísticas de combate más altas (Magia, Distancia, Cuerpo a cuerpo):"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Raising his spirit",
       "text": {
         "en": "Melee: Dragon helm, Abyssal whip, Ahrim's robe top, Ahrim's robe skirt, Ranger boots",
         "es": "Cuerpo a cuerpo: Dragon helm, Abyssal whip, Ahrim's robe top, Ahrim's robe skirt, Ranger boots"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Raising his spirit",
       "text": {
         "en": "Ranged: Splitbark Helm, Karil's top, Torag's platelegs, Adamant boots, Magic shortbow",
         "es": "Distancia: Splitbark Helm, Karil's top, Torag's platelegs, Adamant boots, Magic shortbow"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Raising his spirit",
       "text": {
         "en": "Magic: Robin Hood hat, Dragon Chainbody, Black dragonhide chaps, Infinity boots, Ancient staff",
         "es": "Magia: Robin Hood hat, Dragon Chainbody, Black dragonhide chaps, Infinity boots, Ancient staff"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Raising his spirit",
       "text": {
         "en": "You can use the NPC Contact spell to ensure you have the right equipment.",
         "es": "Puedes usar el hechizo NPC Contact para asegurarte de tener el equipo correcto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Raising his spirit",
       "text": {
         "en": "Return and talk to Cyrisus for a cutscene.",
         "es": "Vuelve y habla con Cyrisus para una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Raising his spirit",
       "text": {
         "en": "Right-click \"inspect\" and fill the remaining stats until he tells you that he is ok (if not already).",
         "es": "Haz clic derecho en \"inspect\" y completa las estadísticas restantes hasta que te diga que está bien (si no lo ha hecho ya)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Dream potion",
       "text": {
         "en": "Talk to the Oneiromancer at the astral altar (most south-eastern part of the Lunar Isle) for a dream vial (herb).",
         "es": "Habla con el Oneiromancer en el astral altar (la zona más al sureste de Lunar Isle) para conseguir un dream vial (hierba)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Dream potion",
       "text": {
         "en": "Change your spellbook as necessary if you wish to use magic in the final fight.",
         "es": "Cambia tu libro de hechizos si es necesario, en caso de que quieras usar magia en el combate final."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Dream potion",
       "text": {
         "en": "Use an astral rune on an anvil (there's one on Lunar Isle in a small building to the south), then grind the shards. Add it to the potion.",
         "es": "Usa una astral rune en un yunque (hay uno en Lunar Isle, en un pequeño edificio al sur), y luego muele los fragmentos. Añádelo a la poción."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Dream potion",
       "text": {
         "en": "Prepare for 4 fights (below level 100). Prayers and emergency teleports won't work. Neither will familiars.",
         "es": "Prepárate para 4 combates (nivel inferior a 100). Las oraciones y los teletransportes de emergencia no funcionarán. Tampoco los familiares."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Dreamland",
       "text": {
         "en": "Light the Ceremonial Brazier in the long hall building, near the lodestone.",
         "es": "Enciende el Ceremonial Brazier en el edificio del long hall, cerca de la piedra de viaje."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Dreamland",
       "text": {
         "en": "Talk to Cyrisus (dismiss any followers before).",
         "es": "Habla con Cyrisus (despide antes a tus seguidores)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Dreamland",
       "text": {
         "en": "Do not click away of the chat or you will be teleported out",
         "es": "No hagas clic fuera del chat o serás teletransportado fuera"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Dreamland",
       "text": {
         "en": "During the fight, you can leave at any time by using the pedestal.",
         "es": "Durante el combate, puedes salir en cualquier momento usando el pedestal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "Dreamland",
       "text": {
         "en": "Kill The Inadequacy",
         "es": "Mata a The Inadequacy"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Dreamland",
       "text": {
         "en": "Kill The Everlasting (can safespot by the pedestal)",
         "es": "Mata a The Everlasting (puedes hacer safespot junto al pedestal)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "Dreamland",
       "text": {
         "en": "Kill The Untouchable (can safespot by the pedestal)",
         "es": "Mata a The Untouchable (puedes hacer safespot junto al pedestal)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "Dreamland",
       "text": {
         "en": "Kill The Illusive",
         "es": "Mata a The Illusive"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Dreamland",
       "text": {
         "en": "Return to the Oneiromancer.",
         "es": "Regresa con el Oneiromancer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Dreamland",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

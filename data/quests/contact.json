@@ -2,7 +2,8 @@
   "id": "contact",
   "title": "Contact!",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:59:18.501Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:49.057Z",
   "icon": "https://runescape.wiki/images/thumb/Contact%21_icon.png/50px-Contact%21_icon.png",
   "series": "Desert",
   "age": "5",
@@ -104,175 +105,230 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Contact%21_reward.png?61067",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Tunnels under Sophanem",
       "text": {
-        "en": "Talk to the High Priest in Sophanem (opciones de chat: Accept), then after the cutscene, (opciones de chat: 5 Is there any way into Menaphos from below?).",
+        "en": "Talk to the High Priest in Sophanem , then after the cutscene, .",
         "es": "Habla con el High Priest en Sophanem (opciones de chat: Accept), y tras la escena, (opciones de chat: 5 Is there any way into Menaphos from below?)."
-      }
+      },
+      "chatOptions": [
+        "Accept",
+        "5 Is there any way into Menaphos from below?"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Tunnels under Sophanem",
       "text": {
         "en": "Talk to Jex in front of the building in the north-east corner of the city.",
         "es": "Habla con Jex frente al edificio de la esquina noreste de la ciudad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Tunnels under Sophanem",
       "text": {
         "en": "Climb down the ladder in the church east of Jex, and down again in the second trapdoor.",
         "es": "Baja por la escalera de la iglesia al este de Jex, y vuelve a bajar por la segunda trampilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Tunnels under Sophanem",
       "text": {
         "en": "You can speak to one of the Sophanem Guards here if you still need a torch, they will sell you one for 200 coins.",
         "es": "Puedes hablar con uno de los Sophanem Guards aquí si aún necesitas una antorcha, te venderán una por 200 monedas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Tunnels under Sophanem",
       "text": {
         "en": "Protect from magic prayers and auto-retaliate off is recommended.",
         "es": "Se recomienda usar la Oración de protección contra magia y desactivar el contraataque automático."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Tunnels under Sophanem",
       "text": {
         "en": "Follow the red line through the maze (pictured right). You can avoid traps by clicking on them, or walking around them where appropriate.",
         "es": "Sigue la línea roja a través del laberinto (imagen a la derecha). Puedes evitar las trampas haciendo clic en ellas, o rodeándolas cuando sea posible."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Tunnels under Sophanem",
       "text": {
         "en": "You can use the high contrast mode to make the traps easier to spot, except for the pitfalls.",
         "es": "Puedes usar el modo de alto contraste para detectar las trampas más fácilmente, excepto los pozos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Tunnels under Sophanem",
       "text": {
         "en": "For high level players you can take the ladder in the north, marked (2) on the map.",
         "es": "Los jugadores de nivel alto pueden usar la escalera del norte, marcada con (2) en el mapa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Tunnels under Sophanem",
       "text": {
         "en": "Then run south west to ladder marked (6) to skip most of the maze.",
         "es": "Luego corre hacia el suroeste hasta la escalera marcada con (6) para saltarte la mayor parte del laberinto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Tunnels under Sophanem",
       "text": {
         "en": "Run east while avoiding the traps, north, and then west again and climb down the ladder.",
         "es": "Corre hacia el este evitando las trampas, luego al norte, y otra vez al oeste, y baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Tunnels under Sophanem",
       "text": {
         "en": "Run towards the larger room.",
         "es": "Corre hacia la sala más grande."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Tunnels under Sophanem",
       "text": {
         "en": "Search Kaleef's body and read the parchment.",
         "es": "Registra el cuerpo de Kaleef y lee el pergamino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Tunnels under Sophanem",
       "text": {
-        "en": "Talk to Maisa to the west. (opciones de chat: 2 Draynor Village • 4 Ozan and Leela.)",
-        "es": "Habla con Maisa al oeste. (opciones de chat: 2 Draynor Village • 4 Ozan and Leela.)"
-      }
+        "en": "Talk to Maisa to the west.",
+        "es": "Habla con Maisa al oeste."
+      },
+      "chatOptions": [
+        "2 Draynor Village",
+        "4 Ozan and Leela."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Osman",
       "text": {
-        "en": "Talk to Osman inside the Al Kharid palace. (opciones de chat: 2 I want to talk to you about Sophanem. • ~ • 3 It would drive a wedge between the Menaphite cities.)",
-        "es": "Habla con Osman dentro del palacio de Al Kharid. (opciones de chat: 2 I want to talk to you about Sophanem. • ~ • 3 It would drive a wedge between the Menaphite cities.)"
-      }
+        "en": "Talk to Osman inside the Al Kharid palace.",
+        "es": "Habla con Osman dentro del palacio de Al Kharid."
+      },
+      "chatOptions": [
+        "2 I want to talk to you about Sophanem.",
+        "~",
+        "3 It would drive a wedge between the Menaphite cities."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Osman",
       "text": {
         "en": "Prepare to fight a level 86 foe - a giant scarab.",
         "es": "Prepárate para luchar contra un enemigo de nivel 86: un giant scarab."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Osman",
       "text": {
-        "en": "Talk to Osman outside the northern Sophanem gate. (opciones de chat: 3 I know of a secret entrance to the north.)",
-        "es": "Habla con Osman fuera de la puerta norte de Sophanem. (opciones de chat: 3 I know of a secret entrance to the north.)"
-      }
+        "en": "Talk to Osman outside the northern Sophanem gate.",
+        "es": "Habla con Osman fuera de la puerta norte de Sophanem."
+      },
+      "chatOptions": [
+        "3 I know of a secret entrance to the north."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Osman",
       "text": {
         "en": "Run all the way back to Kaleef's body.",
         "es": "Corre de vuelta hasta el cuerpo de Kaleef."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Kill the giant scarab and take the Keris.",
         "es": "Mata al giant scarab y coge el Keris."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "The final fight",
       "text": {
         "en": "Optional: Players with level 50 Attack may head back up the ladder and kill a scarab mage or locust rider with the Keris dagger. This completes the Ludikeris achievement.",
         "es": "Opcional: los jugadores con nivel 50 de Ataque pueden volver a subir por la escalera y matar a un scarab mage o un locust rider con la daga Keris. Esto completa el logro Ludikeris."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Return to Sophanem and talk to the High Priest (there is no shortcut back, teleporting is possible).",
         "es": "Vuelve a Sophanem y habla con el High Priest (no hay atajo de regreso, es posible teletransportarse)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

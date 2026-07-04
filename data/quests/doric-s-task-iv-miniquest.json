@@ -2,7 +2,8 @@
   "id": "doric-s-task-iv-miniquest",
   "title": "Doric's Task IV (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:10:26.892Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:01.869Z",
   "icon": "https://runescape.wiki/images/Doric%27s_Task_IV_%28miniquest%29_icon.png",
   "series": "Doric's Tasks",
   "age": "5",
@@ -85,95 +86,123 @@
       "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Doric%27s_Task_IV_%28miniquest%29_reward.png?11af3",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Burial armour",
       "text": {
-        "en": "Speak to Doric in his hut north of Falador. (opciones de chat: 1 Do you have any more Smithing tasks for me? • Accept)",
-        "es": "Habla con Doric en su choza al norte de Falador. (opciones de chat: 1 ¿Tienes más tareas de Herrería para mí? • Aceptar)"
-      }
+        "en": "Speak to Doric in his hut north of Falador.",
+        "es": "Habla con Doric en su choza al norte de Falador."
+      },
+      "chatOptions": [
+        "1 Do you have any more Smithing tasks for me?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Burial armour",
       "text": {
         "en": "Make an adamant burial set in the Artisans' Workshop located in southeast Falador.",
         "es": "Fabrica un set funerario de adamantium en el Artisans' Workshop, situado al sureste de Falador."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Burial armour",
       "text": {
         "en": "You must make the \"burial set\" and not make the burial items individually.",
         "es": "Debes fabricar el \"set funerario\" y no los objetos funerarios por separado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Burial armour",
       "text": {
-        "en": "If the player has never made burial armour before they must first talk to Suak. (opciones de chat: 2 How can I make burial armour?). To make a burial set the player first needs to acquire:",
+        "en": "If the player has never made burial armour before they must first talk to Suak. . To make a burial set the player first needs to acquire:",
         "es": "Si el jugador nunca ha fabricado armadura funeraria antes, primero debe hablar con Suak. (opciones de chat: 2 ¿Cómo puedo fabricar armadura funeraria?). Para fabricar un set funerario, el jugador primero necesita conseguir:"
-      }
+      },
+      "chatOptions": [
+        "2 How can I make burial armour?"
+      ]
     },
     {
       "index": 4,
       "indent": 2,
+      "section": "Burial armour",
       "text": {
         "en": "Adamant full helm +2.",
         "es": "Yelmo completo de adamantium +2."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 2,
+      "section": "Burial armour",
       "text": {
         "en": "Adamant platelegs +2.",
         "es": "Grebas de adamantium +2."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 2,
+      "section": "Burial armour",
       "text": {
         "en": "Adamant platebody +2.",
         "es": "Peto de adamantium +2."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 2,
+      "section": "Burial armour",
       "text": {
         "en": "Adamant armoured boots +2.",
         "es": "Botas blindadas de adamantium +2."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 2,
+      "section": "Burial armour",
       "text": {
         "en": "Adamant gauntlets +2.",
         "es": "Guanteletes de adamantium +2."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Burial armour",
       "text": {
         "en": "It is possible to buy all five pieces off the Grand exchange to complete this task.",
         "es": "Es posible comprar las cinco piezas en el Grand Exchange para completar esta tarea."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Burial armour",
       "text": {
         "en": "Talk to Suak.",
         "es": "Habla con Suak."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

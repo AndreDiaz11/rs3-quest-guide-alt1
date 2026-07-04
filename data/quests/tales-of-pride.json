@@ -2,7 +2,8 @@
   "id": "tales-of-pride",
   "title": "Tales of Pride",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T17:38:57.914Z",
+  "isSeasonal": true,
+  "guideLastUpdated": "2026-07-04T18:35:10.601Z",
   "icon": null,
   "length": null,
   "startPoint": {
@@ -58,134 +59,176 @@
       "image": null
     }
   ],
+  "rewardBannerImage": null,
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "During June, talk to the Curator north of the Burthorpe lodestone about \"diverse stories\" for a collection of stories, which can be collected in any order. (opciones de chat: 1 Talk about diverse stories.)"
-      }
+        "en": "During June, talk to the Curator north of the Burthorpe lodestone about \"diverse stories\" for a collection of stories, which can be collected in any order."
+      },
+      "chatOptions": [
+        "1 Talk about diverse stories."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Ace at anthropology",
       "text": {
         "en": "Go north of Anachronia base camp towards the entrance to the Effigy Incubator."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Ace at anthropology",
       "text": {
         "en": "Pick up Vicendithas's journal from the ground and read it to add it to a collection of stories."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Ace at anthropology",
       "text": {
         "en": "Go to where the Stormbreaker ship is in Varrock Dig Site."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Ace at anthropology",
       "text": {
         "en": "Pick up Vicendithas's journal from the ground and read it to add it to a collection of stories."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Love letter",
       "text": {
         "en": "Travel to the teleporter of Armadyl's Tower northwest of the Port Sarim lodestone."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Love letter",
       "text": {
         "en": "Pick up a well-loved letter next to the teleporter and read it to add it to the journal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Family matters",
       "text": {
         "en": "Go to Edgeville, and climb the ladder to the of the house north of the Edgeville bank."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Family matters",
       "text": {
-        "en": "Talk to either of the characters and see what's upsetting Annette. (opciones de chat: 2 [See what's upsetting Annette])"
-      }
+        "en": "Talk to either of the characters and see what's upsetting Annette."
+      },
+      "chatOptions": [
+        "2 [See what's upsetting Annette]"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "What's in a name?",
       "text": {
         "en": "Go north-east of the World Gate to find Angof and a list of names."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "What's in a name?",
       "text": {
         "en": "Pick up the book and read it to add it to the journal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "What's in a name?",
       "text": {
         "en": "Go to player-owned house portal in Taverley to find Angof and a list of names."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "What's in a name?",
       "text": {
         "en": "Pick up the book outside the Pick and Lute and read it to add it to the journal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Good dogs",
       "text": {
         "en": "Go to the eastern side of Draynor Manor grounds."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Good dogs",
       "text": {
         "en": "Pick up Greg's journal from near a tombstone and read it to add it to the journal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Butterflies",
       "text": {
         "en": "Go to Lumbridge Castle and climb down the trapdoor in the castle kitchen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Butterflies",
       "text": {
         "en": "Pick up Zanik's journal just to the north and read it to add it to the journal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Return to the Curator north of the Burthorpe lodestone and talk about \"diverse stories\". (opciones de chat: 1 Talk about diverse stories.)"
-      }
+        "en": "Return to the Curator north of the Burthorpe lodestone and talk about \"diverse stories\"."
+      },
+      "chatOptions": [
+        "1 Talk about diverse stories."
+      ]
     }
-  ],
-  "isSeasonal": true
+  ]
 }

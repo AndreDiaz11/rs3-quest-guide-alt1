@@ -2,7 +2,8 @@
   "id": "cabin-fever",
   "title": "Cabin Fever",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:55:32.574Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:44.613Z",
   "icon": "https://runescape.wiki/images/Cabin_Fever_icon.png",
   "series": "Pirate",
   "age": "5",
@@ -116,463 +117,583 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Cabin_Fever_reward.png?a5e93",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Setting sail",
       "text": {
         "en": "Travel to Port Phasmatys.",
         "es": "Viaja a Port Phasmatys."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Setting sail",
       "text": {
-        "en": "Talk to Bill Teach in the inn. (opciones de chat: 1 Yes, I've always wanted to be a pirate! • Accept)",
-        "es": "Habla con Bill Teach en la posada. (opciones de chat: 1 Yes, I've always wanted to be a pirate! • Accept)"
-      }
+        "en": "Talk to Bill Teach in the inn.",
+        "es": "Habla con Bill Teach en la posada."
+      },
+      "chatOptions": [
+        "1 Yes, I've always wanted to be a pirate!",
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Setting sail",
       "text": {
         "en": "Run to the dock and cross the gangplank to board the eastern-most ship.",
         "es": "Corre hacia el muelle y cruza la pasarela para subir a bordo del barco situado más al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Setting sail",
       "text": {
-        "en": "Talk to Bill Teach. (opciones de chat: 1 Let's go Cap'n!)",
-        "es": "Habla con Bill Teach. (opciones de chat: 1 Let's go Cap'n!)"
-      }
+        "en": "Talk to Bill Teach.",
+        "es": "Habla con Bill Teach."
+      },
+      "chatOptions": [
+        "1 Let's go Cap'n!"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Sabotage",
       "text": {
         "en": "Search the repair locker, take 4 ropes.",
         "es": "Registra el armario de reparaciones y coge 4 cuerdas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Sabotage",
       "text": {
         "en": "Search the Gun Locker, take 1 fuse.",
         "es": "Registra el armario de armas (Gun Locker) y coge 1 mecha."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Sabotage",
       "text": {
         "en": "Climb-up the ship's ladder.",
         "es": "Sube por la escalera del barco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Sabotage",
       "text": {
         "en": "Climb the climbing net next to the central mast.",
         "es": "Sube por la red de escalada junto al mástil central."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Sabotage",
       "text": {
         "en": "Use rope from the backpack on the hoisted sail on the ship you are on.",
         "es": "Usa una cuerda de la mochila en la vela izada del barco en el que estás."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Sabotage",
       "text": {
         "en": "The same actions of climbing and using the rope are used to change ships every time.",
         "es": "Se usan las mismas acciones de escalar y usar la cuerda para cambiar de barco cada vez."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Sabotage",
       "text": {
         "en": "Add fuse on the powder barrel on the eastern ship.",
         "es": "Añade la mecha al barril de pólvora en el barco del este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Sabotage",
       "text": {
         "en": "Light the fuse (you may fail and have to retry).",
         "es": "Enciende la mecha (puede que falles y tengas que volver a intentarlo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Sabotage",
       "text": {
         "en": "Climb the climbing net and use the rope on the hoisted sail as before.",
         "es": "Sube por la red de escalada y usa la cuerda en la vela izada como antes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Sabotage",
       "text": {
         "en": "Talk to Bill.",
         "es": "Habla con Bill."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Fixing the leaks",
       "text": {
         "en": "Climb-down the ship's ladder.",
         "es": "Baja por la escalera del barco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Fixing the leaks",
       "text": {
         "en": "Search the repair locker and take:",
         "es": "Registra el armario de reparaciones y coge:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Fixing the leaks",
       "text": {
         "en": "30 tacks",
         "es": "30 tachuelas"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Fixing the leaks",
       "text": {
         "en": "6 planks",
         "es": "6 tablones"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Fixing the leaks",
       "text": {
         "en": "3 swamp paste",
         "es": "3 pastas de pantano"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Fixing the leaks",
       "text": {
         "en": "For each of the three leaks in the hull:",
         "es": "Por cada una de las tres vías de agua en el casco:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Fixing the leaks",
       "text": {
         "en": "Fill the ship hull.",
         "es": "Rellena el casco del barco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Fixing the leaks",
       "text": {
         "en": "Waterproof the ship hull.",
         "es": "Impermeabiliza el casco del barco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Fixing the leaks",
       "text": {
         "en": "Climb-up the ship's ladder and talk to Bill.",
         "es": "Sube por la escalera del barco y habla con Bill."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "Fixing the leaks",
       "text": {
         "en": "Be sure to finish all the dialogue, or else you won't be able to proceed.",
         "es": "Asegúrate de terminar todo el diálogo, o no podrás continuar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Pirate plunder",
       "text": {
         "en": "Board the other ship (climb and use rope as before).",
         "es": "Sube a bordo del otro barco (escala y usa la cuerda como antes)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Pirate plunder",
       "text": {
         "en": "Climb-down their Ship's ladder.",
         "es": "Baja por la escalera de su barco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Pirate plunder",
       "text": {
         "en": "Plunder the closed chest for 5 plunder.",
         "es": "Saquea el cofre cerrado para conseguir 5 botines."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Pirate plunder",
       "text": {
         "en": "Return to your ship (climb and use rope as before).",
         "es": "Regresa a tu barco (escala y usa la cuerda como antes)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Pirate plunder",
       "text": {
         "en": "Climb-down your ship's ladder.",
         "es": "Baja por la escalera de tu barco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Pirate plunder",
       "text": {
         "en": "Store-plunder on the plunder storage.",
         "es": "Guarda el botín en el almacén de botín."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Pirate plunder",
       "text": {
         "en": "Return to and talk to Bill.",
         "es": "Regresa y habla con Bill."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Cannon",
       "text": {
         "en": "Climb-down the ship's ladder.",
         "es": "Baja por la escalera del barco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Cannon",
       "text": {
         "en": "Search the gun locker for a cannon barrel.",
         "es": "Registra el armario de armas en busca de un cañón (barril de cañón)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Cannon",
       "text": {
         "en": "Repair the broken cannon on the top deck.",
         "es": "Repara el cañón roto en la cubierta superior."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Cannon",
       "text": {
         "en": "Talk to Bill.",
         "es": "Habla con Bill."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Cannon",
       "text": {
         "en": "Search the gun locker and take:",
         "es": "Registra el armario de armas y coge:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "Cannon",
       "text": {
         "en": "Ramrod.",
         "es": "Una baqueta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 1,
+      "section": "Cannon",
       "text": {
         "en": "Some fuses (take 3 in case of failure).",
         "es": "Algunas mechas (coge 3 por si fallas)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 1,
+      "section": "Cannon",
       "text": {
         "en": "Some cannon canisters (take 3 in case of failure).",
         "es": "Algunos botes de cañón (coge 3 por si fallas)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Cannon",
       "text": {
         "en": "Climb-up the ship's ladder.",
         "es": "Sube por la escalera del barco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Cannon",
       "text": {
         "en": "Prepare and fire the cannon. If you miss you will need to repeat these steps.",
         "es": "Prepara y dispara el cañón. Si fallas, tendrás que repetir estos pasos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "Cannon",
       "text": {
         "en": "If you make a mistake, you can empty-out the cannon. You will still need to clean it with the ramrod (final instruction).",
         "es": "Si cometes un error, puedes vaciar el cañón. Aun así tendrás que limpiarlo con la baqueta (instrucción final)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 1,
+      "section": "Cannon",
       "text": {
         "en": "Take-powder from the powder barrel next to the cannon on the deck.",
         "es": "Coge pólvora del barril de pólvora junto al cañón en la cubierta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 1,
+      "section": "Cannon",
       "text": {
         "en": "Use gunpowder on the cannon.",
         "es": "Usa la pólvora en el cañón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "Cannon",
       "text": {
         "en": "Then the ramrod.",
         "es": "Luego la baqueta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 1,
+      "section": "Cannon",
       "text": {
         "en": "Then a canister.",
         "es": "Luego un bote."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 1,
+      "section": "Cannon",
       "text": {
         "en": "Then a fuse.",
         "es": "Luego una mecha."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 1,
+      "section": "Cannon",
       "text": {
         "en": "Fire! the cannon. Check your chat log to see if you hit or not.",
         "es": "¡Dispara el cañón! Revisa tu registro de chat para ver si has acertado o no."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 1,
+      "section": "Cannon",
       "text": {
         "en": "Use the ramrod on the cannon again to clean it.",
         "es": "Usa la baqueta en el cañón otra vez para limpiarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Cannon",
       "text": {
         "en": "Talk to Bill.",
         "es": "Habla con Bill."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Cannon",
       "text": {
         "en": "Return to the gun locker and take:",
         "es": "Regresa al armario de armas y coge:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 1,
+      "section": "Cannon",
       "text": {
         "en": "At least 5 cannon balls.",
         "es": "Al menos 5 balas de cañón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 1,
+      "section": "Cannon",
       "text": {
         "en": "At least 5 fuses.",
         "es": "Al menos 5 mechas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 1,
+      "section": "Cannon",
       "text": {
         "en": "2 cannon barrel (the cannon may blow up).",
         "es": "2 cañones de repuesto (el cañón podría explotar)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Cannon",
       "text": {
         "en": "Fire the cannon as before, substituting the canister for a cannon ball, until you put three holes in the enemy's ship.",
         "es": "Dispara el cañón como antes, sustituyendo el bote por una bala de cañón, hasta hacer tres agujeros en el barco enemigo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Cannon",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Cannon",
       "text": {
         "en": "Talk to Bill to claim another reward.",
         "es": "Habla con Bill para reclamar otra recompensa."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

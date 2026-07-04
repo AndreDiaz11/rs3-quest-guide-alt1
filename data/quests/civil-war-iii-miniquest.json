@@ -2,7 +2,8 @@
   "id": "civil-war-iii-miniquest",
   "title": "Civil War III (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T19:57:59.210Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:47.433Z",
   "icon": "https://runescape.wiki/images/thumb/Civil_War_III_%28miniquest%29_icon.png/50px-Civil_War_III_%28miniquest%29_icon.png",
   "series": "Legacy of Zamorak",
   "age": "Age of Chaos",
@@ -47,63 +48,84 @@
       "image": "https://runescape.wiki/images/thumb/Infernal_Puzzle_Box_detail.png/100px-Infernal_Puzzle_Box_detail.png?20f96"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Civil_War_III_%28miniquest%29_reward.png?d4c74",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
-        "en": "Talk to Anne Dimitri, who is just north of Quercus in the Wilderness. (opciones de chat: Accept)",
-        "es": "Habla con Anne Dimitri, que está justo al norte de Quercus en el Wilderness. (opciones de chat: Accept)"
-      }
+        "en": "Talk to Anne Dimitri, who is just north of Quercus in the Wilderness.",
+        "es": "Habla con Anne Dimitri, que está justo al norte de Quercus en el Wilderness."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
-        "en": "Head to the Garden of Kharid and talk to Polletix. (opciones de chat: 1 How's it going? (Civil War III))",
+        "en": "Head to the Garden of Kharid and talk to Polletix.",
         "es": "Dirígete al Garden of Kharid y habla con Polletix. (opciones de chat: 1 How's it going? (Civil War III))"
-      }
+      },
+      "chatOptions": [
+        "1 How's it going? (Civil War III)"
+      ]
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Walkthrough",
       "text": {
         "en": "If you haven't done so already, complete the Power Planter I achievement, which involves earning 250 Crux Eqal favour and purchasing the first unlock in Sydekix's Shop of Balance. You can earn favour by planting and harvesting herbs from any herb patch in the game, including the one in the Garden of Kharid. You can ask the daily herb from Polletix, and planting and harvesting the daily herb always grants the maximum of 50 favour per seed.",
         "es": "Si aún no lo has hecho, completa el logro Power Planter I, que consiste en ganar 250 puntos de favor de Crux Eqal y comprar el primer desbloqueo en la Sydekix's Shop of Balance. Puedes ganar favor plantando y cosechando hierbas en cualquier parcela de hierbas del juego, incluida la del Garden of Kharid. Puedes pedirle a Polletix la hierba del día, y plantar y cosechar la hierba del día siempre otorga el máximo de 50 de favor por semilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Walkthrough",
       "text": {
-        "en": "If you hadn't completed the achievement before, talk to Polletix again. (opciones de chat: 1 How's it going? (Civil War III))",
+        "en": "If you hadn't completed the achievement before, talk to Polletix again.",
         "es": "Si no habías completado el logro antes, vuelve a hablar con Polletix. (opciones de chat: 1 How's it going? (Civil War III))"
-      }
+      },
+      "chatOptions": [
+        "1 How's it going? (Civil War III)"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Return to Anne Dimitri and talk to her.",
         "es": "Vuelve con Anne Dimitri y habla con ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Head to the White Knights' Castle throne room () and talk to Adrasteia.",
         "es": "Dirígete a la sala del trono del White Knights' Castle () y habla con Adrasteia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Miniquest complete!",
         "es": "¡Minimisión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

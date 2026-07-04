@@ -2,7 +2,8 @@
   "id": "dimension-of-disaster-demon-slayer",
   "title": "Dimension of Disaster: Demon Slayer",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:08:35.254Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:59.358Z",
   "icon": "https://runescape.wiki/images/Dimension_of_Disaster_Demon_Slayer_icon.png",
   "length": "Medium",
   "startPoint": {
@@ -100,375 +101,505 @@
       "image": "https://runescape.wiki/images/thumb/Zemomark_25_detail.png/100px-Zemomark_25_detail.png?7dfdf"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Demon_Slayer_%28Dimension_of_Disaster%29_reward.png?51e4e",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Aris in New Varrock Square.",
         "es": "Habla con Aris en la plaza de New Varrock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Sir Prysin in a house north-west of the church.",
         "es": "Habla con Sir Prysin en una casa al noroeste de la iglesia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Search everything inside the house and the drain outside until you find the key.",
         "es": "Registra todo dentro de la casa y el desagüe exterior hasta que encuentres la llave."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Replay: The key will always be found in the same place you first found it.",
         "es": "Repetición: La llave siempre se encontrará en el mismo lugar donde la encontraste la primera vez."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Climb down the trapdoor inside the church along the western wall (be sure to complete the dialogue).",
         "es": "Baja por la trampilla dentro de la iglesia, junto al muro oeste (asegúrate de completar el diálogo)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Replay: Click the trapdoor, complete the dialogue, then head straight to Aris.",
         "es": "Repetición: Haz clic en la trampilla, completa el diálogo y ve directamente a Aris."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Attempt to pull Silverlight. You will fail.",
         "es": "Intenta sacar Silverlight. Fallarás."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Replay: Skip this step.",
         "es": "Repetición: Omite este paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Aris in her tent, she will give you a spirit measure.",
         "es": "Habla con Aris en su tienda, te dará una copa de espíritus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Spirit of Faith",
       "text": {
         "en": "Head to the cemetery north of the New Varrock west bank and inspect the tombstone stack next to the statue of Zemouregal on the north wall.",
         "es": "Dirígete al cementerio al norte del banco oeste de New Varrock e inspecciona la pila de lápidas junto a la estatua de Zemouregal en el muro norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Spirit of Faith",
       "text": {
         "en": "Talk to Spirit of Faith. Move 1 step east. Talk again. Then watch the short cutscene.",
         "es": "Habla con Spirit of Faith. Muévete 1 paso al este. Habla de nuevo. Luego observa la breve escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Spirit of the Body",
       "text": {
         "en": "Pick up a rotten tomato in the crate north of the Blue Moon Inn and pick a cabbage to the south of the pub.",
         "es": "Recoge un tomate podrido en la caja al norte del Blue Moon Inn y recoge una col al sur de la taberna."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Spirit of the Body",
       "text": {
         "en": "Talk to Dr Harlow in the Blue Moon Inn (exit dialogue after the first box comes up). Your Spirit measure may say \"WooOOooOOooOOooOOooOOoo!\" when you do.",
         "es": "Habla con Dr Harlow en el Blue Moon Inn (sal del diálogo tras la primera ventana). Tu copa de espíritus podría decir \"WooOOooOOooOOooOOooOOoo!\" cuando lo hagas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Spirit of the Body",
       "text": {
-        "en": "At the cost of 2 Zemomarks, buy beer from the Bartender in the Blue Moon Inn. (opciones de chat: 1 A glass of your finest ale. • 4 Nothing, thanks.)",
-        "es": "Por el precio de 2 Zemomarks, compra cerveza al Bartender en el Blue Moon Inn. (opciones de chat: 1 A glass of your finest ale. • 4 Nothing, thanks.)"
-      }
+        "en": "At the cost of 2 Zemomarks, buy beer from the Bartender in the Blue Moon Inn.",
+        "es": "Por el precio de 2 Zemomarks, compra cerveza al Bartender en el Blue Moon Inn."
+      },
+      "chatOptions": [
+        "1 A glass of your finest ale.",
+        "4 Nothing, thanks."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Spirit of the Body",
       "text": {
-        "en": "To get dog hair, go west to Gertrude's house, just north of the tanner. Search the kennel next to her house. (opciones de chat: 1 Yes. • 1 Yes. • 1 Reach left. • 1 Yes. • 2 Reach right. • 1 Rub in some jelly. • 3 Reach further in. • 1 Leave it where it is.)",
-        "es": "Para conseguir pelo de perro, ve al oeste a la casa de Gertrude, justo al norte del curtidor. Registra la perrera junto a su casa. (opciones de chat: 1 Yes. • 1 Yes. • 1 Reach left. • 1 Yes. • 2 Reach right. • 1 Rub in some jelly. • 3 Reach further in. • 1 Leave it where it is.)"
-      }
+        "en": "To get dog hair, go west to Gertrude's house, just north of the tanner. Search the kennel next to her house.",
+        "es": "Para conseguir pelo de perro, ve al oeste a la casa de Gertrude, justo al norte del curtidor. Registra la perrera junto a su casa."
+      },
+      "chatOptions": [
+        "1 Yes.",
+        "1 Yes.",
+        "1 Reach left.",
+        "1 Yes.",
+        "2 Reach right.",
+        "1 Rub in some jelly.",
+        "3 Reach further in.",
+        "1 Leave it where it is."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Spirit of the Body",
       "text": {
-        "en": "Talk to the Apothecary to the south-east of the Kennel. (opciones de chat: 2 Do you know a potion to sober someone up? • 4 Nothing, thanks.) He will use the cabbage, dog hair, and rotten tomato.",
+        "en": "Talk to the Apothecary to the south-east of the Kennel. He will use the cabbage, dog hair, and rotten tomato.",
         "es": "Habla con el Apothecary al sureste de la perrera. (opciones de chat: 2 Do you know a potion to sober someone up? • 4 Nothing, thanks.) Usará la col, el pelo de perro y el tomate podrido."
-      }
+      },
+      "chatOptions": [
+        "2 Do you know a potion to sober someone up?",
+        "4 Nothing, thanks."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Spirit of the Body",
       "text": {
         "en": "Add sobriety potion to beer for a sobriety potion in a beer glass.",
         "es": "Añade la poción de sobriedad a la cerveza para obtener una poción de sobriedad en un vaso de cerveza."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Spirit of the Body",
       "text": {
         "en": "Keep the vial for later.",
         "es": "Guarda el vial para más tarde."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Spirit of the Body",
       "text": {
         "en": "Talk to Dr Harlow.",
         "es": "Habla con Dr Harlow."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Spirit of the Body",
       "text": {
-        "en": "Talk to the Spirit of the Body, and let them kill you (opciones de chat: 2 Would you killing me count? • 1 Yes, do it - I'll be fine! • 1 Yes! Kill me already!)",
-        "es": "Habla con el Spirit of the Body y deja que te maten (opciones de chat: 2 Would you killing me count? • 1 Yes, do it - I'll be fine! • 1 Yes! Kill me already!)"
-      }
+        "en": "Talk to the Spirit of the Body, and let them kill you",
+        "es": "Habla con el Spirit of the Body y deja que te maten"
+      },
+      "chatOptions": [
+        "2 Would you killing me count?",
+        "1 Yes, do it - I'll be fine!",
+        "1 Yes! Kill me already!"
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Spirit of the Mind",
       "text": {
         "en": "Fill vial with blood at blood fountain at the front of the Varrock castle or north-west of eastern bank.",
         "es": "Llena el vial con sangre en la fuente de sangre frente al castillo de Varrock o al noroeste del banco este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Spirit of the Mind",
       "text": {
         "en": "Optional: Take a free bronze sword from the weapon store two buildings south of Aris (only necessary if you don't have any other weapons yet).",
         "es": "Opcional: Coge una espada de bronce gratis en la tienda de armas dos edificios al sur de Aris (solo necesario si aún no tienes ninguna otra arma)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Spirit of the Mind",
       "text": {
         "en": "Head to the house south of Sir Prysin's house (near the church).",
         "es": "Dirígete a la casa al sur de la casa de Sir Prysin (cerca de la iglesia)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Spirit of the Mind",
       "text": {
         "en": "Search the southern bookcase.",
         "es": "Registra la estantería del sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Spirit of the Mind",
       "text": {
         "en": "Kill the animated book.",
         "es": "Mata al libro animado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Spirit of the Mind",
       "text": {
-        "en": "Talk to Spirit of the Mind. (opciones de chat: Any • Any • Any • Any • Any • Any • Any • Any • Any • Any • Any)",
-        "es": "Habla con Spirit of the Mind. (opciones de chat: Any • Any • Any • Any • Any • Any • Any • Any • Any • Any • Any)"
-      }
+        "en": "Talk to Spirit of the Mind.",
+        "es": "Habla con Spirit of the Mind."
+      },
+      "chatOptions": [
+        "Any",
+        "Any",
+        "Any",
+        "Any",
+        "Any",
+        "Any",
+        "Any",
+        "Any",
+        "Any",
+        "Any",
+        "Any"
+      ]
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "Spirit of the Mind",
       "text": {
-        "en": "Replay: (opciones de chat: 4 I'm looking for you! • 3 A sword that slays demons. • 4 I need it to help Delrith get home. • 4 Agrith Naar. • 4 Aris!) (Always choose the last option whenever that last option says, \"I'm looking for you!\")",
+        "en": "Replay: (Always choose the last option whenever that last option says, \"I'm looking for you!\")",
         "es": "Repetición: (opciones de chat: 4 I'm looking for you! • 3 A sword that slays demons. • 4 I need it to help Delrith get home. • 4 Agrith Naar. • 4 Aris!) (Elige siempre la última opción cuando esa última opción diga \"I'm looking for you!\")"
-      }
+      },
+      "chatOptions": [
+        "4 I'm looking for you!",
+        "3 A sword that slays demons.",
+        "4 I need it to help Delrith get home.",
+        "4 Agrith Naar.",
+        "4 Aris!"
+      ]
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Evil Dave",
       "text": {
         "en": "Climb down the trapdoor in the church.",
         "es": "Baja por la trampilla en la iglesia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Evil Dave",
       "text": {
         "en": "Take Silverlight from the altar.",
         "es": "Coge Silverlight del altar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Evil Dave",
       "text": {
         "en": "Buy a black robe set from Thessalia's Fine Clothes (90 Zemomarks)",
         "es": "Compra un conjunto de túnica negra en Thessalia's Fine Clothes (90 Zemomarks)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Evil Dave",
       "text": {
         "en": "Replay: Can use cosmetic override (Cultist outfit) if bought, or saved outfit.",
         "es": "Repetición: Se puede usar la apariencia (traje de Cultist) si se compró, o un traje guardado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Evil Dave",
       "text": {
         "en": "Pick a black mushroom by Evil Dave in south-east New Varrock.",
         "es": "Recoge un hongo negro junto a Evil Dave en el sureste de New Varrock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Evil Dave",
       "text": {
         "en": "Use the mushroom on your Silverlight for a dyed version.",
         "es": "Usa el hongo en tu Silverlight para obtener una versión teñida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Evil Dave",
       "text": {
         "en": "Equip the robes and dyed Silverlight, then talk to Evil Dave (located South-East of New Varrock)",
         "es": "Equípate las túnicas y el Silverlight teñido, luego habla con Evil Dave (ubicado al sureste de New Varrock)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 1,
+      "section": "Evil Dave",
       "text": {
         "en": "The Darklight and the dyed Silverlight override do not work with Silverlight equipped.",
         "es": "El Darklight y la apariencia de Silverlight teñido no funcionan con Silverlight equipado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Finishing up - Boss Fight",
       "text": {
         "en": "Pass barrier.",
         "es": "Cruza la barrera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "Finishing up - Boss Fight",
       "text": {
         "en": "Optional: It is recommended to loot the chest in the northeast corner of the area to work towards completing the Pick All achievement.",
         "es": "Opcional: Se recomienda saquear el cofre en la esquina noreste del área para avanzar en el logro Pick All."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Finishing up - Boss Fight",
       "text": {
         "en": "Talk to Delrith.",
         "es": "Habla con Delrith."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Finishing up - Boss Fight",
       "text": {
         "en": "Talk to Delrith again for the fight (''First time only: Don't forget to loot the chest'').",
         "es": "Habla de nuevo con Delrith para el combate (''Solo la primera vez: no olvides saquear el cofre'')."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Finishing up - Boss Fight",
       "text": {
         "en": "Fight with Agrith Naar - choose \"Yes\".",
         "es": "Combate contra Agrith Naar - elige \"Yes\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "Finishing up - Boss Fight",
       "text": {
         "en": "Replay: Choose \"Yes\" to skip the fight if unlocked from Aris' Reward Shop.",
         "es": "Repetición: Elige \"Yes\" para omitir el combate si está desbloqueado en la tienda de recompensas de Aris."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "Finishing up - Boss Fight",
       "text": {
         "en": "Kill minions when they spawn.",
         "es": "Mata a los secuaces cuando aparezcan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 1,
+      "section": "Finishing up - Boss Fight",
       "text": {
         "en": "Run away when Agrith says \"Prepare to be incinerated!\"",
         "es": "Huye cuando Agrith diga \"Prepare to be incinerated!\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Finishing up - Boss Fight",
       "text": {
         "en": "Pass barrier.",
         "es": "Cruza la barrera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Finishing up - Boss Fight",
       "text": {
         "en": "Return to Aris.",
         "es": "Regresa con Aris."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Finishing up - Boss Fight",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

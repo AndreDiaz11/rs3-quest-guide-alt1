@@ -2,7 +2,8 @@
   "id": "raksha-the-shadow-colossus-quest",
   "title": "Raksha, the Shadow Colossus (quest)",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:05:24.729Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:51.530Z",
   "icon": "https://runescape.wiki/images/Raksha%2C_the_Shadow_Colossus_%28quest%29_icon.png",
   "series": "The Elder God Wars",
   "age": "6",
@@ -46,79 +47,103 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Raksha%2C_the_Shadow_Colossus_%28quest%29_reward.png?2e72e",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
-        "en": "Talk to Laniakea, south-east in the ruins on Anachronia. (opciones de chat: 2 The doorway at the top of the ruins. • Accept • 1 Zaros? • 3 Can we open the door somehow?)",
-        "es": "Habla con Laniakea, al sureste en las ruinas de Anachronia. (opciones de chat: 2 La puerta en lo alto de las ruinas. • Aceptar • 1 ¿Zaros? • 3 ¿Podemos abrir la puerta de alguna forma?)"
-      }
+        "en": "Talk to Laniakea, south-east in the ruins on Anachronia.",
+        "es": "Habla con Laniakea, al sureste en las ruinas de Anachronia."
+      },
+      "chatOptions": [
+        "2 The doorway at the top of the ruins.",
+        "Accept",
+        "1 Zaros?",
+        "3 Can we open the door somehow?"
+      ]
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Walkthrough",
       "text": {
         "en": "She is also at the ruins around the lodestone but she tells you to go to the south-east and talk to her there.",
         "es": "También está en las ruinas cerca de la piedra de viaje, pero te dice que vayas al sureste y hables con ella allí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Walkthrough",
       "text": {
         "en": "You can use option 2 on the Slayer cape to get to her quickly or teleport to Xolo City via the Orthen teleportation device, then run south-east.",
         "es": "Puedes usar la opción 2 de la Slayer cape para llegar hasta ella rápidamente o teletransportarte a Xolo City mediante el dispositivo de teletransporte Orthen y luego correr hacia el sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Run west, up to the top of the stairs.",
         "es": "Corre hacia el oeste, hasta llegar arriba de las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Siphon the shadow anima pools until you reach 100%.",
         "es": "Absorbe los charcos de ánima sombría hasta alcanzar el 100%."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Walkthrough",
       "text": {
         "en": "Completing each pool will damage you 200 points. Be aware of that in case you are on low life points.",
         "es": "Completar cada charco te hará 200 puntos de daño. Ten esto en cuenta si tienes pocos puntos de vida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Unlock the door.",
         "es": "Abre la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Talk to Zaros.",
         "es": "Habla con Zaros."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

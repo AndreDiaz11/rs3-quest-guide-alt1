@@ -51,26 +51,33 @@ export function extractAllTemplates(wikitext, templateName) {
   return results;
 }
 
-/** Renders an inline `{{Chat options|...}}` block as compact readable text. */
-function renderChatOptions(content) {
-  const parts = content
+/**
+ * Extracts the raw parts of an inline `{{Chat options|...}}` block, kept in
+ * English on purpose (they're literal in-game UI buttons/markers, not shown
+ * translated — see app/js/detail.js chat options popup).
+ */
+function extractChatOptionsParts(content) {
+  return content
     .split("|")
     .map((s) => s.replace(/\n/g, " ").trim())
     .filter(Boolean);
-  if (parts.length === 0) return "";
-  return ` (opciones de chat: ${parts.join(" • ")})`;
 }
 
 /**
  * Converts a chunk of raw wikitext (as found inside a Checklist step) into
  * plain, readable text: resolves [[links]], strips bold/italic markers, and
- * renders embedded {{Chat options}} templates inline.
+ * pulls out any embedded {{Chat options}} template into a separate array
+ * instead of inlining it (so the app can render it as its own popup).
+ * Returns { text, chatOptions }.
  */
 export function wikitextToPlain(raw) {
   let text = raw;
+  const chatOptions = [];
 
-  // Inline templates we recognize get rendered; anything else just gets stripped.
-  text = text.replace(/\{\{Chat options([\s\S]*?)\}\}/g, (_match, inner) => renderChatOptions(inner));
+  text = text.replace(/\{\{Chat options([\s\S]*?)\}\}/g, (_match, inner) => {
+    chatOptions.push(...extractChatOptionsParts(inner));
+    return "";
+  });
   // {{Fairycode|air}} -> "AIR" (a fairy ring teleport code) — stripping it entirely
   // leaves steps with no actual instruction (e.g. "A Fairy Tale II"'s ring codes).
   text = text.replace(/\{\{Fairycode\|([^{}|]+)\}\}/gi, (_match, code) => code.trim().toUpperCase());
@@ -84,7 +91,27 @@ export function wikitextToPlain(raw) {
   text = text.replace(/'''([^']+)'''/g, "$1");
   text = text.replace(/''([^']+)''/g, "$1");
 
-  return text.replace(/\s+/g, " ").trim();
+  return { text: text.replace(/\s+/g, " ").trim(), chatOptions };
+}
+
+/**
+ * Splits a Quick guide's wikitext into `{ heading, content }` sections, each
+ * `content` being the raw wikitext between one `==Heading==` (any level) and
+ * the next. Text before the first heading is returned under `heading: null`.
+ */
+export function splitIntoSections(wikitext) {
+  const headingRe = /^={2,4}\s*(.+?)\s*={2,4}\s*$/gm;
+  const sections = [];
+  let lastIndex = 0;
+  let lastHeading = null;
+  let match;
+  while ((match = headingRe.exec(wikitext)) !== null) {
+    sections.push({ heading: lastHeading, content: wikitext.slice(lastIndex, match.index) });
+    lastHeading = match[1];
+    lastIndex = headingRe.lastIndex;
+  }
+  sections.push({ heading: lastHeading, content: wikitext.slice(lastIndex) });
+  return sections;
 }
 
 /** Parses a flat `{{Infobox X|key = value|key2 = value2}}` block into an object. */

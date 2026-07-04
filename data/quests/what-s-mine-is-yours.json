@@ -2,7 +2,8 @@
   "id": "what-s-mine-is-yours",
   "title": "What's Mine is Yours",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:30:39.435Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:37.891Z",
   "icon": "https://runescape.wiki/images/What%27s_Mine_is_Yours_icon.png",
   "series": null,
   "age": "5",
@@ -65,279 +66,362 @@
       "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/What%27s_Mine_is_Yours_reward.png?5ce7b",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Doric in his hut, north of the Falador lodestone, until you get an ore bag and mining sites map. (You'll need 2 backpack space) (opciones de chat: 1 Don't worry, I'll help you. • Accept)",
-        "es": "Habla con Doric en su cabaña, al norte de la piedra de viaje de Falador, hasta que consigas una bolsa de mineral y un mapa de yacimientos mineros. (Necesitarás 2 espacios en la mochila) (opciones de chat: 1 No te preocupes, te ayudaré. • Aceptar)"
-      }
+        "en": "Talk to Doric in his hut, north of the Falador lodestone, until you get an ore bag and mining sites map. (You'll need 2 backpack space)",
+        "es": "Habla con Doric en su cabaña, al norte de la piedra de viaje de Falador, hasta que consigas una bolsa de mineral y un mapa de yacimientos mineros. (Necesitarás 2 espacios en la mochila)"
+      },
+      "chatOptions": [
+        "1 Don't worry, I'll help you.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Mine any rock in each of the following locations until a living rock brawler appears, kill it, and take the ore it drops:",
         "es": "Extrae cualquier roca en cada una de las siguientes ubicaciones hasta que aparezca un peleón de roca viva; mátalo y recoge el mineral que suelta:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Dwarven mines, to the east up the hill",
         "es": "Las minas enanas, al este, subiendo la colina"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Rimmington mine, west of Port Sarim",
         "es": "La mina de Rimmington, al oeste de Port Sarim"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 2,
+      "section": "Getting started",
       "text": {
         "en": "Watch the cutscene.",
         "es": "Observa la escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Varrock south-west mine",
         "es": "La mina al suroeste de Varrock"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Varrock south-east mine",
         "es": "La mina al sureste de Varrock"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Doric.",
         "es": "Habla con Doric."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The weapons",
       "text": {
-        "en": "Withdraw the ores from the Ore bag and make two High-quality bronze bars using the furnace. (opciones de chat: 1 Yes)",
-        "es": "Saca los minerales de la Ore bag y fabrica dos barras de bronce de alta calidad usando el horno. (opciones de chat: 1 Sí)"
-      }
+        "en": "Withdraw the ores from the Ore bag and make two High-quality bronze bars using the furnace.",
+        "es": "Saca los minerales de la Ore bag y fabrica dos barras de bronce de alta calidad usando el horno."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The weapons",
       "text": {
         "en": "Using Doric's Anvil, smith a High-quality bronze sword and a High-quality bronze dagger.",
         "es": "Usando el yunque de Doric, forja una espada de bronce de alta calidad y una daga de bronce de alta calidad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The weapons",
       "text": {
-        "en": "Talk to Doric. (opciones de chat: 3 I'll leave right away.)",
-        "es": "Habla con Doric. (opciones de chat: 3 Me iré enseguida.)"
-      }
+        "en": "Talk to Doric.",
+        "es": "Habla con Doric."
+      },
+      "chatOptions": [
+        "3 I'll leave right away."
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "The weapons",
       "text": {
         "en": "Go to the Artisans' Workshop in the south-east of Falador.",
         "es": "Ve al Artisans' Workshop, al sureste de Falador."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "The weapons",
       "text": {
-        "en": "Talk to Aksel. (opciones de chat: 1 Doric sent me here with these weapons.)",
-        "es": "Habla con Aksel. (opciones de chat: 1 Doric me envió aquí con estas armas.)"
-      }
+        "en": "Talk to Aksel.",
+        "es": "Habla con Aksel."
+      },
+      "chatOptions": [
+        "1 Doric sent me here with these weapons."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Doric and Boric",
       "text": {
         "en": "Head to the White Knights' Castle and talk to Squire Cerlyn in the west tower on the .",
         "es": "Dirígete al White Knights' Castle y habla con Squire Cerlyn en la torre oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Doric and Boric",
       "text": {
         "en": "After the cutscene, help Doric and Boric reconcile. Use the following responses:",
         "es": "Tras la escena cinemática, ayuda a Doric y Boric a reconciliarse. Usa las siguientes respuestas:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Doric and Boric",
       "text": {
         "en": "Boric, tell Doric about your graduation.",
         "es": "Boric, cuéntale a Doric sobre tu graduación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Doric and Boric",
       "text": {
         "en": "Boric, tell Doric what you thought when Doric sent you away.",
         "es": "Boric, cuéntale a Doric lo que pensaste cuando Doric te envió lejos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Doric and Boric",
       "text": {
         "en": "Boric, tell Doric what you thought of your education.",
         "es": "Boric, cuéntale a Doric lo que pensaste de tu educación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Doric and Boric",
       "text": {
         "en": "Boric, tell Doric why you wanted to stay here.",
         "es": "Boric, cuéntale a Doric por qué querías quedarte aquí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Doric and Boric",
       "text": {
         "en": "Boric, tell Doric what you thought of Keldagrim",
         "es": "Boric, cuéntale a Doric lo que pensaste de Keldagrim"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Doric and Boric",
       "text": {
         "en": "Doric, tell Boric what you thought when Boric was born.",
         "es": "Doric, cuéntale a Boric lo que pensaste cuando Boric nació."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Doric and Boric",
       "text": {
         "en": "Doric, tell Boric why you sent him to Keldagrim.",
         "es": "Doric, cuéntale a Boric por qué lo enviaste a Keldagrim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 1,
+      "section": "Doric and Boric",
       "text": {
         "en": "Doric, tell Boric how you felt bringing Boric up alone.",
         "es": "Doric, cuéntale a Boric cómo te sentiste criando a Boric solo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "Doric and Boric",
       "text": {
         "en": "Doric, tell Boric what you want Boric's future to be.",
         "es": "Doric, cuéntale a Boric qué quieres que sea el futuro de Boric."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "Doric and Boric",
       "text": {
         "en": "Doric, tell Boric what you hoped sending him away would teach him.",
         "es": "Doric, cuéntale a Boric qué esperabas que aprendiera al enviarlo lejos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Doric and Boric",
       "text": {
-        "en": "Talk to Doric and agree to take the bars. (opciones de chat: 1 I'd love to. • 1 Yes)",
-        "es": "Habla con Doric y acepta llevarte las barras. (opciones de chat: 1 Me encantaría. • 1 Sí)"
-      }
+        "en": "Talk to Doric and agree to take the bars.",
+        "es": "Habla con Doric y acepta llevarte las barras."
+      },
+      "chatOptions": [
+        "1 I'd love to.",
+        "1 Yes"
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Doric and Boric",
       "text": {
         "en": "Smith the items that were asked for on Doric's anvil.",
         "es": "Forja los objetos que te pidieron en el yunque de Doric."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Doric and Boric",
       "text": {
         "en": "Ornamental platebody",
         "es": "Ornamental platebody"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 1,
+      "section": "Doric and Boric",
       "text": {
         "en": "Ornamental chainbody",
         "es": "Ornamental chainbody"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Doric and Boric",
       "text": {
         "en": "Shop sign",
         "es": "Shop sign"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Doric and Boric",
       "text": {
         "en": "Head down the stairs into Doric's cave (if the \"climb down\" option on the northern doorway does not appear, try switching textures off temporarily, this is a known bug).",
         "es": "Baja las escaleras hacia la cueva de Doric (si no aparece la opción \"bajar\" en la puerta norte, prueba a desactivar las texturas temporalmente; es un fallo conocido)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Doric and Boric",
       "text": {
         "en": "Mine the rocks blocking the way.",
         "es": "Extrae las rocas que bloquean el camino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Doric and Boric",
       "text": {
-        "en": "Head back upstairs and talk to Doric to give him the items and trigger a cutscene. (opciones de chat: 1 Yes, I have them here.)",
-        "es": "Vuelve arriba y habla con Doric para entregarle los objetos y activar una escena cinemática. (opciones de chat: 1 Sí, los tengo aquí.)"
-      }
+        "en": "Head back upstairs and talk to Doric to give him the items and trigger a cutscene.",
+        "es": "Vuelve arriba y habla con Doric para entregarle los objetos y activar una escena cinemática."
+      },
+      "chatOptions": [
+        "1 Yes, I have them here."
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Doric and Boric",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

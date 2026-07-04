@@ -2,7 +2,8 @@
   "id": "throne-of-miscellania",
   "title": "Throne of Miscellania",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:23:45.252Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:29.584Z",
   "icon": "https://runescape.wiki/images/Throne_of_Miscellania_icon.png",
   "series": "Fremennik",
   "age": "5",
@@ -89,439 +90,574 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Throne_of_Miscellania_reward.png?b958c",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to King Vargas, in the castle on the western island of Miscellania. You'll first need to open the throne room door and click through the dialogue with the guard. (opciones de chat: Accept)",
-        "es": "Habla con King Vargas, en el castillo de la isla occidental de Miscellania. Primero tendrás que abrir la puerta de la sala del trono y avanzar en el diálogo con el guardia. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to King Vargas, in the castle on the western island of Miscellania. You'll first need to open the throne room door and click through the dialogue with the guard.",
+        "es": "Habla con King Vargas, en el castillo de la isla occidental de Miscellania. Primero tendrás que abrir la puerta de la sala del trono y avanzar en el diálogo con el guardia."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Being the messenger",
       "text": {
         "en": "Run to the eastern island. On the of the castle, talk to Queen Sigrid.",
         "es": "Corre hacia la isla oriental. En el castillo, habla con Queen Sigrid."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Being the messenger",
       "text": {
         "en": "Go back and talk to King Vargas.",
         "es": "Vuelve y habla con King Vargas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Being the messenger",
       "text": {
         "en": "Go back and talk to Queen Sigrid.",
         "es": "Vuelve y habla con Queen Sigrid."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Being the messenger",
       "text": {
         "en": "Talk to Prince Brand in the bedroom south of King Vargas's room. He will give you an awful anthem.",
         "es": "Habla con Prince Brand en el dormitorio al sur de la habitación de King Vargas. Te dará un himno horrible."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Being the messenger",
       "text": {
-        "en": "Talk to Advisor Ghrim in King Vargas's room. He adjusts the anthem, and the awful anthem will convert into a good anthem. (opciones de chat: 2 How do I make peace with Etceteria?)",
-        "es": "Habla con Advisor Ghrim en la habitación de King Vargas. Él ajusta el himno, y el himno horrible se convertirá en un buen himno. (opciones de chat: 2 ¿Cómo puedo hacer las paces con Etceteria?)"
-      }
+        "en": "Talk to Advisor Ghrim in King Vargas's room. He adjusts the anthem, and the awful anthem will convert into a good anthem.",
+        "es": "Habla con Advisor Ghrim en la habitación de King Vargas. Él ajusta el himno, y el himno horrible se convertirá en un buen himno."
+      },
+      "chatOptions": [
+        "2 How do I make peace with Etceteria?"
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Being the messenger",
       "text": {
         "en": "Take the good anthem to Queen Sigrid.",
         "es": "Lleva el buen himno a Queen Sigrid."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Being the messenger",
       "text": {
         "en": "Talk to King Vargas.",
         "es": "Habla con King Vargas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Being the messenger",
       "text": {
-        "en": "Talk to Derrik at the anvil on the north of the island, and give him an iron bar. (opciones de chat: 2 I have a slightly strange request...)",
-        "es": "Habla con Derrik en el yunque al norte de la isla, y dale una barra de hierro. (opciones de chat: 2 Tengo una petición un poco extraña...)"
-      }
+        "en": "Talk to Derrik at the anvil on the north of the island, and give him an iron bar.",
+        "es": "Habla con Derrik en el yunque al norte de la isla, y dale una barra de hierro."
+      },
+      "chatOptions": [
+        "2 I have a slightly strange request..."
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Being the messenger",
       "text": {
         "en": "Use the giant nib on your logs.",
         "es": "Usa la plumilla gigante en tus troncos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Being the messenger",
       "text": {
         "en": "Talk to King Vargas.",
         "es": "Habla con King Vargas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Being the messenger",
       "text": {
-        "en": "Talk to Advisor Ghrim about marriage. (opciones de chat: 2 How am I supposed to get the Prince or Princess to marry me?)",
-        "es": "Habla con Advisor Ghrim sobre el matrimonio. (opciones de chat: 2 ¿Cómo se supone que voy a conseguir que el Príncipe o la Princesa se casen conmigo?)"
-      }
+        "en": "Talk to Advisor Ghrim about marriage.",
+        "es": "Habla con Advisor Ghrim sobre el matrimonio."
+      },
+      "chatOptions": [
+        "2 How am I supposed to get the Prince or Princess to marry me?"
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "To marry the princess",
       "text": {
-        "en": "Go to the room to the north and talk to Princess Astrid. (opciones de chat: 1 Yes.)",
-        "es": "Ve a la habitación al norte y habla con Princess Astrid. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Go to the room to the north and talk to Princess Astrid.",
+        "es": "Ve a la habitación al norte y habla con Princess Astrid."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "To marry the princess",
       "text": {
         "en": "Talk to Princess Astrid again, read carefully what she says. You must agree with her.",
         "es": "Habla de nuevo con Princess Astrid, lee con atención lo que dice. Debes estar de acuerdo con ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "To marry the princess",
       "text": {
         "en": "Repeat this about 3 times until the chat options stop appearing.",
         "es": "Repite esto unas 3 veces hasta que dejen de aparecer las opciones de chat."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "To marry the princess",
       "text": {
         "en": "Hahahaha!",
         "es": "¡Jajajaja!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "To marry the princess",
       "text": {
         "en": "He's been very helpful.",
         "es": "Ha sido de mucha ayuda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "To marry the princess",
       "text": {
         "en": "Archery is a noble art!",
         "es": "¡El tiro con arco es un arte noble!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "To marry the princess",
       "text": {
-        "en": "Use the flowers on her. (opciones de chat: 1 Yes)",
-        "es": "Usa las flores en ella. (opciones de chat: 1 Sí)"
-      }
+        "en": "Use the flowers on her.",
+        "es": "Usa las flores en ella."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "To marry the princess",
       "text": {
         "en": "Perform the Dance emote in her room.",
         "es": "Realiza la expresión Bailar en su habitación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "To marry the princess",
       "text": {
         "en": "Talk to Princess Astrid to tell her your name.",
         "es": "Habla con Princess Astrid para decirle tu nombre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "To marry the princess",
       "text": {
         "en": "Talk to Princess Astrid again and agree with her again 3 times.",
         "es": "Habla de nuevo con Princess Astrid y vuelve a estar de acuerdo con ella 3 veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 1,
+      "section": "To marry the princess",
       "text": {
         "en": "What happened next?",
         "es": "¿Qué pasó después?"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "To marry the princess",
       "text": {
         "en": "That sounds like a good idea.",
         "es": "Eso suena como una buena idea."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "To marry the princess",
       "text": {
         "en": "I'm quite fond of it myself.",
         "es": "A mí también me gusta bastante."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "To marry the princess",
       "text": {
-        "en": "Give her a bow by using it on her. (opciones de chat: 1 Yes)",
-        "es": "Dale un arco usándolo en ella. (opciones de chat: 1 Sí)"
-      }
+        "en": "Give her a bow by using it on her.",
+        "es": "Dale un arco usándolo en ella."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "To marry the princess",
       "text": {
         "en": "Talk to Princess Astrid.",
         "es": "Habla con Princess Astrid."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "To marry the princess",
       "text": {
         "en": "Talk to Princess Astrid again and agree with her again 3 times.",
         "es": "Habla de nuevo con Princess Astrid y vuelve a estar de acuerdo con ella 3 veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 1,
+      "section": "To marry the princess",
       "text": {
         "en": "I suppose you don't have much opportunity to.",
         "es": "Supongo que no tienes muchas oportunidades de hacerlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "To marry the princess",
       "text": {
         "en": "It's a lovely little country.",
         "es": "Es un país precioso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "To marry the princess",
       "text": {
         "en": "And what a great bard he makes!",
         "es": "¡Y qué gran bardo hace!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "To marry the princess",
       "text": {
         "en": "Blow a kiss at Princess Astrid.",
         "es": "Lánzale un beso a Princess Astrid."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "To marry the princess",
       "text": {
-        "en": "Use the ring on her. (opciones de chat: 1 Yes)",
-        "es": "Usa el anillo en ella. (opciones de chat: 1 Sí)"
-      }
+        "en": "Use the ring on her.",
+        "es": "Usa el anillo en ella."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "To marry the princess",
       "text": {
         "en": "Talk to King Vargas.",
         "es": "Habla con King Vargas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "To marry the prince",
       "text": {
-        "en": "Go to the room to the south and talk to Prince Brand. (opciones de chat: 1 Yes.)",
-        "es": "Ve a la habitación al sur y habla con Prince Brand. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Go to the room to the south and talk to Prince Brand.",
+        "es": "Ve a la habitación al sur y habla con Prince Brand."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "To marry the prince",
       "text": {
         "en": "Talk to Prince Brand about 3 more times, trying to impress and/or agree with him.",
         "es": "Habla con Prince Brand unas 3 veces más, intentando impresionarlo y/o estar de acuerdo con él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "To marry the prince",
       "text": {
         "en": "Use the clap or cheer emote.",
         "es": "Usa la expresión de aplaudir o vitorear."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "To marry the prince",
       "text": {
-        "en": "Use the flowers on him. (opciones de chat: 1 Yes)",
-        "es": "Usa las flores en él. (opciones de chat: 1 Sí)"
-      }
+        "en": "Use the flowers on him.",
+        "es": "Usa las flores en él."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "To marry the prince",
       "text": {
         "en": "Talk to Prince Brand and agree with him again 3 times.",
         "es": "Habla con Prince Brand y vuelve a estar de acuerdo con él 3 veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "To marry the prince",
       "text": {
         "en": "Listen to his saga.",
         "es": "Escucha su saga."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "To marry the prince",
       "text": {
-        "en": "Use the cake on him. (opciones de chat: 1 Yes)",
-        "es": "Usa la tarta en él. (opciones de chat: 1 Sí)"
-      }
+        "en": "Use the cake on him.",
+        "es": "Usa la tarta en él."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "To marry the prince",
       "text": {
         "en": "Talk to Prince Brand and agree with him again 3 times.",
         "es": "Habla con Prince Brand y vuelve a estar de acuerdo con él 3 veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "To marry the prince",
       "text": {
         "en": "When he calls you 'Dear', blow a kiss at him.",
         "es": "Cuando te llame 'Querida', lánzale un beso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "To marry the prince",
       "text": {
-        "en": "Use the ring on Prince Brand. (opciones de chat: 1 Yes)",
-        "es": "Usa el anillo en Prince Brand. (opciones de chat: 1 Sí)"
-      }
+        "en": "Use the ring on Prince Brand.",
+        "es": "Usa el anillo en Prince Brand."
+      },
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "To marry the prince",
       "text": {
         "en": "Talk to King Vargas.",
         "es": "Habla con King Vargas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Helping the population",
       "text": {
-        "en": "Talk to Advisor Ghrim about support. (opciones de chat: 2 How do I gain the support of the population?)",
-        "es": "Habla con Advisor Ghrim sobre el apoyo. (opciones de chat: 2 ¿Cómo consigo el apoyo de la población?)"
-      }
+        "en": "Talk to Advisor Ghrim about support.",
+        "es": "Habla con Advisor Ghrim sobre el apoyo."
+      },
+      "chatOptions": [
+        "2 How do I gain the support of the population?"
+      ]
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Helping the population",
       "text": {
         "en": "You need to make the population like you. You can check your approval percentage by talking to the people you're helping. To do this, perform any of the following tasks on the island:",
         "es": "Necesitas hacer que la población te aprecie. Puedes comprobar tu porcentaje de aprobación hablando con la gente a la que ayudas. Para ello, realiza cualquiera de las siguientes tareas en la isla:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 1,
+      "section": "Helping the population",
       "text": {
         "en": "Raking weeds",
         "es": "Rastrillar malas hierbas"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 1,
+      "section": "Helping the population",
       "text": {
         "en": "Chopping trees (logs will not be obtained)",
         "es": "Talar árboles (no obtendrás troncos)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 1,
+      "section": "Helping the population",
       "text": {
         "en": "Mining coal (ore will not be obtained but it is the most AFK method here)",
         "es": "Minar carbón (no obtendrás mineral, pero es el método más AFK aquí)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 1,
+      "section": "Helping the population",
       "text": {
         "en": "Fishing at the docks to the south (fish will not be obtained)",
         "es": "Pescar en los muelles al sur (no obtendrás peces)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 1,
+      "section": "Helping the population",
       "text": {
         "en": "Purchase Flowers (mixed) from the Flower Girl (50% chance of +1% per flower)",
         "es": "Comprar Flowers (mixed) a la Flower Girl (50% de probabilidad de +1% por flor)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Once you have 75% approval, talk to King Vargas.",
         "es": "Cuando tengas un 75% de aprobación, habla con King Vargas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

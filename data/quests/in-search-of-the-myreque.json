@@ -2,7 +2,8 @@
   "id": "in-search-of-the-myreque",
   "title": "In Search of the Myreque",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:31:00.001Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:28.664Z",
   "icon": "https://runescape.wiki/images/In_Search_of_the_Myreque_icon.png",
   "series": "Myreque",
   "age": "5",
@@ -153,191 +154,256 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/In_Search_of_the_Myreque_reward.png?f0a14",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Vanstrom Klause in the Hair of the Dog tavern in Canifis. (opciones de chat: 2 Why do they need help? Are they in trouble? • 4 Perhaps I could help you out here. • 4 Yes, I'll do it! • Accept)",
-        "es": "Habla con Vanstrom Klause en la taberna Hair of the Dog en Canifis. (opciones de chat: 2 ¿Por qué necesitan ayuda? ¿Están en problemas? • 4 Quizás pueda ayudarte con esto. • 4 ¡Sí, lo haré! • Aceptar)"
-      }
+        "en": "Talk to Vanstrom Klause in the Hair of the Dog tavern in Canifis.",
+        "es": "Habla con Vanstrom Klause en la taberna Hair of the Dog en Canifis."
+      },
+      "chatOptions": [
+        "2 Why do they need help? Are they in trouble?",
+        "4 Perhaps I could help you out here.",
+        "4 Yes, I'll do it!",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Make sure you finish the dialogue or the quest won't start.",
         "es": "Asegúrate de terminar el diálogo o la misión no comenzará."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Swamp trekking",
       "text": {
         "en": "Obtain a Druid pouch with at least six items in it. It is required for the section below. The Ouroboros pouch will not work.",
         "es": "Consigue un Druid pouch con al menos seis objetos dentro. Es necesario para la sección de más abajo. El Ouroboros pouch no funcionará."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Swamp trekking",
       "text": {
         "en": "It is required to have six as Ghasts will rot the items within the pouch.",
         "es": "Es necesario tener seis, ya que los Ghasts pudrirán los objetos dentro del pouch."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Swamp trekking",
       "text": {
         "en": "If you do not have charges in your druid pouch, make sure you have prayer points to cast bless to obtain more in the swamp.",
         "es": "Si no tienes cargas en tu druid pouch, asegúrate de tener puntos de oración para lanzar bless y obtener más en el pantano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 2,
+      "section": "Swamp trekking",
       "text": {
         "en": "You will need a Silver sickle (b) to cast bloom.",
         "es": "Necesitarás una Silver sickle (b) para lanzar bloom."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Swamp trekking",
       "text": {
-        "en": "Go to Mort'ton by either running through the swamp or using the fairy ring and taking the boat south-east of the fairy ring. Alternatively, use a portal at War's Retreat tuned to the Barrows Brothers for fast access.",
+        "en": "Go to Mort'ton by either running through the swamp or using the fairy ring BKR and taking the boat south-east of the fairy ring. Alternatively, use a portal at War's Retreat tuned to the Barrows Brothers for fast access.",
         "es": "Ve a Mort'ton corriendo a través del pantano o usando el fairy ring y tomando el barco al sureste del fairy ring. Alternativamente, usa un portal en War's Retreat sintonizado con los Barrows Brothers para un acceso más rápido."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The hideout",
       "text": {
-        "en": "Talk to Cyreg Paddlehorn, before the bridge east of Mort'ton. (opciones de chat: 2 Well, I guess they'll just die without weapons. • 2 Resourceful enough to get their own steel weapons? • 3 If you don't tell me, their deaths are on your head! • 3 What kind of a man are you to say that you don't care? • 1 Give wooden planks to Cyreg.)",
-        "es": "Habla con Cyreg Paddlehorn, antes del puente al este de Mort'ton. (opciones de chat: 2 Bueno, supongo que morirán sin armas. • 2 ¿Lo suficientemente ingeniosos como para conseguir sus propias armas de acero? • 3 ¡Si no me lo dices, sus muertes recaerán sobre ti! • 3 ¿Qué clase de hombre eres para decir que no te importa? • 1 Dale las tablas de madera a Cyreg.)"
-      }
+        "en": "Talk to Cyreg Paddlehorn, before the bridge east of Mort'ton.",
+        "es": "Habla con Cyreg Paddlehorn, antes del puente al este de Mort'ton."
+      },
+      "chatOptions": [
+        "2 Well, I guess they'll just die without weapons.",
+        "2 Resourceful enough to get their own steel weapons?",
+        "3 If you don't tell me, their deaths are on your head!",
+        "3 What kind of a man are you to say that you don't care?",
+        "1 Give wooden planks to Cyreg."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The hideout",
       "text": {
         "en": "Use the boat to get to the Hollows.",
         "es": "Usa el barco para llegar a Hollows."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The hideout",
       "text": {
         "en": "Go north and climb up the strange tree. Look for a bridge on the map.",
         "es": "Ve al norte y sube por el árbol extraño. Busca un puente en el mapa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The hideout",
       "text": {
         "en": "Left click the bridge one step north, the bridge will break. Click it again to repair it. You can also right click and select Repair option. Repeat until the bridge is fully repaired (requires 75 steel nails and three planks).",
         "es": "Haz clic izquierdo en el puente un paso al norte, el puente se romperá. Haz clic de nuevo para repararlo. También puedes hacer clic derecho y seleccionar la opción Reparar. Repite hasta que el puente esté completamente reparado (requiere 75 clavos de acero y tres tablas)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "The hideout",
       "text": {
-        "en": "Climb down, go just north-east to the hollow tree, and talk to Curpile Fyod. The questions are random. The answers to his question are as follows: (opciones de chat: 1 I've come to help the Myreque. I've brought weapons.)",
-        "es": "Baja, ve justo al noreste hasta el árbol hueco, y habla con Curpile Fyod. Las preguntas son aleatorias. Las respuestas a su pregunta son las siguientes: (opciones de chat: 1 He venido a ayudar a los Myreque. He traído armas.)"
-      }
+        "en": "Climb down, go just north-east to the hollow tree, and talk to Curpile Fyod. The questions are random. The answers to his question are as follows:",
+        "es": "Baja, ve justo al noreste hasta el árbol hueco, y habla con Curpile Fyod. Las preguntas son aleatorias. Las respuestas a su pregunta son las siguientes:"
+      },
+      "chatOptions": [
+        "1 I've come to help the Myreque. I've brought weapons."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "The hideout",
       "text": {
         "en": "Open the doors on the rock behind the tree and follow the tunnel.",
         "es": "Abre las puertas en la roca detrás del árbol y sigue el túnel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "The hideout",
       "text": {
         "en": "Squeeze-past the stalagmite at the east wall, next to the stone brazier.",
         "es": "Pasa por el lado de la estalagmita en la pared este, junto al brasero de piedra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "The hideout",
       "text": {
         "en": "Talk to Veliaf Hurtz.",
         "es": "Habla con Veliaf Hurtz."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "The hideout",
       "text": {
-        "en": "Talk to all the other members, first dialogue will be enough. (opciones de chat: 5 Ok, thanks.)",
-        "es": "Habla con todos los demás miembros, el primer diálogo será suficiente. (opciones de chat: 5 Ok, gracias.)"
-      }
+        "en": "Talk to all the other members, first dialogue will be enough.",
+        "es": "Habla con todos los demás miembros, el primer diálogo será suficiente."
+      },
+      "chatOptions": [
+        "5 Ok, thanks."
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "The hideout",
       "text": {
         "en": "Talk to Veliaf again. Cutscene follows.",
         "es": "Habla con Veliaf de nuevo. Sigue una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Kill the Skeleton Hellhound.",
         "es": "Mata al Skeleton Hellhound."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Talk to Veliaf. (opciones de chat: 3 How do I get out of here? • 5 Ok, thanks.)",
-        "es": "Habla con Veliaf. (opciones de chat: 3 ¿Cómo salgo de aquí? • 5 Ok, gracias.)"
-      }
+        "en": "Talk to Veliaf.",
+        "es": "Habla con Veliaf."
+      },
+      "chatOptions": [
+        "3 How do I get out of here?",
+        "5 Ok, thanks."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Go back into the tunnel and search the wall to the north. This unlocks the achievement I Wonder How Far It Ghost?",
         "es": "Vuelve al túnel y busca en la pared hacia el norte. Esto desbloquea el logro I Wonder How Far It Ghost?"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Climb up the ladder. (Do not Teleport to Canifis)",
         "es": "Sube por la escalera. (No te teletransportes a Canifis)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to the stranger next to the stairs where Vanstrom was located.",
         "es": "Habla con el desconocido junto a las escaleras donde estaba Vanstrom."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

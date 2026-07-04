@@ -2,7 +2,8 @@
   "id": "what-lies-below",
   "title": "What Lies Below",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:30:31.474Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:37.564Z",
   "icon": "https://runescape.wiki/images/What_Lies_Below_icon.png",
   "series": null,
   "age": "5",
@@ -110,143 +111,197 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/What_Lies_Below_reward.png?c99ae",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Rat Burgiss, south-east of the Varrock lodestone by the crossroads to Lumbridge. (opciones de chat: 2 Hello there! • 3 Shall I get them back for you? • Accept)",
-        "es": "Habla con Rat Burgiss, al sureste de la piedra de viaje de Varrock, junto al cruce hacia Lumbridge. (opciones de chat: 2 ¡Hola! • 3 ¿Quiere que se las recupere? • Aceptar)"
-      }
+        "en": "Talk to Rat Burgiss, south-east of the Varrock lodestone by the crossroads to Lumbridge.",
+        "es": "Habla con Rat Burgiss, al sureste de la piedra de viaje de Varrock, junto al cruce hacia Lumbridge."
+      },
+      "chatOptions": [
+        "2 Hello there!",
+        "3 Shall I get them back for you?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Helping Rat",
       "text": {
         "en": "Immediately west of the Grand Exchange is a camp. Kill 5 outlaws there.",
         "es": "Inmediatamente al oeste del Grand Exchange hay un campamento. Mata a 5 forajidos allí."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Helping Rat",
       "text": {
         "en": "Take all 5 Rat's papers that they drop.",
         "es": "Coge los 5 papeles de Rat que sueltan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Helping Rat",
       "text": {
         "en": "Use the 5 papers on an empty folder.",
         "es": "Usa los 5 papeles en una carpeta vacía."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Helping Rat",
       "text": {
-        "en": "Talk to Rat Burgiss. (opciones de chat: 2 Hello there!)",
-        "es": "Habla con Rat Burgiss. (opciones de chat: 2 ¡Hola!)"
-      }
+        "en": "Talk to Rat Burgiss.",
+        "es": "Habla con Rat Burgiss."
+      },
+      "chatOptions": [
+        "2 Hello there!"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Surok Magis",
       "text": {
-        "en": "Go to the Varrock palace library, and talk to Surok Magis. (opciones de chat: 1 Go on, then!)",
-        "es": "Ve a la biblioteca del palacio de Varrock y habla con Surok Magis. (opciones de chat: 1 ¡Adelante, pues!)"
-      }
+        "en": "Go to the Varrock palace library, and talk to Surok Magis.",
+        "es": "Ve a la biblioteca del palacio de Varrock y habla con Surok Magis."
+      },
+      "chatOptions": [
+        "1 Go on, then!"
+      ]
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Surok Magis",
       "text": {
         "en": "Optional: search the bookcase south of the telescope in the north-east section of the room for the Dagon'hai History; it can be turned in to Historian Minas after the quest for 5 kudos.",
         "es": "Opcional: busca en la estantería al sur del telescopio, en la sección noreste de la sala, la Dagon'hai History; se puede entregar a Historian Minas tras la misión a cambio de 5 puntos de reconocimiento."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Surok Magis",
       "text": {
         "en": "Use any method to enter the chaos altar.",
         "es": "Usa cualquier método para entrar en el altar del caos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Surok Magis",
       "text": {
         "en": "With 15 chaos runes, use the wand on the altar.",
         "es": "Con 15 runas de caos, usa la varita en el altar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Surok Magis",
       "text": {
         "en": "If you brought essence instead, craft the runes now.",
         "es": "Si has traído esencia en su lugar, crea las runas ahora."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Surok Magis",
       "text": {
-        "en": "Give Surok Magis a bowl and the infused wand. (opciones de chat: 1 I have the things you wanted!)",
-        "es": "Dale a Surok Magis un cuenco y la varita imbuida. (opciones de chat: 1 ¡Tengo las cosas que querías!)"
-      }
+        "en": "Give Surok Magis a bowl and the infused wand.",
+        "es": "Dale a Surok Magis un cuenco y la varita imbuida."
+      },
+      "chatOptions": [
+        "1 I have the things you wanted!"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Surok Magis",
       "text": {
-        "en": "Talk to Rat Burgiss. (opciones de chat: 2 Hello there! • 1 Yes! I have a letter for you.)",
-        "es": "Habla con Rat Burgiss. (opciones de chat: 2 ¡Hola! • 1 ¡Sí! Tengo una carta para ti.)"
-      }
+        "en": "Talk to Rat Burgiss.",
+        "es": "Habla con Rat Burgiss."
+      },
+      "chatOptions": [
+        "2 Hello there!",
+        "1 Yes! I have a letter for you."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Surok Magis",
       "text": {
-        "en": "Talk to Zaff, in his shop north-west of Varrock Square. (opciones de chat: 4 Rat Burgiss sent me.)",
-        "es": "Habla con Zaff, en su tienda al noroeste de Varrock Square. (opciones de chat: 4 Me envía Rat Burgiss.)"
-      }
+        "en": "Talk to Zaff, in his shop north-west of Varrock Square.",
+        "es": "Habla con Zaff, en su tienda al noroeste de Varrock Square."
+      },
+      "chatOptions": [
+        "4 Rat Burgiss sent me."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Surok Magis",
       "text": {
-        "en": "Talk to Surok Magis. (opciones de chat: 1 Bring it on!)",
-        "es": "Habla con Surok Magis. (opciones de chat: 1 ¡Adelante!)"
-      }
+        "en": "Talk to Surok Magis.",
+        "es": "Habla con Surok Magis."
+      },
+      "chatOptions": [
+        "1 Bring it on!"
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Surok Magis",
       "text": {
         "en": "Attack King Roald, and right-click summon with the beacon ring when he has 1 life point remaining.",
         "es": "Ataca a King Roald y, cuando le quede 1 punto de vida, haz clic derecho para invocar con el beacon ring."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "After the cutscene, return to Rat Burgiss. (opciones de chat: 2 Hello there!)",
-        "es": "Tras la escena cinemática, vuelve con Rat Burgiss. (opciones de chat: 2 ¡Hola!)"
-      }
+        "en": "After the cutscene, return to Rat Burgiss.",
+        "es": "Tras la escena cinemática, vuelve con Rat Burgiss."
+      },
+      "chatOptions": [
+        "2 Hello there!"
+      ]
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

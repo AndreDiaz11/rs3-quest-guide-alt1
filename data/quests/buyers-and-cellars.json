@@ -2,7 +2,8 @@
   "id": "buyers-and-cellars",
   "title": "Buyers and Cellars",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:55:27.024Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:44.269Z",
   "icon": "https://runescape.wiki/images/Buyers_and_Cellars_icon.png",
   "series": "Thieves' Guild",
   "age": "ambiguous",
@@ -77,103 +78,148 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Buyers_and_Cellars_reward.png?73c49",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Guildmaster Darren Lightfinger in the Thieves' Guild north of the house with a furnace in Lumbridge (enter the trapdoor). (opciones de chat: 2 What are you doing down here? (Skip speech.) • 2 And what is it you need done? (Skip speech) • Accept • 2 No, I think I've got the hang of this. • 1 Yes.)",
+        "en": "Talk to Guildmaster Darren Lightfinger in the Thieves' Guild north of the house with a furnace in Lumbridge (enter the trapdoor).",
         "es": "Habla con el Guildmaster Darren Lightfinger en el Thieves' Guild al norte de la casa con un horno en Lumbridge (entra por la trampilla). (opciones de chat: 2 What are you doing down here? (Skip speech.) • 2 And what is it you need done? (Skip speech) • Accept • 2 No, I think I've got the hang of this. • 1 Yes.)"
-      }
+      },
+      "chatOptions": [
+        "2 What are you doing down here? (Skip speech.)",
+        "2 And what is it you need done? (Skip speech)",
+        "Accept",
+        "2 No, I think I've got the hang of this.",
+        "1 Yes."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The chalice",
       "text": {
-        "en": "Talk to Chief Thief Robin, south of Lumbridge Castle inside the castle wall. (opciones de chat: 1 Go ahead.)",
-        "es": "Habla con Chief Thief Robin, al sur de Lumbridge Castle dentro de la muralla del castillo. (opciones de chat: 1 Go ahead.)"
-      }
+        "en": "Talk to Chief Thief Robin, south of Lumbridge Castle inside the castle wall.",
+        "es": "Habla con Chief Thief Robin, al sur de Lumbridge Castle dentro de la muralla del castillo."
+      },
+      "chatOptions": [
+        "1 Go ahead."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The chalice",
       "text": {
-        "en": "Talk to Father Urhney in his house to the south in the Lumbridge Swamp. (opciones de chat: 3 Nice chalice. • 3 Can I have a look at it?)",
-        "es": "Habla con Father Urhney en su casa al sur, en Lumbridge Swamp. (opciones de chat: 3 Nice chalice. • 3 Can I have a look at it?)"
-      }
+        "en": "Talk to Father Urhney in his house to the south in the Lumbridge Swamp.",
+        "es": "Habla con Father Urhney en su casa al sur, en Lumbridge Swamp."
+      },
+      "chatOptions": [
+        "3 Nice chalice.",
+        "3 Can I have a look at it?"
+      ]
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "The chalice",
       "text": {
-        "en": "If The Restless Ghost has been completed, (opciones de chat: 4 Nice chalice. • 3 Can I have a look at it?)",
-        "es": "Si se ha completado The Restless Ghost, (opciones de chat: 4 Nice chalice. • 3 Can I have a look at it?)"
-      }
+        "en": "If The Restless Ghost has been completed,",
+        "es": "Si se ha completado The Restless Ghost,"
+      },
+      "chatOptions": [
+        "4 Nice chalice.",
+        "3 Can I have a look at it?"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The chalice",
       "text": {
         "en": "Light a fire outside one of Urhney's windows.",
         "es": "Enciende una hoguera junto a una de las ventanas de Urhney."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The chalice",
       "text": {
-        "en": "Talk to Urhney and mention the chalice then the fire. (opciones de chat: 3 Nice chalice. • 4 Fire! Fire!)",
-        "es": "Habla con Urhney y menciona el cáliz y luego el fuego. (opciones de chat: 3 Nice chalice. • 4 Fire! Fire!)"
-      }
+        "en": "Talk to Urhney and mention the chalice then the fire.",
+        "es": "Habla con Urhney y menciona el cáliz y luego el fuego."
+      },
+      "chatOptions": [
+        "3 Nice chalice.",
+        "4 Fire! Fire!"
+      ]
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "The chalice",
       "text": {
-        "en": "If The Restless Ghost has been completed, (opciones de chat: 4 Nice chalice. • 4 Fire! Fire!)",
-        "es": "Si se ha completado The Restless Ghost, (opciones de chat: 4 Nice chalice. • 4 Fire! Fire!)"
-      }
+        "en": "If The Restless Ghost has been completed,",
+        "es": "Si se ha completado The Restless Ghost,"
+      },
+      "chatOptions": [
+        "4 Nice chalice.",
+        "4 Fire! Fire!"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The chalice",
       "text": {
         "en": "Pickpocket Urhney quickly to get a complex key.",
         "es": "Roba a Urhney rápidamente para conseguir una llave compleja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The chalice",
       "text": {
         "en": "Open the display case.",
         "es": "Abre la vitrina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Return to Darren's cellar.",
         "es": "Vuelve al sótano de Darren."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Use the chalice on Darren.",
         "es": "Usa el cáliz en Darren."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

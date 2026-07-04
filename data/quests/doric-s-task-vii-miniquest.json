@@ -2,7 +2,8 @@
   "id": "doric-s-task-vii-miniquest",
   "title": "Doric's Task VII (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:10:38.207Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:03.194Z",
   "icon": "https://runescape.wiki/images/Doric%27s_Task_VII_%28miniquest%29_icon.png",
   "series": "Doric's Tasks",
   "age": "5",
@@ -50,103 +51,146 @@
       "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Doric%27s_Task_VII_%28miniquest%29_reward.png?84bde",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Nostalgic Warhammers",
       "text": {
-        "en": "Speak to Doric in his hut north of Falador. (opciones de chat: 1 Do you have any more Smithing tasks for me? • Accept)",
-        "es": "Habla con Doric en su cabaña al norte de Falador. (opciones de chat: 1 ¿Tienes más tareas de Herrería para mí? • Aceptar)"
-      }
+        "en": "Speak to Doric in his hut north of Falador.",
+        "es": "Habla con Doric en su cabaña al norte de Falador."
+      },
+      "chatOptions": [
+        "1 Do you have any more Smithing tasks for me?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Nostalgic Warhammers",
       "text": {
         "en": "Head to the northwesternmost building in western Keldagrim.",
         "es": "Dirígete al edificio más al noroeste en el oeste de Keldagrim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Nostalgic Warhammers",
       "text": {
-        "en": "Talk to Santiri. (opciones de chat: 1 Doric sent me here to make your dreams come true. • 1 I'll ask him for it now.) (If this is your first time in Keldagrim, you may need to talk to Santiri to accept an unrelated task, talk to him again to cancel it, and then talk to him a final time to start dialogue about the miniquest.)",
+        "en": "Talk to Santiri. (If this is your first time in Keldagrim, you may need to talk to Santiri to accept an unrelated task, talk to him again to cancel it, and then talk to him a final time to start dialogue about the miniquest.)",
         "es": "Habla con Santiri. (opciones de chat: 1 Doric me envió aquí para hacer tus sueños realidad. • 1 Se lo pediré ahora mismo.) (Si es tu primera vez en Keldagrim, puede que tengas que hablar con Santiri para aceptar una tarea no relacionada, hablarle de nuevo para cancelarla, y luego hablarle una última vez para iniciar el diálogo sobre la miniaventura.)"
-      }
+      },
+      "chatOptions": [
+        "1 Doric sent me here to make your dreams come true.",
+        "1 I'll ask him for it now."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Nostalgic Warhammers",
       "text": {
-        "en": "Talk to the Supreme Commander in the building south of him up the stairs. (opciones de chat: ? (3 or 4 depending on completed quests) I must go now.)",
+        "en": "Talk to the Supreme Commander in the building south of him up the stairs.",
         "es": "Habla con el Supreme Commander en el edificio al sur de él, subiendo las escaleras. (opciones de chat: ? (3 o 4 según las misiones completadas) Debo irme ahora.)"
-      }
+      },
+      "chatOptions": [
+        "? (3 or 4 depending on completed quests) I must go now."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Nostalgic Warhammers",
       "text": {
         "en": "Use the black guard warhammer on an anvil (one is located south of the building the Supreme Commander is in).",
         "es": "Usa el black guard warhammer en un yunque (hay uno al sur del edificio donde está el Supreme Commander)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Nostalgic Warhammers",
       "text": {
-        "en": "Talk to Santiri. (opciones de chat: 1 I have your warhammer.)",
-        "es": "Habla con Santiri. (opciones de chat: 1 Tengo tu warhammer.)"
-      }
+        "en": "Talk to Santiri.",
+        "es": "Habla con Santiri."
+      },
+      "chatOptions": [
+        "1 I have your warhammer."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Nostalgic Warhammers",
       "text": {
-        "en": "Talk to the Librarian, in the northeasternmost building in western Keldagrim. (opciones de chat: ? (2, 3, or 4 depending on the situation) Can you tell me about first-generation black warhammers?)<!--Please stop changing this number back and forth between 3 and 4. There's clearly an extra chat option present depending on the situation before this one regarding Between a Rock... which probably won't be there if the quest hasn't been completed.-->",
+        "en": "Talk to the Librarian, in the northeasternmost building in western Keldagrim. <!--Please stop changing this number back and forth between 3 and 4. There's clearly an extra chat option present depending on the situation before this one regarding Between a Rock... which probably won't be there if the quest hasn't been completed.-->",
         "es": "Habla con el Librarian, en el edificio más al noreste en el oeste de Keldagrim. (opciones de chat: ? (2, 3 o 4 según la situación) ¿Puedes contarme sobre los black warhammers de primera generación?)"
-      }
+      },
+      "chatOptions": [
+        "? (2, 3, or 4 depending on the situation) Can you tell me about first-generation black warhammers?"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Nostalgic Warhammers",
       "text": {
-        "en": "Head to the Stonemason in the southernmost building in western Keldagrim. (opciones de chat: 4 Do you know anything about crushing warhammers?)",
-        "es": "Dirígete al Stonemason en el edificio más al sur en el oeste de Keldagrim. (opciones de chat: 4 ¿Sabes algo sobre triturar warhammers?)"
-      }
+        "en": "Head to the Stonemason in the southernmost building in western Keldagrim.",
+        "es": "Dirígete al Stonemason en el edificio más al sur en el oeste de Keldagrim."
+      },
+      "chatOptions": [
+        "4 Do you know anything about crushing warhammers?"
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Nostalgic Warhammers",
       "text": {
         "en": "Use the cracked warhammer on the stone crusher in the northwest corner of the building.",
         "es": "Usa el cracked warhammer en la trituradora de piedra en la esquina noroeste del edificio."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Nostalgic Warhammers",
       "text": {
-        "en": "Talk to Santiri. (opciones de chat: 1 I have your warhammer.)",
-        "es": "Habla con Santiri. (opciones de chat: 1 Tengo tu warhammer.)"
-      }
+        "en": "Talk to Santiri.",
+        "es": "Habla con Santiri."
+      },
+      "chatOptions": [
+        "1 I have your warhammer."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Nostalgic Warhammers",
       "text": {
         "en": "Head to eastern Keldagrim and use the crushed warhammer on the well.",
         "es": "Dirígete al este de Keldagrim y usa el crushed warhammer en el pozo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Nostalgic Warhammers",
       "text": {
-        "en": "Talk to Santiri. (opciones de chat: 1 I have your warhammer.)",
-        "es": "Habla con Santiri. (opciones de chat: 1 Tengo tu warhammer.)"
-      }
+        "en": "Talk to Santiri.",
+        "es": "Habla con Santiri."
+      },
+      "chatOptions": [
+        "1 I have your warhammer."
+      ]
     }
   ]
 }

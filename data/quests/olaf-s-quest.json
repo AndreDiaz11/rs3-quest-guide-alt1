@@ -2,7 +2,8 @@
   "id": "olaf-s-quest",
   "title": "Olaf's Quest",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:45:33.042Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:43.102Z",
   "icon": "https://runescape.wiki/images/Olaf%27s_Quest_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -91,247 +92,312 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Olaf%27s_Quest_reward.png?2bc35",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Family honour",
       "text": {
-        "en": "Talk to Olaf Hradson north-east of Rellekka. (opciones de chat: Accept)",
-        "es": "Habla con Olaf Hradson al noreste de Rellekka. (opciones de chat: Accept)"
-      }
+        "en": "Talk to Olaf Hradson north-east of Rellekka.",
+        "es": "Habla con Olaf Hradson al noreste de Rellekka."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Family honour",
       "text": {
         "en": "Go east up the icy mountain and chop the windswept tree.",
         "es": "Ve al este, sube la montaña helada y corta el árbol azotado por el viento."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Family honour",
       "text": {
         "en": "Return and talk to Olaf.",
         "es": "Vuelve y habla con Olaf."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The windswept tree",
       "text": {
         "en": "Go to Rellekka and talk to Ingrid Hradson next to the well in the south-east.",
         "es": "Ve a Rellekka y habla con Ingrid Hradson junto al pozo, en el sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The windswept tree",
       "text": {
         "en": "Head north and talk to Volf Olafson who is wandering outside the helmet shop.",
         "es": "Dirígete al norte y habla con Volf Olafson, que está paseando fuera de la tienda de cascos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The windswept tree",
       "text": {
         "en": "Return and talk to Olaf.",
         "es": "Vuelve y habla con Olaf."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The windswept tree",
       "text": {
         "en": "Use the damp planks on the embers on the ground next to him.",
         "es": "Usa las tablas húmedas sobre las brasas que hay en el suelo junto a él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The windswept tree",
       "text": {
-        "en": "Talk to Olaf. (opciones de chat: 1 Alright, here, have some food. Now give me the map.)",
-        "es": "Habla con Olaf. (opciones de chat: 1 Alright, here, have some food. Now give me the map.)"
-      }
+        "en": "Talk to Olaf.",
+        "es": "Habla con Olaf."
+      },
+      "chatOptions": [
+        "1 Alright, here, have some food. Now give me the map."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The windswept tree",
       "text": {
         "en": "Read the map.",
         "es": "Lee el mapa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Brine Rat Cavern",
       "text": {
         "en": "Go back up the icy mountain and dig west of the windswept tree (left-click a pile of snow).",
         "es": "Vuelve a subir la montaña helada y cava al oeste del árbol azotado por el viento (haz clic izquierdo en un montón de nieve)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Brine Rat Cavern",
       "text": {
         "en": "Once inside the caverns, follow the path east and then north, continuing along the northern path until you reach a \"picture wall\" door.",
         "es": "Una vez dentro de las cavernas, sigue el camino hacia el este y luego hacia el norte, continuando por el sendero norte hasta llegar a una puerta con un \"muro de dibujos\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Brine Rat Cavern",
       "text": {
         "en": "Kill a nearby skeleton and pick up the key that it drops from the ground.",
         "es": "Mata al esqueleto cercano y recoge la llave que suelta en el suelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Brine Rat Cavern",
       "text": {
         "en": "Search the door and solve the puzzle:",
         "es": "Examina la puerta y resuelve el puzle:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Brine Rat Cavern",
       "text": {
         "en": "Down",
         "es": "Abajo"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Brine Rat Cavern",
       "text": {
         "en": "Right",
         "es": "Derecha"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Brine Rat Cavern",
       "text": {
         "en": "Left",
         "es": "Izquierda"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Brine Rat Cavern",
       "text": {
         "en": "Up",
         "es": "Arriba"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Brine Rat Cavern",
       "text": {
         "en": "Bottom",
         "es": "Abajo del todo"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Brine Rat Cavern",
       "text": {
         "en": "Search the door again to pass through.",
         "es": "Vuelve a examinar la puerta para atravesarla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Resilience",
       "text": {
         "en": "In the next area, pick up two rotten barrels and six ropes.",
         "es": "En la siguiente zona, recoge dos barriles podridos y seis cuerdas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Resilience",
       "text": {
         "en": "Head towards the north-east walkway made of planks and use rotten barrels on the gaps in the walkway.",
         "es": "Dirígete hacia la pasarela de tablones del noreste y usa los barriles podridos en los huecos de la pasarela."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Resilience",
       "text": {
         "en": "Make sure you walk over all obstacles here, running will give you a 100% failure rate.",
         "es": "Asegúrate de caminar sobre todos los obstáculos aquí; si corres, tendrás un 100% de probabilidad de fallar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 1,
+      "section": "Resilience",
       "text": {
         "en": "Toggle by clicking the Energy button.",
         "es": "Cambia haciendo clic en el botón de Energía."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Resilience",
       "text": {
         "en": "Open the gate by clicking the keyhole that matches the key (e.g. if the bottom of the key is triangle, then it goes into the triangle key slot).",
         "es": "Abre la verja haciendo clic en el ojo de la cerradura que coincida con la llave (por ejemplo, si la parte inferior de la llave es un triángulo, entonces va en la ranura de llave triangular)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "Resilience",
       "text": {
         "en": "If you were running, which causes you to slip and fall after this step re obtain the key before trying again.",
         "es": "Si estabas corriendo, lo que hace que resbales y caigas después de este paso, recupera la llave antes de volver a intentarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Resilience",
       "text": {
         "en": "Attempt to open the chest inside the wrecked ship.",
         "es": "Intenta abrir el cofre dentro del barco naufragado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Resilience",
       "text": {
         "en": "Kill Ulfric.",
         "es": "Mata a Ulfric."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Resilience",
       "text": {
         "en": "If he spawns again, re-open the chest before killing him a second time.",
         "es": "Si vuelve a aparecer, abre de nuevo el cofre antes de matarlo por segunda vez."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Resilience",
       "text": {
         "en": "Attempt to open the chest again and you'll receive a parchment.",
         "es": "Intenta abrir el cofre de nuevo y recibirás un pergamino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Resilience",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

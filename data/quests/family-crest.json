@@ -2,7 +2,8 @@
   "id": "family-crest",
   "title": "Family Crest",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:17:55.223Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:11.142Z",
   "icon": "https://runescape.wiki/images/Family_Crest_icon.png",
   "series": null,
   "age": "5",
@@ -120,263 +121,351 @@
       "image": "https://runescape.wiki/images/Family_gauntlets_detail.png?d8fbc"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Family_Crest_reward.png?ebfcf",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Patriarch",
       "text": {
-        "en": "Talk to Dimintheis in the house next to the Fancy Clothes Store in south-eastern Varrock. (opciones de chat: 3 Hi, I am a bold adventurer. • 2 So where is this crest? • Accept)",
-        "es": "Habla con Dimintheis en la casa junto a la Fancy Clothes Store, en el sureste de Varrock. (opciones de chat: 3 Hola, soy un intrépido aventurero. • 2 ¿Y dónde está ese blasón? • Aceptar)"
-      }
+        "en": "Talk to Dimintheis in the house next to the Fancy Clothes Store in south-eastern Varrock.",
+        "es": "Habla con Dimintheis en la casa junto a la Fancy Clothes Store, en el sureste de Varrock."
+      },
+      "chatOptions": [
+        "3 Hi, I am a bold adventurer.",
+        "2 So where is this crest?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Caleb's piece",
       "text": {
-        "en": "Go to Gertrude's house west of Varrock and talk to Caleb, who is inside the house (although he can sometimes wander outside). (opciones de chat: 1 Are you Caleb Fitzharmon? • 2 So can I have your bit? • 1 Ok, I will get those.)",
-        "es": "Ve a la casa de Gertrude, al oeste de Varrock, y habla con Caleb, que está dentro de la casa (aunque a veces puede andar dando vueltas fuera). (opciones de chat: 1 ¿Eres Caleb Fitzharmon? • 2 ¿Puedo tener tu parte? • 1 Vale, iré a buscarlos.)"
-      }
+        "en": "Go to Gertrude's house west of Varrock and talk to Caleb, who is inside the house (although he can sometimes wander outside).",
+        "es": "Ve a la casa de Gertrude, al oeste de Varrock, y habla con Caleb, que está dentro de la casa (aunque a veces puede andar dando vueltas fuera)."
+      },
+      "chatOptions": [
+        "1 Are you Caleb Fitzharmon?",
+        "2 So can I have your bit?",
+        "1 Ok, I will get those."
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Caleb's piece",
       "text": {
         "en": "Talk to him again with swordfish, bass, tuna, salmon, and shrimp in the backpack to get a crest part.",
         "es": "Vuelve a hablar con él llevando pez espada, róbalo, atún, salmón y gambas en la mochila para conseguir una parte del blasón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Caleb's piece",
       "text": {
-        "en": "Then ask Caleb where the rest of the crest is. (opciones de chat: 1 Uh... what happened to the rest of it?).",
+        "en": "Then ask Caleb where the rest of the crest is. .",
         "es": "Luego pregúntale a Caleb dónde está el resto del blasón. (opciones de chat: 1 Eh... ¿qué pasó con el resto?)."
-      }
+      },
+      "chatOptions": [
+        "1 Uh... what happened to the rest of it?"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Avan's request",
       "text": {
-        "en": "Talk to Avan just south of the Al Kharid mine. (opciones de chat: 2 I'm looking for a man named Avan Fitzharmon.)",
-        "es": "Habla con Avan, justo al sur de la mina de Al Kharid. (opciones de chat: 2 Estoy buscando a un hombre llamado Avan Fitzharmon.)"
-      }
+        "en": "Talk to Avan just south of the Al Kharid mine.",
+        "es": "Habla con Avan, justo al sur de la mina de Al Kharid."
+      },
+      "chatOptions": [
+        "2 I'm looking for a man named Avan Fitzharmon."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Avan's request",
       "text": {
         "en": "Travel to the Dwarven mines north-east of Falador.",
         "es": "Viaja a las Dwarven mines, al noreste de Falador."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Avan's request",
       "text": {
-        "en": "Head south-west of the general store and talk to Boot. (opciones de chat: 1 Hello. I'm in search of very high quality gold.)",
-        "es": "Dirígete al suroeste de la tienda general y habla con Boot. (opciones de chat: 1 Hola. Estoy buscando oro de muy alta calidad.)"
-      }
+        "en": "Head south-west of the general store and talk to Boot.",
+        "es": "Dirígete al suroeste de la tienda general y habla con Boot."
+      },
+      "chatOptions": [
+        "1 Hello. I'm in search of very high quality gold."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Creating the necklace",
       "text": {
         "en": "Travel to Witchaven, south-east of the Ardougne lodestone. Climb down the ruins just to the west of the town. Run past the hobgoblins towards the elongated room with the Ogres.",
         "es": "Viaja a Witchaven, al sureste de la piedra de viaje de Ardougne. Baja por las ruinas justo al oeste del pueblo. Corre pasando a los hobgoblins hacia la sala alargada con los Ogres."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Creating the necklace",
       "text": {
         "en": "Solve the puzzle:",
         "es": "Resuelve el puzle:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Creating the necklace",
       "text": {
         "en": "Logging out will reset this puzzle.",
         "es": "Cerrar sesión reiniciará este puzle."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Creating the necklace",
       "text": {
         "en": "Head to the northern lever located outside the room and pull it up.",
         "es": "Dirígete a la palanca norte situada fuera de la sala y tira de ella hacia arriba."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Creating the necklace",
       "text": {
         "en": "Head to the southern lever, located inside the room, and pull it up.",
         "es": "Dirígete a la palanca sur, situada dentro de la sala, y tira de ella hacia arriba."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Creating the necklace",
       "text": {
         "en": "Return to the northern room and pull the lever outside the room down.",
         "es": "Vuelve a la sala del norte y empuja hacia abajo la palanca que está fuera de la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Creating the necklace",
       "text": {
         "en": "Enter the northern room and push the lever in there up.",
         "es": "Entra en la sala del norte y empuja hacia arriba la palanca que hay dentro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Creating the necklace",
       "text": {
         "en": "Leave the room and pull the one outside the northern room up.",
         "es": "Sal de la sala y tira hacia arriba la palanca que está fuera de la sala del norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Creating the necklace",
       "text": {
         "en": "Go back to the southern room and pull the inside lever down.",
         "es": "Vuelve a la sala del sur y empuja hacia abajo la palanca de dentro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Creating the necklace",
       "text": {
         "en": "Now enter the room with the hellhounds.",
         "es": "Ahora entra en la sala con los hellhounds."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Creating the necklace",
       "text": {
         "en": "Mine two 'Perfect' gold ore in the hellhound room. You will continue to mine gold while being attacked by hellhounds if you turn auto-retaliate off.",
         "es": "Extrae dos 'Perfect' gold ore en la sala de los hellhounds. Seguirás extrayendo oro mientras te atacan los hellhounds si desactivas el auto-contraataque."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Creating the necklace",
       "text": {
-        "en": "Smelt the ores into bars and then craft a 'Perfect' ring and a 'Perfect' necklace with two rubies at any furnace. There is a furnace just northwest of the Al Kharid lodestone. (opciones de chat: 1 Yes smelt 'perfect' golden ring. • 2 Yes smelt 'perfect' golden necklace.)",
-        "es": "Funde los minerales para hacer barras y luego fabrica un 'Perfect' ring y un 'Perfect' necklace con dos rubíes en cualquier horno. Hay un horno justo al noroeste de la piedra de viaje de Al Kharid. (opciones de chat: 1 Sí, fundir 'perfect' golden ring. • 2 Sí, fundir 'perfect' golden necklace.)"
-      }
+        "en": "Smelt the ores into bars and then craft a 'Perfect' ring and a 'Perfect' necklace with two rubies at any furnace. There is a furnace just northwest of the Al Kharid lodestone.",
+        "es": "Funde los minerales para hacer barras y luego fabrica un 'Perfect' ring y un 'Perfect' necklace con dos rubíes en cualquier horno. Hay un horno justo al noroeste de la piedra de viaje de Al Kharid."
+      },
+      "chatOptions": [
+        "1 Yes smelt 'perfect' golden ring.",
+        "2 Yes smelt 'perfect' golden necklace."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Creating the necklace",
       "text": {
         "en": "Go back to south of the Al Kharid mine and give them to Avan.",
         "es": "Vuelve al sur de la mina de Al Kharid y entrégaselos a Avan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Helping Johnathon",
       "text": {
         "en": "Talk to Johnathon on the of the Jolly Boar Inn south-west of the Fort Forinthry lodestone.",
         "es": "Habla con Johnathon en el Jolly Boar Inn, al suroeste de la piedra de viaje de Fort Forinthry."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Helping Johnathon",
       "text": {
-        "en": "Use an antipoison on him. (opciones de chat: 2 Where can I find Chronozon?)",
-        "es": "Úsale un antipoison. (opciones de chat: 2 ¿Dónde puedo encontrar a Chronozon?)"
-      }
+        "en": "Use an antipoison on him.",
+        "es": "Úsale un antipoison."
+      },
+      "chatOptions": [
+        "2 Where can I find Chronozon?"
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Defeating Chronozon",
       "text": {
         "en": "Teleport to Edgeville and prepare for the final fight which will use multiple casts of the four blast spells. The other elemental spells do not work.",
         "es": "Teletranspórtate a Edgeville y prepárate para el combate final, que requerirá lanzar varias veces los cuatro hechizos de explosión. Los demás hechizos elementales no funcionan."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Defeating Chronozon",
       "text": {
         "en": "Enter Edgeville Dungeon and run north and then west.",
         "es": "Entra en la Edgeville Dungeon y corre hacia el norte y luego hacia el oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Defeating Chronozon",
       "text": {
         "en": "Kill Chronozon when it appears.",
         "es": "Mata a Chronozon cuando aparezca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Defeating Chronozon",
       "text": {
         "en": "Chronozon must be hit with all four elemental blast spells or deathtouched dart in order to be killed, or otherwise it will return to full health when it is nearly dead. Once it has been hit with all four elemental blast spells, other types of damage can be used to kill it.",
         "es": "Chronozon debe ser golpeado con los cuatro hechizos de explosión elemental o con un deathtouched dart para poder ser derrotado; de lo contrario, recuperará toda su vida cuando esté a punto de morir. Una vez que haya sido golpeado con los cuatro hechizos de explosión elemental, se pueden usar otros tipos de daño para acabar con él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "Defeating Chronozon",
       "text": {
         "en": "Only the following elemental spells will work: Air Blast, Water Blast, Earth Blast, Fire Blast.",
         "es": "Solo funcionarán los siguientes hechizos elementales: Air Blast, Water Blast, Earth Blast, Fire Blast."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Defeating Chronozon",
       "text": {
         "en": "If you use a high tier magic weapon (tier 70+), it will be very hard as you will kill him before being able to deal all 4 types of damage, therefore use a low-tier weapon (tier 30 or 40).",
         "es": "Si usas un arma de magia de nivel alto (tier 70+), será muy difícil, ya que lo matarás antes de poder infligirle los 4 tipos de daño; por lo tanto, usa un arma de nivel bajo (tier 30 o 40)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Defeating Chronozon",
       "text": {
         "en": "Kill him and take the crest piece.",
         "es": "Mátalo y coge la pieza del blasón."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Dimintheis.",
         "es": "Habla con Dimintheis."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Talk to Dimintheis again for cooking and smelting gauntlets. (opciones de chat: 1 Ask about gauntlets. • 1 Reclaim lost gauntlets • 1 Yes please.)",
-        "es": "Vuelve a hablar con Dimintheis para conseguir los guantes de cocina y fundición. (opciones de chat: 1 Preguntar sobre los guantes. • 1 Recuperar guantes perdidos • 1 Sí, por favor.)"
-      }
+        "en": "Talk to Dimintheis again for cooking and smelting gauntlets.",
+        "es": "Vuelve a hablar con Dimintheis para conseguir los guantes de cocina y fundición."
+      },
+      "chatOptions": [
+        "1 Ask about gauntlets.",
+        "1 Reclaim lost gauntlets",
+        "1 Yes please."
+      ]
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "fishing-contest",
   "title": "Fishing Contest",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:20:00.911Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:13.482Z",
   "icon": "https://runescape.wiki/images/Fishing_Contest_icon.png",
   "series": null,
   "age": "5",
@@ -80,103 +81,139 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Fishing_Contest_reward.png?f9efe",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to either Austri (north of the Taverley lodestone) or Vestri (north of the Catherby lodestone) who can both be found guarding caves on either side of White Wolf Mountain. (opciones de chat: 1 I was wondering what was down that tunnel? • 2 Why not? • 3 If you were my friend I wouldn't mind it. • 1 Well, let's be friends! • 1 And how am I meant to do that? • Accept)",
-        "es": "Habla con Austri (al norte de la piedra de viaje de Taverley) o con Vestri (al norte de la piedra de viaje de Catherby), a quienes puedes encontrar custodiando cuevas a ambos lados de White Wolf Mountain. (opciones de chat: 1 ¿Me pregunto qué habrá al fondo de ese túnel? • 2 ¿Por qué no? • 3 Si fueras mi amigo no me importaría. • 1 ¡Pues seamos amigos! • 1 ¿Y cómo se supone que voy a hacer eso? • Aceptar)"
-      }
+        "en": "Talk to either Austri (north of the Taverley lodestone) or Vestri (north of the Catherby lodestone) who can both be found guarding caves on either side of White Wolf Mountain.",
+        "es": "Habla con Austri (al norte de la piedra de viaje de Taverley) o con Vestri (al norte de la piedra de viaje de Catherby), a quienes puedes encontrar custodiando cuevas a ambos lados de White Wolf Mountain."
+      },
+      "chatOptions": [
+        "1 I was wondering what was down that tunnel?",
+        "2 Why not?",
+        "3 If you were my friend I wouldn't mind it.",
+        "1 Well, let's be friends!",
+        "1 And how am I meant to do that?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting Some Help",
       "text": {
         "en": "If you don't have the worms:",
         "es": "Si no tienes los gusanos:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Getting Some Help",
       "text": {
-        "en": "Go to McGrubor's Wood just west of the Seers' Village lodestone and enter through the loose railing along the north fence, or use fairy ring .",
+        "en": "Go to McGrubor's Wood just west of the Seers' Village lodestone and enter through the loose railing along the north fence, or use fairy ring ALS .",
         "es": "Ve a McGrubor's Wood, justo al oeste de la piedra de viaje de Seers' Village, y entra por la valla suelta a lo largo del cercado norte, o usa un anillo de las hadas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Getting Some Help",
       "text": {
         "en": "Run to the west side of the woods and 'check' the red-coloured vines to receive red vine worms; take at least three.",
         "es": "Corre hacia el lado oeste del bosque y \"examina\" las enredaderas de color rojo para conseguir gusanos de enredadera roja; coge al menos tres."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Getting Some Help",
       "text": {
         "en": "Head to Hemenster (south-west of Seers' Village and directly west of the Ranging Guild).",
         "es": "Dirígete a Hemenster (al suroeste de Seers' Village y justo al oeste del Ranging Guild)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The Vampyre",
       "text": {
         "en": "Enter the gate.",
         "es": "Entra por la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The Vampyre",
       "text": {
         "en": "Use the garlic on the eastern wall pipes by the north side.",
         "es": "Usa el ajo en las tuberías del muro este, junto al lado norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The Vampyre",
       "text": {
-        "en": "Either talk to Bonzo and pay him 5 coins or fish at a fishing spot to start the contest. (opciones de chat: 1)",
-        "es": "Habla con Bonzo y págale 5 monedas, o pesca en un punto de pesca para iniciar el concurso. (opciones de chat: 1)"
-      }
+        "en": "Either talk to Bonzo and pay him 5 coins or fish at a fishing spot to start the contest.",
+        "es": "Habla con Bonzo y págale 5 monedas, o pesca en un punto de pesca para iniciar el concurso."
+      },
+      "chatOptions": [
+        "1"
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Finishing Up",
       "text": {
         "en": "Fish at the newly obtained fishing spot until a Raw giant carp is caught.",
         "es": "Pesca en el punto de pesca recién obtenido hasta conseguir una Carpa gigante cruda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Finishing Up",
       "text": {
-        "en": "Give the carp to Bonzo. (opciones de chat: 1)",
-        "es": "Dale la carpa a Bonzo. (opciones de chat: 1)"
-      }
+        "en": "Give the carp to Bonzo.",
+        "es": "Dale la carpa a Bonzo."
+      },
+      "chatOptions": [
+        "1"
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Finishing Up",
       "text": {
         "en": "Report back to Austri or Vestri.",
         "es": "Vuelve a informar a Austri o Vestri."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Finishing Up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "mountain-daughter",
   "title": "Mountain Daughter",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:40:30.956Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:38.453Z",
   "icon": "https://runescape.wiki/images/Mountain_Daughter_icon.png",
   "series": "Fremennik",
   "age": "5",
@@ -103,311 +104,431 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Mountain_Daughter_reward.png?f3fc9",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Run north of the Golden Apple Tree south-east of Rellekka (fairy ring code ).",
+        "en": "Run north of the Golden Apple Tree south-east of Rellekka (fairy ring code AJR).",
         "es": "Corre al norte del Golden Apple Tree al sureste de Rellekka (código de círculo de hadas )."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Climb the cliffside to the north of the musician with a rope in your backpack.",
         "es": "Sube por el acantilado al norte del músico con una cuerda en tu mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Hamal the Chieftain in the nearby village. Ask him why everyone is so hostile and continue through all the dialogue; he will then offer the quest. (opciones de chat: 1 Why is everyone so hostile? • 1 So what are you doing up here? • Accept) (If The Fremennik Trials is completed: (opciones de chat: 2 Why is everyone so hostile? • 1 So what are you doing up here? • Accept))",
+        "en": "Talk to Hamal the Chieftain in the nearby village. Ask him why everyone is so hostile and continue through all the dialogue; he will then offer the quest. (If The Fremennik Trials is completed: )",
         "es": "Habla con Hamal the Chieftain en el pueblo cercano. Pregúntale por qué todos están tan hostiles y continúa todo el diálogo; entonces te ofrecerá la misión. (opciones de chat: 1 ¿Por qué está todo el mundo tan hostil? • 1 Entonces, ¿qué estás haciendo aquí arriba? • Aceptar) (Si The Fremennik Trials está completada: (opciones de chat: 2 ¿Por qué está todo el mundo tan hostil? • 1 Entonces, ¿qué estás haciendo aquí arriba? • Aceptar))"
-      }
+      },
+      "chatOptions": [
+        "1 Why is everyone so hostile?",
+        "1 So what are you doing up here?",
+        "Accept",
+        "2 Why is everyone so hostile?",
+        "1 So what are you doing up here?",
+        "Accept"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Searching for the daughter",
       "text": {
         "en": "Walk south and Dig-below the Roots for a lump of Mud.",
         "es": "Camina hacia el sur y usa Cavar-debajo en las raíces para conseguir un pegote de barro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Searching for the daughter",
       "text": {
         "en": "If you do not have a pole and a plank, go north of Hamal's house and pick up one of each.",
         "es": "Si no tienes una pértiga y una tabla, ve al norte de la casa de Hamal y coge una de cada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Searching for the daughter",
       "text": {
         "en": "Run north to the lake, then west along the edge.",
         "es": "Corre al norte hasta el lago, luego hacia el oeste bordeando la orilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Searching for the daughter",
       "text": {
         "en": "Use the mud on the tall tree, climb it.",
         "es": "Usa el barro en el árbol alto y súbete a él."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Searching for the daughter",
       "text": {
         "en": "Use your staff/pole on the clump of rocks.",
         "es": "Usa tu bastón/pértiga en el grupo de rocas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Searching for the daughter",
       "text": {
         "en": "Use your plank on the flat stone.",
         "es": "Usa tu tabla en la piedra plana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Searching for the daughter",
       "text": {
-        "en": "Stand next to the pile of rocks and listen to one of the shining pools. (opciones de chat: 2 Hello! Who are you! • 2 So what exactly do you want from me? • 1 That sounds like something I can do. • 1 I'll get right on it.)",
-        "es": "Colócate junto al montón de rocas y escucha uno de los estanques brillantes. (opciones de chat: 2 ¡Hola! ¿Quién eres? • 2 Entonces, ¿qué es exactamente lo que quieres de mí? • 1 Eso suena como algo que puedo hacer. • 1 Me pondré manos a la obra.)"
-      }
+        "en": "Stand next to the pile of rocks and listen to one of the shining pools.",
+        "es": "Colócate junto al montón de rocas y escucha uno de los estanques brillantes."
+      },
+      "chatOptions": [
+        "2 Hello! Who are you!",
+        "2 So what exactly do you want from me?",
+        "1 That sounds like something I can do.",
+        "1 I'll get right on it."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Searching for the daughter",
       "text": {
-        "en": "Use your plank on the flat stone again. (opciones de chat: 1 Yes.)",
-        "es": "Usa tu tabla en la piedra plana de nuevo. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Use your plank on the flat stone again.",
+        "es": "Usa tu tabla en la piedra plana de nuevo."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Peace and food",
       "text": {
-        "en": "Talk to Hamal the Chieftain. (opciones de chat: 2 About the people of Rellekka... • 1 Why do you hate them so much?)",
-        "es": "Habla con Hamal the Chieftain. (opciones de chat: 2 Sobre la gente de Rellekka... • 1 ¿Por qué los odias tanto?)"
-      }
+        "en": "Talk to Hamal the Chieftain.",
+        "es": "Habla con Hamal the Chieftain."
+      },
+      "chatOptions": [
+        "2 About the people of Rellekka...",
+        "1 Why do you hate them so much?"
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Peace and food",
       "text": {
         "en": "Talk to Jokul in the goat farm to the north.",
         "es": "Habla con Jokul en la granja de cabras al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Peace and food",
       "text": {
-        "en": "Talk to Svidi wandering near the Fremennik lodestone. (opciones de chat: 2 Can't I persuade you to go in there somehow?)",
-        "es": "Habla con Svidi, que deambula cerca de la piedra de viaje de Fremennik. (opciones de chat: 2 ¿No puedo convencerte de alguna manera para que entres ahí?)"
-      }
+        "en": "Talk to Svidi wandering near the Fremennik lodestone.",
+        "es": "Habla con Svidi, que deambula cerca de la piedra de viaje de Fremennik."
+      },
+      "chatOptions": [
+        "2 Can't I persuade you to go in there somehow?"
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Peace and food",
       "text": {
-        "en": "Go to the longhall in Rellekka, talk to Brundt the Chieftain about the Mountain Camp. (opciones de chat: 1 Ask about the Mountain Camp. • Any) (If Lunar Diplomacy has been started or completed: (opciones de chat: 2 Ask about the Mountain Camp. • Any))",
+        "en": "Go to the longhall in Rellekka, talk to Brundt the Chieftain about the Mountain Camp. (If Lunar Diplomacy has been started or completed: )",
         "es": "Ve al salón principal de Rellekka y habla con Brundt the Chieftain sobre el Mountain Camp. (opciones de chat: 1 Preguntar sobre el Mountain Camp. • Cualquiera) (Si Lunar Diplomacy ha sido iniciada o completada: (opciones de chat: 2 Preguntar sobre el Mountain Camp. • Cualquiera))"
-      }
+      },
+      "chatOptions": [
+        "1 Ask about the Mountain Camp.",
+        "Any",
+        "2 Ask about the Mountain Camp.",
+        "Any"
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Peace and food",
       "text": {
         "en": "Mine the ancient rock in the mountain camp's southern tent.",
         "es": "Extrae la roca antigua en la tienda sur del Mountain Camp."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Peace and food",
       "text": {
-        "en": "Return to Brundt the Chieftain in the longhall. (opciones de chat: 1 Ask about the Mountain Camp.) (If Lunar Diplomacy has been started or completed: (opciones de chat: 2 Ask about the Mountain Camp.))",
+        "en": "Return to Brundt the Chieftain in the longhall. (If Lunar Diplomacy has been started or completed: )",
         "es": "Vuelve con Brundt the Chieftain en el salón principal. (opciones de chat: 1 Preguntar sobre el Mountain Camp.) (Si Lunar Diplomacy ha sido iniciada o completada: (opciones de chat: 2 Preguntar sobre el Mountain Camp.))"
-      }
+      },
+      "chatOptions": [
+        "1 Ask about the Mountain Camp.",
+        "2 Ask about the Mountain Camp."
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Peace and food",
       "text": {
         "en": "Give the safety guarantee to Svidi.",
         "es": "Entrega la garantía de seguridad a Svidi."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Peace and food",
       "text": {
         "en": "Make your way to White Wolf Mountain.",
         "es": "Dirígete a White Wolf Mountain."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Peace and food",
       "text": {
-        "en": "If you have completed The Grand Tree, teleport to Al Kharid lodestone, run north-west and click on \"Glider Captain Dalbur\" (opciones de chat: 2 Sindarpos.)",
-        "es": "Si has completado The Grand Tree, teletranspórtate a la piedra de viaje de Al Kharid, corre hacia el noroeste y haz clic en \"Glider Captain Dalbur\" (opciones de chat: 2 Sindarpos.)"
-      }
+        "en": "If you have completed The Grand Tree, teleport to Al Kharid lodestone, run north-west and click on \"Glider Captain Dalbur\"",
+        "es": "Si has completado The Grand Tree, teletranspórtate a la piedra de viaje de Al Kharid, corre hacia el noroeste y haz clic en \"Glider Captain Dalbur\""
+      },
+      "chatOptions": [
+        "2 Sindarpos."
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Peace and food",
       "text": {
         "en": "Wearing leather gloves (or gauntlets), pick from the bush next to the gnome glider.",
         "es": "Llevando guantes de cuero (o guanteletes), recoge fruta del arbusto junto al planeador gnomo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Peace and food",
       "text": {
         "en": "Eat the fruit.",
         "es": "Cómete la fruta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Peace and food",
       "text": {
-        "en": "Return to Hamal the Chieftain in the Mountain Camp. (opciones de chat: 3 About your food supplies... • 2 About the people of Rellekka...)",
-        "es": "Vuelve con Hamal the Chieftain en el Mountain Camp. (opciones de chat: 3 Sobre tus suministros de comida... • 2 Sobre la gente de Rellekka...)"
-      }
+        "en": "Return to Hamal the Chieftain in the Mountain Camp.",
+        "es": "Vuelve con Hamal the Chieftain en el Mountain Camp."
+      },
+      "chatOptions": [
+        "3 About your food supplies...",
+        "2 About the people of Rellekka..."
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "The Kendal",
       "text": {
         "en": "Go to the centre of the lake and stand next to the pile of rocks.",
         "es": "Ve al centro del lago y colócate junto al montón de rocas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "The Kendal",
       "text": {
         "en": "Listen-to the shining pool again.",
         "es": "Escucha el estanque brillante de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "The Kendal",
       "text": {
         "en": "Jump-across the flat stone, falling into the water, and run east along the northern shore.",
         "es": "Salta a través de la piedra plana, cayendo al agua, y corre hacia el este bordeando la orilla norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "The Kendal",
       "text": {
         "en": "Chop down some of the small trees.",
         "es": "Corta algunos de los árboles pequeños."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "The Kendal",
       "text": {
         "en": "Enter the cave.",
         "es": "Entra en la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "The Kendal",
       "text": {
         "en": "If you've not fully completed both tasks in the section above and gone through the dialogue completely, you'll receive a message referring to a stench that prevents you from entering the cave. Repeat the tasks until you're allowed to enter the cave.",
         "es": "Si no has completado del todo ambas tareas de la sección anterior ni has terminado el diálogo por completo, recibirás un mensaje sobre un hedor que te impide entrar en la cueva. Repite las tareas hasta que se te permita entrar en la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "The Kendal",
       "text": {
-        "en": "Talk to the Kendal. (opciones de chat: 1 It's just me, no one special. • 2 You mean sacrifice? • 3 You look like a man in a bearsuit! • 2 Can I see that corpse? • 1 Hand the body over to me!)",
-        "es": "Habla con Kendal. (opciones de chat: 1 Solo soy yo, nadie especial. • 2 ¿Te refieres a sacrificar? • 3 ¡Pareces un hombre disfrazado de oso! • 2 ¿Puedo ver ese cadáver? • 1 ¡Entrégame el cuerpo!)"
-      }
+        "en": "Talk to the Kendal.",
+        "es": "Habla con Kendal."
+      },
+      "chatOptions": [
+        "1 It's just me, no one special.",
+        "2 You mean sacrifice?",
+        "3 You look like a man in a bearsuit!",
+        "2 Can I see that corpse?",
+        "1 Hand the body over to me!"
+      ]
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "The Kendal",
       "text": {
         "en": "Kill the Kendal.",
         "es": "Mata a Kendal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "The Kendal",
       "text": {
         "en": "Take the corpse of woman next to all the skeletons.",
         "es": "Coge el cadáver de la mujer junto a todos los esqueletos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "The burial",
       "text": {
-        "en": "Return to Hamal the Chieftain. (opciones de chat: 2 But he killed your daughter! • 1 I will.)",
-        "es": "Vuelve con Hamal the Chieftain. (opciones de chat: 2 ¡Pero él mató a tu hija! • 1 Lo haré.)"
-      }
+        "en": "Return to Hamal the Chieftain.",
+        "es": "Vuelve con Hamal the Chieftain."
+      },
+      "chatOptions": [
+        "2 But he killed your daughter!",
+        "1 I will."
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "The burial",
       "text": {
         "en": "Take 5 muddy rocks from the camp. They can be found around the mud pond and in the goat pen north of the tent.",
         "es": "Coge 5 rocas embarradas del campamento. Se encuentran alrededor del estanque de barro y en el corral de cabras al norte de la tienda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "The burial",
       "text": {
-        "en": "Talk to Ragnar by the lake for Asleif's necklace. (opciones de chat: 1 Thank you. I will make sure she's given a proper burial now.)",
-        "es": "Habla con Ragnar junto al lago para conseguir el collar de Asleif. (opciones de chat: 1 Gracias. Me aseguraré de que reciba un entierro digno ahora.)"
-      }
+        "en": "Talk to Ragnar by the lake for Asleif's necklace.",
+        "es": "Habla con Ragnar junto al lago para conseguir el collar de Asleif."
+      },
+      "chatOptions": [
+        "1 Thank you. I will make sure she's given a proper burial now."
+      ]
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "The burial",
       "text": {
         "en": "Bury the corpse in the centre of the lake.",
         "es": "Entierra el cadáver en el centro del lago."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "The burial",
       "text": {
         "en": "Use the rocks on the burial mound.",
         "es": "Usa las rocas en el túmulo funerario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "The burial",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "hazeel-cult",
   "title": "Hazeel Cult",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:26:43.207Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:21.214Z",
   "icon": "https://runescape.wiki/images/Hazeel_Cult_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -65,271 +66,348 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Hazeel_Cult_reward.png?73d1c",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Ceril Carnillean, located in his house to the immediate south of the East Ardougne castle. (opciones de chat: 1 What's wrong? • Accept)",
-        "es": "Habla con Ceril Carnillean, que se encuentra en su casa justo al sur del castillo de East Ardougne. (opciones de chat: 1 ¿Qué ocurre? • Aceptar)"
-      }
+        "en": "Talk to Ceril Carnillean, located in his house to the immediate south of the East Ardougne castle.",
+        "es": "Habla con Ceril Carnillean, que se encuentra en su casa justo al sur del castillo de East Ardougne."
+      },
+      "chatOptions": [
+        "1 What's wrong?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Exit his house and make your way to the south side of it.",
         "es": "Sal de su casa y dirígete al lado sur de la misma."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "There are five valves that must be turned, complete them on the way to the cave to save time later:",
         "es": "Hay cinco válvulas que deben girarse; complétalas de camino a la cueva para ahorrar tiempo más tarde:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "Valve 2 is directly behind the Carnilleans' house. Turn it right.",
         "es": "La válvula 2 está justo detrás de la casa de los Carnillean. Gírala hacia la derecha."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "Valve 1 is west of the clock tower, just across the bridge. Turn it right.",
         "es": "La válvula 1 está al oeste de la torre del reloj, justo al cruzar el puente. Gírala hacia la derecha."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "Valve 3 is north of the cave, east of the clock tower. Turn it left.",
         "es": "La válvula 3 está al norte de la cueva, al este de la torre del reloj. Gírala hacia la izquierda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "Valve 4 is just south of Ardougne Zoo's penguin cage. Turn it right.",
         "es": "La válvula 4 está justo al sur de la jaula de los pingüinos del Ardougne Zoo. Gírala hacia la derecha."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "Valve 5 is south-east of the fourth valve, near Brother Cedric. Turn it right.",
         "es": "La válvula 5 está al sureste de la cuarta válvula, cerca de Brother Cedric. Gírala hacia la derecha."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Enter the cave entrance that is south of valve 3.",
         "es": "Entra en la cueva que se encuentra al sur de la válvula 3."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Pick a side and follow the guide for the according side.",
         "es": "Elige un bando y sigue la guía correspondiente a ese bando."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Carnillean's Side",
       "text": {
-        "en": "Talk to Clivet and refuse to help - he will disappear. (opciones de chat: 1 What do you mean? • 1 I will never help you.)",
-        "es": "Habla con Clivet y niégate a ayudarlo; desaparecerá. (opciones de chat: 1 ¿Qué quieres decir? • 1 Nunca te ayudaré.)"
-      }
+        "en": "Talk to Clivet and refuse to help - he will disappear.",
+        "es": "Habla con Clivet y niégate a ayudarlo; desaparecerá."
+      },
+      "chatOptions": [
+        "1 What do you mean?",
+        "1 I will never help you."
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Carnillean's Side",
       "text": {
         "en": "Board the raft.",
         "es": "Súbete a la balsa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Carnillean's Side",
       "text": {
         "en": "Go south and talk to Alomone, and then kill him.",
         "es": "Ve al sur, habla con Alomone y luego mátalo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Carnillean's Side",
       "text": {
         "en": "Pick up the Carnillean armour he drops.",
         "es": "Recoge la armadura Carnillean que suelta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Carnillean's Side",
       "text": {
         "en": "To get a second piece of armour, kill Alomone again. (You may have to drop the armour before killing Alomone.)",
         "es": "Para conseguir una segunda pieza de armadura, mata a Alomone de nuevo. (Puede que tengas que soltar la armadura antes de matar a Alomone.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Carnillean's Side",
       "text": {
         "en": "Before talking to Ceril to turn in the quest, drop one on the floor, he will take any you have in the backpack. If you bank it, it will be gone after.",
         "es": "Antes de hablar con Ceril para entregar la misión, suelta una pieza al suelo; él tomará cualquiera que tengas en la mochila. Si la guardas en el banco, desaparecerá después."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Carnillean's Side",
       "text": {
         "en": "Return to Carnilleans' house and talk to Ceril.",
         "es": "Vuelve a la casa de los Carnillean y habla con Ceril."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Carnillean's Side",
       "text": {
         "en": "You will get a kind of \"Quest Complete!\" notification, but there is one more step.",
         "es": "Recibirás una especie de notificación de \"¡Misión completada!\", pero aún queda un paso más."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Carnillean's Side",
       "text": {
         "en": "Go upstairs and search the wardrobe in the eastern room, on the southern wall.",
         "es": "Sube las escaleras y registra el armario de la habitación este, en la pared sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Carnillean's Side",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "The Cult's Side",
       "text": {
-        "en": "Talk to Clivet and agree to help. (opciones de chat: 1 What do you mean? • 2 So, what would I have to do? • 2 Okay, count me in.)",
-        "es": "Habla con Clivet y accede a ayudarlo. (opciones de chat: 1 ¿Qué quieres decir? • 2 Entonces, ¿qué tendría que hacer? • 2 Vale, cuenta conmigo.)"
-      }
+        "en": "Talk to Clivet and agree to help.",
+        "es": "Habla con Clivet y accede a ayudarlo."
+      },
+      "chatOptions": [
+        "1 What do you mean?",
+        "2 So, what would I have to do?",
+        "2 Okay, count me in."
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "The Cult's Side",
       "text": {
         "en": "Go to the basement of Ceril's house and use the bottle of poison on the range.",
         "es": "Ve al sótano de la casa de Ceril y usa la botella de veneno en la cocina."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The Cult's Side",
       "text": {
         "en": "Talk to one of the Carnilleans.",
         "es": "Habla con uno de los Carnillean."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "The Cult's Side",
       "text": {
         "en": "Return to the cave entrance.",
         "es": "Vuelve a la entrada de la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "The Cult's Side",
       "text": {
         "en": "Board the raft.",
         "es": "Súbete a la balsa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "The Cult's Side",
       "text": {
         "en": "Go south and talk to Alomone.",
         "es": "Ve al sur y habla con Alomone."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "The Cult's Side",
       "text": {
         "en": "Return to the Carnilleans' house.",
         "es": "Vuelve a la casa de los Carnillean."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "The Cult's Side",
       "text": {
         "en": "Search the crates in the basement for a chest key.",
         "es": "Registra las cajas del sótano en busca de una llave de cofre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "The Cult's Side",
       "text": {
         "en": "Exit the basement by heading up the ladder, and go upstairs.",
         "es": "Sal del sótano subiendo por la escalera de mano y sube al piso de arriba."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "The Cult's Side",
       "text": {
         "en": "Knock on the odd wall which is the north wall in the north-west room.",
         "es": "Llama a la pared extraña, que es la pared norte de la habitación noroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "The Cult's Side",
       "text": {
         "en": "Climb the ladder and unlock the chest to get the Hazeel scroll.",
         "es": "Sube por la escalera de mano y abre el cofre con la llave para obtener el pergamino de Hazeel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "The Cult's Side",
       "text": {
         "en": "Return to Alomone and talk to him to give him the scroll. A cutscene will play.",
         "es": "Vuelve con Alomone y habla con él para entregarle el pergamino. Se reproducirá una escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "The Cult's Side",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "goblin-diplomacy",
   "title": "Goblin Diplomacy",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:23:55.846Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:17.368Z",
   "icon": "https://runescape.wiki/images/Goblin_Diplomacy_icon.png",
   "series": null,
   "age": "5",
@@ -73,95 +74,124 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Goblin_Diplomacy_reward.png?ef6c8",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Teleport to Falador and run north along the road to the Goblin Village.",
         "es": "Teletranspórtate a Falador y corre hacia el norte por el camino hasta Goblin Village."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to General Bentnoze or General Wartface, both of whom are located in the hut. (opciones de chat: 1 So how is life for the goblins? • 2 Wouldn't you prefer peace? • 2 Do you want me to pick an armour colour for you? • 3 What about a different colour? • Accept)",
-        "es": "Habla con General Bentnoze o General Wartface, ambos se encuentran en la choza. (opciones de chat: 1 ¿Qué tal la vida para los goblins? • 2 ¿No preferiríais la paz? • 2 ¿Quieres que elija un color de armadura para ti? • 3 ¿Qué tal otro color? • Aceptar)"
-      }
+        "en": "Talk to General Bentnoze or General Wartface, both of whom are located in the hut.",
+        "es": "Habla con General Bentnoze o General Wartface, ambos se encuentran en la choza."
+      },
+      "chatOptions": [
+        "1 So how is life for the goblins?",
+        "2 Wouldn't you prefer peace?",
+        "2 Do you want me to pick an armour colour for you?",
+        "3 What about a different colour?",
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "If you need goblin mail, you can grab three suits of goblin mail from the following crates:",
         "es": "Si necesitas cota de malla goblin, puedes coger tres trajes de cota de malla goblin de los siguientes cajones:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Behind the generals' hut.",
         "es": "Detrás de la choza de los generales."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Behind the western hut.",
         "es": "Detrás de la choza occidental."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "Up a ladder in the middle of the gate entrance of the camp.",
         "es": "Subiendo una escalera en medio de la entrada de la puerta del campamento."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Dye one goblin mail blue and another orange.",
         "es": "Tiñe una cota de malla goblin de azul y otra de naranja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Use the orange goblin mail on one of the generals.",
         "es": "Usa la cota de malla goblin naranja en uno de los generales."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "After the cutscene, use the blue goblin mail on one of them.",
         "es": "Después de la escena, usa la cota de malla goblin azul en uno de ellos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Use a normal goblin mail on one of them.",
         "es": "Usa una cota de malla goblin normal en uno de ellos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

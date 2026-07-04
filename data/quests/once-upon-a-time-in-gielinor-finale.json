@@ -2,7 +2,8 @@
   "id": "once-upon-a-time-in-gielinor-finale",
   "title": "Once Upon a Time in Gielinor: Finale",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:45:50.088Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:43.786Z",
   "icon": "https://runescape.wiki/images/Once_Upon_a_Time_in_Gielinor_Finale_icon.png",
   "length": "Short",
   "startPoint": {
@@ -52,6 +53,7 @@
       "image": "https://runescape.wiki/images/thumb/Golden_partyhat_shard_detail.png/100px-Golden_partyhat_shard_detail.png?39421"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Once_Upon_a_Time_in_Gielinor_Finale_reward.png?b8622",
   "postQuest": [
     {
       "type": "item",
@@ -63,194 +65,283 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting off",
       "text": {
-        "en": "Talk to Closure. (opciones de chat: Accept)",
-        "es": "Habla con Closure. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Closure.",
+        "es": "Habla con Closure."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting off",
       "text": {
         "en": "Walk into the southern waiting lobby and complete the flashbacks for Kami, Meg, and Philipe.",
         "es": "Entra en la sala de espera sur y completa los recuerdos de Kami, Meg y Philipe."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Kami",
       "text": {
-        "en": "Talk to Kami. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Kami. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to Kami.",
+        "es": "Habla con Kami."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Kami",
       "text": {
-        "en": "Talk to Relomia. (opciones de chat: 3 Assign a task to Fraji. • 4 Fend off the Tiger's Claw!)",
-        "es": "Habla con Relomia. (opciones de chat: 3 Asignar una tarea a Fraji. • 4 ¡Repeler al Tiger's Claw!)"
-      }
+        "en": "Talk to Relomia.",
+        "es": "Habla con Relomia."
+      },
+      "chatOptions": [
+        "3 Assign a task to Fraji.",
+        "4 Fend off the Tiger's Claw!"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Kami",
       "text": {
-        "en": "Assign ally to the Big door (large green door). (opciones de chat: 1 Kami.)",
-        "es": "Asigna un aliado a la puerta grande (gran puerta verde). (opciones de chat: 1 Kami.)"
-      }
+        "en": "Assign ally to the Big door (large green door).",
+        "es": "Asigna un aliado a la puerta grande (gran puerta verde)."
+      },
+      "chatOptions": [
+        "1 Kami."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Kami",
       "text": {
-        "en": "Assign ally to any of the Intricate locks (blue circular matrix at the center). (opciones de chat: 2 Honovi.)",
-        "es": "Asigna un aliado a cualquiera de las cerraduras intrincadas (matriz circular azul en el centro). (opciones de chat: 2 Honovi.)"
-      }
+        "en": "Assign ally to any of the Intricate locks (blue circular matrix at the center).",
+        "es": "Asigna un aliado a cualquiera de las cerraduras intrincadas (matriz circular azul en el centro)."
+      },
+      "chatOptions": [
+        "2 Honovi."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Kami",
       "text": {
-        "en": "Assign ally to the Strange symbols (the large golden gong to the east). (opciones de chat: 3 Sojobo.)",
-        "es": "Asigna un aliado a los símbolos extraños (el gran gong dorado al este). (opciones de chat: 3 Sojobo.)"
-      }
+        "en": "Assign ally to the Strange symbols (the large golden gong to the east).",
+        "es": "Asigna un aliado a los símbolos extraños (el gran gong dorado al este)."
+      },
+      "chatOptions": [
+        "3 Sojobo."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Kami",
       "text": {
-        "en": "Talk to Relomia (opciones de chat: 4 Play back memory.)",
-        "es": "Habla con Relomia (opciones de chat: 4 Reproducir recuerdo.)"
-      }
+        "en": "Talk to Relomia",
+        "es": "Habla con Relomia"
+      },
+      "chatOptions": [
+        "4 Play back memory."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Kami",
       "text": {
         "en": "Talk to Kami after the cutscene.",
         "es": "Habla con Kami después de la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Meg",
       "text": {
-        "en": "Talk to Meg. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Meg. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to Meg.",
+        "es": "Habla con Meg."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Meg",
       "text": {
-        "en": "Talk to Relomia. (opciones de chat: 3 Assign a task to the Raptor. • 4 Delay Sutcliffe's return!)",
-        "es": "Habla con Relomia. (opciones de chat: 3 Asignar una tarea al Raptor. • 4 ¡Retrasar el regreso de Sutcliffe!)"
-      }
+        "en": "Talk to Relomia.",
+        "es": "Habla con Relomia."
+      },
+      "chatOptions": [
+        "3 Assign a task to the Raptor.",
+        "4 Delay Sutcliffe's return!"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Meg",
       "text": {
-        "en": "Assign ally to the front door of the castle. (opciones de chat: 1 Meg.)",
-        "es": "Asigna un aliado a la puerta principal del castillo. (opciones de chat: 1 Meg.)"
-      }
+        "en": "Assign ally to the front door of the castle.",
+        "es": "Asigna un aliado a la puerta principal del castillo."
+      },
+      "chatOptions": [
+        "1 Meg."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Meg",
       "text": {
-        "en": "Assign ally to the Black Knight patrol (he stands west of the start of the bridge). (opciones de chat: 2 Eva Cashien.)",
-        "es": "Asigna un aliado a la patrulla de Black Knight (se encuentra al oeste del inicio del puente). (opciones de chat: 2 Eva Cashien.)"
-      }
+        "en": "Assign ally to the Black Knight patrol (he stands west of the start of the bridge).",
+        "es": "Asigna un aliado a la patrulla de Black Knight (se encuentra al oeste del inicio del puente)."
+      },
+      "chatOptions": [
+        "2 Eva Cashien."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Meg",
       "text": {
-        "en": "Assign ally to the Roof access (the step-ladder east of the start of the bridge). (opciones de chat: 3 Captain Higgs.)",
-        "es": "Asigna un aliado al acceso al tejado (la escalera al este del inicio del puente). (opciones de chat: 3 Captain Higgs.)"
-      }
+        "en": "Assign ally to the Roof access (the step-ladder east of the start of the bridge).",
+        "es": "Asigna un aliado al acceso al tejado (la escalera al este del inicio del puente)."
+      },
+      "chatOptions": [
+        "3 Captain Higgs."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Meg",
       "text": {
-        "en": "Talk to Relomia. (opciones de chat: 4 Play back memory.)",
-        "es": "Habla con Relomia. (opciones de chat: 4 Reproducir recuerdo.)"
-      }
+        "en": "Talk to Relomia.",
+        "es": "Habla con Relomia."
+      },
+      "chatOptions": [
+        "4 Play back memory."
+      ]
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Meg",
       "text": {
         "en": "Talk to Meg after the cutscene.",
         "es": "Habla con Meg después de la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Philipe",
       "text": {
-        "en": "Talk to Philipe Carnillean. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Philipe Carnillean. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Talk to Philipe Carnillean.",
+        "es": "Habla con Philipe Carnillean."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Philipe",
       "text": {
-        "en": "Talk to Relomia. (opciones de chat: 3 Assign a task to Oreb. • 4 Taunt the Bright Inquisitor!)",
-        "es": "Habla con Relomia. (opciones de chat: 3 Asignar una tarea a Oreb. • 4 ¡Provocar al Bright Inquisitor!)"
-      }
+        "en": "Talk to Relomia.",
+        "es": "Habla con Relomia."
+      },
+      "chatOptions": [
+        "3 Assign a task to Oreb.",
+        "4 Taunt the Bright Inquisitor!"
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Philipe",
       "text": {
-        "en": "Assign ally to the World Gate controls. (opciones de chat: 1 Philipe.)",
-        "es": "Asigna un aliado a los controles de la World Gate. (opciones de chat: 1 Philipe.)"
-      }
+        "en": "Assign ally to the World Gate controls.",
+        "es": "Asigna un aliado a los controles de la World Gate."
+      },
+      "chatOptions": [
+        "1 Philipe."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Philipe",
       "text": {
-        "en": "Assign ally to the Defender position. (opciones de chat: 2 Commander Zilyana.)",
-        "es": "Asigna un aliado a la posición de defensor. (opciones de chat: 2 Commander Zilyana.)"
-      }
+        "en": "Assign ally to the Defender position.",
+        "es": "Asigna un aliado a la posición de defensor."
+      },
+      "chatOptions": [
+        "2 Commander Zilyana."
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Philipe",
       "text": {
-        "en": "Assign ally to the Bright Inquisitor. (opciones de chat: 3 Nymora.)",
-        "es": "Asigna un aliado al Bright Inquisitor. (opciones de chat: 3 Nymora.)"
-      }
+        "en": "Assign ally to the Bright Inquisitor.",
+        "es": "Asigna un aliado al Bright Inquisitor."
+      },
+      "chatOptions": [
+        "3 Nymora."
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Philipe",
       "text": {
-        "en": "Talk to Relomia. (opciones de chat: 4 Play back memory.)",
-        "es": "Habla con Relomia. (opciones de chat: 4 Reproducir recuerdo.)"
-      }
+        "en": "Talk to Relomia.",
+        "es": "Habla con Relomia."
+      },
+      "chatOptions": [
+        "4 Play back memory."
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Philipe",
       "text": {
         "en": "Talk to Philipe after the cutscene.",
         "es": "Habla con Philipe después de la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Wrapping up",
       "text": {
         "en": "Talk to Closure twice.",
         "es": "Habla con Closure dos veces."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

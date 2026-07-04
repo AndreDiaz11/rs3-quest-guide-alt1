@@ -2,7 +2,8 @@
   "id": "priest-in-peril",
   "title": "Priest in Peril",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:04:27.566Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:49.817Z",
   "icon": "https://runescape.wiki/images/Priest_in_Peril_icon.png",
   "series": "Myreque",
   "age": "5",
@@ -65,167 +66,219 @@
       "image": "https://runescape.wiki/images/thumb/Historian_Minas.png/100px-Historian_Minas.png?74d5d"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Priest_in_Peril_reward.png?7c515",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "A missing monk",
       "text": {
-        "en": "Talk to King Roald in Varrock Palace. (opciones de chat: 2 Greet the king. • Accept) (if New Foundations is started. (opciones de chat: 3 Greet the king. • Accept))",
+        "en": "Talk to King Roald in Varrock Palace. (if New Foundations is started. )",
         "es": "Habla con King Roald en Varrock Palace. (opciones de chat: 2 Saludar al rey. • Aceptar) (si New Foundations está iniciada. (opciones de chat: 3 Saludar al rey. • Aceptar))"
-      }
+      },
+      "chatOptions": [
+        "2 Greet the king.",
+        "Accept",
+        "3 Greet the king.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "A missing monk",
       "text": {
         "en": "Go to the temple in Silvarea which is east of the earth altar.",
         "es": "Ve al templo en Silvarea, al este del altar de tierra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "A missing monk",
       "text": {
         "en": "Players with an invitation box can teleport twice to arrive outside the temple.",
         "es": "Los jugadores con una invitation box pueden teletransportarse dos veces para llegar justo fuera del templo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "A missing monk",
       "text": {
-        "en": "Knock at the large door of the temple. (opciones de chat: 2 Knock at the door. • 1 Roald sent me to check on Drezel. • 1 Yes.)",
-        "es": "Llama a la puerta grande del templo. (opciones de chat: 2 Llamar a la puerta. • 1 Roald me envió a comprobar cómo está Drezel. • 1 Sí.)"
-      }
+        "en": "Knock at the large door of the temple.",
+        "es": "Llama a la puerta grande del templo."
+      },
+      "chatOptions": [
+        "2 Knock at the door.",
+        "1 Roald sent me to check on Drezel.",
+        "1 Yes."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "A missing monk",
       "text": {
         "en": "Go north and enter the mausoleum.",
         "es": "Ve al norte y entra en el mausoleo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "A missing monk",
       "text": {
         "en": "Kill Cerberus.",
         "es": "Mata a Cerberus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "A missing monk",
       "text": {
         "en": "Teleport to Varrock.",
         "es": "Teletranspórtate a Varrock."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "A missing monk",
       "text": {
-        "en": "Talk to King Roald. (opciones de chat: 1 Talk about Priest in Peril.)",
-        "es": "Habla con King Roald. (opciones de chat: 1 Hablar sobre Priest in Peril.)"
-      }
+        "en": "Talk to King Roald.",
+        "es": "Habla con King Roald."
+      },
+      "chatOptions": [
+        "1 Talk about Priest in Peril."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Making things right",
       "text": {
         "en": "At this time you can bring the 25 unnoted pure essence to save a trip later.",
         "es": "En este momento puedes llevar las 25 pure essence sin marcar para ahorrarte un viaje más tarde."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Making things right",
       "text": {
         "en": "Enter the Temple and kill a level 23 Monk of Zamorak to obtain a golden key.",
         "es": "Entra en el Temple y mata a un Monk of Zamorak de nivel 23 para obtener una golden key."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Making things right",
       "text": {
         "en": "Go outside and enter the Mausoleum to the north and through the gate.",
         "es": "Sal y entra en el Mausoleum al norte, y luego atraviesa la verja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Making things right",
       "text": {
         "en": "Study the monuments.",
         "es": "Estudia los monumentos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Making things right",
       "text": {
         "en": "Use the golden key on the one that has the iron key.",
         "es": "Usa la golden key en el que tiene la iron key."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Making things right",
       "text": {
         "en": "Fill a bucket with water from the well in the centre of the monument room.",
         "es": "Llena un bucket con agua del pozo en el centro de la sala de los monumentos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Saradomin's blessing",
       "text": {
         "en": "Go back to the temple and climb to the top floor.",
         "es": "Vuelve al templo y sube hasta el piso superior."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Saradomin's blessing",
       "text": {
         "en": "Use the iron key on the cell door and talk to Drezel.",
         "es": "Usa la iron key en la puerta de la celda y habla con Drezel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Saradomin's blessing",
       "text": {
         "en": "Use the bucket of blessed water on the Morytania coffin.",
         "es": "Usa el bucket of blessed water en el Morytania coffin."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Saradomin's blessing",
       "text": {
         "en": "Return to the mausoleum, enter the monument room, and speak with Drezel.",
         "es": "Vuelve al mausoleo, entra en la sala de los monumentos y habla con Drezel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Saradomin's blessing",
       "text": {
         "en": "Talk to him again to give him 50 unnoted rune essence or 25 unnoted pure essence.",
         "es": "Habla con él de nuevo para darle 50 rune essence sin marcar o 25 pure essence sin marcar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Saradomin's blessing",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

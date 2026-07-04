@@ -2,7 +2,8 @@
   "id": "sins-of-the-father",
   "title": "Sins of the Father",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:14:59.785Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:04.558Z",
   "icon": "https://runescape.wiki/images/Sins_of_the_Father_icon.png",
   "series": "The Elder God Wars",
   "age": "6",
@@ -61,167 +62,216 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Sins_of_the_Father_reward.png?da4b3",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Mr Mordaut at the Anachronia base camp. (opciones de chat: 1 Anachronia. • 1 Talk about Kerapac. • Accept)",
-        "es": "Habla con Mr Mordaut en el campamento base de Anachronia. (opciones de chat: 1 Anachronia. • 1 Hablar sobre Kerapac. • Aceptar)"
-      }
+        "en": "Talk to Mr Mordaut at the Anachronia base camp.",
+        "es": "Habla con Mr Mordaut en el campamento base de Anachronia."
+      },
+      "chatOptions": [
+        "1 Anachronia.",
+        "1 Talk about Kerapac.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to either Eliza or Alpheus south of the lodestone.",
         "es": "Habla con Eliza o con Alpheus, al sur de la piedra de viaje."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Exit Anachronia base camp to the north down the stairs, not via the Agility shortcut.",
         "es": "Sal del campamento base de Anachronia hacia el norte bajando las escaleras, no por el atajo de Agilidad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Continue north up the first set of stairs and investigate the bottom part of the dragonkin statue to your immediate west.",
         "es": "Continúa hacia el norte subiendo el primer tramo de escaleras e investiga la parte inferior de la estatua dragonkin, justo al oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "If a message appears telling you to complete this very quest, go back to the open area between the two flights of stairs (by the entrance to Kerapac's laboratory until you trigger a dialogue about something \"out of place\".",
         "es": "Si aparece un mensaje diciéndote que completes esta misma misión, vuelve a la zona abierta entre los dos tramos de escaleras (junto a la entrada al laboratorio de Kerapac) hasta que se active un diálogo sobre algo que está \"fuera de lugar\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "You must also trigger another dialogue in front of the statue itself about the statue looking different before you can enter the statue.",
         "es": "También debes activar otro diálogo delante de la propia estatua, sobre que la estatua parece diferente, antes de poder entrar en ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Enter the door.",
         "es": "Entra por la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Vicendithas (opciones de chat: 2 What are you doing here? • 2 Can I help with the machine? • 1 Play tutorial.).",
+        "en": "Talk to Vicendithas .",
         "es": "Habla con Vicendithas (opciones de chat: 2 ¿Qué haces aquí? • 2 ¿Puedo ayudar con la máquina? • 1 Reproducir tutorial.)."
-      }
+      },
+      "chatOptions": [
+        "2 What are you doing here?",
+        "2 Can I help with the machine?",
+        "1 Play tutorial."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Vicendithas again.",
         "es": "Vuelve a hablar con Vicendithas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Collect an effigy casing from the middle.",
         "es": "Recoge una carcasa de efigie del centro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Collect 20 resources from one of the nodes.",
         "es": "Recoge 20 recursos de uno de los nodos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Getting started",
       "text": {
         "en": "A chat box will appear. Confirm it or you won't be able to continue dialogue with Vicendithas.",
         "es": "Aparecerá un cuadro de chat. Confírmalo o no podrás continuar el diálogo con Vicendithas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Vicendithas. You need atleast 2 free inventory spaces.",
         "es": "Habla con Vicendithas. Necesitas al menos 2 espacios libres en el inventario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Go to Kerapac's workbench and construct the effigy.",
         "es": "Ve al banco de trabajo de Kerapac y construye la efigie."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Vicendithas.",
         "es": "Habla con Vicendithas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Turn the valves in the order instructed.",
         "es": "Gira las válvulas en el orden indicado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Interact with the incubator hatch to deposit the effigy.",
         "es": "Interactúa con la escotilla de la incubadora para depositar la efigie."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Interact with the incubator hatch again.",
         "es": "Interactúa de nuevo con la escotilla de la incubadora."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Vicendithas.",
         "es": "Habla con Vicendithas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Vicendithas again after ending the tutorial.",
         "es": "Vuelve a hablar con Vicendithas después de terminar el tutorial."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

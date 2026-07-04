@@ -2,7 +2,8 @@
   "id": "doric-s-task-viii-miniquest",
   "title": "Doric's Task VIII (miniquest)",
   "isMiniquest": true,
-  "guideLastUpdated": "2026-07-03T20:10:44.876Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:03.532Z",
   "icon": "https://runescape.wiki/images/Doric%27s_Task_VIII_%28miniquest%29_icon.png",
   "series": "Doric's Tasks",
   "age": "5",
@@ -65,63 +66,86 @@
       "image": "https://runescape.wiki/images/thumb/Gofannon_amulet_detail.png/100px-Gofannon_amulet_detail.png?6f44c"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Doric%27s_Task_VIII_%28miniquest%29_reward.png?bd1e3",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "The mysterious client",
       "text": {
-        "en": "Speak to Doric in his hut north of Falador. (opciones de chat: 1 Do you have any more Smithing tasks for me? • Accept • 1 I'm sure it will be fine.)",
-        "es": "Habla con Doric en su cabaña, al norte de Falador. (opciones de chat: 1 ¿Tienes más tareas de Herrería para mí? • Aceptar • 1 Seguro que no pasa nada.)"
-      }
+        "en": "Speak to Doric in his hut north of Falador.",
+        "es": "Habla con Doric en su cabaña, al norte de Falador."
+      },
+      "chatOptions": [
+        "1 Do you have any more Smithing tasks for me?",
+        "Accept",
+        "1 I'm sure it will be fine."
+      ]
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "The mysterious client",
       "text": {
         "en": "Ensure you received a weapons crate.",
         "es": "Asegúrate de haber recibido una caja de armas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The mysterious client",
       "text": {
         "en": "Smith 5 necronium 2h greataxes on any anvil.",
         "es": "Forja 5 hachas de guerra de dos manos de necronium en cualquier yunque."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The mysterious client",
       "text": {
-        "en": "Left-click add items to the weapons crate. (opciones de chat: 1 Yes.)",
-        "es": "Haz clic izquierdo para añadir objetos a la caja de armas. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Left-click add items to the weapons crate.",
+        "es": "Haz clic izquierdo para añadir objetos a la caja de armas."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The mysterious client",
       "text": {
-        "en": "Head to the Gem Store in Falador and investigate the tree stump, just south. (opciones de chat: 1 Yes.)",
-        "es": "Dirígete a la Tienda de Gemas en Falador e investiga el tocón de árbol, justo al sur. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Head to the Gem Store in Falador and investigate the tree stump, just south.",
+        "es": "Dirígete a la Tienda de Gemas en Falador e investiga el tocón de árbol, justo al sur."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The mysterious client",
       "text": {
         "en": "Watch the cutscene.",
         "es": "Observa la escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The mysterious client",
       "text": {
         "en": "Investigate the tree stump again.",
         "es": "Investiga el tocón de árbol de nuevo."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

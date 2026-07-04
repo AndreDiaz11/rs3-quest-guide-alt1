@@ -2,7 +2,8 @@
   "id": "vessel-of-the-harbinger",
   "title": "Vessel of the Harbinger",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:28:07.771Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:34.791Z",
   "icon": "https://runescape.wiki/images/thumb/Vessel_of_the_Harbinger_icon.png/50px-Vessel_of_the_Harbinger_icon.png",
   "series": "The First Necromancer",
   "age": "Age of Chaos",
@@ -111,247 +112,310 @@
       "image": "https://runescape.wiki/images/thumb/Well_of_Souls.png/100px-Well_of_Souls.png?6fc49"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/thumb/Vessel_of_the_Harbinger_reward.png/512px-Vessel_of_the_Harbinger_reward.png?57c69",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Speak to Death in the City of Um.",
         "es": "Habla con Death en la City of Um."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Teleport to the Ectofuntus using the Ectophial.",
         "es": "Teletranspórtate al Ectofuntus usando el Ectophial."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Speak to Necrovarus.",
         "es": "Habla con Necrovarus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Cleansing the souls",
       "text": {
         "en": "Kill 5 Tortured souls with Necromancy to the north to fill the soul urn.",
         "es": "Mata a 5 Tortured souls con Nigromancia al norte para llenar la urna de almas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Cleansing the souls",
       "text": {
         "en": "Worship the Ectofuntus with the filled urn and a bucket of slime in backpack.",
         "es": "Adora el Ectofuntus con la urna llena y un bucket of slime en la mochila."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Cleansing the souls",
       "text": {
         "en": "Gather a bucket of slime from the Pool of Slime, no bucket is required to gather the slime.",
         "es": "Recoge un bucket of slime del Pool of Slime; no se necesita ningún cubo para recoger el slime."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Cleansing the souls",
       "text": {
         "en": "Speak to Necrovarus.",
         "es": "Habla con Necrovarus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Retrieving the book of Haricanto",
       "text": {
         "en": "Head to Netty's house, on the eastern side of the Slayer Tower.",
         "es": "Dirígete a la casa de Netty, en el lado este de la Slayer Tower."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Retrieving the book of Haricanto",
       "text": {
         "en": "Teleport to the Slayer Tower by using ring of slaying or Dungeoneering cape (,,) or mask of the Abyss.",
         "es": "Teletranspórtate a la Slayer Tower usando un ring of slaying, la capa de Dungeoneering (,,) o la mask of the Abyss."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Retrieving the book of Haricanto",
       "text": {
         "en": "Otherwise, teleport to Canifis lodestone and run west past graveyard, where ghouls wander, and then directly north.",
         "es": "Si no, teletranspórtate a la piedra de viaje de Canifis y corre hacia el oeste pasando el cementerio, donde deambulan ghouls, y luego directamente al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Retrieving the book of Haricanto",
       "text": {
         "en": "Inspect the pile of letters just inside Netty's front door. If you do not have the option to inspect, you have missed a previous step.",
         "es": "Inspecciona el montón de cartas justo dentro de la puerta principal de la casa de Netty. Si no tienes la opción de inspeccionar, te has saltado un paso anterior."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Retrieving the book of Haricanto",
       "text": {
         "en": "Teleport back to the Ectofuntus and enter Port Phasmatys to speak to Velorina who is located at the northernmost house.",
         "es": "Teletranspórtate de vuelta al Ectofuntus y entra en Port Phasmatys para hablar con Velorina, que se encuentra en la casa más al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Retrieving the book of Haricanto",
       "text": {
         "en": "Head to the Last Call pub in the City of Um, east of the City of Um lodestone.",
         "es": "Dirígete al pub Last Call en la City of Um, al este de la piedra de viaje de la City of Um."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Retrieving the book of Haricanto",
       "text": {
-        "en": "Speak to Netty in the northeast corner of the pub to receive Netty's death certificate and will. (opciones de chat: 1 Talk about 'Vessel of the Harbinger'.)",
-        "es": "Habla con Netty en la esquina noreste del pub para recibir el certificado de defunción y el testamento de Netty. (opciones de chat: 1 Hablar sobre 'Vessel of the Harbinger'.)"
-      }
+        "en": "Speak to Netty in the northeast corner of the pub to receive Netty's death certificate and will.",
+        "es": "Habla con Netty en la esquina noreste del pub para recibir el certificado de defunción y el testamento de Netty."
+      },
+      "chatOptions": [
+        "1 Talk about 'Vessel of the Harbinger'."
+      ]
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Retrieving the book of Haricanto",
       "text": {
         "en": "Head to the bank in Port Phasmatys and speak to a ghost banker to claim Netty's key.",
         "es": "Dirígete al banco de Port Phasmatys y habla con un banquero fantasma para reclamar la llave de Netty."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Retrieving the book of Haricanto",
       "text": {
         "en": "Head back to Netty's house.",
         "es": "Regresa a la casa de Netty."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Retrieving the book of Haricanto",
       "text": {
         "en": "Open the chest.",
         "es": "Abre el cofre."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Retrieving the book of Haricanto",
       "text": {
         "en": "Use your Conjure Skeleton Warrior with a conduit equipped and attack Netty's skeleton. She will flee.",
         "es": "Usa tu Conjure Skeleton Warrior con un conducto equipado y ataca al esqueleto de Netty. Ella huirá."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Retrieving the book of Haricanto",
       "text": {
         "en": "Open the chest again to receive the book of Haricanto.",
         "es": "Abre el cofre de nuevo para recibir el book of Haricanto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Empower vessel ritual",
       "text": {
         "en": "Head back to Ectofuntus and talk to Necrovarus.",
         "es": "Regresa al Ectofuntus y habla con Necrovarus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Empower vessel ritual",
       "text": {
         "en": "Use a bucket on the Ectofuntus.",
         "es": "Usa un cubo en el Ectofuntus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Empower vessel ritual",
       "text": {
         "en": "Go to the ritual site in City of Um.",
         "es": "Ve al lugar del ritual en la City of Um."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Empower vessel ritual",
       "text": {
         "en": "Prepare an empower vessel ritual by using the pedestal.",
         "es": "Prepara un ritual de empower vessel usando el pedestal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "Empower vessel ritual",
       "text": {
         "en": "It requires 2 Elemental I, 1 Change I, 1 Commune I, 4 ritual light sources and 1 bucket of powerful slime as the focus.",
         "es": "Requiere 2 Elemental I, 1 Change I, 1 Commune I, 4 fuentes de luz ritual y 1 bucket of powerful slime como foco."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "Empower vessel ritual",
       "text": {
         "en": "Total 11 basic ghostly ink, 2 regular ghostly ink, 4 basic ritual candles or better to prepare the ritual from scratch.",
         "es": "En total, 11 basic ghostly ink, 2 regular ghostly ink y 4 basic ritual candles o mejores para preparar el ritual desde cero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Empower vessel ritual",
       "text": {
         "en": "Complete the ritual.",
         "es": "Completa el ritual."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Empower vessel ritual",
       "text": {
         "en": "Watch the cutscene.",
         "es": "Observa la escena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Empower vessel ritual",
       "text": {
         "en": "If the cutscene does not play, talk to Necrovarus.",
         "es": "Si la escena no se reproduce, habla con Necrovarus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Speak to Death.",
         "es": "Habla con Death."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

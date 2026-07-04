@@ -2,7 +2,8 @@
   "id": "smoking-kills",
   "title": "Smoking Kills",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:15:46.909Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:05.297Z",
   "icon": "https://runescape.wiki/images/Smoking_Kills_icon.png",
   "series": "Desert",
   "age": "5",
@@ -154,407 +155,510 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Smoking_Kills_reward.png?ded34",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Head to Pollnivneach. You can use the magic carpet network from Shantay Pass or Al Kharid lodestone to travel to Al Kharid and head south-east.",
         "es": "Dirígete a Pollnivneach. Puedes usar la red de alfombras mágicas desde Shantay Pass o la piedra de viaje de Al Kharid para viajar a Al Kharid y luego ir al sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Speak to Sumona in Pollnivneach (opciones de chat: Accept) (without a cat pet out).",
+        "en": "Speak to Sumona in Pollnivneach (without a cat pet out).",
         "es": "Habla con Sumona en Pollnivneach (opciones de chat: Aceptar) (sin tener ningún gato como mascota)."
-      }
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Equip your catspeak amulet.",
         "es": "Equípate el catspeak amulet."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Run south to the well in the town centre.",
         "es": "Corre hacia el sur hasta el pozo en el centro de la ciudad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Attempt to climb down the well.",
         "es": "Intenta bajar por el pozo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Speak to the cat, finish all prompts.",
         "es": "Habla con el gato y responde a todas las preguntas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "If you do not wear a catspeak amulet or skip the conversation, you will be unable to open the sealed tomb door later in the quest.",
         "es": "Si no llevas puesto el catspeak amulet o te saltas la conversación, no podrás abrir la puerta sellada de la tumba más adelante en la misión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Finding the tomb",
       "text": {
         "en": "Travel to Sophanem by either one of the following methods.",
         "es": "Viaja a Sophanem usando cualquiera de los siguientes métodos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 1,
+      "section": "Finding the tomb",
       "text": {
         "en": "Use the Magic carpet Network, and then run southeast, then along the seashore to the swamp.",
         "es": "Usa la red de alfombras mágicas y luego corre hacia el sureste, siguiendo la orilla del mar hasta el pantano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Finding the tomb",
       "text": {
         "en": "Menaphos lodestone teleport, then run east across the bridge to Sophanem (requires completion of The Jack of Spades and Contact!)",
         "es": "Teletransporte con la piedra de viaje de Menaphos, y luego corre hacia el este cruzando el puente hasta Sophanem (requiere haber completado The Jack of Spades y Contact!)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Finding the tomb",
       "text": {
         "en": "Head southeast towards the sea/swampland",
         "es": "Dirígete al sureste hacia el mar/pantano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Finding the tomb",
       "text": {
         "en": "Enter the swamp using the entrance at the south end of the swamp, by the seashore.",
         "es": "Entra en el pantano usando la entrada en el extremo sur del pantano, junto a la orilla del mar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Finding the tomb",
       "text": {
         "en": "Make your way to the north-west part of the swamp, \"climb fallen pillar\", and go up the stairs.",
         "es": "Avanza hacia la parte noroeste del pantano, \"sube por el pilar caído\" (climb fallen pillar) y sube las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Finding the tomb",
       "text": {
         "en": "Optional: Go west, \"climb low wall\", use your rope on the \"rock\", jutting out over the edge - this will give you quicker access in the future.",
         "es": "Opcional: ve hacia el oeste, \"escala el muro bajo\" (climb low wall), usa tu rope en la \"roca\" (rock) que sobresale del borde; esto te dará un acceso más rápido en el futuro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Finding the tomb",
       "text": {
         "en": "Walk north past the archaeologist's fire, through the opening between the cliffs.",
         "es": "Camina hacia el norte pasando la hoguera del arqueólogo, a través de la abertura entre los acantilados."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Finding the tomb",
       "text": {
         "en": "Search the western wall for a sealed door to enter the dungeon.",
         "es": "Busca en el muro occidental una puerta sellada para entrar en la mazmorra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Inside the tomb",
       "text": {
         "en": "Drop your cat, search the western \"holey wall\". Agree, and your cat will enter, opening the wall.",
         "es": "Deja a tu gato en el suelo, examina el \"muro agujereado\" (holey wall) del oeste. Acepta, y tu gato entrará, abriendo el muro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Inside the tomb",
       "text": {
         "en": "Go west, kill (or ignore) the 3 skeletons to the south with magic/range/necromancy.",
         "es": "Ve hacia el oeste, mata (o ignora) a los 3 esqueletos del sur con magia/distancia/nigromancia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Inside the tomb",
       "text": {
         "en": "Destroy the broken door until you can walk through it.",
         "es": "Destruye la puerta rota hasta que puedas pasar por ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Inside the tomb",
       "text": {
         "en": "Search the west wall (not the odd markings on the east wall) twice to temporarily disable and pass two traps.",
         "es": "Examina el muro occidental (no las extrañas marcas del muro oriental) dos veces para desactivar temporalmente y pasar dos trampas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Inside the tomb",
       "text": {
         "en": "Enter the door to the north.",
         "es": "Entra por la puerta del norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Inside the tomb",
       "text": {
         "en": "Kill the zombies and skeletons.",
         "es": "Mata a los zombis y esqueletos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Inside the tomb",
       "text": {
         "en": "After about 10-20 seconds, a level 77 mummy warrior will spawn. Kill it and take the .",
         "es": "Después de unos 10-20 segundos, aparecerá un mummy warrior de nivel 77. Mátalo y coge el ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Inside the tomb",
       "text": {
         "en": "Open the door to the east, pull the lever on the northern wall.",
         "es": "Abre la puerta del este, tira de la palanca en el muro norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Inside the tomb",
       "text": {
         "en": "Return to the starting room (traps on this side are now permanently disabled)",
         "es": "Vuelve a la sala inicial (las trampas de este lado ahora están desactivadas permanentemente)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Inside the tomb",
       "text": {
         "en": "Repeat steps on the other side.",
         "es": "Repite los pasos en el otro lado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "Inside the tomb",
       "text": {
         "en": "Go east, kill (or ignore) the 3 skeletons to the south with magic/range/necro.",
         "es": "Ve hacia el este, mata (o ignora) a los 3 esqueletos del sur con magia/distancia/nigromancia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Inside the tomb",
       "text": {
         "en": "Destroy the broken door.",
         "es": "Destruye la puerta rota."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 1,
+      "section": "Inside the tomb",
       "text": {
         "en": "Search the east wall (not odd markings on the west wall) twice to disable and pass two traps.",
         "es": "Examina el muro oriental (no las extrañas marcas del muro occidental) dos veces para desactivar y pasar dos trampas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Inside the tomb",
       "text": {
         "en": "Enter the door to the north.",
         "es": "Entra por la puerta del norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Inside the tomb",
       "text": {
         "en": "Kill the zombies and skeletons.",
         "es": "Mata a los zombis y esqueletos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "Inside the tomb",
       "text": {
         "en": "After about 10-20 seconds, a level 77 mummy warrior will spawn. Kill it and take the .",
         "es": "Después de unos 10-20 segundos, aparecerá un mummy warrior de nivel 77. Mátalo y coge el ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Inside the tomb",
       "text": {
         "en": "Use the key on the door to the west, pull the lever on the northern wall.",
         "es": "Usa la llave en la puerta del oeste, tira de la palanca en el muro norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Inside the tomb",
       "text": {
         "en": "Return to the starting room (traps on this side are now permanently disabled).",
         "es": "Vuelve a la sala inicial (las trampas de este lado ahora están desactivadas permanentemente)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Inside the tomb",
       "text": {
         "en": "Walk north, all traps have been disabled and can be ignored.",
         "es": "Camina hacia el norte; todas las trampas están desactivadas y puedes ignorarlas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Inside the tomb",
       "text": {
         "en": "Equip your and talk to Catolax.",
         "es": "Equípate el y habla con Catolax."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Inside the tomb",
       "text": {
         "en": "Use your on your to create .",
         "es": "Usa tu en tu para crear ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Return to Pollnivneach.",
         "es": "Regresa a Pollnivneach."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Equip your masked earmuffs and combat gear.",
         "es": "Equípate los masked earmuffs y tu equipo de combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Enter the well in the town centre.",
         "es": "Entra en el pozo del centro de la ciudad."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Head north, kill a mighty banshee to get a . The drop must be manually picked up; it will not appear in the area loot interface.",
         "es": "Dirígete al norte y mata a una mighty banshee para conseguir un . El objeto debe recogerse manualmente; no aparecerá en la interfaz de botín del área."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Ensure any follower is dismissed first, then run all the way north to the large blue/purple wavering mystic barrier and pass through it.",
         "es": "Asegúrate de despedir primero a cualquier acompañante, y luego corre todo el camino hacia el norte hasta la gran barrera mística ondulante de color azul/púrpura, y atraviésala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 1,
+      "section": "The final fight",
       "text": {
         "en": "Do not click on anything else while the cutscene is in motion, or you will go back outside the barrier and will need to acquire another banshee voice.",
         "es": "No hagas clic en nada más mientras la escena cinemática esté en marcha, o volverás fuera de la barrera y tendrás que conseguir otra voz de banshee."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "After the cutscene, attack the Banshee mistress. She is weak to bolts, so using range is recommended if you're lower-levelled.",
         "es": "Después de la escena cinemática, ataca a la Banshee mistress. Es débil frente a los bolts, así que se recomienda usar distancia si tienes un nivel bajo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "The final fight",
       "text": {
         "en": "Enable the Protect from Ranged prayer after she gets to 50% health.",
         "es": "Activa la oración Protect from Ranged cuando ella llegue al 50% de vida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Finish the fight and watch the cutscene.",
         "es": "Termina el combate y observa la escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 1,
+      "section": "The final fight",
       "text": {
         "en": "If you click on anything else, you will go outside the barrier, but you will not have to fight again; you can easily go back inside the barrier to continue the last cutscene.",
         "es": "Si haces clic en cualquier otra cosa, saldrás de la barrera, pero no tendrás que luchar de nuevo; podrás volver fácilmente dentro de la barrera para continuar la última escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Return to Pollnivneach (you can climb out of the well).",
         "es": "Regresa a Pollnivneach (puedes subir por el pozo para salir)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Pick up your cat if you have not already done so.",
         "es": "Recoge a tu gato si aún no lo has hecho."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "The final fight",
       "text": {
         "en": "Talk to Sumona again to complete the quest.",
         "es": "Habla de nuevo con Sumona para completar la misión."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

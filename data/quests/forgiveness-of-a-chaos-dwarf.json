@@ -2,7 +2,8 @@
   "id": "forgiveness-of-a-chaos-dwarf",
   "title": "Forgiveness of a Chaos Dwarf",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:20:36.303Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:14.530Z",
   "icon": "https://runescape.wiki/images/Forgiveness_of_a_Chaos_Dwarf_icon.png",
   "series": "Dwarf (Red Axe)",
   "age": "ambiguous",
@@ -97,351 +98,500 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Forgiveness_of_a_Chaos_Dwarf_reward.png?ad81c",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Initial Battle",
       "text": {
-        "en": "Talk to Commander Veldaban in the building west of the bank in west Keldagrim. (opciones de chat: 3 Do you have a quest for me? • Accept • 2 Do you think the Red Axe is behind it?)",
-        "es": "Habla con Commander Veldaban en el edificio al oeste del banco, en el oeste de Keldagrim. (opciones de chat: 3 ¿Tienes una misión para mí? • Aceptar • 2 ¿Crees que la Red Axe está detrás de esto?)"
-      }
+        "en": "Talk to Commander Veldaban in the building west of the bank in west Keldagrim.",
+        "es": "Habla con Commander Veldaban en el edificio al oeste del banco, en el oeste de Keldagrim."
+      },
+      "chatOptions": [
+        "3 Do you have a quest for me?",
+        "Accept",
+        "2 Do you think the Red Axe is behind it?"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Initial Battle",
       "text": {
         "en": "After the cutscene you will be transported next to the Keldagrim Watchtower, continue dialogue with Commander Veldaban.",
         "es": "Tras la escena cinemática, serás transportado junto a la Keldagrim Watchtower; continúa el diálogo con Commander Veldaban."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Initial Battle",
       "text": {
         "en": "Head into the Keldagrim Watchtower next to you, travel upstairs to the roof, and kill the chaos dwarf and pick up the mysterious slip.",
         "es": "Entra en la Keldagrim Watchtower que tienes al lado, sube hasta el tejado y mata al chaos dwarf, luego recoge la nota misteriosa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Initial Battle",
       "text": {
-        "en": "Talk to Commander Veldaban about the slip. (opciones de chat: 3 The chaos dwarf dropped a slip of paper. • 1 I'll take the slip to the Grand Exchange now.)",
-        "es": "Habla con Commander Veldaban sobre la nota. (opciones de chat: 3 El chaos dwarf soltó una nota de papel. • 1 Llevaré la nota al Grand Exchange ahora mismo.)"
-      }
+        "en": "Talk to Commander Veldaban about the slip.",
+        "es": "Habla con Commander Veldaban sobre la nota."
+      },
+      "chatOptions": [
+        "3 The chaos dwarf dropped a slip of paper.",
+        "1 I'll take the slip to the Grand Exchange now."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Initial Battle",
       "text": {
-        "en": "Talk to any Grand Exchange clerk at the Grand Exchange in Varrock. (opciones de chat: 5 I have this dwarven order slip...)",
-        "es": "Habla con cualquier empleado del Grand Exchange en el Grand Exchange de Varrock. (opciones de chat: 5 Tengo esta nota de pedido enana...)"
-      }
+        "en": "Talk to any Grand Exchange clerk at the Grand Exchange in Varrock.",
+        "es": "Habla con cualquier empleado del Grand Exchange en el Grand Exchange de Varrock."
+      },
+      "chatOptions": [
+        "5 I have this dwarven order slip..."
+      ]
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Initial Battle",
       "text": {
         "en": "Grand Exchange clerks in Prifddinas, the Max Guild, and Menaphos do not work.",
         "es": "Los empleados del Grand Exchange de Prifddinas, la Max Guild y Menaphos no funcionan para esto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Initial Battle",
       "text": {
         "en": "If you have never used the Grand Exchange (common for ironmen), the Grand Exchange clerk will refuse to talk to you. Speak to the Grand Exchange Tutor just south and state that \"I want the basics from you.\" before talking to the Grand Exchange clerk.",
         "es": "Si nunca has usado el Grand Exchange (algo común entre los ironmen), el empleado del Grand Exchange se negará a hablar contigo. Habla con el Grand Exchange Tutor, justo al sur, y dile \"I want the basics from you.\" antes de volver a hablar con el empleado del Grand Exchange."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Drunk Commander",
       "text": {
-        "en": "Talk to Veldaban in the Laughing Miner pub in eastern Keldagrim (if he doesn't appear, logout and log back in. In some cases, even after a client restart, he may not appear visually, if this is the case you may click on an invisible Veldaban by clicking on the the northern seat of the most northwestern table in the Laughing Miner pub to speak to him). (opciones de chat: 2 What are you doing here? • 4 Do you think the Red Axe is involved?)",
-        "es": "Habla con Veldaban en el pub Laughing Miner, en el este de Keldagrim (si no aparece, cierra sesión y vuelve a entrar. En algunos casos, incluso tras reiniciar el cliente, puede que no aparezca visualmente; si es así, puedes hacer clic en un Veldaban invisible pulsando sobre el asiento norte de la mesa más al noroeste del pub Laughing Miner para hablar con él). (opciones de chat: 2 ¿Qué haces aquí? • 4 ¿Crees que la Red Axe está implicada?)"
-      }
+        "en": "Talk to Veldaban in the Laughing Miner pub in eastern Keldagrim (if he doesn't appear, logout and log back in. In some cases, even after a client restart, he may not appear visually, if this is the case you may click on an invisible Veldaban by clicking on the the northern seat of the most northwestern table in the Laughing Miner pub to speak to him).",
+        "es": "Habla con Veldaban en el pub Laughing Miner, en el este de Keldagrim (si no aparece, cierra sesión y vuelve a entrar. En algunos casos, incluso tras reiniciar el cliente, puede que no aparezca visualmente; si es así, puedes hacer clic en un Veldaban invisible pulsando sobre el asiento norte de la mesa más al noroeste del pub Laughing Miner para hablar con él)."
+      },
+      "chatOptions": [
+        "2 What are you doing here?",
+        "4 Do you think the Red Axe is involved?"
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Drunk Commander",
       "text": {
-        "en": "Ask the barmaid for his stout. (opciones de chat: 4 Commander Veldaban wants a Guardsman's Stout. • Any)",
-        "es": "Pídele a la camarera su stout. (opciones de chat: 4 Commander Veldaban quiere un Guardsman's Stout. • Cualquiera)"
-      }
+        "en": "Ask the barmaid for his stout.",
+        "es": "Pídele a la camarera su stout."
+      },
+      "chatOptions": [
+        "4 Commander Veldaban wants a Guardsman's Stout.",
+        "Any"
+      ]
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Drunk Commander",
       "text": {
-        "en": "Talk to Veldaban about the battle then take him to the headquarters. (opciones de chat: 4 I didn't know you had a lady-friend. • 2 What was the Battle of Barendir? • 1 The barmaid said she'd seen you with someone. • 2 Let's talk about something else. • 1 Are you drunk? • 1 What are you doing here? • 4 Do you think the Red Axe is involved? • 3 Do you think the missing persons are connected to the chaos dwarves? • 2 Who's on the case now? • 1 Why did he take you off the case? • 4 Let's talk about something else. • 3 I have the Grand Exchange Package • 5 Let's Talk about something else • 1 Let's go.)",
-        "es": "Habla con Veldaban sobre la batalla y luego llévalo al cuartel general. (opciones de chat: 4 No sabía que tenías novia. • 2 ¿Qué fue la Battle of Barendir? • 1 La camarera dijo que te había visto con alguien. • 2 Hablemos de otra cosa. • 1 ¿Estás borracho? • 1 ¿Qué haces aquí? • 4 ¿Crees que la Red Axe está implicada? • 3 ¿Crees que las personas desaparecidas están relacionadas con los chaos dwarves? • 2 ¿Quién lleva el caso ahora? • 1 ¿Por qué te apartó del caso? • 4 Hablemos de otra cosa. • 3 Tengo el paquete del Grand Exchange • 5 Hablemos de otra cosa • 1 Vamos.)"
-      }
+        "en": "Talk to Veldaban about the battle then take him to the headquarters.",
+        "es": "Habla con Veldaban sobre la batalla y luego llévalo al cuartel general."
+      },
+      "chatOptions": [
+        "4 I didn't know you had a lady-friend.",
+        "2 What was the Battle of Barendir?",
+        "1 The barmaid said she'd seen you with someone.",
+        "2 Let's talk about something else.",
+        "1 Are you drunk?",
+        "1 What are you doing here?",
+        "4 Do you think the Red Axe is involved?",
+        "3 Do you think the missing persons are connected to the chaos dwarves?",
+        "2 Who's on the case now?",
+        "1 Why did he take you off the case?",
+        "4 Let's talk about something else.",
+        "3 I have the Grand Exchange Package",
+        "5 Let's Talk about something else",
+        "1 Let's go."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Drunk Commander",
       "text": {
         "en": "After the cutscene, head back to watchtower in the south area of west Keldagrim, where you fought the chaos dwarf.",
         "es": "Tras la escena cinemática, vuelve a la watchtower en la zona sur del oeste de Keldagrim, donde luchaste contra el chaos dwarf."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Investigation",
       "text": {
         "en": "Open the package and take all the items.",
         "es": "Abre el paquete y coge todos los objetos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Investigation",
       "text": {
         "en": "Use the boot on the footprints south of the watchtower building (where you defeated the chaos dwarf).",
         "es": "Usa la bota sobre las huellas al sur del edificio de la watchtower (donde derrotaste al chaos dwarf)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Investigation",
       "text": {
         "en": "Follow the footsteps south and then west to reach a small fire pit (the one across the bridge - it looks different from the other fire pits in the area).",
         "es": "Sigue las huellas hacia el sur y luego hacia el oeste hasta llegar a una pequeña fogata (la que está al otro lado del puente; tiene un aspecto distinto al de las demás fogatas de la zona)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Investigation",
       "text": {
         "en": "Use the bowl on the fire pit, remove it, then use the rod on the fire pit.",
         "es": "Usa el cuenco en la fogata, retíralo, y luego usa la varilla en la fogata."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Investigation",
       "text": {
         "en": "Turn the rod.",
         "es": "Gira la varilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Investigation",
       "text": {
         "en": "Enter the tunnel west, then enter the doorway at the west end.",
         "es": "Entra en el túnel hacia el oeste y luego atraviesa la puerta que hay en el extremo oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Investigation",
       "text": {
         "en": "Free your hands.",
         "es": "Libera tus manos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Investigation",
       "text": {
         "en": "Attempt to ride the train cart (you don't go far).",
         "es": "Intenta montar en el carro de la vagoneta (no llegarás muy lejos)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Investigation",
       "text": {
         "en": "Leave through the tunnel back to Keldagrim.",
         "es": "Sal por el túnel de vuelta a Keldagrim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Investigation",
       "text": {
         "en": "Dismiss any followers you may have.",
         "es": "Despide a cualquier seguidor que tengas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Investigation",
       "text": {
-        "en": "Talk to Commander Veldaban back where the quest started (opciones de chat: 3 I found a secret door in the mines. • 1 Let's go.) and take him back to the caves.",
+        "en": "Talk to Commander Veldaban back where the quest started and take him back to the caves.",
         "es": "Habla con Commander Veldaban donde comenzó la misión (opciones de chat: 3 He encontrado una puerta secreta en las minas. • 1 Vamos.) y llévalo de vuelta a las cuevas."
-      }
+      },
+      "chatOptions": [
+        "3 I found a secret door in the mines.",
+        "1 Let's go."
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Cart Labyrinth",
       "text": {
-        "en": "Try to control the Dwarven Machinery and have Veldaban do it while you ride the cart. (opciones de chat: 3 You take the stones and man the board. I'll ride the cart.)",
-        "es": "Intenta controlar la Dwarven Machinery y haz que Veldaban se encargue mientras tú viajas en el carro. (opciones de chat: 3 Tú coge las piedras y maneja el panel. Yo iré en el carro.)"
-      }
+        "en": "Try to control the Dwarven Machinery and have Veldaban do it while you ride the cart.",
+        "es": "Intenta controlar la Dwarven Machinery y haz que Veldaban se encargue mientras tú viajas en el carro."
+      },
+      "chatOptions": [
+        "3 You take the stones and man the board. I'll ride the cart."
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Cart Labyrinth",
       "text": {
         "en": "Click on the cart to begin.",
         "es": "Haz clic en el carro para empezar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Cart Labyrinth",
       "text": {
         "en": "Follow these choices:",
         "es": "Sigue estas opciones:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Cart Labyrinth",
       "text": {
-        "en": "Yellow (opciones de chat: 2 Yellow Stone)",
-        "es": "Amarillo (opciones de chat: 2 Yellow Stone)"
-      }
+        "en": "Yellow",
+        "es": "Amarillo"
+      },
+      "chatOptions": [
+        "2 Yellow Stone"
+      ]
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "Cart Labyrinth",
       "text": {
-        "en": "Green (opciones de chat: 1 Green Stone)",
-        "es": "Verde (opciones de chat: 1 Green Stone)"
-      }
+        "en": "Green",
+        "es": "Verde"
+      },
+      "chatOptions": [
+        "1 Green Stone"
+      ]
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Cart Labyrinth",
       "text": {
-        "en": "Yellow (opciones de chat: 2 Yellow Stone)",
-        "es": "Amarillo (opciones de chat: 2 Yellow Stone)"
-      }
+        "en": "Yellow",
+        "es": "Amarillo"
+      },
+      "chatOptions": [
+        "2 Yellow Stone"
+      ]
     },
     {
       "index": 28,
       "indent": 1,
+      "section": "Cart Labyrinth",
       "text": {
-        "en": "Green (opciones de chat: 1 Green Stone)",
-        "es": "Verde (opciones de chat: 1 Green Stone)"
-      }
+        "en": "Green",
+        "es": "Verde"
+      },
+      "chatOptions": [
+        "1 Green Stone"
+      ]
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Cart Labyrinth",
       "text": {
-        "en": "Green (opciones de chat: 1 Green Stone)",
-        "es": "Verde (opciones de chat: 1 Green Stone)"
-      }
+        "en": "Green",
+        "es": "Verde"
+      },
+      "chatOptions": [
+        "1 Green Stone"
+      ]
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Cart Labyrinth",
       "text": {
-        "en": "Yellow (opciones de chat: 2 Yellow Stone)",
-        "es": "Amarillo (opciones de chat: 2 Yellow Stone)"
-      }
+        "en": "Yellow",
+        "es": "Amarillo"
+      },
+      "chatOptions": [
+        "2 Yellow Stone"
+      ]
     },
     {
       "index": 31,
       "indent": 1,
+      "section": "Cart Labyrinth",
       "text": {
-        "en": "Yellow (opciones de chat: 2 Yellow Stone)",
-        "es": "Amarillo (opciones de chat: 2 Yellow Stone)"
-      }
+        "en": "Yellow",
+        "es": "Amarillo"
+      },
+      "chatOptions": [
+        "2 Yellow Stone"
+      ]
     },
     {
       "index": 32,
       "indent": 1,
+      "section": "Cart Labyrinth",
       "text": {
-        "en": "Yellow (opciones de chat: 2 Yellow Stone)",
-        "es": "Amarillo (opciones de chat: 2 Yellow Stone)"
-      }
+        "en": "Yellow",
+        "es": "Amarillo"
+      },
+      "chatOptions": [
+        "2 Yellow Stone"
+      ]
     },
     {
       "index": 33,
       "indent": 1,
+      "section": "Cart Labyrinth",
       "text": {
-        "en": "Yellow (opciones de chat: 2 Yellow Stone)",
-        "es": "Amarillo (opciones de chat: 2 Yellow Stone)"
-      }
+        "en": "Yellow",
+        "es": "Amarillo"
+      },
+      "chatOptions": [
+        "2 Yellow Stone"
+      ]
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Cart Labyrinth",
       "text": {
         "en": "Pull the bridge lever.",
         "es": "Tira de la palanca del puente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Rescue and Escape",
       "text": {
         "en": "Head south to the prison and open the door.",
         "es": "Dirígete al sur, hacia la prisión, y abre la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Rescue and Escape",
       "text": {
-        "en": "Talk to Fjoila. (opciones de chat: 4 You should get back to Keldagrim now. • 1 You told the prisoner we'd look for Hilda.)",
-        "es": "Habla con Fjoila. (opciones de chat: 4 Deberías volver a Keldagrim ahora. • 1 Le dijimos a la prisionera que buscaríamos a Hilda.)"
-      }
+        "en": "Talk to Fjoila.",
+        "es": "Habla con Fjoila."
+      },
+      "chatOptions": [
+        "4 You should get back to Keldagrim now.",
+        "1 You told the prisoner we'd look for Hilda."
+      ]
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Rescue and Escape",
       "text": {
         "en": "Head south, turn either of the switches and go through the doorway. Commander Veldaban may be stuck up north.",
         "es": "Ve hacia el sur, activa cualquiera de los interruptores y atraviesa la puerta. Es posible que Commander Veldaban se quede atascado en el norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Rescue and Escape",
       "text": {
-        "en": "Watch the cutscene. (opciones de chat: Any)",
-        "es": "Observa la escena cinemática. (opciones de chat: Cualquiera)"
-      }
+        "en": "Watch the cutscene.",
+        "es": "Observa la escena cinemática."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Rescue and Escape",
       "text": {
-        "en": "After the cutscene, talk to Veldaban in the room. (opciones de chat: Any • 3 That wasn't Hilda. Hilda was gone by then. • 4 There are still some things in the package.)",
-        "es": "Tras la escena cinemática, habla con Veldaban en la habitación. (opciones de chat: Cualquiera • 3 Esa no era Hilda. Hilda ya se había ido para entonces. • 4 Todavía quedan algunas cosas en el paquete.)"
-      }
+        "en": "After the cutscene, talk to Veldaban in the room.",
+        "es": "Tras la escena cinemática, habla con Veldaban en la habitación."
+      },
+      "chatOptions": [
+        "Any",
+        "3 That wasn't Hilda. Hilda was gone by then.",
+        "4 There are still some things in the package."
+      ]
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Rescue and Escape",
       "text": {
         "en": "Use the metal rectangle then the turnscrew on the sorting machine.",
         "es": "Usa el rectángulo metálico y luego el destornillador en la máquina clasificadora."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Rescue and Escape",
       "text": {
         "en": "Squeeze through the hole and ride the train cart for a cutscene.",
         "es": "Pasa por el agujero apretujándote y monta en el carro de la vagoneta para disfrutar de una escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Rescue and Escape",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

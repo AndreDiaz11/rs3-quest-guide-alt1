@@ -2,7 +2,8 @@
   "id": "soul-searching",
   "title": "Soul Searching",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:16:43.171Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:06.334Z",
   "icon": "https://runescape.wiki/images/Soul_Searching_icon.png",
   "series": null,
   "age": "Age of Chaos",
@@ -72,103 +73,144 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Soul_Searching_reward.png?443bd",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Suspicious Stranger",
       "text": {
         "en": "Talk to Trista on the dock north of Soul Supplies in the City of Um.",
         "es": "Habla con Trista en el muelle al norte de Soul Supplies en la City of Um."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Suspicious Stranger",
       "text": {
-        "en": "Choose the \"Eavesdrop\" option on Trista. (opciones de chat: Accept)",
-        "es": "Elige la opción \"Escuchar a escondidas\" con Trista. (opciones de chat: Aceptar)"
-      }
+        "en": "Choose the \"Eavesdrop\" option on Trista.",
+        "es": "Elige la opción \"Escuchar a escondidas\" con Trista."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Death",
       "text": {
-        "en": "Talk to Death in the City of Um. (opciones de chat: 1 Talk about 'Soul Searching')",
-        "es": "Habla con Death en la City of Um. (opciones de chat: 1 Hablar sobre 'Soul Searching')"
-      }
+        "en": "Talk to Death in the City of Um.",
+        "es": "Habla con Death en la City of Um."
+      },
+      "chatOptions": [
+        "1 Talk about 'Soul Searching'"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Death",
       "text": {
-        "en": "Talk to the Suspicious Stranger on the dock where Trista was earlier. (opciones de chat: 1 Convince • 2 Persuade. • 3 Threaten.)",
-        "es": "Habla con el Suspicious Stranger en el muelle donde estaba Trista antes. (opciones de chat: 1 Convencer • 2 Persuadir. • 3 Amenazar.)"
-      }
+        "en": "Talk to the Suspicious Stranger on the dock where Trista was earlier.",
+        "es": "Habla con el Suspicious Stranger en el muelle donde estaba Trista antes."
+      },
+      "chatOptions": [
+        "1 Convince",
+        "2 Persuade.",
+        "3 Threaten."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Death",
       "text": {
-        "en": "Talk to Death in the City of Um. (opciones de chat: 1 Talk about 'Soul Searching')",
-        "es": "Habla con Death en la City of Um. (opciones de chat: 1 Hablar sobre 'Soul Searching')"
-      }
+        "en": "Talk to Death in the City of Um.",
+        "es": "Habla con Death en la City of Um."
+      },
+      "chatOptions": [
+        "1 Talk about 'Soul Searching'"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Malignius",
       "text": {
-        "en": "Talk to Malignius Mortifer at the Um ritual site with the required items in your backpack. (opciones de chat: 2 Quests. • #<!-- The position of the option varies depending on which quests you have completed. --> Soul Searching. • 1 Yes.)",
-        "es": "Habla con Malignius Mortifer en el lugar del ritual de Um con los objetos necesarios en tu mochila. (opciones de chat: 2 Misiones. • #<!-- La posición de la opción varía según las misiones que hayas completado. --> Soul Searching. • 1 Sí.)"
-      }
+        "en": "Talk to Malignius Mortifer at the Um ritual site with the required items in your backpack.",
+        "es": "Habla con Malignius Mortifer en el lugar del ritual de Um con los objetos necesarios en tu mochila."
+      },
+      "chatOptions": [
+        "2 Quests.",
+        "#<!-- The position of the option varies depending on which quests you have completed. --> Soul Searching.",
+        "1 Yes."
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Malignius",
       "text": {
         "en": "Return to the dock with the Suspicious Stranger.",
         "es": "Vuelve al muelle donde está el Suspicious Stranger."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Zombification",
       "text": {
         "en": "Drink the potion of zombification at least 8 paces away from the Suspicious Stranger but still closer than the bottom of the stairs to transmogrify into a zombie.",
         "es": "Bébete la potion of zombification a al menos 8 pasos del Suspicious Stranger, pero más cerca que la parte inferior de las escaleras, para transformarte en zombi."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Zombification",
       "text": {
         "en": "Talk to the Suspicious Stranger.",
         "es": "Habla con el Suspicious Stranger."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Zombification",
       "text": {
         "en": "Board the northern gondola.",
         "es": "Sube a la góndola del norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Zombification",
       "text": {
-        "en": "Continue dialogue with Icthlarin. (opciones de chat: 3 What now? (Continue Quest))",
+        "en": "Continue dialogue with Icthlarin.",
         "es": "Continúa el diálogo con Icthlarin. (opciones de chat: 3 ¿Y ahora qué? (Continuar misión))"
-      }
+      },
+      "chatOptions": [
+        "3 What now? (Continue Quest)"
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Zombification",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

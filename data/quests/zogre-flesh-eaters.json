@@ -2,7 +2,8 @@
   "id": "zogre-flesh-eaters",
   "title": "Zogre Flesh Eaters",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:36:20.191Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:40.700Z",
   "icon": "https://runescape.wiki/images/Zogre_Flesh_Eaters_icon.png",
   "series": "Ogre",
   "age": "5",
@@ -124,263 +125,348 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Zogre_Flesh_Eaters_reward.png?81050",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Grish in Jiggig, located a short run south of the Castle Wars. (opciones de chat: 3 What are Zogres? • 4 Can I help in any way? • Accept)",
-        "es": "Habla con Grish en Jiggig, situado a una corta carrera al sur de Castle Wars. (opciones de chat: 3 What are Zogres? • 4 Can I help in any way? • Accept)"
-      }
+        "en": "Talk to Grish in Jiggig, located a short run south of the Castle Wars.",
+        "es": "Habla con Grish en Jiggig, situado a una corta carrera al sur de Castle Wars."
+      },
+      "chatOptions": [
+        "3 What are Zogres?",
+        "4 Can I help in any way?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Talk to the ogre guard (without the combat level, east).",
         "es": "Habla con el guardia ogro (el que no tiene nivel de combate, al este)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Climb over the crushed barricade.",
         "es": "Trepa por encima de la barricada destrozada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Run east and down the stairs.",
         "es": "Corre hacia el este y baja las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Run as far north-west as you can, and search the skeleton, kill the zombie, and take his ruined backpack.",
         "es": "Corre lo más al noroeste que puedas, registra el esqueleto, mata al zombi y coge su mochila destrozada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "If you're in combat when trying to search the skeleton, the zombie will not spawn.",
         "es": "Si estás en combate al intentar registrar el esqueleto, el zombi no aparecerá."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Open the ruined backpack. You will get a dragon inn tankard, a knife, and rotten food. Drop all except the dragon inn tankard.",
         "es": "Abre la mochila destrozada. Obtendrás una jarra del Dragon Inn, un cuchillo y comida podrida. Suelta todo excepto la jarra del Dragon Inn."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Search the broken lectern behind the skeleton.",
         "es": "Registra el atril roto detrás del esqueleto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Read the torn page.",
         "es": "Lee la página rasgada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Search the nearby ogre coffin until you find a black prism.",
         "es": "Registra el ataúd de ogro cercano hasta que encuentres un prisma negro."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Yanille",
       "text": {
         "en": "Enter the Dragon Inn pub in Yanille.",
         "es": "Entra en el pub Dragon Inn en Yanille."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Yanille",
       "text": {
         "en": "Use the dragon inn tankard on the bartender.",
         "es": "Usa la jarra del Dragon Inn en el camarero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Yanille",
       "text": {
-        "en": "Talk to Zavistic Rarve on the of the Wizards' Guild. Ring the bell outside if you lack the requirements. (opciones de chat: 1 What did you say I should do?)",
-        "es": "Habla con Zavistic Rarve en el Wizards' Guild. Toca la campana de fuera si no cumples los requisitos. (opciones de chat: 1 ¿Qué has dicho que debería hacer?)"
-      }
+        "en": "Talk to Zavistic Rarve on the of the Wizards' Guild. Ring the bell outside if you lack the requirements.",
+        "es": "Habla con Zavistic Rarve en el Wizards' Guild. Toca la campana de fuera si no cumples los requisitos."
+      },
+      "chatOptions": [
+        "1 What did you say I should do?"
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Yanille",
       "text": {
         "en": "Enter the house just north of the guild, , talk to Sithik in bed.",
         "es": "Entra en la casa justo al norte del gremio y habla con Sithik, que está en la cama."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Yanille",
       "text": {
         "en": "Search the drawers, the cupboard, and the wardrobe.",
         "es": "Registra los cajones, el armario y el ropero."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Yanille",
       "text": {
         "en": "Read the 3 books, use the papyrus on Sithik to make a portrait, then use the portrait on Sithik.",
         "es": "Lee los 3 libros, usa el papiro en Sithik para hacer un retrato y luego usa el retrato en Sithik."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Yanille",
       "text": {
         "en": "Make sure that Sithik says that he appreciates \"honesty\" of the portrait or you will have to make another. If he says 'truth' you will have to try again. There is more papyrus in the drawers.",
         "es": "Asegúrate de que Sithik dice que aprecia la \"honestidad\" del retrato, o tendrás que hacer otro. Si dice \"verdad\" tendrás que intentarlo de nuevo. Hay más papiro en los cajones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Yanille",
       "text": {
         "en": "Use the portrait on the bartender. He will return it as a Signed portrait.",
         "es": "Usa el retrato en el camarero. Te lo devolverá como un Retrato firmado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Yanille",
       "text": {
         "en": "If he just says that he recognises Sithik without signing the portrait, it means that you forgot to show him the dragon inn tankard.",
         "es": "Si solo dice que reconoce a Sithik sin firmar el retrato, significa que se te olvidó mostrarle la jarra del Dragon Inn."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Yanille",
       "text": {
-        "en": "Talk to to Zavistic Rarve. He will give you a strange potion. (opciones de chat: 1 I'm here about the sicks...err Zogres. • 3 I have some items that I'd like you to look at.)",
-        "es": "Habla con Zavistic Rarve. Te dará una poción extraña. (opciones de chat: 1 Vengo por los enfermos... digo, los Zogres. • 3 Tengo algunos objetos que me gustaría que examinaras.)"
-      }
+        "en": "Talk to to Zavistic Rarve. He will give you a strange potion.",
+        "es": "Habla con Zavistic Rarve. Te dará una poción extraña."
+      },
+      "chatOptions": [
+        "1 I'm here about the sicks...err Zogres.",
+        "3 I have some items that I'd like you to look at."
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Yanille",
       "text": {
         "en": "Use the strange potion on the cup of tea beside Sithik.",
         "es": "Usa la poción extraña en la taza de té junto a Sithik."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Yanille",
       "text": {
-        "en": "Climb down the ladder, climb up the ladder, ask Sithik all the possible questions. (opciones de chat: 1 How do I remove the effects of the spell from the area? • 2 How do I get rid of the undead ogres? • 3 How do I get rid of the disease? • 4 Sorry, I have to go.)",
-        "es": "Baja por la escalera, sube por la escalera y hazle a Sithik todas las preguntas posibles. (opciones de chat: 1 ¿Cómo elimino los efectos del hechizo del área? • 2 ¿Cómo me deshago de los ogros no muertos? • 3 ¿Cómo me deshago de la enfermedad? • 4 Lo siento, tengo que irme.)"
-      }
+        "en": "Climb down the ladder, climb up the ladder, ask Sithik all the possible questions.",
+        "es": "Baja por la escalera, sube por la escalera y hazle a Sithik todas las preguntas posibles."
+      },
+      "chatOptions": [
+        "1 How do I remove the effects of the spell from the area?",
+        "2 How do I get rid of the undead ogres?",
+        "3 How do I get rid of the disease?",
+        "4 Sorry, I have to go."
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Final Battle",
       "text": {
-        "en": "Return to Grish at the quest start, he will give you a key. (opciones de chat: 1 I found who's responsible for the Zogres being here.)",
-        "es": "Vuelve con Grish al inicio de la misión, te dará una llave. (opciones de chat: 1 He encontrado quién es el responsable de que los Zogres estén aquí.)"
-      }
+        "en": "Return to Grish at the quest start, he will give you a key.",
+        "es": "Vuelve con Grish al inicio de la misión, te dará una llave."
+      },
+      "chatOptions": [
+        "1 I found who's responsible for the Zogres being here."
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Final Battle",
       "text": {
-        "en": "Talk to him again to be able to create a comp ogre bow and brutal arrows, which can be used to fight the upcoming boss. (opciones de chat: 2 There must be an easier way to kill these zogres!)",
-        "es": "Habla con él de nuevo para poder crear un comp ogre bow y brutal arrows, que se pueden usar para luchar contra el próximo jefe. (opciones de chat: 2 ¡Tiene que haber una forma más fácil de matar a estos zogres!)"
-      }
+        "en": "Talk to him again to be able to create a comp ogre bow and brutal arrows, which can be used to fight the upcoming boss.",
+        "es": "Habla con él de nuevo para poder crear un comp ogre bow y brutal arrows, que se pueden usar para luchar contra el próximo jefe."
+      },
+      "chatOptions": [
+        "2 There must be an easier way to kill these zogres!"
+      ]
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "Final Battle",
       "text": {
         "en": "(Optional) Use a clean rogue's purse on a vial of water, and then add a clean snakeweed to create a relicym's balm. Use this on Uglug Nar next to Grish, and you unlock his shop Uglug's Stuffsies which sells the comp ogre bow. This will also complete the Brutal Stuffsies achievement.",
         "es": "(Opcional) Usa un clean rogue's purse en un vial of water, y luego añade un clean snakeweed para crear un relicym's balm. Úsalo en Uglug Nar, junto a Grish, y desbloquearás su tienda Uglug's Stuffsies, que vende el comp ogre bow. Esto también completará el logro Brutal Stuffsies."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Final Battle",
       "text": {
         "en": "(Optional) Either buy brutal arrows from the Grand Exchange, or fletch them at this point; there are achey trees to the west of Grish, chop them down and fletch their logs into shafts, then attach feathers, and tip them with nails of your choosing.",
         "es": "(Opcional) Compra brutal arrows en el Grand Exchange, o fabrícalas en este punto; hay achey trees al oeste de Grish, tálalos y fabrica sus troncos en shafts, luego añade feathers y remátalas con los nails que prefieras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Final Battle",
       "text": {
         "en": "Cross the barricade to the east and go down the stairs again.",
         "es": "Cruza la barricada hacia el este y baja las escaleras de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Final Battle",
       "text": {
         "en": "Once inside, run directly west, through the double doors and down more stairs.",
         "es": "Una vez dentro, corre directamente hacia el oeste, atraviesa las puertas dobles y baja más escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Final Battle",
       "text": {
         "en": "Go north-east and search the stand in front of the pile of skulls. Prepare for battle.",
         "es": "Ve hacia el noreste y registra el soporte frente al montón de calaveras. Prepárate para la batalla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Final Battle",
       "text": {
         "en": "Kill Slash Bash, pick up the Ogre artefact he drops.",
         "es": "Mata a Slash Bash y recoge el Ogre artefact que deja caer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Final Battle",
       "text": {
-        "en": "Return to Grish at quest start. (opciones de chat: 1 Yeah, I have them here!)",
-        "es": "Vuelve con Grish al inicio de la misión. (opciones de chat: 1 ¡Sí, los tengo aquí!)"
-      }
+        "en": "Return to Grish at quest start.",
+        "es": "Vuelve con Grish al inicio de la misión."
+      },
+      "chatOptions": [
+        "1 Yeah, I have them here!"
+      ]
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Final Battle",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

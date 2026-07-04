@@ -2,7 +2,8 @@
   "id": "eye-of-het-ii",
   "title": "Eye of Het II",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:16:25.998Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:10.773Z",
   "icon": "https://runescape.wiki/images/Eye_of_Het_II_icon.png",
   "series": "The Elder God Wars",
   "age": "6",
@@ -46,183 +47,245 @@
       "image": "https://runescape.wiki/images/thumb/Eye_of_Het_%28broken%29_detail.png/100px-Eye_of_Het_%28broken%29_detail.png?2e710"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Eye_of_Het_II_reward.png?398ba",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Icthlarin at the entrance to Het's Oasis. (opciones de chat: Accept)",
-        "es": "Habla con Icthlarin en la entrada de Het's Oasis. (opciones de chat: Accept)"
-      }
+        "en": "Talk to Icthlarin at the entrance to Het's Oasis.",
+        "es": "Habla con Icthlarin en la entrada de Het's Oasis."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Gather more information",
       "text": {
         "en": "Talk to the stranger near the tents north-east of the oasis.",
         "es": "Habla con el desconocido cerca de las tiendas al noreste del oasis."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Gather more information",
       "text": {
         "en": "Search the chest just outside of the tent with the bank chest to find some badly-hidden notes.",
         "es": "Busca en el cofre justo fuera de la tienda con el cofre bancario para encontrar unas notas mal escondidas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Gather more information",
       "text": {
         "en": "Read the badly-hidden notes.",
         "es": "Lee las notas mal escondidas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Gather more information",
       "text": {
         "en": "Make sure to proceed through all the dialogue, or you won't be able to progress.",
         "es": "Asegúrate de continuar con todo el diálogo, o no podrás avanzar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Gather more information",
       "text": {
-        "en": "Talk to Azzanadra at the Glacor Front (south of the cathedral in Senntisten). (opciones de chat: 1 Talk about the Duel Arena. • Any)",
-        "es": "Habla con Azzanadra en el Glacor Front (al sur de la catedral en Senntisten). (opciones de chat: 1 Talk about the Duel Arena. • Any)"
-      }
+        "en": "Talk to Azzanadra at the Glacor Front (south of the cathedral in Senntisten).",
+        "es": "Habla con Azzanadra en el Glacor Front (al sur de la catedral en Senntisten)."
+      },
+      "chatOptions": [
+        "1 Talk about the Duel Arena.",
+        "Any"
+      ]
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Gather more information",
       "text": {
         "en": "Wearing the shard of Erebus will keep glacors from attacking along the way.",
         "es": "Llevar puesto el shard of Erebus evitará que los glacors te ataquen por el camino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Gather more information",
       "text": {
         "en": "You can teleport to Arch-Glacor (and Azzanadra) using an attuned boss portal at War's Retreat, or by using the grouping system.",
         "es": "Puedes teletransportarte al Arch-Glacor (y a Azzanadra) usando un portal de jefe sintonizado en War's Retreat, o mediante el sistema de agrupación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Gather more information",
       "text": {
         "en": "Head to the cathedral and talk to the gods. (You can use the pontifex shadow ring to teleport directly to the cathedral.)",
         "es": "Dirígete a la catedral y habla con los dioses. (Puedes usar el pontifex shadow ring para teletransportarte directamente a la catedral.)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Gather more information",
       "text": {
-        "en": "Talk to Seren. (opciones de chat: 3 Talk about the Duel Arena.)",
-        "es": "Habla con Seren. (opciones de chat: 3 Talk about the Duel Arena.)"
-      }
+        "en": "Talk to Seren.",
+        "es": "Habla con Seren."
+      },
+      "chatOptions": [
+        "3 Talk about the Duel Arena."
+      ]
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Gather more information",
       "text": {
-        "en": "Talk to Zamorak. (opciones de chat: 3 Talk about the Duel Arena.)",
-        "es": "Habla con Zamorak. (opciones de chat: 3 Talk about the Duel Arena.)"
-      }
+        "en": "Talk to Zamorak.",
+        "es": "Habla con Zamorak."
+      },
+      "chatOptions": [
+        "3 Talk about the Duel Arena."
+      ]
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Gather more information",
       "text": {
-        "en": "Talk to Armadyl. (opciones de chat: 3 Talk about the Duel Arena.)",
-        "es": "Habla con Armadyl. (opciones de chat: 3 Talk about the Duel Arena.)"
-      }
+        "en": "Talk to Armadyl.",
+        "es": "Habla con Armadyl."
+      },
+      "chatOptions": [
+        "3 Talk about the Duel Arena."
+      ]
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Gather more information",
       "text": {
-        "en": "Talk to Saradomin. (opciones de chat: 3 Talk about the Duel Arena.)",
-        "es": "Habla con Saradomin. (opciones de chat: 3 Talk about the Duel Arena.)"
-      }
+        "en": "Talk to Saradomin.",
+        "es": "Habla con Saradomin."
+      },
+      "chatOptions": [
+        "3 Talk about the Duel Arena."
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Following Trindine",
       "text": {
         "en": "Attempt to talk to Trindine in the following locations.",
         "es": "Intenta hablar con Trindine en las siguientes ubicaciones."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Following Trindine",
       "text": {
         "en": "At the northern entrance to the cathedral.",
         "es": "En la entrada norte de la catedral."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Following Trindine",
       "text": {
         "en": "West near Nex at the stairs near the Nodon Front.",
         "es": "Al oeste, cerca de Nex, en las escaleras junto al Nodon Front."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Following Trindine",
       "text": {
         "en": "South beside Helwyr at the Glacor Front.",
         "es": "Al sur, junto a Helwyr, en el Glacor Front."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Following Trindine",
       "text": {
         "en": "East over the bridge at the Croesus Front.",
         "es": "Al este, cruzando el puente, en el Croesus Front."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Following Trindine",
       "text": {
-        "en": "North of the Senntisten Dig Site's archaeologist's workbench. (opciones de chat: 1 Gather Everyone.)",
-        "es": "Al norte de la mesa de trabajo del arqueólogo en el Senntisten Dig Site. (opciones de chat: 1 Gather Everyone.)"
-      }
+        "en": "North of the Senntisten Dig Site's archaeologist's workbench.",
+        "es": "Al norte de la mesa de trabajo del arqueólogo en el Senntisten Dig Site."
+      },
+      "chatOptions": [
+        "1 Gather Everyone."
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Following Trindine",
       "text": {
         "en": "Talk to any god in the cathedral. (Select who you want to accuse)",
         "es": "Habla con cualquier dios en la catedral. (Selecciona a quién quieres acusar)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Following Trindine",
       "text": {
-        "en": "Talk to Azzanadra. (opciones de chat: Any) (If the player logs out or teleports out during this sequence, they can speak to Azzanadra at the Glacor Front to resume it.)",
+        "en": "Talk to Azzanadra. (If the player logs out or teleports out during this sequence, they can speak to Azzanadra at the Glacor Front to resume it.)",
         "es": "Habla con Azzanadra. (opciones de chat: Any) (Si el jugador cierra sesión o se teletransporta durante esta secuencia, puede hablar con Azzanadra en el Glacor Front para continuarla.)"
-      }
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Icthlarin at the entrance to Het's Oasis again.",
         "es": "Habla de nuevo con Icthlarin en la entrada de Het's Oasis."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

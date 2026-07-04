@@ -2,7 +2,8 @@
   "id": "forgettable-tale-of-a-drunken-dwarf",
   "title": "Forgettable Tale of a Drunken Dwarf",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:20:12.815Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:14.149Z",
   "icon": "https://runescape.wiki/images/Forgettable_Tale_of_a_Drunken_Dwarf_icon.png",
   "series": "Dwarf (Red Axe)",
   "age": "ambiguous",
@@ -118,351 +119,459 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Forgettable_Tale_of_a_Drunken_Dwarf_reward.png?972aa",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Quid pro quo",
       "text": {
-        "en": "Talk to Commander Veldaban west of the Keldagrim bank. (opciones de chat: Accept • Any • 1 Sounds like just the job for me!)",
-        "es": "Habla con Commander Veldaban al oeste del banco de Keldagrim. (opciones de chat: Accept • Any • 1 ¡Suena como el trabajo perfecto para mí!)"
-      }
+        "en": "Talk to Commander Veldaban west of the Keldagrim bank.",
+        "es": "Habla con Commander Veldaban al oeste del banco de Keldagrim."
+      },
+      "chatOptions": [
+        "Accept",
+        "Any",
+        "1 Sounds like just the job for me!"
+      ]
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Quid pro quo",
       "text": {
         "en": "If you did not bring beer, go to the bar south of the bank prior to speaking to Commander Veldaban. Purchase 3 beer by speaking to the Barman (one to empty out).",
         "es": "Si no has traído cerveza, ve al bar al sur del banco antes de hablar con Commander Veldaban. Compra 3 cervezas hablando con el Barman (una para vaciarla)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Quid pro quo",
       "text": {
-        "en": "After the cutscene, speak to the Drunken Dwarf. (opciones de chat: 2 I need to know about the Red Axe...)",
-        "es": "Después de la escena cinemática, habla con el Drunken Dwarf. (opciones de chat: 2 Necesito saber sobre la Red Axe...)"
-      }
+        "en": "After the cutscene, speak to the Drunken Dwarf.",
+        "es": "Después de la escena cinemática, habla con el Drunken Dwarf."
+      },
+      "chatOptions": [
+        "2 I need to know about the Red Axe..."
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Quid pro quo",
       "text": {
-        "en": "Speak to him again with a beer in your inventory. (opciones de chat: 2 I need to know about the Red Axe...)",
-        "es": "Habla con él de nuevo con una cerveza en tu inventario. (opciones de chat: 2 Necesito saber sobre la Red Axe...)"
-      }
+        "en": "Speak to him again with a beer in your inventory.",
+        "es": "Habla con él de nuevo con una cerveza en tu inventario."
+      },
+      "chatOptions": [
+        "2 I need to know about the Red Axe..."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Quid pro quo",
       "text": {
         "en": "Collect the four Kelda seeds:",
         "es": "Consigue las cuatro semillas Kelda:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 1,
+      "section": "Quid pro quo",
       "text": {
         "en": "The drunken dwarf gives the first seed.",
         "es": "El drunken dwarf te da la primera semilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Quid pro quo",
       "text": {
         "en": "Fulfil the rowdy dwarf's request for the second seed. He walks a circle around the brewery in east Keldagrim. Give him the random item he asked for.",
         "es": "Cumple la petición del rowdy dwarf para conseguir la segunda semilla. Camina en círculos alrededor de la cervecería en el este de Keldagrim. Dale el objeto aleatorio que te pida."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 2,
+      "section": "Quid pro quo",
       "text": {
         "en": "If you can't find the item he asks for or it is difficult to obtain (e.g. flier for Bob's Axes), talk to him again multiple times until there is a dialogue option that will change the item he asks for. You may need to lobby.",
         "es": "Si no puedes encontrar el objeto que pide o resulta difícil de conseguir (por ejemplo, el folleto de Bob's Axes), habla con él varias veces hasta que aparezca una opción de diálogo que cambie el objeto pedido. Puede que necesites hacer lobby."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 2,
+      "section": "Quid pro quo",
       "text": {
         "en": "If you have accepted a task to fetch an item for the dwarf before this point in the quest, fulfilling that task now may not count towards the quest and you will have to perform another one.",
         "es": "Si ya has aceptado una tarea para conseguir un objeto para el enano antes de este punto de la misión, completarla ahora puede que no cuente para la misión y tendrás que hacer otra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 1,
+      "section": "Quid pro quo",
       "text": {
-        "en": "Talk to Khorvak in a cave north of the Taverley lodestone (under White Wolf Mountain, not on the top). There is a convenient cart to the south of the rowdy dwarf that will take you straight to the cave. The cave is also accessible northeast of the Catherby lodestone. (opciones de chat: 2 No wait, I want to borrow it after all.)",
-        "es": "Habla con Khorvak en una cueva al norte de la piedra de viaje de Taverley (bajo White Wolf Mountain, no en la cima). Hay un carro conveniente al sur del rowdy dwarf que te llevará directamente a la cueva. También se puede acceder a la cueva desde el noreste de la piedra de viaje de Catherby. (opciones de chat: 2 No espera, quiero pedirlo prestado después de todo.)"
-      }
+        "en": "Talk to Khorvak in a cave north of the Taverley lodestone (under White Wolf Mountain, not on the top). There is a convenient cart to the south of the rowdy dwarf that will take you straight to the cave. The cave is also accessible northeast of the Catherby lodestone.",
+        "es": "Habla con Khorvak en una cueva al norte de la piedra de viaje de Taverley (bajo White Wolf Mountain, no en la cima). Hay un carro conveniente al sur del rowdy dwarf que te llevará directamente a la cueva. También se puede acceder a la cueva desde el noreste de la piedra de viaje de Catherby."
+      },
+      "chatOptions": [
+        "2 No wait, I want to borrow it after all."
+      ]
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Quid pro quo",
       "text": {
         "en": "Talk to Gauss to have a beer with him, located in the bar south of the Keldagrim bank for the fourth seed.",
         "es": "Habla con Gauss para tomarte una cerveza con él, ubicado en el bar al sur del banco de Keldagrim, para conseguir la cuarta semilla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Quid pro quo",
       "text": {
         "en": "Talk to Rind the gardener, east of the pub where you have just talked to Gauss.",
         "es": "Habla con Rind, el jardinero, al este del pub donde acabas de hablar con Gauss."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Quid pro quo",
       "text": {
         "en": "Plant the four seeds in the nearby Kelda Hops Patch.",
         "es": "Planta las cuatro semillas en la parcela de Kelda Hops cercana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Quid pro quo",
       "text": {
         "en": "Wait 20 minutes and harvest the Kelda hops.",
         "es": "Espera 20 minutos y recoge el lúpulo Kelda."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Quid pro quo",
       "text": {
         "en": "A supreme growth potion (sundry) will not work here. If you choose to spend the waiting time logged out or in lobby, upon login the hop patch may appear weedy as if nothing was planted in it. Simply click the patch and you will receive your hops all the same.",
         "es": "Una supreme growth potion (sundry) no funcionará aquí. Si decides pasar el tiempo de espera desconectado o en el lobby, al iniciar sesión la parcela de lúpulo puede aparecer llena de maleza como si no se hubiera plantado nada. Simplemente haz clic en la parcela y recibirás tu lúpulo de todos modos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 1,
+      "section": "Quid pro quo",
       "text": {
         "en": "Optionally, talk to Rind and he will ask you to deliver a letter to Elstan at the allotment patches south of Falador. Upon returning to Rind, he will reward you 2 marrentill seeds.",
         "es": "Opcionalmente, habla con Rind y te pedirá que entregues una carta a Elstan en las parcelas de cultivo al sur de Falador. Al volver con Rind, te recompensará con 2 semillas de marrentill."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Quid pro quo",
       "text": {
         "en": "Go to the brewery, upstairs in the pub, on the eastern side of Keldagrim.",
         "es": "Ve a la cervecería, en el piso de arriba del pub, en el lado este de Keldagrim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Quid pro quo",
       "text": {
-        "en": "Pick up the empty pot in the corner of the room and ask Blandebir to fill it up with ale yeast for 25 coins. (opciones de chat: 4 Can you sell me any ale yeast? • 1 Fill your pot)",
-        "es": "Recoge la olla vacía en la esquina de la habitación y pídele a Blandebir que la llene con levadura de cerveza por 25 monedas. (opciones de chat: 4 ¿Puedes venderme levadura de cerveza? • 1 Llena tu olla)"
-      }
+        "en": "Pick up the empty pot in the corner of the room and ask Blandebir to fill it up with ale yeast for 25 coins.",
+        "es": "Recoge la olla vacía en la esquina de la habitación y pídele a Blandebir que la llene con levadura de cerveza por 25 monedas."
+      },
+      "chatOptions": [
+        "4 Can you sell me any ale yeast?",
+        "1 Fill your pot"
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Quid pro quo",
       "text": {
         "en": "Select \"Brew\" option on fermenting vat and select \"Kelda stout\".",
         "es": "Selecciona la opción \"Brew\" en la cuba de fermentación y elige \"Kelda stout\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Quid pro quo",
       "text": {
         "en": "Wait up to 5-20 minutes, until you get a notification in your chatbox.",
         "es": "Espera entre 5 y 20 minutos, hasta que recibas una notificación en tu chatbox."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Quid pro quo",
       "text": {
         "en": "\"Perhaps I should have a look and see if my Kelda Stout has brewed...\"",
         "es": "\"Quizás debería comprobar si mi Kelda Stout ya ha fermentado...\""
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Quid pro quo",
       "text": {
         "en": "Turn the valve on the connected pipe behind the vat and then use the empty beer glass in your inventory on the barrel to drain it.",
         "es": "Gira la válvula del tubo conectado detrás de la cuba y luego usa el vaso de cerveza vacío de tu inventario en el barril para vaciarlo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 1,
+      "section": "Quid pro quo",
       "text": {
         "en": "If you are drinking your beer to empty it, ensure you have \"Destroy empty beer glasses when drinking\" disabled in the Settings/Interfaces/Inventory menu, or you will have to buy another.",
         "es": "Si vas a beberte la cerveza para vaciarla, asegúrate de tener desactivada la opción \"Destroy empty beer glasses when drinking\" en el menú Settings/Interfaces/Inventory, o tendrás que comprar otro vaso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Quid pro quo",
       "text": {
-        "en": "Return to the Drunken Dwarf in the eastern-most of the two houses between the two wells in east Keldagrim and talk to him about the Red Axe. (opciones de chat: 2 I need to know about the Red Axe...)",
-        "es": "Vuelve con el Drunken Dwarf, en la más oriental de las dos casas entre los dos pozos en el este de Keldagrim, y habla con él sobre la Red Axe. (opciones de chat: 2 Necesito saber sobre la Red Axe...)"
-      }
+        "en": "Return to the Drunken Dwarf in the eastern-most of the two houses between the two wells in east Keldagrim and talk to him about the Red Axe.",
+        "es": "Vuelve con el Drunken Dwarf, en la más oriental de las dos casas entre los dos pozos en el este de Keldagrim, y habla con él sobre la Red Axe."
+      },
+      "chatOptions": [
+        "2 I need to know about the Red Axe..."
+      ]
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "The drunken dwarf",
       "text": {
-        "en": "Talk to the southern most cart conductor that is near the closed tunnel in south-east Keldagrim, the other cart conductor in the area will not work. (opciones de chat: 1 Ask about closed off tunnel.)",
-        "es": "Habla con el conductor de carro más al sur, cerca del túnel cerrado en el sureste de Keldagrim; el otro conductor de carro de la zona no funcionará. (opciones de chat: 1 Preguntar sobre el túnel cerrado.)"
-      }
+        "en": "Talk to the southern most cart conductor that is near the closed tunnel in south-east Keldagrim, the other cart conductor in the area will not work.",
+        "es": "Habla con el conductor de carro más al sur, cerca del túnel cerrado en el sureste de Keldagrim; el otro conductor de carro de la zona no funcionará."
+      },
+      "chatOptions": [
+        "1 Ask about closed off tunnel."
+      ]
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "The drunken dwarf",
       "text": {
-        "en": "Talk to the director of the Consortium mining company you joined during The Giant Dwarf. If you don't remember, you can talk to Commander Veldaban and he will tell you. (opciones de chat: 3 Can you help me with a boarded up tunnel?) (There are eight mining companies in the Consortium, each stationed in the upstairs of the marketplace.)",
+        "en": "Talk to the director of the Consortium mining company you joined during The Giant Dwarf. If you don't remember, you can talk to Commander Veldaban and he will tell you. (There are eight mining companies in the Consortium, each stationed in the upstairs of the marketplace.)",
         "es": "Habla con el director de la compañía minera del Consortium a la que te uniste durante The Giant Dwarf. Si no lo recuerdas, puedes hablar con Commander Veldaban y él te lo dirá. (opciones de chat: 3 ¿Puedes ayudarme con un túnel tapiado?) (Hay ocho compañías mineras en el Consortium, cada una situada en el piso de arriba del mercado.)"
-      }
+      },
+      "chatOptions": [
+        "3 Can you help me with a boarded up tunnel?"
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "The drunken dwarf",
       "text": {
         "en": "Un-equip any weapons you are holding, and if you have a familiar out, pick it up. Then ride the southern cart into the tunnel.",
         "es": "Quítate cualquier arma que lleves equipada, y si tienes un familiar fuera, recógelo. Luego sube al carro del sur para entrar en el túnel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Room 1: a chasm",
       "text": {
         "en": "Collect the square stones from the box.",
         "es": "Recoge las piedras cuadradas de la caja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Room 1: a chasm",
       "text": {
         "en": "Operate the controls: To place/rotate stones, click the corresponding nodes, once for green, twice for yellow, and three times to remove the stone.",
         "es": "Maneja los controles: para colocar/girar piedras, haz clic en los nodos correspondientes, una vez para verde, dos veces para amarillo y tres veces para quitar la piedra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Room 1: a chasm",
       "text": {
         "en": "There will be no confirmation prompt after you've set the route. Just click on the minecart or walk away once you've added the stones.",
         "es": "No habrá ningún mensaje de confirmación después de establecer la ruta. Simplemente haz clic en el minecart o aléjate una vez hayas colocado las piedras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 1,
+      "section": "Room 1: a chasm",
       "text": {
         "en": "Alternatively, place all of the Green stones then the Yellow stones, or vice versa.",
         "es": "Alternativamente, coloca primero todas las piedras verdes y luego las amarillas, o viceversa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Room 1: a chasm",
       "text": {
         "en": "After each part, ride on the cart, search the newly found box, and take the cart back to the initial platform.",
         "es": "Después de cada parte, sube al carro, busca en la caja recién encontrada y vuelve con el carro a la plataforma inicial."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Room 2: eavesdropping",
       "text": {
         "en": "After the dialogue, crawl along the southern path, and through the cave entrance to the east.",
         "es": "Después del diálogo, arrástrate por el camino sur y atraviesa la entrada de la cueva al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Room 3: another chasm",
       "text": {
         "en": "Take the stones from the box and follow the patterns below.",
         "es": "Toma las piedras de la caja y sigue los patrones a continuación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Room 4: reports",
       "text": {
         "en": "Search all three crates with papers on top of them.",
         "es": "Busca en las tres cajas que tienen papeles encima."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Room 4: reports",
       "text": {
         "en": "Search the bookcases until you find the \"Red Axe Employee Records\" book. Read it.",
         "es": "Busca en las estanterías hasta encontrar el libro \"Red Axe Employee Records\". Léelo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Room 4: reports",
       "text": {
-        "en": "Enter the cave entrance to the east. (opciones de chat: 1 Yes.)",
-        "es": "Entra en la entrada de la cueva al este. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Enter the cave entrance to the east.",
+        "es": "Entra en la entrada de la cueva al este."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Room 5: yet another chasm",
       "text": {
         "en": "Take the stones from the box and follow the patterns below.",
         "es": "Toma las piedras de la caja y sigue los patrones a continuación."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Room 5: yet another chasm",
       "text": {
         "en": "Watch the entire cutscene as you enter the last room.",
         "es": "Observa toda la escena cinemática al entrar en la última sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Kebabs and beer",
       "text": {
         "en": "Go back and speak to Commander Veldaban west of Keldagrim bank.",
         "es": "Vuelve y habla con Commander Veldaban al oeste del banco de Keldagrim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Kebabs and beer",
       "text": {
         "en": "Head to the Laughing Miner Pub in eastern Keldagrim. While inside, consume either your beer or kebab, though you'll need both in your inventory. If you don't have a kebab yet, talk to Kjut in his shop south-east of the northern bridge.",
         "es": "Dirígete al Laughing Miner Pub en el este de Keldagrim. Una vez dentro, consume tu cerveza o tu kebab, aunque necesitarás tener ambos en tu inventario. Si aún no tienes un kebab, habla con Kjut en su tienda al sureste del puente norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "Kebabs and beer",
       "text": {
         "en": "You must watch the entire cutscene!",
         "es": "¡Debes ver la escena cinemática completa!"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Kebabs and beer",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

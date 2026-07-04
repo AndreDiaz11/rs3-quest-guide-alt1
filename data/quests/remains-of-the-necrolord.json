@@ -2,7 +2,8 @@
   "id": "remains-of-the-necrolord",
   "title": "Remains of the Necrolord",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:08:33.304Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:56.878Z",
   "icon": "https://runescape.wiki/images/thumb/Remains_of_the_Necrolord_icon.png/50px-Remains_of_the_Necrolord_icon.png",
   "series": "The First Necromancer",
   "age": "Age of Chaos",
@@ -87,223 +88,283 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Remains_of_the_Necrolord_reward.png?34747",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Death in the City of Um. (opciones de chat: Accept)",
-        "es": "Habla con Death en la City of Um. (opciones de chat: Aceptar)"
-      }
+        "en": "Talk to Death in the City of Um.",
+        "es": "Habla con Death en la City of Um."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Starting out",
       "text": {
         "en": "Talk to the following three listless dead around Daemonheim to free them:",
         "es": "Habla con los siguientes tres muertos vagantes alrededor de Daemonheim para liberarlos:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "West of the fountain south of the ring of kinship's teleport location.",
         "es": "Al oeste de la fuente al sur de la ubicación de teletransporte del ring of kinship."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Starting out",
       "text": {
-        "en": "Beside the entrance to the Kal'gerion resource dungeon (Dungeoneering cape teleport (opciones de chat: 0 More... • 9 Kal'gerion demon dungeon)).",
+        "en": "Beside the entrance to the Kal'gerion resource dungeon (Dungeoneering cape teleport ).",
         "es": "Junto a la entrada de la mazmorra de recursos Kal'gerion (teletransporte de la capa de Mazmorreo (opciones de chat: 0 Más... • 9 Kal'gerion demon dungeon))."
-      }
+      },
+      "chatOptions": [
+        "0 More...",
+        "9 Kal'gerion demon dungeon"
+      ]
     },
     {
       "index": 4,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "Along the east coast, at the Marmaros & Gorgonite Mine north of the Fremennik ship (Shadow reef).",
         "es": "A lo largo de la costa este, en la Marmaros & Gorgonite Mine al norte del barco Fremennik (Shadow reef)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "Teleport with the ring of kinship again and talk to Lord Yudura (with ghostspeak amulet equipped if you haven't completed the hard Morytania achievements).",
         "es": "Teletranspórtate de nuevo con el ring of kinship y habla con Lord Yudura (con el ghostspeak amulet equipado si no has completado los logros difíciles de Morytania)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "Lord Yudura is located immediately at the teleport location, but may be difficult to see, as he blends into the snow. Using High Contrast Mode can be helpful.",
         "es": "Lord Yudura se encuentra justo en la ubicación de teletransporte, pero puede ser difícil de ver, ya que se confunde con la nieve. Usar el Modo de Alto Contraste puede ser útil."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "Inspect Captain Toma's corpse.",
         "es": "Examina el cadáver de Captain Toma."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "Inspect Taevas's corpse and Vengeance's corpse.",
         "es": "Examina el cadáver de Taevas y el cadáver de Vengeance."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "Inspect Lord Yudura's corpse.",
         "es": "Examina el cadáver de Lord Yudura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "Enter the room to the west and take at least the following number from the crates (you can use secondary option to take 5 at a time).",
         "es": "Entra en la habitación al oeste y coge al menos el siguiente número de las cajas (puedes usar la opción secundaria para coger 5 a la vez)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "12 inkwells of basic ghostly ink",
         "es": "12 tinteros de tinta fantasmal básica"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 1,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "12 inkwells of regular ghostly ink",
         "es": "12 tinteros de tinta fantasmal normal"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "6 inkwells of greater ghostly ink",
         "es": "6 tinteros de tinta fantasmal superior"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "4 greater ritual candles",
         "es": "4 velas rituales superiores"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "Go two rooms east and set up the ritual site.",
         "es": "Ve dos habitaciones al este y prepara el lugar del ritual."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "Place Lord Yudura's corpse on the focus object spot.",
         "es": "Coloca el cadáver de Lord Yudura en el lugar del objeto focal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 1,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "Place a greater ritual candle on each of the light source spots.",
         "es": "Coloca una vela ritual superior en cada uno de los lugares de fuente de luz."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 1,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "Draw a glyph on each of the glyph spots.",
         "es": "Dibuja un glifo en cada uno de los lugares de glifos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Exploring the floors of Daemonheim",
       "text": {
         "en": "Return west and talk to Lord Yudura.",
         "es": "Vuelve al oeste y habla con Lord Yudura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "After the ritual",
       "text": {
         "en": "Talk to Lord Yudura.",
         "es": "Habla con Lord Yudura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "After the ritual",
       "text": {
         "en": "Go to the southern room.",
         "es": "Ve a la habitación del sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "After the ritual",
       "text": {
         "en": "Talk to Lord Yudura again.",
         "es": "Habla de nuevo con Lord Yudura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "After the ritual",
       "text": {
         "en": "Kill the skeletal archer, sorcerer, and warrior.",
         "es": "Mata al skeletal archer, al sorcerer y al warrior."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "After the ritual",
       "text": {
         "en": "Talk to Lord Yudura again.",
         "es": "Habla de nuevo con Lord Yudura."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "After the ritual",
       "text": {
         "en": "Talk to Death in the City of Um.",
         "es": "Habla con Death en la City of Um."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "After the ritual",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

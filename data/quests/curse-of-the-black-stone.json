@@ -2,7 +2,8 @@
   "id": "curse-of-the-black-stone",
   "title": "Curse of the Black Stone",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T01:45:01.881Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:51.352Z",
   "icon": "https://runescape.wiki/images/Curse_of_the_Black_Stone_icon.png",
   "series": null,
   "age": "6",
@@ -180,6 +181,7 @@
       "image": "https://runescape.wiki/images/thumb/Lost_tokens_detail.png/100px-Lost_tokens_detail.png?4c897"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Curse_of_the_Black_Stone_reward.png?76d9f",
   "postQuest": [
     {
       "type": "item",
@@ -221,730 +223,977 @@
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Use the ring of kinship to quickly teleport to Daemonheim. You can get one for free as you'll need to visit Daemonheim many times during the quest.",
         "es": "Usa el ring of kinship para teletransportarte rápidamente a Daemonheim. Puedes conseguir uno gratis, ya que tendrás que visitar Daemonheim muchas veces durante la misión."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Bryll Thoksdottir beside Marmaros the rewards trader in Daemonheim. (opciones de chat: 2 [Curse of the Black Stone] • Accept)",
-        "es": "Habla con Bryll Thoksdottir junto a Marmaros the rewards trader en Daemonheim. (opciones de chat: 2 [Curse of the Black Stone] • Aceptar)"
-      }
+        "en": "Talk to Bryll Thoksdottir beside Marmaros the rewards trader in Daemonheim.",
+        "es": "Habla con Bryll Thoksdottir junto a Marmaros the rewards trader en Daemonheim."
+      },
+      "chatOptions": [
+        "2 [Curse of the Black Stone]",
+        "Accept"
+      ]
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The Jade Spider",
       "text": {
         "en": "Travel to Waiko via Quartermaster Gully in the northern part of Port Sarim.",
         "es": "Viaja a Waiko a través de Quartermaster Gully en la parte norte de Port Sarim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The Jade Spider",
       "text": {
-        "en": "Talk to Zhuka (bamboo merchant) at the southern part of the marketplace. (opciones de chat: 1 Ask about the Jade Spider?)",
-        "es": "Habla con Zhuka (bamboo merchant) en la parte sur del mercado. (opciones de chat: 1 ¿Preguntar sobre la Jade Spider?)"
-      }
+        "en": "Talk to Zhuka (bamboo merchant) at the southern part of the marketplace.",
+        "es": "Habla con Zhuka (bamboo merchant) en la parte sur del mercado."
+      },
+      "chatOptions": [
+        "1 Ask about the Jade Spider?"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The Jade Spider",
       "text": {
         "en": "Travel to Whale's Maw by talking to Quartermaster Gully (via travel option and select Whale's Maw).",
         "es": "Viaja a Whale's Maw hablando con Quartermaster Gully (mediante la opción de viaje y selecciona Whale's Maw)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The Jade Spider",
       "text": {
-        "en": "Talk to Sea Witch Kaula at the northwestern part of the island. (opciones de chat: 1 Ask about the Jade Spider)",
-        "es": "Habla con Sea Witch Kaula en la parte noroeste de la isla. (opciones de chat: 1 Preguntar sobre la Jade Spider)"
-      }
+        "en": "Talk to Sea Witch Kaula at the northwestern part of the island.",
+        "es": "Habla con Sea Witch Kaula en la parte noroeste de la isla."
+      },
+      "chatOptions": [
+        "1 Ask about the Jade Spider"
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The Jade Spider",
       "text": {
-        "en": "Dig the lump of sand near the western-most ship. (opciones de chat: 2 Get on with tortle hunting.)",
-        "es": "Cava el montón de arena cerca del barco más al oeste. (opciones de chat: 2 Continuar con la caza de tortles.)"
-      }
+        "en": "Dig the lump of sand near the western-most ship.",
+        "es": "Cava el montón de arena cerca del barco más al oeste."
+      },
+      "chatOptions": [
+        "2 Get on with tortle hunting."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The Jade Spider",
       "text": {
         "en": "Check the tortle to the south to obtain a note from the Jade Spider.",
         "es": "Revisa la tortle al sur para obtener una nota de la Jade Spider."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The Jade Spider",
       "text": {
         "en": "Travel to Tuai Leit via Quartermaster Gully.",
         "es": "Viaja a Tuai Leit a través de Quartermaster Gully."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The Jade Spider",
       "text": {
-        "en": "Speak to Sensei Seaworth (opciones de chat: 1 Ask about the Jade Spider.), who is south-west at the market.",
+        "en": "Speak to Sensei Seaworth , who is south-west at the market.",
         "es": "Habla con Sensei Seaworth (opciones de chat: 1 Preguntar sobre la Jade Spider.), que se encuentra al suroeste del mercado."
-      }
+      },
+      "chatOptions": [
+        "1 Ask about the Jade Spider."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The Jade Spider",
       "text": {
-        "en": "Travel to Goshima via Quartermaster Gully. (opciones de chat: 1 Search for the Jade spider.)",
-        "es": "Viaja a Goshima a través de Quartermaster Gully. (opciones de chat: 1 Buscar a la Jade Spider.)"
-      }
+        "en": "Travel to Goshima via Quartermaster Gully.",
+        "es": "Viaja a Goshima a través de Quartermaster Gully."
+      },
+      "chatOptions": [
+        "1 Search for the Jade spider."
+      ]
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "The Jade Spider",
       "text": {
         "en": "Kill all 12 crassians on the island.",
         "es": "Mata a los 12 crassians de la isla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "The Jade Spider",
       "text": {
-        "en": "Open and go through the Gate of Goshima and talk to Madame Shih (the Jade Spider) in the easternmost building. (opciones de chat: 1 She mentioned something)",
-        "es": "Abre y atraviesa el Gate of Goshima y habla con Madame Shih (la Jade Spider) en el edificio más al este. (opciones de chat: 1 Ella mencionó algo)"
-      }
+        "en": "Open and go through the Gate of Goshima and talk to Madame Shih (the Jade Spider) in the easternmost building.",
+        "es": "Abre y atraviesa el Gate of Goshima y habla con Madame Shih (la Jade Spider) en el edificio más al este."
+      },
+      "chatOptions": [
+        "1 She mentioned something"
+      ]
     },
     {
       "index": 13,
       "indent": 1,
+      "section": "The Jade Spider",
       "text": {
-        "en": "If you've already completed Temple of Aminishi at least once, you may skip the battle. (opciones de chat: 1 Skip the dungeon.)",
-        "es": "Si ya has completado Temple of Aminishi al menos una vez, puedes saltarte el combate. (opciones de chat: 1 Saltar la mazmorra.)"
-      }
+        "en": "If you've already completed Temple of Aminishi at least once, you may skip the battle.",
+        "es": "Si ya has completado Temple of Aminishi al menos una vez, puedes saltarte el combate."
+      },
+      "chatOptions": [
+        "1 Skip the dungeon."
+      ]
     },
     {
       "index": 14,
       "indent": 1,
+      "section": "The Jade Spider",
       "text": {
         "en": "Otherwise complete the Temple of Aminishi and defeat Seiryu the Azure Serpent before returning back to Madame Shih.",
         "es": "De lo contrario, completa Temple of Aminishi y derrota a Seiryu the Azure Serpent antes de volver con Madame Shih."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
-        "en": "Talk to Mr Mordaut in his office in the basement of Varrock Museum that is accessed behind the stairs. (opciones de chat: 2 [Curse of the Black Stone])",
-        "es": "Habla con Mr Mordaut en su oficina en el sótano de Varrock Museum, a la que se accede detrás de las escaleras. (opciones de chat: 2 [Curse of the Black Stone])"
-      }
+        "en": "Talk to Mr Mordaut in his office in the basement of Varrock Museum that is accessed behind the stairs.",
+        "es": "Habla con Mr Mordaut en su oficina en el sótano de Varrock Museum, a la que se accede detrás de las escaleras."
+      },
+      "chatOptions": [
+        "2 [Curse of the Black Stone]"
+      ]
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "The dungeon",
       "text": {
         "en": "Use a 'chipped' Varrock teleport, Dave's spellbook, the Varrock lodestone or Fort Forinthry lodestone to get to the museum quickly.",
         "es": "Usa un teletransporte a Varrock \"astillado\", el libro de hechizos de Dave, la piedra de viaje de Varrock o la piedra de viaje de Fort Forinthry para llegar rápidamente al museo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
         "en": "Go to Daemonheim and investigate the fireplace to the east of the fountain to find a carved dragonstone (left).",
         "es": "Ve a Daemonheim e investiga la chimenea al este de la fuente para encontrar una dragonstone tallada (izquierda)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
         "en": "Cut your uncut dragonstone to create the carved dragonstone (right).",
         "es": "Talla tu dragonstone sin tallar para crear la dragonstone tallada (derecha)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
-        "en": "Use either the left or right carved dragonstone on the fountain. (opciones de chat: 1 Place the stone in the eye socket.)",
-        "es": "Usa la dragonstone tallada izquierda o derecha en la fuente. (opciones de chat: 1 Colocar la piedra en la cuenca del ojo.)"
-      }
+        "en": "Use either the left or right carved dragonstone on the fountain.",
+        "es": "Usa la dragonstone tallada izquierda o derecha en la fuente."
+      },
+      "chatOptions": [
+        "1 Place the stone in the eye socket."
+      ]
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
         "en": "Enter the crumbling watchtower to the west.",
         "es": "Entra en la crumbling watchtower al oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
         "en": "Talk to Hannibus in the west room.",
         "es": "Habla con Hannibus en la habitación oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
         "en": "Head to the room with the entrance to the adamant dragon dungeon in the Brimhaven Dungeon between the fire giants and black demons, and north of the iron and steel dragons.",
         "es": "Dirígete a la sala con la entrada al adamant dragon dungeon en el Brimhaven Dungeon, entre los fire giants y los black demons, y al norte de los iron y steel dragons."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "The dungeon",
       "text": {
         "en": "Either via the dungeon entrance just west of the Karamja lodestone and navigating to the room",
         "es": "Ya sea a través de la entrada de la mazmorra justo al oeste de la piedra de viaje de Karamja y navegando hasta la sala"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "The dungeon",
       "text": {
         "en": "via a metallic dragon trinkets' teleport option",
         "es": "mediante la opción de teletransporte de los trinkets de dragón metálico"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "The dungeon",
       "text": {
         "en": "via the Dungeoneering cape teleport and heading north-west",
         "es": "mediante el teletransporte de la capa de Dungeoneering y dirigiéndote al noroeste"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "The dungeon",
       "text": {
         "en": "with the Kethsi ring.",
         "es": "con el Kethsi ring."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
         "en": "If you used a Kethsi ring or metallic trinket to teleport directly into the dungeon, first go out by ascending the stairs.",
         "es": "Si usaste un Kethsi ring o un trinket metálico para teletransportarte directamente a la mazmorra, primero sal subiendo las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
         "en": "Enter the adamant dragon dungeon and investigate the mithril smelter on the easternmost wall of the easternmost room to obtain a metallic object.",
         "es": "Entra en el adamant dragon dungeon e investiga el mithril smelter en la pared más al este de la sala más al este para obtener un objeto metálico."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "The dungeon",
       "text": {
         "en": "If you have Eek with you, you may investigate the adamant smelter for some extra dialogue.",
         "es": "Si tienes a Eek contigo, puedes investigar el adamant smelter para obtener algo de diálogo extra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
-        "en": "Talk to the adamant dragon in the south-western room to heat the metallic object. (opciones de chat: 1 Can you heat this metal? • 3 Your baby is cold, warm her up.)",
-        "es": "Habla con el adamant dragon en la sala del suroeste para calentar el objeto metálico. (opciones de chat: 1 ¿Puedes calentar este metal? • 3 Tu bebé tiene frío, caliéntala.)"
-      }
+        "en": "Talk to the adamant dragon in the south-western room to heat the metallic object.",
+        "es": "Habla con el adamant dragon en la sala del suroeste para calentar el objeto metálico."
+      },
+      "chatOptions": [
+        "1 Can you heat this metal?",
+        "3 Your baby is cold, warm her up."
+      ]
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
-        "en": "With a rope in the backpack, investigate one of the pits north of the entrance. (opciones de chat: 2 Attach a rope and drop the heated metal into the pit.)",
-        "es": "Con una cuerda en la mochila, investiga uno de los pozos al norte de la entrada. (opciones de chat: 2 Atar una cuerda y dejar caer el metal calentado en el pozo.)"
-      }
+        "en": "With a rope in the backpack, investigate one of the pits north of the entrance.",
+        "es": "Con una cuerda en la mochila, investiga uno de los pozos al norte de la entrada."
+      },
+      "chatOptions": [
+        "2 Attach a rope and drop the heated metal into the pit."
+      ]
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "The dungeon",
       "text": {
-        "en": "Investigate the dragon head near the stairs. (opciones de chat: 1 Smash the tablet on the teeth.)",
-        "es": "Investiga la cabeza de dragón cerca de las escaleras. (opciones de chat: 1 Romper la tablilla contra los dientes.)"
-      }
+        "en": "Investigate the dragon head near the stairs.",
+        "es": "Investiga la cabeza de dragón cerca de las escaleras."
+      },
+      "chatOptions": [
+        "1 Smash the tablet on the teeth."
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Kerapac's lab",
       "text": {
         "en": "Head back to Kerapac's Lab by entering the crumbling watchtower in Daemonheim.",
         "es": "Regresa al Kerapac's Lab entrando en la crumbling watchtower en Daemonheim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Kerapac's lab",
       "text": {
-        "en": "Investigate the effigy shelves in the room with Hannibus. (opciones de chat: 2 I'm looking for clues.)",
-        "es": "Investiga las estanterías de efigies en la sala con Hannibus. (opciones de chat: 2 Estoy buscando pistas.)"
-      }
+        "en": "Investigate the effigy shelves in the room with Hannibus.",
+        "es": "Investiga las estanterías de efigies en la sala con Hannibus."
+      },
+      "chatOptions": [
+        "2 I'm looking for clues."
+      ]
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Kerapac's lab",
       "text": {
         "en": "Referencing the image to the right, activate the following dragonkin statues in any order: 1, 3, 5",
         "es": "Consultando la imagen a la derecha, activa las siguientes estatuas de dragonkin en cualquier orden: 1, 3, 5"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Kerapac's lab",
       "text": {
-        "en": "Enter the portal in the northern room. (opciones de chat: 1 Yes.)",
-        "es": "Entra en el portal de la sala norte. (opciones de chat: 1 Sí.)"
-      }
+        "en": "Enter the portal in the northern room.",
+        "es": "Entra en el portal de la sala norte."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Kerapac's lab",
       "text": {
         "en": "Talk to Kerapac.",
         "es": "Habla con Kerapac."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Kerapac's lab",
       "text": {
-        "en": "Talk to Bryll Thoksdottir back in Daemonheim. (opciones de chat: 3 [Curse of the Black Stone])",
-        "es": "Habla con Bryll Thoksdottir de vuelta en Daemonheim. (opciones de chat: 3 [Curse of the Black Stone])"
-      }
+        "en": "Talk to Bryll Thoksdottir back in Daemonheim.",
+        "es": "Habla con Bryll Thoksdottir de vuelta en Daemonheim."
+      },
+      "chatOptions": [
+        "3 [Curse of the Black Stone]"
+      ]
     },
     {
       "index": 39,
       "indent": 1,
+      "section": "Kerapac's lab",
       "text": {
-        "en": "If you have already completed Dragonkin Laboratory at least once, you may skip the battle. (opciones de chat: 2 Skip the dungeon.)",
-        "es": "Si ya has completado Dragonkin Laboratory al menos una vez, puedes saltarte el combate. (opciones de chat: 2 Saltar la mazmorra.)"
-      }
+        "en": "If you have already completed Dragonkin Laboratory at least once, you may skip the battle.",
+        "es": "Si ya has completado Dragonkin Laboratory al menos una vez, puedes saltarte el combate."
+      },
+      "chatOptions": [
+        "2 Skip the dungeon."
+      ]
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "Kerapac's lab",
       "text": {
         "en": "Otherwise complete the Dragonkin Laboratory and defeat the Black Stone Dragon before returning back to Bryll Thosdottir.",
         "es": "De lo contrario, completa Dragonkin Laboratory y derrota al Black Stone Dragon antes de volver con Bryll Thosdottir."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Kerapac's lab",
       "text": {
-        "en": "Travel back to Goshima. (opciones de chat: 1 [Curse of the Black Stone]) (A cutscene will start)",
+        "en": "Travel back to Goshima. (A cutscene will start)",
         "es": "Viaja de vuelta a Goshima. (opciones de chat: 1 [Curse of the Black Stone]) (Se iniciará una escena)"
-      }
+      },
+      "chatOptions": [
+        "1 [Curse of the Black Stone]"
+      ]
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Kerapac's lab",
       "text": {
-        "en": "Head back to Daemonheim and talk to Bryll Thoksdottir. (opciones de chat: 2 [Curse of the Black Stone])",
-        "es": "Regresa a Daemonheim y habla con Bryll Thoksdottir. (opciones de chat: 2 [Curse of the Black Stone])"
-      }
+        "en": "Head back to Daemonheim and talk to Bryll Thoksdottir.",
+        "es": "Regresa a Daemonheim y habla con Bryll Thoksdottir."
+      },
+      "chatOptions": [
+        "2 [Curse of the Black Stone]"
+      ]
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Enchanted \"vacuum\" vial",
       "text": {
-        "en": "Speak to Wizard Myrtle near the Wizards' Tower. (opciones de chat: 1 Curse of the Black Stone. • 4 Can you help me get the fish now? • 1 Yes.)",
-        "es": "Habla con Wizard Myrtle cerca de la Wizards' Tower. (opciones de chat: 1 Curse of the Black Stone. • 4 ¿Puedes ayudarme a conseguir el pescado ahora? • 1 Sí.)"
-      }
+        "en": "Speak to Wizard Myrtle near the Wizards' Tower.",
+        "es": "Habla con Wizard Myrtle cerca de la Wizards' Tower."
+      },
+      "chatOptions": [
+        "1 Curse of the Black Stone.",
+        "4 Can you help me get the fish now?",
+        "1 Yes."
+      ]
     },
     {
       "index": 44,
       "indent": 1,
+      "section": "Enchanted \"vacuum\" vial",
       "text": {
-        "en": "Use the traveller's necklace or wicked hood to navigate to the Wizards' Tower, or use the fairy ring to teleport, or run to it from the Draynor lodestone.",
+        "en": "Use the traveller's necklace or wicked hood to navigate to the Wizards' Tower, or use the fairy ring DIS to teleport, or run to it from the Draynor lodestone.",
         "es": "Usa el traveller's necklace o la wicked hood para llegar a la Wizards' Tower, o usa el fairy ring para teletransportarte, o corre hasta allí desde la piedra de viaje de Draynor."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Enchanted \"vacuum\" vial",
       "text": {
         "en": "Give Wizard Myrtle any raw fish and a law rune to obtain small raw sillago.",
         "es": "Dale a Wizard Myrtle cualquier pescado crudo y una law rune para obtener small raw sillago."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Enchanted \"vacuum\" vial",
       "text": {
         "en": "Fill the empty enchanted \"vacuum\" vial on the Ice Mountain near Edgeville.",
         "es": "Llena el vacuum vial encantado vacío en Ice Mountain, cerca de Edgeville."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Enchanted \"vacuum\" vial",
       "text": {
         "en": "Dry the wet seaweed while standing near the huge fountain at Abbey of St. Elspeth Citharede.",
         "es": "Seca las algas mojadas mientras estás cerca de la gran fuente en Abbey of St. Elspeth Citharede."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Enchanted \"vacuum\" vial",
       "text": {
         "en": "Combine the potion of waterbreathing and drink it.",
         "es": "Combina la potion of waterbreathing y bébetela."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Enchanted \"vacuum\" vial",
       "text": {
         "en": "Return to Daemonheim and speak with Hannibus next to the heroes of the Shadow Reef and the Fremennik ship (Shadow reef) on the east coast.",
         "es": "Regresa a Daemonheim y habla con Hannibus junto a los heroes of the Shadow Reef y el barco Fremennik (Shadow reef) en la costa este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 1,
+      "section": "Enchanted \"vacuum\" vial",
       "text": {
-        "en": "If he is not there, instead talk to Bryll Thoksdottir. (opciones de chat: 3 [Curse of the Black Stone])",
-        "es": "Si no está allí, habla en su lugar con Bryll Thoksdottir. (opciones de chat: 3 [Curse of the Black Stone])"
-      }
+        "en": "If he is not there, instead talk to Bryll Thoksdottir.",
+        "es": "Si no está allí, habla en su lugar con Bryll Thoksdottir."
+      },
+      "chatOptions": [
+        "3 [Curse of the Black Stone]"
+      ]
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Preparing for war",
       "text": {
-        "en": "Travel to the Edgeville lodestone to activate the artefact northwest. (opciones de chat: 1 Yes - Meet with Hannibus.)",
-        "es": "Viaja a la piedra de viaje de Edgeville para activar el artefacto al noroeste. (opciones de chat: 1 Sí - Reunirse con Hannibus.)"
-      }
+        "en": "Travel to the Edgeville lodestone to activate the artefact northwest.",
+        "es": "Viaja a la piedra de viaje de Edgeville para activar el artefacto al noroeste."
+      },
+      "chatOptions": [
+        "1 Yes - Meet with Hannibus."
+      ]
     },
     {
       "index": 52,
       "indent": 0,
+      "section": "Preparing for war",
       "text": {
-        "en": "Talk to Mr Mordaut at the Varrock Museum. (opciones de chat: 2 [Curse of the Black Stone])",
-        "es": "Habla con Mr Mordaut en Varrock Museum. (opciones de chat: 2 [Curse of the Black Stone])"
-      }
+        "en": "Talk to Mr Mordaut at the Varrock Museum.",
+        "es": "Habla con Mr Mordaut en Varrock Museum."
+      },
+      "chatOptions": [
+        "2 [Curse of the Black Stone]"
+      ]
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Preparing for war",
       "text": {
         "en": "Travel to the Heart of Gielinor to meet with Vindicta.",
         "es": "Viaja a Heart of Gielinor para reunirte con Vindicta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 1,
+      "section": "Preparing for war",
       "text": {
         "en": "You may need to leave the dungeon via the lift, and re-enter for the chat option to appear.",
         "es": "Puede que necesites salir de la mazmorra mediante el ascensor y volver a entrar para que aparezca la opción de diálogo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Preparing for war",
       "text": {
         "en": "Talk to Bryll Thoksdottir near the ring of kinship's teleport location and then Quartermaster Gully near the Heroes of the Shadow Reef (you may talk to him at Port Sarim).",
         "es": "Habla con Bryll Thoksdottir cerca del lugar de teletransporte del ring of kinship y luego con Quartermaster Gully cerca de los Heroes of the Shadow Reef (puedes hablar con él en Port Sarim)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Marriage counselling",
       "text": {
         "en": "Travel to Waiko and speak to Steven's wife the seagull in the north-east (top of northernmost rock pillar)",
         "es": "Viaja a Waiko y habla con la gaviota, la esposa de Steven, al noreste (en lo alto del pilar de roca más al norte)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Marriage counselling",
       "text": {
         "en": "Speak to the 6 seagulls (locations on the map) to find evidence.",
         "es": "Habla con las 6 gaviotas (ubicaciones en el mapa) para encontrar pruebas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 1,
+      "section": "Marriage counselling",
       "text": {
         "en": "On a water barrel near the Khan's house, on the eastern part of the island",
         "es": "En un barril de agua cerca de la casa del Khan, en la parte este de la isla"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 1,
+      "section": "Marriage counselling",
       "text": {
         "en": "In the village, on a water barrel east of the southern pier",
         "es": "En el pueblo, en un barril de agua al este del muelle sur"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 1,
+      "section": "Marriage counselling",
       "text": {
         "en": "On the southern pier, on a water barrel",
         "es": "En el muelle sur, en un barril de agua"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 1,
+      "section": "Marriage counselling",
       "text": {
         "en": "On a crate in the shipwreck, near the western pier",
         "es": "En una caja del barco naufragado, cerca del muelle oeste"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 1,
+      "section": "Marriage counselling",
       "text": {
         "en": "On a crate on the western pier",
         "es": "En una caja en el muelle oeste"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 1,
+      "section": "Marriage counselling",
       "text": {
         "en": "Inside of a cage on the northern pier",
         "es": "Dentro de una jaula en el muelle norte"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 0,
+      "section": "Marriage counselling",
       "text": {
         "en": "Go back to Steven's wife and speak to her.",
         "es": "Regresa con la esposa de Steven y habla con ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "Elite forces",
       "text": {
         "en": "Talk to Quartermaster Gully at the war table, east of Daemonheim.",
         "es": "Habla con Quartermaster Gully en la mesa de guerra, al este de Daemonheim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "Elite forces",
       "text": {
         "en": "Talk to Bryll Thoksdottir.",
         "es": "Habla con Bryll Thoksdottir."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "Elite forces",
       "text": {
         "en": "Talk to Bosun Higgs.",
         "es": "Habla con Bosun Higgs."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 68,
       "indent": 0,
+      "section": "Elite forces",
       "text": {
-        "en": "Talk to Lieutenant Crane next to the map table in the Black Knights' Base in the very south of Taverley Dungeon (opciones de chat: 1 Evie sent me.)",
-        "es": "Habla con Lieutenant Crane junto a la mesa del mapa en la Black Knights' Base, en el extremo sur del Taverley Dungeon (opciones de chat: 1 Evie me envió.)"
-      }
+        "en": "Talk to Lieutenant Crane next to the map table in the Black Knights' Base in the very south of Taverley Dungeon",
+        "es": "Habla con Lieutenant Crane junto a la mesa del mapa en la Black Knights' Base, en el extremo sur del Taverley Dungeon"
+      },
+      "chatOptions": [
+        "1 Evie sent me."
+      ]
     },
     {
       "index": 69,
       "indent": 1,
+      "section": "Elite forces",
       "text": {
         "en": "Teleport via an Archaeology teleport or the master outfit and heading south.",
         "es": "Teletranspórtate mediante un teletransporte de Arqueología o el atuendo de maestro y dirígete al sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 70,
       "indent": 1,
+      "section": "Elite forces",
       "text": {
-        "en": "Via the Dungeoneering cape (opciones de chat: 0 More... • 1 Taverley blue dragon dungeon) and heading east through the gate, then south.",
+        "en": "Via the Dungeoneering cape and heading east through the gate, then south.",
         "es": "Mediante la capa de Dungeoneering (opciones de chat: 0 Más... • 1 Taverley blue dragon dungeon) y dirigiéndote al este a través de la verja, luego al sur."
-      }
+      },
+      "chatOptions": [
+        "0 More...",
+        "1 Taverley blue dragon dungeon"
+      ]
     },
     {
       "index": 71,
       "indent": 0,
+      "section": "Elite forces",
       "text": {
         "en": "Run north-west of the Edgeville lodestone to reach the Black Knights' Fortress.",
         "es": "Corre al noroeste de la piedra de viaje de Edgeville para llegar a la Black Knights' Fortress."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 72,
       "indent": 0,
+      "section": "Elite forces",
       "text": {
         "en": "Talk to the fortress guard at the entrance of the fortress while wearing the disguise.",
         "es": "Habla con el guardia de la fortaleza en la entrada mientras llevas el disfraz."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 73,
       "indent": 0,
+      "section": "Elite forces",
       "text": {
         "en": "Interact with Tessa's suit of armour in the western barracks room.",
         "es": "Interactúa con la armadura de Tessa en la sala de los barracones del oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 74,
       "indent": 0,
+      "section": "Elite forces",
       "text": {
         "en": "Head to the north west corner and head up the stairs.",
         "es": "Dirígete a la esquina noroeste y sube las escaleras."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 75,
       "indent": 0,
+      "section": "Elite forces",
       "text": {
         "en": "Talk to the slave standing along the north wall on the of the Black Knights' Fortress.",
         "es": "Habla con el esclavo que está junto al muro norte de la Black Knights' Fortress."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 76,
       "indent": 0,
+      "section": "Elite forces",
       "text": {
         "en": "Talk to Lieutenant Crane about Tessa:",
         "es": "Habla con Lieutenant Crane sobre Tessa:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 77,
       "indent": 1,
+      "section": "Elite forces",
       "text": {
         "en": "If wearing a ring of charos (a) lie to skip the steps to free Tessa.",
         "es": "Si llevas puesto un ring of charos (a), miente para saltarte los pasos para liberar a Tessa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 78,
       "indent": 1,
+      "section": "Elite forces",
       "text": {
         "en": "Otherwise and proceed with these steps:",
         "es": "De lo contrario, sigue estos pasos:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 79,
       "indent": 2,
+      "section": "Elite forces",
       "text": {
         "en": "Return to the fortress and interact with Tessa's suit of armour.",
         "es": "Regresa a la fortaleza e interactúa con la armadura de Tessa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 80,
       "indent": 2,
+      "section": "Elite forces",
       "text": {
-        "en": "Head upstairs to smuggle out Tessa. (opciones de chat: 3 Pick lock.)",
-        "es": "Sube las escaleras para sacar a Tessa a escondidas. (opciones de chat: 3 Forzar la cerradura.)"
-      }
+        "en": "Head upstairs to smuggle out Tessa.",
+        "es": "Sube las escaleras para sacar a Tessa a escondidas."
+      },
+      "chatOptions": [
+        "3 Pick lock."
+      ]
     },
     {
       "index": 81,
       "indent": 2,
+      "section": "Elite forces",
       "text": {
-        "en": "Give her the suit of armour. (opciones de chat: 1 Yes. • 1 Yes. • Any)",
-        "es": "Dale la armadura. (opciones de chat: 1 Sí. • 1 Sí. • Cualquiera)"
-      }
+        "en": "Give her the suit of armour.",
+        "es": "Dale la armadura."
+      },
+      "chatOptions": [
+        "1 Yes.",
+        "1 Yes.",
+        "Any"
+      ]
     },
     {
       "index": 82,
       "indent": 2,
+      "section": "Elite forces",
       "text": {
         "en": "Return to Lieutenant Crane.",
         "es": "Regresa con Lieutenant Crane."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 83,
       "indent": 2,
+      "section": "Elite forces",
       "text": {
         "en": "Head back to Daemonheim and speak to Bosun Higgs at the war table.",
         "es": "Vuelve a Daemonheim y habla con Bosun Higgs en la mesa de guerra."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 84,
       "indent": 2,
+      "section": "Elite forces",
       "text": {
         "en": "Talk to Commandant Bletchley in the Black Knights' Fortress on the . He is standing along the north wall.",
         "es": "Habla con Commandant Bletchley en la Black Knights' Fortress. Está de pie junto al muro norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 85,
       "indent": 2,
+      "section": "Elite forces",
       "text": {
         "en": "Talk to Lieutenant Crane.",
         "es": "Habla con Lieutenant Crane."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 86,
       "indent": 0,
+      "section": "The Shadow Reef",
       "text": {
         "en": "Speak to Bryll Thoksdottir near the war table in east Daemonheim.",
         "es": "Habla con Bryll Thoksdottir cerca de la mesa de guerra en el este de Daemonheim."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 87,
       "indent": 1,
+      "section": "The Shadow Reef",
       "text": {
-        "en": "If you have already completed the dungeon, skip the battle. (opciones de chat: 2 Skip the dungeon.)",
-        "es": "Si ya has completado la mazmorra, sáltate el combate. (opciones de chat: 2 Saltar la mazmorra.)"
-      }
+        "en": "If you have already completed the dungeon, skip the battle.",
+        "es": "Si ya has completado la mazmorra, sáltate el combate."
+      },
+      "chatOptions": [
+        "2 Skip the dungeon."
+      ]
     },
     {
       "index": 88,
       "indent": 1,
+      "section": "The Shadow Reef",
       "text": {
-        "en": "Otherwise, choose any option for your speech. (opciones de chat: Any)",
-        "es": "De lo contrario, elige cualquier opción para tu diálogo. (opciones de chat: Cualquiera)"
-      }
+        "en": "Otherwise, choose any option for your speech.",
+        "es": "De lo contrario, elige cualquier opción para tu diálogo."
+      },
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 89,
       "indent": 1,
+      "section": "The Shadow Reef",
       "text": {
         "en": "Complete the Shadow Reef.",
         "es": "Completa el Shadow Reef."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 90,
       "indent": 1,
+      "section": "The Shadow Reef",
       "text": {
         "en": "If this is your first time completing the dungeon, travel back to Bryll Thoksdottir after defeating the Ambassador.",
         "es": "Si es la primera vez que completas la mazmorra, regresa con Bryll Thoksdottir tras derrotar al Ambassador."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

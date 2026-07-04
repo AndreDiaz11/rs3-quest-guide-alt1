@@ -2,7 +2,8 @@
   "id": "rune-mysteries",
   "title": "Rune Mysteries",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:12:16.193Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:00.423Z",
   "icon": "https://runescape.wiki/images/Rune_Mysteries_icon.png",
   "series": "Ariane",
   "age": "5",
@@ -120,263 +121,386 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Rune_Mysteries_reward.png?460e4",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Ariane in the entrance to Wizards' Tower. (opciones de chat: 1 What's happening here? • 2 What can I do to help? • Accept)",
-        "es": "Habla con Ariane en la entrada de Wizards' Tower. (opciones de chat: 1 ¿Qué está pasando aquí? • 2 ¿Qué puedo hacer para ayudar? • Aceptar)"
-      }
+        "en": "Talk to Ariane in the entrance to Wizards' Tower.",
+        "es": "Habla con Ariane en la entrada de Wizards' Tower."
+      },
+      "chatOptions": [
+        "1 What's happening here?",
+        "2 What can I do to help?",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Head into the tower, pick up the Tower mindspike and attack the vortex with any spell. You must unequip any ranged, melee, or necromancy armour or you may not be able to lure the vortex.",
         "es": "Entra en la torre, coge el Tower mindspike y ataca el vórtice con cualquier hechizo. Debes desequipar cualquier armadura de distancia, cuerpo a cuerpo o nigromancia, o puede que no consigas atraer al vórtice."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Lure the vortex into the energy beam.",
         "es": "Atrae al vórtice hacia el haz de energía."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The old tower",
       "text": {
-        "en": "Talk to Ariane on the bridge outside. (opciones de chat: 3 What do you want me to do? • 2 I'll get on it.)",
-        "es": "Habla con Ariane en el puente exterior. (opciones de chat: 3 ¿Qué quieres que haga? • 2 Me pongo con ello.)"
-      }
+        "en": "Talk to Ariane on the bridge outside.",
+        "es": "Habla con Ariane en el puente exterior."
+      },
+      "chatOptions": [
+        "3 What do you want me to do?",
+        "2 I'll get on it."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The old tower",
       "text": {
-        "en": "Ascend the beam twice, and talk to Wizard Traiborn in the northwestern room. (opciones de chat: 1 Have you seen anything unusual lately? • 2 In the power beam? • 2 Where do these things come from?)",
-        "es": "Sube por el haz dos veces y habla con Wizard Traiborn en la sala noroeste. (opciones de chat: 1 ¿Has visto algo inusual últimamente? • 2 ¿En el haz de poder? • 2 ¿De dónde vienen estas cosas?)"
-      }
+        "en": "Ascend the beam twice, and talk to Wizard Traiborn in the northwestern room.",
+        "es": "Sube por el haz dos veces y habla con Wizard Traiborn en la sala noroeste."
+      },
+      "chatOptions": [
+        "1 Have you seen anything unusual lately?",
+        "2 In the power beam?",
+        "2 Where do these things come from?"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The old tower",
       "text": {
-        "en": "Talk to Archmage Sedridor in the southern room. (opciones de chat: 3 Ariane says the tower is in danger. • 3 What are you going to do? • 4 Goodbye.)",
-        "es": "Habla con Archmage Sedridor en la sala sur. (opciones de chat: 3 Ariane dice que la torre está en peligro. • 3 ¿Qué vas a hacer? • 4 Adiós.)"
-      }
+        "en": "Talk to Archmage Sedridor in the southern room.",
+        "es": "Habla con Archmage Sedridor en la sala sur."
+      },
+      "chatOptions": [
+        "3 Ariane says the tower is in danger.",
+        "3 What are you going to do?",
+        "4 Goodbye."
+      ]
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "The old tower",
       "text": {
-        "en": "If Love Story has been completed. (opciones de chat: 4 Ariane says the tower is in danger. • 3 What are you going to do? • 4 Goodbye.)",
-        "es": "Si se ha completado Love Story. (opciones de chat: 4 Ariane dice que la torre está en peligro. • 3 ¿Qué vas a hacer? • 4 Adiós.)"
-      }
+        "en": "If Love Story has been completed.",
+        "es": "Si se ha completado Love Story."
+      },
+      "chatOptions": [
+        "4 Ariane says the tower is in danger.",
+        "3 What are you going to do?",
+        "4 Goodbye."
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "The old tower",
       "text": {
-        "en": "Talk to Wizard Ellaron in the northeastern room. (opciones de chat: 2 Ariane says the tower is in danger. • 2 Thanks.)",
-        "es": "Habla con Wizard Ellaron en la sala noreste. (opciones de chat: 2 Ariane dice que la torre está en peligro. • 2 Gracias.)"
-      }
+        "en": "Talk to Wizard Ellaron in the northeastern room.",
+        "es": "Habla con Wizard Ellaron en la sala noreste."
+      },
+      "chatOptions": [
+        "2 Ariane says the tower is in danger.",
+        "2 Thanks."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "The old tower",
       "text": {
         "en": "Descend the beam twice or right-click and select bottom floor back to the .",
         "es": "Baja por el haz dos veces o haz clic derecho y selecciona la planta baja para volver a la ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "The old tower",
       "text": {
-        "en": "Talk to Ariane. (opciones de chat: 2 I've spoken to some of the wizards... • 3 Wizard Traiborn said something came through the library floor. • 2 Then let's get down there and investigate! • 2 I'll get right on it.)",
-        "es": "Habla con Ariane. (opciones de chat: 2 He hablado con algunos de los magos... • 3 Wizard Traiborn dijo que algo atravesó el suelo de la biblioteca. • 2 ¡Entonces bajemos ahí a investigar! • 2 Me pongo con ello enseguida.)"
-      }
+        "en": "Talk to Ariane.",
+        "es": "Habla con Ariane."
+      },
+      "chatOptions": [
+        "2 I've spoken to some of the wizards...",
+        "3 Wizard Traiborn said something came through the library floor.",
+        "2 Then let's get down there and investigate!",
+        "2 I'll get right on it."
+      ]
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "The hidden key",
       "text": {
         "en": "Ascend the beam twice.",
         "es": "Sube por el haz dos veces."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "The hidden key",
       "text": {
-        "en": "Talk to Wizard Ellaron. (opciones de chat: 2 How can I get into the old tower? • 3 You do know, though? • 3 You mean the rumour about Water Surge? • 3 What do you mean, the key lies in understanding Water Surge? • 2 It's such a pity you couldn't help me, Maybe I'll visit the library.)",
-        "es": "Habla con Wizard Ellaron. (opciones de chat: 2 ¿Cómo puedo entrar en la torre antigua? • 3 Pero tú lo sabes, ¿verdad? • 3 ¿Te refieres al rumor sobre Water Surge? • 3 ¿Qué quieres decir con que la clave está en entender Water Surge? • 2 Es una pena que no hayas podido ayudarme, Quizás visite la biblioteca.)"
-      }
+        "en": "Talk to Wizard Ellaron.",
+        "es": "Habla con Wizard Ellaron."
+      },
+      "chatOptions": [
+        "2 How can I get into the old tower?",
+        "3 You do know, though?",
+        "3 You mean the rumour about Water Surge?",
+        "3 What do you mean, the key lies in understanding Water Surge?",
+        "2 It's such a pity you couldn't help me, Maybe I'll visit the library."
+      ]
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "The hidden key",
       "text": {
         "en": "Go back to the and search the easternmost bookcase for The Harmony of the Runes and The Runes of the Spells of Water.",
         "es": "Vuelve a la y busca en la estantería más al este The Harmony of the Runes y The Runes of the Spells of Water."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "The hidden key",
       "text": {
         "en": "Read the books.",
         "es": "Lee los libros."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "The hidden key",
       "text": {
         "en": "Play the organ at the southern end of the .",
         "es": "Toca el órgano en el extremo sur de la ."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "The hidden key",
       "text": {
         "en": "Press the organ keys in the following order: 10x \"B\", 7x \"A#\", 1x \"G#\", and 1x \"G\". (small black keys are # notes)",
         "es": "Pulsa las teclas del órgano en el siguiente orden: 10x \"B\", 7x \"A#\", 1x \"G#\" y 1x \"G\". (las teclas negras pequeñas son notas #)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "The hidden key",
       "text": {
         "en": "Take the organ key.",
         "es": "Coge la llave del órgano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Descent",
       "text": {
-        "en": "Head to the north side of the island and talk to Ariane, (opciones de chat: 2 I've got the key to the ruins. • Any) then head east and enter the door on the seashore.",
+        "en": "Head to the north side of the island and talk to Ariane, then head east and enter the door on the seashore.",
         "es": "Dirígete al lado norte de la isla y habla con Ariane, (opciones de chat: 2 Tengo la llave de las ruinas. • Cualquiera) luego ve hacia el este y entra por la puerta en la orilla del mar."
-      }
+      },
+      "chatOptions": [
+        "2 I've got the key to the ruins.",
+        "Any"
+      ]
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Descent",
       "text": {
-        "en": "Talk to Ariane (opciones de chat: 2 We should keep our minds on the job. • 1 Yes, it's inspiring. • 2 Okay, what should we do now?)",
-        "es": "Habla con Ariane (opciones de chat: 2 Deberíamos concentrarnos en el trabajo. • 1 Sí, es inspirador. • 2 Vale, ¿qué deberíamos hacer ahora?)"
-      }
+        "en": "Talk to Ariane",
+        "es": "Habla con Ariane"
+      },
+      "chatOptions": [
+        "2 We should keep our minds on the job.",
+        "1 Yes, it's inspiring.",
+        "2 Okay, what should we do now?"
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Descent",
       "text": {
-        "en": "Talk to the rune guardian and answer the questions any way. (opciones de chat: 3 I'm ready to be tested. • Any • Any • Any • Any • Any)",
-        "es": "Habla con el rune guardian y responde las preguntas de cualquier forma. (opciones de chat: 3 Estoy listo/a para ser puesto/a a prueba. • Cualquiera • Cualquiera • Cualquiera • Cualquiera • Cualquiera)"
-      }
+        "en": "Talk to the rune guardian and answer the questions any way.",
+        "es": "Habla con el rune guardian y responde las preguntas de cualquier forma."
+      },
+      "chatOptions": [
+        "3 I'm ready to be tested.",
+        "Any",
+        "Any",
+        "Any",
+        "Any",
+        "Any"
+      ]
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Descent",
       "text": {
         "en": "The options you pick only dictate the title you're given. See the full guide to learn more.",
         "es": "Las opciones que elijas solo determinan el título que se te otorga. Consulta la guía completa para saber más."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Descent",
       "text": {
         "en": "Enter the door behind the rune guardian.",
         "es": "Entra por la puerta detrás del rune guardian."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Descent",
       "text": {
         "en": "Walk down the stairs to the gap in front of Ariane.",
         "es": "Baja las escaleras hasta el hueco frente a Ariane."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Descent",
       "text": {
-        "en": "Climb behind the statue (on the wall above the gap). (opciones de chat: 1 I'm making us a bridge. • 1 Do you have a better idea?)",
-        "es": "Trepa detrás de la estatua (en la pared sobre el hueco). (opciones de chat: 1 Estoy haciéndonos un puente. • 1 ¿Tienes una idea mejor?)"
-      }
+        "en": "Climb behind the statue (on the wall above the gap).",
+        "es": "Trepa detrás de la estatua (en la pared sobre el hueco)."
+      },
+      "chatOptions": [
+        "1 I'm making us a bridge.",
+        "1 Do you have a better idea?"
+      ]
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Descent",
       "text": {
         "en": "Cross the statue (gap) and climb down the staircase.",
         "es": "Cruza la estatua (el hueco) y baja por la escalera."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Descent",
       "text": {
-        "en": "Talk to Ariane. (opciones de chat: 1 I wish I could have seen it.)",
-        "es": "Habla con Ariane. (opciones de chat: 1 Me hubiera gustado verlo.)"
-      }
+        "en": "Talk to Ariane.",
+        "es": "Habla con Ariane."
+      },
+      "chatOptions": [
+        "1 I wish I could have seen it."
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Descent",
       "text": {
         "en": "Use magic to lure a vortex into Ariane's circle, and keep it there until the circle disappears. You can lure them by attacking them.",
         "es": "Usa magia para atraer un vórtice hacia el círculo de Ariane, y mantenlo ahí hasta que el círculo desaparezca. Puedes atraerlos atacándolos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Descent",
       "text": {
-        "en": "Talk to Ariane again. (opciones de chat: 2 Never mind the history, what does that mean for us? • 2 Okay, so what do we do? • 3 Okay, I'll do that now.)",
-        "es": "Habla de nuevo con Ariane. (opciones de chat: 2 Olvida la historia, ¿qué significa eso para nosotros? • 2 Vale, entonces, ¿qué hacemos? • 3 Vale, lo haré ahora.)"
-      }
+        "en": "Talk to Ariane again.",
+        "es": "Habla de nuevo con Ariane."
+      },
+      "chatOptions": [
+        "2 Never mind the history, what does that mean for us?",
+        "2 Okay, so what do we do?",
+        "3 Okay, I'll do that now."
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Exit the ruins.",
         "es": "Sal de las ruinas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Head back to the organ on the main floor of the tower and play any of the notes from the lowest set of keys to trigger several cutscenes.",
         "es": "Vuelve al órgano en la planta principal de la torre y toca cualquiera de las notas del conjunto de teclas más bajo para activar varias escenas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
-        "en": "Talk to Ariane (east side of the island at the entrance to the lower tower). (opciones de chat: 3 Is there a reward?)",
-        "es": "Habla con Ariane (lado este de la isla, en la entrada de la torre inferior). (opciones de chat: 3 ¿Hay alguna recompensa?)"
-      }
+        "en": "Talk to Ariane (east side of the island at the entrance to the lower tower).",
+        "es": "Habla con Ariane (lado este de la isla, en la entrada de la torre inferior)."
+      },
+      "chatOptions": [
+        "3 Is there a reward?"
+      ]
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

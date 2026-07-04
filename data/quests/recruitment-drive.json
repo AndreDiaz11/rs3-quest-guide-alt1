@@ -2,7 +2,8 @@
   "id": "recruitment-drive",
   "title": "Recruitment Drive",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:07:57.136Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:34:56.172Z",
   "icon": "https://runescape.wiki/images/Recruitment_Drive_icon.png",
   "series": "Temple Knight",
   "age": "5",
@@ -84,359 +85,453 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Recruitment_Drive_reward.png?3e6d2",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Teleport to Falador.",
         "es": "Teletranspórtate a Falador."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Go to the White Knights' Castle, and head up to the of the western tower.",
         "es": "Ve al Castillo de los White Knights y sube hasta la torre oeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Sir Amik Varze. (opciones de chat: 2 I seek a quest! • Accept)",
-        "es": "Habla con Sir Amik Varze. (opciones de chat: 2 ¡Busco una misión! • Aceptar)"
-      }
+        "en": "Talk to Sir Amik Varze.",
+        "es": "Habla con Sir Amik Varze."
+      },
+      "chatOptions": [
+        "2 I seek a quest!",
+        "Accept"
+      ]
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The puzzles",
       "text": {
-        "en": "Talk to Sir Tiffy Cashien without any items equipped or in the inventory. He can be found in the Falador Park. (opciones de chat: 3 Yes, let's go!)",
-        "es": "Habla con Sir Tiffy Cashien sin ningún objeto equipado ni en el inventario. Se le puede encontrar en el Falador Park. (opciones de chat: 3 ¡Sí, vamos!)"
-      }
+        "en": "Talk to Sir Tiffy Cashien without any items equipped or in the inventory. He can be found in the Falador Park.",
+        "es": "Habla con Sir Tiffy Cashien sin ningún objeto equipado ni en el inventario. Se le puede encontrar en el Falador Park."
+      },
+      "chatOptions": [
+        "3 Yes, let's go!"
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The puzzles",
       "text": {
         "en": "Optionally, sit on the bench next to Sir Tiffy Cashien to complete the achievement: Tiffy Time.",
         "es": "Opcionalmente, siéntate en el banco junto a Sir Tiffy Cashien para completar el logro: Tiffy Time."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Lady Table",
       "text": {
         "en": "In this room there will be eleven statues when there should be twelve. The goal is to study the statues then, when the twelfth one is returned, pick the one that was originally missing.",
         "es": "En esta sala habrá once estatuas cuando debería haber doce. El objetivo es estudiar las estatuas y, cuando se devuelva la duodécima, elegir la que faltaba originalmente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 1,
+      "section": "Lady Table",
       "text": {
         "en": "Easy method: look for the colour (bronze, silver, gold) of statue that only has 2 statues instead of 3, then note which weapon of that colour is missing out of the 4 possibilities (sword, halberd, great axe, or mace.)",
         "es": "Método fácil: busca el color (bronce, plata, oro) de la estatua que solo tiene 2 estatuas en vez de 3, luego anota qué arma de ese color falta entre las 4 posibilidades (espada, alabarda, hacha grande o maza)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Lady Table",
       "text": {
         "en": "Alternative method: the moment it shows 12 statues, take a screenshot. Then open the screenshot and compare which was missing and click it.",
         "es": "Método alternativo: en el momento en que se muestren las 12 estatuas, haz una captura de pantalla. Luego abre la captura y compara cuál faltaba y haz clic en ella."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Lady Table",
       "text": {
         "en": "Find the statue that wasn't there originally and touch it.",
         "es": "Encuentra la estatua que no estaba originalmente y tócala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Sir Kuam Ferentse/Sir Leye",
       "text": {
         "en": "As a female character, kill Sir Leye.",
         "es": "Como personaje femenino, mata a Sir Leye."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Sir Kuam Ferentse/Sir Leye",
       "text": {
         "en": "If you have not visited the Makeover Mage before starting the quest, you can change your gender via the Customisation interface, under the Appearance tab.",
         "es": "Si no has visitado al Makeover Mage antes de empezar la misión, puedes cambiar tu género mediante la interfaz de Personalización, en la pestaña de Apariencia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Sir Kuam Ferentse/Sir Leye",
       "text": {
         "en": "Low level players are encouraged to use Legacy Combat Mode as the life points range won't be as high, thus, quickly ending the fight.",
         "es": "Se recomienda a los jugadores de nivel bajo usar el Modo de Combate Legacy, ya que el rango de puntos de vida no será tan alto y, por tanto, el combate terminará rápidamente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Sir Spishyus",
       "text": {
         "en": "In this room, the chicken, grain, and the fox must all be transported to the other side of the bridge in a specific order.",
         "es": "En esta sala, la gallina, el grano y el zorro deben ser transportados todos al otro lado del puente en un orden específico."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Sir Spishyus",
       "text": {
         "en": "Take the chicken across and put it down. In order to put down an object, open your equipment panel and click on the equipped object.",
         "es": "Lleva la gallina al otro lado y déjala en el suelo. Para dejar un objeto, abre tu panel de equipo y haz clic en el objeto equipado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Sir Spishyus",
       "text": {
         "en": "Take the fox across and put it down. Grab the chicken and return back.",
         "es": "Lleva el zorro al otro lado y déjalo en el suelo. Coge la gallina y vuelve."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Sir Spishyus",
       "text": {
         "en": "Drop the chicken and take the Grain across.",
         "es": "Deja la gallina y lleva el Grano al otro lado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Sir Spishyus",
       "text": {
         "en": "Drop the grain and return back.",
         "es": "Deja el grano y vuelve."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Sir Spishyus",
       "text": {
         "en": "Take the chicken across and drop it.",
         "es": "Lleva la gallina al otro lado y déjala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Search the most south-western bookshelf for a knife.",
         "es": "Registra la estantería más al suroeste para encontrar un cuchillo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Search all four of the most southern shelves with vials, take all of them.",
         "es": "Registra las cuatro estanterías más al sur con viales y cógelos todos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Search the north-eastern middle-sized crate next to the chest for a tin.",
         "es": "Registra el cajón mediano al noreste junto al cofre para encontrar un estaño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Search the four northern shelves for the remaining vials, take all of them.",
         "es": "Registra las cuatro estanterías del norte para encontrar los viales restantes y cógelos todos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Pick up the on the table.",
         "es": "Coge el objeto que hay sobre la mesa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Use the on the bunsen burner in the room.",
         "es": "Usa el objeto en el mechero Bunsen de la sala."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Use the on the door.",
         "es": "Usa el objeto en la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Use on the door.",
         "es": "Usa el objeto en la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Use a on the door.",
         "es": "Usa un objeto en la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Pull on the spade to open the door.",
         "es": "Tira de la pala para abrir la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Use the on the .",
         "es": "Usa el objeto en el objetivo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Use a on the .",
         "es": "Usa un objeto en el objetivo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Use the tin on the key chained to the south-western wall.",
         "es": "Usa el estaño en la llave encadenada a la pared suroeste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Use the on the .",
         "es": "Usa el objeto en el objetivo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Use the on the .",
         "es": "Usa el objeto en el objetivo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Heat the on the bunsen burner.",
         "es": "Calienta el objeto en el mechero Bunsen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Use a , , or on the .",
         "es": "Usa un objeto, objeto, u objeto en el objetivo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Walk-through the open first door.",
         "es": "Cruza la primera puerta abierta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 0,
+      "section": "Miss Cheevers",
       "text": {
         "en": "Unlock the door with the .",
         "es": "Abre la puerta con el objeto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Sir Ren Itchood",
       "text": {
         "en": "Talk to Sir Ren Itchood.",
         "es": "Habla con Sir Ren Itchood."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Sir Ren Itchood",
       "text": {
         "en": "The first letter of each line he says is the answer to the door's lock.",
         "es": "La primera letra de cada línea que dice es la respuesta a la cerradura de la puerta."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Sir Ren Itchood",
       "text": {
         "en": "Possible combinations are: BITE, FISH, LAST, MEAT, RAIN, or TIME.",
         "es": "Las combinaciones posibles son: BITE, FISH, LAST, MEAT, RAIN o TIME."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 0,
+      "section": "Ms. Hynn Terprett",
       "text": {
         "en": "Talk to Ms. Hynn Terprett.",
         "es": "Habla con Ms. Hynn Terprett."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
+      "section": "Ms. Hynn Terprett",
       "text": {
         "en": "She will give you a riddle.",
         "es": "Ella te dará un acertijo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
+      "section": "Sir Tinley",
       "text": {
         "en": "After you talk to him, do not move, stand there and do nothing until he talks again. Do not take the hourglass.",
         "es": "Después de hablar con él, no te muevas, quédate quieto y no hagas nada hasta que vuelva a hablar. No cojas el reloj de arena."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "After all the puzzles are done, quest complete!",
         "es": "Una vez completados todos los rompecabezas, ¡misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

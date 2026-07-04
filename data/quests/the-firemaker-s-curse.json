@@ -2,7 +2,8 @@
   "id": "the-firemaker-s-curse",
   "title": "The Firemaker's Curse",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:19:30.797Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:18.446Z",
   "icon": "https://runescape.wiki/images/The_Firemaker%27s_Curse_icon.png",
   "series": null,
   "age": "5",
@@ -104,655 +105,850 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/The_Firemaker%27s_Curse_reward.png?21df0",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Phoenix south of Eagles' Peak. (opciones de chat: 1 Travelling firemaker? What does that involve? • 1 This seems dangerous. Why put your lives at risk? • 2 What are you waiting for? • Accept • 1 Yes, let's go.)",
-        "es": "Habla con Phoenix al sur de Eagles' Peak. (opciones de chat: 1 ¿Pirómano itinerante? ¿En qué consiste eso? • 1 Esto parece peligroso. ¿Por qué arriesgáis vuestras vidas? • 2 ¿A qué esperáis? • Aceptar • 1 Sí, vamos.)"
-      }
+        "en": "Talk to Phoenix south of Eagles' Peak.",
+        "es": "Habla con Phoenix al sur de Eagles' Peak."
+      },
+      "chatOptions": [
+        "1 Travelling firemaker? What does that involve?",
+        "1 This seems dangerous. Why put your lives at risk?",
+        "2 What are you waiting for?",
+        "Accept",
+        "1 Yes, let's go."
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Enter the tunnel.",
         "es": "Entra en el túnel."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Room 1",
       "text": {
         "en": "Talk to Flint for a pitch can.",
         "es": "Habla con Flint para conseguir un bote de brea."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Room 1",
       "text": {
         "en": "Use the pitch can to light fires by right-clicking make-fire-here to complete the arrow on the ground. If you mess up, you can right-click the fire to stomp it out. You can also drag the pitch can onto an action bar, and use a key-bind to light fires with it. However, this will light a fire one tile in front of you.",
         "es": "Usa el bote de brea para encender fuegos haciendo clic derecho en \"encender-fuego-aquí\" para completar la flecha en el suelo. Si te equivocas, puedes hacer clic derecho en el fuego para apagarlo pisándolo. También puedes arrastrar el bote de brea a una barra de acción y usar un atajo de teclado para encender fuegos con él. Sin embargo, esto encenderá un fuego una casilla delante de ti."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Room 2",
       "text": {
         "en": "Light the fire pit.",
         "es": "Enciende el hoyo de fuego."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Room 2",
       "text": {
         "en": "Take the Firemaking journal on the rock.",
         "es": "Coge el diario de Piromancia que está sobre la roca."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Room 2",
       "text": {
-        "en": "Light the fire again. (opciones de chat: 2 What do you want from us?)",
-        "es": "Enciende el fuego de nuevo. (opciones de chat: 2 ¿Qué queréis de nosotros?)"
-      }
+        "en": "Light the fire again.",
+        "es": "Enciende el fuego de nuevo."
+      },
+      "chatOptions": [
+        "2 What do you want from us?"
+      ]
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Room 2",
       "text": {
-        "en": "Enter the tunnel on the east side of the room. (opciones de chat: 1 We must continue through the caves.)",
-        "es": "Entra en el túnel del lado este de la sala. (opciones de chat: 1 Debemos continuar a través de las cuevas.)"
-      }
+        "en": "Enter the tunnel on the east side of the room.",
+        "es": "Entra en el túnel del lado este de la sala."
+      },
+      "chatOptions": [
+        "1 We must continue through the caves."
+      ]
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Room 3",
       "text": {
         "en": "Complete the pattern which is in the shape of a falling boulder.",
         "es": "Completa el patrón que tiene la forma de una roca cayendo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Room 3",
       "text": {
         "en": "Avoid falling boulders. Pick-up rocks one at a time, placing them on the rock pile to the east. (Repeat this 6 times)",
         "es": "Esquiva las rocas que caen. Recoge las piedras de una en una, colocándolas sobre el montón de rocas al este. (Repite esto 6 veces)"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Room 3",
       "text": {
         "en": "Climb up the rock pile.",
         "es": "Sube al montón de rocas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Room 4",
       "text": {
         "en": "Light the fire pit.",
         "es": "Enciende el hoyo de fuego."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Room 4",
       "text": {
-        "en": "Take the journal. (opciones de chat: 3 Did you say Zaros? • 1 Were you close to Zaros? • 1 What happened to you?)",
-        "es": "Coge el diario. (opciones de chat: 3 ¿Has dicho Zaros? • 1 ¿Estuvisteis cerca de Zaros? • 1 ¿Qué os pasó?)"
-      }
+        "en": "Take the journal.",
+        "es": "Coge el diario."
+      },
+      "chatOptions": [
+        "3 Did you say Zaros?",
+        "1 Were you close to Zaros?",
+        "1 What happened to you?"
+      ]
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Room 4",
       "text": {
         "en": "Tie-up firemaker on the Column, selecting Twig.",
         "es": "Ata al pirómano en la columna, seleccionando a Twig."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Room 4",
       "text": {
         "en": "Light the fire pit again.",
         "es": "Enciende el hoyo de fuego de nuevo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Room 4",
       "text": {
         "en": "Enter the tunnel to the east.",
         "es": "Entra en el túnel hacia el este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Room 5",
       "text": {
         "en": "Using the bowls of red and yellow powder by the entrance, complete the puzzle.",
         "es": "Usando los cuencos de polvo rojo y amarillo junto a la entrada, completa el rompecabezas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Room 5",
       "text": {
         "en": "Immediately after the puzzle, dodge 2 fire walls by standing in the open gaps.",
         "es": "Justo después del rompecabezas, esquiva 2 muros de fuego colocándote en los huecos abiertos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Room 5",
       "text": {
         "en": "Proceed to the next room north.",
         "es": "Continúa hacia la siguiente sala al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "Room 6",
       "text": {
         "en": "The lights dim after a short time, dealing 50-100 damage every few seconds. Lighting the fires postpones this effect.",
         "es": "Las luces se atenúan al cabo de un rato, causando 50-100 de daño cada pocos segundos. Encender los fuegos retrasa este efecto."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Room 6",
       "text": {
         "en": "If you come close to dying in this room, you will be rescued by the firemakers and restored to full health. If this happens, any activated pillars will remain activated, but all lit fires will be extinguished. You don't have to relight all the fires.",
         "es": "Si estás a punto de morir en esta sala, los pirómanos te rescatarán y te restaurarán la vida al máximo. Si esto ocurre, cualquier pilar activado permanecerá activado, pero todos los fuegos encendidos se apagarán. No es necesario volver a encender todos los fuegos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
+      "section": "Room 6",
       "text": {
         "en": "Complete the puzzle:",
         "es": "Completa el rompecabezas:"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 22,
       "indent": 1,
+      "section": "Room 6",
       "text": {
         "en": "Go west, light the fire pit. Push nearby column switch.",
         "es": "Ve al oeste, enciende el hoyo de fuego. Empuja el interruptor de columna cercano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 1,
+      "section": "Room 6",
       "text": {
         "en": "Go far east, light the fire pit. Push nearby column switch.",
         "es": "Ve muy al este, enciende el hoyo de fuego. Empuja el interruptor de columna cercano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 1,
+      "section": "Room 6",
       "text": {
         "en": "Go back west and north to the centre and jump the pillar east of you. Push the nearby column switch.",
         "es": "Vuelve al oeste y al norte hacia el centro y salta el pilar al este de ti. Empuja el interruptor de columna cercano."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 25,
       "indent": 1,
+      "section": "Room 6",
       "text": {
         "en": "Jump the ledge just south-east of you, jump the next ledge east. Light the fire pit.",
         "es": "Salta la cornisa justo al sureste de ti, salta la siguiente cornisa al este. Enciende el hoyo de fuego."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 26,
       "indent": 1,
+      "section": "Room 6",
       "text": {
         "en": "North of you is the flame switch - loop around by going back west then east and push it.",
         "es": "Al norte de ti está el interruptor de llama; da la vuelta yendo primero al oeste y luego al este y empújalo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 1,
+      "section": "Room 6",
       "text": {
         "en": "Head west, light the fire pit then push the switch. Move fast here to avoid being hit by the rocks above you.",
         "es": "Ve al oeste, enciende el hoyo de fuego y luego empuja el interruptor. Muévete rápido aquí para evitar que te golpeen las rocas de arriba."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 28,
       "indent": 1,
+      "section": "Room 6",
       "text": {
         "en": "Jump back to the centre and push the switch immediately south of you.",
         "es": "Salta de vuelta al centro y empuja el interruptor justo al sur de ti."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 29,
       "indent": 1,
+      "section": "Room 6",
       "text": {
         "en": "Head to the north-west corner and light the fire pit, press the switch just south. Watch out for the falling rocks.",
         "es": "Dirígete a la esquina noroeste y enciende el hoyo de fuego, presiona el interruptor justo al sur. Ten cuidado con las rocas que caen."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 30,
       "indent": 0,
+      "section": "Room 6",
       "text": {
         "en": "Enter the tunnel in the north-east corner.",
         "es": "Entra en el túnel de la esquina noreste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 31,
       "indent": 0,
+      "section": "Room 7",
       "text": {
-        "en": "Light the fire and pick up the journal. (opciones de chat: 1 Zamorak! • 2 Yes, he's a terrible, hateful god.)",
-        "es": "Enciende el fuego y coge el diario. (opciones de chat: 1 ¡Zamorak! • 2 Sí, es un dios terrible y odioso.)"
-      }
+        "en": "Light the fire and pick up the journal.",
+        "es": "Enciende el fuego y coge el diario."
+      },
+      "chatOptions": [
+        "1 Zamorak!",
+        "2 Yes, he's a terrible, hateful god."
+      ]
     },
     {
       "index": 32,
       "indent": 0,
+      "section": "Room 7",
       "text": {
-        "en": "Tie-up firemaker on the Column, selecting Sera. (opciones de chat: 5 More options • 1 Sera • 1 Yes!)",
-        "es": "Ata al pirómano en la columna, seleccionando a Sera. (opciones de chat: 5 Más opciones • 1 Sera • 1 ¡Sí!)"
-      }
+        "en": "Tie-up firemaker on the Column, selecting Sera.",
+        "es": "Ata al pirómano en la columna, seleccionando a Sera."
+      },
+      "chatOptions": [
+        "5 More options",
+        "1 Sera",
+        "1 Yes!"
+      ]
     },
     {
       "index": 33,
       "indent": 0,
+      "section": "Room 7",
       "text": {
         "en": "Light the fire again and proceed to the next room east.",
         "es": "Enciende el fuego de nuevo y continúa hacia la siguiente sala al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 34,
       "indent": 0,
+      "section": "Room 8",
       "text": {
         "en": "Complete the puzzle.",
         "es": "Completa el rompecabezas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 35,
       "indent": 0,
+      "section": "Room 8",
       "text": {
         "en": "Immediately after the puzzle, dodge 4 quicker fire walls by standing in the open gaps.",
         "es": "Justo después del rompecabezas, esquiva 4 muros de fuego más rápidos colocándote en los huecos abiertos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 36,
       "indent": 1,
+      "section": "Room 8",
       "text": {
         "en": "There might be a bug where 2 firewalls spawn at the same time, leaving no open gaps. A solution might be to stand in the far south-east corner of the room or run around the fire walls.",
         "es": "Puede haber un fallo por el cual aparecen 2 muros de fuego al mismo tiempo, sin dejar huecos abiertos. Una solución puede ser quedarte en la esquina sureste de la sala o correr alrededor de los muros de fuego."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Room 8",
       "text": {
         "en": "Proceed to the next room north.",
         "es": "Continúa hacia la siguiente sala al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Room 9",
       "text": {
         "en": "Light one of the oil pools on the wall.",
         "es": "Enciende uno de los charcos de aceite en la pared."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 39,
       "indent": 0,
+      "section": "Room 9",
       "text": {
         "en": "Avoiding being damaged by the fire balls. You have to hold on to all the waves for about 10 minutes.",
         "es": "Evita ser dañado por las bolas de fuego. Debes resistir todas las oleadas durante unos 10 minutos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 40,
       "indent": 1,
+      "section": "Room 9",
       "text": {
         "en": "You can light the oil pool lines as a barricade.",
         "es": "Puedes encender las líneas de charcos de aceite como barricada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 1,
+      "section": "Room 9",
       "text": {
         "en": "If you stay in the north-west corner and immediately light the oil pools as soon as they're ready you should stay safe. There is no guarantee however.",
         "es": "Si te quedas en la esquina noroeste y enciendes los charcos de aceite en cuanto estén listos, deberías estar a salvo. Sin embargo, no hay garantía."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 1,
+      "section": "Room 9",
       "text": {
         "en": "If the fire balls start congregating on one side, run to opposite corner, placing a barricade behind you.",
         "es": "Si las bolas de fuego empiezan a congregarse en un lado, corre al lado opuesto, colocando una barricada detrás de ti."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 1,
+      "section": "Room 9",
       "text": {
         "en": "Another tactic is to use the option on the oil pools and use \"right\" and \"left\" to perform a clockwise rotation of the edges of the pit.",
         "es": "Otra táctica es usar la opción de los charcos de aceite y usar \"derecha\" e \"izquierda\" para realizar una rotación en el sentido de las agujas del reloj de los bordes del foso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
+      "section": "Room 9",
       "text": {
         "en": "Proceed to the next room north.",
         "es": "Continúa hacia la siguiente sala al norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 45,
       "indent": 0,
+      "section": "Room 10",
       "text": {
         "en": "Light the fire and grab the journal.",
         "es": "Enciende el fuego y coge el diario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 46,
       "indent": 0,
+      "section": "Room 10",
       "text": {
-        "en": "Tie up Twig again (opciones de chat: 2 Twig • 1 Yes!) and light the fire.",
+        "en": "Tie up Twig again and light the fire.",
         "es": "Ata a Twig de nuevo (opciones de chat: 2 Twig • 1 ¡Sí!) y enciende el fuego."
-      }
+      },
+      "chatOptions": [
+        "2 Twig",
+        "1 Yes!"
+      ]
     },
     {
       "index": 47,
       "indent": 0,
+      "section": "Room 10",
       "text": {
         "en": "Proceed to the next room east.",
         "es": "Continúa hacia la siguiente sala al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 48,
       "indent": 0,
+      "section": "Room 11",
       "text": {
         "en": "Complete the puzzle.",
         "es": "Completa el rompecabezas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 49,
       "indent": 0,
+      "section": "Room 11",
       "text": {
         "en": "Light the fire pit.",
         "es": "Enciende el hoyo de fuego."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 50,
       "indent": 0,
+      "section": "Room 11",
       "text": {
         "en": "Take-torch from the fire pit and continue down the path.",
         "es": "Coge una antorcha del hoyo de fuego y continúa por el camino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 51,
       "indent": 0,
+      "section": "Room 11",
       "text": {
         "en": "When there are dark tendrils, ward them off at the edge of your screen by clicking on them.",
         "es": "Cuando haya zarcillos oscuros, repélelos en el borde de tu pantalla haciendo clic sobre ellos."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 52,
       "indent": 1,
+      "section": "Room 11",
       "text": {
         "en": "Tendrils may hide behind your interface if you have panels on the edges of your screen. To make the tendrils more visible, right click on World Map and click \"Toggle High Contrast Mode\".",
         "es": "Los zarcillos pueden esconderse detrás de tu interfaz si tienes paneles en los bordes de la pantalla. Para hacer que los zarcillos sean más visibles, haz clic derecho en el Mapa del Mundo y haz clic en \"Activar modo de alto contraste\"."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
+      "section": "Room 11",
       "text": {
         "en": "Proceed to the next room at the end of the path.",
         "es": "Continúa hacia la siguiente sala al final del camino."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
+      "section": "Room 12",
       "text": {
         "en": "Light the fire and take the journal.",
         "es": "Enciende el fuego y coge el diario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 55,
       "indent": 0,
+      "section": "Room 12",
       "text": {
-        "en": "Tie-up Emmett (opciones de chat: 3 Emmett • 1 Yes!) and light the fire.",
+        "en": "Tie-up Emmett and light the fire.",
         "es": "Ata a Emmett (opciones de chat: 3 Emmett • 1 ¡Sí!) y enciende el fuego."
-      }
+      },
+      "chatOptions": [
+        "3 Emmett",
+        "1 Yes!"
+      ]
     },
     {
       "index": 56,
       "indent": 0,
+      "section": "Room 12",
       "text": {
         "en": "Proceed to the next room east.",
         "es": "Continúa hacia la siguiente sala al este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 57,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "During this fight, you must fight Char with Necromancy, Magic or Ranged.",
         "es": "Durante este combate, debes luchar contra Char con Nigromancia, Magia o Distancia."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 58,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "Teleport out and prepare for the battle.",
         "es": "Teletranspórtate fuera y prepárate para la batalla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 59,
       "indent": 1,
+      "section": "Face-off with Char",
       "text": {
         "en": "Carry an inventory full of food (such as sharks or rocktails).",
         "es": "Lleva un inventario lleno de comida (como tiburones o rocktails)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 60,
       "indent": 1,
+      "section": "Face-off with Char",
       "text": {
         "en": "Carry necromancy, range or a mage weapon.",
         "es": "Lleva nigromancia, distancia o un arma de mago."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 61,
       "indent": 1,
+      "section": "Face-off with Char",
       "text": {
         "en": "Do not bring any armour as it has no effect during this battle.",
         "es": "No lleves ninguna armadura, ya que no tiene ningún efecto durante esta batalla."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 62,
       "indent": 1,
+      "section": "Face-off with Char",
       "text": {
         "en": "Do not bring a familiar as this might cause the dialogue with Char to be glitched.",
         "es": "No lleves ningún familiar, ya que esto podría causar que el diálogo con Char se corrompa."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "Teleport back to Eagles' Peak and run south to the entrance of the cave.",
         "es": "Teletranspórtate de vuelta a Eagles' Peak y corre al sur hacia la entrada de la cueva."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 64,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "Talk to Flint to get another Pitch can.",
         "es": "Habla con Flint para conseguir otro bote de brea."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 65,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "Climb down the steps to enter Char's lair.",
         "es": "Baja las escaleras para entrar en la guarida de Char."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 66,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
-        "en": "Take the journal. (opciones de chat: 2 That's a good idea. • Any)",
-        "es": "Coge el diario. (opciones de chat: 2 Esa es una buena idea. • Cualquiera)"
-      }
+        "en": "Take the journal.",
+        "es": "Coge el diario."
+      },
+      "chatOptions": [
+        "2 That's a good idea.",
+        "Any"
+      ]
     },
     {
       "index": 67,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "Talk to Char to engage the fight.",
         "es": "Habla con Char para iniciar el combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 68,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "During the fight, you should keep a distance from Char at all times.",
         "es": "Durante el combate, debes mantener distancia de Char en todo momento."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 69,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "The amount of damage you deal is determined by the amount of flames you have lit (100 damage per active flame).",
         "es": "La cantidad de daño que infliges está determinada por la cantidad de llamas que has encendido (100 de daño por llama activa)."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 70,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "As you fight her, keep lighting flames.",
         "es": "Mientras luchas contra ella, sigue encendiendo llamas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 71,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "Add your pitch can to your ability bar to make fires much more easily.",
         "es": "Añade tu bote de brea a tu barra de habilidades para encender fuegos mucho más fácilmente."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 72,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "Run around the edges of the arena lighting flames as fast as you can.",
         "es": "Corre por los bordes de la arena encendiendo llamas tan rápido como puedas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 73,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "When you have 10 active flames, run some distance from Char and attack her a few times, dealing 1,000-5,000 damage in total.",
         "es": "Cuando tengas 10 llamas activas, aléjate un poco de Char y atácala unas cuantas veces, infligiendo un total de 1.000-5.000 de daño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 74,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "Repeat steps 1-2 until she is defeated.",
         "es": "Repite los pasos 1-2 hasta que sea derrotada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 75,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "Remember to avoid the firewalls by maneuvering through the gaps, or you'll be hit for 1,000-4,000 damage.",
         "es": "Recuerda evitar los muros de fuego maniobrando por los huecos, o recibirás entre 1.000 y 4.000 de daño."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 76,
       "indent": 0,
+      "section": "Face-off with Char",
       "text": {
         "en": "While Char is glowing she is invincible, so focus on lighting flames during this period.",
         "es": "Mientras Char está resplandeciendo, es invencible, así que concéntrate en encender llamas durante este periodo."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 77,
       "indent": 0,
+      "section": "After the battle",
       "text": {
-        "en": "After the battle ends, talk to Char. (opciones de chat: 2 How do we get out?)",
-        "es": "Después de que termine la batalla, habla con Char. (opciones de chat: 2 ¿Cómo salimos de aquí?)"
-      }
+        "en": "After the battle ends, talk to Char.",
+        "es": "Después de que termine la batalla, habla con Char."
+      },
+      "chatOptions": [
+        "2 How do we get out?"
+      ]
     },
     {
       "index": 78,
       "indent": 0,
+      "section": "After the battle",
       "text": {
         "en": "There may be a glitch where you cannot finish the dialogue, in this case leave the cave through the southern tunnel and come back in.",
         "es": "Puede haber un fallo por el cual no puedas terminar el diálogo; en ese caso, sal de la cueva por el túnel sur y vuelve a entrar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 79,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Exit through the tunnel to the north.",
         "es": "Sal por el túnel hacia el norte."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 80,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

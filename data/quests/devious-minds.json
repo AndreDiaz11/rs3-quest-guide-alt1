@@ -2,7 +2,8 @@
   "id": "devious-minds",
   "title": "Devious Minds",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:06:49.344Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:56.968Z",
   "icon": "https://runescape.wiki/images/Devious_Minds_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -90,151 +91,194 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Devious_Minds_reward.png?7559c",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to the monk just outside of Paterdomus which is east of Silvarea. (opciones de chat: Accept)",
-        "es": "Habla con el monje justo a las afueras de Paterdomus, al este de Silvarea. (opciones de chat: Accept)"
-      }
+        "en": "Talk to the monk just outside of Paterdomus which is east of Silvarea.",
+        "es": "Habla con el monje justo a las afueras de Paterdomus, al este de Silvarea."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "The weapon",
       "text": {
         "en": "Head to Doric's hut north of the Falador lodestone and use a mithril 2h sword on the whetstone outside of the hut.",
         "es": "Dirígete a la cabaña de Doric al norte de la piedra de viaje de Falador y usa una espada a dos manos de mithril en la piedra de afilar que hay fuera de la cabaña."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "The weapon",
       "text": {
         "en": "Use a bowstring on the slender blade.",
         "es": "Usa una cuerda de arco en la espada delgada."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "The weapon",
       "text": {
-        "en": "Return to the monk. (opciones de chat: 1 Yep, got it right here for you.)",
-        "es": "Vuelve con el monje. (opciones de chat: 1 Yep, got it right here for you.)"
-      }
+        "en": "Return to the monk.",
+        "es": "Vuelve con el monje."
+      },
+      "chatOptions": [
+        "1 Yep, got it right here for you."
+      ]
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Use the orb on a large pouch.",
         "es": "Usa el orbe en un saco grande."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Bank everything that you are not allowed to take to Entrana, and ensure you keep the large pouch in your inventory.",
         "es": "Deposita en el banco todo lo que no puedas llevar a Entrana, y asegúrate de mantener el saco grande en tu inventario."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Reach Entrana either through the Abyss or by using a law altar teleport.",
         "es": "Llega a Entrana ya sea a través del Abyss o usando un teletransporte del altar de leyes."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 1,
+      "section": "Entrana",
       "text": {
         "en": "If entering through the Abyss, enter the Abyss via the Mage of Zamorak north of Edgeville, then make your way to the law rift. Dismiss any summoning familiar. Leave the Law Rune Temple by using the portal.",
         "es": "Si entras a través del Abyss, accede al Abyss mediante el Mage of Zamorak al norte de Edgeville, y luego dirígete a la grieta de leyes. Descarta cualquier familiar de invocación. Sal del Law Rune Temple usando el portal."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Head into the church of Entrana to the south.",
         "es": "Dirígete a la iglesia de Entrana, al sur."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Use the pouch on the prayer altar. Doing this will cause you to lose your large pouch.",
         "es": "Usa el saco en el altar de oración. Al hacer esto perderás tu saco grande."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Entrana",
       "text": {
         "en": "Watch the cutscene.",
         "es": "Observa la escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 1,
+      "section": "Entrana",
       "text": {
         "en": "Talk to the High Priest if you didn't during the cutscene.",
         "es": "Habla con el High Priest si no lo hiciste durante la escena cinemática."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Return to the monk, back outside Paterdomus.",
         "es": "Vuelve con el monje, de nuevo a las afueras de Paterdomus."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Search the Dead Monk.",
         "es": "Registra al Dead Monk."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to the High Priest back on Entrana.",
         "es": "Habla con el High Priest de vuelta en Entrana."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Talk to Sir Tiffy Cashien in Falador Park.<!-- Selecting Devious Minds is not needed anymore, you can just spacebar through the text, it will complete the quest -->",
         "es": "Habla con Sir Tiffy Cashien en Falador Park.<!-- Selecting Devious Minds is not needed anymore, you can just spacebar through the text, it will complete the quest -->"
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 1,
+      "section": "Finishing up",
       "text": {
-        "en": "(opciones de chat: 2 Devious Minds) if The Slug Menace has not yet been started.",
+        "en": "if The Slug Menace has not yet been started.",
         "es": "(opciones de chat: 2 Devious Minds) si aún no has comenzado The Slug Menace."
-      }
+      },
+      "chatOptions": [
+        "2 Devious Minds"
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

@@ -2,7 +2,8 @@
   "id": "alpha-vs-omega",
   "title": "Alpha vs Omega",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T19:47:28.254Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:33:34.653Z",
   "icon": "https://runescape.wiki/images/thumb/Alpha_vs_Omega_icon.png/50px-Alpha_vs_Omega_icon.png",
   "series": "The First Necromancer",
   "age": "Age of Chaos",
@@ -79,71 +80,92 @@
       "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Alpha_vs_Omega_reward.png?29b11",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Rasial, the First Necromancer on the bridge in the City of Um. (opciones de chat: Accept)",
-        "es": "Habla con Rasial, the First Necromancer, en el puente de City of Um. (opciones de chat: Accept)"
-      }
+        "en": "Talk to Rasial, the First Necromancer on the bridge in the City of Um.",
+        "es": "Habla con Rasial, the First Necromancer, en el puente de City of Um."
+      },
+      "chatOptions": [
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "If Rasial, the First Necromancer isn't there, home teleport to the City of Um or relog.",
         "es": "Si Rasial, the First Necromancer, no está ahí, teletranspórtate a casa en City of Um o reconéctate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Starting out",
       "text": {
-        "en": "Talk to Kharen in City of Um to travel to Rasial's Citadel. (opciones de chat: 1 Yes.)",
-        "es": "Habla con Kharen en City of Um para viajar a la ciudadela de Rasial. (opciones de chat: 1 Yes.)"
-      }
+        "en": "Talk to Kharen in City of Um to travel to Rasial's Citadel.",
+        "es": "Habla con Kharen en City of Um para viajar a la ciudadela de Rasial."
+      },
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 3,
       "indent": 1,
+      "section": "Starting out",
       "text": {
         "en": "You must talk to Kharen; using the right-click travel option will not start the fight.",
         "es": "Debes hablar con Kharen; usar la opción de viaje del clic derecho no iniciará el combate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "The fight",
       "text": {
         "en": "Defeat Hermod, the Spirit of War. Cannot be killed with deathtouched dart.",
         "es": "Derrota a Hermod, the Spirit of War. No se puede matar con un deathtouched dart."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "The fight",
       "text": {
         "en": "Defeat Rasial, the First Necromancer. Cannot be killed with deathtouched dart.",
         "es": "Derrota a Rasial, the First Necromancer. No se puede matar con un deathtouched dart."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "The fight",
       "text": {
         "en": "A cutscene ensues. Continue speaking with Rasial, the First Necromancer.",
         "es": "Comienza una escena cinemática. Continúa hablando con Rasial, the First Necromancer."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Finishing up",
       "text": {
         "en": "Return to Death in the City of Um to complete the quest.",
         "es": "Regresa con Death en City of Um para completar la misión."
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

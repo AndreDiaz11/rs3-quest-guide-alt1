@@ -2,7 +2,8 @@
   "id": "tribal-totem",
   "title": "Tribal Totem",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T02:25:27.897Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-04T18:35:32.010Z",
   "icon": "https://runescape.wiki/images/Tribal_Totem_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -52,95 +53,127 @@
       "image": "https://runescape.wiki/images/thumb/Swordfish_detail.png/100px-Swordfish_detail.png?ce7ea"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Tribal_Totem_reward.png?8e4c1",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
-        "en": "Talk to Kangai Mau in the large building north of Brimhaven's pub. (opciones de chat: 2 I'm in search of adventure! • Accept)",
-        "es": "Habla con Kangai Mau en el edificio grande al norte del pub de Brimhaven. (opciones de chat: 2 ¡Busco aventuras! • Aceptar)"
-      }
+        "en": "Talk to Kangai Mau in the large building north of Brimhaven's pub.",
+        "es": "Habla con Kangai Mau en el edificio grande al norte del pub de Brimhaven."
+      },
+      "chatOptions": [
+        "2 I'm in search of adventure!",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Travel to Ardougne (you can take a ship from Brimhaven to complete Avast Ardougne!, an easy Karamja achievement), and head to the RPDT depot just south of the eastern bank.",
         "es": "Viaja a Ardougne (puedes coger un barco desde Brimhaven para completar Avast Ardougne!, un logro fácil de Karamja) y dirígete al depósito de la RPDT justo al sur del banco del este."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Investigate the crate directly north-east of the sacks for the address label.",
         "es": "Investiga el cajón situado justo al noreste de los sacos para encontrar la etiqueta de dirección."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Use the address label on the stack of two crates directly north of the crate you just investigated.",
         "es": "Usa la etiqueta de dirección en la pila de dos cajones justo al norte del cajón que acabas de investigar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
-        "en": "Talk to an RPDT employee and ask when the crate will be delivered. (opciones de chat: 1 So, when are you going to deliver this crate?)",
-        "es": "Habla con un empleado de la RPDT y pregúntale cuándo se entregará el cajón. (opciones de chat: 1 Entonces, ¿cuándo van a entregar este cajón?)"
-      }
+        "en": "Talk to an RPDT employee and ask when the crate will be delivered.",
+        "es": "Habla con un empleado de la RPDT y pregúntale cuándo se entregará el cajón."
+      },
+      "chatOptions": [
+        "1 So, when are you going to deliver this crate?"
+      ]
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
-        "en": "Talk to Wizard Cromperty in the house north-east of the Ardougne market (the one with the blue checkered floor). (opciones de chat: 2 So what have you invented? • 2 Can I be teleported please? • 1 Yes, that sounds good. Teleport me!)",
-        "es": "Habla con Wizard Cromperty en la casa al noreste del mercado de Ardougne (la que tiene el suelo a cuadros azules). (opciones de chat: 2 Entonces, ¿qué has inventado? • 2 ¿Puedes teletransportarme, por favor? • 1 Sí, eso suena bien. ¡Teletranspórtame!)"
-      }
+        "en": "Talk to Wizard Cromperty in the house north-east of the Ardougne market (the one with the blue checkered floor).",
+        "es": "Habla con Wizard Cromperty en la casa al noreste del mercado de Ardougne (la que tiene el suelo a cuadros azules)."
+      },
+      "chatOptions": [
+        "2 So what have you invented?",
+        "2 Can I be teleported please?",
+        "1 Yes, that sounds good. Teleport me!"
+      ]
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Once inside the mansion, open the western door, using the code \"KURT\" to get in.",
         "es": "Una vez dentro de la mansión, abre la puerta del oeste usando el código \"KURT\" para entrar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Right-click Investigate the stairs, then Climb-up them.",
         "es": "Haz clic derecho e Investiga las escaleras, luego Sube por ellas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Once upstairs, enter the next room, Open the chest, then Search it for a totem.",
         "es": "Una vez arriba, entra en la siguiente habitación, Abre el cofre y luego Regístralo en busca de un tótem."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Talk to Kangai Mau in Brimhaven with the totem.",
         "es": "Habla con Kangai Mau en Brimhaven con el tótem."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 0,
+      "section": "Walkthrough",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
   ]
 }

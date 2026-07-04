@@ -2,7 +2,8 @@
   "id": "great-egg-spectations",
   "title": "Great Egg-spectations",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-03T20:25:12.582Z",
+  "isSeasonal": true,
+  "guideLastUpdated": "2026-07-04T18:34:18.318Z",
   "icon": "https://runescape.wiki/images/thumb/Great_Egg-spectations_icon.png/50px-Great_Egg-spectations_icon.png",
   "series": "Blooming Burrow",
   "age": "Ambiguous",
@@ -80,240 +81,317 @@
       "image": "https://runescape.wiki/images/thumb/Blooming_Burrow.png/100px-Blooming_Burrow.png?388f9"
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Great_Egg-spectations_reward.png?a2b81",
   "postQuest": [],
   "steps": [
     {
       "index": 0,
       "indent": 0,
+      "section": "Getting started",
       "text": {
-        "en": "Talk to Easter Bunny in the northern area of the Blooming Burrow. (opciones de chat: 1 Talk bout 'Great Egg-spectations'. • Accept)",
-        "es": "Habla con Easter Bunny en la zona norte del Blooming Burrow. (opciones de chat: 1 Talk bout 'Great Egg-spectations'. • Accept)"
-      }
+        "en": "Talk to Easter Bunny in the northern area of the Blooming Burrow.",
+        "es": "Habla con Easter Bunny en la zona norte del Blooming Burrow."
+      },
+      "chatOptions": [
+        "1 Talk bout 'Great Egg-spectations'.",
+        "Accept"
+      ]
     },
     {
       "index": 1,
       "indent": 0,
+      "section": "Getting started",
       "text": {
         "en": "Talk to Cocoa Bunny on the hill in the south-east.",
         "es": "Habla con Cocoa Bunny en la colina del sureste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 2,
       "indent": 0,
+      "section": "Banoffee chocolate",
       "text": {
         "en": "Travel to Musa Point on Karamja.",
         "es": "Viaja a Musa Point, en Karamja."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 3,
       "indent": 0,
+      "section": "Banoffee chocolate",
       "text": {
         "en": "Eavesdrop on the banoffee chocolate recipe on the table by Luthas.",
         "es": "Escucha a escondidas la receta del chocolate banoffee en la mesa junto a Luthas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 4,
       "indent": 0,
+      "section": "Banoffee chocolate",
       "text": {
         "en": "Pick a banana from the banana tree and slice it if not done so already.",
         "es": "Coge un plátano del platanero y córtalo si aún no lo has hecho."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 5,
       "indent": 0,
+      "section": "Rocky road chocolate",
       "text": {
         "en": "Travel to the dwarven mines, north of Falador, and climb-down the ladder into the mines.",
         "es": "Viaja a las minas de los enanos, al norte de Falador, y baja por la escalera hacia las minas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 6,
       "indent": 0,
+      "section": "Rocky road chocolate",
       "text": {
         "en": "Eavesdrop on the rocky road chocolate recipe on the table in Drogo's Mining Emporium.",
         "es": "Escucha a escondidas la receta del chocolate rocky road en la mesa del Drogo's Mining Emporium."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 7,
       "indent": 0,
+      "section": "Fruit and nut chocolate",
       "text": {
         "en": "Travel to the Garden of Kharid, north of Het's Oasis.",
         "es": "Viaja al Garden of Kharid, al norte de Het's Oasis."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 8,
       "indent": 0,
+      "section": "Fruit and nut chocolate",
       "text": {
         "en": "Eavesdrop on the fruit and nut chocolate recipe in the north-eastern hut.",
         "es": "Escucha a escondidas la receta del chocolate con frutas y nueces en la cabaña del noreste."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 9,
       "indent": 0,
+      "section": "Fruit and nut chocolate",
       "text": {
         "en": "Dry grapes on the washing line at Garden of Kharid.",
         "es": "Seca uvas en el tendedero del Garden of Kharid."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 10,
       "indent": 1,
+      "section": "Fruit and nut chocolate",
       "text": {
         "en": "Note: grapes can't be dried on the washing line until you've eavesdropped the other 2 chocolate recipes.",
         "es": "Nota: no podrás secar las uvas en el tendedero hasta que hayas escuchado a escondidas las otras 2 recetas de chocolate."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 11,
       "indent": 0,
+      "section": "Fruit and nut chocolate",
       "text": {
         "en": "Buy some nuts from a pet shop.",
         "es": "Compra unas nueces en una tienda de mascotas."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 12,
       "indent": 0,
+      "section": "Gathering the ingredients",
       "text": {
         "en": "Travel to Egg Plant in the Blooming Burrow.",
         "es": "Viaja a Egg Plant, en el Blooming Burrow."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 13,
       "indent": 0,
+      "section": "Gathering the ingredients",
       "text": {
         "en": "Take from the sugar sacks.",
         "es": "Coge de los sacos de azúcar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Gathering the ingredients",
       "text": {
         "en": "Talk to Gooey Bunny to acquire marshmallows.",
         "es": "Habla con Gooey Bunny para conseguir nubes de azúcar."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 15,
       "indent": 0,
+      "section": "Gathering the ingredients",
       "text": {
         "en": "Cook the sugar into a bottle of caramel on a range. Any range works, but the range in Easter Bunny's house to the north-east is close to next step.",
         "es": "Cocina el azúcar para hacer un frasco de caramelo en una cocina. Cualquier cocina sirve, pero la de la casa de Easter Bunny, al noreste, está cerca del siguiente paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
+      "section": "Creating the chocolate",
       "text": {
-        "en": "Talk to the Easter Bunny. (opciones de chat: 1 Talk about 'Great Egg-spectations'.)",
-        "es": "Habla con el Easter Bunny. (opciones de chat: 1 Talk about 'Great Egg-spectations'.)"
-      }
+        "en": "Talk to the Easter Bunny.",
+        "es": "Habla con el Easter Bunny."
+      },
+      "chatOptions": [
+        "1 Talk about 'Great Egg-spectations'."
+      ]
     },
     {
       "index": 17,
       "indent": 0,
+      "section": "Creating the chocolate",
       "text": {
         "en": "Go back to the Egg Plant.",
         "es": "Vuelve a Egg Plant."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
+      "section": "Creating the chocolate",
       "text": {
         "en": "Complete the actions in the order listed. Be careful to completely finish the dialogue at each station before moving on to the next station. Interrupting the dialogue will require you to repeat the step.",
         "es": "Completa las acciones en el orden indicado. Ten cuidado de terminar por completo el diálogo en cada estación antes de pasar a la siguiente. Si interrumpes el diálogo, tendrás que repetir el paso."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 19,
       "indent": 1,
+      "section": "Creating the chocolate",
       "text": {
         "en": "Mix chocolate at the mixing station.",
         "es": "Mezcla el chocolate en la estación de mezclado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 20,
       "indent": 1,
+      "section": "Creating the chocolate",
       "text": {
         "en": "Mould chocolate at the moulding station.",
         "es": "Moldea el chocolate en la estación de moldeado."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 1,
+      "section": "Creating the chocolate",
       "text": {
-        "en": "Foil chocolate at the foiling station. (opciones de chat: any)",
-        "es": "Envuelve el chocolate en papel de aluminio en la estación de envoltura. (opciones de chat: any)"
-      }
+        "en": "Foil chocolate at the foiling station.",
+        "es": "Envuelve el chocolate en papel de aluminio en la estación de envoltura."
+      },
+      "chatOptions": [
+        "any"
+      ]
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Creating the chocolate",
       "text": {
-        "en": "Return to the Easter Bunny. (opciones de chat: 1 Talk about 'Great Egg-spectations'. • any)",
-        "es": "Vuelve con el Easter Bunny. (opciones de chat: 1 Talk about 'Great Egg-spectations'. • any)"
-      }
+        "en": "Return to the Easter Bunny.",
+        "es": "Vuelve con el Easter Bunny."
+      },
+      "chatOptions": [
+        "1 Talk about 'Great Egg-spectations'.",
+        "any"
+      ]
     },
     {
       "index": 23,
       "indent": 0,
+      "section": "Handing out the chocolate samples",
       "text": {
         "en": "Travel to the Lumbridge Market.",
         "es": "Viaja al Lumbridge Market."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
+      "section": "Handing out the chocolate samples",
       "text": {
-        "en": "Talk to Cocoa Bunny while standing just north of the bank chest. (opciones de chat: 1 • 1)",
-        "es": "Habla con Cocoa Bunny mientras estás justo al norte del baúl del banco. (opciones de chat: 1 • 1)"
-      }
+        "en": "Talk to Cocoa Bunny while standing just north of the bank chest.",
+        "es": "Habla con Cocoa Bunny mientras estás justo al norte del baúl del banco."
+      },
+      "chatOptions": [
+        "1",
+        "1"
+      ]
     },
     {
       "index": 25,
       "indent": 0,
+      "section": "Handing out the chocolate samples",
       "text": {
-        "en": "A cutscene ensues. Give the right samples to the patrons based on what they ask for. (opciones de chat: 2 Offer fruit and nut chocolate. • 2 Offer a sample with less dried grapes in it. • 1 Offer banoffee chocolate.)",
-        "es": "Se reproduce una escena. Entrega las muestras correctas a los clientes según lo que pidan. (opciones de chat: 2 Offer fruit and nut chocolate. • 2 Offer a sample with less dried grapes in it. • 1 Offer banoffee chocolate.)"
-      }
+        "en": "A cutscene ensues. Give the right samples to the patrons based on what they ask for.",
+        "es": "Se reproduce una escena. Entrega las muestras correctas a los clientes según lo que pidan."
+      },
+      "chatOptions": [
+        "2 Offer fruit and nut chocolate.",
+        "2 Offer a sample with less dried grapes in it.",
+        "1 Offer banoffee chocolate."
+      ]
     },
     {
       "index": 26,
       "indent": 0,
+      "section": "Handing out the chocolate samples",
       "text": {
         "en": "Return to the Blooming Burrow.",
         "es": "Vuelve al Blooming Burrow."
-      }
+      },
+      "chatOptions": []
     },
     {
       "index": 27,
       "indent": 0,
+      "section": "Handing out the chocolate samples",
       "text": {
-        "en": "Talk to the Easter Bunny. (opciones de chat: 1 Talk about 'Great Egg-spectations'.)",
-        "es": "Habla con el Easter Bunny. (opciones de chat: 1 Talk about 'Great Egg-spectations'.)"
-      }
+        "en": "Talk to the Easter Bunny.",
+        "es": "Habla con el Easter Bunny."
+      },
+      "chatOptions": [
+        "1 Talk about 'Great Egg-spectations'."
+      ]
     },
     {
       "index": 28,
       "indent": 0,
+      "section": "Handing out the chocolate samples",
       "text": {
         "en": "Quest complete!",
         "es": "¡Misión completada!"
-      }
+      },
+      "chatOptions": []
     }
-  ],
-  "isSeasonal": true
+  ]
 }
