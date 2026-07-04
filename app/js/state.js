@@ -10,6 +10,9 @@ export const state = {
     showCompleted: true,
     showIncomplete: true,
     showEvents: false,
+    // Independiente de los 3 casilleros de arriba: si está apagado, oculta las
+    // minimisiones sin importar en qué grupo caigan.
+    showMiniquests: true,
   },
   selectedQuestId: null,
 };

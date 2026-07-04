@@ -132,21 +132,40 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
 
   container.appendChild(el("h2", { class: "section-title", text: "Pasos" }));
   const stepList = el("ul", { class: "step-list" });
-  quest.steps.forEach((step) => {
+
+  const rows = quest.steps.map((step) => {
     const checked = isCompleted || manualChecks.has(step.index);
     const li = el("li", { class: `indent-${step.indent}${checked ? " checked" : ""}` });
     const checkbox = el("input", { type: "checkbox" });
     checkbox.checked = checked;
     checkbox.disabled = isCompleted;
-    checkbox.addEventListener("change", () => {
-      if (checkbox.checked) manualChecks.add(step.index);
-      else manualChecks.delete(step.index);
-      saveManualChecks(quest.id, manualChecks);
-      li.classList.toggle("checked", checkbox.checked);
-    });
     li.appendChild(checkbox);
     li.appendChild(el("span", { text: localizedText(step.text, lang) }));
     stepList.appendChild(li);
+    return { step, li, checkbox };
   });
+
+  const setChecked = (row, value) => {
+    row.checkbox.checked = value;
+    row.li.classList.toggle("checked", value);
+    if (value) manualChecks.add(row.step.index);
+    else manualChecks.delete(row.step.index);
+  };
+
+  rows.forEach((row, i) => {
+    row.checkbox.addEventListener("change", () => {
+      setChecked(row, row.checkbox.checked);
+      // Marcar un paso principal también marca sus sub-pasos/opcionales
+      // (los que siguen con más sangría), ya que implica que ese paso completo
+      // ya se hizo. No se desmarcan solos al destildar el principal.
+      if (row.checkbox.checked && row.step.indent === 0) {
+        for (let j = i + 1; j < rows.length && rows[j].step.indent > 0; j++) {
+          setChecked(rows[j], true);
+        }
+      }
+      saveManualChecks(quest.id, manualChecks);
+    });
+  });
+
   container.appendChild(stepList);
 }

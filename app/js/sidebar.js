@@ -17,10 +17,11 @@ function questBucket(quest) {
 }
 
 function filterQuests(quests) {
-  const { showCompleted, showIncomplete, showEvents, searchText } = state.activeFilters;
+  const { showCompleted, showIncomplete, showEvents, showMiniquests, searchText } = state.activeFilters;
   const bucketVisible = { completed: showCompleted, incomplete: showIncomplete, events: showEvents };
   const search = normalizeSearch(searchText);
   return quests.filter((q) => {
+    if (!showMiniquests && q.isMiniquest) return false;
     if (!bucketVisible[questBucket(q)]) return false;
     if (search && !normalizeSearch(q.title).includes(search)) return false;
     return true;
@@ -51,6 +52,7 @@ function buildFilterBar(container, onChange) {
     { key: "showCompleted", label: "Completadas" },
     { key: "showIncomplete", label: "Incompletas" },
     { key: "showEvents", label: "Eventos" },
+    { key: "showMiniquests", label: "Minimisiones" },
   ];
   checkboxes.forEach(({ key, label }) => {
     const wrap = document.createElement("label");
