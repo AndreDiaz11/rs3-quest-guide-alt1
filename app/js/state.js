@@ -5,17 +5,19 @@ export const state = {
   index: { datasetVersion: null, lastUpdated: null, quests: [] },
   runemetricsStatus: new Map(), // questId -> { status, userEligible }
   playerLevels: null, // { levelsBySkill: Map<string, number>, combatLevel } | null
-  // 3 casilleros independientes sobre 3 grupos que no se solapan (ver
-  // questBucket en sidebar.js): completada / incompleta normal / evento no
-  // completado. Apagar los 3 vacía la lista; encender los 3 muestra todo.
+  // 6 chips independientes combinables (AND): 3 de tipo (quest/miniquest/evento,
+  // ver questCategory en sidebar.js, no se solapan) + 3 de estado real de
+  // RuneMetrics (completada/en progreso/incompleta). Apagar cualquiera de los
+  // 3 de un mismo grupo oculta ese subconjunto; los otros filtros y el buscador
+  // se aplican encima.
   activeFilters: {
     searchText: "",
-    showCompleted: true,
-    showIncomplete: true,
+    showQuest: true,
+    showMiniquest: true,
     showEvents: false,
-    // Independiente de los 3 casilleros de arriba: si está apagado, oculta las
-    // minimisiones sin importar en qué grupo caigan.
-    showMiniquests: true,
+    showCompleted: true,
+    showStarted: true,
+    showIncomplete: true,
   },
   selectedQuestId: null,
 };

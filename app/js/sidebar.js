@@ -1,5 +1,22 @@
 import { state, questStatus } from "./state.js";
-import { statusClass } from "./colors.js";
+import {
+  diamondIcon,
+  checkCircleIcon,
+  clockCircleIcon,
+  xCircleIcon,
+  calendarIcon,
+  scrollIcon,
+  questIcon,
+  compassIcon,
+} from "./icons.js";
+
+const STATUS_COLOR = {
+  COMPLETED: "var(--quest-green)",
+  STARTED: "var(--quest-yellow)",
+  NOT_STARTED: "var(--quest-red)",
+};
+const EVENT_COLOR = "var(--quest-event)";
+const MINIQUEST_COLOR = "var(--quest-miniquest)";
 
 function normalizeSearch(text) {
   return text
@@ -9,20 +26,22 @@ function normalizeSearch(text) {
     .trim();
 }
 
-/** Every quest falls into exactly one of these 3 non-overlapping buckets. */
-function questBucket(quest) {
-  if (questStatus(quest.id) === "COMPLETED") return "completed";
+/** Every quest falls into exactly one of these 3 non-overlapping type categories. */
+function questCategory(quest) {
   if (quest.isSeasonal) return "events";
-  return "incomplete";
+  if (quest.isMiniquest) return "miniquest";
+  return "quest";
 }
 
 function filterQuests(quests) {
-  const { showCompleted, showIncomplete, showEvents, showMiniquests, searchText } = state.activeFilters;
-  const bucketVisible = { completed: showCompleted, incomplete: showIncomplete, events: showEvents };
+  const { showQuest, showMiniquest, showEvents, showCompleted, showStarted, showIncomplete, searchText } =
+    state.activeFilters;
+  const categoryVisible = { quest: showQuest, miniquest: showMiniquest, events: showEvents };
+  const statusVisible = { COMPLETED: showCompleted, STARTED: showStarted, NOT_STARTED: showIncomplete };
   const search = normalizeSearch(searchText);
   return quests.filter((q) => {
-    if (!showMiniquests && q.isMiniquest) return false;
-    if (!bucketVisible[questBucket(q)]) return false;
+    if (!categoryVisible[questCategory(q)]) return false;
+    if (!statusVisible[questStatus(q.id)]) return false;
     if (search && !normalizeSearch(q.title).includes(search)) return false;
     return true;
   });
@@ -46,29 +65,28 @@ function buildFilterBar(container, onChange) {
   });
   bar.appendChild(search);
 
-  const checksWrap = document.createElement("div");
-  checksWrap.id = "sidebar-checks";
-  const checkboxes = [
-    { key: "showCompleted", label: "Completadas" },
-    { key: "showIncomplete", label: "Incompletas" },
-    { key: "showEvents", label: "Eventos" },
-    { key: "showMiniquests", label: "Minimisiones" },
+  const chipsWrap = document.createElement("div");
+  chipsWrap.id = "sidebar-chips";
+  const chips = [
+    { key: "showQuest", label: "Quest", icon: questIcon("var(--quest-chip-icon)"), variant: "quest" },
+    { key: "showMiniquest", label: "Miniquest", icon: scrollIcon("var(--quest-miniquest)"), variant: "miniquest" },
+    { key: "showEvents", label: "Events", icon: calendarIcon("var(--quest-event)"), variant: "events" },
+    { key: "showCompleted", label: "Complete", icon: checkCircleIcon("var(--quest-green)"), variant: "completed" },
+    { key: "showStarted", label: "In Progress", icon: clockCircleIcon("var(--quest-yellow)"), variant: "started" },
+    { key: "showIncomplete", label: "Incomplete", icon: xCircleIcon("var(--quest-red)"), variant: "incomplete" },
   ];
-  checkboxes.forEach(({ key, label }) => {
-    const wrap = document.createElement("label");
-    wrap.className = "sidebar-check";
-    const input = document.createElement("input");
-    input.type = "checkbox";
-    input.checked = state.activeFilters[key];
-    input.addEventListener("change", () => {
-      state.activeFilters[key] = input.checked;
+  chips.forEach(({ key, label, icon, variant }) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = `filter-chip chip-${variant}${state.activeFilters[key] ? " active" : ""}`;
+    btn.innerHTML = `<span class="chip-icon">${icon}</span><span>${label}</span>`;
+    btn.addEventListener("click", () => {
+      state.activeFilters[key] = !state.activeFilters[key];
       onChange();
     });
-    wrap.appendChild(input);
-    wrap.appendChild(document.createTextNode(label));
-    checksWrap.appendChild(wrap);
+    chipsWrap.appendChild(btn);
   });
-  bar.appendChild(checksWrap);
+  bar.appendChild(chipsWrap);
 
   container.appendChild(bar);
 }
@@ -83,7 +101,23 @@ function renderCounter(container) {
     (sum, q) => sum + (questStatus(q.id) === "COMPLETED" ? q.questPoints || 0 : 0),
     0
   );
-  container.textContent = `Puntos de misión: ${doneQP} / ${totalQP} (quedan ${totalQP - doneQP})`;
+  const logoEl = container.querySelector("#counter-logo");
+  if (logoEl && !logoEl.innerHTML) logoEl.innerHTML = compassIcon();
+  const textEl = container.querySelector("#counter-text");
+  const remaining = totalQP - doneQP;
+  if (textEl) {
+    textEl.innerHTML =
+      `Puntos de misión<br><strong>${doneQP} / ${totalQP}</strong> <span class="counter-remaining">(quedan ${remaining})</span>`;
+  }
+}
+
+function rowVisual(quest) {
+  const status = questStatus(quest.id);
+  if (quest.isSeasonal) return { diamond: EVENT_COLOR, right: calendarIcon("var(--quest-event)") };
+  if (quest.isMiniquest) return { diamond: STATUS_COLOR[status], right: scrollIcon(MINIQUEST_COLOR) };
+  if (status === "COMPLETED") return { diamond: STATUS_COLOR[status], right: checkCircleIcon(STATUS_COLOR[status]) };
+  if (status === "STARTED") return { diamond: STATUS_COLOR[status], right: clockCircleIcon(STATUS_COLOR[status]) };
+  return { diamond: STATUS_COLOR[status], right: xCircleIcon(STATUS_COLOR[status]) };
 }
 
 function renderList(listEl, onSelect) {
@@ -99,22 +133,36 @@ function renderList(listEl, onSelect) {
   }
 
   visible.forEach((quest) => {
+    const status = questStatus(quest.id);
+    const { diamond, right } = rowVisual(quest);
     const li = document.createElement("li");
-    li.textContent = quest.isSeasonal ? `${quest.title} 🎉` : quest.title;
-    li.className = statusClass(questStatus(quest.id), quest.isSeasonal);
+    li.className = quest.isSeasonal ? "status-locked" : `status-${status.toLowerCase().replace("_", "-")}`;
     if (quest.id === state.selectedQuestId) li.classList.add("selected");
+
+    const titleText = quest.isSeasonal ? `${quest.title} 🎉` : quest.title;
+    li.innerHTML =
+      `<span class="row-diamond">${diamondIcon(diamond)}</span>` +
+      `<span class="row-title">${titleText}</span>` +
+      `<span class="row-status">${right}</span>`;
     li.addEventListener("click", () => onSelect(quest.id));
     listEl.appendChild(li);
   });
 }
 
 const initializedFilterBars = new WeakSet();
+const initializedHeaders = new WeakSet();
 
-/** Renders the sidebar: builds the search/checkbox bar once, then (re)renders the list + counter. */
+/** Renders the sidebar: builds the search/chips bar once, then (re)renders the list + counter. */
 export function renderSidebar({ filterBarEl, listEl, counterEl }, onSelect) {
   if (!initializedFilterBars.has(filterBarEl)) {
     initializedFilterBars.add(filterBarEl);
     buildFilterBar(filterBarEl, () => renderSidebar({ filterBarEl, listEl, counterEl }, onSelect));
+  }
+
+  const headerLogo = document.getElementById("header-logo");
+  if (headerLogo && !initializedHeaders.has(headerLogo)) {
+    initializedHeaders.add(headerLogo);
+    headerLogo.innerHTML = compassIcon();
   }
 
   renderList(listEl, onSelect);

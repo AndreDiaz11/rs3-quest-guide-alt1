@@ -14,6 +14,9 @@
   --quest-yellow: #f0c419;
   --quest-red: #ee3b3b;
   --quest-locked: #7a7a7a;
+  --quest-event: #5bb4e0;
+  --quest-miniquest: #b06cd9;
+  --quest-chip-icon: #e0b84a;
 }
 
 * {
@@ -50,13 +53,25 @@ h1, h2, .app-title-font {
 #sidebar-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 10px;
   padding: 12px 14px;
   border-bottom: 1px solid var(--border-light);
   background: rgba(0, 0, 0, 0.2);
 }
 
+#header-logo {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
+
+#header-logo svg {
+  width: 100%;
+  height: 100%;
+}
+
 #app-title {
+  flex: 1;
   font-weight: 700;
   color: var(--gold-bright);
   letter-spacing: 0.02em;
@@ -88,6 +103,9 @@ h1, h2, .app-title-font {
 }
 
 #quest-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   padding: 6px 10px;
   border-radius: 3px;
   cursor: pointer;
@@ -99,10 +117,31 @@ h1, h2, .app-title-font {
   background: rgba(255, 255, 255, 0.07);
 }
 
+.row-diamond,
+.row-status {
+  flex-shrink: 0;
+  width: 15px;
+  height: 15px;
+  display: inline-flex;
+}
+
+.row-diamond svg,
+.row-status svg {
+  width: 100%;
+  height: 100%;
+}
+
+.row-title {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 #quest-list li.status-completed { color: var(--quest-green); }
 #quest-list li.status-started { color: var(--quest-yellow); }
 #quest-list li.status-not-started { color: var(--quest-red); }
-#quest-list li.status-locked { color: var(--quest-locked); }
+#quest-list li.status-locked { color: var(--quest-event); }
 #quest-list li.selected {
   background: rgba(224, 184, 74, 0.16);
   box-shadow: inset 2px 0 0 var(--gold);
@@ -139,21 +178,51 @@ h1, h2, .app-title-font {
   border-color: var(--gold);
 }
 
-#sidebar-checks {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
+#sidebar-chips {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6px;
 }
 
-.sidebar-check {
+.filter-chip {
   display: flex;
   align-items: center;
-  gap: 4px;
+  justify-content: center;
+  gap: 6px;
+  padding: 6px 4px;
+  font-size: 0.78em;
+  font-weight: 600;
+  color: var(--text-dim);
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--border);
+  border-radius: 5px;
   cursor: pointer;
-  font-size: 0.8em;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
 }
 
-.sidebar-check input,
+.filter-chip:hover {
+  border-color: var(--border-light);
+}
+
+.chip-icon {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  display: inline-flex;
+}
+
+.chip-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.filter-chip.chip-quest.active { color: var(--quest-chip-icon); border-color: var(--quest-chip-icon); background: rgba(224, 184, 74, 0.12); }
+.filter-chip.chip-miniquest.active { color: var(--quest-miniquest); border-color: var(--quest-miniquest); background: rgba(176, 108, 217, 0.14); }
+.filter-chip.chip-events.active { color: var(--quest-event); border-color: var(--quest-event); background: rgba(91, 180, 224, 0.14); }
+.filter-chip.chip-completed.active { color: var(--quest-green); border-color: var(--quest-green); background: rgba(63, 206, 70, 0.14); }
+.filter-chip.chip-started.active { color: var(--quest-yellow); border-color: var(--quest-yellow); background: rgba(240, 196, 25, 0.14); }
+.filter-chip.chip-incomplete.active { color: var(--quest-red); border-color: var(--quest-red); background: rgba(238, 59, 59, 0.14); }
+
 .step-list input,
 #settings-modal input[type="checkbox"] {
   accent-color: var(--gold);
@@ -241,13 +310,35 @@ h1, h2, .app-title-font {
 }
 
 #quest-counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   padding: 10px 14px;
   border-top: 1px solid var(--border-light);
   font-size: 0.85em;
   color: var(--gold);
   background: rgba(0, 0, 0, 0.2);
   font-weight: 600;
-  text-align: center;
+}
+
+#counter-logo {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+#counter-logo svg {
+  width: 100%;
+  height: 100%;
+}
+
+#counter-text {
+  line-height: 1.3;
+}
+
+.counter-remaining {
+  color: var(--text-dim);
+  font-weight: 400;
 }
 
 #detail {
