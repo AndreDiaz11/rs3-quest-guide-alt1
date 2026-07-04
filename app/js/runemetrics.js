@@ -1,4 +1,7 @@
-const RUNEMETRICS_BASE = "https://apps.runescape.com/runemetrics/quests";
+// Jagex nunca envía cabeceras CORS en sus APIs (confirmado en Alt1 real), así que
+// pasamos por un proxy propio (Cloudflare Worker) que sí las agrega.
+// Ver worker/runemetrics-proxy.js para el código del proxy.
+const RUNEMETRICS_BASE = "https://rs3-runemetrics-proxy.rs3questguide.workers.dev";
 
 /**
  * Fetches quest completion status for a player from the public RuneMetrics
