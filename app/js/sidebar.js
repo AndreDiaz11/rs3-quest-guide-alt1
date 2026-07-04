@@ -66,8 +66,9 @@ function groupKey(quest, sortBy) {
 }
 
 function filterQuests(quests) {
-  const { showLocked, showCompleted, showQuests, showMiniquests } = state.activeFilters;
+  const { showLocked, showCompleted, showQuests, showMiniquests, showSeasonal } = state.activeFilters;
   return quests.filter((q) => {
+    if (q.isSeasonal && !showSeasonal) return false;
     if (q.isMiniquest && !showMiniquests) return false;
     if (!q.isMiniquest && !showQuests) return false;
     const status = questStatus(q.id);
@@ -133,6 +134,7 @@ function renderFilterBar(container, onChange) {
     { key: "showCompleted", label: "Mostrar completadas" },
     { key: "showQuests", label: "Mostrar misiones" },
     { key: "showMiniquests", label: "Mostrar minimisiones" },
+    { key: "showSeasonal", label: "Mostrar misiones de temporada (eventos)" },
   ];
   const checksWrap = document.createElement("div");
   checksWrap.id = "sidebar-checks";
@@ -186,7 +188,7 @@ function renderList(listEl, onSelect) {
     if (isCollapsed) return;
     group.items.forEach((quest) => {
       const li = document.createElement("li");
-      li.textContent = quest.title;
+      li.textContent = quest.isSeasonal ? `${quest.title} 🎉` : quest.title;
       li.className = statusClass(questStatus(quest.id));
       if (quest.id === state.selectedQuestId) li.classList.add("selected");
       li.addEventListener("click", () => onSelect(quest.id));

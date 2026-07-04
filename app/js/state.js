@@ -8,6 +8,10 @@ export const state = {
     showCompleted: true,
     showQuests: true,
     showMiniquests: true,
+    // Las misiones de temporada (Navidad, Pascua, etc.) solo están jugables
+    // mientras el evento real está activo, así que el juego las oculta el
+    // resto del año — igual por defecto aquí.
+    showSeasonal: false,
   },
   selectedQuestId: null,
 };

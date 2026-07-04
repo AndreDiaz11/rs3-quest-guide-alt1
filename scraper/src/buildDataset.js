@@ -33,6 +33,7 @@ export async function buildQuestRecord({
   steps,
   rewardsData,
   isMiniquest,
+  isSeasonal,
   skipTranslate,
   guideNote,
 }) {
@@ -69,6 +70,7 @@ export async function buildQuestRecord({
     id,
     title,
     isMiniquest,
+    isSeasonal: Boolean(isSeasonal),
     guideLastUpdated: now,
     icon: metadata.icon,
     series: metadata.series,
@@ -98,6 +100,7 @@ export async function buildQuestRecord({
     id,
     title,
     isMiniquest,
+    isSeasonal: Boolean(isSeasonal),
     members: metadata.members,
     combatLevel: metadata.combatLevel,
     length: metadata.length,

@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { fetchQuestList } from "./fetchQuestList.js";
+import { fetchSeasonalQuestTitles } from "./fetchSeasonalList.js";
 import { fetchQuestPage } from "./fetchQuestPage.js";
 import { parseMetadata } from "./parseMetadata.js";
 import { parseSteps } from "./parseSteps.js";
@@ -40,12 +41,13 @@ const HUB_QUEST_NOTE = {
   es: "Esta misión es un resumen que agrupa varias sub-misiones, cada una ya listada por separado en esta app con su propia guía paso a paso. No existe una guía única para la misión en sí — consulta la página del wiki para ver el resumen completo.",
 };
 
-async function scrapeOne(title, { skipTranslate }) {
+async function scrapeOne(title, { skipTranslate }, seasonalTitles) {
   const page = await fetchQuestPage(title);
 
   const metadata = parseMetadata(page);
   const rewardsData = parseRewards(page.quickGuideHtml);
   const isMiniquest = /\(miniquest\)$/i.test(title);
+  const isSeasonal = seasonalTitles.has(title);
 
   let steps;
   let guideNote;
@@ -66,6 +68,7 @@ async function scrapeOne(title, { skipTranslate }) {
     steps,
     rewardsData,
     isMiniquest,
+    isSeasonal,
     skipTranslate,
     guideNote,
   });
@@ -76,10 +79,11 @@ async function scrapeOne(title, { skipTranslate }) {
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
+  const seasonalTitles = await fetchSeasonalQuestTitles();
 
   if (args.only) {
     console.log(`[scrape] ${args.only}`);
-    await scrapeOne(args.only, args);
+    await scrapeOne(args.only, args, seasonalTitles);
     return;
   }
 
@@ -99,7 +103,7 @@ async function main() {
       }
       console.log(`[scrape] (${i + 1}/${titles.length}) ${title}`);
       try {
-        await scrapeOne(title, args);
+        await scrapeOne(title, args, seasonalTitles);
       } catch (err) {
         console.error(`[skip] ${title}: ${err.message}`);
         failures.push({ title, error: err.message });

@@ -70,6 +70,15 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
     );
   }
 
+  if (quest.isSeasonal) {
+    container.appendChild(
+      el("div", {
+        class: "seasonal-banner",
+        text: "🎉 Misión de temporada: solo se puede jugar mientras el evento correspondiente está activo en el juego.",
+      })
+    );
+  }
+
   container.appendChild(
     el("div", {
       class: "quest-meta-updated",
