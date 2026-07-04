@@ -9,30 +9,22 @@ function normalizeSearch(text) {
     .trim();
 }
 
+/** Every quest falls into exactly one of these 3 non-overlapping buckets. */
+function questBucket(quest) {
+  if (questStatus(quest.id) === "COMPLETED") return "completed";
+  if (quest.isSeasonal) return "events";
+  return "incomplete";
+}
+
 function filterQuests(quests) {
-  const { showCompleted, showEvents, searchText } = state.activeFilters;
+  const { showCompleted, showIncomplete, showEvents, searchText } = state.activeFilters;
+  const bucketVisible = { completed: showCompleted, incomplete: showIncomplete, events: showEvents };
   const search = normalizeSearch(searchText);
   return quests.filter((q) => {
-    if (!showCompleted && questStatus(q.id) === "COMPLETED") return false;
-    if (!showEvents && q.isSeasonal && questStatus(q.id) !== "COMPLETED") return false;
+    if (!bucketVisible[questBucket(q)]) return false;
     if (search && !normalizeSearch(q.title).includes(search)) return false;
     return true;
   });
-}
-
-/** A button whose own label reflects the action it performs next (toggle pattern). */
-function buildToggleButton({ getState, labelWhenOn, labelWhenOff, onToggle }) {
-  const button = document.createElement("button");
-  button.className = "sidebar-toggle";
-  const sync = () => {
-    button.textContent = getState() ? labelWhenOn : labelWhenOff;
-  };
-  button.addEventListener("click", () => {
-    onToggle();
-    sync();
-  });
-  sync();
-  return button;
 }
 
 // Se construye una sola vez; escribir en el buscador solo debe volver a
@@ -53,40 +45,36 @@ function buildFilterBar(container, onChange) {
   });
   bar.appendChild(search);
 
-  const togglesWrap = document.createElement("div");
-  togglesWrap.id = "sidebar-toggles";
+  const checksWrap = document.createElement("div");
+  checksWrap.id = "sidebar-checks";
+  const checkboxes = [
+    { key: "showCompleted", label: "Completadas" },
+    { key: "showIncomplete", label: "Incompletas" },
+    { key: "showEvents", label: "Eventos" },
+  ];
+  checkboxes.forEach(({ key, label }) => {
+    const wrap = document.createElement("label");
+    wrap.className = "sidebar-check";
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.checked = state.activeFilters[key];
+    input.addEventListener("change", () => {
+      state.activeFilters[key] = input.checked;
+      onChange();
+    });
+    wrap.appendChild(input);
+    wrap.appendChild(document.createTextNode(label));
+    checksWrap.appendChild(wrap);
+  });
+  bar.appendChild(checksWrap);
 
-  togglesWrap.appendChild(
-    buildToggleButton({
-      getState: () => state.activeFilters.showCompleted,
-      labelWhenOn: "Ocultar Completados",
-      labelWhenOff: "Mostrar Completados",
-      onToggle: () => {
-        state.activeFilters.showCompleted = !state.activeFilters.showCompleted;
-        onChange();
-      },
-    })
-  );
-
-  togglesWrap.appendChild(
-    buildToggleButton({
-      getState: () => state.activeFilters.showEvents,
-      labelWhenOn: "Ocultar Eventos",
-      labelWhenOff: "Mostrar Eventos",
-      onToggle: () => {
-        state.activeFilters.showEvents = !state.activeFilters.showEvents;
-        onChange();
-      },
-    })
-  );
-
-  bar.appendChild(togglesWrap);
   container.appendChild(bar);
 }
 
 function renderCounter(container) {
   // Las minimisiones dan 0 puntos siempre; las de temporada sí cuentan hacia el
-  // total nativo (confirmado contra una cuenta real vía RunePixels).
+  // total nativo (confirmado contra una cuenta real vía RunePixels). El contador
+  // siempre usa el dataset completo, sin importar qué casilleros estén activos.
   const quests = state.index.quests.filter((q) => !q.isMiniquest);
   const totalQP = quests.reduce((sum, q) => sum + (q.questPoints || 0), 0);
   const doneQP = quests.reduce(
@@ -120,7 +108,7 @@ function renderList(listEl, onSelect) {
 
 const initializedFilterBars = new WeakSet();
 
-/** Renders the sidebar: builds the search/toggle bar once, then (re)renders the list + counter. */
+/** Renders the sidebar: builds the search/checkbox bar once, then (re)renders the list + counter. */
 export function renderSidebar({ filterBarEl, listEl, counterEl }, onSelect) {
   if (!initializedFilterBars.has(filterBarEl)) {
     initializedFilterBars.add(filterBarEl);

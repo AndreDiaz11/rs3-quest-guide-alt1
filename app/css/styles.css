@@ -111,24 +111,18 @@ body {
   padding: 6px 8px;
 }
 
-#sidebar-toggles {
+#sidebar-checks {
   display: flex;
-  gap: 6px;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
-.sidebar-toggle {
-  flex: 1;
-  background: var(--bg-panel);
-  color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 5px 6px;
-  font-size: 0.78em;
+.sidebar-check {
+  display: flex;
+  align-items: center;
+  gap: 4px;
   cursor: pointer;
-}
-
-.sidebar-toggle:hover {
-  background: rgba(255, 255, 255, 0.06);
+  font-size: 0.8em;
 }
 
 #settings-overlay {

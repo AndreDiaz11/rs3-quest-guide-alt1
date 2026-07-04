@@ -2,11 +2,13 @@ export const state = {
   settings: { username: "", lang: "es" },
   index: { datasetVersion: null, lastUpdated: null, quests: [] },
   runemetricsStatus: new Map(), // questId -> { status, userEligible }
+  // 3 casilleros independientes sobre 3 grupos que no se solapan (ver
+  // questBucket en sidebar.js): completada / incompleta normal / evento no
+  // completado. Apagar los 3 vacía la lista; encender los 3 muestra todo.
   activeFilters: {
     searchText: "",
     showCompleted: true,
-    // Las misiones de temporada solo se pueden jugar durante el evento real, así
-    // que se ocultan por defecto y el usuario las revela con un botón si quiere.
+    showIncomplete: true,
     showEvents: false,
   },
   selectedQuestId: null,
