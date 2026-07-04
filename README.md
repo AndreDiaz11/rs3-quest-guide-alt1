@@ -6,8 +6,13 @@ pasos ya completados según el estado real de tu cuenta (vía RuneMetrics).
 
 ## Para usuarios
 
-Solo hace falta añadir el plugin en Alt1 apuntando a la URL de `app/appconfig.json` publicada
-(GitHub Pages). No se necesita instalar nada más ni crear ninguna cuenta ni API key.
+Publicado en GitHub Pages. En Alt1, agrega la app con esta URL de manifest:
+
+```
+https://andrediaz11.github.io/rs3-quest-guide-alt1/app/appconfig.json
+```
+
+No se necesita instalar nada más ni crear ninguna cuenta ni API key.
 
 ## Para el desarrollador
 
@@ -19,8 +24,8 @@ Este repo tiene dos partes separadas:
   Hace scraping de runescape.wiki, traduce al español con la API de Anthropic, y genera los archivos
   JSON en `data/`. Requiere una `ANTHROPIC_API_KEY` propia (ver `scraper/.env.example`) — esa key
   nunca se commitea ni se referencia desde `app/`.
-- **`data/`** — salida generada por el scraper, sí se commitea al repo. Es lo que `app/` consume en
-  tiempo de ejecución vía jsDelivr/GitHub raw.
+- **`data/`** — salida generada por el scraper, sí se commitea al repo. `app/` la consume en tiempo de
+  ejecución con una ruta relativa (`../data/...`), servida por el mismo GitHub Pages que sirve `app/`.
 
 ### Regenerar el dataset
 
@@ -41,9 +46,14 @@ dataset desde cero.
 
 - 361/368 misiones y minimisiones scrapeadas (7 son páginas "hub" sin guía propia, ej. *Recipe for
   Disaster*, que enlaza a sub-misiones ya scrapeadas por separado).
-- 207/361 traducidas al español. Las 154 restantes quedaron en inglés porque se agotó el crédito de
-  la API — para terminarlas, carga más crédito en tu cuenta de Anthropic y corre
-  `node --env-file=.env src/run.js --all` de nuevo (gracias al `--force` opcional de arriba, no hace
-  falta re-traducir las 207 ya hechas).
+- **357/361 traducidas al español (99%).** Las 4 restantes quedaron en inglés por un desajuste de
+  líneas en la respuesta del modelo que persistió incluso tras el reintento automático (misiones con
+  formato de diálogo inusual): *A Fairy Tale II - Cure a Queen*, *My Arm's Big Adventure*,
+  *One Foot in the Grave (miniquest)*, *Tales of Pride*. Se pueden reintentar individualmente con
+  `node --env-file=.env src/run.js --only="Nombre de la misión" --force`.
+- Las ~207 misiones traducidas en la primera corrida (antes de ajustar el prompt) pueden tener alguna
+  inconsistencia menor: algunos diálogos citados entre "(opciones de chat: ...)" quedaron sin traducir.
+  Es cosmético, no rompe nada. Para corregirlas hay que forzar su re-traducción con `--force` (tiene
+  costo de API).
 
 Ver el plan de implementación completo para el diseño detallado del pipeline y el schema de datos.
