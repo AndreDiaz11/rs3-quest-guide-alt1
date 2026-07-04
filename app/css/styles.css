@@ -180,7 +180,7 @@ h1, h2, .app-title-font {
 
 #sidebar-chips {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 6px;
 }
 
@@ -189,7 +189,7 @@ h1, h2, .app-title-font {
   align-items: center;
   justify-content: center;
   gap: 6px;
-  padding: 6px 4px;
+  padding: 6px 8px;
   font-size: 0.78em;
   font-weight: 600;
   color: var(--text-dim);
@@ -197,6 +197,7 @@ h1, h2, .app-title-font {
   border: 1px solid var(--border);
   border-radius: 5px;
   cursor: pointer;
+  white-space: nowrap;
   transition: background 0.15s, border-color 0.15s, color 0.15s;
 }
 

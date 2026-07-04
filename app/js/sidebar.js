@@ -67,12 +67,15 @@ function buildFilterBar(container, onChange) {
 
   const chipsWrap = document.createElement("div");
   chipsWrap.id = "sidebar-chips";
+  // 2 columnas emparejadas por fila (tipo | estado) en vez de 3, porque textos
+  // como "In Progress"/"Incomplete" no entraban en un tercio del ancho del
+  // sidebar y el grid se desbordaba (ver captura del usuario).
   const chips = [
     { key: "showQuest", label: "Quest", icon: questIcon("var(--quest-chip-icon)"), variant: "quest" },
-    { key: "showMiniquest", label: "Miniquest", icon: scrollIcon("var(--quest-miniquest)"), variant: "miniquest" },
-    { key: "showEvents", label: "Events", icon: calendarIcon("var(--quest-event)"), variant: "events" },
     { key: "showCompleted", label: "Complete", icon: checkCircleIcon("var(--quest-green)"), variant: "completed" },
+    { key: "showMiniquest", label: "Miniquest", icon: scrollIcon("var(--quest-miniquest)"), variant: "miniquest" },
     { key: "showStarted", label: "In Progress", icon: clockCircleIcon("var(--quest-yellow)"), variant: "started" },
+    { key: "showEvents", label: "Events", icon: calendarIcon("var(--quest-event)"), variant: "events" },
     { key: "showIncomplete", label: "Incomplete", icon: xCircleIcon("var(--quest-red)"), variant: "incomplete" },
   ];
   chips.forEach(({ key, label, icon, variant }) => {
