@@ -22,11 +22,9 @@ async function selectQuest(id) {
   detail.innerHTML = '<p id="detail-placeholder">Cargando...</p>';
   try {
     const quest = await fetchQuest(id);
-    const status = questStatus(id);
     renderQuestDetail(detail, quest, {
       lang: state.settings.lang,
-      isCompleted: status === "COMPLETED",
-      status,
+      isCompleted: questStatus(id) === "COMPLETED",
     });
   } catch (err) {
     detail.innerHTML = `<p style="color:#c0392b">${err.message}</p>`;

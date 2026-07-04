@@ -10,7 +10,6 @@
   --quest-green: #4caf50;
   --quest-yellow: #d4b106;
   --quest-red: #c0392b;
-  --quest-locked: #5a5a5a;
 }
 
 * {
@@ -82,32 +81,15 @@ body {
 #quest-list li.status-completed { color: var(--quest-green); }
 #quest-list li.status-started { color: var(--quest-yellow); }
 #quest-list li.status-not-started { color: var(--quest-red); }
-#quest-list li.status-locked { color: var(--quest-locked); }
 #quest-list li.selected { background: rgba(201, 162, 39, 0.18); }
 
-#quest-list li.quest-group-heading {
-  cursor: pointer;
-  color: var(--gold);
-  font-size: 0.75em;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  margin-top: 8px;
-  padding: 4px 8px 2px;
-  border-bottom: 1px solid var(--border);
-  user-select: none;
-}
-#quest-list li.quest-group-heading:hover {
-  background: rgba(255, 255, 255, 0.05);
-}
-#quest-list li.quest-group-heading .group-toggle {
-  display: inline-block;
-  width: 12px;
-  font-size: 0.9em;
-}
-#quest-list li.quest-group-heading .group-count {
+#quest-list li.quest-list-empty {
+  cursor: default;
   color: var(--text-dim);
-  text-transform: none;
-  letter-spacing: normal;
+  font-style: italic;
+}
+#quest-list li.quest-list-empty:hover {
+  background: none;
 }
 
 #sidebar-filterbar {
@@ -115,23 +97,16 @@ body {
   border-bottom: 1px solid var(--border);
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
 }
 
-#sort-select {
+#quest-search {
   width: 100%;
   background: var(--bg-panel);
   color: var(--text);
   border: 1px solid var(--border);
   border-radius: 4px;
-  padding: 4px;
-}
-
-#sidebar-checks {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  font-size: 0.8em;
+  padding: 6px 8px;
 }
 
 .sidebar-check {
@@ -139,6 +114,7 @@ body {
   align-items: center;
   gap: 6px;
   cursor: pointer;
+  font-size: 0.85em;
 }
 
 #settings-overlay {
@@ -244,16 +220,6 @@ body {
   margin: 0;
   color: var(--gold);
   font-size: 1.4em;
-}
-
-.locked-banner {
-  background: rgba(90, 90, 90, 0.25);
-  border: 1px solid var(--quest-locked);
-  border-radius: 4px;
-  padding: 6px 10px;
-  margin-bottom: 12px;
-  font-size: 0.85em;
-  color: var(--text);
 }
 
 .quest-meta-updated {

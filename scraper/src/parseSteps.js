@@ -33,9 +33,12 @@ export function parseSteps(quickGuideWikitext) {
   const rawSteps = []; // { indent, raw }
   for (const block of blocks) parseChecklistBlock(block, rawSteps);
 
-  return rawSteps.map((step, index) => ({
-    index,
-    indent: step.indent,
-    text: { en: wikitextToPlain(step.raw) },
-  }));
+  // A step can come out empty if its wikitext was just an unrecognized inline
+  // template we strip (e.g. a fairy ring code icon) — an empty instruction is
+  // useless to show anyway, and sending blank lines to the translator causes
+  // it to drop them inconsistently, breaking the line-count alignment check.
+  return rawSteps
+    .map((step) => ({ indent: step.indent, text: wikitextToPlain(step.raw) }))
+    .filter((step) => step.text.trim() !== "")
+    .map((step, index) => ({ index, indent: step.indent, text: { en: step.text } }));
 }

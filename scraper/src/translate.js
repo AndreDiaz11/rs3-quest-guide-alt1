@@ -17,6 +17,7 @@ Reglas:
 - Traduce el resto del texto de forma natural, no literal palabra por palabra. ESTO INCLUYE los fragmentos entre paréntesis "(opciones de chat: ...)": son opciones de diálogo citadas del juego y DEBEN traducirse igual que el resto del texto, no dejarlas en inglés. Ejemplo: "(opciones de chat: 1 Talk about the quest. • Accept)" -> "(opciones de chat: 1 Hablar sobre la misión. • Aceptar)".
 - Devuelve EXACTAMENTE el mismo número de líneas que la entrada, una traducción por línea, en el mismo orden, sin numerar ni añadir texto extra ni comentarios.
 - Es muy importante que no omitas ni fusiones ninguna línea, incluso si el texto es muy largo: cada línea de entrada debe producir exactamente una línea de salida.
+- Si dos o más líneas son idénticas o casi idénticas (por ejemplo, el mismo paso repetido con un NPC distinto), tradúcelas cada una por separado en su propia línea de salida — NUNCA las combines ni las omitas por parecer duplicadas.
 
 Glosario de habilidades:
 ${JSON.stringify(glossary.skills, null, 2)}
@@ -79,12 +80,13 @@ export async function translateStrings(strings) {
 
   const glossary = await loadGlossary();
 
-  for (let attempt = 1; attempt <= 2; attempt++) {
+  const maxAttempts = 3;
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     const lines = await callTranslateApi(strings, glossary, apiKey);
     if (lines.length === strings.length) return lines;
-    if (attempt === 2) {
+    if (attempt === maxAttempts) {
       throw new Error(
-        `Desalineación en la traducción tras reintento: se esperaban ${strings.length} líneas, se recibieron ${lines.length}.`
+        `Desalineación en la traducción tras ${maxAttempts} intentos: se esperaban ${strings.length} líneas, se recibieron ${lines.length}.`
       );
     }
   }

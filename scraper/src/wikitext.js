@@ -71,6 +71,9 @@ export function wikitextToPlain(raw) {
 
   // Inline templates we recognize get rendered; anything else just gets stripped.
   text = text.replace(/\{\{Chat options([\s\S]*?)\}\}/g, (_match, inner) => renderChatOptions(inner));
+  // {{Fairycode|air}} -> "AIR" (a fairy ring teleport code) — stripping it entirely
+  // leaves steps with no actual instruction (e.g. "A Fairy Tale II"'s ring codes).
+  text = text.replace(/\{\{Fairycode\|([^{}|]+)\}\}/gi, (_match, code) => code.trim().toUpperCase());
   text = text.replace(/\{\{[^{}]*\}\}/g, ""); // strip any other simple inline template
 
   // [[Link|Display]] -> Display, [[Link]] -> Link

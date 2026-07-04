@@ -52,7 +52,7 @@ function renderRewardChip(reward) {
  * (from RuneMetrics, wired in M2) forces every step checked and read-only;
  * otherwise steps use manual localStorage-backed checkboxes.
  */
-export function renderQuestDetail(container, quest, { lang = "en", isCompleted = false, status = null } = {}) {
+export function renderQuestDetail(container, quest, { lang = "en", isCompleted = false } = {}) {
   container.innerHTML = "";
   const manualChecks = loadManualChecks(quest.id);
 
@@ -60,15 +60,6 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   if (quest.icon) header.appendChild(el("img", { src: quest.icon, alt: "" }));
   header.appendChild(el("h1", { text: quest.title }));
   container.appendChild(header);
-
-  if (status === "LOCKED") {
-    container.appendChild(
-      el("div", {
-        class: "locked-banner",
-        text: "Todavía no cumples los requisitos para empezar esta misión (según RuneMetrics).",
-      })
-    );
-  }
 
   if (quest.isSeasonal) {
     container.appendChild(
