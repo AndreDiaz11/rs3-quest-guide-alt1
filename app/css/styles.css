@@ -530,13 +530,15 @@ h2.section-title {
 }
 
 .chat-options-popup {
-  position: relative;
+  position: fixed;
+  z-index: 1000;
+  width: 220px;
   background: var(--bg-panel-alt, #2a2620);
   border: 1px solid var(--border-light, #c9a227);
   border-radius: 4px;
-  padding: 8px 10px;
-  margin: 4px 0 4px 24px;
+  padding: 8px 26px 8px 10px;
   font-size: 0.85em;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
 }
 
 .chat-options-popup ul {

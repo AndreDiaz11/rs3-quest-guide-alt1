@@ -88,11 +88,14 @@ function renderRequirementsList(quest) {
   return wrap;
 }
 
-/** Small chat-icon button that opens a popup listing each option (English marker, Spanish/local dialogue text). */
+/** Small chat-icon button that opens a floating popup listing each option (English marker, Spanish/local dialogue text). */
 function renderChatOptionsButton(options, lang) {
   const btn = el("button", { class: "chat-options-btn", type: "button", title: "Opciones de chat", text: "💬" });
   btn.addEventListener("click", () => {
-    document.querySelectorAll(".chat-options-popup").forEach((p) => p.remove());
+    const existing = document.querySelector(".chat-options-popup");
+    existing?.remove();
+    if (existing && existing.dataset.forBtn === btn.dataset.chatBtnId) return; // clicking the same button again just closes it
+
     const popup = el("div", { class: "chat-options-popup" });
     const list = el("ul");
     options.forEach((opt) => list.appendChild(el("li", { text: opt })));
@@ -100,7 +103,16 @@ function renderChatOptionsButton(options, lang) {
     const close = el("button", { class: "chat-options-close", type: "button", text: "✕" });
     close.addEventListener("click", () => popup.remove());
     popup.appendChild(close);
-    btn.parentElement.appendChild(popup);
+
+    const btnId = String(Date.now());
+    btn.dataset.chatBtnId = btnId;
+    popup.dataset.forBtn = btnId;
+
+    document.body.appendChild(popup);
+    const rect = btn.getBoundingClientRect();
+    const maxLeft = window.innerWidth - popup.offsetWidth - 8;
+    popup.style.top = `${rect.bottom + 6}px`;
+    popup.style.left = `${Math.min(rect.left, maxLeft)}px`;
   });
   return btn;
 }
