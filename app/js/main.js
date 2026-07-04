@@ -51,6 +51,19 @@ async function refreshRuneMetrics() {
   }
 }
 
+/** Shows a RuneMetrics status message when relevant, otherwise renders the given quest (or the first one). */
+function showRuneMetricsResultOrQuest(rmResult, questIdToShow) {
+  if (rmResult.fetchFailed) {
+    detail.innerHTML =
+      '<p id="detail-placeholder">No se pudo consultar RuneMetrics (fallo de red/CORS). Las misiones se muestran sin estado de progreso.</p>';
+  } else if (rmResult.invalidOrPrivate && !rmResult.noUsername) {
+    detail.innerHTML =
+      '<p id="detail-placeholder">No se encontró ese nombre de jugador en RuneMetrics, o su perfil es privado. Revisa el nombre en Ajustes.</p>';
+  } else if (questIdToShow) {
+    selectQuest(questIdToShow);
+  }
+}
+
 async function main() {
   state.settings = loadSettings();
   state.index = await fetchIndex();
@@ -60,25 +73,16 @@ async function main() {
       datasetLastUpdated: state.index.lastUpdated,
       onSave: async (settings) => {
         state.settings = settings;
-        await refreshRuneMetrics();
+        const rmResult = await refreshRuneMetrics();
         refreshSidebar();
-        if (state.selectedQuestId) selectQuest(state.selectedQuestId);
+        showRuneMetricsResultOrQuest(rmResult, state.selectedQuestId || state.index.quests[0]?.id);
       },
     });
   });
 
   const rmResult = await refreshRuneMetrics();
   refreshSidebar();
-
-  if (rmResult.fetchFailed) {
-    detail.innerHTML =
-      '<p id="detail-placeholder">No se pudo consultar RuneMetrics (fallo de red/CORS). Las misiones se muestran sin estado de progreso.</p>';
-  } else if (rmResult.invalidOrPrivate && !rmResult.noUsername) {
-    detail.innerHTML =
-      '<p id="detail-placeholder">No se encontró ese nombre de jugador en RuneMetrics, o su perfil es privado. Revisa el nombre en Ajustes.</p>';
-  } else if (state.index.quests.length > 0) {
-    selectQuest(state.index.quests[0].id);
-  }
+  showRuneMetricsResultOrQuest(rmResult, state.index.quests[0]?.id);
 }
 
 main().catch((err) => {
