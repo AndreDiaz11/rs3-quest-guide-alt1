@@ -198,11 +198,17 @@ h1, h2, .app-title-font {
   border-radius: 5px;
   cursor: pointer;
   white-space: nowrap;
-  transition: background 0.15s, border-color 0.15s, color 0.15s;
+  opacity: 0.55;
+  transition: background 0.15s, border-color 0.15s, color 0.15s, opacity 0.15s;
 }
 
 .filter-chip:hover {
   border-color: var(--border-light);
+  opacity: 0.8;
+}
+
+.filter-chip.active {
+  opacity: 1;
 }
 
 .chip-icon {
@@ -217,12 +223,12 @@ h1, h2, .app-title-font {
   height: 100%;
 }
 
-.filter-chip.chip-quest.active { color: var(--quest-chip-icon); border-color: var(--quest-chip-icon); background: rgba(224, 184, 74, 0.12); }
-.filter-chip.chip-miniquest.active { color: var(--quest-miniquest); border-color: var(--quest-miniquest); background: rgba(176, 108, 217, 0.14); }
-.filter-chip.chip-events.active { color: var(--quest-event); border-color: var(--quest-event); background: rgba(91, 180, 224, 0.14); }
-.filter-chip.chip-completed.active { color: var(--quest-green); border-color: var(--quest-green); background: rgba(63, 206, 70, 0.14); }
-.filter-chip.chip-started.active { color: var(--quest-yellow); border-color: var(--quest-yellow); background: rgba(240, 196, 25, 0.14); }
-.filter-chip.chip-incomplete.active { color: var(--quest-red); border-color: var(--quest-red); background: rgba(238, 59, 59, 0.14); }
+.filter-chip.chip-quest.active { color: var(--quest-chip-icon); border-color: var(--quest-chip-icon); background: rgba(224, 184, 74, 0.28); box-shadow: 0 0 0 1px rgba(224, 184, 74, 0.3) inset; }
+.filter-chip.chip-miniquest.active { color: var(--quest-miniquest); border-color: var(--quest-miniquest); background: rgba(176, 108, 217, 0.28); box-shadow: 0 0 0 1px rgba(176, 108, 217, 0.3) inset; }
+.filter-chip.chip-events.active { color: var(--quest-event); border-color: var(--quest-event); background: rgba(91, 180, 224, 0.28); box-shadow: 0 0 0 1px rgba(91, 180, 224, 0.3) inset; }
+.filter-chip.chip-completed.active { color: var(--quest-green); border-color: var(--quest-green); background: rgba(63, 206, 70, 0.28); box-shadow: 0 0 0 1px rgba(63, 206, 70, 0.3) inset; }
+.filter-chip.chip-started.active { color: var(--quest-yellow); border-color: var(--quest-yellow); background: rgba(240, 196, 25, 0.28); box-shadow: 0 0 0 1px rgba(240, 196, 25, 0.3) inset; }
+.filter-chip.chip-incomplete.active { color: var(--quest-red); border-color: var(--quest-red); background: rgba(238, 59, 59, 0.28); box-shadow: 0 0 0 1px rgba(238, 59, 59, 0.3) inset; }
 
 .step-list input,
 #settings-modal input[type="checkbox"] {
@@ -491,26 +497,6 @@ h2.section-title {
 .req-unknown {
   color: var(--text-dim);
   font-weight: bold;
-}
-
-.items-plain-list {
-  list-style: none;
-  margin: 6px 0 8px;
-  padding: 0;
-  font-size: 0.9em;
-}
-
-.items-plain-list li {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 2px 0;
-}
-
-.items-plain-list img {
-  width: 20px;
-  height: 20px;
-  object-fit: contain;
 }
 
 .step-section-title {

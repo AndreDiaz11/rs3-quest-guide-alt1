@@ -197,15 +197,6 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
     const itemsWrap = el("div");
     quest.items.forEach((item) => itemsWrap.appendChild(renderItemChip(item)));
     container.appendChild(itemsWrap);
-
-    const itemsList = el("ul", { class: "items-plain-list" });
-    quest.items.forEach((item) => {
-      const li = el("li");
-      if (item.image) li.appendChild(el("img", { src: item.image, alt: item.name }));
-      li.appendChild(document.createTextNode(item.display || item.name));
-      itemsList.appendChild(li);
-    });
-    container.appendChild(itemsList);
   }
 
   if (quest.guideNote) {

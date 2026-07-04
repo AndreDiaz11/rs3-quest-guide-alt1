@@ -70,13 +70,16 @@ function buildFilterBar(container, onChange) {
   // 2 columnas emparejadas por fila (tipo | estado) en vez de 3, porque textos
   // como "In Progress"/"Incomplete" no entraban en un tercio del ancho del
   // sidebar y el grid se desbordaba (ver captura del usuario).
+  // Los íconos usan currentColor a propósito: así se atenúan junto con el
+  // texto cuando el chip está inactivo, en vez de quedar coloridos mientras
+  // el texto se ve gris (la mezcla confundía si el chip estaba activo o no).
   const chips = [
-    { key: "showQuest", label: "Quest", icon: questIcon("var(--quest-chip-icon)"), variant: "quest" },
-    { key: "showCompleted", label: "Complete", icon: checkCircleIcon("var(--quest-green)"), variant: "completed" },
-    { key: "showMiniquest", label: "Miniquest", icon: scrollIcon("var(--quest-miniquest)"), variant: "miniquest" },
-    { key: "showStarted", label: "In Progress", icon: clockCircleIcon("var(--quest-yellow)"), variant: "started" },
-    { key: "showEvents", label: "Events", icon: calendarIcon("var(--quest-event)"), variant: "events" },
-    { key: "showIncomplete", label: "Incomplete", icon: xCircleIcon("var(--quest-red)"), variant: "incomplete" },
+    { key: "showQuest", label: "Quest", icon: questIcon("currentColor"), variant: "quest" },
+    { key: "showCompleted", label: "Complete", icon: checkCircleIcon("currentColor"), variant: "completed" },
+    { key: "showMiniquest", label: "Miniquest", icon: scrollIcon("currentColor"), variant: "miniquest" },
+    { key: "showStarted", label: "In Progress", icon: clockCircleIcon("currentColor"), variant: "started" },
+    { key: "showEvents", label: "Events", icon: calendarIcon("currentColor"), variant: "events" },
+    { key: "showIncomplete", label: "Incomplete", icon: xCircleIcon("currentColor"), variant: "incomplete" },
   ];
   chips.forEach(({ key, label, icon, variant }) => {
     const btn = document.createElement("button");
