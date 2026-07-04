@@ -41,13 +41,31 @@ const HUB_QUEST_NOTE = {
   es: "Esta misión es un resumen que agrupa varias sub-misiones, cada una ya listada por separado en esta app con su propia guía paso a paso. No existe una guía única para la misión en sí — consulta la página del wiki para ver el resumen completo.",
 };
 
+// Sagas (Fremennik Sagas) are a separate game mode, not tracked in the Quest
+// Journal / RuneMetrics quest list and give no quest points — exclude entirely.
+function isSagaTitle(title) {
+  return /\(saga\)$/i.test(title);
+}
+
 async function scrapeOne(title, { skipTranslate }, seasonalTitles) {
+  if (isSagaTitle(title)) {
+    throw new Error("Es una Saga (Fremennik Sagas), no una misión normal — excluida a propósito.");
+  }
+
   const page = await fetchQuestPage(title);
 
   const metadata = parseMetadata(page);
   const rewardsData = parseRewards(page.quickGuideHtml);
   const isMiniquest = /\(miniquest\)$/i.test(title);
-  const isSeasonal = seasonalTitles.has(title);
+  // Belt-and-suspenders: some event quests are only tagged with a year-specific
+  // category (e.g. "2019_Easter_event") rather than the general Category:Seasonal
+  // quests, so check both the master list and this page's own categories. Matched
+  // narrowly (singular "_event" or exact "Holiday_events"/"Seasonal_quests") to
+  // avoid false positives like "Repeatable_events" or "Wilderness_Flash_Events",
+  // which are unrelated game features that happen to contain the word "event".
+  const isSeasonal =
+    seasonalTitles.has(title) ||
+    page.categories.some((c) => /^seasonal_quests$|^holiday_events$|_event$/i.test(c));
 
   let steps;
   let guideNote;

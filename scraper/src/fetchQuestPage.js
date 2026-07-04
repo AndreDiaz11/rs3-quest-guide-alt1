@@ -11,7 +11,7 @@ export async function fetchQuestPage(title) {
   const mainWikitext = await wikiApiFetch({
     action: "parse",
     page: title,
-    prop: "wikitext",
+    prop: "wikitext|categories",
   });
 
   const quickGuideTitle = `${title}/Quick guide`;
@@ -34,10 +34,13 @@ export async function fetchQuestPage(title) {
     );
   }
 
+  const categories = (mainWikitext.parse.categories || []).map((c) => c["*"]);
+
   return {
     title,
     mainWikitext: mainWikitext.parse.wikitext["*"],
     quickGuideWikitext: quickGuideWikitext.parse.wikitext["*"],
     quickGuideHtml: quickGuideHtml.parse.text["*"],
+    categories,
   };
 }
