@@ -88,6 +88,25 @@ function renderRequirementsList(quest) {
   return wrap;
 }
 
+/**
+ * Formats one raw chat option line for display: a leading number (the actual
+ * in-game dialogue button, kept untranslated) gets split out as "N." followed
+ * by the dialogue in quotes and italics; plain UI text (e.g. "Accept", "Any",
+ * with no number) is shown as-is.
+ */
+function renderChatOptionLine(opt) {
+  const li = el("li");
+  const match = opt.match(/^(\d+)\s+(.+)$/);
+  if (match) {
+    const [, num, dialogue] = match;
+    li.appendChild(el("span", { class: "chat-opt-num", text: `${num}.` }));
+    li.appendChild(el("em", { class: "chat-opt-text", text: `"${dialogue}"` }));
+  } else {
+    li.appendChild(document.createTextNode(opt));
+  }
+  return li;
+}
+
 /** Small chat-icon button that opens a floating popup listing each option (English marker, Spanish/local dialogue text). */
 function renderChatOptionsButton(options, lang) {
   const btn = el("button", { class: "chat-options-btn", type: "button", title: "Opciones de chat", text: "💬" });
@@ -98,7 +117,7 @@ function renderChatOptionsButton(options, lang) {
 
     const popup = el("div", { class: "chat-options-popup" });
     const list = el("ul");
-    options.forEach((opt) => list.appendChild(el("li", { text: opt })));
+    options.forEach((opt) => list.appendChild(renderChatOptionLine(opt)));
     popup.appendChild(list);
     const close = el("button", { class: "chat-options-close", type: "button", text: "✕" });
     close.addEventListener("click", () => popup.remove());
