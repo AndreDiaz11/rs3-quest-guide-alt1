@@ -10,6 +10,7 @@
   --quest-green: #4caf50;
   --quest-yellow: #d4b106;
   --quest-red: #c0392b;
+  --quest-locked: #7a7a7a;
 }
 
 * {
@@ -81,6 +82,7 @@ body {
 #quest-list li.status-completed { color: var(--quest-green); }
 #quest-list li.status-started { color: var(--quest-yellow); }
 #quest-list li.status-not-started { color: var(--quest-red); }
+#quest-list li.status-locked { color: var(--quest-locked); }
 #quest-list li.selected { background: rgba(201, 162, 39, 0.18); }
 
 #quest-list li.quest-list-empty {
@@ -109,12 +111,24 @@ body {
   padding: 6px 8px;
 }
 
-.sidebar-check {
+#sidebar-toggles {
   display: flex;
-  align-items: center;
   gap: 6px;
+}
+
+.sidebar-toggle {
+  flex: 1;
+  background: var(--bg-panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 5px 6px;
+  font-size: 0.78em;
   cursor: pointer;
-  font-size: 0.85em;
+}
+
+.sidebar-toggle:hover {
+  background: rgba(255, 255, 255, 0.06);
 }
 
 #settings-overlay {

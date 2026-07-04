@@ -10,13 +10,29 @@ function normalizeSearch(text) {
 }
 
 function filterQuests(quests) {
-  const { showCompleted, searchText } = state.activeFilters;
+  const { showCompleted, showEvents, searchText } = state.activeFilters;
   const search = normalizeSearch(searchText);
   return quests.filter((q) => {
     if (!showCompleted && questStatus(q.id) === "COMPLETED") return false;
+    if (!showEvents && q.isSeasonal && questStatus(q.id) !== "COMPLETED") return false;
     if (search && !normalizeSearch(q.title).includes(search)) return false;
     return true;
   });
+}
+
+/** A button whose own label reflects the action it performs next (toggle pattern). */
+function buildToggleButton({ getState, labelWhenOn, labelWhenOff, onToggle }) {
+  const button = document.createElement("button");
+  button.className = "sidebar-toggle";
+  const sync = () => {
+    button.textContent = getState() ? labelWhenOn : labelWhenOff;
+  };
+  button.addEventListener("click", () => {
+    onToggle();
+    sync();
+  });
+  sync();
+  return button;
 }
 
 // Se construye una sola vez; escribir en el buscador solo debe volver a
@@ -37,19 +53,34 @@ function buildFilterBar(container, onChange) {
   });
   bar.appendChild(search);
 
-  const wrap = document.createElement("label");
-  wrap.className = "sidebar-check";
-  const checkbox = document.createElement("input");
-  checkbox.type = "checkbox";
-  checkbox.checked = state.activeFilters.showCompleted;
-  checkbox.addEventListener("change", () => {
-    state.activeFilters.showCompleted = checkbox.checked;
-    onChange();
-  });
-  wrap.appendChild(checkbox);
-  wrap.appendChild(document.createTextNode("Mostrar completadas"));
-  bar.appendChild(wrap);
+  const togglesWrap = document.createElement("div");
+  togglesWrap.id = "sidebar-toggles";
 
+  togglesWrap.appendChild(
+    buildToggleButton({
+      getState: () => state.activeFilters.showCompleted,
+      labelWhenOn: "Ocultar Completados",
+      labelWhenOff: "Mostrar Completados",
+      onToggle: () => {
+        state.activeFilters.showCompleted = !state.activeFilters.showCompleted;
+        onChange();
+      },
+    })
+  );
+
+  togglesWrap.appendChild(
+    buildToggleButton({
+      getState: () => state.activeFilters.showEvents,
+      labelWhenOn: "Ocultar Eventos",
+      labelWhenOff: "Mostrar Eventos",
+      onToggle: () => {
+        state.activeFilters.showEvents = !state.activeFilters.showEvents;
+        onChange();
+      },
+    })
+  );
+
+  bar.appendChild(togglesWrap);
   container.appendChild(bar);
 }
 
@@ -80,7 +111,7 @@ function renderList(listEl, onSelect) {
   visible.forEach((quest) => {
     const li = document.createElement("li");
     li.textContent = quest.isSeasonal ? `${quest.title} 🎉` : quest.title;
-    li.className = statusClass(questStatus(quest.id));
+    li.className = statusClass(questStatus(quest.id), quest.isSeasonal);
     if (quest.id === state.selectedQuestId) li.classList.add("selected");
     li.addEventListener("click", () => onSelect(quest.id));
     listEl.appendChild(li);
@@ -89,7 +120,7 @@ function renderList(listEl, onSelect) {
 
 const initializedFilterBars = new WeakSet();
 
-/** Renders the sidebar: builds the search/checkbox bar once, then (re)renders the list + counter. */
+/** Renders the sidebar: builds the search/toggle bar once, then (re)renders the list + counter. */
 export function renderSidebar({ filterBarEl, listEl, counterEl }, onSelect) {
   if (!initializedFilterBars.has(filterBarEl)) {
     initializedFilterBars.add(filterBarEl);
