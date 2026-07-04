@@ -61,6 +61,11 @@ export async function buildQuestRecord({
     image: imageMap.get(i.name) || null,
   }));
 
+  // Note: deliberately NOT falling back to the Infobox's |qp= field when a hub
+  // quest's Quick guide has no Rewards section — verified against a real
+  // account that doing so overshoots the game's actual Quest Points total
+  // (Once Upon a Time in Gielinor's |qp=4 does not count towards the stat
+  // shown in-game, even though RuneMetrics's API also reports it as 4).
   const rewards = rewardsData.rewards.map((r) => ({
     ...r,
     image: r.type === "item" ? imageMap.get(r.name) || null : null,
