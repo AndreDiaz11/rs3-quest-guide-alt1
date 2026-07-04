@@ -158,10 +158,10 @@ function renderFilterBar(container, onChange) {
 }
 
 function renderCounter(container) {
-  // Las misiones de temporada no cuentan en el total nativo de puntos de misión
-  // (confirmado comparando contra una cuenta real: sin excluirlas el total no
-  // coincidía con el contador del juego).
-  const quests = state.index.quests.filter((q) => !q.isMiniquest && !q.isSeasonal);
+  // Las misiones de temporada SÍ cuentan en el total nativo de puntos de misión
+  // (confirmado contra una cuenta real vía RunePixels: excluirlas daba un total
+  // más bajo que el real). Solo las minimisiones se excluyen, dan 0 siempre.
+  const quests = state.index.quests.filter((q) => !q.isMiniquest);
   const totalQP = quests.reduce((sum, q) => sum + (q.questPoints || 0), 0);
   const doneQP = quests.reduce(
     (sum, q) => sum + (questStatus(q.id) === "COMPLETED" ? q.questPoints || 0 : 0),
