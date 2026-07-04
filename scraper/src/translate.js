@@ -14,7 +14,6 @@ async function callTranslateApi(strings, glossary, apiKey) {
 Reglas:
 - RS3 NO tiene cliente oficial en español; no existe una localización "oficial" que seguir. Usa las traducciones de habilidades del glosario adjunto de forma consistente.
 - Los nombres propios (NPCs, lugares) se mantienen en inglés tal cual aparecen, salvo que el glosario indique una traducción explícita. Los nombres de objetos/items también se dejan en inglés (así aparecen en el juego, que no tiene cliente en español).
-- Traduce el resto del texto de forma natural, no literal palabra por palabra. ESTO INCLUYE los fragmentos entre paréntesis "(opciones de chat: ...)": son opciones de diálogo citadas del juego y DEBEN traducirse igual que el resto del texto, no dejarlas en inglés. Ejemplo: "(opciones de chat: 1 Talk about the quest. • Accept)" -> "(opciones de chat: 1 Hablar sobre la misión. • Aceptar)".
 - Devuelve EXACTAMENTE el mismo número de líneas que la entrada, una traducción por línea, en el mismo orden, sin numerar ni añadir texto extra ni comentarios.
 - Es muy importante que no omitas ni fusiones ninguna línea, incluso si el texto es muy largo: cada línea de entrada debe producir exactamente una línea de salida.
 - Si dos o más líneas son idénticas o casi idénticas (por ejemplo, el mismo paso repetido con un NPC distinto), tradúcelas cada una por separado en su propia línea de salida — NUNCA las combines ni las omitas por parecer duplicadas.

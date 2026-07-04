@@ -28,7 +28,7 @@ export const state = {
  * RuneMetrics — its userEligible field was found to be unreliable (a real quest
  * showed userEligible:false while actually available in-game), so it's not used.
  * The separate "locked" (grey) look shown in the sidebar for seasonal quests is
- * computed from our own isSeasonal flag instead (see colors.js), not from here.
+ * computed from our own isSeasonal flag instead (see sidebar.js), not from here.
  */
 export function questStatus(questId) {
   const entry = state.runemetricsStatus.get(questId);

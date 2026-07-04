@@ -15,8 +15,7 @@ const QUESTS_DIR = fileURLToPath(new URL("../../data/quests/", import.meta.url))
  * spending any new Anthropic credits: it re-runs the free wiki scraping
  * (fetchQuestPage/parseMetadata/parseSteps/parseRewards/resolveImages), then
  * reuses each step's EXISTING Spanish translation from disk (matched by
- * index — step count/order doesn't change), stripping the old inlined
- * " (opciones de chat: ...)" suffix that's no longer part of the narrative.
+ * index — step count/order doesn't change).
  *
  * Usage: node src/migrate.js [--only=slug] [--limit=N]
  */
@@ -28,14 +27,6 @@ function parseArgs(argv) {
     else if (arg.startsWith("--limit=")) args.limit = Number(arg.slice("--limit=".length));
   }
   return args;
-}
-
-// Matches the old inline suffix produced by the previous wikitextToPlain,
-// e.g. " (opciones de chat: Yes • No)".
-const OLD_CHAT_OPTIONS_SUFFIX = /\s*\(opciones de chat:[^)]*\)\s*$/i;
-
-function stripOldChatSuffix(text) {
-  return typeof text === "string" ? text.replace(OLD_CHAT_OPTIONS_SUFFIX, "").trim() : text;
 }
 
 async function migrateOne(slug) {
@@ -78,7 +69,7 @@ async function migrateOne(slug) {
   }
   record.steps = record.steps.map((step, i) => {
     const oldEs = old.steps[i]?.text?.es;
-    return oldEs ? { ...step, text: { ...step.text, es: stripOldChatSuffix(oldEs) } } : step;
+    return oldEs ? { ...step, text: { ...step.text, es: oldEs } } : step;
   });
   if (old.startPoint?.es) {
     record.startPoint = { ...record.startPoint, es: old.startPoint.es };

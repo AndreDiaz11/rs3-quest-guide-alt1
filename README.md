@@ -42,18 +42,26 @@ ya están hechas. Para forzar la re-traducción de una misión específica (por 
 prompt de traducción), usa `--force` junto con `--only=`, o `--all --force` para re-traducir todo el
 dataset desde cero.
 
-### Estado actual del dataset (última corrida)
+### Regenerar el dataset con la misma estructura, reusando traducciones existentes
 
-- 361/368 misiones y minimisiones scrapeadas (7 son páginas "hub" sin guía propia, ej. *Recipe for
-  Disaster*, que enlaza a sub-misiones ya scrapeadas por separado).
-- **357/361 traducidas al español (99%).** Las 4 restantes quedaron en inglés por un desajuste de
-  líneas en la respuesta del modelo que persistió incluso tras el reintento automático (misiones con
-  formato de diálogo inusual): *A Fairy Tale II - Cure a Queen*, *My Arm's Big Adventure*,
-  *One Foot in the Grave (miniquest)*, *Tales of Pride*. Se pueden reintentar individualmente con
+Si se necesita volver a scrapear todas las misiones (por ejemplo tras un cambio en el parser de pasos
+o secciones) sin pagar de nuevo por traducir lo que ya está traducido, usar el script de migración:
+
+```
+node scraper/src/migrate.js              # todo el dataset
+node scraper/src/migrate.js --only=slug  # una sola misión (nombre del archivo en data/quests/, sin .json)
+```
+
+Re-scrapea cada misión en inglés (gratis) y reutiliza la traducción en español ya guardada en disco,
+emparejando pasos por índice.
+
+### Estado actual del dataset
+
+- 362 misiones y minimisiones scrapeadas de las 368 en `Category:Quick guides` (las 6 restantes son
+  páginas "hub" sin guía propia, ej. *Recipe for Disaster*, que enlaza a sub-misiones ya scrapeadas por
+  separado, o casos especiales documentados como `guideNote` en su JSON).
+- 360/362 con guía completamente traducida al español. Las 2 restantes (*Tales of Pride*,
+  *Tomes of the Warlock*) se pueden traducir con
   `node --env-file=.env src/run.js --only="Nombre de la misión" --force`.
-- Las ~207 misiones traducidas en la primera corrida (antes de ajustar el prompt) pueden tener alguna
-  inconsistencia menor: algunos diálogos citados entre "(opciones de chat: ...)" quedaron sin traducir.
-  Es cosmético, no rompe nada. Para corregirlas hay que forzar su re-traducción con `--force` (tiene
-  costo de API).
-
-Ver el plan de implementación completo para el diseño detallado del pipeline y el schema de datos.
+- Puntos de misión verificados 1:1 contra una cuenta real (ver comentarios en `scraper/src/run.js`
+  sobre sagas, misiones hub y el caso especial de *Unstable Foundations*).

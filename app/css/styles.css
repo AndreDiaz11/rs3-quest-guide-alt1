@@ -602,6 +602,18 @@ h2.section-title {
   color: var(--text-dim);
 }
 
+.step-list li.indent-2 {
+  margin-left: 52px;
+  font-size: 0.95em;
+  color: var(--text-dim);
+}
+
+.step-list li.indent-3 {
+  margin-left: 78px;
+  font-size: 0.95em;
+  color: var(--text-dim);
+}
+
 .step-list input[type="checkbox"] {
   margin-top: 3px;
   flex-shrink: 0;

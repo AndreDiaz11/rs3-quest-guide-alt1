@@ -89,17 +89,18 @@ function renderRequirementsList(quest) {
 }
 
 /**
- * Formats one raw chat option line for display: a leading number (the actual
- * in-game dialogue button, kept untranslated) gets split out as "N." followed
- * by the dialogue in quotes and italics; plain UI text (e.g. "Accept", "Any",
- * with no number) is shown as-is.
+ * Formats one raw chat option line for display: a leading marker (the actual
+ * in-game dialogue button — a number, or "#"/"?" where the wiki itself didn't
+ * record a fixed position, kept untranslated) gets split out as "marker."
+ * followed by the dialogue in quotes and italics; plain UI text (e.g.
+ * "Accept", "Any", with no marker) is shown as-is.
  */
 function renderChatOptionLine(opt) {
   const li = el("li");
-  const match = opt.match(/^(\d+)\s+(.+)$/);
+  const match = opt.match(/^([#?\d]+)\s+(.+)$/);
   if (match) {
-    const [, num, dialogue] = match;
-    li.appendChild(el("span", { class: "chat-opt-num", text: `${num}.` }));
+    const [, marker, dialogue] = match;
+    li.appendChild(el("span", { class: "chat-opt-num", text: `${marker}.` }));
     li.appendChild(el("em", { class: "chat-opt-text", text: `"${dialogue}"` }));
   } else {
     li.appendChild(document.createTextNode(opt));
