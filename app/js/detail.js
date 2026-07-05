@@ -86,13 +86,14 @@ function renderRequirementsList(quest) {
   return wrap;
 }
 
-/**
- * Formats one raw chat option line for display: a leading marker (the actual
- * in-game dialogue button — a number, or "#"/"?" where the wiki itself didn't
- * record a fixed position, kept untranslated) gets split out as "marker."
- * followed by the dialogue in quotes and italics; plain UI text (e.g.
- * "Accept", "Any", with no marker) is shown as-is.
- */
+/** Extracts just the marker shown inline next to the chat bubble (e.g. "1", "#", "~" for "Any"). */
+function chatOptionMarker(opt) {
+  const match = opt.match(/^([#?\d]+)\s+/);
+  if (match) return match[1];
+  if (opt.trim().toLowerCase() === "any") return "~";
+  return "•";
+}
+
 function renderChatOptionLine(opt) {
   const li = el("li");
   const match = opt.match(/^([#?\d]+)\s+(.+)$/);
@@ -100,39 +101,61 @@ function renderChatOptionLine(opt) {
     const [, marker, dialogue] = match;
     li.appendChild(el("span", { class: "chat-opt-num", text: `${marker}.` }));
     li.appendChild(el("em", { class: "chat-opt-text", text: `"${dialogue}"` }));
+  } else if (opt.trim().toLowerCase() === "any") {
+    // Matches the wiki's own literal "~ [Any option]" notation — a UI label,
+    // not real dialogue, so no quotes/italics like the numbered lines get.
+    li.appendChild(el("span", { class: "chat-opt-num", text: "~" }));
+    li.appendChild(document.createTextNode(" [Any option]"));
   } else {
     li.appendChild(document.createTextNode(opt));
   }
   return li;
 }
 
-/** Small chat-icon button that opens a floating popup listing each option (English marker, Spanish/local dialogue text). */
-function renderChatOptionsButton(options, lang) {
-  const btn = el("button", { class: "chat-options-btn", type: "button", title: "Opciones de chat", text: "💬" });
-  btn.addEventListener("click", () => {
-    const existing = document.querySelector(".chat-options-popup");
-    existing?.remove();
-    if (existing && existing.dataset.forBtn === btn.dataset.chatBtnId) return; // clicking the same button again just closes it
+function openChatOptionsPopup(anchorEl, options) {
+  const existing = document.querySelector(".chat-options-popup");
+  existing?.remove();
+  if (existing && existing.dataset.forBtn === anchorEl.dataset.chatBtnId) return; // clicking the same anchor again just closes it
 
-    const popup = el("div", { class: "chat-options-popup" });
-    const list = el("ul");
-    options.forEach((opt) => list.appendChild(renderChatOptionLine(opt)));
-    popup.appendChild(list);
-    const close = el("button", { class: "chat-options-close", type: "button", text: "✕" });
-    close.addEventListener("click", () => popup.remove());
-    popup.appendChild(close);
+  const popup = el("div", { class: "chat-options-popup" });
+  const list = el("ul");
+  options.forEach((opt) => list.appendChild(renderChatOptionLine(opt)));
+  popup.appendChild(list);
+  const close = el("button", { class: "chat-options-close", type: "button", text: "✕" });
+  close.addEventListener("click", () => popup.remove());
+  popup.appendChild(close);
 
-    const btnId = String(Date.now());
-    btn.dataset.chatBtnId = btnId;
-    popup.dataset.forBtn = btnId;
+  const btnId = String(Date.now());
+  anchorEl.dataset.chatBtnId = btnId;
+  popup.dataset.forBtn = btnId;
 
-    document.body.appendChild(popup);
-    const rect = btn.getBoundingClientRect();
-    const maxLeft = window.innerWidth - popup.offsetWidth - 8;
-    popup.style.top = `${rect.bottom + 6}px`;
-    popup.style.left = `${Math.min(rect.left, maxLeft)}px`;
-  });
-  return btn;
+  document.body.appendChild(popup);
+  const rect = anchorEl.getBoundingClientRect();
+  const maxLeft = window.innerWidth - popup.offsetWidth - 8;
+  popup.style.top = `${rect.bottom + 6}px`;
+  popup.style.left = `${Math.min(rect.left, maxLeft)}px`;
+}
+
+/**
+ * Renders the wiki's own inline chat-options summary right after the step's
+ * sentence: "(💬 1•2•1•3•1) ..." — a chat bubble + each option's marker
+ * joined by "•", followed by a small "..." button that opens the full popup.
+ */
+function renderChatOptionsSummary(options) {
+  const wrap = el("span", { class: "chat-options-summary" });
+  wrap.appendChild(el("span", { class: "chat-options-icon", text: "💬" }));
+  wrap.appendChild(document.createTextNode(" " + options.map(chatOptionMarker).join("•")));
+
+  const more = el("button", { class: "chat-options-more", type: "button", title: "Opciones de chat", text: "..." });
+  more.addEventListener("click", () => openChatOptionsPopup(more, options));
+
+  const outer = el("span", { class: "chat-options-inline" });
+  outer.appendChild(document.createTextNode("("));
+  outer.appendChild(wrap);
+  outer.appendChild(document.createTextNode(")"));
+  outer.appendChild(document.createTextNode(" "));
+  outer.appendChild(more);
+  return outer;
 }
 
 /**
@@ -229,7 +252,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
           const li = el("li", { class: `step-note indent-${step.indent}` });
           li.appendChild(el("span", { text: localizedText(step.text, lang) }));
           if (step.chatOptions?.length) {
-            li.appendChild(renderChatOptionsButton(step.chatOptions, lang));
+            li.appendChild(renderChatOptionsSummary(step.chatOptions));
           }
           stepList.appendChild(li);
           return;
@@ -243,7 +266,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
         li.appendChild(checkbox);
         li.appendChild(el("span", { text: localizedText(step.text, lang) }));
         if (step.chatOptions?.length) {
-          li.appendChild(renderChatOptionsButton(step.chatOptions, lang));
+          li.appendChild(renderChatOptionsSummary(step.chatOptions));
         }
         stepList.appendChild(li);
         rows.push({ step, li, checkbox });

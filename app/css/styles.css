@@ -557,14 +557,34 @@ h2.section-title {
   margin: 16px 0 4px;
 }
 
-.chat-options-btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 0.9em;
+.chat-options-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   margin-left: 6px;
-  padding: 0 4px;
+  font-size: 0.85em;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.chat-options-icon {
+  margin-right: 2px;
+}
+
+.chat-options-more {
+  background: var(--bg-panel-alt);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text-dim);
+  cursor: pointer;
+  font-size: 0.85em;
   line-height: 1;
+  padding: 1px 6px;
+}
+
+.chat-options-more:hover {
+  border-color: var(--border-light);
+  color: var(--text);
 }
 
 .chat-options-popup {
