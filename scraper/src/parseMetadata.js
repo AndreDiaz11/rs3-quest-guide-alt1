@@ -52,8 +52,16 @@ function parseQuestDetailsTable(quickGuideHtml) {
   // reappearing under a different branch is not a duplicate.
   function parseRequirementNode(li) {
     const $li = $(li);
+    // The full text ("Ability to enter Morytania") is what gets displayed —
+    // some entries have real prose around the link, not just the bare quest
+    // name, and truncating to only the link's own text ("Morytania") lost
+    // that context entirely. The link's text alone (when there is a link) is
+    // kept separately as the exact title to match against our own dataset
+    // for the ✓/✗ (matching "Ability to enter Morytania" would never find a
+    // real quest called that).
+    const title = $li.clone().children("ul").remove().end().text().trim();
     const link = $li.children("a").first();
-    const title = link.length > 0 ? link.text().trim() : $li.clone().children("ul").remove().end().text().trim();
+    const linkTitle = link.length > 0 ? link.text().trim() : null;
     const childUl = $li.children("ul").first();
     const children = [];
     if (childUl.length > 0) {
@@ -65,7 +73,11 @@ function parseQuestDetailsTable(quickGuideHtml) {
         children.push(node);
       });
     }
-    return children.length > 0 ? { title, children } : { title };
+    return {
+      title,
+      ...(linkTitle && linkTitle !== title ? { matchTitle: linkTitle } : {}),
+      ...(children.length > 0 ? { children } : {}),
+    };
   }
 
   const requiredQuests = [];

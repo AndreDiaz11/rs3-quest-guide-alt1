@@ -3,7 +3,7 @@
   "title": "The Curse of Arrav",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:40:34.132Z",
+  "guideLastUpdated": "2026-07-05T14:31:06.959Z",
   "icon": "https://runescape.wiki/images/The_Curse_of_Arrav_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -45,7 +45,8 @@
             "title": "The Golem"
           },
           {
-            "title": "Diamond in the Rough"
+            "title": "Diamond in the Rough…",
+            "matchTitle": "Diamond in the Rough"
           }
         ]
       },
@@ -65,7 +66,8 @@
             "title": "What Lies Below"
           },
           {
-            "title": "Kudos"
+            "title": "Claim Kudos from Historian Minas in Varrock Museum for completing Shield of Arrav",
+            "matchTitle": "Kudos"
           }
         ]
       },
@@ -73,10 +75,12 @@
         "title": "Temple of Ikov"
       },
       {
-        "title": "Trollheim"
+        "title": "Ability to access Trollheim",
+        "matchTitle": "Trollheim"
       },
       {
-        "title": "Troll Stronghold",
+        "title": "Partial completion of Troll Stronghold",
+        "matchTitle": "Troll Stronghold",
         "children": [
           {
             "title": "Death Plateau"
@@ -84,7 +88,32 @@
         ]
       },
       {
-        "title": "Senliten"
+        "title": "Fully restore Senliten from the 'Missing My Mummy' quest",
+        "matchTitle": "Senliten"
+      },
+      {
+        "title": "Full completion of Missing My Mummy",
+        "matchTitle": "Missing My Mummy",
+        "children": [
+          {
+            "title": "Partial completion of Garden of Tranquillity",
+            "matchTitle": "Garden of Tranquillity",
+            "children": [
+              {
+                "title": "Creature of Fenkenstrain",
+                "children": [
+                  {
+                    "title": "The Restless Ghost"
+                  },
+                  {
+                    "title": "Ability to enter Morytania",
+                    "matchTitle": "Morytania"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "skills": [

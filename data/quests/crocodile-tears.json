@@ -3,7 +3,7 @@
   "title": "Crocodile Tears",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:40:31.072Z",
+  "guideLastUpdated": "2026-07-05T14:31:03.512Z",
   "icon": "https://runescape.wiki/images/Crocodile_Tears_icon.png",
   "series": "Desert",
   "age": "5",
@@ -45,7 +45,8 @@
                 "title": "Gertrude's Cat"
               },
               {
-                "title": "Diamond in the Rough"
+                "title": "Diamond in the Rough…",
+                "matchTitle": "Diamond in the Rough"
               }
             ]
           },
@@ -53,7 +54,8 @@
             "title": "The Golem"
           },
           {
-            "title": "Diamond in the Rough"
+            "title": "Diamond in the Rough…",
+            "matchTitle": "Diamond in the Rough"
           }
         ]
       },
@@ -64,7 +66,8 @@
             "title": "Contact!",
             "children": [
               {
-                "title": "Icthlarin's Little Helper"
+                "title": "Icthlarin's Little Helper…",
+                "matchTitle": "Icthlarin's Little Helper"
               }
             ]
           }
@@ -74,7 +77,32 @@
         "title": "Bring Leela to Senliten's tomb"
       },
       {
-        "title": "Senliten"
+        "title": "Fully restore Senliten from the 'Missing My Mummy' quest",
+        "matchTitle": "Senliten"
+      },
+      {
+        "title": "Full completion of Missing My Mummy",
+        "matchTitle": "Missing My Mummy",
+        "children": [
+          {
+            "title": "Partial completion of Garden of Tranquillity",
+            "matchTitle": "Garden of Tranquillity",
+            "children": [
+              {
+                "title": "Creature of Fenkenstrain",
+                "children": [
+                  {
+                    "title": "The Restless Ghost"
+                  },
+                  {
+                    "title": "Ability to enter Morytania",
+                    "matchTitle": "Morytania"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "skills": [

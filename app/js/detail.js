@@ -128,7 +128,7 @@ function requirementMarker(met) {
  */
 function renderRequirementNode(node) {
   const li = el("li");
-  li.appendChild(requirementMarker(meetsQuestRequirement(node.title)));
+  li.appendChild(requirementMarker(meetsQuestRequirement(node.matchTitle || node.title)));
   li.appendChild(document.createTextNode(" " + node.title));
   if (node.children?.length) {
     const childUl = el("ul", { class: "requirement-tree" });

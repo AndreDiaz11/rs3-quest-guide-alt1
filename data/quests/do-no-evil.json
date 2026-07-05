@@ -3,7 +3,7 @@
   "title": "Do No Evil",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:40:31.430Z",
+  "guideLastUpdated": "2026-07-05T14:31:03.920Z",
   "icon": "https://runescape.wiki/images/Do_No_Evil_icon.png",
   "series": "Desert",
   "age": "5",
@@ -29,7 +29,8 @@
             "title": "Ernest the Chicken"
           },
           {
-            "title": "Morytania"
+            "title": "Ability to enter Morytania",
+            "matchTitle": "Morytania"
           }
         ]
       },
@@ -59,7 +60,8 @@
             ]
           },
           {
-            "title": "Morytania"
+            "title": "Ability to enter Morytania",
+            "matchTitle": "Morytania"
           }
         ]
       },
@@ -91,13 +93,15 @@
         "title": "Missing My Mummy",
         "children": [
           {
-            "title": "Icthlarin's Little Helper"
+            "title": "Icthlarin's Little Helper…",
+            "matchTitle": "Icthlarin's Little Helper"
           },
           {
             "title": "The Golem"
           },
           {
-            "title": "Diamond in the Rough"
+            "title": "Diamond in the Rough…",
+            "matchTitle": "Diamond in the Rough"
           }
         ]
       },
@@ -108,7 +112,8 @@
             "title": "Contact!",
             "children": [
               {
-                "title": "Icthlarin's Little Helper"
+                "title": "Icthlarin's Little Helper…",
+                "matchTitle": "Icthlarin's Little Helper"
               }
             ]
           }
@@ -139,10 +144,35 @@
         ]
       },
       {
-        "title": "Senliten"
+        "title": "Fully restore Senliten from the 'Missing My Mummy' quest",
+        "matchTitle": "Senliten"
       },
       {
         "title": "Bring Leela to Senliten's tomb"
+      },
+      {
+        "title": "Full completion of Missing My Mummy",
+        "matchTitle": "Missing My Mummy",
+        "children": [
+          {
+            "title": "Partial completion of Garden of Tranquillity",
+            "matchTitle": "Garden of Tranquillity",
+            "children": [
+              {
+                "title": "Creature of Fenkenstrain",
+                "children": [
+                  {
+                    "title": "The Restless Ghost"
+                  },
+                  {
+                    "title": "Ability to enter Morytania",
+                    "matchTitle": "Morytania"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "skills": [
