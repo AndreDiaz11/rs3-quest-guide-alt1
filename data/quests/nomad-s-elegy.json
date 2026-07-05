@@ -3,7 +3,7 @@
   "title": "Nomad's Elegy",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T03:02:49.549Z",
+  "guideLastUpdated": "2026-07-05T04:11:01.029Z",
   "icon": "https://runescape.wiki/images/Nomad%27s_Elegy_icon.png",
   "series": "Sliske's Game",
   "age": "6",
@@ -236,7 +236,9 @@
         "en": "Embark on the Bloodstained Jetty to the north-east. (You cannot bring a familiar here.)",
         "es": "Embarca en el Bloodstained Jetty al noreste. (No puedes traer a tu familiar aquí.)"
       },
-      "chatOptions": []
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 8,
@@ -266,7 +268,9 @@
         "en": "Embark on the Dusty Jetty to the north-west.",
         "es": "Embarca en el Dusty Jetty al noroeste."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "1 Yes"
+      ]
     },
     {
       "index": 11,
@@ -310,8 +314,8 @@
       "indent": 0,
       "section": "Jessika/Korasi",
       "text": {
-        "en": "Travel to the of the Lumbridge Castle wall using the southern gate ladder (not within the main castle keep), and speak to the person you saved in The Void Stares Back to recover the other half of Korasi's/Jessika's memory.",
-        "es": "Viaja hasta la de la muralla de Lumbridge Castle usando la escalera de la puerta sur (no dentro de la torre principal del castillo), y habla con la persona que salvaste en The Void Stares Back para recuperar la otra mitad del recuerdo de Korasi/Jessika."
+        "en": "Travel to the 2nd floor of the Lumbridge Castle wall using the southern gate ladder (not within the main castle keep), and speak to the person you saved in The Void Stares Back to recover the other half of Korasi's/Jessika's memory.",
+        "es": "Ve al segundo piso de la muralla del Lumbridge Castle usando la escalera de la puerta sur (no la que está dentro del recinto principal del castillo), y habla con la persona que salvaste en The Void Stares Back para recuperar la otra mitad del recuerdo de Korasi/Jessika."
       },
       "chatOptions": []
     },
@@ -340,7 +344,7 @@
       "indent": 0,
       "section": "Hazelmere",
       "text": {
-        "en": "Talk to Hazelmere on the of Lumbridge castle.",
+        "en": "Talk to Hazelmere on the 2nd floor of Lumbridge castle.",
         "es": "Habla con Hazelmere en la de Lumbridge Castle."
       },
       "chatOptions": []
@@ -350,7 +354,7 @@
       "indent": 0,
       "section": "Hazelmere",
       "text": {
-        "en": "Find and talk to him again on the and above on the above where the bank normally is by using the ladder on the north side of the building.",
+        "en": "Find and talk to him again on the 2nd floor and above on the 4th floor above where the bank normally is by using the ladder on the north side of the building.",
         "es": "Encuéntralo y habla con él de nuevo en la y encima de la, sobre donde normalmente está el banco, usando la escalera en el lado norte del edificio."
       },
       "chatOptions": []
@@ -360,7 +364,7 @@
       "indent": 0,
       "section": "Hazelmere",
       "text": {
-        "en": "Climb either of the two tower ladders of the castle gate (not within the main castle keep); he will be on the .",
+        "en": "Climb either of the two tower ladders of the castle gate (not within the main castle keep); he will be on the 3rd floor.",
         "es": "Sube por cualquiera de las dos escaleras de las torres de la puerta del castillo (no dentro de la torre principal); estará en la."
       },
       "chatOptions": []
@@ -402,17 +406,19 @@
       "indent": 0,
       "section": "Xenia",
       "text": {
-        "en": "Speak to Xenia in the Lumbridge Castle .",
+        "en": "Speak to Xenia in the Lumbridge Castle 1st floor.",
         "es": "Habla con Xenia en la de Lumbridge Castle."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 24,
       "indent": 0,
       "section": "Xenia",
       "text": {
-        "en": "Attempt to open the chest in the northern room on the .",
+        "en": "Attempt to open the chest in the northern room on the 2nd floor.",
         "es": "Intenta abrir el cofre en la sala norte de la."
       },
       "chatOptions": []
@@ -432,7 +438,7 @@
       "indent": 0,
       "section": "Xenia",
       "text": {
-        "en": "Climb to the and attempt to open the chest in the room.",
+        "en": "Climb to the 3rd floor and attempt to open the chest in the room.",
         "es": "Sube a la e intenta abrir el cofre en la sala."
       },
       "chatOptions": []
@@ -477,7 +483,9 @@
         "en": "Enter the portal to leave.",
         "es": "Entra en el portal para salir."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "1 Yes."
+      ]
     },
     {
       "index": 31,
@@ -507,7 +515,35 @@
         "en": "To kill him outright, select Threaten him, then 'remove' crystals until Legio dies.",
         "es": "Para matarlo directamente, selecciona Amenazarlo, y luego 'elimina' cristales hasta que Legio muera."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "1 [Ask him about subject]",
+        "1 Tell me about Nomad.",
+        "1 What is Nomad's plan?",
+        "2 Who was Nomad's master?",
+        "3 Tell me about Nomad's defences.",
+        "4 How do I defeat him?",
+        "5 [Back]",
+        "2 Tell me about the Order.",
+        "1 What is the order up to?",
+        "2 What do they need the souls for?",
+        "3 Why are you working with Nomad?",
+        "4 [Ask something else]",
+        "2 [Threaten him]",
+        "2 [Threaten him]",
+        "2 [Threaten him]",
+        "2 [Threaten him]",
+        "2 [Threaten him]",
+        "3 ['Remove' crystals]",
+        "3 ['Remove' crystals]",
+        "3 ['Remove' crystals]",
+        "3 ['Remove' crystals]",
+        "3 ['Remove' crystals]",
+        "3 ['Remove' crystals]",
+        "3 ['Remove' crystals]",
+        "3 ['Remove' crystals]",
+        "3 ['Remove' crystals]",
+        "3 ['Remove' crystals]"
+      ]
     },
     {
       "index": 34,

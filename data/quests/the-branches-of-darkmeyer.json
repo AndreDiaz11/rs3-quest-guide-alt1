@@ -3,7 +3,7 @@
   "title": "The Branches of Darkmeyer",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T03:02:51.247Z",
+  "guideLastUpdated": "2026-07-05T04:06:01.454Z",
   "icon": "https://runescape.wiki/images/The_Branches_of_Darkmeyer_icon.png",
   "series": "Myreque",
   "age": "5",
@@ -550,8 +550,8 @@
       "indent": 0,
       "section": "Gaining Status",
       "text": {
-        "en": "Walk up the ramp to the north-east to enter the level of the city.",
-        "es": "Sube por la rampa hacia el noreste para entrar en el nivel de la ciudad."
+        "en": "Walk up the ramp to the north-east to enter the 1st floor level of the city.",
+        "es": "Sube por la rampa hacia el noreste para entrar en el nivel de la 1ª planta de la ciudad."
       },
       "chatOptions": []
     },
@@ -563,7 +563,10 @@
         "en": "Talk to Sanguinus Varnis at the top of the ramp, telling him your vampyre name.",
         "es": "Habla con Sanguinus Varnis en la parte superior de la rampa, dile tu nombre de vampyre."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "any",
+        "any"
+      ]
     },
     {
       "index": 33,
@@ -640,7 +643,10 @@
         "en": "Talk to Valentina Kaust , drink the vial of blood she gives you (if you are prepared to be damaged for half of your health) , and then use either chat option.",
         "es": "Habla con Valentina Kaust, bebe el frasco de sangre que te da (si estás dispuesto a que te dañe la mitad de tu vida) y luego usa cualquiera de las opciones de chat."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "1 Ok",
+        "1 Yes"
+      ]
     },
     {
       "index": 40,
@@ -660,7 +666,9 @@
         "en": "Recapture six bloodveld younglings (after talking to Grigan Kaninus ). These vanish for long periods of time, so they can appear in places you've already checked. They are displayed as yellow dots on the minimap.",
         "es": "Recaptura a seis bloodveld jóvenes (después de hablar con Grigan Kaninus). Estos desaparecen durante largos periodos de tiempo, así que pueden aparecer en lugares que ya has revisado. Se muestran como puntos amarillos en el minimapa."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "1 Perhaps I could help you get them back?"
+      ]
     },
     {
       "index": 42,
@@ -680,7 +688,10 @@
         "en": "Killing Captured Meiyerditch citizens for the Vyrewatch guards is the fastest way to fill the reputation bar, as each kill gives 2 reputation but there is a limit to how many you can kill in a short period of time. There are about a dozen locked in the jail and they respawn fairly quick. Start the task by talking to a Vyrewatch guard in the south-western jail.",
         "es": "Matar a los ciudadanos capturados de Meiyerditch para los guardias Vyrewatch es la forma más rápida de llenar la barra de reputación, ya que cada muerte otorga 2 puntos de reputación, aunque hay un límite de cuántos puedes matar en un corto periodo de tiempo. Hay alrededor de una docena encerrados en la prisión y reaparecen bastante rápido. Empieza la tarea hablando con un guardia Vyrewatch en la prisión del suroeste."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "1 Yes!",
+        "1 Ok."
+      ]
     },
     {
       "index": 44,
@@ -690,7 +701,12 @@
         "en": "Entertaining Misdrievus Vakan then approach the nearby blood tither . Talk to Misdrievus Vakan again and then enter the building to the west for a cutscene.",
         "es": "Entretén a Misdrievus Vakan y luego acércate al tither de sangre cercano. Habla de nuevo con Misdrievus Vakan y luego entra en el edificio del oeste para ver una escena."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "1 What do I need to do?",
+        "1 Punch the blood tither",
+        "2 No, I didn't see anything!",
+        "1 I think he deserves to die."
+      ]
     },
     {
       "index": 45,
@@ -700,7 +716,11 @@
         "en": "Speaking to Vanescula Drakan to pledge allegiance to the Drakan family.",
         "es": "Habla con Vanescula Drakan para jurar lealtad a la familia Drakan."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "1 How do I do that?",
+        "1 I pledge fealty to the Drakan family.",
+        "1 I devote my service, land an power to the Drakan before me."
+      ]
     },
     {
       "index": 46,
@@ -710,7 +730,10 @@
         "en": "Talking to Sentinel Bloodmortis, Sentinel Noctantine, or Sentinel Plaguemanst about Vanstrom Klause and Lord Drakan (two conversations).",
         "es": "Habla con Sentinel Bloodmortis, Sentinel Noctantine o Sentinel Plaguemanst sobre Vanstrom Klause y Lord Drakan (dos conversaciones)."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "3 He should be killed.",
+        "1 I think he should be removed from power."
+      ]
     },
     {
       "index": 47,
@@ -720,7 +743,9 @@
         "en": "After gaining enough status in the upper tier, talk to Vanescula about entering the Arboretum.",
         "es": "Después de conseguir suficiente estatus en el nivel superior, habla con Vanescula sobre entrar en el Arboretum."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "1 I'll be off to the Arboretum, then."
+      ]
     },
     {
       "index": 48,
@@ -730,7 +755,10 @@
         "en": "Enter the Arboretum (Ranis will stop you).",
         "es": "Intenta entrar en el Arboretum (Ranis te detendrá)."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "1 Of course not!",
+        "1 I hereby pledge fealty to you, Ranis Drakan."
+      ]
     },
     {
       "index": 49,
@@ -840,7 +868,9 @@
         "en": "In the entrance room to the west, talk to Vanescula to be teleported to out of Darkmeyer.",
         "es": "En la habitación de entrada, al oeste, habla con Vanescula para que te teletransporte fuera de Darkmeyer."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "1 But the vampyres will be furious! You've betrayed us!"
+      ]
     },
     {
       "index": 60,
@@ -1074,7 +1104,10 @@
         "en": "Teleport to Burgh de Rott with the medallion and talk to Veliaf Hurtz.",
         "es": "Teletranspórtate a Burgh de Rott con el medallón y habla con Veliaf Hurtz."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "2 Burgh de Rott",
+        "1 Vanstrom is dead!"
+      ]
     },
     {
       "index": 82,

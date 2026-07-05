@@ -9,6 +9,21 @@ const DATA_DIR = fileURLToPath(new URL("../../data/", import.meta.url));
 const QUESTS_DIR = path.join(DATA_DIR, "quests");
 const INDEX_PATH = path.join(DATA_DIR, "index.json");
 
+// Quest points the wiki's own Rewards section gets wrong for these two hub
+// quests, verified against a real account (and cross-checked against
+// RunePixels) — must survive every re-scrape/migration, not just be patched
+// once on disk, or a future `migrate.js --all` silently reverts them (this
+// happened once already).
+const QP_OVERRIDES = {
+  // The wiki lists the SUM of all 10 Recipe for Disaster sub-quests (10) as
+  // this hub's own reward, but RuneMetrics reports 0 for the hub itself —
+  // each sub-quest already counts its own points separately.
+  "recipe-for-disaster": 0,
+  // This hub has no Rewards section of its own on the wiki (0 scraped), but
+  // RuneMetrics reports 4 QP for it specifically.
+  "once-upon-a-time-in-gielinor": 4,
+};
+
 async function readIndex() {
   try {
     const raw = await readFile(INDEX_PATH, "utf8");
@@ -116,7 +131,7 @@ export async function buildQuestRecord({
   await writeFile(path.join(QUESTS_DIR, `${id}.json`), JSON.stringify(record, null, 2), "utf8");
 
   const index = await readIndex();
-  const questPoints = rewards.find((r) => r.type === "questPoints")?.amount || 0;
+  const questPoints = QP_OVERRIDES[id] ?? (rewards.find((r) => r.type === "questPoints")?.amount || 0);
   const summary = {
     id,
     title,

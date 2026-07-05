@@ -70,17 +70,38 @@ function extractChatOptionsParts(content) {
  * instead of inlining it (so the app can render it as its own popup).
  * Returns { text, chatOptions }.
  */
+const ORDINAL_SUFFIXES = { one: "st", two: "nd", few: "rd", other: "th" };
+const ordinalFormatter = new Intl.PluralRules("en", { type: "ordinal" });
+function ordinal(n) {
+  return `${n}${ORDINAL_SUFFIXES[ordinalFormatter.select(n)]}`;
+}
+
 export function wikitextToPlain(raw) {
   let text = raw;
   const chatOptions = [];
 
-  text = text.replace(/\{\{Chat options([\s\S]*?)\}\}/g, (_match, inner) => {
+  // {{Chat option|...}} (singular) is used interchangeably with the plural
+  // {{Chat options|...}} on some pages — both need to be captured, or the
+  // singular form falls through to the generic template-stripper below and
+  // silently disappears (dialogue AND the chat button both go missing).
+  text = text.replace(/\{\{Chat options?([\s\S]*?)\}\}/gi, (_match, inner) => {
     chatOptions.push(...extractChatOptionsParts(inner));
     return "";
   });
   // {{Fairycode|air}} -> "AIR" (a fairy ring teleport code) — stripping it entirely
   // leaves steps with no actual instruction (e.g. "A Fairy Tale II"'s ring codes).
   text = text.replace(/\{\{Fairycode\|([^{}|]+)\}\}/gi, (_match, code) => code.trim().toUpperCase());
+  // {{FloorNumber|3}} or {{FloorNumber|uk=1}}/{{FloorNumber|us=2}} -> "3rd floor" —
+  // stripping it entirely left steps reading "the of the Wizards' Tower" with
+  // the floor silently gone. Named uk=/us= params both just take the number.
+  text = text.replace(/\{\{Floor[ _]?number\|(?:(?:uk|us)\s*=\s*)?(\d+)\}\}/gi, (_match, n) =>
+    Number(n) === 0 ? "ground floor" : `${ordinal(Number(n))} floor`
+  );
+  // {{Coins|{{GEP|Item|qty}} + {{GEP|Item2|qty2}}}} -> live Grand Exchange price
+  // lookups nested inside a Coins template — not resolvable without querying
+  // the GE API, so render as a plain-language placeholder instead of leaving
+  // it blank ("Buy from the Grand Exchange for .").
+  text = text.replace(/\{\{Coins\|[\s\S]*?\}\}\}\}/gi, "the market price").replace(/\{\{Coins\|[^{}]*\}\}/gi, "the market price");
   // {{plink|Item name}} / {{plink|Page name|txt=Display text}} -> an item's icon+link
   // template — stripping it entirely (as any other unrecognized template) left
   // steps reading "obtain a ." with the item name silently gone.
