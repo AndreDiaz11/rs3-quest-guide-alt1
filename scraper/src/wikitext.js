@@ -81,6 +81,15 @@ export function wikitextToPlain(raw) {
   // {{Fairycode|air}} -> "AIR" (a fairy ring teleport code) — stripping it entirely
   // leaves steps with no actual instruction (e.g. "A Fairy Tale II"'s ring codes).
   text = text.replace(/\{\{Fairycode\|([^{}|]+)\}\}/gi, (_match, code) => code.trim().toUpperCase());
+  // {{plink|Item name}} / {{plink|Page name|txt=Display text}} -> an item's icon+link
+  // template — stripping it entirely (as any other unrecognized template) left
+  // steps reading "obtain a ." with the item name silently gone.
+  text = text.replace(/\{\{plink\|([^{}]*)\}\}/gi, (_match, inner) => {
+    const parts = inner.split("|").map((p) => p.trim());
+    const txtParam = parts.find((p) => /^txt\s*=/i.test(p));
+    if (txtParam) return txtParam.replace(/^txt\s*=/i, "").trim();
+    return parts[0] || "";
+  });
   text = text.replace(/\{\{[^{}]*\}\}/g, ""); // strip any other simple inline template
 
   // [[Link|Display]] -> Display, [[Link]] -> Link

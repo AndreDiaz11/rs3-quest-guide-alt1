@@ -2,7 +2,8 @@
   "id": "recipe-for-disaster",
   "title": "Recipe for Disaster",
   "isMiniquest": false,
-  "guideLastUpdated": "2026-07-04T05:15:50.042Z",
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-05T03:02:50.456Z",
   "icon": "https://runescape.wiki/images/Recipe_for_Disaster_icon.png",
   "series": null,
   "age": "5",
@@ -17,10 +18,7 @@
     "es": "Habla con el cocinero en el Lumbridge Castle."
   },
   "requirements": {
-    "quests": [
-      "Recipe for Disaster: Another Cook's Quest",
-      "Cook's Assistant"
-    ],
+    "quests": [],
     "skills": [
       {
         "skill": "Cooking",
@@ -87,6 +85,12 @@
     "Culinaromancer (Level 98)"
   ],
   "rewards": [
+    {
+      "type": "questPoints",
+      "amount": 10,
+      "display": "10 quest points",
+      "image": null
+    },
     {
       "type": "xp",
       "skill": "Experience",
@@ -185,6 +189,7 @@
       "image": null
     }
   ],
+  "rewardBannerImage": null,
   "postQuest": [],
   "steps": [],
   "guideNote": {
