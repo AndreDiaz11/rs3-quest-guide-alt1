@@ -18,7 +18,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deploy1.outputs.page_url || steps.deploy2.outputs.page_url || steps.deploy3.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -29,6 +29,30 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: "."
-      - name: Deploy to GitHub Pages
-        id: deployment
+
+      # actions/deploy-pages occasionally fails on GitHub's own side with a
+      # generic "Deployment failed, try again later." (no actionable detail,
+      # every other step already succeeded) — retry automatically instead of
+      # needing a manual empty-commit push each time.
+      - name: Deploy to GitHub Pages (attempt 1)
+        id: deploy1
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Wait before retry 1
+        if: steps.deploy1.outcome == 'failure'
+        run: sleep 15
+      - name: Deploy to GitHub Pages (attempt 2)
+        id: deploy2
+        if: steps.deploy1.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Wait before retry 2
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        run: sleep 30
+      - name: Deploy to GitHub Pages (attempt 3)
+        id: deploy3
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+      - name: Fail if every attempt failed
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure' && steps.deploy3.outcome == 'failure'
+        run: exit 1
