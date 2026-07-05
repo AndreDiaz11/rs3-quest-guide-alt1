@@ -103,7 +103,9 @@ function openSettings() {
       state.settings = settings;
       const rmResult = await refreshRuneMetrics();
       refreshSidebar();
-      showRuneMetricsResultOrQuest(rmResult, state.selectedQuestId || state.index.quests[0]?.id);
+      // Solo vuelve a mostrar una misión si ya había una abierta en esta
+      // sesión — nunca abre una al azar solo por guardar Ajustes.
+      showRuneMetricsResultOrQuest(rmResult, state.selectedQuestId);
     },
   });
 }
@@ -118,7 +120,10 @@ async function main() {
 
   const rmResult = await refreshRuneMetrics();
   refreshSidebar();
-  showRuneMetricsResultOrQuest(rmResult, state.index.quests[0]?.id);
+  // Nunca auto-selecciona una misión al iniciar (quedaba siempre abierta en
+  // la primera del índice) — el panel de detalle queda vacío hasta que el
+  // jugador elige una misión de la lista.
+  showRuneMetricsResultOrQuest(rmResult, null);
 
   if (!state.settings.username && !hasSeenWelcome()) {
     openWelcomeModal({ onOpenSettings: openSettings });
