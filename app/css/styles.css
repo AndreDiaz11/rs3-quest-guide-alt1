@@ -261,6 +261,16 @@ h1, h2, .app-title-font {
   font-size: 1.15em;
 }
 
+.welcome-lang-block {
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.welcome-lang-block strong {
+  color: var(--gold);
+}
+
 #settings-modal label {
   display: block;
   margin-bottom: 12px;

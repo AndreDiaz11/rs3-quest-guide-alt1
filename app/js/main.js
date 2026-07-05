@@ -4,7 +4,7 @@ import { renderSidebar } from "./sidebar.js";
 import { fetchRuneMetricsQuests } from "./runemetrics.js";
 import { fetchPlayerLevels } from "./skills.js";
 import { matchRuneMetricsToDataset } from "./matching.js";
-import { openSettingsModal, loadSettings } from "./settings.js";
+import { openSettingsModal, loadSettings, hasSeenWelcome, openWelcomeModal } from "./settings.js";
 import { state, questStatus } from "./state.js";
 
 const filterBarEl = document.getElementById("sidebar-filterbar-slot");
@@ -81,25 +81,31 @@ function showRuneMetricsResultOrQuest(rmResult, questIdToShow) {
   }
 }
 
+function openSettings() {
+  openSettingsModal({
+    datasetLastUpdated: state.index.lastUpdated,
+    onSave: async (settings) => {
+      state.settings = settings;
+      const rmResult = await refreshRuneMetrics();
+      refreshSidebar();
+      showRuneMetricsResultOrQuest(rmResult, state.selectedQuestId || state.index.quests[0]?.id);
+    },
+  });
+}
+
 async function main() {
   state.settings = loadSettings();
   state.index = await fetchIndex();
 
-  settingsBtn.addEventListener("click", () => {
-    openSettingsModal({
-      datasetLastUpdated: state.index.lastUpdated,
-      onSave: async (settings) => {
-        state.settings = settings;
-        const rmResult = await refreshRuneMetrics();
-        refreshSidebar();
-        showRuneMetricsResultOrQuest(rmResult, state.selectedQuestId || state.index.quests[0]?.id);
-      },
-    });
-  });
+  settingsBtn.addEventListener("click", openSettings);
 
   const rmResult = await refreshRuneMetrics();
   refreshSidebar();
   showRuneMetricsResultOrQuest(rmResult, state.index.quests[0]?.id);
+
+  if (!state.settings.username && !hasSeenWelcome()) {
+    openWelcomeModal({ onOpenSettings: openSettings });
+  }
 }
 
 main().catch((err) => {
