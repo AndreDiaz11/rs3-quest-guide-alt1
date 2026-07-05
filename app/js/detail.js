@@ -72,11 +72,35 @@ function renderItemRow(item) {
   return li;
 }
 
-function renderRewardChip(reward) {
-  const chip = el("span", { class: "item-chip" });
-  if (reward.image) chip.appendChild(el("img", { src: reward.image, alt: reward.name || "" }));
-  chip.appendChild(document.createTextNode(reward.display));
-  return chip;
+/** Opens a fullscreen lightbox showing `src` at full size; closes on click anywhere or the ✕. */
+function openImageLightbox(src) {
+  const overlay = el("div", { class: "lightbox-overlay" });
+  const img = el("img", { class: "lightbox-image", src, alt: "" });
+  const close = el("button", { class: "lightbox-close", type: "button", text: "✕" });
+  overlay.appendChild(img);
+  overlay.appendChild(close);
+  overlay.addEventListener("click", () => overlay.remove());
+  close.addEventListener("click", () => overlay.remove());
+  document.body.appendChild(overlay);
+}
+
+/** The wiki's reward banner image, shown as a thumbnail with a zoom button that opens it fullscreen. */
+function renderRewardBanner(src) {
+  const wrap = el("div", { class: "reward-banner-wrap" });
+  const img = el("img", { class: "reward-banner", src, alt: "" });
+  const zoomBtn = el("button", { class: "reward-banner-zoom", type: "button", title: "Ampliar imagen", text: "🔍" });
+  zoomBtn.addEventListener("click", () => openImageLightbox(src));
+  wrap.appendChild(img);
+  wrap.appendChild(zoomBtn);
+  wrap.addEventListener("click", () => openImageLightbox(src));
+  return wrap;
+}
+
+function renderRewardRow(reward) {
+  const li = el("li");
+  if (reward.image) li.appendChild(el("img", { src: reward.image, alt: reward.name || "" }));
+  li.appendChild(document.createTextNode(reward.display));
+  return li;
 }
 
 /** Renders a ✓/✗/? marker for a requirement, matching the wiki's checklist style. */
@@ -371,11 +395,11 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   if (quest.rewards?.length) {
     container.appendChild(el("h2", { class: "section-title", text: "Recompensas" }));
     if (quest.rewardBannerImage) {
-      container.appendChild(el("img", { class: "reward-banner", src: quest.rewardBannerImage, alt: "" }));
+      container.appendChild(renderRewardBanner(quest.rewardBannerImage));
     }
-    const rewardsWrap = el("div");
-    quest.rewards.forEach((reward) => rewardsWrap.appendChild(renderRewardChip(reward)));
-    container.appendChild(rewardsWrap);
+    const rewardsList = el("ul", { class: "rewards-list" });
+    quest.rewards.forEach((reward) => rewardsList.appendChild(renderRewardRow(reward)));
+    container.appendChild(rewardsList);
   }
 
   if (quest.postQuest?.length) {

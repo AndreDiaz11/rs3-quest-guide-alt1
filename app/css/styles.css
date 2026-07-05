@@ -438,29 +438,6 @@ h1, h2, .app-title-font {
   margin: 0;
 }
 
-.item-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  background: var(--bg-panel-alt);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 3px 9px 3px 5px;
-  margin: 2px 4px 2px 0;
-  font-size: 0.92em;
-  transition: border-color 0.15s;
-}
-
-.item-chip:hover {
-  border-color: var(--border-light);
-}
-
-.item-chip img {
-  width: 20px;
-  height: 20px;
-  object-fit: contain;
-}
-
 h2.section-title {
   color: var(--gold);
   font-size: 1.05em;
@@ -560,21 +537,24 @@ h2.section-title {
   font-weight: bold;
 }
 
-.items-plain-list {
+.items-plain-list,
+.rewards-list {
   list-style: none;
   margin: 6px 0 8px;
   padding: 0;
   font-size: 0.9em;
 }
 
-.items-plain-list li {
+.items-plain-list li,
+.rewards-list li {
   display: flex;
   align-items: center;
   gap: 6px;
   padding: 2px 0;
 }
 
-.items-plain-list img {
+.items-plain-list img,
+.rewards-list img {
   width: 20px;
   height: 20px;
   object-fit: contain;
@@ -662,11 +642,62 @@ h2.section-title {
   color: var(--text-dim);
 }
 
+.reward-banner-wrap {
+  position: relative;
+  display: inline-block;
+  margin: 6px 0 10px;
+  cursor: zoom-in;
+}
+
 .reward-banner {
   display: block;
-  max-width: 100%;
-  margin: 6px 0 10px;
+  max-width: 220px;
   border-radius: 4px;
+}
+
+.reward-banner-zoom {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  background: rgba(0, 0, 0, 0.55);
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  color: var(--text);
+  cursor: zoom-in;
+  font-size: 0.9em;
+  line-height: 1;
+  padding: 4px 6px;
+}
+
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  cursor: zoom-out;
+}
+
+.lightbox-image {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 6px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1em;
+  padding: 6px 10px;
 }
 
 .step-list {
