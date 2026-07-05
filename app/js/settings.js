@@ -42,8 +42,8 @@ export function openSettingsModal({ datasetLastUpdated, onSave }) {
     <label>
       ${t("settingsLangLabel")}
       <select id="settings-lang">
-        <option value="es" ${current.lang === "es" ? "selected" : ""}>🇪🇸 Español / Spanish</option>
-        <option value="en" ${current.lang === "en" ? "selected" : ""}>🇬🇧 English / Inglés</option>
+        <option value="es" ${current.lang === "es" ? "selected" : ""}>[ES] Español / Spanish</option>
+        <option value="en" ${current.lang === "en" ? "selected" : ""}>[EN] English / Inglés</option>
       </select>
     </label>
     <p class="settings-updated">
