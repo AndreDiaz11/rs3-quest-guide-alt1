@@ -1,5 +1,6 @@
 import { meetsQuestRequirement, meetsSkillRequirement } from "./state.js";
 import { getSkillIcon } from "./skillIcons.js";
+import { t } from "./i18n.js";
 
 function localizedText(field, lang) {
   if (!field) return "";
@@ -102,7 +103,7 @@ function openImageLightbox(src) {
 function renderRewardBanner(src) {
   const wrap = el("div", { class: "reward-banner-wrap" });
   const img = el("img", { class: "reward-banner", src, alt: "" });
-  const zoomBtn = el("button", { class: "reward-banner-zoom", type: "button", title: "Ampliar imagen", text: "🔍" });
+  const zoomBtn = el("button", { class: "reward-banner-zoom", type: "button", title: t("zoomImage"), text: "🔍" });
   zoomBtn.addEventListener("click", () => openImageLightbox(src));
   wrap.appendChild(img);
   wrap.appendChild(zoomBtn);
@@ -245,7 +246,7 @@ function renderChatOptionsSummary(options) {
   wrap.appendChild(el("span", { class: "chat-options-icon", text: "💬" }));
   wrap.appendChild(document.createTextNode(" " + options.map(chatOptionMarker).join("•")));
 
-  const more = el("button", { class: "chat-options-more", type: "button", title: "Opciones de chat", text: "..." });
+  const more = el("button", { class: "chat-options-more", type: "button", title: t("chatOptionsTitle"), text: "..." });
   more.addEventListener("click", () => openChatOptionsPopup(more, options));
 
   const outer = el("span", { class: "chat-options-inline" });
@@ -295,7 +296,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
     container.appendChild(
       el("div", {
         class: "seasonal-banner",
-        text: "🎉 Misión de temporada: solo se puede jugar mientras el evento correspondiente está activo en el juego.",
+        text: t("seasonalBanner"),
       })
     );
   }
@@ -303,7 +304,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   container.appendChild(
     el("div", {
       class: "quest-meta-updated",
-      text: `Guía actualizada: ${new Date(quest.guideLastUpdated).toLocaleDateString("es-ES")}`,
+      text: t("guideUpdated", new Date(quest.guideLastUpdated).toLocaleDateString(lang === "en" ? "en-GB" : "es-ES")),
     })
   );
 
@@ -313,23 +314,23 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
     metaGrid.appendChild(el("dt", { text: label }));
     metaGrid.appendChild(el("dd", { text: value }));
   };
-  addMeta("Punto de inicio", localizedText(quest.startPoint, lang));
-  addMeta("Serie", quest.series);
-  addMeta("Edad", quest.age);
-  addMeta("Miembros", quest.members ? "Sí" : "No");
-  addMeta("Longitud", quest.length);
-  addMeta("Nivel de combate", quest.combatLevel);
-  addMeta("Fecha de lanzamiento", quest.releaseDate);
+  addMeta(t("metaStartPoint"), localizedText(quest.startPoint, lang));
+  addMeta(t("metaSeries"), quest.series);
+  addMeta(t("metaAge"), quest.age);
+  addMeta(t("metaMembers"), quest.members ? t("metaYes") : t("metaNo"));
+  addMeta(t("metaLength"), quest.length);
+  addMeta(t("metaCombatLevel"), quest.combatLevel);
+  addMeta(t("metaReleaseDate"), quest.releaseDate);
   container.appendChild(metaGrid);
 
   const requirementsList = renderRequirementsList(quest);
   if (requirementsList) {
-    container.appendChild(el("h2", { class: "section-title", text: "Requisitos" }));
+    container.appendChild(el("h2", { class: "section-title", text: t("sectionRequirements") }));
     container.appendChild(requirementsList);
   }
 
   if (quest.items?.length) {
-    container.appendChild(el("h2", { class: "section-title", text: "Items requeridos" }));
+    container.appendChild(el("h2", { class: "section-title", text: t("sectionItems") }));
     const itemsList = el("ul", { class: "items-plain-list" });
     quest.items.forEach((item) => itemsList.appendChild(renderItemRow(item)));
     container.appendChild(itemsList);
@@ -342,7 +343,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   }
 
   if (quest.steps?.length) {
-    container.appendChild(el("h2", { class: "section-title", text: "Pasos" }));
+    container.appendChild(el("h2", { class: "section-title", text: t("sectionSteps") }));
 
     // Group consecutive steps by their wiki section heading (English on
     // purpose, no new translation cost — see scraper/src/migrate.js).
@@ -407,7 +408,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   }
 
   if (quest.rewards?.length) {
-    container.appendChild(el("h2", { class: "section-title", text: "Recompensas" }));
+    container.appendChild(el("h2", { class: "section-title", text: t("sectionRewards") }));
     if (quest.rewardBannerImage) {
       container.appendChild(renderRewardBanner(quest.rewardBannerImage));
     }
@@ -418,7 +419,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
 
   if (quest.postQuest?.length) {
     container.appendChild(
-      el("h2", { class: "section-title", text: "Recompensas adicionales (reclamo manual)" })
+      el("h2", { class: "section-title", text: t("sectionPostQuest") })
     );
     const list = el("ul", { class: "postquest-list" });
     quest.postQuest.forEach((entry) => list.appendChild(el("li", { text: entry.display })));

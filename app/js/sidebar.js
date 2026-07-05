@@ -1,4 +1,5 @@
 import { state, questStatus, isSynced } from "./state.js";
+import { t } from "./i18n.js";
 import {
   diamondIcon,
   checkCircleIcon,
@@ -58,7 +59,7 @@ function buildFilterBar(container, onChange) {
   const search = document.createElement("input");
   search.type = "search";
   search.id = "quest-search";
-  search.placeholder = "Buscar misión...";
+  search.placeholder = t("searchPlaceholder");
   search.value = state.activeFilters.searchText;
   search.addEventListener("input", () => {
     state.activeFilters.searchText = search.value;
@@ -75,19 +76,20 @@ function buildFilterBar(container, onChange) {
   // texto cuando el chip está inactivo, en vez de quedar coloridos mientras
   // el texto se ve gris (la mezcla confundía si el chip estaba activo o no).
   const chips = [
-    { key: "showQuest", label: "Quest", icon: questIcon("currentColor"), variant: "quest" },
-    { key: "showCompleted", label: "Complete", icon: checkCircleIcon("currentColor"), variant: "completed" },
-    { key: "showMiniquest", label: "Miniquest", icon: scrollIcon("currentColor"), variant: "miniquest" },
-    { key: "showStarted", label: "In Progress", icon: clockCircleIcon("currentColor"), variant: "started" },
-    { key: "showEvents", label: "Events", icon: calendarIcon("currentColor"), variant: "events" },
-    { key: "showIncomplete", label: "Incomplete", icon: xCircleIcon("currentColor"), variant: "incomplete" },
+    { key: "showQuest", labelKey: "chipQuest", icon: questIcon("currentColor"), variant: "quest" },
+    { key: "showCompleted", labelKey: "chipComplete", icon: checkCircleIcon("currentColor"), variant: "completed" },
+    { key: "showMiniquest", labelKey: "chipMiniquest", icon: scrollIcon("currentColor"), variant: "miniquest" },
+    { key: "showStarted", labelKey: "chipInProgress", icon: clockCircleIcon("currentColor"), variant: "started" },
+    { key: "showEvents", labelKey: "chipEvents", icon: calendarIcon("currentColor"), variant: "events" },
+    { key: "showIncomplete", labelKey: "chipIncomplete", icon: xCircleIcon("currentColor"), variant: "incomplete" },
   ];
-  chips.forEach(({ key, label, icon, variant }) => {
+  chips.forEach(({ key, labelKey, icon, variant }) => {
     const btn = document.createElement("button");
     btn.type = "button";
     btn.dataset.filterKey = key;
+    btn.dataset.labelKey = labelKey;
     btn.className = `filter-chip chip-${variant}${state.activeFilters[key] ? " active" : ""}`;
-    btn.innerHTML = `<span class="chip-icon">${icon}</span><span>${label}</span>`;
+    btn.innerHTML = `<span class="chip-icon">${icon}</span><span class="chip-label">${t(labelKey)}</span>`;
     btn.addEventListener("click", () => {
       state.activeFilters[key] = !state.activeFilters[key];
       onChange();
@@ -100,13 +102,18 @@ function buildFilterBar(container, onChange) {
 }
 
 // El bar se construye una sola vez (ver comentario arriba), pero el estado
-// activo/inactivo de cada chip sí cambia con cada clic — hay que reflejarlo
-// en el DOM en cada render, si no los botones se quedaban visualmente
-// congelados en su estado inicial aunque el filtro sí funcionara.
-function syncFilterChips(filterBarEl) {
+// activo/inactivo de cada chip sí cambia con cada clic, y sus textos deben
+// seguir el idioma actual — hay que reflejar ambas cosas en cada render, si
+// no los botones se quedaban visualmente congelados en su estado/idioma
+// inicial aunque el filtro (o el idioma) sí hubiera cambiado.
+function syncFilterBarLanguage(filterBarEl) {
   filterBarEl.querySelectorAll(".filter-chip").forEach((btn) => {
     btn.classList.toggle("active", Boolean(state.activeFilters[btn.dataset.filterKey]));
+    const labelEl = btn.querySelector(".chip-label");
+    if (labelEl) labelEl.textContent = t(btn.dataset.labelKey);
   });
+  const search = filterBarEl.querySelector("#quest-search");
+  if (search) search.placeholder = t("searchPlaceholder");
 }
 
 function renderCounter(container) {
@@ -116,7 +123,7 @@ function renderCounter(container) {
   if (!textEl) return;
 
   if (!isSynced()) {
-    textEl.innerHTML = `Configura tu usuario en <strong>Ajustes</strong> para ver tu progreso`;
+    textEl.innerHTML = t("counterConfigure");
     return;
   }
 
@@ -131,7 +138,7 @@ function renderCounter(container) {
   );
   const remaining = totalQP - doneQP;
   textEl.innerHTML =
-    `Puntos de misión<br><strong>${doneQP} / ${totalQP}</strong> <span class="counter-remaining">(quedan ${remaining})</span>`;
+    `${t("counterLabel")}<br><strong>${doneQP} / ${totalQP}</strong> <span class="counter-remaining">${t("counterRemaining", remaining)}</span>`;
 }
 
 // El color (verde/amarillo/rojo) siempre refleja el estado REAL de la misión,
@@ -157,7 +164,7 @@ function renderList(listEl, onSelect) {
   if (visible.length === 0) {
     const empty = document.createElement("li");
     empty.className = "quest-list-empty";
-    empty.textContent = "Sin resultados.";
+    empty.textContent = t("noResults");
     listEl.appendChild(empty);
     return;
   }
@@ -189,7 +196,7 @@ export function renderSidebar({ filterBarEl, listEl, counterEl }, onSelect) {
     initializedFilterBars.add(filterBarEl);
     buildFilterBar(filterBarEl, () => renderSidebar({ filterBarEl, listEl, counterEl }, onSelect));
   }
-  syncFilterChips(filterBarEl);
+  syncFilterBarLanguage(filterBarEl);
 
   const headerLogo = document.getElementById("header-logo");
   if (headerLogo && !initializedHeaders.has(headerLogo)) {

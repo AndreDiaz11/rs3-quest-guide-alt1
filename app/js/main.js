@@ -7,6 +7,7 @@ import { matchRuneMetricsToDataset } from "./matching.js";
 import { openSettingsModal, loadSettings, hasSeenWelcome, openWelcomeModal } from "./settings.js";
 import { loadSkillIcons } from "./skillIcons.js";
 import { state, questStatus } from "./state.js";
+import { t } from "./i18n.js";
 
 const filterBarEl = document.getElementById("sidebar-filterbar-slot");
 const listEl = document.getElementById("quest-list");
@@ -22,6 +23,13 @@ function setSidebarOpen(open) {
   sidebarBackdrop.classList.toggle("open", open);
 }
 
+function applyChromeLanguage() {
+  sidebarToggle.title = t("sidebarToggleTitle");
+  sidebarToggle.setAttribute("aria-label", t("sidebarToggleTitle"));
+  settingsBtn.title = t("settingsBtnTitle");
+  settingsBtn.setAttribute("aria-label", t("settingsBtnTitle"));
+}
+
 sidebarToggle.addEventListener("click", () => {
   setSidebarOpen(!sidebarEl.classList.contains("open"));
 });
@@ -35,7 +43,7 @@ async function selectQuest(id) {
   state.selectedQuestId = id;
   refreshSidebar();
   setSidebarOpen(false); // elegir una misión cierra el cajón — el detalle debe quedar libre para jugar
-  detail.innerHTML = '<p id="detail-placeholder">Cargando...</p>';
+  detail.innerHTML = `<p id="detail-placeholder">${t("loading")}</p>`;
   try {
     const quest = await fetchQuest(id);
     renderQuestDetail(detail, quest, {
@@ -72,27 +80,28 @@ async function refreshRuneMetrics() {
   }
 }
 
-const WELCOME_HTML = `
+function welcomeHtml() {
+  return `
   <div id="welcome-screen">
-    <h1>Quest Compass</h1>
-    <p>Elige una misión de la lista para ver su guía completa.</p>
-    <p>Para marcar automáticamente las misiones que ya completaste, abre
-      <strong>Ajustes (&#9881;)</strong> y escribe tu nombre de jugador de RuneScape.</p>
+    <h1>${t("welcomeTitle")}</h1>
+    <p>${t("welcomeIntro")}</p>
+    <p>${t("welcomeSyncHint")}</p>
   </div>
 `;
+}
 
 /** Shows a RuneMetrics status message when relevant, otherwise renders the given quest (or a welcome screen on first run). */
 function showRuneMetricsResultOrQuest(rmResult, questIdToShow) {
   if (rmResult.fetchFailed) {
-    detail.innerHTML =
-      '<p id="detail-placeholder">No se pudo consultar RuneMetrics (fallo de red/CORS). Las misiones se muestran sin estado de progreso.</p>';
+    detail.innerHTML = `<p id="detail-placeholder">${t("fetchFailed")}</p>`;
   } else if (rmResult.invalidOrPrivate && !rmResult.noUsername) {
-    detail.innerHTML =
-      '<p id="detail-placeholder">No se encontró ese nombre de jugador en RuneMetrics, o su perfil es privado. Revisa el nombre en Ajustes.</p>';
+    detail.innerHTML = `<p id="detail-placeholder">${t("invalidOrPrivate")}</p>`;
   } else if (rmResult.noUsername && !state.selectedQuestId) {
-    detail.innerHTML = WELCOME_HTML;
+    detail.innerHTML = welcomeHtml();
   } else if (questIdToShow) {
     selectQuest(questIdToShow);
+  } else {
+    detail.innerHTML = `<p id="detail-placeholder">${t("selectAQuest")}</p>`;
   }
 }
 
@@ -101,6 +110,7 @@ function openSettings() {
     datasetLastUpdated: state.index.lastUpdated,
     onSave: async (settings) => {
       state.settings = settings;
+      applyChromeLanguage();
       const rmResult = await refreshRuneMetrics();
       refreshSidebar();
       // Solo vuelve a mostrar una misión si ya había una abierta en esta
@@ -112,6 +122,7 @@ function openSettings() {
 
 async function main() {
   state.settings = loadSettings();
+  applyChromeLanguage();
   state.index = await fetchIndex();
   await loadSkillIcons();
   setSidebarOpen(true); // abierto al iniciar para poder elegir una misión
@@ -131,6 +142,6 @@ async function main() {
 }
 
 main().catch((err) => {
-  detail.innerHTML = `<p style="color:#c0392b">Error cargando el dataset: ${err.message}</p>`;
+  detail.innerHTML = `<p style="color:#c0392b">${t("datasetLoadError", err.message)}</p>`;
   console.error(err);
 });

@@ -1,3 +1,5 @@
+import { t } from "./i18n.js";
+
 const SETTINGS_KEY = "rs3questguide:settings";
 const WELCOME_SHOWN_KEY = "rs3questguide:welcomeShown";
 
@@ -28,25 +30,33 @@ export function openSettingsModal({ datasetLastUpdated, onSave }) {
 
   const modal = document.createElement("div");
   modal.id = "settings-modal";
+  // Las etiquetas de las opciones del selector de idioma siempre muestran
+  // ambos nombres (con bandera) sin importar el idioma activo — el usuario
+  // necesita poder identificar a qué idioma está cambiando ANTES de elegirlo.
   modal.innerHTML = `
-    <h2>Ajustes</h2>
+    <h2>${t("settingsTitle")}</h2>
     <label>
-      Usuario de RuneScape (RSN)
-      <input type="text" id="settings-username" value="${current.username.replace(/"/g, "&quot;")}" placeholder="Tu nombre de jugador" />
+      ${t("settingsUsernameLabel")}
+      <input type="text" id="settings-username" value="${current.username.replace(/"/g, "&quot;")}" placeholder="${t("settingsUsernamePlaceholder")}" />
     </label>
     <label>
-      Idioma de las guías
+      ${t("settingsLangLabel")}
       <select id="settings-lang">
-        <option value="es" ${current.lang === "es" ? "selected" : ""}>Español</option>
-        <option value="en" ${current.lang === "en" ? "selected" : ""}>English (original)</option>
+        <option value="es" ${current.lang === "es" ? "selected" : ""}>🇪🇸 Español / Spanish</option>
+        <option value="en" ${current.lang === "en" ? "selected" : ""}>🇬🇧 English / Inglés</option>
       </select>
     </label>
     <p class="settings-updated">
-      Última actualización del dataset: ${datasetLastUpdated ? new Date(datasetLastUpdated).toLocaleString("es-ES") : "desconocida"}
+      ${t(
+        "settingsDatasetUpdated",
+        datasetLastUpdated
+          ? new Date(datasetLastUpdated).toLocaleString(current.lang === "en" ? "en-GB" : "es-ES")
+          : t("settingsDatasetUnknown")
+      )}
     </p>
     <div class="settings-actions">
-      <button id="settings-cancel">Cancelar</button>
-      <button id="settings-save">Guardar</button>
+      <button id="settings-cancel">${t("settingsCancel")}</button>
+      <button id="settings-save">${t("settingsSave")}</button>
     </div>
   `;
 
