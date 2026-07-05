@@ -3,7 +3,7 @@
   "title": "The Lost Toys (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:01.866Z",
+  "guideLastUpdated": "2026-07-05T04:40:34.470Z",
   "icon": "https://runescape.wiki/images/The_Lost_Toys_%28miniquest%29_icon.png",
   "series": null,
   "age": "5",
@@ -19,7 +19,29 @@
   },
   "requirements": {
     "quests": [
-      "The Branches of Darkmeyer"
+      {
+        "title": "The Branches of Darkmeyer",
+        "children": [
+          {
+            "title": "Legacy of Seergaze",
+            "children": [
+              {
+                "title": "The Darkness of Hallowvale",
+                "children": [
+                  {
+                    "title": "In Aid of the Myreque",
+                    "children": [
+                      {
+                        "title": "In Search of the Myreque"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": []
   },

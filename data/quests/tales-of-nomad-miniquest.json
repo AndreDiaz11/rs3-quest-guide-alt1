@@ -3,7 +3,7 @@
   "title": "Tales of Nomad (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:01.322Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.956Z",
   "icon": "https://runescape.wiki/images/Tales_of_Nomad_%28miniquest%29_icon.png",
   "series": null,
   "age": "6",
@@ -19,7 +19,77 @@
   },
   "requirements": {
     "quests": [
-      "Nomad's Elegy"
+      {
+        "title": "Nomad's Elegy",
+        "children": [
+          {
+            "title": "Dishonour among Thieves",
+            "children": [
+              {
+                "title": "Hazeel Cult"
+              },
+              {
+                "title": "Missing, Presumed Death"
+              },
+              {
+                "title": "Morytania"
+              }
+            ]
+          },
+          {
+            "title": "Nomad's Requiem",
+            "children": [
+              {
+                "title": "King's Ransom"
+              },
+              {
+                "title": "Knight Waves"
+              },
+              {
+                "title": "Soul Wars"
+              }
+            ]
+          },
+          {
+            "title": "Heart of Stone",
+            "children": [
+              {
+                "title": "Carnillean Rising"
+              },
+              {
+                "title": "Rune Memories"
+              }
+            ]
+          },
+          {
+            "title": "The Mighty Fall",
+            "children": [
+              {
+                "title": "The Chosen Commander"
+              },
+              {
+                "title": "Missing, Presumed Death"
+              }
+            ]
+          },
+          {
+            "title": "Throne of Miscellania",
+            "children": [
+              {
+                "title": "The Fremennik Trials"
+              }
+            ]
+          },
+          {
+            "title": "The Void Stares Back",
+            "children": [
+              {
+                "title": "A Void Dance"
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": []
   },

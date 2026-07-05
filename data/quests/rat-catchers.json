@@ -3,7 +3,7 @@
   "title": "Rat Catchers",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.648Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.280Z",
   "icon": "https://runescape.wiki/images/Rat_Catchers_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -19,7 +19,22 @@
   },
   "requirements": {
     "quests": [
-      "Icthlarin's Little Helper"
+      {
+        "title": "Icthlarin's Little Helper",
+        "children": [
+          {
+            "title": "Gertrude's Cat"
+          },
+          {
+            "title": "Diamond in the Rough",
+            "children": [
+              {
+                "title": "Stolen Hearts"
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": []
   },
@@ -637,12 +652,12 @@
       "index": 42,
       "indent": 0,
       "section": "Smokin' Joe",
+      "isNote": true,
       "text": {
         "en": "If this is your first time entering Keldagrim proceed with the following route:",
         "es": "Si es la primera vez que entras en Keldagrim, sigue la siguiente ruta:"
       },
-      "chatOptions": [],
-      "isNote": true
+      "chatOptions": []
     },
     {
       "index": 43,

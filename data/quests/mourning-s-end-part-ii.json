@@ -3,7 +3,7 @@
   "title": "Mourning's End Part II",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.138Z",
+  "guideLastUpdated": "2026-07-05T04:40:32.775Z",
   "icon": "https://runescape.wiki/images/Mourning%27s_End_Part_II_icon.png",
   "series": "Elf (Prifddinas)",
   "age": "ambiguous",
@@ -19,7 +19,38 @@
   },
   "requirements": {
     "quests": [
-      "Mourning's End Part I"
+      {
+        "title": "Mourning's End Part I",
+        "children": [
+          {
+            "title": "Roving Elves",
+            "children": [
+              {
+                "title": "Regicide",
+                "children": [
+                  {
+                    "title": "Underground Pass",
+                    "children": [
+                      {
+                        "title": "Biohazard"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Waterfall Quest"
+              }
+            ]
+          },
+          {
+            "title": "Sheep Herder"
+          },
+          {
+            "title": "Big Chompy Bird Hunting"
+          }
+        ]
+      }
     ],
     "skills": []
   },

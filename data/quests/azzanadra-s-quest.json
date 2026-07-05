@@ -3,7 +3,7 @@
   "title": "Azzanadra's Quest",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:57.720Z",
+  "guideLastUpdated": "2026-07-05T04:40:30.574Z",
   "icon": "https://runescape.wiki/images/Azzanadra%27s_Quest_icon.png",
   "series": "The Elder God Wars",
   "age": "6",
@@ -19,9 +19,41 @@
   },
   "requirements": {
     "quests": [
-      "The Vault of Shadows",
-      "Raksha, the Shadow Colossus",
-      "Desperate Creatures"
+      {
+        "title": "The Vault of Shadows"
+      },
+      {
+        "title": "Raksha, the Shadow Colossus",
+        "children": [
+          {
+            "title": "Anachronia base camp tutorial"
+          }
+        ]
+      },
+      {
+        "title": "Desperate Creatures",
+        "children": [
+          {
+            "title": "Desperate Measures",
+            "children": [
+              {
+                "title": "Desperate Times",
+                "children": [
+                  {
+                    "title": "The Needle Skips"
+                  },
+                  {
+                    "title": "You Are It"
+                  }
+                ]
+              },
+              {
+                "title": "Anachronia base camp tutorial"
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

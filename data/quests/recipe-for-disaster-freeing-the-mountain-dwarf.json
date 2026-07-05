@@ -3,7 +3,7 @@
   "title": "Recipe for Disaster: Freeing the Mountain Dwarf",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.755Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.385Z",
   "icon": "https://runescape.wiki/images/Mountain_Dwarf_icon.png",
   "length": "Short",
   "startPoint": {
@@ -12,8 +12,17 @@
   },
   "requirements": {
     "quests": [
-      "Recipe for Disaster: Another Cook's Quest",
-      "Fishing Contest"
+      {
+        "title": "Recipe for Disaster: Another Cook's Quest",
+        "children": [
+          {
+            "title": "Cook's Assistant"
+          }
+        ]
+      },
+      {
+        "title": "Fishing Contest"
+      }
     ],
     "skills": []
   },
@@ -188,12 +197,12 @@
       "index": 9,
       "indent": 0,
       "section": "Freeing the Dwarf",
+      "isNote": true,
       "text": {
         "en": "You may need to repeat this process if you either: exit the cave before the next step, or do not give him the four ales quickly enough.",
         "es": "Puede que tengas que repetir este proceso si: sales de la cueva antes del siguiente paso, o no le das las cuatro cervezas con suficiente rapidez."
       },
-      "chatOptions": [],
-      "isNote": true
+      "chatOptions": []
     },
     {
       "index": 10,

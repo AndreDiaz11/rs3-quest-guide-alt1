@@ -3,7 +3,7 @@
   "title": "Salt in the Wound",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.996Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.624Z",
   "icon": "https://runescape.wiki/images/Salt_in_the_Wound_icon.png",
   "series": "Temple Knight",
   "age": "ambiguous",
@@ -19,7 +19,33 @@
   },
   "requirements": {
     "quests": [
-      "Kennith's Concerns"
+      {
+        "title": "Kennith's Concerns",
+        "children": [
+          {
+            "title": "The Slug Menace",
+            "children": [
+              {
+                "title": "Sea Slug"
+              },
+              {
+                "title": "Wanted!",
+                "children": [
+                  {
+                    "title": "Recruitment Drive"
+                  },
+                  {
+                    "title": "Enter the Abyss (miniquest)"
+                  },
+                  {
+                    "title": "Morytania"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

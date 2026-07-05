@@ -3,7 +3,7 @@
   "title": "Tuai Leit's Own (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:02.217Z",
+  "guideLastUpdated": "2026-07-05T04:40:34.808Z",
   "icon": "https://runescape.wiki/images/thumb/Tuai_Leit%27s_Own_%28miniquest%29_icon.png/50px-Tuai_Leit%27s_Own_%28miniquest%29_icon.png",
   "series": "Tales of the Arc",
   "age": "6",
@@ -19,8 +19,63 @@
   },
   "requirements": {
     "quests": [
-      "Impressing the Locals",
-      "Harbinger (miniquest)"
+      {
+        "title": "Impressing the Locals"
+      },
+      {
+        "title": "Harbinger (miniquest)",
+        "children": [
+          {
+            "title": "Impressing the Locals"
+          },
+          {
+            "title": "Eye for an Eye (miniquest)",
+            "children": [
+              {
+                "title": "Impressing the Locals"
+              },
+              {
+                "title": "Jed Hunter (miniquest)",
+                "children": [
+                  {
+                    "title": "Impressing the Locals"
+                  },
+                  {
+                    "title": "Flag Fall (miniquest)",
+                    "children": [
+                      {
+                        "title": "Impressing the Locals"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Head of the Family (miniquest)",
+                    "children": [
+                      {
+                        "title": "Impressing the Locals"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Spiritual Enlightenment (miniquest)",
+                    "children": [
+                      {
+                        "title": "Impressing the Locals"
+                      },
+                      {
+                        "title": "Meet the Assassin"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Cyclosis"
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

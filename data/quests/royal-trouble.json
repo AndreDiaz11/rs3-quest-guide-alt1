@@ -3,7 +3,7 @@
   "title": "Royal Trouble",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.916Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.542Z",
   "icon": "https://runescape.wiki/images/Royal_Trouble_icon.png",
   "series": "Fremennik",
   "age": "5",
@@ -19,7 +19,14 @@
   },
   "requirements": {
     "quests": [
-      "Throne of Miscellania"
+      {
+        "title": "Throne of Miscellania",
+        "children": [
+          {
+            "title": "The Fremennik Trials"
+          }
+        ]
+      }
     ],
     "skills": [
       {

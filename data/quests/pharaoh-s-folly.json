@@ -3,7 +3,7 @@
   "title": "Pharaoh's Folly",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.470Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.100Z",
   "icon": "https://runescape.wiki/images/thumb/Pharaoh%27s_Folly_icon.png/50px-Pharaoh%27s_Folly_icon.png",
   "series": "Desert",
   "age": "Age of Chaos",
@@ -19,7 +19,133 @@
   },
   "requirements": {
     "quests": [
-      "Beneath Scabaras' Sands"
+      {
+        "title": "Beneath Scabaras' Sands",
+        "children": [
+          {
+            "title": "'Phite Club",
+            "children": [
+              {
+                "title": "Our Man in the North",
+                "children": [
+                  {
+                    "title": "The Feud"
+                  },
+                  {
+                    "title": "Do No Evil",
+                    "children": [
+                      {
+                        "title": "Animal Magnetism"
+                      },
+                      {
+                        "title": "Shadow of the Storm"
+                      },
+                      {
+                        "title": "Desert Treasure"
+                      },
+                      {
+                        "title": "Smoking Kills"
+                      },
+                      {
+                        "title": "Missing My Mummy"
+                      },
+                      {
+                        "title": "Dealing with Scabaras"
+                      },
+                      {
+                        "title": "Recipe for Disaster: Freeing King Awowogei"
+                      },
+                      {
+                        "title": "Senliten"
+                      },
+                      {
+                        "title": "Bring Leela to Senliten's tomb"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Crocodile Tears",
+                    "children": [
+                      {
+                        "title": "The Jack of Spades"
+                      },
+                      {
+                        "title": "Spirits of the Elid"
+                      },
+                      {
+                        "title": "Missing My Mummy"
+                      },
+                      {
+                        "title": "Dealing with Scabaras"
+                      },
+                      {
+                        "title": "Bring Leela to Senliten's tomb"
+                      },
+                      {
+                        "title": "Senliten"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Ode of the Devourer",
+            "children": [
+              {
+                "title": "Requiem for a Dragon",
+                "children": [
+                  {
+                    "title": "Battle of Forinthry",
+                    "children": [
+                      {
+                        "title": "Ancient Awakening"
+                      },
+                      {
+                        "title": "Grove cabin (Tier 1)"
+                      },
+                      {
+                        "title": "Botanist's Workbench (Tier 1)"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Tomes of the Warlock",
+                    "children": [
+                      {
+                        "title": "The Spirit of War"
+                      },
+                      {
+                        "title": "The Jack of Spades"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Kili Row",
+                    "children": [
+                      {
+                        "title": "Necromancy!"
+                      },
+                      {
+                        "title": "necromancer robes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Soul Searching",
+                "children": [
+                  {
+                    "title": "Necromancy!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": []
   },

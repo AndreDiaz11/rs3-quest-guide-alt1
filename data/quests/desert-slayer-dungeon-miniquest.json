@@ -3,7 +3,7 @@
   "title": "Desert Slayer Dungeon (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.542Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.228Z",
   "icon": "https://runescape.wiki/images/Desert_Slayer_Dungeon_%28miniquest%29_icon.png",
   "series": null,
   "age": "5",
@@ -19,7 +19,30 @@
   },
   "requirements": {
     "quests": [
-      "Smoking Kills"
+      {
+        "title": "Smoking Kills",
+        "children": [
+          {
+            "title": "The Restless Ghost"
+          },
+          {
+            "title": "Icthlarin's Little Helper",
+            "children": [
+              {
+                "title": "Gertrude's Cat"
+              },
+              {
+                "title": "Diamond in the Rough",
+                "children": [
+                  {
+                    "title": "Stolen Hearts"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

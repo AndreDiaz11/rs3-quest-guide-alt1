@@ -44,28 +44,43 @@ function parseQuestDetailsTable(quickGuideHtml) {
 
   const icon = absoluteImageUrl(table.find('td[data-attr-param="iconDisp"] img').first().attr("src"));
 
-  // table.questreq renders the FULL transitive prerequisite tree (this quest's
-  // requirement, that requirement's own requirement, etc. all nested), not a
-  // flat list of direct requirements — grabbing every <a> in it (as before)
-  // produced duplicates and picked up unrelated links buried in deeper nodes
-  // (e.g. item names mentioned in a grandparent quest's own sub-requirements).
-  // Only the <li> elements directly inside the selflink's own <ul> are this
-  // quest's real, direct requirements.
+  // table.questreq renders the full transitive prerequisite tree (this quest's
+  // requirement, that requirement's own requirement, etc.) — kept as a real
+  // tree (not flattened) so the app can show it staggered exactly like the
+  // wiki does. Only dedupe siblings under the SAME parent (the wiki
+  // occasionally lists one twice there); the same title legitimately
+  // reappearing under a different branch is not a duplicate.
+  function parseRequirementNode(li) {
+    const $li = $(li);
+    const link = $li.children("a").first();
+    const title = link.length > 0 ? link.text().trim() : $li.clone().children("ul").remove().end().text().trim();
+    const childUl = $li.children("ul").first();
+    const children = [];
+    if (childUl.length > 0) {
+      const seenTitles = new Set();
+      childUl.children("li").each((_, childLi) => {
+        const node = parseRequirementNode(childLi);
+        if (seenTitles.has(node.title)) return;
+        seenTitles.add(node.title);
+        children.push(node);
+      });
+    }
+    return children.length > 0 ? { title, children } : { title };
+  }
+
   const requiredQuests = [];
   const reqTable = table.find("table.questreq").first();
   const selfLink = reqTable.find("a.selflink, a.mw-selflink").first();
   const directUl = selfLink.closest("li").children("ul").first();
   if (directUl.length > 0) {
+    const seenTitles = new Set();
     directUl.children("li").each((_, li) => {
-      const $li = $(li);
-      const link = $li.children("a").first();
-      requiredQuests.push(link.length > 0 ? link.text().trim() : $li.clone().children("ul").remove().end().text().trim());
+      const node = parseRequirementNode(li);
+      if (seenTitles.has(node.title)) return;
+      seenTitles.add(node.title);
+      requiredQuests.push(node);
     });
   }
-  // The wiki's own tree occasionally lists the same direct requirement twice
-  // (e.g. once plainly and once as part of a combined sub-clause) — a
-  // requirement should only ever be shown once regardless.
-  const dedupedRequiredQuests = [...new Set(requiredQuests)];
 
   const requiredSkills = [];
   table.find("span.skillreq").each((_, el) => {
@@ -97,7 +112,7 @@ function parseQuestDetailsTable(quickGuideHtml) {
     kills.push($(el).text().replace(/\s+/g, " ").trim());
   });
 
-  return { startPoint, length, icon, requiredQuests: dedupedRequiredQuests, requiredSkills, items, kills };
+  return { startPoint, length, icon, requiredQuests, requiredSkills, items, kills };
 }
 
 export function parseMetadata({ mainWikitext, quickGuideHtml }) {

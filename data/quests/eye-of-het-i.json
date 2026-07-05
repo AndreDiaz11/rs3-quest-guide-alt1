@@ -3,7 +3,7 @@
   "title": "Eye of Het I",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:59.090Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.758Z",
   "icon": "https://runescape.wiki/images/Eye_of_Het_I_icon.png",
   "series": "The Elder God Wars",
   "age": "6",
@@ -19,7 +19,40 @@
   },
   "requirements": {
     "quests": [
-      "City of Senntisten"
+      {
+        "title": "City of Senntisten",
+        "children": [
+          {
+            "title": "Battle of the Monolith",
+            "children": [
+              {
+                "title": "Azzanadra's Quest",
+                "children": [
+                  {
+                    "title": "The Vault of Shadows"
+                  },
+                  {
+                    "title": "Raksha, the Shadow Colossus",
+                    "children": [
+                      {
+                        "title": "Anachronia base camp tutorial"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Desperate Creatures",
+                    "children": [
+                      {
+                        "title": "Desperate Measures"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

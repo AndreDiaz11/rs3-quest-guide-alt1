@@ -3,7 +3,7 @@
   "title": "Dimension of Disaster: Demon Slayer",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.686Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.367Z",
   "icon": "https://runescape.wiki/images/Dimension_of_Disaster_Demon_Slayer_icon.png",
   "length": "Medium",
   "startPoint": {
@@ -12,9 +12,23 @@
   },
   "requirements": {
     "quests": [
-      "Dimension of Disaster: Coin of the Realm",
-      "Demon Slayer",
-      "Shadow of the Storm"
+      {
+        "title": "Dimension of Disaster: Coin of the Realm"
+      },
+      {
+        "title": "Demon Slayer"
+      },
+      {
+        "title": "Shadow of the Storm",
+        "children": [
+          {
+            "title": "Demon Slayer"
+          },
+          {
+            "title": "The Golem"
+          }
+        ]
+      }
     ],
     "skills": []
   },

@@ -3,7 +3,7 @@
   "title": "Sliske's Endgame",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:01.128Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.766Z",
   "icon": "https://runescape.wiki/images/Sliske%27s_Endgame_icon.png",
   "series": "Sliske's Game",
   "age": "6",
@@ -19,12 +19,79 @@
   },
   "requirements": {
     "quests": [
-      "The Death of Chivalry",
-      "One of a Kind",
-      "Nomad's Elegy",
-      "Kindred Spirits",
-      "Hero's Welcome",
-      "Children of Mah"
+      {
+        "title": "The Death of Chivalry"
+      },
+      {
+        "title": "One of a Kind",
+        "children": [
+          {
+            "title": "A Tail of Two Cats"
+          },
+          {
+            "title": "Holy Grail"
+          },
+          {
+            "title": "The World Wakes"
+          },
+          {
+            "title": "Missing, Presumed Death"
+          }
+        ]
+      },
+      {
+        "title": "Nomad's Elegy",
+        "children": [
+          {
+            "title": "Dishonour among Thieves"
+          },
+          {
+            "title": "Nomad's Requiem"
+          },
+          {
+            "title": "Heart of Stone"
+          },
+          {
+            "title": "The Mighty Fall"
+          },
+          {
+            "title": "Throne of Miscellania"
+          },
+          {
+            "title": "The Void Stares Back"
+          }
+        ]
+      },
+      {
+        "title": "Kindred Spirits",
+        "children": [
+          {
+            "title": "Missing, Presumed Death"
+          }
+        ]
+      },
+      {
+        "title": "Hero's Welcome",
+        "children": [
+          {
+            "title": "Lunar Diplomacy"
+          },
+          {
+            "title": "Ancient Cavern"
+          }
+        ]
+      },
+      {
+        "title": "Children of Mah",
+        "children": [
+          {
+            "title": "The Light Within"
+          },
+          {
+            "title": "Dishonour among Thieves"
+          }
+        ]
+      }
     ],
     "skills": []
   },

@@ -3,7 +3,7 @@
   "title": "Doric's Task V (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.804Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.478Z",
   "icon": "https://runescape.wiki/images/Doric%27s_Task_V_%28miniquest%29_icon.png",
   "series": "Doric's Tasks",
   "age": "5",
@@ -19,7 +19,32 @@
   },
   "requirements": {
     "quests": [
-      "Doric's Task IV (miniquest)"
+      {
+        "title": "Doric's Task IV (miniquest)",
+        "children": [
+          {
+            "title": "Doric's Task III (miniquest)",
+            "children": [
+              {
+                "title": "Doric's Task II (miniquest)",
+                "children": [
+                  {
+                    "title": "Doric's Task I (miniquest)",
+                    "children": [
+                      {
+                        "title": "What's Mine is Yours"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Death Plateau"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

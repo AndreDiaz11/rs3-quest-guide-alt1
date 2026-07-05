@@ -3,7 +3,7 @@
   "title": "Battle of the Monolith",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:57.784Z",
+  "guideLastUpdated": "2026-07-05T04:40:30.639Z",
   "icon": "https://runescape.wiki/images/Battle_of_the_Monolith_icon.png",
   "series": "The Elder God Wars",
   "age": "6",
@@ -19,7 +19,46 @@
   },
   "requirements": {
     "quests": [
-      "Azzanadra's Quest"
+      {
+        "title": "Azzanadra's Quest",
+        "children": [
+          {
+            "title": "The Vault of Shadows"
+          },
+          {
+            "title": "Raksha, the Shadow Colossus",
+            "children": [
+              {
+                "title": "Anachronia base camp tutorial"
+              }
+            ]
+          },
+          {
+            "title": "Desperate Creatures",
+            "children": [
+              {
+                "title": "Desperate Measures",
+                "children": [
+                  {
+                    "title": "Desperate Times",
+                    "children": [
+                      {
+                        "title": "The Needle Skips"
+                      },
+                      {
+                        "title": "You Are It"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Anachronia base camp tutorial"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": []
   },

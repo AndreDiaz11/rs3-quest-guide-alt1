@@ -3,7 +3,7 @@
   "title": "The Light Within",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:01.827Z",
+  "guideLastUpdated": "2026-07-05T04:40:34.430Z",
   "icon": "https://runescape.wiki/images/The_Light_Within_icon.png",
   "series": "Sliske's Game",
   "age": "6",
@@ -19,11 +19,56 @@
   },
   "requirements": {
     "quests": [
-      "Meeting History",
-      "The Temple at Senntisten",
-      "Plague's End",
-      "The World Wakes",
-      "Fate of the Gods"
+      {
+        "title": "Meeting History",
+        "children": [
+          {
+            "title": "Making History"
+          }
+        ]
+      },
+      {
+        "title": "The Temple at Senntisten",
+        "children": [
+          {
+            "title": "Devious Minds"
+          },
+          {
+            "title": "Desert Treasure"
+          },
+          {
+            "title": "The Curse of Arrav"
+          },
+          {
+            "title": "Kudos"
+          }
+        ]
+      },
+      {
+        "title": "Plague's End",
+        "children": [
+          {
+            "title": "Within the Light"
+          },
+          {
+            "title": "Catapult Construction"
+          },
+          {
+            "title": "Making History"
+          }
+        ]
+      },
+      {
+        "title": "The World Wakes"
+      },
+      {
+        "title": "Fate of the Gods",
+        "children": [
+          {
+            "title": "Missing, Presumed Death"
+          }
+        ]
+      }
     ],
     "skills": [
       {

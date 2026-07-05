@@ -3,7 +3,7 @@
   "title": "The Great Brain Robbery",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:01.772Z",
+  "guideLastUpdated": "2026-07-05T04:40:34.376Z",
   "icon": "https://runescape.wiki/images/The_Great_Brain_Robbery_icon.png",
   "series": "Pirate",
   "age": "5",
@@ -19,9 +19,46 @@
   },
   "requirements": {
     "quests": [
-      "Creature of Fenkenstrain",
-      "Cabin Fever",
-      "Recipe for Disaster: Freeing Pirate Pete"
+      {
+        "title": "Creature of Fenkenstrain",
+        "children": [
+          {
+            "title": "The Restless Ghost"
+          },
+          {
+            "title": "Morytania"
+          }
+        ]
+      },
+      {
+        "title": "Cabin Fever",
+        "children": [
+          {
+            "title": "Pirate's Treasure"
+          },
+          {
+            "title": "Rum Deal",
+            "children": [
+              {
+                "title": "Morytania"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Recipe for Disaster: Freeing Pirate Pete",
+        "children": [
+          {
+            "title": "Recipe for Disaster: Another Cook's Quest",
+            "children": [
+              {
+                "title": "Cook's Assistant"
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

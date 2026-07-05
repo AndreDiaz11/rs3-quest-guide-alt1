@@ -5,6 +5,7 @@ import { fetchRuneMetricsQuests } from "./runemetrics.js";
 import { fetchPlayerLevels } from "./skills.js";
 import { matchRuneMetricsToDataset } from "./matching.js";
 import { openSettingsModal, loadSettings, hasSeenWelcome, openWelcomeModal } from "./settings.js";
+import { loadSkillIcons } from "./skillIcons.js";
 import { state, questStatus } from "./state.js";
 
 const filterBarEl = document.getElementById("sidebar-filterbar-slot");
@@ -96,6 +97,7 @@ function openSettings() {
 async function main() {
   state.settings = loadSettings();
   state.index = await fetchIndex();
+  await loadSkillIcons();
 
   settingsBtn.addEventListener("click", openSettings);
 

@@ -3,7 +3,7 @@
   "title": "Desperate Measures",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.603Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.288Z",
   "icon": "https://runescape.wiki/images/Desperate_Measures_icon.png",
   "series": "The Elder God Wars",
   "age": "6",
@@ -19,8 +19,20 @@
   },
   "requirements": {
     "quests": [
-      "Desperate Times",
-      "Anachronia base camp tutorial"
+      {
+        "title": "Desperate Times",
+        "children": [
+          {
+            "title": "The Needle Skips"
+          },
+          {
+            "title": "You Are It"
+          }
+        ]
+      },
+      {
+        "title": "Anachronia base camp tutorial"
+      }
     ],
     "skills": [
       {

@@ -3,7 +3,7 @@
   "title": "Crocodile Tears",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.389Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.072Z",
   "icon": "https://runescape.wiki/images/Crocodile_Tears_icon.png",
   "series": "Desert",
   "age": "5",
@@ -19,12 +19,63 @@
   },
   "requirements": {
     "quests": [
-      "The Jack of Spades",
-      "Spirits of the Elid",
-      "Missing My Mummy",
-      "Dealing with Scabaras",
-      "Bring Leela to Senliten's tomb",
-      "Senliten"
+      {
+        "title": "The Jack of Spades",
+        "children": [
+          {
+            "title": "Diamond in the Rough",
+            "children": [
+              {
+                "title": "Stolen Hearts"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Spirits of the Elid"
+      },
+      {
+        "title": "Missing My Mummy",
+        "children": [
+          {
+            "title": "Icthlarin's Little Helper",
+            "children": [
+              {
+                "title": "Gertrude's Cat"
+              },
+              {
+                "title": "Diamond in the Rough"
+              }
+            ]
+          },
+          {
+            "title": "The Golem"
+          },
+          {
+            "title": "Diamond in the Rough"
+          }
+        ]
+      },
+      {
+        "title": "Dealing with Scabaras",
+        "children": [
+          {
+            "title": "Contact!",
+            "children": [
+              {
+                "title": "Icthlarin's Little Helper"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bring Leela to Senliten's tomb"
+      },
+      {
+        "title": "Senliten"
+      }
     ],
     "skills": [
       {
@@ -283,12 +334,12 @@
       "index": 10,
       "indent": 0,
       "section": "Dowsing for Crondis",
+      "isNote": true,
       "text": {
         "en": "If you encounter a bug where the dowsing rod suddenly no longer functions, you must destroy it and acquire a new one from the boat inside the temple before repeating each location.",
         "es": "Si te encuentras con un bug donde la varilla zahorí deja de funcionar de repente, debes destruirla y conseguir una nueva del barco dentro del templo antes de repetir cada ubicación."
       },
-      "chatOptions": [],
-      "isNote": true
+      "chatOptions": []
     },
     {
       "index": 11,

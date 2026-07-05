@@ -3,7 +3,7 @@
   "title": "One of a Kind",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.376Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.022Z",
   "icon": "https://runescape.wiki/images/One_of_a_Kind_icon.png",
   "series": "Sliske's Game",
   "age": "6",
@@ -19,10 +19,36 @@
   },
   "requirements": {
     "quests": [
-      "A Tail of Two Cats",
-      "Holy Grail",
-      "The World Wakes",
-      "Missing, Presumed Death"
+      {
+        "title": "A Tail of Two Cats",
+        "children": [
+          {
+            "title": "Icthlarin's Little Helper",
+            "children": [
+              {
+                "title": "Gertrude's Cat"
+              },
+              {
+                "title": "Diamond in the Rough"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Holy Grail",
+        "children": [
+          {
+            "title": "Merlin's Crystal"
+          }
+        ]
+      },
+      {
+        "title": "The World Wakes"
+      },
+      {
+        "title": "Missing, Presumed Death"
+      }
     ],
     "skills": [
       {

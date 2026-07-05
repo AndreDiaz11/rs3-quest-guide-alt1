@@ -516,6 +516,35 @@ h2.section-title {
   padding: 2px 0;
 }
 
+.requirement-skills-gap {
+  margin-top: 12px;
+}
+
+/* Staggered quest-requirement tree, matching the wiki's own indented nesting
+   (e.g. Children of Mah -> The Light Within -> Meeting History / ...). */
+.requirement-tree {
+  list-style: none;
+  margin: 0 0 6px;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+.requirement-tree li {
+  padding: 2px 0;
+}
+
+.requirement-tree .requirement-tree {
+  margin-left: 20px;
+  padding-left: 12px;
+  border-left: 1px dotted var(--border);
+}
+
+.req-skill-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
 .req-met {
   color: var(--quest-green, #4caf50);
   font-weight: bold;

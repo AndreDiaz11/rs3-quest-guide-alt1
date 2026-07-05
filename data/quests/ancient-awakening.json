@@ -3,7 +3,7 @@
   "title": "Ancient Awakening",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:57.627Z",
+  "guideLastUpdated": "2026-07-05T04:40:30.501Z",
   "icon": "https://runescape.wiki/images/thumb/Ancient_Awakening_icon.png/50px-Ancient_Awakening_icon.png",
   "series": "Fort Forinthry",
   "age": "Age of Chaos",
@@ -19,7 +19,36 @@
   },
   "requirements": {
     "quests": [
-      "Dead and Buried"
+      {
+        "title": "Dead and Buried",
+        "children": [
+          {
+            "title": "Unwelcome Guests",
+            "children": [
+              {
+                "title": "Murder on the Border",
+                "children": [
+                  {
+                    "title": "New Foundations"
+                  },
+                  {
+                    "title": "Town Hall (Tier 1)"
+                  },
+                  {
+                    "title": "Command Centre (Tier 1)"
+                  },
+                  {
+                    "title": "Workshop (Tier 1)"
+                  },
+                  {
+                    "title": "Chapel (Tier 1)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

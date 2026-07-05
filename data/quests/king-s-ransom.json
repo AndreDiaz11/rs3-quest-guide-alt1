@@ -3,7 +3,7 @@
   "title": "King's Ransom",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:09:55.110Z",
+  "guideLastUpdated": "2026-07-05T04:40:42.413Z",
   "icon": "https://runescape.wiki/images/King%27s_Ransom_icon.png",
   "series": "Camelot",
   "age": "5",
@@ -19,9 +19,30 @@
   },
   "requirements": {
     "quests": [
-      "Holy Grail",
-      "Murder Mystery",
-      "One Small Favour"
+      {
+        "title": "Holy Grail",
+        "children": [
+          {
+            "title": "Merlin's Crystal"
+          }
+        ]
+      },
+      {
+        "title": "Murder Mystery"
+      },
+      {
+        "title": "One Small Favour",
+        "children": [
+          {
+            "title": "Shilo Village",
+            "children": [
+              {
+                "title": "Jungle Potion"
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": []
   },

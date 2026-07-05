@@ -3,7 +3,7 @@
   "title": "Extinction",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:59.061Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.731Z",
   "icon": "https://runescape.wiki/images/Extinction_icon.png",
   "series": "The Elder God Wars",
   "age": "6",
@@ -19,8 +19,53 @@
   },
   "requirements": {
     "quests": [
-      "Sins of the Father",
-      "Eye of Het II"
+      {
+        "title": "Sins of the Father",
+        "children": [
+          {
+            "title": "Desperate Measures",
+            "children": [
+              {
+                "title": "Desperate Times",
+                "children": [
+                  {
+                    "title": "The Needle Skips"
+                  },
+                  {
+                    "title": "You Are It"
+                  }
+                ]
+              },
+              {
+                "title": "Anachronia base camp tutorial"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Eye of Het II",
+        "children": [
+          {
+            "title": "Eye of Het I",
+            "children": [
+              {
+                "title": "City of Senntisten",
+                "children": [
+                  {
+                    "title": "Battle of the Monolith",
+                    "children": [
+                      {
+                        "title": "Azzanadra's Quest"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

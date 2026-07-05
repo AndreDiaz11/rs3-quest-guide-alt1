@@ -3,7 +3,7 @@
   "title": "Rocking Out",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.892Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.521Z",
   "icon": "https://runescape.wiki/images/Rocking_Out_icon.png",
   "series": "Pirate",
   "age": "5",
@@ -19,7 +19,51 @@
   },
   "requirements": {
     "quests": [
-      "The Great Brain Robbery"
+      {
+        "title": "The Great Brain Robbery",
+        "children": [
+          {
+            "title": "Creature of Fenkenstrain",
+            "children": [
+              {
+                "title": "The Restless Ghost"
+              },
+              {
+                "title": "Morytania"
+              }
+            ]
+          },
+          {
+            "title": "Cabin Fever",
+            "children": [
+              {
+                "title": "Pirate's Treasure"
+              },
+              {
+                "title": "Rum Deal",
+                "children": [
+                  {
+                    "title": "Morytania"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Recipe for Disaster: Freeing Pirate Pete",
+            "children": [
+              {
+                "title": "Recipe for Disaster: Another Cook's Quest",
+                "children": [
+                  {
+                    "title": "Cook's Assistant"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

@@ -3,7 +3,7 @@
   "title": "Beneath Scabaras' Sands",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:57.830Z",
+  "guideLastUpdated": "2026-07-05T04:40:30.681Z",
   "icon": "https://runescape.wiki/images/thumb/Beneath_Scabaras%27_Sands_icon.png/50px-Beneath_Scabaras%27_Sands_icon.png",
   "series": "Desert",
   "age": "Age of Chaos",
@@ -19,8 +19,52 @@
   },
   "requirements": {
     "quests": [
-      "'Phite Club",
-      "Ode of the Devourer"
+      {
+        "title": "'Phite Club",
+        "children": [
+          {
+            "title": "Our Man in the North",
+            "children": [
+              {
+                "title": "The Feud"
+              },
+              {
+                "title": "Do No Evil"
+              },
+              {
+                "title": "Crocodile Tears"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ode of the Devourer",
+        "children": [
+          {
+            "title": "Requiem for a Dragon",
+            "children": [
+              {
+                "title": "Battle of Forinthry"
+              },
+              {
+                "title": "Tomes of the Warlock"
+              },
+              {
+                "title": "Kili Row"
+              }
+            ]
+          },
+          {
+            "title": "Soul Searching",
+            "children": [
+              {
+                "title": "Necromancy!"
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

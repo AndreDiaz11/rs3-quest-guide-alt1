@@ -3,7 +3,7 @@
   "title": "Dimension of Disaster: Defender of Varrock",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.676Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.355Z",
   "icon": "https://runescape.wiki/images/Dimension_of_Disaster_Defender_of_Varrock_icon.png",
   "length": "Short to Medium",
   "startPoint": {
@@ -12,8 +12,29 @@
   },
   "requirements": {
     "quests": [
-      "Dimension of Disaster: Coin of the Realm",
-      "Defender of Varrock"
+      {
+        "title": "Dimension of Disaster: Coin of the Realm"
+      },
+      {
+        "title": "Defender of Varrock",
+        "children": [
+          {
+            "title": "Shield of Arrav"
+          },
+          {
+            "title": "The Knight's Sword"
+          },
+          {
+            "title": "Family Crest"
+          },
+          {
+            "title": "What Lies Below"
+          },
+          {
+            "title": "Kudos"
+          }
+        ]
+      }
     ],
     "skills": [
       {

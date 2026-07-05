@@ -3,7 +3,7 @@
   "title": "Land of the Goblins",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:59.846Z",
+  "guideLastUpdated": "2026-07-05T04:40:32.493Z",
   "icon": "https://runescape.wiki/images/Land_of_the_Goblins_icon.png",
   "series": "Cave Goblin",
   "age": "5",
@@ -19,8 +19,28 @@
   },
   "requirements": {
     "quests": [
-      "Another Slice of H.A.M.",
-      "Fishing Contest"
+      {
+        "title": "Another Slice of H.A.M.",
+        "children": [
+          {
+            "title": "Death to the Dorgeshuun",
+            "children": [
+              {
+                "title": "The Lost Tribe"
+              }
+            ]
+          },
+          {
+            "title": "Goblin Diplomacy"
+          },
+          {
+            "title": "The Giant Dwarf"
+          }
+        ]
+      },
+      {
+        "title": "Fishing Contest"
+      }
     ],
     "skills": [
       {

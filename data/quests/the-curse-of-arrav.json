@@ -3,7 +3,7 @@
   "title": "The Curse of Arrav",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:01.514Z",
+  "guideLastUpdated": "2026-07-05T04:40:34.132Z",
   "icon": "https://runescape.wiki/images/The_Curse_of_Arrav_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -19,13 +19,73 @@
   },
   "requirements": {
     "quests": [
-      "The Tale of the Muspah",
-      "Missing My Mummy",
-      "Defender of Varrock",
-      "Temple of Ikov",
-      "Trollheim",
-      "Troll Stronghold",
-      "Senliten"
+      {
+        "title": "The Tale of the Muspah"
+      },
+      {
+        "title": "Missing My Mummy",
+        "children": [
+          {
+            "title": "Icthlarin's Little Helper",
+            "children": [
+              {
+                "title": "Gertrude's Cat"
+              },
+              {
+                "title": "Diamond in the Rough",
+                "children": [
+                  {
+                    "title": "Stolen Hearts"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "The Golem"
+          },
+          {
+            "title": "Diamond in the Rough"
+          }
+        ]
+      },
+      {
+        "title": "Defender of Varrock",
+        "children": [
+          {
+            "title": "Shield of Arrav"
+          },
+          {
+            "title": "The Knight's Sword"
+          },
+          {
+            "title": "Family Crest"
+          },
+          {
+            "title": "What Lies Below"
+          },
+          {
+            "title": "Kudos"
+          }
+        ]
+      },
+      {
+        "title": "Temple of Ikov"
+      },
+      {
+        "title": "Trollheim"
+      },
+      {
+        "title": "Troll Stronghold",
+        "children": [
+          {
+            "title": "Death Plateau"
+          }
+        ]
+      },
+      {
+        "title": "Senliten"
+      }
     ],
     "skills": [
       {

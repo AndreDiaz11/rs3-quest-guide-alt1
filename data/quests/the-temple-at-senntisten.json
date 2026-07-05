@@ -3,7 +3,7 @@
   "title": "The Temple at Senntisten",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:02.010Z",
+  "guideLastUpdated": "2026-07-05T04:40:34.606Z",
   "icon": "https://runescape.wiki/images/The_Temple_at_Senntisten_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -19,10 +19,109 @@
   },
   "requirements": {
     "quests": [
-      "Devious Minds",
-      "Desert Treasure",
-      "The Curse of Arrav",
-      "Kudos"
+      {
+        "title": "Devious Minds",
+        "children": [
+          {
+            "title": "Recruitment Drive"
+          },
+          {
+            "title": "What's Mine is Yours"
+          },
+          {
+            "title": "Morytania"
+          }
+        ]
+      },
+      {
+        "title": "Desert Treasure",
+        "children": [
+          {
+            "title": "The Dig Site"
+          },
+          {
+            "title": "Troll Stronghold",
+            "children": [
+              {
+                "title": "Death Plateau"
+              }
+            ]
+          },
+          {
+            "title": "Morytania"
+          }
+        ]
+      },
+      {
+        "title": "The Curse of Arrav",
+        "children": [
+          {
+            "title": "The Tale of the Muspah"
+          },
+          {
+            "title": "Missing My Mummy",
+            "children": [
+              {
+                "title": "Icthlarin's Little Helper",
+                "children": [
+                  {
+                    "title": "Gertrude's Cat"
+                  },
+                  {
+                    "title": "Diamond in the Rough",
+                    "children": [
+                      {
+                        "title": "Stolen Hearts"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "The Golem"
+              },
+              {
+                "title": "Diamond in the Rough"
+              }
+            ]
+          },
+          {
+            "title": "Defender of Varrock",
+            "children": [
+              {
+                "title": "Shield of Arrav"
+              },
+              {
+                "title": "The Knight's Sword"
+              },
+              {
+                "title": "Family Crest"
+              },
+              {
+                "title": "What Lies Below"
+              },
+              {
+                "title": "Kudos"
+              }
+            ]
+          },
+          {
+            "title": "Temple of Ikov"
+          },
+          {
+            "title": "Trollheim"
+          },
+          {
+            "title": "Troll Stronghold"
+          },
+          {
+            "title": "Senliten"
+          }
+        ]
+      },
+      {
+        "title": "Kudos"
+      }
     ],
     "skills": [
       {

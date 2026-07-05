@@ -3,7 +3,7 @@
   "title": "Pieces of Hate",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.497Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.128Z",
   "icon": "https://runescape.wiki/images/Pieces_of_Hate_icon.png",
   "series": "Pirate",
   "age": "5",
@@ -19,8 +19,57 @@
   },
   "requirements": {
     "quests": [
-      "A Clockwork Syringe",
-      "Gertrude's Cat"
+      {
+        "title": "A Clockwork Syringe",
+        "children": [
+          {
+            "title": "Rocking Out",
+            "children": [
+              {
+                "title": "The Great Brain Robbery",
+                "children": [
+                  {
+                    "title": "Creature of Fenkenstrain",
+                    "children": [
+                      {
+                        "title": "The Restless Ghost"
+                      },
+                      {
+                        "title": "Morytania"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Cabin Fever",
+                    "children": [
+                      {
+                        "title": "Pirate's Treasure"
+                      },
+                      {
+                        "title": "Rum Deal"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Recipe for Disaster: Freeing Pirate Pete",
+                    "children": [
+                      {
+                        "title": "Recipe for Disaster: Another Cook's Quest"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "player-owned house"
+          }
+        ]
+      },
+      {
+        "title": "Gertrude's Cat"
+      }
     ],
     "skills": [
       {

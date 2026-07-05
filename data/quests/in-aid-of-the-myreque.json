@@ -3,7 +3,7 @@
   "title": "In Aid of the Myreque",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:59.666Z",
+  "guideLastUpdated": "2026-07-05T04:40:32.316Z",
   "icon": "https://runescape.wiki/images/In_Aid_of_the_Myreque_icon.png",
   "series": "Myreque",
   "age": "5",
@@ -19,7 +19,25 @@
   },
   "requirements": {
     "quests": [
-      "In Search of the Myreque"
+      {
+        "title": "In Search of the Myreque",
+        "children": [
+          {
+            "title": "Nature Spirit",
+            "children": [
+              {
+                "title": "Priest in Peril"
+              },
+              {
+                "title": "The Restless Ghost"
+              },
+              {
+                "title": "Morytania"
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

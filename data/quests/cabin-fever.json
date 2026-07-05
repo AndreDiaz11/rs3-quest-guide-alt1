@@ -3,7 +3,7 @@
   "title": "Cabin Fever",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.098Z",
+  "guideLastUpdated": "2026-07-05T04:40:30.859Z",
   "icon": "https://runescape.wiki/images/Cabin_Fever_icon.png",
   "series": "Pirate",
   "age": "5",
@@ -19,8 +19,17 @@
   },
   "requirements": {
     "quests": [
-      "Pirate's Treasure",
-      "Rum Deal"
+      {
+        "title": "Pirate's Treasure"
+      },
+      {
+        "title": "Rum Deal",
+        "children": [
+          {
+            "title": "Morytania"
+          }
+        ]
+      }
     ],
     "skills": [
       {

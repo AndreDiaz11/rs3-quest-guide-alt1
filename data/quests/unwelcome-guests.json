@@ -3,7 +3,7 @@
   "title": "Unwelcome Guests",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:02.268Z",
+  "guideLastUpdated": "2026-07-05T04:40:34.854Z",
   "icon": "https://runescape.wiki/images/thumb/Unwelcome_Guests_icon.png/50px-Unwelcome_Guests_icon.png",
   "series": "Fort Forinthry",
   "age": "Age of Chaos",
@@ -19,7 +19,26 @@
   },
   "requirements": {
     "quests": [
-      "Murder on the Border"
+      {
+        "title": "Murder on the Border",
+        "children": [
+          {
+            "title": "New Foundations"
+          },
+          {
+            "title": "Town Hall (Tier 1)"
+          },
+          {
+            "title": "Command Centre (Tier 1)"
+          },
+          {
+            "title": "Workshop (Tier 1)"
+          },
+          {
+            "title": "Chapel (Tier 1)"
+          }
+        ]
+      }
     ],
     "skills": [
       {

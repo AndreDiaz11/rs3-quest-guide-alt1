@@ -3,7 +3,7 @@
   "title": "Smoking Kills",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:01.151Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.777Z",
   "icon": "https://runescape.wiki/images/Smoking_Kills_icon.png",
   "series": "Desert",
   "age": "5",
@@ -19,8 +19,25 @@
   },
   "requirements": {
     "quests": [
-      "The Restless Ghost",
-      "Icthlarin's Little Helper"
+      {
+        "title": "The Restless Ghost"
+      },
+      {
+        "title": "Icthlarin's Little Helper",
+        "children": [
+          {
+            "title": "Gertrude's Cat"
+          },
+          {
+            "title": "Diamond in the Rough",
+            "children": [
+              {
+                "title": "Stolen Hearts"
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

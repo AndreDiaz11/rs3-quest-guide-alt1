@@ -3,7 +3,7 @@
   "title": "Another Slice of H.A.M.",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:57.659Z",
+  "guideLastUpdated": "2026-07-05T04:40:30.528Z",
   "icon": "https://runescape.wiki/images/Another_Slice_of_H.A.M._icon.png",
   "series": "Cave Goblin",
   "age": "5",
@@ -19,9 +19,20 @@
   },
   "requirements": {
     "quests": [
-      "Death to the Dorgeshuun",
-      "Goblin Diplomacy",
-      "The Giant Dwarf"
+      {
+        "title": "Death to the Dorgeshuun",
+        "children": [
+          {
+            "title": "The Lost Tribe"
+          }
+        ]
+      },
+      {
+        "title": "Goblin Diplomacy"
+      },
+      {
+        "title": "The Giant Dwarf"
+      }
     ],
     "skills": [
       {

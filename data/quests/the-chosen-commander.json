@@ -3,7 +3,7 @@
   "title": "The Chosen Commander",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:01.490Z",
+  "guideLastUpdated": "2026-07-05T04:40:34.108Z",
   "icon": "https://runescape.wiki/images/The_Chosen_Commander_icon.png",
   "series": "Cave Goblin",
   "age": "5",
@@ -19,7 +19,33 @@
   },
   "requirements": {
     "quests": [
-      "Land of the Goblins"
+      {
+        "title": "Land of the Goblins",
+        "children": [
+          {
+            "title": "Another Slice of H.A.M.",
+            "children": [
+              {
+                "title": "Death to the Dorgeshuun",
+                "children": [
+                  {
+                    "title": "The Lost Tribe"
+                  }
+                ]
+              },
+              {
+                "title": "Goblin Diplomacy"
+              },
+              {
+                "title": "The Giant Dwarf"
+              }
+            ]
+          },
+          {
+            "title": "Fishing Contest"
+          }
+        ]
+      }
     ],
     "skills": [
       {

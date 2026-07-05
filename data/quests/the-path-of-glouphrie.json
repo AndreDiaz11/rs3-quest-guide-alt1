@@ -3,7 +3,7 @@
   "title": "The Path of Glouphrie",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:01.925Z",
+  "guideLastUpdated": "2026-07-05T04:40:34.524Z",
   "icon": "https://runescape.wiki/images/The_Path_of_Glouphrie_icon.png",
   "series": "Gnome",
   "age": "5",
@@ -19,9 +19,20 @@
   },
   "requirements": {
     "quests": [
-      "The Eyes of Glouphrie",
-      "Tree Gnome Village",
-      "Waterfall Quest"
+      {
+        "title": "The Eyes of Glouphrie",
+        "children": [
+          {
+            "title": "The Grand Tree"
+          }
+        ]
+      },
+      {
+        "title": "Tree Gnome Village"
+      },
+      {
+        "title": "Waterfall Quest"
+      }
     ],
     "skills": [
       {

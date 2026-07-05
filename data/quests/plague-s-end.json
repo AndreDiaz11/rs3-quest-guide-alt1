@@ -3,7 +3,7 @@
   "title": "Plague's End",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.547Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.176Z",
   "icon": "https://runescape.wiki/images/Plague%27s_End_icon.png",
   "series": "Elf (Prifddinas)",
   "age": "ambiguous",
@@ -19,9 +19,72 @@
   },
   "requirements": {
     "quests": [
-      "Within the Light",
-      "Catapult Construction",
-      "Making History"
+      {
+        "title": "Within the Light",
+        "children": [
+          {
+            "title": "Mourning's End Part II",
+            "children": [
+              {
+                "title": "Mourning's End Part I",
+                "children": [
+                  {
+                    "title": "Roving Elves",
+                    "children": [
+                      {
+                        "title": "Regicide"
+                      },
+                      {
+                        "title": "Waterfall Quest"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Sheep Herder"
+                  },
+                  {
+                    "title": "Big Chompy Bird Hunting"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Catapult Construction",
+        "children": [
+          {
+            "title": "Regicide",
+            "children": [
+              {
+                "title": "Underground Pass",
+                "children": [
+                  {
+                    "title": "Biohazard",
+                    "children": [
+                      {
+                        "title": "Plague City"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Making History",
+        "children": [
+          {
+            "title": "The Restless Ghost"
+          },
+          {
+            "title": "Morytania"
+          }
+        ]
+      }
     ],
     "skills": [
       {

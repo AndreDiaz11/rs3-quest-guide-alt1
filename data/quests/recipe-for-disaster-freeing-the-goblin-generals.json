@@ -3,7 +3,7 @@
   "title": "Recipe for Disaster: Freeing the Goblin Generals",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.739Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.370Z",
   "icon": "https://runescape.wiki/images/Goblin_Generals_icon.png",
   "length": "Short",
   "startPoint": {
@@ -12,8 +12,17 @@
   },
   "requirements": {
     "quests": [
-      "Recipe for Disaster: Another Cook's Quest",
-      "Goblin Diplomacy"
+      {
+        "title": "Recipe for Disaster: Another Cook's Quest",
+        "children": [
+          {
+            "title": "Cook's Assistant"
+          }
+        ]
+      },
+      {
+        "title": "Goblin Diplomacy"
+      }
     ],
     "skills": []
   },

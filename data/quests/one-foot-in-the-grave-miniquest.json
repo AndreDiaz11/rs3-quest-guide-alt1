@@ -3,7 +3,7 @@
   "title": "One Foot in the Grave (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.360Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.006Z",
   "icon": "https://runescape.wiki/images/One_Foot_in_the_Grave_%28miniquest%29_icon.png",
   "series": null,
   "age": "5",
@@ -19,8 +19,20 @@
   },
   "requirements": {
     "quests": [
-      "The Hand in the Sand",
-      "Back to my Roots"
+      {
+        "title": "The Hand in the Sand"
+      },
+      {
+        "title": "Back to my Roots",
+        "children": [
+          {
+            "title": "The Hand in the Sand"
+          },
+          {
+            "title": "Tribal Totem"
+          }
+        ]
+      }
     ],
     "skills": []
   },

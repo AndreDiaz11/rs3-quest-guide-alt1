@@ -1,4 +1,5 @@
 import { meetsQuestRequirement, meetsSkillRequirement } from "./state.js";
+import { getSkillIcon } from "./skillIcons.js";
 
 function localizedText(field, lang) {
   if (!field) return "";
@@ -54,6 +55,24 @@ function requirementMarker(met) {
   return el("span", { class: "req-unknown", text: "?" });
 }
 
+/**
+ * Renders one quest-requirement node and, recursively, its own prerequisites
+ * underneath it staggered one step further right — matching the wiki's own
+ * indented requirement tree (e.g. Children of Mah -> The Light Within ->
+ * Meeting History / The Temple at Senntisten / ...).
+ */
+function renderRequirementNode(node) {
+  const li = el("li");
+  li.appendChild(requirementMarker(meetsQuestRequirement(node.title)));
+  li.appendChild(document.createTextNode(" " + node.title));
+  if (node.children?.length) {
+    const childUl = el("ul", { class: "requirement-tree" });
+    node.children.forEach((child) => childUl.appendChild(renderRequirementNode(child)));
+    li.appendChild(childUl);
+  }
+  return li;
+}
+
 function renderRequirementsList(quest) {
   const wrap = el("div", { class: "requirements-list" });
 
@@ -62,21 +81,18 @@ function renderRequirementsList(quest) {
   if (skills.length === 0 && quests.length === 0) return null;
 
   if (quests.length > 0) {
-    const ul = el("ul", { class: "requirement-items" });
-    quests.forEach((title) => {
-      const li = el("li");
-      li.appendChild(requirementMarker(meetsQuestRequirement(title)));
-      li.appendChild(document.createTextNode(" " + title));
-      ul.appendChild(li);
-    });
+    const ul = el("ul", { class: "requirement-tree" });
+    quests.forEach((node) => ul.appendChild(renderRequirementNode(node)));
     wrap.appendChild(ul);
   }
 
   if (skills.length > 0) {
-    const ul = el("ul", { class: "requirement-items" });
+    const ul = el("ul", { class: `requirement-items${quests.length > 0 ? " requirement-skills-gap" : ""}` });
     skills.forEach((req) => {
       const li = el("li");
       li.appendChild(requirementMarker(meetsSkillRequirement(req)));
+      const icon = getSkillIcon(req.skill);
+      if (icon) li.appendChild(el("img", { class: "req-skill-icon", src: icon, alt: req.skill }));
       li.appendChild(document.createTextNode(` ${req.skill} ${req.level}`));
       ul.appendChild(li);
     });
@@ -91,7 +107,11 @@ function chatOptionMarker(opt) {
   const match = opt.match(/^([#?\d]+)\s+/);
   if (match) return match[1];
   if (opt.trim().toLowerCase() === "any") return "~";
-  return "•";
+  // Options with no leading marker at all (e.g. "Accept", "Yes.") use "?" like
+  // the other undetermined-position markers — using "•" here collided
+  // visually with the "•" that joins markers together (e.g. "1•••5" instead
+  // of a single clean separator).
+  return "?";
 }
 
 function renderChatOptionLine(opt) {
@@ -156,6 +176,22 @@ function renderChatOptionsSummary(options) {
   outer.appendChild(document.createTextNode(" "));
   outer.appendChild(more);
   return outer;
+}
+
+/**
+ * Renders a step's text and (if any) its inline chat-options summary as ONE
+ * wrapping unit. They must be siblings inside a single non-flex container —
+ * putting them as separate flex-item siblings of the parent `<li>` (flex,
+ * for the checkbox) made the chat marker sit beside the FIRST line of a
+ * wrapped multi-line sentence instead of flowing after its last word.
+ */
+function renderStepContent(step, lang) {
+  const wrap = el("span", { class: "step-text" });
+  wrap.appendChild(document.createTextNode(localizedText(step.text, lang)));
+  if (step.chatOptions?.length) {
+    wrap.appendChild(renderChatOptionsSummary(step.chatOptions));
+  }
+  return wrap;
 }
 
 /**
@@ -250,10 +286,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
         // shown without a checkbox, matching how the wiki itself displays them.
         if (step.isNote) {
           const li = el("li", { class: `step-note indent-${step.indent}` });
-          li.appendChild(el("span", { text: localizedText(step.text, lang) }));
-          if (step.chatOptions?.length) {
-            li.appendChild(renderChatOptionsSummary(step.chatOptions));
-          }
+          li.appendChild(renderStepContent(step, lang));
           stepList.appendChild(li);
           return;
         }
@@ -264,10 +297,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
         checkbox.checked = checked;
         checkbox.disabled = isCompleted;
         li.appendChild(checkbox);
-        li.appendChild(el("span", { text: localizedText(step.text, lang) }));
-        if (step.chatOptions?.length) {
-          li.appendChild(renderChatOptionsSummary(step.chatOptions));
-        }
+        li.appendChild(renderStepContent(step, lang));
         stepList.appendChild(li);
         rows.push({ step, li, checkbox });
       });

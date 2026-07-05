@@ -3,7 +3,7 @@
   "title": "Nomad's Requiem",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.267Z",
+  "guideLastUpdated": "2026-07-05T04:40:32.896Z",
   "icon": "https://runescape.wiki/images/Nomad%27s_Requiem_icon.png",
   "series": null,
   "age": "5",
@@ -19,9 +19,41 @@
   },
   "requirements": {
     "quests": [
-      "King's Ransom",
-      "Knight Waves",
-      "Soul Wars"
+      {
+        "title": "King's Ransom",
+        "children": [
+          {
+            "title": "Holy Grail",
+            "children": [
+              {
+                "title": "Merlin's Crystal"
+              }
+            ]
+          },
+          {
+            "title": "Murder Mystery"
+          },
+          {
+            "title": "One Small Favour",
+            "children": [
+              {
+                "title": "Shilo Village",
+                "children": [
+                  {
+                    "title": "Jungle Potion"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Knight Waves"
+      },
+      {
+        "title": "Soul Wars"
+      }
     ],
     "skills": [
       {

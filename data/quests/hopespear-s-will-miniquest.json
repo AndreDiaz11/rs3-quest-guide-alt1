@@ -3,7 +3,7 @@
   "title": "Hopespear's Will (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:59.570Z",
+  "guideLastUpdated": "2026-07-05T04:40:32.209Z",
   "icon": "https://runescape.wiki/images/Hopespear%27s_Will_%28miniquest%29_icon.png",
   "series": null,
   "age": "5",
@@ -19,10 +19,82 @@
   },
   "requirements": {
     "quests": [
-      "Land of the Goblins",
-      "A Fairy Tale I - Growing Pains",
-      "A Fairy Tale II - Cure a Queen",
-      "Desert Treasure"
+      {
+        "title": "Land of the Goblins",
+        "children": [
+          {
+            "title": "Another Slice of H.A.M.",
+            "children": [
+              {
+                "title": "Death to the Dorgeshuun",
+                "children": [
+                  {
+                    "title": "The Lost Tribe"
+                  }
+                ]
+              },
+              {
+                "title": "Goblin Diplomacy"
+              },
+              {
+                "title": "The Giant Dwarf"
+              }
+            ]
+          },
+          {
+            "title": "Fishing Contest"
+          }
+        ]
+      },
+      {
+        "title": "A Fairy Tale I - Growing Pains",
+        "children": [
+          {
+            "title": "Lost City"
+          },
+          {
+            "title": "Nature Spirit",
+            "children": [
+              {
+                "title": "Priest in Peril"
+              },
+              {
+                "title": "The Restless Ghost"
+              },
+              {
+                "title": "Morytania"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "A Fairy Tale II - Cure a Queen",
+        "children": [
+          {
+            "title": "A Fairy Tale I - Growing Pains"
+          }
+        ]
+      },
+      {
+        "title": "Desert Treasure",
+        "children": [
+          {
+            "title": "The Dig Site"
+          },
+          {
+            "title": "Troll Stronghold",
+            "children": [
+              {
+                "title": "Death Plateau"
+              }
+            ]
+          },
+          {
+            "title": "Morytania"
+          }
+        ]
+      }
     ],
     "skills": [
       {

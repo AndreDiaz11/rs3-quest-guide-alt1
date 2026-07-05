@@ -3,7 +3,7 @@
   "title": "A Guild of Our Own (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:57.459Z",
+  "guideLastUpdated": "2026-07-05T04:40:30.368Z",
   "icon": "https://runescape.wiki/images/A_Guild_of_Our_Own_%28miniquest%29_icon.png",
   "series": "Thieves' Guild",
   "age": "ambiguous",
@@ -19,8 +19,22 @@
   },
   "requirements": {
     "quests": [
-      "Lost Her Marbles (miniquest)",
-      "The Feud"
+      {
+        "title": "Lost Her Marbles (miniquest)",
+        "children": [
+          {
+            "title": "From Tiny Acorns (miniquest)",
+            "children": [
+              {
+                "title": "Buyers and Cellars"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "The Feud"
+      }
     ],
     "skills": [
       {

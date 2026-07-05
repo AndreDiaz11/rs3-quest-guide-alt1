@@ -3,7 +3,7 @@
   "title": "Icthlarin's Little Helper",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:59.621Z",
+  "guideLastUpdated": "2026-07-05T04:40:32.281Z",
   "icon": "https://runescape.wiki/images/Icthlarin%27s_Little_Helper_icon.png",
   "series": "Desert",
   "age": "5",
@@ -19,8 +19,17 @@
   },
   "requirements": {
     "quests": [
-      "Gertrude's Cat",
-      "Diamond in the Rough"
+      {
+        "title": "Gertrude's Cat"
+      },
+      {
+        "title": "Diamond in the Rough",
+        "children": [
+          {
+            "title": "Stolen Hearts"
+          }
+        ]
+      }
     ],
     "skills": []
   },

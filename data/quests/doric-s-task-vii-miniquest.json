@@ -3,7 +3,7 @@
   "title": "Doric's Task VII (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.819Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.492Z",
   "icon": "https://runescape.wiki/images/Doric%27s_Task_VII_%28miniquest%29_icon.png",
   "series": "Doric's Tasks",
   "age": "5",
@@ -19,7 +19,29 @@
   },
   "requirements": {
     "quests": [
-      "Doric's Task VI (miniquest)"
+      {
+        "title": "Doric's Task VI (miniquest)",
+        "children": [
+          {
+            "title": "Doric's Task V (miniquest)",
+            "children": [
+              {
+                "title": "Doric's Task IV (miniquest)",
+                "children": [
+                  {
+                    "title": "Doric's Task III (miniquest)",
+                    "children": [
+                      {
+                        "title": "Doric's Task II (miniquest)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

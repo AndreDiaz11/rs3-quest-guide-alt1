@@ -3,7 +3,7 @@
   "title": "Vessel of the Harbinger",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:02.289Z",
+  "guideLastUpdated": "2026-07-05T04:40:34.870Z",
   "icon": "https://runescape.wiki/images/thumb/Vessel_of_the_Harbinger_icon.png/50px-Vessel_of_the_Harbinger_icon.png",
   "series": "The First Necromancer",
   "age": "Age of Chaos",
@@ -19,8 +19,25 @@
   },
   "requirements": {
     "quests": [
-      "Rune Mythos",
-      "Ghosts Ahoy"
+      {
+        "title": "Rune Mythos",
+        "children": [
+          {
+            "title": "Necromancy!"
+          }
+        ]
+      },
+      {
+        "title": "Ghosts Ahoy",
+        "children": [
+          {
+            "title": "The Restless Ghost"
+          },
+          {
+            "title": "Morytania"
+          }
+        ]
+      }
     ],
     "skills": [
       {

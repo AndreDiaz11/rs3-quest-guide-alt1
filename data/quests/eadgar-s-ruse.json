@@ -3,7 +3,7 @@
   "title": "Eadgar's Ruse",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.897Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.567Z",
   "icon": "https://runescape.wiki/images/Eadgar%27s_Ruse_icon.png",
   "series": "Troll",
   "age": "5",
@@ -19,9 +19,20 @@
   },
   "requirements": {
     "quests": [
-      "Druidic Ritual",
-      "Troll Stronghold",
-      "Mad Eadgar"
+      {
+        "title": "Druidic Ritual"
+      },
+      {
+        "title": "Troll Stronghold",
+        "children": [
+          {
+            "title": "Death Plateau"
+          }
+        ]
+      },
+      {
+        "title": "Mad Eadgar"
+      }
     ],
     "skills": [
       {

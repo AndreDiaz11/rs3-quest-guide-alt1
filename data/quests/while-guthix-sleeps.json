@@ -3,7 +3,7 @@
   "title": "While Guthix Sleeps",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:02.436Z",
+  "guideLastUpdated": "2026-07-05T04:40:35.007Z",
   "icon": "https://runescape.wiki/images/While_Guthix_Sleeps_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -19,16 +19,119 @@
   },
   "requirements": {
     "quests": [
-      "Defender of Varrock",
-      "Dream Mentor",
-      "Shilo Village",
-      "Temple of Ikov",
-      "Legends' Quest",
-      "The Path of Glouphrie",
-      "Tears of Guthix",
-      "Wanted!",
-      "The Hunt for Surok (miniquest)",
-      "Warriors' Guild"
+      {
+        "title": "Defender of Varrock",
+        "children": [
+          {
+            "title": "Shield of Arrav"
+          },
+          {
+            "title": "The Knight's Sword"
+          },
+          {
+            "title": "Family Crest"
+          },
+          {
+            "title": "What Lies Below"
+          },
+          {
+            "title": "Kudos"
+          }
+        ]
+      },
+      {
+        "title": "Dream Mentor",
+        "children": [
+          {
+            "title": "Lunar Diplomacy",
+            "children": [
+              {
+                "title": "The Fremennik Trials"
+              },
+              {
+                "title": "Lost City"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Shilo Village",
+        "children": [
+          {
+            "title": "Jungle Potion"
+          }
+        ]
+      },
+      {
+        "title": "Temple of Ikov"
+      },
+      {
+        "title": "Legends' Quest",
+        "children": [
+          {
+            "title": "Heroes' Quest",
+            "children": [
+              {
+                "title": "Shield of Arrav"
+              },
+              {
+                "title": "Dragon Slayer"
+              }
+            ]
+          },
+          {
+            "title": "Jungle Potion"
+          }
+        ]
+      },
+      {
+        "title": "The Path of Glouphrie",
+        "children": [
+          {
+            "title": "The Eyes of Glouphrie",
+            "children": [
+              {
+                "title": "The Grand Tree"
+              }
+            ]
+          },
+          {
+            "title": "Tree Gnome Village"
+          },
+          {
+            "title": "Waterfall Quest"
+          }
+        ]
+      },
+      {
+        "title": "Tears of Guthix"
+      },
+      {
+        "title": "Wanted!",
+        "children": [
+          {
+            "title": "Recruitment Drive"
+          },
+          {
+            "title": "Enter the Abyss (miniquest)"
+          },
+          {
+            "title": "Morytania"
+          }
+        ]
+      },
+      {
+        "title": "The Hunt for Surok (miniquest)",
+        "children": [
+          {
+            "title": "What Lies Below"
+          }
+        ]
+      },
+      {
+        "title": "Warriors' Guild"
+      }
     ],
     "skills": [
       {

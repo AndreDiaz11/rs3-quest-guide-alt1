@@ -3,7 +3,7 @@
   "title": "Boric's Task III (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.001Z",
+  "guideLastUpdated": "2026-07-05T04:40:30.791Z",
   "icon": "https://runescape.wiki/images/Boric%27s_Task_III_%28miniquest%29_icon.png",
   "series": "Boric's Tasks",
   "age": "5",
@@ -19,7 +19,19 @@
   },
   "requirements": {
     "quests": [
-      "Boric's Task II (miniquest)"
+      {
+        "title": "Boric's Task II (miniquest)",
+        "children": [
+          {
+            "title": "Boric's Task I (miniquest)",
+            "children": [
+              {
+                "title": "What's Mine is Yours"
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

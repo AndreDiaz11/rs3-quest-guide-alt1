@@ -3,7 +3,7 @@
   "title": "Catapult Construction",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.160Z",
+  "guideLastUpdated": "2026-07-05T04:40:30.903Z",
   "icon": "https://runescape.wiki/images/Catapult_Construction_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -19,7 +19,24 @@
   },
   "requirements": {
     "quests": [
-      "Regicide"
+      {
+        "title": "Regicide",
+        "children": [
+          {
+            "title": "Underground Pass",
+            "children": [
+              {
+                "title": "Biohazard",
+                "children": [
+                  {
+                    "title": "Plague City"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

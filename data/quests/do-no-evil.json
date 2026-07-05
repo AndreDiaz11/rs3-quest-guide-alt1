@@ -3,7 +3,7 @@
   "title": "Do No Evil",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.753Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.430Z",
   "icon": "https://runescape.wiki/images/Do_No_Evil_icon.png",
   "series": "Desert",
   "age": "5",
@@ -19,15 +19,131 @@
   },
   "requirements": {
     "quests": [
-      "Animal Magnetism",
-      "Shadow of the Storm",
-      "Desert Treasure",
-      "Smoking Kills",
-      "Missing My Mummy",
-      "Dealing with Scabaras",
-      "Recipe for Disaster: Freeing King Awowogei",
-      "Senliten",
-      "Bring Leela to Senliten's tomb"
+      {
+        "title": "Animal Magnetism",
+        "children": [
+          {
+            "title": "The Restless Ghost"
+          },
+          {
+            "title": "Ernest the Chicken"
+          },
+          {
+            "title": "Morytania"
+          }
+        ]
+      },
+      {
+        "title": "Shadow of the Storm",
+        "children": [
+          {
+            "title": "Demon Slayer"
+          },
+          {
+            "title": "The Golem"
+          }
+        ]
+      },
+      {
+        "title": "Desert Treasure",
+        "children": [
+          {
+            "title": "The Dig Site"
+          },
+          {
+            "title": "Troll Stronghold",
+            "children": [
+              {
+                "title": "Death Plateau"
+              }
+            ]
+          },
+          {
+            "title": "Morytania"
+          }
+        ]
+      },
+      {
+        "title": "Smoking Kills",
+        "children": [
+          {
+            "title": "The Restless Ghost"
+          },
+          {
+            "title": "Icthlarin's Little Helper",
+            "children": [
+              {
+                "title": "Gertrude's Cat"
+              },
+              {
+                "title": "Diamond in the Rough",
+                "children": [
+                  {
+                    "title": "Stolen Hearts"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Missing My Mummy",
+        "children": [
+          {
+            "title": "Icthlarin's Little Helper"
+          },
+          {
+            "title": "The Golem"
+          },
+          {
+            "title": "Diamond in the Rough"
+          }
+        ]
+      },
+      {
+        "title": "Dealing with Scabaras",
+        "children": [
+          {
+            "title": "Contact!",
+            "children": [
+              {
+                "title": "Icthlarin's Little Helper"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Recipe for Disaster: Freeing King Awowogei",
+        "children": [
+          {
+            "title": "Recipe for Disaster: Another Cook's Quest",
+            "children": [
+              {
+                "title": "Cook's Assistant"
+              }
+            ]
+          },
+          {
+            "title": "Monkey Madness",
+            "children": [
+              {
+                "title": "The Grand Tree"
+              },
+              {
+                "title": "Tree Gnome Village"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Senliten"
+      },
+      {
+        "title": "Bring Leela to Senliten's tomb"
+      }
     ],
     "skills": [
       {

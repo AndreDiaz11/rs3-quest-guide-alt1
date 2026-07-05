@@ -3,7 +3,7 @@
   "title": "Back to the Freezer",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:57.749Z",
+  "guideLastUpdated": "2026-07-05T04:40:30.601Z",
   "icon": "https://runescape.wiki/images/Back_to_the_Freezer_icon.png",
   "series": "Penguin",
   "age": "6",
@@ -19,8 +19,25 @@
   },
   "requirements": {
     "quests": [
-      "Some Like It Cold",
-      "Ernest the Chicken"
+      {
+        "title": "Some Like It Cold",
+        "children": [
+          {
+            "title": "Hunt for Red Raktuber",
+            "children": [
+              {
+                "title": "Cold War"
+              },
+              {
+                "title": "Sea Slug"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ernest the Chicken"
+      }
     ],
     "skills": [
       {

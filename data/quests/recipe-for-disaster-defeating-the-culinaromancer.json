@@ -3,7 +3,7 @@
   "title": "Recipe for Disaster: Defeating the Culinaromancer",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.674Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.306Z",
   "icon": "https://runescape.wiki/images/Defeating_the_Culinaromancer_icon.png",
   "length": "Short",
   "startPoint": {
@@ -12,17 +12,161 @@
   },
   "requirements": {
     "quests": [
-      "Recipe for Disaster: Another Cook's Quest",
-      "Recipe for Disaster: Freeing the Mountain Dwarf",
-      "Recipe for Disaster: Freeing the Goblin Generals",
-      "Recipe for Disaster: Freeing Pirate Pete",
-      "Recipe for Disaster: Freeing the Lumbridge Sage",
-      "Recipe for Disaster: Freeing Evil Dave",
-      "Recipe for Disaster: Freeing Skrach Uglogwee",
-      "Recipe for Disaster: Freeing Sir Amik Varze",
-      "Recipe for Disaster: Freeing King Awowogei",
-      "Desert Treasure",
-      "Horror from the Deep"
+      {
+        "title": "Recipe for Disaster: Another Cook's Quest",
+        "children": [
+          {
+            "title": "Cook's Assistant"
+          }
+        ]
+      },
+      {
+        "title": "Recipe for Disaster: Freeing the Mountain Dwarf",
+        "children": [
+          {
+            "title": "Recipe for Disaster: Another Cook's Quest"
+          },
+          {
+            "title": "Fishing Contest"
+          }
+        ]
+      },
+      {
+        "title": "Recipe for Disaster: Freeing the Goblin Generals",
+        "children": [
+          {
+            "title": "Recipe for Disaster: Another Cook's Quest"
+          },
+          {
+            "title": "Goblin Diplomacy"
+          }
+        ]
+      },
+      {
+        "title": "Recipe for Disaster: Freeing Pirate Pete",
+        "children": [
+          {
+            "title": "Recipe for Disaster: Another Cook's Quest"
+          }
+        ]
+      },
+      {
+        "title": "Recipe for Disaster: Freeing the Lumbridge Sage",
+        "children": [
+          {
+            "title": "Recipe for Disaster: Another Cook's Quest"
+          }
+        ]
+      },
+      {
+        "title": "Recipe for Disaster: Freeing Evil Dave",
+        "children": [
+          {
+            "title": "Recipe for Disaster: Another Cook's Quest"
+          },
+          {
+            "title": "Gertrude's Cat"
+          },
+          {
+            "title": "Shadow of the Storm",
+            "children": [
+              {
+                "title": "Demon Slayer"
+              },
+              {
+                "title": "The Golem"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Recipe for Disaster: Freeing Skrach Uglogwee",
+        "children": [
+          {
+            "title": "Recipe for Disaster: Another Cook's Quest"
+          },
+          {
+            "title": "Big Chompy Bird Hunting"
+          }
+        ]
+      },
+      {
+        "title": "Recipe for Disaster: Freeing Sir Amik Varze",
+        "children": [
+          {
+            "title": "Recipe for Disaster: Another Cook's Quest"
+          },
+          {
+            "title": "Lost City"
+          },
+          {
+            "title": "Legends' Quest",
+            "children": [
+              {
+                "title": "Heroes' Quest",
+                "children": [
+                  {
+                    "title": "Shield of Arrav"
+                  },
+                  {
+                    "title": "Dragon Slayer"
+                  }
+                ]
+              },
+              {
+                "title": "Jungle Potion"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Recipe for Disaster: Freeing King Awowogei",
+        "children": [
+          {
+            "title": "Recipe for Disaster: Another Cook's Quest"
+          },
+          {
+            "title": "Monkey Madness",
+            "children": [
+              {
+                "title": "The Grand Tree"
+              },
+              {
+                "title": "Tree Gnome Village"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Desert Treasure",
+        "children": [
+          {
+            "title": "The Dig Site"
+          },
+          {
+            "title": "Troll Stronghold",
+            "children": [
+              {
+                "title": "Death Plateau"
+              }
+            ]
+          },
+          {
+            "title": "Morytania"
+          }
+        ]
+      },
+      {
+        "title": "Horror from the Deep",
+        "children": [
+          {
+            "title": "Bar Crawl (miniquest)"
+          }
+        ]
+      }
     ],
     "skills": [
       {

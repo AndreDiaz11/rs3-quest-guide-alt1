@@ -3,7 +3,7 @@
   "title": "Desert Treasure",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.560Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.247Z",
   "icon": "https://runescape.wiki/images/Desert_Treasure_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -19,9 +19,20 @@
   },
   "requirements": {
     "quests": [
-      "The Dig Site",
-      "Troll Stronghold",
-      "Morytania"
+      {
+        "title": "The Dig Site"
+      },
+      {
+        "title": "Troll Stronghold",
+        "children": [
+          {
+            "title": "Death Plateau"
+          }
+        ]
+      },
+      {
+        "title": "Morytania"
+      }
     ],
     "skills": [
       {
@@ -420,45 +431,45 @@
       "index": 15,
       "indent": 0,
       "section": "Bandit Camp",
+      "isNote": true,
       "text": {
         "en": "Jump to §Blood diamond",
         "es": "Ir a §Blood diamond"
       },
-      "chatOptions": [],
-      "isNote": true
+      "chatOptions": []
     },
     {
       "index": 16,
       "indent": 0,
       "section": "Bandit Camp",
+      "isNote": true,
       "text": {
         "en": "Jump to §Ice diamond",
         "es": "Ir a §Ice diamond"
       },
-      "chatOptions": [],
-      "isNote": true
+      "chatOptions": []
     },
     {
       "index": 17,
       "indent": 0,
       "section": "Bandit Camp",
+      "isNote": true,
       "text": {
         "en": "Jump to §Smoke diamond",
         "es": "Ir a §Smoke diamond"
       },
-      "chatOptions": [],
-      "isNote": true
+      "chatOptions": []
     },
     {
       "index": 18,
       "indent": 0,
       "section": "Bandit Camp",
+      "isNote": true,
       "text": {
         "en": "Jump to §Shadow diamond",
         "es": "Ir a §Shadow diamond"
       },
-      "chatOptions": [],
-      "isNote": true
+      "chatOptions": []
     },
     {
       "index": 19,

@@ -3,7 +3,7 @@
   "title": "My Arm's Big Adventure",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.188Z",
+  "guideLastUpdated": "2026-07-05T04:40:32.820Z",
   "icon": "https://runescape.wiki/images/My_Arm%27s_Big_Adventure_icon.png",
   "series": "Troll",
   "age": "ambiguous",
@@ -19,8 +19,28 @@
   },
   "requirements": {
     "quests": [
-      "Eadgar's Ruse",
-      "Jungle Potion"
+      {
+        "title": "Eadgar's Ruse",
+        "children": [
+          {
+            "title": "Druidic Ritual"
+          },
+          {
+            "title": "Troll Stronghold",
+            "children": [
+              {
+                "title": "Death Plateau"
+              }
+            ]
+          },
+          {
+            "title": "Mad Eadgar"
+          }
+        ]
+      },
+      {
+        "title": "Jungle Potion"
+      }
     ],
     "skills": [
       {

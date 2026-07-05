@@ -3,7 +3,7 @@
   "title": "Civil War II (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.272Z",
+  "guideLastUpdated": "2026-07-05T04:40:30.979Z",
   "icon": "https://runescape.wiki/images/thumb/Civil_War_II_%28miniquest%29_icon.png/50px-Civil_War_II_%28miniquest%29_icon.png",
   "series": "Legacy of Zamorak",
   "age": "Age of Chaos",
@@ -19,7 +19,14 @@
   },
   "requirements": {
     "quests": [
-      "Civil War I (miniquest)"
+      {
+        "title": "Civil War I (miniquest)",
+        "children": [
+          {
+            "title": "Daughter of Chaos"
+          }
+        ]
+      }
     ],
     "skills": []
   },

@@ -3,7 +3,7 @@
   "title": "Heart of Stone",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:59.469Z",
+  "guideLastUpdated": "2026-07-05T04:40:32.106Z",
   "icon": "https://runescape.wiki/images/Heart_of_Stone_icon.png",
   "series": "Sliske's Game",
   "age": "6",
@@ -19,8 +19,25 @@
   },
   "requirements": {
     "quests": [
-      "Carnillean Rising",
-      "Rune Memories"
+      {
+        "title": "Carnillean Rising",
+        "children": [
+          {
+            "title": "The Blood Pact"
+          },
+          {
+            "title": "Hazeel Cult"
+          }
+        ]
+      },
+      {
+        "title": "Rune Memories",
+        "children": [
+          {
+            "title": "Rune Mysteries"
+          }
+        ]
+      }
     ],
     "skills": [
       {

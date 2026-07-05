@@ -3,7 +3,7 @@
   "title": "Sins of the Father",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:01.112Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.739Z",
   "icon": "https://runescape.wiki/images/Sins_of_the_Father_icon.png",
   "series": "The Elder God Wars",
   "age": "6",
@@ -19,7 +19,25 @@
   },
   "requirements": {
     "quests": [
-      "Desperate Measures"
+      {
+        "title": "Desperate Measures",
+        "children": [
+          {
+            "title": "Desperate Times",
+            "children": [
+              {
+                "title": "The Needle Skips"
+              },
+              {
+                "title": "You Are It"
+              }
+            ]
+          },
+          {
+            "title": "Anachronia base camp tutorial"
+          }
+        ]
+      }
     ],
     "skills": [
       {

@@ -3,7 +3,7 @@
   "title": "Wandering Ga'al (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:02.339Z",
+  "guideLastUpdated": "2026-07-05T04:40:34.916Z",
   "icon": "https://runescape.wiki/images/Wandering_Ga%27al_%28miniquest%29_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -19,8 +19,33 @@
   },
   "requirements": {
     "quests": [
-      "The Brink of Extinction",
-      "Desert Treasure"
+      {
+        "title": "The Brink of Extinction",
+        "children": [
+          {
+            "title": "The Elder Kiln"
+          }
+        ]
+      },
+      {
+        "title": "Desert Treasure",
+        "children": [
+          {
+            "title": "The Dig Site"
+          },
+          {
+            "title": "Troll Stronghold",
+            "children": [
+              {
+                "title": "Death Plateau"
+              }
+            ]
+          },
+          {
+            "title": "Morytania"
+          }
+        ]
+      }
     ],
     "skills": []
   },

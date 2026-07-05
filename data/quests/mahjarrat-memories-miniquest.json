@@ -3,7 +3,7 @@
   "title": "Mahjarrat Memories (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:59.964Z",
+  "guideLastUpdated": "2026-07-05T04:40:32.627Z",
   "icon": "https://runescape.wiki/images/Mahjarrat_Memories_%28miniquest%29_icon.png",
   "series": null,
   "age": "6",
@@ -19,8 +19,60 @@
   },
   "requirements": {
     "quests": [
-      "Koschei's Troubles (miniquest)",
-      "Missing, Presumed Death"
+      {
+        "title": "Koschei's Troubles (miniquest)",
+        "children": [
+          {
+            "title": "Blood Runs Deep",
+            "children": [
+              {
+                "title": "Horror from the Deep"
+              },
+              {
+                "title": "Dream Mentor"
+              },
+              {
+                "title": "Glorious Memories"
+              }
+            ]
+          },
+          {
+            "title": "Ritual of the Mahjarrat",
+            "children": [
+              {
+                "title": "The Temple at Senntisten"
+              },
+              {
+                "title": "While Guthix Sleeps"
+              },
+              {
+                "title": "Hazeel Cult"
+              },
+              {
+                "title": "Enakhra's Lament"
+              },
+              {
+                "title": "The Slug Menace"
+              },
+              {
+                "title": "A Fairy Tale II - Cure a Queen"
+              },
+              {
+                "title": "Cabin Fever"
+              },
+              {
+                "title": "A Tail of Two Cats"
+              },
+              {
+                "title": "Fight Arena"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Missing, Presumed Death"
+      }
     ],
     "skills": [
       {

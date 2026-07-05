@@ -3,7 +3,7 @@
   "title": "Civil War III (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.282Z",
+  "guideLastUpdated": "2026-07-05T04:40:30.987Z",
   "icon": "https://runescape.wiki/images/thumb/Civil_War_III_%28miniquest%29_icon.png/50px-Civil_War_III_%28miniquest%29_icon.png",
   "series": "Legacy of Zamorak",
   "age": "Age of Chaos",
@@ -19,7 +19,19 @@
   },
   "requirements": {
     "quests": [
-      "Civil War II (miniquest)"
+      {
+        "title": "Civil War II (miniquest)",
+        "children": [
+          {
+            "title": "Civil War I (miniquest)",
+            "children": [
+              {
+                "title": "Daughter of Chaos"
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {
@@ -110,7 +122,7 @@
       "indent": 0,
       "section": "Walkthrough",
       "text": {
-        "en": "Head to the White Knights' Castle throne room () and talk to Adrasteia.",
+        "en": "Head to the White Knights' Castle throne room (2nd floor) and talk to Adrasteia.",
         "es": "Dirígete a la sala del trono del White Knights' Castle () y habla con Adrasteia."
       },
       "chatOptions": []

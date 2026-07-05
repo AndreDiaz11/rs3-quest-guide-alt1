@@ -3,7 +3,7 @@
   "title": "The Darkness of Hallowvale",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:01.542Z",
+  "guideLastUpdated": "2026-07-05T04:40:34.159Z",
   "icon": "https://runescape.wiki/images/The_Darkness_of_Hallowvale_icon.png",
   "series": "Myreque",
   "age": "5",
@@ -19,7 +19,30 @@
   },
   "requirements": {
     "quests": [
-      "In Aid of the Myreque"
+      {
+        "title": "In Aid of the Myreque",
+        "children": [
+          {
+            "title": "In Search of the Myreque",
+            "children": [
+              {
+                "title": "Nature Spirit",
+                "children": [
+                  {
+                    "title": "Priest in Peril"
+                  },
+                  {
+                    "title": "The Restless Ghost"
+                  },
+                  {
+                    "title": "Morytania"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {

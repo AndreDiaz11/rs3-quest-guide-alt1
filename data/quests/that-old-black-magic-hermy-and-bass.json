@@ -3,7 +3,7 @@
   "title": "That Old Black Magic: Hermy and Bass",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:01.387Z",
+  "guideLastUpdated": "2026-07-05T04:40:34.008Z",
   "icon": "https://runescape.wiki/images/thumb/That_Old_Black_Magic_icon.png/50px-That_Old_Black_Magic_icon.png",
   "length": "Long",
   "startPoint": {
@@ -12,8 +12,46 @@
   },
   "requirements": {
     "quests": [
-      "That Old Black Magic: My One and Only Lute",
-      "The Spirit of War"
+      {
+        "title": "That Old Black Magic: My One and Only Lute",
+        "children": [
+          {
+            "title": "The Blood Pact"
+          }
+        ]
+      },
+      {
+        "title": "The Spirit of War",
+        "children": [
+          {
+            "title": "Vessel of the Harbinger",
+            "children": [
+              {
+                "title": "Rune Mythos",
+                "children": [
+                  {
+                    "title": "Necromancy!"
+                  }
+                ]
+              },
+              {
+                "title": "Ghosts Ahoy",
+                "children": [
+                  {
+                    "title": "The Restless Ghost"
+                  },
+                  {
+                    "title": "Morytania"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "vessel souls"
+          }
+        ]
+      }
     ],
     "skills": [
       {

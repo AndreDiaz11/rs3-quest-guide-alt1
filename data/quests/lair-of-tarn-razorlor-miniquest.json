@@ -3,7 +3,7 @@
   "title": "Lair of Tarn Razorlor (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:59.830Z",
+  "guideLastUpdated": "2026-07-05T04:40:32.479Z",
   "icon": "https://runescape.wiki/images/Lair_of_Tarn_Razorlor_%28miniquest%29_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -19,7 +19,14 @@
   },
   "requirements": {
     "quests": [
-      "Haunted Mine"
+      {
+        "title": "Haunted Mine",
+        "children": [
+          {
+            "title": "Morytania"
+          }
+        ]
+      }
     ],
     "skills": [
       {

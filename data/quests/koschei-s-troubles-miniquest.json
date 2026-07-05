@@ -3,7 +3,7 @@
   "title": "Koschei's Troubles (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:59.813Z",
+  "guideLastUpdated": "2026-07-05T04:40:32.472Z",
   "icon": "https://runescape.wiki/images/Koschei%27s_Troubles_%28miniquest%29_icon.png",
   "series": null,
   "age": "5",
@@ -19,8 +19,52 @@
   },
   "requirements": {
     "quests": [
-      "Blood Runs Deep",
-      "Ritual of the Mahjarrat"
+      {
+        "title": "Blood Runs Deep",
+        "children": [
+          {
+            "title": "Horror from the Deep"
+          },
+          {
+            "title": "Dream Mentor"
+          },
+          {
+            "title": "Glorious Memories"
+          }
+        ]
+      },
+      {
+        "title": "Ritual of the Mahjarrat",
+        "children": [
+          {
+            "title": "The Temple at Senntisten"
+          },
+          {
+            "title": "While Guthix Sleeps"
+          },
+          {
+            "title": "Hazeel Cult"
+          },
+          {
+            "title": "Enakhra's Lament"
+          },
+          {
+            "title": "The Slug Menace"
+          },
+          {
+            "title": "A Fairy Tale II - Cure a Queen"
+          },
+          {
+            "title": "Cabin Fever"
+          },
+          {
+            "title": "A Tail of Two Cats"
+          },
+          {
+            "title": "Fight Arena"
+          }
+        ]
+      }
     ],
     "skills": [
       {

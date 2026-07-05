@@ -3,7 +3,7 @@
   "title": "Final Destination (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:59.178Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.839Z",
   "icon": "https://runescape.wiki/images/thumb/Final_Destination_%28miniquest%29_icon.png/50px-Final_Destination_%28miniquest%29_icon.png",
   "series": "Tales of the Arc",
   "age": "6",
@@ -19,10 +19,42 @@
   },
   "requirements": {
     "quests": [
-      "Impressing the Locals",
-      "Tuai Leit's Own (miniquest)",
-      "Ghosts from the Past (miniquest)",
-      "Damage Control (miniquest)"
+      {
+        "title": "Impressing the Locals"
+      },
+      {
+        "title": "Tuai Leit's Own (miniquest)",
+        "children": [
+          {
+            "title": "Impressing the Locals"
+          },
+          {
+            "title": "Harbinger (miniquest)"
+          }
+        ]
+      },
+      {
+        "title": "Ghosts from the Past (miniquest)",
+        "children": [
+          {
+            "title": "Impressing the Locals"
+          },
+          {
+            "title": "Harbinger (miniquest)"
+          }
+        ]
+      },
+      {
+        "title": "Damage Control (miniquest)",
+        "children": [
+          {
+            "title": "Impressing the Locals"
+          },
+          {
+            "title": "Harbinger (miniquest)"
+          }
+        ]
+      }
     ],
     "skills": []
   },

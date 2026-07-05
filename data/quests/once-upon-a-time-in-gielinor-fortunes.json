@@ -3,7 +3,7 @@
   "title": "Once Upon a Time in Gielinor: Fortunes",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:00.348Z",
+  "guideLastUpdated": "2026-07-05T04:40:32.992Z",
   "icon": "https://runescape.wiki/images/Once_Upon_a_Time_in_Gielinor_Fortunes_icon.png",
   "length": "Short",
   "startPoint": {
@@ -12,7 +12,14 @@
   },
   "requirements": {
     "quests": [
-      "Once Upon a Time in Gielinor: Flashback"
+      {
+        "title": "Once Upon a Time in Gielinor: Flashback",
+        "children": [
+          {
+            "title": "Once Upon a Time in Gielinor: Foreshadowing"
+          }
+        ]
+      }
     ],
     "skills": []
   },

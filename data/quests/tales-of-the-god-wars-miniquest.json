@@ -3,7 +3,7 @@
   "title": "Tales of the God Wars (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:06:01.348Z",
+  "guideLastUpdated": "2026-07-05T04:40:33.973Z",
   "icon": "https://runescape.wiki/images/Tales_of_the_God_Wars_%28miniquest%29_icon.png",
   "series": "Sliske's Game",
   "age": "6",
@@ -19,9 +19,20 @@
   },
   "requirements": {
     "quests": [
-      "Morytania",
-      "God Wars Dungeon",
-      "Troll Stronghold"
+      {
+        "title": "Morytania"
+      },
+      {
+        "title": "God Wars Dungeon"
+      },
+      {
+        "title": "Troll Stronghold",
+        "children": [
+          {
+            "title": "Death Plateau"
+          }
+        ]
+      }
     ],
     "skills": [
       {

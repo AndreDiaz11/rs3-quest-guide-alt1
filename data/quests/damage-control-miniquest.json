@@ -3,7 +3,7 @@
   "title": "Damage Control (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:58.429Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.109Z",
   "icon": "https://runescape.wiki/images/thumb/Damage_Control_%28miniquest%29_icon.png/50px-Damage_Control_%28miniquest%29_icon.png",
   "series": "Tales of the Arc",
   "age": "6",
@@ -19,8 +19,63 @@
   },
   "requirements": {
     "quests": [
-      "Impressing the Locals",
-      "Harbinger (miniquest)"
+      {
+        "title": "Impressing the Locals"
+      },
+      {
+        "title": "Harbinger (miniquest)",
+        "children": [
+          {
+            "title": "Impressing the Locals"
+          },
+          {
+            "title": "Eye for an Eye (miniquest)",
+            "children": [
+              {
+                "title": "Impressing the Locals"
+              },
+              {
+                "title": "Jed Hunter (miniquest)",
+                "children": [
+                  {
+                    "title": "Impressing the Locals"
+                  },
+                  {
+                    "title": "Flag Fall (miniquest)",
+                    "children": [
+                      {
+                        "title": "Impressing the Locals"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Head of the Family (miniquest)",
+                    "children": [
+                      {
+                        "title": "Impressing the Locals"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Spiritual Enlightenment (miniquest)",
+                    "children": [
+                      {
+                        "title": "Impressing the Locals"
+                      },
+                      {
+                        "title": "Meet the Assassin"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Cyclosis"
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": []
   },

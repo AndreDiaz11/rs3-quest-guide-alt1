@@ -3,7 +3,7 @@
   "title": "Forgiveness of a Chaos Dwarf",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:59.219Z",
+  "guideLastUpdated": "2026-07-05T04:40:31.875Z",
   "icon": "https://runescape.wiki/images/Forgiveness_of_a_Chaos_Dwarf_icon.png",
   "series": "Dwarf (Red Axe)",
   "age": "ambiguous",
@@ -19,8 +19,28 @@
   },
   "requirements": {
     "quests": [
-      "Forgettable Tale of a Drunken Dwarf",
-      "Between a Rock..."
+      {
+        "title": "Forgettable Tale of a Drunken Dwarf",
+        "children": [
+          {
+            "title": "The Giant Dwarf"
+          },
+          {
+            "title": "Fishing Contest"
+          }
+        ]
+      },
+      {
+        "title": "Between a Rock...",
+        "children": [
+          {
+            "title": "Dwarf Cannon"
+          },
+          {
+            "title": "Fishing Contest"
+          }
+        ]
+      }
     ],
     "skills": [
       {

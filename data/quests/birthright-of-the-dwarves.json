@@ -3,7 +3,7 @@
   "title": "Birthright of the Dwarves",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T04:05:57.926Z",
+  "guideLastUpdated": "2026-07-05T04:40:30.754Z",
   "icon": "https://runescape.wiki/images/Birthright_of_the_Dwarves_icon.png",
   "series": "Dwarf (Red Axe)",
   "age": "ambiguous",
@@ -19,7 +19,65 @@
   },
   "requirements": {
     "quests": [
-      "King of the Dwarves"
+      {
+        "title": "King of the Dwarves",
+        "children": [
+          {
+            "title": "Forgiveness of a Chaos Dwarf",
+            "children": [
+              {
+                "title": "Forgettable Tale of a Drunken Dwarf",
+                "children": [
+                  {
+                    "title": "The Giant Dwarf"
+                  },
+                  {
+                    "title": "Fishing Contest"
+                  }
+                ]
+              },
+              {
+                "title": "Between a Rock...",
+                "children": [
+                  {
+                    "title": "Dwarf Cannon"
+                  },
+                  {
+                    "title": "Fishing Contest"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "My Arm's Big Adventure",
+            "children": [
+              {
+                "title": "Eadgar's Ruse",
+                "children": [
+                  {
+                    "title": "Druidic Ritual"
+                  },
+                  {
+                    "title": "Troll Stronghold",
+                    "children": [
+                      {
+                        "title": "Death Plateau"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Mad Eadgar"
+                  }
+                ]
+              },
+              {
+                "title": "Jungle Potion"
+              }
+            ]
+          }
+        ]
+      }
     ],
     "skills": [
       {
