@@ -22,11 +22,15 @@ function appendTextWithFairyCodes(parent, text) {
   FAIRY_CODE_RE.lastIndex = 0;
   while ((match = FAIRY_CODE_RE.exec(text)) !== null) {
     // Only treat it as a fairy ring code next to "fairy ring"/"anillo de
-    // hadas" or right at the start of the step followed by a comma — avoids
-    // bolding an unrelated all-caps word that happens to use these letters.
-    const before = text.slice(Math.max(0, match.index - 12), match.index);
+    // hadas" (optionally followed by "code"/"código:") or right at the start
+    // of the step followed by a comma — avoids bolding an unrelated all-caps
+    // word that happens to use these letters.
+    const before = text.slice(Math.max(0, match.index - 30), match.index);
     const after = text.slice(match.index + match[0].length, match.index + match[0].length + 2);
-    const nearFairyRing = /fairy ring\s*$|anillo de (?:las? )?hadas\s*$/i.test(before);
+    const nearFairyRing =
+      /(?:fairy ring|fairy code|anillo de (?:las? )?hadas|c[íi]rculo de hadas|c[óo]digo de (?:hadas|c[íi]rculo de hadas))(?:\s+code|\s+c[óo]digo)?\s*:?\s*$|\bdial\s*$|\bmarca\s*$/i.test(
+        before
+      );
     const atStart = match.index === 0 && after.startsWith(",");
     if (!nearFairyRing && !atStart) continue;
 

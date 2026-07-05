@@ -88,9 +88,12 @@ export function wikitextToPlain(raw) {
     chatOptions.push(...extractChatOptionsParts(inner));
     return "";
   });
-  // {{Fairycode|air}} -> "AIR" (a fairy ring teleport code) — stripping it entirely
-  // leaves steps with no actual instruction (e.g. "A Fairy Tale II"'s ring codes).
+  // {{Fairycode|air}} / {{fairy ring|DJP}} / {{fairyring|djp}} -> "AIR"/"DJP"
+  // (a fairy ring teleport code — three different template names/spacings
+  // the wiki uses interchangeably) — stripping it entirely leaves steps with
+  // no actual instruction.
   text = text.replace(/\{\{Fairycode\|([^{}|]+)\}\}/gi, (_match, code) => code.trim().toUpperCase());
+  text = text.replace(/\{\{fairy ?ring\|([^{}|]+)\}\}/gi, (_match, code) => code.trim().toUpperCase());
   // {{FloorNumber|3}} or {{FloorNumber|uk=1}}/{{FloorNumber|us=2}} -> "3rd floor" —
   // stripping it entirely left steps reading "the of the Wizards' Tower" with
   // the floor silently gone. Named uk=/us= params both just take the number.
