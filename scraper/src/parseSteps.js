@@ -3,6 +3,18 @@ import { extractAllTemplates, wikitextToPlain, splitIntoSections } from "./wikit
 function parseChecklistBlock(checklistContent, rawSteps, section) {
   const lines = checklistContent.split("\n");
   for (const line of lines) {
+    // `*:` (bullet immediately followed by a colon) is the wiki's own convention
+    // for a non-actionable note attached to the previous step (e.g. "If done
+    // correctly, you receive a wrinkly scroll.") — must be checked before the
+    // generic bullet pattern below, since it also starts with one or more `*`.
+    // Without this, notes were shown as their own checkable step with a stray
+    // leading ":" left in the text.
+    const noteMatch = line.match(/^(\*+):\s?(.*)$/);
+    if (noteMatch) {
+      const indent = noteMatch[1].length - 1;
+      rawSteps.push({ indent, raw: noteMatch[2], section, isNote: true });
+      continue;
+    }
     const bulletMatch = line.match(/^(\*+)\s?(.*)$/);
     if (bulletMatch) {
       const indent = bulletMatch[1].length - 1;
@@ -43,12 +55,18 @@ export function parseSteps(quickGuideWikitext) {
   // useless to show anyway, and sending blank lines to the translator causes
   // it to drop them inconsistently, breaking the line-count alignment check.
   return rawSteps
-    .map((step) => ({ indent: step.indent, section: step.section, ...wikitextToPlain(step.raw) }))
+    .map((step) => ({
+      indent: step.indent,
+      section: step.section,
+      isNote: step.isNote,
+      ...wikitextToPlain(step.raw),
+    }))
     .filter((step) => step.text.trim() !== "")
     .map((step, index) => ({
       index,
       indent: step.indent,
       section: step.section,
+      ...(step.isNote ? { isNote: true } : {}),
       text: { en: step.text },
       chatOptions: step.chatOptions,
     }));

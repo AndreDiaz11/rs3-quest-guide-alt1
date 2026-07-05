@@ -657,6 +657,13 @@ h2.section-title {
   flex-shrink: 0;
 }
 
+.step-list li.step-note {
+  margin-left: 26px;
+  font-size: 0.9em;
+  font-style: italic;
+  color: var(--text-dim);
+}
+
 .step-list li.checked span {
   color: var(--text-dim);
   text-decoration: line-through;

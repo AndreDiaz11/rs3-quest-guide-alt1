@@ -222,6 +222,19 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
       }
       const stepList = el("ul", { class: "step-list" });
       section.steps.forEach((step) => {
+        // "*: " notes from the wiki (e.g. "If done correctly, you receive a
+        // wrinkly scroll.") are informational, not an actual action to take —
+        // shown without a checkbox, matching how the wiki itself displays them.
+        if (step.isNote) {
+          const li = el("li", { class: `step-note indent-${step.indent}` });
+          li.appendChild(el("span", { text: localizedText(step.text, lang) }));
+          if (step.chatOptions?.length) {
+            li.appendChild(renderChatOptionsButton(step.chatOptions, lang));
+          }
+          stepList.appendChild(li);
+          return;
+        }
+
         const checked = isCompleted || manualChecks.has(step.index);
         const li = el("li", { class: `indent-${step.indent}${checked ? " checked" : ""}` });
         const checkbox = el("input", { type: "checkbox" });
