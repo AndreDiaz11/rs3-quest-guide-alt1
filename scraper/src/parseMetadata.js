@@ -108,15 +108,18 @@ function parseQuestDetailsTable(quickGuideHtml) {
     .find('td[data-attr-param="itemsDisp"] .lighttable.checklist li')
     .each((_, el) => {
       const $el = $(el);
+      const display = $el.text().replace(/\s+/g, " ").trim();
       const link = $el.find("a").first();
       // Use the link's `title` attribute (the canonical wiki page name) for
       // image lookups, since the visible text can be pluralized/lowercased
       // ("ropes", "seaweed") and not match the actual page title ("Rope").
-      const canonicalName = link.attr("title") || link.text().trim() || $el.text().trim();
-      items.push({
-        name: canonicalName,
-        display: $el.text().replace(/\s+/g, " ").trim(),
-      });
+      // Coin amounts render as plain text with no link at all (e.g. "3 coins"),
+      // so falling back to that literal text failed to resolve any image —
+      // "Coins" is the real page.
+      const canonicalName = /^[\d,]+\s+coins?$/i.test(display)
+        ? "Coins"
+        : link.attr("title") || link.text().trim() || display;
+      items.push({ name: canonicalName, display });
     });
 
   const kills = [];

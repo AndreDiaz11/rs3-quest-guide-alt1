@@ -25,6 +25,13 @@ function parseRewardListItem($, el) {
     };
   }
 
+  // Coin rewards render as plain text with no link at all (e.g. "500 coins"),
+  // so the item name would otherwise fall back to the literal quantity-
+  // prefixed text and fail to resolve an image — "Coins" is the real page.
+  if (/^[\d,]+\s+coins?$/i.test(text)) {
+    return { type: "item", name: "Coins", display: text };
+  }
+
   const itemLink = $el.find('a[href^="/w/"]').first();
   return {
     type: "item",
