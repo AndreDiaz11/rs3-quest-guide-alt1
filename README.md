@@ -1,4 +1,4 @@
-# RS3 Quest Guide — Alt1 Plugin
+# Quest Compass — Alt1 Plugin para RS3
 
 Plugin de [Alt1 Toolkit](https://runeapps.org/alt1) para RuneScape 3: guía de misiones en español,
 con datos e imágenes sacados de [runescape.wiki](https://runescape.wiki), y marcado automático de

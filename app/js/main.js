@@ -57,7 +57,16 @@ async function refreshRuneMetrics() {
   }
 }
 
-/** Shows a RuneMetrics status message when relevant, otherwise renders the given quest (or the first one). */
+const WELCOME_HTML = `
+  <div id="welcome-screen">
+    <h1>Quest Compass</h1>
+    <p>Elige una misión de la lista para ver su guía completa.</p>
+    <p>Para marcar automáticamente las misiones que ya completaste, abre
+      <strong>Ajustes (&#9881;)</strong> y escribe tu nombre de jugador de RuneScape.</p>
+  </div>
+`;
+
+/** Shows a RuneMetrics status message when relevant, otherwise renders the given quest (or a welcome screen on first run). */
 function showRuneMetricsResultOrQuest(rmResult, questIdToShow) {
   if (rmResult.fetchFailed) {
     detail.innerHTML =
@@ -65,6 +74,8 @@ function showRuneMetricsResultOrQuest(rmResult, questIdToShow) {
   } else if (rmResult.invalidOrPrivate && !rmResult.noUsername) {
     detail.innerHTML =
       '<p id="detail-placeholder">No se encontró ese nombre de jugador en RuneMetrics, o su perfil es privado. Revisa el nombre en Ajustes.</p>';
+  } else if (rmResult.noUsername && !state.selectedQuestId) {
+    detail.innerHTML = WELCOME_HTML;
   } else if (questIdToShow) {
     selectQuest(questIdToShow);
   }

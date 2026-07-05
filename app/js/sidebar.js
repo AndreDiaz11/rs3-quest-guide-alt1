@@ -1,4 +1,4 @@
-import { state, questStatus } from "./state.js";
+import { state, questStatus, isSynced } from "./state.js";
 import {
   diamondIcon,
   checkCircleIcon,
@@ -8,6 +8,7 @@ import {
   scrollIcon,
   questIcon,
   compassIcon,
+  unsyncedIcon,
 } from "./icons.js";
 
 const STATUS_COLOR = {
@@ -109,6 +110,16 @@ function syncFilterChips(filterBarEl) {
 }
 
 function renderCounter(container) {
+  const logoEl = container.querySelector("#counter-logo");
+  if (logoEl && !logoEl.innerHTML) logoEl.innerHTML = compassIcon();
+  const textEl = container.querySelector("#counter-text");
+  if (!textEl) return;
+
+  if (!isSynced()) {
+    textEl.innerHTML = `Configura tu usuario en <strong>Ajustes</strong> para ver tu progreso`;
+    return;
+  }
+
   // Las minimisiones dan 0 puntos siempre; las de temporada sí cuentan hacia el
   // total nativo (confirmado contra una cuenta real vía RunePixels). El contador
   // siempre usa el dataset completo, sin importar qué casilleros estén activos.
@@ -118,20 +129,16 @@ function renderCounter(container) {
     (sum, q) => sum + (questStatus(q.id) === "COMPLETED" ? q.questPoints || 0 : 0),
     0
   );
-  const logoEl = container.querySelector("#counter-logo");
-  if (logoEl && !logoEl.innerHTML) logoEl.innerHTML = compassIcon();
-  const textEl = container.querySelector("#counter-text");
   const remaining = totalQP - doneQP;
-  if (textEl) {
-    textEl.innerHTML =
-      `Puntos de misión<br><strong>${doneQP} / ${totalQP}</strong> <span class="counter-remaining">(quedan ${remaining})</span>`;
-  }
+  textEl.innerHTML =
+    `Puntos de misión<br><strong>${doneQP} / ${totalQP}</strong> <span class="counter-remaining">(quedan ${remaining})</span>`;
 }
 
 function rowVisual(quest) {
   const status = questStatus(quest.id);
   if (quest.isSeasonal) return { diamond: EVENT_COLOR, right: calendarIcon("var(--quest-event)") };
   if (quest.isMiniquest) return { diamond: STATUS_COLOR[status], right: scrollIcon(MINIQUEST_COLOR) };
+  if (!isSynced()) return { diamond: "var(--text-dim)", right: unsyncedIcon("var(--text-dim)") };
   if (status === "COMPLETED") return { diamond: STATUS_COLOR[status], right: checkCircleIcon(STATUS_COLOR[status]) };
   if (status === "STARTED") return { diamond: STATUS_COLOR[status], right: clockCircleIcon(STATUS_COLOR[status]) };
   return { diamond: STATUS_COLOR[status], right: xCircleIcon(STATUS_COLOR[status]) };
@@ -153,7 +160,11 @@ function renderList(listEl, onSelect) {
     const status = questStatus(quest.id);
     const { diamond, right } = rowVisual(quest);
     const li = document.createElement("li");
-    li.className = quest.isSeasonal ? "status-locked" : `status-${status.toLowerCase().replace("_", "-")}`;
+    li.className = quest.isSeasonal
+      ? "status-locked"
+      : !isSynced() && !quest.isMiniquest
+        ? "status-unsynced"
+        : `status-${status.toLowerCase().replace("_", "-")}`;
     if (quest.id === state.selectedQuestId) li.classList.add("selected");
 
     const titleText = quest.isSeasonal ? `${quest.title} 🎉` : quest.title;

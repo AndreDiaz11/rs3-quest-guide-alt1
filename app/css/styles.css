@@ -142,6 +142,7 @@ h1, h2, .app-title-font {
 #quest-list li.status-started { color: var(--quest-yellow); }
 #quest-list li.status-not-started { color: var(--quest-red); }
 #quest-list li.status-locked { color: var(--quest-event); }
+#quest-list li.status-unsynced { color: var(--text-dim); }
 #quest-list li.selected {
   background: rgba(224, 184, 74, 0.16);
   box-shadow: inset 2px 0 0 var(--gold);
@@ -357,6 +358,27 @@ h1, h2, .app-title-font {
 
 #detail-placeholder {
   color: var(--text-dim);
+}
+
+#welcome-screen {
+  max-width: 480px;
+  margin: 10vh auto 0;
+  text-align: center;
+  color: var(--text-dim);
+}
+
+#welcome-screen h1 {
+  color: var(--gold-bright);
+  font-size: 1.6em;
+  margin-bottom: 18px;
+}
+
+#welcome-screen p {
+  line-height: 1.5;
+}
+
+#welcome-screen strong {
+  color: var(--gold);
 }
 
 .quest-header {

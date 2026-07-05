@@ -1,4 +1,4 @@
-# RS3 Quest Guide — Alt1 Plugin
+# Quest Compass — Alt1 Plugin para RS3
 
 ## Qué es
 Plugin para Alt1 Toolkit (overlay de RuneScape 3) que muestra una guía de misiones estilo wiki

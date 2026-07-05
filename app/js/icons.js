@@ -59,6 +59,13 @@ export function questIcon(color) {
   );
 }
 
+/** Neutral placeholder shown per-quest before a RuneScape username is configured (no real progress data yet). */
+export function unsyncedIcon(color) {
+  return svg(
+    `<circle cx="12" cy="12" r="9" fill="none" stroke="${color}" stroke-width="2" stroke-dasharray="3 3"/>`
+  );
+}
+
 /** Compass/star emblem used in the header and footer. */
 export function compassIcon(color = "var(--gold-bright)", ringColor = "var(--gold)") {
   return svg(

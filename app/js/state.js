@@ -37,6 +37,16 @@ export function questStatus(questId) {
 }
 
 /**
+ * Whether a RuneScape username is configured, i.e. whether progress data is
+ * real (synced with RuneMetrics) or just the unconfigured default. Used to
+ * show a neutral "not synced yet" look instead of a wall of red "incomplete"
+ * quests on first run, before the user has set anything in Ajustes.
+ */
+export function isSynced() {
+  return Boolean(state.settings.username && state.settings.username.trim());
+}
+
+/**
  * Whether the player's real level meets a skill requirement, e.g.
  * { skill: "Construction", level: 5 } or { skill: "combat level", level: 75 }.
  * Returns null (unknown) if we don't have the player's levels loaded yet.
