@@ -137,26 +137,36 @@ function renderRequirementsList(quest) {
 function chatOptionMarker(opt) {
   const match = opt.match(/^([#?\d]+)\s+/);
   if (match) return match[1];
-  if (opt.trim().toLowerCase() === "any") return "~";
-  // Options with no leading marker at all (e.g. "Accept", "Yes.") use "?" like
-  // the other undetermined-position markers — using "•" here collided
-  // visually with the "•" that joins markers together (e.g. "1•••5" instead
-  // of a single clean separator).
+  const lower = opt.trim().toLowerCase();
+  if (lower === "any") return "~";
+  if (lower === "accept") return "✓";
+  // Options with no leading marker at all (e.g. "Yes.") use "?" like the
+  // other undetermined-position markers — using "•" here collided visually
+  // with the "•" that joins markers together (e.g. "1•••5" instead of a
+  // single clean separator).
   return "?";
 }
 
+/**
+ * A popup line matching the wiki's own plain style: bold marker (no period),
+ * plain dialogue text (no quotes/italics) — the previous quoted-italic look
+ * didn't match the wiki at all.
+ */
 function renderChatOptionLine(opt) {
   const li = el("li");
   const match = opt.match(/^([#?\d]+)\s+(.+)$/);
+  const lower = opt.trim().toLowerCase();
   if (match) {
     const [, marker, dialogue] = match;
-    li.appendChild(el("span", { class: "chat-opt-num", text: `${marker}.` }));
-    li.appendChild(el("em", { class: "chat-opt-text", text: `"${dialogue}"` }));
-  } else if (opt.trim().toLowerCase() === "any") {
-    // Matches the wiki's own literal "~ [Any option]" notation — a UI label,
-    // not real dialogue, so no quotes/italics like the numbered lines get.
+    li.appendChild(el("span", { class: "chat-opt-num", text: marker }));
+    li.appendChild(document.createTextNode(" " + dialogue));
+  } else if (lower === "any") {
+    // Matches the wiki's own literal "~ [Any option]" notation.
     li.appendChild(el("span", { class: "chat-opt-num", text: "~" }));
     li.appendChild(document.createTextNode(" [Any option]"));
+  } else if (lower === "accept") {
+    li.appendChild(el("span", { class: "chat-opt-num", text: "✓" }));
+    li.appendChild(document.createTextNode(" [Accept Quest]"));
   } else {
     li.appendChild(document.createTextNode(opt));
   }
