@@ -6,6 +6,37 @@ function localizedText(field, lang) {
   return field[lang] || field.en || "";
 }
 
+// Fairy ring teleport codes only ever use these 12 letters (two dials of six
+// each), so matching runs made up of just these characters is safe — real
+// words in guide text don't collide with this alphabet.
+const FAIRY_CODE_RE = /\b([AIDKBCJLPQRS]{2,4})\b/g;
+
+/**
+ * Appends `text` to `parent`, rendering fairy ring codes (e.g. "DKQ") in bold
+ * with letter-spacing so they stand out like the wiki's own stylized
+ * lettering, instead of blending into the sentence as plain text.
+ */
+function appendTextWithFairyCodes(parent, text) {
+  let lastIndex = 0;
+  let match;
+  FAIRY_CODE_RE.lastIndex = 0;
+  while ((match = FAIRY_CODE_RE.exec(text)) !== null) {
+    // Only treat it as a fairy ring code next to "fairy ring"/"anillo de
+    // hadas" or right at the start of the step followed by a comma — avoids
+    // bolding an unrelated all-caps word that happens to use these letters.
+    const before = text.slice(Math.max(0, match.index - 12), match.index);
+    const after = text.slice(match.index + match[0].length, match.index + match[0].length + 2);
+    const nearFairyRing = /fairy ring\s*$|anillo de (?:las? )?hadas\s*$/i.test(before);
+    const atStart = match.index === 0 && after.startsWith(",");
+    if (!nearFairyRing && !atStart) continue;
+
+    parent.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+    parent.appendChild(el("b", { class: "fairy-code", text: match[1] }));
+    lastIndex = match.index + match[0].length;
+  }
+  parent.appendChild(document.createTextNode(text.slice(lastIndex)));
+}
+
 function manualChecksKey(questId) {
   return `manualChecks:${questId}`;
 }
@@ -187,7 +218,7 @@ function renderChatOptionsSummary(options) {
  */
 function renderStepContent(step, lang) {
   const wrap = el("span", { class: "step-text" });
-  wrap.appendChild(document.createTextNode(localizedText(step.text, lang)));
+  appendTextWithFairyCodes(wrap, localizedText(step.text, lang));
   if (step.chatOptions?.length) {
     wrap.appendChild(renderChatOptionsSummary(step.chatOptions));
   }
