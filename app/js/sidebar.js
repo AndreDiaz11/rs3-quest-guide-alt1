@@ -84,6 +84,7 @@ function buildFilterBar(container, onChange) {
   chips.forEach(({ key, label, icon, variant }) => {
     const btn = document.createElement("button");
     btn.type = "button";
+    btn.dataset.filterKey = key;
     btn.className = `filter-chip chip-${variant}${state.activeFilters[key] ? " active" : ""}`;
     btn.innerHTML = `<span class="chip-icon">${icon}</span><span>${label}</span>`;
     btn.addEventListener("click", () => {
@@ -95,6 +96,16 @@ function buildFilterBar(container, onChange) {
   bar.appendChild(chipsWrap);
 
   container.appendChild(bar);
+}
+
+// El bar se construye una sola vez (ver comentario arriba), pero el estado
+// activo/inactivo de cada chip sí cambia con cada clic — hay que reflejarlo
+// en el DOM en cada render, si no los botones se quedaban visualmente
+// congelados en su estado inicial aunque el filtro sí funcionara.
+function syncFilterChips(filterBarEl) {
+  filterBarEl.querySelectorAll(".filter-chip").forEach((btn) => {
+    btn.classList.toggle("active", Boolean(state.activeFilters[btn.dataset.filterKey]));
+  });
 }
 
 function renderCounter(container) {
@@ -164,6 +175,7 @@ export function renderSidebar({ filterBarEl, listEl, counterEl }, onSelect) {
     initializedFilterBars.add(filterBarEl);
     buildFilterBar(filterBarEl, () => renderSidebar({ filterBarEl, listEl, counterEl }, onSelect));
   }
+  syncFilterChips(filterBarEl);
 
   const headerLogo = document.getElementById("header-logo");
   if (headerLogo && !initializedHeaders.has(headerLogo)) {
