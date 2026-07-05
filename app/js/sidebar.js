@@ -17,6 +17,7 @@ const STATUS_COLOR = {
   NOT_STARTED: "var(--quest-red)",
 };
 const MINIQUEST_COLOR = "var(--quest-miniquest)";
+const EVENT_COLOR = "var(--quest-event)";
 
 function normalizeSearch(text) {
   return text
@@ -142,7 +143,7 @@ function rowVisual(quest) {
   const status = questStatus(quest.id);
   if (!isSynced() && !quest.isMiniquest) return { diamond: "var(--text-dim)", right: unsyncedIcon("var(--text-dim)") };
   const color = STATUS_COLOR[status];
-  if (quest.isSeasonal) return { diamond: color, right: calendarIcon(color) };
+  if (quest.isSeasonal) return { diamond: color, right: calendarIcon(EVENT_COLOR) };
   if (quest.isMiniquest) return { diamond: color, right: scrollIcon(MINIQUEST_COLOR) };
   if (status === "COMPLETED") return { diamond: color, right: checkCircleIcon(color) };
   if (status === "STARTED") return { diamond: color, right: clockCircleIcon(color) };
@@ -169,7 +170,7 @@ function renderList(listEl, onSelect) {
       !isSynced() && !quest.isMiniquest ? "status-unsynced" : `status-${status.toLowerCase().replace("_", "-")}`;
     if (quest.id === state.selectedQuestId) li.classList.add("selected");
 
-    const titleText = quest.isSeasonal ? `${quest.title} 🎉` : quest.title;
+    const titleText = quest.isSeasonal ? `🎉 ${quest.title}` : quest.title;
     li.innerHTML =
       `<span class="row-diamond">${diamondIcon(diamond)}</span>` +
       `<span class="row-title">${titleText}</span>` +
