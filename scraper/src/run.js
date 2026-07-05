@@ -47,12 +47,33 @@ function isSagaTitle(title) {
   return /\(saga\)$/i.test(title);
 }
 
-async function scrapeOne(title, { skipTranslate }, seasonalTitles) {
+/**
+ * True for wiki pages that aren't a real, currently-playable quest: the old
+ * pre-rework version of a quest that already has its own current page
+ * ("X (historical)"), content removed from the game entirely
+ * ({{Deleted content}}/{{Quest reworked}}), or a seasonal-event overview page
+ * ({{Infobox Event}}) rather than the actual quest/miniquest infobox our
+ * parser expects. Found via the automated new-quest checker picking up wiki
+ * pages that exist in Category:Quick guides but aren't meant to be scraped.
+ */
+function isNonPlayableContent(title, mainWikitext) {
+  return (
+    /\(historical\)$/i.test(title) ||
+    /\{\{Deleted content\}\}|\{\{Quest reworked/i.test(mainWikitext) ||
+    /\{\{Infobox Event/i.test(mainWikitext)
+  );
+}
+
+export async function scrapeOne(title, { skipTranslate }, seasonalTitles) {
   if (isSagaTitle(title)) {
     throw new Error("Es una Saga (Fremennik Sagas), no una misión normal — excluida a propósito.");
   }
 
   const page = await fetchQuestPage(title);
+
+  if (isNonPlayableContent(title, page.mainWikitext)) {
+    throw new Error("Contenido histórico/eliminado del juego, no una misión jugable actual — excluida a propósito.");
+  }
 
   const metadata = parseMetadata(page);
   const rewardsData = parseRewards(page.quickGuideHtml);
@@ -145,7 +166,12 @@ async function main() {
   process.exit(1);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+// Only run the CLI when this file is executed directly (`node src/run.js`),
+// not when another script imports `scrapeOne` from it (e.g. checkNewQuests.js)
+// — importing used to trigger this immediately with no CLI args and exit(1).
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

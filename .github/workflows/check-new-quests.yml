@@ -1,0 +1,44 @@
+name: Check for new RS3 quests
+
+on:
+  schedule:
+    - cron: "0 12 * * 1" # every Monday at noon UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install scraper dependencies
+        run: npm install
+        working-directory: scraper
+
+      # Only ever scrapes NEW quest pages in English (free, no Anthropic API
+      # key needed or used) — never translates, never touches existing quests.
+      - name: Scrape any new quests
+        run: node src/checkNewQuests.js
+        working-directory: scraper
+
+      - name: Open a PR if anything new was found
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Add new quest(s) scraped in English (needs translation)"
+          title: "New RS3 quest(s) detected"
+          body-path: scraper/new-quests-summary.txt
+          branch: auto/new-quests
+          delete-branch: true
+          add-paths: |
+            data/index.json
+            data/quests/*.json
