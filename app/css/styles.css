@@ -35,19 +35,63 @@ h1, h2, .app-title-font {
 }
 
 #app {
-  display: flex;
+  position: relative;
   height: 100vh;
   min-height: 650px;
   border: 1px solid var(--border-light);
+  overflow: hidden;
 }
 
+/* El sidebar flota ENCIMA del panel de detalle (nunca lo empuja/comprime) —
+   así el detalle siempre ocupa toda la ventana, sin importar si el sidebar
+   está abierto o cerrado. Se abre/cierra con el botón hamburguesa. */
 #sidebar {
+  position: absolute;
+  inset: 0 auto 0 0;
   width: 280px;
-  flex-shrink: 0;
   background: linear-gradient(180deg, var(--bg-panel-alt), var(--bg-panel) 60%);
   border-right: 1px solid var(--border);
   display: flex;
   flex-direction: column;
+  z-index: 50;
+  box-shadow: 6px 0 24px rgba(0, 0, 0, 0.5);
+  transform: translateX(-100%);
+  transition: transform 0.2s ease;
+}
+
+#sidebar.open {
+  transform: translateX(0);
+}
+
+#sidebar-toggle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 60;
+  background: var(--bg-panel);
+  border: 1px solid var(--border-light);
+  color: var(--gold);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 1.1em;
+  line-height: 1;
+}
+
+#sidebar-toggle:hover {
+  color: var(--gold-bright);
+}
+
+#sidebar-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 40;
+  display: none;
+}
+
+#sidebar-backdrop.open {
+  display: block;
 }
 
 #sidebar-header {
@@ -360,8 +404,9 @@ h1, h2, .app-title-font {
 }
 
 #detail {
-  flex: 1;
-  padding: 22px 30px;
+  width: 100%;
+  height: 100%;
+  padding: 22px 30px 22px 56px;
   overflow-y: auto;
   background: radial-gradient(ellipse at top, var(--bg-panel-alt) 0%, var(--bg-panel) 70%);
 }

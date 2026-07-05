@@ -13,6 +13,19 @@ const listEl = document.getElementById("quest-list");
 const counterEl = document.getElementById("quest-counter");
 const detail = document.getElementById("detail");
 const settingsBtn = document.getElementById("settings-btn");
+const sidebarEl = document.getElementById("sidebar");
+const sidebarBackdrop = document.getElementById("sidebar-backdrop");
+const sidebarToggle = document.getElementById("sidebar-toggle");
+
+function setSidebarOpen(open) {
+  sidebarEl.classList.toggle("open", open);
+  sidebarBackdrop.classList.toggle("open", open);
+}
+
+sidebarToggle.addEventListener("click", () => {
+  setSidebarOpen(!sidebarEl.classList.contains("open"));
+});
+sidebarBackdrop.addEventListener("click", () => setSidebarOpen(false));
 
 function refreshSidebar() {
   renderSidebar({ filterBarEl, listEl, counterEl }, selectQuest);
@@ -21,6 +34,7 @@ function refreshSidebar() {
 async function selectQuest(id) {
   state.selectedQuestId = id;
   refreshSidebar();
+  setSidebarOpen(false); // elegir una misión cierra el cajón — el detalle debe quedar libre para jugar
   detail.innerHTML = '<p id="detail-placeholder">Cargando...</p>';
   try {
     const quest = await fetchQuest(id);
@@ -98,6 +112,7 @@ async function main() {
   state.settings = loadSettings();
   state.index = await fetchIndex();
   await loadSkillIcons();
+  setSidebarOpen(true); // abierto al iniciar para poder elegir una misión
 
   settingsBtn.addEventListener("click", openSettings);
 

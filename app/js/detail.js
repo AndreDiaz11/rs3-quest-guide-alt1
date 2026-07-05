@@ -79,9 +79,19 @@ function openImageLightbox(src) {
   const close = el("button", { class: "lightbox-close", type: "button", text: "✕" });
   overlay.appendChild(img);
   overlay.appendChild(close);
-  overlay.addEventListener("click", () => overlay.remove());
-  close.addEventListener("click", () => overlay.remove());
+
+  const closeLightbox = () => {
+    if (document.fullscreenElement === overlay) document.exitFullscreen?.().catch(() => {});
+    overlay.remove();
+  };
+  overlay.addEventListener("click", closeLightbox);
+  close.addEventListener("click", closeLightbox);
+
   document.body.appendChild(overlay);
+  // Try to use the actual OS-level fullscreen (bigger than the plugin's own
+  // window) so reward art can be read up close; some Alt1/CEF builds don't
+  // support it, so silently fall back to the in-app overlay if it's refused.
+  overlay.requestFullscreen?.().catch(() => {});
 }
 
 /** The wiki's reward banner image, shown as a thumbnail with a zoom button that opens it fullscreen. */
