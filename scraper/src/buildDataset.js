@@ -41,8 +41,23 @@ export async function buildQuestRecord({
   const now = new Date().toISOString();
 
   // Translate all step text + start point in one batch call (context stays together).
-  const textsToTranslate = [metadata.startPoint || "", ...steps.map((s) => s.text.en)];
-  const translated = await maybeTranslate(textsToTranslate, skipTranslate);
+  // Empty strings (e.g. a quest with no scraped start point) are skipped before
+  // sending — an empty line in the batch gets silently dropped by the model,
+  // which desyncs every line after it and makes the length check fail forever.
+  const allTexts = [metadata.startPoint || "", ...steps.map((s) => s.text.en)];
+  const nonEmptyIndexes = [];
+  const nonEmptyTexts = [];
+  allTexts.forEach((text, i) => {
+    if (text.trim() !== "") {
+      nonEmptyIndexes.push(i);
+      nonEmptyTexts.push(text);
+    }
+  });
+  const translatedNonEmpty = await maybeTranslate(nonEmptyTexts, skipTranslate);
+  const translated = new Array(allTexts.length).fill(null);
+  nonEmptyIndexes.forEach((originalIndex, i) => {
+    translated[originalIndex] = translatedNonEmpty[i];
+  });
   const [startPointEs, ...stepEsTexts] = translated;
 
   const stepsWithEs = steps.map((step, i) => ({

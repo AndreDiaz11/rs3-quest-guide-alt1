@@ -32,10 +32,6 @@ function parseArgs(argv) {
 async function migrateOne(slug) {
   const oldRaw = await readFile(path.join(QUESTS_DIR, `${slug}.json`), "utf8");
   const old = JSON.parse(oldRaw);
-  if (!old.steps || old.steps.length === 0) {
-    console.log(`[skip] ${slug}: sin pasos (misión hub), nada que migrar`);
-    return;
-  }
 
   const page = await fetchQuestPage(old.title);
   const metadata = parseMetadata(page);
@@ -44,8 +40,13 @@ async function migrateOne(slug) {
   try {
     steps = parseSteps(page.quickGuideWikitext);
   } catch (err) {
-    console.error(`[error] ${slug}: ${err.message}`);
-    return;
+    if (!err.message.includes("No {{Checklist") || !old.guideNote) {
+      console.error(`[error] ${slug}: ${err.message}`);
+      return;
+    }
+    // Hub quest (e.g. Recipe for Disaster) — no walkthrough of its own, but its
+    // metadata (requirements, rewards, etc.) still needs to stay up to date.
+    steps = [];
   }
 
   // Build fresh (English-only, skipTranslate) so no AI credits are spent.
