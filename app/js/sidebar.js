@@ -16,7 +16,6 @@ const STATUS_COLOR = {
   STARTED: "var(--quest-yellow)",
   NOT_STARTED: "var(--quest-red)",
 };
-const EVENT_COLOR = "var(--quest-event)";
 const MINIQUEST_COLOR = "var(--quest-miniquest)";
 
 function normalizeSearch(text) {
@@ -134,14 +133,20 @@ function renderCounter(container) {
     `Puntos de misión<br><strong>${doneQP} / ${totalQP}</strong> <span class="counter-remaining">(quedan ${remaining})</span>`;
 }
 
+// El color (verde/amarillo/rojo) siempre refleja el estado REAL de la misión,
+// sin importar el tipo — antes las misiones de temporada se veían siempre en
+// azul aunque estuvieran incompletas, lo cual confundía con "incompleta" de
+// verdad (rojo). El ícono de la derecha sí distingue el tipo (calendario para
+// eventos, pergamino para minimisiones).
 function rowVisual(quest) {
   const status = questStatus(quest.id);
-  if (quest.isSeasonal) return { diamond: EVENT_COLOR, right: calendarIcon("var(--quest-event)") };
-  if (quest.isMiniquest) return { diamond: STATUS_COLOR[status], right: scrollIcon(MINIQUEST_COLOR) };
-  if (!isSynced()) return { diamond: "var(--text-dim)", right: unsyncedIcon("var(--text-dim)") };
-  if (status === "COMPLETED") return { diamond: STATUS_COLOR[status], right: checkCircleIcon(STATUS_COLOR[status]) };
-  if (status === "STARTED") return { diamond: STATUS_COLOR[status], right: clockCircleIcon(STATUS_COLOR[status]) };
-  return { diamond: STATUS_COLOR[status], right: xCircleIcon(STATUS_COLOR[status]) };
+  if (!isSynced() && !quest.isMiniquest) return { diamond: "var(--text-dim)", right: unsyncedIcon("var(--text-dim)") };
+  const color = STATUS_COLOR[status];
+  if (quest.isSeasonal) return { diamond: color, right: calendarIcon(color) };
+  if (quest.isMiniquest) return { diamond: color, right: scrollIcon(MINIQUEST_COLOR) };
+  if (status === "COMPLETED") return { diamond: color, right: checkCircleIcon(color) };
+  if (status === "STARTED") return { diamond: color, right: clockCircleIcon(color) };
+  return { diamond: color, right: xCircleIcon(color) };
 }
 
 function renderList(listEl, onSelect) {
@@ -160,11 +165,8 @@ function renderList(listEl, onSelect) {
     const status = questStatus(quest.id);
     const { diamond, right } = rowVisual(quest);
     const li = document.createElement("li");
-    li.className = quest.isSeasonal
-      ? "status-locked"
-      : !isSynced() && !quest.isMiniquest
-        ? "status-unsynced"
-        : `status-${status.toLowerCase().replace("_", "-")}`;
+    li.className =
+      !isSynced() && !quest.isMiniquest ? "status-unsynced" : `status-${status.toLowerCase().replace("_", "-")}`;
     if (quest.id === state.selectedQuestId) li.classList.add("selected");
 
     const titleText = quest.isSeasonal ? `${quest.title} 🎉` : quest.title;
