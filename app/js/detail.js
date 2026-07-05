@@ -33,13 +33,11 @@ function el(tag, props = {}, children = []) {
   return node;
 }
 
-function renderItemChip(item) {
-  const chip = el("span", { class: "item-chip" });
-  if (item.image) {
-    chip.appendChild(el("img", { src: item.image, alt: item.name }));
-  }
-  chip.appendChild(document.createTextNode(item.display || item.name));
-  return chip;
+function renderItemRow(item) {
+  const li = el("li");
+  if (item.image) li.appendChild(el("img", { src: item.image, alt: item.name }));
+  li.appendChild(document.createTextNode(item.display || item.name));
+  return li;
 }
 
 function renderRewardChip(reward) {
@@ -194,9 +192,9 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
 
   if (quest.items?.length) {
     container.appendChild(el("h2", { class: "section-title", text: "Items requeridos" }));
-    const itemsWrap = el("div");
-    quest.items.forEach((item) => itemsWrap.appendChild(renderItemChip(item)));
-    container.appendChild(itemsWrap);
+    const itemsList = el("ul", { class: "items-plain-list" });
+    quest.items.forEach((item) => itemsList.appendChild(renderItemRow(item)));
+    container.appendChild(itemsList);
   }
 
   if (quest.guideNote) {
