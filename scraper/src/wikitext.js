@@ -112,9 +112,31 @@ function ordinal(n) {
   return `${n}${ORDINAL_SUFFIXES[ordinalFormatter.select(n)]}`;
 }
 
+// Mirrors parseTables.js's own figure-detection signals (kept separate, not
+// imported, to avoid a circular import between the two modules): thumb/frame,
+// or an explicit size of 100px or more (real inline icons are always small).
+const FIGURE_KEYWORD_RE = /\|\s*(?:thumb(?:nail)?|frame(?:d)?|\d{3,}x?\d*px)\s*(\||\])/i;
+
 export function wikitextToPlain(raw) {
   let text = raw;
   const chatOptions = [];
+  const icons = [];
+
+  // A bare inline icon (e.g. "[[File:Mining spot map icon.png]] [[TzHaar City
+  // mine]]" — a small icon right before the place name it illustrates, no
+  // caption/size params) was falling through to the generic [[Link]] handler
+  // below, which doesn't know about File: links and left the literal
+  // "File:Mining spot map icon.png" text in the step. Standalone floating
+  // figures (thumb/frame) are handled structurally elsewhere (parseSteps.js)
+  // and never reach this function, so anything left here is safe to treat as
+  // a small inline icon: pull it out (shown as its own icon in the app,
+  // se attaches to the step, not embedded mid-sentence since word order
+  // shifts across translation) and remove it from the flowing text.
+  text = text.replace(/\[\[File:([^|\]]+)((?:\|[^\]]*)*)\]\]/gi, (match, filename) => {
+    if (FIGURE_KEYWORD_RE.test(match)) return match; // leave any stray figure alone, don't mangle it here
+    icons.push(filename.trim());
+    return "";
+  });
 
   // {{Chat option|...}} (singular) is used interchangeably with the plural
   // {{Chat options|...}} on some pages — both need to be captured, or the
@@ -160,7 +182,7 @@ export function wikitextToPlain(raw) {
   text = text.replace(/'''([^']+)'''/g, "$1");
   text = text.replace(/''([^']+)''/g, "$1");
 
-  return { text: text.replace(/\s+/g, " ").trim(), chatOptions };
+  return { text: text.replace(/\s+/g, " ").trim(), chatOptions, icons };
 }
 
 /**

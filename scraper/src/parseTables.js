@@ -9,14 +9,25 @@ import { wikitextToPlain } from "./wikitext.js";
 const IMAGE_KEYWORD_RE =
   /^(thumb(nail)?|frame(d)?|frameless|border|left|right|center|centre|none|upright(=[\d.]+)?|\d+x?\d*px|alt=.*|link=.*|page=.*|class=.*|lang=.*)$/i;
 
+// A solution image can also skip "thumb"/"frame" entirely and just specify a
+// large explicit size instead (e.g. King of the Dwarves' key-combination
+// figure: "750px|centre|Caption") — real inline icons are always small
+// (~15-25px) or unsized, so treat >=100px as an equally strong "this is a
+// real standalone image" signal.
+const LARGE_SIZE_RE = /^(\d{3,})x?\d*px$/i;
+
 /**
  * Parses a `[[File:...]]` link's params (everything after the filename) and
- * returns `{ caption }` if it's a real floated figure (has thumb/frame),
- * or `null` if it's just an inline icon that should be left alone.
+ * returns `{ caption }` if it's a real floated figure (has thumb/frame, or an
+ * explicitly large size), or `null` if it's just an inline icon that should
+ * be left alone.
  */
 export function parseFileParams(paramsString) {
   const parts = paramsString.split("|").filter((p) => p !== "");
-  const isFigure = parts.some((p) => /^(thumb(nail)?|frame(d)?)$/i.test(p.trim()));
+  const isFigure = parts.some((p) => {
+    const trimmed = p.trim();
+    return /^(thumb(nail)?|frame(d)?)$/i.test(trimmed) || LARGE_SIZE_RE.test(trimmed);
+  });
   if (!isFigure) return null;
   const captionParts = parts.filter((p) => !IMAGE_KEYWORD_RE.test(p.trim()));
   const caption = captionParts.length > 0 ? wikitextToPlain(captionParts[captionParts.length - 1]).text : null;

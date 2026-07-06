@@ -96,12 +96,20 @@ export async function buildQuestRecord({
       : { ...step, text: { en: step.text.en, ...(stepEsTexts[i] ? { es: stepEsTexts[i] } : {}) } }
   );
 
-  // Resolve every standalone solution-image filename to its real URL.
+  // Resolve every standalone solution-image filename, plus every small inline
+  // icon referenced within a step's own sentence (e.g. a mining-spot icon
+  // right before a place name), to their real URLs in one batch.
   const imageStepFilenames = steps.filter((s) => s.isImage).map((s) => s.filename);
-  const fileUrlMap = await resolveFileUrls(imageStepFilenames);
-  const stepsWithImages = stepsWithEs.map((step) =>
-    step.isImage ? { ...step, image: fileUrlMap.get(step.filename) || null } : step
-  );
+  const inlineIconFilenames = steps.flatMap((s) => s.iconFilenames || []);
+  const fileUrlMap = await resolveFileUrls([...imageStepFilenames, ...inlineIconFilenames]);
+  const stepsWithImages = stepsWithEs.map((step) => {
+    if (step.isImage) return { ...step, image: fileUrlMap.get(step.filename) || null };
+    if (step.iconFilenames?.length) {
+      const { iconFilenames, ...rest } = step;
+      return { ...rest, icons: iconFilenames.map((f) => ({ filename: f, image: fileUrlMap.get(f) || null })) };
+    }
+    return step;
+  });
 
   // Required/recommended items can nest (e.g. The Elder Kiln's "Melee, magic
   // or ranged armour..." with 3 indented caveats underneath) — flatten the

@@ -6,12 +6,21 @@ function parseChecklistBlock(checklistContent, rawSteps, section) {
   for (const line of lines) {
     const trimmed = line.trim();
 
+    // `*:` (bullet immediately followed by a colon) is the wiki's own convention
+    // for a non-actionable note attached to the previous step (e.g. "If done
+    // correctly, you receive a wrinkly scroll.") — must be checked before the
+    // generic bullet pattern below, since it also starts with one or more `*`.
+    const noteMatch = trimmed.match(/^(\*+):\s?(.*)$/);
+
     // A standalone solution/reference image (e.g. The Elder Kiln's "Tzhaar
-    // numbers" figure) can sit directly inside a Checklist block, before or
-    // between bullets — must be pulled out as its own step in place, or it
-    // gets swallowed as stray "continuation" text glued onto whichever step
-    // happens to be adjacent (translated together as garbled prose).
-    const imgMatch = trimmed.match(/^\[\[File:([^|\]]+)((?:\|[^\]]*)*)\]\]$/i);
+    // numbers" figure, or King of the Dwarves' key-combination figure, which
+    // sits inside a "*:" note line instead of its own bare line) can appear
+    // directly inside a Checklist block, before or between bullets — must be
+    // pulled out as its own step in place, or it gets swallowed as stray
+    // "continuation" text (glued onto whichever step happens to be adjacent)
+    // or as an empty, filtered-out note once its icon markup is stripped.
+    const candidateImageText = noteMatch ? noteMatch[2] : trimmed;
+    const imgMatch = candidateImageText.match(/^\[\[File:([^|\]]+)((?:\|[^\]]*)*)\]\]$/i);
     if (imgMatch) {
       const parsed = parseFileParams(imgMatch[2]);
       if (parsed) {
@@ -20,13 +29,8 @@ function parseChecklistBlock(checklistContent, rawSteps, section) {
       }
     }
 
-    // `*:` (bullet immediately followed by a colon) is the wiki's own convention
-    // for a non-actionable note attached to the previous step (e.g. "If done
-    // correctly, you receive a wrinkly scroll.") — must be checked before the
-    // generic bullet pattern below, since it also starts with one or more `*`.
-    // Without this, notes were shown as their own checkable step with a stray
-    // leading ":" left in the text.
-    const noteMatch = line.match(/^(\*+):\s?(.*)$/);
+    // Without the isImage check above, notes were shown as their own
+    // checkable step with a stray leading ":" left in the text.
     if (noteMatch) {
       const indent = noteMatch[1].length - 1;
       rawSteps.push({ indent, raw: noteMatch[2], section, isNote: true });
@@ -130,6 +134,7 @@ export function parseSteps(quickGuideWikitext) {
         ...(step.isNote ? { isNote: true } : {}),
         text: { en: step.text },
         chatOptions: step.chatOptions,
+        ...(step.icons?.length ? { iconFilenames: step.icons } : {}),
       };
     });
 }

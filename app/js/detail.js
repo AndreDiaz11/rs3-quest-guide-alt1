@@ -404,6 +404,15 @@ function renderChatOptionsSummary(options) {
  */
 function renderStepContent(step, lang) {
   const wrap = el("span", { class: "step-text" });
+  // Small inline icons the wiki shows right in the sentence (e.g. a mining
+  // spot icon before a place name) — not embedded mid-text (word order shifts
+  // across translation), shown as a compact icon group right before the
+  // step's own text instead.
+  if (step.icons?.length) {
+    step.icons.forEach((icon) => {
+      if (icon.image) wrap.appendChild(el("img", { class: "step-inline-icon", src: icon.image, alt: "" }));
+    });
+  }
   appendTextWithFairyCodes(wrap, localizedText(step.text, lang));
   if (step.chatOptions?.length) {
     wrap.appendChild(renderChatOptionsSummary(step.chatOptions));
