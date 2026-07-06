@@ -420,6 +420,27 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
       else manualChecks.delete(row.step.index);
     };
 
+    // Finds the nearest preceding row with a strictly lower indent (its
+    // parent step), or -1 if this row is already top-level.
+    const getParentIndex = (i) => {
+      const indent = rows[i].step.indent;
+      for (let j = i - 1; j >= 0; j--) {
+        if (rows[j].step.indent < indent) return j;
+      }
+      return -1;
+    };
+
+    // Direct children only (indent exactly one deeper), not every descendant —
+    // that's what decides whether a parent counts as "fully done".
+    const getDirectChildIndexes = (parentIdx) => {
+      const indent = rows[parentIdx].step.indent;
+      const children = [];
+      for (let j = parentIdx + 1; j < rows.length && rows[j].step.indent > indent; j++) {
+        if (rows[j].step.indent === indent + 1) children.push(j);
+      }
+      return children;
+    };
+
     rows.forEach((row, i) => {
       row.checkbox.addEventListener("change", () => {
         setChecked(row, row.checkbox.checked);
@@ -431,6 +452,20 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
             setChecked(rows[j], true);
           }
         }
+
+        // Bubble upward: a parent step auto-checks the instant every one of
+        // its direct sub-steps is checked, and auto-unchecks the instant any
+        // of them isn't — climbs through every ancestor level, not just one.
+        let current = i;
+        while (true) {
+          const parentIdx = getParentIndex(current);
+          if (parentIdx === -1) break;
+          const childIdxs = getDirectChildIndexes(parentIdx);
+          const allChecked = childIdxs.every((ci) => rows[ci].checkbox.checked);
+          setChecked(rows[parentIdx], allChecked);
+          current = parentIdx;
+        }
+
         saveManualChecks(quest.id, manualChecks);
       });
     });
