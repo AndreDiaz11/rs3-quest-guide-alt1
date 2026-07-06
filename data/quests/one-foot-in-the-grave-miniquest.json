@@ -3,7 +3,7 @@
   "title": "One Foot in the Grave (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:57.594Z",
+  "guideLastUpdated": "2026-07-06T19:26:56.880Z",
   "icon": "https://runescape.wiki/images/One_Foot_in_the_Grave_%28miniquest%29_icon.png",
   "series": null,
   "age": "5",
@@ -40,13 +40,15 @@
   "items": [
     {
       "name": "Hand (Back to my Roots)",
-      "display": "Hand (from the Back to my Roots quest) If lost, you can get a new one as a drop from creatures at the jade vine maze",
-      "image": "https://runescape.wiki/images/thumb/Hand_%28Back_to_my_Roots%29_detail.png/100px-Hand_%28Back_to_my_Roots%29_detail.png?6197f"
-    },
-    {
-      "name": "Jade vine maze",
-      "display": "If lost, you can get a new one as a drop from creatures at the jade vine maze",
-      "image": "https://runescape.wiki/images/thumb/Backtomyrootsmaze.png/100px-Backtomyrootsmaze.png?e4b74"
+      "display": "Hand (from the Back to my Roots quest)",
+      "image": "https://runescape.wiki/images/thumb/Hand_%28Back_to_my_Roots%29_detail.png/100px-Hand_%28Back_to_my_Roots%29_detail.png?6197f",
+      "children": [
+        {
+          "name": "Jade vine maze",
+          "display": "If lost, you can get a new one as a drop from creatures at the jade vine maze",
+          "image": "https://runescape.wiki/images/thumb/Backtomyrootsmaze.png/100px-Backtomyrootsmaze.png?e4b74"
+        }
+      ]
     }
   ],
   "kills": [

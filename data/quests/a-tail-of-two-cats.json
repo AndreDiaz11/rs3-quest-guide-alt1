@@ -3,7 +3,7 @@
   "title": "A Tail of Two Cats",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:45.855Z",
+  "guideLastUpdated": "2026-07-06T19:26:49.045Z",
   "icon": "https://runescape.wiki/images/A_Tail_of_Two_Cats_icon.png",
   "series": null,
   "age": "5",
@@ -76,13 +76,15 @@
     },
     {
       "name": "Vial of water",
-      "display": "Vial of water (as it will dry up in the desert, it is recommended to take this after you are finished with that part of the quest.) A vial is more reliable. There is a sink right where you need the vial of water.",
-      "image": "https://runescape.wiki/images/thumb/Vial_of_water_detail.png/100px-Vial_of_water_detail.png?d561e"
-    },
-    {
-      "name": "Vial",
-      "display": "A vial is more reliable. There is a sink right where you need the vial of water.",
-      "image": "https://runescape.wiki/images/thumb/Vial_detail.png/100px-Vial_detail.png?82ee9"
+      "display": "Vial of water (as it will dry up in the desert, it is recommended to take this after you are finished with that part of the quest.)",
+      "image": "https://runescape.wiki/images/thumb/Vial_of_water_detail.png/100px-Vial_of_water_detail.png?d561e",
+      "children": [
+        {
+          "name": "Vial",
+          "display": "A vial is more reliable. There is a sink right where you need the vial of water.",
+          "image": "https://runescape.wiki/images/thumb/Vial_detail.png/100px-Vial_detail.png?82ee9"
+        }
+      ]
     },
     {
       "name": "Desert robe outfit (white)",

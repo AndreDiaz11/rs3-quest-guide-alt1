@@ -3,7 +3,7 @@
   "title": "Recipe for Disaster: Freeing Evil Dave",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:58.893Z",
+  "guideLastUpdated": "2026-07-06T19:26:57.931Z",
   "icon": "https://runescape.wiki/images/Evil_Dave_icon.png",
   "length": "Medium to Long",
   "startPoint": {
@@ -45,18 +45,20 @@
   "items": [
     {
       "name": "Wily cat",
-      "display": "Wily cat, cat, kitten, or lazy cat Overgrown cats won't work as they do not hunt rats A kitten is not recommended as the chance of them catching a rat is a low 15% compared to 50% for a normal cat, and will take longer to complete",
-      "image": "https://runescape.wiki/images/thumb/Wily_cat_%28white_and_black%29_pet.png/100px-Wily_cat_%28white_and_black%29_pet.png?ba5a7"
-    },
-    {
-      "name": "Overgrown cat",
-      "display": "Overgrown cats won't work as they do not hunt rats",
-      "image": null
-    },
-    {
-      "name": "A kitten is not recommended as the chance of them catching a rat is a low 15% compared to 50% for a normal cat, and will take longer to complete",
-      "display": "A kitten is not recommended as the chance of them catching a rat is a low 15% compared to 50% for a normal cat, and will take longer to complete",
-      "image": null
+      "display": "Wily cat, cat, kitten, or lazy cat",
+      "image": "https://runescape.wiki/images/thumb/Wily_cat_%28white_and_black%29_pet.png/100px-Wily_cat_%28white_and_black%29_pet.png?ba5a7",
+      "children": [
+        {
+          "name": "Overgrown cat",
+          "display": "Overgrown cats won't work as they do not hunt rats",
+          "image": null
+        },
+        {
+          "name": "A kitten is not recommended as the chance of them catching a rat is a low 15% compared to 50% for a normal cat, and will take longer to complete",
+          "display": "A kitten is not recommended as the chance of them catching a rat is a low 15% compared to 50% for a normal cat, and will take longer to complete",
+          "image": null
+        }
+      ]
     },
     {
       "name": "Stew",

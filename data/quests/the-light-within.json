@@ -3,7 +3,7 @@
   "title": "The Light Within",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:18:03.189Z",
+  "guideLastUpdated": "2026-07-06T19:27:00.799Z",
   "icon": "https://runescape.wiki/images/The_Light_Within_icon.png",
   "series": "Sliske's Game",
   "age": "6",
@@ -140,23 +140,25 @@
     },
     {
       "name": "Baxtorian Falls resource dungeon",
-      "display": "Access to the Baxtorian Falls resource dungeon: Glarial's amulet Rope Alternatively, the hoardstalker ring or Dungeoneering cape can be used to teleport there if you've accessed it before, removing the need for amulet and rope.",
-      "image": "https://runescape.wiki/images/thumb/Baxtorian_Falls_resource_dungeon.png/100px-Baxtorian_Falls_resource_dungeon.png?ab510"
-    },
-    {
-      "name": "Glarial's amulet",
-      "display": "Glarial's amulet",
-      "image": "https://runescape.wiki/images/thumb/Glarial%27s_amulet_detail.png/100px-Glarial%27s_amulet_detail.png?b30e0"
-    },
-    {
-      "name": "Rope",
-      "display": "Rope",
-      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
-    },
-    {
-      "name": "Hoardstalker ring",
-      "display": "Alternatively, the hoardstalker ring or Dungeoneering cape can be used to teleport there if you've accessed it before, removing the need for amulet and rope.",
-      "image": "https://runescape.wiki/images/thumb/Hoardstalker_ring_%281%29_detail.png/100px-Hoardstalker_ring_%281%29_detail.png?f8d8e"
+      "display": "Access to the Baxtorian Falls resource dungeon:",
+      "image": "https://runescape.wiki/images/thumb/Baxtorian_Falls_resource_dungeon.png/100px-Baxtorian_Falls_resource_dungeon.png?ab510",
+      "children": [
+        {
+          "name": "Glarial's amulet",
+          "display": "Glarial's amulet",
+          "image": "https://runescape.wiki/images/thumb/Glarial%27s_amulet_detail.png/100px-Glarial%27s_amulet_detail.png?b30e0"
+        },
+        {
+          "name": "Rope",
+          "display": "Rope",
+          "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+        },
+        {
+          "name": "Hoardstalker ring",
+          "display": "Alternatively, the hoardstalker ring or Dungeoneering cape can be used to teleport there if you've accessed it before, removing the need for amulet and rope.",
+          "image": "https://runescape.wiki/images/thumb/Hoardstalker_ring_%281%29_detail.png/100px-Hoardstalker_ring_%281%29_detail.png?f8d8e"
+        }
+      ]
     }
   ],
   "kills": [

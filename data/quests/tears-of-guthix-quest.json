@@ -3,7 +3,7 @@
   "title": "Tears of Guthix (quest)",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:18:02.061Z",
+  "guideLastUpdated": "2026-07-06T19:26:59.627Z",
   "icon": "https://runescape.wiki/images/Tears_of_Guthix_%28quest%29_icon.png",
   "series": null,
   "age": "5",
@@ -65,13 +65,15 @@
   "items": [
     {
       "name": "Bullseye lantern",
-      "display": "An oil-filled bullseye lantern This can be obtained from the Lorehound with the 50 quest point upgrade",
-      "image": null
-    },
-    {
-      "name": "Lorehound",
-      "display": "This can be obtained from the Lorehound with the 50 quest point upgrade",
-      "image": "https://runescape.wiki/images/thumb/Lorehound_%28pet%29.png/100px-Lorehound_%28pet%29.png?3cf83"
+      "display": "An oil-filled bullseye lantern",
+      "image": null,
+      "children": [
+        {
+          "name": "Lorehound",
+          "display": "This can be obtained from the Lorehound with the 50 quest point upgrade",
+          "image": "https://runescape.wiki/images/thumb/Lorehound_%28pet%29.png/100px-Lorehound_%28pet%29.png?3cf83"
+        }
+      ]
     },
     {
       "name": "Sapphire",
@@ -80,13 +82,15 @@
     },
     {
       "name": "Lumbridge Swamp Caves",
-      "display": "A rope, if it is your first time accessing Lumbridge Swamp Caves, and you are not accessing it through the Lumbridge Castle entrance. This can be obtained from the Lorehound with the 50 quest point upgrade",
-      "image": "https://runescape.wiki/images/thumb/Lumbridge_Swamp_Caves.png/100px-Lumbridge_Swamp_Caves.png?86da5"
-    },
-    {
-      "name": "Lorehound",
-      "display": "This can be obtained from the Lorehound with the 50 quest point upgrade",
-      "image": "https://runescape.wiki/images/thumb/Lorehound_%28pet%29.png/100px-Lorehound_%28pet%29.png?3cf83"
+      "display": "A rope, if it is your first time accessing Lumbridge Swamp Caves, and you are not accessing it through the Lumbridge Castle entrance.",
+      "image": "https://runescape.wiki/images/thumb/Lumbridge_Swamp_Caves.png/100px-Lumbridge_Swamp_Caves.png?86da5",
+      "children": [
+        {
+          "name": "Lorehound",
+          "display": "This can be obtained from the Lorehound with the 50 quest point upgrade",
+          "image": "https://runescape.wiki/images/thumb/Lorehound_%28pet%29.png/100px-Lorehound_%28pet%29.png?3cf83"
+        }
+      ]
     }
   ],
   "kills": [

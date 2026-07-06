@@ -3,7 +3,7 @@
   "title": "Crocodile Tears",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:47.820Z",
+  "guideLastUpdated": "2026-07-06T19:26:50.260Z",
   "icon": "https://runescape.wiki/images/Crocodile_Tears_icon.png",
   "series": "Desert",
   "age": "5",
@@ -136,13 +136,15 @@
     },
     {
       "name": "Fishing bait",
-      "display": "Enough fishing bait (20-30 recommended) to catch 1 beltfish or activation of Tier 1 prawn perks Some bait can be obtained during the quest from Meena's Fishing Shop",
-      "image": "https://runescape.wiki/images/thumb/Fishing_bait_detail.png/100px-Fishing_bait_detail.png?adb3d"
-    },
-    {
-      "name": "Meena's Fishing Shop",
-      "display": "Some bait can be obtained during the quest from Meena's Fishing Shop",
-      "image": "https://runescape.wiki/images/thumb/Meena%27s_Fishing_Shop.png/100px-Meena%27s_Fishing_Shop.png?20e2b"
+      "display": "Enough fishing bait (20-30 recommended) to catch 1 beltfish or activation of Tier 1 prawn perks",
+      "image": "https://runescape.wiki/images/thumb/Fishing_bait_detail.png/100px-Fishing_bait_detail.png?adb3d",
+      "children": [
+        {
+          "name": "Meena's Fishing Shop",
+          "display": "Some bait can be obtained during the quest from Meena's Fishing Shop",
+          "image": "https://runescape.wiki/images/thumb/Meena%27s_Fishing_Shop.png/100px-Meena%27s_Fishing_Shop.png?20e2b"
+        }
+      ]
     },
     {
       "name": "Cat",

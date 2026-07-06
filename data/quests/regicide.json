@@ -3,7 +3,7 @@
   "title": "Regicide",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:59.018Z",
+  "guideLastUpdated": "2026-07-06T19:26:58.368Z",
   "icon": "https://runescape.wiki/images/Regicide_icon.png",
   "series": "Elf (Prifddinas)",
   "age": "ambiguous",
@@ -47,28 +47,30 @@
   "items": [
     {
       "name": "Underground Pass (dungeon)",
-      "display": "Items to get through the Underground Pass (other items can be banked until the lodestone is active): A bow (excluding all chargebows) A few of bronze, iron, steel, mithril, adamant, rune, dragon, or dark arrows A plank (can be obtained in the underground pass) 1-5 ropes (you won't necessarily use all of them)",
-      "image": "https://runescape.wiki/images/thumb/Underground_Pass_Iban%27s_Maze.png/100px-Underground_Pass_Iban%27s_Maze.png?de4e7"
-    },
-    {
-      "name": "Bow",
-      "display": "A bow (excluding all chargebows)",
-      "image": null
-    },
-    {
-      "name": "Bronze arrow",
-      "display": "A few of bronze, iron, steel, mithril, adamant, rune, dragon, or dark arrows",
-      "image": "https://runescape.wiki/images/thumb/Bronze_arrow_5_detail.png/100px-Bronze_arrow_5_detail.png?4252d"
-    },
-    {
-      "name": "Plank",
-      "display": "A plank (can be obtained in the underground pass)",
-      "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
-    },
-    {
-      "name": "Rope",
-      "display": "1-5 ropes (you won't necessarily use all of them)",
-      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+      "display": "Items to get through the Underground Pass (other items can be banked until the lodestone is active):",
+      "image": "https://runescape.wiki/images/thumb/Underground_Pass_Iban%27s_Maze.png/100px-Underground_Pass_Iban%27s_Maze.png?de4e7",
+      "children": [
+        {
+          "name": "Bow",
+          "display": "A bow (excluding all chargebows)",
+          "image": null
+        },
+        {
+          "name": "Bronze arrow",
+          "display": "A few of bronze, iron, steel, mithril, adamant, rune, dragon, or dark arrows",
+          "image": "https://runescape.wiki/images/thumb/Bronze_arrow_5_detail.png/100px-Bronze_arrow_5_detail.png?4252d"
+        },
+        {
+          "name": "Plank",
+          "display": "A plank (can be obtained in the underground pass)",
+          "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
+        },
+        {
+          "name": "Rope",
+          "display": "1-5 ropes (you won't necessarily use all of them)",
+          "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+        }
+      ]
     },
     {
       "name": "Limestone",

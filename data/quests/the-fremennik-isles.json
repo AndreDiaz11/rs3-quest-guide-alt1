@@ -3,7 +3,7 @@
   "title": "The Fremennik Isles",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:18:03.016Z",
+  "guideLastUpdated": "2026-07-06T19:26:59.967Z",
   "icon": "https://runescape.wiki/images/The_Fremennik_Isles_icon.png",
   "series": "Fremennik",
   "age": "5",
@@ -53,68 +53,25 @@
   "items": [
     {
       "name": "Mining",
-      "display": "Ores (can be noted) depending on your Mining level: 8 tin ores if between 1-10 7 coal if between 11-54 6 mithril ores if 55+",
-      "image": "https://runescape.wiki/images/thumb/1_-_99_percent_stamina.gif/100px-1_-_99_percent_stamina.gif?a9413"
-    },
-    {
-      "name": "Tin ore",
-      "display": "8 tin ores if between 1-10",
-      "image": "https://runescape.wiki/images/thumb/Tin_ore_detail.png/100px-Tin_ore_detail.png?82a5a"
-    },
-    {
-      "name": "Coal",
-      "display": "7 coal if between 11-54",
-      "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
-    },
-    {
-      "name": "Mithril ore",
-      "display": "6 mithril ores if 55+",
-      "image": "https://runescape.wiki/images/thumb/Mithril_ore_detail.png/100px-Mithril_ore_detail.png?2d6f5"
-    },
-    {
-      "name": "Raw tuna",
-      "display": "Raw tuna",
-      "image": "https://runescape.wiki/images/thumb/Raw_tuna_detail.png/100px-Raw_tuna_detail.png?c5c1f"
-    },
-    {
-      "name": "Rope",
-      "display": "8 ropes",
-      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
-    },
-    {
-      "name": "Split log",
-      "display": "8 split logs",
-      "image": "https://runescape.wiki/images/thumb/Split_log_detail.png/100px-Split_log_detail.png?e700b"
-    },
-    {
-      "name": "Yak-hide armour",
-      "display": "Yak-hide armour 3 cured yak-hides Thread spool",
-      "image": null
-    },
-    {
-      "name": "Cured yak-hide",
-      "display": "3 cured yak-hides",
-      "image": "https://runescape.wiki/images/thumb/Cured_yak-hide_detail.png/100px-Cured_yak-hide_detail.png?92cc4"
-    },
-    {
-      "name": "Thread",
-      "display": "Thread spool",
-      "image": "https://runescape.wiki/images/thumb/Thread_detail.png/100px-Thread_detail.png?13036"
-    },
-    {
-      "name": "Fremennik round shield",
-      "display": "Fremennik round shield Bronze nail Rope",
-      "image": "https://runescape.wiki/images/thumb/Fremennik_round_shield_detail.png/100px-Fremennik_round_shield_detail.png?3e70a"
-    },
-    {
-      "name": "Bronze nail",
-      "display": "Bronze nail",
-      "image": null
-    },
-    {
-      "name": "Rope",
-      "display": "Rope",
-      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+      "display": "Ores (can be noted) depending on your Mining level:",
+      "image": "https://runescape.wiki/images/thumb/1_-_99_percent_stamina.gif/100px-1_-_99_percent_stamina.gif?a9413",
+      "children": [
+        {
+          "name": "Tin ore",
+          "display": "8 tin ores if between 1-10",
+          "image": "https://runescape.wiki/images/thumb/Tin_ore_detail.png/100px-Tin_ore_detail.png?82a5a"
+        },
+        {
+          "name": "Coal",
+          "display": "7 coal if between 11-54",
+          "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+        },
+        {
+          "name": "Mithril ore",
+          "display": "6 mithril ores if 55+",
+          "image": "https://runescape.wiki/images/thumb/Mithril_ore_detail.png/100px-Mithril_ore_detail.png?2d6f5"
+        }
+      ]
     }
   ],
   "kills": [

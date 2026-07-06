@@ -3,7 +3,7 @@
   "title": "In Search of the Myreque",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:54.155Z",
+  "guideLastUpdated": "2026-07-06T19:26:54.788Z",
   "icon": "https://runescape.wiki/images/In_Search_of_the_Myreque_icon.png",
   "series": "Myreque",
   "age": "5",
@@ -45,33 +45,35 @@
   "items": [
     {
       "name": "Steel",
-      "display": "Six steel weapons (cannot be +1 or off-hand versions): Steel dagger Steel mace 2 steel swords Steel longsword Steel warhammer",
-      "image": null
-    },
-    {
-      "name": "Steel dagger",
-      "display": "Steel dagger",
-      "image": "https://runescape.wiki/images/thumb/Steel_dagger_detail.png/100px-Steel_dagger_detail.png?d2a1a"
-    },
-    {
-      "name": "Steel mace",
-      "display": "Steel mace",
-      "image": "https://runescape.wiki/images/thumb/Steel_mace_detail.png/100px-Steel_mace_detail.png?7240f"
-    },
-    {
-      "name": "Steel sword",
-      "display": "2 steel swords",
-      "image": "https://runescape.wiki/images/thumb/Steel_sword_detail.png/100px-Steel_sword_detail.png?64527"
-    },
-    {
-      "name": "Steel longsword",
-      "display": "Steel longsword",
-      "image": "https://runescape.wiki/images/thumb/Steel_longsword_detail.png/100px-Steel_longsword_detail.png?c0270"
-    },
-    {
-      "name": "Steel warhammer",
-      "display": "Steel warhammer",
-      "image": "https://runescape.wiki/images/thumb/Steel_warhammer_detail.png/100px-Steel_warhammer_detail.png?0a396"
+      "display": "Six steel weapons (cannot be +1 or off-hand versions):",
+      "image": null,
+      "children": [
+        {
+          "name": "Steel dagger",
+          "display": "Steel dagger",
+          "image": "https://runescape.wiki/images/thumb/Steel_dagger_detail.png/100px-Steel_dagger_detail.png?d2a1a"
+        },
+        {
+          "name": "Steel mace",
+          "display": "Steel mace",
+          "image": "https://runescape.wiki/images/thumb/Steel_mace_detail.png/100px-Steel_mace_detail.png?7240f"
+        },
+        {
+          "name": "Steel sword",
+          "display": "2 steel swords",
+          "image": "https://runescape.wiki/images/thumb/Steel_sword_detail.png/100px-Steel_sword_detail.png?64527"
+        },
+        {
+          "name": "Steel longsword",
+          "display": "Steel longsword",
+          "image": "https://runescape.wiki/images/thumb/Steel_longsword_detail.png/100px-Steel_longsword_detail.png?c0270"
+        },
+        {
+          "name": "Steel warhammer",
+          "display": "Steel warhammer",
+          "image": "https://runescape.wiki/images/thumb/Steel_warhammer_detail.png/100px-Steel_warhammer_detail.png?0a396"
+        }
+      ]
     },
     {
       "name": "Steel nails",

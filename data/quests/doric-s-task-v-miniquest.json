@@ -3,7 +3,7 @@
   "title": "Doric's Task V (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:50.437Z",
+  "guideLastUpdated": "2026-07-06T19:26:52.011Z",
   "icon": "https://runescape.wiki/images/Doric%27s_Task_V_%28miniquest%29_icon.png",
   "series": "Doric's Tasks",
   "age": "5",
@@ -60,18 +60,20 @@
   "items": [
     {
       "name": "Rune bar",
-      "display": "12 rune bars or 6 rune bars 3 rune swords",
-      "image": "https://runescape.wiki/images/thumb/Rune_bar_detail.png/100px-Rune_bar_detail.png?62bc5"
-    },
-    {
-      "name": "6 rune bars",
-      "display": "6 rune bars",
-      "image": null
-    },
-    {
-      "name": "Rune sword",
-      "display": "3 rune swords",
-      "image": "https://runescape.wiki/images/thumb/Rune_sword_detail.png/100px-Rune_sword_detail.png?4f217"
+      "display": "12 rune bars or",
+      "image": "https://runescape.wiki/images/thumb/Rune_bar_detail.png/100px-Rune_bar_detail.png?62bc5",
+      "children": [
+        {
+          "name": "6 rune bars",
+          "display": "6 rune bars",
+          "image": null
+        },
+        {
+          "name": "Rune sword",
+          "display": "3 rune swords",
+          "image": "https://runescape.wiki/images/thumb/Rune_sword_detail.png/100px-Rune_sword_detail.png?4f217"
+        }
+      ]
     },
     {
       "name": "Steel bar",

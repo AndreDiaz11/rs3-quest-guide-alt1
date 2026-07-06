@@ -3,7 +3,7 @@
   "title": "Purple Cat (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:58.792Z",
+  "guideLastUpdated": "2026-07-06T19:26:57.188Z",
   "icon": "https://runescape.wiki/images/Purple_Cat_%28miniquest%29_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -31,18 +31,20 @@
   "items": [
     {
       "name": "Cat",
-      "display": "Cat (not required for full completion) Any form of cat will work and be able to be turned purple; including pet kitten. If you bring a hellcat of any kind to be dyed, it will be reverted to a normal cat.",
-      "image": "https://runescape.wiki/images/thumb/Pet_kitten_%28white_and_black%29_pet.png/100px-Pet_kitten_%28white_and_black%29_pet.png?b86b3"
-    },
-    {
-      "name": "Kitten",
-      "display": "Any form of cat will work and be able to be turned purple; including pet kitten.",
-      "image": null
-    },
-    {
-      "name": "Hellcat",
-      "display": "If you bring a hellcat of any kind to be dyed, it will be reverted to a normal cat.",
-      "image": "https://runescape.wiki/images/thumb/Hellcat_pet.png/100px-Hellcat_pet.png?6f167"
+      "display": "Cat (not required for full completion)",
+      "image": "https://runescape.wiki/images/thumb/Pet_kitten_%28white_and_black%29_pet.png/100px-Pet_kitten_%28white_and_black%29_pet.png?b86b3",
+      "children": [
+        {
+          "name": "Kitten",
+          "display": "Any form of cat will work and be able to be turned purple; including pet kitten.",
+          "image": null
+        },
+        {
+          "name": "Hellcat",
+          "display": "If you bring a hellcat of any kind to be dyed, it will be reverted to a normal cat.",
+          "image": "https://runescape.wiki/images/thumb/Hellcat_pet.png/100px-Hellcat_pet.png?6f167"
+        }
+      ]
     }
   ],
   "kills": [

@@ -3,7 +3,7 @@
   "title": "Sliske's Endgame",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:18:00.296Z",
+  "guideLastUpdated": "2026-07-06T19:26:59.072Z",
   "icon": "https://runescape.wiki/images/Sliske%27s_Endgame_icon.png",
   "series": "Sliske's Game",
   "age": "6",
@@ -110,18 +110,20 @@
   "items": [
     {
       "name": "Black Knights' Fortress",
-      "display": "A disguise with which to enter the Black Knights' Fortress Alternatively, the Dulcin armour cosmetic override or the teleport option on the Skull of Remembrance can be used Alternatively, the Communication device from Dishonour among Thieves may be used to teleport to Zamorak",
-      "image": "https://runescape.wiki/images/thumb/Black_Knights%27_Fortress.png/100px-Black_Knights%27_Fortress.png?1a120"
-    },
-    {
-      "name": "Dulcin (override)",
-      "display": "Alternatively, the Dulcin armour cosmetic override or the teleport option on the Skull of Remembrance can be used",
-      "image": "https://runescape.wiki/images/thumb/Dulcin_Helm_chathead.png/100px-Dulcin_Helm_chathead.png?28b1b"
-    },
-    {
-      "name": "Communication device",
-      "display": "Alternatively, the Communication device from Dishonour among Thieves may be used to teleport to Zamorak",
-      "image": "https://runescape.wiki/images/thumb/Communication_device_detail.png/100px-Communication_device_detail.png?84567"
+      "display": "A disguise with which to enter the Black Knights' Fortress",
+      "image": "https://runescape.wiki/images/thumb/Black_Knights%27_Fortress.png/100px-Black_Knights%27_Fortress.png?1a120",
+      "children": [
+        {
+          "name": "Dulcin (override)",
+          "display": "Alternatively, the Dulcin armour cosmetic override or the teleport option on the Skull of Remembrance can be used",
+          "image": "https://runescape.wiki/images/thumb/Dulcin_Helm_chathead.png/100px-Dulcin_Helm_chathead.png?28b1b"
+        },
+        {
+          "name": "Communication device",
+          "display": "Alternatively, the Communication device from Dishonour among Thieves may be used to teleport to Zamorak",
+          "image": "https://runescape.wiki/images/thumb/Communication_device_detail.png/100px-Communication_device_detail.png?84567"
+        }
+      ]
     }
   ],
   "kills": [

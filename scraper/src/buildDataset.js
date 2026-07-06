@@ -103,22 +103,34 @@ export async function buildQuestRecord({
     step.isImage ? { ...step, image: fileUrlMap.get(step.filename) || null } : step
   );
 
+  // Required items can nest (e.g. The Elder Kiln's "Melee, magic or ranged
+  // armour..." with 3 indented caveats underneath) — flatten the whole tree
+  // to collect every name for the image batch, then walk it again to attach
+  // each resolved image while keeping the tree shape intact.
+  function flattenItemNames(nodes) {
+    return nodes.flatMap((n) => [n.name, ...(n.children ? flattenItemNames(n.children) : [])]);
+  }
+  function attachItemImages(nodes) {
+    return nodes.map((n) => ({
+      name: n.name,
+      display: n.display,
+      image: imageMap.get(n.name) || null,
+      ...(n.children ? { children: attachItemImages(n.children) } : {}),
+    }));
+  }
+
   // Resolve images for every item/reward name referenced by this quest, plus
   // any xp-reward "skill" that isn't a real skill (lamps, one-off items —
   // e.g. "Mysterious lamp" — misclassified as type "xp" during scraping,
   // same as real skills like "Smithing" which get their icon for free below).
-  const itemNames = metadata.items.map((i) => i.name);
+  const itemNames = flattenItemNames(metadata.items);
   const rewardNames = rewardsData.rewards.filter((r) => r.type === "item").map((r) => r.name);
   const xpNonSkillNames = rewardsData.rewards
     .filter((r) => r.type === "xp" && r.skill && !skillIconsLower.has(r.skill.toLowerCase()))
     .map((r) => r.skill);
   const imageMap = await resolveImages([...itemNames, ...rewardNames, ...xpNonSkillNames]);
 
-  const items = metadata.items.map((i) => ({
-    name: i.name,
-    display: i.display,
-    image: imageMap.get(i.name) || null,
-  }));
+  const items = attachItemImages(metadata.items);
 
   // Note: deliberately NOT falling back to the Infobox's |qp= field when a hub
   // quest's Quick guide has no Rewards section — verified against a real

@@ -108,24 +108,40 @@ function parseQuestDetailsTable(quickGuideHtml) {
     });
   });
 
+  // Required items render as a real tree on the wiki (e.g. The Elder Kiln's
+  // "Melee, magic or ranged armour..." with 3 indented notes underneath about
+  // Necromancy/multicannon/Summoning not working) — flattening every `<li>`
+  // regardless of nesting made those notes look like their own unrelated
+  // top-level items instead of caveats attached to the item above them.
+  function parseItemNode(li) {
+    const $li = $(li);
+    const childUl = $li.children("ul").first();
+    // .remove() returns the REMOVED elements, not the modified clone — .end()
+    // steps back to the clone (with the nested <ul> now gone) before reading
+    // its text/link, or `display`/`name` come out empty for every leaf item.
+    const withoutChildren = $li.clone().children("ul").remove().end();
+    const display = withoutChildren.text().replace(/\s+/g, " ").trim();
+    const link = withoutChildren.find("a").first();
+    // Use the link's `title` attribute (the canonical wiki page name) for
+    // image lookups, since the visible text can be pluralized/lowercased
+    // ("ropes", "seaweed") and not match the actual page title ("Rope").
+    // Coin amounts render as plain text with no link at all (e.g. "3 coins"),
+    // so falling back to that literal text failed to resolve any image —
+    // "Coins" is the real page.
+    const name = /^[\d,]+\s+coins?$/i.test(display) ? "Coins" : link.attr("title") || link.text().trim() || display;
+    const children = [];
+    if (childUl.length > 0) {
+      childUl.children("li").each((_, childLi) => children.push(parseItemNode(childLi)));
+    }
+    return { name, display, ...(children.length > 0 ? { children } : {}) };
+  }
+
   const items = [];
   table
-    .find('td[data-attr-param="itemsDisp"] .lighttable.checklist li')
-    .each((_, el) => {
-      const $el = $(el);
-      const display = $el.text().replace(/\s+/g, " ").trim();
-      const link = $el.find("a").first();
-      // Use the link's `title` attribute (the canonical wiki page name) for
-      // image lookups, since the visible text can be pluralized/lowercased
-      // ("ropes", "seaweed") and not match the actual page title ("Rope").
-      // Coin amounts render as plain text with no link at all (e.g. "3 coins"),
-      // so falling back to that literal text failed to resolve any image —
-      // "Coins" is the real page.
-      const canonicalName = /^[\d,]+\s+coins?$/i.test(display)
-        ? "Coins"
-        : link.attr("title") || link.text().trim() || display;
-      items.push({ name: canonicalName, display });
-    });
+    .find('td[data-attr-param="itemsDisp"] .lighttable.checklist > ul')
+    .first()
+    .children("li")
+    .each((_, el) => items.push(parseItemNode(el)));
 
   const kills = [];
   table.find('td[data-attr-param="kills"] li').each((_, el) => {

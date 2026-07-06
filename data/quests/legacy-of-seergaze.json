@@ -3,7 +3,7 @@
   "title": "Legacy of Seergaze",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:54.641Z",
+  "guideLastUpdated": "2026-07-06T19:26:55.019Z",
   "icon": "https://runescape.wiki/images/Legacy_of_Seergaze_icon.png",
   "series": "Myreque",
   "age": "5",
@@ -104,18 +104,20 @@
     },
     {
       "name": "Lvl-2 Enchant",
-      "display": "Items to use Lvl-2 Enchant: Lvl-2 enchant tablet (if not on the standard spellbook) or; 1 cosmic rune and 3 air runes (can be obtained during the quest)",
-      "image": "https://runescape.wiki/images/thumb/Enchant.gif/100px-Enchant.gif?a4251"
-    },
-    {
-      "name": "Lvl-2 enchant (item)",
-      "display": "Lvl-2 enchant tablet (if not on the standard spellbook) or;",
-      "image": "https://runescape.wiki/images/thumb/Lvl-2_enchant_%28item%29_detail.png/100px-Lvl-2_enchant_%28item%29_detail.png?b8fb4"
-    },
-    {
-      "name": "Cosmic rune",
-      "display": "1 cosmic rune and 3 air runes (can be obtained during the quest)",
-      "image": "https://runescape.wiki/images/thumb/Cosmic_rune_detail.png/100px-Cosmic_rune_detail.png?fa918"
+      "display": "Items to use Lvl-2 Enchant:",
+      "image": "https://runescape.wiki/images/thumb/Enchant.gif/100px-Enchant.gif?a4251",
+      "children": [
+        {
+          "name": "Lvl-2 enchant (item)",
+          "display": "Lvl-2 enchant tablet (if not on the standard spellbook) or;",
+          "image": "https://runescape.wiki/images/thumb/Lvl-2_enchant_%28item%29_detail.png/100px-Lvl-2_enchant_%28item%29_detail.png?b8fb4"
+        },
+        {
+          "name": "Cosmic rune",
+          "display": "1 cosmic rune and 3 air runes (can be obtained during the quest)",
+          "image": "https://runescape.wiki/images/thumb/Cosmic_rune_detail.png/100px-Cosmic_rune_detail.png?fa918"
+        }
+      ]
     },
     {
       "name": "Mithril bar",

@@ -3,7 +3,7 @@
   "title": "Rat Catchers",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:58.842Z",
+  "guideLastUpdated": "2026-07-06T19:26:57.241Z",
   "icon": "https://runescape.wiki/images/Rat_Catchers_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -41,43 +41,49 @@
   "items": [
     {
       "name": "Cat",
-      "display": "Cat or hellcat A kitten works, but it catches rats very slowly and needs to be fed. An overgrown cat does not work. Your cat may die on this quest.",
-      "image": "https://runescape.wiki/images/thumb/Pet_kitten_%28white_and_black%29_pet.png/100px-Pet_kitten_%28white_and_black%29_pet.png?b86b3"
-    },
-    {
-      "name": "Cat",
-      "display": "A kitten works, but it catches rats very slowly and needs to be fed. An overgrown cat does not work.",
-      "image": "https://runescape.wiki/images/thumb/Pet_kitten_%28white_and_black%29_pet.png/100px-Pet_kitten_%28white_and_black%29_pet.png?b86b3"
-    },
-    {
-      "name": "Your cat may die on this quest.",
-      "display": "Your cat may die on this quest.",
-      "image": null
+      "display": "Cat or hellcat",
+      "image": "https://runescape.wiki/images/thumb/Pet_kitten_%28white_and_black%29_pet.png/100px-Pet_kitten_%28white_and_black%29_pet.png?b86b3",
+      "children": [
+        {
+          "name": "Cat",
+          "display": "A kitten works, but it catches rats very slowly and needs to be fed. An overgrown cat does not work.",
+          "image": "https://runescape.wiki/images/thumb/Pet_kitten_%28white_and_black%29_pet.png/100px-Pet_kitten_%28white_and_black%29_pet.png?b86b3"
+        },
+        {
+          "name": "Your cat may die on this quest.",
+          "display": "Your cat may die on this quest.",
+          "image": null
+        }
+      ]
     },
     {
       "name": "Rat poison",
-      "display": "1 rat poison (can be found in the Clock Tower Dungeon) Alternatively the ingredients to make it during the quest are: 1 vial (must be empty) 1 clean kwuarm (if needed, Zahur in Nardah cleans grimy herbs for 200 coins) 1 red spiders' eggs",
-      "image": "https://runescape.wiki/images/thumb/Rat_poison_detail.png/100px-Rat_poison_detail.png?982cb"
-    },
-    {
-      "name": "Vial",
-      "display": "Alternatively the ingredients to make it during the quest are: 1 vial (must be empty) 1 clean kwuarm (if needed, Zahur in Nardah cleans grimy herbs for 200 coins) 1 red spiders' eggs",
-      "image": "https://runescape.wiki/images/thumb/Vial_detail.png/100px-Vial_detail.png?82ee9"
-    },
-    {
-      "name": "Vial",
-      "display": "1 vial (must be empty)",
-      "image": "https://runescape.wiki/images/thumb/Vial_detail.png/100px-Vial_detail.png?82ee9"
-    },
-    {
-      "name": "Clean kwuarm",
-      "display": "1 clean kwuarm (if needed, Zahur in Nardah cleans grimy herbs for 200 coins)",
-      "image": "https://runescape.wiki/images/thumb/Clean_kwuarm_detail.png/100px-Clean_kwuarm_detail.png?8c3f8"
-    },
-    {
-      "name": "Red spiders' eggs",
-      "display": "1 red spiders' eggs",
-      "image": "https://runescape.wiki/images/thumb/Red_spiders%27_eggs_detail.png/100px-Red_spiders%27_eggs_detail.png?52e25"
+      "display": "1 rat poison (can be found in the Clock Tower Dungeon)",
+      "image": "https://runescape.wiki/images/thumb/Rat_poison_detail.png/100px-Rat_poison_detail.png?982cb",
+      "children": [
+        {
+          "name": "Alternatively the ingredients to make it during the quest are:",
+          "display": "Alternatively the ingredients to make it during the quest are:",
+          "image": null,
+          "children": [
+            {
+              "name": "Vial",
+              "display": "1 vial (must be empty)",
+              "image": "https://runescape.wiki/images/thumb/Vial_detail.png/100px-Vial_detail.png?82ee9"
+            },
+            {
+              "name": "Clean kwuarm",
+              "display": "1 clean kwuarm (if needed, Zahur in Nardah cleans grimy herbs for 200 coins)",
+              "image": "https://runescape.wiki/images/thumb/Clean_kwuarm_detail.png/100px-Clean_kwuarm_detail.png?8c3f8"
+            },
+            {
+              "name": "Red spiders' eggs",
+              "display": "1 red spiders' eggs",
+              "image": "https://runescape.wiki/images/thumb/Red_spiders%27_eggs_detail.png/100px-Red_spiders%27_eggs_detail.png?52e25"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Cheese",

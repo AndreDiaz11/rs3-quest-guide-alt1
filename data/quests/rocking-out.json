@@ -3,7 +3,7 @@
   "title": "Rocking Out",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:59.710Z",
+  "guideLastUpdated": "2026-07-06T19:26:58.469Z",
   "icon": "https://runescape.wiki/images/Rocking_Out_icon.png",
   "series": "Pirate",
   "age": "5",
@@ -89,13 +89,15 @@
   "items": [
     {
       "name": "Pirate clothing",
-      "display": "3 pieces of pirate clothing You can buy pirate clothing from Dodgy Mike in Mos Le'Harmless, east of the bank",
-      "image": null
-    },
-    {
-      "name": "Dodgy Mike",
-      "display": "You can buy pirate clothing from Dodgy Mike in Mos Le'Harmless, east of the bank",
-      "image": null
+      "display": "3 pieces of pirate clothing",
+      "image": null,
+      "children": [
+        {
+          "name": "Dodgy Mike",
+          "display": "You can buy pirate clothing from Dodgy Mike in Mos Le'Harmless, east of the bank",
+          "image": null
+        }
+      ]
     },
     {
       "name": "Book o' piracy",
@@ -104,33 +106,35 @@
     },
     {
       "name": "Customs Sergeant",
-      "display": "The following items are required, but will need to be retrieved from your bank once you escape prison as you will be forced to deposit all of your worn/inventory items before the Customs Sergeant will send you to jail: Fishbowl helmet Diving apparatus Ghostspeak amulet (or cramulet) (unless you have completed the Hard Morytania achievements) 2 rolls of bronze wire Charcoal (can be obtained during quest)",
-      "image": "https://runescape.wiki/images/thumb/Customs_Sergeant.png/100px-Customs_Sergeant.png?c02b8"
-    },
-    {
-      "name": "Fishbowl helmet",
-      "display": "Fishbowl helmet",
-      "image": "https://runescape.wiki/images/thumb/Fishbowl_helmet_detail.png/100px-Fishbowl_helmet_detail.png?8c963"
-    },
-    {
-      "name": "Diving apparatus",
-      "display": "Diving apparatus",
-      "image": "https://runescape.wiki/images/thumb/Diving_apparatus_detail.png/100px-Diving_apparatus_detail.png?55050"
-    },
-    {
-      "name": "Ghostspeak amulet",
-      "display": "Ghostspeak amulet (or cramulet) (unless you have completed the Hard Morytania achievements)",
-      "image": "https://runescape.wiki/images/thumb/Ghostspeak_amulet_detail.png/100px-Ghostspeak_amulet_detail.png?18457"
-    },
-    {
-      "name": "Bronze wire",
-      "display": "2 rolls of bronze wire",
-      "image": "https://runescape.wiki/images/thumb/Bronze_wire_detail.png/100px-Bronze_wire_detail.png?128cd"
-    },
-    {
-      "name": "Charcoal",
-      "display": "Charcoal (can be obtained during quest)",
-      "image": "https://runescape.wiki/images/thumb/Charcoal_detail.png/100px-Charcoal_detail.png?392b5"
+      "display": "The following items are required, but will need to be retrieved from your bank once you escape prison as you will be forced to deposit all of your worn/inventory items before the Customs Sergeant will send you to jail:",
+      "image": "https://runescape.wiki/images/thumb/Customs_Sergeant.png/100px-Customs_Sergeant.png?c02b8",
+      "children": [
+        {
+          "name": "Fishbowl helmet",
+          "display": "Fishbowl helmet",
+          "image": "https://runescape.wiki/images/thumb/Fishbowl_helmet_detail.png/100px-Fishbowl_helmet_detail.png?8c963"
+        },
+        {
+          "name": "Diving apparatus",
+          "display": "Diving apparatus",
+          "image": "https://runescape.wiki/images/thumb/Diving_apparatus_detail.png/100px-Diving_apparatus_detail.png?55050"
+        },
+        {
+          "name": "Ghostspeak amulet",
+          "display": "Ghostspeak amulet (or cramulet) (unless you have completed the Hard Morytania achievements)",
+          "image": "https://runescape.wiki/images/thumb/Ghostspeak_amulet_detail.png/100px-Ghostspeak_amulet_detail.png?18457"
+        },
+        {
+          "name": "Bronze wire",
+          "display": "2 rolls of bronze wire",
+          "image": "https://runescape.wiki/images/thumb/Bronze_wire_detail.png/100px-Bronze_wire_detail.png?128cd"
+        },
+        {
+          "name": "Charcoal",
+          "display": "Charcoal (can be obtained during quest)",
+          "image": "https://runescape.wiki/images/thumb/Charcoal_detail.png/100px-Charcoal_detail.png?392b5"
+        }
+      ]
     },
     {
       "name": "Coin",

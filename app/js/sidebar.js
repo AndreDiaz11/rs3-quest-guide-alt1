@@ -157,8 +157,22 @@ function rowVisual(quest) {
   return { diamond: color, right: xCircleIcon(color) };
 }
 
+/**
+ * Matches RS3's own in-game quest journal convention: a leading "The" moves
+ * to the end after a comma (e.g. "The Elder Kiln" -> "Elder Kiln, The"), so
+ * it alphabetizes under "E" instead of cluttering the top of the list under
+ * "T". Display/sort only — the wiki-sourced title elsewhere (detail header)
+ * keeps its natural "The X" form.
+ */
+function rs3DisplayTitle(title) {
+  const match = title.match(/^The\s+(.+)$/);
+  return match ? `${match[1]}, The` : title;
+}
+
 function renderList(listEl, onSelect) {
-  const visible = filterQuests(state.index.quests).sort((a, b) => a.title.localeCompare(b.title, "es"));
+  const visible = filterQuests(state.index.quests).sort((a, b) =>
+    rs3DisplayTitle(a.title).localeCompare(rs3DisplayTitle(b.title), "es")
+  );
 
   listEl.innerHTML = "";
   if (visible.length === 0) {
@@ -177,7 +191,8 @@ function renderList(listEl, onSelect) {
       !isSynced() && !quest.isMiniquest ? "status-unsynced" : `status-${status.toLowerCase().replace("_", "-")}`;
     if (quest.id === state.selectedQuestId) li.classList.add("selected");
 
-    const titleText = quest.isSeasonal ? `🎉 ${quest.title}` : quest.title;
+    const displayTitle = rs3DisplayTitle(quest.title);
+    const titleText = quest.isSeasonal ? `🎉 ${displayTitle}` : displayTitle;
     li.innerHTML =
       `<span class="row-diamond">${diamondIcon(diamond)}</span>` +
       `<span class="row-title">${titleText}</span>` +

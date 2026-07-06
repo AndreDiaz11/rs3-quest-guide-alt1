@@ -3,7 +3,7 @@
   "title": "Requiem for a Dragon",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:59.046Z",
+  "guideLastUpdated": "2026-07-06T19:26:58.396Z",
   "icon": "https://runescape.wiki/images/thumb/Requiem_for_a_Dragon_icon.png/50px-Requiem_for_a_Dragon_icon.png",
   "series": "Fort Forinthry",
   "age": "Age of Chaos",
@@ -149,28 +149,30 @@
     },
     {
       "name": "Rituals",
-      "display": "Ink and candles for two level 75 Necromancy rituals (assuming no glyphs or light sources are present at the Um ritual site): 4 basic ghostly ink 10 regular ghostly ink 16 greater ghostly ink 12 basic ritual candle or better",
-      "image": "https://runescape.wiki/images/thumb/Rituals.png/100px-Rituals.png?72ca9"
-    },
-    {
-      "name": "Basic ghostly ink",
-      "display": "4 basic ghostly ink",
-      "image": "https://runescape.wiki/images/thumb/Basic_ghostly_ink_detail.png/100px-Basic_ghostly_ink_detail.png?f9b30"
-    },
-    {
-      "name": "Regular ghostly ink",
-      "display": "10 regular ghostly ink",
-      "image": "https://runescape.wiki/images/thumb/Regular_ghostly_ink_detail.png/100px-Regular_ghostly_ink_detail.png?73768"
-    },
-    {
-      "name": "Greater ghostly ink",
-      "display": "16 greater ghostly ink",
-      "image": "https://runescape.wiki/images/thumb/Greater_ghostly_ink_detail.png/100px-Greater_ghostly_ink_detail.png?ba22f"
-    },
-    {
-      "name": "Basic ritual candle",
-      "display": "12 basic ritual candle or better",
-      "image": "https://runescape.wiki/images/thumb/Basic_ritual_candle_%28placed%29.png/100px-Basic_ritual_candle_%28placed%29.png?2fc9a"
+      "display": "Ink and candles for two level 75 Necromancy rituals (assuming no glyphs or light sources are present at the Um ritual site):",
+      "image": "https://runescape.wiki/images/thumb/Rituals.png/100px-Rituals.png?72ca9",
+      "children": [
+        {
+          "name": "Basic ghostly ink",
+          "display": "4 basic ghostly ink",
+          "image": "https://runescape.wiki/images/thumb/Basic_ghostly_ink_detail.png/100px-Basic_ghostly_ink_detail.png?f9b30"
+        },
+        {
+          "name": "Regular ghostly ink",
+          "display": "10 regular ghostly ink",
+          "image": "https://runescape.wiki/images/thumb/Regular_ghostly_ink_detail.png/100px-Regular_ghostly_ink_detail.png?73768"
+        },
+        {
+          "name": "Greater ghostly ink",
+          "display": "16 greater ghostly ink",
+          "image": "https://runescape.wiki/images/thumb/Greater_ghostly_ink_detail.png/100px-Greater_ghostly_ink_detail.png?ba22f"
+        },
+        {
+          "name": "Basic ritual candle",
+          "display": "12 basic ritual candle or better",
+          "image": "https://runescape.wiki/images/thumb/Basic_ritual_candle_%28placed%29.png/100px-Basic_ritual_candle_%28placed%29.png?2fc9a"
+        }
+      ]
     }
   ],
   "kills": [

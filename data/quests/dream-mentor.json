@@ -3,7 +3,7 @@
   "title": "Dream Mentor",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:50.499Z",
+  "guideLastUpdated": "2026-07-06T19:26:52.079Z",
   "icon": "https://runescape.wiki/images/thumb/Dream_Mentor_icon.png/50px-Dream_Mentor_icon.png",
   "series": "Fremennik",
   "age": "5",
@@ -36,23 +36,25 @@
   "items": [
     {
       "name": "Food",
-      "display": "3 different kinds of food: 6 of 1 type and 7 of 2 others for a total of 20 pieces. Purple sweets, roast potatoes, mince pies, yule logs, and mint cakes cannot be used; stackable foods, such as holy biscuits, will be counted as a single piece of food; cake can be used in all 3 pieces. An easy way to acquire the food items is to use the lodestone teleport to Port Sarim, which brings you right next to the Wydin's Food Store, and then lodestone teleport right back to Lunar Isle. Cabbages, onions, and raw potatoes can be found within Rellekka. To use fewer backpack space, you can fill the vegetables into empty sacks, or alternatively bring uncut pineapples.",
-      "image": null
-    },
-    {
-      "name": "Purple sweets",
-      "display": "Purple sweets, roast potatoes, mince pies, yule logs, and mint cakes cannot be used; stackable foods, such as holy biscuits, will be counted as a single piece of food; cake can be used in all 3 pieces.",
-      "image": "https://runescape.wiki/images/thumb/Purple_sweets_100_detail.png/100px-Purple_sweets_100_detail.png?82240"
-    },
-    {
-      "name": "Port Sarim",
-      "display": "An easy way to acquire the food items is to use the lodestone teleport to Port Sarim, which brings you right next to the Wydin's Food Store, and then lodestone teleport right back to Lunar Isle.",
-      "image": "https://runescape.wiki/images/thumb/Port_Sarim.png/100px-Port_Sarim.png?0acba"
-    },
-    {
-      "name": "Cabbage",
-      "display": "Cabbages, onions, and raw potatoes can be found within Rellekka. To use fewer backpack space, you can fill the vegetables into empty sacks, or alternatively bring uncut pineapples.",
-      "image": "https://runescape.wiki/images/thumb/Cabbage_detail.png/100px-Cabbage_detail.png?da7ae"
+      "display": "3 different kinds of food: 6 of 1 type and 7 of 2 others for a total of 20 pieces.",
+      "image": null,
+      "children": [
+        {
+          "name": "Purple sweets",
+          "display": "Purple sweets, roast potatoes, mince pies, yule logs, and mint cakes cannot be used; stackable foods, such as holy biscuits, will be counted as a single piece of food; cake can be used in all 3 pieces.",
+          "image": "https://runescape.wiki/images/thumb/Purple_sweets_100_detail.png/100px-Purple_sweets_100_detail.png?82240"
+        },
+        {
+          "name": "Port Sarim",
+          "display": "An easy way to acquire the food items is to use the lodestone teleport to Port Sarim, which brings you right next to the Wydin's Food Store, and then lodestone teleport right back to Lunar Isle.",
+          "image": "https://runescape.wiki/images/thumb/Port_Sarim.png/100px-Port_Sarim.png?0acba"
+        },
+        {
+          "name": "Cabbage",
+          "display": "Cabbages, onions, and raw potatoes can be found within Rellekka. To use fewer backpack space, you can fill the vegetables into empty sacks, or alternatively bring uncut pineapples.",
+          "image": "https://runescape.wiki/images/thumb/Cabbage_detail.png/100px-Cabbage_detail.png?da7ae"
+        }
+      ]
     },
     {
       "name": "Astral rune",

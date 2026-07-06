@@ -599,7 +599,24 @@ h2.section-title {
   font-size: 0.9em;
 }
 
-.items-plain-list li,
+/* Items can have their own indented sub-list (caveats/notes), so the <li>
+   itself must stay block-level — only the icon+text row is a flex line. */
+.items-plain-list li {
+  padding: 2px 0;
+}
+
+.items-plain-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.items-plain-sublist {
+  margin: 2px 0 2px 20px;
+  padding-left: 12px;
+  border-left: 1px dotted var(--border);
+}
+
 .rewards-list li {
   display: flex;
   align-items: center;

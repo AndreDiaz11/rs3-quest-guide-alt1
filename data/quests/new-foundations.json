@@ -3,7 +3,7 @@
   "title": "New Foundations",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:56.844Z",
+  "guideLastUpdated": "2026-07-06T19:26:56.675Z",
   "icon": "https://runescape.wiki/images/thumb/New_Foundations_icon.png/50px-New_Foundations_icon.png",
   "series": "Fort Forinthry",
   "age": "Age of Chaos",
@@ -29,33 +29,27 @@
     },
     {
       "name": "Stone wall segment",
-      "display": "88 stone wall segments 352 limestone bricks (for making wall segments)",
-      "image": "https://runescape.wiki/images/thumb/Stone_wall_segment_detail.png/100px-Stone_wall_segment_detail.png?2b245"
-    },
-    {
-      "name": "Limestone brick",
-      "display": "352 limestone bricks (for making wall segments)",
-      "image": "https://runescape.wiki/images/thumb/Limestone_brick_detail.png/100px-Limestone_brick_detail.png?7799b"
+      "display": "88 stone wall segments",
+      "image": "https://runescape.wiki/images/thumb/Stone_wall_segment_detail.png/100px-Stone_wall_segment_detail.png?2b245",
+      "children": [
+        {
+          "name": "Limestone brick",
+          "display": "352 limestone bricks (for making wall segments)",
+          "image": "https://runescape.wiki/images/thumb/Limestone_brick_detail.png/100px-Limestone_brick_detail.png?7799b"
+        }
+      ]
     },
     {
       "name": "Wooden frame",
-      "display": "8 wooden frames 96 regular planks (for making wooden frames)",
-      "image": "https://runescape.wiki/images/thumb/Wooden_frame_detail.png/100px-Wooden_frame_detail.png?99976"
-    },
-    {
-      "name": "Plank",
-      "display": "96 regular planks (for making wooden frames)",
-      "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
-    },
-    {
-      "name": "Limestone brick",
-      "display": "352 limestone bricks to make stone wall segments",
-      "image": "https://runescape.wiki/images/thumb/Limestone_brick_detail.png/100px-Limestone_brick_detail.png?7799b"
-    },
-    {
-      "name": "Plank",
-      "display": "96 regular planks to make wooden frames",
-      "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
+      "display": "8 wooden frames",
+      "image": "https://runescape.wiki/images/thumb/Wooden_frame_detail.png/100px-Wooden_frame_detail.png?99976",
+      "children": [
+        {
+          "name": "Plank",
+          "display": "96 regular planks (for making wooden frames)",
+          "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
+        }
+      ]
     }
   ],
   "kills": [

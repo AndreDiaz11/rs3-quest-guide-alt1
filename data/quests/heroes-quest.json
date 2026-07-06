@@ -3,7 +3,7 @@
   "title": "Heroes' Quest",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:53.691Z",
+  "guideLastUpdated": "2026-07-06T19:26:53.677Z",
   "icon": "https://runescape.wiki/images/Heroes%27_Quest_icon.png",
   "series": null,
   "age": "5",
@@ -79,44 +79,50 @@
       "image": "https://runescape.wiki/images/thumb/Fishing_bait_detail.png/100px-Fishing_bait_detail.png?adb3d"
     },
     {
-      "name": "Lockpick",
-      "display": "For completing the quest solo: Multiple lockpicks in case of failure, or a hair clip, or master thief's lockpick (tool belt works) Either one (you may switch your gang): Black Arm Gang members: black full helm, platebody and platelegs (plateskirt will not work; trimmed armour versions also do not work) Phoenix Gang members: 1,000 coins or ring of charos (a)",
-      "image": null
+      "name": "For completing the quest solo:",
+      "display": "For completing the quest solo:",
+      "image": null,
+      "children": [
+        {
+          "name": "Lockpick",
+          "display": "Multiple lockpicks in case of failure, or a hair clip, or master thief's lockpick (tool belt works)",
+          "image": null
+        },
+        {
+          "name": "Either one (you may switch your gang):",
+          "display": "Either one (you may switch your gang):",
+          "image": null,
+          "children": [
+            {
+              "name": "Black Arm Gang",
+              "display": "Black Arm Gang members: black full helm, platebody and platelegs (plateskirt will not work; trimmed armour versions also do not work)",
+              "image": null
+            },
+            {
+              "name": "Phoenix Gang",
+              "display": "Phoenix Gang members: 1,000 coins or ring of charos (a)",
+              "image": null
+            }
+          ]
+        }
+      ]
     },
     {
-      "name": "Lockpick",
-      "display": "Multiple lockpicks in case of failure, or a hair clip, or master thief's lockpick (tool belt works)",
-      "image": null
-    },
-    {
-      "name": "Black Arm Gang",
-      "display": "Either one (you may switch your gang): Black Arm Gang members: black full helm, platebody and platelegs (plateskirt will not work; trimmed armour versions also do not work) Phoenix Gang members: 1,000 coins or ring of charos (a)",
-      "image": null
-    },
-    {
-      "name": "Black Arm Gang",
-      "display": "Black Arm Gang members: black full helm, platebody and platelegs (plateskirt will not work; trimmed armour versions also do not work)",
-      "image": null
-    },
-    {
-      "name": "Phoenix Gang",
-      "display": "Phoenix Gang members: 1,000 coins or ring of charos (a)",
-      "image": null
-    },
-    {
-      "name": "Black Arm Gang",
-      "display": "For completing the quest with a partner: Black Arm Gang members: black full helm, platebody and platelegs (plateskirt will not work) Phoenix Gang members: ranged or magic weapons",
-      "image": null
-    },
-    {
-      "name": "Black Arm Gang",
-      "display": "Black Arm Gang members: black full helm, platebody and platelegs (plateskirt will not work)",
-      "image": null
-    },
-    {
-      "name": "Phoenix Gang",
-      "display": "Phoenix Gang members: ranged or magic weapons",
-      "image": null
+      "name": "For completing the quest with a partner:",
+      "display": "For completing the quest with a partner:",
+      "image": null,
+      "children": [
+        {
+          "name": "Black Arm Gang",
+          "display": "Black Arm Gang members: black full helm, platebody and platelegs (plateskirt will not work)",
+          "image": null
+        },
+        {
+          "name": "Phoenix Gang",
+          "display": "Phoenix Gang members: ranged or magic weapons",
+          "image": null
+        }
+      ]
     }
   ],
   "kills": [

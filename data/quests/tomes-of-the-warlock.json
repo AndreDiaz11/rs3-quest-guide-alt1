@@ -3,7 +3,7 @@
   "title": "Tomes of the Warlock",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:18:05.057Z",
+  "guideLastUpdated": "2026-07-06T19:27:01.172Z",
   "icon": "https://runescape.wiki/images/thumb/Tomes_of_the_Warlock_icon.png/50px-Tomes_of_the_Warlock_icon.png",
   "series": "The First Necromancer",
   "age": "Age of Chaos",
@@ -85,28 +85,30 @@
   "items": [
     {
       "name": "Necromantic focus",
-      "display": "Restored necromantic focus, or: A necromantic focus (damaged) 30 ancient vis 26 blood of Orcus 20 imperial steel",
-      "image": "https://runescape.wiki/images/Necromantic_focus_detail.png?f0288"
-    },
-    {
-      "name": "Necromantic focus (damaged)",
-      "display": "A necromantic focus (damaged)",
-      "image": "https://runescape.wiki/images/thumb/Necromantic_focus_%28damaged%29_detail.png/100px-Necromantic_focus_%28damaged%29_detail.png?0d1b6"
-    },
-    {
-      "name": "Ancient vis",
-      "display": "30 ancient vis",
-      "image": "https://runescape.wiki/images/thumb/Ancient_vis_detail.png/100px-Ancient_vis_detail.png?1f78b"
-    },
-    {
-      "name": "Blood of Orcus",
-      "display": "26 blood of Orcus",
-      "image": "https://runescape.wiki/images/thumb/Blood_of_Orcus_detail.png/100px-Blood_of_Orcus_detail.png?1f78b"
-    },
-    {
-      "name": "Imperial steel",
-      "display": "20 imperial steel",
-      "image": "https://runescape.wiki/images/thumb/Imperial_steel_detail.png/100px-Imperial_steel_detail.png?a1201"
+      "display": "Restored necromantic focus, or:",
+      "image": "https://runescape.wiki/images/Necromantic_focus_detail.png?f0288",
+      "children": [
+        {
+          "name": "Necromantic focus (damaged)",
+          "display": "A necromantic focus (damaged)",
+          "image": "https://runescape.wiki/images/thumb/Necromantic_focus_%28damaged%29_detail.png/100px-Necromantic_focus_%28damaged%29_detail.png?0d1b6"
+        },
+        {
+          "name": "Ancient vis",
+          "display": "30 ancient vis",
+          "image": "https://runescape.wiki/images/thumb/Ancient_vis_detail.png/100px-Ancient_vis_detail.png?1f78b"
+        },
+        {
+          "name": "Blood of Orcus",
+          "display": "26 blood of Orcus",
+          "image": "https://runescape.wiki/images/thumb/Blood_of_Orcus_detail.png/100px-Blood_of_Orcus_detail.png?1f78b"
+        },
+        {
+          "name": "Imperial steel",
+          "display": "20 imperial steel",
+          "image": "https://runescape.wiki/images/thumb/Imperial_steel_detail.png/100px-Imperial_steel_detail.png?a1201"
+        }
+      ]
     },
     {
       "name": "Ancient vis",

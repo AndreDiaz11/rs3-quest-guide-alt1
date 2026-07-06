@@ -3,7 +3,7 @@
   "title": "The Great Brain Robbery",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:18:03.113Z",
+  "guideLastUpdated": "2026-07-06T19:27:00.722Z",
   "icon": "https://runescape.wiki/images/The_Great_Brain_Robbery_icon.png",
   "series": "Pirate",
   "age": "5",
@@ -100,13 +100,15 @@
     },
     {
       "name": "Wooden cat",
-      "display": "10 wooden cats Can be crafted with 10 bear fur and 10 planks (requires partial completion of quest, protean planks do not work)",
-      "image": "https://runescape.wiki/images/thumb/Wooden_cat_detail.png/100px-Wooden_cat_detail.png?b540e"
-    },
-    {
-      "name": "Bear fur",
-      "display": "Can be crafted with 10 bear fur and 10 planks (requires partial completion of quest, protean planks do not work)",
-      "image": "https://runescape.wiki/images/thumb/Bear_fur_detail.png/100px-Bear_fur_detail.png?9ccd7"
+      "display": "10 wooden cats",
+      "image": "https://runescape.wiki/images/thumb/Wooden_cat_detail.png/100px-Wooden_cat_detail.png?b540e",
+      "children": [
+        {
+          "name": "Bear fur",
+          "display": "Can be crafted with 10 bear fur and 10 planks (requires partial completion of quest, protean planks do not work)",
+          "image": "https://runescape.wiki/images/thumb/Bear_fur_detail.png/100px-Bear_fur_detail.png?9ccd7"
+        }
+      ]
     },
     {
       "name": "Plank",

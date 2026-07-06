@@ -3,7 +3,7 @@
   "title": "Vessel of the Harbinger",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:18:05.225Z",
+  "guideLastUpdated": "2026-07-06T19:27:01.345Z",
   "icon": "https://runescape.wiki/images/thumb/Vessel_of_the_Harbinger_icon.png/50px-Vessel_of_the_Harbinger_icon.png",
   "series": "The First Necromancer",
   "age": "Age of Chaos",
@@ -79,23 +79,25 @@
     },
     {
       "name": "Empower vessel",
-      "display": "Items for the empower vessel ritual: 11 basic ghostly ink 2 regular ghostly ink 4 light sources",
-      "image": null
-    },
-    {
-      "name": "Basic ghostly ink",
-      "display": "11 basic ghostly ink",
-      "image": "https://runescape.wiki/images/thumb/Basic_ghostly_ink_detail.png/100px-Basic_ghostly_ink_detail.png?f9b30"
-    },
-    {
-      "name": "Regular ghostly ink",
-      "display": "2 regular ghostly ink",
-      "image": "https://runescape.wiki/images/thumb/Regular_ghostly_ink_detail.png/100px-Regular_ghostly_ink_detail.png?73768"
-    },
-    {
-      "name": "Rituals",
-      "display": "4 light sources",
-      "image": "https://runescape.wiki/images/thumb/Rituals.png/100px-Rituals.png?72ca9"
+      "display": "Items for the empower vessel ritual:",
+      "image": null,
+      "children": [
+        {
+          "name": "Basic ghostly ink",
+          "display": "11 basic ghostly ink",
+          "image": "https://runescape.wiki/images/thumb/Basic_ghostly_ink_detail.png/100px-Basic_ghostly_ink_detail.png?f9b30"
+        },
+        {
+          "name": "Regular ghostly ink",
+          "display": "2 regular ghostly ink",
+          "image": "https://runescape.wiki/images/thumb/Regular_ghostly_ink_detail.png/100px-Regular_ghostly_ink_detail.png?73768"
+        },
+        {
+          "name": "Rituals",
+          "display": "4 light sources",
+          "image": "https://runescape.wiki/images/thumb/Rituals.png/100px-Rituals.png?72ca9"
+        }
+      ]
     }
   ],
   "kills": [

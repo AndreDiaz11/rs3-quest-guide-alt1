@@ -3,7 +3,7 @@
   "title": "Enakhra's Lament",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:50.956Z",
+  "guideLastUpdated": "2026-07-06T19:26:52.338Z",
   "icon": "https://runescape.wiki/images/Enakhra%27s_Lament_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -54,34 +54,36 @@
       "image": "https://runescape.wiki/images/thumb/Sandstone_%2810kg%29_detail.png/100px-Sandstone_%2810kg%29_detail.png?e0304"
     },
     {
-      "name": "Bread",
-      "display": "One of the following (burnt versions do not work): Bread Any kind of pie (partial pies and mince pie will not work) Any kind of cake (partial cakes, RS Anniversary cake, and cheesecakes will not work) Any kind of pizza (partial pizza do not work) A baked potato with topping",
-      "image": null
-    },
-    {
-      "name": "Bread",
-      "display": "Bread",
-      "image": null
-    },
-    {
-      "name": "Pie",
-      "display": "Any kind of pie (partial pies and mince pie will not work)",
-      "image": "https://runescape.wiki/images/thumb/Humble_pie_detail.png/100px-Humble_pie_detail.png?df357"
-    },
-    {
-      "name": "Cake",
-      "display": "Any kind of cake (partial cakes, RS Anniversary cake, and cheesecakes will not work)",
-      "image": "https://runescape.wiki/images/thumb/Slice_of_cake_detail.png/100px-Slice_of_cake_detail.png?fc654"
-    },
-    {
-      "name": "Pizza",
-      "display": "Any kind of pizza (partial pizza do not work)",
-      "image": null
-    },
-    {
-      "name": "Baked potato",
-      "display": "A baked potato with topping",
-      "image": "https://runescape.wiki/images/thumb/Baked_potato_detail.png/100px-Baked_potato_detail.png?6bf67"
+      "name": "One of the following (burnt versions do not work):",
+      "display": "One of the following (burnt versions do not work):",
+      "image": null,
+      "children": [
+        {
+          "name": "Bread",
+          "display": "Bread",
+          "image": null
+        },
+        {
+          "name": "Pie",
+          "display": "Any kind of pie (partial pies and mince pie will not work)",
+          "image": "https://runescape.wiki/images/thumb/Humble_pie_detail.png/100px-Humble_pie_detail.png?df357"
+        },
+        {
+          "name": "Cake",
+          "display": "Any kind of cake (partial cakes, RS Anniversary cake, and cheesecakes will not work)",
+          "image": "https://runescape.wiki/images/thumb/Slice_of_cake_detail.png/100px-Slice_of_cake_detail.png?fc654"
+        },
+        {
+          "name": "Pizza",
+          "display": "Any kind of pizza (partial pizza do not work)",
+          "image": null
+        },
+        {
+          "name": "Baked potato",
+          "display": "A baked potato with topping",
+          "image": "https://runescape.wiki/images/thumb/Baked_potato_detail.png/100px-Baked_potato_detail.png?6bf67"
+        }
+      ]
     },
     {
       "name": "Wand",

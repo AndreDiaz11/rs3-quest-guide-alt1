@@ -3,7 +3,7 @@
   "title": "Desert Treasure",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:48.935Z",
+  "guideLastUpdated": "2026-07-06T19:26:50.758Z",
   "icon": "https://runescape.wiki/images/Desert_Treasure_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -109,13 +109,15 @@
     },
     {
       "name": "Cake",
-      "display": "Cake (a slice, or full) Alternatively, chocolate cake, chocolate bar, cooking apple, or pineapple pizza",
-      "image": "https://runescape.wiki/images/thumb/Slice_of_cake_detail.png/100px-Slice_of_cake_detail.png?fc654"
-    },
-    {
-      "name": "Chocolate cake",
-      "display": "Alternatively, chocolate cake, chocolate bar, cooking apple, or pineapple pizza",
-      "image": "https://runescape.wiki/images/thumb/Chocolate_slice_detail.png/100px-Chocolate_slice_detail.png?54ebf"
+      "display": "Cake (a slice, or full)",
+      "image": "https://runescape.wiki/images/thumb/Slice_of_cake_detail.png/100px-Slice_of_cake_detail.png?fc654",
+      "children": [
+        {
+          "name": "Chocolate cake",
+          "display": "Alternatively, chocolate cake, chocolate bar, cooking apple, or pineapple pizza",
+          "image": "https://runescape.wiki/images/thumb/Chocolate_slice_detail.png/100px-Chocolate_slice_detail.png?54ebf"
+        }
+      ]
     },
     {
       "name": "Face mask",

@@ -3,7 +3,7 @@
   "title": "The Elder Kiln",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:18:02.945Z",
+  "guideLastUpdated": "2026-07-06T19:26:59.896Z",
   "icon": "https://runescape.wiki/images/The_Elder_Kiln_icon.png",
   "series": "TzHaar",
   "age": "ambiguous",
@@ -41,24 +41,26 @@
       "image": "https://runescape.wiki/images/thumb/Adamant_pickaxe_detail.png/100px-Adamant_pickaxe_detail.png?2c142"
     },
     {
-      "name": "Necromancy",
-      "display": "Melee, magic or ranged armour, weapons, potions, and food. Necromancy does not work on TokTz-Ket-Dill. A dwarf multicannon is not allowed in all encounters. Summoning familiars are not allowed in last encounter.",
-      "image": "https://runescape.wiki/images/thumb/Necromancy_logo.png/100px-Necromancy_logo.png?f755f"
-    },
-    {
-      "name": "Necromancy",
-      "display": "Necromancy does not work on TokTz-Ket-Dill.",
-      "image": "https://runescape.wiki/images/thumb/Necromancy_logo.png/100px-Necromancy_logo.png?f755f"
-    },
-    {
-      "name": "Dwarf multicannon",
-      "display": "A dwarf multicannon is not allowed in all encounters.",
-      "image": "https://runescape.wiki/images/thumb/Dwarf_multicannon_detail.png/100px-Dwarf_multicannon_detail.png?b310a"
-    },
-    {
-      "name": "Summoning familiars",
-      "display": "Summoning familiars are not allowed in last encounter.",
-      "image": null
+      "name": "Melee, magic or ranged armour, weapons, potions, and food.",
+      "display": "Melee, magic or ranged armour, weapons, potions, and food.",
+      "image": null,
+      "children": [
+        {
+          "name": "Necromancy",
+          "display": "Necromancy does not work on TokTz-Ket-Dill.",
+          "image": "https://runescape.wiki/images/thumb/Necromancy_logo.png/100px-Necromancy_logo.png?f755f"
+        },
+        {
+          "name": "Dwarf multicannon",
+          "display": "A dwarf multicannon is not allowed in all encounters.",
+          "image": "https://runescape.wiki/images/thumb/Dwarf_multicannon_detail.png/100px-Dwarf_multicannon_detail.png?b310a"
+        },
+        {
+          "name": "Summoning familiars",
+          "display": "Summoning familiars are not allowed in last encounter.",
+          "image": null
+        }
+      ]
     }
   ],
   "kills": [

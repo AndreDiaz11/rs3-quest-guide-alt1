@@ -3,7 +3,7 @@
   "title": "Family Crest",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:51.397Z",
+  "guideLastUpdated": "2026-07-06T19:26:52.809Z",
   "icon": "https://runescape.wiki/images/Family_Crest_icon.png",
   "series": null,
   "age": "5",
@@ -88,18 +88,20 @@
     },
     {
       "name": "Chronozon",
-      "display": "Either one to defeat Chronozon: Runes, magic weapon and standard spellbook to cast Air, Water, Earth, and Fire Blast which require 59 Magic (b) A deathtouched dart can be used instead of Magic to kill Chronozon",
-      "image": "https://runescape.wiki/images/thumb/Chronozon.png/100px-Chronozon.png?720a2"
-    },
-    {
-      "name": "Runes",
-      "display": "Runes, magic weapon and standard spellbook to cast Air, Water, Earth, and Fire Blast which require 59 Magic (b)",
-      "image": "https://runescape.wiki/images/thumb/Guthix_runes.png/100px-Guthix_runes.png?16d46"
-    },
-    {
-      "name": "Deathtouched dart",
-      "display": "A deathtouched dart can be used instead of Magic to kill Chronozon",
-      "image": "https://runescape.wiki/images/thumb/Deathtouched_dart_detail.png/100px-Deathtouched_dart_detail.png?ddc89"
+      "display": "Either one to defeat Chronozon:",
+      "image": "https://runescape.wiki/images/thumb/Chronozon.png/100px-Chronozon.png?720a2",
+      "children": [
+        {
+          "name": "Runes",
+          "display": "Runes, magic weapon and standard spellbook to cast Air, Water, Earth, and Fire Blast which require 59 Magic (b)",
+          "image": "https://runescape.wiki/images/thumb/Guthix_runes.png/100px-Guthix_runes.png?16d46"
+        },
+        {
+          "name": "Deathtouched dart",
+          "display": "A deathtouched dart can be used instead of Magic to kill Chronozon",
+          "image": "https://runescape.wiki/images/thumb/Deathtouched_dart_detail.png/100px-Deathtouched_dart_detail.png?ddc89"
+        }
+      ]
     }
   ],
   "kills": [

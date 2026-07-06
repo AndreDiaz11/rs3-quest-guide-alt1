@@ -3,7 +3,7 @@
   "title": "All Fired Up",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:45.906Z",
+  "guideLastUpdated": "2026-07-06T19:26:49.093Z",
   "icon": "https://runescape.wiki/images/All_Fired_Up_icon.png",
   "series": null,
   "age": "5",
@@ -33,23 +33,25 @@
   "items": [
     {
       "name": "Firemaking",
-      "display": "45 logs of any kind that you have the Firemaking level to use, in 2 sets of 20 and 1 set of 5. The sets have to be of the same kind for the quest. Regular logs are enough for the quest, which can be cut from nearby trees. Some logs like acadia logs, corrupted magic logs, and eternal magic logs will not properly work. You may refer to All Fired Up (minigame)#Lighting the beacons.",
-      "image": "https://runescape.wiki/images/thumb/Firemaking_detail.png/100px-Firemaking_detail.png?4c3a6"
-    },
-    {
-      "name": "Logs",
-      "display": "Regular logs are enough for the quest, which can be cut from nearby trees.",
-      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
-    },
-    {
-      "name": "Acadia logs",
-      "display": "Some logs like acadia logs, corrupted magic logs, and eternal magic logs will not properly work.",
-      "image": "https://runescape.wiki/images/thumb/Acadia_logs_detail.png/100px-Acadia_logs_detail.png?2dfc1"
-    },
-    {
-      "name": "All Fired Up (minigame)",
-      "display": "You may refer to All Fired Up (minigame)#Lighting the beacons.",
-      "image": "https://runescape.wiki/images/thumb/All_Fired_Up.png/100px-All_Fired_Up.png?d422e"
+      "display": "45 logs of any kind that you have the Firemaking level to use, in 2 sets of 20 and 1 set of 5. The sets have to be of the same kind for the quest.",
+      "image": "https://runescape.wiki/images/thumb/Firemaking_detail.png/100px-Firemaking_detail.png?4c3a6",
+      "children": [
+        {
+          "name": "Logs",
+          "display": "Regular logs are enough for the quest, which can be cut from nearby trees.",
+          "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+        },
+        {
+          "name": "Acadia logs",
+          "display": "Some logs like acadia logs, corrupted magic logs, and eternal magic logs will not properly work.",
+          "image": "https://runescape.wiki/images/thumb/Acadia_logs_detail.png/100px-Acadia_logs_detail.png?2dfc1"
+        },
+        {
+          "name": "All Fired Up (minigame)",
+          "display": "You may refer to All Fired Up (minigame)#Lighting the beacons.",
+          "image": "https://runescape.wiki/images/thumb/All_Fired_Up.png/100px-All_Fired_Up.png?d422e"
+        }
+      ]
     }
   ],
   "kills": [

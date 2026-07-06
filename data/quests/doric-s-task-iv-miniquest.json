@@ -3,7 +3,7 @@
   "title": "Doric's Task IV (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:50.427Z",
+  "guideLastUpdated": "2026-07-06T19:26:52.001Z",
   "icon": "https://runescape.wiki/images/Doric%27s_Task_IV_%28miniquest%29_icon.png",
   "series": "Doric's Tasks",
   "age": "5",
@@ -55,33 +55,35 @@
   "items": [
     {
       "name": "Adamant bar",
-      "display": "48 adamant bars or a set of Adamant full helm +2 Adamant platelegs +2 Adamant platebody +2 Adamant armoured boots +2 Adamant gauntlets +2",
-      "image": "https://runescape.wiki/images/thumb/Adamant_bar_detail.png/100px-Adamant_bar_detail.png?98afc"
-    },
-    {
-      "name": "Adamant full helm +2",
-      "display": "Adamant full helm +2",
-      "image": null
-    },
-    {
-      "name": "Adamant platelegs +2",
-      "display": "Adamant platelegs +2",
-      "image": null
-    },
-    {
-      "name": "Adamant platebody +2",
-      "display": "Adamant platebody +2",
-      "image": null
-    },
-    {
-      "name": "Adamant armoured boots +2",
-      "display": "Adamant armoured boots +2",
-      "image": null
-    },
-    {
-      "name": "Adamant gauntlets +2",
-      "display": "Adamant gauntlets +2",
-      "image": null
+      "display": "48 adamant bars or a set of",
+      "image": "https://runescape.wiki/images/thumb/Adamant_bar_detail.png/100px-Adamant_bar_detail.png?98afc",
+      "children": [
+        {
+          "name": "Adamant full helm +2",
+          "display": "Adamant full helm +2",
+          "image": null
+        },
+        {
+          "name": "Adamant platelegs +2",
+          "display": "Adamant platelegs +2",
+          "image": null
+        },
+        {
+          "name": "Adamant platebody +2",
+          "display": "Adamant platebody +2",
+          "image": null
+        },
+        {
+          "name": "Adamant armoured boots +2",
+          "display": "Adamant armoured boots +2",
+          "image": null
+        },
+        {
+          "name": "Adamant gauntlets +2",
+          "display": "Adamant gauntlets +2",
+          "image": null
+        }
+      ]
     }
   ],
   "kills": [

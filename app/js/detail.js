@@ -90,10 +90,24 @@ function renderStepTable(table) {
   return wrap;
 }
 
+/**
+ * Renders one required-item node and, recursively, its own indented caveats
+ * underneath (e.g. The Elder Kiln's "Melee, magic or ranged armour..." with
+ * "Necromancy does not work...", "A dwarf multicannon is not allowed...",
+ * etc. nested one level in) — matching the wiki's own indented tree instead
+ * of flattening every note into its own unrelated top-level item.
+ */
 function renderItemRow(item) {
   const li = el("li");
-  if (item.image) li.appendChild(el("img", { src: item.image, alt: item.name }));
-  li.appendChild(document.createTextNode(item.display || item.name));
+  const row = el("div", { class: "items-plain-row" });
+  if (item.image) row.appendChild(el("img", { src: item.image, alt: item.name }));
+  row.appendChild(document.createTextNode(item.display || item.name));
+  li.appendChild(row);
+  if (item.children?.length) {
+    const childUl = el("ul", { class: "items-plain-list items-plain-sublist" });
+    item.children.forEach((child) => childUl.appendChild(renderItemRow(child)));
+    li.appendChild(childUl);
+  }
   return li;
 }
 

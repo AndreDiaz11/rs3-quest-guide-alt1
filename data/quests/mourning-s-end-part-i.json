@@ -3,7 +3,7 @@
   "title": "Mourning's End Part I",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:56.125Z",
+  "guideLastUpdated": "2026-07-06T19:26:55.911Z",
   "icon": "https://runescape.wiki/images/Mourning%27s_End_Part_I_icon.png",
   "series": "Elf (Prifddinas)",
   "age": "ambiguous",
@@ -110,13 +110,15 @@
     },
     {
       "name": "Red dye",
-      "display": "Red, yellow, blue, and green dye † Or at least 30 coins to buy them from Oronwen during the quest (it is advised to get 3-4 of each)",
-      "image": "https://runescape.wiki/images/thumb/Red_dye_detail.png/100px-Red_dye_detail.png?346b7"
-    },
-    {
-      "name": "Coins",
-      "display": "Or at least 30 coins to buy them from Oronwen during the quest (it is advised to get 3-4 of each)",
-      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+      "display": "Red, yellow, blue, and green dye †",
+      "image": "https://runescape.wiki/images/thumb/Red_dye_detail.png/100px-Red_dye_detail.png?346b7",
+      "children": [
+        {
+          "name": "Coins",
+          "display": "Or at least 30 coins to buy them from Oronwen during the quest (it is advised to get 3-4 of each)",
+          "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+        }
+      ]
     },
     {
       "name": "Rotten apple",

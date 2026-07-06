@@ -3,7 +3,7 @@
   "title": "Dragon Slayer",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:50.477Z",
+  "guideLastUpdated": "2026-07-06T19:26:52.056Z",
   "icon": "https://runescape.wiki/images/Dragon_Slayer_icon.png",
   "series": null,
   "age": "5",
@@ -65,18 +65,20 @@
     },
     {
       "name": "Map part (Lozar)",
-      "display": "To obtain one of the map parts, specifically map part (Lozar), you need to do one of the following: Bring 10,000 coins to buy it A weapon to kill Wormbrain. You can either use Telekinetic Grab or utilise area loot to obtain it.",
-      "image": "https://runescape.wiki/images/thumb/Map_part_%28Lozar%29_detail.png/100px-Map_part_%28Lozar%29_detail.png?92999"
-    },
-    {
-      "name": "Coins",
-      "display": "Bring 10,000 coins to buy it",
-      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
-    },
-    {
-      "name": "Wormbrain",
-      "display": "A weapon to kill Wormbrain. You can either use Telekinetic Grab or utilise area loot to obtain it.",
-      "image": "https://runescape.wiki/images/thumb/Wormbrain.png/100px-Wormbrain.png?57bc6"
+      "display": "To obtain one of the map parts, specifically map part (Lozar), you need to do one of the following:",
+      "image": "https://runescape.wiki/images/thumb/Map_part_%28Lozar%29_detail.png/100px-Map_part_%28Lozar%29_detail.png?92999",
+      "children": [
+        {
+          "name": "Coins",
+          "display": "Bring 10,000 coins to buy it",
+          "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+        },
+        {
+          "name": "Wormbrain",
+          "display": "A weapon to kill Wormbrain. You can either use Telekinetic Grab or utilise area loot to obtain it.",
+          "image": "https://runescape.wiki/images/thumb/Wormbrain.png/100px-Wormbrain.png?57bc6"
+        }
+      ]
     },
     {
       "name": "Coins",

@@ -3,7 +3,7 @@
   "title": "Desperate Times",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:48.995Z",
+  "guideLastUpdated": "2026-07-06T19:26:50.831Z",
   "icon": "https://runescape.wiki/images/Desperate_Times_icon.png",
   "series": "The Elder God Wars",
   "age": "6",
@@ -49,13 +49,15 @@
     },
     {
       "name": "Runite stone spirit",
-      "display": "2 runite stone spirits The stone spirits must not be in an ore box. They must be in the backpack.",
-      "image": "https://runescape.wiki/images/thumb/Runite_stone_spirit_detail.png/100px-Runite_stone_spirit_detail.png?9f14a"
-    },
-    {
-      "name": "Ore boxes",
-      "display": "The stone spirits must not be in an ore box. They must be in the backpack.",
-      "image": "https://runescape.wiki/images/thumb/Elder_rune_ore_box_detail.png/100px-Elder_rune_ore_box_detail.png?1580b"
+      "display": "2 runite stone spirits",
+      "image": "https://runescape.wiki/images/thumb/Runite_stone_spirit_detail.png/100px-Runite_stone_spirit_detail.png?9f14a",
+      "children": [
+        {
+          "name": "Ore boxes",
+          "display": "The stone spirits must not be in an ore box. They must be in the backpack.",
+          "image": "https://runescape.wiki/images/thumb/Elder_rune_ore_box_detail.png/100px-Elder_rune_ore_box_detail.png?1580b"
+        }
+      ]
     },
     {
       "name": "Mind rune",

@@ -3,7 +3,7 @@
   "title": "Doric's Task III (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:50.419Z",
+  "guideLastUpdated": "2026-07-06T19:26:51.990Z",
   "icon": "https://runescape.wiki/images/Doric%27s_Task_III_%28miniquest%29_icon.png",
   "series": "Doric's Tasks",
   "age": "5",
@@ -50,23 +50,25 @@
   "items": [
     {
       "name": "Mithril bar",
-      "display": "8 mithril bars or 4 mithril bars Mithril longsword Mithril warhammer",
-      "image": "https://runescape.wiki/images/thumb/Mithril_bar_detail.png/100px-Mithril_bar_detail.png?e065f"
-    },
-    {
-      "name": "4 mithril bars",
-      "display": "4 mithril bars",
-      "image": null
-    },
-    {
-      "name": "Mithril longsword",
-      "display": "Mithril longsword",
-      "image": "https://runescape.wiki/images/thumb/Mithril_longsword_detail.png/100px-Mithril_longsword_detail.png?46f4f"
-    },
-    {
-      "name": "Mithril warhammer",
-      "display": "Mithril warhammer",
-      "image": "https://runescape.wiki/images/thumb/Mithril_warhammer_detail.png/100px-Mithril_warhammer_detail.png?6543c"
+      "display": "8 mithril bars or",
+      "image": "https://runescape.wiki/images/thumb/Mithril_bar_detail.png/100px-Mithril_bar_detail.png?e065f",
+      "children": [
+        {
+          "name": "4 mithril bars",
+          "display": "4 mithril bars",
+          "image": null
+        },
+        {
+          "name": "Mithril longsword",
+          "display": "Mithril longsword",
+          "image": "https://runescape.wiki/images/thumb/Mithril_longsword_detail.png/100px-Mithril_longsword_detail.png?46f4f"
+        },
+        {
+          "name": "Mithril warhammer",
+          "display": "Mithril warhammer",
+          "image": "https://runescape.wiki/images/thumb/Mithril_warhammer_detail.png/100px-Mithril_warhammer_detail.png?6543c"
+        }
+      ]
     }
   ],
   "kills": [

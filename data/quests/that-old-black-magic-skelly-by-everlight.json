@@ -3,7 +3,7 @@
   "title": "That Old Black Magic: Skelly By Everlight",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:18:02.121Z",
+  "guideLastUpdated": "2026-07-06T19:26:59.690Z",
   "icon": "https://runescape.wiki/images/thumb/That_Old_Black_Magic_icon.png/50px-That_Old_Black_Magic_icon.png",
   "length": "Short",
   "startPoint": {
@@ -35,33 +35,39 @@
   "items": [
     {
       "name": "Everlight trumpet",
-      "display": "A restored Everlight trumpet artefact 28 Everlight silvthril 24 goldrune",
-      "image": "https://runescape.wiki/images/thumb/Everlight_trumpet_detail.png/100px-Everlight_trumpet_detail.png?6d192"
-    },
-    {
-      "name": "Everlight silvthril",
-      "display": "28 Everlight silvthril",
-      "image": "https://runescape.wiki/images/thumb/Everlight_silvthril_detail.png/100px-Everlight_silvthril_detail.png?a1201"
-    },
-    {
-      "name": "Goldrune",
-      "display": "24 goldrune",
-      "image": "https://runescape.wiki/images/thumb/Goldrune_detail.png/100px-Goldrune_detail.png?d51f4"
+      "display": "A restored Everlight trumpet artefact",
+      "image": "https://runescape.wiki/images/thumb/Everlight_trumpet_detail.png/100px-Everlight_trumpet_detail.png?6d192",
+      "children": [
+        {
+          "name": "Everlight silvthril",
+          "display": "28 Everlight silvthril",
+          "image": "https://runescape.wiki/images/thumb/Everlight_silvthril_detail.png/100px-Everlight_silvthril_detail.png?a1201"
+        },
+        {
+          "name": "Goldrune",
+          "display": "24 goldrune",
+          "image": "https://runescape.wiki/images/thumb/Goldrune_detail.png/100px-Goldrune_detail.png?d51f4"
+        }
+      ]
     },
     {
       "name": "Glyphs",
-      "display": "Glyphs for ensoul trumpet ritual 2 Elemental I, 1 Change I, and 1 Commune I 13 basic ghostly ink and 2 regular ghostly ink from scratch",
-      "image": null
-    },
-    {
-      "name": "Elemental I",
-      "display": "2 Elemental I, 1 Change I, and 1 Commune I 13 basic ghostly ink and 2 regular ghostly ink from scratch",
-      "image": "https://runescape.wiki/images/thumb/Elemental_I_%28drawn%29.png/100px-Elemental_I_%28drawn%29.png?0826e"
-    },
-    {
-      "name": "Basic ghostly ink",
-      "display": "13 basic ghostly ink and 2 regular ghostly ink from scratch",
-      "image": "https://runescape.wiki/images/thumb/Basic_ghostly_ink_detail.png/100px-Basic_ghostly_ink_detail.png?f9b30"
+      "display": "Glyphs for ensoul trumpet ritual",
+      "image": null,
+      "children": [
+        {
+          "name": "Elemental I",
+          "display": "2 Elemental I, 1 Change I, and 1 Commune I",
+          "image": "https://runescape.wiki/images/thumb/Elemental_I_%28drawn%29.png/100px-Elemental_I_%28drawn%29.png?0826e",
+          "children": [
+            {
+              "name": "Basic ghostly ink",
+              "display": "13 basic ghostly ink and 2 regular ghostly ink from scratch",
+              "image": "https://runescape.wiki/images/thumb/Basic_ghostly_ink_detail.png/100px-Basic_ghostly_ink_detail.png?f9b30"
+            }
+          ]
+        }
+      ]
     }
   ],
   "kills": [

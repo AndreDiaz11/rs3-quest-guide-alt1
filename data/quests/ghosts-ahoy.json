@@ -3,7 +3,7 @@
   "title": "Ghosts Ahoy",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:52.200Z",
+  "guideLastUpdated": "2026-07-06T19:26:53.050Z",
   "icon": "https://runescape.wiki/images/Ghosts_Ahoy_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -86,23 +86,25 @@
     },
     {
       "name": "Dyes",
-      "display": "3 randomly chosen standard dyes (to save time, bring three of each primary colour to mix as needed): 3 red dye 3 blue dye 3 yellow dye",
-      "image": "https://runescape.wiki/images/thumb/Mixing_dye.gif/100px-Mixing_dye.gif?d2fa0"
-    },
-    {
-      "name": "Red dye",
-      "display": "3 red dye",
-      "image": "https://runescape.wiki/images/thumb/Red_dye_detail.png/100px-Red_dye_detail.png?346b7"
-    },
-    {
-      "name": "Blue dye",
-      "display": "3 blue dye",
-      "image": "https://runescape.wiki/images/thumb/Blue_dye_detail.png/100px-Blue_dye_detail.png?1177a"
-    },
-    {
-      "name": "Yellow dye",
-      "display": "3 yellow dye",
-      "image": "https://runescape.wiki/images/thumb/Yellow_dye_detail.png/100px-Yellow_dye_detail.png?d681c"
+      "display": "3 randomly chosen standard dyes (to save time, bring three of each primary colour to mix as needed):",
+      "image": "https://runescape.wiki/images/thumb/Mixing_dye.gif/100px-Mixing_dye.gif?d2fa0",
+      "children": [
+        {
+          "name": "Red dye",
+          "display": "3 red dye",
+          "image": "https://runescape.wiki/images/thumb/Red_dye_detail.png/100px-Red_dye_detail.png?346b7"
+        },
+        {
+          "name": "Blue dye",
+          "display": "3 blue dye",
+          "image": "https://runescape.wiki/images/thumb/Blue_dye_detail.png/100px-Blue_dye_detail.png?1177a"
+        },
+        {
+          "name": "Yellow dye",
+          "display": "3 yellow dye",
+          "image": "https://runescape.wiki/images/thumb/Yellow_dye_detail.png/100px-Yellow_dye_detail.png?d681c"
+        }
+      ]
     }
   ],
   "kills": [

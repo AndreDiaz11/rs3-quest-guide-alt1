@@ -3,7 +3,7 @@
   "title": "Spirits of the Elid",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:18:00.989Z",
+  "guideLastUpdated": "2026-07-06T19:26:59.146Z",
   "icon": "https://runescape.wiki/images/Spirits_of_the_Elid_icon.png",
   "series": "Desert",
   "age": "5",
@@ -61,33 +61,37 @@
     },
     {
       "name": "Attack types",
-      "display": "A weapon for each melee attack style - stab (sword), crush (mace) and slash (scimitar) (other styles work but are extremely inefficient) For higher melee levelled players, all may not be needed",
-      "image": "https://runescape.wiki/images/thumb/Style_All_Large.png/100px-Style_All_Large.png?409cf"
+      "display": "A weapon for each melee attack style - stab (sword), crush (mace) and slash (scimitar) (other styles work but are extremely inefficient)",
+      "image": "https://runescape.wiki/images/thumb/Style_All_Large.png/100px-Style_All_Large.png?409cf",
+      "children": [
+        {
+          "name": "For higher melee levelled players, all may not be needed",
+          "display": "For higher melee levelled players, all may not be needed",
+          "image": null
+        }
+      ]
     },
     {
-      "name": "For higher melee levelled players, all may not be needed",
-      "display": "For higher melee levelled players, all may not be needed",
-      "image": null
-    },
-    {
-      "name": "Bow",
-      "display": "A method of attacking with at least 4 range A Bow or crossbow with ammo unless using chargebow (a shortbow and bronze arrows can be found during the quest) A magic weapon and runes A necromancy weapon",
-      "image": null
-    },
-    {
-      "name": "Bow",
-      "display": "A Bow or crossbow with ammo unless using chargebow (a shortbow and bronze arrows can be found during the quest)",
-      "image": null
-    },
-    {
-      "name": "A magic weapon and runes",
-      "display": "A magic weapon and runes",
-      "image": null
-    },
-    {
-      "name": "A necromancy weapon",
-      "display": "A necromancy weapon",
-      "image": null
+      "name": "A method of attacking with at least 4 range",
+      "display": "A method of attacking with at least 4 range",
+      "image": null,
+      "children": [
+        {
+          "name": "Bow",
+          "display": "A Bow or crossbow with ammo unless using chargebow (a shortbow and bronze arrows can be found during the quest)",
+          "image": null
+        },
+        {
+          "name": "A magic weapon and runes",
+          "display": "A magic weapon and runes",
+          "image": null
+        },
+        {
+          "name": "A necromancy weapon",
+          "display": "A necromancy weapon",
+          "image": null
+        }
+      ]
     }
   ],
   "kills": [

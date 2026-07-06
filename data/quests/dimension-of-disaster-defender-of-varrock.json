@@ -3,7 +3,7 @@
   "title": "Dimension of Disaster: Defender of Varrock",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:49.355Z",
+  "guideLastUpdated": "2026-07-06T19:26:51.211Z",
   "icon": "https://runescape.wiki/images/Dimension_of_Disaster_Defender_of_Varrock_icon.png",
   "length": "Short to Medium",
   "startPoint": {
@@ -52,58 +52,62 @@
     },
     {
       "name": "Zemomark",
-      "display": "500 zemomarks for: If unlocked, the New Varrock Zombie cosmetic override works in place of wearing the items (unlocked with silver pennies from Aris' reward shop from finishing the quest series). Zombie mask Zombie shirt Zombie trousers Zombie gloves Zombie boots",
-      "image": "https://runescape.wiki/images/thumb/Zemomark_25_detail.png/100px-Zemomark_25_detail.png?7dfdf"
+      "display": "500 zemomarks for:",
+      "image": "https://runescape.wiki/images/thumb/Zemomark_25_detail.png/100px-Zemomark_25_detail.png?7dfdf",
+      "children": [
+        {
+          "name": "If unlocked, the New Varrock Zombie cosmetic override works in place of wearing the items (unlocked with silver pennies from Aris' reward shop from finishing the quest series).",
+          "display": "If unlocked, the New Varrock Zombie cosmetic override works in place of wearing the items (unlocked with silver pennies from Aris' reward shop from finishing the quest series).",
+          "image": null
+        },
+        {
+          "name": "Zombie mask (New Varrock)",
+          "display": "Zombie mask",
+          "image": "https://runescape.wiki/images/thumb/Zombie_mask_%28New_Varrock%29_detail.png/100px-Zombie_mask_%28New_Varrock%29_detail.png?25158"
+        },
+        {
+          "name": "Zombie shirt (New Varrock)",
+          "display": "Zombie shirt",
+          "image": "https://runescape.wiki/images/thumb/Zombie_shirt_%28New_Varrock%29_detail.png/100px-Zombie_shirt_%28New_Varrock%29_detail.png?46ade"
+        },
+        {
+          "name": "Zombie trousers (New Varrock)",
+          "display": "Zombie trousers",
+          "image": "https://runescape.wiki/images/thumb/Zombie_trousers_%28New_Varrock%29_detail.png/100px-Zombie_trousers_%28New_Varrock%29_detail.png?69484"
+        },
+        {
+          "name": "Zombie gloves (New Varrock)",
+          "display": "Zombie gloves",
+          "image": "https://runescape.wiki/images/thumb/Zombie_gloves_%28New_Varrock%29_detail.png/100px-Zombie_gloves_%28New_Varrock%29_detail.png?7f72a"
+        },
+        {
+          "name": "Zombie boots (New Varrock)",
+          "display": "Zombie boots",
+          "image": "https://runescape.wiki/images/thumb/Zombie_boots_%28New_Varrock%29_detail.png/100px-Zombie_boots_%28New_Varrock%29_detail.png?9938b"
+        }
+      ]
     },
     {
-      "name": "If unlocked, the New Varrock Zombie cosmetic override works in place of wearing the items (unlocked with silver pennies from Aris' reward shop from finishing the quest series).",
-      "display": "If unlocked, the New Varrock Zombie cosmetic override works in place of wearing the items (unlocked with silver pennies from Aris' reward shop from finishing the quest series).",
-      "image": null
-    },
-    {
-      "name": "Zombie mask (New Varrock)",
-      "display": "Zombie mask",
-      "image": "https://runescape.wiki/images/thumb/Zombie_mask_%28New_Varrock%29_detail.png/100px-Zombie_mask_%28New_Varrock%29_detail.png?25158"
-    },
-    {
-      "name": "Zombie shirt (New Varrock)",
-      "display": "Zombie shirt",
-      "image": "https://runescape.wiki/images/thumb/Zombie_shirt_%28New_Varrock%29_detail.png/100px-Zombie_shirt_%28New_Varrock%29_detail.png?46ade"
-    },
-    {
-      "name": "Zombie trousers (New Varrock)",
-      "display": "Zombie trousers",
-      "image": "https://runescape.wiki/images/thumb/Zombie_trousers_%28New_Varrock%29_detail.png/100px-Zombie_trousers_%28New_Varrock%29_detail.png?69484"
-    },
-    {
-      "name": "Zombie gloves (New Varrock)",
-      "display": "Zombie gloves",
-      "image": "https://runescape.wiki/images/thumb/Zombie_gloves_%28New_Varrock%29_detail.png/100px-Zombie_gloves_%28New_Varrock%29_detail.png?7f72a"
-    },
-    {
-      "name": "Zombie boots (New Varrock)",
-      "display": "Zombie boots",
-      "image": "https://runescape.wiki/images/thumb/Zombie_boots_%28New_Varrock%29_detail.png/100px-Zombie_boots_%28New_Varrock%29_detail.png?9938b"
-    },
-    {
-      "name": "Tin ore",
-      "display": "To get the code (not necessary on replays as it will show when unlocking the door): 3 tin ores 4 fire runes (or a fire staff) 1 nature rune",
-      "image": "https://runescape.wiki/images/thumb/Tin_ore_detail.png/100px-Tin_ore_detail.png?82a5a"
-    },
-    {
-      "name": "Tin ore",
-      "display": "3 tin ores",
-      "image": "https://runescape.wiki/images/thumb/Tin_ore_detail.png/100px-Tin_ore_detail.png?82a5a"
-    },
-    {
-      "name": "Fire rune",
-      "display": "4 fire runes (or a fire staff)",
-      "image": "https://runescape.wiki/images/thumb/Fire_rune_detail.png/100px-Fire_rune_detail.png?fa918"
-    },
-    {
-      "name": "Nature rune",
-      "display": "1 nature rune",
-      "image": "https://runescape.wiki/images/thumb/Nature_rune_detail.png/100px-Nature_rune_detail.png?425e6"
+      "name": "To get the code (not necessary on replays as it will show when unlocking the door):",
+      "display": "To get the code (not necessary on replays as it will show when unlocking the door):",
+      "image": null,
+      "children": [
+        {
+          "name": "Tin ore",
+          "display": "3 tin ores",
+          "image": "https://runescape.wiki/images/thumb/Tin_ore_detail.png/100px-Tin_ore_detail.png?82a5a"
+        },
+        {
+          "name": "Fire rune",
+          "display": "4 fire runes (or a fire staff)",
+          "image": "https://runescape.wiki/images/thumb/Fire_rune_detail.png/100px-Fire_rune_detail.png?fa918"
+        },
+        {
+          "name": "Nature rune",
+          "display": "1 nature rune",
+          "image": "https://runescape.wiki/images/thumb/Nature_rune_detail.png/100px-Nature_rune_detail.png?425e6"
+        }
+      ]
     }
   ],
   "kills": [

@@ -3,7 +3,7 @@
   "title": "Land of the Goblins",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:54.613Z",
+  "guideLastUpdated": "2026-07-06T19:26:54.991Z",
   "icon": "https://runescape.wiki/images/Land_of_the_Goblins_icon.png",
   "series": "Cave Goblin",
   "age": "5",
@@ -68,13 +68,15 @@
   "items": [
     {
       "name": "Toadflax potion (unfinished)",
-      "display": "Toadflax potion (unfinished) Ironmen can easily obtain a clean toadflax from the Brimhaven Agility Arena",
-      "image": "https://runescape.wiki/images/thumb/Toadflax_potion_%28unfinished%29_detail.png/100px-Toadflax_potion_%28unfinished%29_detail.png?b59d4"
-    },
-    {
-      "name": "Ironman Mode",
-      "display": "Ironmen can easily obtain a clean toadflax from the Brimhaven Agility Arena",
-      "image": "https://runescape.wiki/images/thumb/Ironman_Mode_update_post_header.jpg/100px-Ironman_Mode_update_post_header.jpg?991e6"
+      "display": "Toadflax potion (unfinished)",
+      "image": "https://runescape.wiki/images/thumb/Toadflax_potion_%28unfinished%29_detail.png/100px-Toadflax_potion_%28unfinished%29_detail.png?b59d4",
+      "children": [
+        {
+          "name": "Ironman Mode",
+          "display": "Ironmen can easily obtain a clean toadflax from the Brimhaven Agility Arena",
+          "image": "https://runescape.wiki/images/thumb/Ironman_Mode_update_post_header.jpg/100px-Ironman_Mode_update_post_header.jpg?991e6"
+        }
+      ]
     },
     {
       "name": "Goblin mail",
@@ -103,13 +105,15 @@
     },
     {
       "name": "Black mushroom ink",
-      "display": "Black mushroom ink (obtainable during the quest) Empty vial (if you don't already have the black mushroom ink)",
-      "image": "https://runescape.wiki/images/thumb/Black_mushroom_ink_detail.png/100px-Black_mushroom_ink_detail.png?135cc"
-    },
-    {
-      "name": "Vial",
-      "display": "Empty vial (if you don't already have the black mushroom ink)",
-      "image": "https://runescape.wiki/images/thumb/Vial_detail.png/100px-Vial_detail.png?82ee9"
+      "display": "Black mushroom ink (obtainable during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Black_mushroom_ink_detail.png/100px-Black_mushroom_ink_detail.png?135cc",
+      "children": [
+        {
+          "name": "Vial",
+          "display": "Empty vial (if you don't already have the black mushroom ink)",
+          "image": "https://runescape.wiki/images/thumb/Vial_detail.png/100px-Vial_detail.png?82ee9"
+        }
+      ]
     },
     {
       "name": "Whitefish",

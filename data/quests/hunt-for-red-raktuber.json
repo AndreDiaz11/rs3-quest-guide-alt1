@@ -3,7 +3,7 @@
   "title": "Hunt for Red Raktuber",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:53.751Z",
+  "guideLastUpdated": "2026-07-06T19:26:54.364Z",
   "icon": "https://runescape.wiki/images/Hunt_for_Red_Raktuber_icon.png",
   "series": "Penguin",
   "age": "5",
@@ -44,13 +44,15 @@
   "items": [
     {
       "name": "Clockwork suit",
-      "display": "Clockwork suit 1 silk, 1 plank and 1 clockwork to make one",
-      "image": "https://runescape.wiki/images/thumb/Clockwork_suit_detail.png/100px-Clockwork_suit_detail.png?9acb7"
-    },
-    {
-      "name": "Silk",
-      "display": "1 silk, 1 plank and 1 clockwork to make one",
-      "image": "https://runescape.wiki/images/thumb/Silk_detail.png/100px-Silk_detail.png?389d9"
+      "display": "Clockwork suit",
+      "image": "https://runescape.wiki/images/thumb/Clockwork_suit_detail.png/100px-Clockwork_suit_detail.png?9acb7",
+      "children": [
+        {
+          "name": "Silk",
+          "display": "1 silk, 1 plank and 1 clockwork to make one",
+          "image": "https://runescape.wiki/images/thumb/Silk_detail.png/100px-Silk_detail.png?389d9"
+        }
+      ]
     },
     {
       "name": "Silk",

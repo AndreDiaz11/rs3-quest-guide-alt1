@@ -3,7 +3,7 @@
   "title": "The Tale of the Muspah",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:18:03.972Z",
+  "guideLastUpdated": "2026-07-06T19:27:00.988Z",
   "icon": "https://runescape.wiki/images/The_Tale_of_the_Muspah_icon.png",
   "series": "Mahjarrat Mysteries",
   "age": "5",
@@ -50,23 +50,25 @@
     },
     {
       "name": "Lvl-1 Enchant",
-      "display": "Equipment to cast Lvl-1 Enchant 8 times (one of the following): 8 cosmic runes and 8 water runes 8 cosmic runes and a staff that provides water runes, such as a staff of water 8 Lvl-1 enchant tablets",
-      "image": "https://runescape.wiki/images/thumb/Enchant.gif/100px-Enchant.gif?a4251"
-    },
-    {
-      "name": "Cosmic rune",
-      "display": "8 cosmic runes and 8 water runes",
-      "image": "https://runescape.wiki/images/thumb/Cosmic_rune_detail.png/100px-Cosmic_rune_detail.png?fa918"
-    },
-    {
-      "name": "Cosmic rune",
-      "display": "8 cosmic runes and a staff that provides water runes, such as a staff of water",
-      "image": "https://runescape.wiki/images/thumb/Cosmic_rune_detail.png/100px-Cosmic_rune_detail.png?fa918"
-    },
-    {
-      "name": "Lvl-1 enchant (item)",
-      "display": "8 Lvl-1 enchant tablets",
-      "image": "https://runescape.wiki/images/thumb/Lvl-1_enchant_%28item%29_detail.png/100px-Lvl-1_enchant_%28item%29_detail.png?4109b"
+      "display": "Equipment to cast Lvl-1 Enchant 8 times (one of the following):",
+      "image": "https://runescape.wiki/images/thumb/Enchant.gif/100px-Enchant.gif?a4251",
+      "children": [
+        {
+          "name": "Cosmic rune",
+          "display": "8 cosmic runes and 8 water runes",
+          "image": "https://runescape.wiki/images/thumb/Cosmic_rune_detail.png/100px-Cosmic_rune_detail.png?fa918"
+        },
+        {
+          "name": "Cosmic rune",
+          "display": "8 cosmic runes and a staff that provides water runes, such as a staff of water",
+          "image": "https://runescape.wiki/images/thumb/Cosmic_rune_detail.png/100px-Cosmic_rune_detail.png?fa918"
+        },
+        {
+          "name": "Lvl-1 enchant (item)",
+          "display": "8 Lvl-1 enchant tablets",
+          "image": "https://runescape.wiki/images/thumb/Lvl-1_enchant_%28item%29_detail.png/100px-Lvl-1_enchant_%28item%29_detail.png?4109b"
+        }
+      ]
     }
   ],
   "kills": [

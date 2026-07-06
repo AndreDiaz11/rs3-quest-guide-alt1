@@ -3,7 +3,7 @@
   "title": "Recipe for Disaster: Another Cook's Quest",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:58.867Z",
+  "guideLastUpdated": "2026-07-06T19:26:57.584Z",
   "icon": "https://runescape.wiki/images/Another_Cook%27s_Quest_icon.png",
   "length": "Short",
   "startPoint": {
@@ -46,23 +46,25 @@
     },
     {
       "name": "Fruit Blast",
-      "display": "1 Fruit Blast (premade does not work). The fruit blast can also be made with the following items: 1 Cocktail shaker 1 Cocktail glass 2 Lemons, 1 pineapple, 1 orange",
-      "image": "https://runescape.wiki/images/thumb/Fruit_Blast_detail.png/100px-Fruit_Blast_detail.png?9a03f"
-    },
-    {
-      "name": "Cocktail shaker",
-      "display": "1 Cocktail shaker",
-      "image": "https://runescape.wiki/images/thumb/Cocktail_shaker_detail.png/100px-Cocktail_shaker_detail.png?3a0f6"
-    },
-    {
-      "name": "Cocktail glass",
-      "display": "1 Cocktail glass",
-      "image": "https://runescape.wiki/images/thumb/Cocktail_glass_detail.png/100px-Cocktail_glass_detail.png?ec837"
-    },
-    {
-      "name": "Lemon",
-      "display": "2 Lemons, 1 pineapple, 1 orange",
-      "image": "https://runescape.wiki/images/thumb/Lemon_detail.png/100px-Lemon_detail.png?9acba"
+      "display": "1 Fruit Blast (premade does not work). The fruit blast can also be made with the following items:",
+      "image": "https://runescape.wiki/images/thumb/Fruit_Blast_detail.png/100px-Fruit_Blast_detail.png?9a03f",
+      "children": [
+        {
+          "name": "Cocktail shaker",
+          "display": "1 Cocktail shaker",
+          "image": "https://runescape.wiki/images/thumb/Cocktail_shaker_detail.png/100px-Cocktail_shaker_detail.png?3a0f6"
+        },
+        {
+          "name": "Cocktail glass",
+          "display": "1 Cocktail glass",
+          "image": "https://runescape.wiki/images/thumb/Cocktail_glass_detail.png/100px-Cocktail_glass_detail.png?ec837"
+        },
+        {
+          "name": "Lemon",
+          "display": "2 Lemons, 1 pineapple, 1 orange",
+          "image": "https://runescape.wiki/images/thumb/Lemon_detail.png/100px-Lemon_detail.png?9acba"
+        }
+      ]
     }
   ],
   "kills": [

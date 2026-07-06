@@ -3,7 +3,7 @@
   "title": "Cold War",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:47.756Z",
+  "guideLastUpdated": "2026-07-06T19:26:50.194Z",
   "icon": "https://runescape.wiki/images/Cold_War_icon.png",
   "series": "Penguin",
   "age": "5",
@@ -57,13 +57,15 @@
   "items": [
     {
       "name": "Crafting table 3",
-      "display": "Access to a Crafting table 3 or 4 (you can use a friend's house if you're not an ironman) Alternatively, 4 oak planks and 3 molten glass to make the crafting table",
-      "image": "https://runescape.wiki/images/thumb/Crafting_table_3.png/100px-Crafting_table_3.png?68eca"
-    },
-    {
-      "name": "Oak plank",
-      "display": "Alternatively, 4 oak planks and 3 molten glass to make the crafting table",
-      "image": "https://runescape.wiki/images/thumb/Oak_plank_detail.png/100px-Oak_plank_detail.png?ce6dc"
+      "display": "Access to a Crafting table 3 or 4 (you can use a friend's house if you're not an ironman)",
+      "image": "https://runescape.wiki/images/thumb/Crafting_table_3.png/100px-Crafting_table_3.png?68eca",
+      "children": [
+        {
+          "name": "Oak plank",
+          "display": "Alternatively, 4 oak planks and 3 molten glass to make the crafting table",
+          "image": "https://runescape.wiki/images/thumb/Oak_plank_detail.png/100px-Oak_plank_detail.png?ce6dc"
+        }
+      ]
     },
     {
       "name": "Oak plank",

@@ -3,7 +3,7 @@
   "title": "Helping Laniakea (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:17:53.641Z",
+  "guideLastUpdated": "2026-07-06T19:26:53.617Z",
   "icon": "https://runescape.wiki/images/Helping_Laniakea_%28miniquest%29_icon.png",
   "series": null,
   "age": "6",
@@ -37,13 +37,15 @@
   "items": [
     {
       "name": "Raw arcane apoterrasaur meat",
-      "display": "Raw arcane apoterrasaur meat (can be bought from the Grand Exchange or another player) Ironmen: 1-3 Raw sharks",
-      "image": "https://runescape.wiki/images/thumb/Raw_arcane_apoterrasaur_meat_detail.png/100px-Raw_arcane_apoterrasaur_meat_detail.png?b8be5"
-    },
-    {
-      "name": "Raw shark",
-      "display": "Ironmen: 1-3 Raw sharks",
-      "image": "https://runescape.wiki/images/thumb/Raw_shark_detail.png/100px-Raw_shark_detail.png?362c6"
+      "display": "Raw arcane apoterrasaur meat (can be bought from the Grand Exchange or another player)",
+      "image": "https://runescape.wiki/images/thumb/Raw_arcane_apoterrasaur_meat_detail.png/100px-Raw_arcane_apoterrasaur_meat_detail.png?b8be5",
+      "children": [
+        {
+          "name": "Raw shark",
+          "display": "Ironmen: 1-3 Raw sharks",
+          "image": "https://runescape.wiki/images/thumb/Raw_shark_detail.png/100px-Raw_shark_detail.png?362c6"
+        }
+      ]
     }
   ],
   "kills": [
