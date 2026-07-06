@@ -120,6 +120,7 @@ function parseQuestDetailsTable(quickGuideHtml) {
     // steps back to the clone (with the nested <ul> now gone) before reading
     // its text/link, or `display`/`name` come out empty for every leaf item.
     const withoutChildren = $li.clone().children("ul").remove().end();
+    withoutChildren.find("figure").remove(); // strip any inline reference screenshot before reading text/link
     const display = withoutChildren.text().replace(/\s+/g, " ").trim();
     const link = withoutChildren.find("a").first();
     // Use the link's `title` attribute (the canonical wiki page name) for

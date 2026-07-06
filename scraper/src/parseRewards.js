@@ -6,7 +6,13 @@ function parseLeadingAmount(text) {
 }
 
 function parseRewardListItem($, el) {
-  const $el = $(el);
+  // A reward line can embed its own reference screenshot inline (e.g. The
+  // Elder Kiln's "2 quest points" li also contains a <figure> of the Early
+  // Bird bonus screen) — strip it before reading text/links, or its caption
+  // ("The Early Bird reward screen for...") gets appended onto the reward's
+  // own text, and its own <a> could get mistaken for the reward's item link.
+  const $el = $(el).clone();
+  $el.find("figure").remove();
   const text = $el.text().replace(/\s+/g, " ").trim();
 
   if (/quest point/i.test(text)) {
