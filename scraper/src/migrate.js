@@ -61,26 +61,27 @@ async function migrateOne(slug) {
     guideNote: old.guideNote,
   });
 
-  // Overlay the existing Spanish translations, matched by index among
-  // non-table steps only — table steps are a newly-added kind (English-only,
-  // like item/reward names) that can appear mid-guide and would otherwise
-  // shift every subsequent step's index, silently desyncing the reused
-  // translations for the rest of the quest.
-  // `old.steps` may itself already contain table steps from a previous run of
-  // this same script — filter them out before comparing/matching, or the
-  // index-based overlay below silently shifts and misassigns translations.
-  const oldNonTableSteps = (old.steps || []).filter((s) => !s.isTable);
-  const nonTableCount = steps.filter((s) => !s.isTable).length;
-  if (nonTableCount !== oldNonTableSteps.length) {
+  // Overlay the existing Spanish translations, matched by index among plain
+  // text steps only — table/image steps are English-only kinds (like
+  // item/reward names) that can appear mid-guide and would otherwise shift
+  // every subsequent step's index, silently desyncing the reused translations
+  // for the rest of the quest.
+  // `old.steps` may itself already contain table/image steps from a previous
+  // run of this same script — filter them out before comparing/matching, or
+  // the index-based overlay below silently shifts and misassigns translations.
+  const isStructural = (s) => Boolean(s.isTable || s.isImage);
+  const oldTextSteps = (old.steps || []).filter((s) => !isStructural(s));
+  const textStepCount = steps.filter((s) => !isStructural(s)).length;
+  if (textStepCount !== oldTextSteps.length) {
     console.warn(
-      `[warn] ${slug}: el número de pasos cambió (${oldNonTableSteps.length} -> ${nonTableCount}); ` +
+      `[warn] ${slug}: el número de pasos cambió (${oldTextSteps.length} -> ${textStepCount}); ` +
         `se reutiliza traducción solo hasta el índice más corto, revisar manualmente.`
     );
   }
   let oldIndex = 0;
   record.steps = record.steps.map((step) => {
-    if (step.isTable) return step;
-    const oldEs = oldNonTableSteps[oldIndex]?.text?.es;
+    if (isStructural(step)) return step;
+    const oldEs = oldTextSteps[oldIndex]?.text?.es;
     oldIndex++;
     return oldEs ? { ...step, text: { ...step.text, es: oldEs } } : step;
   });

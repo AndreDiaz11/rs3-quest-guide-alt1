@@ -1,6 +1,30 @@
 import { wikitextToPlain } from "./wikitext.js";
 
 /**
+ * Finds every standalone `[[File:X.png|...|thumb|Caption]]` image in
+ * `content` — the wiki's own way of showing a puzzle/solution screenshot
+ * next to a Checklist (e.g. Hero's Welcome's "The fully completed map" next
+ * to "Solve the map fragments.", or The Branches of Darkmeyer's 4 puzzle
+ * solutions) — with position, so it can be interleaved with Checklist/table
+ * blocks in real source order (see parseSteps.js). Not resolved to an actual
+ * URL here (that needs a network call); returns the raw filename + caption.
+ */
+export function extractSolutionImages(content) {
+  const results = [];
+  const re = /\[\[File:([^|\]]+)\|[^\]]*\|thumb\|([^\]]+)\]\]/gi;
+  let match;
+  while ((match = re.exec(content)) !== null) {
+    results.push({
+      start: match.index,
+      end: match.index + match[0].length,
+      filename: match[1].trim(),
+      caption: wikitextToPlain(match[2]).text,
+    });
+  }
+  return results;
+}
+
+/**
  * Finds every top-level `{| ... |}` wikitable block in `content`, with its
  * position (needed to interleave it with Checklist blocks in source order —
  * see parseSteps.js). The wiki's Quick guide pages sometimes drop a

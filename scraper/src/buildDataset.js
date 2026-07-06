@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { titleToSlug } from "./slug.js";
-import { resolveImages } from "./resolveImages.js";
+import { resolveImages, resolveFileUrls } from "./resolveImages.js";
 import { translateStrings } from "./translate.js";
 
 const DATA_DIR = fileURLToPath(new URL("../../data/", import.meta.url));
@@ -59,7 +59,7 @@ export async function buildQuestRecord({
   // Empty strings (e.g. a quest with no scraped start point) are skipped before
   // sending — an empty line in the batch gets silently dropped by the model,
   // which desyncs every line after it and makes the length check fail forever.
-  const allTexts = [metadata.startPoint || "", ...steps.map((s) => (s.isTable ? "" : s.text.en))];
+  const allTexts = [metadata.startPoint || "", ...steps.map((s) => (s.isTable || s.isImage ? "" : s.text.en))];
   const nonEmptyIndexes = [];
   const nonEmptyTexts = [];
   allTexts.forEach((text, i) => {
@@ -75,10 +75,20 @@ export async function buildQuestRecord({
   });
   const [startPointEs, ...stepEsTexts] = translated;
 
-  // Table steps are English-only (no per-cell translation, like item/reward
-  // names) — they never had text sent to the translator above, so skip them here.
+  // Table/image steps are English-only (no per-cell/caption translation, like
+  // item/reward names) — they never had text sent to the translator above,
+  // so skip them here.
   const stepsWithEs = steps.map((step, i) =>
-    step.isTable ? step : { ...step, text: { en: step.text.en, ...(stepEsTexts[i] ? { es: stepEsTexts[i] } : {}) } }
+    step.isTable || step.isImage
+      ? step
+      : { ...step, text: { en: step.text.en, ...(stepEsTexts[i] ? { es: stepEsTexts[i] } : {}) } }
+  );
+
+  // Resolve every standalone solution-image filename to its real URL.
+  const imageStepFilenames = steps.filter((s) => s.isImage).map((s) => s.filename);
+  const fileUrlMap = await resolveFileUrls(imageStepFilenames);
+  const stepsWithImages = stepsWithEs.map((step) =>
+    step.isImage ? { ...step, image: fileUrlMap.get(step.filename) || null } : step
   );
 
   // Resolve images for every item/reward name referenced by this quest.
@@ -124,7 +134,7 @@ export async function buildQuestRecord({
     rewards,
     rewardBannerImage: rewardsData.rewardBannerImage || null,
     postQuest: rewardsData.postQuest,
-    steps: stepsWithEs,
+    steps: stepsWithImages,
     ...(guideNote ? { guideNote } : {}),
   };
 

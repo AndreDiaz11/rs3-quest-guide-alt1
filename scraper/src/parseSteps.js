@@ -1,5 +1,5 @@
 import { extractAllTemplatesWithPositions, wikitextToPlain, splitIntoSections } from "./wikitext.js";
-import { extractWikiTables, parseWikiTableToStructured } from "./parseTables.js";
+import { extractWikiTables, parseWikiTableToStructured, extractSolutionImages } from "./parseTables.js";
 
 function parseChecklistBlock(checklistContent, rawSteps, section) {
   const lines = checklistContent.split("\n");
@@ -27,6 +27,11 @@ function parseChecklistBlock(checklistContent, rawSteps, section) {
   }
 }
 
+/** True for a "structural" step (table/image) that skips the plain-text/translation pipeline entirely. */
+function isStructural(step) {
+  return Boolean(step.isTable || step.isImage);
+}
+
 /**
  * Parses every {{Checklist|...}} block from a Quick guide page's wikitext
  * into a single ordered array of steps. Longer quests split their walkthrough
@@ -41,25 +46,29 @@ function parseChecklistBlock(checklistContent, rawSteps, section) {
  * template, e.g. {{Chat options|...}}, itself spans multiple lines).
  */
 export function parseSteps(quickGuideWikitext) {
-  const rawSteps = []; // { indent, raw, section } or { isTable, table, section }
+  const rawSteps = []; // { indent, raw, section } or { isTable, table, section } or { isImage, filename, caption, section }
   for (const { heading, content } of splitIntoSections(quickGuideWikitext)) {
-    // Checklist blocks and standalone wikitables (e.g. a quiz's Question/Answer
-    // table dropped between two Checklists, like Hero's Welcome) both need to
-    // be processed in the order they actually appear in the section — merge
-    // and sort by source position rather than handling all of one kind first.
+    // Checklist blocks, standalone wikitables (a quiz's Question/Answer table,
+    // e.g. Hero's Welcome), and standalone solution images (e.g. that same
+    // quest's "fully completed map" screenshot) all need to be processed in
+    // the order they actually appear in the section — merge and sort by
+    // source position rather than handling all of one kind first.
     const checklistBlocks = extractAllTemplatesWithPositions(content, "Checklist").map((b) => ({
       ...b,
       kind: "checklist",
     }));
     const tableBlocks = extractWikiTables(content).map((b) => ({ ...b, kind: "table" }));
-    const blocks = [...checklistBlocks, ...tableBlocks].sort((a, b) => a.start - b.start);
+    const imageBlocks = extractSolutionImages(content).map((b) => ({ ...b, kind: "image" }));
+    const blocks = [...checklistBlocks, ...tableBlocks, ...imageBlocks].sort((a, b) => a.start - b.start);
 
     for (const block of blocks) {
       if (block.kind === "checklist") {
         parseChecklistBlock(block.content, rawSteps, heading);
-      } else {
+      } else if (block.kind === "table") {
         const table = parseWikiTableToStructured(block.raw);
         if (table) rawSteps.push({ isTable: true, table, section: heading });
+      } else {
+        rawSteps.push({ isImage: true, filename: block.filename, caption: block.caption, section: heading });
       }
     }
   }
@@ -72,10 +81,11 @@ export function parseSteps(quickGuideWikitext) {
   // template we strip (e.g. a fairy ring code icon) — an empty instruction is
   // useless to show anyway, and sending blank lines to the translator causes
   // it to drop them inconsistently, breaking the line-count alignment check.
-  // Table steps are already structured and skip this text pipeline entirely.
+  // Structural steps (tables/images) are already resolved and skip this
+  // plain-text pipeline entirely.
   return rawSteps
     .map((step) =>
-      step.isTable
+      isStructural(step)
         ? step
         : {
             indent: step.indent,
@@ -84,17 +94,19 @@ export function parseSteps(quickGuideWikitext) {
             ...wikitextToPlain(step.raw),
           }
     )
-    .filter((step) => step.isTable || step.text.trim() !== "")
-    .map((step, index) =>
-      step.isTable
-        ? { index, isTable: true, section: step.section, table: step.table }
-        : {
-            index,
-            indent: step.indent,
-            section: step.section,
-            ...(step.isNote ? { isNote: true } : {}),
-            text: { en: step.text },
-            chatOptions: step.chatOptions,
-          }
-    );
+    .filter((step) => isStructural(step) || step.text.trim() !== "")
+    .map((step, index) => {
+      if (step.isTable) return { index, isTable: true, section: step.section, table: step.table };
+      if (step.isImage) {
+        return { index, isImage: true, section: step.section, filename: step.filename, caption: step.caption };
+      }
+      return {
+        index,
+        indent: step.indent,
+        section: step.section,
+        ...(step.isNote ? { isNote: true } : {}),
+        text: { en: step.text },
+        chatOptions: step.chatOptions,
+      };
+    });
 }

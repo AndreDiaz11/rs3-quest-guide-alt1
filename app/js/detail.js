@@ -131,6 +131,21 @@ function renderRewardBanner(src) {
   return wrap;
 }
 
+/** A wiki solution/puzzle screenshot (e.g. Hero's Welcome's "The fully completed map") next to the step it illustrates, with the same zoom-to-fullscreen lupa as the reward banner. */
+function renderStepImage(step) {
+  const wrap = el("div", { class: "step-image-wrap" });
+  if (step.image) {
+    const img = el("img", { class: "step-image", src: step.image, alt: step.caption || "" });
+    const zoomBtn = el("button", { class: "step-image-zoom", type: "button", title: t("zoomImage"), text: "🔍" });
+    zoomBtn.addEventListener("click", () => openImageLightbox(step.image));
+    wrap.appendChild(img);
+    wrap.appendChild(zoomBtn);
+    wrap.addEventListener("click", () => openImageLightbox(step.image));
+  }
+  if (step.caption) wrap.appendChild(el("div", { class: "step-image-caption", text: step.caption }));
+  return wrap;
+}
+
 function renderRewardRow(reward) {
   const li = el("li");
   if (reward.image) li.appendChild(el("img", { src: reward.image, alt: reward.name || "" }));
@@ -386,6 +401,15 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
         if (step.isTable) {
           const li = el("li", { class: "step-table-wrap" });
           li.appendChild(renderStepTable(step.table));
+          stepList.appendChild(li);
+          return;
+        }
+
+        // A standalone solution/puzzle screenshot (e.g. Hero's Welcome's "The
+        // fully completed map") — reference info, not an action either.
+        if (step.isImage) {
+          const li = el("li", { class: "step-image-li" });
+          li.appendChild(renderStepImage(step));
           stepList.appendChild(li);
           return;
         }

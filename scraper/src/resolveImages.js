@@ -34,3 +34,37 @@ export async function resolveImages(titles) {
 
   return results;
 }
+
+/**
+ * Resolves `File:` page names (e.g. from a standalone `[[File:X.png|thumb|...]]`
+ * solution image, not the PageImages-based item/reward icons above) to their
+ * actual full-size image URL via the ImageInfo API. Returns a
+ * Map<filename, url|null>, keyed by the plain filename (no "File:" prefix).
+ */
+export async function resolveFileUrls(filenames) {
+  const uniqueNames = [...new Set(filenames.filter(Boolean))];
+  const results = new Map();
+
+  for (let i = 0; i < uniqueNames.length; i += BATCH_SIZE) {
+    const batch = uniqueNames.slice(i, i + BATCH_SIZE);
+    const response = await wikiApiFetch({
+      action: "query",
+      titles: batch.map((name) => `File:${name}`).join("|"),
+      prop: "imageinfo",
+      iiprop: "url",
+    });
+
+    const pages = response?.query?.pages || {};
+    for (const page of Object.values(pages)) {
+      const url = page.imageinfo?.[0]?.url || null;
+      const name = page.title?.replace(/^File:/, "");
+      if (name) results.set(name, url);
+    }
+  }
+
+  for (const name of uniqueNames) {
+    if (!results.has(name)) results.set(name, null);
+  }
+
+  return results;
+}
