@@ -64,6 +64,14 @@ export function parseRewards(quickGuideHtml) {
       // the reward list on the actual quest page.
       const src = node.find("img").attr("src");
       if (src) rewardBannerImage = src.startsWith("http") ? src : `https://runescape.wiki${src}`;
+    } else if (!rewardBannerImage && (node.is(".switch-infobox") || node.find(".switch-infobox").length > 0)) {
+      // Quests with a player-chosen reward (e.g. Roving Elves' bow-or-ward)
+      // wrap the banner in a JS tab switcher instead of a plain <figure> —
+      // use whichever variant's image is shown by default.
+      const scope = node.is(".switch-infobox") ? node : node.find(".switch-infobox").first();
+      const img = scope.find(".item.showing img, .item img").first();
+      const src = img.attr("src");
+      if (src) rewardBannerImage = src.startsWith("http") ? src : `https://runescape.wiki${src}`;
     } else if (node.is("dl") && /additional rewards/i.test(node.text())) {
       pastAdditionalMarker = true;
     } else if (node.is("ul")) {
