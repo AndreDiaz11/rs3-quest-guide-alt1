@@ -3,16 +3,20 @@
   "title": "Twilight of the Gods",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.271Z",
+  "guideLastUpdated": "2026-07-06T20:32:12.107Z",
   "icon": "https://runescape.wiki/images/Twilight_of_the_Gods_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Twilight_of_the_Gods_entity_icon.png?5d464",
   "series": "The Elder God Wars",
+  "seriesNth": "15",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Master",
   "length": "Long",
   "releaseDate": "6 June 2022",
+  "area": "Varrock Outskirts",
   "startPoint": {
     "en": "Talk to a wounded knight outside the surface entrance to Senntisten.",
     "es": "Habla con un caballero herido en la entrada de superficie de Senntisten."
@@ -90,6 +94,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Infernal ashes",
@@ -105,6 +110,74 @@
       "name": "Backpack",
       "display": "At least three free spaces in backpack",
       "image": "https://runescape.wiki/images/thumb/Inventory_interface.png/100px-Inventory_interface.png?8ee97"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Master archaeologist's outfit",
+      "display": "Master archaeologist's outfit or Archaeology teleport for various helpful teleports (White Knights' Castle, Infernal Source Dig Site, Archaeology Campus, Black Knights' Fortress, Jolly Boar Inn)",
+      "image": null,
+      "children": [
+        {
+          "name": "Archaeology journal",
+          "display": "Or your Archaeology journal for a quick teleport to the Tree of Balance and the Archaeology Campus, if the Master archaeologist outfit is not owned",
+          "image": "https://runescape.wiki/images/thumb/Archaeology_journal_detail.png/100px-Archaeology_journal_detail.png?9ffe0"
+        }
+      ]
+    },
+    {
+      "name": "Fort Forinthry lodestone",
+      "display": "Activated Fort Forinthry lodestone or Varrock lodestone",
+      "image": "https://runescape.wiki/images/Fort_Forinthry_lodestone_icon.png?872ba"
+    },
+    {
+      "name": "Karamja gloves 3",
+      "display": "Karamja gloves 3 or higher for a nearby teleport to the gleaming wisp colony",
+      "image": "https://runescape.wiki/images/thumb/Karamja_gloves_3_detail.png/100px-Karamja_gloves_3_detail.png?59630",
+      "children": [
+        {
+          "name": "Nature altar teleport",
+          "display": "Or nature altar teleport for a teleport to the nature altar",
+          "image": "https://runescape.wiki/images/thumb/Nature_altar_teleport_detail.png/100px-Nature_altar_teleport_detail.png?0800d"
+        },
+        {
+          "name": "Elder divination outfit",
+          "display": "Or elder divination outfit for quick teleports to wisp colonies",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Portable fairy ring",
+      "display": "Portable fairy ring, TokKul-Zo, or cape of legends for quick access to fairy rings",
+      "image": "https://runescape.wiki/images/thumb/Portable_fairy_ring_%28inactive%29_detail.png/100px-Portable_fairy_ring_%28inactive%29_detail.png?f96cd",
+      "children": [
+        {
+          "name": "Grace of the elves",
+          "display": "Or a Grace of the elves when one of the Max Guild portals is attuned to the Zanaris fairy ring",
+          "image": "https://runescape.wiki/images/thumb/Grace_of_the_elves_detail.png/100px-Grace_of_the_elves_detail.png?75969"
+        }
+      ]
+    },
+    {
+      "name": "Memory strand",
+      "display": "Memory strand (in currency pouch) or Sixth-Age circuit for a quick teleport to Memorial to Guthix",
+      "image": "https://runescape.wiki/images/thumb/Memory_strand_detail.png/100px-Memory_strand_detail.png?2aec7"
+    },
+    {
+      "name": "Enriched pontifex shadow ring",
+      "display": "Enriched pontifex shadow ring for a quick teleport to Senntisten",
+      "image": "https://runescape.wiki/images/thumb/Enriched_pontifex_shadow_ring_detail.png/100px-Enriched_pontifex_shadow_ring_detail.png?373d2"
+    },
+    {
+      "name": "Invitation box",
+      "display": "Invitation box for a quick teleport to the Empyrean Citadel",
+      "image": "https://runescape.wiki/images/Invitation_box_detail.png?1f8e1"
+    },
+    {
+      "name": "Ring of respawn",
+      "display": "Ring of respawn for a quick teleport to the White Knights' Castle",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_respawn_%28new%29_detail.png/100px-Ring_of_respawn_%28new%29_detail.png?ec522"
     }
   ],
   "kills": [

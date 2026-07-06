@@ -3,16 +3,20 @@
   "title": "Boric's Task I (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.160Z",
+  "guideLastUpdated": "2026-07-06T20:30:00.416Z",
   "icon": "https://runescape.wiki/images/Boric%27s_Task_I_%28miniquest%29_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Boric%27s_Task_I_%28miniquest%29_entity_icon.png?403eb",
   "series": "Boric's Tasks",
+  "seriesNth": "1",
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Intermediate",
   "length": "Very Short",
   "releaseDate": "17 October 2012",
+  "area": "Falador North",
   "startPoint": {
     "en": "Speak to Boric in the workshop accessed from the stairs in Doric's hut, just outside the gates of Taverley north of Falador. (via )",
     "es": "Habla con Boric en el taller al que se accede por las escaleras de la cabaña de Doric, justo fuera de las puertas de Taverley, al norte de Falador. (vía)"
@@ -27,18 +31,27 @@
       {
         "skill": "Mining",
         "level": 30
-      },
-      {
-        "skill": "Agility",
-        "level": 20
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Coal",
       "display": "30 coal",
       "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Agility",
+      "display": "20 Agility",
+      "image": "https://runescape.wiki/images/Agility-icon.png?9a56e"
+    },
+    {
+      "name": "Falador Teleport",
+      "display": "Falador Teleport or activated Falador lodestone",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
     }
   ],
   "kills": [

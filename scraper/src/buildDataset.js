@@ -103,10 +103,12 @@ export async function buildQuestRecord({
     step.isImage ? { ...step, image: fileUrlMap.get(step.filename) || null } : step
   );
 
-  // Required items can nest (e.g. The Elder Kiln's "Melee, magic or ranged
-  // armour..." with 3 indented caveats underneath) — flatten the whole tree
-  // to collect every name for the image batch, then walk it again to attach
-  // each resolved image while keeping the tree shape intact.
+  // Required/recommended items can nest (e.g. The Elder Kiln's "Melee, magic
+  // or ranged armour..." with 3 indented caveats underneath) — flatten the
+  // whole tree to collect every name for the image batch, then walk it again
+  // to attach each resolved image while keeping the tree shape intact. A
+  // node's name is checked against the skill-icon map first (e.g.
+  // Recommended's "Combat level"), same free reuse as xp-reward icons below.
   function flattenItemNames(nodes) {
     return nodes.flatMap((n) => [n.name, ...(n.children ? flattenItemNames(n.children) : [])]);
   }
@@ -114,7 +116,7 @@ export async function buildQuestRecord({
     return nodes.map((n) => ({
       name: n.name,
       display: n.display,
-      image: imageMap.get(n.name) || null,
+      image: skillIconsLower.get(n.name.toLowerCase()) || imageMap.get(n.name) || null,
       ...(n.children ? { children: attachItemImages(n.children) } : {}),
     }));
   }
@@ -124,13 +126,20 @@ export async function buildQuestRecord({
   // e.g. "Mysterious lamp" — misclassified as type "xp" during scraping,
   // same as real skills like "Smithing" which get their icon for free below).
   const itemNames = flattenItemNames(metadata.items);
+  const recommendedNames = flattenItemNames(metadata.recommended);
   const rewardNames = rewardsData.rewards.filter((r) => r.type === "item").map((r) => r.name);
   const xpNonSkillNames = rewardsData.rewards
     .filter((r) => r.type === "xp" && r.skill && !skillIconsLower.has(r.skill.toLowerCase()))
     .map((r) => r.skill);
-  const imageMap = await resolveImages([...itemNames, ...rewardNames, ...xpNonSkillNames]);
+  const imageMap = await resolveImages([...itemNames, ...recommendedNames, ...rewardNames, ...xpNonSkillNames]);
 
   const items = attachItemImages(metadata.items);
+  const recommended = attachItemImages(metadata.recommended);
+
+  // A second, separate icon from the main quest image — only some quests have one.
+  const entityIcon = metadata.entityIconFilename
+    ? (await resolveFileUrls([metadata.entityIconFilename])).get(metadata.entityIconFilename) || null
+    : null;
 
   // Note: deliberately NOT falling back to the Infobox's |qp= field when a hub
   // quest's Quick guide has no Rewards section — verified against a real
@@ -153,17 +162,23 @@ export async function buildQuestRecord({
     isSeasonal: Boolean(isSeasonal),
     guideLastUpdated: now,
     icon: metadata.icon,
+    entityIcon,
     series: metadata.series,
+    seriesNth: metadata.seriesNth,
     age: metadata.age,
     timeline: metadata.timeline,
     members: metadata.members,
+    voiceOver: metadata.voiceOver,
     combatLevel: metadata.combatLevel,
     difficulty: metadata.difficulty,
     length: metadata.length,
     releaseDate: metadata.release,
+    area: metadata.area,
     startPoint: { en: metadata.startPoint, ...(startPointEs ? { es: startPointEs } : {}) },
     requirements: metadata.requirements,
+    followsEvents: metadata.followsEvents,
     items,
+    recommended,
     kills: metadata.kills,
     rewards,
     rewardBannerImage: rewardsData.rewardBannerImage || null,

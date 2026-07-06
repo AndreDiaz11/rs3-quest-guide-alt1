@@ -3,16 +3,20 @@
   "title": "One of a Kind",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.756Z",
+  "guideLastUpdated": "2026-07-06T20:31:15.286Z",
   "icon": "https://runescape.wiki/images/One_of_a_Kind_icon.png",
+  "entityIcon": "https://runescape.wiki/images/One_of_a_Kind_entity_icon.png?e4213",
   "series": "Sliske's Game",
+  "seriesNth": "4",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "130-139",
   "difficulty": "Grandmaster",
   "length": "Long to Very Long",
   "releaseDate": "10 March 2014",
+  "area": "Varrock",
   "startPoint": {
     "en": "Talk to Mr Mordaut in his office under the stairs in Varrock Museum. (via → )",
     "es": "Habla con Mr Mordaut en su oficina bajo las escaleras del Varrock Museum. (via →)"
@@ -70,6 +74,144 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "Ritual of the Mahjarrat",
+      "children": [
+        {
+          "title": "The Temple at Senntisten",
+          "children": [
+            {
+              "title": "Devious Minds…",
+              "matchTitle": "Devious Minds"
+            },
+            {
+              "title": "Desert Treasure…",
+              "matchTitle": "Desert Treasure"
+            },
+            {
+              "title": "The Curse of Arrav…",
+              "matchTitle": "The Curse of Arrav"
+            },
+            {
+              "title": "125 Kudos",
+              "matchTitle": "Kudos"
+            }
+          ]
+        },
+        {
+          "title": "While Guthix Sleeps",
+          "children": [
+            {
+              "title": "Defender of Varrock…",
+              "matchTitle": "Defender of Varrock"
+            },
+            {
+              "title": "Dream Mentor…",
+              "matchTitle": "Dream Mentor"
+            },
+            {
+              "title": "Shilo Village…",
+              "matchTitle": "Shilo Village"
+            },
+            {
+              "title": "Temple of Ikov"
+            },
+            {
+              "title": "Legends' Quest…",
+              "matchTitle": "Legends' Quest"
+            },
+            {
+              "title": "The Path of Glouphrie…",
+              "matchTitle": "The Path of Glouphrie"
+            },
+            {
+              "title": "Tears of Guthix"
+            },
+            {
+              "title": "Wanted!…",
+              "matchTitle": "Wanted!"
+            },
+            {
+              "title": "The Hunt for Surok (miniquest)…",
+              "matchTitle": "The Hunt for Surok (miniquest)"
+            },
+            {
+              "title": "Ability to enter the Warriors' Guild",
+              "matchTitle": "Warriors' Guild"
+            },
+            {
+              "title": "Nature Spirit…",
+              "matchTitle": "Nature Spirit"
+            }
+          ]
+        },
+        {
+          "title": "Hazeel Cult"
+        },
+        {
+          "title": "Enakhra's Lament"
+        },
+        {
+          "title": "The Slug Menace",
+          "children": [
+            {
+              "title": "Sea Slug"
+            },
+            {
+              "title": "Wanted!…",
+              "matchTitle": "Wanted!"
+            }
+          ]
+        },
+        {
+          "title": "A Fairy Tale II - Cure a Queen",
+          "children": [
+            {
+              "title": "A Fairy Tale I - Growing Pains…",
+              "matchTitle": "A Fairy Tale I - Growing Pains"
+            }
+          ]
+        },
+        {
+          "title": "Cabin Fever",
+          "children": [
+            {
+              "title": "Pirate's Treasure"
+            },
+            {
+              "title": "Rum Deal…",
+              "matchTitle": "Rum Deal"
+            }
+          ]
+        },
+        {
+          "title": "A Tail of Two Cats",
+          "children": [
+            {
+              "title": "Icthlarin's Little Helper…",
+              "matchTitle": "Icthlarin's Little Helper"
+            }
+          ]
+        },
+        {
+          "title": "Fight Arena"
+        },
+        {
+          "title": "The General's Shadow (miniquest)",
+          "children": [
+            {
+              "title": "The Curse of Zaros (miniquest)…",
+              "matchTitle": "The Curse of Zaros (miniquest)"
+            },
+            {
+              "title": "Fight Arena"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Emerald",
@@ -90,6 +232,33 @@
       "name": "Coins",
       "display": "875 coins to enter Brimhaven Dungeon (unless the hard Karamja achievements have been completed)",
       "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Ectophial",
+      "display": "Ectophial and Remora's necklace for quick teleportation, as well as Dungeoneering cape, Hoardstalker ring or Big Book o' Piracy",
+      "image": "https://runescape.wiki/images/thumb/Ectophial_detail.png/100px-Ectophial_detail.png?1b030"
+    },
+    {
+      "name": "Metallic dragon trinkets",
+      "display": "5 metallic dragon trinkets for teleport to steel or iron dragons",
+      "image": "https://runescape.wiki/images/thumb/Metallic_dragon_trinkets_detail.png/100px-Metallic_dragon_trinkets_detail.png?95949"
+    },
+    {
+      "name": "Dragonfire",
+      "display": "Any method of protection from dragonfire",
+      "image": "https://runescape.wiki/images/thumb/Dfs_Charging.gif/100px-Dfs_Charging.gif?03abe"
+    },
+    {
+      "name": "Combat equipment and food",
+      "display": "Combat equipment and food",
+      "image": null
+    },
+    {
+      "name": "Law altar teleport",
+      "display": "Law altar teleport for faster access to Entrana",
+      "image": "https://runescape.wiki/images/thumb/Law_altar_teleport_detail.png/100px-Law_altar_teleport_detail.png?76f7b"
     }
   ],
   "kills": [

@@ -3,16 +3,20 @@
   "title": "The Temple at Senntisten",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.029Z",
+  "guideLastUpdated": "2026-07-06T20:32:07.161Z",
   "icon": "https://runescape.wiki/images/The_Temple_at_Senntisten_icon.png",
+  "entityIcon": null,
   "series": "Mahjarrat Mysteries",
+  "seriesNth": "14",
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "150-159",
   "difficulty": "Master",
   "length": "Medium to Long",
   "releaseDate": "3 December 2009",
+  "area": "Kharidian Desert",
   "startPoint": {
     "en": "Talk to Ali the Wise at his house in Nardah.",
     "es": "Habla con Ali the Wise en su casa en Nardah."
@@ -162,11 +166,71 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Telekinetic Grab",
       "display": "Telekinetic Grab runes (one air and law rune for each cast; you must be on the standard spellbook)",
       "image": "https://runescape.wiki/images/thumb/Telekinetic_Grab.gif/100px-Telekinetic_Grab.gif?e5e59"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Food and combat equipment",
+      "display": "Food and combat equipment",
+      "image": null
+    },
+    {
+      "name": "Barrows amulet",
+      "display": "3 Barrows amulets (to skip 3 of the brothers if you don't want to fight all 6)",
+      "image": "https://runescape.wiki/images/thumb/Barrows_amulet_detail.png/100px-Barrows_amulet_detail.png?e555d"
+    },
+    {
+      "name": "Nardah",
+      "display": "Methods of teleportation to Nardah:",
+      "image": "https://runescape.wiki/images/thumb/Nardah.png/100px-Nardah.png?b8d65",
+      "children": [
+        {
+          "name": "Desert amulet 2",
+          "display": "Desert amulet 2",
+          "image": "https://runescape.wiki/images/thumb/Desert_amulet_2_detail.png/100px-Desert_amulet_2_detail.png?3b61e"
+        },
+        {
+          "name": "Pollnivneach Teleport",
+          "display": "Pollnivneach Teleport scrolls",
+          "image": "https://runescape.wiki/images/thumb/Pollnivneach_Teleport_detail.png/100px-Pollnivneach_Teleport_detail.png?7cd5c"
+        },
+        {
+          "name": "The Heart teleport",
+          "display": "The Heart teleport tablets",
+          "image": "https://runescape.wiki/images/thumb/The_Heart_teleport_detail.png/100px-The_Heart_teleport_detail.png?6567b"
+        },
+        {
+          "name": "Coins",
+          "display": "Coins (and optionally Ring of charos (a)) for carpet ride",
+          "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+        },
+        {
+          "name": "Fairy ring",
+          "display": "Access to fairy rings",
+          "image": "https://runescape.wiki/images/thumb/Fairy_ring.png/100px-Fairy_ring.png?ca33a"
+        }
+      ]
+    },
+    {
+      "name": "Archaeology journal",
+      "display": "Archaeology journal to teleport to Exam Centre",
+      "image": "https://runescape.wiki/images/thumb/Archaeology_journal_detail.png/100px-Archaeology_journal_detail.png?9ffe0"
+    },
+    {
+      "name": "Drakan's medallion",
+      "display": "Drakan's medallion to reach the Barrows faster. Alternatively, you can use the ectophial or the Canifis lodestone and travel through Mort Myre Swamp (the Nature Spirit quest is required for this). If a portal in War's Retreat is attuned to the Barrows, this may also be used.",
+      "image": "https://runescape.wiki/images/thumb/Drakan%27s_medallion_detail.png/100px-Drakan%27s_medallion_detail.png?b3c9a"
+    },
+    {
+      "name": "Silverlight",
+      "display": "Silverlight or darklight to slay the ice demon",
+      "image": "https://runescape.wiki/images/thumb/Silverlight_detail.png/100px-Silverlight_detail.png?272d9"
     }
   ],
   "kills": [

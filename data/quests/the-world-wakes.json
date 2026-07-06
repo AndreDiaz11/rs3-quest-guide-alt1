@@ -3,30 +3,254 @@
   "title": "The World Wakes",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.112Z",
+  "guideLastUpdated": "2026-07-06T20:32:08.173Z",
   "icon": "https://runescape.wiki/images/The_World_Wakes_icon.png",
+  "entityIcon": "https://runescape.wiki/images/The_World_Wakes_entity_icon.png?5d464",
   "series": "Sliske's Game",
+  "seriesNth": "1",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "100-109",
   "difficulty": "Grandmaster",
   "length": "Long to Very Long",
   "releaseDate": "4 March 2013",
+  "area": "Kandarin North",
   "startPoint": {
     "en": "Speak to Orlando Smith, excavating west of the Legends' Guild, south of Sorcerer's Tower.",
     "es": "Habla con Orlando Smith, que está excavando al oeste del Legends' Guild, al sur de Sorcerer's Tower."
   },
   "requirements": {
     "quests": [],
-    "skills": [
-      {
-        "skill": "combat level",
-        "level": 100
-      }
-    ]
+    "skills": []
   },
+  "followsEvents": [
+    {
+      "title": "Ritual of the Mahjarrat",
+      "children": [
+        {
+          "title": "The Temple at Senntisten",
+          "children": [
+            {
+              "title": "Devious Minds…",
+              "matchTitle": "Devious Minds"
+            },
+            {
+              "title": "Desert Treasure…",
+              "matchTitle": "Desert Treasure"
+            },
+            {
+              "title": "The Curse of Arrav…",
+              "matchTitle": "The Curse of Arrav"
+            },
+            {
+              "title": "125 Kudos",
+              "matchTitle": "Kudos"
+            }
+          ]
+        },
+        {
+          "title": "While Guthix Sleeps",
+          "children": [
+            {
+              "title": "Defender of Varrock…",
+              "matchTitle": "Defender of Varrock"
+            },
+            {
+              "title": "Dream Mentor…",
+              "matchTitle": "Dream Mentor"
+            },
+            {
+              "title": "Shilo Village…",
+              "matchTitle": "Shilo Village"
+            },
+            {
+              "title": "Temple of Ikov"
+            },
+            {
+              "title": "Legends' Quest…",
+              "matchTitle": "Legends' Quest"
+            },
+            {
+              "title": "The Path of Glouphrie…",
+              "matchTitle": "The Path of Glouphrie"
+            },
+            {
+              "title": "Tears of Guthix"
+            },
+            {
+              "title": "Wanted!…",
+              "matchTitle": "Wanted!"
+            },
+            {
+              "title": "The Hunt for Surok (miniquest)…",
+              "matchTitle": "The Hunt for Surok (miniquest)"
+            },
+            {
+              "title": "Ability to enter the Warriors' Guild",
+              "matchTitle": "Warriors' Guild"
+            },
+            {
+              "title": "Nature Spirit…",
+              "matchTitle": "Nature Spirit"
+            }
+          ]
+        },
+        {
+          "title": "Hazeel Cult"
+        },
+        {
+          "title": "Enakhra's Lament"
+        },
+        {
+          "title": "The Slug Menace",
+          "children": [
+            {
+              "title": "Sea Slug"
+            },
+            {
+              "title": "Wanted!…",
+              "matchTitle": "Wanted!"
+            }
+          ]
+        },
+        {
+          "title": "A Fairy Tale II - Cure a Queen",
+          "children": [
+            {
+              "title": "A Fairy Tale I - Growing Pains…",
+              "matchTitle": "A Fairy Tale I - Growing Pains"
+            }
+          ]
+        },
+        {
+          "title": "Cabin Fever",
+          "children": [
+            {
+              "title": "Pirate's Treasure"
+            },
+            {
+              "title": "Rum Deal…",
+              "matchTitle": "Rum Deal"
+            }
+          ]
+        },
+        {
+          "title": "A Tail of Two Cats",
+          "children": [
+            {
+              "title": "Icthlarin's Little Helper…",
+              "matchTitle": "Icthlarin's Little Helper"
+            }
+          ]
+        },
+        {
+          "title": "Fight Arena"
+        },
+        {
+          "title": "The General's Shadow (miniquest)",
+          "children": [
+            {
+              "title": "The Curse of Zaros (miniquest)…",
+              "matchTitle": "The Curse of Zaros (miniquest)"
+            },
+            {
+              "title": "Fight Arena"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Firemaker's Curse"
+    },
+    {
+      "title": "The Branches of Darkmeyer",
+      "children": [
+        {
+          "title": "Legacy of Seergaze",
+          "children": [
+            {
+              "title": "The Darkness of Hallowvale…",
+              "matchTitle": "The Darkness of Hallowvale"
+            },
+            {
+              "title": "Shades of Mort'ton…",
+              "matchTitle": "Shades of Mort'ton"
+            },
+            {
+              "title": "Desert Treasure…",
+              "matchTitle": "Desert Treasure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Void Stares Back",
+      "children": [
+        {
+          "title": "A Void Dance",
+          "children": [
+            {
+              "title": "Quiet Before the Swarm…",
+              "matchTitle": "Quiet Before the Swarm"
+            }
+          ]
+        },
+        {
+          "title": "Conquest tutorial",
+          "matchTitle": "Conquest"
+        }
+      ]
+    },
+    {
+      "title": "The Chosen Commander",
+      "children": [
+        {
+          "title": "Land of the Goblins",
+          "children": [
+            {
+              "title": "Another Slice of H.A.M.…",
+              "matchTitle": "Another Slice of H.A.M."
+            },
+            {
+              "title": "Fishing Contest"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "items": [],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "100 combat level, it is recommended that you have balanced combat stats at around level 70 each.",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Monkfish",
+      "display": "Food (Monkfish or a higher tier food is recommended), weapons and armour",
+      "image": "https://runescape.wiki/images/thumb/Monkfish_detail.png/100px-Monkfish_detail.png?a8c5f"
+    },
+    {
+      "name": "Yew logs",
+      "display": "Yew logs or better for a bonfire boost",
+      "image": "https://runescape.wiki/images/thumb/Yew_logs_detail.png/100px-Yew_logs_detail.png?2830d"
+    },
+    {
+      "name": "Potions",
+      "display": "Combat boosting potions (e.g. super ranging potion or super magic potion)",
+      "image": "https://runescape.wiki/images/thumb/Drinking_vial.gif/100px-Drinking_vial.gif?816ad"
+    },
+    {
+      "name": "Prayer points",
+      "display": "Prayer-restoring potions (e.g. prayer potion or super restore)",
+      "image": null
+    }
+  ],
   "kills": [
     "Automaton Generator (level 84)",
     "Automaton Tracer (level 84)",

@@ -3,16 +3,20 @@
   "title": "Extinction",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.196Z",
+  "guideLastUpdated": "2026-07-06T20:30:34.530Z",
   "icon": "https://runescape.wiki/images/Extinction_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Extinction_entity_icon.png?fbf70",
   "series": "The Elder God Wars",
+  "seriesNth": "14",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "80-89",
   "difficulty": "Grandmaster",
   "length": "Very Long",
   "releaseDate": "4 April 2022",
+  "area": "Varrock Outskirts",
   "startPoint": {
     "en": "Talk to Moia at the surface entrance of Senntisten.",
     "es": "Habla con Moia en la entrada de superficie de Senntisten."
@@ -68,13 +72,149 @@
         ]
       }
     ],
-    "skills": [
-      {
-        "skill": "combat level",
-        "level": 105
-      }
-    ]
+    "skills": []
   },
+  "followsEvents": [
+    {
+      "title": "Sliske's Endgame",
+      "children": [
+        {
+          "title": "The Death of Chivalry",
+          "children": [
+            {
+              "title": "The World Wakes…",
+              "matchTitle": "The World Wakes"
+            }
+          ]
+        },
+        {
+          "title": "One of a Kind",
+          "children": [
+            {
+              "title": "A Tail of Two Cats…",
+              "matchTitle": "A Tail of Two Cats"
+            },
+            {
+              "title": "Holy Grail…",
+              "matchTitle": "Holy Grail"
+            },
+            {
+              "title": "The World Wakes…",
+              "matchTitle": "The World Wakes"
+            },
+            {
+              "title": "Missing, Presumed Death…",
+              "matchTitle": "Missing, Presumed Death"
+            },
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            }
+          ]
+        },
+        {
+          "title": "Nomad's Elegy",
+          "children": [
+            {
+              "title": "Dishonour among Thieves…",
+              "matchTitle": "Dishonour among Thieves"
+            },
+            {
+              "title": "Nomad's Requiem…",
+              "matchTitle": "Nomad's Requiem"
+            },
+            {
+              "title": "Heart of Stone…",
+              "matchTitle": "Heart of Stone"
+            },
+            {
+              "title": "The Mighty Fall…",
+              "matchTitle": "The Mighty Fall"
+            },
+            {
+              "title": "Throne of Miscellania…",
+              "matchTitle": "Throne of Miscellania"
+            },
+            {
+              "title": "The Void Stares Back…",
+              "matchTitle": "The Void Stares Back"
+            },
+            {
+              "title": "While Guthix Sleeps…",
+              "matchTitle": "While Guthix Sleeps"
+            },
+            {
+              "title": "Blood Runs Deep…",
+              "matchTitle": "Blood Runs Deep"
+            }
+          ]
+        },
+        {
+          "title": "Kindred Spirits",
+          "children": [
+            {
+              "title": "Missing, Presumed Death…",
+              "matchTitle": "Missing, Presumed Death"
+            },
+            {
+              "title": "Deadliest Catch…",
+              "matchTitle": "Deadliest Catch"
+            }
+          ]
+        },
+        {
+          "title": "Hero's Welcome",
+          "children": [
+            {
+              "title": "Lunar Diplomacy…",
+              "matchTitle": "Lunar Diplomacy"
+            },
+            {
+              "title": "Access to the Ancient Cavern from Barbarian Training",
+              "matchTitle": "Ancient Cavern"
+            },
+            {
+              "title": "One of a Kind…",
+              "matchTitle": "One of a Kind"
+            },
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            }
+          ]
+        },
+        {
+          "title": "Children of Mah",
+          "children": [
+            {
+              "title": "The Light Within…",
+              "matchTitle": "The Light Within"
+            },
+            {
+              "title": "Dishonour among Thieves…",
+              "matchTitle": "Dishonour among Thieves"
+            },
+            {
+              "title": "Koschei's Troubles (miniquest)…",
+              "matchTitle": "Koschei's Troubles (miniquest)"
+            },
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "One of a Kind…",
+      "matchTitle": "One of a Kind"
+    },
+    {
+      "title": "Children of Mah…",
+      "matchTitle": "Children of Mah"
+    }
+  ],
   "items": [
     {
       "name": "The Measure",
@@ -85,6 +225,43 @@
       "name": "Backpack",
       "display": "At least 6 free backpack spaces during the Erebus section",
       "image": "https://runescape.wiki/images/thumb/Inventory_interface.png/100px-Inventory_interface.png?8ee97"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "105 combat level, with balanced stats",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Sixth-Age circuit",
+      "display": "Sixth-Age circuit",
+      "image": "https://runescape.wiki/images/thumb/Sixth-Age_circuit_detail.png/100px-Sixth-Age_circuit_detail.png?7ea06"
+    },
+    {
+      "name": "Food",
+      "display": "Food",
+      "image": null
+    },
+    {
+      "name": "Super restore",
+      "display": "Super restores",
+      "image": "https://runescape.wiki/images/thumb/Super_restore_%281%29_detail.png/100px-Super_restore_%281%29_detail.png?162ff"
+    },
+    {
+      "name": "Combat equipment",
+      "display": "Combat equipment",
+      "image": null
+    },
+    {
+      "name": "Hunter",
+      "display": "Equipment for Hunter, Mining, Fishing, and Woodcutting",
+      "image": "https://runescape.wiki/images/Hunter-icon.png?53188"
+    },
+    {
+      "name": "Crystal Mask",
+      "display": "Runes for Crystal Mask spell for battle with Croesus",
+      "image": "https://runescape.wiki/images/thumb/Crystal_Mask.gif/100px-Crystal_Mask.gif?65434"
     }
   ],
   "kills": [

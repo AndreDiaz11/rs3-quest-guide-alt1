@@ -3,16 +3,20 @@
   "title": "Devious Minds",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.733Z",
+  "guideLastUpdated": "2026-07-06T20:30:19.345Z",
   "icon": "https://runescape.wiki/images/Devious_Minds_icon.png",
+  "entityIcon": null,
   "series": "Mahjarrat Mysteries",
+  "seriesNth": "8",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Experienced",
   "length": "Medium",
   "releaseDate": "19 December 2005",
+  "area": "Paterdomus",
   "startPoint": {
     "en": "Talk to the monk just outside Paterdomus (the temple on the Salve).",
     "es": "Habla con el monje justo a las afueras de Paterdomus (el templo del Salve)."
@@ -42,13 +46,10 @@
       {
         "skill": "Smithing",
         "level": 65
-      },
-      {
-        "skill": "Runecrafting",
-        "level": 50
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Mithril 2h sword",
@@ -64,6 +65,28 @@
       "name": "Large pouch",
       "display": "A large pouch (must not be fully degraded, will be lost during the quest)",
       "image": "https://runescape.wiki/images/thumb/Large_pouch_detail.png/100px-Large_pouch_detail.png?271f1"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Falador lodestone",
+      "display": "Activated Falador and Edgeville lodestone",
+      "image": "https://runescape.wiki/images/Falador_lodestone_icon.png?3315a"
+    },
+    {
+      "name": "Invitation box",
+      "display": "An invitation box for quick teleports to the monk (requires completion of the Missing, Presumed Death quest) or activated Fort Forinthry lodestone (requires completion of New Foundations quest)",
+      "image": "https://runescape.wiki/images/Invitation_box_detail.png?1f8e1"
+    },
+    {
+      "name": "Law altar teleport",
+      "display": "A law altar teleport for easy access to Entrana, or access to the Abyss",
+      "image": "https://runescape.wiki/images/thumb/Law_altar_teleport_detail.png/100px-Law_altar_teleport_detail.png?76f7b"
+    },
+    {
+      "name": "Runecrafting",
+      "display": "25,000 coins, and 50 Runecrafting for Runecrafting Guild access, if you wish to buy a large pouch instead of getting it from monster drops",
+      "image": "https://runescape.wiki/images/Runecrafting-icon.png?efa59"
     }
   ],
   "kills": [

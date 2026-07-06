@@ -3,16 +3,20 @@
   "title": "City of Senntisten",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.350Z",
+  "guideLastUpdated": "2026-07-06T20:30:06.631Z",
   "icon": "https://runescape.wiki/images/City_of_Senntisten_icon.png",
+  "entityIcon": "https://runescape.wiki/images/City_of_Senntisten_entity_icon.png?9ad55",
   "series": "The Elder God Wars",
+  "seriesNth": "10",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "80-89",
   "difficulty": "Master",
   "length": "Long",
   "releaseDate": "21 June 2021",
+  "area": "Kharidian Desert",
   "startPoint": {
     "en": "Talk to Ariane outside the Heart of Gielinor in the Kharidian Desert.",
     "es": "Habla con Ariane fuera del Heart of Gielinor en el Kharidian Desert."
@@ -73,6 +77,91 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "Desert Treasure",
+      "children": [
+        {
+          "title": "The Dig Site"
+        },
+        {
+          "title": "Troll Stronghold",
+          "children": [
+            {
+              "title": "Death Plateau"
+            }
+          ]
+        },
+        {
+          "title": "Ability to enter Morytania",
+          "matchTitle": "Morytania"
+        }
+      ]
+    },
+    {
+      "title": "The Temple at Senntisten",
+      "children": [
+        {
+          "title": "Devious Minds",
+          "children": [
+            {
+              "title": "Recruitment Drive"
+            },
+            {
+              "title": "What's Mine is Yours"
+            },
+            {
+              "title": "Ability to enter Morytania",
+              "matchTitle": "Morytania"
+            }
+          ]
+        },
+        {
+          "title": "Desert Treasure…",
+          "matchTitle": "Desert Treasure"
+        },
+        {
+          "title": "The Curse of Arrav",
+          "children": [
+            {
+              "title": "The Tale of the Muspah"
+            },
+            {
+              "title": "Missing My Mummy…",
+              "matchTitle": "Missing My Mummy"
+            },
+            {
+              "title": "Defender of Varrock…",
+              "matchTitle": "Defender of Varrock"
+            },
+            {
+              "title": "Temple of Ikov"
+            },
+            {
+              "title": "Ability to access Trollheim",
+              "matchTitle": "Trollheim"
+            },
+            {
+              "title": "Partial completion of Troll Stronghold…",
+              "matchTitle": "Troll Stronghold"
+            },
+            {
+              "title": "Fully restore Senliten from the 'Missing My Mummy' quest",
+              "matchTitle": "Senliten"
+            },
+            {
+              "title": "Full completion of Missing My Mummy…",
+              "matchTitle": "Missing My Mummy"
+            }
+          ]
+        },
+        {
+          "title": "125 Kudos",
+          "matchTitle": "Kudos"
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Dragonstone",
@@ -93,6 +182,43 @@
       "name": "Enhanced Excalibur",
       "display": "Ways to heal yourself (such as food and enhanced Excalibur)",
       "image": "https://runescape.wiki/images/thumb/Enhanced_Excalibur_detail.png/100px-Enhanced_Excalibur_detail.png?c4aa8"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Archaeology journal",
+      "display": "Archaeology journal to teleport to the Archaeology Guild",
+      "image": "https://runescape.wiki/images/thumb/Archaeology_journal_detail.png/100px-Archaeology_journal_detail.png?9ffe0"
+    },
+    {
+      "name": "Invitation box",
+      "display": "Invitation box or Skeletal horror Teleport to teleport to Paterdomus",
+      "image": "https://runescape.wiki/images/Invitation_box_detail.png?1f8e1"
+    },
+    {
+      "name": "Signs of the porter",
+      "display": "Signs of the porter or a grace of the elves for banking Archaeology materials",
+      "image": null
+    },
+    {
+      "name": "Powerburst of acceleration",
+      "display": "Powerburst of acceleration to reset Surge and Dive/Bladed Dive abilities",
+      "image": "https://runescape.wiki/images/thumb/Powerburst_of_acceleration_detail.png/100px-Powerburst_of_acceleration_detail.png?fe908"
+    },
+    {
+      "name": "The Heart teleport",
+      "display": "The Heart teleport to teleport quickly to the Heart of Gielinor",
+      "image": "https://runescape.wiki/images/thumb/The_Heart_teleport_detail.png/100px-The_Heart_teleport_detail.png?6567b"
+    },
+    {
+      "name": "Skills necklace",
+      "display": "Skills necklace to the Crafting Guild near Armadyl's Tower",
+      "image": "https://runescape.wiki/images/thumb/Skills_necklace_detail.png/100px-Skills_necklace_detail.png?96ec8"
+    },
+    {
+      "name": "Ring of respawn",
+      "display": "Ring of respawn to teleport to White Knights' Castle",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_respawn_%28new%29_detail.png/100px-Ring_of_respawn_%28new%29_detail.png?ec522"
     }
   ],
   "kills": [

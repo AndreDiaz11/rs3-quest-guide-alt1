@@ -3,16 +3,20 @@
   "title": "Fishing Contest",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.320Z",
+  "guideLastUpdated": "2026-07-06T20:30:39.372Z",
   "icon": "https://runescape.wiki/images/Fishing_Contest_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "adventurer",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Novice",
   "length": "Short",
   "releaseDate": "28 May 2002",
+  "area": "Taverley Outskirts",
   "startPoint": {
     "en": "Talk to Vestri or Austri, near the White Wolf Mountain.",
     "es": "Habla con Vestri o Austri, cerca de White Wolf Mountain."
@@ -26,6 +30,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Coins",
@@ -41,6 +46,18 @@
       "name": "Red vine worm",
       "display": "3 Red vine worm (obtainable during quest)",
       "image": "https://runescape.wiki/images/thumb/Red_vine_worm_detail.png/100px-Red_vine_worm_detail.png?ca519"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Guard dog",
+      "display": "Ability to run past level 33 guard dogs",
+      "image": "https://runescape.wiki/images/thumb/Guard_dog.png/100px-Guard_dog.png?afc1f"
+    },
+    {
+      "name": "Seers' Village lodestone",
+      "display": "Active Seers' Village lodestone and either Catherby lodestone or Taverley lodestone",
+      "image": "https://runescape.wiki/images/Seers%27_Village_lodestone_icon.png?41fd9"
     }
   ],
   "kills": [

@@ -3,16 +3,20 @@
   "title": "A Clockwork Syringe",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:02.641Z",
+  "guideLastUpdated": "2026-07-06T20:29:45.865Z",
   "icon": "https://runescape.wiki/images/A_Clockwork_Syringe_icon.png",
+  "entityIcon": "https://runescape.wiki/images/A_Clockwork_Syringe_entity_icon.png?db8b6",
   "series": "Pirate",
+  "seriesNth": "6",
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "120-129",
   "difficulty": "Master",
   "length": "Long",
   "releaseDate": "28 March 2011",
+  "area": "Player owned house",
   "startPoint": {
     "en": "Enter the portal to your player-owned house.",
     "es": "Entra en el portal de tu casa de jugador."
@@ -107,6 +111,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Diving apparatus",
@@ -121,6 +126,43 @@
     {
       "name": "At least six free backpack spaces",
       "display": "At least six free backpack spaces",
+      "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat gear",
+      "display": "Combat gear",
+      "image": null
+    },
+    {
+      "name": "Prayer potion",
+      "display": "Prayer potions",
+      "image": "https://runescape.wiki/images/thumb/Prayer_potion_%281%29_detail.png/100px-Prayer_potion_%281%29_detail.png?27704"
+    },
+    {
+      "name": "Antipoison",
+      "display": "Antipoison or a prayer book and a holy symbol",
+      "image": "https://runescape.wiki/images/thumb/Antipoison_%281%29_detail.png/100px-Antipoison_%281%29_detail.png?27b64"
+    },
+    {
+      "name": "Antipoison",
+      "display": "Food and antipoison",
+      "image": "https://runescape.wiki/images/thumb/Antipoison_%281%29_detail.png/100px-Antipoison_%281%29_detail.png?27b64"
+    },
+    {
+      "name": "Ectophial",
+      "display": "Ectophial",
+      "image": "https://runescape.wiki/images/thumb/Ectophial_detail.png/100px-Ectophial_detail.png?1b030"
+    },
+    {
+      "name": "Salve amulet (e)",
+      "display": "Salve amulet (e)",
+      "image": "https://runescape.wiki/images/thumb/Salve_amulet_%28e%29_detail.png/100px-Salve_amulet_%28e%29_detail.png?95d9e"
+    },
+    {
+      "name": "Dungeoneering Cape",
+      "display": "Dungeoneering Cape for Braindeath Island 'Rum'-geon teleport",
       "image": null
     }
   ],

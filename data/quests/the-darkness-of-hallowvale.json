@@ -3,16 +3,20 @@
   "title": "The Darkness of Hallowvale",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.529Z",
+  "guideLastUpdated": "2026-07-06T20:31:53.140Z",
   "icon": "https://runescape.wiki/images/The_Darkness_of_Hallowvale_icon.png",
+  "entityIcon": null,
   "series": "Myreque",
+  "seriesNth": "5",
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Intermediate",
   "length": "Very Long",
   "releaseDate": "4 September 2006",
+  "area": "Morytania",
   "startPoint": {
     "en": "Talk to Veliaf Hurtz in Burgh de Rott, who is in the cellar of Myreque Hideout.",
     "es": "Habla con Veliaf Hurtz en Burgh de Rott, que está en el sótano del Myreque Hideout."
@@ -76,6 +80,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Nails",
@@ -101,6 +106,45 @@
       "name": "Papyrus",
       "display": "3 papyrus (given to you during quest)",
       "image": "https://runescape.wiki/images/thumb/Papyrus_detail.png/100px-Papyrus_detail.png?95e53"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Energy potion",
+      "display": "Energy potions and/or an explorer's ring (for a lot of walking and running)",
+      "image": "https://runescape.wiki/images/thumb/Energy_potion_%281%29_detail.png/100px-Energy_potion_%281%29_detail.png?33ea7"
+    },
+    {
+      "name": "Garlic",
+      "display": "Garlic can be used to weaken the Vyrewatch so that they do less damage (can be obtained during the quest; inside a chest in the Myreque Hideout in Burgh de Rott.)",
+      "image": "https://runescape.wiki/images/thumb/Garlic_detail.png/100px-Garlic_detail.png?2e34c"
+    },
+    {
+      "name": "Vyrewatch clothing",
+      "display": "2,000 coins (if you want to buy a set of vyrewatch clothing from Trader Sven)",
+      "image": null
+    },
+    {
+      "name": "Fast travel to several locations",
+      "display": "Fast travel to several locations",
+      "image": null,
+      "children": [
+        {
+          "name": "Burgh de Rott",
+          "display": "Burgh de Rott (fairy ring BKR with Swamp Boat)",
+          "image": "https://runescape.wiki/images/thumb/Burgh_de_Rott.png/100px-Burgh_de_Rott.png?17e4d"
+        },
+        {
+          "name": "Paterdomus",
+          "display": "Paterdomus (Skeletal horror Teleport, invitation box, fairy ring to CKS, Kharyrll Teleport, Canifis lodestone or Fort Forinthry lodestone)",
+          "image": "https://runescape.wiki/images/thumb/Paterdomus_Entrance.png/100px-Paterdomus_Entrance.png?c1a18"
+        },
+        {
+          "name": "Varrock Palace",
+          "display": "Varrock Palace (Varrock teleport, runes for this teleport are provided during the quest, Varrock lodestone, Ring of Wealth or other enchanted rings providing Grand Exchange teleportation)",
+          "image": "https://runescape.wiki/images/thumb/Varrock_Palace.png/100px-Varrock_Palace.png?16f73"
+        }
+      ]
     }
   ],
   "kills": [

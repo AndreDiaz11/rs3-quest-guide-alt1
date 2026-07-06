@@ -3,16 +3,20 @@
   "title": "Mahjarrat Memories (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.131Z",
+  "guideLastUpdated": "2026-07-06T20:31:04.442Z",
   "icon": "https://runescape.wiki/images/Mahjarrat_Memories_%28miniquest%29_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Grandmaster",
   "length": "Very, Very Long",
   "releaseDate": "17 March 2014",
+  "area": "Rellekka",
   "startPoint": {
     "en": "Talk to Kharshai via the trapdoor in Thorvald the Warrior's helmet shop in Rellekka.",
     "es": "Habla con Kharshai a través de la trampilla en la tienda de cascos de Thorvald the Warrior en Rellekka."
@@ -90,6 +94,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Vibrant memory",
@@ -110,6 +115,48 @@
       "name": "Macaw pouch",
       "display": "Macaw pouch or Ravenous locust pouch (for Zemouregal's memory)",
       "image": "https://runescape.wiki/images/thumb/Macaw_pouch_detail.png/100px-Macaw_pouch_detail.png?48036"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Nightmare muspah",
+      "display": "Nightmare muspah familiar (makes the process more AFK and provides an increased chance for enriched memories as well as a chance to gather more energy, at least 2 needed for the duration of the quest)",
+      "image": "https://runescape.wiki/images/thumb/Nightmare_muspah.png/100px-Nightmare_muspah.png?fe880"
+    },
+    {
+      "name": "Elder divination outfit",
+      "display": "Elder divination outfit or its equivalents (if owned)",
+      "image": null
+    },
+    {
+      "name": "Prism of Dowsing",
+      "display": "Prism of Dowsing",
+      "image": "https://runescape.wiki/images/thumb/Prism_of_Dowsing.mp4/100px--Prism_of_Dowsing.mp4.jpg?37fd2"
+    },
+    {
+      "name": "Fading memory",
+      "display": "Fading memory (if owned)",
+      "image": "https://runescape.wiki/images/thumb/Fading_memory_spring.png/100px-Fading_memory_spring.png?855cd"
+    },
+    {
+      "name": "World Gate engram",
+      "display": "Ethereal Connection (World Gate engram) buff from Memorial to Guthix",
+      "image": "https://runescape.wiki/images/%22World_Gate_engram%22_detail.png?caa29"
+    },
+    {
+      "name": "Enchanted lyre",
+      "display": "Enchanted lyre, Fremennik sea boots 4 or activated Fremennik Province lodestone for quick Rellekka teleport",
+      "image": "https://runescape.wiki/images/thumb/Enchanted_lyre_detail.png/100px-Enchanted_lyre_detail.png?68383"
+    },
+    {
+      "name": "Divine-o-matic vacuum",
+      "display": "Divine-o-matic vacuum (works for filling charges instead of gathering energy, might be profitable or not depending on type of energy–will take longer because divine-o-matic destroys memories)",
+      "image": "https://runescape.wiki/images/thumb/Divine-o-matic_vacuum_detail.png/100px-Divine-o-matic_vacuum_detail.png?8f441"
+    },
+    {
+      "name": "Divination cape",
+      "display": "Divination cape (if owned, makes the process more afk)",
+      "image": "https://runescape.wiki/images/thumb/Divination_Emote.gif/100px-Divination_Emote.gif?cc3d0"
     }
   ],
   "kills": [

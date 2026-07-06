@@ -3,16 +3,20 @@
   "title": "The Golem",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.736Z",
+  "guideLastUpdated": "2026-07-06T20:31:58.406Z",
   "icon": "https://runescape.wiki/images/The_Golem_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Intermediate",
   "length": "Medium",
   "releaseDate": "11 April 2005",
+  "area": "Kharidian Desert",
   "startPoint": {
     "en": "Talk to the clay golem in the ruins of Uzer.",
     "es": "Habla con el gólem de arcilla en las ruinas de Uzer."
@@ -30,6 +34,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Vial",
@@ -55,6 +60,38 @@
       "name": "Black mushroom",
       "display": "A black mushroom (obtained during quest)",
       "image": "https://runescape.wiki/images/thumb/Black_mushroom_detail.png/100px-Black_mushroom_detail.png?463c3"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Waterskin",
+      "display": "Multiple waterskins (or an enchanted water tiara to save backpack space)",
+      "image": "https://runescape.wiki/images/thumb/Waterskin_detail.png/100px-Waterskin_detail.png?f509f"
+    },
+    {
+      "name": "Desert robes",
+      "display": "Desert robes to reduce the usage of waterskins",
+      "image": "https://runescape.wiki/images/thumb/Desert_robes_detail.png/100px-Desert_robes_detail.png?65859"
+    },
+    {
+      "name": "Amulet of glory",
+      "display": "A charged amulet of glory or an enchanted broomstick for quick teleportation to Shantay Pass",
+      "image": null
+    },
+    {
+      "name": "Dominion medallion",
+      "display": "Dominion medallion for quick trips to Uzer and the Desert Phoenix",
+      "image": "https://runescape.wiki/images/thumb/Dominion_medallion_detail.png/100px-Dominion_medallion_detail.png?089c4"
+    },
+    {
+      "name": "Dig Site pendant",
+      "display": "A Dig Site pendant or Archaeology journal for faster access to the Varrock Dig Site",
+      "image": "https://runescape.wiki/images/thumb/Dig_Site_pendant_%281%29_detail.png/100px-Dig_Site_pendant_%281%29_detail.png?00b28"
+    },
+    {
+      "name": "Traveller's necklace",
+      "display": "Traveller's necklace for teleport to just south of eagles' eyrie, which is just north west of Uzer",
+      "image": "https://runescape.wiki/images/thumb/Traveller%27s_necklace_detail.png/100px-Traveller%27s_necklace_detail.png?8329b"
     }
   ],
   "kills": [

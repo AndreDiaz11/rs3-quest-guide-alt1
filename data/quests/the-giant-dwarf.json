@@ -3,16 +3,20 @@
   "title": "The Giant Dwarf",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.724Z",
+  "guideLastUpdated": "2026-07-06T20:31:58.073Z",
   "icon": "https://runescape.wiki/images/The_Giant_Dwarf_icon.png",
+  "entityIcon": null,
   "series": "Dwarf (Red Axe)",
+  "seriesNth": "1",
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Intermediate",
   "length": "Medium to Long",
   "releaseDate": "31 May 2005",
+  "area": "Keldagrim",
   "startPoint": {
     "en": "Talk to Commander Veldaban in the Black Guard headquarters on the western side of Keldagrim. To enter Keldagrim, talk to the dwarf boatman in the dwarven mine east of Rellekka. (via → )",
     "es": "Habla con Commander Veldaban en el cuartel general de los Black Guard, en el lado oeste de Keldagrim. Para entrar en Keldagrim, habla con el barquero enano en la mina enana al este de Rellekka. (via →)"
@@ -43,13 +47,10 @@
       {
         "skill": "Smithing",
         "level": 10
-      },
-      {
-        "skill": "Agility",
-        "level": 21
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Coins",
@@ -59,7 +60,7 @@
     {
       "name": "Firemaking",
       "display": "Any logs that you can set fire to",
-      "image": "https://runescape.wiki/images/thumb/Firemaking_detail.png/100px-Firemaking_detail.png?4c3a6"
+      "image": "https://runescape.wiki/images/Firemaking-icon.png?31d80"
     },
     {
       "name": "Coal",
@@ -162,6 +163,28 @@
           "image": "https://runescape.wiki/images/thumb/Mithril_bar_detail.png/100px-Mithril_bar_detail.png?e065f"
         }
       ]
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Coins",
+      "display": "About 10,000 coins (may vary on the tasks you get during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "name": "Agility",
+      "display": "21 Agility (for the underwall tunnel shortcut to the Grand Exchange)",
+      "image": "https://runescape.wiki/images/Agility-icon.png?9a56e"
+    },
+    {
+      "name": "Port Sarim lodestone",
+      "display": "Activated Port Sarim and Fremennik Province lodestone",
+      "image": "https://runescape.wiki/images/Port_Sarim_lodestone_icon.png?811bd"
+    },
+    {
+      "name": "Luck of the Dwarves",
+      "display": "Luck of the Dwarves or Hazelmere's signet ring teleport to Keldagrim (accessible after initial city entry in quest introduction)",
+      "image": "https://runescape.wiki/images/thumb/Luck_of_the_Dwarves_detail.png/100px-Luck_of_the_Dwarves_detail.png?8382b"
     }
   ],
   "kills": [

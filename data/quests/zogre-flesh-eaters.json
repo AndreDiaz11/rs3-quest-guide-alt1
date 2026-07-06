@@ -3,16 +3,20 @@
   "title": "Zogre Flesh Eaters",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.603Z",
+  "guideLastUpdated": "2026-07-06T20:32:21.234Z",
   "icon": "https://runescape.wiki/images/Zogre_Flesh_Eaters_icon.png",
+  "entityIcon": null,
   "series": "Ogre",
+  "seriesNth": "2",
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "50-59",
   "difficulty": "Intermediate",
   "length": "Medium",
   "releaseDate": "17 May 2005",
+  "area": "Feldip Hills",
   "startPoint": {
     "en": "Talk to Grish, located west of Gu'Tanoth and south of Castle Wars.",
     "es": "Habla con Grish, situado al oeste de Gu'Tanoth y al sur de Castle Wars."
@@ -23,22 +27,51 @@
         "title": "Big Chompy Bird Hunting"
       }
     ],
-    "skills": [
-      {
-        "skill": "Prayer",
-        "level": 40
-      },
-      {
-        "skill": "Crafting",
-        "level": 20
-      },
-      {
-        "skill": "Herblore",
-        "level": 8
-      }
-    ]
+    "skills": []
   },
+  "followsEvents": [
+    {
+      "title": "Jungle Potion"
+    }
+  ],
   "items": [],
+  "recommended": [
+    {
+      "name": "Prayer",
+      "display": "40 Prayer for Protect from Ranged, preferably level 43 for Protect from Melee",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Crafting",
+      "display": "20 Crafting for a better chance on making the correct portrait, the higher your crafting the better your chances.",
+      "image": "https://runescape.wiki/images/Crafting-icon.png?f224a"
+    },
+    {
+      "name": "Herblore",
+      "display": "8 Herblore for creation of Relicym's balm to unlock Uglug Nar's store",
+      "image": "https://runescape.wiki/images/Herblore-icon.png?43135"
+    },
+    {
+      "name": "Comp ogre bow",
+      "display": "A comp ogre bow (or can be learned how to create during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Comp_ogre_bow_detail.png/100px-Comp_ogre_bow_detail.png?54482"
+    },
+    {
+      "name": "Yanille lodestone",
+      "display": "Activated Yanille lodestone, ring of duelling with at least 4 charges, dramen/lunar staff for fairy ring access (if A Fairy Tale III - Battle at Ork's Rift hasn't been completed).",
+      "image": "https://runescape.wiki/images/Yanille_lodestone_icon.png?c9651"
+    },
+    {
+      "name": "Food",
+      "display": "Food and combat gear",
+      "image": null
+    },
+    {
+      "name": "Slash Bash",
+      "display": "If killing Slash Bash with ranged, comp ogre bow and at least 50 mithril brutal arrows (or better)",
+      "image": "https://runescape.wiki/images/thumb/Slash_Bash.png/100px-Slash_Bash.png?e124c"
+    }
+  ],
   "kills": [
     "Zombie (level 36)",
     "Slash Bash (level 58)"

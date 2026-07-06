@@ -3,16 +3,20 @@
   "title": "Spirit of Summer",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.011Z",
+  "guideLastUpdated": "2026-07-06T20:31:40.741Z",
   "icon": "https://runescape.wiki/images/Spirit_of_Summer_icon.png",
+  "entityIcon": null,
   "series": "Summer",
+  "seriesNth": "1",
   "age": "ambiguous",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Intermediate",
   "length": "Long",
   "releaseDate": "29 July 2008",
+  "area": "Wilderness",
   "startPoint": {
     "en": "Talk to the little ghost by the Wilderness wall north-east of Varrock.",
     "es": "Habla con el pequeño fantasma junto al muro del Wilderness, al noreste de Varrock."
@@ -39,13 +43,10 @@
       {
         "skill": "Summoning",
         "level": 19
-      },
-      {
-        "skill": "Archaeology",
-        "level": 20
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Ghostspeak amulet",
@@ -101,6 +102,50 @@
       "name": "Bones",
       "display": "5 bones (obtainable during quest)",
       "image": "https://runescape.wiki/images/thumb/Bones_detail.png/100px-Bones_detail.png?28fd1"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Ectophial",
+      "display": "One-click teleport (such as Ectophial or House Teleport which can prevent you from losing items from the death by poison)",
+      "image": "https://runescape.wiki/images/thumb/Ectophial_detail.png/100px-Ectophial_detail.png?1b030"
+    },
+    {
+      "name": "Weight-reducing clothing",
+      "display": "Weight-reducing and energy-restoring items highly recommended for prolonging run energy",
+      "image": null
+    },
+    {
+      "name": "Supreme growth potion (leafy)",
+      "display": "Supreme growth potion (leafy) to make the limpwurt plant grow much faster",
+      "image": null
+    },
+    {
+      "name": "Food",
+      "display": "Food in case you accidentally get too close to the beast and take damage",
+      "image": null
+    },
+    {
+      "name": "To get to the quest start quickly, players can use:",
+      "display": "To get to the quest start quickly, players can use:",
+      "image": null,
+      "children": [
+        {
+          "name": "Archaeology",
+          "display": "20 Archaeology to quickly reach the Infernal Source Dig Site through the dig site map in the Archaeology Guild",
+          "image": "https://runescape.wiki/images/Archaeology-icon.png?48b2f"
+        },
+        {
+          "name": "Fort Forinthry lodestone",
+          "display": "Fort Forinthry lodestone, built after completing the quest New Foundations",
+          "image": "https://runescape.wiki/images/Fort_Forinthry_lodestone_icon.png?872ba"
+        },
+        {
+          "name": "Fort Forinthry Teleport",
+          "display": "A Fort Forinthry Teleport",
+          "image": "https://runescape.wiki/images/thumb/Fort_Forinthry_Teleport_detail.png/100px-Fort_Forinthry_Teleport_detail.png?fd3b5"
+        }
+      ]
     }
   ],
   "kills": [

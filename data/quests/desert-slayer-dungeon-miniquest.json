@@ -3,16 +3,20 @@
   "title": "Desert Slayer Dungeon (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.643Z",
+  "guideLastUpdated": "2026-07-06T20:30:17.019Z",
   "icon": "https://runescape.wiki/images/Desert_Slayer_Dungeon_%28miniquest%29_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "90-99",
   "difficulty": "Master",
   "length": "Short to Medium",
   "releaseDate": "5 June 2008",
+  "area": "Kharidian Desert",
   "startPoint": {
     "en": "Enter a barrier on the lowest level of Pollnivneach Slayer Dungeon. (via → )",
     "es": "Entra en una barrera en el nivel más bajo del Pollnivneach Slayer Dungeon. (a través de →)"
@@ -60,17 +64,10 @@
       {
         "skill": "Slayer",
         "level": 70
-      },
-      {
-        "skill": "Prayer",
-        "level": 43
-      },
-      {
-        "skill": "Magic",
-        "level": 50
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Full slayer helmet",
@@ -86,6 +83,33 @@
       "name": "Mirror shield",
       "display": "Mirror shield",
       "image": "https://runescape.wiki/images/thumb/Mirror_shield_detail.png/100px-Mirror_shield_detail.png?2c53c"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Prayer",
+      "display": "43 Prayer",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Magic",
+      "display": "50 Magic",
+      "image": "https://runescape.wiki/images/Magic-icon.png?60d6d"
+    },
+    {
+      "name": "Antipoison",
+      "display": "Antipoison",
+      "image": "https://runescape.wiki/images/thumb/Antipoison_%281%29_detail.png/100px-Antipoison_%281%29_detail.png?27b64"
+    },
+    {
+      "name": "Restore potion",
+      "display": "Restore potion",
+      "image": "https://runescape.wiki/images/thumb/Restore_potion_%281%29_detail.png/100px-Restore_potion_%281%29_detail.png?9dba5"
+    },
+    {
+      "name": "Anti-poison totem",
+      "display": "Anti-poison totem",
+      "image": "https://runescape.wiki/images/thumb/Anti-poison_totem_detail.png/100px-Anti-poison_totem_detail.png?288f7"
     }
   ],
   "kills": [

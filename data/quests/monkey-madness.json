@@ -3,16 +3,20 @@
   "title": "Monkey Madness",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.247Z",
+  "guideLastUpdated": "2026-07-06T20:31:06.800Z",
   "icon": "https://runescape.wiki/images/Monkey_Madness_icon.png",
+  "entityIcon": null,
   "series": "Gnome",
+  "seriesNth": "3",
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "70-79",
   "difficulty": "Master",
   "length": "Very Long",
   "releaseDate": "6 December 2004",
+  "area": "Gnome Stronghold",
   "startPoint": {
     "en": "Talk to King Narnode Shareen in the Grand Tree in the Tree Gnome Stronghold.",
     "es": "Habla con King Narnode Shareen en el Grand Tree, en Tree Gnome Stronghold."
@@ -26,17 +30,9 @@
         "title": "Tree Gnome Village"
       }
     ],
-    "skills": [
-      {
-        "skill": "Prayer",
-        "level": 43
-      },
-      {
-        "skill": "Thieving",
-        "level": 10
-      }
-    ]
+    "skills": []
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Gold bar",
@@ -57,6 +53,68 @@
       "name": "Banana",
       "display": "5 bananas (can be obtained in Ape Atoll)",
       "image": "https://runescape.wiki/images/thumb/Banana_detail.png/100px-Banana_detail.png?4ddca"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Prayer",
+      "display": "43 Prayer or higher (for the protection prayers)",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Thieving",
+      "display": "10 Thieving or higher (for increased success chance in lock-picking)",
+      "image": "https://runescape.wiki/images/Thieving-icon.png?1fcf2"
+    },
+    {
+      "name": "Antipoison",
+      "display": "Antipoison potions (Antipoison++ recommended), anti-poison totem, or a dip in the thermal bath to reduce poison damage",
+      "image": "https://runescape.wiki/images/thumb/Antipoison_%281%29_detail.png/100px-Antipoison_%281%29_detail.png?27b64"
+    },
+    {
+      "name": "Prayer potion",
+      "display": "Prayer potions for prayer restoration",
+      "image": "https://runescape.wiki/images/thumb/Prayer_potion_%281%29_detail.png/100px-Prayer_potion_%281%29_detail.png?27704"
+    },
+    {
+      "name": "Super energy",
+      "display": "Super energy potions, a charged explorer's ring, mint cakes or a dip in the Salt-water spring for run energy boosts",
+      "image": "https://runescape.wiki/images/thumb/Super_energy_%281%29_detail.png/100px-Super_energy_%281%29_detail.png?5317a"
+    },
+    {
+      "name": "Ring of duelling",
+      "display": "Ring of duelling",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_duelling_detail.png/100px-Ring_of_duelling_detail.png?0ab65"
+    },
+    {
+      "name": "Amulet of glory",
+      "display": "Amulet of glory",
+      "image": null
+    },
+    {
+      "name": "Ardougne cloak",
+      "display": "Ardougne cloak to quickly reach the Ardougne Zoo (Monastery teleport)",
+      "image": null
+    },
+    {
+      "name": "Coins",
+      "display": "200,000 coins if you want Glough to do the puzzle for you",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "name": "Enhanced Excalibur",
+      "display": "Food and/or Enhanced Excalibur for surviving the dangers of the island and cave",
+      "image": "https://runescape.wiki/images/thumb/Enhanced_Excalibur_detail.png/100px-Enhanced_Excalibur_detail.png?c4aa8"
+    },
+    {
+      "name": "Ectophial",
+      "display": "A one-click teleport item (Ectophial)",
+      "image": "https://runescape.wiki/images/thumb/Ectophial_detail.png/100px-Ectophial_detail.png?1b030"
+    },
+    {
+      "name": "Spirit tree re-rooter",
+      "display": "Spirit tree re-rooter for quicker access to the Tree Gnome Stronghold",
+      "image": "https://runescape.wiki/images/Spirit_tree_re-rooter_detail.png?fcdc8"
     }
   ],
   "kills": [

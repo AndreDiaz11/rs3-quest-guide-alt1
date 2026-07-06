@@ -3,16 +3,20 @@
   "title": "Beneath Scabaras' Sands",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.052Z",
+  "guideLastUpdated": "2026-07-06T20:29:57.491Z",
   "icon": "https://runescape.wiki/images/thumb/Beneath_Scabaras%27_Sands_icon.png/50px-Beneath_Scabaras%27_Sands_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Beneath_Scabaras%27_Sands_entity_icon.png?68ee0",
   "series": "Desert",
+  "seriesNth": "11",
   "age": "Age of Chaos",
   "timeline": "Age of Chaos",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "140-149",
   "difficulty": "Experienced",
   "length": "Medium to Long",
   "releaseDate": "13 January 2025",
+  "area": "Menaphos & Sophanem",
   "startPoint": {
     "en": "Enter the Menaphos throne room.",
     "es": "Entra en la sala del trono de Menaphos."
@@ -78,11 +82,49 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Calculator:Archaeology/Artefacts",
       "display": "A restored Zarosian artefact (will be lost)",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Al Kharid lodestone",
+      "display": "Activated Al Kharid, Bandit Camp, and Menaphos lodestones",
+      "image": "https://runescape.wiki/images/thumb/Al_Kharid_lodestone_icon.png/100px-Al_Kharid_lodestone_icon.png?5c436"
+    },
+    {
+      "name": "Desert amulet 4",
+      "display": "Desert amulet 4 provides teleports to Nardah and Uzer, but a Desert amulet 2 or amulet 3 only provides teleports to Nardah.",
+      "image": "https://runescape.wiki/images/Desert_amulet_4_detail.png?34307"
+    },
+    {
+      "name": "Sceptre of the gods",
+      "display": "Sceptre of the gods / Pharaoh's sceptre / Master camouflage outfit (teleport option 9: Pyramid Plunder)",
+      "image": "https://runescape.wiki/images/thumb/Sceptre_of_the_gods_detail.png/100px-Sceptre_of_the_gods_detail.png?4bbe8"
+    },
+    {
+      "name": "Ring of slaying",
+      "display": "Ring of slaying / Pollnivneach tablet / Slayer cape to Pollnivneach / Pollnivneach Teleport (scroll from treasure trails)",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_slaying_detail.png/100px-Ring_of_slaying_detail.png?84846"
+    },
+    {
+      "name": "Ring of charos (a)",
+      "display": "Ring of charos (a) if using magic carpet ride",
+      "image": "https://runescape.wiki/images/Ring_of_charos_%28a%29_detail.png?0dbd0"
+    },
+    {
+      "name": "Combat gear and food",
+      "display": "Combat gear and food",
+      "image": null
+    },
+    {
+      "name": "Antipoison",
+      "display": "Antipoisons (or its variants) or other method of preventing poison damage such as the Venomblood perk",
+      "image": "https://runescape.wiki/images/thumb/Antipoison_%281%29_detail.png/100px-Antipoison_%281%29_detail.png?27b64"
     }
   ],
   "kills": [

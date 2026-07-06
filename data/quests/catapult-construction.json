@@ -3,16 +3,20 @@
   "title": "Catapult Construction",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.304Z",
+  "guideLastUpdated": "2026-07-06T20:30:05.012Z",
   "icon": "https://runescape.wiki/images/Catapult_Construction_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "ambiguous",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Master",
   "length": "Short to Medium",
   "releaseDate": "13 February 2008",
+  "area": "Tirannwn",
   "startPoint": {
     "en": "Talk to the Tyras guard next to the catapult in the Isafdar Forest.",
     "es": "Habla con el guardia de Tyras junto a la catapulta en Isafdar Forest."
@@ -54,13 +58,10 @@
       {
         "skill": "Woodcutting",
         "level": 60
-      },
-      {
-        "skill": "Agility",
-        "level": 56
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Mithril nails",
@@ -71,6 +72,33 @@
       "name": "Mahogany plank",
       "display": "10 mahogany planks (protean planks will not work)",
       "image": "https://runescape.wiki/images/thumb/Mahogany_plank_detail.png/100px-Mahogany_plank_detail.png?fa548"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Agility",
+      "display": "56 Agility if entering forest from Port Tyras",
+      "image": "https://runescape.wiki/images/Agility-icon.png?9a56e"
+    },
+    {
+      "name": "Tirannwn lodestone",
+      "display": "Access to the Tirannwn lodestone",
+      "image": "https://runescape.wiki/images/Tirannwn_lodestone_icon.png?81bb7"
+    },
+    {
+      "name": "Amulet of glory",
+      "display": "A charged amulet of glory or combat bracelet",
+      "image": null
+    },
+    {
+      "name": "Arc journal",
+      "display": "An arc journal for teleport outside the pub in Port Sarim and Thaki the delivery dwarf",
+      "image": "https://runescape.wiki/images/Arc_journal_detail.png?d0c93"
+    },
+    {
+      "name": "Antipoison",
+      "display": "Some food and antipoison",
+      "image": "https://runescape.wiki/images/thumb/Antipoison_%281%29_detail.png/100px-Antipoison_%281%29_detail.png?27b64"
     }
   ],
   "kills": [

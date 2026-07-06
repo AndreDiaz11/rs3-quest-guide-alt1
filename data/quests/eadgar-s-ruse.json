@@ -3,16 +3,20 @@
   "title": "Eadgar's Ruse",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.023Z",
+  "guideLastUpdated": "2026-07-06T20:30:29.613Z",
   "icon": "https://runescape.wiki/images/Eadgar%27s_Ruse_icon.png",
+  "entityIcon": null,
   "series": "Troll",
+  "seriesNth": "3",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Experienced",
   "length": "Long",
   "releaseDate": "5 October 2004",
+  "area": "Taverley",
   "startPoint": {
     "en": "Talk to Sanfew in Taverley.",
     "es": "Habla con Sanfew en Taverley."
@@ -39,17 +43,10 @@
       {
         "skill": "Herblore",
         "level": 31
-      },
-      {
-        "skill": "Prayer",
-        "level": 40
-      },
-      {
-        "skill": "Agility",
-        "level": 47
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Climbing boots",
@@ -85,6 +82,38 @@
       "name": "Ranarr potion (unfinished)",
       "display": "A ranarr potion (unfinished)",
       "image": "https://runescape.wiki/images/thumb/Ranarr_potion_%28unfinished%29_detail.png/100px-Ranarr_potion_%28unfinished%29_detail.png?6ccff"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Prayer",
+      "display": "40 Prayer or 47 Agility",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Kandarin monastery Teleport",
+      "display": "Teleports to Ardougne; the Kandarin monastery Teleport can be used to teleport relatively close to the Zoo",
+      "image": "https://runescape.wiki/images/thumb/Monastery_%28Kandarin%29_teleport.gif/100px-Monastery_%28Kandarin%29_teleport.gif?31617"
+    },
+    {
+      "name": "Thrower Troll",
+      "display": "Beware of level 67 thrower Trolls",
+      "image": "https://runescape.wiki/images/thumb/Thrower_Troll.png/100px-Thrower_Troll.png?2ef62"
+    },
+    {
+      "name": "Protect from Ranged",
+      "display": "Some food if you have to run the gauntlet with thrower trolls. Access to Protect from Ranged is also helpful. Not necessary if you have the recommended agility level.",
+      "image": null
+    },
+    {
+      "name": "Energy potion",
+      "display": "Energy potions if your agility level is low",
+      "image": "https://runescape.wiki/images/thumb/Energy_potion_%281%29_detail.png/100px-Energy_potion_%281%29_detail.png?33ea7"
+    },
+    {
+      "name": "Logs",
+      "display": "A third pile of logs for a fire",
+      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
     }
   ],
   "kills": [

@@ -3,16 +3,20 @@
   "title": "Smoking Kills",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:06.942Z",
+  "guideLastUpdated": "2026-07-06T20:31:38.468Z",
   "icon": "https://runescape.wiki/images/Smoking_Kills_icon.png",
+  "entityIcon": null,
   "series": "Desert",
+  "seriesNth": "5",
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "90-99",
   "difficulty": "Intermediate",
   "length": "Short",
   "releaseDate": "5 June 2008",
+  "area": "Kharidian Desert",
   "startPoint": {
     "en": "Talk to Sumona in her house in Pollnivneach.",
     "es": "Habla con Sumona en su casa de Pollnivneach."
@@ -47,21 +51,10 @@
       {
         "skill": "Slayer",
         "level": 35
-      },
-      {
-        "skill": "combat level",
-        "level": 60
-      },
-      {
-        "skill": "Prayer",
-        "level": 40
-      },
-      {
-        "skill": "Agility",
-        "level": 40
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Ranged/Magic/Necromancy weapons or spells (must kill skeletons without melee)",
@@ -92,6 +85,43 @@
       "name": "Face mask",
       "display": "Face mask",
       "image": "https://runescape.wiki/images/thumb/Face_mask_chathead.png/100px-Face_mask_chathead.png?76396"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "60 combat level",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Prayer",
+      "display": "40 Prayer",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Ranged/Magic/Necromancy equipment and food",
+      "display": "Ranged/Magic/Necromancy equipment and food",
+      "image": null
+    },
+    {
+      "name": "Desert heat",
+      "display": "Desert heat protection (completing Crocodile Tears grants immunity)",
+      "image": null
+    },
+    {
+      "name": "Player-owned house",
+      "display": "Player-owned house in Pollnivneach, Pollnivneach Teleport scroll or a few coins for Magic carpet rides",
+      "image": "https://runescape.wiki/images/thumb/Portal_%28player-owned_house%29.png/100px-Portal_%28player-owned_house%29.png?9c5f5"
+    },
+    {
+      "name": "Ring of slaying",
+      "display": "Ring of slaying (for teleportation to Pollnivneach)",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_slaying_detail.png/100px-Ring_of_slaying_detail.png?84846"
+    },
+    {
+      "name": "Rope",
+      "display": "Rope (if you haven't completed Dealing with Scabaras and have at least 40 Agility)",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
     }
   ],
   "kills": [

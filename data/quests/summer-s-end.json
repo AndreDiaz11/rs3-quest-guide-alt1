@@ -3,16 +3,20 @@
   "title": "Summer's End",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.136Z",
+  "guideLastUpdated": "2026-07-06T20:31:44.656Z",
   "icon": "https://runescape.wiki/images/Summer%27s_End_icon.png",
+  "entityIcon": null,
   "series": "Summer",
+  "seriesNth": "2",
   "age": "ambiguous",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Experienced",
   "length": "Medium to Long",
   "releaseDate": "15 September 2008",
+  "area": "Wilderness",
   "startPoint": {
     "en": "Talk to Summer near the Wilderness wall northeast of Varrock, north of the Varrock Saradominist church.",
     "es": "Habla con Summer cerca del muro del Wilderness al noreste de Varrock, al norte de la iglesia saradominista de Varrock."
@@ -64,13 +68,10 @@
       {
         "skill": "Summoning",
         "level": 29
-      },
-      {
-        "skill": "Archaeology",
-        "level": 20
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Ghostspeak amulet",
@@ -98,6 +99,65 @@
           "image": "https://runescape.wiki/images/thumb/Albino_rat_pouch_detail.png/100px-Albino_rat_pouch_detail.png?3ff54"
         }
       ]
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Food",
+      "display": "Food",
+      "image": null
+    },
+    {
+      "name": "Super energy",
+      "display": "Super energy potions or a fair number of Mint cakes, or 2 doses of Stamina potion for the fights",
+      "image": "https://runescape.wiki/images/thumb/Super_energy_%281%29_detail.png/100px-Super_energy_%281%29_detail.png?5317a"
+    },
+    {
+      "name": "5-15 empty spaces for logs during the first fight",
+      "display": "5-15 empty spaces for logs during the first fight",
+      "image": null
+    },
+    {
+      "name": "Weight-reducing clothing",
+      "display": "Weight-reducing clothing",
+      "image": null
+    },
+    {
+      "name": "A one-click emergency teleport",
+      "display": "A one-click emergency teleport",
+      "image": null
+    },
+    {
+      "name": "To get to the quest start quickly, players can use:",
+      "display": "To get to the quest start quickly, players can use:",
+      "image": null,
+      "children": [
+        {
+          "name": "Archaeology",
+          "display": "20 Archaeology to quickly reach the Infernal Source Dig Site through the dig sites map in the Archaeology Guild",
+          "image": "https://runescape.wiki/images/Archaeology-icon.png?48b2f"
+        },
+        {
+          "name": "Fort Forinthry lodestone",
+          "display": "Fort Forinthry lodestone, built after completing New Foundations quest",
+          "image": "https://runescape.wiki/images/Fort_Forinthry_lodestone_icon.png?872ba"
+        },
+        {
+          "name": "Fort Forinthry Teleport",
+          "display": "A Fort Forinthry Teleport, buyable on the Grand Exchange",
+          "image": "https://runescape.wiki/images/thumb/Fort_Forinthry_Teleport_detail.png/100px-Fort_Forinthry_Teleport_detail.png?fd3b5"
+        }
+      ]
+    },
+    {
+      "name": "Warpriest of Saradomin armour",
+      "display": "Do not bring armour as it will not protect you from the attacks. However, either Warpriest of Saradomin armour or Warpriest of Zamorak armour has a chance to reduce damage taken from the Beast's attacks.",
+      "image": "https://runescape.wiki/images/thumb/Warpriest_of_Saradomin_helm_chathead.png/100px-Warpriest_of_Saradomin_helm_chathead.png?13966"
+    },
+    {
+      "name": "Full prayer points or prayer potions, needed to bless the graves",
+      "display": "Full prayer points or prayer potions, needed to bless the graves",
+      "image": null
     }
   ],
   "kills": [

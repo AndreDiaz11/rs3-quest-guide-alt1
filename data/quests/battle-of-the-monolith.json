@@ -3,16 +3,20 @@
   "title": "Battle of the Monolith",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.013Z",
+  "guideLastUpdated": "2026-07-06T20:29:56.223Z",
   "icon": "https://runescape.wiki/images/Battle_of_the_Monolith_icon.png",
+  "entityIcon": null,
   "series": "The Elder God Wars",
+  "seriesNth": "9",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "scaled",
   "difficulty": "Intermediate",
   "length": "Medium",
   "releaseDate": "24 May 2021",
+  "area": "Varrock Outskirts",
   "startPoint": {
     "en": "Talk to Ali the Wise or Wizard Trindy at the Archaeology Campus.",
     "es": "Habla con Ali the Wise o Wizard Trindy en el Campus de Arqueología."
@@ -62,7 +66,34 @@
     ],
     "skills": []
   },
+  "followsEvents": [
+    {
+      "title": "The Brink of Extinction",
+      "children": [
+        {
+          "title": "The Elder Kiln"
+        }
+      ]
+    }
+  ],
   "items": [],
+  "recommended": [
+    {
+      "name": "Archaeology journal",
+      "display": "Archaeology journal (For easy teleport to the start & replays of the quest)",
+      "image": "https://runescape.wiki/images/thumb/Archaeology_journal_detail.png/100px-Archaeology_journal_detail.png?9ffe0"
+    },
+    {
+      "name": "TokKul-Zo",
+      "display": "TokKul-Zo (For quick teleport to the TzHaar City during the third battle of the quest)",
+      "image": "https://runescape.wiki/images/thumb/TokKul-Zo_detail.png/100px-TokKul-Zo_detail.png?1b81a"
+    },
+    {
+      "name": "Combat gear and food",
+      "display": "Combat gear and food",
+      "image": null
+    }
+  ],
   "kills": [
     "First battle: Several Temple Knights (scales with your combat level) Several Abyssal Prowlers (scales with your combat level)",
     "Several Temple Knights (scales with your combat level)",

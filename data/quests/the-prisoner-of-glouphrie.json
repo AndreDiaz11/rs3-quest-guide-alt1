@@ -3,16 +3,20 @@
   "title": "The Prisoner of Glouphrie",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.947Z",
+  "guideLastUpdated": "2026-07-06T20:32:04.873Z",
   "icon": "https://runescape.wiki/images/The_Prisoner_of_Glouphrie_icon.png",
+  "entityIcon": "https://runescape.wiki/images/The_Prisoner_of_Glouphrie_entity_icon.png?5d464",
   "series": "Gnome",
+  "seriesNth": "6",
   "age": "ambiguous",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Master",
   "length": "Medium",
   "releaseDate": "9 February 2011",
+  "area": "Gnome Village",
   "startPoint": {
     "en": "Talk to Golrie in his cave beneath the Tree Gnome Village. (via )",
     "es": "Habla con Golrie en su cueva bajo Tree Gnome Village. (a través de)"
@@ -81,14 +85,33 @@
       {
         "skill": "Thieving",
         "level": 64
-      },
-      {
-        "skill": "Magic",
-        "level": 71
       }
     ]
   },
+  "followsEvents": [],
   "items": [],
+  "recommended": [
+    {
+      "name": "Ourania teleport",
+      "display": "Runes for Ourania teleport (optional, if you have 71 Magic and are using Lunar spells, 1 law rune, 2 astral runes, 6 earth runes or Ardougne easy tasks for Kandarin monastery Teleport)",
+      "image": null
+    },
+    {
+      "name": "Ring of duelling",
+      "display": "A ring of duelling or an activated Yanille lodestone for quick access to the observatory",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_duelling_detail.png/100px-Ring_of_duelling_detail.png?0ab65"
+    },
+    {
+      "name": "Rope",
+      "display": "Rope",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    },
+    {
+      "name": "Chipped Watchtower teleport",
+      "display": "Chipped Watchtower teleport",
+      "image": null
+    }
+  ],
   "kills": [
     "None"
   ],

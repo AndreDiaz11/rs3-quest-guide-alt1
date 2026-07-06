@@ -3,16 +3,20 @@
   "title": "Death to the Dorgeshuun",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.608Z",
+  "guideLastUpdated": "2026-07-06T20:30:15.703Z",
   "icon": "https://runescape.wiki/images/Death_to_the_Dorgeshuun_icon.png",
+  "entityIcon": null,
   "series": "Cave Goblin",
+  "seriesNth": "2",
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "40-49",
   "difficulty": "Intermediate",
   "length": "Medium",
   "releaseDate": "21 June 2006",
+  "area": "Dorgesh-Kaan",
   "startPoint": {
     "en": "Talk to Mistag in the Dorgeshuun Mines. (via )",
     "es": "Habla con Mistag en las Dorgeshuun Mines. (via)"
@@ -34,6 +38,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "H.A.M. robes",
@@ -49,6 +54,28 @@
       "name": "Melee",
       "display": "A melee, magic, or necromancy weapon or ability",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Ranged",
+      "display": "Non-Ranged armour and weapons, and food",
+      "image": "https://runescape.wiki/images/Ranged-icon.png?310aa"
+    },
+    {
+      "name": "Lockpick",
+      "display": "Lockpick",
+      "image": null
+    },
+    {
+      "name": "Spiny helmet",
+      "display": "Spiny helmet or a Slayer helmet. If you use this method, a rope may be needed if you have never ventured into the Lumbridge swamp caves before.",
+      "image": "https://runescape.wiki/images/thumb/Spiny_helmet_detail.png/100px-Spiny_helmet_detail.png?8f394"
+    },
+    {
+      "name": "Games necklace",
+      "display": "Games necklace (only if Tears of Guthix has been completed)",
+      "image": "https://runescape.wiki/images/thumb/Games_necklace_%281%29_detail.png/100px-Games_necklace_%281%29_detail.png?96751"
     }
   ],
   "kills": [

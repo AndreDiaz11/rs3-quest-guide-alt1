@@ -3,16 +3,20 @@
   "title": "Tower of Life",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.178Z",
+  "guideLastUpdated": "2026-07-06T20:32:10.447Z",
   "icon": "https://runescape.wiki/images/Tower_of_Life_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "adventurer",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Novice",
   "length": "Medium to Long",
   "releaseDate": "19 February 2007",
+  "area": "Kandarin South",
   "startPoint": {
     "en": "Talk to Effigy outside the Tower of Life south of Ardougne.",
     "es": "Habla con Effigy fuera de la Tower of Life, al sur de Ardougne."
@@ -26,11 +30,77 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Beer",
       "display": "Beer",
       "image": "https://runescape.wiki/images/thumb/Beer_detail.png/100px-Beer_detail.png?047f1"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "At least 14 empty spaces to carry items acquired during the quest.",
+      "display": "At least 14 empty spaces to carry items acquired during the quest.",
+      "image": null
+    },
+    {
+      "name": "To complete the post-quest summoning achievements:",
+      "display": "To complete the post-quest summoning achievements:",
+      "image": null,
+      "children": [
+        {
+          "name": "Unicow",
+          "display": "Unicow",
+          "image": "https://runescape.wiki/images/thumb/Unicow.png/100px-Unicow.png?4fe1e",
+          "children": [
+            {
+              "name": "Cowhide",
+              "display": "Cowhide",
+              "image": "https://runescape.wiki/images/thumb/Cowhide_detail.png/100px-Cowhide_detail.png?eb5fd"
+            },
+            {
+              "name": "Unicorn horn",
+              "display": "Unicorn horn",
+              "image": "https://runescape.wiki/images/thumb/Unicorn_horn_detail.png/100px-Unicorn_horn_detail.png?3c284"
+            }
+          ]
+        },
+        {
+          "name": "Swordchick",
+          "display": "Swordchick",
+          "image": "https://runescape.wiki/images/thumb/Swordchick.png/100px-Swordchick.png?2a9a8",
+          "children": [
+            {
+              "name": "Raw swordfish",
+              "display": "Raw swordfish",
+              "image": "https://runescape.wiki/images/thumb/Raw_swordfish_detail.png/100px-Raw_swordfish_detail.png?77979"
+            },
+            {
+              "name": "Raw chicken",
+              "display": "Raw chicken",
+              "image": "https://runescape.wiki/images/thumb/Raw_chicken_detail.png/100px-Raw_chicken_detail.png?a5332"
+            }
+          ]
+        },
+        {
+          "name": "Frogeel",
+          "display": "Frogeel",
+          "image": "https://runescape.wiki/images/thumb/Frogeel.png/100px-Frogeel.png?c2c17",
+          "children": [
+            {
+              "name": "Raw cave eel",
+              "display": "Raw cave eel",
+              "image": "https://runescape.wiki/images/thumb/Raw_cave_eel_detail.png/100px-Raw_cave_eel_detail.png?62a25"
+            },
+            {
+              "name": "Giant frog legs",
+              "display": "Giant frog legs",
+              "image": "https://runescape.wiki/images/thumb/Giant_frog_legs_detail.png/100px-Giant_frog_legs_detail.png?bd1fd"
+            }
+          ]
+        }
+      ]
     }
   ],
   "kills": [

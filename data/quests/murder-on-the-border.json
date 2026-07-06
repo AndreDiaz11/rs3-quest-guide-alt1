@@ -3,16 +3,20 @@
   "title": "Murder on the Border",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.361Z",
+  "guideLastUpdated": "2026-07-06T20:31:08.140Z",
   "icon": "https://runescape.wiki/images/thumb/Murder_on_the_Border_icon.png/50px-Murder_on_the_Border_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Murder_on_the_Border_entity_icon.png?16301",
   "series": "Fort Forinthry",
+  "seriesNth": "2",
   "age": "Age of Chaos",
   "timeline": "Age of Chaos",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "scaled",
   "difficulty": "Novice",
   "length": "Medium",
   "releaseDate": "20 March 2023",
+  "area": "Fort Forinthry",
   "startPoint": {
     "en": "Speak to Aster in the Town Hall of Fort Forinthry.",
     "es": "Habla con Aster en el Ayuntamiento de Fort Forinthry."
@@ -46,6 +50,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Stone wall segment",
@@ -56,6 +61,18 @@
       "name": "Willow frame",
       "display": "12 willow frames",
       "image": "https://runescape.wiki/images/thumb/Willow_frame_detail.png/100px-Willow_frame_detail.png?48e15"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat gear",
+      "display": "Combat gear",
+      "image": null
+    },
+    {
+      "name": "Food",
+      "display": "Food",
+      "image": null
     }
   ],
   "kills": [

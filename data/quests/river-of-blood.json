@@ -3,16 +3,20 @@
   "title": "River of Blood",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:06.518Z",
+  "guideLastUpdated": "2026-07-06T20:31:30.612Z",
   "icon": "https://runescape.wiki/images/River_of_Blood_icon.png",
+  "entityIcon": "https://runescape.wiki/images/River_of_Blood_entity_icon.png?812ff",
   "series": "Myreque",
+  "seriesNth": "9",
   "age": "5",
   "timeline": "mythic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "100-109",
   "difficulty": "Grandmaster",
   "length": "Long to Very Long",
   "releaseDate": "25 April 2016",
+  "area": "Varrock Palace",
   "startPoint": {
     "en": "Talk to King Roald in Varrock Palace throne room.",
     "es": "Habla con King Roald en la sala del trono del Varrock Palace."
@@ -105,17 +109,10 @@
       {
         "skill": "Ranged",
         "level": 78
-      },
-      {
-        "skill": "Agility",
-        "level": 65
-      },
-      {
-        "skill": "combat level",
-        "level": 100
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Guthix balance",
@@ -171,6 +168,48 @@
       "name": "Sunspear",
       "display": "Sunspear (obtainable during the quest)",
       "image": "https://runescape.wiki/images/thumb/Sunspear_detail.png/100px-Sunspear_detail.png?b22ca"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Agility",
+      "display": "65 Agility for Paterdomus to Morytania shortcut",
+      "image": "https://runescape.wiki/images/Agility-icon.png?9a56e"
+    },
+    {
+      "name": "Combat level",
+      "display": "100 combat level",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "House Drakan outfit",
+      "display": "House Drakan or Darkmeyer outfit",
+      "image": null
+    },
+    {
+      "name": "Invitation box",
+      "display": "Invitation box or Skeletal horror Teleport for easy teleport to Paterdomus",
+      "image": "https://runescape.wiki/images/Invitation_box_detail.png?1f8e1"
+    },
+    {
+      "name": "Drakan's medallion",
+      "display": "Drakan's medallion",
+      "image": "https://runescape.wiki/images/thumb/Drakan%27s_medallion_detail.png/100px-Drakan%27s_medallion_detail.png?b3c9a"
+    },
+    {
+      "name": "Ectophial",
+      "display": "Ectophial",
+      "image": "https://runescape.wiki/images/thumb/Ectophial_detail.png/100px-Ectophial_detail.png?1b030"
+    },
+    {
+      "name": "Fang of Mohegan",
+      "display": "Fang of Mohegan (if owned) for teleport to Nature Grotto",
+      "image": "https://runescape.wiki/images/thumb/Fang_of_Mohegan_detail.png/100px-Fang_of_Mohegan_detail.png?ba38a"
+    },
+    {
+      "name": "Food",
+      "display": "Food and armour",
+      "image": null
     }
   ],
   "kills": [

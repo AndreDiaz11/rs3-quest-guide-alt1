@@ -3,16 +3,20 @@
   "title": "Crocodile Tears",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.474Z",
+  "guideLastUpdated": "2026-07-06T20:30:10.550Z",
   "icon": "https://runescape.wiki/images/Crocodile_Tears_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Crocodile_Tears_entity_icon.png?fbf70",
   "series": "Desert",
+  "seriesNth": "7",
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "100-109",
   "difficulty": "Master",
   "length": "Short to Medium",
   "releaseDate": "5 June 2017",
+  "area": "Kharidian Desert",
   "startPoint": {
     "en": "Talk to Leela and Senliten in Senliten's tomb.",
     "es": "Habla con Leela y Senliten en la tumba de Senliten."
@@ -121,13 +125,10 @@
       {
         "skill": "Woodcutting",
         "level": 47
-      },
-      {
-        "skill": "combat level",
-        "level": 100
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Rope",
@@ -155,6 +156,65 @@
       "name": "Croc ice",
       "display": "At least 28,000 coins for buying croc ice",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "100 combat level",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Food",
+      "display": "Food and combat equipment for the boss fight",
+      "image": null
+    },
+    {
+      "name": "Pharaoh's sceptre",
+      "display": "Pharaoh's sceptre, Sceptre of the gods or Sophanem Slayer Dungeon teleport tablets (for quick-travel to Sophanem and the Agility Pyramid)",
+      "image": "https://runescape.wiki/images/thumb/Pharaoh%27s_sceptre_detail.png/100px-Pharaoh%27s_sceptre_detail.png?1efc5"
+    },
+    {
+      "name": "Traveller's Necklace",
+      "display": "Traveller's Necklace (for quick access to the source of the River Elid)",
+      "image": null
+    },
+    {
+      "name": "Desert amulet 2",
+      "display": "Desert amulet 2 or higher (for easy access to the Uzer Mastaba)",
+      "image": "https://runescape.wiki/images/thumb/Desert_amulet_2_detail.png/100px-Desert_amulet_2_detail.png?3b61e",
+      "children": [
+        {
+          "name": "TokKul-Zo",
+          "display": "TokKul-Zo also works (teleport to the TzHaar Fight Cave, use the fairy ring to DLQ and then run east)",
+          "image": "https://runescape.wiki/images/thumb/TokKul-Zo_detail.png/100px-TokKul-Zo_detail.png?1b81a"
+        }
+      ]
+    },
+    {
+      "name": "Dominion medallion",
+      "display": "Dominion medallion (for quick access to the River Elid cave)",
+      "image": "https://runescape.wiki/images/thumb/Dominion_medallion_detail.png/100px-Dominion_medallion_detail.png?089c4"
+    },
+    {
+      "name": "Seer's headband 1",
+      "display": "Seer's headband 1 or above for double logs when hunting the plover birds",
+      "image": "https://runescape.wiki/images/Seer%27s_headband_1_detail.png?abf70"
+    },
+    {
+      "name": "Waterskin",
+      "display": "Waterskins or enchanted water tiara for desert heat",
+      "image": "https://runescape.wiki/images/thumb/Waterskin_detail.png/100px-Waterskin_detail.png?f509f"
+    },
+    {
+      "name": "Super energy",
+      "display": "Super energy potion, Explorer's ring 4, ogre flask (salt water) (requires completion of As A First Resort to access salt-water spring) or Endurance relic power to refresh run energy",
+      "image": "https://runescape.wiki/images/thumb/Super_energy_%281%29_detail.png/100px-Super_energy_%281%29_detail.png?5317a"
+    },
+    {
+      "name": "Port district teleport",
+      "display": "Port district teleport/Slayer Codex (if unlocked) and Imperial district teleport tablets, or access to the Menaphos lodestone",
+      "image": "https://runescape.wiki/images/thumb/Port_district_teleport_detail.png/100px-Port_district_teleport_detail.png?c7012"
     }
   ],
   "kills": [

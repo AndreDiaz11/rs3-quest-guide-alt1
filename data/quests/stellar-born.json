@@ -3,16 +3,20 @@
   "title": "Stellar Born",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.065Z",
+  "guideLastUpdated": "2026-07-06T20:31:42.054Z",
   "icon": "https://runescape.wiki/images/thumb/Stellar_Born_icon.png/50px-Stellar_Born_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Stellar_Born_entity_icon.png?748b5",
   "series": null,
+  "seriesNth": null,
   "age": "Age of Chaos",
   "timeline": "Age of Chaos",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "None",
   "difficulty": "Experienced",
   "length": "Medium",
   "releaseDate": "6 October 2025",
+  "area": "Kandarin North-west",
   "startPoint": {
     "en": "Investigate a mysterious crashed star in Piscatoris. (via )",
     "es": "Investiga una misteriosa estrella caída en Piscatoris. (mediante)"
@@ -38,6 +42,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Cosmic rune",
@@ -53,6 +58,40 @@
       "name": "Wizard Blizzard",
       "display": "Wizard Blizzard or Premade Wizard Blizzard",
       "image": "https://runescape.wiki/images/thumb/Wizard_Blizzard_detail.png/100px-Wizard_Blizzard_detail.png?7e8a6"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Stardust",
+      "display": "Stardust will teleport you directly to Wizard Rosalina",
+      "image": "https://runescape.wiki/images/thumb/Stardust_175_detail.png/100px-Stardust_175_detail.png?e43f8",
+      "children": [
+        {
+          "name": "Wicked hood",
+          "display": "Alternatively, wicked hood, fairy ring DIS, or other means of teleporting to the Wizards' Tower",
+          "image": "https://runescape.wiki/images/thumb/Wicked_hood_detail.png/100px-Wicked_hood_detail.png?a835c"
+        }
+      ]
+    },
+    {
+      "name": "Memory strand",
+      "display": "Memory strand, fairy ring AKQ, or other means of teleporting to Piscatoris",
+      "image": "https://runescape.wiki/images/thumb/Memory_strand_detail.png/100px-Memory_strand_detail.png?2aec7"
+    },
+    {
+      "name": "'Chipped' Watchtower teleport",
+      "display": "'Chipped' Watchtower teleport or other means of teleporting to the Observatory",
+      "image": "https://runescape.wiki/images/thumb/Teleport_Tablet.gif/100px-Teleport_Tablet.gif?4eead"
+    },
+    {
+      "name": "Leela's favour",
+      "display": "Leela's favour will teleport you to Menaphos Merchant district near Desert goebie camp",
+      "image": "https://runescape.wiki/images/thumb/Leela%27s_favour_detail.png/100px-Leela%27s_favour_detail.png?b7308"
+    },
+    {
+      "name": "Shadow's Grace",
+      "display": "Shadow's Grace relic power or Mobile on an augmented armour piece (weapons will be unequipped for various parts of the quest)",
+      "image": "https://runescape.wiki/images/thumb/Shadow%27s_Grace.png/100px-Shadow%27s_Grace.png?e1256"
     }
   ],
   "kills": [

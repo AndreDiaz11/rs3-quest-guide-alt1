@@ -3,16 +3,20 @@
   "title": "My Arm's Big Adventure",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.399Z",
+  "guideLastUpdated": "2026-07-06T20:31:08.780Z",
   "icon": "https://runescape.wiki/images/My_Arm%27s_Big_Adventure_icon.png",
+  "entityIcon": null,
   "series": "Troll",
+  "seriesNth": "5",
   "age": "ambiguous",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "70-79",
   "difficulty": "Intermediate",
   "length": "Medium to Long",
   "releaseDate": "23 October 2006",
+  "area": "Trollheim",
   "startPoint": {
     "en": "Talk to Burntmeat in the kitchen of the Troll Stronghold. (via → )",
     "es": "Habla con Burntmeat en la cocina de Troll Stronghold. (vía → )"
@@ -51,13 +55,10 @@
       {
         "skill": "Woodcutting",
         "level": 10
-      },
-      {
-        "skill": "Magic",
-        "level": 61
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Ugthanki dung",
@@ -83,6 +84,38 @@
       "name": "Supercompost",
       "display": "7 supercompost",
       "image": "https://runescape.wiki/images/thumb/Supercompost_detail.png/100px-Supercompost_detail.png?ac45f"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Magic",
+      "display": "61 Magic and runes for Trollheim Teleport",
+      "image": "https://runescape.wiki/images/Magic-icon.png?60d6d"
+    },
+    {
+      "name": "Food",
+      "display": "Food",
+      "image": null
+    },
+    {
+      "name": "Armour",
+      "display": "Armour",
+      "image": null
+    },
+    {
+      "name": "Weapon",
+      "display": "Weapon",
+      "image": null
+    },
+    {
+      "name": "Compost",
+      "display": "A bucket of compost or an additional supercompost",
+      "image": "https://runescape.wiki/images/thumb/Compost_detail.png/100px-Compost_detail.png?1621e"
+    },
+    {
+      "name": "Tai bwo wannai teleport",
+      "display": "Tai bwo wannai teleport",
+      "image": null
     }
   ],
   "kills": [

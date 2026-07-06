@@ -3,16 +3,20 @@
   "title": "Tomes of the Warlock",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.153Z",
+  "guideLastUpdated": "2026-07-06T20:32:09.472Z",
   "icon": "https://runescape.wiki/images/thumb/Tomes_of_the_Warlock_icon.png/50px-Tomes_of_the_Warlock_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Tomes_of_the_Warlock_entity_icon.png?5d464",
   "series": "The First Necromancer",
+  "seriesNth": "5",
   "age": "Age of Chaos",
   "timeline": "Age of Chaos",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Master",
   "length": "Long",
   "releaseDate": "7 August 2023",
+  "area": "Underworld",
   "startPoint": {
     "en": "Speak to Death in the City of Um.",
     "es": "Habla con Death en la City of Um."
@@ -82,6 +86,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Necromantic focus",
@@ -124,6 +129,52 @@
       "name": "Imperial steel",
       "display": "80 imperial steel (in material storage container)",
       "image": "https://runescape.wiki/images/thumb/Imperial_steel_detail.png/100px-Imperial_steel_detail.png?a1201"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Traveller's necklace",
+      "display": "Traveller's necklace, Wicked hood, stardust, or Infinity ethereal outfit for teleportation to the Wizards' Tower",
+      "image": "https://runescape.wiki/images/thumb/Traveller%27s_necklace_detail.png/100px-Traveller%27s_necklace_detail.png?8329b"
+    },
+    {
+      "name": "Master archaeologist's outfit",
+      "display": "Master archaeologist's outfit for teleportation to Kharid-et Dig Site and the Archaeology Campus",
+      "image": null,
+      "children": [
+        {
+          "name": "Archaeology journal",
+          "display": "Alternatively, the Archaeology journal for its teleport",
+          "image": "https://runescape.wiki/images/thumb/Archaeology_journal_detail.png/100px-Archaeology_journal_detail.png?9ffe0"
+        }
+      ]
+    },
+    {
+      "name": "Dig Site Pendant",
+      "display": "Dig Site Pendant for more direct teleport to Engelbert (Head of Research) in the Exam Centre",
+      "image": null
+    },
+    {
+      "name": "Varrock Teleport",
+      "display": "Varrock Teleport spell for quick passage to Varrock Palace library.",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a",
+      "children": [
+        {
+          "name": "'Chipped' Varrock teleport",
+          "display": "Alternatively, 'Chipped' Varrock teleport to Varrock Museum is also close to the library.",
+          "image": "https://runescape.wiki/images/thumb/Teleport_Tablet.gif/100px-Teleport_Tablet.gif?4eead"
+        }
+      ]
+    },
+    {
+      "name": "Imperial district teleport",
+      "display": "Imperial district teleport tablet for quick passage to Menaphos Imperial district",
+      "image": "https://runescape.wiki/images/thumb/Imperial_district_teleport_detail.png/100px-Imperial_district_teleport_detail.png?39b49"
+    },
+    {
+      "name": "Watchtower Teleport",
+      "display": "Watchtower Teleport spell if hard Ardougne achievements are completed and altered teleport destination used, for quick passage to the Wizards' Guild in Yanille",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
     }
   ],
   "kills": [

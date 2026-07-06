@@ -3,16 +3,20 @@
   "title": "Hunt for Red Raktuber",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.749Z",
+  "guideLastUpdated": "2026-07-06T20:30:53.329Z",
   "icon": "https://runescape.wiki/images/Hunt_for_Red_Raktuber_icon.png",
+  "entityIcon": null,
   "series": "Penguin",
+  "seriesNth": "2",
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Intermediate",
   "length": "Long",
   "releaseDate": "2 June 2009",
+  "area": "Ardougne Zoo",
   "startPoint": {
     "en": "Talk to Larry at the Ardougne Zoo.",
     "es": "Habla con Larry en el Ardougne Zoo."
@@ -41,6 +45,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Clockwork suit",
@@ -78,6 +83,72 @@
       "name": "Worn Equipment",
       "display": "Nothing equipped in the main hand, off-hand and back slots",
       "image": "https://runescape.wiki/images/thumb/Worn_equipment_interface.png/100px-Worn_equipment_interface.png?b24be"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Clocktower Teleport",
+      "display": "Clocktower Teleport scrolls for quick access to Larry",
+      "image": "https://runescape.wiki/images/thumb/Clocktower_Teleport_detail.png/100px-Clocktower_Teleport_detail.png?b584a"
+    },
+    {
+      "name": "Dramen staff",
+      "display": "A Dramen or lunar staff for fairy ring teleport to the Rellekka Hunter area (DKS), unless you have completed A Fairy Tale III - Battle at Ork's Rift",
+      "image": "https://runescape.wiki/images/thumb/Dramen_staff_detail.png/100px-Dramen_staff_detail.png?8114b"
+    },
+    {
+      "name": "Ardougne",
+      "display": "Teleportation to Ardougne and Yanille",
+      "image": "https://runescape.wiki/images/thumb/East_Ardougne.png/100px-East_Ardougne.png?065f9",
+      "children": [
+        {
+          "name": "Ardougne lodestone",
+          "display": "Activated Ardougne and Yanille lodestone",
+          "image": "https://runescape.wiki/images/Ardougne_lodestone_icon.png?9b3e4"
+        },
+        {
+          "name": "Watchtower Teleport",
+          "display": "Watchtower Teleport or ring of duelling to Castle Wars",
+          "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
+        },
+        {
+          "name": "Yanille tablet",
+          "display": "Yanille tablet after completing Love Story quest",
+          "image": "https://runescape.wiki/images/thumb/Yanille_tablet_detail.png/100px-Yanille_tablet_detail.png?762be"
+        }
+      ]
+    },
+    {
+      "name": "Fremennik Province lodestone",
+      "display": "Activated Fremennik Province lodestone",
+      "image": "https://runescape.wiki/images/thumb/Fremennik_Province_lodestone_icon.png/100px-Fremennik_Province_lodestone_icon.png?64d7b"
+    },
+    {
+      "name": "Energy",
+      "display": "A way to recover run energy, such as resting, an explorer's ring, energy potions, and super energy potions",
+      "image": null,
+      "children": [
+        {
+          "name": "As a First Resort",
+          "display": "If As a First Resort is completed, the salt-water spring in the Oo'glog gives unlimited run energy for up to 24 minutes",
+          "image": "https://runescape.wiki/images/thumb/As_a_First_Resort.png/100px-As_a_First_Resort.png?8b223"
+        },
+        {
+          "name": "Spa pool",
+          "display": "The spa pool in the Anachronia base camp",
+          "image": "https://runescape.wiki/images/thumb/Spa_pool.png/100px-Spa_pool.png?f8f18"
+        },
+        {
+          "name": "Endurance",
+          "display": "The Endurance relic power",
+          "image": "https://runescape.wiki/images/thumb/Endurance.png/100px-Endurance.png?31751"
+        }
+      ]
+    },
+    {
+      "name": "Do not take armour or weapons as no combat is involved. Familiars are also not recommended as they cannot be taken into some of the quest areas",
+      "display": "Do not take armour or weapons as no combat is involved. Familiars are also not recommended as they cannot be taken into some of the quest areas",
+      "image": null
     }
   ],
   "kills": [

@@ -3,16 +3,20 @@
   "title": "Holy Grail",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.701Z",
+  "guideLastUpdated": "2026-07-06T20:30:51.698Z",
   "icon": "https://runescape.wiki/images/Holy_Grail_icon.png",
+  "entityIcon": null,
   "series": "Camelot",
+  "seriesNth": "2",
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "20-29",
   "difficulty": "Intermediate",
   "length": "Short to Medium",
   "releaseDate": "23 July 2002",
+  "area": "Seers' Village",
   "startPoint": {
     "en": "Talk to King Arthur in Camelot.",
     "es": "Habla con King Arthur en Camelot."
@@ -30,11 +34,34 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Excalibur",
       "display": "Excalibur",
       "image": "https://runescape.wiki/images/thumb/Excalibur_detail.png/100px-Excalibur_detail.png?0bbd2"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Camelot teleport (item)",
+      "display": "Camelot teleport tablets",
+      "image": "https://runescape.wiki/images/thumb/Camelot_teleport_%28item%29_detail.png/100px-Camelot_teleport_%28item%29_detail.png?c244a"
+    },
+    {
+      "name": "Amulet of glory",
+      "display": "Amulet of glory",
+      "image": null
+    },
+    {
+      "name": "Tokkul-Zo",
+      "display": "Tokkul-Zo, for quick access to the Fairy ring network",
+      "image": null
+    },
+    {
+      "name": "Draynor lodestone",
+      "display": "Activated Draynor, Karamja, and Port Sarim lodestones",
+      "image": "https://runescape.wiki/images/Draynor_lodestone_icon.png?90767"
     }
   ],
   "kills": [

@@ -3,16 +3,20 @@
   "title": "Enakhra's Lament",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.123Z",
+  "guideLastUpdated": "2026-07-06T20:30:32.873Z",
   "icon": "https://runescape.wiki/images/Enakhra%27s_Lament_icon.png",
+  "entityIcon": null,
   "series": "Mahjarrat Mysteries",
+  "seriesNth": "7",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Experienced",
   "length": "Medium",
   "releaseDate": "23 January 2006",
+  "area": "Kharidian Desert",
   "startPoint": {
     "en": "Talk to Lazim, found in the desert south of the Bandit Camp.",
     "es": "Habla con Lazim, al que encontrarás en el desierto al sur del Bandit Camp."
@@ -31,17 +35,10 @@
       {
         "skill": "Magic",
         "level": 13
-      },
-      {
-        "skill": "Mining",
-        "level": 35
-      },
-      {
-        "skill": "Mining",
-        "level": 45
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Granite (5kg)",
@@ -124,6 +121,40 @@
       "name": "Coal",
       "display": "1 coal (can be retrieved from the metal bank during the quest)",
       "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Mining",
+      "display": "35 Mining (to mine sandstone)",
+      "image": "https://runescape.wiki/images/Mining-icon.png?8cefb"
+    },
+    {
+      "name": "Mining",
+      "display": "45 Mining (to mine granite)",
+      "image": "https://runescape.wiki/images/Mining-icon.png?8cefb"
+    },
+    {
+      "name": "Waterskin",
+      "display": "Waterskins, or an enchanted water tiara (not needed if you have completed Crocodile Tears)",
+      "image": "https://runescape.wiki/images/thumb/Waterskin_detail.png/100px-Waterskin_detail.png?f509f",
+      "children": [
+        {
+          "name": "Waterskin",
+          "display": "You may also want to get an empty waterskin to complete the Enaqua achievement",
+          "image": "https://runescape.wiki/images/thumb/Waterskin_detail.png/100px-Waterskin_detail.png?f509f"
+        }
+      ]
+    },
+    {
+      "name": "Light sources",
+      "display": "A light source",
+      "image": null
+    },
+    {
+      "name": "Bandit Camp Teleport",
+      "display": "Bandit Camp Teleport, Bandit Camp lodestone or Archaeology teleport for getting to the quest location",
+      "image": "https://runescape.wiki/images/thumb/Bandit_Camp_Teleport_detail.png/100px-Bandit_Camp_Teleport_detail.png?a08bc"
     }
   ],
   "kills": [

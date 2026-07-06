@@ -3,16 +3,20 @@
   "title": "Curse of the Black Stone",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.498Z",
+  "guideLastUpdated": "2026-07-06T20:30:11.196Z",
   "icon": "https://runescape.wiki/images/Curse_of_the_Black_Stone_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Curse_of_the_Black_Stone_entity_icon.png?fbf70",
   "series": null,
+  "seriesNth": null,
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "70-79",
   "difficulty": "Master",
   "length": "Long",
   "releaseDate": "25 February 2019",
+  "area": "Daemonheim",
   "startPoint": {
     "en": "Talk to Bryll Thoksdottir at Daemonheim.",
     "es": "Habla con Bryll Thoksdottir en Daemonheim."
@@ -34,6 +38,160 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "Sliske's Endgame",
+      "children": [
+        {
+          "title": "The Death of Chivalry",
+          "children": [
+            {
+              "title": "The World Wakes…",
+              "matchTitle": "The World Wakes"
+            }
+          ]
+        },
+        {
+          "title": "One of a Kind",
+          "children": [
+            {
+              "title": "A Tail of Two Cats…",
+              "matchTitle": "A Tail of Two Cats"
+            },
+            {
+              "title": "Holy Grail…",
+              "matchTitle": "Holy Grail"
+            },
+            {
+              "title": "The World Wakes…",
+              "matchTitle": "The World Wakes"
+            },
+            {
+              "title": "Missing, Presumed Death…",
+              "matchTitle": "Missing, Presumed Death"
+            },
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            }
+          ]
+        },
+        {
+          "title": "Nomad's Elegy",
+          "children": [
+            {
+              "title": "Dishonour among Thieves…",
+              "matchTitle": "Dishonour among Thieves"
+            },
+            {
+              "title": "Nomad's Requiem…",
+              "matchTitle": "Nomad's Requiem"
+            },
+            {
+              "title": "Heart of Stone…",
+              "matchTitle": "Heart of Stone"
+            },
+            {
+              "title": "The Mighty Fall…",
+              "matchTitle": "The Mighty Fall"
+            },
+            {
+              "title": "Throne of Miscellania…",
+              "matchTitle": "Throne of Miscellania"
+            },
+            {
+              "title": "The Void Stares Back…",
+              "matchTitle": "The Void Stares Back"
+            },
+            {
+              "title": "While Guthix Sleeps…",
+              "matchTitle": "While Guthix Sleeps"
+            },
+            {
+              "title": "Blood Runs Deep…",
+              "matchTitle": "Blood Runs Deep"
+            }
+          ]
+        },
+        {
+          "title": "Kindred Spirits",
+          "children": [
+            {
+              "title": "Missing, Presumed Death…",
+              "matchTitle": "Missing, Presumed Death"
+            },
+            {
+              "title": "Deadliest Catch…",
+              "matchTitle": "Deadliest Catch"
+            }
+          ]
+        },
+        {
+          "title": "Hero's Welcome",
+          "children": [
+            {
+              "title": "Lunar Diplomacy…",
+              "matchTitle": "Lunar Diplomacy"
+            },
+            {
+              "title": "Access to the Ancient Cavern from Barbarian Training",
+              "matchTitle": "Ancient Cavern"
+            },
+            {
+              "title": "One of a Kind…",
+              "matchTitle": "One of a Kind"
+            },
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            }
+          ]
+        },
+        {
+          "title": "Children of Mah",
+          "children": [
+            {
+              "title": "The Light Within…",
+              "matchTitle": "The Light Within"
+            },
+            {
+              "title": "Dishonour among Thieves…",
+              "matchTitle": "Dishonour among Thieves"
+            },
+            {
+              "title": "Koschei's Troubles (miniquest)…",
+              "matchTitle": "Koschei's Troubles (miniquest)"
+            },
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pieces of Hate",
+      "children": [
+        {
+          "title": "A Clockwork Syringe",
+          "children": [
+            {
+              "title": "Rocking Out…",
+              "matchTitle": "Rocking Out"
+            },
+            {
+              "title": "Own a player-owned house",
+              "matchTitle": "player-owned house"
+            }
+          ]
+        },
+        {
+          "title": "Gertrude's Cat"
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Uncut dragonstone",
@@ -96,6 +254,88 @@
       "name": "Pat of butter",
       "display": "Pat of butter (optional, not needed if picking or breaking the locks on Tessa's manacles)",
       "image": "https://runescape.wiki/images/thumb/Pat_of_butter_detail.png/100px-Pat_of_butter_detail.png?9c8d5"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat equipment and food",
+      "display": "Combat equipment and food",
+      "image": null
+    },
+    {
+      "name": "Ring of kinship",
+      "display": "Ring of kinship for teleporting to Daemonheim",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_kinship_detail.png/100px-Ring_of_kinship_detail.png?c5491"
+    },
+    {
+      "name": "Arc journal",
+      "display": "Arc journal for teleporting to the Arc",
+      "image": "https://runescape.wiki/images/Arc_journal_detail.png?d0c93"
+    },
+    {
+      "name": "Ring of Charos (a)",
+      "display": "Ring of Charos (a)",
+      "image": null
+    },
+    {
+      "name": "'Chipped' Varrock teleport",
+      "display": "'Chipped' Varrock teleport for teleporting to the Varrock Museum",
+      "image": "https://runescape.wiki/images/thumb/Teleport_Tablet.gif/100px-Teleport_Tablet.gif?4eead"
+    },
+    {
+      "name": "Traveller's necklace",
+      "display": "Traveller's necklace or wicked hood for teleporting to Wizard's Tower",
+      "image": "https://runescape.wiki/images/thumb/Traveller%27s_necklace_detail.png/100px-Traveller%27s_necklace_detail.png?8329b"
+    },
+    {
+      "name": "Adamant dragon dungeon",
+      "display": "Means of teleportation to reach Adamant dragon dungeon, e.g. Dungeoneering cape or metallic dragon trinkets",
+      "image": "https://runescape.wiki/images/thumb/Adamant_dragon_dungeon.png/100px-Adamant_dragon_dungeon.png?c0a84"
+    },
+    {
+      "name": "The Heart teleport",
+      "display": "The Heart teleport or Desert amulet 2, 3, or 4",
+      "image": "https://runescape.wiki/images/thumb/The_Heart_teleport_detail.png/100px-The_Heart_teleport_detail.png?6567b"
+    },
+    {
+      "name": "Skull of remembrance",
+      "display": "Skull of remembrance",
+      "image": null
+    },
+    {
+      "name": "Aminishi teleport",
+      "display": "Aminishi teleport for quick access to the Temple of Aminishi",
+      "image": "https://runescape.wiki/images/thumb/Aminishi_teleport_detail.png/100px-Aminishi_teleport_detail.png?edf29"
+    },
+    {
+      "name": "Dragonkin Laboratory teleport",
+      "display": "Dragonkin Laboratory teleport for quick access to the Dragonkin Laboratory",
+      "image": "https://runescape.wiki/images/Dragonkin_Laboratory_teleport_detail.png?cb2bc"
+    },
+    {
+      "name": "Shadow Reef teleport",
+      "display": "Shadow Reef teleport for quick access to The Shadow Reef",
+      "image": "https://runescape.wiki/images/thumb/Shadow_Reef_teleport_detail.png/100px-Shadow_Reef_teleport_detail.png?8d116"
+    },
+    {
+      "name": "Wilderness sword",
+      "display": "Wilderness sword for quick access to Edgeville",
+      "image": null
+    },
+    {
+      "name": "Mask of the Yellow Wyrm",
+      "display": "Mask of the Yellow Wyrm or quick teleport to Kharid-et Dig Site for quick teleport to the Citharede Abbey",
+      "image": "https://runescape.wiki/images/thumb/Mask_of_the_Yellow_Wyrm_detail.png/100px-Mask_of_the_Yellow_Wyrm_detail.png?f8dd3"
+    },
+    {
+      "name": "Archaeology teleport",
+      "display": "2 Archaeology teleports for quick access to the Black Knight's Base",
+      "image": "https://runescape.wiki/images/thumb/Archaeology_teleport_detail.png/100px-Archaeology_teleport_detail.png?65024"
+    },
+    {
+      "name": "Eek",
+      "display": "Eek for extra dialogue",
+      "image": "https://runescape.wiki/images/thumb/Eek_pet.png/100px-Eek_pet.png?84753"
     }
   ],
   "kills": [

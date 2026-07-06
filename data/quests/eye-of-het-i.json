@@ -3,16 +3,20 @@
   "title": "Eye of Het I",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.225Z",
+  "guideLastUpdated": "2026-07-06T20:30:35.808Z",
   "icon": "https://runescape.wiki/images/Eye_of_Het_I_icon.png",
+  "entityIcon": null,
   "series": "The Elder God Wars",
+  "seriesNth": "11",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Novice",
   "length": "Short",
   "releaseDate": "4 January 2022",
+  "area": "Al Kharid",
   "startPoint": {
     "en": "Talk to Icthlarin at the entrance to Het's Oasis.",
     "es": "Habla con Icthlarin en la entrada del Het's Oasis."
@@ -62,7 +66,27 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [],
+  "recommended": [
+    {
+      "name": "Ring of duelling",
+      "display": "Ring of duelling for quick access to Het's Oasis.",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_duelling_detail.png/100px-Ring_of_duelling_detail.png?0ab65",
+      "children": [
+        {
+          "name": "Al Kharid lodestone",
+          "display": "Alternatively, the Al Kharid lodestone, fire altar teleport to fire altar, or master archaeologist's outfit to Kharid-et Dig Site can be used.",
+          "image": "https://runescape.wiki/images/thumb/Al_Kharid_lodestone_icon.png/100px-Al_Kharid_lodestone_icon.png?5c436"
+        },
+        {
+          "name": "Archaeology journal",
+          "display": "Another alternative, Archaeology journal, teleport to dig sites map to teleport to Kharid-et Dig Site to go there.",
+          "image": "https://runescape.wiki/images/thumb/Archaeology_journal_detail.png/100px-Archaeology_journal_detail.png?9ffe0"
+        }
+      ]
+    }
+  ],
   "kills": [
     "None"
   ],

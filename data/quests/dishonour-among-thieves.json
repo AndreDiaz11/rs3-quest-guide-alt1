@@ -3,16 +3,20 @@
   "title": "Dishonour among Thieves",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.845Z",
+  "guideLastUpdated": "2026-07-06T20:30:20.713Z",
   "icon": "https://runescape.wiki/images/Dishonour_among_Thieves_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Dishonour_among_Thieves_entity_icon.png?fbf70",
   "series": "Sliske's Game",
+  "seriesNth": "8",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "80-89",
   "difficulty": "Intermediate",
   "length": "Long",
   "releaseDate": "23 February 2015",
+  "area": "Silvarea",
   "startPoint": {
     "en": "Speak to Moia in the Empyrean Citadel.",
     "es": "Habla con Moia en la Empyrean Citadel."
@@ -38,18 +42,152 @@
       {
         "skill": "Thieving",
         "level": 30
-      },
-      {
-        "skill": "combat level",
-        "level": 61
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "Nomad's Requiem",
+      "children": [
+        {
+          "title": "King's Ransom",
+          "children": [
+            {
+              "title": "Holy Grail…",
+              "matchTitle": "Holy Grail"
+            },
+            {
+              "title": "Murder Mystery"
+            },
+            {
+              "title": "One Small Favour…",
+              "matchTitle": "One Small Favour"
+            }
+          ]
+        },
+        {
+          "title": "Complete the Knight Waves in Camelot",
+          "matchTitle": "Knight Waves"
+        },
+        {
+          "title": "Complete the Soul Wars tutorial",
+          "matchTitle": "Soul Wars"
+        }
+      ]
+    },
+    {
+      "title": "Nadir (saga)",
+      "children": [
+        {
+          "title": "Find and free Skaldrun from the frozen floors in Daemonheim",
+          "matchTitle": "Skaldrun"
+        },
+        {
+          "title": "Ritual of the Mahjarrat",
+          "children": [
+            {
+              "title": "The Temple at Senntisten…",
+              "matchTitle": "The Temple at Senntisten"
+            },
+            {
+              "title": "While Guthix Sleeps…",
+              "matchTitle": "While Guthix Sleeps"
+            },
+            {
+              "title": "Hazeel Cult"
+            },
+            {
+              "title": "Enakhra's Lament"
+            },
+            {
+              "title": "The Slug Menace…",
+              "matchTitle": "The Slug Menace"
+            },
+            {
+              "title": "A Fairy Tale II - Cure a Queen…",
+              "matchTitle": "A Fairy Tale II - Cure a Queen"
+            },
+            {
+              "title": "Cabin Fever…",
+              "matchTitle": "Cabin Fever"
+            },
+            {
+              "title": "A Tail of Two Cats…",
+              "matchTitle": "A Tail of Two Cats"
+            },
+            {
+              "title": "Fight Arena"
+            },
+            {
+              "title": "The General's Shadow (miniquest)…",
+              "matchTitle": "The General's Shadow (miniquest)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Invitation box",
       "display": "Invitation box",
       "image": "https://runescape.wiki/images/Invitation_box_detail.png?1f8e1"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "61 combat level",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "2 free backpack space (for optional gem rewards)",
+      "display": "2 free backpack space (for optional gem rewards)",
+      "image": null
+    },
+    {
+      "name": "Constitution",
+      "display": "Combat equipment and best food for your Constitution level",
+      "image": "https://runescape.wiki/images/Constitution-icon.png?bbf9a"
+    },
+    {
+      "name": "Easy Ardougne achievements",
+      "display": "Completion of the easy Ardougne achievements for unlimited teleportation to the Ardougne Monastery",
+      "image": null
+    },
+    {
+      "name": "Hoardstalker ring",
+      "display": "Hoardstalker ring, Dungeoneering cape, or master archaeologist's outfit for quick access to the Black Knights' Base",
+      "image": "https://runescape.wiki/images/thumb/Hoardstalker_ring_%281%29_detail.png/100px-Hoardstalker_ring_%281%29_detail.png?f8d8e"
+    },
+    {
+      "name": "Drakan's medallion",
+      "display": "Drakan's medallion for quick access to Barrows or an active portal to Barrows at War's Retreat.",
+      "image": "https://runescape.wiki/images/thumb/Drakan%27s_medallion_detail.png/100px-Drakan%27s_medallion_detail.png?b3c9a"
+    },
+    {
+      "name": "Fairy ring",
+      "display": "Access to fairy ring or portable fairy ring",
+      "image": "https://runescape.wiki/images/thumb/Fairy_ring.png/100px-Fairy_ring.png?ca33a",
+      "children": [
+        {
+          "name": "TokKul-Zo",
+          "display": "TokKul-Zo or a cape of legends for quick access to the fairy ring network will also suffice",
+          "image": "https://runescape.wiki/images/thumb/TokKul-Zo_detail.png/100px-TokKul-Zo_detail.png?1b81a"
+        }
+      ]
+    },
+    {
+      "name": "Desert amulet 4",
+      "display": "Desert amulet 4 for quick access to Uzer",
+      "image": "https://runescape.wiki/images/Desert_amulet_4_detail.png?34307",
+      "children": [
+        {
+          "name": "Player-owned house",
+          "display": "A player-owned house set in Pollnivneach or the Desert amulet 2 for unlimited teleportation to Nardah for easy magic carpet access will also suffice. Carpet travel to Uzer requires completion of The Golem.",
+          "image": "https://runescape.wiki/images/thumb/Portal_%28player-owned_house%29.png/100px-Portal_%28player-owned_house%29.png?9c5f5"
+        }
+      ]
     }
   ],
   "kills": [

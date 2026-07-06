@@ -3,16 +3,20 @@
   "title": "The Lost Tribe",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.874Z",
+  "guideLastUpdated": "2026-07-06T20:32:02.305Z",
   "icon": "https://runescape.wiki/images/The_Lost_Tribe_icon.png",
+  "entityIcon": null,
   "series": "Cave Goblin",
+  "seriesNth": "1",
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Intermediate",
   "length": "Medium",
   "releaseDate": "31 May 2005",
+  "area": "Lumbridge",
   "startPoint": {
     "en": "Talk to Sigmund in Lumbridge Castle. (via )",
     "es": "Habla con Sigmund en Lumbridge Castle. (via)"
@@ -34,11 +38,24 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Light sources",
       "display": "A light source (preferably a covered source such as the oil lantern, any Seer's headband or a bullseye lantern which can be easily obtained from the lorehound if you have 50 quest points)",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Lockpick",
+      "display": "A lockpick",
+      "image": null
+    },
+    {
+      "name": "Falador lodestone",
+      "display": "Active Falador, Lumbridge, and Varrock lodestones, or teleport runes",
+      "image": "https://runescape.wiki/images/Falador_lodestone_icon.png?3315a"
     }
   ],
   "kills": [

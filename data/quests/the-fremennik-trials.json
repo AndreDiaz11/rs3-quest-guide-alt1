@@ -3,16 +3,20 @@
   "title": "The Fremennik Trials",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.681Z",
+  "guideLastUpdated": "2026-07-06T20:31:56.803Z",
   "icon": "https://runescape.wiki/images/The_Fremennik_Trials_icon.png",
+  "entityIcon": null,
   "series": "Fremennik",
+  "seriesNth": "1",
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "90-99",
   "difficulty": "Intermediate",
   "length": "Long",
   "releaseDate": "2 November 2004",
+  "area": "Rellekka",
   "startPoint": {
     "en": "Speak to Brundt the Chieftain in the longhall in Rellekka.",
     "es": "Habla con Brundt the Chieftain en el salón de reuniones de Rellekka."
@@ -51,13 +55,10 @@
       {
         "skill": "Divination",
         "level": 76
-      },
-      {
-        "skill": "Construction",
-        "level": 30
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Raw shark",
@@ -68,6 +69,28 @@
       "name": "Coins",
       "display": "5,250 coins",
       "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Fremennik Province lodestone",
+      "display": "Activated Fremennik Province and Seers' Village lodestone",
+      "image": "https://runescape.wiki/images/thumb/Fremennik_Province_lodestone_icon.png/100px-Fremennik_Province_lodestone_icon.png?64d7b"
+    },
+    {
+      "name": "Ring of recoil",
+      "display": "Ring of recoil for lower-levelled players, in the fight against Koschei the deathless",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_recoil_detail.png/100px-Ring_of_recoil_detail.png?20e6b"
+    },
+    {
+      "name": "Spirit terrorbird",
+      "display": "Spirit terrorbird, (Super) energy potions, explorer's ring or other method of restoring energy",
+      "image": "https://runescape.wiki/images/thumb/Spirit_terrorbird.png/100px-Spirit_terrorbird.png?35a7a"
+    },
+    {
+      "name": "Player-owned house",
+      "display": "A player-owned house located at Rellekka, could save time (requires 30 Construction)",
+      "image": "https://runescape.wiki/images/thumb/Portal_%28player-owned_house%29.png/100px-Portal_%28player-owned_house%29.png?9c5f5"
     }
   ],
   "kills": [

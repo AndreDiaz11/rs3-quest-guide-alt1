@@ -3,16 +3,20 @@
   "title": "New Foundations",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.476Z",
+  "guideLastUpdated": "2026-07-06T20:31:10.425Z",
   "icon": "https://runescape.wiki/images/thumb/New_Foundations_icon.png/50px-New_Foundations_icon.png",
+  "entityIcon": "https://runescape.wiki/images/New_Foundations_entity_icon.png?e4213",
   "series": "Fort Forinthry",
+  "seriesNth": "1",
   "age": "Age of Chaos",
   "timeline": "Age of Chaos",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "10-19",
   "difficulty": "Novice",
   "length": "Long",
   "releaseDate": "13 February 2023",
+  "area": "Varrock Palace",
   "startPoint": {
     "en": "Portal outside the throne room in the Varrock Palace.",
     "es": "Portal en el exterior de la sala del trono en Varrock Palace."
@@ -21,6 +25,7 @@
     "quests": [],
     "skills": []
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Plank",
@@ -50,6 +55,55 @@
           "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
         }
       ]
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Skull sceptre",
+      "display": "Skull sceptre for quick access to Barbarian Village",
+      "image": "https://runescape.wiki/images/thumb/Skull_sceptre_detail.png/100px-Skull_sceptre_detail.png?d9a07"
+    },
+    {
+      "name": "Fort Forinthry",
+      "display": "Quick access to Fort Forinthry:",
+      "image": "https://runescape.wiki/images/thumb/Fort_Forinthry.png/100px-Fort_Forinthry.png?d779f",
+      "children": [
+        {
+          "name": "Fort Forinthry Teleport",
+          "display": "Fort Forinthry Teleports",
+          "image": "https://runescape.wiki/images/thumb/Fort_Forinthry_Teleport_detail.png/100px-Fort_Forinthry_Teleport_detail.png?fd3b5"
+        },
+        {
+          "name": "Archaeology teleport",
+          "display": "Archaeology teleport or Archaeology journal to Infernal Source Dig Site",
+          "image": "https://runescape.wiki/images/thumb/Archaeology_teleport_detail.png/100px-Archaeology_teleport_detail.png?65024"
+        },
+        {
+          "name": "Balloon transport system",
+          "display": "Balloon transport system to Varrock",
+          "image": "https://runescape.wiki/images/thumb/Enlightened_Journey_built_balloon.png/100px-Enlightened_Journey_built_balloon.png?ebd7a"
+        },
+        {
+          "name": "Earth altar teleport",
+          "display": "Earth altar teleport for quick access to Fort Forinthry via the earth altar",
+          "image": "https://runescape.wiki/images/thumb/Earth_altar_teleport_detail.png/100px-Earth_altar_teleport_detail.png?e5b58"
+        }
+      ]
+    },
+    {
+      "name": "Armoured zombie",
+      "display": "Combat gear to defeat several armoured zombies",
+      "image": "https://runescape.wiki/images/thumb/Armoured_zombie.png/100px-Armoured_zombie.png?6f46f"
+    },
+    {
+      "name": "Varrock lodestone",
+      "display": "Activated Varrock lodestone unlocked for quick access to the Blue Moon Inn",
+      "image": "https://runescape.wiki/images/Varrock_lodestone_icon.png?c25d5"
+    },
+    {
+      "name": "Amulet of glory",
+      "display": "Amulet of glory or activated Draynor lodestone to teleport to the Draynor Village market",
+      "image": null
     }
   ],
   "kills": [

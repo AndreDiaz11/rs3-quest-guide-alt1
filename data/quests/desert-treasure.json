@@ -3,16 +3,20 @@
   "title": "Desert Treasure",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.664Z",
+  "guideLastUpdated": "2026-07-06T20:30:17.349Z",
   "icon": "https://runescape.wiki/images/Desert_Treasure_icon.png",
+  "entityIcon": null,
   "series": "Mahjarrat Mysteries",
+  "seriesNth": "9",
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "120-129",
   "difficulty": "Master",
   "length": "Very Long",
   "releaseDate": "18 April 2005",
+  "area": "Kharidian Desert",
   "startPoint": {
     "en": "Talk to Asgarnia Smith, the archaeologist who is exploring the Bedabin Camp south-west of the Shantay Pass.",
     "es": "Habla con Asgarnia Smith, el arqueólogo que está explorando el Bedabin Camp al suroeste del Shantay Pass."
@@ -55,17 +59,10 @@
       {
         "skill": "Woodcutting",
         "level": 80
-      },
-      {
-        "skill": "Agility",
-        "level": 47
-      },
-      {
-        "skill": "Mining",
-        "level": 50
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Ashes",
@@ -158,6 +155,88 @@
       "name": "Spiked boots",
       "display": "Spiked boots for the Ice Path segment (made by bringing Dunstan an iron bar and climbing boots; rock climbing boots will not work)",
       "image": "https://runescape.wiki/images/thumb/Spiked_boots_detail.png/100px-Spiked_boots_detail.png?c7c0e"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Agility",
+      "display": "47 Agility (to be able to pass certain obstacles on the way to Trollheim)",
+      "image": "https://runescape.wiki/images/Agility-icon.png?9a56e"
+    },
+    {
+      "name": "Mining",
+      "display": "50 Mining (to obtain the ice gloves for the smoke diamond)",
+      "image": "https://runescape.wiki/images/Mining-icon.png?8cefb"
+    },
+    {
+      "name": "Thieving",
+      "display": "A higher Thieving level is recommended for a higher chance of success",
+      "image": "https://runescape.wiki/images/Thieving-icon.png?1fcf2"
+    },
+    {
+      "name": "Equipment",
+      "display": "Combat equipment (Magic or Necromancy recommended)",
+      "image": "https://runescape.wiki/images/thumb/Worn_equipment_interface.png/100px-Worn_equipment_interface.png?b24be"
+    },
+    {
+      "name": "Fire spells",
+      "display": "Runes for casting your best fire and water spells if using Magic",
+      "image": "https://runescape.wiki/images/thumb/Fire_surge.gif/100px-Fire_surge.gif?4a41c"
+    },
+    {
+      "name": "Antipoison",
+      "display": "A few antipoisons",
+      "image": "https://runescape.wiki/images/thumb/Antipoison_%281%29_detail.png/100px-Antipoison_%281%29_detail.png?27b64"
+    },
+    {
+      "name": "Burthorpe lodestone",
+      "display": "Activated Burthorpe, Canifis, Draynor and Port Sarim lodestone",
+      "image": "https://runescape.wiki/images/Burthorpe_lodestone_icon.png?a5295"
+    },
+    {
+      "name": "Skills necklace",
+      "display": "Skills necklace for fast teleport to Rasolo.",
+      "image": "https://runescape.wiki/images/thumb/Skills_necklace_detail.png/100px-Skills_necklace_detail.png?96ec8"
+    },
+    {
+      "name": "In Search of the Myreque",
+      "display": "Finished In Search of the Myreque and Eadgar's Ruse for faster transportation",
+      "image": "https://runescape.wiki/images/thumb/In_Search_of_the_Myreque.png/100px-In_Search_of_the_Myreque.png?df01b"
+    },
+    {
+      "name": "As a First Resort",
+      "display": "Finished As a First Resort or have unlocked the tier 1 Spa in the Anachronia base camp for access to the salt-water spring, which can be useful for obtaining the Ice and Smoke diamonds",
+      "image": "https://runescape.wiki/images/thumb/As_a_First_Resort.png/100px-As_a_First_Resort.png?8b223"
+    },
+    {
+      "name": "Coins",
+      "display": "About 1,500 coins for carpet rides",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "name": "Desert heat",
+      "display": "Desert heat protection",
+      "image": null
+    },
+    {
+      "name": "Ectophial",
+      "display": "Single-click teleports (e.g. ectophial, or a teleport tablet) for escaping fights that turn for the worse",
+      "image": "https://runescape.wiki/images/thumb/Ectophial_detail.png/100px-Ectophial_detail.png?1b030"
+    },
+    {
+      "name": "Druid pouch",
+      "display": "A charged druid pouch or an ouroboros pouch",
+      "image": "https://runescape.wiki/images/thumb/Druid_pouch_detail.png/100px-Druid_pouch_detail.png?96252"
+    },
+    {
+      "name": "Energy potion",
+      "display": "Several energy/super energy potions or explorer's ring, prayer potions and restore potions",
+      "image": "https://runescape.wiki/images/thumb/Energy_potion_%281%29_detail.png/100px-Energy_potion_%281%29_detail.png?33ea7"
+    },
+    {
+      "name": "Broomstick",
+      "display": "An enchanted broomstick, Bandit Camp Teleports, Archaeology journal and/or a Dig Site pendant for quicker teleports to the desert and the Exam Centre",
+      "image": "https://runescape.wiki/images/thumb/Broomstick_detail.png/100px-Broomstick_detail.png?763e1"
     }
   ],
   "kills": [

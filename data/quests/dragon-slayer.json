@@ -3,16 +3,20 @@
   "title": "Dragon Slayer",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.969Z",
+  "guideLastUpdated": "2026-07-06T20:30:27.386Z",
   "icon": "https://runescape.wiki/images/Dragon_Slayer_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Dragon_Slayer_entity_icon.png?fbf70",
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "champion",
   "members": false,
+  "voiceOver": false,
   "combatLevel": "60-69",
   "difficulty": "Experienced",
   "length": "Long",
   "releaseDate": "23 September 2001",
+  "area": "Varrock Outskirts",
   "startPoint": {
     "en": "Talk to the Guildmaster inside the Champions' Guild, south of Varrock.",
     "es": "Habla con el Guildmaster dentro del Champions' Guild, al sur de Varrock."
@@ -31,17 +35,10 @@
       {
         "skill": "Smithing",
         "level": 20
-      },
-      {
-        "skill": "combat level",
-        "level": 50
-      },
-      {
-        "skill": "Prayer",
-        "level": 37
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Bowl (unfired)",
@@ -99,6 +96,38 @@
       "name": "Anti-dragon shield",
       "display": "An anti-dragon shield (will be obtained during quest) or super antifire potion",
       "image": "https://runescape.wiki/images/thumb/Anti-dragon_shield_detail.png/100px-Anti-dragon_shield_detail.png?238e5"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "50 combat level",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Prayer",
+      "display": "37 Prayer for Protect from Magic",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Draynor lodestone",
+      "display": "Activated Draynor, Edgeville, Port Sarim, and Varrock lodestones",
+      "image": "https://runescape.wiki/images/Draynor_lodestone_icon.png?90767"
+    },
+    {
+      "name": "Food",
+      "display": "Food for the final battle",
+      "image": null
+    },
+    {
+      "name": "Antifire",
+      "display": "Antifire to minimise damage",
+      "image": "https://runescape.wiki/images/thumb/Antifire_%282%29_detail.png/100px-Antifire_%282%29_detail.png?5c9a2"
+    },
+    {
+      "name": "Combat bracelet",
+      "display": "Members may bring a combat bracelet to quickly teleport inside the Champions' Guild",
+      "image": "https://runescape.wiki/images/thumb/Combat_bracelet_detail.png/100px-Combat_bracelet_detail.png?ac086"
     }
   ],
   "kills": [

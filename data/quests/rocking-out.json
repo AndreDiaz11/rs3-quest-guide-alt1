@@ -3,16 +3,20 @@
   "title": "Rocking Out",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:06.550Z",
+  "guideLastUpdated": "2026-07-06T20:31:31.262Z",
   "icon": "https://runescape.wiki/images/Rocking_Out_icon.png",
+  "entityIcon": null,
   "series": "Pirate",
+  "seriesNth": "5",
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "30-39",
   "difficulty": "Master",
   "length": "Long to Very Long",
   "releaseDate": "11 June 2008",
+  "area": "Port Phasmatys",
   "startPoint": {
     "en": "Talk to Bill Teach in Mos Le'Harmless or Port Phasmatys. (or )",
     "es": "Habla con Bill Teach en Mos Le'Harmless o Port Phasmatys. (o)"
@@ -86,6 +90,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Pirate clothing",
@@ -140,6 +145,45 @@
       "name": "Coin",
       "display": "20 coins (or more, depending on how you travel to Port Phasmatys)",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Port Sarim lodestone",
+      "display": "Activated Port Sarim, Karamja, and Canifis lodestone",
+      "image": "https://runescape.wiki/images/Port_Sarim_lodestone_icon.png?811bd"
+    },
+    {
+      "name": "Again, retrieve these after you escape jail:",
+      "display": "Again, retrieve these after you escape jail:",
+      "image": null,
+      "children": [
+        {
+          "name": "Ectophial",
+          "display": "The ectophial",
+          "image": "https://runescape.wiki/images/thumb/Ectophial_detail.png/100px-Ectophial_detail.png?1b030"
+        },
+        {
+          "name": "Ring of charos (a)",
+          "display": "Ring of charos (a)",
+          "image": "https://runescape.wiki/images/Ring_of_charos_%28a%29_detail.png?0dbd0"
+        },
+        {
+          "name": "Arc journal",
+          "display": "Arc journal for fast travel to Port Sarim's Rusty Anchor",
+          "image": "https://runescape.wiki/images/Arc_journal_detail.png?d0c93"
+        }
+      ]
+    },
+    {
+      "name": "Weight-reducing clothing",
+      "display": "Weight-reducing clothing (for the part where you must weigh under 28 kg)",
+      "image": null
+    },
+    {
+      "name": "Dungeoneering cape",
+      "display": "Dungeoneering cape for fast travel to Braindeath Island",
+      "image": "https://runescape.wiki/images/thumb/Dungeoneering_cape_detail.png/100px-Dungeoneering_cape_detail.png?ea2c7"
     }
   ],
   "kills": [

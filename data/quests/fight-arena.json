@@ -3,16 +3,20 @@
   "title": "Fight Arena",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.292Z",
+  "guideLastUpdated": "2026-07-06T20:30:38.386Z",
   "icon": "https://runescape.wiki/images/Fight_Arena_icon.png",
+  "entityIcon": null,
   "series": "Mahjarrat Mysteries",
+  "seriesNth": "5",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "70-79",
   "difficulty": "Experienced",
   "length": "Medium",
   "releaseDate": "23 July 2002",
+  "area": "Kandarin South",
   "startPoint": {
     "en": "Talk to Lady Servil, just north-west of the fight arena, which is south of Ardougne.",
     "es": "Habla con Lady Servil, justo al noroeste de la arena de combate, al sur de Ardougne."
@@ -21,6 +25,7 @@
     "quests": [],
     "skills": []
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Coins",
@@ -35,6 +40,13 @@
     {
       "name": "3 free inventory slots during the first stage of the quest (2 for your armour and 1 for the beer)",
       "display": "3 free inventory slots during the first stage of the quest (2 for your armour and 1 for the beer)",
+      "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Ardougne cloak",
+      "display": "Any Ardougne cloak, for the Kandarin monastery Teleport.",
       "image": null
     }
   ],

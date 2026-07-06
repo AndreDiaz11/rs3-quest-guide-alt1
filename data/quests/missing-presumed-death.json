@@ -3,16 +3,20 @@
   "title": "Missing, Presumed Death",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.214Z",
+  "guideLastUpdated": "2026-07-06T20:31:06.126Z",
   "icon": "https://runescape.wiki/images/Missing%2C_Presumed_Death_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Missing%2C_Presumed_Death_entity_icon.png?e4213",
   "series": "Sliske's Game",
+  "seriesNth": "3",
   "age": "6",
   "timeline": "world guardian",
   "members": false,
+  "voiceOver": false,
   "combatLevel": "scaled",
   "difficulty": "Novice",
   "length": "Medium to Long",
   "releaseDate": "15 October 2013",
+  "area": "Silvarea",
   "startPoint": {
     "en": "Speak to Brother Samwell in Silvarea, west of Paterdomus, east of Varrock.",
     "es": "Habla con Brother Samwell en Silvarea, al oeste de Paterdomus, al este de Varrock."
@@ -21,7 +25,158 @@
     "quests": [],
     "skills": []
   },
+  "followsEvents": [
+    {
+      "title": "Koschei's Troubles (miniquest)",
+      "children": [
+        {
+          "title": "Blood Runs Deep",
+          "children": [
+            {
+              "title": "Horror from the Deep…",
+              "matchTitle": "Horror from the Deep"
+            },
+            {
+              "title": "Dream Mentor…",
+              "matchTitle": "Dream Mentor"
+            },
+            {
+              "title": "Glorious Memories…",
+              "matchTitle": "Glorious Memories"
+            }
+          ]
+        },
+        {
+          "title": "Ritual of the Mahjarrat",
+          "children": [
+            {
+              "title": "The Temple at Senntisten…",
+              "matchTitle": "The Temple at Senntisten"
+            },
+            {
+              "title": "While Guthix Sleeps…",
+              "matchTitle": "While Guthix Sleeps"
+            },
+            {
+              "title": "Hazeel Cult"
+            },
+            {
+              "title": "Enakhra's Lament"
+            },
+            {
+              "title": "The Slug Menace…",
+              "matchTitle": "The Slug Menace"
+            },
+            {
+              "title": "A Fairy Tale II - Cure a Queen…",
+              "matchTitle": "A Fairy Tale II - Cure a Queen"
+            },
+            {
+              "title": "Cabin Fever…",
+              "matchTitle": "Cabin Fever"
+            },
+            {
+              "title": "A Tail of Two Cats…",
+              "matchTitle": "A Tail of Two Cats"
+            },
+            {
+              "title": "Fight Arena"
+            },
+            {
+              "title": "The General's Shadow (miniquest)…",
+              "matchTitle": "The General's Shadow (miniquest)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Chosen Commander",
+      "children": [
+        {
+          "title": "Land of the Goblins",
+          "children": [
+            {
+              "title": "Another Slice of H.A.M.…",
+              "matchTitle": "Another Slice of H.A.M."
+            },
+            {
+              "title": "Fishing Contest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ritual of the Mahjarrat…",
+      "matchTitle": "Ritual of the Mahjarrat"
+    },
+    {
+      "title": "The World Wakes",
+      "children": [
+        {
+          "title": "Ritual of the Mahjarrat…",
+          "matchTitle": "Ritual of the Mahjarrat"
+        },
+        {
+          "title": "The Firemaker's Curse"
+        },
+        {
+          "title": "The Branches of Darkmeyer",
+          "children": [
+            {
+              "title": "Legacy of Seergaze…",
+              "matchTitle": "Legacy of Seergaze"
+            }
+          ]
+        },
+        {
+          "title": "The Void Stares Back",
+          "children": [
+            {
+              "title": "A Void Dance…",
+              "matchTitle": "A Void Dance"
+            },
+            {
+              "title": "Conquest tutorial",
+              "matchTitle": "Conquest"
+            }
+          ]
+        },
+        {
+          "title": "The Chosen Commander…",
+          "matchTitle": "The Chosen Commander"
+        }
+      ]
+    },
+    {
+      "title": "The Death of Chivalry",
+      "children": [
+        {
+          "title": "The World Wakes…",
+          "matchTitle": "The World Wakes"
+        }
+      ]
+    }
+  ],
   "items": [],
+  "recommended": [
+    {
+      "name": "Combat equipment",
+      "display": "Combat equipment",
+      "image": null
+    },
+    {
+      "name": "Wicked hood",
+      "display": "Wicked hood, activated Draynor lodestone, or Traveller's necklace to teleport to the Wizards' Tower",
+      "image": "https://runescape.wiki/images/thumb/Wicked_hood_detail.png/100px-Wicked_hood_detail.png?a835c"
+    },
+    {
+      "name": "Bonesack(e)",
+      "display": "Bonesack(e), activated Fort Forinthry lodestone, Archaeology journal, Dig Site pendant, or earth altar teleport to get to Brother Samwell and the Odd Old Man",
+      "image": "https://runescape.wiki/images/thumb/Bonesack%28e%29_detail.png/100px-Bonesack%28e%29_detail.png?36c9b"
+    }
+  ],
   "kills": [
     "11 Wights, wight rangers, and wight footsoldiers (scaled combat stats)"
   ],

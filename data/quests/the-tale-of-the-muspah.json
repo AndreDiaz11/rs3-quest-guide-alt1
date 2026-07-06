@@ -3,16 +3,20 @@
   "title": "The Tale of the Muspah",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.012Z",
+  "guideLastUpdated": "2026-07-06T20:32:06.823Z",
   "icon": "https://runescape.wiki/images/The_Tale_of_the_Muspah_icon.png",
+  "entityIcon": null,
   "series": "Mahjarrat Mysteries",
+  "seriesNth": "3",
   "age": "5",
   "timeline": "adventurer",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Novice",
   "length": "Medium",
   "releaseDate": "21 April 2009",
+  "area": "Fremennik Province",
   "startPoint": {
     "en": "Talk to Erjolf at the cave entrance half way up the mountain north-east of Rellekka.",
     "es": "Habla con Erjolf en la entrada de la cueva a medio camino de la montaña al noreste de Rellekka."
@@ -35,13 +39,10 @@
       {
         "skill": "Woodcutting",
         "level": 10
-      },
-      {
-        "skill": "Crafting",
-        "level": 20
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Sapphire",
@@ -69,6 +70,38 @@
           "image": "https://runescape.wiki/images/thumb/Lvl-1_enchant_%28item%29_detail.png/100px-Lvl-1_enchant_%28item%29_detail.png?4109b"
         }
       ]
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Crafting",
+      "display": "20 Crafting to cut the mined sapphires",
+      "image": "https://runescape.wiki/images/Crafting-icon.png?f224a"
+    },
+    {
+      "name": "Fremennik Province lodestone",
+      "display": "Activated Fremennik Province lodestone",
+      "image": "https://runescape.wiki/images/thumb/Fremennik_Province_lodestone_icon.png/100px-Fremennik_Province_lodestone_icon.png?64d7b"
+    },
+    {
+      "name": "Dramen staff",
+      "display": "A dramen or lunar staff and access to the fairy rings (unless A Fairy Tale III - Battle at Ork's Rift is completed)",
+      "image": "https://runescape.wiki/images/thumb/Dramen_staff_detail.png/100px-Dramen_staff_detail.png?8114b"
+    },
+    {
+      "name": "Pollnivneach Teleport",
+      "display": "A Pollnivneach Teleport scroll, a ring of slaying to teleport to Pollnivneach, else a broomstick to get close to Shantay Pass and then take a magic carpet.",
+      "image": "https://runescape.wiki/images/thumb/Pollnivneach_Teleport_detail.png/100px-Pollnivneach_Teleport_detail.png?7cd5c"
+    },
+    {
+      "name": "Desert robe outfit (white)",
+      "display": "Desert outfit, waterskins, an enchanted water tiara or completion of Crocodile Tears",
+      "image": null
+    },
+    {
+      "name": "Weight-reducing clothing",
+      "display": "Weight-reducing clothing, energy potions or a charged explorer's ring",
+      "image": null
     }
   ],
   "kills": [

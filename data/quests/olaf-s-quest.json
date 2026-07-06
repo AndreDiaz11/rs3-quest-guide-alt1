@@ -3,16 +3,20 @@
   "title": "Olaf's Quest",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.599Z",
+  "guideLastUpdated": "2026-07-06T20:31:13.323Z",
   "icon": "https://runescape.wiki/images/Olaf%27s_Quest_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "ambiguous",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "40-49",
   "difficulty": "Intermediate",
   "length": "Short to Medium",
   "releaseDate": "10 April 2007",
+  "area": "Fremennik Province",
   "startPoint": {
     "en": "Talk to Olaf Hradson in his 'camp' north-east of Rellekka, south of the Rellekka Hunter area.",
     "es": "Habla con Olaf Hradson en su \"campamento\" al noreste de Rellekka, al sur de la zona de Caza de Rellekka."
@@ -31,14 +35,28 @@
       {
         "skill": "Woodcutting",
         "level": 50
-      },
-      {
-        "skill": "Prayer",
-        "level": 43
       }
     ]
   },
+  "followsEvents": [],
   "items": [],
+  "recommended": [
+    {
+      "name": "Prayer",
+      "display": "43 Prayer and/or food for low-levelled players, or prayer boosting items, which should lessen the need for food",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Fremennik Province lodestone",
+      "display": "Activated Fremennik Province lodestone or access to the fairy ring network",
+      "image": "https://runescape.wiki/images/thumb/Fremennik_Province_lodestone_icon.png/100px-Fremennik_Province_lodestone_icon.png?64d7b"
+    },
+    {
+      "name": "Rope",
+      "display": "8 free inventory spaces to store rope and barrels (can be obtained during quest)",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    }
+  ],
   "kills": [
     "Ulfric (Level 49)",
     "Skeleton fremennik (Level 23, 28, or 30)"

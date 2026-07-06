@@ -3,16 +3,20 @@
   "title": "Troll Romance",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.225Z",
+  "guideLastUpdated": "2026-07-06T20:32:11.110Z",
   "icon": "https://runescape.wiki/images/Troll_Romance_icon.png",
+  "entityIcon": null,
   "series": "Troll",
+  "seriesNth": "4",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "70-79",
   "difficulty": "Experienced",
   "length": "Medium",
   "releaseDate": "5 January 2005",
+  "area": "Trollheim",
   "startPoint": {
     "en": "Speak to Ug at the Troll Stronghold. (via → )",
     "es": "Habla con Ug en Troll Stronghold. (vía →)"
@@ -44,21 +48,10 @@
       {
         "skill": "Smithing",
         "level": 10
-      },
-      {
-        "skill": "Magic",
-        "level": 61
-      },
-      {
-        "skill": "Agility",
-        "level": 43
-      },
-      {
-        "skill": "Prayer",
-        "level": 43
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Iron bar",
@@ -94,6 +87,40 @@
       "name": "Bucket of wax",
       "display": "Bucket of wax",
       "image": "https://runescape.wiki/images/thumb/Bucket_of_wax_detail.png/100px-Bucket_of_wax_detail.png?59bca"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Magic",
+      "display": "61 Magic for teleporting:",
+      "image": "https://runescape.wiki/images/Magic-icon.png?60d6d",
+      "children": [
+        {
+          "name": "Trollheim Teleport",
+          "display": "4 sets of runes or tablets for Trollheim Teleport (with Eadgar's Ruse)",
+          "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
+        },
+        {
+          "name": "God Wars Dungeon Teleport",
+          "display": "1 set of runes for God Wars Dungeon Teleport (with The Mighty Fall)",
+          "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
+        }
+      ]
+    },
+    {
+      "name": "Agility",
+      "display": "43 Agility to climb the cliffside",
+      "image": "https://runescape.wiki/images/Agility-icon.png?9a56e"
+    },
+    {
+      "name": "Prayer",
+      "display": "43 Prayer is useful for Protect from Melee",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Fremennik round shield",
+      "display": "Fremennik round shield to reduce damage taken from troll ranged attacks",
+      "image": "https://runescape.wiki/images/thumb/Fremennik_round_shield_detail.png/100px-Fremennik_round_shield_detail.png?3e70a"
     }
   ],
   "kills": [

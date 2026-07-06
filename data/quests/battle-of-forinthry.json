@@ -3,16 +3,20 @@
   "title": "Battle of Forinthry",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.000Z",
+  "guideLastUpdated": "2026-07-06T20:29:55.576Z",
   "icon": "https://runescape.wiki/images/thumb/Battle_of_Forinthry_icon.png/50px-Battle_of_Forinthry_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Battle_of_Forinthry_entity_icon.png?b441d",
   "series": "Fort Forinthry",
+  "seriesNth": "6",
   "age": "Age of Chaos",
   "timeline": "Age of Chaos",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "80-89",
   "difficulty": "Experienced",
   "length": "Medium",
   "releaseDate": "20 November 2023",
+  "area": "Fort Forinthry",
   "startPoint": {
     "en": "Talk to the Raptor in Fort Forinthry.",
     "es": "Habla con el Raptor en Fort Forinthry."
@@ -71,14 +75,48 @@
       {
         "skill": "Necromancy",
         "level": 60
-      },
-      {
-        "skill": "combat level",
-        "level": 115
       }
     ]
   },
+  "followsEvents": [],
   "items": [],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "115 combat level, it is recommended that you have combat stats at around level 80.",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Dragonfire",
+      "display": "Protection from dragonfire",
+      "image": "https://runescape.wiki/images/thumb/Dfs_Charging.gif/100px-Dfs_Charging.gif?03abe"
+    },
+    {
+      "name": "Food",
+      "display": "Food (Sharks or a higher tier of food is recommended)",
+      "image": null
+    },
+    {
+      "name": "Combat equipment",
+      "display": "Combat equipment",
+      "image": null
+    },
+    {
+      "name": "Salve amulet",
+      "display": "Salve amulet or its enchanted variant, the salve amulet (e)",
+      "image": "https://runescape.wiki/images/thumb/Salve_amulet_detail.png/100px-Salve_amulet_detail.png?44aa2"
+    },
+    {
+      "name": "Yew logs",
+      "display": "Yew logs or better for a bonfire boost",
+      "image": "https://runescape.wiki/images/thumb/Yew_logs_detail.png/100px-Yew_logs_detail.png?2830d"
+    },
+    {
+      "name": "Prayer potion",
+      "display": "Prayer potions or super restores",
+      "image": "https://runescape.wiki/images/thumb/Prayer_potion_%281%29_detail.png/100px-Prayer_potion_%281%29_detail.png?27704"
+    }
+  ],
   "kills": [
     "3 undead giants (level 300)",
     "Zemouregal (level 789)",

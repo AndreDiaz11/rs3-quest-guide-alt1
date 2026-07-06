@@ -3,16 +3,20 @@
   "title": "Ancient Awakening",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:02.868Z",
+  "guideLastUpdated": "2026-07-06T20:29:51.950Z",
   "icon": "https://runescape.wiki/images/thumb/Ancient_Awakening_icon.png/50px-Ancient_Awakening_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Ancient_Awakening_entity_icon.png?a1c06",
   "series": "Fort Forinthry",
+  "seriesNth": "5",
   "age": "Age of Chaos",
   "timeline": "Age of Chaos",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "80-89",
   "difficulty": "Experienced",
   "length": "Medium",
   "releaseDate": "9 October 2023",
+  "area": "Fort Forinthry",
   "startPoint": {
     "en": "Talk to overseer Siv in Fort Forinthry.",
     "es": "Habla con overseer Siv en Fort Forinthry."
@@ -58,14 +62,33 @@
       {
         "skill": "Necromancy",
         "level": 50
-      },
-      {
-        "skill": "combat level",
-        "level": 85
       }
     ]
   },
+  "followsEvents": [],
   "items": [],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "85 combat level",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Salve amulet",
+      "display": "Salve amulet or salve amulet (e) for increased damage and accuracy against most of the enemies encountered",
+      "image": "https://runescape.wiki/images/thumb/Salve_amulet_detail.png/100px-Salve_amulet_detail.png?44aa2"
+    },
+    {
+      "name": "Slayer cape",
+      "display": "Slayer cape or Fort Forinthry lodestone to teleport to the Raptor",
+      "image": "https://runescape.wiki/images/thumb/Slayer_cape_detail.png/100px-Slayer_cape_detail.png?ed36b"
+    },
+    {
+      "name": "Combat bracelet",
+      "display": "Combat bracelet or Varrock lodestone for travel to the west of the Champions' Guild",
+      "image": "https://runescape.wiki/images/thumb/Combat_bracelet_detail.png/100px-Combat_bracelet_detail.png?ac086"
+    }
+  ],
   "kills": [
     "4 tomb zombies (level 40)",
     "Several waves consisting of: Necrotic slime (level 76) Phantom wizards (level 76) Skeleton archers (level 76) Zombie warriors (level 76) Phantom sorcerers (level 97) Skeleton knights (level 97) Skeleton rangers (level 97) Unstable zombies (level 97) Zombie knights (level 97) Undead giant (level 300)",

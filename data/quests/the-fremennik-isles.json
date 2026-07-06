@@ -3,16 +3,20 @@
   "title": "The Fremennik Isles",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.656Z",
+  "guideLastUpdated": "2026-07-06T20:31:56.434Z",
   "icon": "https://runescape.wiki/images/The_Fremennik_Isles_icon.png",
+  "entityIcon": null,
   "series": "Fremennik",
+  "seriesNth": "7",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "90-99",
   "difficulty": "Experienced",
   "length": "Long",
   "releaseDate": "6 February 2007",
+  "area": "Rellekka",
   "startPoint": {
     "en": "Talk to Mord Gunnars in northern Rellekka.",
     "es": "Habla con Mord Gunnars en el norte de Rellekka."
@@ -39,22 +43,15 @@
       {
         "skill": "Woodcutting",
         "level": 56
-      },
-      {
-        "skill": "Prayer",
-        "level": 43
-      },
-      {
-        "skill": "Defence",
-        "level": 25
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Mining",
       "display": "Ores (can be noted) depending on your Mining level:",
-      "image": "https://runescape.wiki/images/thumb/1_-_99_percent_stamina.gif/100px-1_-_99_percent_stamina.gif?a9413",
+      "image": "https://runescape.wiki/images/Mining-icon.png?8cefb",
       "children": [
         {
           "name": "Tin ore",
@@ -72,6 +69,33 @@
           "image": "https://runescape.wiki/images/thumb/Mithril_ore_detail.png/100px-Mithril_ore_detail.png?2d6f5"
         }
       ]
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Prayer",
+      "display": "43 Prayer (for all three protection prayers)",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Defence",
+      "display": "25 Defence (to wear yak-hide armour)",
+      "image": "https://runescape.wiki/images/Defence-icon.png?8d986"
+    },
+    {
+      "name": "Prayer potion",
+      "display": "Prayer potions, food, and combat-boosting potions",
+      "image": "https://runescape.wiki/images/thumb/Prayer_potion_%281%29_detail.png/100px-Prayer_potion_%281%29_detail.png?27704"
+    },
+    {
+      "name": "Emergency teleport",
+      "display": "An emergency teleport",
+      "image": null
+    },
+    {
+      "name": "Catspeak amulet",
+      "display": "The catspeak amulet for extra dialogue during the quest",
+      "image": "https://runescape.wiki/images/thumb/Catspeak_amulet_detail.png/100px-Catspeak_amulet_detail.png?e88c0"
     }
   ],
   "kills": [

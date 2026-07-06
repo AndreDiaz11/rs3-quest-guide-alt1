@@ -3,16 +3,20 @@
   "title": "Rag and Bone Man",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:06.120Z",
+  "guideLastUpdated": "2026-07-06T20:31:23.993Z",
   "icon": "https://runescape.wiki/images/Rag_and_Bone_Man_icon.png",
+  "entityIcon": null,
   "series": "Odd Old Man",
+  "seriesNth": "1",
   "age": "ambiguous",
   "timeline": "pathfinder",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "50-59",
   "difficulty": "Novice",
   "length": "Medium to Long",
   "releaseDate": "10 April 2006",
+  "area": "Silvarea",
   "startPoint": {
     "en": "Talk to the Odd Old Man at the quarry west of Paterdomus.",
     "es": "Habla con el Odd Old Man en la cantera al oeste de Paterdomus."
@@ -21,6 +25,7 @@
     "quests": [],
     "skills": []
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Coins",
@@ -46,6 +51,55 @@
       "name": "Rope",
       "display": "A rope (needed to get into Lumbridge Swamp Cave if you haven't placed a rope there before, unless you have started The Lost Tribe)",
       "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Spiny helmet",
+      "display": "Spiny helmet or slayer helmet",
+      "image": "https://runescape.wiki/images/thumb/Spiny_helmet_detail.png/100px-Spiny_helmet_detail.png?8f394"
+    },
+    {
+      "name": "Candle lantern",
+      "display": "Candle lantern or bullseye lantern",
+      "image": null
+    },
+    {
+      "name": "Energy-enhancing items",
+      "display": "Energy-enhancing items",
+      "image": null
+    },
+    {
+      "name": "Varrock",
+      "display": "Teleport methods to Varrock, and Falador",
+      "image": "https://runescape.wiki/images/thumb/Varrock.png/100px-Varrock.png?b6b39"
+    },
+    {
+      "name": "Explorer's ring 3",
+      "display": "Explorer's ring 3 or 4 for quick access to Draynor Village (Cabbage-port)",
+      "image": "https://runescape.wiki/images/thumb/Explorer%27s_ring_3_detail.png/100px-Explorer%27s_ring_3_detail.png?19a1f"
+    },
+    {
+      "name": "Invitation box",
+      "display": "Invitation box for quick access to the Odd Old Man",
+      "image": "https://runescape.wiki/images/Invitation_box_detail.png?1f8e1",
+      "children": [
+        {
+          "name": "Fort Forinthry lodestone",
+          "display": "If not owned, use the Fort Forinthry lodestone or the earth altar teleport.",
+          "image": "https://runescape.wiki/images/Fort_Forinthry_lodestone_icon.png?872ba"
+        }
+      ]
+    },
+    {
+      "name": "Yanille lodestone",
+      "display": "Yanille lodestone activated if not Spirit tree (in order to go to Yanille)",
+      "image": "https://runescape.wiki/images/Yanille_lodestone_icon.png?c9651"
+    },
+    {
+      "name": "Law rune",
+      "display": "1 law rune and 1 air rune for Telekinetic Grab if killing a monkey in Ardougne Zoo.",
+      "image": "https://runescape.wiki/images/thumb/Law_rune_detail.png/100px-Law_rune_detail.png?425e6"
     }
   ],
   "kills": [

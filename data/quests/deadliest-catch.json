@@ -3,16 +3,20 @@
   "title": "Deadliest Catch",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.559Z",
+  "guideLastUpdated": "2026-07-06T20:30:14.383Z",
   "icon": "https://runescape.wiki/images/Deadliest_Catch_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Deadliest_Catch_entity_icon.png?fbf70",
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Master",
   "length": "Short to Medium",
   "releaseDate": "7 June 2011",
+  "area": "Kandarin North",
   "startPoint": {
     "en": "Speak to Jones next to the Fishing Guild bank.",
     "es": "Habla con Jones junto al banco del Fishing Guild."
@@ -39,14 +43,23 @@
       {
         "skill": "Thieving",
         "level": 70
-      },
-      {
-        "skill": "Magic",
-        "level": 85
       }
     ]
   },
+  "followsEvents": [],
   "items": [],
+  "recommended": [
+    {
+      "name": "Ardougne lodestone",
+      "display": "Ardougne lodestone Home teleport, Skills necklace, Lunar Spellbook (with 85 Magic), Ardougne teleport, or Manor farm Teleport for faster access to the Fishing Guild",
+      "image": "https://runescape.wiki/images/Ardougne_lodestone_icon.png?9b3e4"
+    },
+    {
+      "name": "Kandarin monastery Teleport",
+      "display": "Kandarin monastery Teleport, Portable fairy ring or Dramen staff/Lunar staff (unless A Fairy Tale III - Battle at Ork's Rift has been completed) to get to the Tower of Life",
+      "image": "https://runescape.wiki/images/thumb/Monastery_%28Kandarin%29_teleport.gif/100px-Monastery_%28Kandarin%29_teleport.gif?31617"
+    }
+  ],
   "kills": [
     "None"
   ],

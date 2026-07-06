@@ -3,16 +3,20 @@
   "title": "Mourning's End Part I",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.293Z",
+  "guideLastUpdated": "2026-07-06T20:31:07.464Z",
   "icon": "https://runescape.wiki/images/Mourning%27s_End_Part_I_icon.png",
+  "entityIcon": null,
   "series": "Elf (Prifddinas)",
+  "seriesNth": "6",
   "age": "ambiguous",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "80-89",
   "difficulty": "Master",
   "length": "Long to Very Long",
   "releaseDate": "19 July 2005",
+  "area": "Tirannwn",
   "startPoint": {
     "en": "Speak to Eluned in Isafdar in Tirannwn - either east of the current Tyras Camp or east of the remains of the former one. (via )",
     "es": "Habla con Eluned en Isafdar, en Tirannwn, ya sea al este del campamento actual de Tyras o al este de los restos del antiguo. (via)"
@@ -67,6 +71,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Silk",
@@ -134,6 +139,65 @@
       "name": "Ogre bellows",
       "display": "Ogre bellows †",
       "image": "https://runescape.wiki/images/thumb/Ogre_bellows_detail.png/100px-Ogre_bellows_detail.png?dc56c"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Activated lodestone or other methods of getting to the following locations:",
+      "display": "Activated lodestone or other methods of getting to the following locations:",
+      "image": null,
+      "children": [
+        {
+          "name": "Taverley",
+          "display": "Taverley",
+          "image": "https://runescape.wiki/images/thumb/Taverley.png/100px-Taverley.png?6f7c3"
+        },
+        {
+          "name": "Isafdar",
+          "display": "Isafdar",
+          "image": "https://runescape.wiki/images/thumb/Isafdar_Forest.png/100px-Isafdar_Forest.png?605f9"
+        },
+        {
+          "name": "West Ardougne",
+          "display": "West Ardougne",
+          "image": "https://runescape.wiki/images/thumb/West_Ardougne.png/100px-West_Ardougne.png?fa6ff"
+        },
+        {
+          "name": "Feldip Hills",
+          "display": "Feldip Hills",
+          "image": "https://runescape.wiki/images/thumb/Feldip_Hills.png/100px-Feldip_Hills.png?46162"
+        },
+        {
+          "name": "Tree Gnome Stronghold",
+          "display": "Tree Gnome Stronghold",
+          "image": "https://runescape.wiki/images/thumb/Tree_Gnome_Stronghold_aerial.png/100px-Tree_Gnome_Stronghold_aerial.png?3c27e"
+        },
+        {
+          "name": "Rimmington",
+          "display": "Rimmington",
+          "image": "https://runescape.wiki/images/thumb/Rimmington_view.png/100px-Rimmington_view.png?08d11"
+        }
+      ]
+    },
+    {
+      "name": "More toad crunchies for extra dialogue",
+      "display": "More toad crunchies for extra dialogue",
+      "image": null
+    },
+    {
+      "name": "Poison",
+      "display": "Something to cure poison",
+      "image": "https://runescape.wiki/images/thumb/Poisoned.png/100px-Poisoned.png?316af"
+    },
+    {
+      "name": "Ring of Duelling",
+      "display": "Ring of Duelling For fast access to Castle Wars",
+      "image": null
+    },
+    {
+      "name": "Food",
+      "display": "Food",
+      "image": null
     }
   ],
   "kills": [

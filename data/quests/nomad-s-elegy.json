@@ -3,16 +3,20 @@
   "title": "Nomad's Elegy",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.511Z",
+  "guideLastUpdated": "2026-07-06T20:31:11.070Z",
   "icon": "https://runescape.wiki/images/Nomad%27s_Elegy_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Nomad%27s_Elegy_entity_icon.png?e4213",
   "series": "Sliske's Game",
+  "seriesNth": "11",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "200+",
   "difficulty": "Master",
   "length": "Long",
   "releaseDate": "15 February 2016",
+  "area": "Edgeville",
   "startPoint": {
     "en": "Speak to Zimberfizz at Soul Wars. (via )",
     "es": "Habla con Zimberfizz en Soul Wars. (a través de)"
@@ -190,18 +194,223 @@
       {
         "skill": "Woodcutting",
         "level": 75
-      },
-      {
-        "skill": "combat level",
-        "level": 105
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "While Guthix Sleeps",
+      "children": [
+        {
+          "title": "Defender of Varrock",
+          "children": [
+            {
+              "title": "Shield of Arrav"
+            },
+            {
+              "title": "The Knight's Sword"
+            },
+            {
+              "title": "Family Crest"
+            },
+            {
+              "title": "What Lies Below"
+            },
+            {
+              "title": "Claim Kudos from Historian Minas in Varrock Museum for completing Shield of Arrav",
+              "matchTitle": "Kudos"
+            }
+          ]
+        },
+        {
+          "title": "Dream Mentor",
+          "children": [
+            {
+              "title": "Lunar Diplomacy…",
+              "matchTitle": "Lunar Diplomacy"
+            }
+          ]
+        },
+        {
+          "title": "Shilo Village",
+          "children": [
+            {
+              "title": "Jungle Potion"
+            }
+          ]
+        },
+        {
+          "title": "Temple of Ikov"
+        },
+        {
+          "title": "Legends' Quest",
+          "children": [
+            {
+              "title": "Heroes' Quest…",
+              "matchTitle": "Heroes' Quest"
+            },
+            {
+              "title": "Jungle Potion"
+            }
+          ]
+        },
+        {
+          "title": "The Path of Glouphrie",
+          "children": [
+            {
+              "title": "The Eyes of Glouphrie…",
+              "matchTitle": "The Eyes of Glouphrie"
+            },
+            {
+              "title": "Tree Gnome Village"
+            },
+            {
+              "title": "Waterfall Quest"
+            }
+          ]
+        },
+        {
+          "title": "Tears of Guthix"
+        },
+        {
+          "title": "Wanted!",
+          "children": [
+            {
+              "title": "Recruitment Drive"
+            },
+            {
+              "title": "Enter the Abyss (miniquest)"
+            },
+            {
+              "title": "Ability to enter Morytania",
+              "matchTitle": "Morytania"
+            }
+          ]
+        },
+        {
+          "title": "The Hunt for Surok (miniquest)",
+          "children": [
+            {
+              "title": "What Lies Below"
+            }
+          ]
+        },
+        {
+          "title": "Ability to enter the Warriors' Guild",
+          "matchTitle": "Warriors' Guild"
+        },
+        {
+          "title": "Nature Spirit",
+          "children": [
+            {
+              "title": "Priest in Peril"
+            },
+            {
+              "title": "The Restless Ghost"
+            },
+            {
+              "title": "Ability to enter Morytania",
+              "matchTitle": "Morytania"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Blood Runs Deep",
+      "children": [
+        {
+          "title": "Horror from the Deep",
+          "children": [
+            {
+              "title": "Bar Crawl (miniquest)"
+            }
+          ]
+        },
+        {
+          "title": "Dream Mentor…",
+          "matchTitle": "Dream Mentor"
+        },
+        {
+          "title": "Glorious Memories",
+          "children": [
+            {
+              "title": "Mountain Daughter"
+            },
+            {
+              "title": "The Fremennik Isles…",
+              "matchTitle": "The Fremennik Isles"
+            },
+            {
+              "title": "Royal Trouble…",
+              "matchTitle": "Royal Trouble"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "2 free inventory spaces",
       "display": "2 free inventory spaces",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "105 combat level or more is strongly recommended",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Dreadnip",
+      "display": "Dreadnips",
+      "image": "https://runescape.wiki/images/thumb/Ferocious_dreadnip.png/100px-Ferocious_dreadnip.png?db7e9"
+    },
+    {
+      "name": "Resonance",
+      "display": "Any shield (to use Resonance) for Nomad's charged blast in second phase",
+      "image": "https://runescape.wiki/images/thumb/Resonance.gif/100px-Resonance.gif?a139a"
+    },
+    {
+      "name": "High-healing food and combat equipment",
+      "display": "High-healing food and combat equipment",
+      "image": null
+    },
+    {
+      "name": "Guthix staff",
+      "display": "Magic style is preferred for the use of Guthix staff's affinity debuff when fighting Nomad",
+      "image": "https://runescape.wiki/images/thumb/Guthix_staff_detail.png/100px-Guthix_staff_detail.png?9f9bc",
+      "children": [
+        {
+          "name": "Vulnerability",
+          "display": "Vulnerability or Smoke Cloud is helpful as well",
+          "image": "https://runescape.wiki/images/thumb/Vulnerability.gif/100px-Vulnerability.gif?4044e"
+        }
+      ]
+    },
+    {
+      "name": "Overload",
+      "display": "Stat-boosting combat potions (such as overloads)",
+      "image": "https://runescape.wiki/images/thumb/Overload_%281%29_detail.png/100px-Overload_%281%29_detail.png?31d58",
+      "children": [
+        {
+          "name": "Dominion marker",
+          "display": "The Dominion marker does not work in the fight against Nomad",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Beast of Burden",
+      "display": "A beast of Burden for the fight against Nomad",
+      "image": null
+    },
+    {
+      "name": "Aggression potion",
+      "display": "Aggression potions for the Bandosian afterlife and protecting the battering ram",
+      "image": "https://runescape.wiki/images/thumb/Aggression_potion_%281%29_detail.png/100px-Aggression_potion_%281%29_detail.png?1c018"
     }
   ],
   "kills": [

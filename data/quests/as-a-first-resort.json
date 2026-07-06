@@ -3,16 +3,20 @@
   "title": "As a First Resort",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:02.925Z",
+  "guideLastUpdated": "2026-07-06T20:29:53.270Z",
   "icon": "https://runescape.wiki/images/As_a_First_Resort_icon.png",
+  "entityIcon": null,
   "series": "Ogre",
+  "seriesNth": "3",
   "age": "ambiguous",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Experienced",
   "length": "Long",
   "releaseDate": "29 January 2008",
+  "area": "Feldip Hills",
   "startPoint": {
     "en": "Talk to Chief Tess in the centre of Oo'glog.",
     "es": "Habla con Chief Tess en el centro de Oo'glog."
@@ -42,6 +46,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Box trap",
@@ -61,6 +66,38 @@
     {
       "name": "Spears",
       "display": "Four spears of the same type (bone spears work; poisoned spears and leaf-bladed spears do not work)",
+      "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Oo'glog lodestone",
+      "display": "Activated the Oo'glog lodestone (Fastest method of travel)",
+      "image": "https://runescape.wiki/images/thumb/Oo%27glog_lodestone_icon.png/100px-Oo%27glog_lodestone_icon.png?bb440"
+    },
+    {
+      "name": "Master archaeologist's outfit",
+      "display": "Master archaeologist's outfit or Archaeology teleport to Chief Tess",
+      "image": null
+    },
+    {
+      "name": "South Feldip Hills Teleport",
+      "display": "Runes for the South Feldip Hills Teleport (1 air rune, 1 water rune and 1 law rune)",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
+    },
+    {
+      "name": "Ring of duelling",
+      "display": "A ring of duelling to teleport to the Warforge Dig Site, a short distance west from Oo'glog",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_duelling_detail.png/100px-Ring_of_duelling_detail.png?0ab65"
+    },
+    {
+      "name": "Fairy ring",
+      "display": "The Fairy ring AKS is north of Oo'glog",
+      "image": "https://runescape.wiki/images/thumb/Fairy_ring.png/100px-Fairy_ring.png?ca33a"
+    },
+    {
+      "name": "Spirit Tree",
+      "display": "The Spirit Tree at South Feldip Hills Teleport",
       "image": null
     }
   ],

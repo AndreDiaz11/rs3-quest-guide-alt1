@@ -3,16 +3,20 @@
   "title": "Vessel of the Harbinger",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.349Z",
+  "guideLastUpdated": "2026-07-06T20:32:14.035Z",
   "icon": "https://runescape.wiki/images/thumb/Vessel_of_the_Harbinger_icon.png/50px-Vessel_of_the_Harbinger_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Vessel_of_the_Harbinger_entity_icon.png?5d464",
   "series": "The First Necromancer",
+  "seriesNth": "3",
   "age": "Age of Chaos",
   "timeline": "Age of Chaos",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "50-59",
   "difficulty": "Intermediate",
   "length": "Medium",
   "releaseDate": "7 August 2023",
+  "area": "Underworld",
   "startPoint": {
     "en": "Speak to Death in the City of Um.",
     "es": "Habla con Death en la City of Um."
@@ -51,6 +55,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Ghostspeak amulet",
@@ -98,6 +103,67 @@
           "image": "https://runescape.wiki/images/thumb/Rituals.png/100px-Rituals.png?72ca9"
         }
       ]
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Ectophial",
+      "display": "Ectophial",
+      "image": "https://runescape.wiki/images/thumb/Ectophial_detail.png/100px-Ectophial_detail.png?1b030"
+    },
+    {
+      "name": "Slayer Tower",
+      "display": "A quick teleport to the Slayer Tower, such as:",
+      "image": "https://runescape.wiki/images/thumb/Slayer_tower_building.png/100px-Slayer_tower_building.png?f80f9",
+      "children": [
+        {
+          "name": "Ring of slaying",
+          "display": "A ring of slaying",
+          "image": "https://runescape.wiki/images/thumb/Ring_of_slaying_detail.png/100px-Ring_of_slaying_detail.png?84846"
+        },
+        {
+          "name": "Dungeoneering cape",
+          "display": "Dungeoneering cape",
+          "image": "https://runescape.wiki/images/thumb/Dungeoneering_cape_detail.png/100px-Dungeoneering_cape_detail.png?ea2c7"
+        },
+        {
+          "name": "Canifis lodestone",
+          "display": "Activated Canifis lodestone",
+          "image": "https://runescape.wiki/images/Canifis_lodestone_icon.png?659b2"
+        }
+      ]
+    },
+    {
+      "name": "City of Um",
+      "display": "Teleport to City of Um, such as:",
+      "image": "https://runescape.wiki/images/thumb/City_of_Um.png/100px-City_of_Um.png?949aa",
+      "children": [
+        {
+          "name": "Draynor lodestone",
+          "display": "Draynor lodestone and enter the underworld",
+          "image": "https://runescape.wiki/images/Draynor_lodestone_icon.png?90767"
+        },
+        {
+          "name": "Spirit rune",
+          "display": "Ten spirit runes to cast City of Um Teleport twice",
+          "image": "https://runescape.wiki/images/thumb/Spirit_rune_detail.png/100px-Spirit_rune_detail.png?6ee97"
+        },
+        {
+          "name": "City of Um lodestone",
+          "display": "Activated City of Um lodestone",
+          "image": "https://runescape.wiki/images/thumb/City_of_Um_lodestone_icon.png/100px-City_of_Um_lodestone_icon.png?c0a03"
+        },
+        {
+          "name": "Underworld Grimoire 2",
+          "display": "Either of the Underworld Grimoire 2's teleport options",
+          "image": "https://runescape.wiki/images/thumb/Underworld_Grimoire_2_detail.png/100px-Underworld_Grimoire_2_detail.png?f43af"
+        }
+      ]
+    },
+    {
+      "name": "Salve amulet",
+      "display": "Salve amulet or salve amulet (e) for increased damage against the tortured souls",
+      "image": "https://runescape.wiki/images/thumb/Salve_amulet_detail.png/100px-Salve_amulet_detail.png?44aa2"
     }
   ],
   "kills": [

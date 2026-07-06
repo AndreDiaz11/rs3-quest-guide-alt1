@@ -3,8 +3,9 @@
   "title": "Once Upon a Time in Gielinor: Flashback",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.649Z",
+  "guideLastUpdated": "2026-07-06T20:31:14.291Z",
   "icon": "https://runescape.wiki/images/Once_Upon_a_Time_in_Gielinor_Flashback_icon.png",
+  "entityIcon": null,
   "length": "Short",
   "startPoint": {
     "en": "Talk to Closure in his office to find out more. It can be accessed through Death's Realm.",
@@ -18,7 +19,36 @@
     ],
     "skills": []
   },
+  "followsEvents": [
+    {
+      "title": "Merlin's Crystal"
+    },
+    {
+      "title": "Animal Magnetism",
+      "children": [
+        {
+          "title": "The Restless Ghost"
+        },
+        {
+          "title": "Ernest the Chicken"
+        },
+        {
+          "title": "Ability to enter Morytania",
+          "matchTitle": "Morytania"
+        }
+      ]
+    },
+    {
+      "title": "Diamond in the Rough",
+      "children": [
+        {
+          "title": "Stolen Hearts"
+        }
+      ]
+    }
+  ],
   "items": [],
+  "recommended": [],
   "kills": [
     "None"
   ],

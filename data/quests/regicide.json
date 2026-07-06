@@ -3,16 +3,20 @@
   "title": "Regicide",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:06.405Z",
+  "guideLastUpdated": "2026-07-06T20:31:28.332Z",
   "icon": "https://runescape.wiki/images/Regicide_icon.png",
+  "entityIcon": null,
   "series": "Elf (Prifddinas)",
+  "seriesNth": "4",
   "age": "ambiguous",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "50-59",
   "difficulty": "Master",
   "length": "Long",
   "releaseDate": "20 September 2004",
+  "area": "Ardougne",
   "startPoint": {
     "en": "Receive a message from King Lathas's messenger (typically, this happens about 15 minutes after completing Underground Pass).",
     "es": "Recibe un mensaje del mensajero de King Lathas (normalmente, esto ocurre unos 15 minutos después de completar Underground Pass)."
@@ -37,13 +41,10 @@
       {
         "skill": "Agility",
         "level": 56
-      },
-      {
-        "skill": "Agility",
-        "level": 60
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Underground Pass (dungeon)",
@@ -96,6 +97,43 @@
       "name": "Cooked rabbit",
       "display": "A cooked rabbit (can be obtained from charter traders or in Tirannwn after killing a rabbit and cooking the meat)",
       "image": "https://runescape.wiki/images/thumb/Cooked_rabbit_detail.png/100px-Cooked_rabbit_detail.png?c4a7c"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Agility",
+      "display": "60 Agility or higher (to decrease the chance of failing obstacles in the Underground Pass).",
+      "image": "https://runescape.wiki/images/Agility-icon.png?9a56e"
+    },
+    {
+      "name": "Charter ship",
+      "display": "6400 coins (to activate a charter ship route between Port Tyras and Port Sarim; less cost with discounts)",
+      "image": "https://runescape.wiki/images/thumb/Trade_charter_map.png/100px-Trade_charter_map.png?2e3fd"
+    },
+    {
+      "name": "Remora's necklace",
+      "display": "Remora's necklace or an active lodestone in Port Sarim for quicker travels to Rimmington",
+      "image": "https://runescape.wiki/images/thumb/Remora%27s_necklace_detail.png/100px-Remora%27s_necklace_detail.png?6ded2"
+    },
+    {
+      "name": "Emergency teleport",
+      "display": "Any emergency teleport (Ectophial, teleport tablets, etc.)",
+      "image": null
+    },
+    {
+      "name": "Weight-reducing clothing",
+      "display": "Weight-reducing clothing",
+      "image": null
+    },
+    {
+      "name": "Antipoison",
+      "display": "Antipoisons for the elf traps",
+      "image": "https://runescape.wiki/images/thumb/Antipoison_%281%29_detail.png/100px-Antipoison_%281%29_detail.png?27b64"
+    },
+    {
+      "name": "Summer Pie",
+      "display": "Summer Pies for lower agility levels",
+      "image": null
     }
   ],
   "kills": [

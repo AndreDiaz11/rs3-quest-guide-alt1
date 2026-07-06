@@ -3,16 +3,20 @@
   "title": "Horror from the Deep",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.725Z",
+  "guideLastUpdated": "2026-07-06T20:30:52.361Z",
   "icon": "https://runescape.wiki/images/Horror_from_the_Deep_icon.png",
+  "entityIcon": null,
   "series": "Fremennik",
+  "seriesNth": "3",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "80-89",
   "difficulty": "Experienced",
   "length": "Medium",
   "releaseDate": "17 November 2004",
+  "area": "Fremennik Province",
   "startPoint": {
     "en": "Talk to Larrissa, who is outside of the Lighthouse, north of the Barbarian Outpost.",
     "es": "Habla con Larrissa, que está fuera del Lighthouse, al norte del Barbarian Outpost."
@@ -27,13 +31,10 @@
       {
         "skill": "Agility",
         "level": 35
-      },
-      {
-        "skill": "Prayer",
-        "level": 43
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Steel nails",
@@ -44,6 +45,33 @@
       "name": "Plank",
       "display": "2 normal planks (can be obtained during the quest, just north of the fenced-in area of the Barbarian Outpost)",
       "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Prayer",
+      "display": "43 Prayer",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "A melee weapon (ideally a slash weapon), a ranged weapon (ideally thrown weapons), and magic weapon plus runes for all four elemental spells to switch amongst in combat. Necromancy does not work against the Dagannoth mother.",
+      "display": "A melee weapon (ideally a slash weapon), a ranged weapon (ideally thrown weapons), and magic weapon plus runes for all four elemental spells to switch amongst in combat. Necromancy does not work against the Dagannoth mother.",
+      "image": null
+    },
+    {
+      "name": "Games necklace",
+      "display": "Games necklace and quick teleport tabs are very helpful to reach the Lighthouse during the quest.",
+      "image": "https://runescape.wiki/images/thumb/Games_necklace_%281%29_detail.png/100px-Games_necklace_%281%29_detail.png?96751"
+    },
+    {
+      "name": "Player-owned house",
+      "display": "Houses by Rellekka are also helpful transportation methods.",
+      "image": "https://runescape.wiki/images/thumb/Portal_%28player-owned_house%29.png/100px-Portal_%28player-owned_house%29.png?9c5f5"
+    },
+    {
+      "name": "Lighthouse Teleport",
+      "display": "Lighthouse Teleport for quick teleportation to Larrissa",
+      "image": "https://runescape.wiki/images/thumb/Lighthouse_Teleport_detail.png/100px-Lighthouse_Teleport_detail.png?e5146"
     }
   ],
   "kills": [

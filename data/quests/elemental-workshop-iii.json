@@ -3,16 +3,20 @@
   "title": "Elemental Workshop III",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.097Z",
+  "guideLastUpdated": "2026-07-06T20:30:31.284Z",
   "icon": "https://runescape.wiki/images/Elemental_Workshop_III_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Elemental_Workshop_III_entity_icon.png?fbf70",
   "series": "Elemental Workshop",
+  "seriesNth": "3",
   "age": "ambiguous",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "40-49",
   "difficulty": "Intermediate",
   "length": "Medium to Long",
   "releaseDate": "25 May 2010",
+  "area": "Seers' Village",
   "startPoint": {
     "en": "Search a bookcase in Seers' Village church.",
     "es": "Busca en una estantería en la iglesia de Seers' Village."
@@ -36,13 +40,10 @@
       {
         "skill": "Smithing",
         "level": 33
-      },
-      {
-        "skill": "Defence",
-        "level": 66
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Coal",
@@ -58,6 +59,20 @@
       "name": "Soft clay",
       "display": "Soft clay (you can mine clay in the mine in the north-western room and use it on the sink in the northern room to soften it, or automatically mine one by wearing a bracelet of clay)",
       "image": "https://runescape.wiki/images/thumb/Soft_clay_detail.png/100px-Soft_clay_detail.png?85203"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Defence potion",
+      "display": "Bring defence potions, super defence potions or restore potions, if you are under 66 Defence",
+      "image": "https://runescape.wiki/images/thumb/Defence_potion_%281%29_detail.png/100px-Defence_potion_%281%29_detail.png?5957e",
+      "children": [
+        {
+          "name": "Excalibur",
+          "display": "Excalibur can be used to restore eight Defence levels",
+          "image": "https://runescape.wiki/images/thumb/Excalibur_detail.png/100px-Excalibur_detail.png?0bbd2"
+        }
+      ]
     }
   ],
   "kills": [

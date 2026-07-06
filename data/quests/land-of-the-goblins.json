@@ -3,16 +3,20 @@
   "title": "Land of the Goblins",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.003Z",
+  "guideLastUpdated": "2026-07-06T20:31:00.469Z",
   "icon": "https://runescape.wiki/images/Land_of_the_Goblins_icon.png",
+  "entityIcon": null,
   "series": "Cave Goblin",
+  "seriesNth": "4",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "30-39",
   "difficulty": "Experienced",
   "length": "Long",
   "releaseDate": "12 November 2007",
+  "area": "Dorgesh-Kaan",
   "startPoint": {
     "en": "Talk to Grubfoot in the Dorgeshuun mine, north of Dorgesh-Kaan. (via )",
     "es": "Habla con Grubfoot en la mina Dorgeshuun, al norte de Dorgesh-Kaan. (via)"
@@ -65,6 +69,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Toadflax potion (unfinished)",
@@ -139,6 +144,33 @@
       "name": "Must have enough backpack space to unequip all items",
       "display": "Must have enough backpack space to unequip all items",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Ardougne lodestone",
+      "display": "Activated Ardougne, Draynor, Lumbridge and Port Sarim lodestones",
+      "image": "https://runescape.wiki/images/Ardougne_lodestone_icon.png?9b3e4"
+    },
+    {
+      "name": "Dramen staff",
+      "display": "A dramen/lunar staff for using fairy rings (unnecessary if the quest A Fairy Tale III - Battle at Ork's Rift has been completed)",
+      "image": "https://runescape.wiki/images/thumb/Dramen_staff_detail.png/100px-Dramen_staff_detail.png?8114b"
+    },
+    {
+      "name": "Skills necklace",
+      "display": "A skills necklace for faster travel to the Makeover Mage and Goblin Cave",
+      "image": "https://runescape.wiki/images/thumb/Skills_necklace_detail.png/100px-Skills_necklace_detail.png?96ec8"
+    },
+    {
+      "name": "Dorgesh-kaan sphere",
+      "display": "A Dorgesh-kaan sphere, or 2 law runes and 1 molten glass to trade for one, if not using the fairy rings",
+      "image": "https://runescape.wiki/images/thumb/Dorgesh-kaan_sphere_detail.png/100px-Dorgesh-kaan_sphere_detail.png?0222c"
+    },
+    {
+      "name": "Explorer's ring 3",
+      "display": "Explorer's ring 3 or 4",
+      "image": "https://runescape.wiki/images/thumb/Explorer%27s_ring_3_detail.png/100px-Explorer%27s_ring_3_detail.png?19a1f"
     }
   ],
   "kills": [

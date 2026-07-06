@@ -3,16 +3,20 @@
   "title": "The Hunt for Surok (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.783Z",
+  "guideLastUpdated": "2026-07-06T20:31:59.696Z",
   "icon": "https://runescape.wiki/images/The_Hunt_for_Surok_%28miniquest%29_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "100-109",
   "difficulty": "Experienced",
   "length": "Short to Medium",
   "releaseDate": "4 March 2008",
+  "area": "Varrock Outskirts",
   "startPoint": {
     "en": "Speak to Surok by the statue of Saradomin, east of Varrock.",
     "es": "Habla con Surok junto a la estatua de Saradomin, al este de Varrock."
@@ -34,7 +38,57 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [],
+  "recommended": [
+    {
+      "name": "Combat equipment to fight a strong level 107 ork who is resistant to range attacks and survive taking multiple hits from different types of monsters.",
+      "display": "Combat equipment to fight a strong level 107 ork who is resistant to range attacks and survive taking multiple hits from different types of monsters.",
+      "image": null
+    },
+    {
+      "name": "Anti-dragon shield",
+      "display": "An Anti-dragon shield or antifire potion, super energy potions, and antipoisons are useful in the tunnels.",
+      "image": "https://runescape.wiki/images/thumb/Anti-dragon_shield_detail.png/100px-Anti-dragon_shield_detail.png?238e5"
+    },
+    {
+      "name": "Ectophial",
+      "display": "A one-click teleport such as the ectophial or magic tablets.",
+      "image": "https://runescape.wiki/images/thumb/Ectophial_detail.png/100px-Ectophial_detail.png?1b030"
+    },
+    {
+      "name": "One of the following:",
+      "display": "One of the following:",
+      "image": null,
+      "children": [
+        {
+          "name": "Energy",
+          "display": "A way to restore run energy, such as mint cakes or an Explorer's ring.",
+          "image": null
+        },
+        {
+          "name": "Salt-water spring",
+          "display": "The salt-water spring in Oo'glog if you've completed As a First Resort.",
+          "image": "https://runescape.wiki/images/thumb/Salt-water_spring_%282%29.png/100px-Salt-water_spring_%282%29.png?6c005"
+        },
+        {
+          "name": "Spa pool",
+          "display": "The salt-water treatment at the spa pool if you have a tier 1 or higher Spa.",
+          "image": "https://runescape.wiki/images/thumb/Spa_pool.png/100px-Spa_pool.png?f8f18"
+        },
+        {
+          "name": "Stamina potion",
+          "display": "A stamina potion if you have level 77 Herblore.",
+          "image": "https://runescape.wiki/images/thumb/Stamina_potion_%281%29_detail.png/100px-Stamina_potion_%281%29_detail.png?6a6fc"
+        },
+        {
+          "name": "Endurance",
+          "display": "Have the Endurance relic power activated at the mysterious monolith.",
+          "image": "https://runescape.wiki/images/thumb/Endurance.png/100px-Endurance.png?31751"
+        }
+      ]
+    }
+  ],
   "kills": [
     "Bork (level 107)"
   ],

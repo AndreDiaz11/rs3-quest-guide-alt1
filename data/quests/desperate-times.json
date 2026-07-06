@@ -3,16 +3,20 @@
   "title": "Desperate Times",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.723Z",
+  "guideLastUpdated": "2026-07-06T20:30:18.714Z",
   "icon": "https://runescape.wiki/images/Desperate_Times_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Desperate_Times_entity_icon.png?fbf70",
   "series": "The Elder God Wars",
+  "seriesNth": "3",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "50-59",
   "difficulty": "Intermediate",
   "length": "Medium",
   "releaseDate": "13 May 2019",
+  "area": "Burthorpe",
   "startPoint": {
     "en": "Talk to Seren, up the stairs in Burthorpe castle. (via )",
     "es": "Habla con Seren, arriba de las escaleras en Burthorpe castle. (vía)"
@@ -41,6 +45,163 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "Sliske's Endgame",
+      "children": [
+        {
+          "title": "The Death of Chivalry",
+          "children": [
+            {
+              "title": "The World Wakes…",
+              "matchTitle": "The World Wakes"
+            }
+          ]
+        },
+        {
+          "title": "One of a Kind",
+          "children": [
+            {
+              "title": "A Tail of Two Cats…",
+              "matchTitle": "A Tail of Two Cats"
+            },
+            {
+              "title": "Holy Grail…",
+              "matchTitle": "Holy Grail"
+            },
+            {
+              "title": "The World Wakes…",
+              "matchTitle": "The World Wakes"
+            },
+            {
+              "title": "Missing, Presumed Death…",
+              "matchTitle": "Missing, Presumed Death"
+            },
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            }
+          ]
+        },
+        {
+          "title": "Nomad's Elegy",
+          "children": [
+            {
+              "title": "Dishonour among Thieves…",
+              "matchTitle": "Dishonour among Thieves"
+            },
+            {
+              "title": "Nomad's Requiem…",
+              "matchTitle": "Nomad's Requiem"
+            },
+            {
+              "title": "Heart of Stone…",
+              "matchTitle": "Heart of Stone"
+            },
+            {
+              "title": "The Mighty Fall…",
+              "matchTitle": "The Mighty Fall"
+            },
+            {
+              "title": "Throne of Miscellania…",
+              "matchTitle": "Throne of Miscellania"
+            },
+            {
+              "title": "The Void Stares Back…",
+              "matchTitle": "The Void Stares Back"
+            },
+            {
+              "title": "While Guthix Sleeps…",
+              "matchTitle": "While Guthix Sleeps"
+            },
+            {
+              "title": "Blood Runs Deep…",
+              "matchTitle": "Blood Runs Deep"
+            }
+          ]
+        },
+        {
+          "title": "Kindred Spirits",
+          "children": [
+            {
+              "title": "Missing, Presumed Death…",
+              "matchTitle": "Missing, Presumed Death"
+            },
+            {
+              "title": "Deadliest Catch…",
+              "matchTitle": "Deadliest Catch"
+            }
+          ]
+        },
+        {
+          "title": "Hero's Welcome",
+          "children": [
+            {
+              "title": "Lunar Diplomacy…",
+              "matchTitle": "Lunar Diplomacy"
+            },
+            {
+              "title": "Access to the Ancient Cavern from Barbarian Training",
+              "matchTitle": "Ancient Cavern"
+            },
+            {
+              "title": "One of a Kind…",
+              "matchTitle": "One of a Kind"
+            },
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            }
+          ]
+        },
+        {
+          "title": "Children of Mah",
+          "children": [
+            {
+              "title": "The Light Within…",
+              "matchTitle": "The Light Within"
+            },
+            {
+              "title": "Dishonour among Thieves…",
+              "matchTitle": "Dishonour among Thieves"
+            },
+            {
+              "title": "Koschei's Troubles (miniquest)…",
+              "matchTitle": "Koschei's Troubles (miniquest)"
+            },
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Curse of the Black Stone",
+      "children": [
+        {
+          "title": "Impressing the Locals"
+        },
+        {
+          "title": "Sliske's Endgame…",
+          "matchTitle": "Sliske's Endgame"
+        },
+        {
+          "title": "Pieces of Hate",
+          "children": [
+            {
+              "title": "A Clockwork Syringe…",
+              "matchTitle": "A Clockwork Syringe"
+            },
+            {
+              "title": "Gertrude's Cat"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Rune bar",
@@ -78,6 +239,33 @@
       "name": "Black Knights' Fortress",
       "display": "Any set of equipment that allows access to the Black Knights' Fortress or a Skull of Remembrance for teleporting directly inside",
       "image": "https://runescape.wiki/images/thumb/Black_Knights%27_Fortress.png/100px-Black_Knights%27_Fortress.png?1a120"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Fairy ring",
+      "display": "Access to fairy rings",
+      "image": "https://runescape.wiki/images/thumb/Fairy_ring.png/100px-Fairy_ring.png?ca33a"
+    },
+    {
+      "name": "Portable fairy ring",
+      "display": "Portable fairy ring, TokKul-Zo for the close proximity to a fairy ring or grace of the elves attuned to the fairy ring",
+      "image": "https://runescape.wiki/images/thumb/Portable_fairy_ring_%28inactive%29_detail.png/100px-Portable_fairy_ring_%28inactive%29_detail.png?f96cd"
+    },
+    {
+      "name": "Dig Site pendant",
+      "display": "Dig Site pendant or Archaeology journal for quick access to the Varrock Dig Site",
+      "image": "https://runescape.wiki/images/thumb/Dig_Site_pendant_%281%29_detail.png/100px-Dig_Site_pendant_%281%29_detail.png?00b28"
+    },
+    {
+      "name": "Phoenix Lair Teleport",
+      "display": "Two Phoenix Lair Teleports or memory strands to get back to the needle",
+      "image": "https://runescape.wiki/images/thumb/Phoenix_Lair_Teleport_detail.png/100px-Phoenix_Lair_Teleport_detail.png?c408d"
+    },
+    {
+      "name": "Varrock",
+      "display": "Two teleports to Varrock",
+      "image": "https://runescape.wiki/images/thumb/Varrock.png/100px-Varrock.png?b6b39"
     }
   ],
   "kills": [

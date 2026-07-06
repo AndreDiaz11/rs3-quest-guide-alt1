@@ -3,16 +3,20 @@
   "title": "Hero's Welcome",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.658Z",
+  "guideLastUpdated": "2026-07-06T20:30:50.380Z",
   "icon": "https://runescape.wiki/images/Hero%27s_Welcome_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Hero%27s_Welcome_entity_icon.png?e4213",
   "series": "Sliske's Game",
+  "seriesNth": "9",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "100-109",
   "difficulty": "Experienced",
   "length": "Medium to Long",
   "releaseDate": "29 June 2015",
+  "area": "Rellekka",
   "startPoint": {
     "en": "Talk to Alfrick the Planner or Freya Lune at the Rellekka docks.",
     "es": "Habla con Alfrick the Planner o Freya Lune en los muelles de Rellekka."
@@ -51,13 +55,128 @@
       {
         "skill": "Smithing",
         "level": 67
-      },
-      {
-        "skill": "combat level",
-        "level": 100
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "One of a Kind",
+      "children": [
+        {
+          "title": "A Tail of Two Cats",
+          "children": [
+            {
+              "title": "Icthlarin's Little Helper…",
+              "matchTitle": "Icthlarin's Little Helper"
+            }
+          ]
+        },
+        {
+          "title": "Holy Grail",
+          "children": [
+            {
+              "title": "Merlin's Crystal"
+            }
+          ]
+        },
+        {
+          "title": "The World Wakes",
+          "children": [
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            },
+            {
+              "title": "The Firemaker's Curse"
+            },
+            {
+              "title": "The Branches of Darkmeyer…",
+              "matchTitle": "The Branches of Darkmeyer"
+            },
+            {
+              "title": "The Void Stares Back…",
+              "matchTitle": "The Void Stares Back"
+            },
+            {
+              "title": "The Chosen Commander…",
+              "matchTitle": "The Chosen Commander"
+            }
+          ]
+        },
+        {
+          "title": "Missing, Presumed Death",
+          "children": [
+            {
+              "title": "Koschei's Troubles (miniquest)…",
+              "matchTitle": "Koschei's Troubles (miniquest)"
+            },
+            {
+              "title": "The Chosen Commander…",
+              "matchTitle": "The Chosen Commander"
+            },
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            },
+            {
+              "title": "The World Wakes…",
+              "matchTitle": "The World Wakes"
+            },
+            {
+              "title": "The Death of Chivalry…",
+              "matchTitle": "The Death of Chivalry"
+            }
+          ]
+        },
+        {
+          "title": "Ritual of the Mahjarrat",
+          "children": [
+            {
+              "title": "The Temple at Senntisten…",
+              "matchTitle": "The Temple at Senntisten"
+            },
+            {
+              "title": "While Guthix Sleeps…",
+              "matchTitle": "While Guthix Sleeps"
+            },
+            {
+              "title": "Hazeel Cult"
+            },
+            {
+              "title": "Enakhra's Lament"
+            },
+            {
+              "title": "The Slug Menace…",
+              "matchTitle": "The Slug Menace"
+            },
+            {
+              "title": "A Fairy Tale II - Cure a Queen…",
+              "matchTitle": "A Fairy Tale II - Cure a Queen"
+            },
+            {
+              "title": "Cabin Fever…",
+              "matchTitle": "Cabin Fever"
+            },
+            {
+              "title": "A Tail of Two Cats…",
+              "matchTitle": "A Tail of Two Cats"
+            },
+            {
+              "title": "Fight Arena"
+            },
+            {
+              "title": "The General's Shadow (miniquest)…",
+              "matchTitle": "The General's Shadow (miniquest)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ritual of the Mahjarrat…",
+      "matchTitle": "Ritual of the Mahjarrat"
+    }
+  ],
   "items": [
     {
       "name": "Soft clay",
@@ -78,6 +197,38 @@
       "name": "Brimhaven Dungeon",
       "display": "875 coins to enter the Brimhaven Dungeon, unless Karamja gloves 3 or Dungeoneering cape are owned",
       "image": "https://runescape.wiki/images/thumb/Brimhaven_Dungeon.png/100px-Brimhaven_Dungeon.png?215b7"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "100 combat level or more is strongly recommended.",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Enchanted lyre",
+      "display": "An enchanted lyre to take you near the quest start point in Rellekka (or Fremennik sea boots 4)",
+      "image": "https://runescape.wiki/images/thumb/Enchanted_lyre_detail.png/100px-Enchanted_lyre_detail.png?68383"
+    },
+    {
+      "name": "Ferocious ring",
+      "display": "Either a charged ferocious ring, games necklace, fairy ring BJQ (after being repaired with 5 bittercap mushrooms) or a Slayer cape (to reach the Ancient Cavern)",
+      "image": "https://runescape.wiki/images/thumb/Ferocious_ring_%281%29_detail.png/100px-Ferocious_ring_%281%29_detail.png?c8d29"
+    },
+    {
+      "name": "Remora's necklace",
+      "display": "Remora's necklace to teleport to the Grotworm Lair",
+      "image": "https://runescape.wiki/images/thumb/Remora%27s_necklace_detail.png/100px-Remora%27s_necklace_detail.png?6ded2"
+    },
+    {
+      "name": "Hoardstalker ring",
+      "display": "A hoardstalker ring or Dungeoneering cape to teleport to the Brimhaven Dungeon resource dungeon near the Abomination Cave",
+      "image": "https://runescape.wiki/images/thumb/Hoardstalker_ring_%281%29_detail.png/100px-Hoardstalker_ring_%281%29_detail.png?f8d8e"
+    },
+    {
+      "name": "Beast of Burden",
+      "display": "A Beast of Burden to store food for the final fight",
+      "image": null
     }
   ],
   "kills": [

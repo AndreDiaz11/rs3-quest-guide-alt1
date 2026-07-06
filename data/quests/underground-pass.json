@@ -3,16 +3,20 @@
   "title": "Underground Pass",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.304Z",
+  "guideLastUpdated": "2026-07-06T20:32:13.058Z",
   "icon": "https://runescape.wiki/images/Underground_Pass_icon.png",
+  "entityIcon": null,
   "series": "Elf (Prifddinas)",
+  "seriesNth": "3",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "80-89",
   "difficulty": "Experienced",
   "length": "Long to Very Long",
   "releaseDate": "3 March 2003",
+  "area": "Ardougne",
   "startPoint": {
     "en": "Talk to King Lathas on the 1st floor[UK]2nd floor[US] of Ardougne castle. (via )",
     "es": "Habla con King Lathas en la 1ª planta[RU]2ª planta[EE. UU.] del castillo de Ardougne. (a través de)"
@@ -32,21 +36,10 @@
       {
         "skill": "Ranged",
         "level": 25
-      },
-      {
-        "skill": "Agility",
-        "level": 50
-      },
-      {
-        "skill": "Thieving",
-        "level": 50
-      },
-      {
-        "skill": "Prayer",
-        "level": 43
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Rope",
@@ -72,6 +65,70 @@
       "name": "Enough backpack space to hold all your armour and at least six spaces for the items that you receive during the quest",
       "display": "Enough backpack space to hold all your armour and at least six spaces for the items that you receive during the quest",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Agility",
+      "display": "50 Agility (b)",
+      "image": "https://runescape.wiki/images/Agility-icon.png?9a56e"
+    },
+    {
+      "name": "Thieving",
+      "display": "50 Thieving (b) (otherwise, bring a little extra food to heal from the trap damage)",
+      "image": "https://runescape.wiki/images/Thieving-icon.png?1fcf2"
+    },
+    {
+      "name": "Weapons",
+      "display": "Weapons. Ranged, magic or necromancy recommended, most enemies can be killed from safe spots. Using the bow is recommended if you need to save backpack space.",
+      "image": "https://runescape.wiki/images/thumb/Lotsofweapons.jpg/100px-Lotsofweapons.jpg?2d68e"
+    },
+    {
+      "name": "Prayer",
+      "display": "43 Prayer for Protect from Melee, or armour to reduce damage from the monsters. Minimising weight may be beneficial for some agility obstacles.",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Food",
+      "display": "Food to survive traps and monsters. Alternatively, Saradomin brews or super restores to reduce weight.",
+      "image": null,
+      "children": [
+        {
+          "name": "Kamen",
+          "display": "Coins to buy food from Kamen (75 coins each time for food that heals a total of 1,325 life points).",
+          "image": "https://runescape.wiki/images/thumb/Kamen.png/100px-Kamen.png?5b5ea"
+        }
+      ]
+    },
+    {
+      "name": "Agility potion",
+      "display": "Agility potions, or summer pies, if you have a low Agility level",
+      "image": "https://runescape.wiki/images/thumb/Agility_potion_%281%29_detail.png/100px-Agility_potion_%281%29_detail.png?5f8a1"
+    },
+    {
+      "name": "Toadflax incense sticks",
+      "display": "Toadflax incense sticks may be used to considerably lower your chances of failing obstacles inside the dungeon regardless of Agility level",
+      "image": "https://runescape.wiki/images/thumb/Toadflax_incense_sticks_detail.png/100px-Toadflax_incense_sticks_detail.png?45328"
+    },
+    {
+      "name": "An emergency teleport",
+      "display": "An emergency teleport",
+      "image": null
+    },
+    {
+      "name": "Plank",
+      "display": "A plank (helps in avoiding damage; can be obtained during the quest)",
+      "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
+    },
+    {
+      "name": "Catspeak amulet",
+      "display": "The catspeak amulet for amusing dialogue later in the quest",
+      "image": "https://runescape.wiki/images/thumb/Catspeak_amulet_detail.png/100px-Catspeak_amulet_detail.png?e88c0"
+    },
+    {
+      "name": "Dave's spellbook",
+      "display": "Dave's spellbook with 'Chipped' Ardougne teleport to teleport to West Ardougne (requires the completion of Evil Dave's Big Day Out)",
+      "image": "https://runescape.wiki/images/Dave%27s_spellbook_detail.png?b971b"
     }
   ],
   "kills": [

@@ -3,16 +3,20 @@
   "title": "Our Man in the North",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.836Z",
+  "guideLastUpdated": "2026-07-06T20:31:16.919Z",
   "icon": "https://runescape.wiki/images/Our_Man_in_the_North_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Our_Man_in_the_North_entity_icon.png?e4213",
   "series": "Desert",
+  "seriesNth": "9",
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "100-109",
   "difficulty": "Master",
   "length": "Short to Medium",
   "releaseDate": "5 June 2017",
+  "area": "Menaphos & Sophanem",
   "startPoint": {
     "en": "Talk to Hassan in the Menaphos Merchant district.",
     "es": "Habla con Hassan en el distrito de comerciantes de Menaphos."
@@ -98,14 +102,32 @@
         ]
       }
     ],
-    "skills": [
-      {
-        "skill": "combat level",
-        "level": 100
-      }
-    ]
+    "skills": []
   },
+  "followsEvents": [],
   "items": [],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "100 combat level",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Combat gear and food",
+      "display": "Combat gear and food",
+      "image": null
+    },
+    {
+      "name": "Desert amulet 2",
+      "display": "Desert amulet 2 or above for teleport to Nardah, then run north east to Uzer Mastaba",
+      "image": "https://runescape.wiki/images/thumb/Desert_amulet_2_detail.png/100px-Desert_amulet_2_detail.png?3b61e"
+    },
+    {
+      "name": "Pollnivneach Teleport",
+      "display": "Pollnivneach Teleport scroll, Ring of slaying, or Slayer cape teleport to Sumona",
+      "image": "https://runescape.wiki/images/thumb/Pollnivneach_Teleport_detail.png/100px-Pollnivneach_Teleport_detail.png?7cd5c"
+    }
+  ],
   "kills": [
     "Ambassador Jabari (level 112)",
     "4 Menaphite thugs (level 122)"

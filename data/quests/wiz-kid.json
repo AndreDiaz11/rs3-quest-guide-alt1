@@ -3,16 +3,20 @@
   "title": "Wiz Kid",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.569Z",
+  "guideLastUpdated": "2026-07-06T20:32:19.628Z",
   "icon": "https://runescape.wiki/images/Wiz_Kid_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Wiz_Kid_entity_icon.png?5c021",
   "series": "No",
+  "seriesNth": null,
   "age": "Age of Chaos",
   "timeline": "Age of Chaos",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "None",
   "difficulty": "Novice",
   "length": "Short to Medium",
   "releaseDate": "23 March 2026",
+  "area": "Wendlewick",
   "startPoint": {
     "en": "Speak to Ben on Marigold Farm in Wendlewick.",
     "es": "Habla con Ben en Marigold Farm, en Wendlewick."
@@ -30,6 +34,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Air rune",
@@ -60,6 +65,18 @@
       "name": "Bones",
       "display": "2 bones (obtainable during the quest)",
       "image": "https://runescape.wiki/images/thumb/Bones_detail.png/100px-Bones_detail.png?28fd1"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Stardust",
+      "display": "Stardust or wicked hood for quick teleport to the Wizards' Tower",
+      "image": "https://runescape.wiki/images/thumb/Stardust_175_detail.png/100px-Stardust_175_detail.png?e43f8"
+    },
+    {
+      "name": "Standard Spellbook",
+      "display": "Standard Spellbook for casting Bones to Bananas and Telekinetic Grab",
+      "image": null
     }
   ],
   "kills": [],

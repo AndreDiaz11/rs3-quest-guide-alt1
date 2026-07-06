@@ -3,16 +3,20 @@
   "title": "Glorious Memories",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.455Z",
+  "guideLastUpdated": "2026-07-06T20:30:42.325Z",
   "icon": "https://runescape.wiki/images/Glorious_Memories_icon.png",
+  "entityIcon": null,
   "series": "Fremennik",
+  "seriesNth": "9",
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "80-89",
   "difficulty": "Master",
   "length": "Medium",
   "releaseDate": "1 April 2009",
+  "area": "Rellekka",
   "startPoint": {
     "en": "Speak to Manni the Reveller inside the longhall in Rellekka.",
     "es": "Habla con Manni the Reveller dentro del longhall en Rellekka."
@@ -63,6 +67,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Clean irit",
@@ -98,6 +103,50 @@
       "name": "At least 4 backpack spaces",
       "display": "At least 4 backpack spaces",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Miscellania Teleport",
+      "display": "Miscellania Teleport or a Ring of Wealth (or its higher-tier variants) for quick teleports to King Vargas",
+      "image": "https://runescape.wiki/images/thumb/Miscellania_Teleport_detail.png/100px-Miscellania_Teleport_detail.png?466e5"
+    },
+    {
+      "name": "Fremennik Province",
+      "display": "Multiple ways to teleport around the Fremennik Province:",
+      "image": "https://runescape.wiki/images/thumb/Fremennik_Province.png/100px-Fremennik_Province.png?6fdba",
+      "children": [
+        {
+          "name": "Fremennik Province lodestone",
+          "display": "Activated Fremennik Province lodestone",
+          "image": "https://runescape.wiki/images/thumb/Fremennik_Province_lodestone_icon.png/100px-Fremennik_Province_lodestone_icon.png?64d7b"
+        },
+        {
+          "name": "Enchanted lyre",
+          "display": "Enchanted lyre",
+          "image": "https://runescape.wiki/images/thumb/Enchanted_lyre_detail.png/100px-Enchanted_lyre_detail.png?68383"
+        },
+        {
+          "name": "House Teleport",
+          "display": "House Teleport runes or a Rellekka tablet with a home in Rellekka",
+          "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
+        },
+        {
+          "name": "Ring of Wealth",
+          "display": "A Ring of Wealth",
+          "image": "https://runescape.wiki/images/thumb/Ring_of_Wealth_detail.png/100px-Ring_of_Wealth_detail.png?a5a75"
+        }
+      ]
+    },
+    {
+      "name": "Dramen staff",
+      "display": "Dramen/Lunar staff (not necessary if A Fairy Tale III - Battle at Ork's Rift quest is completed)",
+      "image": "https://runescape.wiki/images/thumb/Dramen_staff_detail.png/100px-Dramen_staff_detail.png?8114b"
+    },
+    {
+      "name": "Portable fairy ring",
+      "display": "Portable fairy ring",
+      "image": "https://runescape.wiki/images/thumb/Portable_fairy_ring_%28inactive%29_detail.png/100px-Portable_fairy_ring_%28inactive%29_detail.png?f96cd"
     }
   ],
   "kills": [

@@ -3,16 +3,20 @@
   "title": "The Death of Chivalry",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.550Z",
+  "guideLastUpdated": "2026-07-06T20:31:53.492Z",
   "icon": "https://runescape.wiki/images/The_Death_of_Chivalry_icon.png",
+  "entityIcon": "https://runescape.wiki/images/The_Death_of_Chivalry_entity_icon.png?0528f",
   "series": "Sliske's Game",
+  "seriesNth": "2",
   "age": "6",
   "timeline": "world guardian",
   "members": false,
+  "voiceOver": false,
   "combatLevel": "scaled",
   "difficulty": "Novice",
   "length": "Long",
   "releaseDate": "13 August 2013",
+  "area": "Ice Mountain",
   "startPoint": {
     "en": "Speak to Sir Owen at the Edgeville Monastery west of Edgeville.",
     "es": "Habla con Sir Owen en el Edgeville Monastery, al oeste de Edgeville."
@@ -21,6 +25,89 @@
     "quests": [],
     "skills": []
   },
+  "followsEvents": [
+    {
+      "title": "The World Wakes",
+      "children": [
+        {
+          "title": "Ritual of the Mahjarrat",
+          "children": [
+            {
+              "title": "The Temple at Senntisten…",
+              "matchTitle": "The Temple at Senntisten"
+            },
+            {
+              "title": "While Guthix Sleeps…",
+              "matchTitle": "While Guthix Sleeps"
+            },
+            {
+              "title": "Hazeel Cult"
+            },
+            {
+              "title": "Enakhra's Lament"
+            },
+            {
+              "title": "The Slug Menace…",
+              "matchTitle": "The Slug Menace"
+            },
+            {
+              "title": "A Fairy Tale II - Cure a Queen…",
+              "matchTitle": "A Fairy Tale II - Cure a Queen"
+            },
+            {
+              "title": "Cabin Fever…",
+              "matchTitle": "Cabin Fever"
+            },
+            {
+              "title": "A Tail of Two Cats…",
+              "matchTitle": "A Tail of Two Cats"
+            },
+            {
+              "title": "Fight Arena"
+            },
+            {
+              "title": "The General's Shadow (miniquest)…",
+              "matchTitle": "The General's Shadow (miniquest)"
+            }
+          ]
+        },
+        {
+          "title": "The Firemaker's Curse"
+        },
+        {
+          "title": "The Branches of Darkmeyer",
+          "children": [
+            {
+              "title": "Legacy of Seergaze…",
+              "matchTitle": "Legacy of Seergaze"
+            }
+          ]
+        },
+        {
+          "title": "The Void Stares Back",
+          "children": [
+            {
+              "title": "A Void Dance…",
+              "matchTitle": "A Void Dance"
+            },
+            {
+              "title": "Conquest tutorial",
+              "matchTitle": "Conquest"
+            }
+          ]
+        },
+        {
+          "title": "The Chosen Commander",
+          "children": [
+            {
+              "title": "Land of the Goblins…",
+              "matchTitle": "Land of the Goblins"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "5 free backpack space (for an armour set)",
@@ -31,6 +118,23 @@
       "name": "Bank",
       "display": "Combat equipment (not required from the start, able to retrieve from the bank when necessary)",
       "image": "https://runescape.wiki/images/thumb/Bank_Interface.png/100px-Bank_Interface.png?6cf4c"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Saradominist preacher",
+      "display": "Talk to the Saradominist preacher at Lumbridge Castle and watch the opening and finale cutscenes from the Battle of Lumbridge",
+      "image": "https://runescape.wiki/images/thumb/Saradominist_preacher.png/100px-Saradominist_preacher.png?17b47"
+    },
+    {
+      "name": "Food due to level scaling",
+      "display": "Food due to level scaling",
+      "image": null
+    },
+    {
+      "name": "12 free backpack slots for an armour set and ritual materials",
+      "display": "12 free backpack slots for an armour set and ritual materials",
+      "image": null
     }
   ],
   "kills": [

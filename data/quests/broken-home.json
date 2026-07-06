@@ -3,16 +3,20 @@
   "title": "Broken Home",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.223Z",
+  "guideLastUpdated": "2026-07-06T20:30:02.692Z",
   "icon": "https://runescape.wiki/images/Broken_Home_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Broken_Home_entity_icon.png?faa37",
   "series": null,
+  "seriesNth": null,
   "age": "ambiguous",
   "timeline": "pathfinder",
   "members": false,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Novice",
   "length": "Medium to Long",
   "releaseDate": "27 October 2014",
+  "area": "Silvarea",
   "startPoint": {
     "en": "Talk to the distressed servant Maria, outside the mansion north-east of Varrock, just south of the Silvarea quarry.",
     "es": "Habla con Maria, la sirvienta afligida, en las afueras de la mansión al noreste de Varrock, justo al sur de la cantera de Silvarea."
@@ -21,11 +25,24 @@
     "quests": [],
     "skills": []
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Bank deposit box",
       "display": "Empty backpack and worn equipment (there is a bank deposit box nearby)",
       "image": "https://runescape.wiki/images/thumb/Bank_deposit_box_%28Common%29.png/100px-Bank_deposit_box_%28Common%29.png?b73a4"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Invitation box",
+      "display": "Invitation box or Skeletal horror Teleport or Fort Forinthry lodestone",
+      "image": "https://runescape.wiki/images/Invitation_box_detail.png?1f8e1"
+    },
+    {
+      "name": "Chest (Temporal)",
+      "display": "Bonus: having all non-elite skills at level 90+ will allow access to all temporal chests in subsequent playthrough. Individual chests scale up in levels of 10 beginning with level 10.",
+      "image": "https://runescape.wiki/images/thumb/Temporal_chest.png/100px-Temporal_chest.png?72458"
     }
   ],
   "kills": [

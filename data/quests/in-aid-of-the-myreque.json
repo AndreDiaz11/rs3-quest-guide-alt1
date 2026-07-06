@@ -3,16 +3,20 @@
   "title": "In Aid of the Myreque",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.812Z",
+  "guideLastUpdated": "2026-07-06T20:30:55.572Z",
   "icon": "https://runescape.wiki/images/In_Aid_of_the_Myreque_icon.png",
+  "entityIcon": null,
   "series": "Myreque",
+  "seriesNth": "4",
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "60-69",
   "difficulty": "Intermediate",
   "length": "Long",
   "releaseDate": "22 March 2006",
+  "area": "Canifis",
   "startPoint": {
     "en": "Talk to Veliaf in the Myreque Hideout, beneath the pub in Canifis. (via )",
     "es": "Habla con Veliaf en el Myreque Hideout, bajo el pub de Canifis. (via)"
@@ -63,6 +67,17 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "Shades of Mort'ton",
+      "children": [
+        {
+          "title": "Ability to enter Morytania",
+          "matchTitle": "Morytania"
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Food",
@@ -72,6 +87,43 @@
     {
       "name": "Silver weapon",
       "display": "A silver weapon (excluding silver bolts) and armour to beat several enemies up to level 68",
+      "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Shades of Mort'ton",
+      "display": "Completion of Shades of Mort'ton for access to Razmire Builders' Merchants.",
+      "image": "https://runescape.wiki/images/thumb/Shades_of_Mort%27ton.png/100px-Shades_of_Mort%27ton.png?bcd88"
+    },
+    {
+      "name": "Druid pouch",
+      "display": "A charged druid pouch",
+      "image": "https://runescape.wiki/images/thumb/Druid_pouch_detail.png/100px-Druid_pouch_detail.png?96252"
+    },
+    {
+      "name": "Ring of charos (a)",
+      "display": "50 coins or a ring of charos (a)",
+      "image": "https://runescape.wiki/images/Ring_of_charos_%28a%29_detail.png?0dbd0"
+    },
+    {
+      "name": "Silver weapon",
+      "display": "A second silver weapon to provide to Ivan (not recoverable)",
+      "image": null
+    },
+    {
+      "name": "Steel med helm",
+      "display": "Steel equipment (med helm, chainbody, and platelegs) and food for Ivan (up to 15 pieces of cooked snails, salmon, slimy eel or stew). This is only needed for lower level players, as the enemies you have to protect Ivan from mainly focus their attacks on the player. (not recoverable)",
+      "image": "https://runescape.wiki/images/thumb/Steel_med_helm_detail.png/100px-Steel_med_helm_detail.png?bfaba"
+    },
+    {
+      "name": "Guthix balance",
+      "display": "1–2 Guthix balance potions for the journey.",
+      "image": "https://runescape.wiki/images/thumb/Guthix_balance_%281%29_detail.png/100px-Guthix_balance_%281%29_detail.png?f0a15"
+    },
+    {
+      "name": "Boss portal (War's Retreat)",
+      "display": "Attuning the boss portal from War's Retreat to the Barrows Brothers provides an easy teleport to a bank chest and a way past Mort Myre Swamp.",
       "image": null
     }
   ],

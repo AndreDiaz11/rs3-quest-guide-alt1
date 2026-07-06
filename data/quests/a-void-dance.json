@@ -3,16 +3,20 @@
   "title": "A Void Dance",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:02.788Z",
+  "guideLastUpdated": "2026-07-06T20:29:50.330Z",
   "icon": "https://runescape.wiki/images/A_Void_Dance_icon.png",
+  "entityIcon": "https://runescape.wiki/images/A_Void_Dance_entity_icon.png?db8b6",
   "series": "Void Knight",
+  "seriesNth": "2",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "110-119",
   "difficulty": "Experienced",
   "length": "Long",
   "releaseDate": "10 August 2010",
+  "area": "Port Sarim",
   "startPoint": {
     "en": "Speak to Commodore Tyr at the Void Knights' Outpost, accessible from the squire at Port Sarim docks.",
     "es": "Habla con Commodore Tyr en el Void Knights' Outpost, accesible desde el squire de los muelles de Port Sarim."
@@ -74,6 +78,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Commorb",
@@ -94,6 +99,18 @@
       "name": "16 free inventory spaces are needed for a section of the quest",
       "display": "16 free inventory spaces are needed for a section of the quest",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Explorer's ring",
+      "display": "Explorer's ring, skills necklace, Falador teleport tablet, or access to the Falador lodestone.",
+      "image": null
+    },
+    {
+      "name": "Magic",
+      "display": "Good combat weapon (preferably magic) and food (lobsters or higher) (food is optional if one is using ice magic and/or Soul Split against the boss)",
+      "image": "https://runescape.wiki/images/Magic-icon.png?60d6d"
     }
   ],
   "kills": [

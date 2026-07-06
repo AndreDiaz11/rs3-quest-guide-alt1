@@ -3,16 +3,20 @@
   "title": "Royal Trouble",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:06.609Z",
+  "guideLastUpdated": "2026-07-06T20:31:31.920Z",
   "icon": "https://runescape.wiki/images/Royal_Trouble_icon.png",
+  "entityIcon": null,
   "series": "Fremennik",
+  "seriesNth": "5",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "60-69",
   "difficulty": "Experienced",
   "length": "Medium to Long",
   "releaseDate": "22 May 2006",
+  "area": "Fremennik Isles",
   "startPoint": {
     "en": "Talk to Advisor Ghrim in the castle of Miscellania. (via )",
     "es": "Habla con Advisor Ghrim en el castillo de Miscellania. (vía)"
@@ -36,13 +40,10 @@
       {
         "skill": "Slayer",
         "level": 40
-      },
-      {
-        "skill": "Prayer",
-        "level": 43
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Coal",
@@ -53,6 +54,28 @@
       "name": "Rope",
       "display": "Two rope (obtainable during quest)",
       "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Prayer",
+      "display": "43 Prayer might be useful for the final fight",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Ring of Wealth",
+      "display": "A ring of Wealth, ring of Fortune or Luck of the Dwarves to teleport to Miscellania",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_Wealth_detail.png/100px-Ring_of_Wealth_detail.png?a5a75"
+    },
+    {
+      "name": "Giant Sea Snake",
+      "display": "Equipment to kill a level 63 Giant Sea Snake",
+      "image": "https://runescape.wiki/images/thumb/Giant_Sea_Snake.png/100px-Giant_Sea_Snake.png?a5c39"
+    },
+    {
+      "name": "Antipoison",
+      "display": "Antipoison potions or some method of combating poison in the final fight",
+      "image": "https://runescape.wiki/images/thumb/Antipoison_%281%29_detail.png/100px-Antipoison_%281%29_detail.png?27b64"
     }
   ],
   "kills": [

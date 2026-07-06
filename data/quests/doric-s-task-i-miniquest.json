@@ -3,16 +3,20 @@
   "title": "Doric's Task I (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.883Z",
+  "guideLastUpdated": "2026-07-06T20:30:21.997Z",
   "icon": "https://runescape.wiki/images/Doric%27s_Task_I_%28miniquest%29_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Doric%27s_Task_I_%28miniquest%29_entity_icon.png?d4bb6",
   "series": "Doric's Tasks",
+  "seriesNth": "1",
   "age": "5",
   "timeline": "adventurer",
   "members": false,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Novice",
   "length": "Very Short",
   "releaseDate": "17 October 2012",
+  "area": "Falador North",
   "startPoint": {
     "en": "Speak to Doric in his hut just outside the gates of Taverley north of Falador.",
     "es": "Habla con Doric en su cabaña, justo a las afueras de las puertas de Taverley, al norte de Falador."
@@ -34,11 +38,19 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Iron bar",
       "display": "4 iron bars or an iron full helm and 2 iron bars",
       "image": "https://runescape.wiki/images/thumb/Iron_bar_detail.png/100px-Iron_bar_detail.png?2c5a5"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Falador lodestone",
+      "display": "Activated Falador lodestone",
+      "image": "https://runescape.wiki/images/Falador_lodestone_icon.png?3315a"
     }
   ],
   "kills": [

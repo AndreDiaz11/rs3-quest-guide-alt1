@@ -3,16 +3,20 @@
   "title": "Haunted Mine",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.555Z",
+  "guideLastUpdated": "2026-07-06T20:30:47.158Z",
   "icon": "https://runescape.wiki/images/Haunted_Mine_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "ambiguous",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "60-69",
   "difficulty": "Experienced",
   "length": "Long",
   "releaseDate": "21 December 2004",
+  "area": "Morytania",
   "startPoint": {
     "en": "Talk to the zealot at the entrance of the Abandoned Mine in south Morytania.",
     "es": "Habla con el fanático en la entrada de la Abandoned Mine, al sur de Morytania."
@@ -35,7 +39,42 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [],
+  "recommended": [
+    {
+      "name": "Food",
+      "display": "Food and combat equipment",
+      "image": null
+    },
+    {
+      "name": "Ball of wool",
+      "display": "Balls of wool for extra salve amulets",
+      "image": "https://runescape.wiki/images/thumb/Ball_of_wool_detail.png/100px-Ball_of_wool_detail.png?22b70"
+    },
+    {
+      "name": "Burgh de Rott",
+      "display": "Methods to teleport to Burgh de Rott",
+      "image": "https://runescape.wiki/images/thumb/Burgh_de_Rott.png/100px-Burgh_de_Rott.png?17e4d",
+      "children": [
+        {
+          "name": "Drakan's medallion",
+          "display": "Drakan's medallion (requires The Branches of Darkmeyer) or",
+          "image": "https://runescape.wiki/images/thumb/Drakan%27s_medallion_detail.png/100px-Drakan%27s_medallion_detail.png?b3c9a"
+        },
+        {
+          "name": "Games necklace",
+          "display": "Games necklace (requires The Darkness of Hallowvale and 500 Companions levels from Temple Trekking) or",
+          "image": "https://runescape.wiki/images/thumb/Games_necklace_%281%29_detail.png/100px-Games_necklace_%281%29_detail.png?96751"
+        },
+        {
+          "name": "Nature Grotto",
+          "display": "Quick-travel to the Nature Grotto for easier access to the town, if you have reached 100 total levels in Temple Trekking",
+          "image": "https://runescape.wiki/images/thumb/Nature_Grotto_%28interior%29.png/100px-Nature_Grotto_%28interior%29.png?321e5"
+        }
+      ]
+    }
+  ],
   "kills": [
     "Treus Dayth (Level 63)"
   ],

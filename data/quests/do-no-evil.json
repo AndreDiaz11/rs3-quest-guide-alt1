@@ -3,16 +3,20 @@
   "title": "Do No Evil",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.873Z",
+  "guideLastUpdated": "2026-07-06T20:30:21.351Z",
   "icon": "https://runescape.wiki/images/Do_No_Evil_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Do_No_Evil_entity_icon.png?fbf70",
   "series": "Desert",
+  "seriesNth": "8",
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "100-109",
   "difficulty": "Master",
   "length": "Very Long",
   "releaseDate": "1 December 2010",
+  "area": "Kharidian Desert",
   "startPoint": {
     "en": "Speak with Leela and Senliten in Senliten's tomb.",
     "es": "Habla con Leela y Senliten en la tumba de Senliten."
@@ -195,17 +199,10 @@
       {
         "skill": "Thieving",
         "level": 70
-      },
-      {
-        "skill": "Magic",
-        "level": 64
-      },
-      {
-        "skill": "combat level",
-        "level": 100
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Banana",
@@ -316,6 +313,68 @@
       "name": "Coins",
       "display": "At least 1,000 coins (11,000+ recommended)",
       "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Desert amulet 2",
+      "display": "Desert amulet 2 for unlimited teleports to Nardah",
+      "image": "https://runescape.wiki/images/thumb/Desert_amulet_2_detail.png/100px-Desert_amulet_2_detail.png?3b61e"
+    },
+    {
+      "name": "Pollnivneach Tablet",
+      "display": "Pollnivneach Tablet, master constructor's outfit teleport to Pollnivneach house portal, or Slayer master cape teleport to Sumona for transportation to Pollnivneach",
+      "image": null
+    },
+    {
+      "name": "Enlightened Amulet",
+      "display": "Enlightened Amulet for Desert Bandit Camp Teleport allowing quick access to the Monkey Colony",
+      "image": null
+    },
+    {
+      "name": "Pharaoh's Sceptre",
+      "display": "Pharaoh's Sceptre or Sceptre of the Gods for quick access to Sophanem by Jalsavrah teleport",
+      "image": null
+    },
+    {
+      "name": "Portable fairy ring",
+      "display": "Portable fairy ring or access to fairy ring Network (Requires A Fairy Tale II - Cure a Queen or A Fairy Tale III - Battle at Ork's Rift for use without a lunar staff or dramen staff)",
+      "image": "https://runescape.wiki/images/thumb/Portable_fairy_ring_%28inactive%29_detail.png/100px-Portable_fairy_ring_%28inactive%29_detail.png?f96cd"
+    },
+    {
+      "name": "TokKul-Zo",
+      "display": "TokKul-Zo and a ninja monkey greegree (small) for transportation to Ape Atoll or Ape Atoll Teleport (64 Magic)",
+      "image": "https://runescape.wiki/images/thumb/TokKul-Zo_detail.png/100px-TokKul-Zo_detail.png?1b81a"
+    },
+    {
+      "name": "Explorer's ring",
+      "display": "Explorer's ring to restore Energy or Endurance relic power for unlimited Energy while delivering chimp ice",
+      "image": null
+    },
+    {
+      "name": "Waterskin",
+      "display": "Waterskins or an enchanted water tiara to survive the desert heat. Completing the Crocodile Tears quest grants immunity against desert heat.",
+      "image": "https://runescape.wiki/images/thumb/Waterskin_detail.png/100px-Waterskin_detail.png?f509f"
+    },
+    {
+      "name": "Eagles' Peak",
+      "display": "Completing the Eagles' Peak quest unlocks the eagle transport system which is a viable method of travelling.",
+      "image": "https://runescape.wiki/images/thumb/Eagles%27_Peak_quest.png/100px-Eagles%27_Peak_quest.png?a9034"
+    },
+    {
+      "name": "Combat level",
+      "display": "100 combat level",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Armour and food",
+      "display": "Armour and food",
+      "image": null
+    },
+    {
+      "name": "Antipoison",
+      "display": "Antipoisons",
+      "image": "https://runescape.wiki/images/thumb/Antipoison_%281%29_detail.png/100px-Antipoison_%281%29_detail.png?27b64"
     }
   ],
   "kills": [

@@ -3,16 +3,20 @@
   "title": "Quiet Before the Swarm",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:06.102Z",
+  "guideLastUpdated": "2026-07-06T20:31:23.041Z",
   "icon": "https://runescape.wiki/images/Quiet_Before_the_Swarm_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Quiet_Before_the_Swarm_entity_icon.png?afa5d",
   "series": "Void Knight",
+  "seriesNth": "1",
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "50-59",
   "difficulty": "Intermediate",
   "length": "Medium to Long",
   "releaseDate": "24 June 2010",
+  "area": "Falador Park",
   "startPoint": {
     "en": "Speak to Sir Tiffy in Falador Park.",
     "es": "Habla con Sir Tiffy en Falador Park."
@@ -49,7 +53,30 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "Complete a Pest Control minigame",
+      "matchTitle": "Pest Control"
+    }
+  ],
   "items": [],
+  "recommended": [
+    {
+      "name": "Void Knights' Outpost",
+      "display": "Quick method of travelling to Void Knights' Outpost, e.g. Void familiar (with Void scrolls (Call to Arms)), or to Port Sarim via the Captain's log, or Explorer's ring 3 or 4.",
+      "image": "https://runescape.wiki/images/thumb/Void_Knights%27_Outpost_full.png/100px-Void_Knights%27_Outpost_full.png?790dd"
+    },
+    {
+      "name": "Falador teleport",
+      "display": "Falador teleport runes (1 law rune, 1 water rune, 3 air runes) or tablet or teleport to the Falador lodestone",
+      "image": null
+    },
+    {
+      "name": "Have no items equipped or in your inventory (You will be required to bank everything during the quest.)",
+      "display": "Have no items equipped or in your inventory (You will be required to bank everything during the quest.)",
+      "image": null
+    }
+  ],
   "kills": [
     "Torcher (level 45) with no food or prayer (out of body, you cannot die)",
     "Shifter (level 60) with no food or prayer (out of body, you cannot die)"

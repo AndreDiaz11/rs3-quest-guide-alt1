@@ -3,16 +3,20 @@
   "title": "Evil Dave's Big Day Out",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.177Z",
+  "guideLastUpdated": "2026-07-06T20:30:34.188Z",
   "icon": "https://runescape.wiki/images/Evil_Dave%27s_Big_Day_Out_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Evil_Dave%27s_Big_Day_Out_entity_icon.png?944b8",
   "series": null,
+  "seriesNth": null,
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Intermediate",
   "length": "Medium",
   "releaseDate": "27 November 2017",
+  "area": "Edgeville",
   "startPoint": {
     "en": "Talk to Evil Dave in his Basement of Doom in Edgeville. (via )",
     "es": "Habla con Evil Dave en su Basement of Doom en Edgeville. (via)"
@@ -66,6 +70,75 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "Dishonour among Thieves",
+      "children": [
+        {
+          "title": "Hazeel Cult"
+        },
+        {
+          "title": "Missing, Presumed Death",
+          "children": [
+            {
+              "title": "Koschei's Troubles (miniquest)…",
+              "matchTitle": "Koschei's Troubles (miniquest)"
+            },
+            {
+              "title": "The Chosen Commander…",
+              "matchTitle": "The Chosen Commander"
+            },
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            },
+            {
+              "title": "The World Wakes…",
+              "matchTitle": "The World Wakes"
+            },
+            {
+              "title": "The Death of Chivalry…",
+              "matchTitle": "The Death of Chivalry"
+            }
+          ]
+        },
+        {
+          "title": "Ability to enter Morytania",
+          "matchTitle": "Morytania"
+        },
+        {
+          "title": "Nomad's Requiem",
+          "children": [
+            {
+              "title": "King's Ransom…",
+              "matchTitle": "King's Ransom"
+            },
+            {
+              "title": "Complete the Knight Waves in Camelot",
+              "matchTitle": "Knight Waves"
+            },
+            {
+              "title": "Complete the Soul Wars tutorial",
+              "matchTitle": "Soul Wars"
+            }
+          ]
+        },
+        {
+          "title": "Nadir (saga)",
+          "children": [
+            {
+              "title": "Find and free Skaldrun from the frozen floors in Daemonheim",
+              "matchTitle": "Skaldrun"
+            },
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Backpack",
@@ -78,6 +151,7 @@
       "image": null
     }
   ],
+  "recommended": [],
   "kills": [
     "None"
   ],

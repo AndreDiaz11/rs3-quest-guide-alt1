@@ -3,16 +3,20 @@
   "title": "Desperate Creatures",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.689Z",
+  "guideLastUpdated": "2026-07-06T20:30:17.702Z",
   "icon": "https://runescape.wiki/images/Desperate_Creatures_icon.png",
+  "entityIcon": null,
   "series": "The Elder God Wars",
+  "seriesNth": "5",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "None",
   "difficulty": "Intermediate",
   "length": "Short",
   "releaseDate": "21 September 2020",
+  "area": "Burthorpe",
   "startPoint": {
     "en": "Speak to the Curator north of the Burthorpe lodestone.",
     "es": "Habla con el Curator al norte de la piedra vía de Burthorpe."
@@ -41,7 +45,35 @@
     ],
     "skills": []
   },
+  "followsEvents": [],
   "items": [],
+  "recommended": [
+    {
+      "name": "Burthorpe lodestone",
+      "display": "Activated Burthorpe lodestone and Anachronia lodestone",
+      "image": "https://runescape.wiki/images/Burthorpe_lodestone_icon.png?a5295"
+    },
+    {
+      "name": "Anachronia",
+      "display": "Travelling to east of Anachronia near Moksha ritual site with Orthen teleportation device if completed Know Thy Measure mystery",
+      "image": "https://runescape.wiki/images/thumb/Anachronia.png/100px-Anachronia.png?0da28"
+    },
+    {
+      "name": "Rex Matriarchs",
+      "display": "Travelling to Rex Matriarchs by using the War's Retreat boss portal or Max Guild combat portal",
+      "image": "https://runescape.wiki/images/thumb/New_Boss_-_Rex_Matriarch-_Osseous_%281%29_update_image.png/100px-New_Boss_-_Rex_Matriarch-_Osseous_%281%29_update_image.png?68de6"
+    },
+    {
+      "name": "Slayer cape",
+      "display": "Slayer cape for fast teleports to Spria and Laniakea",
+      "image": "https://runescape.wiki/images/thumb/Slayer_cape_detail.png/100px-Slayer_cape_detail.png?ed36b"
+    },
+    {
+      "name": "Eastern Anachronia Teleport",
+      "display": "Eastern Anachronia Teleport and runes to cast it, or the Eastern Anachronia teleport tablet",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
+    }
+  ],
   "kills": [
     "None"
   ],

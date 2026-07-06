@@ -3,16 +3,20 @@
   "title": "While Guthix Sleeps",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.512Z",
+  "guideLastUpdated": "2026-07-06T20:32:18.028Z",
   "icon": "https://runescape.wiki/images/While_Guthix_Sleeps_icon.png",
+  "entityIcon": null,
   "series": "Mahjarrat Mysteries",
+  "seriesNth": "15",
   "age": "5",
   "timeline": "mythic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "110-119",
   "difficulty": "Grandmaster",
   "length": "Very, Very Long",
   "releaseDate": "26 November 2008",
+  "area": "Kandarin North",
   "startPoint": {
     "en": "Talk to Radimus Erkle in the Legends' Guild, which is located in the north-east of Ardougne.",
     "es": "Habla con Radimus Erkle en el Legends' Guild, que está ubicado en el noreste de Ardougne."
@@ -179,6 +183,23 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "Nature Spirit",
+      "children": [
+        {
+          "title": "Priest in Peril"
+        },
+        {
+          "title": "The Restless Ghost"
+        },
+        {
+          "title": "Ability to enter Morytania",
+          "matchTitle": "Morytania"
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Sapphire lantern (lit)",
@@ -251,6 +272,92 @@
       "name": "Snapdragon seed",
       "display": "Either a snapdragon seed or 100 coins to buy one from Thaerisk",
       "image": "https://runescape.wiki/images/thumb/Snapdragon_seed_detail.png/100px-Snapdragon_seed_detail.png?9b685"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Nature Spirit",
+      "display": "Completion of Nature Spirit for access to druid pouch or ouroboros pouch; alternatively, bring the required ingredients for the statue",
+      "image": "https://runescape.wiki/images/thumb/Nature_Spirit.png/100px-Nature_Spirit.png?60319"
+    },
+    {
+      "name": "Burthorpe lodestone",
+      "display": "Activated Burthorpe, Canifis, Edgeville, Falador, Karamja, Oo'glog, Port Sarim, Seers' Village, Taverley, Varrock, Ardougne and Yanille lodestone",
+      "image": "https://runescape.wiki/images/Burthorpe_lodestone_icon.png?a5295"
+    },
+    {
+      "name": "Dramen staff",
+      "display": "A dramen or lunar staff, unless you have completed A Fairy Tale III - Battle at Ork's Rift",
+      "image": "https://runescape.wiki/images/thumb/Dramen_staff_detail.png/100px-Dramen_staff_detail.png?8114b",
+      "children": [
+        {
+          "name": "Portable fairy ring",
+          "display": "And/or Portable fairy ring",
+          "image": "https://runescape.wiki/images/thumb/Portable_fairy_ring_%28inactive%29_detail.png/100px-Portable_fairy_ring_%28inactive%29_detail.png?f96cd"
+        }
+      ]
+    },
+    {
+      "name": "Cape of legends",
+      "display": "A cape of legends for instant teleport to the Legends' Guild",
+      "image": "https://runescape.wiki/images/thumb/Cape_of_legends_detail.png/100px-Cape_of_legends_detail.png?6e944"
+    },
+    {
+      "name": "Falador teleport (item)",
+      "display": "Multiple Falador teletabs or ring of respawn for continual return to Falador",
+      "image": "https://runescape.wiki/images/thumb/Falador_teleport_%28item%29_detail.png/100px-Falador_teleport_%28item%29_detail.png?0be5d"
+    },
+    {
+      "name": "Games necklace",
+      "display": "Games necklace",
+      "image": "https://runescape.wiki/images/thumb/Games_necklace_%281%29_detail.png/100px-Games_necklace_%281%29_detail.png?96751"
+    },
+    {
+      "name": "Ardougne Teleport",
+      "display": "Ardougne Teleport or Ardougne cloak",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
+    },
+    {
+      "name": "Watchtower Teleport",
+      "display": "Watchtower Teleport",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
+    },
+    {
+      "name": "NPC Contact",
+      "display": "Runes to cast the NPC Contact spell three additional times (6 air runes, 3 astral runes, and 3 cosmic runes)",
+      "image": "https://runescape.wiki/images/thumb/NPC_Contact.gif/100px-NPC_Contact.gif?4df7f"
+    },
+    {
+      "name": "Super energy",
+      "display": "Some super energy potions",
+      "image": "https://runescape.wiki/images/thumb/Super_energy_%281%29_detail.png/100px-Super_energy_%281%29_detail.png?5317a"
+    },
+    {
+      "name": "Elite black armour",
+      "display": "A set of elite black armour or Black Knight captain's armour to save time",
+      "image": null,
+      "children": [
+        {
+          "name": "Otherwise, obtainable during the quest requiring you to kill guards until you collect each piece",
+          "display": "Otherwise, obtainable during the quest requiring you to kill guards until you collect each piece",
+          "image": null
+        },
+        {
+          "name": "The Death of Chivalry",
+          "display": "Black Knight captain's armour is obtained early into the The Death of Chivalry quest by searching a suit of armour shortly after accepting the quest (a cosmetic override of the armour can be unlocked using the Skull of Remembrance after the quest)",
+          "image": "https://runescape.wiki/images/thumb/The_Death_of_Chivalry.png/100px-The_Death_of_Chivalry.png?7ae49"
+        }
+      ]
+    },
+    {
+      "name": "Ring of life",
+      "display": "Ring of life",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_life_detail.png/100px-Ring_of_life_detail.png?20de5"
+    },
+    {
+      "name": "Guthix balance",
+      "display": "Ingredients for a Guthix balance potion (clean harralander, red spiders' eggs, garlic, and silver dust) may be needed for the statue.",
+      "image": "https://runescape.wiki/images/thumb/Guthix_balance_%281%29_detail.png/100px-Guthix_balance_%281%29_detail.png?f0a15"
     }
   ],
   "kills": [

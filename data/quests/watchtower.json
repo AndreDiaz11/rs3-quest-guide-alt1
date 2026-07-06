@@ -3,16 +3,20 @@
   "title": "Watchtower",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.441Z",
+  "guideLastUpdated": "2026-07-06T20:32:16.368Z",
   "icon": "https://runescape.wiki/images/Watchtower_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "ambiguous",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "50-59",
   "difficulty": "Intermediate",
   "length": "Long",
   "releaseDate": "7 May 2003",
+  "area": "Yanille",
   "startPoint": {
     "en": "Speak to the Watchtower Wizard in the Watchtower, just north-west of Yanille. (via )",
     "es": "Habla con el Watchtower Wizard en el Watchtower, justo al noroeste de Yanille. (via)"
@@ -42,6 +46,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Coins",
@@ -97,6 +102,33 @@
       "name": "Cave nightshade",
       "display": "2 Cave nightshade (obtainable during quest)",
       "image": "https://runescape.wiki/images/thumb/Cave_nightshade_detail.png/100px-Cave_nightshade_detail.png?40aa4"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Yanille lodestone",
+      "display": "Activated Yanille lodestone or house teleports if your house is in Yanille",
+      "image": "https://runescape.wiki/images/Yanille_lodestone_icon.png?c9651"
+    },
+    {
+      "name": "Ring of duelling",
+      "display": "A ring of duelling to teleport to Castle Wars",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_duelling_detail.png/100px-Ring_of_duelling_detail.png?0ab65"
+    },
+    {
+      "name": "Super energy",
+      "display": "Super energy potions",
+      "image": "https://runescape.wiki/images/thumb/Super_energy_%281%29_detail.png/100px-Super_energy_%281%29_detail.png?5317a"
+    },
+    {
+      "name": "Explorer's ring",
+      "display": "Explorer's ring",
+      "image": null
+    },
+    {
+      "name": "Modified shaman's headdress",
+      "display": "A modified shaman's headdress for easy teleports into Gu'Tanoth",
+      "image": "https://runescape.wiki/images/thumb/Modified_shaman%27s_headdress_chathead.png/100px-Modified_shaman%27s_headdress_chathead.png?5ffc4"
     }
   ],
   "kills": [

@@ -3,16 +3,20 @@
   "title": "Heroes' Quest",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.682Z",
+  "guideLastUpdated": "2026-07-06T20:30:51.034Z",
   "icon": "https://runescape.wiki/images/Heroes%27_Quest_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Heroes%27_Quest_entity_icon.png?e4213",
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "70-79",
   "difficulty": "Experienced",
   "length": "Medium",
   "releaseDate": "27 February 2002",
+  "area": "Burthorpe",
   "startPoint": {
     "en": "Talk to Achietties at the entrance to the Heroes' Guild in Burthorpe.",
     "es": "Habla con Achietties en la entrada del Heroes' Guild en Burthorpe."
@@ -50,13 +54,10 @@
       {
         "skill": "Defence",
         "level": 25
-      },
-      {
-        "skill": "Agility",
-        "level": 70
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Ice gloves",
@@ -123,6 +124,23 @@
           "image": null
         }
       ]
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Burthorpe lodestone",
+      "display": "Activated Burthorpe, Karamja, Taverley (or Catherby) and Varrock lodestones",
+      "image": "https://runescape.wiki/images/Burthorpe_lodestone_icon.png?a5295"
+    },
+    {
+      "name": "Law altar teleport",
+      "display": "Law altar teleport for faster access to Entrana",
+      "image": "https://runescape.wiki/images/thumb/Law_altar_teleport_detail.png/100px-Law_altar_teleport_detail.png?76f7b"
+    },
+    {
+      "name": "Dusty key",
+      "display": "Dusty key (or level 70 Agility; can be obtained during quest; not required if fishing for lava eels in the Lava Maze) or a Mask of the Black Demon to teleport to Taverley Dungeon",
+      "image": "https://runescape.wiki/images/thumb/Dusty_key_detail.png/100px-Dusty_key_detail.png?bf205"
     }
   ],
   "kills": [

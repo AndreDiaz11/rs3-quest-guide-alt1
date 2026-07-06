@@ -3,16 +3,20 @@
   "title": "Duck Quest",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.002Z",
+  "guideLastUpdated": "2026-07-06T20:30:28.654Z",
   "icon": "https://runescape.wiki/images/thumb/Duck_Quest_icon.png/50px-Duck_Quest_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Duck_Quest_entity_icon.png?6ac24",
   "series": null,
+  "seriesNth": null,
   "age": "ambiguous",
   "timeline": "Pathfinder",
   "members": false,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Novice",
   "length": "Short to Medium",
   "releaseDate": "14 April 2025",
+  "area": "Draynor Village",
   "startPoint": {
     "en": "Investigate a strange fishing spot on the riverbank south of Draynor Village.",
     "es": "Investiga un extraño punto de pesca en la orilla del río al sur de Draynor Village."
@@ -21,6 +25,7 @@
     "quests": [],
     "skills": []
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Duck food",
@@ -31,6 +36,13 @@
       "name": "Vial of water",
       "display": "1 vial of water",
       "image": "https://runescape.wiki/images/thumb/Vial_of_water_detail.png/100px-Vial_of_water_detail.png?d561e"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Draynor lodestone",
+      "display": "Activated Draynor, Falador and Varrock lodestones",
+      "image": "https://runescape.wiki/images/Draynor_lodestone_icon.png?90767"
     }
   ],
   "kills": [

@@ -3,16 +3,20 @@
   "title": "The Curse of Arrav",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.483Z",
+  "guideLastUpdated": "2026-07-06T20:31:52.479Z",
   "icon": "https://runescape.wiki/images/The_Curse_of_Arrav_icon.png",
+  "entityIcon": null,
   "series": "Mahjarrat Mysteries",
+  "seriesNth": "13",
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "90-99",
   "difficulty": "Master",
   "length": "Medium to Long",
   "releaseDate": "21 July 2009",
+  "area": "Kharidian Desert",
   "startPoint": {
     "en": "Talk to Ali the Wise in Nardah.",
     "es": "Habla con Ali the Wise en Nardah."
@@ -159,6 +163,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Dwellberries",
@@ -189,6 +194,50 @@
       "name": "Equipment",
       "display": "Combat equipment to survive against a level 91 monster",
       "image": "https://runescape.wiki/images/thumb/Worn_equipment_interface.png/100px-Worn_equipment_interface.png?b24be"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Desert amulet 2",
+      "display": "Desert amulet 2 or higher for unlimited teleports to Nardah",
+      "image": "https://runescape.wiki/images/thumb/Desert_amulet_2_detail.png/100px-Desert_amulet_2_detail.png?3b61e"
+    },
+    {
+      "name": "Amulet of glory",
+      "display": "Amulet of glory (to quickly get to the start point)",
+      "image": null
+    },
+    {
+      "name": "Dramen staff",
+      "display": "Dramen or lunar staff if not done A Fairy Tale III - Battle at Ork's Rift; or another way of reaching Pollnivneach and Nardah",
+      "image": "https://runescape.wiki/images/thumb/Dramen_staff_detail.png/100px-Dramen_staff_detail.png?8114b",
+      "children": [
+        {
+          "name": "Ring of charos (a)",
+          "display": "Ring of charos (a) - reduced costs for magic carpet",
+          "image": "https://runescape.wiki/images/Ring_of_charos_%28a%29_detail.png?0dbd0"
+        }
+      ]
+    },
+    {
+      "name": "Desert survival gear",
+      "display": "Desert survival gear",
+      "image": null
+    },
+    {
+      "name": "Trollheim Teleport",
+      "display": "Trollheim Teleport or climbing boots for mountain pathways",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
+    },
+    {
+      "name": "Salve amulet (e)",
+      "display": "Salve amulet (e) - bonus enhancement while fighting Arrav",
+      "image": "https://runescape.wiki/images/thumb/Salve_amulet_%28e%29_detail.png/100px-Salve_amulet_%28e%29_detail.png?95d9e"
+    },
+    {
+      "name": "Varrock Teleport",
+      "display": "Varrock Teleport runes (3 air runes, 1 fire rune and 1 law rune) or a Varrock teleport tablet for quicker access to Captain Rovin",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
     }
   ],
   "kills": [

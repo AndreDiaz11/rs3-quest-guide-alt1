@@ -3,16 +3,20 @@
   "title": "Legends' Quest",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.041Z",
+  "guideLastUpdated": "2026-07-06T20:31:01.531Z",
   "icon": "https://runescape.wiki/images/thumb/Legends%27_Quest_icon.png/50px-Legends%27_Quest_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "80-89",
   "difficulty": "Master",
   "length": "Long to Very Long",
   "releaseDate": "20 August 2003",
+  "area": "Kandarin North",
   "startPoint": {
     "en": "Talk to the guards just outside of the Legends' Guild.",
     "es": "Habla con los guardias justo fuera del Legends' Guild."
@@ -78,21 +82,10 @@
       {
         "skill": "quest points",
         "level": 107
-      },
-      {
-        "skill": "Prayer",
-        "level": 43
-      },
-      {
-        "skill": "Ranged",
-        "level": 50
-      },
-      {
-        "skill": "combat level",
-        "level": 100
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Rope",
@@ -180,6 +173,55 @@
           "image": null
         }
       ]
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Prayer",
+      "display": "43 Prayer (highly recommended for Protect from Melee)",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Ranged",
+      "display": "50 Ranged (if wielding holy water against Nezikchened)",
+      "image": "https://runescape.wiki/images/Ranged-icon.png?310aa"
+    },
+    {
+      "name": "Combat level",
+      "display": "100 combat level",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Bittercap mushroom",
+      "display": "5 bittercap mushrooms to activate fairy ring CJS in the Kharazi Jungle",
+      "image": "https://runescape.wiki/images/thumb/Bittercap_mushroom_detail.png/100px-Bittercap_mushroom_detail.png?000ce",
+      "children": [
+        {
+          "name": "Portable fairy ring",
+          "display": "Portable fairy ring for quick access to the jungle if you repair the fairy ring",
+          "image": "https://runescape.wiki/images/thumb/Portable_fairy_ring_%28inactive%29_detail.png/100px-Portable_fairy_ring_%28inactive%29_detail.png?f96cd"
+        }
+      ]
+    },
+    {
+      "name": "Weapons",
+      "display": "Weapon, armour, food and several prayer potions",
+      "image": "https://runescape.wiki/images/thumb/Lotsofweapons.jpg/100px-Lotsofweapons.jpg?2d68e"
+    },
+    {
+      "name": "Vial",
+      "display": "1-10 empty vials to be enchanted during the quest.",
+      "image": "https://runescape.wiki/images/thumb/Vial_detail.png/100px-Vial_detail.png?82ee9"
+    },
+    {
+      "name": "Silverlight",
+      "display": "Silverlight or Darklight to weaken the demon",
+      "image": "https://runescape.wiki/images/thumb/Silverlight_detail.png/100px-Silverlight_detail.png?272d9"
+    },
+    {
+      "name": "Beasts of Burden",
+      "display": "A Beast of Burden to carry more items and save trips",
+      "image": "https://runescape.wiki/images/thumb/Pack_yak.png/100px-Pack_yak.png?67f15"
     }
   ],
   "kills": [

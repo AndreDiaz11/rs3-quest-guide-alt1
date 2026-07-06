@@ -3,16 +3,20 @@
   "title": "Jungle Potion",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.886Z",
+  "guideLastUpdated": "2026-07-06T20:30:57.255Z",
   "icon": "https://runescape.wiki/images/Jungle_Potion_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "adventurer",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Novice",
   "length": "Short",
   "releaseDate": "23 October 2002",
+  "area": "Karamja",
   "startPoint": {
     "en": "Speak to Trufitus near Tai Bwo Wannai.",
     "es": "Habla con Trufitus cerca de Tai Bwo Wannai."
@@ -26,7 +30,35 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [],
+  "recommended": [
+    {
+      "name": "Karamja lodestone",
+      "display": "Karamja lodestone activated.",
+      "image": "https://runescape.wiki/images/thumb/Karamja_lodestone_icon.png/100px-Karamja_lodestone_icon.png?98499"
+    },
+    {
+      "name": "Tai Bwo Wannai Teleport",
+      "display": "6 Tai Bwo Wannai Teleport scrolls, which teleport you right outside Trufitus Shakaya's house. Use one to arrive and one every time you find a herb.",
+      "image": "https://runescape.wiki/images/thumb/Tai_Bwo_Wannai_Teleport_detail.png/100px-Tai_Bwo_Wannai_Teleport_detail.png?6ce50"
+    },
+    {
+      "name": "Energy potion",
+      "display": "Energy potion, mint cake, explorer's ring, and/or weight-reducing clothing, as you will be doing a lot of running during this quest.",
+      "image": "https://runescape.wiki/images/thumb/Energy_potion_%281%29_detail.png/100px-Energy_potion_%281%29_detail.png?33ea7"
+    },
+    {
+      "name": "Food",
+      "display": "Food",
+      "image": null
+    },
+    {
+      "name": "Antipoison",
+      "display": "Antipoison",
+      "image": "https://runescape.wiki/images/thumb/Antipoison_%281%29_detail.png/100px-Antipoison_%281%29_detail.png?27b64"
+    }
+  ],
   "kills": [
     "Able to defend against level 57 jogres, level 60 wandering warriors, and level 63 Harpie Bug Swarms"
   ],

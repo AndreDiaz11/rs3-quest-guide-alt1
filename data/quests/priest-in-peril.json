@@ -3,16 +3,20 @@
   "title": "Priest in Peril",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:06.046Z",
+  "guideLastUpdated": "2026-07-06T20:31:21.129Z",
   "icon": "https://runescape.wiki/images/Priest_in_Peril_icon.png",
+  "entityIcon": null,
   "series": "Myreque",
+  "seriesNth": "1",
   "age": "5",
   "timeline": "pathfinder",
   "members": false,
+  "voiceOver": false,
   "combatLevel": "30-39",
   "difficulty": "Novice",
   "length": "Medium",
   "releaseDate": "29 June 2004",
+  "area": "Varrock Palace",
   "startPoint": {
     "en": "Speak to King Roald in the Varrock Palace.",
     "es": "Habla con King Roald en el Varrock Palace."
@@ -21,6 +25,7 @@
     "quests": [],
     "skills": []
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Rune essence",
@@ -31,6 +36,28 @@
       "name": "Bucket",
       "display": "A bucket",
       "image": "https://runescape.wiki/images/thumb/Bucket_detail.png/100px-Bucket_detail.png?3d544"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Varrock teleport",
+      "display": "3 or more Varrock teleports",
+      "image": null
+    },
+    {
+      "name": "A familiar to carry any essence that you are unable to fit into your inventory.",
+      "display": "A familiar to carry any essence that you are unable to fit into your inventory.",
+      "image": null
+    },
+    {
+      "name": "Archaeology journal",
+      "display": "The Archaeology journal gained after completing the Archaeology tutorial can teleport you relatively close to the temple, or alternatively using the Fort Forinthry lodestone if unlocked.",
+      "image": "https://runescape.wiki/images/thumb/Archaeology_journal_detail.png/100px-Archaeology_journal_detail.png?9ffe0"
+    },
+    {
+      "name": "Invitation box",
+      "display": "Invitation box to teleport near the temple (requires completion of Missing, Presumed Death).",
+      "image": "https://runescape.wiki/images/Invitation_box_detail.png?1f8e1"
     }
   ],
   "kills": [

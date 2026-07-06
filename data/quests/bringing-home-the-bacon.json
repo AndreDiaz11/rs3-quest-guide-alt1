@@ -3,16 +3,20 @@
   "title": "Bringing Home the Bacon",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.190Z",
+  "guideLastUpdated": "2026-07-06T20:30:02.036Z",
   "icon": "https://runescape.wiki/images/Bringing_Home_the_Bacon_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Bringing_Home_the_Bacon_entity_icon.png?faa37",
   "series": null,
+  "seriesNth": null,
   "age": "ambiguous",
   "timeline": "adventurer",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Novice",
   "length": "Medium to Long",
   "releaseDate": "9 July 2013",
+  "area": "Port Sarim",
   "startPoint": {
     "en": "Talk to Eli Bacon in his pig pen, by the Falador farm, north of Port Sarim.",
     "es": "Habla con Eli Bacon en su pocilga, junto a la granja de Falador, al norte de Port Sarim."
@@ -34,6 +38,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Wheat",
@@ -44,6 +49,57 @@
       "name": "10 backpack spaces",
       "display": "10 backpack spaces",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "East Ardougne",
+      "display": "Methods to get to East Ardougne, Draynor Village, Falador, Lumbridge, and Varrock.",
+      "image": "https://runescape.wiki/images/thumb/East_Ardougne.png/100px-East_Ardougne.png?065f9",
+      "children": [
+        {
+          "name": "Lodestone Network",
+          "display": "Lodestone Network activation",
+          "image": "https://runescape.wiki/images/thumb/Completed_lodestone_network.png/100px-Completed_lodestone_network.png?37852"
+        },
+        {
+          "name": "Explorer's ring 3",
+          "display": "Explorer's ring 3 or 4 (Falador cabbage patch), or skills necklace (Mining Guild)",
+          "image": "https://runescape.wiki/images/thumb/Explorer%27s_ring_3_detail.png/100px-Explorer%27s_ring_3_detail.png?19a1f"
+        },
+        {
+          "name": "Dave's spellbook",
+          "display": "Dave's spellbook to create 'Chipped' Falador teleports",
+          "image": "https://runescape.wiki/images/Dave%27s_spellbook_detail.png?b971b"
+        },
+        {
+          "name": "Amulet of glory",
+          "display": "Amulet of glory (Draynor)",
+          "image": null
+        },
+        {
+          "name": "Earth rune",
+          "display": "1 earth rune, 1 fire rune, 3 water runes, 9 air runes and 5 law runes for fast teleportation to Varrock, Ardougne, Falador and Lumbridge",
+          "image": "https://runescape.wiki/images/thumb/Earth_rune_detail.png/100px-Earth_rune_detail.png?fa918"
+        }
+      ]
+    },
+    {
+      "name": "Construction materials to upgrade the machine after the quest",
+      "display": "Construction materials to upgrade the machine after the quest",
+      "image": null,
+      "children": [
+        {
+          "name": "Oak plank",
+          "display": "Tier two: 3 oak planks, 2 steel bars and at least 3 nails. Requires 44 in each of Summoning, Crafting, and Construction.",
+          "image": "https://runescape.wiki/images/thumb/Oak_plank_detail.png/100px-Oak_plank_detail.png?ce6dc"
+        },
+        {
+          "name": "Teak plank",
+          "display": "Tier three: 3 teak planks, 2 mithril bars, and at least 3 nails. Requires 84 in each of Summoning, Crafting, and Construction.",
+          "image": "https://runescape.wiki/images/thumb/Teak_plank_detail.png/100px-Teak_plank_detail.png?4023d"
+        }
+      ]
     }
   ],
   "kills": [

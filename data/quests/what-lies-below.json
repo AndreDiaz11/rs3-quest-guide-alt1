@@ -3,16 +3,20 @@
   "title": "What Lies Below",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.467Z",
+  "guideLastUpdated": "2026-07-06T20:32:17.021Z",
   "icon": "https://runescape.wiki/images/What_Lies_Below_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "40-49",
   "difficulty": "Intermediate",
   "length": "Short to Medium",
   "releaseDate": "27 March 2007",
+  "area": "Varrock Outskirts",
   "startPoint": {
     "en": "Talk to Rat Burgiss south of Varrock.",
     "es": "Habla con Rat Burgiss, al sur de Varrock."
@@ -23,13 +27,10 @@
       {
         "skill": "Runecrafting",
         "level": 35
-      },
-      {
-        "skill": "Mining",
-        "level": 42
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Bowl",
@@ -45,6 +46,23 @@
       "name": "Chaos altar",
       "display": "Access to the chaos altar (requiring any item that acts as the chaos talisman, for example a wicked hood having consumed the talisman, or travelling through the Abyss)",
       "image": "https://runescape.wiki/images/thumb/Chaos_Altar_inside.png/100px-Chaos_Altar_inside.png?e5826"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Mining",
+      "display": "42 Mining and Enter the Abyss (miniquest) (only if you use the Tunnel of Chaos to get to the chaos altar)",
+      "image": "https://runescape.wiki/images/Mining-icon.png?8cefb"
+    },
+    {
+      "name": "Varrock Teleport",
+      "display": "Varrock Teleports would be useful. Teleport tablets may also be used.",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
+    },
+    {
+      "name": "Varrock lodestone",
+      "display": "Varrock lodestone is very useful as it is just north of Rat Burgiss.",
+      "image": "https://runescape.wiki/images/Varrock_lodestone_icon.png?c25d5"
     }
   ],
   "kills": [

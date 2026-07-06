@@ -3,16 +3,20 @@
   "title": "The Dig Site",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.567Z",
+  "guideLastUpdated": "2026-07-06T20:31:54.122Z",
   "icon": "https://runescape.wiki/images/The_Dig_Site_icon.png",
+  "entityIcon": "https://runescape.wiki/images/The_Dig_Site_entity_icon.png?812ff",
   "series": "Mahjarrat Mysteries",
+  "seriesNth": "4",
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Intermediate",
   "length": "Long",
   "releaseDate": "9 July 2003",
+  "area": "Varrock Outskirts",
   "startPoint": {
     "en": "Talk to an examiner in the Exam Centre in the Archaeology Campus.",
     "es": "Habla con un examinador en el Exam Centre del Archaeology Campus."
@@ -34,6 +38,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Charcoal",
@@ -59,6 +64,13 @@
       "name": "Uncut opal",
       "display": "Uncut/cut opal (an uncut version can be acquired during the quest)",
       "image": "https://runescape.wiki/images/thumb/Uncut_opal_detail.png/100px-Uncut_opal_detail.png?da5e2"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Archaeology journal",
+      "display": "An Archaeology journal from the Archaeology Guild to teleport to the Varrock Dig Site",
+      "image": "https://runescape.wiki/images/thumb/Archaeology_journal_detail.png/100px-Archaeology_journal_detail.png?9ffe0"
     }
   ],
   "kills": [

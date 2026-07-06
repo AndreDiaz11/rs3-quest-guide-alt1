@@ -3,16 +3,20 @@
   "title": "The Light Within",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.830Z",
+  "guideLastUpdated": "2026-07-06T20:32:00.701Z",
   "icon": "https://runescape.wiki/images/The_Light_Within_icon.png",
+  "entityIcon": "https://runescape.wiki/images/The_Light_Within_entity_icon.png?812ff",
   "series": "Sliske's Game",
+  "seriesNth": "10",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "110-119",
   "difficulty": "Grandmaster",
   "length": "Long",
   "releaseDate": "24 August 2015",
+  "area": "Tirannwn",
   "startPoint": {
     "en": "Talk to Eluned in the Ithell district of Prifddinas.",
     "es": "Habla con Eluned en el distrito Ithell de Prifddinas."
@@ -117,6 +121,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Enchanted key (Meeting History)",
@@ -159,6 +164,38 @@
           "image": "https://runescape.wiki/images/thumb/Hoardstalker_ring_%281%29_detail.png/100px-Hoardstalker_ring_%281%29_detail.png?f8d8e"
         }
       ]
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Food",
+      "display": "Food",
+      "image": null
+    },
+    {
+      "name": "Crystal teleport seed",
+      "display": "Crystal teleport seed",
+      "image": "https://runescape.wiki/images/thumb/Crystal_teleport_seed_detail.png/100px-Crystal_teleport_seed_detail.png?d1a6a"
+    },
+    {
+      "name": "Sixth-Age circuit",
+      "display": "The Sixth-Age circuit, modified diviner's headwear, master archaeologist's outfit, or cape of legends for fast travel to Guthix's Cave",
+      "image": "https://runescape.wiki/images/thumb/Sixth-Age_circuit_detail.png/100px-Sixth-Age_circuit_detail.png?7ea06"
+    },
+    {
+      "name": "Games necklace",
+      "display": "Games necklace",
+      "image": "https://runescape.wiki/images/thumb/Games_necklace_%281%29_detail.png/100px-Games_necklace_%281%29_detail.png?96751"
+    },
+    {
+      "name": "Tirannwn quiver 3",
+      "display": "Tirannwn quiver 3 or 4 for quick access to the mushroom patch in Tirannwn",
+      "image": "https://runescape.wiki/images/Tirannwn_quiver_3_detail.png?fb5de"
+    },
+    {
+      "name": "Nature's sentinel outfit",
+      "display": "Nature's sentinel outfit or Grace of the elves properly configured to teleport to the currently active crystal tree (requires 94 Woodcutting to attune)",
+      "image": null
     }
   ],
   "kills": [

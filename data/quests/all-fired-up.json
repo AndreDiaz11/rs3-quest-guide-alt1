@@ -3,16 +3,20 @@
   "title": "All Fired Up",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:02.815Z",
+  "guideLastUpdated": "2026-07-06T20:29:51.270Z",
   "icon": "https://runescape.wiki/images/All_Fired_Up_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Intermediate",
   "length": "Short to Medium",
   "releaseDate": "26 August 2008",
+  "area": "Varrock Palace",
   "startPoint": {
     "en": "Talk to King Roald in the Varrock Palace Throne room.",
     "es": "Habla con King Roald en la sala del trono del Varrock Palace."
@@ -30,11 +34,12 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Firemaking",
       "display": "45 logs of any kind that you have the Firemaking level to use, in 2 sets of 20 and 1 set of 5. The sets have to be of the same kind for the quest.",
-      "image": "https://runescape.wiki/images/thumb/Firemaking_detail.png/100px-Firemaking_detail.png?4c3a6",
+      "image": "https://runescape.wiki/images/Firemaking-icon.png?31d80",
       "children": [
         {
           "name": "Logs",
@@ -52,6 +57,52 @@
           "image": "https://runescape.wiki/images/thumb/All_Fired_Up.png/100px-All_Fired_Up.png?d422e"
         }
       ]
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Invitation box",
+      "display": "Invitation box for quick transportation, if available.",
+      "image": "https://runescape.wiki/images/Invitation_box_detail.png?1f8e1",
+      "children": [
+        {
+          "name": "Skeletal horror Teleport",
+          "display": "Alternatively, the Skeletal horror Teleport, Fort Forinthry lodestone, or Fort Forinthry Teleport scrolls may be used.",
+          "image": "https://runescape.wiki/images/thumb/Bonesack_teleport.gif/100px-Bonesack_teleport.gif?db67e"
+        }
+      ]
+    },
+    {
+      "name": "Hatchets",
+      "display": "Bring the items above in the form of the first 20 logs, a hatchet for cutting the other 20 logs from the normal trees between the beacons, and 5 logs of any type to relight the first beacon, along with the required tinderbox.",
+      "image": null
+    },
+    {
+      "name": "Seer's headband",
+      "display": "Equipping any tier of Seer's headband can speed this already short quest up considerably.",
+      "image": null
+    },
+    {
+      "name": "Weight-reducing clothing",
+      "display": "Weight-reducing clothing can help since carrying the logs will slow you down. Additionally, any tier of Explorer's ring can help recharge run energy.",
+      "image": null
+    },
+    {
+      "name": "Salt-water spring",
+      "display": "You can also use the salt-water spring in Oo'glog or the Anachronia base camp for a temporary and unlimited run energy boost",
+      "image": "https://runescape.wiki/images/thumb/Salt-water_spring_%282%29.png/100px-Salt-water_spring_%282%29.png?6c005",
+      "children": [
+        {
+          "name": "Ogre flask (salt water)",
+          "display": "Or, an Ogre flask (salt water)",
+          "image": "https://runescape.wiki/images/thumb/Ogre_flask_%28salt_water%29_%285%29_detail.png/100px-Ogre_flask_%28salt_water%29_%285%29_detail.png?b3aa0"
+        }
+      ]
+    },
+    {
+      "name": "Varrock Teleport",
+      "display": "Varrock Teleport runes",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
     }
   ],
   "kills": [

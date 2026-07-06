@@ -3,16 +3,20 @@
   "title": "Swan Song",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.168Z",
+  "guideLastUpdated": "2026-07-06T20:31:45.323Z",
   "icon": "https://runescape.wiki/images/Swan_Song_icon.png",
+  "entityIcon": null,
   "series": "Wise Old Man",
+  "seriesNth": "1",
   "age": "ambiguous",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "90-99",
   "difficulty": "Master",
   "length": "Medium to Long",
   "releaseDate": "2 May 2006",
+  "area": "Kandarin North-west",
   "startPoint": {
     "en": "Speak to Herman Caranos at the Piscatoris Fishing Colony.",
     "es": "Habla con Herman Caranos en Piscatoris Fishing Colony."
@@ -46,6 +50,25 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "Garden of Tranquillity",
+      "children": [
+        {
+          "title": "Creature of Fenkenstrain",
+          "children": [
+            {
+              "title": "The Restless Ghost"
+            },
+            {
+              "title": "Ability to enter Morytania",
+              "matchTitle": "Morytania"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Mist rune",
@@ -81,6 +104,28 @@
       "name": "Logs",
       "display": "Logs (can be obtained during quest)",
       "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Eagles' Peak lodestone",
+      "display": "Activated Eagles' Peak (or memory strand teleport), Draynor, Port Sarim and Yanille lodestones",
+      "image": "https://runescape.wiki/images/Eagles%27_Peak_lodestone_icon.png?213d3"
+    },
+    {
+      "name": "Fairy ring",
+      "display": "Access to the fairy rings",
+      "image": "https://runescape.wiki/images/thumb/Fairy_ring.png/100px-Fairy_ring.png?ca33a"
+    },
+    {
+      "name": "Cooking gauntlets",
+      "display": "Cooking gauntlets or Cooking cape (Less chance to burn monkfish)",
+      "image": "https://runescape.wiki/images/thumb/Cooking_gauntlets_detail.png/100px-Cooking_gauntlets_detail.png?6e128"
+    },
+    {
+      "name": "Prayer potion",
+      "display": "Prayer restoration such as prayer potions",
+      "image": "https://runescape.wiki/images/thumb/Prayer_potion_%281%29_detail.png/100px-Prayer_potion_%281%29_detail.png?27704"
     }
   ],
   "kills": [

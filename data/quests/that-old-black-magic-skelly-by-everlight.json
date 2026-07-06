@@ -3,8 +3,9 @@
   "title": "That Old Black Magic: Skelly By Everlight",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.370Z",
+  "guideLastUpdated": "2026-07-06T20:31:49.539Z",
   "icon": "https://runescape.wiki/images/thumb/That_Old_Black_Magic_icon.png/50px-That_Old_Black_Magic_icon.png",
+  "entityIcon": null,
   "length": "Short",
   "startPoint": {
     "en": "Speak to 'No Gums' Murray in the City of Um's bandstand (or Lady Grey if he is not there yet).",
@@ -32,6 +33,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Everlight trumpet",
@@ -66,6 +68,30 @@
               "image": "https://runescape.wiki/images/thumb/Basic_ghostly_ink_detail.png/100px-Basic_ghostly_ink_detail.png?f9b30"
             }
           ]
+        }
+      ]
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Archaeology journal",
+      "display": "Archaeology journal for a quick teleport to the Everlight Dig Site",
+      "image": "https://runescape.wiki/images/thumb/Archaeology_journal_detail.png/100px-Archaeology_journal_detail.png?9ffe0"
+    },
+    {
+      "name": "Underworld Grimoire",
+      "display": "Underworld Grimoire for a quick teleport to the City of Um",
+      "image": null
+    },
+    {
+      "name": "Lesser ensoul material",
+      "display": "Glyphs and focus for lesser ensoul material or lesser communion rituals with 1 Speed I or higher alteration glyph",
+      "image": null,
+      "children": [
+        {
+          "name": "Ectoplasm",
+          "display": "1 ectoplasm, 2 regular ghostly ink, 1 basic ghostly ink at minimum from scratch",
+          "image": "https://runescape.wiki/images/thumb/Ectoplasm_detail.png/100px-Ectoplasm_detail.png?0accf"
         }
       ]
     }

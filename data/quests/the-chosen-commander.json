@@ -3,16 +3,20 @@
   "title": "The Chosen Commander",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.466Z",
+  "guideLastUpdated": "2026-07-06T20:31:52.152Z",
   "icon": "https://runescape.wiki/images/The_Chosen_Commander_icon.png",
+  "entityIcon": null,
   "series": "Cave Goblin",
+  "seriesNth": "5",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "70-79",
   "difficulty": "Experienced",
   "length": "Long to Very Long",
   "releaseDate": "17 March 2009",
+  "area": "Dorgesh-Kaan",
   "startPoint": {
     "en": "Talk to Captain Undak, north-east of the market in Dorgesh-Kaan, just across from the bank. (via → )",
     "es": "Habla con Captain Undak, al noreste del mercado en Dorgesh-Kaan, justo enfrente del banco. (via →)"
@@ -62,6 +66,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Light sources",
@@ -77,6 +82,38 @@
       "name": "Coins",
       "display": "5,000 coins (if player wrongly accuses an innocent merchant)",
       "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Food, armour, and weapon (two different combat styles for fight with H.A.M. agents)",
+      "display": "Food, armour, and weapon (two different combat styles for fight with H.A.M. agents)",
+      "image": null
+    },
+    {
+      "name": "Kazgar",
+      "display": "Underneath Lumbridge Castle, unblock the wall to Lumbridge Swamp Caves south of Kazgar. It must be done from Kazgar's side. This saves a great deal of time later.",
+      "image": "https://runescape.wiki/images/thumb/Kazgar_chathead.png/100px-Kazgar_chathead.png?632de"
+    },
+    {
+      "name": "Prayer potion",
+      "display": "Prayer potions",
+      "image": "https://runescape.wiki/images/thumb/Prayer_potion_%281%29_detail.png/100px-Prayer_potion_%281%29_detail.png?27704"
+    },
+    {
+      "name": "Ardougne",
+      "display": "Ardougne/Fishing Guild teleports",
+      "image": "https://runescape.wiki/images/thumb/East_Ardougne.png/100px-East_Ardougne.png?065f9"
+    },
+    {
+      "name": "Ancient mace",
+      "display": "Ancient mace",
+      "image": "https://runescape.wiki/images/thumb/Ancient_mace_detail.png/100px-Ancient_mace_detail.png?d5189"
+    },
+    {
+      "name": "Dorgesh-kaan sphere",
+      "display": "Dorgesh-kaan sphere",
+      "image": "https://runescape.wiki/images/thumb/Dorgesh-kaan_sphere_detail.png/100px-Dorgesh-kaan_sphere_detail.png?0222c"
     }
   ],
   "kills": [

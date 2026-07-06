@@ -3,16 +3,20 @@
   "title": "Pieces of Hate",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.910Z",
+  "guideLastUpdated": "2026-07-06T20:31:19.470Z",
   "icon": "https://runescape.wiki/images/Pieces_of_Hate_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Pieces_of_Hate_entity_icon.png?e4213",
   "series": "Pirate",
+  "seriesNth": "7",
   "age": "5",
   "timeline": "mythic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "110-119",
   "difficulty": "Grandmaster",
   "length": "Long",
   "releaseDate": "19 March 2018",
+  "area": "Player owned house",
   "startPoint": {
     "en": "Talk to Postie Pete at any player-owned house portal by attempting to enter the portal.",
     "es": "Habla con Postie Pete en el portal de cualquier casa de un jugador intentando entrar en el portal."
@@ -91,13 +95,10 @@
       {
         "skill": "Thieving",
         "level": 85
-      },
-      {
-        "skill": "combat level",
-        "level": 110
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Customs Sergeant",
@@ -128,6 +129,65 @@
           "name": "Chocolate Saturday",
           "display": "Chocolate Saturday (premade works)",
           "image": "https://runescape.wiki/images/thumb/Chocolate_Saturday_detail.png/100px-Chocolate_Saturday_detail.png?f47d4"
+        }
+      ]
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "110 combat level",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Rimmington tablet",
+      "display": "A Rimmington tablet or activated Port Sarim lodestone",
+      "image": "https://runescape.wiki/images/thumb/Rimmington_tablet_detail.png/100px-Rimmington_tablet_detail.png?e5c91"
+    },
+    {
+      "name": "Karamja lodestone",
+      "display": "Activated Karamja lodestone and Varrock lodestone",
+      "image": "https://runescape.wiki/images/thumb/Karamja_lodestone_icon.png/100px-Karamja_lodestone_icon.png?98499"
+    },
+    {
+      "name": "Again, retrieve these after you escape jail:",
+      "display": "Again, retrieve these after you escape jail:",
+      "image": null,
+      "children": [
+        {
+          "name": "Combat gear",
+          "display": "Combat gear",
+          "image": null
+        },
+        {
+          "name": "Prayer potion",
+          "display": "Prayer potions",
+          "image": "https://runescape.wiki/images/thumb/Prayer_potion_%281%29_detail.png/100px-Prayer_potion_%281%29_detail.png?27704"
+        },
+        {
+          "name": "Antipoison",
+          "display": "Food and antipoison",
+          "image": "https://runescape.wiki/images/thumb/Antipoison_%281%29_detail.png/100px-Antipoison_%281%29_detail.png?27b64"
+        },
+        {
+          "name": "Varrock Teleport",
+          "display": "Varrock Teleport or teleport to Cook's Guild",
+          "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
+        },
+        {
+          "name": "Ectophial",
+          "display": "Ectophial",
+          "image": "https://runescape.wiki/images/thumb/Ectophial_detail.png/100px-Ectophial_detail.png?1b030"
+        },
+        {
+          "name": "Pirate spell sheet",
+          "display": "Pirate spell sheet is helpful on its own but more helpful with Dungeoneering Cape for Braindeath Island 'Rum'-geon teleport.",
+          "image": "https://runescape.wiki/images/thumb/Pirate_spell_sheet_teleport.gif/100px-Pirate_spell_sheet_teleport.gif?b6dca"
+        },
+        {
+          "name": "Salve amulet (e)",
+          "display": "Salve amulet (e) is helpful for clearing Rabid Jack's Invasion but doesn't aid in the final fight.",
+          "image": "https://runescape.wiki/images/thumb/Salve_amulet_%28e%29_detail.png/100px-Salve_amulet_%28e%29_detail.png?95d9e"
         }
       ]
     }

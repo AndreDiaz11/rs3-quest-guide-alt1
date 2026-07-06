@@ -3,16 +3,20 @@
   "title": "Biohazard",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.118Z",
+  "guideLastUpdated": "2026-07-06T20:29:59.089Z",
   "icon": "https://runescape.wiki/images/Biohazard_icon.png",
+  "entityIcon": null,
   "series": "Elf (Prifddinas)",
+  "seriesNth": "2",
   "age": "5",
   "timeline": "adventurer",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "30-39",
   "difficulty": "Novice",
   "length": "Medium",
   "releaseDate": "23 October 2002",
+  "area": "Ardougne",
   "startPoint": {
     "en": "Talk to Elena in her house in East Ardougne. Her house is the most north-eastern home found west of the River Dougne and north of the Ardougne Castle.",
     "es": "Habla con Elena en su casa en East Ardougne. Su casa es la vivienda más al noreste que se encuentra al oeste del River Dougne y al norte del Ardougne Castle."
@@ -23,18 +27,31 @@
         "title": "Plague City"
       }
     ],
-    "skills": [
-      {
-        "skill": "Agility",
-        "level": 33
-      }
-    ]
+    "skills": []
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Priest gown (top)",
       "display": "Priest gown top and bottom (or 10 coins to buy them)",
       "image": "https://runescape.wiki/images/thumb/Priest_gown_%28top%29_detail.png/100px-Priest_gown_%28top%29_detail.png?b7495"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Agility",
+      "display": "33 Agility (to reach the bank faster from Elena's house)",
+      "image": "https://runescape.wiki/images/Agility-icon.png?9a56e"
+    },
+    {
+      "name": "Ardougne lodestone",
+      "display": "Activated Ardougne, Draynor Village, Port Sarim and Varrock lodestones",
+      "image": "https://runescape.wiki/images/Ardougne_lodestone_icon.png?9b3e4"
+    },
+    {
+      "name": "A weapon and armour",
+      "display": "A weapon and armour",
+      "image": null
     }
   ],
   "kills": [

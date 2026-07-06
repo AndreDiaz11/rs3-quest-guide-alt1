@@ -3,16 +3,20 @@
   "title": "Gower Quest",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.479Z",
+  "guideLastUpdated": "2026-07-06T20:30:43.308Z",
   "icon": "https://runescape.wiki/images/Gower_Quest_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Gower_Quest_entity_icon.png?e4213",
   "series": null,
+  "seriesNth": null,
   "age": "6",
   "timeline": "world guardian",
   "members": false,
+  "voiceOver": false,
   "combatLevel": "20-29",
   "difficulty": "Experienced",
   "length": "Medium to Long",
   "releaseDate": "20 June 2016",
+  "area": "Varrock Outskirts",
   "startPoint": {
     "en": "Talk to Andrew Gower at the cabbage farm south of Varrock, south-east of the Varrock lodestone.",
     "es": "Habla con Andrew Gower en la granja de coles al sur de Varrock, al sureste de la piedra de viaje de Varrock."
@@ -26,7 +30,25 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [],
+  "recommended": [
+    {
+      "name": "Falador lodestone",
+      "display": "Falador lodestone",
+      "image": "https://runescape.wiki/images/Falador_lodestone_icon.png?3315a"
+    },
+    {
+      "name": "Food",
+      "display": "Food and combat gear for the final battle",
+      "image": null
+    },
+    {
+      "name": "The Black Hole",
+      "display": "Use the desktop version during The Black Hole Experience to find objects",
+      "image": "https://runescape.wiki/images/thumb/The_black_hole_2.png/100px-The_black_hole_2.png?92c3b"
+    }
+  ],
   "kills": [
     "Black Knight Titan (scales to the player) six times"
   ],

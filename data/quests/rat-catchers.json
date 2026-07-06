@@ -3,16 +3,20 @@
   "title": "Rat Catchers",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:06.157Z",
+  "guideLastUpdated": "2026-07-06T20:31:24.647Z",
   "icon": "https://runescape.wiki/images/Rat_Catchers_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "ambiguous",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Intermediate",
   "length": "Long",
   "releaseDate": "28 November 2005",
+  "area": "Varrock",
   "startPoint": {
     "en": "Talk to Gertrude, in her house west of Varrock.",
     "es": "Habla con Gertrude, en su casa al oeste de Varrock."
@@ -38,6 +42,7 @@
     ],
     "skills": []
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Cat",
@@ -124,6 +129,47 @@
       "name": "Snake charm",
       "display": "Snake charm (can be obtained during quest if not already in bank)",
       "image": "https://runescape.wiki/images/thumb/Snake_charm_detail.png/100px-Snake_charm_detail.png?4b3e4"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Fish",
+      "display": "About 2-10 raw or cooked fish or buckets of milk for your cat or kitten during the fight.",
+      "image": null,
+      "children": [
+        {
+          "name": "Your cat may die without this",
+          "display": "Your cat may die without this",
+          "image": null
+        },
+        {
+          "name": "Raw is preferred to avoid accidentally eating cooked ones",
+          "display": "Raw is preferred to avoid accidentally eating cooked ones",
+          "image": null
+        },
+        {
+          "name": "The type of fish does not matter. All completely heal your cat or kitten the same amount.",
+          "display": "The type of fish does not matter. All completely heal your cat or kitten the same amount.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Catspeak amulet",
+      "display": "When talking to the NPCs, you may want to wear your catspeak amulet and have your cat out, as this results in more interesting conversations.",
+      "image": "https://runescape.wiki/images/thumb/Catspeak_amulet_detail.png/100px-Catspeak_amulet_detail.png?e88c0"
+    },
+    {
+      "name": "Pollnivneach Teleport",
+      "display": "Pollnivneach Teleport or coins for magic carpet",
+      "image": "https://runescape.wiki/images/thumb/Pollnivneach_Teleport_detail.png/100px-Pollnivneach_Teleport_detail.png?7cd5c",
+      "children": [
+        {
+          "name": "Desert amulet 2",
+          "display": "A desert amulet 2 or having a player-owned house in Pollnivneach (with House Teleport) can also help.",
+          "image": "https://runescape.wiki/images/thumb/Desert_amulet_2_detail.png/100px-Desert_amulet_2_detail.png?3b61e"
+        }
+      ]
     }
   ],
   "kills": [

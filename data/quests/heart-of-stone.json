@@ -3,16 +3,20 @@
   "title": "Heart of Stone",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.587Z",
+  "guideLastUpdated": "2026-07-06T20:30:47.839Z",
   "icon": "https://runescape.wiki/images/Heart_of_Stone_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Heart_of_Stone_entity_icon.png?e4213",
   "series": "Sliske's Game",
+  "seriesNth": "7",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "60-69",
   "difficulty": "Intermediate",
   "length": "Long",
   "releaseDate": "24 November 2014",
+  "area": "Wizards' Tower",
   "startPoint": {
     "en": "Talk to Ariane at the entrance to the Wizards' Tower.",
     "es": "Habla con Ariane en la entrada de la Wizards' Tower."
@@ -50,10 +54,162 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "Rune Mechanics"
+    },
+    {
+      "title": "The Elder Kiln"
+    },
+    {
+      "title": "Fate of the Gods",
+      "children": [
+        {
+          "title": "Missing, Presumed Death",
+          "children": [
+            {
+              "title": "Koschei's Troubles (miniquest)…",
+              "matchTitle": "Koschei's Troubles (miniquest)"
+            },
+            {
+              "title": "The Chosen Commander…",
+              "matchTitle": "The Chosen Commander"
+            },
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            },
+            {
+              "title": "The World Wakes…",
+              "matchTitle": "The World Wakes"
+            },
+            {
+              "title": "The Death of Chivalry…",
+              "matchTitle": "The Death of Chivalry"
+            }
+          ]
+        },
+        {
+          "title": "The World Wakes",
+          "children": [
+            {
+              "title": "Ritual of the Mahjarrat…",
+              "matchTitle": "Ritual of the Mahjarrat"
+            },
+            {
+              "title": "The Firemaker's Curse"
+            },
+            {
+              "title": "The Branches of Darkmeyer…",
+              "matchTitle": "The Branches of Darkmeyer"
+            },
+            {
+              "title": "The Void Stares Back…",
+              "matchTitle": "The Void Stares Back"
+            },
+            {
+              "title": "The Chosen Commander…",
+              "matchTitle": "The Chosen Commander"
+            }
+          ]
+        },
+        {
+          "title": "Ritual of the Mahjarrat",
+          "children": [
+            {
+              "title": "The Temple at Senntisten…",
+              "matchTitle": "The Temple at Senntisten"
+            },
+            {
+              "title": "While Guthix Sleeps…",
+              "matchTitle": "While Guthix Sleeps"
+            },
+            {
+              "title": "Hazeel Cult"
+            },
+            {
+              "title": "Enakhra's Lament"
+            },
+            {
+              "title": "The Slug Menace…",
+              "matchTitle": "The Slug Menace"
+            },
+            {
+              "title": "A Fairy Tale II - Cure a Queen…",
+              "matchTitle": "A Fairy Tale II - Cure a Queen"
+            },
+            {
+              "title": "Cabin Fever…",
+              "matchTitle": "Cabin Fever"
+            },
+            {
+              "title": "A Tail of Two Cats…",
+              "matchTitle": "A Tail of Two Cats"
+            },
+            {
+              "title": "Fight Arena"
+            },
+            {
+              "title": "The General's Shadow (miniquest)…",
+              "matchTitle": "The General's Shadow (miniquest)"
+            }
+          ]
+        },
+        {
+          "title": "The Temple at Senntisten",
+          "children": [
+            {
+              "title": "Devious Minds…",
+              "matchTitle": "Devious Minds"
+            },
+            {
+              "title": "Desert Treasure…",
+              "matchTitle": "Desert Treasure"
+            },
+            {
+              "title": "The Curse of Arrav…",
+              "matchTitle": "The Curse of Arrav"
+            },
+            {
+              "title": "125 Kudos",
+              "matchTitle": "Kudos"
+            }
+          ]
+        },
+        {
+          "title": "The Firemaker's Curse"
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Food",
       "display": "Food and combat equipment to fight several enemies level 35-56 (preferably with Ranged or Magic)",
+      "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Law altar teleport",
+      "display": "Law altar teleport",
+      "image": "https://runescape.wiki/images/thumb/Law_altar_teleport_detail.png/100px-Law_altar_teleport_detail.png?76f7b"
+    },
+    {
+      "name": "Waterskin",
+      "display": "Waterskins or an enchanted water tiara to survive the desert heat.",
+      "image": "https://runescape.wiki/images/thumb/Waterskin_detail.png/100px-Waterskin_detail.png?f509f",
+      "children": [
+        {
+          "name": "Crocodile Tears",
+          "display": "Completing the Crocodile Tears quest grants immunity against desert heat.",
+          "image": "https://runescape.wiki/images/thumb/Crocodile_Tears.png/100px-Crocodile_Tears.png?69b50"
+        }
+      ]
+    },
+    {
+      "name": "Amulet of glory",
+      "display": "Amulet of glory for quick teleport to Karamja.",
       "image": null
     }
   ],

@@ -3,16 +3,20 @@
   "title": "Dealing with Scabaras",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.575Z",
+  "guideLastUpdated": "2026-07-06T20:30:15.029Z",
   "icon": "https://runescape.wiki/images/Dealing_with_Scabaras_icon.png",
+  "entityIcon": null,
   "series": "Desert",
+  "seriesNth": "4",
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "90-99",
   "difficulty": "Master",
   "length": "Long",
   "releaseDate": "2 January 2008",
+  "area": "Menaphos & Sophanem",
   "startPoint": {
     "en": "Talk to the High Priest of Icthlarin in the south temple of Sophanem.",
     "es": "Habla con el Sumo Sacerdote de Icthlarin en el templo sur de Sophanem."
@@ -57,17 +61,10 @@
       {
         "skill": "Thieving",
         "level": 60
-      },
-      {
-        "skill": "Crafting",
-        "level": 60
-      },
-      {
-        "skill": "Prayer",
-        "level": 43
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Food",
@@ -93,6 +90,83 @@
       "name": "Bronze bar",
       "display": "Up to 36 bronze gear or bronze bars (See distressing bronze gear)",
       "image": "https://runescape.wiki/images/thumb/Bronze_bar_detail.png/100px-Bronze_bar_detail.png?7b3ef"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Crafting",
+      "display": "60 Crafting (b)",
+      "image": "https://runescape.wiki/images/Crafting-icon.png?f224a"
+    },
+    {
+      "name": "Prayer",
+      "display": "43 Prayer",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Agility",
+      "display": "The higher your Agility, Thieving, Strength and combat levels are above the required levels, the easier and shorter the quest becomes",
+      "image": "https://runescape.wiki/images/Agility-icon.png?9a56e"
+    },
+    {
+      "name": "Waterskin",
+      "display": "Some waterskins",
+      "image": "https://runescape.wiki/images/thumb/Waterskin_detail.png/100px-Waterskin_detail.png?f509f"
+    },
+    {
+      "name": "Rope",
+      "display": "Rope (for use on an optional agility shortcut)",
+      "image": "https://runescape.wiki/images/thumb/Rope_detail.png/100px-Rope_detail.png?c6835"
+    },
+    {
+      "name": "Coins",
+      "display": "Coins for carpet rides",
+      "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    },
+    {
+      "name": "Ring of charos",
+      "display": "Ring of charos for cheaper carpet rides",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_charos_detail.png/100px-Ring_of_charos_detail.png?86930"
+    },
+    {
+      "name": "Desert amulet 2",
+      "display": "Desert amulet 2 for unlimited teleports to Nardah",
+      "image": "https://runescape.wiki/images/thumb/Desert_amulet_2_detail.png/100px-Desert_amulet_2_detail.png?3b61e"
+    },
+    {
+      "name": "Salve amulet",
+      "display": "Salve amulet to help damage the undead monsters",
+      "image": "https://runescape.wiki/images/thumb/Salve_amulet_detail.png/100px-Salve_amulet_detail.png?44aa2"
+    },
+    {
+      "name": "Logs",
+      "display": "3-6 logs lightable at your Firemaking level minus 20",
+      "image": "https://runescape.wiki/images/thumb/Logs_detail.png/100px-Logs_detail.png?44e42"
+    },
+    {
+      "name": "Keris",
+      "display": "Keris to help damage scabarites and the giant scarab",
+      "image": "https://runescape.wiki/images/thumb/Keris_detail.png/100px-Keris_detail.png?09302"
+    },
+    {
+      "name": "Antipoison",
+      "display": "Antipoison or super antipoison",
+      "image": "https://runescape.wiki/images/thumb/Antipoison_%281%29_detail.png/100px-Antipoison_%281%29_detail.png?27b64"
+    },
+    {
+      "name": "Prayer potion",
+      "display": "Prayer potions",
+      "image": "https://runescape.wiki/images/thumb/Prayer_potion_%281%29_detail.png/100px-Prayer_potion_%281%29_detail.png?27704"
+    },
+    {
+      "name": "Emergency teleport",
+      "display": "Emergency teleport (such as ectophial)",
+      "image": null
+    },
+    {
+      "name": "Summer pie",
+      "display": "Summer pie or agility potion, super strength (See room settings)",
+      "image": "https://runescape.wiki/images/thumb/Half_a_summer_pie_detail.png/100px-Half_a_summer_pie_detail.png?42433"
     }
   ],
   "kills": [

@@ -3,16 +3,20 @@
   "title": "The Great Brain Robbery",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.761Z",
+  "guideLastUpdated": "2026-07-06T20:31:59.039Z",
   "icon": "https://runescape.wiki/images/The_Great_Brain_Robbery_icon.png",
+  "entityIcon": null,
   "series": "Pirate",
+  "seriesNth": "4",
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "90-99",
   "difficulty": "Experienced",
   "length": "Medium to Long",
   "releaseDate": "6 March 2007",
+  "area": "Port Phasmatys",
   "startPoint": {
     "en": "Talk to Brother Tranquillity, who is located just off the docks on Mos Le'Harmless.",
     "es": "Habla con Brother Tranquillity, que se encuentra justo al lado de los muelles en Mos Le'Harmless."
@@ -77,6 +81,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Fishbowl helmet",
@@ -124,6 +129,43 @@
       "name": "Tinderbox",
       "display": "A tinderbox (tool belt does not work, obtainable during quest)",
       "image": "https://runescape.wiki/images/thumb/Tinderbox_detail.png/100px-Tinderbox_detail.png?14949"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Clockmaking space",
+      "display": "Access to a crafting table at a player-owned house (if not buying wooden cats from the Grand Exchange)",
+      "image": "https://runescape.wiki/images/thumb/Clockmaking_space.png/100px-Clockmaking_space.png?dabf0"
+    },
+    {
+      "name": "Ectophial",
+      "display": "An ectophial (only if not using fairy rings)",
+      "image": "https://runescape.wiki/images/thumb/Ectophial_detail.png/100px-Ectophial_detail.png?1b030"
+    },
+    {
+      "name": "Ecto-token",
+      "display": "4-6 ecto-tokens (if you haven't completed Ghosts Ahoy, not needed if using fairy rings)",
+      "image": "https://runescape.wiki/images/thumb/Ecto-token_3_detail.png/100px-Ecto-token_3_detail.png?b901d"
+    },
+    {
+      "name": "Canifis lodestone",
+      "display": "Activated Canifis and Edgeville lodestone",
+      "image": "https://runescape.wiki/images/Canifis_lodestone_icon.png?659b2"
+    },
+    {
+      "name": "Fairy ring",
+      "display": "Discovered the DIP fairy ring code (requires partial completion of A Fairy Tale III - Battle at Ork's Rift and fixing of the 2 bridges to use – see Fairy ring for more information)",
+      "image": "https://runescape.wiki/images/thumb/Fairy_ring.png/100px-Fairy_ring.png?ca33a"
+    },
+    {
+      "name": "Not having any followers, or any summoning pouches or pets (this includes wooden cats) in the inventory",
+      "display": "Not having any followers, or any summoning pouches or pets (this includes wooden cats) in the inventory",
+      "image": null
+    },
+    {
+      "name": "Combat bracelet",
+      "display": "A combat bracelet or wilderness sword 1 (to quick travel to the Edgeville Monastery)",
+      "image": "https://runescape.wiki/images/thumb/Combat_bracelet_detail.png/100px-Combat_bracelet_detail.png?ac086"
     }
   ],
   "kills": [

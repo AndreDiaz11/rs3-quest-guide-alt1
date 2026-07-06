@@ -3,16 +3,20 @@
   "title": "TokTz-Ket-Dill",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.139Z",
+  "guideLastUpdated": "2026-07-06T20:32:09.129Z",
   "icon": "https://runescape.wiki/images/TokTz-Ket-Dill_icon.png",
+  "entityIcon": null,
   "series": "TzHaar",
+  "seriesNth": "1",
   "age": "ambiguous",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "100-109",
   "difficulty": "Experienced",
   "length": "Long to Very Long",
   "releaseDate": "13 May 2008",
+  "area": "TzHaar City",
   "startPoint": {
     "en": "Talk to any of the three TzHaar at the collapsed tunnel in the south-east corridor of TzHaar City.",
     "es": "Habla con cualquiera de los tres TzHaar en el túnel derrumbado del pasillo del sudeste de TzHaar City."
@@ -38,6 +42,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Adamant pickaxe",
@@ -67,12 +72,46 @@
     {
       "name": "Necromancy",
       "display": "A necromancy weapon can be used to kill the fire and lava monsters. Cannot use necromancy for the last lava monster and the TokTz-Ket-Dill",
-      "image": "https://runescape.wiki/images/thumb/Necromancy_logo.png/100px-Necromancy_logo.png?f755f"
+      "image": "https://runescape.wiki/images/Necromancy-icon.png?f826b"
     },
     {
       "name": "Stone slab",
       "display": "17 stone slabs (obtained during quest)",
       "image": "https://runescape.wiki/images/thumb/Stone_slab_detail.png/100px-Stone_slab_detail.png?d6dd5"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Portent of restoration",
+      "display": "Food for the final fight (portent of restoration does not work)",
+      "image": null
+    },
+    {
+      "name": "Varrock armour",
+      "display": "Varrock armour for mining the obsidian",
+      "image": null
+    },
+    {
+      "name": "Varrock",
+      "display": "Transportation to Varrock for quick access to the Varrock Palace library",
+      "image": "https://runescape.wiki/images/thumb/Varrock.png/100px-Varrock.png?b6b39"
+    },
+    {
+      "name": "TokKul-Zo",
+      "display": "TokKul-Zo for quick teleportation around TzHaar City",
+      "image": "https://runescape.wiki/images/thumb/TokKul-Zo_detail.png/100px-TokKul-Zo_detail.png?1b81a"
+    },
+    {
+      "name": "There are several banks in the city, so you do not need to bring all the items in the backpack.",
+      "display": "There are several banks in the city, so you do not need to bring all the items in the backpack.",
+      "image": null,
+      "children": [
+        {
+          "name": "Plank box",
+          "display": "A plank box can be used to carry the oak planks before being treated",
+          "image": "https://runescape.wiki/images/thumb/Plank_box_detail.png/100px-Plank_box_detail.png?55402"
+        }
+      ]
     }
   ],
   "kills": [

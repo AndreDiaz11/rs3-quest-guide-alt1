@@ -3,16 +3,20 @@
   "title": "Back to the Freezer",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:02.973Z",
+  "guideLastUpdated": "2026-07-06T20:29:54.605Z",
   "icon": "https://runescape.wiki/images/Back_to_the_Freezer_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Back_to_the_Freezer_entity_icon.png?db8b6",
   "series": "Penguin",
+  "seriesNth": "4",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "60-69",
   "difficulty": "Master",
   "length": "Medium to Long",
   "releaseDate": "27 February 2017",
+  "area": "Ardougne Zoo",
   "startPoint": {
     "en": "Talk to Chuck at the Ardougne Zoo.",
     "es": "Habla con Chuck en el Ardougne Zoo."
@@ -54,6 +58,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Combat equipment",
@@ -99,6 +104,33 @@
       "name": "8-12 backpack spaces",
       "display": "8-12 backpack spaces",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Desert heat",
+      "display": "Protection against desert heat",
+      "image": null
+    },
+    {
+      "name": "Food",
+      "display": "Food",
+      "image": null
+    },
+    {
+      "name": "Pollnivneach",
+      "display": "Pollnivneach teleportation methods (e.g. Chipped Teleport to house tablets, ring of slaying teleport to Sumona, or a Pollnivneach Teleport), or an activated Bandit Camp lodestone",
+      "image": "https://runescape.wiki/images/thumb/Pollnivneach.png/100px-Pollnivneach.png?f71b8"
+    },
+    {
+      "name": "Easy Ardougne achievements",
+      "display": "Easy Ardougne achievements for quick teleports to Chuck using the Kandarin monastery Teleport, or Clocktower Teleport, or Dramen/Lunar staff for access to the fairy ring code DJP",
+      "image": null
+    },
+    {
+      "name": "Enchanted lyre",
+      "display": "A charged Enchanted lyre, for immediate access to the market in Rellekka",
+      "image": "https://runescape.wiki/images/thumb/Enchanted_lyre_detail.png/100px-Enchanted_lyre_detail.png?68383"
     }
   ],
   "kills": [

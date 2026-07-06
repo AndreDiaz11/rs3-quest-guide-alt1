@@ -3,16 +3,20 @@
   "title": "Hearts of Sanguine",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.608Z",
+  "guideLastUpdated": "2026-07-06T20:30:48.463Z",
   "icon": "https://runescape.wiki/images/thumb/Hearts_of_Sanguine_icon.png/50px-Hearts_of_Sanguine_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Hearts_of_Sanguine_entity_icon.png?b14e3",
   "series": "Sanguine",
+  "seriesNth": "2",
   "age": "Age of Chaos",
   "timeline": "age of chaos",
   "members": false,
+  "voiceOver": false,
   "combatLevel": "10-19",
   "difficulty": "Novice",
   "length": "Medium",
   "releaseDate": "23 March 2026",
+  "area": "Wendlewick",
   "startPoint": {
     "en": "Speak to Adam at his house in Wendlewick.",
     "es": "Habla con Adam en su casa en Wendlewick."
@@ -23,13 +27,9 @@
         "title": "Visions of Havenhythe"
       }
     ],
-    "skills": [
-      {
-        "skill": "Construction",
-        "level": 20
-      }
-    ]
+    "skills": []
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Coins",
@@ -50,6 +50,18 @@
       "name": "Wendlewick ale",
       "display": "Wendlewick ale (obtainable during quest)",
       "image": "https://runescape.wiki/images/thumb/Wendlewick_ale_detail.png/100px-Wendlewick_ale_detail.png?1e968"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Melee",
+      "display": "Melee armour",
+      "image": null
+    },
+    {
+      "name": "Canoe station (Havenhythe)",
+      "display": "Fixed canoe stations for quicker travel (members-only, requires 20 Construction)",
+      "image": "https://runescape.wiki/images/thumb/Canoe_station_%28Havenhythe%29.png/100px-Canoe_station_%28Havenhythe%29.png?47091"
     }
   ],
   "kills": [

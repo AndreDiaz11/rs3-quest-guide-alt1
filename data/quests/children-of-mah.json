@@ -3,16 +3,20 @@
   "title": "Children of Mah",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.332Z",
+  "guideLastUpdated": "2026-07-06T20:30:05.978Z",
   "icon": "https://runescape.wiki/images/Children_of_Mah_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Children_of_Mah_entity_icon.png?fbf70",
   "series": "Sliske's Game",
+  "seriesNth": "14",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "110-119",
   "difficulty": "Grandmaster",
   "length": "Medium to Long",
   "releaseDate": "21 November 2016",
+  "area": "Fremennik Province",
   "startPoint": {
     "en": "Talk to Kharshai in the frozen region north of Rellekka or (if you've completed the Koschei's Troubles miniquest) in his cave beneath Rellekka. or",
     "es": "Habla con Kharshai en la región helada al norte de Rellekka o (si has completado la miniaventura Koschei's Troubles) en su cueva bajo Rellekka. o"
@@ -59,14 +63,108 @@
         ]
       }
     ],
-    "skills": [
-      {
-        "skill": "combat level",
-        "level": 110
-      }
-    ]
+    "skills": []
   },
+  "followsEvents": [
+    {
+      "title": "Koschei's Troubles (miniquest)",
+      "children": [
+        {
+          "title": "Blood Runs Deep…",
+          "matchTitle": "Blood Runs Deep"
+        },
+        {
+          "title": "Ritual of the Mahjarrat…",
+          "matchTitle": "Ritual of the Mahjarrat"
+        }
+      ]
+    },
+    {
+      "title": "Ritual of the Mahjarrat",
+      "children": [
+        {
+          "title": "The Temple at Senntisten…",
+          "matchTitle": "The Temple at Senntisten"
+        },
+        {
+          "title": "While Guthix Sleeps…",
+          "matchTitle": "While Guthix Sleeps"
+        },
+        {
+          "title": "Hazeel Cult"
+        },
+        {
+          "title": "Enakhra's Lament"
+        },
+        {
+          "title": "The Slug Menace…",
+          "matchTitle": "The Slug Menace"
+        },
+        {
+          "title": "A Fairy Tale II - Cure a Queen…",
+          "matchTitle": "A Fairy Tale II - Cure a Queen"
+        },
+        {
+          "title": "Cabin Fever…",
+          "matchTitle": "Cabin Fever"
+        },
+        {
+          "title": "A Tail of Two Cats…",
+          "matchTitle": "A Tail of Two Cats"
+        },
+        {
+          "title": "Fight Arena"
+        },
+        {
+          "title": "The General's Shadow (miniquest)…",
+          "matchTitle": "The General's Shadow (miniquest)"
+        }
+      ]
+    }
+  ],
   "items": [],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "110 combat level",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Combat equipment, food and potions are highly recommended",
+      "display": "Combat equipment, food and potions are highly recommended",
+      "image": null
+    },
+    {
+      "name": "TokKul-Zo",
+      "display": "TokKul-Zo or Portable fairy ring for quick access to fairy rings",
+      "image": "https://runescape.wiki/images/thumb/TokKul-Zo_detail.png/100px-TokKul-Zo_detail.png?1b81a"
+    },
+    {
+      "name": "Sixth-Age circuit",
+      "display": "Sixth-Age circuit for quick access to World Gate",
+      "image": "https://runescape.wiki/images/thumb/Sixth-Age_circuit_detail.png/100px-Sixth-Age_circuit_detail.png?7ea06"
+    },
+    {
+      "name": "Dig Site pendant",
+      "display": "Dig Site pendant or Archaeology journal",
+      "image": "https://runescape.wiki/images/thumb/Dig_Site_pendant_%281%29_detail.png/100px-Dig_Site_pendant_%281%29_detail.png?00b28"
+    },
+    {
+      "name": "Shard of Zaros",
+      "display": "Shard of Zaros",
+      "image": "https://runescape.wiki/images/thumb/Shard_of_Zaros_detail.png/100px-Shard_of_Zaros_detail.png?5d038"
+    },
+    {
+      "name": "Sign of life",
+      "display": "Sign or Portent of life",
+      "image": "https://runescape.wiki/images/thumb/Sign_of_life_detail.png/100px-Sign_of_life_detail.png?380d5"
+    },
+    {
+      "name": "Ancient Magicks",
+      "display": "Be on the Ancient Magicks spellbook, for increased damage against the various Muspah encountered during the quest",
+      "image": "https://runescape.wiki/images/thumb/Ancient_teleport.gif/100px-Ancient_teleport.gif?0b4d4"
+    }
+  ],
   "kills": [
     "Survive multiple bladed, force, and throwing muspahs (level 150)"
   ],

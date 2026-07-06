@@ -3,16 +3,20 @@
   "title": "The Tourist Trap",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.044Z",
+  "guideLastUpdated": "2026-07-06T20:32:07.477Z",
   "icon": "https://runescape.wiki/images/The_Tourist_Trap_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "10-19",
   "difficulty": "Intermediate",
   "length": "Medium to Long",
   "releaseDate": "14 April 2003",
+  "area": "Kharidian Desert",
   "startPoint": {
     "en": "Speak to Irena, the woman crying at the Shantay Pass, south of Al Kharid.",
     "es": "Habla con Irena, la mujer que llora en Shantay Pass, al sur de Al Kharid."
@@ -30,6 +34,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Desert shirt",
@@ -50,6 +55,38 @@
       "name": "Ring of charos (a)",
       "display": "At least 200 coins (or 100 with ring of charos (a))",
       "image": "https://runescape.wiki/images/Ring_of_charos_%28a%29_detail.png?0dbd0"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Desert heat",
+      "display": "Protection from desert heat, at least 2-3 full waterskins, an enchanted water tiara, or completion of Crocodile Tears",
+      "image": null
+    },
+    {
+      "name": "Weapons",
+      "display": "Weapons and armour for lower combat level players",
+      "image": "https://runescape.wiki/images/thumb/Lotsofweapons.jpg/100px-Lotsofweapons.jpg?2d68e"
+    },
+    {
+      "name": "Food",
+      "display": "Food",
+      "image": null
+    },
+    {
+      "name": "Bandit Camp Teleport",
+      "display": "2 Bandit Camp Teleports",
+      "image": "https://runescape.wiki/images/thumb/Bandit_Camp_Teleport_detail.png/100px-Bandit_Camp_Teleport_detail.png?a08bc"
+    },
+    {
+      "name": "Lockpick",
+      "display": "A lockpick",
+      "image": null
+    },
+    {
+      "name": "Backpack",
+      "display": "At least 15 backpack spaces - you will need to remove all worn items and still have room in your backpack for up to 7 quest items",
+      "image": "https://runescape.wiki/images/thumb/Inventory_interface.png/100px-Inventory_interface.png?8ee97"
     }
   ],
   "kills": [

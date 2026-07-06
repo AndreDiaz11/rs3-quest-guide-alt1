@@ -3,16 +3,20 @@
   "title": "The Lord of Vampyrium",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.849Z",
+  "guideLastUpdated": "2026-07-06T20:32:01.338Z",
   "icon": "https://runescape.wiki/images/The_Lord_of_Vampyrium_icon.png",
+  "entityIcon": "https://runescape.wiki/images/The_Lord_of_Vampyrium_entity_icon.png?812ff",
   "series": "Myreque",
+  "seriesNth": "8",
   "age": "5",
   "timeline": "legendary",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "110-119",
   "difficulty": "Master",
   "length": "Long to Very Long",
   "releaseDate": "14 September 2015",
+  "area": "Morytania",
   "startPoint": {
     "en": "Talk to Vanescula Drakan, by the rowboat entrance to Meiyerditch near Burgh de Rott.",
     "es": "Habla con Vanescula Drakan, junto a la entrada del bote de remos hacia Meiyerditch, cerca de Burgh de Rott."
@@ -72,13 +76,10 @@
       {
         "skill": "Strength",
         "level": 75
-      },
-      {
-        "skill": "combat level",
-        "level": 110
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Darkmeyer disguise",
@@ -89,6 +90,18 @@
       "name": "Blisterwood",
       "display": "Blisterwood weaponry or Ivandis flail",
       "image": "https://runescape.wiki/images/thumb/Blisterwood_Tree.png/100px-Blisterwood_Tree.png?0542d"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "110 combat level",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "Drakan's Medallion",
+      "display": "Drakan's Medallion",
+      "image": null
     }
   ],
   "kills": [

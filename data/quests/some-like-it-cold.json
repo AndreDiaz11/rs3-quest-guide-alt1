@@ -3,16 +3,20 @@
   "title": "Some Like It Cold",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:06.963Z",
+  "guideLastUpdated": "2026-07-06T20:31:38.800Z",
   "icon": "https://runescape.wiki/images/Some_Like_It_Cold_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Some_Like_It_Cold_entity_icon.png?812ff",
   "series": "Penguin",
+  "seriesNth": "3",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Experienced",
   "length": "Long to Very Long",
   "releaseDate": "7 August 2012",
+  "area": "Ardougne Zoo",
   "startPoint": {
     "en": "Speak to Chuck at Ardougne Zoo.",
     "es": "Habla con Chuck en el Ardougne Zoo."
@@ -50,6 +54,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Clockwork suit",
@@ -64,6 +69,23 @@
     {
       "name": "You will be required to deposit all your items and worn items at some point during the quest.",
       "display": "You will be required to deposit all your items and worn items at some point during the quest.",
+      "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Crafting table 4",
+      "display": "Crafting table 4 in your player-owned house",
+      "image": "https://runescape.wiki/images/thumb/Crafting_table_4.png/100px-Crafting_table_4.png?2be24"
+    },
+    {
+      "name": "Teleport to house",
+      "display": "Teleport to house",
+      "image": "https://runescape.wiki/images/thumb/Teleport_to_house_detail.png/100px-Teleport_to_house_detail.png?13140"
+    },
+    {
+      "name": "Enchanted Lyre",
+      "display": "Enchanted Lyre for teleports to Rellekka",
       "image": null
     }
   ],

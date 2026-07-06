@@ -3,16 +3,20 @@
   "title": "Cabin Fever",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.246Z",
+  "guideLastUpdated": "2026-07-06T20:30:03.651Z",
   "icon": "https://runescape.wiki/images/Cabin_Fever_icon.png",
+  "entityIcon": null,
   "series": "Pirate",
+  "seriesNth": "3",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Experienced",
   "length": "Medium",
   "releaseDate": "7 February 2006",
+  "area": "Port Phasmatys",
   "startPoint": {
     "en": "Talk to Bill Teach in the Port Phasmatys Inn, The Green Ghost.",
     "es": "Habla con Bill Teach en la posada de Port Phasmatys, The Green Ghost."
@@ -51,7 +55,25 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [],
+  "recommended": [
+    {
+      "name": "Ghosts Ahoy",
+      "display": "If you have not completed Ghosts Ahoy, ecto-tokens and a ghostspeak amulet or some coins to charter a ship are needed.",
+      "image": "https://runescape.wiki/images/thumb/Ghosts_Ahoy.png/100px-Ghosts_Ahoy.png?a8514"
+    },
+    {
+      "name": "Ghosts Ahoy",
+      "display": "If you have completed Ghosts Ahoy, an ectophial helps you to get to the Port Phasmatys faster.",
+      "image": "https://runescape.wiki/images/thumb/Ghosts_Ahoy.png/100px-Ghosts_Ahoy.png?a8514"
+    },
+    {
+      "name": "Inventory",
+      "display": "11 free inventory spaces",
+      "image": null
+    }
+  ],
   "kills": [
     "None, but beware of level 26 pirates."
   ],

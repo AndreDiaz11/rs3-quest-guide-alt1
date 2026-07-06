@@ -3,16 +3,20 @@
   "title": "Eye for an Eye (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.207Z",
+  "guideLastUpdated": "2026-07-06T20:30:35.168Z",
   "icon": "https://runescape.wiki/images/thumb/Eye_for_an_Eye_%28miniquest%29_icon.png/50px-Eye_for_an_Eye_%28miniquest%29_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Eye_for_an_Eye_%28miniquest%29_entity_icon.png?98e27",
   "series": "Tales of the Arc",
+  "seriesNth": "6",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "scaled",
   "difficulty": "Grandmaster",
   "length": "Short",
   "releaseDate": "10 October 2016",
+  "area": "Wushanko Isles",
   "startPoint": {
     "en": "Talk to Ichi on the eastern side of Cyclosis. (Quartermaster Gully, south-east of the Port Sarim pub, can sail you to Cyclosis in the Arc region of the Wushanko Isles.)",
     "es": "Habla con Ichi en el lado este de Cyclosis. (Quartermaster Gully, al sureste del pub de Port Sarim, puede llevarte en barco a Cyclosis, en la región del Arc de las Wushanko Isles.)"
@@ -70,11 +74,19 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Sea salt",
       "display": "30 sea salt or alaea sea salt (untradeable)",
       "image": "https://runescape.wiki/images/thumb/Sea_salt_detail.png/100px-Sea_salt_detail.png?153b3"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Food and combat equipment",
+      "display": "Food and combat equipment",
+      "image": null
     }
   ],
   "kills": [

@@ -3,16 +3,20 @@
   "title": "Legacy of Seergaze",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.021Z",
+  "guideLastUpdated": "2026-07-06T20:31:00.806Z",
   "icon": "https://runescape.wiki/images/Legacy_of_Seergaze_icon.png",
+  "entityIcon": null,
   "series": "Myreque",
+  "seriesNth": "6",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "70-79",
   "difficulty": "Experienced",
   "length": "Long to Very Long",
   "releaseDate": "22 April 2008",
+  "area": "Paterdomus",
   "startPoint": {
     "en": "Talk to the mercenary adventurer east of Paterdomus in Morytania.",
     "es": "Habla con el aventurero mercenario al este de Paterdomus en Morytania."
@@ -81,6 +85,37 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "Shades of Mort'ton",
+      "children": [
+        {
+          "title": "Ability to enter Morytania",
+          "matchTitle": "Morytania"
+        }
+      ]
+    },
+    {
+      "title": "Desert Treasure",
+      "children": [
+        {
+          "title": "The Dig Site"
+        },
+        {
+          "title": "Troll Stronghold",
+          "children": [
+            {
+              "title": "Death Plateau"
+            }
+          ]
+        },
+        {
+          "title": "Ability to enter Morytania",
+          "matchTitle": "Morytania"
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Teak pyre logs",
@@ -138,6 +173,38 @@
       "name": "Emerald",
       "display": "1 emerald (can be obtained during the quest)",
       "image": "https://runescape.wiki/images/thumb/Emerald_detail.png/100px-Emerald_detail.png?de21b"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Canifis",
+      "display": "Teleport to Canifis (Kharyrll Teleport or teleport tablets/runes for player-owned house with a portal chamber) or an activated Canifis lodestone",
+      "image": "https://runescape.wiki/images/thumb/Canifis.png/100px-Canifis.png?c84cd"
+    },
+    {
+      "name": "Invitation box",
+      "display": "Invitation box for fast transportation to Paterdomus",
+      "image": "https://runescape.wiki/images/Invitation_box_detail.png?1f8e1"
+    },
+    {
+      "name": "Shortcut key",
+      "display": "Shortcut key (can be stored on a steel key ring, if not planning on using the mines method to return to the Myreque Hideout in Meiyerditch)",
+      "image": "https://runescape.wiki/images/thumb/Shortcut_key_detail.png/100px-Shortcut_key_detail.png?dc649"
+    },
+    {
+      "name": "Druid pouch",
+      "display": "Druid pouches or ouroboros pouch (if carrying food through the swamp)",
+      "image": "https://runescape.wiki/images/thumb/Druid_pouch_detail.png/100px-Druid_pouch_detail.png?96252"
+    },
+    {
+      "name": "Monkfish",
+      "display": "Food (monkfish or higher recommended if you are a low level)",
+      "image": "https://runescape.wiki/images/thumb/Monkfish_detail.png/100px-Monkfish_detail.png?a8c5f"
+    },
+    {
+      "name": "Rod of Ivandis",
+      "display": "Rod of Ivandis (in case you need to defeat juvinate during the Burgh de Rott Ramble)",
+      "image": null
     }
   ],
   "kills": [

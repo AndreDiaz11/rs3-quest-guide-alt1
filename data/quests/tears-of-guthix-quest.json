@@ -3,16 +3,20 @@
   "title": "Tears of Guthix (quest)",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.286Z",
+  "guideLastUpdated": "2026-07-06T20:31:47.906Z",
   "icon": "https://runescape.wiki/images/Tears_of_Guthix_%28quest%29_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Intermediate",
   "length": "Short",
   "releaseDate": "4 May 2005",
+  "area": "Lumbridge",
   "startPoint": {
     "en": "Talk to Juna, inside the cave under Lumbridge Swamp. (via → )",
     "es": "Habla con Juna, dentro de la cueva bajo Lumbridge Swamp. (vía →)"
@@ -47,21 +51,10 @@
       {
         "skill": "quest points",
         "level": 50
-      },
-      {
-        "skill": "Thieving",
-        "level": 36
-      },
-      {
-        "skill": "Smithing",
-        "level": 20
-      },
-      {
-        "skill": "Crafting",
-        "level": 49
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Bullseye lantern",
@@ -89,6 +82,50 @@
           "name": "Lorehound",
           "display": "This can be obtained from the Lorehound with the 50 quest point upgrade",
           "image": "https://runescape.wiki/images/thumb/Lorehound_%28pet%29.png/100px-Lorehound_%28pet%29.png?3cf83"
+        }
+      ]
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Thieving",
+      "display": "36 Thieving and Death to the Dorgeshuun for alternative lantern source",
+      "image": "https://runescape.wiki/images/Thieving-icon.png?1fcf2"
+    },
+    {
+      "name": "Smithing",
+      "display": "20 Smithing",
+      "image": "https://runescape.wiki/images/Smithing-icon.png?caf94"
+    },
+    {
+      "name": "Crafting",
+      "display": "49 Crafting, if you wish to make your own lantern. You don't need these levels to replace the lens by a sapphire in an existing bullseye lantern.",
+      "image": "https://runescape.wiki/images/Crafting-icon.png?f224a"
+    },
+    {
+      "name": "The Lost Tribe",
+      "display": "Unlocking the swamp shortcut during The Lost Tribe for ease of getting to Juna.",
+      "image": "https://runescape.wiki/images/thumb/The_Lost_Tribe.png/100px-The_Lost_Tribe.png?865b3"
+    },
+    {
+      "name": "The Lost Tribe",
+      "display": "Starting The Lost Tribe to access the Lumbridge Swamp Caves through the Lumbridge's kitchen tunnel and having a lit sapphire lantern can be used to avoid the other items required.",
+      "image": "https://runescape.wiki/images/thumb/The_Lost_Tribe.png/100px-The_Lost_Tribe.png?865b3"
+    },
+    {
+      "name": "Either:",
+      "display": "Either:",
+      "image": null,
+      "children": [
+        {
+          "name": "Spiny helmet",
+          "display": "Spiny helmet/Slayer helmet to negate damage from wall beasts.",
+          "image": "https://runescape.wiki/images/thumb/Spiny_helmet_detail.png/100px-Spiny_helmet_detail.png?8f394"
+        },
+        {
+          "name": "Food to heal damage.",
+          "display": "Food to heal damage.",
+          "image": null
         }
       ]
     }

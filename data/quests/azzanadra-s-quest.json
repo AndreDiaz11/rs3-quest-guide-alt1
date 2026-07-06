@@ -3,16 +3,20 @@
   "title": "Azzanadra's Quest",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:02.945Z",
+  "guideLastUpdated": "2026-07-06T20:29:53.618Z",
   "icon": "https://runescape.wiki/images/Azzanadra%27s_Quest_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Azzanadra%27s_Quest_entity_icon.png?db8b6",
   "series": "The Elder God Wars",
+  "seriesNth": "8",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Experienced",
   "length": "Long",
   "releaseDate": "22 February 2021",
+  "area": "Burthorpe",
   "startPoint": {
     "en": "Talk to Azzanadra at the Council of Burthorpe upstairs in the Burthorpe Castle.",
     "es": "Habla con Azzanadra en el Council of Burthorpe, en la planta de arriba del Burthorpe Castle."
@@ -70,11 +74,84 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Slayer bell",
       "display": "Slayer bell",
       "image": "https://runescape.wiki/images/thumb/Slayer_Bell.gif/100px-Slayer_Bell.gif?57c71"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Blank observation",
+      "display": "Blank observation (if the quest Heart of Stone has been completed. Given to the player during the quest if not already owned)",
+      "image": "https://runescape.wiki/images/thumb/Blank_observation_detail.png/100px-Blank_observation_detail.png?4871c"
+    },
+    {
+      "name": "Wicked hood",
+      "display": "Wicked hood or Traveller's necklace (for the Wizards' Tower teleport)",
+      "image": "https://runescape.wiki/images/thumb/Wicked_hood_detail.png/100px-Wicked_hood_detail.png?a835c"
+    },
+    {
+      "name": "The Heart teleport",
+      "display": "The Heart teleport (for quick access to the Heart of Gielinor, requires Tales of the God Wars miniquest; alternatively, one can use a desert amulet 2, 3, or 4 to teleport to Nardah and run south-west from there)",
+      "image": "https://runescape.wiki/images/thumb/The_Heart_teleport_detail.png/100px-The_Heart_teleport_detail.png?6567b"
+    },
+    {
+      "name": "Sixth-Age circuit",
+      "display": "Sixth-Age circuit for quick access to the World Gate; alternatively, teleport to the Eagles' Peak lodestone and run south; use five metallic dragon trinkets (rune dragon teleport, consumed); or use traveller's necklace to teleport to the Outpost and run west",
+      "image": "https://runescape.wiki/images/thumb/Sixth-Age_circuit_detail.png/100px-Sixth-Age_circuit_detail.png?7ea06"
+    },
+    {
+      "name": "Master archaeologist's outfit",
+      "display": "Master archaeologist's outfit (for quick access to the Kharid-et Dig Site; alternatively use the Archaeology journal and use the table at the Archaeology Guild to teleport to the Kharid-et Dig Site)",
+      "image": null
+    },
+    {
+      "name": "TokKul-Zo",
+      "display": "TokKul-Zo (if the quest The Elder Kiln has been completed for quick access to the TzHaar City)",
+      "image": "https://runescape.wiki/images/thumb/TokKul-Zo_detail.png/100px-TokKul-Zo_detail.png?1b81a"
+    },
+    {
+      "name": "Falador lodestone",
+      "display": "Falador lodestone activated (for Falador teleport)",
+      "image": "https://runescape.wiki/images/Falador_lodestone_icon.png?3315a"
+    },
+    {
+      "name": "Freneskae",
+      "display": "Food (to survive the dangers of Freneskae)",
+      "image": "https://runescape.wiki/images/thumb/Freneskae.png/100px-Freneskae.png?82e5a"
+    },
+    {
+      "name": "Enhanced Excalibur",
+      "display": "Enhanced Excalibur (to survive the dangers of Freneskae)",
+      "image": "https://runescape.wiki/images/thumb/Enhanced_Excalibur_detail.png/100px-Enhanced_Excalibur_detail.png?c4aa8"
+    },
+    {
+      "name": "Skeletal horror Teleport",
+      "display": "Skeletal horror Teleport, earth altar teleport to the earth altar, invitation box, or Fort Forinthry lodestone (for quick access to the Paterdomus)",
+      "image": "https://runescape.wiki/images/thumb/Bonesack_teleport.gif/100px-Bonesack_teleport.gif?db67e"
+    },
+    {
+      "name": "Distorted engrammeter",
+      "display": "Distorted engrammeter for damage reduction",
+      "image": "https://runescape.wiki/images/thumb/Distorted_engrammeter_detail.png/100px-Distorted_engrammeter_detail.png?d7677"
+    },
+    {
+      "name": "Memory strand",
+      "display": "Memory strands (for quickest access to the Hall of Memories)",
+      "image": "https://runescape.wiki/images/thumb/Memory_strand_detail.png/100px-Memory_strand_detail.png?2aec7"
+    },
+    {
+      "name": "Ring of respawn",
+      "display": "Ring of respawn (or a Passage of the abyss with ring of respawn charges for quick access to the White Knights' Castle), or a skills necklace to teleport south of Falador then take the shortcut just north-west to the castle or walk through Falador's south entry",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_respawn_%28new%29_detail.png/100px-Ring_of_respawn_%28new%29_detail.png?ec522"
+    },
+    {
+      "name": "Face mask",
+      "display": "Face mask, masked earmuffs, or Slayer helmet to avoid taking damage from inhaling the volcanic ash when travelling on Freneskae",
+      "image": "https://runescape.wiki/images/thumb/Face_mask_chathead.png/100px-Face_mask_chathead.png?76396"
     }
   ],
   "kills": [

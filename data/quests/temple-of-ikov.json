@@ -3,16 +3,20 @@
   "title": "Temple of Ikov",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.322Z",
+  "guideLastUpdated": "2026-07-06T20:31:48.554Z",
   "icon": "https://runescape.wiki/images/Temple_of_Ikov_icon.png",
+  "entityIcon": null,
   "series": "Mahjarrat Mysteries",
+  "seriesNth": "6",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "70-79",
   "difficulty": "Experienced",
   "length": "Medium",
   "releaseDate": "17 June 2002",
+  "area": "Ardougne",
   "startPoint": {
     "en": "Speak to Lucien in the Flying Horse Inn, in the north-west of East Ardougne.",
     "es": "Habla con Lucien en el Flying Horse Inn, al noroeste de East Ardougne."
@@ -30,6 +34,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Light source",
@@ -45,6 +50,33 @@
       "name": "Limpwurt root",
       "display": "20 un-noted limpwurt roots",
       "image": "https://runescape.wiki/images/thumb/Limpwurt_root_detail.png/100px-Limpwurt_root_detail.png?e0ad4"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Edgeville lodestone",
+      "display": "Activated Edgeville lodestone",
+      "image": "https://runescape.wiki/images/Edgeville_lodestone_icon.png?4cf6d"
+    },
+    {
+      "name": "Weight-reducing clothing",
+      "display": "Weight-reducing clothing, such as boots of lightness (obtainable during the quest), spotted cape, spottier cape, a pair of penance gloves, wicked robes, agile top and/or agile legs. (You must weigh 0 kg or less to complete a part of this quest. The more weight-reducing equipment you wear, the more inventory you can take)",
+      "image": null
+    },
+    {
+      "name": "Prayer potion",
+      "display": "Prayer potions",
+      "image": "https://runescape.wiki/images/thumb/Prayer_potion_%281%29_detail.png/100px-Prayer_potion_%281%29_detail.png?27704"
+    },
+    {
+      "name": "Dramen staff",
+      "display": "Dramen staff (unless A Fairy Tale III has been completed)",
+      "image": "https://runescape.wiki/images/thumb/Dramen_staff_detail.png/100px-Dramen_staff_detail.png?8114b"
+    },
+    {
+      "name": "Ava's device",
+      "display": "Any one of Ava's devices and good ranged armour",
+      "image": null
     }
   ],
   "kills": [

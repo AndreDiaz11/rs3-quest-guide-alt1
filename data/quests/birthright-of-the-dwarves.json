@@ -3,16 +3,20 @@
   "title": "Birthright of the Dwarves",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:03.135Z",
+  "guideLastUpdated": "2026-07-06T20:29:59.421Z",
   "icon": "https://runescape.wiki/images/Birthright_of_the_Dwarves_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Birthright_of_the_Dwarves_entity_icon.png?faa37",
   "series": "Dwarf (Red Axe)",
+  "seriesNth": "5",
   "age": "ambiguous",
   "timeline": "mythic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "120-129",
   "difficulty": "Grandmaster",
   "length": "Very Long",
   "releaseDate": "2 October 2013",
+  "area": "Keldagrim",
   "startPoint": {
     "en": "Talk to Veldaban on the top floor of Keldagrim Palace.",
     "es": "Habla con Veldaban en la planta superior de Keldagrim Palace."
@@ -95,11 +99,36 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "The Fremennik Isles",
+      "children": [
+        {
+          "title": "The Fremennik Trials"
+        }
+      ]
+    },
+    {
+      "title": "Watchtower"
+    }
+  ],
   "items": [
     {
       "name": "7 free backpack spaces",
       "display": "7 free backpack spaces",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat gear and food",
+      "display": "Combat gear and food",
+      "image": null
+    },
+    {
+      "name": "Watchtower Teleport",
+      "display": "Watchtower Teleport runes, Watchtower teleport (item) tablet or Yanille lodestone (if Watchtower spell isn't unlocked)",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
     }
   ],
   "kills": [

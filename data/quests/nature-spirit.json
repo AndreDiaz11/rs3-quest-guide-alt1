@@ -3,16 +3,20 @@
   "title": "Nature Spirit",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:05.438Z",
+  "guideLastUpdated": "2026-07-06T20:31:09.772Z",
   "icon": "https://runescape.wiki/images/Nature_Spirit_icon.png",
+  "entityIcon": null,
   "series": "Myreque",
+  "seriesNth": "2",
   "age": "5",
   "timeline": "adventurer",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "30-39",
   "difficulty": "Novice",
   "length": "Short to Medium",
   "releaseDate": "13 July 2004",
+  "area": "Paterdomus",
   "startPoint": {
     "en": "Speak to Drezel under the Saradomin temple near the River Salve. (via )",
     "es": "Habla con Drezel bajo el templo de Saradomin cerca de River Salve. (via)"
@@ -46,17 +50,10 @@
       {
         "skill": "Smithing",
         "level": 20
-      },
-      {
-        "skill": "Crafting",
-        "level": 18
-      },
-      {
-        "skill": "Prayer",
-        "level": 10
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Silver sickle",
@@ -67,6 +64,43 @@
       "name": "Ghostspeak amulet",
       "display": "Ghostspeak amulet",
       "image": "https://runescape.wiki/images/thumb/Ghostspeak_amulet_detail.png/100px-Ghostspeak_amulet_detail.png?18457"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Crafting",
+      "display": "18 Crafting (For making the silver sickle if not bought)",
+      "image": "https://runescape.wiki/images/Crafting-icon.png?f224a"
+    },
+    {
+      "name": "Prayer",
+      "display": "10 Prayer (Or a couple of prayer potions to restore Prayer Points)",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Ghasts",
+      "display": "Food, if you are a low-levelled player, to absorb attacks from ghasts.",
+      "image": null
+    },
+    {
+      "name": "Ghasts",
+      "display": "Combat equipment to kill the ghasts if you are a low-levelled player.",
+      "image": null
+    },
+    {
+      "name": "Prayer potion",
+      "display": "A prayer potion in case you use up all of your druid pouches and you have to re-harvest fungus.",
+      "image": "https://runescape.wiki/images/thumb/Prayer_potion_%281%29_detail.png/100px-Prayer_potion_%281%29_detail.png?27704"
+    },
+    {
+      "name": "Home teleport",
+      "display": "Canifis home teleport",
+      "image": null
+    },
+    {
+      "name": "Invitation Box",
+      "display": "The Invitation Box for teleports to Paterdomus",
+      "image": null
     }
   ],
   "kills": [

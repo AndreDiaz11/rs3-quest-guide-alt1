@@ -3,16 +3,20 @@
   "title": "Requiem for a Dragon",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:06.444Z",
+  "guideLastUpdated": "2026-07-06T20:31:29.323Z",
   "icon": "https://runescape.wiki/images/thumb/Requiem_for_a_Dragon_icon.png/50px-Requiem_for_a_Dragon_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Requiem_for_a_Dragon_entity_icon.png?812ff",
   "series": "Fort Forinthry",
+  "seriesNth": "7",
   "age": "Age of Chaos",
   "timeline": "Age of Chaos",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "80-89",
   "difficulty": "Master",
   "length": "Medium",
   "releaseDate": "22 April 2024",
+  "area": "Fort Forinthry",
   "startPoint": {
     "en": "Speak to Aster in the Fort Forinthry townhall.",
     "es": "Habla con Aster en el ayuntamiento de Fort Forinthry."
@@ -124,13 +128,10 @@
       {
         "skill": "Necromancy",
         "level": 80
-      },
-      {
-        "skill": "Necromancy",
-        "level": 80
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "White marble",
@@ -173,6 +174,38 @@
           "image": "https://runescape.wiki/images/thumb/Basic_ritual_candle_%28placed%29.png/100px-Basic_ritual_candle_%28placed%29.png?2fc9a"
         }
       ]
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Necromancy",
+      "display": "80 Necromancy (b) (to make greater ensouled bars)",
+      "image": "https://runescape.wiki/images/Necromancy-icon.png?f826b"
+    },
+    {
+      "name": "Archaeology journal",
+      "display": "Archaeology journal",
+      "image": "https://runescape.wiki/images/thumb/Archaeology_journal_detail.png/100px-Archaeology_journal_detail.png?9ffe0"
+    },
+    {
+      "name": "Archaeology",
+      "display": "Archaeology equipment",
+      "image": "https://runescape.wiki/images/Archaeology-icon.png?48b2f"
+    },
+    {
+      "name": "Sixth-Age circuit",
+      "display": "Sixth-Age circuit",
+      "image": "https://runescape.wiki/images/thumb/Sixth-Age_circuit_detail.png/100px-Sixth-Age_circuit_detail.png?7ea06"
+    },
+    {
+      "name": "Combat",
+      "display": "Combat equipment",
+      "image": "https://runescape.wiki/images/thumb/Melee.gif/100px-Melee.gif?55f8a"
+    },
+    {
+      "name": "Super restore",
+      "display": "Super restore",
+      "image": "https://runescape.wiki/images/thumb/Super_restore_%281%29_detail.png/100px-Super_restore_%281%29_detail.png?162ff"
     }
   ],
   "kills": [

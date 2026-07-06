@@ -3,16 +3,20 @@
   "title": "Rum Deal",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:06.632Z",
+  "guideLastUpdated": "2026-07-06T20:31:32.248Z",
   "icon": "https://runescape.wiki/images/Rum_Deal_icon.png",
+  "entityIcon": null,
   "series": "Pirate",
+  "seriesNth": "2",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "70-79",
   "difficulty": "Experienced",
   "length": "Medium",
   "releaseDate": "31 October 2005",
+  "area": "Port Phasmatys",
   "startPoint": {
     "en": "Pirate Pete, at the docks north of Port Phasmatys.",
     "es": "Pirate Pete, en los muelles al norte de Port Phasmatys."
@@ -47,11 +51,29 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Armour",
       "display": "Armour and food to defeat a level 56 monster who uses melee, and a level 70 monster that uses ranged",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Ectophial",
+      "display": "An ectophial for easy teleportation",
+      "image": "https://runescape.wiki/images/thumb/Ectophial_detail.png/100px-Ectophial_detail.png?1b030"
+    },
+    {
+      "name": "Ring of charos",
+      "display": "Ring of charos (for use when speaking with 50% Luke)",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_charos_detail.png/100px-Ring_of_charos_detail.png?86930"
+    },
+    {
+      "name": "Slayer gloves",
+      "display": "Slayer gloves (When fighting the fever spider)",
+      "image": "https://runescape.wiki/images/thumb/Slayer_gloves_detail.png/100px-Slayer_gloves_detail.png?23f30"
     }
   ],
   "kills": [

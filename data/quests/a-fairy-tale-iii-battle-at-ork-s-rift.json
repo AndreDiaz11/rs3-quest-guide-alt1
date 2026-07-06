@@ -3,16 +3,20 @@
   "title": "A Fairy Tale III - Battle at Ork's Rift",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:02.707Z",
+  "guideLastUpdated": "2026-07-06T20:29:47.776Z",
   "icon": "https://runescape.wiki/images/A_Fairy_Tale_III_-_Battle_at_Ork%27s_Rift_icon.png",
+  "entityIcon": "https://runescape.wiki/images/A_Fairy_Tale_III_-_Battle_at_Ork%27s_Rift_entity_icon.png?db8b6",
   "series": "Fairy",
+  "seriesNth": "4",
   "age": "5",
   "timeline": "heroic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "80-89",
   "difficulty": "Experienced",
   "length": "Long",
   "releaseDate": "13 May 2010",
+  "area": "Yanille",
   "startPoint": {
     "en": "Talk to the Fairy Queen at Fairy Resistance Hideout, reached by using the main fairy ring in Zanaris.",
     "es": "Habla con la Fairy Queen en Fairy Resistance Hideout, a la que se llega usando el anillo de hadas principal en Zanaris."
@@ -60,17 +64,10 @@
       {
         "skill": "Thieving",
         "level": 51
-      },
-      {
-        "skill": "Prayer",
-        "level": 37
-      },
-      {
-        "skill": "Firemaking",
-        "level": 85
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Nuff's certificate",
@@ -96,6 +93,43 @@
       "name": "Hammer",
       "display": "Hammer (can be obtained during the quest; tool belt will not work)",
       "image": "https://runescape.wiki/images/thumb/Hammer_detail.png/100px-Hammer_detail.png?bea80"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Prayer",
+      "display": "37 Prayer for Protect from Magic",
+      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+    },
+    {
+      "name": "Prayer potion",
+      "display": "1-3 Prayer potions",
+      "image": "https://runescape.wiki/images/thumb/Prayer_potion_%281%29_detail.png/100px-Prayer_potion_%281%29_detail.png?27704"
+    },
+    {
+      "name": "Potions that improve your combat abilities",
+      "display": "Potions that improve your combat abilities",
+      "image": null
+    },
+    {
+      "name": "Dragon equipment",
+      "display": "Good weapon and armour (Dragon equipment or better)",
+      "image": null
+    },
+    {
+      "name": "Beltfish",
+      "display": "Some food, beltfish or better",
+      "image": "https://runescape.wiki/images/thumb/Beltfish_detail.png/100px-Beltfish_detail.png?303a0"
+    },
+    {
+      "name": "Willow logs",
+      "display": "8 Willow logs (85 Firemaking required for this optional step)",
+      "image": "https://runescape.wiki/images/thumb/Willow_logs_detail.png/100px-Willow_logs_detail.png?fe690"
+    },
+    {
+      "name": "Plank",
+      "display": "4 regular planks and 8 nails of any kind to repair one side of the bridge to Mos Le'Harmless via K'Chunk's island",
+      "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
     }
   ],
   "kills": [

@@ -3,16 +3,20 @@
   "title": "Ritual of the Mahjarrat",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:06.489Z",
+  "guideLastUpdated": "2026-07-06T20:31:29.976Z",
   "icon": "https://runescape.wiki/images/Ritual_of_the_Mahjarrat_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Ritual_of_the_Mahjarrat_entity_icon.png?812ff",
   "series": "Mahjarrat Mysteries",
+  "seriesNth": "16",
   "age": "5",
   "timeline": "mythic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "140-149",
   "difficulty": "Grandmaster",
   "length": "Very, Very Long",
   "releaseDate": "14 September 2011",
+  "area": "Falador Park",
   "startPoint": {
     "en": "Speak to Sir Tiffy Cashien in Falador Park.",
     "es": "Habla con Sir Tiffy Cashien en Falador Park."
@@ -150,6 +154,20 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "The General's Shadow (miniquest)",
+      "children": [
+        {
+          "title": "The Curse of Zaros (miniquest)…",
+          "matchTitle": "The Curse of Zaros (miniquest)"
+        },
+        {
+          "title": "Fight Arena"
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Ring of visibility",
@@ -170,6 +188,43 @@
       "name": "Catspeak amulet (e)",
       "display": "Catspeak amulet (e) or cramulet",
       "image": "https://runescape.wiki/images/thumb/Catspeak_amulet_%28e%29_detail.png/100px-Catspeak_amulet_%28e%29_detail.png?b2fbc"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Anti-dragon shield",
+      "display": "Anti-dragon shield or an equivalent protection against dragonfire",
+      "image": "https://runescape.wiki/images/thumb/Anti-dragon_shield_detail.png/100px-Anti-dragon_shield_detail.png?238e5"
+    },
+    {
+      "name": "Falador lodestone",
+      "display": "Activated Falador lodestone",
+      "image": "https://runescape.wiki/images/Falador_lodestone_icon.png?3315a"
+    },
+    {
+      "name": "Dig Site pendant",
+      "display": "A Dig Site pendant, Varrock Teleport or the Archaeology journal to get to the digsite easily.",
+      "image": "https://runescape.wiki/images/thumb/Dig_Site_pendant_%281%29_detail.png/100px-Dig_Site_pendant_%281%29_detail.png?00b28"
+    },
+    {
+      "name": "Rock climbing boots",
+      "display": "Rock climbing boots",
+      "image": "https://runescape.wiki/images/thumb/Climbing_boots_detail.png/100px-Climbing_boots_detail.png?91a45"
+    },
+    {
+      "name": "Combat gear and food",
+      "display": "Combat gear and food",
+      "image": null
+    },
+    {
+      "name": "Super energy",
+      "display": "Super energy potions or Endurance relic power",
+      "image": "https://runescape.wiki/images/thumb/Super_energy_%281%29_detail.png/100px-Super_energy_%281%29_detail.png?5317a"
+    },
+    {
+      "name": "Agility cape",
+      "display": "Agility cape",
+      "image": "https://runescape.wiki/images/thumb/Agility_cape_detail.png/100px-Agility_cape_detail.png?8d3b9"
     }
   ],
   "kills": [

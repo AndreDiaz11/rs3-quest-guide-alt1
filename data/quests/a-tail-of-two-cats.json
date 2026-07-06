@@ -3,16 +3,20 @@
   "title": "A Tail of Two Cats",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:02.764Z",
+  "guideLastUpdated": "2026-07-06T20:29:49.994Z",
   "icon": "https://runescape.wiki/images/A_Tail_of_Two_Cats_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "5",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Intermediate",
   "length": "Long",
   "releaseDate": "26 September 2005",
+  "area": "Burthorpe",
   "startPoint": {
     "en": "Talk to Unferth in his house in Burthorpe.",
     "es": "Habla con Unferth en su casa en Burthorpe."
@@ -38,6 +42,7 @@
     ],
     "skills": []
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Cat",
@@ -90,6 +95,40 @@
       "name": "Desert robe outfit (white)",
       "display": "White desert robe outfit, druid's robe outfit, or other white-coloured robes",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Enchanted water tiara",
+      "display": "An enchanted water tiara or waterskins or completion of Crocodile tears",
+      "image": "https://runescape.wiki/images/thumb/Enchanted_water_tiara_detail.png/100px-Enchanted_water_tiara_detail.png?f3503"
+    },
+    {
+      "name": "Varrock Teleport",
+      "display": "Varrock Teleport or a combat bracelet",
+      "image": "https://runescape.wiki/images/thumb/Teleport.gif/100px-Teleport.gif?0417a"
+    },
+    {
+      "name": "Pharaoh's sceptre",
+      "display": "A pharaoh's sceptre, sceptre of the gods, or Sophanem Slayer Dungeon teleport for quick teleport to Sophanem.",
+      "image": "https://runescape.wiki/images/thumb/Pharaoh%27s_sceptre_detail.png/100px-Pharaoh%27s_sceptre_detail.png?1efc5",
+      "children": [
+        {
+          "name": "Desert amulet 2",
+          "display": "A desert amulet 2 or a player-owned house in Pollnivneach also gives close access to a magic carpet.",
+          "image": "https://runescape.wiki/images/thumb/Desert_amulet_2_detail.png/100px-Desert_amulet_2_detail.png?3b61e"
+        },
+        {
+          "name": "Contact!",
+          "display": "Completion of Contact! also allows one-way travel across the bridge from Menaphos to Sophanem, which is only a short distance from the Menaphos lodestone.",
+          "image": "https://runescape.wiki/images/thumb/Contact%21.png/100px-Contact%21.png?da453"
+        }
+      ]
+    },
+    {
+      "name": "Lodestone Network",
+      "display": "Active lodestones or teleportation across the free-to-play map in order to find Bob the Cat.",
+      "image": "https://runescape.wiki/images/thumb/Completed_lodestone_network.png/100px-Completed_lodestone_network.png?37852"
     }
   ],
   "kills": [

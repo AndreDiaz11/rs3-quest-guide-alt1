@@ -3,16 +3,20 @@
   "title": "The Mighty Fall",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:07.901Z",
+  "guideLastUpdated": "2026-07-06T20:32:02.644Z",
   "icon": "https://runescape.wiki/images/The_Mighty_Fall_icon.png",
+  "entityIcon": "https://runescape.wiki/images/The_Mighty_Fall_entity_icon.png?5d464",
   "series": "Sliske's Game",
+  "seriesNth": "6",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "200+",
   "difficulty": "Master",
   "length": "Long to Very Long",
   "releaseDate": "2 June 2014",
+  "area": "Dorgesh-Kaan",
   "startPoint": {
     "en": "Speak to Ur-tag in Dorgesh-Kaan.",
     "es": "Habla con Ur-tag en Dorgesh-Kaan."
@@ -78,11 +82,67 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "My Arm's Big Adventure",
+      "children": [
+        {
+          "title": "Eadgar's Ruse",
+          "children": [
+            {
+              "title": "Druidic Ritual"
+            },
+            {
+              "title": "Troll Stronghold…",
+              "matchTitle": "Troll Stronghold"
+            },
+            {
+              "title": "Rescue Mad Eadgar from the Troll Stronghold area",
+              "matchTitle": "Mad Eadgar"
+            }
+          ]
+        },
+        {
+          "title": "Jungle Potion"
+        }
+      ]
+    },
+    {
+      "title": "The Hunt for Surok (miniquest)",
+      "children": [
+        {
+          "title": "What Lies Below"
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Light sources",
       "display": "Light source",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat equipment, potions and food",
+      "display": "Combat equipment, potions and food",
+      "image": null
+    },
+    {
+      "name": "Goblin village sphere",
+      "display": "Goblin village spheres or mind altar teleports or a Bandosian token",
+      "image": "https://runescape.wiki/images/thumb/Goblin_village_sphere_detail.png/100px-Goblin_village_sphere_detail.png?464ff"
+    },
+    {
+      "name": "Dorgesh-kaan sphere",
+      "display": "Dorgesh-kaan spheres",
+      "image": "https://runescape.wiki/images/thumb/Dorgesh-kaan_sphere_detail.png/100px-Dorgesh-kaan_sphere_detail.png?0222c"
+    },
+    {
+      "name": "Water altar teleport",
+      "display": "Water altar teleport for quick access to Lumbridge Swamp",
+      "image": "https://runescape.wiki/images/thumb/Water_altar_teleport_detail.png/100px-Water_altar_teleport_detail.png?6e5b4"
     }
   ],
   "kills": [

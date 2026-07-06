@@ -3,16 +3,20 @@
   "title": "Eagles' Peak",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.034Z",
+  "guideLastUpdated": "2026-07-06T20:30:29.942Z",
   "icon": "https://runescape.wiki/images/Eagles%27_Peak_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "ambiguous",
   "timeline": "adventurer",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "10-19",
   "difficulty": "Novice",
   "length": "Medium",
   "releaseDate": "28 November 2006",
+  "area": "Ardougne Zoo",
   "startPoint": {
     "en": "Talk to Charlie the Zookeeper in Ardougne Zoo.",
     "es": "Habla con Charlie the Zookeeper en Ardougne Zoo."
@@ -23,13 +27,10 @@
       {
         "skill": "Hunter",
         "level": 27
-      },
-      {
-        "skill": "Agility",
-        "level": 25
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Yellow dye",
@@ -45,6 +46,48 @@
       "name": "Coins",
       "display": "50 Coins",
       "image": "https://runescape.wiki/images/thumb/Coins_1000_detail.png/100px-Coins_1000_detail.png?7a3fb"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Agility",
+      "display": "25 Agility",
+      "image": "https://runescape.wiki/images/Agility-icon.png?9a56e"
+    },
+    {
+      "name": "Ardougne",
+      "display": "Teleportation runes to Ardougne and Varrock, Ardougne cloak 1 or better (requires easy Ardougne achievements), alternatively activated Ardougne and Varrock lodestone.",
+      "image": "https://runescape.wiki/images/thumb/East_Ardougne.png/100px-East_Ardougne.png?065f9"
+    },
+    {
+      "name": "Memory strand",
+      "display": "Memory strands in the currency pouch to teleport just north campsite.",
+      "image": "https://runescape.wiki/images/thumb/Memory_strand_detail.png/100px-Memory_strand_detail.png?2aec7"
+    },
+    {
+      "name": "Spirit Tree",
+      "display": "Ability to use Spirit Tree.",
+      "image": null
+    },
+    {
+      "name": "Dramen staff",
+      "display": "Dramen staff or Lunar staff with the ability to use fairy rings (Not required if A Fairy Tale III - Battle at Ork's Rift has been completed).",
+      "image": "https://runescape.wiki/images/thumb/Dramen_staff_detail.png/100px-Dramen_staff_detail.png?8114b"
+    },
+    {
+      "name": "Energy potion",
+      "display": "Energy potions or Explorer's ring or Spirit terrorbird with Tireless Run scrolls. (highly recommended)",
+      "image": "https://runescape.wiki/images/thumb/Energy_potion_%281%29_detail.png/100px-Energy_potion_%281%29_detail.png?33ea7"
+    },
+    {
+      "name": "The Book of Char",
+      "display": "The Book of Char can be useful as you can teleport right outside the mountain where the quest plays out once a day (requires The Firemaker's Curse).",
+      "image": "https://runescape.wiki/images/thumb/Firemaking_journal_compilation_%286%29_detail.png/100px-Firemaking_journal_compilation_%286%29_detail.png?b11d9"
+    },
+    {
+      "name": "Eagles' Peak lodestone",
+      "display": "Access to Eagles' Peak lodestone.",
+      "image": "https://runescape.wiki/images/Eagles%27_Peak_lodestone_icon.png?213d3"
     }
   ],
   "kills": [

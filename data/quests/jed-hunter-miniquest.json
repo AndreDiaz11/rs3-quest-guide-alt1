@@ -3,16 +3,20 @@
   "title": "Jed Hunter (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.872Z",
+  "guideLastUpdated": "2026-07-06T20:30:56.912Z",
   "icon": "https://runescape.wiki/images/thumb/Jed_Hunter_%28miniquest%29_icon.png/50px-Jed_Hunter_%28miniquest%29_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Jed_Hunter_%28miniquest%29_entity_icon.png?87915",
   "series": "Tales of the Arc",
+  "seriesNth": "5",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "scaled",
   "difficulty": "Grandmaster",
   "length": "Short",
   "releaseDate": "25 July 2016",
+  "area": "Wushanko Isles",
   "startPoint": {
     "en": "Talk to Lookout Ekahi who is on the northern dock on Waiko near Sarim's Revenge.",
     "es": "Habla con Lookout Ekahi, que está en el muelle norte de Waiko, cerca de Sarim's Revenge."
@@ -62,6 +66,16 @@
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "Deadliest Catch",
+      "children": [
+        {
+          "title": "Tower of Life"
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Driftwood",
@@ -94,6 +108,7 @@
       "image": "https://runescape.wiki/images/thumb/Uncharted_island_map_detail.png/100px-Uncharted_island_map_detail.png?b6cc8"
     }
   ],
+  "recommended": [],
   "kills": [
     "3 Gu ronin (level 119, scale to your level)"
   ],

@@ -66,6 +66,16 @@ export function unsyncedIcon(color) {
   );
 }
 
+/** Gift-box icon, used for the "Rewards" collapsible section heading. */
+export function giftIcon(color) {
+  return svg(
+    `<rect x="4" y="10" width="16" height="10" rx="1" fill="none" stroke="${color}" stroke-width="1.6"/>` +
+      `<path d="M4 10h16v3H4z" fill="none" stroke="${color}" stroke-width="1.6"/>` +
+      `<path d="M12 10v10" stroke="${color}" stroke-width="1.6"/>` +
+      `<path d="M12 10c0-2.5-1.5-4-3-4s-2.5 1.5-1 3c1 1 4 1 4 1zM12 10c0-2.5 1.5-4 3-4s2.5 1.5 1 3c-1 1-4 1-4 1z" fill="none" stroke="${color}" stroke-width="1.4" stroke-linejoin="round"/>`
+  );
+}
+
 /** Compass/star emblem used in the header and footer. */
 export function compassIcon(color = "var(--gold-bright)", ringColor = "var(--gold)") {
   return svg(

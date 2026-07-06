@@ -3,16 +3,20 @@
   "title": "Tortle Combat (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.164Z",
+  "guideLastUpdated": "2026-07-06T20:32:10.112Z",
   "icon": "https://runescape.wiki/images/Tortle_Combat_%28miniquest%29_icon.png",
+  "entityIcon": null,
   "series": null,
+  "seriesNth": null,
   "age": "ambiguous",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "none",
   "difficulty": "Intermediate",
   "length": "Medium",
   "releaseDate": "1 February 2021",
+  "area": "Varrock",
   "startPoint": {
     "en": "Talk to Postie Pete-za by the entrance to the Varrock Sewers.",
     "es": "Habla con Postie Pete-za junto a la entrada de las Varrock Sewers."
@@ -34,6 +38,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Plank",
@@ -89,6 +94,30 @@
       "name": "1 empty inventory space",
       "display": "1 empty inventory space",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Varrock",
+      "display": "Some means of Varrock teleport, preferably one of the two below",
+      "image": "https://runescape.wiki/images/thumb/Varrock.png/100px-Varrock.png?b6b39",
+      "children": [
+        {
+          "name": "Master constructor's outfit",
+          "display": "Master constructor's outfit, Varrock estate agent teleport is the closest to the Varrock sewer",
+          "image": null
+        },
+        {
+          "name": "Dave's spellbook",
+          "display": "Dave's spellbook, teleport to Varrock Museum is as good as the outfit",
+          "image": "https://runescape.wiki/images/Dave%27s_spellbook_detail.png?b971b"
+        }
+      ]
+    },
+    {
+      "name": "Grand Exchange",
+      "display": "Teleport to get to the Grand Exchange, such as Luck of the Dwarves",
+      "image": "https://runescape.wiki/images/thumb/Grand_Exchange_%28Varrock%29.png/100px-Grand_Exchange_%28Varrock%29.png?8cad5"
     }
   ],
   "kills": [

@@ -3,16 +3,20 @@
   "title": "The Void Stares Back",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:08.089Z",
+  "guideLastUpdated": "2026-07-06T20:32:08.134Z",
   "icon": "https://runescape.wiki/images/The_Void_Stares_Back_icon.png",
+  "entityIcon": "https://runescape.wiki/images/The_Void_Stares_Back_entity_icon.png?5d464",
   "series": "Void Knight",
+  "seriesNth": "3",
   "age": "5",
   "timeline": "mythic",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "100-109",
   "difficulty": "Grandmaster",
   "length": "Long",
   "releaseDate": "6 October 2010",
+  "area": "Falador Park",
   "startPoint": {
     "en": "Speak to Captain Korasi at the Falador Park.",
     "es": "Habla con Captain Korasi en Falador Park."
@@ -84,13 +88,15 @@
       {
         "skill": "Summoning",
         "level": 55
-      },
-      {
-        "skill": "combat level",
-        "level": 100
       }
     ]
   },
+  "followsEvents": [
+    {
+      "title": "Conquest tutorial",
+      "matchTitle": "Conquest"
+    }
+  ],
   "items": [
     {
       "name": "Hard leather",
@@ -111,6 +117,28 @@
       "name": "8 backpack spaces",
       "display": "8 backpack spaces",
       "image": null
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Combat level",
+      "display": "100 combat level",
+      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+    },
+    {
+      "name": "High level food",
+      "display": "High level food",
+      "image": null
+    },
+    {
+      "name": "Armour and a weapon (for killing the pests) (either melee, necromancy, or both magic and ranged for fighting the torcher pest)",
+      "display": "Armour and a weapon (for killing the pests) (either melee, necromancy, or both magic and ranged for fighting the torcher pest)",
+      "image": null
+    },
+    {
+      "name": "Prayer potion",
+      "display": "Prayer potions",
+      "image": "https://runescape.wiki/images/thumb/Prayer_potion_%281%29_detail.png/100px-Prayer_potion_%281%29_detail.png?27704"
     }
   ],
   "kills": [

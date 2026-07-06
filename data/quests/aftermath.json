@@ -3,16 +3,20 @@
   "title": "Aftermath",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:02.803Z",
+  "guideLastUpdated": "2026-07-06T20:29:50.948Z",
   "icon": "https://runescape.wiki/images/Aftermath_icon.png",
+  "entityIcon": null,
   "series": "The Elder God Wars",
+  "seriesNth": "16",
   "age": "6",
   "timeline": "world guardian",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "130-139",
   "difficulty": "Experienced",
   "length": "Medium to Long",
   "releaseDate": "4 July 2022",
+  "area": "Falador Castle",
   "startPoint": {
     "en": "Talk to Adrasteia in her library on the 1st floor[UK]2nd floor[US] of the White Knights' Castle in Falador, near the interrogation room.",
     "es": "Habla con Adrasteia en su biblioteca de la 1ª planta[UK]2ª planta[US] del White Knights' Castle en Falador, cerca de la sala de interrogatorios."
@@ -74,7 +78,25 @@
     ],
     "skills": []
   },
+  "followsEvents": [],
   "items": [],
+  "recommended": [
+    {
+      "name": "Ring of respawn",
+      "display": "Ring of respawn, passage of the abyss, Falador Teleport, activated Falador lodestone, or master archaeologist's outfit for quick access to the White Knights' Castle",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_respawn_%28new%29_detail.png/100px-Ring_of_respawn_%28new%29_detail.png?ec522"
+    },
+    {
+      "name": "Archaeology journal",
+      "display": "Archaeology journal or master archaeologist's outfit to teleport to Kharid-et Dig Site",
+      "image": "https://runescape.wiki/images/thumb/Archaeology_journal_detail.png/100px-Archaeology_journal_detail.png?9ffe0"
+    },
+    {
+      "name": "Port Sarim lodestone",
+      "display": "Activated Port Sarim lodestone or master archaeologist's outfit to teleport to Armadyl's Tower",
+      "image": "https://runescape.wiki/images/Port_Sarim_lodestone_icon.png?811bd"
+    }
+  ],
   "kills": [
     "Various enemies within the The Zamorakian Undercity (if not already done at least once)",
     "Zamorak, Lord of Chaos (level 14,000) (if not already beaten at least once)"

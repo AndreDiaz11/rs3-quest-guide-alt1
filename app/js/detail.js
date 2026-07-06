@@ -1,6 +1,7 @@
 import { meetsQuestRequirement, meetsSkillRequirement } from "./state.js";
 import { getSkillIcon } from "./skillIcons.js";
 import { t } from "./i18n.js";
+import { questIcon, scrollIcon, giftIcon } from "./icons.js";
 
 function localizedText(field, lang) {
   if (!field) return "";
@@ -221,6 +222,71 @@ function renderRequirementsList(quest) {
   return wrap;
 }
 
+/** Renders one "Follows events" (recommended-but-not-required) quest node — same tree shape as Requirements, just without a ✓/✗ marker since it's optional. */
+function renderFollowsEventNode(node) {
+  const li = el("li", { text: node.title });
+  if (node.children?.length) {
+    const childUl = el("ul", { class: "requirement-tree" });
+    node.children.forEach((child) => childUl.appendChild(renderFollowsEventNode(child)));
+    li.appendChild(childUl);
+  }
+  return li;
+}
+
+const AGE_ORDINALS = ["First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", "Eighth"];
+/** Matches the wiki's own infobox phrasing: numeric ages ("5") become "Fifth Age"; free-text ones ("ambiguous") just get capitalized. */
+function formatAge(age) {
+  if (!age) return null;
+  const n = Number(age);
+  if (Number.isInteger(n) && n >= 1 && n <= AGE_ORDINALS.length) return `${AGE_ORDINALS[n - 1]} Age`;
+  return age.charAt(0).toUpperCase() + age.slice(1);
+}
+
+function capitalize(text) {
+  return text ? text.charAt(0).toUpperCase() + text.slice(1) : text;
+}
+
+/**
+ * The wiki's own infobox card (Release date, Members, Voice Over, Official
+ * series, Age, Timeline, Start area, Combat, Entity icon) — deliberately
+ * left in English exactly as the wiki shows it, no new translation cost,
+ * always visible (not collapsible) right below the quest title.
+ */
+function renderWikiInfobox(quest) {
+  const grid = el("dl", { class: "wiki-infobox" });
+  const addRow = (label, valueNode) => {
+    if (!valueNode) return;
+    grid.appendChild(el("dt", { text: label }));
+    const dd = el("dd");
+    if (typeof valueNode === "string") dd.textContent = valueNode;
+    else dd.appendChild(valueNode);
+    grid.appendChild(dd);
+  };
+
+  addRow("Release date", quest.releaseDate);
+  addRow("Members", quest.members ? "Yes" : "No");
+  addRow("Voice Over", quest.voiceOver ? "Yes" : "No");
+  addRow("Official series", quest.series ? `${quest.series}${quest.seriesNth ? ` #${quest.seriesNth}` : ""}` : null);
+  addRow("Age", formatAge(quest.age));
+  addRow("Timeline", capitalize(quest.timeline));
+  addRow("Start area", quest.area);
+  addRow("Combat", quest.combatLevel ? `NPC combat level ${quest.combatLevel}` : null);
+  if (quest.entityIcon) addRow("Entity icon", el("img", { class: "wiki-infobox-icon", src: quest.entityIcon, alt: "" }));
+
+  return grid;
+}
+
+/** A collapsible `<details>` section with an icon + label `<summary>` — closed by default. */
+function renderSection(iconSvg, label, contentNodes) {
+  const details = el("details", { class: "quest-section" });
+  const summary = el("summary");
+  summary.innerHTML = `<span class="quest-section-icon">${iconSvg}</span>`;
+  summary.appendChild(document.createTextNode(label));
+  details.appendChild(summary);
+  contentNodes.forEach((node) => details.appendChild(node));
+  return details;
+}
+
 /** Extracts just the marker shown inline next to the chat bubble (e.g. "1", "#", "~" for "Any"). */
 function chatOptionMarker(opt) {
   const match = opt.match(/^([#?\d]+)\s+/);
@@ -336,7 +402,9 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   container.innerHTML = "";
   const manualChecks = loadManualChecks(quest.id);
 
-  const header = el("div", { class: "quest-header" });
+  // Sticky (position: sticky in CSS) so the quest's icon+name stays visible
+  // at the top of the panel while scrolling through Overview/Steps/Rewards.
+  const header = el("div", { class: "quest-header quest-header-sticky" });
   if (quest.icon) header.appendChild(el("img", { src: quest.icon, alt: "" }));
   header.appendChild(el("h1", { text: quest.title }));
   container.appendChild(header);
@@ -366,6 +434,13 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
     })
   );
 
+  // The wiki's own infobox card — always visible (not collapsible), English
+  // exactly as the wiki shows it, no new translation cost.
+  container.appendChild(renderWikiInfobox(quest));
+
+  // --- "Overview" (Resumen): everything before the walkthrough — start
+  // point, length, requirements, follows events, items, recommended, combat.
+  const overviewNodes = [];
   const metaGrid = el("dl", { class: "quest-meta-grid" });
   const addMeta = (label, value) => {
     if (!value) return;
@@ -373,36 +448,54 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
     metaGrid.appendChild(el("dd", { text: value }));
   };
   addMeta(t("metaStartPoint"), localizedText(quest.startPoint, lang));
-  addMeta(t("metaSeries"), quest.series);
-  addMeta(t("metaAge"), quest.age);
-  addMeta(t("metaMembers"), quest.members ? t("metaYes") : t("metaNo"));
   addMeta(t("metaLength"), quest.length);
-  addMeta(t("metaCombatLevel"), quest.combatLevel);
-  addMeta(t("metaReleaseDate"), quest.releaseDate);
-  container.appendChild(metaGrid);
+  if (metaGrid.children.length > 0) overviewNodes.push(metaGrid);
 
   const requirementsList = renderRequirementsList(quest);
   if (requirementsList) {
-    container.appendChild(el("h2", { class: "section-title", text: t("sectionRequirements") }));
-    container.appendChild(requirementsList);
+    overviewNodes.push(el("h3", { class: "subsection-title", text: t("sectionRequirements") }));
+    overviewNodes.push(requirementsList);
+  }
+
+  if (quest.followsEvents?.length) {
+    overviewNodes.push(el("h3", { class: "subsection-title", text: t("sectionFollowsEvents") }));
+    const ul = el("ul", { class: "requirement-tree" });
+    quest.followsEvents.forEach((node) => ul.appendChild(renderFollowsEventNode(node)));
+    overviewNodes.push(ul);
   }
 
   if (quest.items?.length) {
-    container.appendChild(el("h2", { class: "section-title", text: t("sectionItems") }));
+    overviewNodes.push(el("h3", { class: "subsection-title", text: t("sectionItems") }));
     const itemsList = el("ul", { class: "items-plain-list" });
     quest.items.forEach((item) => itemsList.appendChild(renderItemRow(item)));
-    container.appendChild(itemsList);
+    overviewNodes.push(itemsList);
   }
 
+  if (quest.recommended?.length) {
+    overviewNodes.push(el("h3", { class: "subsection-title", text: t("sectionRecommended") }));
+    const recList = el("ul", { class: "items-plain-list" });
+    quest.recommended.forEach((item) => recList.appendChild(renderItemRow(item)));
+    overviewNodes.push(recList);
+  }
+
+  if (quest.kills?.length) {
+    overviewNodes.push(el("h3", { class: "subsection-title", text: t("sectionCombat") }));
+    const killsList = el("ul", { class: "postquest-list" });
+    quest.kills.forEach((entry) => killsList.appendChild(el("li", { text: entry })));
+    overviewNodes.push(killsList);
+  }
+
+  if (overviewNodes.length > 0) {
+    container.appendChild(renderSection(questIcon("var(--gold)"), t("sectionOverview"), overviewNodes));
+  }
+
+  // --- "Guía paso a paso" (Step-by-step guide): the walkthrough itself.
+  const stepsNodes = [];
   if (quest.guideNote) {
-    container.appendChild(
-      el("div", { class: "guide-note", text: localizedText(quest.guideNote, lang) })
-    );
+    stepsNodes.push(el("div", { class: "guide-note", text: localizedText(quest.guideNote, lang) }));
   }
 
   if (quest.steps?.length) {
-    container.appendChild(el("h2", { class: "section-title", text: t("sectionSteps") }));
-
     // Group consecutive steps by their wiki section heading (English on
     // purpose, no new translation cost — see scraper/src/migrate.js).
     const sections = [];
@@ -415,7 +508,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
     const rows = [];
     sections.forEach((section) => {
       if (section.heading) {
-        container.appendChild(el("h3", { class: "step-section-title", text: section.heading }));
+        stepsNodes.push(el("h3", { class: "step-section-title", text: section.heading }));
       }
       const stepList = el("ul", { class: "step-list" });
       section.steps.forEach((step) => {
@@ -457,7 +550,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
         stepList.appendChild(li);
         rows.push({ step, li, checkbox });
       });
-      container.appendChild(stepList);
+      stepsNodes.push(stepList);
     });
 
     const setChecked = (row, value) => {
@@ -518,10 +611,16 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
     });
   }
 
+  if (stepsNodes.length > 0) {
+    container.appendChild(renderSection(scrollIcon("var(--gold)"), t("sectionSteps"), stepsNodes));
+  }
+
+  // --- "Recompensas" (Rewards): reward banner, grouped reward list, and any
+  // additional (manual-claim) rewards.
+  const rewardsNodes = [];
   if (quest.rewards?.length) {
-    container.appendChild(el("h2", { class: "section-title", text: t("sectionRewards") }));
     if (quest.rewardBannerImage) {
-      container.appendChild(renderRewardBanner(quest.rewardBannerImage));
+      rewardsNodes.push(renderRewardBanner(quest.rewardBannerImage));
     }
     // Some quests mix plain items/xp with a distinct wiki subgroup (e.g.
     // "Music unlocked", "Early bird bonus") — group consecutive rewards by
@@ -535,19 +634,21 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
       else groups.push({ group: reward.group || null, items: [reward] });
     });
     groups.forEach(({ group, items }) => {
-      if (group) container.appendChild(el("h3", { class: "step-section-title", text: group }));
+      if (group) rewardsNodes.push(el("h3", { class: "step-section-title", text: group }));
       const rewardsList = el("ul", { class: "rewards-list" });
       items.forEach((reward) => rewardsList.appendChild(renderRewardRow(reward)));
-      container.appendChild(rewardsList);
+      rewardsNodes.push(rewardsList);
     });
   }
 
   if (quest.postQuest?.length) {
-    container.appendChild(
-      el("h2", { class: "section-title", text: t("sectionPostQuest") })
-    );
+    rewardsNodes.push(el("h3", { class: "subsection-title", text: t("sectionPostQuest") }));
     const list = el("ul", { class: "postquest-list" });
     quest.postQuest.forEach((entry) => list.appendChild(el("li", { text: entry.display })));
-    container.appendChild(list);
+    rewardsNodes.push(list);
+  }
+
+  if (rewardsNodes.length > 0) {
+    container.appendChild(renderSection(giftIcon("var(--gold)"), t("sectionRewards"), rewardsNodes));
   }
 }

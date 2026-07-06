@@ -3,16 +3,20 @@
   "title": "Elemental Workshop IV",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:38:04.109Z",
+  "guideLastUpdated": "2026-07-06T20:30:31.922Z",
   "icon": "https://runescape.wiki/images/Elemental_Workshop_IV_icon.png",
+  "entityIcon": "https://runescape.wiki/images/Elemental_Workshop_IV_entity_icon.png?fbf70",
   "series": "Elemental Workshop",
+  "seriesNth": "4",
   "age": "ambiguous",
   "timeline": "champion",
   "members": true,
+  "voiceOver": false,
   "combatLevel": "40-49",
   "difficulty": "Intermediate",
   "length": "Long",
   "releaseDate": "1 March 2011",
+  "area": "Seers' Village",
   "startPoint": {
     "en": "Search the bookcase on the ground floor[UK]1st floor[US] of the Sorcerer's Tower.",
     "es": "Busca la estantería en la planta baja[UK]1ª planta[US] de la Sorcerer's Tower."
@@ -56,6 +60,7 @@
       }
     ]
   },
+  "followsEvents": [],
   "items": [
     {
       "name": "Water rune",
@@ -76,6 +81,13 @@
       "name": "Coal",
       "display": "8 pieces of coal (or 28 for the full set of chaos equipment; must be carried and cannot be noted or stored in an ore box)",
       "image": "https://runescape.wiki/images/thumb/Coal_detail.png/100px-Coal_detail.png?332f3"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Super restore",
+      "display": "Super restores to help replenish drained Runecrafting and Thieving stats (not needed to finish the quest; only necessary if making multiple set pieces)",
+      "image": "https://runescape.wiki/images/thumb/Super_restore_%281%29_detail.png/100px-Super_restore_%281%29_detail.png?162ff"
     }
   ],
   "kills": [
