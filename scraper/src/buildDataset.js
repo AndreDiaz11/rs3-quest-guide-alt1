@@ -9,6 +9,14 @@ const DATA_DIR = fileURLToPath(new URL("../../data/", import.meta.url));
 const QUESTS_DIR = path.join(DATA_DIR, "quests");
 const INDEX_PATH = path.join(DATA_DIR, "index.json");
 
+// XP-reward icons (e.g. the Smithing hammer next to "10,000 experience") reuse
+// this same map the requirements section already uses — must be resolved
+// here in the permanent build pipeline, not as a one-off patch script, or the
+// next full migrate.js run silently wipes them again (this happened once).
+const skillIconsPath = fileURLToPath(new URL("../../app/data/skillIcons.json", import.meta.url));
+const skillIcons = JSON.parse(await readFile(skillIconsPath, "utf8"));
+const skillIconsLower = new Map(Object.entries(skillIcons).map(([k, v]) => [k.toLowerCase(), v]));
+
 // Quest points the wiki's own Rewards section gets wrong for these two hub
 // quests, verified against a real account (and cross-checked against
 // RunePixels) — must survive every re-scrape/migration, not just be patched
@@ -91,10 +99,16 @@ export async function buildQuestRecord({
     step.isImage ? { ...step, image: fileUrlMap.get(step.filename) || null } : step
   );
 
-  // Resolve images for every item/reward name referenced by this quest.
+  // Resolve images for every item/reward name referenced by this quest, plus
+  // any xp-reward "skill" that isn't a real skill (lamps, one-off items —
+  // e.g. "Mysterious lamp" — misclassified as type "xp" during scraping,
+  // same as real skills like "Smithing" which get their icon for free below).
   const itemNames = metadata.items.map((i) => i.name);
   const rewardNames = rewardsData.rewards.filter((r) => r.type === "item").map((r) => r.name);
-  const imageMap = await resolveImages([...itemNames, ...rewardNames]);
+  const xpNonSkillNames = rewardsData.rewards
+    .filter((r) => r.type === "xp" && r.skill && !skillIconsLower.has(r.skill.toLowerCase()))
+    .map((r) => r.skill);
+  const imageMap = await resolveImages([...itemNames, ...rewardNames, ...xpNonSkillNames]);
 
   const items = metadata.items.map((i) => ({
     name: i.name,
@@ -107,10 +121,14 @@ export async function buildQuestRecord({
   // account that doing so overshoots the game's actual Quest Points total
   // (Once Upon a Time in Gielinor's |qp=4 does not count towards the stat
   // shown in-game, even though RuneMetrics's API also reports it as 4).
-  const rewards = rewardsData.rewards.map((r) => ({
-    ...r,
-    image: r.type === "item" ? imageMap.get(r.name) || null : null,
-  }));
+  const rewards = rewardsData.rewards.map((r) => {
+    if (r.type === "item") return { ...r, image: imageMap.get(r.name) || null };
+    if (r.type === "xp" && r.skill) {
+      const skillIcon = skillIconsLower.get(r.skill.toLowerCase());
+      return { ...r, image: skillIcon || imageMap.get(r.skill) || null };
+    }
+    return { ...r, image: null };
+  });
 
   const record = {
     id,
