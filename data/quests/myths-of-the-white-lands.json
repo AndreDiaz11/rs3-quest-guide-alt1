@@ -3,7 +3,7 @@
   "title": "Myths of the White Lands",
   "isMiniquest": false,
   "isSeasonal": true,
-  "guideLastUpdated": "2026-07-06T20:31:09.123Z",
+  "guideLastUpdated": "2026-07-06T22:50:10.706Z",
   "icon": "https://runescape.wiki/images/Myths_of_the_White_Lands_icon.png",
   "entityIcon": "https://runescape.wiki/images/Myths_of_the_White_Lands_entity_icon.png?003db",
   "series": null,
@@ -179,6 +179,14 @@
     },
     {
       "index": 6,
+      "isImage": true,
+      "section": "First cavern",
+      "filename": "LoSRoom1.png",
+      "caption": "Room 1",
+      "image": "https://runescape.wiki/images/LoSRoom1.png?9ee92"
+    },
+    {
+      "index": 7,
       "indent": 0,
       "section": "First cavern",
       "text": {
@@ -188,7 +196,7 @@
       "chatOptions": []
     },
     {
-      "index": 7,
+      "index": 8,
       "indent": 0,
       "section": "First cavern",
       "text": {
@@ -198,7 +206,7 @@
       "chatOptions": []
     },
     {
-      "index": 8,
+      "index": 9,
       "indent": 0,
       "section": "First cavern",
       "text": {
@@ -208,7 +216,7 @@
       "chatOptions": []
     },
     {
-      "index": 9,
+      "index": 10,
       "indent": 0,
       "section": "First cavern",
       "text": {
@@ -218,24 +226,12 @@
       "chatOptions": []
     },
     {
-      "index": 10,
-      "indent": 0,
-      "section": "Second cavern",
-      "text": {
-        "en": "East",
-        "es": "Este"
-      },
-      "chatOptions": []
-    },
-    {
       "index": 11,
-      "indent": 0,
+      "isImage": true,
       "section": "Second cavern",
-      "text": {
-        "en": "South-west",
-        "es": "Suroeste"
-      },
-      "chatOptions": []
+      "filename": "LoSRoom2.png",
+      "caption": "Room 2",
+      "image": "https://runescape.wiki/images/LoSRoom2.png?ec639"
     },
     {
       "index": 12,
@@ -252,8 +248,8 @@
       "indent": 0,
       "section": "Second cavern",
       "text": {
-        "en": "North",
-        "es": "Norte"
+        "en": "South-west",
+        "es": "Suroeste"
       },
       "chatOptions": []
     },
@@ -272,13 +268,33 @@
       "indent": 0,
       "section": "Second cavern",
       "text": {
+        "en": "North",
+        "es": "Norte"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "section": "Second cavern",
+      "text": {
+        "en": "East",
+        "es": "Este"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "section": "Second cavern",
+      "text": {
         "en": "North-east",
         "es": "Noreste"
       },
       "chatOptions": []
     },
     {
-      "index": 16,
+      "index": 18,
       "indent": 0,
       "section": "Second cavern",
       "text": {
@@ -288,32 +304,12 @@
       "chatOptions": []
     },
     {
-      "index": 17,
+      "index": 19,
       "indent": 0,
       "section": "Second cavern",
       "text": {
         "en": "West",
         "es": "Oeste"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 18,
-      "indent": 0,
-      "section": "Second cavern",
-      "text": {
-        "en": "South",
-        "es": "Sur"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 19,
-      "indent": 0,
-      "section": "Second cavern",
-      "text": {
-        "en": "East",
-        "es": "Este"
       },
       "chatOptions": []
     },
@@ -332,53 +328,13 @@
       "indent": 0,
       "section": "Second cavern",
       "text": {
-        "en": "Go east and \"Clear\" the wall",
-        "es": "Ve al este y \"Despeja\" el muro"
+        "en": "East",
+        "es": "Este"
       },
       "chatOptions": []
     },
     {
       "index": 22,
-      "indent": 0,
-      "section": "Second cavern",
-      "text": {
-        "en": "North off the ramp",
-        "es": "Norte, bajando por la rampa"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 23,
-      "indent": 0,
-      "section": "Second cavern",
-      "text": {
-        "en": "West",
-        "es": "Oeste"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 24,
-      "indent": 0,
-      "section": "Second cavern",
-      "text": {
-        "en": "North",
-        "es": "Norte"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 25,
-      "indent": 0,
-      "section": "Second cavern",
-      "text": {
-        "en": "South-east",
-        "es": "Sureste"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 26,
       "indent": 0,
       "section": "Second cavern",
       "text": {
@@ -388,12 +344,52 @@
       "chatOptions": []
     },
     {
+      "index": 23,
+      "indent": 0,
+      "section": "Second cavern",
+      "text": {
+        "en": "Go east and \"Clear\" the wall",
+        "es": "Ve al este y \"Despeja\" el muro"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "section": "Second cavern",
+      "text": {
+        "en": "North off the ramp",
+        "es": "Norte, bajando por la rampa"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "section": "Second cavern",
+      "text": {
+        "en": "West",
+        "es": "Oeste"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "section": "Second cavern",
+      "text": {
+        "en": "North",
+        "es": "Norte"
+      },
+      "chatOptions": []
+    },
+    {
       "index": 27,
       "indent": 0,
       "section": "Second cavern",
       "text": {
-        "en": "North-east",
-        "es": "Noreste"
+        "en": "South-east",
+        "es": "Sureste"
       },
       "chatOptions": []
     },
@@ -402,8 +398,8 @@
       "indent": 0,
       "section": "Second cavern",
       "text": {
-        "en": "East",
-        "es": "Este"
+        "en": "South",
+        "es": "Sur"
       },
       "chatOptions": []
     },
@@ -412,8 +408,8 @@
       "indent": 0,
       "section": "Second cavern",
       "text": {
-        "en": "North",
-        "es": "Norte"
+        "en": "North-east",
+        "es": "Noreste"
       },
       "chatOptions": []
     },
@@ -430,7 +426,7 @@
     {
       "index": 31,
       "indent": 0,
-      "section": "Third cavern",
+      "section": "Second cavern",
       "text": {
         "en": "North",
         "es": "Norte"
@@ -440,15 +436,23 @@
     {
       "index": 32,
       "indent": 0,
-      "section": "Third cavern",
+      "section": "Second cavern",
       "text": {
-        "en": "South-east",
-        "es": "Sureste"
+        "en": "East",
+        "es": "Este"
       },
       "chatOptions": []
     },
     {
       "index": 33,
+      "isImage": true,
+      "section": "Third cavern",
+      "filename": "LoSRoom3.png",
+      "caption": "Room 3",
+      "image": "https://runescape.wiki/images/LoSRoom3.png?877cf"
+    },
+    {
+      "index": 34,
       "indent": 0,
       "section": "Third cavern",
       "text": {
@@ -458,7 +462,27 @@
       "chatOptions": []
     },
     {
-      "index": 34,
+      "index": 35,
+      "indent": 0,
+      "section": "Third cavern",
+      "text": {
+        "en": "South-east",
+        "es": "Sureste"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "section": "Third cavern",
+      "text": {
+        "en": "North",
+        "es": "Norte"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 37,
       "indent": 0,
       "section": "Third cavern",
       "text": {
@@ -468,7 +492,7 @@
       "chatOptions": []
     },
     {
-      "index": 35,
+      "index": 38,
       "indent": 0,
       "section": "Third cavern",
       "text": {
@@ -478,7 +502,7 @@
       "chatOptions": []
     },
     {
-      "index": 36,
+      "index": 39,
       "indent": 0,
       "section": "Third cavern",
       "text": {
@@ -488,7 +512,15 @@
       "chatOptions": []
     },
     {
-      "index": 37,
+      "index": 40,
+      "isImage": true,
+      "section": "Fourth cavern (and Agility Experience)",
+      "filename": "LoSRoom4.png",
+      "caption": "Room 4",
+      "image": "https://runescape.wiki/images/LoSRoom4.png?38ef9"
+    },
+    {
+      "index": 41,
       "indent": 0,
       "section": "Fourth cavern (and Agility Experience)",
       "text": {
@@ -498,52 +530,12 @@
       "chatOptions": []
     },
     {
-      "index": 38,
-      "indent": 0,
-      "section": "Fourth cavern (and Agility Experience)",
-      "text": {
-        "en": "North",
-        "es": "Norte"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 39,
-      "indent": 0,
-      "section": "Fourth cavern (and Agility Experience)",
-      "text": {
-        "en": "East",
-        "es": "Este"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 40,
-      "indent": 0,
-      "section": "Fourth cavern (and Agility Experience)",
-      "text": {
-        "en": "North",
-        "es": "Norte"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 41,
-      "indent": 0,
-      "section": "Fourth cavern (and Agility Experience)",
-      "text": {
-        "en": "South-east",
-        "es": "Sureste"
-      },
-      "chatOptions": []
-    },
-    {
       "index": 42,
       "indent": 0,
       "section": "Fourth cavern (and Agility Experience)",
       "text": {
-        "en": "South-west",
-        "es": "Suroeste"
+        "en": "North",
+        "es": "Norte"
       },
       "chatOptions": []
     },
@@ -562,13 +554,33 @@
       "indent": 0,
       "section": "Fourth cavern (and Agility Experience)",
       "text": {
-        "en": "South",
-        "es": "Sur"
+        "en": "North",
+        "es": "Norte"
       },
       "chatOptions": []
     },
     {
       "index": 45,
+      "indent": 0,
+      "section": "Fourth cavern (and Agility Experience)",
+      "text": {
+        "en": "South-east",
+        "es": "Sureste"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "section": "Fourth cavern (and Agility Experience)",
+      "text": {
+        "en": "South-west",
+        "es": "Suroeste"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 47,
       "indent": 0,
       "section": "Fourth cavern (and Agility Experience)",
       "text": {
@@ -578,7 +590,7 @@
       "chatOptions": []
     },
     {
-      "index": 46,
+      "index": 48,
       "indent": 0,
       "section": "Fourth cavern (and Agility Experience)",
       "text": {
@@ -588,7 +600,27 @@
       "chatOptions": []
     },
     {
-      "index": 47,
+      "index": 49,
+      "indent": 0,
+      "section": "Fourth cavern (and Agility Experience)",
+      "text": {
+        "en": "East",
+        "es": "Este"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "section": "Fourth cavern (and Agility Experience)",
+      "text": {
+        "en": "South",
+        "es": "Sur"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 51,
       "indent": 0,
       "section": "Fourth cavern (and Agility Experience)",
       "text": {
@@ -598,7 +630,7 @@
       "chatOptions": []
     },
     {
-      "index": 48,
+      "index": 52,
       "indent": 0,
       "section": "Fourth cavern (and Agility Experience)",
       "text": {
@@ -608,7 +640,7 @@
       "chatOptions": []
     },
     {
-      "index": 49,
+      "index": 53,
       "indent": 0,
       "section": "Fourth cavern (and Agility Experience)",
       "text": {
@@ -618,7 +650,15 @@
       "chatOptions": []
     },
     {
-      "index": 50,
+      "index": 54,
+      "isImage": true,
+      "section": "Fifth cavern",
+      "filename": "LoSRoom5.png",
+      "caption": "Room 5",
+      "image": "https://runescape.wiki/images/LoSRoom5.png?d8a1f"
+    },
+    {
+      "index": 55,
       "indent": 0,
       "section": "Fifth cavern",
       "text": {
@@ -628,7 +668,7 @@
       "chatOptions": []
     },
     {
-      "index": 51,
+      "index": 56,
       "indent": 0,
       "section": "Fifth cavern",
       "text": {
@@ -638,7 +678,7 @@
       "chatOptions": []
     },
     {
-      "index": 52,
+      "index": 57,
       "indent": 0,
       "section": "Fifth cavern",
       "text": {
@@ -648,7 +688,7 @@
       "chatOptions": []
     },
     {
-      "index": 53,
+      "index": 58,
       "indent": 0,
       "section": "Fifth cavern",
       "text": {
@@ -658,7 +698,7 @@
       "chatOptions": []
     },
     {
-      "index": 54,
+      "index": 59,
       "indent": 0,
       "section": "Fifth cavern",
       "text": {
@@ -668,7 +708,23 @@
       "chatOptions": []
     },
     {
-      "index": 55,
+      "index": 60,
+      "isImage": true,
+      "section": "Sixth cavern",
+      "filename": "LoSRoom6 Block1.png",
+      "caption": "Room 6 - Block 1",
+      "image": "https://runescape.wiki/images/LoSRoom6_Block1.png?f4ca1"
+    },
+    {
+      "index": 61,
+      "isImage": true,
+      "section": "Sixth cavern",
+      "filename": "LoSRoom6 Block2.png",
+      "caption": "Room 6 - Block 2",
+      "image": "https://runescape.wiki/images/LoSRoom6_Block2.png?235ce"
+    },
+    {
+      "index": 62,
       "indent": 0,
       "section": "Part one",
       "text": {
@@ -678,7 +734,7 @@
       "chatOptions": []
     },
     {
-      "index": 56,
+      "index": 63,
       "indent": 1,
       "section": "Part one",
       "text": {
@@ -688,7 +744,7 @@
       "chatOptions": []
     },
     {
-      "index": 57,
+      "index": 64,
       "indent": 0,
       "section": "Part one",
       "text": {
@@ -698,7 +754,7 @@
       "chatOptions": []
     },
     {
-      "index": 58,
+      "index": 65,
       "indent": 0,
       "section": "Part one",
       "text": {
@@ -708,7 +764,7 @@
       "chatOptions": []
     },
     {
-      "index": 59,
+      "index": 66,
       "indent": 0,
       "section": "Part one",
       "text": {
@@ -718,7 +774,7 @@
       "chatOptions": []
     },
     {
-      "index": 60,
+      "index": 67,
       "indent": 0,
       "section": "Part one",
       "text": {
@@ -728,7 +784,7 @@
       "chatOptions": []
     },
     {
-      "index": 61,
+      "index": 68,
       "indent": 0,
       "section": "Part one",
       "text": {
@@ -738,7 +794,7 @@
       "chatOptions": []
     },
     {
-      "index": 62,
+      "index": 69,
       "indent": 0,
       "section": "Part one",
       "text": {
@@ -748,7 +804,7 @@
       "chatOptions": []
     },
     {
-      "index": 63,
+      "index": 70,
       "indent": 0,
       "section": "Part one",
       "text": {
@@ -758,7 +814,7 @@
       "chatOptions": []
     },
     {
-      "index": 64,
+      "index": 71,
       "indent": 0,
       "section": "Part one",
       "text": {
@@ -768,79 +824,9 @@
       "chatOptions": []
     },
     {
-      "index": 65,
-      "indent": 0,
-      "section": "Part one",
-      "text": {
-        "en": "West",
-        "es": "Oeste"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 66,
-      "indent": 0,
-      "section": "Part one",
-      "text": {
-        "en": "North-east",
-        "es": "Noreste"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 67,
-      "indent": 0,
-      "section": "Part one",
-      "text": {
-        "en": "Push block east",
-        "es": "Empuja el bloque hacia el este"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 68,
-      "indent": 0,
-      "section": "Part one",
-      "text": {
-        "en": "East",
-        "es": "Este"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 69,
-      "indent": 0,
-      "section": "Part one",
-      "text": {
-        "en": "South",
-        "es": "Sur"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 70,
-      "indent": 0,
-      "section": "Part one",
-      "text": {
-        "en": "East",
-        "es": "Este"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 71,
-      "indent": 0,
-      "section": "Part one",
-      "text": {
-        "en": "Push block north (block is now in place)",
-        "es": "Empuja el bloque hacia el norte (el bloque ya está en su sitio)"
-      },
-      "chatOptions": []
-    },
-    {
       "index": 72,
       "indent": 0,
-      "section": "Part two",
+      "section": "Part one",
       "text": {
         "en": "West",
         "es": "Oeste"
@@ -850,27 +836,27 @@
     {
       "index": 73,
       "indent": 0,
-      "section": "Part two",
+      "section": "Part one",
       "text": {
-        "en": "South",
-        "es": "Sur"
+        "en": "North-east",
+        "es": "Noreste"
       },
       "chatOptions": []
     },
     {
       "index": 74,
       "indent": 0,
-      "section": "Part two",
+      "section": "Part one",
       "text": {
-        "en": "South",
-        "es": "Sur"
+        "en": "Push block east",
+        "es": "Empuja el bloque hacia el este"
       },
       "chatOptions": []
     },
     {
       "index": 75,
       "indent": 0,
-      "section": "Part two",
+      "section": "Part one",
       "text": {
         "en": "East",
         "es": "Este"
@@ -880,27 +866,17 @@
     {
       "index": 76,
       "indent": 0,
-      "section": "Part two",
+      "section": "Part one",
       "text": {
-        "en": "North",
-        "es": "Norte"
+        "en": "South",
+        "es": "Sur"
       },
       "chatOptions": []
     },
     {
       "index": 77,
       "indent": 0,
-      "section": "Part two",
-      "text": {
-        "en": "Push block east",
-        "es": "Empuja el bloque hacia el este"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 78,
-      "indent": 0,
-      "section": "Part two",
+      "section": "Part one",
       "text": {
         "en": "East",
         "es": "Este"
@@ -908,7 +884,27 @@
       "chatOptions": []
     },
     {
+      "index": 78,
+      "indent": 0,
+      "section": "Part one",
+      "text": {
+        "en": "Push block north (block is now in place)",
+        "es": "Empuja el bloque hacia el norte (el bloque ya está en su sitio)"
+      },
+      "chatOptions": []
+    },
+    {
       "index": 79,
+      "indent": 0,
+      "section": "Part two",
+      "text": {
+        "en": "West",
+        "es": "Oeste"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 80,
       "indent": 0,
       "section": "Part two",
       "text": {
@@ -918,22 +914,12 @@
       "chatOptions": []
     },
     {
-      "index": 80,
-      "indent": 0,
-      "section": "Part two",
-      "text": {
-        "en": "East",
-        "es": "Este"
-      },
-      "chatOptions": []
-    },
-    {
       "index": 81,
       "indent": 0,
       "section": "Part two",
       "text": {
-        "en": "Push block north",
-        "es": "Empuja el bloque hacia el norte"
+        "en": "South",
+        "es": "Sur"
       },
       "chatOptions": []
     },
@@ -942,8 +928,8 @@
       "indent": 0,
       "section": "Part two",
       "text": {
-        "en": "North",
-        "es": "Norte"
+        "en": "East",
+        "es": "Este"
       },
       "chatOptions": []
     },
@@ -952,8 +938,8 @@
       "indent": 0,
       "section": "Part two",
       "text": {
-        "en": "East",
-        "es": "Este"
+        "en": "North",
+        "es": "Norte"
       },
       "chatOptions": []
     },
@@ -962,8 +948,8 @@
       "indent": 0,
       "section": "Part two",
       "text": {
-        "en": "North",
-        "es": "Norte"
+        "en": "Push block east",
+        "es": "Empuja el bloque hacia el este"
       },
       "chatOptions": []
     },
@@ -972,8 +958,8 @@
       "indent": 0,
       "section": "Part two",
       "text": {
-        "en": "Push block west",
-        "es": "Empuja el bloque hacia el oeste"
+        "en": "East",
+        "es": "Este"
       },
       "chatOptions": []
     },
@@ -992,8 +978,8 @@
       "indent": 0,
       "section": "Part two",
       "text": {
-        "en": "West",
-        "es": "Oeste"
+        "en": "East",
+        "es": "Este"
       },
       "chatOptions": []
     },
@@ -1012,13 +998,23 @@
       "indent": 0,
       "section": "Part two",
       "text": {
-        "en": "North-east",
-        "es": "Noreste"
+        "en": "North",
+        "es": "Norte"
       },
       "chatOptions": []
     },
     {
       "index": 90,
+      "indent": 0,
+      "section": "Part two",
+      "text": {
+        "en": "East",
+        "es": "Este"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 91,
       "indent": 0,
       "section": "Part two",
       "text": {
@@ -1028,7 +1024,7 @@
       "chatOptions": []
     },
     {
-      "index": 91,
+      "index": 92,
       "indent": 0,
       "section": "Part two",
       "text": {
@@ -1038,17 +1034,17 @@
       "chatOptions": []
     },
     {
-      "index": 92,
+      "index": 93,
       "indent": 0,
       "section": "Part two",
       "text": {
-        "en": "South-west",
-        "es": "Suroeste"
+        "en": "South",
+        "es": "Sur"
       },
       "chatOptions": []
     },
     {
-      "index": 93,
+      "index": 94,
       "indent": 0,
       "section": "Part two",
       "text": {
@@ -1058,7 +1054,17 @@
       "chatOptions": []
     },
     {
-      "index": 94,
+      "index": 95,
+      "indent": 0,
+      "section": "Part two",
+      "text": {
+        "en": "Push block north",
+        "es": "Empuja el bloque hacia el norte"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 96,
       "indent": 0,
       "section": "Part two",
       "text": {
@@ -1068,7 +1074,57 @@
       "chatOptions": []
     },
     {
-      "index": 95,
+      "index": 97,
+      "indent": 0,
+      "section": "Part two",
+      "text": {
+        "en": "North",
+        "es": "Norte"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 98,
+      "indent": 0,
+      "section": "Part two",
+      "text": {
+        "en": "Push block west",
+        "es": "Empuja el bloque hacia el oeste"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 99,
+      "indent": 0,
+      "section": "Part two",
+      "text": {
+        "en": "South-west",
+        "es": "Suroeste"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 100,
+      "indent": 0,
+      "section": "Part two",
+      "text": {
+        "en": "West",
+        "es": "Oeste"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 101,
+      "indent": 0,
+      "section": "Part two",
+      "text": {
+        "en": "North-east",
+        "es": "Noreste"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 102,
       "indent": 0,
       "section": "Part two",
       "text": {
@@ -1078,7 +1134,7 @@
       "chatOptions": []
     },
     {
-      "index": 96,
+      "index": 103,
       "indent": 0,
       "section": "Part three",
       "text": {
@@ -1088,7 +1144,7 @@
       "chatOptions": []
     },
     {
-      "index": 97,
+      "index": 104,
       "indent": 0,
       "section": "Part three",
       "text": {
@@ -1098,7 +1154,7 @@
       "chatOptions": []
     },
     {
-      "index": 98,
+      "index": 105,
       "indent": 0,
       "section": "Part three",
       "text": {
@@ -1108,7 +1164,7 @@
       "chatOptions": []
     },
     {
-      "index": 99,
+      "index": 106,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1118,7 +1174,7 @@
       "chatOptions": []
     },
     {
-      "index": 100,
+      "index": 107,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1128,7 +1184,7 @@
       "chatOptions": []
     },
     {
-      "index": 101,
+      "index": 108,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1138,7 +1194,7 @@
       "chatOptions": []
     },
     {
-      "index": 102,
+      "index": 109,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1148,7 +1204,7 @@
       "chatOptions": []
     },
     {
-      "index": 103,
+      "index": 110,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1158,7 +1214,7 @@
       "chatOptions": []
     },
     {
-      "index": 104,
+      "index": 111,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1168,7 +1224,7 @@
       "chatOptions": []
     },
     {
-      "index": 105,
+      "index": 112,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1178,7 +1234,7 @@
       "chatOptions": []
     },
     {
-      "index": 106,
+      "index": 113,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1188,7 +1244,7 @@
       "chatOptions": []
     },
     {
-      "index": 107,
+      "index": 114,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1198,7 +1254,7 @@
       "chatOptions": []
     },
     {
-      "index": 108,
+      "index": 115,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1208,7 +1264,7 @@
       "chatOptions": []
     },
     {
-      "index": 109,
+      "index": 116,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1218,7 +1274,7 @@
       "chatOptions": []
     },
     {
-      "index": 110,
+      "index": 117,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1228,7 +1284,7 @@
       "chatOptions": []
     },
     {
-      "index": 111,
+      "index": 118,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1238,7 +1294,7 @@
       "chatOptions": []
     },
     {
-      "index": 112,
+      "index": 119,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1248,7 +1304,7 @@
       "chatOptions": []
     },
     {
-      "index": 113,
+      "index": 120,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1258,7 +1314,7 @@
       "chatOptions": []
     },
     {
-      "index": 114,
+      "index": 121,
       "indent": 0,
       "section": "Fifth cavern, again",
       "text": {
@@ -1268,7 +1324,7 @@
       "chatOptions": []
     },
     {
-      "index": 115,
+      "index": 122,
       "indent": 0,
       "section": "Finishing up",
       "text": {
@@ -1278,7 +1334,7 @@
       "chatOptions": []
     },
     {
-      "index": 116,
+      "index": 123,
       "indent": 0,
       "section": "Finishing up",
       "text": {
@@ -1291,7 +1347,7 @@
       ]
     },
     {
-      "index": 117,
+      "index": 124,
       "indent": 0,
       "section": "Finishing up",
       "text": {

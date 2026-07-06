@@ -1,9 +1,25 @@
 import { extractAllTemplatesWithPositions, wikitextToPlain, splitIntoSections } from "./wikitext.js";
-import { extractWikiTables, parseWikiTableToStructured, extractSolutionImages } from "./parseTables.js";
+import { extractWikiTables, parseWikiTableToStructured, extractSolutionImages, parseFileParams } from "./parseTables.js";
 
 function parseChecklistBlock(checklistContent, rawSteps, section) {
   const lines = checklistContent.split("\n");
   for (const line of lines) {
+    const trimmed = line.trim();
+
+    // A standalone solution/reference image (e.g. The Elder Kiln's "Tzhaar
+    // numbers" figure) can sit directly inside a Checklist block, before or
+    // between bullets — must be pulled out as its own step in place, or it
+    // gets swallowed as stray "continuation" text glued onto whichever step
+    // happens to be adjacent (translated together as garbled prose).
+    const imgMatch = trimmed.match(/^\[\[File:([^|\]]+)((?:\|[^\]]*)*)\]\]$/i);
+    if (imgMatch) {
+      const parsed = parseFileParams(imgMatch[2]);
+      if (parsed) {
+        rawSteps.push({ isImage: true, filename: imgMatch[1].trim(), caption: parsed.caption, section });
+        continue;
+      }
+    }
+
     // `*:` (bullet immediately followed by a colon) is the wiki's own convention
     // for a non-actionable note attached to the previous step (e.g. "If done
     // correctly, you receive a wrinkly scroll.") — must be checked before the
@@ -20,7 +36,7 @@ function parseChecklistBlock(checklistContent, rawSteps, section) {
     if (bulletMatch) {
       const indent = bulletMatch[1].length - 1;
       rawSteps.push({ indent, raw: bulletMatch[2], section });
-    } else if (rawSteps.length > 0 && line.trim() !== "") {
+    } else if (rawSteps.length > 0 && trimmed !== "") {
       // continuation of the previous step's still-open inline template
       rawSteps[rawSteps.length - 1].raw += "\n" + line;
     }
@@ -58,7 +74,14 @@ export function parseSteps(quickGuideWikitext) {
       kind: "checklist",
     }));
     const tableBlocks = extractWikiTables(content).map((b) => ({ ...b, kind: "table" }));
-    const imageBlocks = extractSolutionImages(content).map((b) => ({ ...b, kind: "image" }));
+    // Images that fall INSIDE a Checklist's own braces (e.g. The Elder Kiln's
+    // "Tzhaar numbers" figure, nested between two bullets) are handled by
+    // parseChecklistBlock itself below, positioned relative to its sibling
+    // steps — must be excluded here or they'd be added a second time, in the
+    // wrong place (after the whole checklist, not interleaved with it).
+    const imageBlocks = extractSolutionImages(content)
+      .filter((img) => !checklistBlocks.some((cl) => img.start >= cl.start && img.start < cl.end))
+      .map((b) => ({ ...b, kind: "image" }));
     const blocks = [...checklistBlocks, ...tableBlocks, ...imageBlocks].sort((a, b) => a.start - b.start);
 
     for (const block of blocks) {

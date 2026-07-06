@@ -1,24 +1,49 @@
 import { wikitextToPlain } from "./wikitext.js";
 
+// Positional/sizing params a `[[File:...]]` link can carry in ANY order/count
+// before its actual caption (e.g. "thumb|right|Caption" AND "thumb|Caption"
+// are both real — the wiki doesn't fix the order). Only "thumb"/"frame(d)"
+// marks it as a real floated figure worth surfacing as its own step; a plain
+// inline icon-sized image (e.g. `[[File:x.png|20px]]`) must NOT match, or
+// every small inline icon in a step's text would wrongly become its own step.
+const IMAGE_KEYWORD_RE =
+  /^(thumb(nail)?|frame(d)?|frameless|border|left|right|center|centre|none|upright(=[\d.]+)?|\d+x?\d*px|alt=.*|link=.*|page=.*|class=.*|lang=.*)$/i;
+
 /**
- * Finds every standalone `[[File:X.png|...|thumb|Caption]]` image in
- * `content` — the wiki's own way of showing a puzzle/solution screenshot
- * next to a Checklist (e.g. Hero's Welcome's "The fully completed map" next
- * to "Solve the map fragments.", or The Branches of Darkmeyer's 4 puzzle
- * solutions) — with position, so it can be interleaved with Checklist/table
- * blocks in real source order (see parseSteps.js). Not resolved to an actual
- * URL here (that needs a network call); returns the raw filename + caption.
+ * Parses a `[[File:...]]` link's params (everything after the filename) and
+ * returns `{ caption }` if it's a real floated figure (has thumb/frame),
+ * or `null` if it's just an inline icon that should be left alone.
+ */
+export function parseFileParams(paramsString) {
+  const parts = paramsString.split("|").filter((p) => p !== "");
+  const isFigure = parts.some((p) => /^(thumb(nail)?|frame(d)?)$/i.test(p.trim()));
+  if (!isFigure) return null;
+  const captionParts = parts.filter((p) => !IMAGE_KEYWORD_RE.test(p.trim()));
+  const caption = captionParts.length > 0 ? wikitextToPlain(captionParts[captionParts.length - 1]).text : null;
+  return { caption };
+}
+
+/**
+ * Finds every standalone `[[File:X.png|...]]` solution/puzzle image in
+ * `content` — the wiki's own way of showing a screenshot next to a Checklist
+ * (e.g. Hero's Welcome's "The fully completed map" next to "Solve the map
+ * fragments.", or The Elder Kiln's "Tzhaar numbers" solution figure) — with
+ * position, so it can be interleaved with Checklist/table blocks in real
+ * source order (see parseSteps.js). Not resolved to an actual URL here (that
+ * needs a network call); returns the raw filename + caption.
  */
 export function extractSolutionImages(content) {
   const results = [];
-  const re = /\[\[File:([^|\]]+)\|[^\]]*\|thumb\|([^\]]+)\]\]/gi;
+  const re = /\[\[File:([^|\]]+)((?:\|[^\]]*)*)\]\]/gi;
   let match;
   while ((match = re.exec(content)) !== null) {
+    const parsed = parseFileParams(match[2]);
+    if (!parsed) continue;
     results.push({
       start: match.index,
       end: match.index + match[0].length,
       filename: match[1].trim(),
-      caption: wikitextToPlain(match[2]).text,
+      caption: parsed.caption,
     });
   }
   return results;
