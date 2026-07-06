@@ -59,7 +59,7 @@ export async function buildQuestRecord({
   // Empty strings (e.g. a quest with no scraped start point) are skipped before
   // sending — an empty line in the batch gets silently dropped by the model,
   // which desyncs every line after it and makes the length check fail forever.
-  const allTexts = [metadata.startPoint || "", ...steps.map((s) => s.text.en)];
+  const allTexts = [metadata.startPoint || "", ...steps.map((s) => (s.isTable ? "" : s.text.en))];
   const nonEmptyIndexes = [];
   const nonEmptyTexts = [];
   allTexts.forEach((text, i) => {
@@ -75,10 +75,11 @@ export async function buildQuestRecord({
   });
   const [startPointEs, ...stepEsTexts] = translated;
 
-  const stepsWithEs = steps.map((step, i) => ({
-    ...step,
-    text: { en: step.text.en, ...(stepEsTexts[i] ? { es: stepEsTexts[i] } : {}) },
-  }));
+  // Table steps are English-only (no per-cell translation, like item/reward
+  // names) — they never had text sent to the translator above, so skip them here.
+  const stepsWithEs = steps.map((step, i) =>
+    step.isTable ? step : { ...step, text: { en: step.text.en, ...(stepEsTexts[i] ? { es: stepEsTexts[i] } : {}) } }
+  );
 
   // Resolve images for every item/reward name referenced by this quest.
   const itemNames = metadata.items.map((i) => i.name);

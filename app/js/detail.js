@@ -70,6 +70,26 @@ function el(tag, props = {}, children = []) {
   return node;
 }
 
+/** Renders a wiki quiz/solution table (e.g. "Question"/"Answer" pairs) as a plain HTML table. */
+function renderStepTable(table) {
+  const wrap = el("table", { class: "step-table" });
+  if (table.headers) {
+    const thead = el("thead");
+    const tr = el("tr");
+    table.headers.forEach((h) => tr.appendChild(el("th", { text: h })));
+    thead.appendChild(tr);
+    wrap.appendChild(thead);
+  }
+  const tbody = el("tbody");
+  table.rows.forEach((row) => {
+    const tr = el("tr");
+    row.forEach((cell) => tr.appendChild(el("td", { text: cell })));
+    tbody.appendChild(tr);
+  });
+  wrap.appendChild(tbody);
+  return wrap;
+}
+
 function renderItemRow(item) {
   const li = el("li");
   if (item.image) li.appendChild(el("img", { src: item.image, alt: item.name }));
@@ -361,6 +381,15 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
       }
       const stepList = el("ul", { class: "step-list" });
       section.steps.forEach((step) => {
+        // A quiz/solution wikitable (e.g. Hero's Welcome's Question/Answer
+        // table) — reference info, not an action, so no checkbox either.
+        if (step.isTable) {
+          const li = el("li", { class: "step-table-wrap" });
+          li.appendChild(renderStepTable(step.table));
+          stepList.appendChild(li);
+          return;
+        }
+
         // "*: " notes from the wiki (e.g. "If done correctly, you receive a
         // wrinkly scroll.") are informational, not an actual action to take —
         // shown without a checkbox, matching how the wiki itself displays them.

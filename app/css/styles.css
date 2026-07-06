@@ -604,6 +604,30 @@ h2.section-title {
   object-fit: contain;
 }
 
+.step-list li.step-table-wrap {
+  display: block;
+  margin: 4px 0 10px;
+  padding: 0 0 0 20px;
+}
+
+.step-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.85em;
+}
+
+.step-table th,
+.step-table td {
+  border: 1px solid var(--border, #4a3f2e);
+  padding: 4px 8px;
+  text-align: left;
+}
+
+.step-table th {
+  background: rgba(201, 162, 39, 0.12);
+  color: var(--gold, #c9a227);
+}
+
 .step-section-title {
   color: var(--gold, #c9a227);
   font-size: 0.95em;

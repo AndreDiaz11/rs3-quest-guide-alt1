@@ -3,7 +3,7 @@
   "title": "Dimension of Disaster",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T14:46:18.886Z",
+  "guideLastUpdated": "2026-07-06T17:27:13.545Z",
   "icon": "https://runescape.wiki/images/Dimension_of_Disaster_icon.png",
   "series": null,
   "age": "6",
@@ -207,7 +207,7 @@
       "skill": "Skills",
       "amount": 139600,
       "display": "139,600 experience in total; 100 experience lamp 5,000 experience lamp 5,000 experience lamp 15,000 experience lamp 10,000 experience lamp 15,000 experience lamp 10,000 experience lamp 2,000 experience lamp 30,000 experience lamp 14,000 experience lamp 9,000 experience lamp 9,000 experience lamp 9,000 experience lamp 4,000 experience lamp 2,500 experience lamp",
-      "image": "https://runescape.wiki/images/thumb/Skill_screen.png/100px-Skill_screen.png?ef4b3"
+      "image": null
     },
     {
       "type": "item",
@@ -278,7 +278,52 @@
   ],
   "rewardBannerImage": "https://runescape.wiki/images/Dimension_of_Disaster_reward.png?a2b5c",
   "postQuest": [],
-  "steps": [],
+  "steps": [
+    {
+      "index": 0,
+      "isTable": true,
+      "section": "Subquests",
+      "table": {
+        "headers": [
+          "Icon",
+          "Subquest",
+          "Start point",
+          "Required quests",
+          "Required items"
+        ],
+        "rows": [
+          [
+            "File:Dimension of Disaster Shield of Arrav icon.png",
+            "Shield of Arrav",
+            "Orlando Smith, in the Varrock Museum",
+            "Shield of Arrav and Coin of the Realm",
+            ""
+          ],
+          [
+            "File:Dimension of Disaster Demon Slayer icon.png",
+            "Demon Slayer",
+            "Aris, in her tent",
+            "Shadow of the Storm, Demon Slayer, and Coin of the Realm",
+            ""
+          ],
+          [
+            "File:Dimension of Disaster Defender of Varrock icon.png",
+            "Defender of Varrock",
+            "Reldo, in Varrock Castle",
+            "Defender of Varrock and Coin of the Realm",
+            ""
+          ],
+          [
+            "File:Dimension of Disaster Curse of Arrav icon.png",
+            "Curse of Arrav",
+            "Arrav, in the Varrock Castle garden",
+            "The Curse of Arrav and all previous subquests",
+            ""
+          ]
+        ]
+      }
+    }
+  ],
   "guideNote": {
     "en": "This quest is a hub for several sub-quests, each already listed separately in this app with its own step-by-step guide. There isn't a single walkthrough for the hub itself — check the wiki page for the full overview.",
     "es": "Esta misión es un resumen que agrupa varias sub-misiones, cada una ya listada por separado en esta app con su propia guía paso a paso. No existe una guía única para la misión en sí — consulta la página del wiki para ver el resumen completo."

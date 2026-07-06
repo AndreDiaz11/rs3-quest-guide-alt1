@@ -3,7 +3,7 @@
   "title": "The Brink of Extinction",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T14:46:26.638Z",
+  "guideLastUpdated": "2026-07-06T17:27:16.689Z",
   "icon": "https://runescape.wiki/images/The_Brink_of_Extinction_icon.png",
   "series": "TzHaar",
   "age": "ambiguous",
@@ -59,14 +59,14 @@
       "skill": "Combat level",
       "amount": 275000,
       "display": "275,000 experience lamp in a choice of Attack, Strength, Defence, Ranged, Magic or Necromancy (skill must be level 80 or higher)",
-      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+      "image": null
     },
     {
       "type": "xp",
       "skill": "Mining",
       "amount": 100000,
       "display": "100,000 experience",
-      "image": "https://runescape.wiki/images/Mining-icon.png?8cefb"
+      "image": null
     },
     {
       "type": "item",
@@ -277,6 +277,134 @@
     },
     {
       "index": 16,
+      "isTable": true,
+      "section": "Combat weaknesses",
+      "table": {
+        "headers": [
+          "Room",
+          "Wave",
+          "Combat levels",
+          "Pray against",
+          "Weakness(es)"
+        ],
+        "rows": [
+          [
+            "1",
+            "4 Tz-Kih",
+            "85",
+            "Melee",
+            "Stab"
+          ],
+          [
+            "2",
+            "2 Tz-Kek",
+            "86",
+            "Melee",
+            "Water"
+          ],
+          [
+            "2",
+            "1 Tz-Kih, 1 Tok-Xil",
+            "85,105",
+            "Ranged",
+            "Stab, Slash"
+          ],
+          [
+            "3",
+            "2 TokHaar-Hur, 2 TokHaar-Ket",
+            "112/119",
+            "Melee",
+            "Water"
+          ],
+          [
+            "3",
+            "3 TokHaar-Xil",
+            "119",
+            "Ranged",
+            "Crush"
+          ],
+          [
+            "3",
+            "1 TokHaar-Ket Champion",
+            "112",
+            "Melee",
+            "-"
+          ],
+          [
+            "4",
+            "4 Tz-Kil",
+            "103",
+            "Magic",
+            "Bolts"
+          ],
+          [
+            "5",
+            "3 Tz-Kih",
+            "85",
+            "Melee",
+            "Stab"
+          ],
+          [
+            "5",
+            "2 Tz-Kil, 1 Yt-MejKot",
+            "103,105",
+            "Melee",
+            "Bolts, -"
+          ],
+          [
+            "6",
+            "4 TokHaar-Hur",
+            "112",
+            "Melee",
+            "Water"
+          ],
+          [
+            "6",
+            "2 TokHaar-Xil",
+            "119",
+            "Ranged",
+            "Crush"
+          ],
+          [
+            "6",
+            "2 TokHaar-Mej",
+            "119",
+            "Magic",
+            "Bolts"
+          ],
+          [
+            "6",
+            "2 TokHaar-Ket Champion",
+            "112",
+            "Melee",
+            "-"
+          ],
+          [
+            "7",
+            "3 Tz-Kek",
+            "86",
+            "Melee",
+            "Water"
+          ],
+          [
+            "8",
+            "3 Tz-Kil",
+            "103",
+            "Magic",
+            "Bolts"
+          ],
+          [
+            "8",
+            "2 Tz-Kek, 1 Ket-Zek",
+            "86,105",
+            "Magic",
+            "Water, Bolts"
+          ]
+        ]
+      }
+    },
+    {
+      "index": 17,
       "indent": 0,
       "section": "Room 1",
       "text": {
@@ -286,7 +414,7 @@
       "chatOptions": []
     },
     {
-      "index": 17,
+      "index": 18,
       "indent": 0,
       "section": "Room 1",
       "text": {
@@ -296,7 +424,7 @@
       "chatOptions": []
     },
     {
-      "index": 18,
+      "index": 19,
       "indent": 0,
       "section": "Room 1",
       "text": {
@@ -306,7 +434,7 @@
       "chatOptions": []
     },
     {
-      "index": 19,
+      "index": 20,
       "indent": 0,
       "section": "Room 1",
       "text": {
@@ -316,7 +444,7 @@
       "chatOptions": []
     },
     {
-      "index": 20,
+      "index": 21,
       "indent": 0,
       "section": "Room 2",
       "text": {
@@ -326,7 +454,7 @@
       "chatOptions": []
     },
     {
-      "index": 21,
+      "index": 22,
       "indent": 0,
       "section": "Room 2",
       "text": {
@@ -336,7 +464,7 @@
       "chatOptions": []
     },
     {
-      "index": 22,
+      "index": 23,
       "indent": 0,
       "section": "Room 2",
       "text": {
@@ -346,7 +474,7 @@
       "chatOptions": []
     },
     {
-      "index": 23,
+      "index": 24,
       "indent": 0,
       "section": "Room 2",
       "text": {
@@ -356,7 +484,7 @@
       "chatOptions": []
     },
     {
-      "index": 24,
+      "index": 25,
       "indent": 0,
       "section": "Room 3",
       "text": {
@@ -366,7 +494,7 @@
       "chatOptions": []
     },
     {
-      "index": 25,
+      "index": 26,
       "indent": 0,
       "section": "Room 3",
       "text": {
@@ -376,7 +504,7 @@
       "chatOptions": []
     },
     {
-      "index": 26,
+      "index": 27,
       "indent": 0,
       "section": "Room 3",
       "text": {
@@ -386,7 +514,7 @@
       "chatOptions": []
     },
     {
-      "index": 27,
+      "index": 28,
       "indent": 0,
       "section": "Room 3",
       "text": {
@@ -396,7 +524,7 @@
       "chatOptions": []
     },
     {
-      "index": 28,
+      "index": 29,
       "indent": 0,
       "section": "Room 3",
       "text": {
@@ -406,7 +534,7 @@
       "chatOptions": []
     },
     {
-      "index": 29,
+      "index": 30,
       "indent": 0,
       "section": "Room 3",
       "text": {
@@ -416,7 +544,7 @@
       "chatOptions": []
     },
     {
-      "index": 30,
+      "index": 31,
       "indent": 0,
       "section": "Room 3",
       "text": {
@@ -426,7 +554,7 @@
       "chatOptions": []
     },
     {
-      "index": 31,
+      "index": 32,
       "indent": 0,
       "section": "Room 3",
       "text": {
@@ -436,7 +564,7 @@
       "chatOptions": []
     },
     {
-      "index": 32,
+      "index": 33,
       "indent": 0,
       "section": "Room 3",
       "text": {
@@ -446,7 +574,7 @@
       "chatOptions": []
     },
     {
-      "index": 33,
+      "index": 34,
       "indent": 0,
       "section": "Room 4",
       "text": {
@@ -456,7 +584,7 @@
       "chatOptions": []
     },
     {
-      "index": 34,
+      "index": 35,
       "indent": 0,
       "section": "Room 4",
       "text": {
@@ -466,7 +594,7 @@
       "chatOptions": []
     },
     {
-      "index": 35,
+      "index": 36,
       "indent": 0,
       "section": "Room 4",
       "text": {
@@ -476,7 +604,36 @@
       "chatOptions": []
     },
     {
-      "index": 36,
+      "index": 37,
+      "isTable": true,
+      "section": "Room 4",
+      "table": {
+        "headers": [
+          "Scale location",
+          "Weapon"
+        ],
+        "rows": [
+          [
+            "North-west",
+            "Obsidian sword"
+          ],
+          [
+            "North-east",
+            "Obsidian mace"
+          ],
+          [
+            "South-west",
+            "Obsidian staff"
+          ],
+          [
+            "South-east",
+            "Obsidian throwing ring"
+          ]
+        ]
+      }
+    },
+    {
+      "index": 38,
       "indent": 0,
       "section": "Room 4",
       "text": {
@@ -486,7 +643,7 @@
       "chatOptions": []
     },
     {
-      "index": 37,
+      "index": 39,
       "indent": 0,
       "section": "Room 5",
       "text": {
@@ -496,7 +653,7 @@
       "chatOptions": []
     },
     {
-      "index": 38,
+      "index": 40,
       "indent": 0,
       "section": "Room 5",
       "text": {
@@ -506,7 +663,7 @@
       "chatOptions": []
     },
     {
-      "index": 39,
+      "index": 41,
       "indent": 0,
       "section": "Room 5",
       "text": {
@@ -516,7 +673,7 @@
       "chatOptions": []
     },
     {
-      "index": 40,
+      "index": 42,
       "indent": 0,
       "section": "Room 5",
       "text": {
@@ -526,7 +683,7 @@
       "chatOptions": []
     },
     {
-      "index": 41,
+      "index": 43,
       "indent": 1,
       "section": "Room 5",
       "text": {
@@ -536,7 +693,7 @@
       "chatOptions": []
     },
     {
-      "index": 42,
+      "index": 44,
       "indent": 0,
       "section": "Room 5",
       "text": {
@@ -546,7 +703,7 @@
       "chatOptions": []
     },
     {
-      "index": 43,
+      "index": 45,
       "indent": 0,
       "section": "Room 6",
       "text": {
@@ -556,7 +713,7 @@
       "chatOptions": []
     },
     {
-      "index": 44,
+      "index": 46,
       "indent": 0,
       "section": "Room 6",
       "text": {
@@ -566,7 +723,7 @@
       "chatOptions": []
     },
     {
-      "index": 45,
+      "index": 47,
       "indent": 0,
       "section": "Room 6",
       "text": {
@@ -576,7 +733,7 @@
       "chatOptions": []
     },
     {
-      "index": 46,
+      "index": 48,
       "indent": 0,
       "section": "Room 6",
       "text": {
@@ -586,7 +743,7 @@
       "chatOptions": []
     },
     {
-      "index": 47,
+      "index": 49,
       "indent": 0,
       "section": "Room 6",
       "text": {
@@ -596,7 +753,7 @@
       "chatOptions": []
     },
     {
-      "index": 48,
+      "index": 50,
       "indent": 0,
       "section": "Room 6",
       "text": {
@@ -606,7 +763,7 @@
       "chatOptions": []
     },
     {
-      "index": 49,
+      "index": 51,
       "indent": 0,
       "section": "Room 6",
       "text": {
@@ -616,7 +773,7 @@
       "chatOptions": []
     },
     {
-      "index": 50,
+      "index": 52,
       "indent": 0,
       "section": "Room 6",
       "text": {
@@ -626,7 +783,7 @@
       "chatOptions": []
     },
     {
-      "index": 51,
+      "index": 53,
       "indent": 0,
       "section": "Room 6",
       "text": {
@@ -636,7 +793,7 @@
       "chatOptions": []
     },
     {
-      "index": 52,
+      "index": 54,
       "indent": 0,
       "section": "Room 6",
       "text": {
@@ -646,7 +803,7 @@
       "chatOptions": []
     },
     {
-      "index": 53,
+      "index": 55,
       "indent": 0,
       "section": "Room 7",
       "text": {
@@ -656,7 +813,7 @@
       "chatOptions": []
     },
     {
-      "index": 54,
+      "index": 56,
       "indent": 0,
       "section": "Room 7",
       "text": {
@@ -666,7 +823,7 @@
       "chatOptions": []
     },
     {
-      "index": 55,
+      "index": 57,
       "indent": 0,
       "section": "Room 7",
       "text": {
@@ -676,7 +833,40 @@
       "chatOptions": []
     },
     {
-      "index": 56,
+      "index": 58,
+      "isTable": true,
+      "section": "Room 7",
+      "table": {
+        "headers": [
+          "TzHaar word",
+          "Weapon"
+        ],
+        "rows": [
+          [
+            "Xil",
+            "Obsidian sword"
+          ],
+          [
+            "Mej",
+            "Obsidian staff"
+          ],
+          [
+            "Ket",
+            "Obsidian maul"
+          ],
+          [
+            "Ket and Hur",
+            "Obsidian mace"
+          ],
+          [
+            "Xil and Hur",
+            "Obsidian knife"
+          ]
+        ]
+      }
+    },
+    {
+      "index": 59,
       "indent": 0,
       "section": "Room 7",
       "text": {
@@ -686,7 +876,7 @@
       "chatOptions": []
     },
     {
-      "index": 57,
+      "index": 60,
       "indent": 0,
       "section": "Room 8",
       "text": {
@@ -696,7 +886,7 @@
       "chatOptions": []
     },
     {
-      "index": 58,
+      "index": 61,
       "indent": 0,
       "section": "Room 8",
       "text": {
@@ -706,7 +896,7 @@
       "chatOptions": []
     },
     {
-      "index": 59,
+      "index": 62,
       "indent": 0,
       "section": "Room 8",
       "text": {
@@ -716,7 +906,7 @@
       "chatOptions": []
     },
     {
-      "index": 60,
+      "index": 63,
       "indent": 0,
       "section": "Room 8",
       "text": {
@@ -726,7 +916,7 @@
       "chatOptions": []
     },
     {
-      "index": 61,
+      "index": 64,
       "indent": 0,
       "section": "Room 9",
       "text": {
@@ -736,7 +926,7 @@
       "chatOptions": []
     },
     {
-      "index": 62,
+      "index": 65,
       "indent": 0,
       "section": "Room 9",
       "text": {
@@ -748,7 +938,7 @@
       ]
     },
     {
-      "index": 63,
+      "index": 66,
       "indent": 0,
       "section": "Room 9",
       "text": {
@@ -758,7 +948,7 @@
       "chatOptions": []
     },
     {
-      "index": 64,
+      "index": 67,
       "indent": 0,
       "section": "Room 9",
       "text": {
@@ -768,7 +958,7 @@
       "chatOptions": []
     },
     {
-      "index": 65,
+      "index": 68,
       "indent": 1,
       "section": "Room 9",
       "text": {
@@ -778,7 +968,7 @@
       "chatOptions": []
     },
     {
-      "index": 66,
+      "index": 69,
       "indent": 1,
       "section": "Room 9",
       "text": {
@@ -788,7 +978,7 @@
       "chatOptions": []
     },
     {
-      "index": 67,
+      "index": 70,
       "indent": 1,
       "section": "Room 9",
       "text": {
@@ -798,7 +988,7 @@
       "chatOptions": []
     },
     {
-      "index": 68,
+      "index": 71,
       "indent": 1,
       "section": "Room 9",
       "text": {
@@ -808,7 +998,7 @@
       "chatOptions": []
     },
     {
-      "index": 69,
+      "index": 72,
       "indent": 1,
       "section": "Room 9",
       "text": {
@@ -818,7 +1008,7 @@
       "chatOptions": []
     },
     {
-      "index": 70,
+      "index": 73,
       "indent": 2,
       "section": "Room 9",
       "text": {
@@ -828,7 +1018,7 @@
       "chatOptions": []
     },
     {
-      "index": 71,
+      "index": 74,
       "indent": 2,
       "section": "Room 9",
       "text": {
@@ -838,7 +1028,7 @@
       "chatOptions": []
     },
     {
-      "index": 72,
+      "index": 75,
       "indent": 0,
       "section": "Finishing up",
       "text": {
@@ -848,7 +1038,7 @@
       "chatOptions": []
     },
     {
-      "index": 73,
+      "index": 76,
       "indent": 0,
       "section": "Finishing up",
       "text": {
@@ -860,7 +1050,7 @@
       ]
     },
     {
-      "index": 74,
+      "index": 77,
       "indent": 0,
       "section": "Finishing up",
       "text": {
@@ -872,7 +1062,7 @@
       ]
     },
     {
-      "index": 75,
+      "index": 78,
       "indent": 0,
       "section": "Finishing up",
       "text": {
@@ -882,7 +1072,7 @@
       "chatOptions": []
     },
     {
-      "index": 76,
+      "index": 79,
       "indent": 1,
       "section": "Finishing up",
       "text": {
@@ -892,7 +1082,7 @@
       "chatOptions": []
     },
     {
-      "index": 77,
+      "index": 80,
       "indent": 0,
       "section": "Finishing up",
       "text": {
@@ -904,7 +1094,7 @@
       ]
     },
     {
-      "index": 78,
+      "index": 81,
       "indent": 0,
       "section": "Finishing up",
       "text": {
@@ -917,7 +1107,7 @@
       ]
     },
     {
-      "index": 79,
+      "index": 82,
       "indent": 0,
       "section": "Finishing up",
       "text": {

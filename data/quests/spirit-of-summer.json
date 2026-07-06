@@ -3,7 +3,7 @@
   "title": "Spirit of Summer",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T14:46:25.747Z",
+  "guideLastUpdated": "2026-07-06T17:27:16.359Z",
   "icon": "https://runescape.wiki/images/Spirit_of_Summer_icon.png",
   "series": "Summer",
   "age": "ambiguous",
@@ -118,28 +118,28 @@
       "skill": "Construction",
       "amount": 7500,
       "display": "7,500 experience",
-      "image": "https://runescape.wiki/images/Construction-icon.png?d6534"
+      "image": null
     },
     {
       "type": "xp",
       "skill": "Prayer",
       "amount": 5000,
       "display": "5,000 experience",
-      "image": "https://runescape.wiki/images/Prayer-icon.png?933f9"
+      "image": null
     },
     {
       "type": "xp",
       "skill": "Farming",
       "amount": 2000,
       "display": "2,000 experience",
-      "image": "https://runescape.wiki/images/Farming-icon.png?a1230"
+      "image": null
     },
     {
       "type": "xp",
       "skill": "Summoning",
       "amount": 1000,
       "display": "1,000 experience",
-      "image": "https://runescape.wiki/images/Summoning-icon.png?4e07d"
+      "image": null
     },
     {
       "type": "item",
@@ -285,6 +285,47 @@
     },
     {
       "index": 7,
+      "isTable": true,
+      "section": "The farm",
+      "table": {
+        "headers": [
+          "Man",
+          "Possible response"
+        ],
+        "rows": [
+          [
+            "Yes",
+            "No, Angry, Wave"
+          ],
+          [
+            "No",
+            "Angry, Wave, Cheer"
+          ],
+          [
+            "Bow/Curtsy",
+            "Yes, No, Angry, Shrug"
+          ],
+          [
+            "Angry",
+            "Bow/Curtsy, Shrug, Cheer"
+          ],
+          [
+            "Wave",
+            "Angry, Bow/Curtsy, Shrug"
+          ],
+          [
+            "Shrug",
+            "Yes, No, Wave, Cheer"
+          ],
+          [
+            "Cheer",
+            "Yes, Bow/Curtsy, Wave"
+          ]
+        ]
+      }
+    },
+    {
+      "index": 8,
       "indent": 0,
       "section": "The farm",
       "text": {
@@ -297,7 +338,7 @@
       ]
     },
     {
-      "index": 8,
+      "index": 9,
       "indent": 0,
       "section": "Fixing the village",
       "text": {
@@ -309,7 +350,7 @@
       ]
     },
     {
-      "index": 9,
+      "index": 10,
       "indent": 0,
       "section": "Fixing the village",
       "text": {
@@ -319,7 +360,7 @@
       "chatOptions": []
     },
     {
-      "index": 10,
+      "index": 11,
       "indent": 0,
       "section": "Fixing the village",
       "text": {
@@ -329,7 +370,7 @@
       "chatOptions": []
     },
     {
-      "index": 11,
+      "index": 12,
       "indent": 1,
       "section": "Fixing the village",
       "text": {
@@ -339,7 +380,7 @@
       "chatOptions": []
     },
     {
-      "index": 12,
+      "index": 13,
       "indent": 1,
       "section": "Fixing the village",
       "text": {
@@ -349,7 +390,7 @@
       "chatOptions": []
     },
     {
-      "index": 13,
+      "index": 14,
       "indent": 0,
       "section": "Fixing the village",
       "text": {
@@ -359,7 +400,7 @@
       "chatOptions": []
     },
     {
-      "index": 14,
+      "index": 15,
       "indent": 1,
       "section": "Fixing the village",
       "text": {
@@ -369,7 +410,7 @@
       "chatOptions": []
     },
     {
-      "index": 15,
+      "index": 16,
       "indent": 0,
       "section": "Fixing the village",
       "text": {
@@ -379,7 +420,7 @@
       "chatOptions": []
     },
     {
-      "index": 16,
+      "index": 17,
       "indent": 0,
       "section": "Fixing the village",
       "text": {
@@ -389,7 +430,7 @@
       "chatOptions": []
     },
     {
-      "index": 17,
+      "index": 18,
       "indent": 0,
       "section": "Fixing the village",
       "text": {
@@ -399,7 +440,7 @@
       "chatOptions": []
     },
     {
-      "index": 18,
+      "index": 19,
       "indent": 0,
       "section": "Fixing the village",
       "text": {
@@ -409,7 +450,7 @@
       "chatOptions": []
     },
     {
-      "index": 19,
+      "index": 20,
       "indent": 0,
       "section": "Fixing the village",
       "text": {
@@ -419,7 +460,7 @@
       "chatOptions": []
     },
     {
-      "index": 20,
+      "index": 21,
       "indent": 0,
       "section": "Fixing the village",
       "text": {
@@ -429,7 +470,7 @@
       "chatOptions": []
     },
     {
-      "index": 21,
+      "index": 22,
       "indent": 0,
       "section": "Fixing the village",
       "text": {
@@ -441,7 +482,7 @@
       ]
     },
     {
-      "index": 22,
+      "index": 23,
       "indent": 0,
       "section": "Back in the farm",
       "text": {
@@ -453,7 +494,7 @@
       ]
     },
     {
-      "index": 23,
+      "index": 24,
       "indent": 0,
       "section": "Back in the farm",
       "text": {
@@ -463,7 +504,7 @@
       "chatOptions": []
     },
     {
-      "index": 24,
+      "index": 25,
       "indent": 0,
       "section": "Back in the farm",
       "text": {
@@ -473,7 +514,7 @@
       "chatOptions": []
     },
     {
-      "index": 25,
+      "index": 26,
       "indent": 0,
       "section": "Back in the farm",
       "text": {
@@ -486,7 +527,7 @@
       ]
     },
     {
-      "index": 26,
+      "index": 27,
       "indent": 0,
       "section": "Back in the farm",
       "text": {
@@ -496,7 +537,7 @@
       "chatOptions": []
     },
     {
-      "index": 27,
+      "index": 28,
       "indent": 0,
       "section": "Back in the farm",
       "text": {
@@ -506,7 +547,7 @@
       "chatOptions": []
     },
     {
-      "index": 28,
+      "index": 29,
       "indent": 1,
       "section": "Back in the farm",
       "text": {
@@ -516,7 +557,7 @@
       "chatOptions": []
     },
     {
-      "index": 29,
+      "index": 30,
       "indent": 0,
       "section": "Back in the farm",
       "text": {
@@ -529,7 +570,7 @@
       ]
     },
     {
-      "index": 30,
+      "index": 31,
       "indent": 0,
       "section": "Luring the beast",
       "text": {
@@ -539,7 +580,7 @@
       "chatOptions": []
     },
     {
-      "index": 31,
+      "index": 32,
       "indent": 0,
       "section": "Luring the beast",
       "text": {
@@ -549,7 +590,7 @@
       "chatOptions": []
     },
     {
-      "index": 32,
+      "index": 33,
       "indent": 0,
       "section": "Luring the beast",
       "text": {
@@ -559,7 +600,7 @@
       "chatOptions": []
     },
     {
-      "index": 33,
+      "index": 34,
       "indent": 0,
       "section": "Luring the beast",
       "text": {
@@ -569,7 +610,7 @@
       "chatOptions": []
     },
     {
-      "index": 34,
+      "index": 35,
       "indent": 0,
       "section": "Luring the beast",
       "text": {
@@ -579,7 +620,7 @@
       "chatOptions": []
     },
     {
-      "index": 35,
+      "index": 36,
       "indent": 1,
       "section": "Luring the beast",
       "text": {
@@ -589,7 +630,7 @@
       "chatOptions": []
     },
     {
-      "index": 36,
+      "index": 37,
       "indent": 1,
       "section": "Luring the beast",
       "text": {
@@ -599,7 +640,7 @@
       "chatOptions": []
     },
     {
-      "index": 37,
+      "index": 38,
       "indent": 1,
       "section": "Luring the beast",
       "text": {
@@ -609,7 +650,7 @@
       "chatOptions": []
     },
     {
-      "index": 38,
+      "index": 39,
       "indent": 0,
       "section": "Luring the beast",
       "text": {
@@ -619,7 +660,7 @@
       "chatOptions": []
     },
     {
-      "index": 39,
+      "index": 40,
       "indent": 0,
       "section": "Luring the beast",
       "text": {
@@ -629,7 +670,7 @@
       "chatOptions": []
     },
     {
-      "index": 40,
+      "index": 41,
       "indent": 0,
       "section": "Luring the beast",
       "text": {
@@ -639,7 +680,7 @@
       "chatOptions": []
     },
     {
-      "index": 41,
+      "index": 42,
       "indent": 0,
       "section": "Luring the beast",
       "text": {
@@ -649,7 +690,7 @@
       "chatOptions": []
     },
     {
-      "index": 42,
+      "index": 43,
       "indent": 0,
       "section": "Luring the beast",
       "text": {
@@ -659,7 +700,7 @@
       "chatOptions": []
     },
     {
-      "index": 43,
+      "index": 44,
       "indent": 0,
       "section": "Luring the beast",
       "text": {
@@ -669,7 +710,7 @@
       "chatOptions": []
     },
     {
-      "index": 44,
+      "index": 45,
       "indent": 0,
       "section": "Luring the beast",
       "text": {

@@ -1,4 +1,5 @@
-import { extractAllTemplates, wikitextToPlain, splitIntoSections } from "./wikitext.js";
+import { extractAllTemplatesWithPositions, wikitextToPlain, splitIntoSections } from "./wikitext.js";
+import { extractWikiTables, parseWikiTableToStructured } from "./parseTables.js";
 
 function parseChecklistBlock(checklistContent, rawSteps, section) {
   const lines = checklistContent.split("\n");
@@ -40,10 +41,27 @@ function parseChecklistBlock(checklistContent, rawSteps, section) {
  * template, e.g. {{Chat options|...}}, itself spans multiple lines).
  */
 export function parseSteps(quickGuideWikitext) {
-  const rawSteps = []; // { indent, raw, section }
+  const rawSteps = []; // { indent, raw, section } or { isTable, table, section }
   for (const { heading, content } of splitIntoSections(quickGuideWikitext)) {
-    const blocks = extractAllTemplates(content, "Checklist");
-    for (const block of blocks) parseChecklistBlock(block, rawSteps, heading);
+    // Checklist blocks and standalone wikitables (e.g. a quiz's Question/Answer
+    // table dropped between two Checklists, like Hero's Welcome) both need to
+    // be processed in the order they actually appear in the section — merge
+    // and sort by source position rather than handling all of one kind first.
+    const checklistBlocks = extractAllTemplatesWithPositions(content, "Checklist").map((b) => ({
+      ...b,
+      kind: "checklist",
+    }));
+    const tableBlocks = extractWikiTables(content).map((b) => ({ ...b, kind: "table" }));
+    const blocks = [...checklistBlocks, ...tableBlocks].sort((a, b) => a.start - b.start);
+
+    for (const block of blocks) {
+      if (block.kind === "checklist") {
+        parseChecklistBlock(block.content, rawSteps, heading);
+      } else {
+        const table = parseWikiTableToStructured(block.raw);
+        if (table) rawSteps.push({ isTable: true, table, section: heading });
+      }
+    }
   }
 
   if (rawSteps.length === 0) {
@@ -54,20 +72,29 @@ export function parseSteps(quickGuideWikitext) {
   // template we strip (e.g. a fairy ring code icon) — an empty instruction is
   // useless to show anyway, and sending blank lines to the translator causes
   // it to drop them inconsistently, breaking the line-count alignment check.
+  // Table steps are already structured and skip this text pipeline entirely.
   return rawSteps
-    .map((step) => ({
-      indent: step.indent,
-      section: step.section,
-      isNote: step.isNote,
-      ...wikitextToPlain(step.raw),
-    }))
-    .filter((step) => step.text.trim() !== "")
-    .map((step, index) => ({
-      index,
-      indent: step.indent,
-      section: step.section,
-      ...(step.isNote ? { isNote: true } : {}),
-      text: { en: step.text },
-      chatOptions: step.chatOptions,
-    }));
+    .map((step) =>
+      step.isTable
+        ? step
+        : {
+            indent: step.indent,
+            section: step.section,
+            isNote: step.isNote,
+            ...wikitextToPlain(step.raw),
+          }
+    )
+    .filter((step) => step.isTable || step.text.trim() !== "")
+    .map((step, index) =>
+      step.isTable
+        ? { index, isTable: true, section: step.section, table: step.table }
+        : {
+            index,
+            indent: step.indent,
+            section: step.section,
+            ...(step.isNote ? { isNote: true } : {}),
+            text: { en: step.text },
+            chatOptions: step.chatOptions,
+          }
+    );
 }

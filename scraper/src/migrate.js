@@ -61,15 +61,27 @@ async function migrateOne(slug) {
     guideNote: old.guideNote,
   });
 
-  // Overlay the existing Spanish translations by step index.
-  if (steps.length !== old.steps.length) {
+  // Overlay the existing Spanish translations, matched by index among
+  // non-table steps only — table steps are a newly-added kind (English-only,
+  // like item/reward names) that can appear mid-guide and would otherwise
+  // shift every subsequent step's index, silently desyncing the reused
+  // translations for the rest of the quest.
+  // `old.steps` may itself already contain table steps from a previous run of
+  // this same script — filter them out before comparing/matching, or the
+  // index-based overlay below silently shifts and misassigns translations.
+  const oldNonTableSteps = (old.steps || []).filter((s) => !s.isTable);
+  const nonTableCount = steps.filter((s) => !s.isTable).length;
+  if (nonTableCount !== oldNonTableSteps.length) {
     console.warn(
-      `[warn] ${slug}: el número de pasos cambió (${old.steps.length} -> ${steps.length}); ` +
+      `[warn] ${slug}: el número de pasos cambió (${oldNonTableSteps.length} -> ${nonTableCount}); ` +
         `se reutiliza traducción solo hasta el índice más corto, revisar manualmente.`
     );
   }
-  record.steps = record.steps.map((step, i) => {
-    const oldEs = old.steps[i]?.text?.es;
+  let oldIndex = 0;
+  record.steps = record.steps.map((step) => {
+    if (step.isTable) return step;
+    const oldEs = oldNonTableSteps[oldIndex]?.text?.es;
+    oldIndex++;
     return oldEs ? { ...step, text: { ...step.text, es: oldEs } } : step;
   });
   if (old.startPoint?.es) {

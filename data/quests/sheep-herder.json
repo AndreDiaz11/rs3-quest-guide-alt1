@@ -3,7 +3,7 @@
   "title": "Sheep Herder",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T14:46:25.036Z",
+  "guideLastUpdated": "2026-07-06T17:27:16.195Z",
   "icon": "https://runescape.wiki/images/Sheep_Herder_icon.png",
   "series": null,
   "age": "5",
@@ -134,6 +134,35 @@
     },
     {
       "index": 6,
+      "isTable": true,
+      "section": "Herding the sheep",
+      "table": {
+        "headers": [
+          "Sheep",
+          "Location"
+        ],
+        "rows": [
+          [
+            "Blue sheep",
+            "North-west of the incinerator, just past the Warrior Woman camp."
+          ],
+          [
+            "Yellow sheep",
+            "North of the incinerator, in front of the Fishing Guild."
+          ],
+          [
+            "Green sheep",
+            "East of the incinerator, near a Mysterious Statue."
+          ],
+          [
+            "Red sheep",
+            "South of the incinerator, in front of Ardougne North bank."
+          ]
+        ]
+      }
+    },
+    {
+      "index": 7,
       "indent": 0,
       "section": "Euthanising the sheep",
       "text": {
@@ -143,7 +172,7 @@
       "chatOptions": []
     },
     {
-      "index": 7,
+      "index": 8,
       "indent": 0,
       "section": "Euthanising the sheep",
       "text": {
@@ -153,7 +182,7 @@
       "chatOptions": []
     },
     {
-      "index": 8,
+      "index": 9,
       "indent": 0,
       "section": "Finishing up",
       "text": {
@@ -163,7 +192,7 @@
       "chatOptions": []
     },
     {
-      "index": 9,
+      "index": 10,
       "indent": 0,
       "section": "Finishing up",
       "text": {

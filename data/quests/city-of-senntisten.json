@@ -3,7 +3,7 @@
   "title": "City of Senntisten",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-05T14:46:17.569Z",
+  "guideLastUpdated": "2026-07-06T17:27:13.079Z",
   "icon": "https://runescape.wiki/images/City_of_Senntisten_icon.png",
   "series": "The Elder God Wars",
   "age": "6",
@@ -111,28 +111,28 @@
       "skill": "Archaeology",
       "amount": 50000,
       "display": "50,000 experience",
-      "image": "https://runescape.wiki/images/Archaeology-icon.png?48b2f"
+      "image": null
     },
     {
       "type": "xp",
       "skill": "Slayer",
       "amount": 50000,
       "display": "50,000 experience",
-      "image": "https://runescape.wiki/images/Slayer-icon.png?ecab5"
+      "image": null
     },
     {
       "type": "xp",
       "skill": "Magic",
       "amount": 50000,
       "display": "50,000 experience",
-      "image": "https://runescape.wiki/images/Magic-icon.png?60d6d"
+      "image": null
     },
     {
       "type": "xp",
       "skill": "Combat level",
       "amount": 50000,
       "display": "50,000 experience lamp (requires level 75 in the chosen skill to use) in one of: Attack, Strength, Defence, Constitution, Ranged, Magic, Necromancy, Prayer or Summoning",
-      "image": "https://runescape.wiki/images/Combat_swords.png?f0186"
+      "image": null
     },
     {
       "type": "item",
@@ -161,7 +161,46 @@
   ],
   "rewardBannerImage": "https://runescape.wiki/images/thumb/City_of_Senntisten_reward.png/512px-City_of_Senntisten_reward.png?a96cd",
   "postQuest": [],
-  "steps": [],
+  "steps": [
+    {
+      "index": 0,
+      "isTable": true,
+      "section": "Puzzle solution",
+      "table": {
+        "headers": null,
+        "rows": [
+          [
+            "A",
+            "BC",
+            "D",
+            "E",
+            "F"
+          ],
+          [
+            "G",
+            "H",
+            "IJ",
+            "K",
+            "L"
+          ],
+          [
+            "M",
+            "N",
+            "OP",
+            "Q",
+            "R"
+          ],
+          [
+            "S",
+            "T",
+            "UV",
+            "WX",
+            "YZ"
+          ]
+        ]
+      }
+    }
+  ],
   "guideNote": {
     "en": "This quest is a hub for several sub-quests, each already listed separately in this app with its own step-by-step guide. There isn't a single walkthrough for the hub itself — check the wiki page for the full overview.",
     "es": "Esta misión es un resumen que agrupa varias sub-misiones, cada una ya listada por separado en esta app con su propia guía paso a paso. No existe una guía única para la misión en sí — consulta la página del wiki para ver el resumen completo."

@@ -52,6 +52,42 @@ export function extractAllTemplates(wikitext, templateName) {
 }
 
 /**
+ * Same as extractAllTemplates but also returns each match's `start`/`end`
+ * position in `wikitext` — needed when a section's other content (e.g. a
+ * standalone wikitable) must be interleaved with these blocks in source order.
+ */
+export function extractAllTemplatesWithPositions(wikitext, templateName) {
+  const results = [];
+  const marker = `{{${templateName}`;
+  let searchFrom = 0;
+  while (true) {
+    const start = wikitext.indexOf(marker, searchFrom);
+    if (start === -1) break;
+    let depth = 0;
+    let i = start;
+    for (; i < wikitext.length; i++) {
+      if (wikitext.startsWith("{{", i)) {
+        depth++;
+        i++;
+      } else if (wikitext.startsWith("}}", i)) {
+        depth--;
+        i++;
+        if (depth === 0) {
+          i++;
+          break;
+        }
+      }
+    }
+    const full = wikitext.slice(start, i);
+    const pipeIndex = full.indexOf("|");
+    const content = pipeIndex === -1 ? "" : full.slice(pipeIndex + 1, -2);
+    results.push({ start, end: i, content });
+    searchFrom = i;
+  }
+  return results;
+}
+
+/**
  * Extracts the raw parts of an inline `{{Chat options|...}}` block, kept in
  * English on purpose (they're literal in-game UI buttons/markers, not shown
  * translated — see app/js/detail.js chat options popup).
