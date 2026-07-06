@@ -47,6 +47,15 @@ function isSagaTitle(title) {
   return /\(saga\)$/i.test(title);
 }
 
+// Deleted-content quests are excluded by default (see isNonPlayableContent
+// below) since most are old pre-rework leftovers with no real QP of their
+// own. Unstable Foundations is the one deliberate exception: RuneScape's own
+// Quest Points total (confirmed against a real account) still counts its 1
+// QP even though the quest was removed in 2011 and can never be played or
+// completed again — so it stays in the dataset, just flagged via
+// `removedDate` and shown with a "no longer available" banner in the app.
+const PRESERVED_REMOVED_QUESTS = new Set(["Unstable Foundations"]);
+
 /**
  * True for wiki pages that aren't a real, currently-playable quest: the old
  * pre-rework version of a quest that already has its own current page
@@ -57,6 +66,7 @@ function isSagaTitle(title) {
  * pages that exist in Category:Quick guides but aren't meant to be scraped.
  */
 function isNonPlayableContent(title, mainWikitext) {
+  if (PRESERVED_REMOVED_QUESTS.has(title)) return false;
   return (
     /\(historical\)$/i.test(title) ||
     /\{\{Deleted content\}\}|\{\{Quest reworked/i.test(mainWikitext) ||
@@ -76,7 +86,7 @@ export async function scrapeOne(title, { skipTranslate }, seasonalTitles) {
   }
 
   const metadata = parseMetadata(page);
-  const rewardsData = parseRewards(page.quickGuideHtml);
+  const rewardsData = page.quickGuideHtml ? parseRewards(page.quickGuideHtml) : { rewards: [], postQuest: [] };
   const isMiniquest = /\(miniquest\)$/i.test(title);
   // Belt-and-suspenders: some event quests are only tagged with a year-specific
   // category (e.g. "2019_Easter_event") rather than the general Category:Seasonal
@@ -90,15 +100,21 @@ export async function scrapeOne(title, { skipTranslate }, seasonalTitles) {
 
   let steps;
   let guideNote;
-  try {
-    steps = parseSteps(page.quickGuideWikitext);
-  } catch (err) {
-    if (!err.message.includes("No {{Checklist")) throw err;
-    // "Hub" quests (e.g. Recipe for Disaster) group several sub-quests instead of
-    // having their own step-by-step Checklist. Still worth including for their
-    // quest points/completion tracking, just without a walkthrough of their own.
+  if (page.quickGuideWikitext === null) {
+    // Removed-from-the-game quest (e.g. Unstable Foundations) — no Quick
+    // guide page exists at all, so there's no walkthrough to parse.
     steps = [];
-    guideNote = HUB_QUEST_NOTE;
+  } else {
+    try {
+      steps = parseSteps(page.quickGuideWikitext);
+    } catch (err) {
+      if (!err.message.includes("No {{Checklist")) throw err;
+      // "Hub" quests (e.g. Recipe for Disaster) group several sub-quests instead of
+      // having their own step-by-step Checklist. Still worth including for their
+      // quest points/completion tracking, just without a walkthrough of their own.
+      steps = [];
+      guideNote = HUB_QUEST_NOTE;
+    }
   }
 
   const record = await buildQuestRecord({

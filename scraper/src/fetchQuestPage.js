@@ -13,6 +13,9 @@ export async function fetchQuestPage(title) {
     page: title,
     prop: "wikitext|categories",
   });
+  if (mainWikitext.error) {
+    throw new Error(`Wiki API error for "${title}": ${JSON.stringify(mainWikitext.error)}`);
+  }
 
   const quickGuideTitle = `${title}/Quick guide`;
   const quickGuideWikitext = await wikiApiFetch({
@@ -26,12 +29,17 @@ export async function fetchQuestPage(title) {
     prop: "text",
   });
 
-  if (mainWikitext.error || quickGuideWikitext.error || quickGuideHtml.error) {
-    throw new Error(
-      `Wiki API error for "${title}": ${JSON.stringify(
-        mainWikitext.error || quickGuideWikitext.error || quickGuideHtml.error
-      )}`
-    );
+  // A handful of quests removed from the game entirely (e.g. Unstable
+  // Foundations, deleted 2011) still have a real main article but their
+  // Quick guide page no longer exists at all — treat that as "no walkthrough
+  // exists" (same as a hub quest) instead of a hard failure, since the main
+  // article alone still has everything needed for metadata/QP tracking.
+  const quickGuideMissing = quickGuideWikitext.error?.code === "missingtitle";
+  if (quickGuideWikitext.error && !quickGuideMissing) {
+    throw new Error(`Wiki API error for "${quickGuideTitle}": ${JSON.stringify(quickGuideWikitext.error)}`);
+  }
+  if (quickGuideHtml.error && !quickGuideMissing) {
+    throw new Error(`Wiki API error for "${quickGuideTitle}": ${JSON.stringify(quickGuideHtml.error)}`);
   }
 
   const categories = (mainWikitext.parse.categories || []).map((c) => c["*"]);
@@ -39,8 +47,8 @@ export async function fetchQuestPage(title) {
   return {
     title,
     mainWikitext: mainWikitext.parse.wikitext["*"],
-    quickGuideWikitext: quickGuideWikitext.parse.wikitext["*"],
-    quickGuideHtml: quickGuideHtml.parse.text["*"],
+    quickGuideWikitext: quickGuideMissing ? null : quickGuideWikitext.parse.wikitext["*"],
+    quickGuideHtml: quickGuideMissing ? null : quickGuideHtml.parse.text["*"],
     categories,
   };
 }

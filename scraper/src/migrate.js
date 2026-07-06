@@ -35,18 +35,24 @@ async function migrateOne(slug) {
 
   const page = await fetchQuestPage(old.title);
   const metadata = parseMetadata(page);
-  const rewardsData = parseRewards(page.quickGuideHtml);
+  const rewardsData = page.quickGuideHtml ? parseRewards(page.quickGuideHtml) : { rewards: [], postQuest: [] };
   let steps;
-  try {
-    steps = parseSteps(page.quickGuideWikitext);
-  } catch (err) {
-    if (!err.message.includes("No {{Checklist") || !old.guideNote) {
-      console.error(`[error] ${slug}: ${err.message}`);
-      return;
-    }
-    // Hub quest (e.g. Recipe for Disaster) — no walkthrough of its own, but its
-    // metadata (requirements, rewards, etc.) still needs to stay up to date.
+  if (page.quickGuideWikitext === null) {
+    // Removed-from-the-game quest (e.g. Unstable Foundations) — its Quick
+    // guide page doesn't exist at all, so there's no walkthrough to parse.
     steps = [];
+  } else {
+    try {
+      steps = parseSteps(page.quickGuideWikitext);
+    } catch (err) {
+      if (!err.message.includes("No {{Checklist") || !old.guideNote) {
+        console.error(`[error] ${slug}: ${err.message}`);
+        return;
+      }
+      // Hub quest (e.g. Recipe for Disaster) — no walkthrough of its own, but its
+      // metadata (requirements, rewards, etc.) still needs to stay up to date.
+      steps = [];
+    }
   }
 
   // Build fresh (English-only, skipTranslate) so no AI credits are spent.

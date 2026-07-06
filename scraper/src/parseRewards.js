@@ -54,7 +54,16 @@ export function parseRewards(quickGuideHtml) {
   const sectionRoot = heading.closest(".mw-heading");
   const rewards = [];
   const postQuest = [];
-  let pastAdditionalMarker = false;
+  // `currentTarget` starts as the main rewards list and only ever switches to
+  // postQuest on an actual "Additional rewards" marker; other sub-headings
+  // (e.g. "All players", "Members-only") just relabel whichever list is
+  // currently active instead of resetting it, since the wiki nests them
+  // *inside* the Additional rewards block when one already started. "Music
+  // unlocked" is the one heading that always belongs back in the main
+  // visible reward list (with its own subheading), even if it happens to
+  // appear after an Additional rewards block in the source.
+  let currentTarget = rewards;
+  let currentGroup = null;
   let rewardBannerImage = null;
 
   let node = sectionRoot.next();
@@ -72,11 +81,23 @@ export function parseRewards(quickGuideHtml) {
       const img = scope.find(".item.showing img, .item img").first();
       const src = img.attr("src");
       if (src) rewardBannerImage = src.startsWith("http") ? src : `https://runescape.wiki${src}`;
-    } else if (node.is("dl") && /additional rewards/i.test(node.text())) {
-      pastAdditionalMarker = true;
+    } else if (node.is("dl")) {
+      const label = node.text().replace(/\s+/g, " ").trim();
+      if (/music unlocked/i.test(label)) {
+        currentTarget = rewards;
+        currentGroup = "Music unlocked";
+      } else if (/additional rewards/i.test(label)) {
+        currentTarget = postQuest;
+        currentGroup = null;
+      } else {
+        currentGroup = label || currentGroup;
+      }
     } else if (node.is("ul")) {
-      const target = pastAdditionalMarker ? postQuest : rewards;
-      node.find("> li").each((_, el) => target.push(parseRewardListItem($, el)));
+      node.find("> li").each((_, el) => {
+        const item = parseRewardListItem($, el);
+        if (currentTarget === rewards && currentGroup) item.group = currentGroup;
+        currentTarget.push(item);
+      });
     }
     node = node.next();
   }

@@ -336,6 +336,15 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
     );
   }
 
+  if (quest.removedDate) {
+    container.appendChild(
+      el("div", {
+        class: "removed-content-banner",
+        text: t("removedContentBanner", quest.removedDate),
+      })
+    );
+  }
+
   container.appendChild(
     el("div", {
       class: "quest-meta-updated",
@@ -500,9 +509,23 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
     if (quest.rewardBannerImage) {
       container.appendChild(renderRewardBanner(quest.rewardBannerImage));
     }
-    const rewardsList = el("ul", { class: "rewards-list" });
-    quest.rewards.forEach((reward) => rewardsList.appendChild(renderRewardRow(reward)));
-    container.appendChild(rewardsList);
+    // Some quests mix plain items/xp with a distinct wiki subgroup (e.g.
+    // "Music unlocked", "Early bird bonus") — group consecutive rewards by
+    // that label into their own <ul> with an (English, no-cost) subheading,
+    // matching how the wiki visually separates them, instead of dumping
+    // everything into one flat list.
+    const groups = [];
+    quest.rewards.forEach((reward) => {
+      const last = groups[groups.length - 1];
+      if (last && last.group === (reward.group || null)) last.items.push(reward);
+      else groups.push({ group: reward.group || null, items: [reward] });
+    });
+    groups.forEach(({ group, items }) => {
+      if (group) container.appendChild(el("h3", { class: "step-section-title", text: group }));
+      const rewardsList = el("ul", { class: "rewards-list" });
+      items.forEach((reward) => rewardsList.appendChild(renderRewardRow(reward)));
+      container.appendChild(rewardsList);
+    });
   }
 
   if (quest.postQuest?.length) {

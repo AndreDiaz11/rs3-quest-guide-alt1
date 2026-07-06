@@ -3,7 +3,7 @@
   "title": "Observatory Quest",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-06T19:01:39.429Z",
+  "guideLastUpdated": "2026-07-06T19:17:56.897Z",
   "icon": "https://runescape.wiki/images/Observatory_Quest_icon.png",
   "series": null,
   "age": "ambiguous",
@@ -73,21 +73,24 @@
       "name": "'Chipped' Watchtower teleport",
       "display": "Ability to use 'Chipped' Watchtower teleport after also completing Evil Dave's Big Day Out.",
       "image": "https://runescape.wiki/images/thumb/Teleport_Tablet.gif/100px-Teleport_Tablet.gif?4eead"
-    }
-  ],
-  "rewardBannerImage": "https://runescape.wiki/images/Observatory_Quest_reward.png?3f44e",
-  "postQuest": [
+    },
     {
       "type": "item",
       "name": "Serenade",
-      "display": "Serenade - At the observatory"
+      "display": "Serenade - At the observatory",
+      "group": "Music unlocked",
+      "image": null
     },
     {
       "type": "item",
       "name": "Expedition",
-      "display": "Expedition - Can also be unlocked during Troll Stronghold quest."
+      "display": "Expedition - Can also be unlocked during Troll Stronghold quest.",
+      "group": "Music unlocked",
+      "image": null
     }
   ],
+  "rewardBannerImage": "https://runescape.wiki/images/Observatory_Quest_reward.png?3f44e",
+  "postQuest": [],
   "steps": [
     {
       "index": 0,

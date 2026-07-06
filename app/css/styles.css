@@ -501,6 +501,16 @@ h2.section-title {
   color: var(--text);
 }
 
+.removed-content-banner {
+  background: rgba(192, 57, 43, 0.15);
+  border: 1px solid var(--quest-red, #c0392b);
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin-bottom: 12px;
+  font-size: 0.85em;
+  color: var(--text);
+}
+
 .guide-note {
   background: rgba(201, 162, 39, 0.1);
   border: 1px solid var(--border);

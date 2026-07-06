@@ -30,6 +30,10 @@ const QP_OVERRIDES = {
   // This hub has no Rewards section of its own on the wiki (0 scraped), but
   // RuneMetrics reports 4 QP for it specifically.
   "once-upon-a-time-in-gielinor": 4,
+  // Removed from the game in 2011 ({{Deleted content}}, no Quick guide page
+  // left to scrape a Rewards section from) — but RuneScape's own Quest
+  // Points total still counts its 1 QP, confirmed against a real account.
+  "unstable-foundations": 1,
 };
 
 async function readIndex() {
@@ -154,6 +158,7 @@ export async function buildQuestRecord({
     postQuest: rewardsData.postQuest,
     steps: stepsWithImages,
     ...(guideNote ? { guideNote } : {}),
+    ...(metadata.removedDate ? { removedDate: metadata.removedDate } : {}),
   };
 
   await mkdir(QUESTS_DIR, { recursive: true });

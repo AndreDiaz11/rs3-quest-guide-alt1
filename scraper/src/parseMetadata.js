@@ -28,6 +28,11 @@ function parseInfobox(mainWikitext) {
     age: fields.age || null,
     series:
       fields.main_series && (fields.main_series || "").toLowerCase() !== "none" ? fields.main_series : null,
+    // Only set for the rare quest removed from the game entirely (e.g.
+    // Unstable Foundations, {{Deleted content}}) — its own `removal` infobox
+    // field is the wiki's canonical "removed on" date, shown as a warning
+    // banner in the app since it can never actually be played/tracked again.
+    removedDate: fields.removal ? wikitextToPlain(fields.removal).text : null,
   };
 }
 
@@ -132,7 +137,7 @@ function parseQuestDetailsTable(quickGuideHtml) {
 
 export function parseMetadata({ mainWikitext, quickGuideHtml }) {
   const infobox = parseInfobox(mainWikitext);
-  const details = parseQuestDetailsTable(quickGuideHtml);
+  const details = parseQuestDetailsTable(quickGuideHtml || "");
 
   return {
     ...infobox,
