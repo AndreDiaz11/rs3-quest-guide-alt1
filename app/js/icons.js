@@ -66,6 +66,13 @@ export function unsyncedIcon(color) {
   );
 }
 
+/** Right-pointing arrow, used in place of a bare "?" for a requirement whose met/unmet status is unknown (no synced account). */
+export function unknownArrowIcon(color) {
+  return svg(
+    `<path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`
+  );
+}
+
 /** Gift-box icon, used for the "Rewards" collapsible section heading. */
 export function giftIcon(color) {
   return svg(

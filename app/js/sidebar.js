@@ -120,10 +120,12 @@ function renderCounter(container) {
   const logoEl = container.querySelector("#counter-logo");
   if (logoEl && !logoEl.innerHTML) logoEl.innerHTML = compassIcon();
   const textEl = container.querySelector("#counter-text");
+  const questsTextEl = container.querySelector("#counter-quests-text");
   if (!textEl) return;
 
   if (!isSynced()) {
     textEl.innerHTML = t("counterConfigure");
+    if (questsTextEl) questsTextEl.innerHTML = "";
     return;
   }
 
@@ -139,6 +141,18 @@ function renderCounter(container) {
   const remaining = totalQP - doneQP;
   textEl.innerHTML =
     `${t("counterLabel")}<br><strong>${doneQP} / ${totalQP}</strong> <span class="counter-remaining">${t("counterRemaining", remaining)}</span>`;
+
+  // A second, separate count of actual quests/miniquests completed (not
+  // points) — a quest can be worth 0-10+ QP, so the points count alone
+  // doesn't tell you how many quests as such are actually left.
+  if (questsTextEl) {
+    const allEntries = state.index.quests;
+    const totalCount = allEntries.length;
+    const doneCount = allEntries.filter((q) => questStatus(q.id) === "COMPLETED").length;
+    const remainingCount = totalCount - doneCount;
+    questsTextEl.innerHTML =
+      `${t("counterQuestsLabel")}<br><strong>${doneCount} / ${totalCount}</strong> <span class="counter-remaining">${t("counterRemaining", remainingCount)}</span>`;
+  }
 }
 
 // El color (verde/amarillo/rojo) siempre refleja el estado REAL de la misión,

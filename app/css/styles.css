@@ -372,6 +372,7 @@ h1, h2, .app-title-font {
 
 #quest-counter {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 10px;
   padding: 10px 14px;
@@ -394,6 +395,14 @@ h1, h2, .app-title-font {
 }
 
 #counter-text {
+  line-height: 1.3;
+}
+
+#counter-quests-text {
+  flex-basis: 100%;
+  margin-left: 38px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border);
   line-height: 1.3;
 }
 
@@ -448,7 +457,7 @@ h1, h2, .app-title-font {
    through Overview/Steps/Rewards, so it's always clear which quest this is. */
 .quest-header-sticky {
   position: sticky;
-  top: 0;
+  top: -22px;
   margin: -22px -30px 14px -56px;
   padding: 22px 30px 14px 56px;
   background: var(--bg-panel, #1a1712);
@@ -567,6 +576,23 @@ h1, h2, .app-title-font {
   height: 100%;
 }
 
+.collapse-all-btn {
+  display: block;
+  margin: 14px 0 4px;
+  padding: 5px 12px;
+  background: var(--bg-panel-alt, #2a2620);
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  color: var(--text-dim);
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.collapse-all-btn:hover {
+  color: var(--gold);
+  border-color: var(--gold);
+}
+
 .subsection-title {
   color: var(--gold, #c9a227);
   font-size: 0.95em;
@@ -669,8 +695,13 @@ h1, h2, .app-title-font {
 }
 
 .req-unknown {
-  color: var(--text-dim);
-  font-weight: bold;
+  display: inline-flex;
+  vertical-align: -3px;
+}
+
+.req-unknown svg {
+  width: 16px;
+  height: 16px;
 }
 
 .items-plain-list,

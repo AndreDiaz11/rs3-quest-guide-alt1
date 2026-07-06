@@ -1,7 +1,7 @@
 import { meetsQuestRequirement, meetsSkillRequirement } from "./state.js";
 import { getSkillIcon } from "./skillIcons.js";
 import { t } from "./i18n.js";
-import { questIcon, scrollIcon, giftIcon } from "./icons.js";
+import { questIcon, scrollIcon, giftIcon, unknownArrowIcon } from "./icons.js";
 
 function localizedText(field, lang) {
   if (!field) return "";
@@ -168,11 +168,18 @@ function renderRewardRow(reward) {
   return li;
 }
 
-/** Renders a ✓/✗/? marker for a requirement, matching the wiki's checklist style. */
+/**
+ * Renders a ✓/✗ marker for a requirement, matching the wiki's checklist
+ * style. When the met/unmet status is unknown (no synced account), shows a
+ * blue arrow icon instead of a bare "?" — a lone question mark read as just
+ * a stray character rather than a real status indicator.
+ */
 function requirementMarker(met) {
   if (met === true) return el("span", { class: "req-met", text: "✓" });
   if (met === false) return el("span", { class: "req-unmet", text: "✗" });
-  return el("span", { class: "req-unknown", text: "?" });
+  const span = el("span", { class: "req-unknown" });
+  span.innerHTML = unknownArrowIcon("var(--quest-event)");
+  return span;
 }
 
 /**
@@ -276,14 +283,29 @@ function renderWikiInfobox(quest) {
   return grid;
 }
 
-/** A collapsible `<details>` section with an icon + label `<summary>` — closed by default. */
-function renderSection(iconSvg, label, contentNodes) {
+/**
+ * A collapsible `<details>` section with an icon + label `<summary>` —
+ * closed by default. Ends with a "collapse all" button so the reader can
+ * close every section (including this one) and jump back to the top to open
+ * a different one, instead of having to manually close/scroll back up.
+ */
+function renderSection(iconSvg, label, contentNodes, scrollContainer) {
   const details = el("details", { class: "quest-section" });
   const summary = el("summary");
   summary.innerHTML = `<span class="quest-section-icon">${iconSvg}</span>`;
   summary.appendChild(document.createTextNode(label));
   details.appendChild(summary);
   contentNodes.forEach((node) => details.appendChild(node));
+
+  const collapseBtn = el("button", { class: "collapse-all-btn", type: "button", text: t("collapseAll") });
+  collapseBtn.addEventListener("click", () => {
+    document.querySelectorAll(".quest-section").forEach((d) => {
+      d.open = false;
+    });
+    scrollContainer?.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  details.appendChild(collapseBtn);
+
   return details;
 }
 
@@ -486,7 +508,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   }
 
   if (overviewNodes.length > 0) {
-    container.appendChild(renderSection(questIcon("var(--gold)"), t("sectionOverview"), overviewNodes));
+    container.appendChild(renderSection(questIcon("var(--gold)"), t("sectionOverview"), overviewNodes, container));
   }
 
   // --- "Guía paso a paso" (Step-by-step guide): the walkthrough itself.
@@ -612,7 +634,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   }
 
   if (stepsNodes.length > 0) {
-    container.appendChild(renderSection(scrollIcon("var(--gold)"), t("sectionSteps"), stepsNodes));
+    container.appendChild(renderSection(scrollIcon("var(--gold)"), t("sectionSteps"), stepsNodes, container));
   }
 
   // --- "Recompensas" (Rewards): reward banner, grouped reward list, and any
@@ -649,6 +671,6 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   }
 
   if (rewardsNodes.length > 0) {
-    container.appendChild(renderSection(giftIcon("var(--gold)"), t("sectionRewards"), rewardsNodes));
+    container.appendChild(renderSection(giftIcon("var(--gold)"), t("sectionRewards"), rewardsNodes, container));
   }
 }
