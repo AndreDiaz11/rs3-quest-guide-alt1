@@ -36,6 +36,10 @@ function filterQuests(quests) {
   const { showQuest, showMiniquest, showLocked, showCompleted } = state.activeFilters;
   const typeVisible = { quest: showQuest, miniquest: showMiniquest };
   return quests.filter((q) => {
+    // Matches the real client's panel exactly: non-canonical entries
+    // (tutorials/lore/saga sub-chapters) and currently-existing seasonal
+    // quests never appear in RS3's own quest list at all, not just its count.
+    if (!isRs3Countable(q)) return false;
     if (!typeVisible[q.isMiniquest ? "miniquest" : "quest"]) return false;
     const bucket = questStatusBucket(q);
     if (bucket === "locked") return showLocked;
