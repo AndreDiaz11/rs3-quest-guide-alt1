@@ -5,20 +5,19 @@ export const state = {
   index: { datasetVersion: null, lastUpdated: null, quests: [] },
   runemetricsStatus: new Map(), // questId -> { status, userEligible }
   playerLevels: null, // { levelsBySkill: Map<string, number>, combatLevel } | null
-  // 6 chips independientes combinables (AND): 3 de tipo (quest/miniquest/evento,
-  // ver questCategory en sidebar.js, no se solapan) + 3 de estado real de
-  // RuneMetrics (completada/en progreso/incompleta). Apagar cualquiera de los
-  // 3 de un mismo grupo oculta ese subconjunto; los otros filtros y el buscador
-  // se aplican encima.
+  // Matches RS3's own quest journal filter panel exactly (4 checkboxes, no
+  // search box): showQuest/showMiniquest gate by type (a quest with neither
+  // checked shows nothing, regardless of status); showLocked/showCompleted
+  // each add that specific status subset. "Available" (not locked, not
+  // completed) has no checkbox of its own — it's always shown whenever its
+  // type is checked, same as in-game.
   activeFilters: {
-    searchText: "",
+    showLocked: true,
+    showCompleted: true,
     showQuest: true,
     showMiniquest: true,
-    showEvents: false,
-    showCompleted: true,
-    showStarted: true,
-    showIncomplete: true,
   },
+  sortMode: "alphabetical",
   selectedQuestId: null,
 };
 
@@ -66,4 +65,31 @@ export function meetsQuestRequirement(requiredTitle) {
   const match = state.index.quests.find((q) => normalizeTitle(q.title) === normalized);
   if (!match) return null;
   return questStatus(match.id) === "COMPLETED";
+}
+
+/**
+ * Whether a quest is currently "Locked" (RS3's own quest-journal sense: some
+ * requirement isn't met yet), for the sidebar's "Show Locked" filter. Walks
+ * every node of the requirement tree at every depth, not just the top level —
+ * the wiki's own tree sometimes nests a real, independent requirement one
+ * level under an unrelated quest (e.g. Pieces of Hate's "own a
+ * player-owned house" nested under "A Clockwork Syringe") rather than always
+ * meaning strict transitive implication. An unmet/unknown skill or quest
+ * requirement anywhere in the tree marks it locked; a fully-unknown check
+ * (no RSN configured, or player levels not loaded) is treated as NOT locked —
+ * we'd rather under- than over-report locked without real data.
+ */
+export function isQuestLocked(quest) {
+  const skills = quest.requirements?.skills || [];
+  for (const req of skills) {
+    if (meetsSkillRequirement(req) === false) return true;
+  }
+  const walk = (nodes) => {
+    for (const node of nodes || []) {
+      if (meetsQuestRequirement(node.matchTitle || node.title) === false) return true;
+      if (node.children && walk(node.children)) return true;
+    }
+    return false;
+  };
+  return walk(quest.requirements?.quests);
 }

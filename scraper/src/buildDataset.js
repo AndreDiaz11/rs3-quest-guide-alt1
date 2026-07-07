@@ -269,11 +269,20 @@ export async function buildQuestRecord({
     combatLevel: metadata.combatLevel,
     length: metadata.length,
     series: metadata.series,
+    seriesNth: metadata.seriesNth,
     age: metadata.age,
     timeline: metadata.timeline,
     releaseDate: metadata.release,
     startLocation: metadata.area,
     questPoints,
+    // Kept as the FULL nested tree (not just top-level) for the sidebar's
+    // "Show Locked" filter — the wiki's own requirement tree sometimes nests
+    // a real, independent requirement one level under an unrelated quest
+    // (e.g. Pieces of Hate's "own a player-owned house" nested under "A
+    // Clockwork Syringe") rather than always meaning strict transitive
+    // implication, so every node at every depth must be checked, not just
+    // the top level.
+    requirements: metadata.requirements || { skills: [], quests: [] },
   };
   const existingIndex = index.quests.findIndex((q) => q.id === id);
   if (existingIndex >= 0) index.quests[existingIndex] = summary;

@@ -1,4 +1,4 @@
-import { state, questStatus, isSynced } from "./state.js";
+import { state, questStatus, isSynced, isQuestLocked } from "./state.js";
 import { t } from "./i18n.js";
 import {
   checkCircleIcon,
@@ -6,9 +6,9 @@ import {
   xCircleIcon,
   calendarIcon,
   scrollIcon,
-  questIcon,
   compassIcon,
   unsyncedIcon,
+  funnelIcon,
 } from "./icons.js";
 
 const STATUS_COLOR = {
@@ -19,100 +19,189 @@ const STATUS_COLOR = {
 const MINIQUEST_COLOR = "var(--quest-miniquest)";
 const EVENT_COLOR = "var(--quest-event)";
 
-function normalizeSearch(text) {
-  return text
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .trim();
-}
-
-/** Every quest falls into exactly one of these 3 non-overlapping type categories. */
-function questCategory(quest) {
-  if (quest.isSeasonal) return "events";
-  if (quest.isMiniquest) return "miniquest";
-  return "quest";
+/**
+ * RS3's own "Locked" status takes priority for filtering purposes: a quest
+ * whose requirements aren't met is locked regardless of its RuneMetrics
+ * status. "Available" (not locked, not completed — whether untouched or
+ * in-progress) has no checkbox of its own in-game, so it isn't a real
+ * bucket here either — it just passes the status check unconditionally.
+ */
+function questStatusBucket(quest) {
+  if (isQuestLocked(quest)) return "locked";
+  if (questStatus(quest.id) === "COMPLETED") return "completed";
+  return "available";
 }
 
 function filterQuests(quests) {
-  const { showQuest, showMiniquest, showEvents, showCompleted, showStarted, showIncomplete, searchText } =
-    state.activeFilters;
-  const categoryVisible = { quest: showQuest, miniquest: showMiniquest, events: showEvents };
-  const statusVisible = { COMPLETED: showCompleted, STARTED: showStarted, NOT_STARTED: showIncomplete };
-  const search = normalizeSearch(searchText);
+  const { showQuest, showMiniquest, showLocked, showCompleted } = state.activeFilters;
+  const typeVisible = { quest: showQuest, miniquest: showMiniquest };
   return quests.filter((q) => {
-    if (!categoryVisible[questCategory(q)]) return false;
-    if (!statusVisible[questStatus(q.id)]) return false;
-    if (search && !normalizeSearch(q.title).includes(search)) return false;
-    return true;
+    if (!typeVisible[q.isMiniquest ? "miniquest" : "quest"]) return false;
+    const bucket = questStatusBucket(q);
+    if (bucket === "locked") return showLocked;
+    if (bucket === "completed") return showCompleted;
+    return true; // "available" always shows once its type is checked
   });
 }
 
-// Se construye una sola vez; escribir en el buscador solo debe volver a
-// dibujar la lista, nunca la barra en sí — recrear el <input> en cada letra
-// le hacía perder el foco tras cada carácter.
+// RS3's own ordinal scale for these fields isn't exposed anywhere machine-
+// readable — built from what's actually present across the 362 scraped
+// quests (see the length/age/timeline value dump used to derive this) and
+// may need a manual tweak once seen against the real in-game order.
+const LENGTH_ORDER = [
+  "Very Short",
+  "Short",
+  "Short to Medium",
+  "Medium",
+  "Medium to Long",
+  "Long",
+  "Long to Very Long",
+  "Very Long",
+  "Very, Very Long",
+];
+const AGE_ORDER = ["5", "6", "age of chaos", "ambiguous"];
+const TIMELINE_ORDER = [
+  "age of chaos",
+  "adventurer",
+  "pathfinder",
+  "champion",
+  "heroic",
+  "legendary",
+  "mythic",
+  "world guardian",
+  "seasonal",
+];
+const PROGRESS_ORDER = { NOT_STARTED: 0, STARTED: 1, COMPLETED: 2 };
+
+function orderIndex(list, value) {
+  if (!value) return list.length;
+  const i = list.indexOf(String(value).toLowerCase());
+  return i === -1 ? list.length : i;
+}
+
+// combatLevel is scraped as a range string ("30-39") or "none"/null, not a
+// number — take the lower bound of the range for ordering, "none" first.
+function combatSortValue(level) {
+  if (!level || /none/i.test(level)) return 0;
+  const match = String(level).match(/\d+/);
+  return match ? Number(match[0]) : 0;
+}
+
+const SORT_COMPARATORS = {
+  alphabetical: (a, b) => rs3DisplayTitle(a.title).localeCompare(rs3DisplayTitle(b.title), "es"),
+  combat: (a, b) => combatSortValue(a.combatLevel) - combatSortValue(b.combatLevel),
+  age: (a, b) => orderIndex(AGE_ORDER, a.age) - orderIndex(AGE_ORDER, b.age),
+  members: (a, b) => Number(Boolean(a.members)) - Number(Boolean(b.members)),
+  length: (a, b) => orderIndex(LENGTH_ORDER, a.length) - orderIndex(LENGTH_ORDER, b.length),
+  progress: (a, b) => (PROGRESS_ORDER[questStatus(a.id)] ?? 1) - (PROGRESS_ORDER[questStatus(b.id)] ?? 1),
+  releaseDate: (a, b) =>
+    (a.releaseDate ? new Date(a.releaseDate).getTime() : Infinity) -
+    (b.releaseDate ? new Date(b.releaseDate).getTime() : Infinity),
+  series: (a, b) => {
+    const bySeries = (a.series || "￿").localeCompare(b.series || "￿");
+    return bySeries !== 0 ? bySeries : (a.seriesNth ?? Infinity) - (b.seriesNth ?? Infinity);
+  },
+  startLocation: (a, b) => (a.startLocation || "￿").localeCompare(b.startLocation || "￿"),
+  timeline: (a, b) => orderIndex(TIMELINE_ORDER, a.timeline) - orderIndex(TIMELINE_ORDER, b.timeline),
+};
+
+const SORT_MODES = [
+  { key: "alphabetical", labelKey: "sortAlphabetical" },
+  { key: "combat", labelKey: "sortCombat" },
+  { key: "age", labelKey: "sortAge" },
+  { key: "members", labelKey: "sortMembers" },
+  { key: "length", labelKey: "sortLength" },
+  { key: "progress", labelKey: "sortProgress" },
+  { key: "releaseDate", labelKey: "sortReleaseDate" },
+  { key: "series", labelKey: "sortSeries" },
+  { key: "startLocation", labelKey: "sortStartLocation" },
+  { key: "timeline", labelKey: "sortTimeline" },
+];
+
+// Se construye una sola vez; los checkboxes del popover y el <select> de
+// orden solo escriben en el estado y disparan onChange, nunca recrean el DOM
+// de la barra en sí.
 function buildFilterBar(container, onChange) {
   const bar = document.createElement("div");
   bar.id = "sidebar-filterbar";
 
-  const search = document.createElement("input");
-  search.type = "search";
-  search.id = "quest-search";
-  search.placeholder = t("searchPlaceholder");
-  search.value = state.activeFilters.searchText;
-  search.addEventListener("input", () => {
-    state.activeFilters.searchText = search.value;
-    onChange();
-  });
-  bar.appendChild(search);
+  const filterBtn = document.createElement("button");
+  filterBtn.type = "button";
+  filterBtn.id = "filter-toggle-btn";
+  filterBtn.title = t("filterBtnTitle");
+  filterBtn.innerHTML = funnelIcon("currentColor");
+  bar.appendChild(filterBtn);
 
-  const chipsWrap = document.createElement("div");
-  chipsWrap.id = "sidebar-chips";
-  // 2 columnas emparejadas por fila (tipo | estado) en vez de 3, porque textos
-  // como "In Progress"/"Incomplete" no entraban en un tercio del ancho del
-  // sidebar y el grid se desbordaba (ver captura del usuario).
-  // Los íconos usan currentColor a propósito: así se atenúan junto con el
-  // texto cuando el chip está inactivo, en vez de quedar coloridos mientras
-  // el texto se ve gris (la mezcla confundía si el chip estaba activo o no).
-  const chips = [
-    { key: "showQuest", labelKey: "chipQuest", icon: questIcon("currentColor"), variant: "quest" },
-    { key: "showCompleted", labelKey: "chipComplete", icon: checkCircleIcon("currentColor"), variant: "completed" },
-    { key: "showMiniquest", labelKey: "chipMiniquest", icon: scrollIcon("currentColor"), variant: "miniquest" },
-    { key: "showStarted", labelKey: "chipInProgress", icon: clockCircleIcon("currentColor"), variant: "started" },
-    { key: "showEvents", labelKey: "chipEvents", icon: calendarIcon("currentColor"), variant: "events" },
-    { key: "showIncomplete", labelKey: "chipIncomplete", icon: xCircleIcon("currentColor"), variant: "incomplete" },
+  const popover = document.createElement("div");
+  popover.id = "filter-popover";
+  popover.hidden = true;
+  const checkboxes = [
+    { key: "showLocked", labelKey: "filterLocked" },
+    { key: "showCompleted", labelKey: "filterCompleted" },
+    { key: "showQuest", labelKey: "filterQuests" },
+    { key: "showMiniquest", labelKey: "filterMiniquests" },
   ];
-  chips.forEach(({ key, labelKey, icon, variant }) => {
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.dataset.filterKey = key;
-    btn.dataset.labelKey = labelKey;
-    btn.className = `filter-chip chip-${variant}${state.activeFilters[key] ? " active" : ""}`;
-    btn.innerHTML = `<span class="chip-icon">${icon}</span><span class="chip-label">${t(labelKey)}</span>`;
-    btn.addEventListener("click", () => {
-      state.activeFilters[key] = !state.activeFilters[key];
+  checkboxes.forEach(({ key, labelKey }) => {
+    const label = document.createElement("label");
+    label.className = "filter-popover-row";
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.dataset.filterKey = key;
+    checkbox.checked = state.activeFilters[key];
+    checkbox.addEventListener("change", () => {
+      state.activeFilters[key] = checkbox.checked;
       onChange();
     });
-    chipsWrap.appendChild(btn);
+    label.appendChild(checkbox);
+    const span = document.createElement("span");
+    span.dataset.labelKey = labelKey;
+    span.textContent = t(labelKey);
+    label.appendChild(span);
+    popover.appendChild(label);
   });
-  bar.appendChild(chipsWrap);
+  bar.appendChild(popover);
+
+  filterBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    popover.hidden = !popover.hidden;
+  });
+  document.addEventListener("click", (e) => {
+    if (!popover.hidden && !popover.contains(e.target) && e.target !== filterBtn) popover.hidden = true;
+  });
+
+  const sortSelect = document.createElement("select");
+  sortSelect.id = "sort-select";
+  SORT_MODES.forEach(({ key, labelKey }) => {
+    const option = document.createElement("option");
+    option.value = key;
+    option.dataset.labelKey = labelKey;
+    option.textContent = t(labelKey);
+    if (key === state.sortMode) option.selected = true;
+    sortSelect.appendChild(option);
+  });
+  sortSelect.addEventListener("change", () => {
+    state.sortMode = sortSelect.value;
+    onChange();
+  });
+  bar.appendChild(sortSelect);
 
   container.appendChild(bar);
 }
 
 // El bar se construye una sola vez (ver comentario arriba), pero el estado
-// activo/inactivo de cada chip sí cambia con cada clic, y sus textos deben
-// seguir el idioma actual — hay que reflejar ambas cosas en cada render, si
-// no los botones se quedaban visualmente congelados en su estado/idioma
-// inicial aunque el filtro (o el idioma) sí hubiera cambiado.
+// activo/inactivo de cada checkbox sí cambia con cada clic, y sus textos
+// deben seguir el idioma actual.
 function syncFilterBarLanguage(filterBarEl) {
-  filterBarEl.querySelectorAll(".filter-chip").forEach((btn) => {
-    btn.classList.toggle("active", Boolean(state.activeFilters[btn.dataset.filterKey]));
-    const labelEl = btn.querySelector(".chip-label");
-    if (labelEl) labelEl.textContent = t(btn.dataset.labelKey);
+  filterBarEl.querySelector("#filter-toggle-btn").title = t("filterBtnTitle");
+  filterBarEl.querySelectorAll("#filter-popover input[type=checkbox]").forEach((checkbox) => {
+    checkbox.checked = Boolean(state.activeFilters[checkbox.dataset.filterKey]);
   });
-  const search = filterBarEl.querySelector("#quest-search");
-  if (search) search.placeholder = t("searchPlaceholder");
+  filterBarEl.querySelectorAll("#filter-popover span[data-label-key]").forEach((span) => {
+    span.textContent = t(span.dataset.labelKey);
+  });
+  filterBarEl.querySelectorAll("#sort-select option").forEach((option) => {
+    option.textContent = t(option.dataset.labelKey);
+  });
 }
 
 // RuneMetrics tracks these 20 entries (so they must stay in the dataset for
@@ -216,9 +305,7 @@ function rs3DisplayTitle(title) {
 }
 
 function renderList(listEl, onSelect) {
-  const visible = filterQuests(state.index.quests).sort((a, b) =>
-    rs3DisplayTitle(a.title).localeCompare(rs3DisplayTitle(b.title), "es")
-  );
+  const visible = filterQuests(state.index.quests).sort(SORT_COMPARATORS[state.sortMode] || SORT_COMPARATORS.alphabetical);
 
   listEl.innerHTML = "";
   if (visible.length === 0) {

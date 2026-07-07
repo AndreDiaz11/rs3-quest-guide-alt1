@@ -13,6 +13,11 @@ export function diamondIcon(color) {
   return svg(`<rect x="4" y="4" width="16" height="16" rx="3" transform="rotate(45 12 12)" fill="${color}" stroke="rgba(0,0,0,0.35)" stroke-width="1"/>`);
 }
 
+/** Funnel/filter icon for the sidebar's filter-popover toggle button. */
+export function funnelIcon(color) {
+  return svg(`<path d="M4 5h16l-6 7.5v5.5l-4 2v-7.5z" fill="none" stroke="${color}" stroke-width="1.8" stroke-linejoin="round"/>`);
+}
+
 export function checkCircleIcon(color) {
   return svg(
     `<circle cx="12" cy="12" r="9" fill="none" stroke="${color}" stroke-width="2"/>` +
