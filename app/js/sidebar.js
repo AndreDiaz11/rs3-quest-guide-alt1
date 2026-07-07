@@ -71,7 +71,8 @@ const TIMELINE_ORDER = [
   "world guardian",
   "seasonal",
 ];
-const PROGRESS_ORDER = { NOT_STARTED: 0, STARTED: 1, COMPLETED: 2 };
+// Confirmed against the real client: In Progress, then Not Started, then Completed.
+const PROGRESS_ORDER = { STARTED: 0, NOT_STARTED: 1, COMPLETED: 2 };
 
 // Case-insensitive on BOTH sides — LENGTH_ORDER is written Title Case (to
 // double as its own group-header label further down) while the scraped data
@@ -370,8 +371,10 @@ function groupLabel(quest, mode) {
       const key = alphabeticalSortKey(quest.title);
       return key ? key.charAt(0).toUpperCase() : rs3DisplayTitle(quest.title).charAt(0);
     }
-    case "combat":
-      return `NPC Combat Level ${combatBucket(quest.combatLevel).label}`;
+    case "combat": {
+      const { label } = combatBucket(quest.combatLevel);
+      return label === "None" ? "None" : `NPC Combat Level ${label}`;
+    }
     case "age":
       return AGE_LABELS[String(quest.age).toLowerCase()] || "Unknown";
     case "members":

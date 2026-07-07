@@ -10,12 +10,17 @@ function absoluteImageUrl(src) {
 
 /**
  * Parses the infobox block from the main article's wikitext. Quests use
- * {{Infobox Quest|...}}; miniquests use {{Infobox Miniquest|...}} instead —
- * both share the same field names, so we just try Quest first and fall back.
+ * {{Infobox Quest|...}}; miniquests use {{Infobox Miniquest|...}} instead;
+ * saga sub-quests that share one combined hub page but have their own
+ * separate wiki article (e.g. every Recipe for Disaster/Dimension of
+ * Disaster subquest) use {{Infobox Subquest|...}} — all three share the
+ * same field names, so we just try them in order and fall back.
  */
 function parseInfobox(mainWikitext) {
   const content =
-    extractTemplate(mainWikitext, "Infobox Quest") ?? extractTemplate(mainWikitext, "Infobox Miniquest");
+    extractTemplate(mainWikitext, "Infobox Quest") ??
+    extractTemplate(mainWikitext, "Infobox Miniquest") ??
+    extractTemplate(mainWikitext, "Infobox Subquest");
   if (content === null) return {};
   const fields = parseKeyValueTemplate(content);
   return {
