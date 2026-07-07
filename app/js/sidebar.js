@@ -97,8 +97,16 @@ function seriesEarliestReleaseTime(seriesName) {
   return min;
 }
 
+// A leading apostrophe/quote (e.g. "'Phite Club") must be ignored for
+// alphabetical ORDER too, not just its section header's label — otherwise
+// the title sorts before "A" (punctuation sorts before letters) while its
+// header claims "P", stranding it in its own orphan section at the very top.
+function alphabeticalSortKey(title) {
+  return rs3DisplayTitle(title).replace(/^[^\p{L}\p{N}]+/u, "");
+}
+
 const SORT_COMPARATORS = {
-  alphabetical: (a, b) => rs3DisplayTitle(a.title).localeCompare(rs3DisplayTitle(b.title), "es"),
+  alphabetical: (a, b) => alphabeticalSortKey(a.title).localeCompare(alphabeticalSortKey(b.title), "es"),
   combat: (a, b) => combatSortValue(a.combatLevel) - combatSortValue(b.combatLevel),
   age: (a, b) => orderIndex(AGE_ORDER, a.age) - orderIndex(AGE_ORDER, b.age),
   members: (a, b) => Number(Boolean(a.members)) - Number(Boolean(b.members)),
@@ -347,11 +355,11 @@ const TIMELINE_LABELS = {
 function groupLabel(quest, mode) {
   switch (mode) {
     case "alphabetical": {
-      // The section header groups by the first LETTER, ignoring a leading
-      // apostrophe/quote (e.g. "'Phite Club" heads under "P", not "'") — the
-      // sort order itself is untouched, only this heading's own label.
-      const match = rs3DisplayTitle(quest.title).match(/[\p{L}\p{N}]/u);
-      return match ? match[0].toUpperCase() : rs3DisplayTitle(quest.title).charAt(0);
+      // Same leading-punctuation-stripped key as the sort comparator (e.g.
+      // "'Phite Club" heads under "P", not "'"), so the header always
+      // matches where the item actually landed.
+      const key = alphabeticalSortKey(quest.title);
+      return key ? key.charAt(0).toUpperCase() : rs3DisplayTitle(quest.title).charAt(0);
     }
     case "combat":
       return quest.combatLevel || "None";
