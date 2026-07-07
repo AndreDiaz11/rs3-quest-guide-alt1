@@ -859,6 +859,13 @@ h1, h2, .app-title-font {
   font-weight: 600;
 }
 
+/* Wiki-bolded emphasis phrases (e.g. "If you chose to kill Zanik") — a
+   distinct amber accent so it doesn't get confused with the blue
+   name/term highlight above. English-only, see findBoldSpans. */
+.text-emphasis {
+  color: var(--quest-yellow, #f0c419);
+}
+
 .chat-options-inline {
   display: inline-flex;
   align-items: center;

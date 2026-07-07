@@ -136,6 +136,7 @@ export function parseSteps(quickGuideWikitext) {
         chatOptions: step.chatOptions,
         ...(step.icons?.length ? { iconFilenames: step.icons } : {}),
         ...(step.highlightTerms?.length ? { highlightTerms: [...new Set(step.highlightTerms)] } : {}),
+        ...(step.boldTerms?.length ? { boldTerms: [...new Set(step.boldTerms)] } : {}),
       };
     });
 }

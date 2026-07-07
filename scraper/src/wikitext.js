@@ -208,11 +208,21 @@ export function wikitextToPlain(raw) {
   text = text.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2");
   text = text.replace(/\[\[([^\]]+)\]\]/g, "$1");
 
-  // '''bold''' / ''italic''
-  text = text.replace(/'''([^']+)'''/g, "$1");
+  // '''bold''' / ''italic'' — the wiki bolds emphasis phrases in a step (e.g.
+  // "'''If you chose to kill Zanik''', you must speak to..."). Captured as
+  // plain terms (not positions) so the app can highlight them, same trick as
+  // linked names — English-only for now, since bold usage varies too much
+  // (labels, single directional words, progress counters, whole clauses) to
+  // reliably relocate in already-translated Spanish text for free.
+  const boldTerms = [];
+  text = text.replace(/'''([^']+)'''/g, (_match, inner) => {
+    const clean = inner.trim();
+    if (clean) boldTerms.push(clean);
+    return inner;
+  });
   text = text.replace(/''([^']+)''/g, "$1");
 
-  return { text: text.replace(/\s+/g, " ").trim(), chatOptions, icons, highlightTerms };
+  return { text: text.replace(/\s+/g, " ").trim(), chatOptions, icons, highlightTerms, boldTerms };
 }
 
 /**

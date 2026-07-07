@@ -59,14 +59,39 @@ function findHighlightSpans(text, terms) {
 }
 
 /**
- * Appends `text` to `parent` as plain text, except for fairy-ring codes
- * (bolded, letter-spaced, matching the wiki's own stylized lettering) and
- * highlighted names/terms (NPCs, monsters, places, items that were real wiki
- * links in the source) — shown in a subtle accent color, not a real
- * hyperlink, matching the wiki's own blue-link styling without the clutter.
+ * Finds every occurrence of a wiki-bolded emphasis phrase (e.g. "If you
+ * chose to kill Zanik", a progress counter "(1/8)", a single directional
+ * word) in `text`. English-only by design — bold usage varies too much
+ * (labels, single words, whole clauses) to reliably relocate in
+ * already-translated Spanish text without a fresh, marker-preserving
+ * translation pass, so the caller only passes terms for English text.
  */
-function appendFormattedStepText(parent, text, highlightTerms) {
-  const spans = [...findFairyCodeSpans(text), ...findHighlightSpans(text, highlightTerms)].sort((a, b) => {
+function findBoldSpans(text, terms) {
+  if (!terms?.length) return [];
+  const sorted = [...new Set(terms)].sort((a, b) => b.length - a.length);
+  const re = new RegExp(sorted.map(escapeRegExp).join("|"), "g");
+  const spans = [];
+  let match;
+  while ((match = re.exec(text)) !== null) {
+    spans.push({ start: match.index, end: match.index + match[0].length, kind: "bold-term", text: match[0] });
+  }
+  return spans;
+}
+
+/**
+ * Appends `text` to `parent` as plain text, except for fairy-ring codes
+ * (bolded, letter-spaced, matching the wiki's own stylized lettering),
+ * highlighted names/terms (NPCs, monsters, places, items that were real wiki
+ * links in the source, shown in a subtle blue accent, not a real hyperlink),
+ * and wiki-bolded emphasis phrases (shown in a distinct amber accent,
+ * English-only — see findBoldSpans).
+ */
+function appendFormattedStepText(parent, text, highlightTerms, boldTerms) {
+  const spans = [
+    ...findFairyCodeSpans(text),
+    ...findHighlightSpans(text, highlightTerms),
+    ...findBoldSpans(text, boldTerms),
+  ].sort((a, b) => {
     if (a.start !== b.start) return a.start - b.start;
     return b.end - a.end; // longer span first when they start at the same point
   });
@@ -77,6 +102,8 @@ function appendFormattedStepText(parent, text, highlightTerms) {
     parent.appendChild(document.createTextNode(text.slice(lastIndex, span.start)));
     if (span.kind === "fairy-code") {
       parent.appendChild(el("b", { class: "fairy-code", text: span.text }));
+    } else if (span.kind === "bold-term") {
+      parent.appendChild(el("b", { class: "text-emphasis", text: span.text }));
     } else {
       parent.appendChild(el("span", { class: "term-highlight", text: span.text }));
     }
@@ -327,11 +354,12 @@ function renderWikiInfobox(quest) {
 
 /**
  * A collapsible `<details>` section with an icon + label `<summary>` —
- * closed by default. Ends with a "collapse all" button so the reader can
- * close every section (including this one) and jump back to the top to open
- * a different one, instead of having to manually close/scroll back up.
+ * closed by default. Ends with a "collapse" button so the reader can close
+ * THIS section and jump back to its own top without scrolling, instead of
+ * hunting for the summary again — it only affects this section, not the
+ * other two.
  */
-function renderSection(iconSvg, label, contentNodes, scrollContainer) {
+function renderSection(iconSvg, label, contentNodes) {
   const details = el("details", { class: "quest-section" });
   const summary = el("summary");
   summary.innerHTML = `<span class="quest-section-icon">${iconSvg}</span>`;
@@ -341,10 +369,8 @@ function renderSection(iconSvg, label, contentNodes, scrollContainer) {
 
   const collapseBtn = el("button", { class: "collapse-all-btn", type: "button", text: t("collapseAll") });
   collapseBtn.addEventListener("click", () => {
-    document.querySelectorAll(".quest-section").forEach((d) => {
-      d.open = false;
-    });
-    scrollContainer?.scrollTo({ top: 0, behavior: "smooth" });
+    details.open = false;
+    details.scrollIntoView({ behavior: "smooth", block: "start" });
   });
   details.appendChild(collapseBtn);
 
@@ -455,7 +481,14 @@ function renderStepContent(step, lang) {
       if (icon.image) wrap.appendChild(el("img", { class: "step-inline-icon", src: icon.image, alt: "" }));
     });
   }
-  appendFormattedStepText(wrap, localizedText(step.text, lang), step.highlightTerms);
+  // Bold-emphasis highlighting only applies to English text — see
+  // findBoldSpans for why it can't reliably relocate in translated Spanish.
+  // Checked against what's actually displayed (not just the app's language
+  // setting), since a step missing its Spanish translation falls back to
+  // showing English anyway.
+  const actuallyShowingEnglish = lang === "en" || !step.text?.[lang];
+  const boldTerms = actuallyShowingEnglish ? step.boldTerms : null;
+  appendFormattedStepText(wrap, localizedText(step.text, lang), step.highlightTerms, boldTerms);
   if (step.chatOptions?.length) {
     wrap.appendChild(renderChatOptionsSummary(step.chatOptions));
   }
@@ -559,7 +592,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   }
 
   if (overviewNodes.length > 0) {
-    container.appendChild(renderSection(questIcon("var(--gold)"), t("sectionOverview"), overviewNodes, container));
+    container.appendChild(renderSection(questIcon("var(--gold)"), t("sectionOverview"), overviewNodes));
   }
 
   // --- "Guía paso a paso" (Step-by-step guide): the walkthrough itself.
@@ -685,7 +718,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   }
 
   if (stepsNodes.length > 0) {
-    container.appendChild(renderSection(scrollIcon("var(--gold)"), t("sectionSteps"), stepsNodes, container));
+    container.appendChild(renderSection(scrollIcon("var(--gold)"), t("sectionSteps"), stepsNodes));
   }
 
   // --- "Recompensas" (Rewards): reward banner, grouped reward list, and any
@@ -722,6 +755,6 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   }
 
   if (rewardsNodes.length > 0) {
-    container.appendChild(renderSection(giftIcon("var(--gold)"), t("sectionRewards"), rewardsNodes, container));
+    container.appendChild(renderSection(giftIcon("var(--gold)"), t("sectionRewards"), rewardsNodes));
   }
 }
