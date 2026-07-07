@@ -14,6 +14,7 @@ const listEl = document.getElementById("quest-list");
 const counterEl = document.getElementById("quest-counter");
 const detail = document.getElementById("detail");
 const settingsBtn = document.getElementById("settings-btn");
+const refreshBtn = document.getElementById("refresh-btn");
 const sidebarEl = document.getElementById("sidebar");
 const sidebarBackdrop = document.getElementById("sidebar-backdrop");
 const sidebarToggle = document.getElementById("sidebar-toggle");
@@ -28,11 +29,58 @@ function applyChromeLanguage() {
   sidebarToggle.setAttribute("aria-label", t("sidebarToggleTitle"));
   settingsBtn.title = t("settingsBtnTitle");
   settingsBtn.setAttribute("aria-label", t("settingsBtnTitle"));
+  updateRefreshButtonState();
+}
+
+// Manual "refresh RuneMetrics now" button, throttled so it can't be spammed —
+// re-checking completion status is a real network request, and the game
+// itself doesn't update RuneMetrics instantly anyway.
+const REFRESH_STORAGE_KEY = "rs3questguide:lastManualRefresh";
+const REFRESH_COOLDOWN_MS = 5 * 60 * 1000;
+
+function updateRefreshButtonState() {
+  const last = Number(localStorage.getItem(REFRESH_STORAGE_KEY) || 0);
+  const remaining = REFRESH_COOLDOWN_MS - (Date.now() - last);
+  if (remaining > 0) {
+    refreshBtn.disabled = true;
+    refreshBtn.title = t("refreshCooldown", Math.ceil(remaining / 60000));
+  } else {
+    refreshBtn.disabled = false;
+    refreshBtn.title = t("refreshBtnTitle");
+  }
+}
+
+async function manualRefresh() {
+  if (refreshBtn.disabled) return;
+  localStorage.setItem(REFRESH_STORAGE_KEY, String(Date.now()));
+  updateRefreshButtonState();
+
+  const rmResult = await refreshRuneMetrics();
+  refreshSidebar();
+  if (state.selectedQuestId) {
+    // Re-render the open quest in place (checkbox/completion state may have
+    // changed) without closing the sidebar drawer or touching scroll position.
+    try {
+      const quest = await fetchQuest(state.selectedQuestId);
+      renderQuestDetail(detail, quest, {
+        lang: state.settings.lang,
+        isCompleted: questStatus(state.selectedQuestId) === "COMPLETED",
+      });
+    } catch (err) {
+      console.error("[refresh] fallo al volver a renderizar la misión abierta:", err);
+    }
+  } else {
+    showRuneMetricsResultOrQuest(rmResult, null);
+  }
 }
 
 sidebarToggle.addEventListener("click", () => {
   setSidebarOpen(!sidebarEl.classList.contains("open"));
 });
+refreshBtn.addEventListener("click", manualRefresh);
+// Re-checks the cooldown periodically so the button re-enables itself once
+// 5 minutes pass, without needing a reload.
+setInterval(updateRefreshButtonState, 15000);
 sidebarBackdrop.addEventListener("click", () => setSidebarOpen(false));
 
 function refreshSidebar() {

@@ -59,6 +59,8 @@ const STRINGS = {
     settingsSave: "Guardar",
     sidebarToggleTitle: "Mostrar/ocultar lista de misiones",
     settingsBtnTitle: "Ajustes",
+    refreshBtnTitle: "Actualizar estado de misiones (RuneMetrics)",
+    refreshCooldown: (mins) => `Disponible en ${mins} min`,
     removedContentBanner: (date) =>
       `⚠️ Esta misión fue eliminada de RuneScape el ${date} y ya no existe en el juego. Se conserva aquí solo por sus puntos de misión históricos.`,
   },
@@ -112,6 +114,8 @@ const STRINGS = {
     settingsSave: "Save",
     sidebarToggleTitle: "Show/hide quest list",
     settingsBtnTitle: "Settings",
+    refreshBtnTitle: "Refresh quest status (RuneMetrics)",
+    refreshCooldown: (mins) => `Available in ${mins} min`,
     removedContentBanner: (date) =>
       `⚠️ This quest was removed from RuneScape on ${date} and no longer exists in-game. It's kept here only for its historical quest points.`,
   },

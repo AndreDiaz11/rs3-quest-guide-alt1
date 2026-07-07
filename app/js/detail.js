@@ -13,13 +13,9 @@ function localizedText(field, lang) {
 // words in guide text don't collide with this alphabet.
 const FAIRY_CODE_RE = /\b([AIDKBCJLPQRS]{2,4})\b/g;
 
-/**
- * Appends `text` to `parent`, rendering fairy ring codes (e.g. "DKQ") in bold
- * with letter-spacing so they stand out like the wiki's own stylized
- * lettering, instead of blending into the sentence as plain text.
- */
-function appendTextWithFairyCodes(parent, text) {
-  let lastIndex = 0;
+/** Finds valid fairy-ring-code spans in `text` (see appendFormattedStepText). */
+function findFairyCodeSpans(text) {
+  const spans = [];
   let match;
   FAIRY_CODE_RE.lastIndex = 0;
   while ((match = FAIRY_CODE_RE.exec(text)) !== null) {
@@ -35,10 +31,56 @@ function appendTextWithFairyCodes(parent, text) {
       );
     const atStart = match.index === 0 && after.startsWith(",");
     if (!nearFairyRing && !atStart) continue;
+    spans.push({ start: match.index, end: match.index + match[0].length, kind: "fairy-code", text: match[1] });
+  }
+  return spans;
+}
 
-    parent.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
-    parent.appendChild(el("b", { class: "fairy-code", text: match[1] }));
-    lastIndex = match.index + match[0].length;
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+/**
+ * Finds every occurrence of a highlighted name/term (NPCs, monsters, places,
+ * items — anything that was a real [[wiki link]] in the source) in `text`.
+ * Terms are matched longest-first so "TokHaar-Ket" doesn't shadow a longer
+ * "TokHaar-Ket Champion" match starting at the same spot.
+ */
+function findHighlightSpans(text, terms) {
+  if (!terms?.length) return [];
+  const sorted = [...new Set(terms)].sort((a, b) => b.length - a.length);
+  const re = new RegExp(sorted.map(escapeRegExp).join("|"), "gi");
+  const spans = [];
+  let match;
+  while ((match = re.exec(text)) !== null) {
+    spans.push({ start: match.index, end: match.index + match[0].length, kind: "highlight", text: match[0] });
+  }
+  return spans;
+}
+
+/**
+ * Appends `text` to `parent` as plain text, except for fairy-ring codes
+ * (bolded, letter-spaced, matching the wiki's own stylized lettering) and
+ * highlighted names/terms (NPCs, monsters, places, items that were real wiki
+ * links in the source) — shown in a subtle accent color, not a real
+ * hyperlink, matching the wiki's own blue-link styling without the clutter.
+ */
+function appendFormattedStepText(parent, text, highlightTerms) {
+  const spans = [...findFairyCodeSpans(text), ...findHighlightSpans(text, highlightTerms)].sort((a, b) => {
+    if (a.start !== b.start) return a.start - b.start;
+    return b.end - a.end; // longer span first when they start at the same point
+  });
+
+  let lastIndex = 0;
+  for (const span of spans) {
+    if (span.start < lastIndex) continue; // overlaps a span already rendered — skip
+    parent.appendChild(document.createTextNode(text.slice(lastIndex, span.start)));
+    if (span.kind === "fairy-code") {
+      parent.appendChild(el("b", { class: "fairy-code", text: span.text }));
+    } else {
+      parent.appendChild(el("span", { class: "term-highlight", text: span.text }));
+    }
+    lastIndex = span.end;
   }
   parent.appendChild(document.createTextNode(text.slice(lastIndex)));
 }
@@ -413,7 +455,7 @@ function renderStepContent(step, lang) {
       if (icon.image) wrap.appendChild(el("img", { class: "step-inline-icon", src: icon.image, alt: "" }));
     });
   }
-  appendTextWithFairyCodes(wrap, localizedText(step.text, lang));
+  appendFormattedStepText(wrap, localizedText(step.text, lang), step.highlightTerms);
   if (step.chatOptions?.length) {
     wrap.appendChild(renderChatOptionsSummary(step.chatOptions));
   }

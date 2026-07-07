@@ -117,10 +117,40 @@ function ordinal(n) {
 // or an explicit size of 100px or more (real inline icons are always small).
 const FIGURE_KEYWORD_RE = /\|\s*(?:thumb(?:nail)?|frame(?:d)?|\d{3,}x?\d*px)\s*(\||\])/i;
 
+// Skill names are already highlighted with their own icon in the
+// Requirements/Recommended sections — excluded here so a step mentioning
+// "Magic" doesn't ALSO get a generic name-highlight treatment on top of that.
+const SKILL_NAMES = new Set([
+  "attack", "defence", "strength", "constitution", "ranged", "prayer", "magic",
+  "cooking", "woodcutting", "fletching", "fishing", "firemaking", "crafting",
+  "smithing", "mining", "herblore", "agility", "thieving", "slayer", "farming",
+  "runecrafting", "hunter", "construction", "summoning", "dungeoneering",
+  "divination", "invention", "archaeology", "necromancy",
+]);
+
 export function wikitextToPlain(raw) {
   let text = raw;
   const chatOptions = [];
   const icons = [];
+  const highlightTerms = [];
+
+  // Any real [[wiki link]] in a step (NPCs, monsters, places, items) is worth
+  // calling out visually, matching how the wiki itself makes these blue — but
+  // as a plain highlight, not a real hyperlink. Collected before the generic
+  // [[Link|Display]] stripping below removes the brackets; skill names are
+  // excluded (already get their own icon treatment elsewhere).
+  const collectLink = (displayText) => {
+    const clean = displayText.trim();
+    if (clean.length > 1 && !SKILL_NAMES.has(clean.toLowerCase())) highlightTerms.push(clean);
+  };
+  text.replace(/\[\[(?!File:)([^\]|]+)\|([^\]]+)\]\]/gi, (_match, _link, display) => {
+    collectLink(display);
+    return _match;
+  });
+  text.replace(/\[\[(?!File:)([^\]|]+)\]\]/gi, (_match, link) => {
+    collectLink(link);
+    return _match;
+  });
 
   // A bare inline icon (e.g. "[[File:Mining spot map icon.png]] [[TzHaar City
   // mine]]" — a small icon right before the place name it illustrates, no
@@ -182,7 +212,7 @@ export function wikitextToPlain(raw) {
   text = text.replace(/'''([^']+)'''/g, "$1");
   text = text.replace(/''([^']+)''/g, "$1");
 
-  return { text: text.replace(/\s+/g, " ").trim(), chatOptions, icons };
+  return { text: text.replace(/\s+/g, " ").trim(), chatOptions, icons, highlightTerms };
 }
 
 /**
