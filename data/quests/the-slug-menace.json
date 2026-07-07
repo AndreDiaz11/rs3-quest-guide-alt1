@@ -3,7 +3,7 @@
   "title": "The Slug Menace",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T00:54:27.372Z",
+  "guideLastUpdated": "2026-07-07T00:17:22.179Z",
   "icon": "https://runescape.wiki/images/The_Slug_Menace_icon.png",
   "entityIcon": null,
   "series": "Temple Knight",
@@ -674,128 +674,96 @@
     },
     {
       "index": 39,
-      "indent": 0,
+      "isTable": true,
       "section": "Shaped runes",
-      "text": {
-        "en": "Air | West of Varrock",
-        "es": "Baja por las antiguas ruinas en Witchaven, luego entra por la abertura del muro que tienes justo al este."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Air",
-        "Varrock"
-      ]
+      "table": {
+        "headers": [
+          "Altar",
+          "Location"
+        ],
+        "rows": [
+          [
+            "Air",
+            "West of Varrock"
+          ],
+          [
+            "Earth",
+            "South of Fort Forinthry"
+          ],
+          [
+            "Mind",
+            "East of Goblin Village"
+          ],
+          [
+            "Fire",
+            "West of Het's Oasis"
+          ],
+          [
+            "Water",
+            "In western Lumbridge Swamp"
+          ]
+        ]
+      }
     },
     {
       "index": 40,
       "indent": 0,
-      "section": "Shaped runes",
+      "section": "Final fight",
       "text": {
-        "en": "Earth | South of Fort Forinthry",
-        "es": "Sigue el camino de vuelta hasta el imponente par de puertas."
+        "en": "Climb down the old ruins in Witchaven, then enter the wall opening to your immediate east.",
+        "es": "Baja por las antiguas ruinas en Witchaven, luego entra por la abertura del muro que tienes justo al este."
       },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Earth",
-        "Fort Forinthry"
-      ]
+      "chatOptions": []
     },
     {
       "index": 41,
       "indent": 0,
-      "section": "Shaped runes",
+      "section": "Final fight",
       "text": {
-        "en": "Mind | East of Goblin Village",
-        "es": "Usa las runas en la puerta. Inmediatamente después de colocar el último bloque elemental, ocurrirá una escena que te llevará al combate."
+        "en": "Follow the path to the imposing door again.",
+        "es": "Sigue el camino de vuelta hasta el imponente par de puertas."
       },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Mind",
-        "Goblin Village"
-      ]
+      "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
-      "section": "Shaped runes",
+      "section": "Final fight",
       "text": {
-        "en": "Fire | West of Het's Oasis",
-        "es": "Mata al Slug Prince."
+        "en": "Use the runes on the door. Immediately after the placement of the last elemental block, a cutscene will happen prompting you into combat.",
+        "es": "Usa las runas en la puerta. Inmediatamente después de colocar el último bloque elemental, ocurrirá una escena que te llevará al combate."
       },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Fire",
-        "Het's Oasis"
-      ]
+      "chatOptions": []
     },
     {
       "index": 43,
       "indent": 0,
-      "section": "Shaped runes",
+      "section": "Final fight",
       "text": {
-        "en": "Water | In western Lumbridge Swamp",
-        "es": "Habla con Sir Tiffy."
+        "en": "Kill the Slug Prince.",
+        "es": "Mata al Slug Prince."
       },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Water",
-        "Lumbridge Swamp"
-      ]
+      "chatOptions": []
     },
     {
       "index": 44,
       "indent": 0,
       "section": "Final fight",
       "text": {
-        "en": "Climb down the old ruins in Witchaven, then enter the wall opening to your immediate east.",
-        "es": "¡Misión completada!"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 45,
-      "indent": 0,
-      "section": "Final fight",
-      "text": {
-        "en": "Follow the path to the imposing door again."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 46,
-      "indent": 0,
-      "section": "Final fight",
-      "text": {
-        "en": "Use the runes on the door. Immediately after the placement of the last elemental block, a cutscene will happen prompting you into combat."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 47,
-      "indent": 0,
-      "section": "Final fight",
-      "text": {
-        "en": "Kill the Slug Prince."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 48,
-      "indent": 0,
-      "section": "Final fight",
-      "text": {
-        "en": "Talk to Sir Tiffy."
+        "en": "Talk to Sir Tiffy.",
+        "es": "Habla con Sir Tiffy."
       },
       "chatOptions": [
         "1 The Slug Menace."
       ]
     },
     {
-      "index": 49,
+      "index": 45,
       "indent": 0,
       "section": "Final fight",
       "text": {
-        "en": "Quest complete!"
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
       },
       "chatOptions": []
     }

@@ -3,7 +3,7 @@
   "title": "Sheep Herder",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T00:54:26.329Z",
+  "guideLastUpdated": "2026-07-07T00:17:20.956Z",
   "icon": "https://runescape.wiki/images/Sheep_Herder_icon.png",
   "entityIcon": null,
   "series": null,
@@ -155,53 +155,40 @@
     },
     {
       "index": 6,
-      "indent": 0,
+      "isTable": true,
       "section": "Herding the sheep",
-      "text": {
-        "en": "Blue sheep || North-west of the incinerator, just past the Warrior Woman camp.",
-        "es": "Entra en el corral y usa el pienso para ovejas en cada una de ellas."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Warrior Woman"
-      ]
+      "table": {
+        "headers": [
+          "Sheep",
+          "Location"
+        ],
+        "rows": [
+          [
+            "Blue sheep",
+            "North-west of the incinerator, just past the Warrior Woman camp."
+          ],
+          [
+            "Yellow sheep",
+            "North of the incinerator, in front of the Fishing Guild."
+          ],
+          [
+            "Green sheep",
+            "East of the incinerator, near a Mysterious Statue."
+          ],
+          [
+            "Red sheep",
+            "South of the incinerator, in front of Ardougne North bank."
+          ]
+        ]
+      }
     },
     {
       "index": 7,
       "indent": 0,
-      "section": "Herding the sheep",
-      "text": {
-        "en": "Yellow sheep || North of the incinerator, in front of the Fishing Guild.",
-        "es": "Recoge los 4 huesos y luego úsalos en el incinerador."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 8,
-      "indent": 0,
-      "section": "Herding the sheep",
-      "text": {
-        "en": "Green sheep || East of the incinerator, near a Mysterious Statue.",
-        "es": "Vuelve con Councillor Halgrive."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 9,
-      "indent": 0,
-      "section": "Herding the sheep",
-      "text": {
-        "en": "Red sheep || South of the incinerator, in front of Ardougne North bank.",
-        "es": "¡Misión completada!"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 10,
-      "indent": 0,
       "section": "Euthanising the sheep",
       "text": {
-        "en": "Enter the pen and use the sheep feed on each of them."
+        "en": "Enter the pen and use the sheep feed on each of them.",
+        "es": "Entra en el corral y usa el pienso para ovejas en cada una de ellas."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -209,29 +196,32 @@
       ]
     },
     {
-      "index": 11,
+      "index": 8,
       "indent": 0,
       "section": "Euthanising the sheep",
       "text": {
-        "en": "Take all 4 bones, then use them on the incinerator."
+        "en": "Take all 4 bones, then use them on the incinerator.",
+        "es": "Recoge los 4 huesos y luego úsalos en el incinerador."
       },
       "chatOptions": []
     },
     {
-      "index": 12,
+      "index": 9,
       "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Return to Councillor Halgrive."
+        "en": "Return to Councillor Halgrive.",
+        "es": "Vuelve con Councillor Halgrive."
       },
       "chatOptions": []
     },
     {
-      "index": 13,
+      "index": 10,
       "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Quest complete!"
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
       },
       "chatOptions": []
     }

@@ -3,7 +3,7 @@
   "title": "Quiet Before the Swarm",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T00:54:25.777Z",
+  "guideLastUpdated": "2026-07-07T00:17:20.315Z",
   "icon": "https://runescape.wiki/images/Quiet_Before_the_Swarm_icon.png",
   "entityIcon": "https://runescape.wiki/images/Quiet_Before_the_Swarm_entity_icon.png?afa5d",
   "series": "Void Knight",
@@ -636,115 +636,66 @@
     },
     {
       "index": 37,
-      "indent": 0,
+      "isTable": true,
       "section": "Ship positions",
-      "text": {
-        "en": "! Name ! Ship position ! Thinking ! Saw",
-        "es": "Completar el puzle correctamente activa una escena cinemática."
-      },
-      "chatOptions": []
+      "table": {
+        "headers": [
+          "Name",
+          "Ship position",
+          "Thinking",
+          "Saw"
+        ],
+        "rows": [
+          [
+            "Ami",
+            "Rigging",
+            "Sister",
+            "Shark"
+          ],
+          [
+            "Bernard",
+            "Crow's nest",
+            "Lunch",
+            "Seaweed"
+          ],
+          [
+            "Diana",
+            "Main deck",
+            "Fighting",
+            "Seagull"
+          ],
+          [
+            "Korasi",
+            "Hold",
+            "Promotion",
+            "Pest"
+          ],
+          [
+            "Commodore",
+            "Helm",
+            "Jessika",
+            "Clouds"
+          ]
+        ]
+      }
     },
     {
       "index": 38,
       "indent": 0,
       "section": "Ship positions",
       "text": {
-        "en": "Ami | Rigging | Sister | Shark",
-        "es": "Mata al torcher."
-      },
-      "chatOptions": [
-        "1 Ship position",
-        "4 Rigging",
-        "2 Thinking",
-        "4 Sister",
-        "3 Saw",
-        "2 Shark"
-      ]
-    },
-    {
-      "index": 39,
-      "indent": 0,
-      "section": "Ship positions",
-      "text": {
-        "en": "Bernard | Crow's nest | Lunch | Seaweed",
-        "es": "Sube por la escalera."
-      },
-      "chatOptions": [
-        "1 Ship position",
-        "5 Crow's nest",
-        "2 Thinking",
-        "1 Lunch",
-        "3 Saw",
-        "4 Seaweed"
-      ]
-    },
-    {
-      "index": 40,
-      "indent": 0,
-      "section": "Ship positions",
-      "text": {
-        "en": "Diana | Main deck | Fighting | Seagull",
-        "es": "Mata al shifter y espera a otra escena cinemática."
-      },
-      "chatOptions": [
-        "1 Ship position",
-        "2 Main deck",
-        "2 Thinking",
-        "5 Fighting",
-        "3 Saw",
-        "1 Seagull"
-      ]
-    },
-    {
-      "index": 41,
-      "indent": 0,
-      "section": "Ship positions",
-      "text": {
-        "en": "Korasi | Hold | Promotion | Pest",
-        "es": "Una vez teletransportado, habla con Sir Tiffy."
-      },
-      "chatOptions": [
-        "1 Ship position",
-        "1 Hold",
-        "2 Thinking",
-        "3 Promotion",
-        "3 Saw",
-        "5 Pest"
-      ]
-    },
-    {
-      "index": 42,
-      "indent": 0,
-      "section": "Ship positions",
-      "text": {
-        "en": "Commodore | Helm | Jessika | Clouds",
-        "es": "Habla con Captain Tyr en el Void Knights' Outpost."
-      },
-      "chatOptions": [
-        "1 Ship position",
-        "3 Helm",
-        "2 Thinking",
-        "2 Jessika",
-        "3 Saw",
-        "3 Clouds"
-      ]
-    },
-    {
-      "index": 43,
-      "indent": 0,
-      "section": "Ship positions",
-      "text": {
         "en": "Completing the puzzle correctly triggers a cutscene.",
-        "es": "¡Misión completada!"
+        "es": "Completar el puzle correctamente activa una escena cinemática."
       },
       "chatOptions": []
     },
     {
-      "index": 44,
+      "index": 39,
       "indent": 0,
       "section": "The Pests' attack",
       "text": {
-        "en": "Kill the torcher."
+        "en": "Kill the torcher.",
+        "es": "Mata al torcher."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -752,20 +703,22 @@
       ]
     },
     {
-      "index": 45,
+      "index": 40,
       "indent": 0,
       "section": "The Pests' attack",
       "text": {
-        "en": "Go up the ladder."
+        "en": "Go up the ladder.",
+        "es": "Sube por la escalera."
       },
       "chatOptions": []
     },
     {
-      "index": 46,
+      "index": 41,
       "indent": 0,
       "section": "The Pests' attack",
       "text": {
-        "en": "Kill the shifter and wait for another cutscene."
+        "en": "Kill the shifter and wait for another cutscene.",
+        "es": "Mata al shifter y espera a otra escena cinemática."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -773,11 +726,12 @@
       ]
     },
     {
-      "index": 47,
+      "index": 42,
       "indent": 0,
       "section": "The Pests' attack",
       "text": {
-        "en": "Once teleported, talk to Sir Tiffy."
+        "en": "Once teleported, talk to Sir Tiffy.",
+        "es": "Una vez teletransportado, habla con Sir Tiffy."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -785,11 +739,12 @@
       ]
     },
     {
-      "index": 48,
+      "index": 43,
       "indent": 0,
       "section": "The Pests' attack",
       "text": {
-        "en": "Speak with Captain Tyr at the Void Knights' Outpost."
+        "en": "Speak with Captain Tyr at the Void Knights' Outpost.",
+        "es": "Habla con Captain Tyr en el Void Knights' Outpost."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -798,11 +753,12 @@
       ]
     },
     {
-      "index": 49,
+      "index": 44,
       "indent": 0,
       "section": "The Pests' attack",
       "text": {
-        "en": "Quest complete!"
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
       },
       "chatOptions": []
     }

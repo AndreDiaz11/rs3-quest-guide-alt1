@@ -3,7 +3,7 @@
   "title": "Lost Her Marbles (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T00:54:24.804Z",
+  "guideLastUpdated": "2026-07-07T00:17:19.367Z",
   "icon": "https://runescape.wiki/images/Lost_Her_Marbles_%28miniquest%29_icon.png",
   "entityIcon": "https://runescape.wiki/images/Lost_Her_Marbles_%28miniquest%29_entity_icon.png?d4188",
   "series": "Thieves' Guild",
@@ -172,140 +172,56 @@
     },
     {
       "index": 1,
-      "indent": 0,
+      "isTable": true,
       "section": "Collecting fragments",
-      "text": {
-        "en": "!NPC's !Locations",
-        "es": "Vuelve con Darren Lightfinger."
-      },
-      "chatOptions": []
+      "table": {
+        "headers": [
+          "NPC's",
+          "Locations"
+        ],
+        "rows": [
+          [
+            "Citizens (men and women)",
+            "Lumbridge Market, and Al Kharid, at the marketplace."
+          ],
+          [
+            "H.A.M. members",
+            "Lockpick the trapdoor in the Lumbridge forest northwest of the Lumbridge Castle."
+          ],
+          [
+            "Farmers",
+            "Lumbridge, in the chicken pen area east of the river."
+          ],
+          [
+            "Master Farmers",
+            "Draynor Village, roaming in the marketplace; Lumbridge near the vegetable stall."
+          ],
+          [
+            "Warriors",
+            "Al Kharid, in the palace courtyard. Warrior women in Ardougne and Varrock Palace count."
+          ],
+          [
+            "Guards",
+            "Varrock, near south and west entrances or palace courtyard."
+          ],
+          [
+            "Rogues",
+            "Rogues' Castle, use teleport obelisks in the Wilderness."
+          ],
+          [
+            "Cave goblins",
+            "Dorgesh-Kaan, roaming in the centre of the marketplace."
+          ]
+        ]
+      }
     },
     {
       "index": 2,
       "indent": 0,
-      "section": "Collecting fragments",
-      "text": {
-        "en": "Citizens (men and women) |Lumbridge Market, and Al Kharid, at the marketplace.",
-        "es": "Habla con Darren. Habla con Robin para recoger tu botín."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "men",
-        "women",
-        "Lumbridge Market",
-        "Al Kharid"
-      ]
-    },
-    {
-      "index": 3,
-      "indent": 0,
-      "section": "Collecting fragments",
-      "text": {
-        "en": "H.A.M. members |Lockpick the trapdoor in the Lumbridge forest northwest of the Lumbridge Castle.",
-        "es": "Repite esto 4 veces en total."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "trapdoor",
-        "H.A.M. member",
-        "Lumbridge forest",
-        "Lumbridge Castle"
-      ]
-    },
-    {
-      "index": 4,
-      "indent": 0,
-      "section": "Collecting fragments",
-      "text": {
-        "en": "Farmers |Lumbridge, in the chicken pen area east of the river.",
-        "es": "Al hablar con Robin por 4ª vez se completa la minimisión."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Farmer",
-        "Lumbridge",
-        "Guards",
-        "farmer",
-        "Master Farmer",
-        "Ardougne lodestone"
-      ]
-    },
-    {
-      "index": 5,
-      "indent": 0,
-      "section": "Collecting fragments",
-      "text": {
-        "en": "Master Farmers |Draynor Village, roaming in the marketplace; Lumbridge near the vegetable stall."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Master Farmer",
-        "Draynor Village"
-      ]
-    },
-    {
-      "index": 6,
-      "indent": 0,
-      "section": "Collecting fragments",
-      "text": {
-        "en": "Warriors |Al Kharid, in the palace courtyard. Warrior women in Ardougne and Varrock Palace count."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Warriors",
-        "Warrior women",
-        "Al Kharid",
-        "Ardougne",
-        "Varrock Palace"
-      ]
-    },
-    {
-      "index": 7,
-      "indent": 0,
-      "section": "Collecting fragments",
-      "text": {
-        "en": "Guards |Varrock, near south and west entrances or palace courtyard."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Guards",
-        "Varrock"
-      ]
-    },
-    {
-      "index": 8,
-      "indent": 0,
-      "section": "Collecting fragments",
-      "text": {
-        "en": "Rogues |Rogues' Castle, use teleport obelisks in the Wilderness."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "obelisk",
-        "Rogue",
-        "Rogues' Castle",
-        "Wilderness"
-      ]
-    },
-    {
-      "index": 9,
-      "indent": 0,
-      "section": "Collecting fragments",
-      "text": {
-        "en": "Cave goblins |Dorgesh-Kaan, roaming in the centre of the marketplace."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Cave goblin",
-        "Dorgesh-Kaan"
-      ]
-    },
-    {
-      "index": 10,
-      "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Return to Darren Lightfinger."
+        "en": "Return to Darren Lightfinger.",
+        "es": "Vuelve con Darren Lightfinger."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -313,31 +229,34 @@
       ]
     },
     {
-      "index": 11,
+      "index": 3,
       "indent": 1,
       "section": "Finishing up",
       "text": {
-        "en": "Talk to Darren . Talk to Robin to collect your loot."
+        "en": "Talk to Darren . Talk to Robin to collect your loot.",
+        "es": "Habla con Darren. Habla con Robin para recoger tu botín."
       },
       "chatOptions": [
         "3. I've had some success tracking down flame fragments."
       ]
     },
     {
-      "index": 12,
+      "index": 4,
       "indent": 1,
       "section": "Finishing up",
       "text": {
-        "en": "Repeat 4 times in total."
+        "en": "Repeat 4 times in total.",
+        "es": "Repite esto 4 veces en total."
       },
       "chatOptions": []
     },
     {
-      "index": 13,
+      "index": 5,
       "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Talking to Robin the 4th time completes the Miniquest."
+        "en": "Talking to Robin the 4th time completes the Miniquest.",
+        "es": "Al hablar con Robin por 4ª vez se completa la minimisión."
       },
       "chatOptions": []
     }

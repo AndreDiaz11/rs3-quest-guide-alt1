@@ -3,7 +3,7 @@
   "title": "Recipe for Disaster: Freeing the Lumbridge Sage",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T00:54:25.955Z",
+  "guideLastUpdated": "2026-07-07T00:17:20.510Z",
   "icon": "https://runescape.wiki/images/Lumbridge_Sage_icon.png",
   "entityIcon": null,
   "length": "Short",
@@ -182,160 +182,84 @@
     },
     {
       "index": 5,
-      "indent": 0,
+      "isTable": true,
       "section": "The milk",
-      "text": {
-        "en": "!Question!!Answer",
-        "es": "Habla con Traiborn para el cuestionario final."
-      },
-      "chatOptions": []
+      "table": {
+        "headers": [
+          "Question",
+          "Answer"
+        ],
+        "rows": [
+          [
+            "What is the Defence level requirement to wear a Mystic Hat?",
+            "50"
+          ],
+          [
+            "What doesn't lie between Morytania and Asgarnia?",
+            "Keep Le Faye"
+          ],
+          [
+            "What is the nearest guild to the Fishing Platform (as the seagull flies)?",
+            "Legends'"
+          ],
+          [
+            "What is the name of the toy seller in Draynor Village?",
+            "Diango"
+          ],
+          [
+            "The River Salve runs from...?",
+            "North to South"
+          ],
+          [
+            "Take the number of Fire Runes requires to cast Fire Strike, and multiply by the number by the number of Air Runes used to cast Air Strike before adding the number of Earth Runes used to cast Earth Wave. What do you get?",
+            "5"
+          ],
+          [
+            "The combat level of unarmed goblins near Lumbridge is:",
+            "2"
+          ],
+          [
+            "If I'm going to need glass, first I will need:",
+            "Sand, bucket, soda ash, glass blowing pipe"
+          ],
+          [
+            "A gold ring is to 5 as a holy symbol is to...",
+            "16"
+          ],
+          [
+            "A glass vial is to 33, as a glass orb is to...",
+            "46"
+          ],
+          [
+            "What ingredients are used in a cake?",
+            "Flour, Eggs and milk"
+          ],
+          [
+            "I can hear howling in one direction and buzzing in the other - where am I?",
+            "Catherby"
+          ],
+          [
+            "I'm in a bar west of Pollnivneach. Where am I?",
+            "Bandit Camp"
+          ],
+          [
+            "Which tower is closest to the Crafting Guild?",
+            "Dark Wizards'"
+          ],
+          [
+            "GP to bribe an Al Kharid gate guard<!-- Unable to get verbatim text as it appears in game due to a bug that causes the dialogue to be forced closed when this question is called. -->",
+            "10"
+          ]
+        ]
+      }
     },
     {
       "index": 6,
       "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "What is the Defence level requirement to wear a Mystic Hat?||50",
-        "es": "Tras completar su último cuestionario, recibirás un huevo encantado, un cubo de leche encantada y una olla de harina encantada."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 7,
-      "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "What doesn't lie between Morytania and Asgarnia?||Keep Le Faye",
-        "es": "Usa cualquiera de los ingredientes en crudo en un cake tin."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 8,
-      "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "What is the nearest guild to the Fishing Platform (as the seagull flies)?||Legends'",
-        "es": "Hornea la raw guide cake en un horno."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 9,
-      "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "What is the name of the toy seller in Draynor Village?||Diango",
-        "es": "Usa la cake of guidance en el Lumbridge Sage de vuelta en Lumbridge."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 10,
-      "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "The River Salve runs from...?||North to South",
-        "es": "¡Submisión completada!"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 11,
-      "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "Take the number of Fire Runes requires to cast Fire Strike, and multiply by the number by the number of Air Runes used to cast Air Strike before adding the number of Earth Runes used to cast Earth Wave. What do you get?||5"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 12,
-      "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "The combat level of unarmed goblins near Lumbridge is:||2"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 13,
-      "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "If I'm going to need glass, first I will need:||Sand, bucket, soda ash, glass blowing pipe"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 14,
-      "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "A gold ring is to 5 as a holy symbol is to...||16"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 15,
-      "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "A glass vial is to 33, as a glass orb is to...||46"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 16,
-      "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "What ingredients are used in a cake?||Flour, Eggs and milk"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 17,
-      "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "I can hear howling in one direction and buzzing in the other - where am I?||Catherby"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 18,
-      "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "I'm in a bar west of Pollnivneach. Where am I?||Bandit Camp"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 19,
-      "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "Which tower is closest to the Crafting Guild?||Dark Wizards'"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 20,
-      "indent": 0,
-      "section": "The milk",
-      "text": {
-        "en": "GP to bribe an Al Kharid gate guard<!-- Unable to get verbatim text as it appears in game due to a bug that causes the dialogue to be forced closed when this question is called. --> |10"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 21,
-      "indent": 0,
       "section": "The flour",
       "text": {
-        "en": "Talk to Traiborn for the final quiz."
+        "en": "Talk to Traiborn for the final quiz.",
+        "es": "Habla con Traiborn para el cuestionario final."
       },
       "chatOptions": [
         "1 [Ask about the Lumbridge Sage.]",
@@ -343,52 +267,46 @@
       ]
     },
     {
-      "index": 22,
-      "indent": 0,
+      "index": 7,
+      "isTable": true,
       "section": "The flour",
-      "text": {
-        "en": "150px | Which item began with the letter \"m\"? | Mind Talisman"
-      },
-      "chatOptions": []
+      "table": {
+        "headers": [
+          "Picture",
+          "Question",
+          "Answer"
+        ],
+        "rows": [
+          [
+            "150px",
+            "Which item began with the letter \"m\"?",
+            "Mind Talisman"
+          ],
+          [
+            "150px",
+            "How many weapons were you shown?",
+            "3"
+          ],
+          [
+            "150px",
+            "Which items were amongst those you were shown?",
+            "Guthix Prayer Book, Magic Logs, Pike"
+          ],
+          [
+            "150px",
+            "Which of the following items were NOT shown to you?",
+            "Trout"
+          ],
+          [
+            "150px",
+            "How many types of rune were there?",
+            "2"
+          ]
+        ]
+      }
     },
     {
-      "index": 23,
-      "indent": 0,
-      "section": "The flour",
-      "text": {
-        "en": "150px | How many weapons were you shown? | 3"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 24,
-      "indent": 0,
-      "section": "The flour",
-      "text": {
-        "en": "150px | Which items were amongst those you were shown? | Guthix Prayer Book, Magic Logs, Pike"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 25,
-      "indent": 0,
-      "section": "The flour",
-      "text": {
-        "en": "150px | Which of the following items were NOT shown to you? | Trout"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 26,
-      "indent": 0,
-      "section": "The flour",
-      "text": {
-        "en": "150px | How many types of rune were there? | 2"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 27,
+      "index": 8,
       "isImage": true,
       "section": "The flour",
       "filename": "Memorisation test 1.png",
@@ -396,7 +314,7 @@
       "image": "https://runescape.wiki/images/Memorisation_test_1.png?27c29"
     },
     {
-      "index": 28,
+      "index": 9,
       "isImage": true,
       "section": "The flour",
       "filename": "Memorisation test 2.png",
@@ -404,7 +322,7 @@
       "image": "https://runescape.wiki/images/Memorisation_test_2.png?b522e"
     },
     {
-      "index": 29,
+      "index": 10,
       "isImage": true,
       "section": "The flour",
       "filename": "Memorisation test 3.png",
@@ -412,7 +330,7 @@
       "image": "https://runescape.wiki/images/Memorisation_test_3.png?6ef9e"
     },
     {
-      "index": 30,
+      "index": 11,
       "isImage": true,
       "section": "The flour",
       "filename": "Memorisation test 4.png",
@@ -420,7 +338,7 @@
       "image": "https://runescape.wiki/images/Memorisation_test_4.png?6a4fe"
     },
     {
-      "index": 31,
+      "index": 12,
       "isImage": true,
       "section": "The flour",
       "filename": "Memorisation test 5.png",
@@ -428,11 +346,12 @@
       "image": "https://runescape.wiki/images/Memorisation_test_5.png?63d39"
     },
     {
-      "index": 32,
+      "index": 13,
       "indent": 0,
       "section": "The flour",
       "text": {
-        "en": "After completing his final quiz, you receive an enchanted egg, a bucket of enchanted milk and pot of enchanted flour."
+        "en": "After completing his final quiz, you receive an enchanted egg, a bucket of enchanted milk and pot of enchanted flour.",
+        "es": "Tras completar su último cuestionario, recibirás un huevo encantado, un cubo de leche encantada y una olla de harina encantada."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -442,20 +361,22 @@
       ]
     },
     {
-      "index": 33,
+      "index": 14,
       "indent": 0,
       "section": "Freeing the Lumbridge Sage",
       "text": {
-        "en": "Use any of the raw ingredients on a cake tin."
+        "en": "Use any of the raw ingredients on a cake tin.",
+        "es": "Usa cualquiera de los ingredientes en crudo en un cake tin."
       },
       "chatOptions": []
     },
     {
-      "index": 34,
+      "index": 15,
       "indent": 0,
       "section": "Freeing the Lumbridge Sage",
       "text": {
-        "en": "Bake the raw guide cake on a range."
+        "en": "Bake the raw guide cake on a range.",
+        "es": "Hornea la raw guide cake en un horno."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -463,11 +384,12 @@
       ]
     },
     {
-      "index": 35,
+      "index": 16,
       "indent": 0,
       "section": "Freeing the Lumbridge Sage",
       "text": {
-        "en": "Use the cake of guidance on the Lumbridge Sage back in Lumbridge."
+        "en": "Use the cake of guidance on the Lumbridge Sage back in Lumbridge.",
+        "es": "Usa la cake of guidance en el Lumbridge Sage de vuelta en Lumbridge."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -476,11 +398,12 @@
       ]
     },
     {
-      "index": 36,
+      "index": 17,
       "indent": 0,
       "section": "Freeing the Lumbridge Sage",
       "text": {
-        "en": "Subquest complete!"
+        "en": "Subquest complete!",
+        "es": "¡Submisión completada!"
       },
       "chatOptions": []
     }

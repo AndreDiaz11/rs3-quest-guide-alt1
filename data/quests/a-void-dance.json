@@ -3,7 +3,7 @@
   "title": "A Void Dance",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T00:54:19.947Z",
+  "guideLastUpdated": "2026-07-07T00:17:16.710Z",
   "icon": "https://runescape.wiki/images/A_Void_Dance_icon.png",
   "entityIcon": "https://runescape.wiki/images/A_Void_Dance_entity_icon.png?db8b6",
   "series": "Void Knight",
@@ -856,107 +856,93 @@
     },
     {
       "index": 51,
-      "indent": 0,
+      "isTable": true,
       "section": "Whodunnit?",
-      "text": {
-        "en": "| | Clue #1<br/>South of the wheat field, west of Falador, south of Taverley, and north of Nora T. Hagg's house.",
-        "es": "Intenta entrar por la escotilla y luego intenta de nuevo entrar en el escondite."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Nora T. Hagg"
-      ],
-      "icons": [
-        {
-          "filename": "A Void Dance clue 1.png",
-          "image": "https://runescape.wiki/images/A_Void_Dance_clue_1.png?e1ef4"
-        }
-      ]
+      "table": {
+        "headers": [
+          "Location",
+          "Map",
+          "Clue details"
+        ],
+        "rows": [
+          [
+            "",
+            "",
+            "Clue #1<br/>South of the wheat field, west of Falador, south of Taverley, and north of Nora T. Hagg's house."
+          ],
+          [
+            "",
+            "",
+            "Clue #2<br/>Go east of the Crafting Guild and find the man wandering with a walking stick around the area. Use an onion on him then select #3 wave to receive another clue. (There is an onion field nearby if you need one.)"
+          ],
+          [
+            "",
+            "",
+            "Clue #3<br/>Enter the farmhouse south of Falador and search the crate just beside the lobby entrance to receive another clue."
+          ],
+          [
+            "",
+            "",
+            "Clue #4<br/>Go to the Edgeville Monastery. Dig on the red flower north of the north-eastern fountain."
+          ],
+          [
+            "",
+            "",
+            "Clue #5<br/>Go to the hatchway south-west of the Black Knights' Fortress and try to enter it."
+          ]
+        ]
+      }
     },
     {
       "index": 52,
       "indent": 0,
-      "section": "Whodunnit?",
+      "section": "Quick thinking",
       "text": {
-        "en": "| | Clue #2<br/>Go east of the Crafting Guild and find the man wandering with a walking stick around the area. Use an onion on him then select #3 wave to receive another clue. (There is an onion field nearby if you need one.)",
-        "es": "Habla con Korasi o Jessika para una segunda cinemática."
+        "en": "Try to enter the hatchway and then again to enter the hideout.",
+        "es": "Intenta entrar por la escotilla y luego intenta de nuevo entrar en el escondite."
       },
-      "chatOptions": [
-        "3 Wave."
-      ],
-      "highlightTerms": [
-        "man",
-        "Crafting Guild",
-        "onion"
-      ],
-      "icons": [
-        {
-          "filename": "A Void Dance clue 2.png",
-          "image": "https://runescape.wiki/images/A_Void_Dance_clue_2.png?929cb"
-        }
-      ]
+      "chatOptions": []
     },
     {
       "index": 53,
       "indent": 0,
-      "section": "Whodunnit?",
+      "section": "Quick thinking",
       "text": {
-        "en": "| | Clue #3<br/>Enter the farmhouse south of Falador and search the crate just beside the lobby entrance to receive another clue.",
-        "es": "Habla de nuevo con Korasi o Jessika para conseguir un \"bicho\" dron del vacío."
+        "en": "Talk to Korasi or Jessika for a second cutscene.",
+        "es": "Habla con Korasi o Jessika para una segunda cinemática."
       },
-      "chatOptions": [],
-      "icons": [
-        {
-          "filename": "A Void Dance clue 3.png",
-          "image": "https://runescape.wiki/images/A_Void_Dance_clue_3.png?0be8c"
-        }
-      ]
+      "chatOptions": []
     },
     {
       "index": 54,
       "indent": 0,
-      "section": "Whodunnit?",
+      "section": "Quick thinking",
       "text": {
-        "en": "| | Clue #4<br/>Go to the Edgeville Monastery. Dig on the red flower north of the north-eastern fountain.",
-        "es": "Investiga la caja baja cerca de la puerta sin que te descubran los trabajadores para colocar el dron."
+        "en": "Talk to Korasi or Jessika again for a void drone 'bug'.",
+        "es": "Habla de nuevo con Korasi o Jessika para conseguir un \"bicho\" dron del vacío."
       },
       "chatOptions": [],
       "highlightTerms": [
-        "Edgeville Monastery"
-      ],
-      "icons": [
-        {
-          "filename": "A Void Dance clue 4.png",
-          "image": "https://runescape.wiki/images/A_Void_Dance_clue_4.png?0d258"
-        }
+        "void drone 'bug'"
       ]
     },
     {
       "index": 55,
       "indent": 0,
-      "section": "Whodunnit?",
+      "section": "Quick thinking",
       "text": {
-        "en": "| | Clue #5<br/>Go to the hatchway south-west of the Black Knights' Fortress and try to enter it.",
-        "es": "Espera hasta que pasen algunos trabajadores; se reproducirá una cinemática."
+        "en": "Investigate the low box near the door without being caught by the workers to place the drone.",
+        "es": "Investiga la caja baja cerca de la puerta sin que te descubran los trabajadores para colocar el dron."
       },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Black Knights' Fortress"
-      ],
-      "icons": [
-        {
-          "filename": "A Void Dance clue 5.png",
-          "image": "https://runescape.wiki/images/A_Void_Dance_clue_5.png?b02f8"
-        }
-      ]
+      "chatOptions": []
     },
     {
       "index": 56,
       "indent": 0,
       "section": "Quick thinking",
       "text": {
-        "en": "Try to enter the hatchway and then again to enter the hideout.",
-        "es": "Investiga la caja baja para recuperar el dron."
+        "en": "Wait until some workers go by, a cutscene will play.",
+        "es": "Espera hasta que pasen algunos trabajadores; se reproducirá una cinemática."
       },
       "chatOptions": []
     },
@@ -965,8 +951,8 @@
       "indent": 0,
       "section": "Quick thinking",
       "text": {
-        "en": "Talk to Korasi or Jessika for a second cutscene.",
-        "es": "Habla con Jessika."
+        "en": "Investigate the low box to retrieve the drone.",
+        "es": "Investiga la caja baja para recuperar el dron."
       },
       "chatOptions": []
     },
@@ -975,12 +961,12 @@
       "indent": 0,
       "section": "Quick thinking",
       "text": {
-        "en": "Talk to Korasi or Jessika again for a void drone 'bug'.",
-        "es": "Haz un robo de bolsillo a un trabajador que camina hacia el sur desde la puerta vigilada."
+        "en": "Talk to Jessika.",
+        "es": "Habla con Jessika."
       },
       "chatOptions": [],
       "highlightTerms": [
-        "void drone 'bug'"
+        "Jessika"
       ]
     },
     {
@@ -988,8 +974,8 @@
       "indent": 0,
       "section": "Quick thinking",
       "text": {
-        "en": "Investigate the low box near the door without being caught by the workers to place the drone.",
-        "es": "Llama a la puerta vigilada."
+        "en": "Pick-pocket a worker walking south from the guarded door.",
+        "es": "Haz un robo de bolsillo a un trabajador que camina hacia el sur desde la puerta vigilada."
       },
       "chatOptions": []
     },
@@ -998,18 +984,20 @@
       "indent": 0,
       "section": "Quick thinking",
       "text": {
-        "en": "Wait until some workers go by, a cutscene will play.",
-        "es": "Habla con Korasi."
+        "en": "Knock on the guarded door.",
+        "es": "Llama a la puerta vigilada."
       },
-      "chatOptions": []
+      "chatOptions": [
+        "Any"
+      ]
     },
     {
       "index": 61,
       "indent": 0,
       "section": "Quick thinking",
       "text": {
-        "en": "Investigate the low box to retrieve the drone.",
-        "es": "Entra en la siguiente sala y luego haz clic derecho para asesinar a cualquier trabajador forzado."
+        "en": "Talk to Korasi.",
+        "es": "Habla con Korasi."
       },
       "chatOptions": []
     },
@@ -1018,73 +1006,28 @@
       "indent": 0,
       "section": "Quick thinking",
       "text": {
-        "en": "Talk to Jessika.",
-        "es": "Los enemigos de la siguiente sala pueden drenar tus puntos de oración para curarse a sí mismos."
+        "en": "Enter the next room then right-click murder any indentured worker.",
+        "es": "Entra en la siguiente sala y luego haz clic derecho para asesinar a cualquier trabajador forzado."
       },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Jessika"
-      ]
+      "chatOptions": []
     },
     {
       "index": 63,
       "indent": 0,
-      "section": "Quick thinking",
+      "section": "Finishing up",
       "text": {
-        "en": "Pick-pocket a worker walking south from the guarded door.",
-        "es": "Entra por la siguiente puerta. Mata al Black Knight Guardian de tu lado."
+        "en": "The enemies in next room can drain your prayer points to heal themselves.",
+        "es": "Los enemigos de la siguiente sala pueden drenar tus puntos de oración para curarse a sí mismos."
       },
       "chatOptions": []
     },
     {
       "index": 64,
       "indent": 0,
-      "section": "Quick thinking",
-      "text": {
-        "en": "Knock on the guarded door.",
-        "es": "Habla con la jaula de plagas (void leech)."
-      },
-      "chatOptions": [
-        "Any"
-      ]
-    },
-    {
-      "index": 65,
-      "indent": 0,
-      "section": "Quick thinking",
-      "text": {
-        "en": "Talk to Korasi.",
-        "es": "Acepta el teletransporte al Void Knights' Outpost."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 66,
-      "indent": 0,
-      "section": "Quick thinking",
-      "text": {
-        "en": "Enter the next room then right-click murder any indentured worker.",
-        "es": "Habla con Commodore Tyr para una cinemática."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 67,
-      "indent": 0,
-      "section": "Finishing up",
-      "text": {
-        "en": "The enemies in next room can drain your prayer points to heal themselves.",
-        "es": "Si cancelas la cinemática, puede que necesites volver al lobby."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 68,
-      "indent": 0,
       "section": "Finishing up",
       "text": {
         "en": "Enter the next door. Kill the Black Knight Guardian on your side.",
-        "es": "¡Misión completada!"
+        "es": "Entra por la siguiente puerta. Mata al Black Knight Guardian de tu lado."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1092,11 +1035,12 @@
       ]
     },
     {
-      "index": 69,
+      "index": 65,
       "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Talk to the pest cage (void leech)."
+        "en": "Talk to the pest cage (void leech).",
+        "es": "Habla con la jaula de plagas (void leech)."
       },
       "chatOptions": [
         "4 Enough of this.",
@@ -1107,11 +1051,12 @@
       ]
     },
     {
-      "index": 70,
+      "index": 66,
       "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Accept the teleport to the Void Knights' Outpost."
+        "en": "Accept the teleport to the Void Knights' Outpost.",
+        "es": "Acepta el teletransporte al Void Knights' Outpost."
       },
       "chatOptions": [
         "1 Go with Korasi."
@@ -1121,11 +1066,12 @@
       ]
     },
     {
-      "index": 71,
+      "index": 67,
       "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Talk to Commodore Tyr for a cutscene."
+        "en": "Talk to Commodore Tyr for a cutscene.",
+        "es": "Habla con Commodore Tyr para una cinemática."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1133,20 +1079,22 @@
       ]
     },
     {
-      "index": 72,
+      "index": 68,
       "indent": 1,
       "section": "Finishing up",
       "text": {
-        "en": "If you cancel the cutscene, you may need to lobby."
+        "en": "If you cancel the cutscene, you may need to lobby.",
+        "es": "Si cancelas la cinemática, puede que necesites volver al lobby."
       },
       "chatOptions": []
     },
     {
-      "index": 73,
+      "index": 69,
       "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Quest complete!"
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
       },
       "chatOptions": []
     }

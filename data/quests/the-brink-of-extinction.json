@@ -3,7 +3,7 @@
   "title": "The Brink of Extinction",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T00:54:26.803Z",
+  "guideLastUpdated": "2026-07-07T00:17:21.512Z",
   "icon": "https://runescape.wiki/images/The_Brink_of_Extinction_icon.png",
   "entityIcon": "https://runescape.wiki/images/The_Brink_of_Extinction_entity_icon.png?812ff",
   "series": "TzHaar",
@@ -320,203 +320,139 @@
     },
     {
       "index": 16,
-      "indent": 0,
+      "isTable": true,
       "section": "Combat weaknesses",
-      "text": {
-        "en": "!Room !Wave !Combat levels !Pray against !Weakness(es)",
-        "es": "Mata a los 4 Tz-Kih."
-      },
-      "chatOptions": []
+      "table": {
+        "headers": [
+          "Room",
+          "Wave",
+          "Combat levels",
+          "Pray against",
+          "Weakness(es)"
+        ],
+        "rows": [
+          [
+            "1",
+            "4 Tz-Kih",
+            "85",
+            "Melee",
+            "Stab"
+          ],
+          [
+            "2",
+            "2 Tz-Kek",
+            "86",
+            "Melee",
+            "Water"
+          ],
+          [
+            "2",
+            "1 Tz-Kih, 1 Tok-Xil",
+            "85,105",
+            "Ranged",
+            "Stab, Slash"
+          ],
+          [
+            "3",
+            "2 TokHaar-Hur, 2 TokHaar-Ket",
+            "112/119",
+            "Melee",
+            "Water"
+          ],
+          [
+            "3",
+            "3 TokHaar-Xil",
+            "119",
+            "Ranged",
+            "Crush"
+          ],
+          [
+            "3",
+            "1 TokHaar-Ket Champion",
+            "112",
+            "Melee",
+            "-"
+          ],
+          [
+            "4",
+            "4 Tz-Kil",
+            "103",
+            "Magic",
+            "Bolts"
+          ],
+          [
+            "5",
+            "3 Tz-Kih",
+            "85",
+            "Melee",
+            "Stab"
+          ],
+          [
+            "5",
+            "2 Tz-Kil, 1 Yt-MejKot",
+            "103,105",
+            "Melee",
+            "Bolts, -"
+          ],
+          [
+            "6",
+            "4 TokHaar-Hur",
+            "112",
+            "Melee",
+            "Water"
+          ],
+          [
+            "6",
+            "2 TokHaar-Xil",
+            "119",
+            "Ranged",
+            "Crush"
+          ],
+          [
+            "6",
+            "2 TokHaar-Mej",
+            "119",
+            "Magic",
+            "Bolts"
+          ],
+          [
+            "6",
+            "2 TokHaar-Ket Champion",
+            "112",
+            "Melee",
+            "-"
+          ],
+          [
+            "7",
+            "3 Tz-Kek",
+            "86",
+            "Melee",
+            "Water"
+          ],
+          [
+            "8",
+            "3 Tz-Kil",
+            "103",
+            "Magic",
+            "Bolts"
+          ],
+          [
+            "8",
+            "2 Tz-Kek, 1 Ket-Zek",
+            "86,105",
+            "Magic",
+            "Water, Bolts"
+          ]
+        ]
+      }
     },
     {
       "index": 17,
       "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "1 | 4 Tz-Kih | 85 | Melee | Stab",
-        "es": "Recoge la maza, la espada y el cuchillo."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 18,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "2 | 2 Tz-Kek | 86 | Melee | Water",
-        "es": "Coloca la maza en la balanza oeste y la espada en la balanza este."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 19,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "2 | 1 Tz-Kih, 1 Tok-Xil | 85,105 | Ranged | Stab, Slash",
-        "es": "Atraviesa la puerta ancestral."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 20,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "3 | 2 TokHaar-Hur, 2 TokHaar-Ket | 112/119 | Melee | Water",
-        "es": "Mata a los 2 Tz-Kek."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "TokHaar-Hur",
-        "TokHaar-Ket"
-      ]
-    },
-    {
-      "index": 21,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "3 | 3 TokHaar-Xil | 119 | Ranged | Crush",
-        "es": "Mata al Tz-Kih y al Tok-Xil."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "TokHaar-Xil"
-      ]
-    },
-    {
-      "index": 22,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "3 | 1 TokHaar-Ket Champion | 112 | Melee | -",
-        "es": "Mueve las estatuas de forma que TzHaar-Mej mire a TzHaar-Ket, quien mira a TzHaar-Xil, quien mira a TzHaar-Mej. Esto implica un triángulo formado por Xil y Mej (en paralelo) al sur y Ket al norte. Si no funciona, haz el triángulo más pequeño."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "TokHaar-Ket Champion"
-      ]
-    },
-    {
-      "index": 23,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "4 | 4 Tz-Kil | 103 | Magic | Bolts",
-        "es": "Atraviesa la puerta ancestral."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 24,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "5 | 3 Tz-Kih | 85 | Melee | Stab",
-        "es": "Desactiva el auto-represalia para que tu personaje no pise accidentalmente una casilla brillante al correr para atacar a un monstruo (causan más de 1000 de daño por segundo)."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 25,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "5 | 2 Tz-Kil, 1 Yt-MejKot | 103,105 | Melee | Bolts, -",
-        "es": "Pasa por la puerta de ventilación caliente hacia el este."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 26,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "6 | 4 TokHaar-Hur | 112 | Melee | Water",
-        "es": "Evita pisar las casillas del suelo que brillan."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "TokHaar-Hur"
-      ]
-    },
-    {
-      "index": 27,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "6 | 2 TokHaar-Xil | 119 | Ranged | Crush",
-        "es": "Mata a los 2 TokHaar-Kets y a los 2 TokHaar-Hurs."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "TokHaar-Xil"
-      ]
-    },
-    {
-      "index": 28,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "6 | 2 TokHaar-Mej | 119 | Magic | Bolts",
-        "es": "Mata a los 3 TokHaar-Xils."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "TokHaar-Mej"
-      ]
-    },
-    {
-      "index": 29,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "6 | 2 TokHaar-Ket Champion | 112 | Melee | -",
-        "es": "Mata al TokHaar-Ket Champion y recoge el mazo de obsidiana que suelta."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "TokHaar-Ket Champion"
-      ]
-    },
-    {
-      "index": 30,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "7 | 3 Tz-Kek | 86 | Melee | Water",
-        "es": "Vuelve a pasar por la puerta de ventilación caliente."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 31,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "8 | 3 Tz-Kil | 103 | Magic | Bolts",
-        "es": "Coloca el mazo en la balanza."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 32,
-      "indent": 0,
-      "section": "Combat weaknesses",
-      "text": {
-        "en": "8 | 2 Tz-Kek, 1 Ket-Zek | 86,105 | Magic | Water, Bolts",
-        "es": "Atraviesa la puerta ancestral."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 33,
-      "indent": 0,
       "section": "Room 1",
       "text": {
         "en": "Kill the 4 Tz-Kih.",
-        "es": "Mata a los 4 Tz-Kils."
+        "es": "Mata a los 4 Tz-Kih."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -524,37 +460,37 @@
       ]
     },
     {
-      "index": 34,
+      "index": 18,
       "indent": 0,
       "section": "Room 1",
       "text": {
         "en": "Pick up the mace, sword and knife.",
-        "es": "Recoge cada una de las armas de obsidiana: anillo arrojadizo, espada, maza y bastón."
+        "es": "Recoge la maza, la espada y el cuchillo."
       },
       "chatOptions": []
     },
     {
-      "index": 35,
+      "index": 19,
       "indent": 0,
       "section": "Room 1",
       "text": {
         "en": "Put the mace on the western and the sword on the eastern scales.",
-        "es": "Coloca cada una de las armas de obsidiana en la balanza correspondiente según su ubicación:"
+        "es": "Coloca la maza en la balanza oeste y la espada en la balanza este."
       },
       "chatOptions": []
     },
     {
-      "index": 36,
+      "index": 20,
       "indent": 0,
       "section": "Room 1",
       "text": {
         "en": "Go through the ancient gate.",
-        "es": "Atraviesa la Puerta Ancestral."
+        "es": "Atraviesa la puerta ancestral."
       },
       "chatOptions": []
     },
     {
-      "index": 37,
+      "index": 21,
       "isImage": true,
       "section": "Room 2",
       "filename": "TBoE room 2 puzzle.png",
@@ -562,12 +498,12 @@
       "image": "https://runescape.wiki/images/TBoE_room_2_puzzle.png?d6a1a"
     },
     {
-      "index": 38,
+      "index": 22,
       "indent": 0,
       "section": "Room 2",
       "text": {
         "en": "Kill the 2 Tz-Kek.",
-        "es": "Mata a los 3 Tz-Kihs."
+        "es": "Mata a los 2 Tz-Kek."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -575,12 +511,12 @@
       ]
     },
     {
-      "index": 39,
+      "index": 23,
       "indent": 0,
       "section": "Room 2",
       "text": {
         "en": "Kill the Tz-Kih and Tok-Xil",
-        "es": "Mata a los 2 Tz-Kils y a Yt-MejKot."
+        "es": "Mata al Tz-Kih y al Tok-Xil."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -588,32 +524,32 @@
       ]
     },
     {
-      "index": 40,
+      "index": 24,
       "indent": 0,
       "section": "Room 2",
       "text": {
         "en": "Move the statues such that TzHaar-Mej faces TzHaar-Ket, who faces TzHaar-Xil, who faces TzHaar-Mej. This involves a triangle formed by Xil and Mej (parallel) to the south and Ket to the north. If it doesn't work, make the triangle smaller.",
-        "es": "Toca uno de los pedestales."
+        "es": "Mueve las estatuas de forma que TzHaar-Mej mire a TzHaar-Ket, quien mira a TzHaar-Xil, quien mira a TzHaar-Mej. Esto implica un triángulo formado por Xil y Mej (en paralelo) al sur y Ket al norte. Si no funciona, haz el triángulo más pequeño."
       },
       "chatOptions": []
     },
     {
-      "index": 41,
+      "index": 25,
       "indent": 0,
       "section": "Room 2",
       "text": {
         "en": "Go through the ancient gate.",
-        "es": "Toca los pedestales en el orden en que se iluminan hasta completar el puzle. Hay 8 combinaciones que deberás completar correctamente."
+        "es": "Atraviesa la puerta ancestral."
       },
       "chatOptions": []
     },
     {
-      "index": 42,
+      "index": 26,
       "indent": 0,
       "section": "Room 3",
       "text": {
         "en": "Turn off Auto-retaliate so your character does not inadvertently step on a glowing square when running to attack a monster (they deal 1000+ damage per second).",
-        "es": "Se recomienda asignar a cada pedestal un número del 1 al 4. Escribe en tu chat el número del último pedestal que se ilumina en cada ronda, formando una lista. Al tocar los pedestales, simplemente sigue los números de tu chat."
+        "es": "Desactiva el auto-represalia para que tu personaje no pise accidentalmente una casilla brillante al correr para atacar a un monstruo (causan más de 1000 de daño por segundo)."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -621,32 +557,32 @@
       ]
     },
     {
-      "index": 43,
+      "index": 27,
       "indent": 0,
       "section": "Room 3",
       "text": {
         "en": "Pass the hot vent door to the east.",
-        "es": "Atraviesa la Puerta Ancestral."
+        "es": "Pasa por la puerta de ventilación caliente hacia el este."
       },
       "chatOptions": []
     },
     {
-      "index": 44,
+      "index": 28,
       "indent": 0,
       "section": "Room 3",
       "text": {
         "en": "Avoid standing on glowing floor squares.",
-        "es": "Desactiva el auto-represalia para que tu personaje no pise accidentalmente una casilla brillante al correr para atacar a un monstruo (causan más de 1000 de daño por segundo)."
+        "es": "Evita pisar las casillas del suelo que brillan."
       },
       "chatOptions": []
     },
     {
-      "index": 45,
+      "index": 29,
       "indent": 0,
       "section": "Room 3",
       "text": {
         "en": "Kill the 2 TokHaar-Kets and 2 TokHaar-Hurs.",
-        "es": "Pasa por la puerta de ventilación caliente hacia el este."
+        "es": "Mata a los 2 TokHaar-Kets y a los 2 TokHaar-Hurs."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -655,12 +591,12 @@
       ]
     },
     {
-      "index": 46,
+      "index": 30,
       "indent": 0,
       "section": "Room 3",
       "text": {
         "en": "Kill the 3 TokHaar-Xils.",
-        "es": "Evita pisar las casillas del suelo que brillan."
+        "es": "Mata a los 3 TokHaar-Xils."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -668,12 +604,12 @@
       ]
     },
     {
-      "index": 47,
+      "index": 31,
       "indent": 0,
       "section": "Room 3",
       "text": {
         "en": "Kill the TokHaar-Ket Champion and pick up the obsidian maul it drops.",
-        "es": "Mata a los 4 TokHaar-Hurs."
+        "es": "Mata al TokHaar-Ket Champion y recoge el mazo de obsidiana que suelta."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -682,42 +618,42 @@
       ]
     },
     {
-      "index": 48,
+      "index": 32,
       "indent": 0,
       "section": "Room 3",
       "text": {
         "en": "Pass back through the hot vent door.",
-        "es": "Mata a los 2 TokHaar-Xils."
+        "es": "Vuelve a pasar por la puerta de ventilación caliente."
       },
       "chatOptions": []
     },
     {
-      "index": 49,
+      "index": 33,
       "indent": 0,
       "section": "Room 3",
       "text": {
         "en": "Place the maul on the scales.",
-        "es": "Mata a los 2 TokHaar-Mejs."
+        "es": "Coloca el mazo en la balanza."
       },
       "chatOptions": []
     },
     {
-      "index": 50,
+      "index": 34,
       "indent": 0,
       "section": "Room 3",
       "text": {
         "en": "Go through the ancient gate.",
-        "es": "Mata a los 2 TokHaar-Ket Champions y recoge el mazo de obsidiana que sueltan."
+        "es": "Atraviesa la puerta ancestral."
       },
       "chatOptions": []
     },
     {
-      "index": 51,
+      "index": 35,
       "indent": 0,
       "section": "Room 4",
       "text": {
         "en": "Kill the 4 Tz-Kils.",
-        "es": "Vuelve a pasar por la puerta de ventilación caliente."
+        "es": "Mata a los 4 Tz-Kils."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -725,92 +661,81 @@
       ]
     },
     {
-      "index": 52,
+      "index": 36,
       "indent": 0,
       "section": "Room 4",
       "text": {
         "en": "Pick up each of the obsidian weapons: throwing ring, sword, mace and staff.",
-        "es": "Coloca el mazo en la balanza."
+        "es": "Recoge cada una de las armas de obsidiana: anillo arrojadizo, espada, maza y bastón."
       },
       "chatOptions": []
     },
     {
-      "index": 53,
+      "index": 37,
       "indent": 0,
       "section": "Room 4",
       "text": {
         "en": "Place each of the obsidian weapons on the scales according to their location:",
-        "es": "Atraviesa la puerta ancestral."
+        "es": "Coloca cada una de las armas de obsidiana en la balanza correspondiente según su ubicación:"
       },
       "chatOptions": []
     },
     {
-      "index": 54,
-      "indent": 0,
+      "index": 38,
+      "isTable": true,
       "section": "Room 4",
-      "text": {
-        "en": "North-west | Obsidian sword",
-        "es": "Mata a los 3 Tz-Keks."
-      },
-      "chatOptions": []
+      "table": {
+        "headers": [
+          "Scale location",
+          "Weapon"
+        ],
+        "rows": [
+          [
+            "North-west",
+            "Obsidian sword"
+          ],
+          [
+            "North-east",
+            "Obsidian mace"
+          ],
+          [
+            "South-west",
+            "Obsidian staff"
+          ],
+          [
+            "South-east",
+            "Obsidian throwing ring"
+          ]
+        ]
+      }
     },
     {
-      "index": 55,
-      "indent": 0,
-      "section": "Room 4",
-      "text": {
-        "en": "North-east | Obsidian mace",
-        "es": "Recoge la espada, el mazo, la maza, el cuchillo y el bastón."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 56,
-      "indent": 0,
-      "section": "Room 4",
-      "text": {
-        "en": "South-west | Obsidian staff",
-        "es": "Inspecciona cada balanza para ver la palabra TzHaar. Usa el arma de obsidiana correcta en cada balanza según la siguiente tabla:"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 57,
-      "indent": 0,
-      "section": "Room 4",
-      "text": {
-        "en": "South-east | Obsidian throwing ring",
-        "es": "Atraviesa la puerta ancestral."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 58,
+      "index": 39,
       "indent": 0,
       "section": "Room 4",
       "text": {
         "en": "Go through the Ancient gate.",
-        "es": "Mata a los 3 Tz-Kils."
+        "es": "Atraviesa la Puerta Ancestral."
       },
       "chatOptions": []
     },
     {
-      "index": 59,
+      "index": 40,
       "indent": 0,
       "section": "Room 5",
       "text": {
         "en": "Kill the 3 Tz-Kihs.",
-        "es": "Mata al Ket-Zek y a los 2 Tz-Keks."
+        "es": "Mata a los 3 Tz-Kihs."
       },
       "chatOptions": []
     },
     {
-      "index": 60,
+      "index": 41,
       "indent": 0,
       "section": "Room 5",
       "text": {
         "en": "Kill the 2 Tz-Kils and Yt-MejKot.",
-        "es": "Gira las baldosas del suelo para formar el símbolo TzHaar."
+        "es": "Mata a los 2 Tz-Kils y a Yt-MejKot."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -818,52 +743,52 @@
       ]
     },
     {
-      "index": 61,
+      "index": 42,
       "indent": 0,
       "section": "Room 5",
       "text": {
         "en": "Touch one of the pedestals.",
+        "es": "Toca uno de los pedestales."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "section": "Room 5",
+      "text": {
+        "en": "Touch the pedestals in the order that they light up until the puzzle is complete. There are 8 combinations you will need to complete correctly.",
+        "es": "Toca los pedestales en el orden en que se iluminan hasta completar el puzle. Hay 8 combinaciones que deberás completar correctamente."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 44,
+      "indent": 1,
+      "section": "Room 5",
+      "text": {
+        "en": "Recommended to give each pedestal a number between 1-4. Write the number of the last pedestal that lights up each round in your chatbox, forming a list. When touching pedestals, simply follow the numbers in your chatbox.",
+        "es": "Se recomienda asignar a cada pedestal un número del 1 al 4. Escribe en tu chat el número del último pedestal que se ilumina en cada ronda, formando una lista. Al tocar los pedestales, simplemente sigue los números de tu chat."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "section": "Room 5",
+      "text": {
+        "en": "Go through the Ancient gate.",
         "es": "Atraviesa la Puerta Ancestral."
       },
       "chatOptions": []
     },
     {
-      "index": 62,
-      "indent": 0,
-      "section": "Room 5",
-      "text": {
-        "en": "Touch the pedestals in the order that they light up until the puzzle is complete. There are 8 combinations you will need to complete correctly.",
-        "es": "Pasa por la puerta de ventilación caliente hacia el este."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 63,
-      "indent": 1,
-      "section": "Room 5",
-      "text": {
-        "en": "Recommended to give each pedestal a number between 1-4. Write the number of the last pedestal that lights up each round in your chatbox, forming a list. When touching pedestals, simply follow the numbers in your chatbox.",
-        "es": "Habla con Ga'al-Xox."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 64,
-      "indent": 0,
-      "section": "Room 5",
-      "text": {
-        "en": "Go through the Ancient gate.",
-        "es": "Gira la válvula este."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 65,
+      "index": 46,
       "indent": 0,
       "section": "Room 6",
       "text": {
         "en": "Turn off Auto-retaliate so your character does not inadvertently step on a glowing square when running to attack a monster (they deal 1000+ damage per second).",
-        "es": "Mata a TokHaar-Hok."
+        "es": "Desactiva el auto-represalia para que tu personaje no pise accidentalmente una casilla brillante al correr para atacar a un monstruo (causan más de 1000 de daño por segundo)."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -871,32 +796,32 @@
       ]
     },
     {
-      "index": 66,
+      "index": 47,
       "indent": 0,
       "section": "Room 6",
       "text": {
         "en": "Pass the hot vent door to the east.",
-        "es": "No puedes teletransportarte fuera ni abandonar el combate antes de tiempo."
+        "es": "Pasa por la puerta de ventilación caliente hacia el este."
       },
       "chatOptions": []
     },
     {
-      "index": 67,
+      "index": 48,
       "indent": 0,
       "section": "Room 6",
       "text": {
         "en": "Avoid standing on glowing floor squares.",
-        "es": "Reza Deflect/Protection from Melee durante todo el combate.<!--Parece atacar cuerpo a cuerpo incluso cuando el jugador intenta luchar a distancia-->"
+        "es": "Evita pisar las casillas del suelo que brillan."
       },
       "chatOptions": []
     },
     {
-      "index": 68,
+      "index": 49,
       "indent": 0,
       "section": "Room 6",
       "text": {
         "en": "Kill the 4 TokHaar-Hurs.",
-        "es": "Evita pisar las casillas del suelo que brillan, como siempre."
+        "es": "Mata a los 4 TokHaar-Hurs."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -904,12 +829,12 @@
       ]
     },
     {
-      "index": 69,
+      "index": 50,
       "indent": 0,
       "section": "Room 6",
       "text": {
         "en": "Kill the 2 TokHaar-Xils.",
-        "es": "No es necesario matar a los enemigos invocados; los jugadores de nivel más alto pueden centrarse en TokHaar-Hok. Cuando sea derrotado, los enemigos invocados morirán."
+        "es": "Mata a los 2 TokHaar-Xils."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -917,12 +842,12 @@
       ]
     },
     {
-      "index": 70,
+      "index": 51,
       "indent": 0,
       "section": "Room 6",
       "text": {
         "en": "Kill the 2 TokHaar-Mejs.",
-        "es": "Aturde a TokHaar-Hok una vez que haya perdido la mitad de su vida, esto evita que se cure en la lava fluyente."
+        "es": "Mata a los 2 TokHaar-Mejs."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -930,12 +855,12 @@
       ]
     },
     {
-      "index": 71,
+      "index": 52,
       "indent": 0,
       "section": "Room 6",
       "text": {
         "en": "Kill the 2 TokHaar-Ket Champions and pick up the obsidian maul dropped.",
-        "es": "Puede que la mecánica de aturdimiento tenga un fallo, y que solo puedas usar la habilidad básica de Distancia Binding Shot, la habilidad básica de Magia Impact, la habilidad de umbral de Magia Asphyxiate, y la habilidad básica de cuerpo a cuerpo Backhand."
+        "es": "Mata a los 2 TokHaar-Ket Champions y recoge el mazo de obsidiana que sueltan."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -943,124 +868,110 @@
       ]
     },
     {
-      "index": 72,
+      "index": 53,
       "indent": 0,
       "section": "Room 6",
       "text": {
         "en": "Pass back through the Hot vent door.",
-        "es": "En el Modo Legado, necesitas aturdirlo con un ataque especial."
+        "es": "Vuelve a pasar por la puerta de ventilación caliente."
       },
       "chatOptions": []
     },
     {
-      "index": 73,
+      "index": 54,
       "indent": 0,
       "section": "Room 6",
       "text": {
         "en": "Place the maul on the scales.",
-        "es": "Habla con TokHaar-Hok."
+        "es": "Coloca el mazo en la balanza."
       },
       "chatOptions": []
     },
     {
-      "index": 74,
+      "index": 55,
       "indent": 0,
       "section": "Room 6",
       "text": {
         "en": "Go through the ancient gate.",
-        "es": "Habla con Ga'al-Xox."
+        "es": "Atraviesa la puerta ancestral."
       },
       "chatOptions": []
     },
     {
-      "index": 75,
+      "index": 56,
       "indent": 0,
       "section": "Room 7",
       "text": {
         "en": "Kill the 3 Tz-Keks.",
-        "es": "Habla de nuevo con Ga'al-Xox."
+        "es": "Mata a los 3 Tz-Keks."
       },
       "chatOptions": []
     },
     {
-      "index": 76,
+      "index": 57,
       "indent": 0,
       "section": "Room 7",
       "text": {
         "en": "Pick up the sword, maul, mace, knife and staff.",
-        "es": "Vuelve a la ciudad a través de la puerta. Activa tu orbe de comunicación."
+        "es": "Recoge la espada, el mazo, la maza, el cuchillo y el bastón."
       },
       "chatOptions": []
     },
     {
-      "index": 77,
+      "index": 58,
       "indent": 0,
       "section": "Room 7",
       "text": {
         "en": "Inspect each scale for the TzHaar word. Use the correct obsidian weapon on each scale according to the table below:",
-        "es": "Si has destruido tu orbe de comunicación, habla con TzHaar-Mej-Ak o TzHaar-Mej-Jeh en la plaza principal de TzHaar City."
+        "es": "Inspecciona cada balanza para ver la palabra TzHaar. Usa el arma de obsidiana correcta en cada balanza según la siguiente tabla:"
       },
       "chatOptions": []
     },
     {
-      "index": 78,
+      "index": 59,
+      "isTable": true,
+      "section": "Room 7",
+      "table": {
+        "headers": [
+          "TzHaar word",
+          "Weapon"
+        ],
+        "rows": [
+          [
+            "Xil",
+            "Obsidian sword"
+          ],
+          [
+            "Mej",
+            "Obsidian staff"
+          ],
+          [
+            "Ket",
+            "Obsidian maul"
+          ],
+          [
+            "Ket and Hur",
+            "Obsidian mace"
+          ],
+          [
+            "Xil and Hur",
+            "Obsidian knife"
+          ]
+        ]
+      }
+    },
+    {
+      "index": 60,
       "indent": 0,
       "section": "Room 7",
       "text": {
-        "en": "Xil | Obsidian sword",
-        "es": "Vuelve a la entrada del Fight Kiln."
+        "en": "Go through the ancient gate.",
+        "es": "Atraviesa la puerta ancestral."
       },
       "chatOptions": []
     },
     {
-      "index": 79,
-      "indent": 0,
-      "section": "Room 7",
-      "text": {
-        "en": "Mej | Obsidian staff",
-        "es": "Se produce una escena."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 80,
-      "indent": 0,
-      "section": "Room 7",
-      "text": {
-        "en": "Ket | Obsidian maul",
-        "es": "¡Misión completada!"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 81,
-      "indent": 0,
-      "section": "Room 7",
-      "text": {
-        "en": "Ket and Hur | Obsidian mace"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 82,
-      "indent": 0,
-      "section": "Room 7",
-      "text": {
-        "en": "Xil and Hur | Obsidian knife"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 83,
-      "indent": 0,
-      "section": "Room 7",
-      "text": {
-        "en": "Go through the ancient gate."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 84,
+      "index": 61,
       "isImage": true,
       "section": "Room 8",
       "filename": "TzHaar sigil The Brink of Extinction.png",
@@ -1068,20 +979,22 @@
       "image": "https://runescape.wiki/images/TzHaar_sigil_The_Brink_of_Extinction.png?5b8a3"
     },
     {
-      "index": 85,
+      "index": 62,
       "indent": 0,
       "section": "Room 8",
       "text": {
-        "en": "Kill the 3 Tz-Kils."
+        "en": "Kill the 3 Tz-Kils.",
+        "es": "Mata a los 3 Tz-Kils."
       },
       "chatOptions": []
     },
     {
-      "index": 86,
+      "index": 63,
       "indent": 0,
       "section": "Room 8",
       "text": {
-        "en": "Kill the Ket-Zek and 2 Tz-Keks."
+        "en": "Kill the Ket-Zek and 2 Tz-Keks.",
+        "es": "Mata al Ket-Zek y a los 2 Tz-Keks."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1089,38 +1002,42 @@
       ]
     },
     {
-      "index": 87,
+      "index": 64,
       "indent": 0,
       "section": "Room 8",
       "text": {
-        "en": "Rotate the tiles on the ground to form the TzHaar symbol."
+        "en": "Rotate the tiles on the ground to form the TzHaar symbol.",
+        "es": "Gira las baldosas del suelo para formar el símbolo TzHaar."
       },
       "chatOptions": []
     },
     {
-      "index": 88,
+      "index": 65,
       "indent": 0,
       "section": "Room 8",
       "text": {
-        "en": "Go through the Ancient gate."
+        "en": "Go through the Ancient gate.",
+        "es": "Atraviesa la Puerta Ancestral."
       },
       "chatOptions": []
     },
     {
-      "index": 89,
+      "index": 66,
       "indent": 0,
       "section": "Room 9",
       "text": {
-        "en": "Pass the hot vent door to the east."
+        "en": "Pass the hot vent door to the east.",
+        "es": "Pasa por la puerta de ventilación caliente hacia el este."
       },
       "chatOptions": []
     },
     {
-      "index": 90,
+      "index": 67,
       "indent": 0,
       "section": "Room 9",
       "text": {
-        "en": "Talk to Ga'al-Xox."
+        "en": "Talk to Ga'al-Xox.",
+        "es": "Habla con Ga'al-Xox."
       },
       "chatOptions": [
         "Any"
@@ -1130,20 +1047,22 @@
       ]
     },
     {
-      "index": 91,
+      "index": 68,
       "indent": 0,
       "section": "Room 9",
       "text": {
-        "en": "Rotate the eastern valve."
+        "en": "Rotate the eastern valve.",
+        "es": "Gira la válvula este."
       },
       "chatOptions": []
     },
     {
-      "index": 92,
+      "index": 69,
       "indent": 0,
       "section": "Room 9",
       "text": {
-        "en": "Kill TokHaar-Hok."
+        "en": "Kill TokHaar-Hok.",
+        "es": "Mata a TokHaar-Hok."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1151,20 +1070,22 @@
       ]
     },
     {
-      "index": 93,
+      "index": 70,
       "indent": 1,
       "section": "Room 9",
       "text": {
-        "en": "You cannot teleport out or leave the fight early."
+        "en": "You cannot teleport out or leave the fight early.",
+        "es": "No puedes teletransportarte fuera ni abandonar el combate antes de tiempo."
       },
       "chatOptions": []
     },
     {
-      "index": 94,
+      "index": 71,
       "indent": 1,
       "section": "Room 9",
       "text": {
-        "en": "Pray Deflect/Protection from Melee the entire fight.<!--He seems to melee even when the player tries to fight at a distance-->"
+        "en": "Pray Deflect/Protection from Melee the entire fight.<!--He seems to melee even when the player tries to fight at a distance-->",
+        "es": "Reza Deflect/Protection from Melee durante todo el combate.<!--Parece atacar cuerpo a cuerpo incluso cuando el jugador intenta luchar a distancia-->"
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1173,29 +1094,32 @@
       ]
     },
     {
-      "index": 95,
+      "index": 72,
       "indent": 1,
       "section": "Room 9",
       "text": {
-        "en": "Avoid standing on glowing floor squares, as always."
+        "en": "Avoid standing on glowing floor squares, as always.",
+        "es": "Evita pisar las casillas del suelo que brillan, como siempre."
       },
       "chatOptions": []
     },
     {
-      "index": 96,
+      "index": 73,
       "indent": 1,
       "section": "Room 9",
       "text": {
-        "en": "You do not need to kill the spawned enemies - higher level players may focus on TokHaar-Hok. When he is defeated, the spawned enemies will die."
+        "en": "You do not need to kill the spawned enemies - higher level players may focus on TokHaar-Hok. When he is defeated, the spawned enemies will die.",
+        "es": "No es necesario matar a los enemigos invocados; los jugadores de nivel más alto pueden centrarse en TokHaar-Hok. Cuando sea derrotado, los enemigos invocados morirán."
       },
       "chatOptions": []
     },
     {
-      "index": 97,
+      "index": 74,
       "indent": 1,
       "section": "Room 9",
       "text": {
-        "en": "Stun TokHaar-Hok once he has lost half his health, this prevents him from healing at the flowing lava."
+        "en": "Stun TokHaar-Hok once he has lost half his health, this prevents him from healing at the flowing lava.",
+        "es": "Aturde a TokHaar-Hok una vez que haya perdido la mitad de su vida, esto evita que se cure en la lava fluyente."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1203,11 +1127,12 @@
       ]
     },
     {
-      "index": 98,
+      "index": 75,
       "indent": 2,
       "section": "Room 9",
       "text": {
-        "en": "The stun mechanic may be bugged and you may only be able to use basic Ranged ability, Binding Shot, the basic Magic ability, Impact and the Magic threshold ability, Asphyxiate, and the basic melee ability, Backhand."
+        "en": "The stun mechanic may be bugged and you may only be able to use basic Ranged ability, Binding Shot, the basic Magic ability, Impact and the Magic threshold ability, Asphyxiate, and the basic melee ability, Backhand.",
+        "es": "Puede que la mecánica de aturdimiento tenga un fallo, y que solo puedas usar la habilidad básica de Distancia Binding Shot, la habilidad básica de Magia Impact, la habilidad de umbral de Magia Asphyxiate, y la habilidad básica de cuerpo a cuerpo Backhand."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1218,11 +1143,12 @@
       ]
     },
     {
-      "index": 99,
+      "index": 76,
       "indent": 2,
       "section": "Room 9",
       "text": {
-        "en": "In Legacy Mode, you need to stun him with a special attack."
+        "en": "In Legacy Mode, you need to stun him with a special attack.",
+        "es": "En el Modo Legado, necesitas aturdirlo con un ataque especial."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1230,51 +1156,56 @@
       ]
     },
     {
-      "index": 100,
+      "index": 77,
       "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Talk to TokHaar-Hok."
+        "en": "Talk to TokHaar-Hok.",
+        "es": "Habla con TokHaar-Hok."
       },
       "chatOptions": []
     },
     {
-      "index": 101,
+      "index": 78,
       "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Talk to Ga'al-Xox."
+        "en": "Talk to Ga'al-Xox.",
+        "es": "Habla con Ga'al-Xox."
       },
       "chatOptions": [
         "Any"
       ]
     },
     {
-      "index": 102,
+      "index": 79,
       "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Talk to Ga'al-Xox again."
+        "en": "Talk to Ga'al-Xox again.",
+        "es": "Habla de nuevo con Ga'al-Xox."
       },
       "chatOptions": [
         "5 Farewell."
       ]
     },
     {
-      "index": 103,
+      "index": 80,
       "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Return to the city through the door. Activate your communication orb."
+        "en": "Return to the city through the door. Activate your communication orb.",
+        "es": "Vuelve a la ciudad a través de la puerta. Activa tu orbe de comunicación."
       },
       "chatOptions": []
     },
     {
-      "index": 104,
+      "index": 81,
       "indent": 1,
       "section": "Finishing up",
       "text": {
-        "en": "If you have destroyed your communication orb, talk to either TzHaar-Mej-Ak or TzHaar-Mej-Jeh in the main plaza of TzHaar City."
+        "en": "If you have destroyed your communication orb, talk to either TzHaar-Mej-Ak or TzHaar-Mej-Jeh in the main plaza of TzHaar City.",
+        "es": "Si has destruido tu orbe de comunicación, habla con TzHaar-Mej-Ak o TzHaar-Mej-Jeh en la plaza principal de TzHaar City."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1284,22 +1215,24 @@
       ]
     },
     {
-      "index": 105,
+      "index": 82,
       "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Go back to the Fight Kiln entrance."
+        "en": "Go back to the Fight Kiln entrance.",
+        "es": "Vuelve a la entrada del Fight Kiln."
       },
       "chatOptions": [
         "1 'The Brink of Extinction'"
       ]
     },
     {
-      "index": 106,
+      "index": 83,
       "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "A cutscene ensues."
+        "en": "A cutscene ensues.",
+        "es": "Se produce una escena."
       },
       "chatOptions": [
         "1 I can't wait to battle the TokHaar.",
@@ -1307,11 +1240,12 @@
       ]
     },
     {
-      "index": 107,
+      "index": 84,
       "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Quest complete!"
+        "en": "Quest complete!",
+        "es": "¡Misión completada!"
       },
       "chatOptions": []
     }

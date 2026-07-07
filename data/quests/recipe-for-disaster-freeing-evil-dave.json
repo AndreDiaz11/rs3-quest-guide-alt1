@@ -3,7 +3,7 @@
   "title": "Recipe for Disaster: Freeing Evil Dave",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T00:54:25.877Z",
+  "guideLastUpdated": "2026-07-07T00:17:20.418Z",
   "icon": "https://runescape.wiki/images/Evil_Dave_icon.png",
   "entityIcon": null,
   "length": "Medium to Long",
@@ -230,21 +230,47 @@
     },
     {
       "index": 9,
-      "indent": 0,
+      "isTable": true,
       "section": "Freeing Evil Dave",
-      "text": {
-        "en": "! Brown spice ! Orange spice ! Red spice ! Yellow spice",
-        "es": "Tras determinar la combinación correcta, haz que Evil Dave lo pruebe y termina el diálogo. Esto no consumirá el stew."
-      },
-      "chatOptions": []
+      "table": {
+        "headers": [
+          "Spice type"
+        ],
+        "rows": [
+          [
+            "Brown spice",
+            "Orange spice",
+            "Red spice",
+            "Yellow spice"
+          ],
+          [
+            "1 brown",
+            "1 orange",
+            "1 red",
+            "1 yellow"
+          ],
+          [
+            "2 brown",
+            "2 orange",
+            "2 red",
+            "2 yellow"
+          ],
+          [
+            "3 brown",
+            "3 orange",
+            "3 red",
+            "3 yellow"
+          ]
+        ]
+      }
     },
     {
       "index": 10,
       "indent": 0,
       "section": "Freeing Evil Dave",
       "text": {
-        "en": "1 brown |1 orange |1 red |1 yellow",
-        "es": "Dirígete a Lumbridge y dale el stew a Evil Dave."
+        "en": "After determining the right combination, have Evil Dave taste it and finish the dialogue. This won't consume the stew.",
+        "es": "Tras determinar la combinación correcta, haz que Evil Dave lo pruebe y termina el diálogo. Esto no consumirá el stew."
       },
       "chatOptions": []
     },
@@ -253,35 +279,8 @@
       "indent": 0,
       "section": "Freeing Evil Dave",
       "text": {
-        "en": "2 brown |2 orange |2 red |2 yellow",
-        "es": "¡Submisión completada!"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 12,
-      "indent": 0,
-      "section": "Freeing Evil Dave",
-      "text": {
-        "en": "3 brown |3 orange |3 red |3 yellow"
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 13,
-      "indent": 0,
-      "section": "Freeing Evil Dave",
-      "text": {
-        "en": "After determining the right combination, have Evil Dave taste it and finish the dialogue. This won't consume the stew."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 14,
-      "indent": 0,
-      "section": "Freeing Evil Dave",
-      "text": {
-        "en": "Head to Lumbridge and give Evil Dave the stew."
+        "en": "Head to Lumbridge and give Evil Dave the stew.",
+        "es": "Dirígete a Lumbridge y dale el stew a Evil Dave."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -289,11 +288,12 @@
       ]
     },
     {
-      "index": 15,
+      "index": 12,
       "indent": 0,
       "section": "Freeing Evil Dave",
       "text": {
-        "en": "Subquest complete!"
+        "en": "Subquest complete!",
+        "es": "¡Submisión completada!"
       },
       "chatOptions": []
     }
