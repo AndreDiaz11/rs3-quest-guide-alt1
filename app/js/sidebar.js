@@ -181,49 +181,71 @@ function syncFilterBarLanguage(filterBarEl) {
   });
 }
 
-// RuneMetrics tracks these 20 entries (so they must stay in the dataset for
-// completion-sync purposes), but they're tutorials, lore vignettes, or
-// episodic saga sub-chapters that give 0 quest points and that RS3's own
-// in-game quest journal doesn't count as a real "Quest"/"Miniquest" in its
-// own totals (confirmed: our raw total of 362 vs the game's own "showing all
-// 331 items" narrows to a ~3-entry gap once these + seasonal + removed
-// content are excluded). Kept as a fixed id list here (not a dataset field)
-// since it's a display-only classification, not something re-scraping needs
-// to know about.
-const NON_CANONICAL_IDS = new Set([
-  "aftermath",
-  "anachronia-base-camp-tutorial",
-  "battle-of-the-monolith",
-  "desperate-creatures",
-  "eye-of-het-i",
-  "eye-of-het-ii",
-  "mogre-lore-activity",
+// Verified directly against a complete real-client screenshot (all 331 items,
+// every letter A-Z) rather than guessed — every ID below was individually
+// confirmed ABSENT from that list. Three different reasons:
+//
+// 1. Hub sub-quests (23): RS3 collapses each saga's sub-quests into the ONE
+//    hub row (e.g. Recipe for Disaster's 10 "Freeing X" sub-quests don't get
+//    their own row — only "Recipe for Disaster" itself does). The hub quest
+//    ID itself (recipe-for-disaster, dimension-of-disaster, etc.) is NOT in
+//    this list — it's a real, separately-shown row.
+// 2. Genuinely unavailable (5): tutorials, a lore vignette, and a
+//    since-removed quest that isn't re-completable.
+// 3. Seasonal quests still gated to their original event (8): confirmed by
+//    name against the real list — NOT simply "any incomplete seasonal quest"
+//    (Myths of the White Lands/Swept Away/Violet is Blue/Violet is Blue Too
+//    are seasonal too but DO show up, meaning Jagex has since made them
+//    permanently available). No scraped field distinguishes this, so it's a
+//    hand-verified list; a NEWLY added seasonal quest would need the same
+//    manual check against a real screenshot before being added here.
+const HIDDEN_FROM_PANEL_IDS = new Set([
+  // Dimension of Disaster sub-quests
+  "dimension-of-disaster-coin-of-the-realm",
+  "dimension-of-disaster-curse-of-arrav",
+  "dimension-of-disaster-defender-of-varrock",
+  "dimension-of-disaster-demon-slayer",
+  "dimension-of-disaster-shield-of-arrav",
+  // Once Upon a Time in Gielinor chapters
   "once-upon-a-time-in-gielinor-finale",
   "once-upon-a-time-in-gielinor-flashback",
   "once-upon-a-time-in-gielinor-foreshadowing",
   "once-upon-a-time-in-gielinor-fortunes",
-  "player-owned-farm-tutorial",
-  "raksha-the-shadow-colossus-quest",
-  "recipe-for-disaster",
-  "sins-of-the-father",
+  // Recipe for Disaster sub-quests
+  "recipe-for-disaster-another-cook-s-quest",
+  "recipe-for-disaster-defeating-the-culinaromancer",
+  "recipe-for-disaster-freeing-evil-dave",
+  "recipe-for-disaster-freeing-king-awowogei",
+  "recipe-for-disaster-freeing-pirate-pete",
+  "recipe-for-disaster-freeing-sir-amik-varze",
+  "recipe-for-disaster-freeing-skrach-uglogwee",
+  "recipe-for-disaster-freeing-the-goblin-generals",
+  "recipe-for-disaster-freeing-the-lumbridge-sage",
+  "recipe-for-disaster-freeing-the-mountain-dwarf",
+  // That Old Black Magic chapters
   "that-old-black-magic-flesh-and-bone",
   "that-old-black-magic-hermy-and-bass",
   "that-old-black-magic-my-one-and-only-lute",
   "that-old-black-magic-skelly-by-everlight",
-  "the-vault-of-shadows",
+  // Genuinely unavailable/non-playable
+  "anachronia-base-camp-tutorial",
+  "mogre-lore-activity",
+  "player-owned-farm-tutorial",
+  "unstable-foundations",
+  "tales-of-pride",
+  // Seasonal quests still gated to their original event
+  "a-christmas-reunion",
+  "cold-front",
+  "corporate-egg-spionage",
+  "field-of-screams",
+  "great-egg-spectations",
+  "guilded-eggstravaganza",
+  "guys-and-dolls",
+  "it-s-snow-bother",
 ]);
 
-// RS3's own quest list also excludes every CURRENTLY-EXISTING seasonal quest
-// entirely from its own total, all the time — not just while its event is
-// inactive (verified: 342 non-canonical quests minus these 11 non-removed
-// seasonal ones = exactly 331, matching the real client's own "Showing all
-// 331 items" count). A seasonal quest that's since been removed from the
-// game (e.g. Guilded Eggstravaganza) is NOT excluded by this rule — it
-// behaves like ordinary legacy content, kept only for its historical QP.
 function isRs3Countable(quest) {
-  if (NON_CANONICAL_IDS.has(quest.id)) return false;
-  if (quest.isSeasonal && !quest.removedDate) return false;
-  return true;
+  return !HIDDEN_FROM_PANEL_IDS.has(quest.id);
 }
 
 function renderCounter(container) {
@@ -286,12 +308,23 @@ function rowVisual(quest) {
  * ("The"/"A") moves to the end after a comma (e.g. "The Elder Kiln" ->
  * "Elder Kiln, The", "A Clockwork Syringe" -> "Clockwork Syringe, A"), so it
  * alphabetizes under "E"/"C" instead of cluttering the top of the list under
- * "T"/"A". Display/sort only — the wiki-sourced title elsewhere (detail
- * header) keeps its natural "The X"/"A X" form.
+ * "T"/"A". A trailing "(miniquest)"/"(saga)" tag must stay AFTER the moved
+ * article, not get swallowed into the moved text (confirmed against the real
+ * client: "The Curse of Zaros (miniquest)" -> "Curse of Zaros, The
+ * (miniquest)", not "Curse of Zaros (miniquest), The"). A bare wiki
+ * disambiguation suffix — "(quest)", used only to disambiguate the article
+ * title from an unrelated same-named wiki page — isn't shown by RS3 at all,
+ * so it's dropped entirely rather than kept. Display/sort only — the
+ * wiki-sourced title elsewhere (detail header) keeps its natural form.
  */
 function rs3DisplayTitle(title) {
-  const match = title.match(/^(The|A)\s+(.+)$/);
-  return match ? `${match[2]}, ${match[1]}` : title;
+  const suffixMatch = title.match(/^(.*?)(\s*\([^)]+\))$/);
+  const core = suffixMatch ? suffixMatch[1] : title;
+  const suffix = suffixMatch ? suffixMatch[2].trim() : "";
+  const match = core.match(/^(The|A)\s+(.+)$/);
+  const transformedCore = match ? `${match[2]}, ${match[1]}` : core;
+  if (suffix === "(quest)") return transformedCore;
+  return suffix ? `${transformedCore} ${suffix}` : transformedCore;
 }
 
 /**

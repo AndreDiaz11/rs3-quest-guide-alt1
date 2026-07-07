@@ -1,0 +1,598 @@
+{
+  "id": "vengeance-saga",
+  "title": "Vengeance (saga)",
+  "isMiniquest": false,
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-07T21:23:06.249Z",
+  "icon": "https://runescape.wiki/images/thumb/Vengeance_%28saga%29_icon.png/50px-Vengeance_%28saga%29_icon.png",
+  "entityIcon": null,
+  "series": "Fremennik Sagas",
+  "seriesNth": "2",
+  "age": "5",
+  "timeline": "champion",
+  "members": true,
+  "voiceOver": false,
+  "combatLevel": "110-119",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "1 June 2011",
+  "area": "Daemonheim",
+  "startPoint": {
+    "en": "Find a collection of swords while raiding the 12-17 abandoned floors of Daemonheim, then ask Skaldrun south-west of the Daemonheim entrance to share their story."
+  },
+  "requirements": {
+    "quests": [
+      {
+        "title": "Find and free Skaldrun from the frozen floors in Daemonheim",
+        "matchTitle": "Skaldrun"
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Dungeoneering",
+        "level": 23
+      }
+    ]
+  },
+  "followsEvents": [],
+  "items": [
+    {
+      "name": "Ring of kinship",
+      "display": "Ring of kinship to find the collection of swords",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_kinship_detail.png/100px-Ring_of_kinship_detail.png?c5491"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Persistent Rage",
+      "display": "Persistent Rage relic power, for quick and unlimited healing with Regenerate",
+      "image": "https://runescape.wiki/images/thumb/Persistent_Rage.png/100px-Persistent_Rage.png?71276"
+    }
+  ],
+  "kills": [
+    "4 Forgotten warriors (level 105)",
+    "Lotheria Seldorina (level 105)",
+    "Ican Haz (level 105)",
+    "Lola Wut (level 98)",
+    "Kay Thanxby (level 112)"
+  ],
+  "rewards": [
+    {
+      "type": "xp",
+      "skill": "Dungeoneering",
+      "amount": 2410,
+      "display": "2,410 experience",
+      "image": "https://runescape.wiki/images/Dungeoneering-icon.png?ed8da"
+    },
+    {
+      "type": "item",
+      "name": "Dungeoneering token",
+      "display": "241 Dungeoneering tokens",
+      "image": "https://runescape.wiki/images/thumb/Lost_tokens_detail.png/100px-Lost_tokens_detail.png?4c897"
+    },
+    {
+      "type": "xp",
+      "skill": "Agility",
+      "amount": 25415,
+      "display": "25,415 experience or 25,415 experience (having bonus experience in either skill will be used)",
+      "image": "https://runescape.wiki/images/Agility-icon.png?9a56e"
+    }
+  ],
+  "rewardBannerImage": "https://runescape.wiki/images/Vengeance_%28saga%29_reward.png?a674f",
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "section": "Beginning of the story",
+      "text": {
+        "en": "Find a collection of swords while raiding the 12-17 abandoned floors of Daemonheim, and recover memory of them."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "collection of swords",
+        "Daemonheim"
+      ]
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "section": "Beginning of the story",
+      "text": {
+        "en": "Talk to Skaldrun and ask him to tell you a story."
+      },
+      "chatOptions": [
+        "1 Forgot what he says here",
+        "1 Tell me a story"
+      ],
+      "highlightTerms": [
+        "Skaldrun"
+      ]
+    },
+    {
+      "index": 2,
+      "indent": 1,
+      "section": "Beginning of the story",
+      "text": {
+        "en": "You need to bank everything, including the ring of kinship."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "ring of kinship"
+      ]
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "section": "Starting room",
+      "text": {
+        "en": "Head south through the door and kill all 4 Forgotten warriors."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "As Vengeance (a forgotten warrior) head back to the starting room and talk to Orin."
+      },
+      "chatOptions": [
+        "2 Give Orin the fish, he needs it more than you do."
+      ],
+      "highlightTerms": [
+        "Orin"
+      ]
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Continue south, unlock and open the silver crescent door with the newly acquired key."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Head inside and kill Lotheria Seldorina."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Lotheria Seldorina"
+      ]
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Pick up the food and Lotheria's ring of kinship."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Solve the puzzle by flipping all the tiles to one colour. Right click the tiles to force change them."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Open the east door."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 10,
+      "indent": 1,
+      "section": "Vengeance",
+      "text": {
+        "en": "Optional: Kill both dungeon spiders for extra food."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Continue east through the door."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Kill Ican Haz and do not pull the lever."
+      },
+      "chatOptions": [],
+      "boldTerms": [
+        "do not"
+      ]
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Pick up the food, Icans ring of kinship and the blue triangle key."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Head back west, unlock the Blue triangle door and enter through it."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Kill the hellhounds for antipoison elixir and drink it, this will only temporarily stop the poison."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Continue north, kill the dungeon spider and talk to Argax."
+      },
+      "chatOptions": [
+        "1 Let her die. She's earned her rest."
+      ],
+      "highlightTerms": [
+        "Argax"
+      ]
+    },
+    {
+      "index": 17,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Continue east and then south to reach a lever room."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Pull all five levers within the time limit and continue east then north."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 19,
+      "indent": 1,
+      "section": "Vengeance",
+      "text": {
+        "en": "Optional: Kill the hellhound for more antipoison elixir or the dungeon spider for food."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Talk to Korel."
+      },
+      "chatOptions": [
+        "2 Let Korel go, he's learned his lesson."
+      ]
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Continue north and kill Lola Wut, pick up the crimson rectangle key, food and Lola's ring of kinship."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Continue through the west door."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Investigate Shianna's body then continue north and east."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Talk to Peleas."
+      },
+      "chatOptions": [
+        "1 Lie to him. Give him comfort at the end."
+      ]
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Head west, unlock and continue through the Crimson rectangle door and then continue once more west."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Attack and then show Kay Thanxby the corpses."
+      },
+      "chatOptions": [
+        "1 Confront Kay's lies, show her the corpses."
+      ]
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "section": "Starting room",
+      "text": {
+        "en": "Head south through the door and kill all 4 Forgotten warriors."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "As Vengeance (a forgotten warrior) head back to the starting room and talk to Orin."
+      },
+      "chatOptions": [
+        "1 Keep the fish, you need your strength."
+      ],
+      "highlightTerms": [
+        "Orin"
+      ]
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Continue south, unlock and open the silver crescent door with the newly acquired key."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Head inside and kill Lotheria Seldorina sneaking behind pillars."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Lotheria Seldorina"
+      ]
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Pick up the food and Lotheria's ring of kinship."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Solve the puzzle by flipping all the tiles to one colour."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Open the east door."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 34,
+      "indent": 1,
+      "section": "Vengeance",
+      "text": {
+        "en": "Optional: Kill both dungeon spiders for extra food."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Continue east through the door."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Pull the lever, this summons a horde of skeletons to kill Ican Haz."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Pick up the food, Icans ring of kinship and the Blue triangle key."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Head back west, unlock the Blue triangle door and enter through it."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Kill the hellhounds for antipoison exlir and drink it, this is only temporarily stop the poison."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Continue north, kill the dungeon spider and talk to Argax."
+      },
+      "chatOptions": [
+        "2 Keep her awake. She has to fight for life."
+      ],
+      "highlightTerms": [
+        "Argax"
+      ]
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Continue east and then south to reach a lever room."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Pull all five levers within the time limit and continue east then north."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 43,
+      "indent": 1,
+      "section": "Vengeance",
+      "text": {
+        "en": "Optional: Kill the hellhound for more antipoison exlir or the dungeon spider for food."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Talk to Korel."
+      },
+      "chatOptions": [
+        "1 Kill Korel, prevent him from harming again."
+      ]
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Continue north and search the table in the south east corner."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Head west and use the poison on the fishing spot, then continue north and east to gain visibility of all four rooms. Return to the starting room and wait for Lola to do a full rotation and eat the poisoned fish. This will damage her for 1999 lifepoints and head back to the room to kill Lola Wut for 1 lifepoint. Pick up the crimson rectangle key, food and Lola's ring of kinship."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Investigate Shianna's body in the south-western part of the room then continue north and east."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Talk to Peleas."
+      },
+      "chatOptions": [
+        "2 Tell him the truth. He must understand their brutality."
+      ]
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Head west, unlock and continue through the Crimson rectangle door and then continue once more west."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "section": "Vengeance",
+      "text": {
+        "en": "Kill Kay Thanxby."
+      },
+      "chatOptions": [
+        "4 Make her suffer."
+      ]
+    }
+  ]
+}

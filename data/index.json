@@ -1,6 +1,6 @@
 {
   "datasetVersion": "2026-07-07",
-  "lastUpdated": "2026-07-07T19:26:42.934Z",
+  "lastUpdated": "2026-07-07T21:23:06.581Z",
   "quests": [
     {
       "id": "hermit-permits",
@@ -14197,6 +14197,121 @@
       "requirements": {
         "quests": [],
         "skills": []
+      }
+    },
+    {
+      "id": "nadir-saga",
+      "title": "Nadir (saga)",
+      "isMiniquest": false,
+      "isSeasonal": false,
+      "members": true,
+      "length": "Medium",
+      "questPoints": 0,
+      "requirements": {
+        "quests": [
+          {
+            "title": "Find and free Skaldrun from the frozen floors in Daemonheim",
+            "matchTitle": "Skaldrun"
+          }
+        ],
+        "skills": [
+          {
+            "skill": "Dungeoneering",
+            "level": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": "thok-it-to-em-saga",
+      "title": "Thok It To 'Em (saga)",
+      "isMiniquest": false,
+      "isSeasonal": false,
+      "members": true,
+      "length": "Medium",
+      "questPoints": 0,
+      "requirements": {
+        "quests": [
+          {
+            "title": "Find and free Skaldrun from the frozen floors in Daemonheim",
+            "matchTitle": "Skaldrun"
+          }
+        ],
+        "skills": [
+          {
+            "skill": "Dungeoneering",
+            "level": 59
+          }
+        ]
+      }
+    },
+    {
+      "id": "thok-your-block-off-saga",
+      "title": "Thok Your Block Off (saga)",
+      "isMiniquest": false,
+      "isSeasonal": false,
+      "members": true,
+      "length": "Medium",
+      "questPoints": 0,
+      "requirements": {
+        "quests": [
+          {
+            "title": "Find and free Skaldrun from the frozen floors in Daemonheim",
+            "matchTitle": "Skaldrun"
+          }
+        ],
+        "skills": [
+          {
+            "skill": "Dungeoneering",
+            "level": 71
+          }
+        ]
+      }
+    },
+    {
+      "id": "three-s-company-saga",
+      "title": "Three's Company (saga)",
+      "isMiniquest": false,
+      "isSeasonal": false,
+      "members": false,
+      "length": "Medium",
+      "questPoints": 0,
+      "requirements": {
+        "quests": [
+          {
+            "title": "Find and free Skaldrun from the frozen floors in Daemonheim",
+            "matchTitle": "Skaldrun"
+          }
+        ],
+        "skills": [
+          {
+            "skill": "Dungeoneering",
+            "level": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "vengeance-saga",
+      "title": "Vengeance (saga)",
+      "isMiniquest": false,
+      "isSeasonal": false,
+      "members": true,
+      "length": "Medium",
+      "questPoints": 0,
+      "requirements": {
+        "quests": [
+          {
+            "title": "Find and free Skaldrun from the frozen floors in Daemonheim",
+            "matchTitle": "Skaldrun"
+          }
+        ],
+        "skills": [
+          {
+            "skill": "Dungeoneering",
+            "level": 23
+          }
+        ]
       }
     }
   ]

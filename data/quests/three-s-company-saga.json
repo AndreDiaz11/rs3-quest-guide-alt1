@@ -1,0 +1,603 @@
+{
+  "id": "three-s-company-saga",
+  "title": "Three's Company (saga)",
+  "isMiniquest": false,
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-07-07T21:23:05.956Z",
+  "icon": "https://runescape.wiki/images/thumb/Three%27s_Company_%28saga%29_icon.png/50px-Three%27s_Company_%28saga%29_icon.png",
+  "entityIcon": null,
+  "series": "Fremennik Sagas",
+  "seriesNth": "1",
+  "age": "5",
+  "timeline": "champion",
+  "members": false,
+  "voiceOver": false,
+  "combatLevel": "50-59",
+  "difficulty": "Intermediate",
+  "length": "Medium",
+  "releaseDate": "1 June 2011",
+  "area": "Daemonheim",
+  "startPoint": {
+    "en": "Find a bear pelt while raiding the 1-11 frozen floors of Daemonheim, then ask Skaldrun south-west of the Daemonheim entrance to share their story."
+  },
+  "requirements": {
+    "quests": [
+      {
+        "title": "Find and free Skaldrun from the frozen floors in Daemonheim",
+        "matchTitle": "Skaldrun"
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Dungeoneering",
+        "level": 6
+      }
+    ]
+  },
+  "followsEvents": [],
+  "items": [
+    {
+      "name": "Ring of kinship",
+      "display": "Ring of kinship to find the bear pelt",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_kinship_detail.png/100px-Ring_of_kinship_detail.png?c5491"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Persistent Rage",
+      "display": "Persistent Rage relic power, for quick and unlimited healing with Regenerate",
+      "image": "https://runescape.wiki/images/thumb/Persistent_Rage.png/100px-Persistent_Rage.png?71276"
+    }
+  ],
+  "kills": [
+    "Several wolves (level 35)",
+    "Several bandit warriors (level 35)",
+    "Several bandit rangers (level 35)",
+    "Several mysterious shades (level 35)",
+    "2 Arctic bears (level 35)",
+    "Carn (level 38)"
+  ],
+  "rewards": [
+    {
+      "type": "xp",
+      "skill": "Dungeoneering",
+      "amount": 750,
+      "display": "750 Dungeoneering experience",
+      "image": "https://runescape.wiki/images/Dungeoneering-icon.png?ed8da"
+    },
+    {
+      "type": "item",
+      "name": "Dungeoneering token",
+      "display": "75 Dungeoneering tokens",
+      "image": "https://runescape.wiki/images/thumb/Lost_tokens_detail.png/100px-Lost_tokens_detail.png?4c897"
+    },
+    {
+      "type": "xp",
+      "skill": "Attack",
+      "amount": 3750,
+      "display": "3,750 experience in Attack, Ranged or Magic.",
+      "image": "https://runescape.wiki/images/Attack-icon.png?93d2b"
+    }
+  ],
+  "rewardBannerImage": "https://runescape.wiki/images/Three%27s_Company_%28saga%29_reward.png?0a8a2",
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "section": "Starting room",
+      "text": {
+        "en": "Head to Daemonheim and bank everything, including your ring of kinship."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Daemonheim",
+        "ring of kinship"
+      ]
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "section": "Starting room",
+      "text": {
+        "en": "Right-click choose start saga on Skaldrun, choose the first option then Play Saga."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Skaldrun"
+      ]
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "section": "Starting room",
+      "text": {
+        "en": "Control Ariane, pick up the dusk eels from the tables."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 3,
+      "indent": 0,
+      "section": "Guardian room #1",
+      "text": {
+        "en": "As Ariane, enter the south door, kill all the enemies and pick up the dusk eels."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 4,
+      "indent": 0,
+      "section": "Guardian room #1",
+      "text": {
+        "en": "Pick up the gold charm and heim crabs but do not eat them."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 5,
+      "indent": 0,
+      "section": "Guardian room #1",
+      "text": {
+        "en": "Control Sir Owen and check the rocky debris for a novite ore."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 6,
+      "indent": 0,
+      "section": "Guardian room #1",
+      "text": {
+        "en": "Enter the south door."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "section": "Ice puzzle room",
+      "text": {
+        "en": "Control Ozan and unlock the door by stepping on each of the 4 pressure plates."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 8,
+      "indent": 1,
+      "section": "Ice puzzle room",
+      "text": {
+        "en": "The puzzle is different for everyone and every time."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 9,
+      "indent": 1,
+      "section": "Ice puzzle room",
+      "text": {
+        "en": "You can slide diagonally."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "section": "Ice puzzle room",
+      "text": {
+        "en": "Open the east door."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "section": "Ice puzzle room",
+      "text": {
+        "en": "Quickly switch to Ariane once in the next room."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "section": "Bridge room",
+      "text": {
+        "en": "As Ariane, kill all the enemies."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 13,
+      "indent": 0,
+      "section": "Bridge room",
+      "text": {
+        "en": "As Ariane, make a cub skinweaver by using the gold charm on the summoning obelisk."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 14,
+      "indent": 0,
+      "section": "Bridge room",
+      "text": {
+        "en": "As Ariane, talk to the cub skinweaver."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "section": "Bridge room",
+      "text": {
+        "en": "Enter the east door."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "section": "Tile flip room",
+      "text": {
+        "en": "As Ariane, flip all tiles until all yellow or green."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 17,
+      "indent": 1,
+      "section": "Tile flip room",
+      "text": {
+        "en": "You can right click \"force\" to flip individual tiles."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 18,
+      "indent": 0,
+      "section": "Mysterious shade room",
+      "text": {
+        "en": "As Ariane, enter the north door, quickly pick up the green rectangle key, and exit the room."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 19,
+      "indent": 0,
+      "section": "Mysterious shade room",
+      "text": {
+        "en": "Switch to Ozan and return to the starting room without teleporting (west, west, north, north)."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 20,
+      "indent": 1,
+      "section": "Mysterious shade room",
+      "text": {
+        "en": "There is currently a bug where if you use Home Teleport, it will turn the character you are currently controlling into your player character and you'll no longer be able to switch to other characters or continue on. You'll be forced to restart the Saga from last checkpoint."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "section": "Magic imbue room",
+      "text": {
+        "en": "Switch to Ariane."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "section": "Magic imbue room",
+      "text": {
+        "en": "Unlock the green rectangle door and enter."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "section": "Magic imbue room",
+      "text": {
+        "en": "\"Wait\" on each of the pressure pads for Owen and Ozan."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "section": "Magic imbue room",
+      "text": {
+        "en": "Enter the south door."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "section": "Strange crystal room",
+      "text": {
+        "en": "Take the crimson triangle key."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "section": "Strange crystal room",
+      "text": {
+        "en": "Right-click \"Get-premonition\" on any strange crystal."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "section": "Strange crystal room",
+      "text": {
+        "en": "Touch the following crystals in order:"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 28,
+      "isSelectableList": true,
+      "section": "Strange crystal room",
+      "items": [
+        {
+          "text": {
+            "en": "2× West blue (Northernmost)"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "North green (Westernmost)"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "West green (Southernmost)"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "South yellow (Westernmost)"
+          },
+          "chatOptions": []
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "section": "Strange crystal room",
+      "text": {
+        "en": "Enter the north door."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "section": "Strange crystal room",
+      "text": {
+        "en": "Right-click call Owen and Ozan to walk them off the pressure plates."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "section": "Strange crystal room",
+      "text": {
+        "en": "Enter the west door."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "section": "Strange crystal room",
+      "text": {
+        "en": "As Ariane, unlock the crimson triangle door and enter it."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 33,
+      "indent": 0,
+      "section": "Guardian room #2",
+      "text": {
+        "en": "As Ariane, kill all the enemies and pick up the dusk eels."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 34,
+      "indent": 0,
+      "section": "Guardian room #2",
+      "text": {
+        "en": "Control Ozan, and enter the east door."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "section": "Door guard room",
+      "text": {
+        "en": "As Ozan, talk to the guard."
+      },
+      "chatOptions": [
+        "1 [Charm] What are you guarding?",
+        "2 Isn't guarding a door in these dungeons a little...redundant?",
+        "1 Who put you up to guarding the door?",
+        "2 Why are you bothering to guard it?"
+      ]
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "section": "Door guard room",
+      "text": {
+        "en": "Enter the east door."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 37,
+      "indent": 0,
+      "section": "Statue puzzle room",
+      "text": {
+        "en": "Control Owen and push the statues into place."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 38,
+      "indent": 1,
+      "section": "Statue puzzle room",
+      "text": {
+        "en": "The four southern statues should match the position of the statues in the north."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "section": "Pickaxe room",
+      "text": {
+        "en": "Enter the east door and pick up the fractite pickaxe."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "section": "Pickaxe room",
+      "text": {
+        "en": "Return west to the guard room and mine the zephyrium rock hidden behind the northwest pillar."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "section": "Pickaxe room",
+      "text": {
+        "en": "Return east to the statue room."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "section": "Agility room",
+      "text": {
+        "en": "Control Ozan and enter the northern door."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "section": "Agility room",
+      "text": {
+        "en": "Proceed through the traps and investigate the broken longsword."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "section": "Agility room",
+      "text": {
+        "en": "Control Ariane and return to the previous room."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "section": "Guardian room #3",
+      "text": {
+        "en": "Enter the southern door, kill the enemies and pick up the dusk eel."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "section": "Guardian room #3",
+      "text": {
+        "en": "Enter the east door and pick up the gold crescent key."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "section": "Guardian room #3",
+      "text": {
+        "en": "Talk to Pikkupstix (in the northwest corner of the room)."
+      },
+      "chatOptions": [
+        "4 [Leave]"
+      ]
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "section": "Guardian room #3",
+      "text": {
+        "en": "Return to the room north of the starting room without teleporting (west, north, west, west)."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "section": "Guardian room #3",
+      "text": {
+        "en": "Unlock the gold crescent door north of the starting room."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "section": "Confronting Carn",
+      "text": {
+        "en": "Enter the room and continue through the dialogue."
+      },
+      "chatOptions": [
+        "1 Sir Owen",
+        "2 Ozan",
+        "3 Ariane"
+      ]
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "section": "Confronting Carn",
+      "text": {
+        "en": "Kill the two arctic bears and then kill Carn."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 52,
+      "indent": 0,
+      "section": "Confronting Carn",
+      "text": {
+        "en": "Once he is killed, choose any chat option."
+      },
+      "chatOptions": []
+    }
+  ]
+}

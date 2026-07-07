@@ -41,12 +41,6 @@ const HUB_QUEST_NOTE = {
   es: "Esta misión es un resumen que agrupa varias sub-misiones, cada una ya listada por separado en esta app con su propia guía paso a paso. No existe una guía única para la misión en sí — consulta la página del wiki para ver el resumen completo.",
 };
 
-// Sagas (Fremennik Sagas) are a separate game mode, not tracked in the Quest
-// Journal / RuneMetrics quest list and give no quest points — exclude entirely.
-function isSagaTitle(title) {
-  return /\(saga\)$/i.test(title);
-}
-
 // Deleted-content quests are excluded by default (see isNonPlayableContent
 // below) since most are old pre-rework leftovers with no real QP of their
 // own. Unstable Foundations is the one deliberate exception: RuneScape's own
@@ -75,10 +69,6 @@ function isNonPlayableContent(title, mainWikitext) {
 }
 
 export async function scrapeOne(title, { skipTranslate }, seasonalTitles) {
-  if (isSagaTitle(title)) {
-    throw new Error("Es una Saga (Fremennik Sagas), no una misión normal — excluida a propósito.");
-  }
-
   const page = await fetchQuestPage(title);
 
   if (isNonPlayableContent(title, page.mainWikitext)) {
