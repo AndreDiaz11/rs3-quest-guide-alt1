@@ -209,6 +209,19 @@ const NON_CANONICAL_IDS = new Set([
   "the-vault-of-shadows",
 ]);
 
+// RS3's own quest list also excludes every CURRENTLY-EXISTING seasonal quest
+// entirely from its own total, all the time — not just while its event is
+// inactive (verified: 342 non-canonical quests minus these 11 non-removed
+// seasonal ones = exactly 331, matching the real client's own "Showing all
+// 331 items" count). A seasonal quest that's since been removed from the
+// game (e.g. Guilded Eggstravaganza) is NOT excluded by this rule — it
+// behaves like ordinary legacy content, kept only for its historical QP.
+function isRs3Countable(quest) {
+  if (NON_CANONICAL_IDS.has(quest.id)) return false;
+  if (quest.isSeasonal && !quest.removedDate) return false;
+  return true;
+}
+
 function renderCounter(container) {
   const logoEl = container.querySelector("#counter-logo");
   if (logoEl && !logoEl.innerHTML) logoEl.innerHTML = compassIcon();
@@ -239,7 +252,7 @@ function renderCounter(container) {
   // points) — a quest can be worth 0-10+ QP, so the points count alone
   // doesn't tell you how many quests as such are actually left.
   if (questsTextEl) {
-    const allEntries = state.index.quests.filter((q) => !NON_CANONICAL_IDS.has(q.id));
+    const allEntries = state.index.quests.filter(isRs3Countable);
     const totalCount = allEntries.length;
     const doneCount = allEntries.filter((q) => questStatus(q.id) === "COMPLETED").length;
     const remainingCount = totalCount - doneCount;
@@ -310,13 +323,12 @@ function renderList(listEl, summaryEl, onSelect) {
   const visible = filterQuests(state.index.quests).sort(SORT_COMPARATORS[state.sortMode] || SORT_COMPARATORS.alphabetical);
 
   if (summaryEl) {
-    // The visible list itself still includes the ~20 non-canonical entries
-    // (tutorials/lore/saga sub-chapters) so their guides stay reachable, but
-    // this summary line counts the same way as the "quests completed"
-    // counter (see NON_CANONICAL_IDS above) — otherwise "Showing X of Y"
-    // could show X > Y.
-    const canonicalVisible = visible.filter((q) => !NON_CANONICAL_IDS.has(q.id)).length;
-    const total = state.index.quests.filter((q) => !NON_CANONICAL_IDS.has(q.id)).length;
+    // The visible list itself still includes non-canonical entries and
+    // seasonal quests (so their guides stay reachable), but this summary
+    // line counts the same way as the "quests completed" counter (see
+    // isRs3Countable above) — otherwise "Showing X of Y" could show X > Y.
+    const canonicalVisible = visible.filter(isRs3Countable).length;
+    const total = state.index.quests.filter(isRs3Countable).length;
     summaryEl.textContent = t("showingSummary", canonicalVisible, total);
   }
 

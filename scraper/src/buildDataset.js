@@ -268,6 +268,7 @@ export async function buildQuestRecord({
     members: metadata.members,
     length: metadata.length,
     questPoints,
+    ...(metadata.removedDate ? { removedDate: metadata.removedDate } : {}),
     // Kept as the FULL nested tree (not just top-level) for the sidebar's
     // "Show Locked" filter — the wiki's own requirement tree sometimes nests
     // a real, independent requirement one level under an unrelated quest
