@@ -73,18 +73,27 @@ const TIMELINE_ORDER = [
 ];
 const PROGRESS_ORDER = { NOT_STARTED: 0, STARTED: 1, COMPLETED: 2 };
 
+// Case-insensitive on BOTH sides — LENGTH_ORDER is written Title Case (to
+// double as its own group-header label further down) while the scraped data
+// itself is inconsistent; comparing lowercased-value against a
+// not-lowercased list silently failed to match anything, tying every quest
+// at the same "unknown" position (Length sort was a no-op before this fix).
 function orderIndex(list, value) {
   if (!value) return list.length;
-  const i = list.indexOf(String(value).toLowerCase());
+  const i = list.findIndex((item) => item.toLowerCase() === String(value).toLowerCase());
   return i === -1 ? list.length : i;
 }
 
-// combatLevel is scraped as a range string ("30-39") or "none"/null, not a
-// number — take the lower bound of the range for ordering, "none" first.
-function combatSortValue(level) {
-  if (!level || /none/i.test(level)) return 0;
+// combatLevel is scraped as a range string ("30-39"), "none"/"None"/null, or
+// "scaled" — normalized to one bucket per real category (a case-insensitive
+// "none"/"None"/missing mix must NOT fragment into separate header groups,
+// and "scaled" is a distinct real category that must not collide with
+// "none"'s sort position either).
+function combatBucket(level) {
+  if (!level || /^none$/i.test(level)) return { sortValue: -2, label: "None" };
+  if (/^scaled$/i.test(level)) return { sortValue: -1, label: "Scaled" };
   const match = String(level).match(/\d+/);
-  return match ? Number(match[0]) : 0;
+  return { sortValue: match ? Number(match[0]) : -2, label: level };
 }
 
 function seriesEarliestReleaseTime(seriesName) {
@@ -107,7 +116,7 @@ function alphabeticalSortKey(title) {
 
 const SORT_COMPARATORS = {
   alphabetical: (a, b) => alphabeticalSortKey(a.title).localeCompare(alphabeticalSortKey(b.title), "es"),
-  combat: (a, b) => combatSortValue(a.combatLevel) - combatSortValue(b.combatLevel),
+  combat: (a, b) => combatBucket(a.combatLevel).sortValue - combatBucket(b.combatLevel).sortValue,
   age: (a, b) => orderIndex(AGE_ORDER, a.age) - orderIndex(AGE_ORDER, b.age),
   members: (a, b) => Number(Boolean(a.members)) - Number(Boolean(b.members)),
   length: (a, b) => orderIndex(LENGTH_ORDER, a.length) - orderIndex(LENGTH_ORDER, b.length),
@@ -362,7 +371,7 @@ function groupLabel(quest, mode) {
       return key ? key.charAt(0).toUpperCase() : rs3DisplayTitle(quest.title).charAt(0);
     }
     case "combat":
-      return quest.combatLevel || "None";
+      return combatBucket(quest.combatLevel).label;
     case "age":
       return AGE_LABELS[String(quest.age).toLowerCase()] || "Unknown";
     case "members":
@@ -370,7 +379,10 @@ function groupLabel(quest, mode) {
     case "length":
       return quest.length || "Unknown";
     case "progress":
-      return { NOT_STARTED: "Not Started", STARTED: "In Progress", COMPLETED: "Completed" }[questStatus(quest.id)];
+      return (
+        { NOT_STARTED: "Not Started", STARTED: "In Progress", COMPLETED: "Completed" }[questStatus(quest.id)] ||
+        "Unknown"
+      );
     case "releaseDate":
       return quest.releaseDate ? String(new Date(quest.releaseDate).getFullYear()) : "Unknown";
     case "series":
