@@ -287,9 +287,9 @@ function rs3DisplayTitle(title) {
 
 /**
  * RS3's own quest list groups rows under a section heading matching the
- * current sort mode (e.g. "FIFTH AGE"/"SIXTH AGE", or a plain "A"/"C"
- * alphabet letter, or the release year) — same idea as the wiki-section
- * headings already used for step groups in detail.js.
+ * current sort mode (e.g. a plain "A"/"C" alphabet letter, or "Free"/
+ * "Members") — same idea as the wiki-section headings already used for step
+ * groups in detail.js.
  */
 function groupLabel(quest, mode) {
   switch (mode) {
@@ -364,7 +364,7 @@ function renderList(listEl, summaryEl, onSelect) {
 const initializedFilterBars = new WeakSet();
 const initializedHeaders = new WeakSet();
 
-/** Renders the sidebar: builds the search/chips bar once, then (re)renders the list + counter. */
+/** Renders the sidebar: builds the filter/sort bar once, then (re)renders the list + counter. */
 export function renderSidebar({ filterBarEl, listSummaryEl, listEl, counterEl }, onSelect) {
   if (!initializedFilterBars.has(filterBarEl)) {
     initializedFilterBars.add(filterBarEl);
