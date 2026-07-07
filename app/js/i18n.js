@@ -14,7 +14,6 @@ const STRINGS = {
     // inglés en ambos idiomas a propósito, igual que el juego real, para no
     // perder la esencia de la interfaz nativa (ver decisión previa con "Quest").
     filterBtnTitle: "Filter",
-    filterLocked: "Show Locked",
     filterCompleted: "Show Completed",
     filterQuests: "Show Quests",
     filterMiniquests: "Show Miniquests",
@@ -76,7 +75,6 @@ const STRINGS = {
   },
   en: {
     filterBtnTitle: "Filter",
-    filterLocked: "Show Locked",
     filterCompleted: "Show Completed",
     filterQuests: "Show Quests",
     filterMiniquests: "Show Miniquests",

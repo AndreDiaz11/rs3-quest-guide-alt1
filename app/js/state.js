@@ -5,14 +5,13 @@ export const state = {
   index: { datasetVersion: null, lastUpdated: null, quests: [] },
   runemetricsStatus: new Map(), // questId -> { status, userEligible }
   playerLevels: null, // { levelsBySkill: Map<string, number>, combatLevel } | null
-  // Matches RS3's own quest journal filter panel exactly (4 checkboxes, no
-  // search box): showQuest/showMiniquest gate by type (a quest with neither
-  // checked shows nothing, regardless of status); showLocked/showCompleted
-  // each add that specific status subset. "Available" (not locked, not
-  // completed) has no checkbox of its own — it's always shown whenever its
-  // type is checked, same as in-game.
+  // showQuest/showMiniquest gate by type (a quest with neither checked shows
+  // nothing); showCompleted adds completed ones on top. No separate "Locked"
+  // filter — no public API can verify a quest's non-quest requirements (a
+  // minigame/activity achievement), so guessing that status would sometimes
+  // be wrong. Anything not completed shows whenever its type is checked,
+  // whether it's actually startable right now or not.
   activeFilters: {
-    showLocked: true,
     showCompleted: true,
     showQuest: true,
     showMiniquest: true,
@@ -65,39 +64,4 @@ export function meetsQuestRequirement(requiredTitle) {
   const match = state.index.quests.find((q) => normalizeTitle(q.title) === normalized);
   if (!match) return null;
   return questStatus(match.id) === "COMPLETED";
-}
-
-/**
- * Whether a quest is currently "Locked" (RS3's own quest-journal sense: some
- * requirement isn't met yet), for the sidebar's "Show Locked" filter. Walks
- * every node of the requirement tree at every depth, not just the top level —
- * the wiki's own tree sometimes nests a real, independent requirement one
- * level under an unrelated quest (e.g. Pieces of Hate's "own a
- * player-owned house" nested under "A Clockwork Syringe") rather than always
- * meaning strict transitive implication.
- *
- * An unmet OR unknown/unverifiable skill or quest requirement anywhere in the
- * tree marks it locked. "Unknown" deliberately counts as locked, not
- * available: some quest requirements aren't a skill or another quest at all
- * but a minigame/activity achievement we have no data source for at all
- * (e.g. Nomad's Requiem's "Complete the Knight Waves in Camelot" and
- * "Complete the Soul Wars tutorial" — meetsQuestRequirement can never find
- * either in our quest dataset, so it always returns null) — showing those as
- * confidently "available" when we can't actually confirm it is more
- * misleading than the reverse, so any requirement we can't resolve degrades
- * to locked rather than being silently skipped.
- */
-export function isQuestLocked(quest) {
-  const skills = quest.requirements?.skills || [];
-  for (const req of skills) {
-    if (meetsSkillRequirement(req) !== true) return true;
-  }
-  const walk = (nodes) => {
-    for (const node of nodes || []) {
-      if (meetsQuestRequirement(node.matchTitle || node.title) !== true) return true;
-      if (node.children && walk(node.children)) return true;
-    }
-    return false;
-  };
-  return walk(quest.requirements?.quests);
 }

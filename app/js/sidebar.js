@@ -1,4 +1,4 @@
-import { state, questStatus, isSynced, isQuestLocked } from "./state.js";
+import { state, questStatus, isSynced } from "./state.js";
 import { t } from "./i18n.js";
 import {
   checkCircleIcon,
@@ -19,21 +19,15 @@ const STATUS_COLOR = {
 const MINIQUEST_COLOR = "var(--quest-miniquest)";
 const EVENT_COLOR = "var(--quest-event)";
 
-/**
- * RS3's own "Locked" status takes priority for filtering purposes: a quest
- * whose requirements aren't met is locked regardless of its RuneMetrics
- * status. "Available" (not locked, not completed — whether untouched or
- * in-progress) has no checkbox of its own in-game, so it isn't a real
- * bucket here either — it just passes the status check unconditionally.
- */
-function questStatusBucket(quest) {
-  if (isQuestLocked(quest)) return "locked";
-  if (questStatus(quest.id) === "COMPLETED") return "completed";
-  return "available";
-}
-
+// No public API can tell us whether a quest's non-quest/non-skill
+// requirements (a minigame or activity achievement, e.g. Nomad's Requiem's
+// "Complete the Knight Waves in Camelot") are actually met — confirmed even
+// the wiki's own quest-requirement checker has this exact same gap. Rather
+// than show a guessed, sometimes-wrong "Locked" status, there's no separate
+// Locked bucket at all: a type checkbox (Quest/Miniquest) shows everything
+// of that type that isn't completed, whether truly available or not.
 function filterQuests(quests) {
-  const { showQuest, showMiniquest, showLocked, showCompleted } = state.activeFilters;
+  const { showQuest, showMiniquest, showCompleted } = state.activeFilters;
   const typeVisible = { quest: showQuest, miniquest: showMiniquest };
   return quests.filter((q) => {
     // Matches the real client's panel exactly: non-canonical entries
@@ -41,10 +35,8 @@ function filterQuests(quests) {
     // quests never appear in RS3's own quest list at all, not just its count.
     if (!isRs3Countable(q)) return false;
     if (!typeVisible[q.isMiniquest ? "miniquest" : "quest"]) return false;
-    const bucket = questStatusBucket(q);
-    if (bucket === "locked") return showLocked;
-    if (bucket === "completed") return showCompleted;
-    return true; // "available" always shows once its type is checked
+    if (questStatus(q.id) === "COMPLETED") return showCompleted;
+    return true;
   });
 }
 
@@ -113,7 +105,6 @@ function buildFilterBar(container, onChange) {
   popover.id = "filter-popover";
   popover.hidden = true;
   const checkboxes = [
-    { key: "showLocked", labelKey: "filterLocked" },
     { key: "showCompleted", labelKey: "filterCompleted" },
     { key: "showQuest", labelKey: "filterQuests" },
     { key: "showMiniquest", labelKey: "filterMiniquests" },
