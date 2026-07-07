@@ -312,6 +312,13 @@ h1, h2, .app-title-font {
   min-width: 180px;
 }
 
+/* The `hidden` attribute's own `display: none` (an attribute selector, low
+   specificity) would otherwise lose to the `display: flex` above (an ID
+   selector) and never actually hide the popover — this rule must win. */
+#filter-popover[hidden] {
+  display: none;
+}
+
 .filter-popover-row {
   display: flex;
   align-items: center;
