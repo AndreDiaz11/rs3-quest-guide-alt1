@@ -223,6 +223,31 @@ h1, h2, .app-title-font {
   background: none;
 }
 
+#quest-list-summary {
+  padding: 4px 12px;
+  font-size: 0.78em;
+  color: var(--gold, #c9a227);
+  border-bottom: 1px solid var(--border);
+}
+
+#quest-list li.quest-list-section-header {
+  cursor: default;
+  padding: 8px 8px 2px;
+  margin-top: 4px;
+  font-family: "Cinzel", serif;
+  font-size: 0.82em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--gold-bright, #e8c766);
+}
+#quest-list li.quest-list-section-header:hover {
+  background: none;
+}
+#quest-list li.quest-list-section-header:first-child {
+  margin-top: 0;
+}
+
 #sidebar-filterbar {
   padding: 8px 12px;
   border-bottom: 1px solid var(--border);

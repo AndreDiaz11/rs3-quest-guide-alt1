@@ -10,6 +10,7 @@ import { state, questStatus } from "./state.js";
 import { t } from "./i18n.js";
 
 const filterBarEl = document.getElementById("sidebar-filterbar-slot");
+const listSummaryEl = document.getElementById("quest-list-summary");
 const listEl = document.getElementById("quest-list");
 const counterEl = document.getElementById("quest-counter");
 const detail = document.getElementById("detail");
@@ -104,7 +105,7 @@ setInterval(updateRefreshButtonState, 15000);
 sidebarBackdrop.addEventListener("click", () => setSidebarOpen(false));
 
 function refreshSidebar() {
-  renderSidebar({ filterBarEl, listEl, counterEl }, selectQuest);
+  renderSidebar({ filterBarEl, listSummaryEl, listEl, counterEl }, selectQuest);
 }
 
 async function selectQuest(id) {

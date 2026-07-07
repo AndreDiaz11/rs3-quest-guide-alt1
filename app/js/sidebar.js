@@ -304,8 +304,65 @@ function rs3DisplayTitle(title) {
   return match ? `${match[2]}, ${match[1]}` : title;
 }
 
-function renderList(listEl, onSelect) {
+const AGE_LABELS = { 5: "Fifth Age", 6: "Sixth Age", "age of chaos": "Age of Chaos", ambiguous: "Ambiguous" };
+const TIMELINE_LABELS = {
+  "age of chaos": "Age of Chaos",
+  adventurer: "Adventurer",
+  pathfinder: "Pathfinder",
+  champion: "Champion",
+  heroic: "Heroic",
+  legendary: "Legendary",
+  mythic: "Mythic",
+  "world guardian": "World Guardian",
+  seasonal: "Seasonal",
+};
+
+/**
+ * RS3's own quest list groups rows under a section heading matching the
+ * current sort mode (e.g. "FIFTH AGE"/"SIXTH AGE", or a plain "A"/"C"
+ * alphabet letter, or the release year) — same idea as the wiki-section
+ * headings already used for step groups in detail.js.
+ */
+function groupLabel(quest, mode) {
+  switch (mode) {
+    case "alphabetical":
+      return rs3DisplayTitle(quest.title).charAt(0).toUpperCase();
+    case "combat":
+      return quest.combatLevel || "None";
+    case "age":
+      return AGE_LABELS[String(quest.age).toLowerCase()] || "Unknown";
+    case "members":
+      return quest.members ? "Members" : "Free";
+    case "length":
+      return quest.length || "Unknown";
+    case "progress":
+      return { NOT_STARTED: "Not Started", STARTED: "In Progress", COMPLETED: "Completed" }[questStatus(quest.id)];
+    case "releaseDate":
+      return quest.releaseDate ? String(new Date(quest.releaseDate).getFullYear()) : "Unknown";
+    case "series":
+      return quest.series || "No Series";
+    case "startLocation":
+      return quest.startLocation || "Unknown";
+    case "timeline":
+      return TIMELINE_LABELS[String(quest.timeline).toLowerCase()] || "Unknown";
+    default:
+      return null;
+  }
+}
+
+function renderList(listEl, summaryEl, onSelect) {
   const visible = filterQuests(state.index.quests).sort(SORT_COMPARATORS[state.sortMode] || SORT_COMPARATORS.alphabetical);
+
+  if (summaryEl) {
+    // The visible list itself still includes the ~20 non-canonical entries
+    // (tutorials/lore/saga sub-chapters) so their guides stay reachable, but
+    // this summary line counts the same way as the "quests completed"
+    // counter (see NON_CANONICAL_IDS above) — otherwise "Showing X of Y"
+    // could show X > Y.
+    const canonicalVisible = visible.filter((q) => !NON_CANONICAL_IDS.has(q.id)).length;
+    const total = state.index.quests.filter((q) => !NON_CANONICAL_IDS.has(q.id)).length;
+    summaryEl.textContent = t("showingSummary", canonicalVisible, total);
+  }
 
   listEl.innerHTML = "";
   if (visible.length === 0) {
@@ -316,7 +373,17 @@ function renderList(listEl, onSelect) {
     return;
   }
 
+  let lastGroup = undefined;
   visible.forEach((quest) => {
+    const group = groupLabel(quest, state.sortMode);
+    if (group !== null && group !== lastGroup) {
+      const header = document.createElement("li");
+      header.className = "quest-list-section-header";
+      header.textContent = group;
+      listEl.appendChild(header);
+      lastGroup = group;
+    }
+
     const status = questStatus(quest.id);
     const { right } = rowVisual(quest);
     const li = document.createElement("li");
@@ -338,10 +405,10 @@ const initializedFilterBars = new WeakSet();
 const initializedHeaders = new WeakSet();
 
 /** Renders the sidebar: builds the search/chips bar once, then (re)renders the list + counter. */
-export function renderSidebar({ filterBarEl, listEl, counterEl }, onSelect) {
+export function renderSidebar({ filterBarEl, listSummaryEl, listEl, counterEl }, onSelect) {
   if (!initializedFilterBars.has(filterBarEl)) {
     initializedFilterBars.add(filterBarEl);
-    buildFilterBar(filterBarEl, () => renderSidebar({ filterBarEl, listEl, counterEl }, onSelect));
+    buildFilterBar(filterBarEl, () => renderSidebar({ filterBarEl, listSummaryEl, listEl, counterEl }, onSelect));
   }
   syncFilterBarLanguage(filterBarEl);
 
@@ -351,6 +418,6 @@ export function renderSidebar({ filterBarEl, listEl, counterEl }, onSelect) {
     headerLogo.innerHTML = compassIcon();
   }
 
-  renderList(listEl, onSelect);
+  renderList(listEl, listSummaryEl, onSelect);
   renderCounter(counterEl);
 }
