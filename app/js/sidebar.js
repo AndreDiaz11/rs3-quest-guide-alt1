@@ -346,8 +346,13 @@ const TIMELINE_LABELS = {
  */
 function groupLabel(quest, mode) {
   switch (mode) {
-    case "alphabetical":
-      return rs3DisplayTitle(quest.title).charAt(0).toUpperCase();
+    case "alphabetical": {
+      // The section header groups by the first LETTER, ignoring a leading
+      // apostrophe/quote (e.g. "'Phite Club" heads under "P", not "'") — the
+      // sort order itself is untouched, only this heading's own label.
+      const match = rs3DisplayTitle(quest.title).match(/[\p{L}\p{N}]/u);
+      return match ? match[0].toUpperCase() : rs3DisplayTitle(quest.title).charAt(0);
+    }
     case "combat":
       return quest.combatLevel || "None";
     case "age":
