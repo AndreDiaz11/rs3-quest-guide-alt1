@@ -1,7 +1,6 @@
 import { state, questStatus, isSynced } from "./state.js";
 import { t } from "./i18n.js";
 import {
-  diamondIcon,
   checkCircleIcon,
   clockCircleIcon,
   xCircleIcon,
@@ -116,6 +115,38 @@ function syncFilterBarLanguage(filterBarEl) {
   if (search) search.placeholder = t("searchPlaceholder");
 }
 
+// RuneMetrics tracks these 20 entries (so they must stay in the dataset for
+// completion-sync purposes), but they're tutorials, lore vignettes, or
+// episodic saga sub-chapters that give 0 quest points and that RS3's own
+// in-game quest journal doesn't count as a real "Quest"/"Miniquest" in its
+// own totals (confirmed: our raw total of 362 vs the game's own "showing all
+// 331 items" narrows to a ~3-entry gap once these + seasonal + removed
+// content are excluded). Kept as a fixed id list here (not a dataset field)
+// since it's a display-only classification, not something re-scraping needs
+// to know about.
+const NON_CANONICAL_IDS = new Set([
+  "aftermath",
+  "anachronia-base-camp-tutorial",
+  "battle-of-the-monolith",
+  "desperate-creatures",
+  "eye-of-het-i",
+  "eye-of-het-ii",
+  "mogre-lore-activity",
+  "once-upon-a-time-in-gielinor-finale",
+  "once-upon-a-time-in-gielinor-flashback",
+  "once-upon-a-time-in-gielinor-foreshadowing",
+  "once-upon-a-time-in-gielinor-fortunes",
+  "player-owned-farm-tutorial",
+  "raksha-the-shadow-colossus-quest",
+  "recipe-for-disaster",
+  "sins-of-the-father",
+  "that-old-black-magic-flesh-and-bone",
+  "that-old-black-magic-hermy-and-bass",
+  "that-old-black-magic-my-one-and-only-lute",
+  "that-old-black-magic-skelly-by-everlight",
+  "the-vault-of-shadows",
+]);
+
 function renderCounter(container) {
   const logoEl = container.querySelector("#counter-logo");
   if (logoEl && !logoEl.innerHTML) logoEl.innerHTML = compassIcon();
@@ -146,7 +177,7 @@ function renderCounter(container) {
   // points) — a quest can be worth 0-10+ QP, so the points count alone
   // doesn't tell you how many quests as such are actually left.
   if (questsTextEl) {
-    const allEntries = state.index.quests;
+    const allEntries = state.index.quests.filter((q) => !NON_CANONICAL_IDS.has(q.id));
     const totalCount = allEntries.length;
     const doneCount = allEntries.filter((q) => questStatus(q.id) === "COMPLETED").length;
     const remainingCount = totalCount - doneCount;
@@ -162,13 +193,13 @@ function renderCounter(container) {
 // eventos, pergamino para minimisiones).
 function rowVisual(quest) {
   const status = questStatus(quest.id);
-  if (!isSynced() && !quest.isMiniquest) return { diamond: "var(--text-dim)", right: unsyncedIcon("var(--text-dim)") };
+  if (!isSynced() && !quest.isMiniquest) return { right: unsyncedIcon("var(--text-dim)") };
   const color = STATUS_COLOR[status];
-  if (quest.isSeasonal) return { diamond: color, right: calendarIcon(EVENT_COLOR) };
-  if (quest.isMiniquest) return { diamond: color, right: scrollIcon(MINIQUEST_COLOR) };
-  if (status === "COMPLETED") return { diamond: color, right: checkCircleIcon(color) };
-  if (status === "STARTED") return { diamond: color, right: clockCircleIcon(color) };
-  return { diamond: color, right: xCircleIcon(color) };
+  if (quest.isSeasonal) return { right: calendarIcon(EVENT_COLOR) };
+  if (quest.isMiniquest) return { right: scrollIcon(MINIQUEST_COLOR) };
+  if (status === "COMPLETED") return { right: checkCircleIcon(color) };
+  if (status === "STARTED") return { right: clockCircleIcon(color) };
+  return { right: xCircleIcon(color) };
 }
 
 /**
@@ -200,7 +231,7 @@ function renderList(listEl, onSelect) {
 
   visible.forEach((quest) => {
     const status = questStatus(quest.id);
-    const { diamond, right } = rowVisual(quest);
+    const { right } = rowVisual(quest);
     const li = document.createElement("li");
     li.className =
       !isSynced() && !quest.isMiniquest ? "status-unsynced" : `status-${status.toLowerCase().replace("_", "-")}`;
@@ -209,7 +240,6 @@ function renderList(listEl, onSelect) {
     const displayTitle = rs3DisplayTitle(quest.title);
     const titleText = quest.isSeasonal ? `🎉 ${displayTitle}` : displayTitle;
     li.innerHTML =
-      `<span class="row-diamond">${diamondIcon(diamond)}</span>` +
       `<span class="row-title">${titleText}</span>` +
       `<span class="row-status">${right}</span>`;
     li.addEventListener("click", () => onSelect(quest.id));
