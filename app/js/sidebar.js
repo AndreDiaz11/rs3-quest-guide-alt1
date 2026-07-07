@@ -87,6 +87,16 @@ function combatSortValue(level) {
   return match ? Number(match[0]) : 0;
 }
 
+function seriesEarliestReleaseTime(seriesName) {
+  let min = Infinity;
+  for (const q of state.index.quests) {
+    if (q.series !== seriesName) continue;
+    const t = q.releaseDate ? new Date(q.releaseDate).getTime() : Infinity;
+    if (t < min) min = t;
+  }
+  return min;
+}
+
 const SORT_COMPARATORS = {
   alphabetical: (a, b) => rs3DisplayTitle(a.title).localeCompare(rs3DisplayTitle(b.title), "es"),
   combat: (a, b) => combatSortValue(a.combatLevel) - combatSortValue(b.combatLevel),
@@ -97,9 +107,20 @@ const SORT_COMPARATORS = {
   releaseDate: (a, b) =>
     (a.releaseDate ? new Date(a.releaseDate).getTime() : Infinity) -
     (b.releaseDate ? new Date(b.releaseDate).getTime() : Infinity),
+  // Confirmed against the real client: NOT alphabetical — a series sorts by
+  // its earliest quest's release date (e.g. Pirate/2001 before Penguin/2007
+  // before Sliske's Game/2013 before The Elder God Wars/2018), with no-series
+  // quests last.
   series: (a, b) => {
-    const bySeries = (a.series || "￿").localeCompare(b.series || "￿");
-    return bySeries !== 0 ? bySeries : (a.seriesNth ?? Infinity) - (b.seriesNth ?? Infinity);
+    const at = a.series ? seriesEarliestReleaseTime(a.series) : Infinity;
+    const bt = b.series ? seriesEarliestReleaseTime(b.series) : Infinity;
+    if (at !== bt) return at - bt;
+    // Two different series can tie on release date (e.g. launched the same
+    // day) — break by series name first so same-series quests always stay
+    // grouped together, THEN by seriesNth within that group.
+    const bySeriesName = (a.series || "￿").localeCompare(b.series || "￿");
+    if (bySeriesName !== 0) return bySeriesName;
+    return (a.seriesNth ?? Infinity) - (b.seriesNth ?? Infinity);
   },
   startLocation: (a, b) => (a.startLocation || "￿").localeCompare(b.startLocation || "￿"),
   timeline: (a, b) => orderIndex(TIMELINE_ORDER, a.timeline) - orderIndex(TIMELINE_ORDER, b.timeline),
