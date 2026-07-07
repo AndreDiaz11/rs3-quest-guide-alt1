@@ -371,7 +371,7 @@ function groupLabel(quest, mode) {
       return key ? key.charAt(0).toUpperCase() : rs3DisplayTitle(quest.title).charAt(0);
     }
     case "combat":
-      return combatBucket(quest.combatLevel).label;
+      return `NPC Combat Level ${combatBucket(quest.combatLevel).label}`;
     case "age":
       return AGE_LABELS[String(quest.age).toLowerCase()] || "Unknown";
     case "members":
