@@ -3,7 +3,7 @@
   "title": "Recipe for Disaster: Freeing Evil Dave",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T03:04:53.922Z",
+  "guideLastUpdated": "2026-07-07T04:00:15.803Z",
   "icon": "https://runescape.wiki/images/Evil_Dave_icon.png",
   "entityIcon": null,
   "length": "Medium to Long",
@@ -230,34 +230,39 @@
     },
     {
       "index": 9,
-      "isSelectableList": true,
+      "isTable": true,
       "section": "Freeing Evil Dave",
-      "items": [
-        {
-          "text": {
-            "en": "! Brown spice ! Orange spice ! Red spice ! Yellow spice"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "1 brown |1 orange |1 red |1 yellow"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "2 brown |2 orange |2 red |2 yellow"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "3 brown |3 orange |3 red |3 yellow"
-          },
-          "chatOptions": []
-        }
-      ]
+      "table": {
+        "headers": [
+          "Spice type"
+        ],
+        "rows": [
+          [
+            "Brown spice",
+            "Orange spice",
+            "Red spice",
+            "Yellow spice"
+          ],
+          [
+            "1 brown",
+            "1 orange",
+            "1 red",
+            "1 yellow"
+          ],
+          [
+            "2 brown",
+            "2 orange",
+            "2 red",
+            "2 yellow"
+          ],
+          [
+            "3 brown",
+            "3 orange",
+            "3 red",
+            "3 yellow"
+          ]
+        ]
+      }
     },
     {
       "index": 10,

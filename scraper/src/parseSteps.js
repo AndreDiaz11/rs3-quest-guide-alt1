@@ -10,6 +10,7 @@ import {
   extractSolutionImages,
   parseFileParams,
   isLighttableBlock,
+  isSingleColumnLighttable,
   splitLighttableRows,
 } from "./parseTables.js";
 
@@ -158,7 +159,7 @@ export function parseSteps(quickGuideWikitext) {
       if (block.kind === "checklist") {
         parseChecklistBlock(block.content, rawSteps, heading);
       } else if (block.kind === "table") {
-        if (isLighttableBlock(block.raw)) {
+        if (isLighttableBlock(block.raw) && isSingleColumnLighttable(block.raw)) {
           const items = parseLighttableItems(block.raw);
           if (items.length > 0) rawSteps.push({ isSelectableList: true, items, section: heading });
         } else {

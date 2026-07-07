@@ -3,7 +3,7 @@
   "title": "The Brink of Extinction",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T03:04:54.961Z",
+  "guideLastUpdated": "2026-07-07T04:00:16.717Z",
   "icon": "https://runescape.wiki/images/The_Brink_of_Extinction_icon.png",
   "entityIcon": "https://runescape.wiki/images/The_Brink_of_Extinction_entity_icon.png?812ff",
   "series": "TzHaar",
@@ -344,134 +344,131 @@
     },
     {
       "index": 18,
-      "isSelectableList": true,
+      "isTable": true,
       "section": "Combat weaknesses",
-      "items": [
-        {
-          "text": {
-            "en": "!Room !Wave !Combat levels !Pray against !Weakness(es)"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "1 | 4 Tz-Kih | 85 | Melee | Stab"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "2 | 2 Tz-Kek | 86 | Melee | Water"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "2 | 1 Tz-Kih, 1 Tok-Xil | 85,105 | Ranged | Stab, Slash"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "3 | 2 TokHaar-Hur, 2 TokHaar-Ket | 112/119 | Melee | Water"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "TokHaar-Hur",
-            "TokHaar-Ket"
+      "table": {
+        "headers": [
+          "Room",
+          "Wave",
+          "Combat levels",
+          "Pray against",
+          "Weakness(es)"
+        ],
+        "rows": [
+          [
+            "1",
+            "4 Tz-Kih",
+            "85",
+            "Melee",
+            "Stab"
+          ],
+          [
+            "2",
+            "2 Tz-Kek",
+            "86",
+            "Melee",
+            "Water"
+          ],
+          [
+            "2",
+            "1 Tz-Kih, 1 Tok-Xil",
+            "85,105",
+            "Ranged",
+            "Stab, Slash"
+          ],
+          [
+            "3",
+            "2 TokHaar-Hur, 2 TokHaar-Ket",
+            "112/119",
+            "Melee",
+            "Water"
+          ],
+          [
+            "3",
+            "3 TokHaar-Xil",
+            "119",
+            "Ranged",
+            "Crush"
+          ],
+          [
+            "3",
+            "1 TokHaar-Ket Champion",
+            "112",
+            "Melee",
+            "-"
+          ],
+          [
+            "4",
+            "4 Tz-Kil",
+            "103",
+            "Magic",
+            "Bolts"
+          ],
+          [
+            "5",
+            "3 Tz-Kih",
+            "85",
+            "Melee",
+            "Stab"
+          ],
+          [
+            "5",
+            "2 Tz-Kil, 1 Yt-MejKot",
+            "103,105",
+            "Melee",
+            "Bolts, -"
+          ],
+          [
+            "6",
+            "4 TokHaar-Hur",
+            "112",
+            "Melee",
+            "Water"
+          ],
+          [
+            "6",
+            "2 TokHaar-Xil",
+            "119",
+            "Ranged",
+            "Crush"
+          ],
+          [
+            "6",
+            "2 TokHaar-Mej",
+            "119",
+            "Magic",
+            "Bolts"
+          ],
+          [
+            "6",
+            "2 TokHaar-Ket Champion",
+            "112",
+            "Melee",
+            "-"
+          ],
+          [
+            "7",
+            "3 Tz-Kek",
+            "86",
+            "Melee",
+            "Water"
+          ],
+          [
+            "8",
+            "3 Tz-Kil",
+            "103",
+            "Magic",
+            "Bolts"
+          ],
+          [
+            "8",
+            "2 Tz-Kek, 1 Ket-Zek",
+            "86,105",
+            "Magic",
+            "Water, Bolts"
           ]
-        },
-        {
-          "text": {
-            "en": "3 | 3 TokHaar-Xil | 119 | Ranged | Crush"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "TokHaar-Xil"
-          ]
-        },
-        {
-          "text": {
-            "en": "3 | 1 TokHaar-Ket Champion | 112 | Melee | -"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "TokHaar-Ket Champion"
-          ]
-        },
-        {
-          "text": {
-            "en": "4 | 4 Tz-Kil | 103 | Magic | Bolts"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "5 | 3 Tz-Kih | 85 | Melee | Stab"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "5 | 2 Tz-Kil, 1 Yt-MejKot | 103,105 | Melee | Bolts, -"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "6 | 4 TokHaar-Hur | 112 | Melee | Water"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "TokHaar-Hur"
-          ]
-        },
-        {
-          "text": {
-            "en": "6 | 2 TokHaar-Xil | 119 | Ranged | Crush"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "TokHaar-Xil"
-          ]
-        },
-        {
-          "text": {
-            "en": "6 | 2 TokHaar-Mej | 119 | Magic | Bolts"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "TokHaar-Mej"
-          ]
-        },
-        {
-          "text": {
-            "en": "6 | 2 TokHaar-Ket Champion | 112 | Melee | -"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "TokHaar-Ket Champion"
-          ]
-        },
-        {
-          "text": {
-            "en": "7 | 3 Tz-Kek | 86 | Melee | Water"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "8 | 3 Tz-Kil | 103 | Magic | Bolts"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "8 | 2 Tz-Kek, 1 Ket-Zek | 86,105 | Magic | Water, Bolts"
-          },
-          "chatOptions": []
-        }
-      ]
+        ]
+      }
     },
     {
       "index": 19,
@@ -709,34 +706,32 @@
     },
     {
       "index": 40,
-      "isSelectableList": true,
+      "isTable": true,
       "section": "Room 4",
-      "items": [
-        {
-          "text": {
-            "en": "North-west | Obsidian sword"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "North-east | Obsidian mace"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "South-west | Obsidian staff"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "South-east | Obsidian throwing ring"
-          },
-          "chatOptions": []
-        }
-      ]
+      "table": {
+        "headers": [
+          "Scale location",
+          "Weapon"
+        ],
+        "rows": [
+          [
+            "North-west",
+            "Obsidian sword"
+          ],
+          [
+            "North-east",
+            "Obsidian mace"
+          ],
+          [
+            "South-west",
+            "Obsidian staff"
+          ],
+          [
+            "South-east",
+            "Obsidian throwing ring"
+          ]
+        ]
+      }
     },
     {
       "index": 41,
@@ -958,40 +953,36 @@
     },
     {
       "index": 61,
-      "isSelectableList": true,
+      "isTable": true,
       "section": "Room 7",
-      "items": [
-        {
-          "text": {
-            "en": "Xil | Obsidian sword"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "Mej | Obsidian staff"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "Ket | Obsidian maul"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "Ket and Hur | Obsidian mace"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "Xil and Hur | Obsidian knife"
-          },
-          "chatOptions": []
-        }
-      ]
+      "table": {
+        "headers": [
+          "TzHaar word",
+          "Weapon"
+        ],
+        "rows": [
+          [
+            "Xil",
+            "Obsidian sword"
+          ],
+          [
+            "Mej",
+            "Obsidian staff"
+          ],
+          [
+            "Ket",
+            "Obsidian maul"
+          ],
+          [
+            "Ket and Hur",
+            "Obsidian mace"
+          ],
+          [
+            "Xil and Hur",
+            "Obsidian knife"
+          ]
+        ]
+      }
     },
     {
       "index": 62,

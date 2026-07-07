@@ -3,7 +3,7 @@
   "title": "Rag and Bone Man",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T03:04:53.853Z",
+  "guideLastUpdated": "2026-07-07T04:00:15.737Z",
   "icon": "https://runescape.wiki/images/Rag_and_Bone_Man_icon.png",
   "entityIcon": null,
   "series": "Odd Old Man",
@@ -227,140 +227,57 @@
     },
     {
       "index": 7,
-      "isSelectableList": true,
+      "isTable": true,
       "section": "Obtaining the Bones",
-      "items": [
-        {
-          "text": {
-            "en": "Goblin skull |Goblin | * East of the River Lum in Lumbridge * Near the Draynor lodestone and the Wizard's Tower * East of Barbarian Village and south-west of the Grand Exchange * Stronghold of Security * Goblin Village * Port Sarim * By the Coal truck mine and Hemenster * Goblin Cave * Around the Varrock Dig Site * God Wars Dungeon"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
+      "table": {
+        "headers": [
+          "Bone",
+          "Dropping monster",
+          "Locations found in"
+        ],
+        "rows": [
+          [
+            "Goblin skull",
             "Goblin",
-            "River Lum",
-            "Draynor lodestone",
-            "Wizard's Tower",
-            "Barbarian Village",
-            "Grand Exchange",
-            "Stronghold of Security",
-            "Goblin Village",
-            "Port Sarim",
-            "Coal truck mine",
-            "Hemenster",
-            "Goblin Cave",
-            "Varrock Dig Site",
-            "God Wars Dungeon"
-          ]
-        },
-        {
-          "text": {
-            "en": "Bear ribs |Bear and Black bear | * Directly east of the Captured Temple * South of the Mind altar * Legends' Guild south-west mine (Fairy ring code BLR) * South of the fruit tree patch by the Tree Gnome Village * East of Rellekka"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "Tree Gnome Village",
-            "Bear",
-            "Black bear",
-            "Captured Temple",
-            "Mind altar",
-            "Legends' Guild south-west mine",
-            "Fairy ring",
-            "fruit tree patch",
-            "Rellekka"
-          ]
-        },
-        {
-          "text": {
-            "en": "Big frog leg |Big Frog | * Inside of the Lumbridge Swamp Caves in the area in the south-east corner * Dorgesh-Kaan South Dungeon (fairy ring code AJQ)"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
+            ""
+          ],
+          [
+            "Bear ribs",
+            "Bear and Black bear",
+            ""
+          ],
+          [
+            "Big frog leg",
             "Big Frog",
-            "Lumbridge Swamp Caves",
-            "Dorgesh-Kaan South Dungeon",
-            "fairy ring"
-          ]
-        },
-        {
-          "text": {
-            "en": "Ram skull |Ram | * Fred the Farmer's pen, north of Lumbridge * Near the Wilderness wall, north of the Edgeville Monastery * South-west of Falador * In the Fisher Realm (Fairy ring code BJR)"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
+            ""
+          ],
+          [
+            "Ram skull",
             "Ram",
-            "Fred the Farmer",
-            "Lumbridge",
-            "Edgeville Monastery",
-            "Falador",
-            "Fisher Realm",
-            "Fairy ring"
-          ]
-        },
-        {
-          "text": {
-            "en": "Unicorn bone |Unicorn and black unicorn | * South of Seers' Village * South of Yanille * Ardougne Zoo (fairy ring code BIS) * East of Rellekka * Varrock south-east mine * South of Wilderness Crater"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "Unicorn",
-            "black unicorn",
-            "Seers' Village",
-            "Yanille",
-            "Ardougne Zoo",
-            "fairy ring",
-            "Rellekka",
-            "Varrock south-east mine",
-            "Wilderness Crater"
-          ]
-        },
-        {
-          "text": {
-            "en": "Monkey paw |Monkey | * North of Karamja lodestone * East of Karamja Volcano * Ardougne Zoo (must have level 33 Magic for Telekinetic Grab) * Mos Le'Harmless"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
+            ""
+          ],
+          [
+            "Unicorn bone",
+            "Unicorn and black unicorn",
+            ""
+          ],
+          [
+            "Monkey paw",
             "Monkey",
-            "Karamja lodestone",
-            "Karamja Volcano",
-            "Ardougne Zoo",
-            "Telekinetic Grab"
-          ]
-        },
-        {
-          "text": {
-            "en": "Giant rat bone |Giant rat | * Stronghold of Security * Behind the Dancing Donkey Inn in south-east Varrock * Varrock sewers * South-west of Port Sarim * Behind Lumbridge Castle and Lumbridge swamp * In the pen south of Varrock * Edgeville dungeon"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
+            ""
+          ],
+          [
+            "Giant rat bone",
             "Giant rat",
-            "Stronghold of Security",
-            "Dancing Donkey Inn",
-            "Varrock",
-            "Varrock sewers",
-            "Port Sarim",
-            "Lumbridge Castle",
-            "Lumbridge swamp",
-            "Edgeville dungeon"
-          ]
-        },
-        {
-          "text": {
-            "en": "Giant bat wing |Giant bat | * Yanille Dungeon * Legends' Guild basement * Heroes' Guild basement * Coal truck mine * Temple of Ikov * Goblin Cave * Taverley Dungeon * Chaos Druid Tower dungeon"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
+            ""
+          ],
+          [
+            "Giant bat wing",
             "Giant bat",
-            "Yanille Dungeon",
-            "Legends' Guild",
-            "Heroes' Guild",
-            "Coal truck mine",
-            "Temple of Ikov",
-            "Goblin Cave",
-            "Taverley Dungeon",
-            "Chaos Druid Tower"
+            ""
           ]
-        }
-      ]
+        ]
+      }
     },
     {
       "index": 8,

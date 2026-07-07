@@ -3,7 +3,7 @@
   "title": "Tales of Nomad (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T03:04:54.763Z",
+  "guideLastUpdated": "2026-07-07T04:00:16.550Z",
   "icon": "https://runescape.wiki/images/Tales_of_Nomad_%28miniquest%29_icon.png",
   "entityIcon": "https://runescape.wiki/images/Tales_of_Nomad_%28miniquest%29_entity_icon.png?97640",
   "series": null,
@@ -191,98 +191,60 @@
     },
     {
       "index": 4,
-      "isSelectableList": true,
+      "isTable": true,
       "section": "Visiting the memories of Nomad",
-      "items": [
-        {
-          "text": {
-            "en": "#1 || By the graves near the yew trees in Edgeville, south of the bank"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "#2 || West of Aubury's rune shop in Varrock, east of the Blue Moon Inn"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "Blue Moon Inn"
+      "table": {
+        "headers": [
+          "Memory",
+          "Location"
+        ],
+        "rows": [
+          [
+            "#1",
+            "By the graves near the yew trees in Edgeville, south of the bank"
+          ],
+          [
+            "#2",
+            "West of Aubury's rune shop in Varrock, east of the Blue Moon Inn"
+          ],
+          [
+            "#3",
+            "At the Ourania altar, near the altar itself at the end of the tunnel"
+          ],
+          [
+            "#4",
+            "Nomad's throne room - use Edgeville portal to enter the Soul Wars lobby area. Enter tent to the east."
+          ],
+          [
+            "#5",
+            "In Dragith Nurn's chamber at the end of the Lumbridge Catacombs"
+          ],
+          [
+            "#6",
+            "Near the small guard house just outside of the east gate in to Varrock"
+          ],
+          [
+            "#7",
+            "Between the two graveyards in the Soul Wars lobby"
+          ],
+          [
+            "#8",
+            "Nomad's throne room (again) - enter the tent in the Soul Wars lobby area."
+          ],
+          [
+            "#9",
+            "Falador castle courtyard, southwest area"
+          ],
+          [
+            "#10",
+            "Just west of the entrance to the Black Knight's Fortress"
+          ],
+          [
+            "#11",
+            "Near the incandescent wisps south of the poison waste - north west of the crater, on the shore of the waste"
           ]
-        },
-        {
-          "text": {
-            "en": "#3 || At the Ourania altar, near the altar itself at the end of the tunnel"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "Ourania altar"
-          ]
-        },
-        {
-          "text": {
-            "en": "#4 || Nomad's throne room - use Edgeville portal to enter the Soul Wars lobby area. Enter tent to the east."
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "Soul Wars"
-          ]
-        },
-        {
-          "text": {
-            "en": "#5 || In Dragith Nurn's chamber at the end of the Lumbridge Catacombs"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "Dragith Nurn",
-            "Lumbridge Catacombs"
-          ]
-        },
-        {
-          "text": {
-            "en": "#6 || Near the small guard house just outside of the east gate in to Varrock"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "#7 || Between the two graveyards in the Soul Wars lobby"
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "#8 || Nomad's throne room (again) - enter the tent in the Soul Wars lobby area."
-          },
-          "chatOptions": []
-        },
-        {
-          "text": {
-            "en": "#9 || Falador castle courtyard, southwest area"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "Falador castle"
-          ]
-        },
-        {
-          "text": {
-            "en": "#10 || Just west of the entrance to the Black Knight's Fortress"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "Black Knight's Fortress"
-          ]
-        },
-        {
-          "text": {
-            "en": "#11 || Near the incandescent wisps south of the poison waste - north west of the crater, on the shore of the waste"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "poison waste"
-          ]
-        }
-      ]
+        ]
+      }
     },
     {
       "index": 5,

@@ -3,7 +3,7 @@
   "title": "Fur 'n Seek",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T03:04:52.150Z",
+  "guideLastUpdated": "2026-07-07T04:00:14.144Z",
   "icon": "https://runescape.wiki/images/Fur_%27n_Seek_icon.png",
   "entityIcon": null,
   "series": "Odd Old Man",
@@ -179,96 +179,62 @@
     },
     {
       "index": 3,
-      "isSelectableList": true,
+      "isTable": true,
       "section": "Obtaining the furs",
-      "items": [
-        {
-          "text": {
-            "en": "Black unicorn hide | Black unicorn (adult) | East of Rellekka, south of the lodestone"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "lodestone",
-            "Black unicorn",
-            "Rellekka"
-          ]
-        },
-        {
-          "text": {
-            "en": "Unicorn hide | Unicorn (adult) | South-east of Rellekka"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "Unicorn"
-          ]
-        },
-        {
-          "text": {
-            "en": "Bear pelt | Grizzly bear (adult) | South-east of Rellekka"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "Grizzly bear"
-          ]
-        },
-        {
-          "text": {
-            "en": "Cave crawler skin | Cave crawler | Fremennik Slayer Dungeon (antipoison recommended)"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
+      "table": {
+        "headers": [
+          "Fur",
+          "Dropping monster",
+          "Locations found in"
+        ],
+        "rows": [
+          [
+            "Black unicorn hide",
+            "Black unicorn (adult)",
+            "East of Rellekka, south of the lodestone"
+          ],
+          [
+            "Unicorn hide",
+            "Unicorn (adult)",
+            "South-east of Rellekka"
+          ],
+          [
+            "Bear pelt",
+            "Grizzly bear (adult)",
+            "South-east of Rellekka"
+          ],
+          [
+            "Cave crawler skin",
             "Cave crawler",
-            "Fremennik Slayer Dungeon",
-            "antipoison"
-          ]
-        },
-        {
-          "text": {
-            "en": "Cockatrice skin | Cockatrice | Fremennik Slayer Dungeon (mirror shield recommended)"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
+            "Fremennik Slayer Dungeon (antipoison recommended)"
+          ],
+          [
+            "Cockatrice skin",
             "Cockatrice",
-            "mirror shield"
+            "Fremennik Slayer Dungeon (mirror shield recommended)"
+          ],
+          [
+            "Fox pelt",
+            "Fox",
+            "South of Rellekka"
+          ],
+          [
+            "Fenris wolf pelt",
+            "Fenris wolf",
+            "South of Rellekka"
+          ],
+          [
+            "Hobgoblin skin",
+            "Hobgoblin",
+            "North of the city of Rellekka, but still within the city walls"
+          ],
+          [
+            "Rock crab carcass",
+            "Rock crab",
+            "North-east of Rellekka, or inside the city walls, next to hobgoblins."
           ]
-        },
-        {
-          "text": {
-            "en": "Fox pelt | Fox | South of Rellekka"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "Fox"
-          ]
-        },
-        {
-          "text": {
-            "en": "Fenris wolf pelt | Fenris wolf | South of Rellekka"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "Fenris wolf"
-          ]
-        },
-        {
-          "text": {
-            "en": "Hobgoblin skin | Hobgoblin | North of the city of Rellekka, but still within the city walls"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "Hobgoblin"
-          ]
-        },
-        {
-          "text": {
-            "en": "Rock crab carcass | Rock crab | North-east of Rellekka, or inside the city walls, next to hobgoblins."
-          },
-          "chatOptions": [],
-          "highlightTerms": [
-            "Rock crab"
-          ]
-        }
-      ]
+        ]
+      }
     },
     {
       "index": 4,

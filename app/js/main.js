@@ -50,27 +50,47 @@ function updateRefreshButtonState() {
   }
 }
 
+// Full-screen blocking overlay shown while a manual refresh is in flight —
+// the request can take a couple seconds, and clicking around mid-refresh
+// (e.g. opening another quest) could race with the re-render below.
+let loadingOverlay = null;
+function showLoadingOverlay() {
+  loadingOverlay = document.createElement("div");
+  loadingOverlay.id = "loading-overlay";
+  loadingOverlay.innerHTML = `<div class="loading-spinner"></div><div class="loading-text">${t("updatingText")}</div>`;
+  document.body.appendChild(loadingOverlay);
+}
+function hideLoadingOverlay() {
+  loadingOverlay?.remove();
+  loadingOverlay = null;
+}
+
 async function manualRefresh() {
   if (refreshBtn.disabled) return;
   localStorage.setItem(REFRESH_STORAGE_KEY, String(Date.now()));
   updateRefreshButtonState();
+  showLoadingOverlay();
 
-  const rmResult = await refreshRuneMetrics();
-  refreshSidebar();
-  if (state.selectedQuestId) {
-    // Re-render the open quest in place (checkbox/completion state may have
-    // changed) without closing the sidebar drawer or touching scroll position.
-    try {
-      const quest = await fetchQuest(state.selectedQuestId);
-      renderQuestDetail(detail, quest, {
-        lang: state.settings.lang,
-        isCompleted: questStatus(state.selectedQuestId) === "COMPLETED",
-      });
-    } catch (err) {
-      console.error("[refresh] fallo al volver a renderizar la misión abierta:", err);
+  try {
+    const rmResult = await refreshRuneMetrics();
+    refreshSidebar();
+    if (state.selectedQuestId) {
+      // Re-render the open quest in place (checkbox/completion state may have
+      // changed) without closing the sidebar drawer or touching scroll position.
+      try {
+        const quest = await fetchQuest(state.selectedQuestId);
+        renderQuestDetail(detail, quest, {
+          lang: state.settings.lang,
+          isCompleted: questStatus(state.selectedQuestId) === "COMPLETED",
+        });
+      } catch (err) {
+        console.error("[refresh] fallo al volver a renderizar la misión abierta:", err);
+      }
+    } else {
+      showRuneMetricsResultOrQuest(rmResult, null);
     }
-  } else {
-    showRuneMetricsResultOrQuest(rmResult, null);
+  } finally {
+    hideLoadingOverlay();
   }
 }
 

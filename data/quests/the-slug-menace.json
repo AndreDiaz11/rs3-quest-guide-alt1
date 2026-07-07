@@ -3,7 +3,7 @@
   "title": "The Slug Menace",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T03:04:55.575Z",
+  "guideLastUpdated": "2026-07-07T04:00:17.285Z",
   "icon": "https://runescape.wiki/images/The_Slug_Menace_icon.png",
   "entityIcon": null,
   "series": "Temple Knight",
@@ -728,60 +728,36 @@
     },
     {
       "index": 42,
-      "isSelectableList": true,
+      "isTable": true,
       "section": "Shaped runes",
-      "items": [
-        {
-          "text": {
-            "en": "Air | West of Varrock"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
+      "table": {
+        "headers": [
+          "Altar",
+          "Location"
+        ],
+        "rows": [
+          [
             "Air",
-            "Varrock"
-          ]
-        },
-        {
-          "text": {
-            "en": "Earth | South of Fort Forinthry"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
+            "West of Varrock"
+          ],
+          [
             "Earth",
-            "Fort Forinthry"
-          ]
-        },
-        {
-          "text": {
-            "en": "Mind | East of Goblin Village"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
+            "South of Fort Forinthry"
+          ],
+          [
             "Mind",
-            "Goblin Village"
-          ]
-        },
-        {
-          "text": {
-            "en": "Fire | West of Het's Oasis"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
+            "East of Goblin Village"
+          ],
+          [
             "Fire",
-            "Het's Oasis"
-          ]
-        },
-        {
-          "text": {
-            "en": "Water | In western Lumbridge Swamp"
-          },
-          "chatOptions": [],
-          "highlightTerms": [
+            "West of Het's Oasis"
+          ],
+          [
             "Water",
-            "Lumbridge Swamp"
+            "In western Lumbridge Swamp"
           ]
-        }
-      ]
+        ]
+      }
     },
     {
       "index": 43,

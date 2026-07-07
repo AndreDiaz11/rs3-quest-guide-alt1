@@ -96,6 +96,46 @@ export function isLighttableBlock(raw) {
 }
 
 /**
+ * True only for a `lighttable` block that's genuinely the wiki's "select
+ * which of these to mark done" widget — single column, one full action per
+ * row (e.g. The Mighty Fall's goblins). The SAME `lighttable`/`wikitable
+ * lighttable` class is ALSO reused by the wiki for plain multi-column
+ * reference tables (quiz answers, ingredient/location lists, memory/location
+ * lists) — those have a header row and/or 2+ cells per row, and must be
+ * routed through the normal structured-table renderer instead, or their
+ * columns get smashed together into garbled text (confirmed on A Void
+ * Dance's clue table, Big Chompy Bird Hunting's ingredient list, and 5
+ * others). `{{Chat options|...}}` spanning multiple physical lines (each
+ * starting with its own `|param`) must NOT count as extra cells — tracked via
+ * a simple `{{`/`}}` depth so those lines are skipped while the template is open.
+ */
+export function isSingleColumnLighttable(raw) {
+  const lines = raw.split("\n").slice(1);
+  if (lines[lines.length - 1]?.trim() === "|}") lines.pop();
+  else if (lines.length > 0) lines[lines.length - 1] = lines[lines.length - 1].replace(/\|\}\s*$/, "");
+  let depth = 0;
+  let cellsInRow = 0;
+  let maxCells = 0;
+  for (const rawLine of lines) {
+    const trimmed = rawLine.trim();
+    if (trimmed === "" || trimmed.startsWith("|+")) continue;
+    if (depth === 0 && trimmed.startsWith("!")) return false; // header row -> real reference table
+    if (depth === 0 && trimmed.startsWith("|-")) {
+      maxCells = Math.max(maxCells, cellsInRow);
+      cellsInRow = 0;
+    } else if (depth === 0 && trimmed.startsWith("|")) {
+      cellsInRow += trimmed.includes("||") ? 2 : 1;
+    }
+    for (let i = 0; i < rawLine.length; i++) {
+      if (rawLine.startsWith("{{", i)) depth++;
+      else if (rawLine.startsWith("}}", i)) depth = Math.max(0, depth - 1);
+    }
+  }
+  maxCells = Math.max(maxCells, cellsInRow);
+  return maxCells <= 1;
+}
+
+/**
  * Splits a `wikitable lighttable` block into one raw wikitext blob per row
  * (everything after that row's own leading `|`, including any multi-line
  * {{Chat options|...}} template that follows on subsequent lines).
@@ -131,7 +171,7 @@ export function splitLighttableRows(raw) {
 }
 
 function cleanCell(raw) {
-  let text = raw;
+  let text = raw.replace(/<br\s*\/?>/gi, " ");
   // A cell can carry wiki-table attributes before its real content, separated
   // by its own `|` (e.g. `rowspan="2" style="..." | Content`) — strip up to a
   // few of these before resolving the actual text through the shared
