@@ -74,19 +74,27 @@ export function meetsQuestRequirement(requiredTitle) {
  * the wiki's own tree sometimes nests a real, independent requirement one
  * level under an unrelated quest (e.g. Pieces of Hate's "own a
  * player-owned house" nested under "A Clockwork Syringe") rather than always
- * meaning strict transitive implication. An unmet/unknown skill or quest
- * requirement anywhere in the tree marks it locked; a fully-unknown check
- * (no RSN configured, or player levels not loaded) is treated as NOT locked —
- * we'd rather under- than over-report locked without real data.
+ * meaning strict transitive implication.
+ *
+ * An unmet OR unknown/unverifiable skill or quest requirement anywhere in the
+ * tree marks it locked. "Unknown" deliberately counts as locked, not
+ * available: some quest requirements aren't a skill or another quest at all
+ * but a minigame/activity achievement we have no data source for at all
+ * (e.g. Nomad's Requiem's "Complete the Knight Waves in Camelot" and
+ * "Complete the Soul Wars tutorial" — meetsQuestRequirement can never find
+ * either in our quest dataset, so it always returns null) — showing those as
+ * confidently "available" when we can't actually confirm it is more
+ * misleading than the reverse, so any requirement we can't resolve degrades
+ * to locked rather than being silently skipped.
  */
 export function isQuestLocked(quest) {
   const skills = quest.requirements?.skills || [];
   for (const req of skills) {
-    if (meetsSkillRequirement(req) === false) return true;
+    if (meetsSkillRequirement(req) !== true) return true;
   }
   const walk = (nodes) => {
     for (const node of nodes || []) {
-      if (meetsQuestRequirement(node.matchTitle || node.title) === false) return true;
+      if (meetsQuestRequirement(node.matchTitle || node.title) !== true) return true;
       if (node.children && walk(node.children)) return true;
     }
     return false;
