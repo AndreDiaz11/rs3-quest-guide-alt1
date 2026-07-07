@@ -172,15 +172,16 @@ function rowVisual(quest) {
 }
 
 /**
- * Matches RS3's own in-game quest journal convention: a leading "The" moves
- * to the end after a comma (e.g. "The Elder Kiln" -> "Elder Kiln, The"), so
- * it alphabetizes under "E" instead of cluttering the top of the list under
- * "T". Display/sort only — the wiki-sourced title elsewhere (detail header)
- * keeps its natural "The X" form.
+ * Matches RS3's own in-game quest journal convention: a leading article
+ * ("The"/"A") moves to the end after a comma (e.g. "The Elder Kiln" ->
+ * "Elder Kiln, The", "A Clockwork Syringe" -> "Clockwork Syringe, A"), so it
+ * alphabetizes under "E"/"C" instead of cluttering the top of the list under
+ * "T"/"A". Display/sort only — the wiki-sourced title elsewhere (detail
+ * header) keeps its natural "The X"/"A X" form.
  */
 function rs3DisplayTitle(title) {
-  const match = title.match(/^The\s+(.+)$/);
-  return match ? `${match[1]}, The` : title;
+  const match = title.match(/^(The|A)\s+(.+)$/);
+  return match ? `${match[2]}, ${match[1]}` : title;
 }
 
 function renderList(listEl, onSelect) {

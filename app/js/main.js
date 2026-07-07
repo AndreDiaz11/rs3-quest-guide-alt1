@@ -148,12 +148,17 @@ async function refreshRuneMetrics() {
   }
 }
 
+// Shown bilingually on purpose (both ES and EN always, regardless of the
+// plugin's own language setting) — same reasoning as the first-run welcome
+// popup in settings.js: a brand-new user hasn't necessarily picked a
+// language yet, so this one screen shouldn't gate its own instructions
+// behind that choice.
 function welcomeHtml() {
   return `
   <div id="welcome-screen">
-    <h1>${t("welcomeTitle")}</h1>
-    <p>${t("welcomeIntro")}</p>
-    <p>${t("welcomeSyncHint")}</p>
+    <h1>Quest Compass</h1>
+    <p class="welcome-lang-block"><strong>Español:</strong> Elige una misión de la lista para ver su guía completa. Para marcar automáticamente las misiones que ya completaste, abre <strong>Ajustes (&#9881;)</strong> y escribe tu nombre de jugador de RuneScape.</p>
+    <p class="welcome-lang-block"><strong>English:</strong> Pick a quest from the list to see its full guide. To automatically mark quests you've already completed, open <strong>Settings (&#9881;)</strong> and enter your RuneScape username.</p>
   </div>
 `;
 }
