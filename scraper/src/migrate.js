@@ -75,7 +75,7 @@ async function migrateOne(slug) {
   // `old.steps` may itself already contain table/image steps from a previous
   // run of this same script — filter them out before comparing/matching, or
   // the index-based overlay below silently shifts and misassigns translations.
-  const isStructural = (s) => Boolean(s.isTable || s.isImage || s.isSelectableList || s.isSectionNote);
+  const isStructural = (s) => Boolean(s.isTable || s.isImage || s.isSelectableList || s.isSectionNote || s.isImageGroup);
   const oldTextSteps = (old.steps || []).filter((s) => !isStructural(s));
   const textStepCount = steps.filter((s) => !isStructural(s)).length;
   if (textStepCount !== oldTextSteps.length) {

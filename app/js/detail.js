@@ -230,6 +230,19 @@ function renderStepImage(step) {
   return wrap;
 }
 
+/**
+ * Two or more solution/reference images the wiki placed directly next to
+ * each other with nothing in between (e.g. Elemental Workshop III's
+ * "before"/"after" puzzle pair) — rendered side by side in a row instead of
+ * stacked as separate steps, matching how the wiki's own floated thumbnails
+ * land next to each other.
+ */
+function renderStepImageGroup(step) {
+  const wrap = el("div", { class: "step-image-group" });
+  step.images.forEach((img) => wrap.appendChild(renderStepImage(img)));
+  return wrap;
+}
+
 function renderRewardRow(reward) {
   const li = el("li");
   if (reward.image) li.appendChild(el("img", { src: reward.image, alt: reward.name || "" }));
@@ -716,6 +729,15 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
         if (step.isImage) {
           const li = el("li", { class: "step-image-li" });
           li.appendChild(renderStepImage(step));
+          stepList.appendChild(li);
+          return;
+        }
+
+        // Two+ solution images the wiki placed right next to each other
+        // (e.g. a puzzle's "before"/"after" pair) — shown side by side.
+        if (step.isImageGroup) {
+          const li = el("li", { class: "step-image-li" });
+          li.appendChild(renderStepImageGroup(step));
           stepList.appendChild(li);
           return;
         }

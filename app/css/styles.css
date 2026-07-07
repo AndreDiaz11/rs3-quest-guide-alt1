@@ -949,6 +949,12 @@ h1, h2, .app-title-font {
   max-width: 220px;
 }
 
+.step-image-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
 .step-section-title {
   color: var(--gold, #c9a227);
   font-size: 0.95em;

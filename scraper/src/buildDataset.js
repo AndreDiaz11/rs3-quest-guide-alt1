@@ -89,7 +89,7 @@ export async function buildQuestRecord({
   });
   const allTexts = [
     metadata.startPoint || "",
-    ...steps.map((s) => (s.isTable || s.isImage || s.isSelectableList || s.isSectionNote ? "" : s.text.en)),
+    ...steps.map((s) => (s.isTable || s.isImage || s.isImageGroup || s.isSelectableList || s.isSectionNote ? "" : s.text.en)),
     ...selectableItemRefs.map((ref) => ref.text),
     ...sectionNoteRefs.map((ref) => ref.text),
   ];
@@ -114,7 +114,7 @@ export async function buildQuestRecord({
   // Table/image/selectable-list/section-note steps' own top-level text field
   // is skipped here (translated individually just below instead).
   const stepsWithEs = steps.map((step, i) => {
-    if (step.isTable || step.isImage) return step;
+    if (step.isTable || step.isImage || step.isImageGroup) return step;
     if (step.isSelectableList || step.isSectionNote) return step;
     return { ...step, text: { en: step.text.en, ...(stepEsTexts[i] ? { es: stepEsTexts[i] } : {}) } };
   });
@@ -146,7 +146,10 @@ export async function buildQuestRecord({
   // icon referenced within a step's own sentence (e.g. a mining-spot icon
   // right before a place name) or a selectable-list item's, to their real
   // URLs in one batch.
-  const imageStepFilenames = steps.filter((s) => s.isImage).map((s) => s.filename);
+  const imageStepFilenames = [
+    ...steps.filter((s) => s.isImage).map((s) => s.filename),
+    ...steps.filter((s) => s.isImageGroup).flatMap((s) => s.images.map((im) => im.filename)),
+  ];
   const inlineIconFilenames = [
     ...steps.flatMap((s) => s.iconFilenames || []),
     ...selectableItemRefs.flatMap((ref) => steps[ref.stepIndex].items[ref.itemIndex].iconFilenames || []),
@@ -159,6 +162,9 @@ export async function buildQuestRecord({
   };
   const stepsWithImages = stepsWithSectionNoteEs.map((step) => {
     if (step.isImage) return { ...step, image: fileUrlMap.get(step.filename) || null };
+    if (step.isImageGroup) {
+      return { ...step, images: step.images.map((im) => ({ ...im, image: fileUrlMap.get(im.filename) || null })) };
+    }
     if (step.isSelectableList) return { ...step, items: step.items.map(attachIcons) };
     if (step.isSectionNote) return step;
     return attachIcons(step);

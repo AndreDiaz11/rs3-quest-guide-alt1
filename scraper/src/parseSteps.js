@@ -81,9 +81,49 @@ function parseLighttableItems(raw) {
     }));
 }
 
-/** True for a "structural" step (table/image/selectable-list/section-note) that skips the plain-text/translation pipeline entirely. */
+/** True for a "structural" step (table/image/selectable-list/section-note/image-group) that skips the plain-text/translation pipeline entirely. */
 function isStructural(step) {
-  return Boolean(step.isTable || step.isImage || step.isSelectableList || step.isSectionNote);
+  return Boolean(step.isTable || step.isImage || step.isSelectableList || step.isSectionNote || step.isImageGroup);
+}
+
+/**
+ * Two or more `isImage` steps with nothing else between them (no checklist
+ * bullet, no other content) means the wiki placed those figures directly
+ * next to each other in the wikitext — MediaWiki floats consecutive `thumb`
+ * images side by side until they wrap, e.g. Elemental Workshop III's
+ * "Figure 1"/"Figure 2" before/after pair. Rendered one after another
+ * vertically (as separate steps) this reads as a disconnected list instead
+ * of the intended side-by-side comparison — grouped into one `isImageGroup`
+ * step here so the app can render them together in a row.
+ */
+function groupAdjacentImages(steps) {
+  const result = [];
+  let i = 0;
+  while (i < steps.length) {
+    const step = steps[i];
+    if (step.isImage) {
+      const group = [step];
+      let j = i + 1;
+      while (j < steps.length && steps[j].isImage) {
+        group.push(steps[j]);
+        j++;
+      }
+      if (group.length >= 2) {
+        result.push({
+          isImageGroup: true,
+          section: step.section,
+          images: group.map((g) => ({ filename: g.filename, caption: g.caption })),
+        });
+      } else {
+        result.push(step);
+      }
+      i = j;
+    } else {
+      result.push(step);
+      i++;
+    }
+  }
+  return result;
 }
 
 /**
@@ -182,7 +222,7 @@ export function parseSteps(quickGuideWikitext) {
   // it to drop them inconsistently, breaking the line-count alignment check.
   // Structural steps (tables/images/selectable-lists) are already resolved
   // and skip this plain-text pipeline entirely.
-  return rawSteps
+  const shapedSteps = rawSteps
     .map((step) =>
       isStructural(step)
         ? step
@@ -193,11 +233,16 @@ export function parseSteps(quickGuideWikitext) {
             ...wikitextToPlain(step.raw),
           }
     )
-    .filter((step) => isStructural(step) || step.text.trim() !== "")
+    .filter((step) => isStructural(step) || step.text.trim() !== "");
+
+  return groupAdjacentImages(shapedSteps)
     .map((step, index) => {
       if (step.isTable) return { index, isTable: true, section: step.section, table: step.table };
       if (step.isImage) {
         return { index, isImage: true, section: step.section, filename: step.filename, caption: step.caption };
+      }
+      if (step.isImageGroup) {
+        return { index, isImageGroup: true, section: step.section, images: step.images };
       }
       if (step.isSelectableList) {
         return { index, isSelectableList: true, section: step.section, items: step.items };
