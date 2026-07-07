@@ -495,6 +495,70 @@ function renderStepContent(step, lang) {
   return wrap;
 }
 
+function selectableListKey(questId, stepIndex) {
+  return `selectableList:${questId}:${stepIndex}`;
+}
+
+function loadSelectableSelection(questId, stepIndex) {
+  try {
+    const raw = localStorage.getItem(selectableListKey(questId, stepIndex));
+    return raw ? new Set(JSON.parse(raw)) : new Set();
+  } catch {
+    return new Set();
+  }
+}
+
+function saveSelectableSelection(questId, stepIndex, selectedSet) {
+  localStorage.setItem(selectableListKey(questId, stepIndex), JSON.stringify([...selectedSet]));
+}
+
+/**
+ * Renders the wiki's own "select which of these to mark done" widget (e.g.
+ * The Mighty Fall's "talk to the following goblins", each with its own chat
+ * options) — a bordered list where clicking a row toggles a done/selected
+ * look, with a "Clear selection" reset at the bottom, matching the wiki
+ * exactly instead of forcing these into the sequential checklist above it
+ * (they aren't sequential — you only do ONE, or the wiki wouldn't need a
+ * "select" widget for them at all).
+ */
+function renderSelectableList(quest, step, lang) {
+  const selected = loadSelectableSelection(quest.id, step.index);
+  const wrap = el("div", { class: "selectable-list" });
+  const rows = [];
+
+  const clearBtn = el("button", { class: "selectable-list-clear", type: "button" });
+  const updateClearBtn = () => {
+    clearBtn.textContent = t("clearSelection", selected.size, step.items.length);
+  };
+
+  step.items.forEach((item, i) => {
+    const row = el("div", { class: `selectable-list-item${selected.has(i) ? " selected" : ""}` });
+    row.appendChild(renderStepContent(item, lang));
+    row.addEventListener("click", (e) => {
+      // Clicking the chat-options "..." button should open the popup, not toggle selection.
+      if (e.target.closest(".chat-options-more")) return;
+      if (selected.has(i)) selected.delete(i);
+      else selected.add(i);
+      row.classList.toggle("selected", selected.has(i));
+      saveSelectableSelection(quest.id, step.index, selected);
+      updateClearBtn();
+    });
+    wrap.appendChild(row);
+    rows.push(row);
+  });
+
+  updateClearBtn();
+  clearBtn.addEventListener("click", () => {
+    selected.clear();
+    rows.forEach((row) => row.classList.remove("selected"));
+    saveSelectableSelection(quest.id, step.index, selected);
+    updateClearBtn();
+  });
+  wrap.appendChild(clearBtn);
+
+  return wrap;
+}
+
 /**
  * Renders the right-panel quest detail into `container`. `isCompleted`
  * (from RuneMetrics, wired in M2) forces every step checked and read-only;
@@ -632,6 +696,17 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
         if (step.isImage) {
           const li = el("li", { class: "step-image-li" });
           li.appendChild(renderStepImage(step));
+          stepList.appendChild(li);
+          return;
+        }
+
+        // A "select which of these to mark done" widget (e.g. The Mighty
+        // Fall's "talk to the following goblins") — the wiki shows this as
+        // its own clickable list separate from the sequential checklist,
+        // not a normal checkbox step.
+        if (step.isSelectableList) {
+          const li = el("li", { class: "selectable-list-li" });
+          li.appendChild(renderSelectableList(quest, step, lang));
           stepList.appendChild(li);
           return;
         }

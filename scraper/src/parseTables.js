@@ -78,6 +78,58 @@ export function extractWikiTables(content) {
   return results;
 }
 
+/**
+ * True for a `{| class="wikitable lighttable" ... |}` block — the wiki's own
+ * trick for a "select which of these to mark done" widget (e.g. The Mighty
+ * Fall's "talk to the following goblins", each with its own {{Chat options}}
+ * dialogue tree). Each row is real actionable content, not reference data,
+ * but it's ALSO not a normal sequential checklist item — the wiki renders it
+ * as its own clickable list with a "Clear selection" reset, separate from
+ * the checklist above it. Parsing it as a normal table split every
+ * {{Chat options}} param onto its own bogus column and left "{{Chat options"
+ * itself un-stripped in the first cell; parsing it as normal checklist
+ * bullets loses that distinct "pick one" presentation entirely.
+ */
+export function isLighttableBlock(raw) {
+  const firstLine = raw.split("\n")[0];
+  return /class\s*=\s*"[^"]*\blighttable\b[^"]*"/i.test(firstLine);
+}
+
+/**
+ * Splits a `wikitable lighttable` block into one raw wikitext blob per row
+ * (everything after that row's own leading `|`, including any multi-line
+ * {{Chat options|...}} template that follows on subsequent lines).
+ */
+export function splitLighttableRows(raw) {
+  const lines = raw.split("\n").slice(1); // drop the opening "{|...attrs" line
+  if (lines[lines.length - 1]?.trim() === "|}") lines.pop();
+  else if (lines.length > 0) lines[lines.length - 1] = lines[lines.length - 1].replace(/\|\}\s*$/, "");
+
+  const rows = [];
+  let current = null;
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (trimmed === "") continue;
+    if (trimmed.startsWith("|-")) {
+      if (current !== null && current !== "") rows.push(current);
+      current = "";
+      continue;
+    }
+    if (current === null) continue; // stray content before the first "|-"
+    if (current === "" && trimmed.startsWith("|")) {
+      current = trimmed.slice(1); // this row's first line — strip its own leading "|"
+    } else {
+      // Continuation line — e.g. one more `|N Dialogue text` param of this
+      // row's own {{Chat options|...}} template, still open across lines.
+      // Keep its leading "|" intact; that's the template's own separator.
+      current += "\n" + line;
+    }
+  }
+  if (current !== null && current !== "") rows.push(current);
+
+  return rows;
+}
+
 function cleanCell(raw) {
   let text = raw;
   // A cell can carry wiki-table attributes before its real content, separated

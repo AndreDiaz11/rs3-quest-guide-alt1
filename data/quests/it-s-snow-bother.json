@@ -3,7 +3,7 @@
   "title": "It's Snow Bother",
   "isMiniquest": false,
   "isSeasonal": true,
-  "guideLastUpdated": "2026-07-07T02:32:52.417Z",
+  "guideLastUpdated": "2026-07-07T02:44:50.650Z",
   "icon": "https://runescape.wiki/images/thumb/It%27s_Snow_Bother_icon.png/50px-It%27s_Snow_Bother_icon.png",
   "entityIcon": "https://runescape.wiki/images/It%27s_Snow_Bother_entity_icon.png?704a6",
   "series": "Christmas Village",
@@ -579,80 +579,180 @@
     },
     {
       "index": 36,
-      "isTable": true,
+      "isSelectableList": true,
       "section": "Delivering the presents",
-      "table": {
-        "headers": [
-          "Character",
-          "Location"
-        ],
-        "rows": [
-          [
+      "items": [
+        {
+          "text": {
+            "en": "Bob | In Bob's Brilliant Axes just outside Lumbridge Castle."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
             "Bob",
-            "In Bob's Brilliant Axes just outside Lumbridge Castle."
-          ],
-          [
-            "Hans",
-            "Walking around Lumbridge Castle courtyard."
-          ],
-          [
-            "Brugsen Bursen",
-            "Inside the Grand Exchange in Varrock."
-          ],
-          [
-            "Reldo",
-            "In the library in Varrock Palace."
-          ],
-          [
-            "Ernie",
-            "Upstairs in Varrock, south-west of the Ye Olde Tea Shoppe."
-          ],
-          [
-            "Max",
-            "Running around Varrock.<ref group=\"n\" name=\"members\"/>"
-          ],
-          [
-            "Bill",
-            "In Fort Forinthry's Workshop.<ref group=\"n\">Requires partial completion of the quest New Foundations.</ref>"
-          ],
-          [
-            "Sir Amik Varze",
-            "On the 3rd floor of White Knights' Castle."
-          ],
-          [
-            "Vorago",
-            "In the borehole north of the Falador lodestone.<ref group=\"n\" name=\"members\"/>"
-          ],
-          [
-            "Doric",
-            "In Doric's hut north-west of Falador."
-          ],
-          [
-            "TzKal-Zuk",
-            "In the Senntisten sewers.<ref group=\"n\" name=\"members\">Members only.</ref>"
-          ],
-          [
-            "Violet",
-            "In Violet's house through the portal on White Wolf Mountain.<ref group=\"n\">Requires completion of the quest Violet is Blue Too.</ref>"
-          ],
-          [
-            "Skippy",
-            "Around the coast south of Rimmington.<ref group=\"n\" name=\"members\"/>"
-          ],
-          [
-            "Thok of Daemonheim",
-            "Outside Daemonheim."
-          ],
-          [
-            "Wendy",
-            "South-west of Draynor Manor, north-west of Draynor Village."
-          ],
-          [
-            "Wise Old Man",
-            "In his house in Draynor Village, north of the bank."
+            "Bob's Brilliant Axes",
+            "Lumbridge Castle"
           ]
-        ]
-      }
+        },
+        {
+          "text": {
+            "en": "Hans | Walking around Lumbridge Castle courtyard."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Hans"
+          ]
+        },
+        {
+          "text": {
+            "en": "Brugsen Bursen | Inside the Grand Exchange in Varrock."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Brugsen Bursen",
+            "Grand Exchange",
+            "Varrock"
+          ]
+        },
+        {
+          "text": {
+            "en": "Reldo | In the library in Varrock Palace."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Reldo",
+            "Varrock Palace"
+          ]
+        },
+        {
+          "text": {
+            "en": "Ernie | Upstairs in Varrock, south-west of the Ye Olde Tea Shoppe."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Ernie",
+            "Varrock",
+            "Ye Olde Tea Shoppe"
+          ]
+        },
+        {
+          "text": {
+            "en": "Max | Running around Varrock.<ref group=\"n\" name=\"members\"/>"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Max"
+          ]
+        },
+        {
+          "text": {
+            "en": "Bill | In Fort Forinthry's Workshop.<ref group=\"n\">Requires partial completion of the quest New Foundations.</ref>"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Workshop",
+            "Bill",
+            "Fort Forinthry",
+            "New Foundations"
+          ]
+        },
+        {
+          "text": {
+            "en": "Sir Amik Varze | On the 3rd floor of White Knights' Castle."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Sir Amik Varze",
+            "White Knights' Castle"
+          ]
+        },
+        {
+          "text": {
+            "en": "Vorago | In the borehole north of the Falador lodestone.<ref group=\"n\" name=\"members\"/>"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Vorago",
+            "borehole",
+            "Falador lodestone"
+          ]
+        },
+        {
+          "text": {
+            "en": "Doric | In Doric's hut north-west of Falador."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Doric",
+            "Doric's hut",
+            "Falador"
+          ]
+        },
+        {
+          "text": {
+            "en": "TzKal-Zuk | In the Senntisten sewers.<ref group=\"n\" name=\"members\">Members only.</ref>"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "TzKal-Zuk",
+            "Senntisten sewers",
+            "Members"
+          ]
+        },
+        {
+          "text": {
+            "en": "Violet | In Violet's house through the portal on White Wolf Mountain.<ref group=\"n\">Requires completion of the quest Violet is Blue Too.</ref>"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Violet",
+            "Violet's house",
+            "White Wolf Mountain",
+            "Violet is Blue Too"
+          ]
+        },
+        {
+          "text": {
+            "en": "Skippy | Around the coast south of Rimmington.<ref group=\"n\" name=\"members\"/>"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Skippy",
+            "Rimmington"
+          ]
+        },
+        {
+          "text": {
+            "en": "Thok of Daemonheim | Outside Daemonheim."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Thok of Daemonheim",
+            "Daemonheim"
+          ]
+        },
+        {
+          "text": {
+            "en": "Wendy | South-west of Draynor Manor, north-west of Draynor Village."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Wendy",
+            "Draynor Manor",
+            "Draynor Village"
+          ]
+        },
+        {
+          "text": {
+            "en": "Wise Old Man | In his house in Draynor Village, north of the bank."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "bank",
+            "Wise Old Man",
+            "Draynor Village"
+          ]
+        }
+      ]
     },
     {
       "index": 37,

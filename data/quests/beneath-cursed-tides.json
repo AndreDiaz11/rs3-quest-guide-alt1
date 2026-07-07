@@ -3,7 +3,7 @@
   "title": "Beneath Cursed Tides",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T02:32:50.421Z",
+  "guideLastUpdated": "2026-07-07T02:44:48.728Z",
   "icon": "https://runescape.wiki/images/Beneath_Cursed_Tides_icon.png",
   "entityIcon": "https://runescape.wiki/images/Beneath_Cursed_Tides_entity_icon.png?faa37",
   "series": null,
@@ -446,32 +446,28 @@
     },
     {
       "index": 22,
-      "isTable": true,
+      "isSelectableList": true,
       "section": "Krillinary expert",
-      "table": {
-        "headers": [
-          "Recipe Number",
-          "Recipe",
-          "Solution"
-        ],
-        "rows": [
-          [
-            "First",
-            "Sweet, Sour, Spicy",
-            "1 up, 2 up, 3 up"
-          ],
-          [
-            "Second",
-            "Mellow, Sour, Bitter",
-            "2 down, 2 up, 3 down"
-          ],
-          [
-            "Third",
-            "Spicy, Salty, Bitter",
-            "3 up, 1 down, 3 down"
-          ]
-        ]
-      }
+      "items": [
+        {
+          "text": {
+            "en": "First | Sweet, Sour, Spicy | 1 up, 2 up, 3 up"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "Second | Mellow, Sour, Bitter | 2 down, 2 up, 3 down"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "Third | Spicy, Salty, Bitter | 3 up, 1 down, 3 down"
+          },
+          "chatOptions": []
+        }
+      ]
     },
     {
       "index": 23,

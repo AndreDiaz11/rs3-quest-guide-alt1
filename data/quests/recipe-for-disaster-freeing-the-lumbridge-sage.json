@@ -3,7 +3,7 @@
   "title": "Recipe for Disaster: Freeing the Lumbridge Sage",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T02:32:54.071Z",
+  "guideLastUpdated": "2026-07-07T02:44:51.943Z",
   "icon": "https://runescape.wiki/images/Lumbridge_Sage_icon.png",
   "entityIcon": null,
   "length": "Short",
@@ -182,76 +182,106 @@
     },
     {
       "index": 5,
-      "isTable": true,
+      "isSelectableList": true,
       "section": "The milk",
-      "table": {
-        "headers": [
-          "Question",
-          "Answer"
-        ],
-        "rows": [
-          [
-            "What is the Defence level requirement to wear a Mystic Hat?",
-            "50"
-          ],
-          [
-            "What doesn't lie between Morytania and Asgarnia?",
-            "Keep Le Faye"
-          ],
-          [
-            "What is the nearest guild to the Fishing Platform (as the seagull flies)?",
-            "Legends'"
-          ],
-          [
-            "What is the name of the toy seller in Draynor Village?",
-            "Diango"
-          ],
-          [
-            "The River Salve runs from...?",
-            "North to South"
-          ],
-          [
-            "Take the number of Fire Runes requires to cast Fire Strike, and multiply by the number by the number of Air Runes used to cast Air Strike before adding the number of Earth Runes used to cast Earth Wave. What do you get?",
-            "5"
-          ],
-          [
-            "The combat level of unarmed goblins near Lumbridge is:",
-            "2"
-          ],
-          [
-            "If I'm going to need glass, first I will need:",
-            "Sand, bucket, soda ash, glass blowing pipe"
-          ],
-          [
-            "A gold ring is to 5 as a holy symbol is to...",
-            "16"
-          ],
-          [
-            "A glass vial is to 33, as a glass orb is to...",
-            "46"
-          ],
-          [
-            "What ingredients are used in a cake?",
-            "Flour, Eggs and milk"
-          ],
-          [
-            "I can hear howling in one direction and buzzing in the other - where am I?",
-            "Catherby"
-          ],
-          [
-            "I'm in a bar west of Pollnivneach. Where am I?",
-            "Bandit Camp"
-          ],
-          [
-            "Which tower is closest to the Crafting Guild?",
-            "Dark Wizards'"
-          ],
-          [
-            "GP to bribe an Al Kharid gate guard<!-- Unable to get verbatim text as it appears in game due to a bug that causes the dialogue to be forced closed when this question is called. -->",
-            "10"
-          ]
-        ]
-      }
+      "items": [
+        {
+          "text": {
+            "en": "!Question!!Answer"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "What is the Defence level requirement to wear a Mystic Hat?||50"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "What doesn't lie between Morytania and Asgarnia?||Keep Le Faye"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "What is the nearest guild to the Fishing Platform (as the seagull flies)?||Legends'"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "What is the name of the toy seller in Draynor Village?||Diango"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "The River Salve runs from...?||North to South"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "Take the number of Fire Runes requires to cast Fire Strike, and multiply by the number by the number of Air Runes used to cast Air Strike before adding the number of Earth Runes used to cast Earth Wave. What do you get?||5"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "The combat level of unarmed goblins near Lumbridge is:||2"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "If I'm going to need glass, first I will need:||Sand, bucket, soda ash, glass blowing pipe"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "A gold ring is to 5 as a holy symbol is to...||16"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "A glass vial is to 33, as a glass orb is to...||46"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "What ingredients are used in a cake?||Flour, Eggs and milk"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "I can hear howling in one direction and buzzing in the other - where am I?||Catherby"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "I'm in a bar west of Pollnivneach. Where am I?||Bandit Camp"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "Which tower is closest to the Crafting Guild?||Dark Wizards'"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "GP to bribe an Al Kharid gate guard<!-- Unable to get verbatim text as it appears in game due to a bug that causes the dialogue to be forced closed when this question is called. --> |10"
+          },
+          "chatOptions": []
+        }
+      ]
     },
     {
       "index": 6,
@@ -268,42 +298,40 @@
     },
     {
       "index": 7,
-      "isTable": true,
+      "isSelectableList": true,
       "section": "The flour",
-      "table": {
-        "headers": [
-          "Picture",
-          "Question",
-          "Answer"
-        ],
-        "rows": [
-          [
-            "150px",
-            "Which item began with the letter \"m\"?",
-            "Mind Talisman"
-          ],
-          [
-            "150px",
-            "How many weapons were you shown?",
-            "3"
-          ],
-          [
-            "150px",
-            "Which items were amongst those you were shown?",
-            "Guthix Prayer Book, Magic Logs, Pike"
-          ],
-          [
-            "150px",
-            "Which of the following items were NOT shown to you?",
-            "Trout"
-          ],
-          [
-            "150px",
-            "How many types of rune were there?",
-            "2"
-          ]
-        ]
-      }
+      "items": [
+        {
+          "text": {
+            "en": "150px | Which item began with the letter \"m\"? | Mind Talisman"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "150px | How many weapons were you shown? | 3"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "150px | Which items were amongst those you were shown? | Guthix Prayer Book, Magic Logs, Pike"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "150px | Which of the following items were NOT shown to you? | Trout"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "150px | How many types of rune were there? | 2"
+          },
+          "chatOptions": []
+        }
+      ]
     },
     {
       "index": 8,

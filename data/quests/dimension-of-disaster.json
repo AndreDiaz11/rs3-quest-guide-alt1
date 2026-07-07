@@ -3,7 +3,7 @@
   "title": "Dimension of Disaster",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T02:32:51.295Z",
+  "guideLastUpdated": "2026-07-07T02:44:49.586Z",
   "icon": "https://runescape.wiki/images/Dimension_of_Disaster_icon.png",
   "entityIcon": "https://runescape.wiki/images/Dimension_of_Disaster_entity_icon.png?cbfaf",
   "series": null,
@@ -301,47 +301,119 @@
   "steps": [
     {
       "index": 0,
-      "isTable": true,
+      "isSelectableList": true,
       "section": "Subquests",
-      "table": {
-        "headers": [
-          "Icon",
-          "Subquest",
-          "Start point",
-          "Required quests",
-          "Required items"
-        ],
-        "rows": [
-          [
-            "",
+      "items": [
+        {
+          "text": {
+            "en": "|Shield of Arrav |Orlando Smith, in the Varrock Museum |Shield of Arrav and Coin of the Realm | * 2 Zemomarks (optional)"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
             "Shield of Arrav",
-            "Orlando Smith, in the Varrock Museum",
-            "Shield of Arrav and Coin of the Realm",
-            ""
+            "Orlando Smith",
+            "Zemomark"
           ],
-          [
-            "",
-            "Demon Slayer",
-            "Aris, in her tent",
-            "Shadow of the Storm, Demon Slayer, and Coin of the Realm",
-            ""
-          ],
-          [
-            "",
-            "Defender of Varrock",
-            "Reldo, in Varrock Castle",
-            "Defender of Varrock and Coin of the Realm",
-            ""
-          ],
-          [
-            "",
-            "Curse of Arrav",
-            "Arrav, in the Varrock Castle garden",
-            "The Curse of Arrav and all previous subquests",
-            ""
+          "icons": [
+            {
+              "filename": "Dimension of Disaster Shield of Arrav icon.png",
+              "image": "https://runescape.wiki/images/Dimension_of_Disaster_Shield_of_Arrav_icon.png?b961c"
+            }
           ]
-        ]
-      }
+        },
+        {
+          "text": {
+            "en": "|Demon Slayer |Aris, in her tent |Shadow of the Storm, Demon Slayer, and Coin of the Realm | * Cabbage * Rotten tomato * Beer glass * Black hood <ref name=\"override\">This item is not needed if the appropriate override set has been bought using silver pennies.</ref> * Black robe (top) <ref name=\"override\" /> * Black robe (bottom) <ref name=\"override\" /> * Black mushroom * Vial * Dog hair"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Demon Slayer",
+            "Black mushroom",
+            "Aris",
+            "Shadow of the Storm",
+            "Cabbage",
+            "Rotten tomato",
+            "Beer glass",
+            "Black hood",
+            "silver pennies",
+            "Black robe (top)",
+            "Black robe (bottom)",
+            "Vial",
+            "Dog hair"
+          ],
+          "icons": [
+            {
+              "filename": "Dimension of Disaster Demon Slayer icon.png",
+              "image": "https://runescape.wiki/images/Dimension_of_Disaster_Demon_Slayer_icon.png?4839a"
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "|Defender of Varrock |Reldo, in Varrock Castle |Defender of Varrock and Coin of the Realm | * Zombie mask <ref name=\"override\" /> * Zombie shirt <ref name=\"override\" /> * Zombie trousers <ref name=\"override\" /> * Zombie gloves <ref name=\"override\" /> * Zombie boots <ref name=\"override\" /> * Vial <ref name=\"replay\">This item is not needed when replaying the quest.</ref> * 3 tin ore <ref name=\"replay\" /> * 4 fire runes <ref name=\"replay\" /> * 1 nature rune <ref name=\"replay\" />"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Defender of Varrock",
+            "Zombie mask",
+            "Zombie shirt",
+            "Zombie trousers",
+            "Zombie gloves",
+            "Zombie boots",
+            "Reldo",
+            "Vial",
+            "tin ore",
+            "fire rune",
+            "nature rune"
+          ],
+          "icons": [
+            {
+              "filename": "Dimension of Disaster Defender of Varrock icon.png",
+              "image": "https://runescape.wiki/images/Dimension_of_Disaster_Defender_of_Varrock_icon.png?78506"
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "|Curse of Arrav |Arrav, in the Varrock Castle garden |The Curse of Arrav and all previous subquests | * Must be on the standard spellbook and prayer book. * Zombie mask <ref name=\"override\" /> * Zombie shirt <ref name=\"override\" /> * Zombie trousers <ref name=\"override\" /> * Zombie gloves <ref name=\"override\" /> * Zombie boots <ref name=\"override\" /> * Lockpick * Mith crossbow * Mith grapple * Darklight * Vial of purple mist (or Vial, Vial of water, Delphinium flower) * Vial of orange mist (or Vial, Vial of water, Raw onion) * Ring of life (or gold ore, diamond, 10 earth runes and 1 cosmic rune) * 11 Raw undead beef"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Curse of Arrav",
+            "spellbook",
+            "prayer book",
+            "Zombie mask",
+            "Zombie shirt",
+            "Zombie trousers",
+            "Zombie gloves",
+            "Zombie boots",
+            "Lockpick",
+            "Mith crossbow",
+            "Mith grapple",
+            "Arrav",
+            "The Curse of Arrav",
+            "Darklight",
+            "Vial of purple mist",
+            "Vial",
+            "Vial of water",
+            "Delphinium flower",
+            "Vial of orange mist",
+            "Raw onion",
+            "Ring of life",
+            "gold ore",
+            "diamond",
+            "earth rune",
+            "cosmic rune",
+            "Raw undead beef"
+          ],
+          "icons": [
+            {
+              "filename": "Dimension of Disaster Curse of Arrav icon.png",
+              "image": "https://runescape.wiki/images/Dimension_of_Disaster_Curse_of_Arrav_icon.png?27322"
+            }
+          ]
+        }
+      ]
     }
   ],
   "guideNote": {

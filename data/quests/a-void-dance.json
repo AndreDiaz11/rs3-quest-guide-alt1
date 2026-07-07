@@ -3,7 +3,7 @@
   "title": "A Void Dance",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T02:32:50.164Z",
+  "guideLastUpdated": "2026-07-07T02:44:48.487Z",
   "icon": "https://runescape.wiki/images/A_Void_Dance_icon.png",
   "entityIcon": "https://runescape.wiki/images/A_Void_Dance_entity_icon.png?db8b6",
   "series": "Void Knight",
@@ -856,42 +856,101 @@
     },
     {
       "index": 51,
-      "isTable": true,
+      "isSelectableList": true,
       "section": "Whodunnit?",
-      "table": {
-        "headers": [
-          "Location",
-          "Map",
-          "Clue details"
-        ],
-        "rows": [
-          [
-            "",
-            "",
-            "Clue #1<br/>South of the wheat field, west of Falador, south of Taverley, and north of Nora T. Hagg's house."
+      "items": [
+        {
+          "text": {
+            "en": "| | Clue #1<br/>South of the wheat field, west of Falador, south of Taverley, and north of Nora T. Hagg's house."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Nora T. Hagg"
           ],
-          [
-            "",
-            "",
-            "Clue #2<br/>Go east of the Crafting Guild and find the man wandering with a walking stick around the area. Use an onion on him then select #3 wave to receive another clue. (There is an onion field nearby if you need one.)"
+          "boldTerms": [
+            "Clue #1"
           ],
-          [
-            "",
-            "",
-            "Clue #3<br/>Enter the farmhouse south of Falador and search the crate just beside the lobby entrance to receive another clue."
-          ],
-          [
-            "",
-            "",
-            "Clue #4<br/>Go to the Edgeville Monastery. Dig on the red flower north of the north-eastern fountain."
-          ],
-          [
-            "",
-            "",
-            "Clue #5<br/>Go to the hatchway south-west of the Black Knights' Fortress and try to enter it."
+          "icons": [
+            {
+              "filename": "A Void Dance clue 1.png",
+              "image": "https://runescape.wiki/images/A_Void_Dance_clue_1.png?e1ef4"
+            }
           ]
-        ]
-      }
+        },
+        {
+          "text": {
+            "en": "| | Clue #2<br/>Go east of the Crafting Guild and find the man wandering with a walking stick around the area. Use an onion on him then select #3 wave to receive another clue. (There is an onion field nearby if you need one.)"
+          },
+          "chatOptions": [
+            "3 Wave."
+          ],
+          "highlightTerms": [
+            "man",
+            "Crafting Guild",
+            "onion"
+          ],
+          "boldTerms": [
+            "Clue #2"
+          ],
+          "icons": [
+            {
+              "filename": "A Void Dance clue 2.png",
+              "image": "https://runescape.wiki/images/A_Void_Dance_clue_2.png?929cb"
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "| | Clue #3<br/>Enter the farmhouse south of Falador and search the crate just beside the lobby entrance to receive another clue."
+          },
+          "chatOptions": [],
+          "boldTerms": [
+            "Clue #3"
+          ],
+          "icons": [
+            {
+              "filename": "A Void Dance clue 3.png",
+              "image": "https://runescape.wiki/images/A_Void_Dance_clue_3.png?0be8c"
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "| | Clue #4<br/>Go to the Edgeville Monastery. Dig on the red flower north of the north-eastern fountain."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Edgeville Monastery"
+          ],
+          "boldTerms": [
+            "Clue #4"
+          ],
+          "icons": [
+            {
+              "filename": "A Void Dance clue 4.png",
+              "image": "https://runescape.wiki/images/A_Void_Dance_clue_4.png?0d258"
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "| | Clue #5<br/>Go to the hatchway south-west of the Black Knights' Fortress and try to enter it."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Black Knights' Fortress"
+          ],
+          "boldTerms": [
+            "Clue #5"
+          ],
+          "icons": [
+            {
+              "filename": "A Void Dance clue 5.png",
+              "image": "https://runescape.wiki/images/A_Void_Dance_clue_5.png?b02f8"
+            }
+          ]
+        }
+      ]
     },
     {
       "index": 52,

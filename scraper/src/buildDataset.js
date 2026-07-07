@@ -67,11 +67,22 @@ export async function buildQuestRecord({
   const id = titleToSlug(title);
   const now = new Date().toISOString();
 
-  // Translate all step text + start point in one batch call (context stays together).
-  // Empty strings (e.g. a quest with no scraped start point) are skipped before
-  // sending — an empty line in the batch gets silently dropped by the model,
-  // which desyncs every line after it and makes the length check fail forever.
-  const allTexts = [metadata.startPoint || "", ...steps.map((s) => (s.isTable || s.isImage ? "" : s.text.en))];
+  // Translate all step text + start point + every selectable-list item's own
+  // text in one batch call (context stays together). Empty strings (e.g. a
+  // quest with no scraped start point) are skipped before sending — an empty
+  // line in the batch gets silently dropped by the model, which desyncs
+  // every line after it and makes the length check fail forever.
+  const selectableItemRefs = [];
+  steps.forEach((step, stepIndex) => {
+    if (step.isSelectableList) {
+      step.items.forEach((item, itemIndex) => selectableItemRefs.push({ stepIndex, itemIndex, text: item.text.en }));
+    }
+  });
+  const allTexts = [
+    metadata.startPoint || "",
+    ...steps.map((s) => (s.isTable || s.isImage || s.isSelectableList ? "" : s.text.en)),
+    ...selectableItemRefs.map((ref) => ref.text),
+  ];
   const nonEmptyIndexes = [];
   const nonEmptyTexts = [];
   allTexts.forEach((text, i) => {
@@ -85,30 +96,46 @@ export async function buildQuestRecord({
   nonEmptyIndexes.forEach((originalIndex, i) => {
     translated[originalIndex] = translatedNonEmpty[i];
   });
-  const [startPointEs, ...stepEsTexts] = translated;
+  const [startPointEs, ...rest] = translated;
+  const stepEsTexts = rest.slice(0, steps.length);
+  const selectableItemEsTexts = rest.slice(steps.length);
 
-  // Table/image steps are English-only (no per-cell/caption translation, like
-  // item/reward names) — they never had text sent to the translator above,
-  // so skip them here.
-  const stepsWithEs = steps.map((step, i) =>
-    step.isTable || step.isImage
-      ? step
-      : { ...step, text: { en: step.text.en, ...(stepEsTexts[i] ? { es: stepEsTexts[i] } : {}) } }
-  );
+  // Table/image/selectable-list steps' own top-level text field is skipped
+  // here (selectable-list items are translated individually just below).
+  const stepsWithEs = steps.map((step, i) => {
+    if (step.isTable || step.isImage) return step;
+    if (step.isSelectableList) return step;
+    return { ...step, text: { en: step.text.en, ...(stepEsTexts[i] ? { es: stepEsTexts[i] } : {}) } };
+  });
+  const stepsWithSelectableEs = stepsWithEs.map((step, stepIndex) => {
+    if (!step.isSelectableList) return step;
+    const items = step.items.map((item, itemIndex) => {
+      const ref = selectableItemRefs.findIndex((r) => r.stepIndex === stepIndex && r.itemIndex === itemIndex);
+      const es = selectableItemEsTexts[ref];
+      return { ...item, text: { en: item.text.en, ...(es ? { es } : {}) } };
+    });
+    return { ...step, items };
+  });
 
   // Resolve every standalone solution-image filename, plus every small inline
   // icon referenced within a step's own sentence (e.g. a mining-spot icon
-  // right before a place name), to their real URLs in one batch.
+  // right before a place name) or a selectable-list item's, to their real
+  // URLs in one batch.
   const imageStepFilenames = steps.filter((s) => s.isImage).map((s) => s.filename);
-  const inlineIconFilenames = steps.flatMap((s) => s.iconFilenames || []);
+  const inlineIconFilenames = [
+    ...steps.flatMap((s) => s.iconFilenames || []),
+    ...selectableItemRefs.flatMap((ref) => steps[ref.stepIndex].items[ref.itemIndex].iconFilenames || []),
+  ];
   const fileUrlMap = await resolveFileUrls([...imageStepFilenames, ...inlineIconFilenames]);
-  const stepsWithImages = stepsWithEs.map((step) => {
+  const attachIcons = (entity) => {
+    if (!entity.iconFilenames?.length) return entity;
+    const { iconFilenames, ...rest } = entity;
+    return { ...rest, icons: iconFilenames.map((f) => ({ filename: f, image: fileUrlMap.get(f) || null })) };
+  };
+  const stepsWithImages = stepsWithSelectableEs.map((step) => {
     if (step.isImage) return { ...step, image: fileUrlMap.get(step.filename) || null };
-    if (step.iconFilenames?.length) {
-      const { iconFilenames, ...rest } = step;
-      return { ...rest, icons: iconFilenames.map((f) => ({ filename: f, image: fileUrlMap.get(f) || null })) };
-    }
-    return step;
+    if (step.isSelectableList) return { ...step, items: step.items.map(attachIcons) };
+    return attachIcons(step);
   });
 
   // Required/recommended items can nest (e.g. The Elder Kiln's "Melee, magic

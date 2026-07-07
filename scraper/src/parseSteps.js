@@ -1,5 +1,12 @@
 import { extractAllTemplatesWithPositions, wikitextToPlain, splitIntoSections } from "./wikitext.js";
-import { extractWikiTables, parseWikiTableToStructured, extractSolutionImages, parseFileParams } from "./parseTables.js";
+import {
+  extractWikiTables,
+  parseWikiTableToStructured,
+  extractSolutionImages,
+  parseFileParams,
+  isLighttableBlock,
+  splitLighttableRows,
+} from "./parseTables.js";
 
 function parseChecklistBlock(checklistContent, rawSteps, section) {
   const lines = checklistContent.split("\n");
@@ -47,9 +54,30 @@ function parseChecklistBlock(checklistContent, rawSteps, section) {
   }
 }
 
-/** True for a "structural" step (table/image) that skips the plain-text/translation pipeline entirely. */
+/**
+ * Parses a `wikitable lighttable` block's rows into a "selectable list"
+ * item array — each row runs through the exact same wikitextToPlain
+ * pipeline as a normal Checklist bullet (chat options, inline icons,
+ * name/term highlighting, bold-emphasis), so it's a fully real step's worth
+ * of content — just not rendered as a sequential checklist item (see
+ * detail.js's renderSelectableList).
+ */
+function parseLighttableItems(raw) {
+  return splitLighttableRows(raw)
+    .map((rowRaw) => wikitextToPlain(rowRaw))
+    .filter((item) => item.text.trim() !== "")
+    .map((item) => ({
+      text: { en: item.text },
+      chatOptions: item.chatOptions,
+      ...(item.icons?.length ? { iconFilenames: item.icons } : {}),
+      ...(item.highlightTerms?.length ? { highlightTerms: [...new Set(item.highlightTerms)] } : {}),
+      ...(item.boldTerms?.length ? { boldTerms: [...new Set(item.boldTerms)] } : {}),
+    }));
+}
+
+/** True for a "structural" step (table/image/selectable-list) that skips the plain-text/translation pipeline entirely. */
 function isStructural(step) {
-  return Boolean(step.isTable || step.isImage);
+  return Boolean(step.isTable || step.isImage || step.isSelectableList);
 }
 
 /**
@@ -66,7 +94,7 @@ function isStructural(step) {
  * template, e.g. {{Chat options|...}}, itself spans multiple lines).
  */
 export function parseSteps(quickGuideWikitext) {
-  const rawSteps = []; // { indent, raw, section } or { isTable, table, section } or { isImage, filename, caption, section }
+  const rawSteps = []; // { indent, raw, section } or { isTable, table, section } or { isImage, filename, caption, section } or { isSelectableList, items, section }
   for (const { heading, content } of splitIntoSections(quickGuideWikitext)) {
     // Checklist blocks, standalone wikitables (a quiz's Question/Answer table,
     // e.g. Hero's Welcome), and standalone solution images (e.g. that same
@@ -92,8 +120,13 @@ export function parseSteps(quickGuideWikitext) {
       if (block.kind === "checklist") {
         parseChecklistBlock(block.content, rawSteps, heading);
       } else if (block.kind === "table") {
-        const table = parseWikiTableToStructured(block.raw);
-        if (table) rawSteps.push({ isTable: true, table, section: heading });
+        if (isLighttableBlock(block.raw)) {
+          const items = parseLighttableItems(block.raw);
+          if (items.length > 0) rawSteps.push({ isSelectableList: true, items, section: heading });
+        } else {
+          const table = parseWikiTableToStructured(block.raw);
+          if (table) rawSteps.push({ isTable: true, table, section: heading });
+        }
       } else {
         rawSteps.push({ isImage: true, filename: block.filename, caption: block.caption, section: heading });
       }
@@ -108,8 +141,8 @@ export function parseSteps(quickGuideWikitext) {
   // template we strip (e.g. a fairy ring code icon) — an empty instruction is
   // useless to show anyway, and sending blank lines to the translator causes
   // it to drop them inconsistently, breaking the line-count alignment check.
-  // Structural steps (tables/images) are already resolved and skip this
-  // plain-text pipeline entirely.
+  // Structural steps (tables/images/selectable-lists) are already resolved
+  // and skip this plain-text pipeline entirely.
   return rawSteps
     .map((step) =>
       isStructural(step)
@@ -126,6 +159,9 @@ export function parseSteps(quickGuideWikitext) {
       if (step.isTable) return { index, isTable: true, section: step.section, table: step.table };
       if (step.isImage) {
         return { index, isImage: true, section: step.section, filename: step.filename, caption: step.caption };
+      }
+      if (step.isSelectableList) {
+        return { index, isSelectableList: true, section: step.section, items: step.items };
       }
       return {
         index,

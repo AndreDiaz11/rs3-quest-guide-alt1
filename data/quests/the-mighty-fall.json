@@ -3,7 +3,7 @@
   "title": "The Mighty Fall",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T02:32:55.869Z",
+  "guideLastUpdated": "2026-07-07T02:44:53.444Z",
   "icon": "https://runescape.wiki/images/The_Mighty_Fall_icon.png",
   "entityIcon": "https://runescape.wiki/images/The_Mighty_Fall_entity_icon.png?5d464",
   "series": "Sliske's Game",
@@ -438,49 +438,66 @@
     },
     {
       "index": 13,
-      "isTable": true,
+      "isSelectableList": true,
       "section": "Return to Yu'biusk",
-      "table": {
-        "headers": null,
-        "rows": [
-          [
-            "Goblin guard, climb up the ladder south of Zarador, then south-east next to a big chest. {{Chat options",
+      "items": [
+        {
+          "text": {
+            "en": "Goblin guard, climb up the ladder south of Zarador, then south-east next to a big chest."
+          },
+          "chatOptions": [
             "1 What is this secret weapon?",
             "2 Soldier! At attention!",
             "3 Are you really a human in disguise?",
             "1 (He's a human in disguise!)"
-          ],
-          [
-            "Goblin guard at the crossroads west of Zarador. {{Chat options",
+          ]
+        },
+        {
+          "text": {
+            "en": "Goblin guard at the crossroads west of Zarador."
+          },
+          "chatOptions": [
             "1 What are you doing here?",
             "2 You seem particularly surly.",
             "3 Are you really a human in disguise?",
             "1 (He's a human in disguise!)"
-          ],
-          [
-            "Goblin guard in the Troll tower east of the entrance. {{Chat options",
+          ]
+        },
+        {
+          "text": {
+            "en": "Goblin guard in the Troll tower east of the entrance."
+          },
+          "chatOptions": [
             "1 Where have you been getting the goutweed from?",
             "2 Why is your name Trowel?",
             "3 Are you really a human in disguise?",
-            "1 (He's a human in disguise!)}}"
-          ],
-          [
-            "Goblin ork, in the Ork Tower next to Bork. {{Chat options",
+            "1 (He's a human in disguise!)"
+          ]
+        },
+        {
+          "text": {
+            "en": "Goblin ork, in the Ork Tower next to Bork."
+          },
+          "chatOptions": [
             "1 Why are you pretending to be an ork?",
             "2 Is it easy being green?",
             "3 Are you really a human in disguise?",
             "1 (He's a human in disguise!)"
-          ],
-          [
-            "Goblin cleaner in the Goblin camp to the west, near Yelps. {{Chat options",
+          ]
+        },
+        {
+          "text": {
+            "en": "Goblin cleaner in the Goblin camp to the west, near Yelps."
+          },
+          "chatOptions": [
             "1 Isn't the camp set up already?",
             "2 A goblin... cleaning?",
             "3 Are you really a human in disguise?",
             "1 (He's a human in disguise!)",
             "Any"
           ]
-        ]
-      }
+        }
+      ]
     },
     {
       "index": 14,

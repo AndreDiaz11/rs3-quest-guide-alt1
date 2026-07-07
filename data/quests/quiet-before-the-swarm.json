@@ -3,7 +3,7 @@
   "title": "Quiet Before the Swarm",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T02:32:53.854Z",
+  "guideLastUpdated": "2026-07-07T02:44:51.759Z",
   "icon": "https://runescape.wiki/images/Quiet_Before_the_Swarm_icon.png",
   "entityIcon": "https://runescape.wiki/images/Quiet_Before_the_Swarm_entity_icon.png?afa5d",
   "series": "Void Knight",
@@ -636,48 +636,96 @@
     },
     {
       "index": 37,
-      "isTable": true,
+      "isSelectableList": true,
       "section": "Ship positions",
-      "table": {
-        "headers": [
-          "Name",
-          "Ship position",
-          "Thinking",
-          "Saw"
-        ],
-        "rows": [
-          [
-            "Ami",
-            "Rigging",
-            "Sister",
-            "Shark"
+      "items": [
+        {
+          "text": {
+            "en": "! Name ! Ship position ! Thinking ! Saw"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "Ami | Rigging | Sister | Shark"
+          },
+          "chatOptions": [
+            "1 Ship position",
+            "4 Rigging",
+            "2 Thinking",
+            "4 Sister",
+            "3 Saw",
+            "2 Shark"
           ],
-          [
-            "Bernard",
-            "Crow's nest",
-            "Lunch",
-            "Seaweed"
-          ],
-          [
-            "Diana",
-            "Main deck",
-            "Fighting",
-            "Seagull"
-          ],
-          [
-            "Korasi",
-            "Hold",
-            "Promotion",
-            "Pest"
-          ],
-          [
-            "Commodore",
-            "Helm",
-            "Jessika",
-            "Clouds"
+          "boldTerms": [
+            "Ami"
           ]
-        ]
-      }
+        },
+        {
+          "text": {
+            "en": "Bernard | Crow's nest | Lunch | Seaweed"
+          },
+          "chatOptions": [
+            "1 Ship position",
+            "5 Crow's nest",
+            "2 Thinking",
+            "1 Lunch",
+            "3 Saw",
+            "4 Seaweed"
+          ],
+          "boldTerms": [
+            "Bernard"
+          ]
+        },
+        {
+          "text": {
+            "en": "Diana | Main deck | Fighting | Seagull"
+          },
+          "chatOptions": [
+            "1 Ship position",
+            "2 Main deck",
+            "2 Thinking",
+            "5 Fighting",
+            "3 Saw",
+            "1 Seagull"
+          ],
+          "boldTerms": [
+            "Diana"
+          ]
+        },
+        {
+          "text": {
+            "en": "Korasi | Hold | Promotion | Pest"
+          },
+          "chatOptions": [
+            "1 Ship position",
+            "1 Hold",
+            "2 Thinking",
+            "3 Promotion",
+            "3 Saw",
+            "5 Pest"
+          ],
+          "boldTerms": [
+            "Korasi"
+          ]
+        },
+        {
+          "text": {
+            "en": "Commodore | Helm | Jessika | Clouds"
+          },
+          "chatOptions": [
+            "1 Ship position",
+            "3 Helm",
+            "2 Thinking",
+            "2 Jessika",
+            "3 Saw",
+            "3 Clouds"
+          ],
+          "boldTerms": [
+            "Commodore"
+          ]
+        }
+      ]
     },
     {
       "index": 38,

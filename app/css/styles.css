@@ -805,6 +805,58 @@ h1, h2, .app-title-font {
   padding: 0 0 0 20px;
 }
 
+.step-list li.selectable-list-li {
+  display: block;
+  margin: 4px 0 10px;
+  padding: 0 0 0 20px;
+}
+
+.selectable-list {
+  border: 1px solid var(--border-light, #c9a227);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.selectable-list-item {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border, #4a3f2e);
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+.selectable-list-item:last-of-type {
+  border-bottom: none;
+}
+
+.selectable-list-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.selectable-list-item.selected {
+  background: rgba(201, 162, 39, 0.18);
+}
+
+.selectable-list-item.selected .step-text {
+  color: var(--text-dim);
+  text-decoration: line-through;
+}
+
+.selectable-list-clear {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.25);
+  border: none;
+  border-top: 1px solid var(--border-light, #c9a227);
+  color: var(--text-dim);
+  font-size: 0.85em;
+  cursor: pointer;
+}
+
+.selectable-list-clear:hover {
+  color: var(--gold);
+}
+
 .step-image-wrap {
   position: relative;
   display: inline-block;

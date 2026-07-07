@@ -75,7 +75,7 @@ async function migrateOne(slug) {
   // `old.steps` may itself already contain table/image steps from a previous
   // run of this same script — filter them out before comparing/matching, or
   // the index-based overlay below silently shifts and misassigns translations.
-  const isStructural = (s) => Boolean(s.isTable || s.isImage);
+  const isStructural = (s) => Boolean(s.isTable || s.isImage || s.isSelectableList);
   const oldTextSteps = (old.steps || []).filter((s) => !isStructural(s));
   const textStepCount = steps.filter((s) => !isStructural(s)).length;
   if (textStepCount !== oldTextSteps.length) {
@@ -94,6 +94,26 @@ async function migrateOne(slug) {
   if (old.startPoint?.es) {
     record.startPoint = { ...record.startPoint, es: old.startPoint.es };
   }
+
+  // Selectable-list items (e.g. The Mighty Fall's "talk to the following
+  // goblins" widget) carry their own translatable text — reuse by matching
+  // the Nth selectable-list block to the Nth one in the old file, then by
+  // item index within it, same spirit as the main step overlay above.
+  const oldSelectableLists = (old.steps || []).filter((s) => s.isSelectableList);
+  let selectableListIndex = 0;
+  record.steps = record.steps.map((step) => {
+    if (!step.isSelectableList) return step;
+    const oldList = oldSelectableLists[selectableListIndex];
+    selectableListIndex++;
+    if (!oldList) return step;
+    return {
+      ...step,
+      items: step.items.map((item, i) => {
+        const oldEs = oldList.items?.[i]?.text?.es;
+        return oldEs ? { ...item, text: { ...item.text, es: oldEs } } : item;
+      }),
+    };
+  });
 
   await writeFile(path.join(QUESTS_DIR, `${slug}.json`), JSON.stringify(record, null, 2), "utf8");
   console.log(`[done] ${slug} migrado (${record.steps.length} pasos)`);

@@ -3,7 +3,7 @@
   "title": "Sheep Herder",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T02:32:54.718Z",
+  "guideLastUpdated": "2026-07-07T02:44:52.369Z",
   "icon": "https://runescape.wiki/images/Sheep_Herder_icon.png",
   "entityIcon": null,
   "series": null,
@@ -155,32 +155,37 @@
     },
     {
       "index": 6,
-      "isTable": true,
+      "isSelectableList": true,
       "section": "Herding the sheep",
-      "table": {
-        "headers": [
-          "Sheep",
-          "Location"
-        ],
-        "rows": [
-          [
-            "Blue sheep",
-            "North-west of the incinerator, just past the Warrior Woman camp."
-          ],
-          [
-            "Yellow sheep",
-            "North of the incinerator, in front of the Fishing Guild."
-          ],
-          [
-            "Green sheep",
-            "East of the incinerator, near a Mysterious Statue."
-          ],
-          [
-            "Red sheep",
-            "South of the incinerator, in front of Ardougne North bank."
+      "items": [
+        {
+          "text": {
+            "en": "Blue sheep || North-west of the incinerator, just past the Warrior Woman camp."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Warrior Woman"
           ]
-        ]
-      }
+        },
+        {
+          "text": {
+            "en": "Yellow sheep || North of the incinerator, in front of the Fishing Guild."
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "Green sheep || East of the incinerator, near a Mysterious Statue."
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "Red sheep || South of the incinerator, in front of Ardougne North bank."
+          },
+          "chatOptions": []
+        }
+      ]
     },
     {
       "index": 7,

@@ -3,7 +3,7 @@
   "title": "Mahjarrat Memories (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T02:32:52.770Z",
+  "guideLastUpdated": "2026-07-07T02:44:50.940Z",
   "icon": "https://runescape.wiki/images/Mahjarrat_Memories_%28miniquest%29_icon.png",
   "entityIcon": null,
   "series": null,
@@ -294,76 +294,174 @@
     },
     {
       "index": 6,
-      "isTable": true,
+      "isSelectableList": true,
       "section": "Finding the memories",
-      "table": {
-        "headers": [
-          "Memory",
-          "Location"
-        ],
-        "rows": [
-          [
+      "items": [
+        {
+          "text": {
+            "en": "Wahisietel|| Go to Nardah. Go to the Ali the Wise's house, the northern-most one from the Elidinis Statuette, and use the charged engrammeter there."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
             "Wahisietel",
-            "Go to Nardah. Go to the Ali the Wise's house, the northern-most one from the Elidinis Statuette, and use the charged engrammeter there."
-          ],
-          [
-            "Azzanadra",
-            "Go to the Jaldraocht Pyramid. Use the engrammeter in the altar room."
-          ],
-          [
-            "Enakhra",
-            "Travel to Enakhra's Temple. Use the engrammeter in the central room."
-          ],
-          [
-            "Akthanakos",
-            "Travel to Enakhra's Temple. Use the ladder in the central room, go through the magic barrier and up the ladder. Use the engrammeter in the first chamber."
-          ],
-          [
-            "Bilrach",
-            "Go to Daemonheim. Use the engrammeter next to the banker."
-          ],
-          [
-            "Hazeel",
-            "Go south of Ardougne Zoo. Enter the cave entrance east of the Clock Tower. Take the raft, and enter the Hazeel Cultist headquarters. Use the engrammeter. See Hazeel Cult quest guide if you failed to do so."
-          ],
-          [
-            "Lucien",
-            "Go to Lucien's house, just west of the Grand Exchange, quickest using fairy ring DKR. Use the engrammeter inside."
-          ],
-          [
-            "Zemouregal",
-            "This next section will take you into the Wilderness."
-          ],
-          [
-            "Sliske",
-            "In the throne room (octagon-shaped room) of the Empyrean Citadel. Use the invitation box to teleport there quickly."
-          ],
-          [
-            "Mizzarch",
-            "Go to the Varrock Dig Site. Go down into the Senntisten Temple (north-east winch). Use the engrammeter in the altar room."
-          ],
-          [
-            "Jhallan",
-            "Go to the Erjolf's cave (east of Olaf Hradson, above the entrance to Keldagrim). Cross the river and enter the cave opening to the west. Use the engrammeter near the floating bridge to the centre island. Fairy code 'DKS' will place you just a few steps from the cave."
-          ],
-          [
-            "Palkeera",
-            "Go to the Mahjarrat Ritual Site. Use the engrammeter next to the ritual marker."
-          ],
-          [
-            "Lamistard",
-            "Go to Zemouregal's fort, west of the Mahjarrat Ritual Site. Go inside using the left side of the large front door. Use the engrammeter."
-          ],
-          [
-            "Ralvash",
-            "Go to Ghorrock. Go into the fortress courtyard, and use the engrammeter."
-          ],
-          [
-            "Kharshai",
-            "Go to Kharshai's cave, where you begin the miniquest. Use the engrammeter inside. (Skip this if you already completed this earlier.)"
+            "Nardah",
+            "Elidinis Statuette"
           ]
-        ]
-      }
+        },
+        {
+          "text": {
+            "en": "Azzanadra|| Go to the Jaldraocht Pyramid. Use the engrammeter in the altar room."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Azzanadra",
+            "Jaldraocht Pyramid"
+          ]
+        },
+        {
+          "text": {
+            "en": "Enakhra|| Travel to Enakhra's Temple. Use the engrammeter in the central room."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Enakhra",
+            "Enakhra's Temple"
+          ]
+        },
+        {
+          "text": {
+            "en": "Akthanakos|| Travel to Enakhra's Temple. Use the ladder in the central room, go through the magic barrier and up the ladder. Use the engrammeter in the first chamber."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Akthanakos",
+            "Enakhra's Temple"
+          ]
+        },
+        {
+          "text": {
+            "en": "Bilrach|| Go to Daemonheim. Use the engrammeter next to the banker."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Bilrach",
+            "Daemonheim"
+          ]
+        },
+        {
+          "text": {
+            "en": "Hazeel|| Go south of Ardougne Zoo. Enter the cave entrance east of the Clock Tower. Take the raft, and enter the Hazeel Cultist headquarters. Use the engrammeter. See Hazeel Cult quest guide if you failed to do so."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "cave entrance",
+            "Clock Tower",
+            "Hazeel Cult",
+            "Hazeel",
+            "Ardougne Zoo",
+            "Hazeel Cultist"
+          ]
+        },
+        {
+          "text": {
+            "en": "Lucien|| Go to Lucien's house, just west of the Grand Exchange, quickest using fairy ring DKR. Use the engrammeter inside."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Lucien",
+            "Grand Exchange"
+          ]
+        },
+        {
+          "text": {
+            "en": "Zemouregal||This next section will take you into the Wilderness. Make sure you have a summoned macaw and are wearing insulated boots. Go to Hartwin in Varrock Palace, on the 3rd floor of the north-west tower. Ask him to lead you to the Chaos Temple. * Go down the trapdoor, and follow the corridors full of armoured zombies. * Ignore the human detector corridor; squeeze through the pipe in the next room. Follow the passage around to another pipe. * Try to go through it. Then right-click on the summoned macaw and remote view. * Go into the south room in the corridor, use the engrammeter."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Chaos Temple",
+            "Zemouregal",
+            "Wilderness",
+            "macaw",
+            "insulated boots",
+            "Hartwin",
+            "Varrock Palace"
+          ]
+        },
+        {
+          "text": {
+            "en": "Sliske|| In the throne room (octagon-shaped room) of the Empyrean Citadel. Use the invitation box to teleport there quickly."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Sliske",
+            "Empyrean Citadel",
+            "invitation box"
+          ]
+        },
+        {
+          "text": {
+            "en": "Mizzarch|| Go to the Varrock Dig Site. Go down into the Senntisten Temple (north-east winch). Use the engrammeter in the altar room."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Mizzarch",
+            "Varrock Dig Site",
+            "Senntisten Temple"
+          ]
+        },
+        {
+          "text": {
+            "en": "Jhallan|| Go to the Erjolf's cave (east of Olaf Hradson, above the entrance to Keldagrim). Cross the river and enter the cave opening to the west. Use the engrammeter near the floating bridge to the centre island. Fairy code 'DKS' will place you just a few steps from the cave."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Jhallan",
+            "Erjolf's cave",
+            "Olaf Hradson"
+          ]
+        },
+        {
+          "text": {
+            "en": "Palkeera|| Go to the Mahjarrat Ritual Site. Use the engrammeter next to the ritual marker."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Palkeera",
+            "Mahjarrat Ritual Site",
+            "ritual marker"
+          ]
+        },
+        {
+          "text": {
+            "en": "Lamistard|| Go to Zemouregal's fort, west of the Mahjarrat Ritual Site. Go inside using the left side of the large front door. Use the engrammeter."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Lamistard",
+            "Zemouregal's fort",
+            "Mahjarrat Ritual Site"
+          ]
+        },
+        {
+          "text": {
+            "en": "Ralvash|| Go to Ghorrock. Go into the fortress courtyard, and use the engrammeter."
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Ralvash",
+            "Ghorrock"
+          ]
+        },
+        {
+          "text": {
+            "en": "Kharshai|| Go to Kharshai's cave, where you begin the miniquest. Use the engrammeter inside. (Skip this if you already completed this earlier.)"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Kharshai"
+          ]
+        }
+      ]
     },
     {
       "index": 7,

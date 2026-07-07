@@ -3,7 +3,7 @@
   "title": "The Slug Menace",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T02:32:55.959Z",
+  "guideLastUpdated": "2026-07-07T02:44:53.532Z",
   "icon": "https://runescape.wiki/images/The_Slug_Menace_icon.png",
   "entityIcon": null,
   "series": "Temple Knight",
@@ -677,36 +677,60 @@
     },
     {
       "index": 39,
-      "isTable": true,
+      "isSelectableList": true,
       "section": "Shaped runes",
-      "table": {
-        "headers": [
-          "Altar",
-          "Location"
-        ],
-        "rows": [
-          [
+      "items": [
+        {
+          "text": {
+            "en": "Air | West of Varrock"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
             "Air",
-            "West of Varrock"
-          ],
-          [
-            "Earth",
-            "South of Fort Forinthry"
-          ],
-          [
-            "Mind",
-            "East of Goblin Village"
-          ],
-          [
-            "Fire",
-            "West of Het's Oasis"
-          ],
-          [
-            "Water",
-            "In western Lumbridge Swamp"
+            "Varrock"
           ]
-        ]
-      }
+        },
+        {
+          "text": {
+            "en": "Earth | South of Fort Forinthry"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Earth",
+            "Fort Forinthry"
+          ]
+        },
+        {
+          "text": {
+            "en": "Mind | East of Goblin Village"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Mind",
+            "Goblin Village"
+          ]
+        },
+        {
+          "text": {
+            "en": "Fire | West of Het's Oasis"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Fire",
+            "Het's Oasis"
+          ]
+        },
+        {
+          "text": {
+            "en": "Water | In western Lumbridge Swamp"
+          },
+          "chatOptions": [],
+          "highlightTerms": [
+            "Water",
+            "Lumbridge Swamp"
+          ]
+        }
+      ]
     },
     {
       "index": 40,

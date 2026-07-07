@@ -3,7 +3,7 @@
   "title": "Ghosts Ahoy",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T02:32:51.956Z",
+  "guideLastUpdated": "2026-07-07T02:44:50.214Z",
   "icon": "https://runescape.wiki/images/Ghosts_Ahoy_icon.png",
   "entityIcon": null,
   "series": null,
@@ -431,40 +431,28 @@
     },
     {
       "index": 20,
-      "isTable": true,
+      "isSelectableList": true,
       "section": "Dyeing the ship",
-      "table": {
-        "headers": null,
-        "rows": [
-          [
-            "Top half",
-            "Red",
-            "Blue",
-            "Yellow",
-            "Orange",
-            "Green",
-            "Purple"
-          ],
-          [
-            "Bottom half",
-            "Red",
-            "Blue",
-            "Yellow",
-            "Orange",
-            "Green",
-            "Purple"
-          ],
-          [
-            "Skull emblem",
-            "Red",
-            "Blue",
-            "Yellow",
-            "Orange",
-            "Green",
-            "Purple"
-          ]
-        ]
-      }
+      "items": [
+        {
+          "text": {
+            "en": "! Top half | Red | Blue | Yellow | Orange | Green | Purple"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "! Bottom half | Red | Blue | Yellow | Orange | Green | Purple"
+          },
+          "chatOptions": []
+        },
+        {
+          "text": {
+            "en": "! Skull emblem | Red | Blue | Yellow | Orange | Green | Purple"
+          },
+          "chatOptions": []
+        }
+      ]
     },
     {
       "index": 21,
