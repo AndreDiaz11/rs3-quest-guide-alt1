@@ -811,6 +811,30 @@ h1, h2, .app-title-font {
   padding: 0 0 0 20px;
 }
 
+.step-list li.section-note-li {
+  display: block;
+  margin: 0 0 10px;
+  padding: 0 0 0 20px;
+}
+
+.section-note {
+  font-size: 0.9em;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border, #4a3f2e);
+  border-radius: 4px;
+  padding: 6px 10px;
+}
+
+.section-note-line + .section-note-line {
+  margin-top: 2px;
+}
+
+.section-note b {
+  font-style: normal;
+  color: var(--gold, #c9a227);
+}
+
 .selectable-list {
   border: 1px solid var(--border-light, #c9a227);
   border-radius: 4px;

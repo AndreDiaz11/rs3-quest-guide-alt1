@@ -3,7 +3,7 @@
   "title": "Smoking Kills",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T02:44:52.459Z",
+  "guideLastUpdated": "2026-07-07T03:04:54.531Z",
   "icon": "https://runescape.wiki/images/Smoking_Kills_icon.png",
   "entityIcon": null,
   "series": "Desert",
@@ -208,6 +208,19 @@
   "steps": [
     {
       "index": 0,
+      "isSectionNote": true,
+      "section": "Starting out",
+      "needed": {
+        "text": {
+          "en": "Catspeak amulet"
+        },
+        "highlightTerms": [
+          "Catspeak amulet"
+        ]
+      }
+    },
+    {
+      "index": 1,
       "indent": 0,
       "section": "Starting out",
       "text": {
@@ -224,7 +237,7 @@
       ]
     },
     {
-      "index": 1,
+      "index": 2,
       "indent": 0,
       "section": "Starting out",
       "text": {
@@ -240,7 +253,7 @@
       ]
     },
     {
-      "index": 2,
+      "index": 3,
       "indent": 0,
       "section": "Starting out",
       "text": {
@@ -250,7 +263,7 @@
       "chatOptions": []
     },
     {
-      "index": 3,
+      "index": 4,
       "indent": 0,
       "section": "Starting out",
       "text": {
@@ -260,7 +273,7 @@
       "chatOptions": []
     },
     {
-      "index": 4,
+      "index": 5,
       "indent": 0,
       "section": "Starting out",
       "text": {
@@ -270,7 +283,7 @@
       "chatOptions": []
     },
     {
-      "index": 5,
+      "index": 6,
       "indent": 0,
       "section": "Starting out",
       "text": {
@@ -280,7 +293,7 @@
       "chatOptions": []
     },
     {
-      "index": 6,
+      "index": 7,
       "indent": 1,
       "section": "Starting out",
       "text": {
@@ -290,7 +303,33 @@
       "chatOptions": []
     },
     {
-      "index": 7,
+      "index": 8,
+      "isSectionNote": true,
+      "section": "Finding the tomb",
+      "needed": {
+        "text": {
+          "en": "Bring all items needed for the next section, including cat of any sort, catspeak amulet, ghostspeak amulet, combat gear (ranged, magic, or necromancy, or simply ignore three low damage ranged minions for a few seconds), earmuffs, facemask"
+        },
+        "highlightTerms": [
+          "cat",
+          "catspeak amulet",
+          "ghostspeak amulet",
+          "earmuffs",
+          "facemask"
+        ]
+      },
+      "recommended": {
+        "text": {
+          "en": "rope, waterskins, food for lower-level players"
+        },
+        "highlightTerms": [
+          "rope",
+          "waterskin"
+        ]
+      }
+    },
+    {
+      "index": 9,
       "indent": 0,
       "section": "Finding the tomb",
       "text": {
@@ -303,7 +342,7 @@
       ]
     },
     {
-      "index": 8,
+      "index": 10,
       "indent": 1,
       "section": "Finding the tomb",
       "text": {
@@ -316,7 +355,7 @@
       ]
     },
     {
-      "index": 9,
+      "index": 11,
       "indent": 1,
       "section": "Finding the tomb",
       "text": {
@@ -331,7 +370,7 @@
       ]
     },
     {
-      "index": 10,
+      "index": 12,
       "indent": 0,
       "section": "Finding the tomb",
       "text": {
@@ -341,7 +380,7 @@
       "chatOptions": []
     },
     {
-      "index": 11,
+      "index": 13,
       "indent": 0,
       "section": "Finding the tomb",
       "text": {
@@ -351,7 +390,7 @@
       "chatOptions": []
     },
     {
-      "index": 12,
+      "index": 14,
       "indent": 0,
       "section": "Finding the tomb",
       "text": {
@@ -361,7 +400,7 @@
       "chatOptions": []
     },
     {
-      "index": 13,
+      "index": 15,
       "indent": 1,
       "section": "Finding the tomb",
       "text": {
@@ -371,7 +410,7 @@
       "chatOptions": []
     },
     {
-      "index": 14,
+      "index": 16,
       "indent": 0,
       "section": "Finding the tomb",
       "text": {
@@ -381,7 +420,7 @@
       "chatOptions": []
     },
     {
-      "index": 15,
+      "index": 17,
       "indent": 0,
       "section": "Finding the tomb",
       "text": {
@@ -391,7 +430,30 @@
       "chatOptions": []
     },
     {
-      "index": 16,
+      "index": 18,
+      "isSectionNote": true,
+      "section": "Inside the tomb",
+      "needed": {
+        "text": {
+          "en": "Cat of any sort, catspeak amulet, ghostspeak amulet, combat gear (ranged or magic recommended), earmuffs, facemask"
+        },
+        "highlightTerms": [
+          "Cat",
+          "catspeak amulet",
+          "ghostspeak amulet",
+          "earmuffs",
+          "facemask"
+        ]
+      },
+      "recommended": {
+        "text": {
+          "en": "food for lower-level players"
+        },
+        "highlightTerms": []
+      }
+    },
+    {
+      "index": 19,
       "indent": 0,
       "section": "Inside the tomb",
       "text": {
@@ -401,7 +463,7 @@
       "chatOptions": []
     },
     {
-      "index": 17,
+      "index": 20,
       "indent": 0,
       "section": "Inside the tomb",
       "text": {
@@ -414,7 +476,7 @@
       ]
     },
     {
-      "index": 18,
+      "index": 21,
       "indent": 0,
       "section": "Inside the tomb",
       "text": {
@@ -424,7 +486,7 @@
       "chatOptions": []
     },
     {
-      "index": 19,
+      "index": 22,
       "indent": 0,
       "section": "Inside the tomb",
       "text": {
@@ -437,7 +499,7 @@
       ]
     },
     {
-      "index": 20,
+      "index": 23,
       "indent": 0,
       "section": "Inside the tomb",
       "text": {
@@ -450,7 +512,7 @@
       ]
     },
     {
-      "index": 21,
+      "index": 24,
       "indent": 0,
       "section": "Inside the tomb",
       "text": {
@@ -464,7 +526,7 @@
       ]
     },
     {
-      "index": 22,
+      "index": 25,
       "indent": 0,
       "section": "Inside the tomb",
       "text": {
@@ -474,7 +536,7 @@
       "chatOptions": []
     },
     {
-      "index": 23,
+      "index": 26,
       "indent": 0,
       "section": "Inside the tomb",
       "text": {
@@ -484,7 +546,7 @@
       "chatOptions": []
     },
     {
-      "index": 24,
+      "index": 27,
       "indent": 0,
       "section": "Inside the tomb",
       "text": {
@@ -494,7 +556,7 @@
       "chatOptions": []
     },
     {
-      "index": 25,
+      "index": 28,
       "indent": 0,
       "section": "Inside the tomb",
       "text": {
@@ -504,7 +566,7 @@
       "chatOptions": []
     },
     {
-      "index": 26,
+      "index": 29,
       "indent": 1,
       "section": "Inside the tomb",
       "text": {
@@ -517,7 +579,7 @@
       ]
     },
     {
-      "index": 27,
+      "index": 30,
       "indent": 1,
       "section": "Inside the tomb",
       "text": {
@@ -527,7 +589,7 @@
       "chatOptions": []
     },
     {
-      "index": 28,
+      "index": 31,
       "indent": 1,
       "section": "Inside the tomb",
       "text": {
@@ -540,7 +602,7 @@
       ]
     },
     {
-      "index": 29,
+      "index": 32,
       "indent": 1,
       "section": "Inside the tomb",
       "text": {
@@ -550,7 +612,7 @@
       "chatOptions": []
     },
     {
-      "index": 30,
+      "index": 33,
       "indent": 1,
       "section": "Inside the tomb",
       "text": {
@@ -560,7 +622,7 @@
       "chatOptions": []
     },
     {
-      "index": 31,
+      "index": 34,
       "indent": 1,
       "section": "Inside the tomb",
       "text": {
@@ -570,7 +632,7 @@
       "chatOptions": []
     },
     {
-      "index": 32,
+      "index": 35,
       "indent": 1,
       "section": "Inside the tomb",
       "text": {
@@ -580,7 +642,7 @@
       "chatOptions": []
     },
     {
-      "index": 33,
+      "index": 36,
       "indent": 0,
       "section": "Inside the tomb",
       "text": {
@@ -590,7 +652,7 @@
       "chatOptions": []
     },
     {
-      "index": 34,
+      "index": 37,
       "indent": 0,
       "section": "Inside the tomb",
       "text": {
@@ -600,7 +662,7 @@
       "chatOptions": []
     },
     {
-      "index": 35,
+      "index": 38,
       "indent": 0,
       "section": "Inside the tomb",
       "text": {
@@ -613,7 +675,7 @@
       ]
     },
     {
-      "index": 36,
+      "index": 39,
       "indent": 0,
       "section": "Inside the tomb",
       "text": {
@@ -623,7 +685,20 @@
       "chatOptions": []
     },
     {
-      "index": 37,
+      "index": 40,
+      "isSectionNote": true,
+      "section": "The final fight",
+      "needed": {
+        "text": {
+          "en": "Masked earmuffs, combat gear, food"
+        },
+        "highlightTerms": [
+          "Masked earmuffs"
+        ]
+      }
+    },
+    {
+      "index": 41,
       "indent": 0,
       "section": "The final fight",
       "text": {
@@ -636,7 +711,7 @@
       ]
     },
     {
-      "index": 38,
+      "index": 42,
       "indent": 0,
       "section": "The final fight",
       "text": {
@@ -646,7 +721,7 @@
       "chatOptions": []
     },
     {
-      "index": 39,
+      "index": 43,
       "indent": 0,
       "section": "The final fight",
       "text": {
@@ -656,7 +731,7 @@
       "chatOptions": []
     },
     {
-      "index": 40,
+      "index": 44,
       "indent": 0,
       "section": "The final fight",
       "text": {
@@ -669,7 +744,7 @@
       ]
     },
     {
-      "index": 41,
+      "index": 45,
       "indent": 0,
       "section": "The final fight",
       "text": {
@@ -682,7 +757,7 @@
       ]
     },
     {
-      "index": 42,
+      "index": 46,
       "indent": 1,
       "section": "The final fight",
       "text": {
@@ -692,7 +767,7 @@
       "chatOptions": []
     },
     {
-      "index": 43,
+      "index": 47,
       "indent": 0,
       "section": "The final fight",
       "text": {
@@ -705,7 +780,7 @@
       ]
     },
     {
-      "index": 44,
+      "index": 48,
       "indent": 1,
       "section": "The final fight",
       "text": {
@@ -718,7 +793,7 @@
       ]
     },
     {
-      "index": 45,
+      "index": 49,
       "indent": 0,
       "section": "The final fight",
       "text": {
@@ -728,7 +803,7 @@
       "chatOptions": []
     },
     {
-      "index": 46,
+      "index": 50,
       "indent": 1,
       "section": "The final fight",
       "text": {
@@ -738,7 +813,7 @@
       "chatOptions": []
     },
     {
-      "index": 47,
+      "index": 51,
       "indent": 0,
       "section": "The final fight",
       "text": {
@@ -751,7 +826,7 @@
       ]
     },
     {
-      "index": 48,
+      "index": 52,
       "indent": 0,
       "section": "The final fight",
       "text": {
@@ -761,7 +836,7 @@
       "chatOptions": []
     },
     {
-      "index": 49,
+      "index": 53,
       "indent": 0,
       "section": "The final fight",
       "text": {

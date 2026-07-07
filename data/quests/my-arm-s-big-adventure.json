@@ -3,7 +3,7 @@
   "title": "My Arm's Big Adventure",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T02:44:51.191Z",
+  "guideLastUpdated": "2026-07-07T03:04:53.258Z",
   "icon": "https://runescape.wiki/images/My_Arm%27s_Big_Adventure_icon.png",
   "entityIcon": null,
   "series": "Troll",
@@ -181,6 +181,17 @@
   "steps": [
     {
       "index": 0,
+      "isSectionNote": true,
+      "section": "The adventurer",
+      "recommended": {
+        "text": {
+          "en": "Bring all items required for the next step"
+        },
+        "highlightTerms": []
+      }
+    },
+    {
+      "index": 1,
       "indent": 0,
       "section": "The adventurer",
       "text": {
@@ -190,7 +201,7 @@
       "chatOptions": []
     },
     {
-      "index": 1,
+      "index": 2,
       "indent": 0,
       "section": "The adventurer",
       "text": {
@@ -206,7 +217,7 @@
       ]
     },
     {
-      "index": 2,
+      "index": 3,
       "indent": 0,
       "section": "The adventurer",
       "text": {
@@ -219,7 +230,23 @@
       ]
     },
     {
-      "index": 3,
+      "index": 4,
+      "isSectionNote": true,
+      "section": "Getting the goutweed",
+      "needed": {
+        "text": {
+          "en": "Climbing boots, 3 buckets of Ugthanki dung, 7 buckets of supercompost, 1 empty bucket"
+        },
+        "highlightTerms": [
+          "Climbing boots",
+          "Ugthanki dung",
+          "supercompost",
+          "bucket"
+        ]
+      }
+    },
+    {
+      "index": 5,
       "indent": 0,
       "section": "Getting the goutweed",
       "text": {
@@ -229,7 +256,7 @@
       "chatOptions": []
     },
     {
-      "index": 4,
+      "index": 6,
       "indent": 0,
       "section": "Getting the goutweed",
       "text": {
@@ -243,7 +270,7 @@
       ]
     },
     {
-      "index": 5,
+      "index": 7,
       "indent": 0,
       "section": "Getting the goutweed",
       "text": {
@@ -256,7 +283,7 @@
       ]
     },
     {
-      "index": 6,
+      "index": 8,
       "indent": 1,
       "section": "Getting the goutweed",
       "text": {
@@ -266,7 +293,7 @@
       "chatOptions": []
     },
     {
-      "index": 7,
+      "index": 9,
       "indent": 0,
       "section": "Getting the goutweed",
       "text": {
@@ -279,7 +306,7 @@
       ]
     },
     {
-      "index": 8,
+      "index": 10,
       "indent": 0,
       "section": "Getting the goutweed",
       "text": {
@@ -289,7 +316,7 @@
       "chatOptions": []
     },
     {
-      "index": 9,
+      "index": 11,
       "indent": 0,
       "section": "Getting the goutweed",
       "text": {
@@ -299,7 +326,7 @@
       "chatOptions": []
     },
     {
-      "index": 10,
+      "index": 12,
       "indent": 0,
       "section": "Getting the goutweed",
       "text": {
@@ -312,7 +339,7 @@
       ]
     },
     {
-      "index": 11,
+      "index": 13,
       "indent": 0,
       "section": "Getting the goutweed",
       "text": {
@@ -324,7 +351,18 @@
       ]
     },
     {
-      "index": 12,
+      "index": 14,
+      "isSectionNote": true,
+      "section": "Getting the tubers",
+      "needed": {
+        "text": {
+          "en": "At least 1 free inventory space to receive the gout tubers"
+        },
+        "highlightTerms": []
+      }
+    },
+    {
+      "index": 15,
       "indent": 0,
       "section": "Getting the tubers",
       "text": {
@@ -338,7 +376,7 @@
       ]
     },
     {
-      "index": 13,
+      "index": 16,
       "indent": 0,
       "section": "Getting the tubers",
       "text": {
@@ -352,7 +390,7 @@
       ]
     },
     {
-      "index": 14,
+      "index": 17,
       "indent": 0,
       "section": "Getting the tubers",
       "text": {
@@ -367,7 +405,7 @@
       ]
     },
     {
-      "index": 15,
+      "index": 18,
       "indent": 0,
       "section": "Getting the tubers",
       "text": {
@@ -377,7 +415,7 @@
       "chatOptions": []
     },
     {
-      "index": 16,
+      "index": 19,
       "indent": 0,
       "section": "Getting the tubers",
       "text": {
@@ -390,7 +428,30 @@
       ]
     },
     {
-      "index": 17,
+      "index": 20,
+      "isSectionNote": true,
+      "section": "Teaching a troll to farm",
+      "needed": {
+        "text": {
+          "en": "Spade, rake, hardy gout tubers, seed dibber, plant cure, combat equipment to fight a level 56 and 77"
+        },
+        "highlightTerms": [
+          "Spade",
+          "rake",
+          "hardy gout tubers",
+          "seed dibber",
+          "plant cure"
+        ]
+      },
+      "recommended": {
+        "text": {
+          "en": "supercompost"
+        },
+        "highlightTerms": []
+      }
+    },
+    {
+      "index": 21,
       "indent": 0,
       "section": "Teaching a troll to farm",
       "text": {
@@ -403,7 +464,7 @@
       ]
     },
     {
-      "index": 18,
+      "index": 22,
       "indent": 0,
       "section": "Teaching a troll to farm",
       "text": {
@@ -418,7 +479,7 @@
       ]
     },
     {
-      "index": 19,
+      "index": 23,
       "indent": 0,
       "section": "Teaching a troll to farm",
       "text": {
@@ -428,7 +489,7 @@
       "chatOptions": []
     },
     {
-      "index": 20,
+      "index": 24,
       "indent": 0,
       "section": "Teaching a troll to farm",
       "text": {
@@ -438,7 +499,7 @@
       "chatOptions": []
     },
     {
-      "index": 21,
+      "index": 25,
       "indent": 1,
       "section": "Teaching a troll to farm",
       "text": {
@@ -448,7 +509,7 @@
       "chatOptions": []
     },
     {
-      "index": 22,
+      "index": 26,
       "indent": 2,
       "section": "Teaching a troll to farm",
       "text": {
@@ -458,7 +519,7 @@
       "chatOptions": []
     },
     {
-      "index": 23,
+      "index": 27,
       "indent": 1,
       "section": "Teaching a troll to farm",
       "text": {
@@ -468,7 +529,7 @@
       "chatOptions": []
     },
     {
-      "index": 24,
+      "index": 28,
       "indent": 1,
       "section": "Teaching a troll to farm",
       "text": {
@@ -478,7 +539,7 @@
       "chatOptions": []
     },
     {
-      "index": 25,
+      "index": 29,
       "indent": 1,
       "section": "Teaching a troll to farm",
       "text": {
@@ -488,7 +549,7 @@
       "chatOptions": []
     },
     {
-      "index": 26,
+      "index": 30,
       "indent": 1,
       "section": "Teaching a troll to farm",
       "text": {
@@ -498,7 +559,7 @@
       "chatOptions": []
     },
     {
-      "index": 27,
+      "index": 31,
       "indent": 0,
       "section": "Teaching a troll to farm",
       "text": {
@@ -511,7 +572,7 @@
       ]
     },
     {
-      "index": 28,
+      "index": 32,
       "indent": 0,
       "section": "Teaching a troll to farm",
       "text": {
@@ -524,7 +585,7 @@
       ]
     },
     {
-      "index": 29,
+      "index": 33,
       "indent": 0,
       "section": "Teaching a troll to farm",
       "text": {
@@ -534,7 +595,7 @@
       "chatOptions": []
     },
     {
-      "index": 30,
+      "index": 34,
       "indent": 0,
       "section": "Teaching a troll to farm",
       "text": {
@@ -547,7 +608,7 @@
       ]
     },
     {
-      "index": 31,
+      "index": 35,
       "indent": 0,
       "section": "The end?",
       "text": {
@@ -557,7 +618,7 @@
       "chatOptions": []
     },
     {
-      "index": 32,
+      "index": 36,
       "indent": 0,
       "section": "The end?",
       "text": {
@@ -567,7 +628,7 @@
       "chatOptions": []
     },
     {
-      "index": 33,
+      "index": 37,
       "indent": 1,
       "section": "The end?",
       "text": {
@@ -577,7 +638,7 @@
       "chatOptions": []
     },
     {
-      "index": 34,
+      "index": 38,
       "indent": 0,
       "section": "The end?",
       "text": {
@@ -587,7 +648,7 @@
       "chatOptions": []
     },
     {
-      "index": 35,
+      "index": 39,
       "indent": 0,
       "section": "The end?",
       "text": {
@@ -597,7 +658,7 @@
       "chatOptions": []
     },
     {
-      "index": 36,
+      "index": 40,
       "indent": 0,
       "section": "The end?",
       "text": {

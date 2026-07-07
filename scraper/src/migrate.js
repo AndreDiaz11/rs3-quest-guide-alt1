@@ -75,7 +75,7 @@ async function migrateOne(slug) {
   // `old.steps` may itself already contain table/image steps from a previous
   // run of this same script — filter them out before comparing/matching, or
   // the index-based overlay below silently shifts and misassigns translations.
-  const isStructural = (s) => Boolean(s.isTable || s.isImage || s.isSelectableList);
+  const isStructural = (s) => Boolean(s.isTable || s.isImage || s.isSelectableList || s.isSectionNote);
   const oldTextSteps = (old.steps || []).filter((s) => !isStructural(s));
   const textStepCount = steps.filter((s) => !isStructural(s)).length;
   if (textStepCount !== oldTextSteps.length) {
@@ -112,6 +112,27 @@ async function migrateOne(slug) {
         const oldEs = oldList.items?.[i]?.text?.es;
         return oldEs ? { ...item, text: { ...item.text, es: oldEs } } : item;
       }),
+    };
+  });
+
+  // Section notes ({{Needed|...}}) carry their own translatable text, same
+  // Nth-block matching approach as the selectable lists above.
+  const oldSectionNotes = (old.steps || []).filter((s) => s.isSectionNote);
+  let sectionNoteIndex = 0;
+  record.steps = record.steps.map((step) => {
+    if (!step.isSectionNote) return step;
+    const oldNote = oldSectionNotes[sectionNoteIndex];
+    sectionNoteIndex++;
+    if (!oldNote) return step;
+    const attach = (field) => {
+      if (!step[field]) return undefined;
+      const oldEs = oldNote[field]?.text?.es;
+      return oldEs ? { ...step[field], text: { ...step[field].text, es: oldEs } } : step[field];
+    };
+    return {
+      ...step,
+      ...(step.needed ? { needed: attach("needed") } : {}),
+      ...(step.recommended ? { recommended: attach("recommended") } : {}),
     };
   });
 

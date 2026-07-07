@@ -1,4 +1,9 @@
-import { extractAllTemplatesWithPositions, wikitextToPlain, splitIntoSections } from "./wikitext.js";
+import {
+  extractAllTemplatesWithPositions,
+  wikitextToPlain,
+  splitIntoSections,
+  splitTemplateParams,
+} from "./wikitext.js";
 import {
   extractWikiTables,
   parseWikiTableToStructured,
@@ -75,9 +80,38 @@ function parseLighttableItems(raw) {
     }));
 }
 
-/** True for a "structural" step (table/image/selectable-list) that skips the plain-text/translation pipeline entirely. */
+/** True for a "structural" step (table/image/selectable-list/section-note) that skips the plain-text/translation pipeline entirely. */
 function isStructural(step) {
-  return Boolean(step.isTable || step.isImage || step.isSelectableList);
+  return Boolean(step.isTable || step.isImage || step.isSelectableList || step.isSectionNote);
+}
+
+/**
+ * `{{Needed|...}}` (sometimes with a second `recommended = ...` param) sits
+ * before a section's Checklist on the wiki (e.g. Pieces of Hate's "Needed: 3
+ * pieces of pirate clothing") — a short prerequisite/tip note, not a step to
+ * check off. Each part runs through wikitextToPlain for its own text +
+ * highlight terms (linked names stay blue); translated later like a normal
+ * step's text (see buildDataset.js).
+ */
+function parseSectionNote(sectionContent, section, rawSteps) {
+  const blocks = extractAllTemplatesWithPositions(sectionContent, "Needed");
+  if (blocks.length === 0) return;
+  const params = splitTemplateParams(blocks[0].content);
+  const recommendedRaw = params.find((p) => /^\s*recommended\s*=/i.test(p));
+  const neededRaw = params.find((p) => !/^\s*recommended\s*=/i.test(p));
+
+  const needed = neededRaw?.trim() ? wikitextToPlain(neededRaw) : null;
+  const recommended = recommendedRaw ? wikitextToPlain(recommendedRaw.replace(/^\s*recommended\s*=/i, "")) : null;
+  if (!needed && !recommended) return;
+
+  rawSteps.push({
+    isSectionNote: true,
+    section,
+    ...(needed ? { needed: { text: needed.text, highlightTerms: [...new Set(needed.highlightTerms)] } } : {}),
+    ...(recommended
+      ? { recommended: { text: recommended.text, highlightTerms: [...new Set(recommended.highlightTerms)] } }
+      : {}),
+  });
 }
 
 /**
@@ -115,6 +149,10 @@ export function parseSteps(quickGuideWikitext) {
       .filter((img) => !checklistBlocks.some((cl) => img.start >= cl.start && img.start < cl.end))
       .map((b) => ({ ...b, kind: "image" }));
     const blocks = [...checklistBlocks, ...tableBlocks, ...imageBlocks].sort((a, b) => a.start - b.start);
+
+    // {{Needed|...}} always sits before the section's own Checklist/table
+    // blocks, so it's added first regardless of where exactly it falls.
+    parseSectionNote(content, heading, rawSteps);
 
     for (const block of blocks) {
       if (block.kind === "checklist") {
@@ -162,6 +200,15 @@ export function parseSteps(quickGuideWikitext) {
       }
       if (step.isSelectableList) {
         return { index, isSelectableList: true, section: step.section, items: step.items };
+      }
+      if (step.isSectionNote) {
+        return {
+          index,
+          isSectionNote: true,
+          section: step.section,
+          ...(step.needed ? { needed: step.needed } : {}),
+          ...(step.recommended ? { recommended: step.recommended } : {}),
+        };
       }
       return {
         index,

@@ -226,6 +226,41 @@ export function wikitextToPlain(raw) {
 }
 
 /**
+ * Splits a template's raw param string on top-level `|` only — respecting
+ * nested `[[ ]]`/`{{ }}` so a param like `2 pieces of [[leather]], 1 [[gold
+ * bar]]` (with its own commas/brackets) or `recommended = Varrock [[teleport]]`
+ * doesn't get sliced apart mid-link.
+ */
+export function splitTemplateParams(content) {
+  const parts = [];
+  let depth = 0;
+  let current = "";
+  for (let i = 0; i < content.length; i++) {
+    const two = content.slice(i, i + 2);
+    if (two === "[[" || two === "{{") {
+      depth++;
+      current += two;
+      i++;
+      continue;
+    }
+    if (two === "]]" || two === "}}") {
+      depth--;
+      current += two;
+      i++;
+      continue;
+    }
+    if (content[i] === "|" && depth === 0) {
+      parts.push(current);
+      current = "";
+      continue;
+    }
+    current += content[i];
+  }
+  parts.push(current);
+  return parts;
+}
+
+/**
  * Splits a Quick guide's wikitext into `{ heading, content }` sections, each
  * `content` being the raw wikitext between one `==Heading==` (any level) and
  * the next. Text before the first heading is returned under `heading: null`.

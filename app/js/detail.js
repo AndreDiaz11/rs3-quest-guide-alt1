@@ -513,6 +513,26 @@ function saveSelectableSelection(questId, stepIndex, selectedSet) {
 }
 
 /**
+ * Renders the wiki's `{{Needed|...}}`/`{{Needed|recommended=...}}` note (e.g.
+ * Pieces of Hate's "Needed: 3 pieces of pirate clothing") as a small,
+ * slightly-highlighted box above the section's steps — italic body text,
+ * bold label, linked names in the same blue used everywhere else.
+ */
+function renderSectionNote(step, lang) {
+  const box = el("div", { class: "section-note" });
+  const addLine = (labelKey, note) => {
+    const line = el("div", { class: "section-note-line" });
+    line.appendChild(el("b", { text: t(labelKey) }));
+    line.appendChild(document.createTextNode(": "));
+    appendFormattedStepText(line, localizedText(note.text, lang), note.highlightTerms, null);
+    box.appendChild(line);
+  };
+  if (step.needed) addLine("neededLabel", step.needed);
+  if (step.recommended) addLine("recommendedLabel", step.recommended);
+  return box;
+}
+
+/**
  * Renders the wiki's own "select which of these to mark done" widget (e.g.
  * The Mighty Fall's "talk to the following goblins", each with its own chat
  * options) — a bordered list where clicking a row toggles a done/selected
@@ -707,6 +727,16 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
         if (step.isSelectableList) {
           const li = el("li", { class: "selectable-list-li" });
           li.appendChild(renderSelectableList(quest, step, lang));
+          stepList.appendChild(li);
+          return;
+        }
+
+        // {{Needed|...}}/{{Needed|recommended=...}} — a short prerequisite/tip
+        // note the wiki shows before a section's steps (e.g. Pieces of Hate's
+        // "Needed: 3 pieces of pirate clothing"), not an actionable step.
+        if (step.isSectionNote) {
+          const li = el("li", { class: "section-note-li" });
+          li.appendChild(renderSectionNote(step, lang));
           stepList.appendChild(li);
           return;
         }

@@ -78,10 +78,20 @@ export async function buildQuestRecord({
       step.items.forEach((item, itemIndex) => selectableItemRefs.push({ stepIndex, itemIndex, text: item.text.en }));
     }
   });
+  // {{Needed|...}}/{{Needed|recommended=...}} section notes carry their own
+  // one or two lines of translatable text, same batching pattern as the
+  // selectable-list items above.
+  const sectionNoteRefs = [];
+  steps.forEach((step, stepIndex) => {
+    if (!step.isSectionNote) return;
+    if (step.needed) sectionNoteRefs.push({ stepIndex, field: "needed", text: step.needed.text });
+    if (step.recommended) sectionNoteRefs.push({ stepIndex, field: "recommended", text: step.recommended.text });
+  });
   const allTexts = [
     metadata.startPoint || "",
-    ...steps.map((s) => (s.isTable || s.isImage || s.isSelectableList ? "" : s.text.en)),
+    ...steps.map((s) => (s.isTable || s.isImage || s.isSelectableList || s.isSectionNote ? "" : s.text.en)),
     ...selectableItemRefs.map((ref) => ref.text),
+    ...sectionNoteRefs.map((ref) => ref.text),
   ];
   const nonEmptyIndexes = [];
   const nonEmptyTexts = [];
@@ -98,13 +108,14 @@ export async function buildQuestRecord({
   });
   const [startPointEs, ...rest] = translated;
   const stepEsTexts = rest.slice(0, steps.length);
-  const selectableItemEsTexts = rest.slice(steps.length);
+  const selectableItemEsTexts = rest.slice(steps.length, steps.length + selectableItemRefs.length);
+  const sectionNoteEsTexts = rest.slice(steps.length + selectableItemRefs.length);
 
-  // Table/image/selectable-list steps' own top-level text field is skipped
-  // here (selectable-list items are translated individually just below).
+  // Table/image/selectable-list/section-note steps' own top-level text field
+  // is skipped here (translated individually just below instead).
   const stepsWithEs = steps.map((step, i) => {
     if (step.isTable || step.isImage) return step;
-    if (step.isSelectableList) return step;
+    if (step.isSelectableList || step.isSectionNote) return step;
     return { ...step, text: { en: step.text.en, ...(stepEsTexts[i] ? { es: stepEsTexts[i] } : {}) } };
   });
   const stepsWithSelectableEs = stepsWithEs.map((step, stepIndex) => {
@@ -115,6 +126,20 @@ export async function buildQuestRecord({
       return { ...item, text: { en: item.text.en, ...(es ? { es } : {}) } };
     });
     return { ...step, items };
+  });
+  const stepsWithSectionNoteEs = stepsWithSelectableEs.map((step, stepIndex) => {
+    if (!step.isSectionNote) return step;
+    const attach = (field) => {
+      if (!step[field]) return undefined;
+      const ref = sectionNoteRefs.findIndex((r) => r.stepIndex === stepIndex && r.field === field);
+      const es = sectionNoteEsTexts[ref];
+      return { ...step[field], text: { en: step[field].text, ...(es ? { es } : {}) } };
+    };
+    return {
+      ...step,
+      ...(step.needed ? { needed: attach("needed") } : {}),
+      ...(step.recommended ? { recommended: attach("recommended") } : {}),
+    };
   });
 
   // Resolve every standalone solution-image filename, plus every small inline
@@ -132,9 +157,10 @@ export async function buildQuestRecord({
     const { iconFilenames, ...rest } = entity;
     return { ...rest, icons: iconFilenames.map((f) => ({ filename: f, image: fileUrlMap.get(f) || null })) };
   };
-  const stepsWithImages = stepsWithSelectableEs.map((step) => {
+  const stepsWithImages = stepsWithSectionNoteEs.map((step) => {
     if (step.isImage) return { ...step, image: fileUrlMap.get(step.filename) || null };
     if (step.isSelectableList) return { ...step, items: step.items.map(attachIcons) };
+    if (step.isSectionNote) return step;
     return attachIcons(step);
   });
 
