@@ -1,23 +1,6 @@
 import { state, questStatus, isSynced } from "./state.js";
 import { t } from "./i18n.js";
-import {
-  checkCircleIcon,
-  clockCircleIcon,
-  xCircleIcon,
-  calendarIcon,
-  scrollIcon,
-  compassIcon,
-  unsyncedIcon,
-  funnelIcon,
-} from "./icons.js";
-
-const STATUS_COLOR = {
-  COMPLETED: "var(--quest-green)",
-  STARTED: "var(--quest-yellow)",
-  NOT_STARTED: "var(--quest-red)",
-};
-const MINIQUEST_COLOR = "var(--quest-miniquest)";
-const EVENT_COLOR = "var(--quest-event)";
+import { compassIcon, funnelIcon } from "./icons.js";
 
 // No public API can tell us whether a quest's non-quest/non-skill
 // requirements (a minigame or activity achievement, e.g. Nomad's Requiem's
@@ -278,22 +261,6 @@ function renderCounter(container) {
   }
 }
 
-// El color (verde/amarillo/rojo) siempre refleja el estado REAL de la misión,
-// sin importar el tipo — antes las misiones de temporada se veían siempre en
-// azul aunque estuvieran incompletas, lo cual confundía con "incompleta" de
-// verdad (rojo). El ícono de la derecha sí distingue el tipo (calendario para
-// eventos, pergamino para minimisiones).
-function rowVisual(quest) {
-  const status = questStatus(quest.id);
-  if (!isSynced() && !quest.isMiniquest) return { right: unsyncedIcon("var(--text-dim)") };
-  const color = STATUS_COLOR[status];
-  if (quest.isSeasonal) return { right: calendarIcon(EVENT_COLOR) };
-  if (quest.isMiniquest) return { right: scrollIcon(MINIQUEST_COLOR) };
-  if (status === "COMPLETED") return { right: checkCircleIcon(color) };
-  if (status === "STARTED") return { right: clockCircleIcon(color) };
-  return { right: xCircleIcon(color) };
-}
-
 /**
  * Matches RS3's own in-game quest journal convention: a leading article
  * ("The"/"A") moves to the end after a comma (e.g. "The Elder Kiln" ->
@@ -381,7 +348,6 @@ function renderList(listEl, summaryEl, onSelect) {
     }
 
     const status = questStatus(quest.id);
-    const { right } = rowVisual(quest);
     const li = document.createElement("li");
     li.className =
       !isSynced() && !quest.isMiniquest ? "status-unsynced" : `status-${status.toLowerCase().replace("_", "-")}`;
@@ -389,9 +355,7 @@ function renderList(listEl, summaryEl, onSelect) {
 
     const displayTitle = rs3DisplayTitle(quest.title);
     const titleText = quest.isSeasonal ? `🎉 ${displayTitle}` : displayTitle;
-    li.innerHTML =
-      `<span class="row-title">${titleText}</span>` +
-      `<span class="row-status">${right}</span>`;
+    li.innerHTML = `<span class="row-title">${titleText}</span>`;
     li.addEventListener("click", () => onSelect(quest.id));
     listEl.appendChild(li);
   });

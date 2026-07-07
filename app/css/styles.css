@@ -63,23 +63,43 @@ h1, h2, .app-title-font {
   transform: translateX(0);
 }
 
+/* Shared look for every square icon-only button (sidebar toggle, refresh,
+   settings) — a flat glyph that only picks up a soft rounded highlight on
+   hover/focus, instead of each one carrying its own permanent bordered box
+   (which read as a cluttered row of separate buttons). */
+.icon-btn {
+  background: none;
+  border: 1px solid transparent;
+  color: var(--gold);
+  border-radius: 6px;
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15em;
+  line-height: 1;
+  transition: color 0.15s, background-color 0.15s, border-color 0.15s;
+}
+
+.icon-btn:hover:not(:disabled) {
+  color: var(--gold-bright);
+  background: rgba(224, 184, 74, 0.12);
+  border-color: var(--border-light);
+}
+
+.icon-btn:disabled {
+  color: var(--text-dim);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
 #sidebar-toggle {
   position: absolute;
   top: 10px;
   left: 10px;
   z-index: 60;
-  background: var(--bg-panel);
-  border: 1px solid var(--border-light);
-  color: var(--gold);
-  border-radius: 4px;
-  cursor: pointer;
-  padding: 5px 10px;
-  font-size: 1.1em;
-  line-height: 1;
-}
-
-#sidebar-toggle:hover {
-  color: var(--gold-bright);
 }
 
 #sidebar-backdrop {
@@ -97,15 +117,15 @@ h1, h2, .app-title-font {
 #sidebar-header {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 12px 14px;
+  gap: 12px;
+  padding: 14px 16px;
   border-bottom: 1px solid var(--border-light);
-  background: rgba(0, 0, 0, 0.2);
+  background: linear-gradient(rgba(224, 184, 74, 0.06), rgba(0, 0, 0, 0.2));
 }
 
 #header-logo {
-  width: 26px;
-  height: 26px;
+  width: 30px;
+  height: 30px;
   flex-shrink: 0;
 }
 
@@ -117,48 +137,10 @@ h1, h2, .app-title-font {
 #app-title {
   flex: 1;
   font-weight: 700;
+  font-size: 1.05em;
   color: var(--gold-bright);
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-}
-
-#settings-btn {
-  background: var(--bg-panel);
-  border: 1px solid var(--border-light);
-  color: var(--gold);
-  border-radius: 4px;
-  cursor: pointer;
-  padding: 3px 9px;
-  font-size: 1.05em;
-  transition: color 0.15s, border-color 0.15s;
-}
-
-#settings-btn:hover {
-  color: var(--gold-bright);
-  border-color: var(--gold);
-}
-
-#refresh-btn {
-  background: var(--bg-panel);
-  border: 1px solid var(--border-light);
-  color: var(--gold);
-  border-radius: 4px;
-  cursor: pointer;
-  padding: 3px 9px;
-  font-size: 1.05em;
-  transition: color 0.15s, border-color 0.15s;
-}
-
-#refresh-btn:hover:not(:disabled) {
-  color: var(--gold-bright);
-  border-color: var(--gold);
-}
-
-#refresh-btn:disabled {
-  color: var(--text-dim);
-  border-color: var(--border);
-  cursor: not-allowed;
-  opacity: 0.6;
 }
 
 #quest-list {
@@ -182,20 +164,6 @@ h1, h2, .app-title-font {
 
 #quest-list li:hover {
   background: rgba(255, 255, 255, 0.07);
-}
-
-.row-diamond,
-.row-status {
-  flex-shrink: 0;
-  width: 15px;
-  height: 15px;
-  display: inline-flex;
-}
-
-.row-diamond svg,
-.row-status svg {
-  width: 100%;
-  height: 100%;
 }
 
 .row-title {
@@ -464,22 +432,24 @@ h1, h2, .app-title-font {
 }
 
 #quest-counter {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 32px 1fr;
   align-items: center;
-  gap: 10px;
-  padding: 10px 14px;
+  column-gap: 12px;
+  row-gap: 8px;
+  padding: 12px 16px;
   border-top: 1px solid var(--border-light);
   font-size: 0.85em;
   color: var(--gold);
-  background: rgba(0, 0, 0, 0.2);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(224, 184, 74, 0.05));
   font-weight: 600;
 }
 
 #counter-logo {
+  grid-row: 1 / 3;
   width: 28px;
   height: 28px;
-  flex-shrink: 0;
+  align-self: center;
 }
 
 #counter-logo svg {
@@ -487,16 +457,14 @@ h1, h2, .app-title-font {
   height: 100%;
 }
 
-#counter-text {
-  line-height: 1.3;
+#counter-text,
+#counter-quests-text {
+  line-height: 1.35;
 }
 
 #counter-quests-text {
-  flex-basis: 100%;
-  margin-left: 38px;
   padding-top: 8px;
   border-top: 1px dashed var(--border);
-  line-height: 1.3;
 }
 
 .counter-remaining {
