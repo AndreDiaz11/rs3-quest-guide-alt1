@@ -44,10 +44,8 @@ function filterQuests(quests) {
   });
 }
 
-// RS3's own ordinal scale for these fields isn't exposed anywhere machine-
-// readable — built from what's actually present across the 362 scraped
-// quests (see the length/age/timeline value dump used to derive this) and
-// may need a manual tweak once seen against the real in-game order.
+// RS3's own ordinal scale for length isn't exposed anywhere machine-readable
+// — built from what's actually present across the 362 scraped quests.
 const LENGTH_ORDER = [
   "Very Short",
   "Short",
@@ -59,52 +57,16 @@ const LENGTH_ORDER = [
   "Very Long",
   "Very, Very Long",
 ];
-const AGE_ORDER = ["5", "6", "age of chaos", "ambiguous"];
-const TIMELINE_ORDER = [
-  "age of chaos",
-  "adventurer",
-  "pathfinder",
-  "champion",
-  "heroic",
-  "legendary",
-  "mythic",
-  "world guardian",
-  "seasonal",
-];
 // Confirmed against the real client: In Progress, then Not Started, then Completed.
 const PROGRESS_ORDER = { STARTED: 0, NOT_STARTED: 1, COMPLETED: 2 };
 
-// Case-insensitive on BOTH sides — LENGTH_ORDER is written Title Case (to
+// Case-insensitive on both sides — LENGTH_ORDER is written Title Case (to
 // double as its own group-header label further down) while the scraped data
-// itself is inconsistent; comparing lowercased-value against a
-// not-lowercased list silently failed to match anything, tying every quest
-// at the same "unknown" position (Length sort was a no-op before this fix).
+// itself is inconsistent.
 function orderIndex(list, value) {
   if (!value) return list.length;
   const i = list.findIndex((item) => item.toLowerCase() === String(value).toLowerCase());
   return i === -1 ? list.length : i;
-}
-
-// combatLevel is scraped as a range string ("30-39"), "none"/"None"/null, or
-// "scaled" — normalized to one bucket per real category (a case-insensitive
-// "none"/"None"/missing mix must NOT fragment into separate header groups,
-// and "scaled" is a distinct real category that must not collide with
-// "none"'s sort position either).
-function combatBucket(level) {
-  if (!level || /^none$/i.test(level)) return { sortValue: -2, label: "None" };
-  if (/^scaled$/i.test(level)) return { sortValue: -1, label: "Scaled" };
-  const match = String(level).match(/\d+/);
-  return { sortValue: match ? Number(match[0]) : -2, label: level };
-}
-
-function seriesEarliestReleaseTime(seriesName) {
-  let min = Infinity;
-  for (const q of state.index.quests) {
-    if (q.series !== seriesName) continue;
-    const t = q.releaseDate ? new Date(q.releaseDate).getTime() : Infinity;
-    if (t < min) min = t;
-  }
-  return min;
 }
 
 // A leading apostrophe/quote (e.g. "'Phite Club") must be ignored for
@@ -117,44 +79,16 @@ function alphabeticalSortKey(title) {
 
 const SORT_COMPARATORS = {
   alphabetical: (a, b) => alphabeticalSortKey(a.title).localeCompare(alphabeticalSortKey(b.title), "es"),
-  combat: (a, b) => combatBucket(a.combatLevel).sortValue - combatBucket(b.combatLevel).sortValue,
-  age: (a, b) => orderIndex(AGE_ORDER, a.age) - orderIndex(AGE_ORDER, b.age),
   members: (a, b) => Number(Boolean(a.members)) - Number(Boolean(b.members)),
   length: (a, b) => orderIndex(LENGTH_ORDER, a.length) - orderIndex(LENGTH_ORDER, b.length),
   progress: (a, b) => (PROGRESS_ORDER[questStatus(a.id)] ?? 1) - (PROGRESS_ORDER[questStatus(b.id)] ?? 1),
-  releaseDate: (a, b) =>
-    (a.releaseDate ? new Date(a.releaseDate).getTime() : Infinity) -
-    (b.releaseDate ? new Date(b.releaseDate).getTime() : Infinity),
-  // Confirmed against the real client: NOT alphabetical — a series sorts by
-  // its earliest quest's release date (e.g. Pirate/2001 before Penguin/2007
-  // before Sliske's Game/2013 before The Elder God Wars/2018), with no-series
-  // quests last.
-  series: (a, b) => {
-    const at = a.series ? seriesEarliestReleaseTime(a.series) : Infinity;
-    const bt = b.series ? seriesEarliestReleaseTime(b.series) : Infinity;
-    if (at !== bt) return at - bt;
-    // Two different series can tie on release date (e.g. launched the same
-    // day) — break by series name first so same-series quests always stay
-    // grouped together, THEN by seriesNth within that group.
-    const bySeriesName = (a.series || "￿").localeCompare(b.series || "￿");
-    if (bySeriesName !== 0) return bySeriesName;
-    return (a.seriesNth ?? Infinity) - (b.seriesNth ?? Infinity);
-  },
-  startLocation: (a, b) => (a.startLocation || "￿").localeCompare(b.startLocation || "￿"),
-  timeline: (a, b) => orderIndex(TIMELINE_ORDER, a.timeline) - orderIndex(TIMELINE_ORDER, b.timeline),
 };
 
 const SORT_MODES = [
   { key: "alphabetical", labelKey: "sortAlphabetical" },
-  { key: "combat", labelKey: "sortCombat" },
-  { key: "age", labelKey: "sortAge" },
   { key: "members", labelKey: "sortMembers" },
   { key: "length", labelKey: "sortLength" },
   { key: "progress", labelKey: "sortProgress" },
-  { key: "releaseDate", labelKey: "sortReleaseDate" },
-  { key: "series", labelKey: "sortSeries" },
-  { key: "startLocation", labelKey: "sortStartLocation" },
-  { key: "timeline", labelKey: "sortTimeline" },
 ];
 
 // Se construye una sola vez; los checkboxes del popover y el <select> de
@@ -343,19 +277,6 @@ function rs3DisplayTitle(title) {
   return match ? `${match[2]}, ${match[1]}` : title;
 }
 
-const AGE_LABELS = { 5: "Fifth Age", 6: "Sixth Age", "age of chaos": "Age of Chaos", ambiguous: "Ambiguous" };
-const TIMELINE_LABELS = {
-  "age of chaos": "Age of Chaos",
-  adventurer: "Adventurer",
-  pathfinder: "Pathfinder",
-  champion: "Champion",
-  heroic: "Heroic",
-  legendary: "Legendary",
-  mythic: "Mythic",
-  "world guardian": "World Guardian",
-  seasonal: "Seasonal",
-};
-
 /**
  * RS3's own quest list groups rows under a section heading matching the
  * current sort mode (e.g. "FIFTH AGE"/"SIXTH AGE", or a plain "A"/"C"
@@ -371,12 +292,6 @@ function groupLabel(quest, mode) {
       const key = alphabeticalSortKey(quest.title);
       return key ? key.charAt(0).toUpperCase() : rs3DisplayTitle(quest.title).charAt(0);
     }
-    case "combat": {
-      const { label } = combatBucket(quest.combatLevel);
-      return label === "None" ? "None" : `NPC Combat Level ${label}`;
-    }
-    case "age":
-      return AGE_LABELS[String(quest.age).toLowerCase()] || "Unknown";
     case "members":
       return quest.members ? "Members" : "Free";
     case "length":
@@ -386,14 +301,6 @@ function groupLabel(quest, mode) {
         { NOT_STARTED: "Not Started", STARTED: "In Progress", COMPLETED: "Completed" }[questStatus(quest.id)] ||
         "Unknown"
       );
-    case "releaseDate":
-      return quest.releaseDate ? String(new Date(quest.releaseDate).getFullYear()) : "Unknown";
-    case "series":
-      return quest.series || "No Series";
-    case "startLocation":
-      return quest.startLocation || "Unknown";
-    case "timeline":
-      return TIMELINE_LABELS[String(quest.timeline).toLowerCase()] || "Unknown";
     default:
       return null;
   }

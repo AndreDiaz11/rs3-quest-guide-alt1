@@ -266,14 +266,7 @@ export async function buildQuestRecord({
     isMiniquest,
     isSeasonal: Boolean(isSeasonal),
     members: metadata.members,
-    combatLevel: metadata.combatLevel,
     length: metadata.length,
-    series: metadata.series,
-    seriesNth: metadata.seriesNth,
-    age: metadata.age,
-    timeline: metadata.timeline,
-    releaseDate: metadata.release,
-    startLocation: metadata.area,
     questPoints,
     // Kept as the FULL nested tree (not just top-level) for the sidebar's
     // "Show Locked" filter — the wiki's own requirement tree sometimes nests
