@@ -3,7 +3,7 @@
   "title": "Within the Light",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T22:27:39.954Z",
+  "guideLastUpdated": "2026-07-07T23:25:22.094Z",
   "icon": "https://runescape.wiki/images/Within_the_Light_icon.png",
   "entityIcon": null,
   "series": "Elf (Prifddinas)",
@@ -169,6 +169,21 @@
   "steps": [
     {
       "index": 0,
+      "isTable": true,
+      "section": null,
+      "table": {
+        "headers": null,
+        "rows": [
+          [
+            "",
+            "<div style=\"line-height:1.5em;\">{{{1|}}} contains effects that can be hazardous to people with epilepsy or other vision problems.</div>{{#if:{}|Condition(s): {} |}}<div style=\"font-size:0.85em; line-height:1.5em;\">Make sure to change your display settings if you suffer from these conditions.</div>",
+            "}<noinclude></noinclude>"
+          ]
+        ]
+      }
+    },
+    {
+      "index": 1,
       "isSectionNote": true,
       "section": "Trouble in the temple",
       "needed": {
@@ -183,7 +198,7 @@
       }
     },
     {
-      "index": 1,
+      "index": 2,
       "isImage": true,
       "section": "Trouble in the temple",
       "filename": "Suitable chanting spot (Within the Light).png",
@@ -191,7 +206,7 @@
       "image": "https://runescape.wiki/images/Suitable_chanting_spot_%28Within_the_Light%29.png?a6952"
     },
     {
-      "index": 2,
+      "index": 3,
       "indent": 0,
       "section": "Trouble in the temple",
       "text": {
@@ -207,7 +222,7 @@
       ]
     },
     {
-      "index": 3,
+      "index": 4,
       "indent": 1,
       "section": "Trouble in the temple",
       "text": {
@@ -222,7 +237,7 @@
       ]
     },
     {
-      "index": 4,
+      "index": 5,
       "indent": 0,
       "section": "Trouble in the temple",
       "text": {
@@ -237,7 +252,7 @@
       ]
     },
     {
-      "index": 5,
+      "index": 6,
       "indent": 0,
       "section": "Trouble in the temple",
       "text": {
@@ -252,7 +267,7 @@
       ]
     },
     {
-      "index": 6,
+      "index": 7,
       "indent": 0,
       "section": "Trouble in the temple",
       "text": {
@@ -266,7 +281,7 @@
       ]
     },
     {
-      "index": 7,
+      "index": 8,
       "indent": 0,
       "section": "Trouble in the temple",
       "text": {
@@ -279,7 +294,7 @@
       ]
     },
     {
-      "index": 8,
+      "index": 9,
       "indent": 0,
       "section": "Trouble in the temple",
       "text": {
@@ -289,7 +304,7 @@
       "chatOptions": []
     },
     {
-      "index": 9,
+      "index": 10,
       "indent": 0,
       "section": "Trouble in the temple",
       "text": {
@@ -305,7 +320,7 @@
       ]
     },
     {
-      "index": 10,
+      "index": 11,
       "indent": 1,
       "section": "Trouble in the temple",
       "text": {
@@ -315,7 +330,7 @@
       "chatOptions": []
     },
     {
-      "index": 11,
+      "index": 12,
       "indent": 0,
       "section": "Trouble in the temple",
       "text": {
@@ -328,7 +343,7 @@
       ]
     },
     {
-      "index": 12,
+      "index": 13,
       "indent": 0,
       "section": "Trouble in the temple",
       "text": {
@@ -338,7 +353,7 @@
       "chatOptions": []
     },
     {
-      "index": 13,
+      "index": 14,
       "indent": 0,
       "section": "Trouble in the temple",
       "text": {
@@ -351,7 +366,7 @@
       ]
     },
     {
-      "index": 14,
+      "index": 15,
       "indent": 0,
       "section": "Trouble in the temple",
       "text": {
@@ -361,7 +376,7 @@
       "chatOptions": []
     },
     {
-      "index": 15,
+      "index": 16,
       "indent": 0,
       "section": "Trouble in the temple",
       "text": {
@@ -371,7 +386,7 @@
       "chatOptions": []
     },
     {
-      "index": 16,
+      "index": 17,
       "indent": 0,
       "section": "Trouble in the temple",
       "text": {
@@ -384,7 +399,7 @@
       ]
     },
     {
-      "index": 17,
+      "index": 18,
       "indent": 1,
       "section": "Trouble in the temple",
       "text": {
@@ -397,7 +412,7 @@
       ]
     },
     {
-      "index": 18,
+      "index": 19,
       "isSectionNote": true,
       "section": "The death altar",
       "needed": {
@@ -411,7 +426,7 @@
       }
     },
     {
-      "index": 19,
+      "index": 20,
       "indent": 0,
       "section": "The death altar",
       "text": {
@@ -427,7 +442,7 @@
       ]
     },
     {
-      "index": 20,
+      "index": 21,
       "indent": 1,
       "section": "The death altar",
       "text": {
@@ -437,7 +452,7 @@
       "chatOptions": []
     },
     {
-      "index": 21,
+      "index": 22,
       "indent": 1,
       "section": "The death altar",
       "text": {
@@ -454,7 +469,7 @@
       ]
     },
     {
-      "index": 22,
+      "index": 23,
       "indent": 0,
       "section": "The death altar",
       "text": {
@@ -466,7 +481,7 @@
       ]
     },
     {
-      "index": 23,
+      "index": 24,
       "indent": 0,
       "section": "The death altar",
       "text": {
@@ -476,7 +491,7 @@
       "chatOptions": []
     },
     {
-      "index": 24,
+      "index": 25,
       "indent": 0,
       "section": "The death altar",
       "text": {
@@ -486,7 +501,7 @@
       "chatOptions": []
     },
     {
-      "index": 25,
+      "index": 26,
       "indent": 0,
       "section": "The death altar",
       "text": {
@@ -496,7 +511,7 @@
       "chatOptions": []
     },
     {
-      "index": 26,
+      "index": 27,
       "indent": 0,
       "section": "The death altar",
       "text": {
@@ -509,7 +524,7 @@
       ]
     },
     {
-      "index": 27,
+      "index": 28,
       "indent": 0,
       "section": "The death altar",
       "text": {
@@ -521,7 +536,7 @@
       ]
     },
     {
-      "index": 28,
+      "index": 29,
       "indent": 1,
       "section": "The death altar",
       "text": {
@@ -534,7 +549,7 @@
       ]
     },
     {
-      "index": 29,
+      "index": 30,
       "indent": 0,
       "section": "The death altar",
       "text": {
@@ -544,7 +559,7 @@
       "chatOptions": []
     },
     {
-      "index": 30,
+      "index": 31,
       "indent": 0,
       "section": "The death altar",
       "text": {
@@ -554,7 +569,7 @@
       "chatOptions": []
     },
     {
-      "index": 31,
+      "index": 32,
       "indent": 1,
       "section": "The death altar",
       "text": {
@@ -567,7 +582,7 @@
       ]
     },
     {
-      "index": 32,
+      "index": 33,
       "indent": 2,
       "section": "The death altar",
       "text": {
@@ -580,7 +595,7 @@
       ]
     },
     {
-      "index": 33,
+      "index": 34,
       "indent": 1,
       "section": "The death altar",
       "text": {
@@ -590,7 +605,7 @@
       "chatOptions": []
     },
     {
-      "index": 34,
+      "index": 35,
       "indent": 1,
       "section": "The death altar",
       "text": {
@@ -600,7 +615,7 @@
       "chatOptions": []
     },
     {
-      "index": 35,
+      "index": 36,
       "indent": 1,
       "section": "The death altar",
       "text": {
@@ -610,7 +625,7 @@
       "chatOptions": []
     },
     {
-      "index": 36,
+      "index": 37,
       "indent": 1,
       "section": "The death altar",
       "text": {
@@ -620,7 +635,7 @@
       "chatOptions": []
     },
     {
-      "index": 37,
+      "index": 38,
       "indent": 1,
       "section": "The death altar",
       "text": {
@@ -630,7 +645,7 @@
       "chatOptions": []
     },
     {
-      "index": 38,
+      "index": 39,
       "indent": 1,
       "section": "The death altar",
       "text": {
@@ -640,7 +655,7 @@
       "chatOptions": []
     },
     {
-      "index": 39,
+      "index": 40,
       "indent": 0,
       "section": "Within the light itself",
       "text": {
@@ -653,7 +668,7 @@
       ]
     },
     {
-      "index": 40,
+      "index": 41,
       "indent": 0,
       "section": "Within the light itself",
       "text": {
@@ -666,7 +681,7 @@
       ]
     },
     {
-      "index": 41,
+      "index": 42,
       "indent": 0,
       "section": "Within the light itself",
       "text": {
@@ -676,7 +691,7 @@
       "chatOptions": []
     },
     {
-      "index": 42,
+      "index": 43,
       "indent": 0,
       "section": "Within the light itself",
       "isNote": true,
@@ -687,7 +702,7 @@
       "chatOptions": []
     },
     {
-      "index": 43,
+      "index": 44,
       "indent": 0,
       "section": "Within the light itself",
       "isNote": true,
@@ -701,7 +716,7 @@
       ]
     },
     {
-      "index": 44,
+      "index": 45,
       "indent": 1,
       "section": "Within the light itself",
       "text": {
@@ -711,7 +726,7 @@
       "chatOptions": []
     },
     {
-      "index": 45,
+      "index": 46,
       "indent": 1,
       "section": "Within the light itself",
       "text": {
@@ -721,7 +736,7 @@
       "chatOptions": []
     },
     {
-      "index": 46,
+      "index": 47,
       "indent": 1,
       "section": "Within the light itself",
       "text": {
@@ -731,7 +746,7 @@
       "chatOptions": []
     },
     {
-      "index": 47,
+      "index": 48,
       "indent": 1,
       "section": "Within the light itself",
       "text": {
@@ -741,7 +756,7 @@
       "chatOptions": []
     },
     {
-      "index": 48,
+      "index": 49,
       "indent": 0,
       "section": "Within the light itself",
       "text": {
@@ -751,12 +766,12 @@
       "chatOptions": []
     },
     {
-      "index": 49,
+      "index": 50,
       "isTable": true,
       "section": "Within the light itself",
       "table": {
         "headers": [
-          "colspan=\"3\" rowspan=\"2\" | Receiver",
+          "Receiver",
           "One of the possible solutions"
         ],
         "rows": [
@@ -806,7 +821,7 @@
       }
     },
     {
-      "index": 50,
+      "index": 51,
       "isImage": true,
       "section": "Sharpshooter",
       "filename": "Maze of pain map.png",
@@ -814,7 +829,7 @@
       "image": "https://runescape.wiki/images/Maze_of_pain_map.png?1b979"
     },
     {
-      "index": 51,
+      "index": 52,
       "indent": 0,
       "section": "Sharpshooter",
       "text": {
@@ -824,7 +839,7 @@
       "chatOptions": []
     },
     {
-      "index": 52,
+      "index": 53,
       "indent": 0,
       "section": "Sharpshooter",
       "text": {
@@ -834,7 +849,7 @@
       "chatOptions": []
     },
     {
-      "index": 53,
+      "index": 54,
       "indent": 0,
       "section": "The passage to Prifddinas",
       "text": {
@@ -844,7 +859,7 @@
       "chatOptions": []
     },
     {
-      "index": 54,
+      "index": 55,
       "indent": 0,
       "section": "The passage to Prifddinas",
       "text": {
@@ -854,7 +869,7 @@
       "chatOptions": []
     },
     {
-      "index": 55,
+      "index": 56,
       "indent": 0,
       "section": "The passage to Prifddinas",
       "text": {
@@ -864,7 +879,7 @@
       "chatOptions": []
     },
     {
-      "index": 56,
+      "index": 57,
       "indent": 0,
       "section": "The passage to Prifddinas",
       "text": {
@@ -874,7 +889,7 @@
       "chatOptions": []
     },
     {
-      "index": 57,
+      "index": 58,
       "indent": 0,
       "section": "The passage to Prifddinas",
       "text": {
@@ -884,7 +899,7 @@
       "chatOptions": []
     },
     {
-      "index": 58,
+      "index": 59,
       "indent": 0,
       "section": "The passage to Prifddinas",
       "text": {
@@ -894,7 +909,7 @@
       "chatOptions": []
     },
     {
-      "index": 59,
+      "index": 60,
       "indent": 0,
       "section": "The passage to Prifddinas",
       "text": {
@@ -904,7 +919,7 @@
       "chatOptions": []
     },
     {
-      "index": 60,
+      "index": 61,
       "indent": 0,
       "section": "The passage to Prifddinas",
       "text": {

@@ -172,16 +172,24 @@ export function splitLighttableRows(raw) {
 
 function cleanCell(raw) {
   let text = raw.replace(/<br\s*\/?>/gi, " ");
-  // A cell can carry wiki-table attributes before its real content, separated
-  // by its own `|` (e.g. `rowspan="2" style="..." | Content`) — strip up to a
-  // few of these before resolving the actual text through the shared
-  // link/template stripper. Real cell content never itself starts with
-  // `key="value"`, so this is safe.
-  for (let i = 0; i < 3; i++) {
-    const attrMatch = text.match(/^\s*[a-zA-Z-]+\s*=\s*"[^"]*"\s*(\|[\s\S]*)$/);
-    if (attrMatch) text = attrMatch[1].slice(1);
-    else break;
+  // A cell can carry one or more wiki-table attributes before its real
+  // content, separated from it by its own `|` (e.g. `rowspan="2"
+  // style="..." | Content`, or an unquoted one like `width=19|Content`) —
+  // strip each attribute token in turn (there can be several in a row before
+  // the pipe, e.g. `width="120" height="80" | Content`), then drop the one
+  // leading pipe left over. Real cell content never itself starts with
+  // `key=value`, so this is safe.
+  for (let i = 0; i < 4; i++) {
+    const attrMatch = text.match(/^\s*[a-zA-Z-]+\s*=\s*("[^"]*"|[^|\s]+)\s*/);
+    if (!attrMatch) break;
+    text = text.slice(attrMatch[0].length);
   }
+  text = text.replace(/^\|/, "");
+  // {{yes|N}}/{{no|N}} are the wiki's own tick/cross icon templates (e.g. a
+  // puzzle-solution grid marking which cells hold a ship) — the generic
+  // inline-template stripper elsewhere would otherwise just delete them,
+  // leaving a blank cell with no indication a mark was ever there.
+  text = text.replace(/\{\{yes\|[^{}]*\}\}/gi, "✓").replace(/\{\{no\|[^{}]*\}\}/gi, "✗");
   return wikitextToPlain(text).text;
 }
 

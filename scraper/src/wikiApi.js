@@ -56,3 +56,17 @@ export async function wikiApiFetch(params, { useCache = true } = {}) {
 
   return json;
 }
+
+/**
+ * Fetches a `Template:X` page's raw wikitext, or null if it doesn't exist.
+ * Used for expanding a bare `{{Some Quest solution}}` transclusion (a
+ * per-quest puzzle-solution template, e.g. a Battlefish grid or a barrel
+ * puzzle sequence) that our checklist parser can't otherwise see the
+ * contents of — the calling site decides what to do with the wikitext (a
+ * table, a list, plain text, etc.), this just fetches it.
+ */
+export async function fetchTemplateWikitext(templateName) {
+  const json = await wikiApiFetch({ action: "parse", page: `Template:${templateName}`, prop: "wikitext" });
+  if (json.error) return null;
+  return json.parse.wikitext["*"];
+}

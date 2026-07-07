@@ -96,7 +96,7 @@ export async function scrapeOne(title, { skipTranslate }, seasonalTitles) {
     steps = [];
   } else {
     try {
-      steps = parseSteps(page.quickGuideWikitext);
+      steps = await parseSteps(page.quickGuideWikitext);
     } catch (err) {
       if (!err.message.includes("No {{Checklist")) throw err;
       // "Hub" quests (e.g. Recipe for Disaster) group several sub-quests instead of

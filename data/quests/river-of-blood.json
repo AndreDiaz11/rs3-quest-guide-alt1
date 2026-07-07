@@ -3,7 +3,7 @@
   "title": "River of Blood",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T22:27:37.682Z",
+  "guideLastUpdated": "2026-07-07T23:24:23.455Z",
   "icon": "https://runescape.wiki/images/River_of_Blood_icon.png",
   "entityIcon": "https://runescape.wiki/images/River_of_Blood_entity_icon.png?812ff",
   "series": "Myreque",
@@ -314,6 +314,21 @@
   "steps": [
     {
       "index": 0,
+      "isTable": true,
+      "section": null,
+      "table": {
+        "headers": null,
+        "rows": [
+          [
+            "",
+            "<div style=\"line-height:1.5em;\">{{{1|}}} contains effects that can be hazardous to people with epilepsy or other vision problems.</div>{{#if:{}|Condition(s): {} |}}<div style=\"font-size:0.85em; line-height:1.5em;\">Make sure to change your display settings if you suffer from these conditions.</div>",
+            "}<noinclude></noinclude>"
+          ]
+        ]
+      }
+    },
+    {
+      "index": 1,
       "isSectionNote": true,
       "section": "Preparations for Aeonisig",
       "needed": {
@@ -330,7 +345,7 @@
       }
     },
     {
-      "index": 1,
+      "index": 2,
       "indent": 0,
       "section": "Preparations for Aeonisig",
       "text": {
@@ -346,7 +361,7 @@
       ]
     },
     {
-      "index": 2,
+      "index": 3,
       "indent": 0,
       "section": "Preparations for Aeonisig",
       "text": {
@@ -366,7 +381,7 @@
       ]
     },
     {
-      "index": 3,
+      "index": 4,
       "indent": 1,
       "section": "Preparations for Aeonisig",
       "text": {
@@ -379,7 +394,7 @@
       ]
     },
     {
-      "index": 4,
+      "index": 5,
       "indent": 0,
       "section": "Preparations for Aeonisig",
       "text": {
@@ -392,7 +407,7 @@
       ]
     },
     {
-      "index": 5,
+      "index": 6,
       "indent": 0,
       "section": "Preparations for Aeonisig",
       "text": {
@@ -402,7 +417,7 @@
       "chatOptions": []
     },
     {
-      "index": 6,
+      "index": 7,
       "indent": 0,
       "section": "Preparations for Aeonisig",
       "text": {
@@ -415,7 +430,7 @@
       ]
     },
     {
-      "index": 7,
+      "index": 8,
       "indent": 0,
       "section": "Preparations for Aeonisig",
       "text": {
@@ -425,7 +440,7 @@
       "chatOptions": []
     },
     {
-      "index": 8,
+      "index": 9,
       "indent": 0,
       "section": "Preparations for Aeonisig",
       "text": {
@@ -438,7 +453,7 @@
       ]
     },
     {
-      "index": 9,
+      "index": 10,
       "indent": 0,
       "section": "Preparations for Aeonisig",
       "text": {
@@ -452,7 +467,7 @@
       ]
     },
     {
-      "index": 10,
+      "index": 11,
       "indent": 0,
       "section": "Preparations for Aeonisig",
       "text": {
@@ -464,7 +479,7 @@
       ]
     },
     {
-      "index": 11,
+      "index": 12,
       "isImage": true,
       "section": "Preparations for Aeonisig",
       "filename": "River of blood book shelf solution.png",
@@ -472,7 +487,7 @@
       "image": "https://runescape.wiki/images/River_of_blood_book_shelf_solution.png?5cb03"
     },
     {
-      "index": 12,
+      "index": 13,
       "isSectionNote": true,
       "section": "Finding the scroll",
       "needed": {
@@ -488,7 +503,7 @@
       }
     },
     {
-      "index": 13,
+      "index": 14,
       "indent": 0,
       "section": "Finding the scroll",
       "text": {
@@ -500,7 +515,7 @@
       ]
     },
     {
-      "index": 14,
+      "index": 15,
       "indent": 0,
       "section": "Finding the scroll",
       "text": {
@@ -510,7 +525,7 @@
       "chatOptions": []
     },
     {
-      "index": 15,
+      "index": 16,
       "indent": 1,
       "section": "Finding the scroll",
       "text": {
@@ -520,7 +535,7 @@
       "chatOptions": []
     },
     {
-      "index": 16,
+      "index": 17,
       "indent": 0,
       "section": "Finding the scroll",
       "text": {
@@ -533,7 +548,7 @@
       ]
     },
     {
-      "index": 17,
+      "index": 18,
       "indent": 1,
       "section": "Finding the scroll",
       "text": {
@@ -543,7 +558,7 @@
       "chatOptions": []
     },
     {
-      "index": 18,
+      "index": 19,
       "indent": 1,
       "section": "Finding the scroll",
       "text": {
@@ -553,7 +568,7 @@
       "chatOptions": []
     },
     {
-      "index": 19,
+      "index": 20,
       "indent": 1,
       "section": "Finding the scroll",
       "text": {
@@ -563,7 +578,7 @@
       "chatOptions": []
     },
     {
-      "index": 20,
+      "index": 21,
       "indent": 1,
       "section": "Finding the scroll",
       "text": {
@@ -573,7 +588,7 @@
       "chatOptions": []
     },
     {
-      "index": 21,
+      "index": 22,
       "indent": 1,
       "section": "Finding the scroll",
       "text": {
@@ -583,7 +598,7 @@
       "chatOptions": []
     },
     {
-      "index": 22,
+      "index": 23,
       "indent": 1,
       "section": "Finding the scroll",
       "text": {
@@ -593,7 +608,7 @@
       "chatOptions": []
     },
     {
-      "index": 23,
+      "index": 24,
       "indent": 1,
       "section": "Finding the scroll",
       "text": {
@@ -603,7 +618,7 @@
       "chatOptions": []
     },
     {
-      "index": 24,
+      "index": 25,
       "indent": 1,
       "section": "Finding the scroll",
       "text": {
@@ -613,7 +628,7 @@
       "chatOptions": []
     },
     {
-      "index": 25,
+      "index": 26,
       "indent": 0,
       "section": "Finding the scroll",
       "text": {
@@ -623,7 +638,7 @@
       "chatOptions": []
     },
     {
-      "index": 26,
+      "index": 27,
       "indent": 0,
       "section": "Finding the scroll",
       "text": {
@@ -633,7 +648,7 @@
       "chatOptions": []
     },
     {
-      "index": 27,
+      "index": 28,
       "indent": 0,
       "section": "Finding the scroll",
       "text": {
@@ -643,7 +658,7 @@
       "chatOptions": []
     },
     {
-      "index": 28,
+      "index": 29,
       "indent": 0,
       "section": "Finding the scroll",
       "text": {
@@ -653,7 +668,7 @@
       "chatOptions": []
     },
     {
-      "index": 29,
+      "index": 30,
       "indent": 1,
       "section": "Finding the scroll",
       "text": {
@@ -663,7 +678,7 @@
       "chatOptions": []
     },
     {
-      "index": 30,
+      "index": 31,
       "indent": 0,
       "section": "Finding the scroll",
       "text": {
@@ -678,7 +693,7 @@
       ]
     },
     {
-      "index": 31,
+      "index": 32,
       "indent": 0,
       "section": "Finding the scroll",
       "text": {
@@ -691,7 +706,7 @@
       ]
     },
     {
-      "index": 32,
+      "index": 33,
       "indent": 0,
       "section": "Finding the scroll",
       "text": {
@@ -701,7 +716,7 @@
       "chatOptions": []
     },
     {
-      "index": 33,
+      "index": 34,
       "indent": 0,
       "section": "Finding the scroll",
       "text": {
@@ -717,7 +732,7 @@
       ]
     },
     {
-      "index": 34,
+      "index": 35,
       "indent": 0,
       "section": "Finding the scroll",
       "text": {
@@ -731,7 +746,7 @@
       ]
     },
     {
-      "index": 35,
+      "index": 36,
       "indent": 0,
       "section": "Finding the scroll",
       "text": {
@@ -745,7 +760,7 @@
       ]
     },
     {
-      "index": 36,
+      "index": 37,
       "isSectionNote": true,
       "section": "Clash of armies",
       "needed": {
@@ -759,7 +774,7 @@
       }
     },
     {
-      "index": 37,
+      "index": 38,
       "indent": 0,
       "section": "Clash of armies",
       "text": {
@@ -771,7 +786,7 @@
       ]
     },
     {
-      "index": 38,
+      "index": 39,
       "indent": 0,
       "section": "Clash of armies",
       "text": {
@@ -784,7 +799,7 @@
       ]
     },
     {
-      "index": 39,
+      "index": 40,
       "indent": 0,
       "section": "Clash of armies",
       "text": {
@@ -800,7 +815,7 @@
       ]
     },
     {
-      "index": 40,
+      "index": 41,
       "indent": 0,
       "section": "Clash of armies",
       "text": {
@@ -813,7 +828,7 @@
       ]
     },
     {
-      "index": 41,
+      "index": 42,
       "indent": 1,
       "section": "Clash of armies",
       "text": {
@@ -826,7 +841,7 @@
       ]
     },
     {
-      "index": 42,
+      "index": 43,
       "indent": 0,
       "section": "Clash of armies",
       "text": {
@@ -836,7 +851,7 @@
       "chatOptions": []
     },
     {
-      "index": 43,
+      "index": 44,
       "indent": 0,
       "section": "Clash of armies",
       "text": {
@@ -846,7 +861,7 @@
       "chatOptions": []
     },
     {
-      "index": 44,
+      "index": 45,
       "indent": 1,
       "section": "Clash of armies",
       "text": {
@@ -856,7 +871,7 @@
       "chatOptions": []
     },
     {
-      "index": 45,
+      "index": 46,
       "indent": 0,
       "section": "Clash of armies",
       "text": {
@@ -866,7 +881,7 @@
       "chatOptions": []
     },
     {
-      "index": 46,
+      "index": 47,
       "isSectionNote": true,
       "section": "Combatting haemalchemy",
       "needed": {
@@ -882,7 +897,7 @@
       }
     },
     {
-      "index": 47,
+      "index": 48,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -897,7 +912,7 @@
       ]
     },
     {
-      "index": 48,
+      "index": 49,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -909,7 +924,7 @@
       ]
     },
     {
-      "index": 49,
+      "index": 50,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -922,7 +937,7 @@
       ]
     },
     {
-      "index": 50,
+      "index": 51,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -932,7 +947,7 @@
       "chatOptions": []
     },
     {
-      "index": 51,
+      "index": 52,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -942,7 +957,7 @@
       "chatOptions": []
     },
     {
-      "index": 52,
+      "index": 53,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -952,7 +967,7 @@
       "chatOptions": []
     },
     {
-      "index": 53,
+      "index": 54,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -962,7 +977,7 @@
       "chatOptions": []
     },
     {
-      "index": 54,
+      "index": 55,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -972,7 +987,7 @@
       "chatOptions": []
     },
     {
-      "index": 55,
+      "index": 56,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -987,7 +1002,7 @@
       ]
     },
     {
-      "index": 56,
+      "index": 57,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -1000,7 +1015,7 @@
       ]
     },
     {
-      "index": 57,
+      "index": 58,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -1010,7 +1025,7 @@
       "chatOptions": []
     },
     {
-      "index": 58,
+      "index": 59,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -1023,7 +1038,7 @@
       ]
     },
     {
-      "index": 59,
+      "index": 60,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -1033,7 +1048,7 @@
       "chatOptions": []
     },
     {
-      "index": 60,
+      "index": 61,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -1043,7 +1058,7 @@
       "chatOptions": []
     },
     {
-      "index": 61,
+      "index": 62,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -1053,7 +1068,7 @@
       "chatOptions": []
     },
     {
-      "index": 62,
+      "index": 63,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -1065,7 +1080,7 @@
       ]
     },
     {
-      "index": 63,
+      "index": 64,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -1075,7 +1090,7 @@
       "chatOptions": []
     },
     {
-      "index": 64,
+      "index": 65,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -1085,7 +1100,7 @@
       "chatOptions": []
     },
     {
-      "index": 65,
+      "index": 66,
       "indent": 0,
       "section": "Combatting haemalchemy",
       "text": {
@@ -1095,7 +1110,7 @@
       "chatOptions": []
     },
     {
-      "index": 66,
+      "index": 67,
       "indent": 0,
       "section": "Refinery puzzle",
       "text": {
@@ -1107,7 +1122,7 @@
       ]
     },
     {
-      "index": 67,
+      "index": 68,
       "indent": 0,
       "section": "Refinery puzzle",
       "text": {
@@ -1119,7 +1134,7 @@
       ]
     },
     {
-      "index": 68,
+      "index": 69,
       "indent": 0,
       "section": "Refinery puzzle",
       "text": {
@@ -1131,7 +1146,7 @@
       ]
     },
     {
-      "index": 69,
+      "index": 70,
       "indent": 0,
       "section": "Refinery puzzle",
       "text": {
@@ -1143,7 +1158,7 @@
       ]
     },
     {
-      "index": 70,
+      "index": 71,
       "indent": 0,
       "section": "Refinery puzzle",
       "text": {
@@ -1155,7 +1170,7 @@
       ]
     },
     {
-      "index": 71,
+      "index": 72,
       "indent": 0,
       "section": "Refinery puzzle",
       "text": {
@@ -1167,7 +1182,7 @@
       ]
     },
     {
-      "index": 72,
+      "index": 73,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1180,7 +1195,7 @@
       ]
     },
     {
-      "index": 73,
+      "index": 74,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1190,7 +1205,7 @@
       "chatOptions": []
     },
     {
-      "index": 74,
+      "index": 75,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1200,7 +1215,7 @@
       "chatOptions": []
     },
     {
-      "index": 75,
+      "index": 76,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1210,7 +1225,7 @@
       "chatOptions": []
     },
     {
-      "index": 76,
+      "index": 77,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1220,7 +1235,7 @@
       "chatOptions": []
     },
     {
-      "index": 77,
+      "index": 78,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1230,7 +1245,7 @@
       "chatOptions": []
     },
     {
-      "index": 78,
+      "index": 79,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1240,7 +1255,7 @@
       "chatOptions": []
     },
     {
-      "index": 79,
+      "index": 80,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1250,7 +1265,7 @@
       "chatOptions": []
     },
     {
-      "index": 80,
+      "index": 81,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1260,7 +1275,7 @@
       "chatOptions": []
     },
     {
-      "index": 81,
+      "index": 82,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1270,7 +1285,7 @@
       "chatOptions": []
     },
     {
-      "index": 82,
+      "index": 83,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1280,7 +1295,7 @@
       "chatOptions": []
     },
     {
-      "index": 83,
+      "index": 84,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1290,7 +1305,7 @@
       "chatOptions": []
     },
     {
-      "index": 84,
+      "index": 85,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1300,7 +1315,7 @@
       "chatOptions": []
     },
     {
-      "index": 85,
+      "index": 86,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1310,7 +1325,7 @@
       "chatOptions": []
     },
     {
-      "index": 86,
+      "index": 87,
       "indent": 0,
       "section": "Curing vampyrism",
       "text": {
@@ -1320,7 +1335,7 @@
       "chatOptions": []
     },
     {
-      "index": 87,
+      "index": 88,
       "isSectionNote": true,
       "section": "Wyrd's woe",
       "needed": {
@@ -1340,7 +1355,7 @@
       }
     },
     {
-      "index": 88,
+      "index": 89,
       "indent": 0,
       "section": "Wyrd's woe",
       "text": {
@@ -1350,7 +1365,7 @@
       "chatOptions": []
     },
     {
-      "index": 89,
+      "index": 90,
       "indent": 0,
       "section": "Wyrd's woe",
       "text": {
@@ -1360,7 +1375,7 @@
       "chatOptions": []
     },
     {
-      "index": 90,
+      "index": 91,
       "indent": 0,
       "section": "Wyrd's woe",
       "text": {
@@ -1370,7 +1385,7 @@
       "chatOptions": []
     },
     {
-      "index": 91,
+      "index": 92,
       "indent": 0,
       "section": "Wyrd's woe",
       "text": {
@@ -1380,7 +1395,7 @@
       "chatOptions": []
     },
     {
-      "index": 92,
+      "index": 93,
       "indent": 0,
       "section": "Wyrd's woe",
       "text": {
@@ -1390,7 +1405,7 @@
       "chatOptions": []
     },
     {
-      "index": 93,
+      "index": 94,
       "indent": 0,
       "section": "Wyrd's woe",
       "text": {
@@ -1400,7 +1415,7 @@
       "chatOptions": []
     },
     {
-      "index": 94,
+      "index": 95,
       "indent": 0,
       "section": "Wyrd's woe",
       "text": {
@@ -1410,7 +1425,7 @@
       "chatOptions": []
     },
     {
-      "index": 95,
+      "index": 96,
       "indent": 0,
       "section": "Wyrd's woe",
       "text": {
@@ -1422,7 +1437,7 @@
       ]
     },
     {
-      "index": 96,
+      "index": 97,
       "indent": 0,
       "section": "Wyrd's woe",
       "text": {

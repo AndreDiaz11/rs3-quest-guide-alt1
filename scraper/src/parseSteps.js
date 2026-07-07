@@ -13,6 +13,17 @@ import {
   isSingleColumnLighttable,
   splitLighttableRows,
 } from "./parseTables.js";
+import { fetchTemplateWikitext } from "./wikiApi.js";
+
+// A bare `{{Some Quest solution}}` transclusion (no `|` params) — the wiki's
+// way of embedding a per-quest puzzle-solution template (e.g. Some Like It
+// Cold's Battlefish ship-location grid, A Void Dance's barrel-kicking
+// sequence) directly in the Quick guide. These have a unique name per quest,
+// so they can't be special-cased; instead the raw text is left as a
+// placeholder here and resolved by fetching the template's own wikitext in
+// resolveTemplateTablePlaceholders() below (network access, so it has to
+// happen after this synchronous parse, not during it).
+const BARE_TEMPLATE_RE = /^\{\{([^{}|]+)\}\}$/;
 
 function parseChecklistBlock(checklistContent, rawSteps, section) {
   const lines = checklistContent.split("\n");
@@ -50,9 +61,15 @@ function parseChecklistBlock(checklistContent, rawSteps, section) {
       continue;
     }
     const bulletMatch = line.match(/^(\*+)\s?(.*)$/);
+    const bareTemplateMatch = trimmed.match(BARE_TEMPLATE_RE);
     if (bulletMatch) {
       const indent = bulletMatch[1].length - 1;
       rawSteps.push({ indent, raw: bulletMatch[2], section });
+    } else if (bareTemplateMatch && rawSteps.length > 0) {
+      // A puzzle-solution template on its own line (typically right after a
+      // "Solution:" note) — placeholder, resolved after the whole page has
+      // been parsed (see resolveTemplateTablePlaceholders).
+      rawSteps.push({ isTemplateTablePlaceholder: true, templateName: bareTemplateMatch[1].trim(), section });
     } else if (rawSteps.length > 0 && trimmed !== "") {
       // continuation of the previous step's still-open inline template
       rawSteps[rawSteps.length - 1].raw += "\n" + line;
@@ -83,7 +100,43 @@ function parseLighttableItems(raw) {
 
 /** True for a "structural" step (table/image/selectable-list/section-note/image-group) that skips the plain-text/translation pipeline entirely. */
 function isStructural(step) {
-  return Boolean(step.isTable || step.isImage || step.isSelectableList || step.isSectionNote || step.isImageGroup);
+  return Boolean(
+    step.isTable ||
+      step.isImage ||
+      step.isSelectableList ||
+      step.isSectionNote ||
+      step.isImageGroup ||
+      step.isTemplateTablePlaceholder
+  );
+}
+
+/**
+ * Resolves every `isTemplateTablePlaceholder` step by fetching that
+ * template's own wikitext and, if it turns out to actually be a wikitable
+ * (the common case for a puzzle-solution template — e.g. Some Like It Cold's
+ * Battlefish grid, A Void Dance's barrel sequence), parsing it the same way
+ * as any other standalone table. Anything that isn't a table (or fails to
+ * fetch — a private/renamed template) is dropped silently rather than
+ * leaving a broken step, same as an unrecognized inline template elsewhere.
+ */
+async function resolveTemplateTablePlaceholders(steps) {
+  const resolved = [];
+  for (const step of steps) {
+    if (!step.isTemplateTablePlaceholder) {
+      resolved.push(step);
+      continue;
+    }
+    let wikitext;
+    try {
+      wikitext = await fetchTemplateWikitext(step.templateName);
+    } catch {
+      wikitext = null;
+    }
+    if (!wikitext || !wikitext.trim().startsWith("{|")) continue;
+    const table = parseWikiTableToStructured(wikitext);
+    if (table) resolved.push({ isTable: true, table, section: step.section });
+  }
+  return resolved;
 }
 
 /**
@@ -166,9 +219,11 @@ function parseSectionNote(sectionContent, section, rawSteps) {
  * the wiki does. Within a block, top-level `* ` lines are steps, `** ` lines
  * are sub-steps (indent 1). Lines that don't start with a bullet are
  * continuations of the previous step's wikitext (happens when an inline
- * template, e.g. {{Chat options|...}}, itself spans multiple lines).
+ * template, e.g. {{Chat options|...}}, itself spans multiple lines). Async
+ * because a bare per-quest solution-template transclusion (see
+ * resolveTemplateTablePlaceholders) needs a network fetch to resolve.
  */
-export function parseSteps(quickGuideWikitext) {
+export async function parseSteps(quickGuideWikitext) {
   const rawSteps = []; // { indent, raw, section } or { isTable, table, section } or { isImage, filename, caption, section } or { isSelectableList, items, section }
   for (const { heading, content } of splitIntoSections(quickGuideWikitext)) {
     // Checklist blocks, standalone wikitables (a quiz's Question/Answer table,
@@ -189,7 +244,15 @@ export function parseSteps(quickGuideWikitext) {
     const imageBlocks = extractSolutionImages(content)
       .filter((img) => !checklistBlocks.some((cl) => img.start >= cl.start && img.start < cl.end))
       .map((b) => ({ ...b, kind: "image" }));
-    const blocks = [...checklistBlocks, ...tableBlocks, ...imageBlocks].sort((a, b) => a.start - b.start);
+    // A bare `{{Some Quest solution}}` transclusion sitting BETWEEN two
+    // Checklists (not inside either) — same puzzle-solution-template case as
+    // the one handled inside parseChecklistBlock, just outside any Checklist.
+    const templatePlaceholderBlocks = [...content.matchAll(/^[ \t]*\{\{([^{}|]+)\}\}[ \t]*$/gm)]
+      .map((m) => ({ start: m.index, end: m.index + m[0].length, templateName: m[1].trim(), kind: "templatePlaceholder" }))
+      .filter((tb) => !checklistBlocks.some((cl) => tb.start >= cl.start && tb.start < cl.end));
+    const blocks = [...checklistBlocks, ...tableBlocks, ...imageBlocks, ...templatePlaceholderBlocks].sort(
+      (a, b) => a.start - b.start
+    );
 
     // {{Needed|...}} always sits before the section's own Checklist/table
     // blocks, so it's added first regardless of where exactly it falls.
@@ -206,6 +269,8 @@ export function parseSteps(quickGuideWikitext) {
           const table = parseWikiTableToStructured(block.raw);
           if (table) rawSteps.push({ isTable: true, table, section: heading });
         }
+      } else if (block.kind === "templatePlaceholder") {
+        rawSteps.push({ isTemplateTablePlaceholder: true, templateName: block.templateName, section: heading });
       } else {
         rawSteps.push({ isImage: true, filename: block.filename, caption: block.caption, section: heading });
       }
@@ -216,13 +281,15 @@ export function parseSteps(quickGuideWikitext) {
     throw new Error("No {{Checklist|...}} block found in Quick guide wikitext");
   }
 
+  const resolvedSteps = await resolveTemplateTablePlaceholders(rawSteps);
+
   // A step can come out empty if its wikitext was just an unrecognized inline
   // template we strip (e.g. a fairy ring code icon) — an empty instruction is
   // useless to show anyway, and sending blank lines to the translator causes
   // it to drop them inconsistently, breaking the line-count alignment check.
   // Structural steps (tables/images/selectable-lists) are already resolved
   // and skip this plain-text pipeline entirely.
-  const shapedSteps = rawSteps
+  const shapedSteps = resolvedSteps
     .map((step) =>
       isStructural(step)
         ? step

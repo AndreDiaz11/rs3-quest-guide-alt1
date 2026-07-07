@@ -3,7 +3,7 @@
   "title": "Back to the Freezer",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T22:27:33.243Z",
+  "guideLastUpdated": "2026-07-07T23:22:57.070Z",
   "icon": "https://runescape.wiki/images/Back_to_the_Freezer_icon.png",
   "entityIcon": "https://runescape.wiki/images/Back_to_the_Freezer_entity_icon.png?db8b6",
   "series": "Penguin",
@@ -218,6 +218,21 @@
   "steps": [
     {
       "index": 0,
+      "isTable": true,
+      "section": null,
+      "table": {
+        "headers": null,
+        "rows": [
+          [
+            "",
+            "<div style=\"line-height:1.5em;\">{{{1|}}} contains effects that can be hazardous to people with epilepsy or other vision problems.</div>{{#if:{}|Condition(s): {} |}}<div style=\"font-size:0.85em; line-height:1.5em;\">Make sure to change your display settings if you suffer from these conditions.</div>",
+            "}<noinclude></noinclude>"
+          ]
+        ]
+      }
+    },
+    {
+      "index": 1,
       "indent": 0,
       "section": "Start",
       "text": {
@@ -234,7 +249,7 @@
       ]
     },
     {
-      "index": 1,
+      "index": 2,
       "indent": 0,
       "section": "Start",
       "text": {
@@ -244,7 +259,7 @@
       "chatOptions": []
     },
     {
-      "index": 2,
+      "index": 3,
       "indent": 1,
       "section": "Start",
       "text": {
@@ -254,7 +269,7 @@
       "chatOptions": []
     },
     {
-      "index": 3,
+      "index": 4,
       "indent": 0,
       "section": "Start",
       "text": {
@@ -269,7 +284,7 @@
       ]
     },
     {
-      "index": 4,
+      "index": 5,
       "indent": 0,
       "section": "Start",
       "text": {
@@ -279,7 +294,7 @@
       "chatOptions": []
     },
     {
-      "index": 5,
+      "index": 6,
       "indent": 0,
       "section": "Desert",
       "text": {
@@ -289,7 +304,7 @@
       "chatOptions": []
     },
     {
-      "index": 6,
+      "index": 7,
       "indent": 0,
       "section": "Desert",
       "text": {
@@ -306,7 +321,7 @@
       ]
     },
     {
-      "index": 7,
+      "index": 8,
       "indent": 0,
       "section": "Desert",
       "text": {
@@ -316,7 +331,7 @@
       "chatOptions": []
     },
     {
-      "index": 8,
+      "index": 9,
       "indent": 0,
       "section": "Desert",
       "text": {
@@ -331,7 +346,7 @@
       ]
     },
     {
-      "index": 9,
+      "index": 10,
       "indent": 0,
       "section": "Desert",
       "text": {
@@ -344,7 +359,7 @@
       ]
     },
     {
-      "index": 10,
+      "index": 11,
       "indent": 0,
       "section": "The secret-secret agent",
       "text": {
@@ -359,7 +374,7 @@
       ]
     },
     {
-      "index": 11,
+      "index": 12,
       "indent": 0,
       "section": "The secret-secret agent",
       "text": {
@@ -369,7 +384,7 @@
       "chatOptions": []
     },
     {
-      "index": 12,
+      "index": 13,
       "indent": 0,
       "section": "The secret-secret agent",
       "text": {
@@ -379,7 +394,7 @@
       "chatOptions": []
     },
     {
-      "index": 13,
+      "index": 14,
       "indent": 0,
       "section": "The secret-secret agent",
       "text": {
@@ -389,7 +404,7 @@
       "chatOptions": []
     },
     {
-      "index": 14,
+      "index": 15,
       "indent": 0,
       "section": "The secret-secret agent",
       "text": {
@@ -402,7 +417,7 @@
       ]
     },
     {
-      "index": 15,
+      "index": 16,
       "indent": 1,
       "section": "The secret-secret agent",
       "text": {
@@ -412,7 +427,7 @@
       "chatOptions": []
     },
     {
-      "index": 16,
+      "index": 17,
       "indent": 0,
       "section": "The secret-secret agent",
       "text": {
@@ -422,7 +437,7 @@
       "chatOptions": []
     },
     {
-      "index": 17,
+      "index": 18,
       "indent": 1,
       "section": "The secret-secret agent",
       "text": {
@@ -438,7 +453,7 @@
       ]
     },
     {
-      "index": 18,
+      "index": 19,
       "indent": 1,
       "section": "The secret-secret agent",
       "text": {
@@ -453,7 +468,7 @@
       ]
     },
     {
-      "index": 19,
+      "index": 20,
       "indent": 1,
       "section": "The secret-secret agent",
       "text": {
@@ -468,7 +483,7 @@
       ]
     },
     {
-      "index": 20,
+      "index": 21,
       "indent": 1,
       "section": "The secret-secret agent",
       "text": {
@@ -484,7 +499,7 @@
       ]
     },
     {
-      "index": 21,
+      "index": 22,
       "indent": 0,
       "section": "The secret-secret agent",
       "text": {
@@ -497,7 +512,7 @@
       ]
     },
     {
-      "index": 22,
+      "index": 23,
       "indent": 0,
       "section": "The secret-secret agent",
       "text": {
@@ -507,7 +522,7 @@
       "chatOptions": []
     },
     {
-      "index": 23,
+      "index": 24,
       "isSectionNote": true,
       "section": "The secret bunker",
       "needed": {
@@ -520,7 +535,7 @@
       }
     },
     {
-      "index": 24,
+      "index": 25,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -534,7 +549,7 @@
       ]
     },
     {
-      "index": 25,
+      "index": 26,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -547,7 +562,7 @@
       ]
     },
     {
-      "index": 26,
+      "index": 27,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -560,7 +575,7 @@
       ]
     },
     {
-      "index": 27,
+      "index": 28,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -570,7 +585,7 @@
       "chatOptions": []
     },
     {
-      "index": 28,
+      "index": 29,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -583,7 +598,7 @@
       ]
     },
     {
-      "index": 29,
+      "index": 30,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -593,7 +608,7 @@
       "chatOptions": []
     },
     {
-      "index": 30,
+      "index": 31,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -603,7 +618,7 @@
       "chatOptions": []
     },
     {
-      "index": 31,
+      "index": 32,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -617,7 +632,7 @@
       ]
     },
     {
-      "index": 32,
+      "index": 33,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -627,7 +642,7 @@
       "chatOptions": []
     },
     {
-      "index": 33,
+      "index": 34,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -641,7 +656,7 @@
       ]
     },
     {
-      "index": 34,
+      "index": 35,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -654,7 +669,7 @@
       ]
     },
     {
-      "index": 35,
+      "index": 36,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -668,7 +683,7 @@
       ]
     },
     {
-      "index": 36,
+      "index": 37,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -681,7 +696,7 @@
       ]
     },
     {
-      "index": 37,
+      "index": 38,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -694,7 +709,7 @@
       ]
     },
     {
-      "index": 38,
+      "index": 39,
       "indent": 0,
       "section": "The secret bunker",
       "text": {
@@ -704,7 +719,7 @@
       "chatOptions": []
     },
     {
-      "index": 39,
+      "index": 40,
       "indent": 0,
       "section": "Time travelling!",
       "text": {
@@ -717,7 +732,7 @@
       ]
     },
     {
-      "index": 40,
+      "index": 41,
       "indent": 0,
       "section": "Time travelling!",
       "text": {
@@ -731,7 +746,7 @@
       ]
     },
     {
-      "index": 41,
+      "index": 42,
       "indent": 0,
       "section": "Time travelling!",
       "text": {
@@ -744,7 +759,7 @@
       ]
     },
     {
-      "index": 42,
+      "index": 43,
       "indent": 0,
       "section": "Time travelling!",
       "text": {
@@ -757,7 +772,7 @@
       ]
     },
     {
-      "index": 43,
+      "index": 44,
       "isImage": true,
       "section": "Back in the bunker",
       "filename": "Back to the Freezer secret bunker (past) map.png",
@@ -765,7 +780,7 @@
       "image": "https://runescape.wiki/images/Back_to_the_Freezer_secret_bunker_%28past%29_map.png?814fd"
     },
     {
-      "index": 44,
+      "index": 45,
       "indent": 0,
       "section": "Back in the bunker",
       "text": {
@@ -775,7 +790,7 @@
       "chatOptions": []
     },
     {
-      "index": 45,
+      "index": 46,
       "indent": 0,
       "section": "Back in the bunker",
       "text": {
@@ -785,7 +800,7 @@
       "chatOptions": []
     },
     {
-      "index": 46,
+      "index": 47,
       "indent": 0,
       "section": "Back in the bunker",
       "text": {
@@ -798,7 +813,7 @@
       ]
     },
     {
-      "index": 47,
+      "index": 48,
       "indent": 0,
       "section": "Back in the bunker",
       "text": {
@@ -812,7 +827,7 @@
       ]
     },
     {
-      "index": 48,
+      "index": 49,
       "indent": 0,
       "section": "Back in the bunker",
       "text": {
@@ -825,7 +840,7 @@
       ]
     },
     {
-      "index": 49,
+      "index": 50,
       "indent": 0,
       "section": "Back in the bunker",
       "text": {
@@ -838,7 +853,7 @@
       ]
     },
     {
-      "index": 50,
+      "index": 51,
       "indent": 0,
       "section": "Back in the bunker",
       "text": {
@@ -851,7 +866,7 @@
       ]
     },
     {
-      "index": 51,
+      "index": 52,
       "indent": 0,
       "section": "Back in the bunker",
       "text": {
@@ -864,7 +879,7 @@
       ]
     },
     {
-      "index": 52,
+      "index": 53,
       "indent": 0,
       "section": "Back in the bunker",
       "text": {
@@ -878,7 +893,7 @@
       ]
     },
     {
-      "index": 53,
+      "index": 54,
       "indent": 0,
       "section": "Back in the bunker",
       "text": {
@@ -892,7 +907,7 @@
       ]
     },
     {
-      "index": 54,
+      "index": 55,
       "indent": 0,
       "section": "Back in the bunker",
       "text": {
@@ -902,7 +917,7 @@
       "chatOptions": []
     },
     {
-      "index": 55,
+      "index": 56,
       "indent": 0,
       "section": "Back in the bunker",
       "text": {
@@ -914,7 +929,7 @@
       ]
     },
     {
-      "index": 56,
+      "index": 57,
       "isSectionNote": true,
       "section": "Getting Energy",
       "needed": {
@@ -927,7 +942,7 @@
       }
     },
     {
-      "index": 57,
+      "index": 58,
       "indent": 0,
       "section": "Getting Energy",
       "text": {
@@ -940,7 +955,7 @@
       ]
     },
     {
-      "index": 58,
+      "index": 59,
       "indent": 0,
       "section": "Getting Energy",
       "text": {
@@ -953,7 +968,7 @@
       ]
     },
     {
-      "index": 59,
+      "index": 60,
       "indent": 0,
       "section": "Getting Energy",
       "text": {
@@ -966,7 +981,7 @@
       ]
     },
     {
-      "index": 60,
+      "index": 61,
       "indent": 0,
       "section": "Getting Energy",
       "text": {
@@ -979,7 +994,7 @@
       ]
     },
     {
-      "index": 61,
+      "index": 62,
       "isSectionNote": true,
       "section": "Returning to the iceberg",
       "needed": {
@@ -995,7 +1010,7 @@
       }
     },
     {
-      "index": 62,
+      "index": 63,
       "indent": 0,
       "section": "Returning to the iceberg",
       "text": {
@@ -1005,7 +1020,7 @@
       "chatOptions": []
     },
     {
-      "index": 63,
+      "index": 64,
       "indent": 1,
       "section": "Returning to the iceberg",
       "text": {
@@ -1015,7 +1030,7 @@
       "chatOptions": []
     },
     {
-      "index": 64,
+      "index": 65,
       "indent": 0,
       "section": "Returning to the iceberg",
       "text": {
@@ -1025,7 +1040,7 @@
       "chatOptions": []
     },
     {
-      "index": 65,
+      "index": 66,
       "indent": 0,
       "section": "Returning to the iceberg",
       "text": {
@@ -1035,7 +1050,7 @@
       "chatOptions": []
     },
     {
-      "index": 66,
+      "index": 67,
       "indent": 0,
       "section": "Returning to the iceberg",
       "text": {
@@ -1045,7 +1060,7 @@
       "chatOptions": []
     },
     {
-      "index": 67,
+      "index": 68,
       "indent": 0,
       "section": "Returning to the iceberg",
       "text": {
@@ -1055,7 +1070,7 @@
       "chatOptions": []
     },
     {
-      "index": 68,
+      "index": 69,
       "indent": 0,
       "section": "Returning to the iceberg",
       "text": {
@@ -1065,7 +1080,7 @@
       "chatOptions": []
     },
     {
-      "index": 69,
+      "index": 70,
       "indent": 0,
       "section": "Returning to the iceberg",
       "text": {
@@ -1078,7 +1093,7 @@
       ]
     },
     {
-      "index": 70,
+      "index": 71,
       "indent": 0,
       "section": "Returning to the iceberg",
       "text": {
@@ -1088,7 +1103,7 @@
       "chatOptions": []
     },
     {
-      "index": 71,
+      "index": 72,
       "indent": 1,
       "section": "Returning to the iceberg",
       "text": {
@@ -1098,7 +1113,7 @@
       "chatOptions": []
     },
     {
-      "index": 72,
+      "index": 73,
       "indent": 1,
       "section": "Returning to the iceberg",
       "text": {
@@ -1108,7 +1123,7 @@
       "chatOptions": []
     },
     {
-      "index": 73,
+      "index": 74,
       "indent": 1,
       "section": "Returning to the iceberg",
       "text": {
@@ -1118,7 +1133,7 @@
       "chatOptions": []
     },
     {
-      "index": 74,
+      "index": 75,
       "indent": 1,
       "section": "Returning to the iceberg",
       "text": {
@@ -1128,7 +1143,7 @@
       "chatOptions": []
     },
     {
-      "index": 75,
+      "index": 76,
       "indent": 0,
       "section": "Returning to the iceberg",
       "text": {
@@ -1138,7 +1153,7 @@
       "chatOptions": []
     },
     {
-      "index": 76,
+      "index": 77,
       "indent": 0,
       "section": "Returning to the iceberg",
       "text": {
@@ -1150,7 +1165,7 @@
       ]
     },
     {
-      "index": 77,
+      "index": 78,
       "indent": 0,
       "section": "Returning to the iceberg",
       "text": {

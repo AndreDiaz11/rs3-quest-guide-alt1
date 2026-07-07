@@ -3,7 +3,7 @@
   "title": "Ritual of the Mahjarrat",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T22:27:37.657Z",
+  "guideLastUpdated": "2026-07-07T23:24:23.034Z",
   "icon": "https://runescape.wiki/images/Ritual_of_the_Mahjarrat_icon.png",
   "entityIcon": "https://runescape.wiki/images/Ritual_of_the_Mahjarrat_entity_icon.png?812ff",
   "series": "Mahjarrat Mysteries",
@@ -359,6 +359,21 @@
   "steps": [
     {
       "index": 0,
+      "isTable": true,
+      "section": null,
+      "table": {
+        "headers": null,
+        "rows": [
+          [
+            "",
+            "<div style=\"line-height:1.5em;\">{{{1|}}} contains effects that can be hazardous to people with epilepsy or other vision problems.</div>{{#if:{}|Condition(s): {} |}}<div style=\"font-size:0.85em; line-height:1.5em;\">Make sure to change your display settings if you suffer from these conditions.</div>",
+            "}<noinclude></noinclude>"
+          ]
+        ]
+      }
+    },
+    {
+      "index": 1,
       "indent": 0,
       "section": "Getting started",
       "text": {
@@ -375,7 +390,7 @@
       ]
     },
     {
-      "index": 1,
+      "index": 2,
       "indent": 0,
       "section": "Getting started",
       "text": {
@@ -388,7 +403,7 @@
       ]
     },
     {
-      "index": 2,
+      "index": 3,
       "indent": 0,
       "section": "Mos Le'Harmless",
       "text": {
@@ -404,7 +419,7 @@
       ]
     },
     {
-      "index": 3,
+      "index": 4,
       "indent": 0,
       "section": "Mos Le'Harmless",
       "text": {
@@ -414,7 +429,7 @@
       "chatOptions": []
     },
     {
-      "index": 4,
+      "index": 5,
       "indent": 0,
       "section": "Mos Le'Harmless",
       "text": {
@@ -424,7 +439,7 @@
       "chatOptions": []
     },
     {
-      "index": 5,
+      "index": 6,
       "isSectionNote": true,
       "section": "The mighty jungle",
       "recommended": {
@@ -435,7 +450,7 @@
       }
     },
     {
-      "index": 6,
+      "index": 7,
       "indent": 0,
       "section": "The mighty jungle",
       "text": {
@@ -445,7 +460,7 @@
       "chatOptions": []
     },
     {
-      "index": 7,
+      "index": 8,
       "indent": 0,
       "section": "The mighty jungle",
       "text": {
@@ -455,7 +470,7 @@
       "chatOptions": []
     },
     {
-      "index": 8,
+      "index": 9,
       "indent": 1,
       "section": "The mighty jungle",
       "text": {
@@ -468,7 +483,7 @@
       ]
     },
     {
-      "index": 9,
+      "index": 10,
       "indent": 1,
       "section": "The mighty jungle",
       "text": {
@@ -481,7 +496,7 @@
       ]
     },
     {
-      "index": 10,
+      "index": 11,
       "indent": 1,
       "section": "The mighty jungle",
       "text": {
@@ -491,7 +506,7 @@
       "chatOptions": []
     },
     {
-      "index": 11,
+      "index": 12,
       "indent": 1,
       "section": "The mighty jungle",
       "text": {
@@ -501,7 +516,7 @@
       "chatOptions": []
     },
     {
-      "index": 12,
+      "index": 13,
       "indent": 1,
       "section": "The mighty jungle",
       "text": {
@@ -511,7 +526,7 @@
       "chatOptions": []
     },
     {
-      "index": 13,
+      "index": 14,
       "indent": 1,
       "section": "The mighty jungle",
       "text": {
@@ -521,7 +536,7 @@
       "chatOptions": []
     },
     {
-      "index": 14,
+      "index": 15,
       "indent": 0,
       "section": "The mighty jungle",
       "text": {
@@ -531,7 +546,7 @@
       "chatOptions": []
     },
     {
-      "index": 15,
+      "index": 16,
       "isImage": true,
       "section": "The mighty jungle",
       "filename": "ROTM Mos Le'Harmless map.png",
@@ -539,7 +554,7 @@
       "image": "https://runescape.wiki/images/ROTM_Mos_Le%27Harmless_map.png?2055e"
     },
     {
-      "index": 16,
+      "index": 17,
       "isSectionNote": true,
       "section": "The archives",
       "needed": {
@@ -553,7 +568,7 @@
       }
     },
     {
-      "index": 17,
+      "index": 18,
       "indent": 0,
       "section": "The archives",
       "text": {
@@ -571,7 +586,7 @@
       ]
     },
     {
-      "index": 18,
+      "index": 19,
       "indent": 0,
       "section": "The archives",
       "text": {
@@ -589,7 +604,7 @@
       ]
     },
     {
-      "index": 19,
+      "index": 20,
       "indent": 0,
       "section": "The archives",
       "text": {
@@ -604,7 +619,7 @@
       ]
     },
     {
-      "index": 20,
+      "index": 21,
       "indent": 0,
       "section": "The archives",
       "text": {
@@ -614,7 +629,7 @@
       "chatOptions": []
     },
     {
-      "index": 21,
+      "index": 22,
       "indent": 0,
       "section": "The archives",
       "text": {
@@ -624,7 +639,7 @@
       "chatOptions": []
     },
     {
-      "index": 22,
+      "index": 23,
       "isSectionNote": true,
       "section": "Traversing Isle of Sann",
       "needed": {
@@ -644,7 +659,7 @@
       }
     },
     {
-      "index": 23,
+      "index": 24,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -657,7 +672,7 @@
       ]
     },
     {
-      "index": 24,
+      "index": 25,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -670,7 +685,7 @@
       ]
     },
     {
-      "index": 25,
+      "index": 26,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -683,7 +698,7 @@
       ]
     },
     {
-      "index": 26,
+      "index": 27,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -693,7 +708,7 @@
       "chatOptions": []
     },
     {
-      "index": 27,
+      "index": 28,
       "isImage": true,
       "section": "Traversing Isle of Sann",
       "filename": "Wall design solution (Ritual of the Mahjarrat).png",
@@ -701,7 +716,7 @@
       "image": "https://runescape.wiki/images/Wall_design_solution_%28Ritual_of_the_Mahjarrat%29.png?6a48d"
     },
     {
-      "index": 28,
+      "index": 29,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -714,7 +729,7 @@
       ]
     },
     {
-      "index": 29,
+      "index": 30,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -724,7 +739,7 @@
       "chatOptions": []
     },
     {
-      "index": 30,
+      "index": 31,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -741,7 +756,7 @@
       ]
     },
     {
-      "index": 31,
+      "index": 32,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -751,7 +766,7 @@
       "chatOptions": []
     },
     {
-      "index": 32,
+      "index": 33,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -764,7 +779,7 @@
       ]
     },
     {
-      "index": 33,
+      "index": 34,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -774,7 +789,7 @@
       "chatOptions": []
     },
     {
-      "index": 34,
+      "index": 35,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -784,7 +799,7 @@
       "chatOptions": []
     },
     {
-      "index": 35,
+      "index": 36,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -794,7 +809,7 @@
       "chatOptions": []
     },
     {
-      "index": 36,
+      "index": 37,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -804,7 +819,7 @@
       "chatOptions": []
     },
     {
-      "index": 37,
+      "index": 38,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -814,7 +829,7 @@
       "chatOptions": []
     },
     {
-      "index": 38,
+      "index": 39,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -824,7 +839,7 @@
       "chatOptions": []
     },
     {
-      "index": 39,
+      "index": 40,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -834,7 +849,7 @@
       "chatOptions": []
     },
     {
-      "index": 40,
+      "index": 41,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -844,7 +859,7 @@
       "chatOptions": []
     },
     {
-      "index": 41,
+      "index": 42,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -854,7 +869,7 @@
       "chatOptions": []
     },
     {
-      "index": 42,
+      "index": 43,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -864,7 +879,7 @@
       "chatOptions": []
     },
     {
-      "index": 43,
+      "index": 44,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -874,7 +889,7 @@
       "chatOptions": []
     },
     {
-      "index": 44,
+      "index": 45,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -884,7 +899,7 @@
       "chatOptions": []
     },
     {
-      "index": 45,
+      "index": 46,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -898,7 +913,7 @@
       ]
     },
     {
-      "index": 46,
+      "index": 47,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -908,7 +923,7 @@
       "chatOptions": []
     },
     {
-      "index": 47,
+      "index": 48,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -918,7 +933,7 @@
       "chatOptions": []
     },
     {
-      "index": 48,
+      "index": 49,
       "indent": 1,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -928,7 +943,7 @@
       "chatOptions": []
     },
     {
-      "index": 49,
+      "index": 50,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -938,7 +953,7 @@
       "chatOptions": []
     },
     {
-      "index": 50,
+      "index": 51,
       "indent": 0,
       "section": "Traversing Isle of Sann",
       "text": {
@@ -951,7 +966,7 @@
       ]
     },
     {
-      "index": 51,
+      "index": 52,
       "indent": 0,
       "section": "The lost library",
       "text": {
@@ -961,7 +976,7 @@
       "chatOptions": []
     },
     {
-      "index": 52,
+      "index": 53,
       "indent": 0,
       "section": "The lost library",
       "text": {
@@ -971,7 +986,7 @@
       "chatOptions": []
     },
     {
-      "index": 53,
+      "index": 54,
       "indent": 0,
       "section": "The lost library",
       "text": {
@@ -981,7 +996,7 @@
       "chatOptions": []
     },
     {
-      "index": 54,
+      "index": 55,
       "indent": 0,
       "section": "The lost library",
       "text": {
@@ -995,7 +1010,7 @@
       ]
     },
     {
-      "index": 55,
+      "index": 56,
       "indent": 0,
       "section": "The lost library",
       "text": {
@@ -1005,7 +1020,7 @@
       "chatOptions": []
     },
     {
-      "index": 56,
+      "index": 57,
       "indent": 0,
       "section": "The lost library",
       "text": {
@@ -1015,7 +1030,7 @@
       "chatOptions": []
     },
     {
-      "index": 57,
+      "index": 58,
       "indent": 1,
       "section": "The lost library",
       "text": {
@@ -1028,7 +1043,7 @@
       ]
     },
     {
-      "index": 58,
+      "index": 59,
       "indent": 0,
       "section": "Planning",
       "text": {
@@ -1044,7 +1059,7 @@
       ]
     },
     {
-      "index": 59,
+      "index": 60,
       "indent": 0,
       "section": "Planning",
       "text": {
@@ -1065,7 +1080,7 @@
       ]
     },
     {
-      "index": 60,
+      "index": 61,
       "indent": 0,
       "section": "Planning",
       "text": {
@@ -1075,7 +1090,7 @@
       "chatOptions": []
     },
     {
-      "index": 61,
+      "index": 62,
       "indent": 0,
       "section": "Planning",
       "text": {
@@ -1091,7 +1106,7 @@
       ]
     },
     {
-      "index": 62,
+      "index": 63,
       "isSectionNote": true,
       "section": "Setting up the site",
       "needed": {
@@ -1113,7 +1128,7 @@
       }
     },
     {
-      "index": 63,
+      "index": 64,
       "isImage": true,
       "section": "Setting up the site",
       "filename": "Ritual of Mahjarrat heart location.png",
@@ -1121,7 +1136,7 @@
       "image": "https://runescape.wiki/images/Ritual_of_Mahjarrat_heart_location.png?72179"
     },
     {
-      "index": 64,
+      "index": 65,
       "indent": 0,
       "section": "Setting up the site",
       "text": {
@@ -1136,7 +1151,7 @@
       ]
     },
     {
-      "index": 65,
+      "index": 66,
       "indent": 1,
       "section": "Setting up the site",
       "text": {
@@ -1150,7 +1165,7 @@
       ]
     },
     {
-      "index": 66,
+      "index": 67,
       "indent": 0,
       "section": "Setting up the site",
       "text": {
@@ -1160,7 +1175,7 @@
       "chatOptions": []
     },
     {
-      "index": 67,
+      "index": 68,
       "indent": 1,
       "section": "Setting up the site",
       "text": {
@@ -1170,7 +1185,7 @@
       "chatOptions": []
     },
     {
-      "index": 68,
+      "index": 69,
       "indent": 0,
       "section": "Setting up the site",
       "text": {
@@ -1180,7 +1195,7 @@
       "chatOptions": []
     },
     {
-      "index": 69,
+      "index": 70,
       "indent": 1,
       "section": "Setting up the site",
       "text": {
@@ -1196,7 +1211,7 @@
       ]
     },
     {
-      "index": 70,
+      "index": 71,
       "indent": 1,
       "section": "Setting up the site",
       "text": {
@@ -1209,7 +1224,7 @@
       ]
     },
     {
-      "index": 71,
+      "index": 72,
       "indent": 1,
       "section": "Setting up the site",
       "text": {
@@ -1219,7 +1234,7 @@
       "chatOptions": []
     },
     {
-      "index": 72,
+      "index": 73,
       "indent": 1,
       "section": "Setting up the site",
       "text": {
@@ -1232,7 +1247,7 @@
       ]
     },
     {
-      "index": 73,
+      "index": 74,
       "indent": 1,
       "section": "Setting up the site",
       "text": {
@@ -1245,7 +1260,7 @@
       ]
     },
     {
-      "index": 74,
+      "index": 75,
       "indent": 1,
       "section": "Setting up the site",
       "text": {
@@ -1255,7 +1270,7 @@
       "chatOptions": []
     },
     {
-      "index": 75,
+      "index": 76,
       "isImage": true,
       "section": "Zemouregal's fort",
       "filename": "Decoder strips puzzle.png",
@@ -1263,7 +1278,7 @@
       "image": "https://runescape.wiki/images/Decoder_strips_puzzle.png?2fa16"
     },
     {
-      "index": 76,
+      "index": 77,
       "indent": 0,
       "section": "Zemouregal's fort",
       "text": {
@@ -1276,7 +1291,7 @@
       ]
     },
     {
-      "index": 77,
+      "index": 78,
       "indent": 0,
       "section": "Zemouregal's fort",
       "text": {
@@ -1291,7 +1306,7 @@
       ]
     },
     {
-      "index": 78,
+      "index": 79,
       "indent": 0,
       "section": "Zemouregal's fort",
       "text": {
@@ -1301,7 +1316,7 @@
       "chatOptions": []
     },
     {
-      "index": 79,
+      "index": 80,
       "indent": 1,
       "section": "Zemouregal's fort",
       "text": {
@@ -1314,7 +1329,7 @@
       ]
     },
     {
-      "index": 80,
+      "index": 81,
       "indent": 1,
       "section": "Zemouregal's fort",
       "text": {
@@ -1324,7 +1339,7 @@
       "chatOptions": []
     },
     {
-      "index": 81,
+      "index": 82,
       "indent": 1,
       "section": "Zemouregal's fort",
       "text": {
@@ -1337,7 +1352,7 @@
       ]
     },
     {
-      "index": 82,
+      "index": 83,
       "indent": 1,
       "section": "Zemouregal's fort",
       "text": {
@@ -1347,7 +1362,7 @@
       "chatOptions": []
     },
     {
-      "index": 83,
+      "index": 84,
       "indent": 1,
       "section": "Zemouregal's fort",
       "text": {
@@ -1360,7 +1375,7 @@
       ]
     },
     {
-      "index": 84,
+      "index": 85,
       "indent": 1,
       "section": "Zemouregal's fort",
       "text": {
@@ -1370,7 +1385,7 @@
       "chatOptions": []
     },
     {
-      "index": 85,
+      "index": 86,
       "indent": 1,
       "section": "Zemouregal's fort",
       "text": {
@@ -1383,7 +1398,7 @@
       ]
     },
     {
-      "index": 86,
+      "index": 87,
       "indent": 1,
       "section": "Zemouregal's fort",
       "text": {
@@ -1393,7 +1408,7 @@
       "chatOptions": []
     },
     {
-      "index": 87,
+      "index": 88,
       "indent": 0,
       "section": "Zemouregal's fort",
       "text": {
@@ -1406,7 +1421,7 @@
       ]
     },
     {
-      "index": 88,
+      "index": 89,
       "indent": 0,
       "section": "Zemouregal's fort",
       "text": {
@@ -1416,7 +1431,7 @@
       "chatOptions": []
     },
     {
-      "index": 89,
+      "index": 90,
       "indent": 0,
       "section": "Zemouregal's fort",
       "text": {
@@ -1426,7 +1441,7 @@
       "chatOptions": []
     },
     {
-      "index": 90,
+      "index": 91,
       "indent": 0,
       "section": "Zemouregal's fort",
       "text": {
@@ -1439,7 +1454,7 @@
       ]
     },
     {
-      "index": 91,
+      "index": 92,
       "indent": 0,
       "section": "Zemouregal's fort",
       "text": {
@@ -1453,7 +1468,7 @@
       ]
     },
     {
-      "index": 92,
+      "index": 93,
       "indent": 0,
       "section": "Zemouregal's fort",
       "text": {
@@ -1466,7 +1481,7 @@
       ]
     },
     {
-      "index": 93,
+      "index": 94,
       "indent": 0,
       "section": "Zemouregal's fort",
       "text": {
@@ -1479,7 +1494,7 @@
       ]
     },
     {
-      "index": 94,
+      "index": 95,
       "indent": 0,
       "section": "Searching for the Stone of Jas",
       "text": {
@@ -1489,7 +1504,7 @@
       "chatOptions": []
     },
     {
-      "index": 95,
+      "index": 96,
       "indent": 0,
       "section": "Searching for the Stone of Jas",
       "text": {
@@ -1505,7 +1520,7 @@
       ]
     },
     {
-      "index": 96,
+      "index": 97,
       "indent": 0,
       "section": "Searching for the Stone of Jas",
       "text": {
@@ -1515,7 +1530,7 @@
       "chatOptions": []
     },
     {
-      "index": 97,
+      "index": 98,
       "indent": 0,
       "section": "Searching for the Stone of Jas",
       "text": {
@@ -1528,7 +1543,7 @@
       ]
     },
     {
-      "index": 98,
+      "index": 99,
       "indent": 0,
       "section": "Searching for the Stone of Jas",
       "text": {
@@ -1538,7 +1553,7 @@
       "chatOptions": []
     },
     {
-      "index": 99,
+      "index": 100,
       "indent": 0,
       "section": "Searching for the Stone of Jas",
       "text": {
@@ -1548,7 +1563,7 @@
       "chatOptions": []
     },
     {
-      "index": 100,
+      "index": 101,
       "indent": 0,
       "section": "Searching for the Stone of Jas",
       "text": {
@@ -1558,7 +1573,7 @@
       "chatOptions": []
     },
     {
-      "index": 101,
+      "index": 102,
       "indent": 0,
       "section": "Searching for the Stone of Jas",
       "text": {
@@ -1568,7 +1583,7 @@
       "chatOptions": []
     },
     {
-      "index": 102,
+      "index": 103,
       "indent": 0,
       "section": "Searching for the Stone of Jas",
       "text": {
@@ -1578,7 +1593,7 @@
       "chatOptions": []
     },
     {
-      "index": 103,
+      "index": 104,
       "indent": 0,
       "section": "Searching for the Stone of Jas",
       "text": {
@@ -1591,7 +1606,7 @@
       ]
     },
     {
-      "index": 104,
+      "index": 105,
       "indent": 0,
       "section": "Searching for the Stone of Jas",
       "text": {
@@ -1601,7 +1616,7 @@
       "chatOptions": []
     },
     {
-      "index": 105,
+      "index": 106,
       "indent": 0,
       "section": "Searching for the Stone of Jas",
       "text": {
@@ -1611,7 +1626,7 @@
       "chatOptions": []
     },
     {
-      "index": 106,
+      "index": 107,
       "indent": 1,
       "section": "Searching for the Stone of Jas",
       "text": {
@@ -1621,7 +1636,7 @@
       "chatOptions": []
     },
     {
-      "index": 107,
+      "index": 108,
       "isSectionNote": true,
       "section": "The ritual",
       "recommended": {
@@ -1632,7 +1647,7 @@
       }
     },
     {
-      "index": 108,
+      "index": 109,
       "indent": 0,
       "section": "The ritual",
       "text": {
@@ -1642,7 +1657,7 @@
       "chatOptions": []
     },
     {
-      "index": 109,
+      "index": 110,
       "indent": 0,
       "section": "The ritual",
       "text": {
@@ -1655,7 +1670,7 @@
       ]
     },
     {
-      "index": 110,
+      "index": 111,
       "indent": 0,
       "section": "Khazard",
       "text": {
@@ -1668,7 +1683,7 @@
       ]
     },
     {
-      "index": 111,
+      "index": 112,
       "indent": 0,
       "section": "Khazard",
       "text": {
@@ -1682,7 +1697,7 @@
       ]
     },
     {
-      "index": 112,
+      "index": 113,
       "indent": 0,
       "section": "Ice titans",
       "text": {
@@ -1695,7 +1710,7 @@
       ]
     },
     {
-      "index": 113,
+      "index": 114,
       "indent": 1,
       "section": "Ice titans",
       "text": {
@@ -1708,7 +1723,7 @@
       ]
     },
     {
-      "index": 114,
+      "index": 115,
       "indent": 1,
       "section": "Ice titans",
       "text": {
@@ -1718,7 +1733,7 @@
       "chatOptions": []
     },
     {
-      "index": 115,
+      "index": 116,
       "indent": 1,
       "section": "Ice titans",
       "text": {
@@ -1728,7 +1743,7 @@
       "chatOptions": []
     },
     {
-      "index": 116,
+      "index": 117,
       "indent": 0,
       "section": "Ice demons",
       "text": {
@@ -1741,7 +1756,7 @@
       ]
     },
     {
-      "index": 117,
+      "index": 118,
       "indent": 1,
       "section": "Ice demons",
       "text": {
@@ -1751,7 +1766,7 @@
       "chatOptions": []
     },
     {
-      "index": 118,
+      "index": 119,
       "indent": 1,
       "section": "Ice demons",
       "text": {
@@ -1761,7 +1776,7 @@
       "chatOptions": []
     },
     {
-      "index": 119,
+      "index": 120,
       "indent": 1,
       "section": "Ice demons",
       "text": {
@@ -1774,7 +1789,7 @@
       ]
     },
     {
-      "index": 120,
+      "index": 121,
       "indent": 0,
       "section": "Arrav",
       "text": {
@@ -1787,7 +1802,7 @@
       ]
     },
     {
-      "index": 121,
+      "index": 122,
       "indent": 0,
       "section": "Arrav",
       "text": {
@@ -1800,7 +1815,7 @@
       ]
     },
     {
-      "index": 122,
+      "index": 123,
       "indent": 0,
       "section": "Arrav",
       "text": {
@@ -1810,7 +1825,7 @@
       "chatOptions": []
     },
     {
-      "index": 123,
+      "index": 124,
       "indent": 1,
       "section": "Arrav",
       "text": {
@@ -1820,7 +1835,7 @@
       "chatOptions": []
     },
     {
-      "index": 124,
+      "index": 125,
       "indent": 0,
       "section": "The broken beacon",
       "text": {
@@ -1830,7 +1845,7 @@
       "chatOptions": []
     },
     {
-      "index": 125,
+      "index": 126,
       "indent": 0,
       "section": "The broken beacon",
       "text": {
@@ -1840,7 +1855,7 @@
       "chatOptions": []
     },
     {
-      "index": 126,
+      "index": 127,
       "indent": 0,
       "section": "The broken beacon",
       "text": {
@@ -1850,7 +1865,7 @@
       "chatOptions": []
     },
     {
-      "index": 127,
+      "index": 128,
       "indent": 0,
       "section": "Finishing up",
       "text": {
@@ -1860,7 +1875,7 @@
       "chatOptions": []
     },
     {
-      "index": 128,
+      "index": 129,
       "indent": 0,
       "section": "Finishing up",
       "text": {
@@ -1873,7 +1888,7 @@
       ]
     },
     {
-      "index": 129,
+      "index": 130,
       "indent": 0,
       "section": "Finishing up",
       "text": {
@@ -1883,7 +1898,7 @@
       "chatOptions": []
     },
     {
-      "index": 130,
+      "index": 131,
       "indent": 0,
       "section": "Finishing up",
       "text": {
@@ -1899,7 +1914,7 @@
       ]
     },
     {
-      "index": 131,
+      "index": 132,
       "indent": 0,
       "section": "Finishing up",
       "text": {

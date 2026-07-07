@@ -43,7 +43,7 @@ async function migrateOne(slug) {
     steps = [];
   } else {
     try {
-      steps = parseSteps(page.quickGuideWikitext);
+      steps = await parseSteps(page.quickGuideWikitext);
     } catch (err) {
       if (!err.message.includes("No {{Checklist") || !old.guideNote) {
         console.error(`[error] ${slug}: ${err.message}`);
