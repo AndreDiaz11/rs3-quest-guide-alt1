@@ -3,7 +3,7 @@
   "title": "Beneath Cursed Tides",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T00:17:16.977Z",
+  "guideLastUpdated": "2026-07-07T00:54:20.722Z",
   "icon": "https://runescape.wiki/images/Beneath_Cursed_Tides_icon.png",
   "entityIcon": "https://runescape.wiki/images/Beneath_Cursed_Tides_entity_icon.png?faa37",
   "series": null,
@@ -446,50 +446,31 @@
     },
     {
       "index": 22,
-      "isTable": true,
+      "indent": 0,
       "section": "Krillinary expert",
-      "table": {
-        "headers": [
-          "Recipe Number",
-          "Recipe",
-          "Solution"
-        ],
-        "rows": [
-          [
-            "First",
-            "Sweet, Sour, Spicy",
-            "1 up, 2 up, 3 up"
-          ],
-          [
-            "Second",
-            "Mellow, Sour, Bitter",
-            "2 down, 2 up, 3 down"
-          ],
-          [
-            "Third",
-            "Spicy, Salty, Bitter",
-            "3 up, 1 down, 3 down"
-          ]
-        ]
-      }
+      "text": {
+        "en": "First | Sweet, Sour, Spicy | 1 up, 2 up, 3 up",
+        "es": "Continúa por la puerta oeste hacia la pequeña casa al norte."
+      },
+      "chatOptions": []
     },
     {
       "index": 23,
       "indent": 0,
-      "section": "Mining and combat",
+      "section": "Krillinary expert",
       "text": {
-        "en": "Continue through the west door to the small house in the north.",
-        "es": "Continúa por la puerta oeste hacia la pequeña casa al norte."
+        "en": "Second | Mellow, Sour, Bitter | 2 down, 2 up, 3 down",
+        "es": "Baja por la escalera de mano."
       },
       "chatOptions": []
     },
     {
       "index": 24,
       "indent": 0,
-      "section": "Mining and combat",
+      "section": "Krillinary expert",
       "text": {
-        "en": "Climb down the ladder.",
-        "es": "Baja por la escalera de mano."
+        "en": "Third | Spicy, Salty, Bitter | 3 up, 1 down, 3 down",
+        "es": "Habla con el instructor de minería."
       },
       "chatOptions": []
     },
@@ -498,8 +479,28 @@
       "indent": 0,
       "section": "Mining and combat",
       "text": {
+        "en": "Continue through the west door to the small house in the north.",
+        "es": "Extrae mena de cobre empapada y mena de estaño empapada."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "section": "Mining and combat",
+      "text": {
+        "en": "Climb down the ladder.",
+        "es": "Añade las menas al horno."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "section": "Mining and combat",
+      "text": {
         "en": "Talk to mining instructor.",
-        "es": "Habla con el instructor de minería."
+        "es": "Haz clic derecho y cierra las puertas."
       },
       "chatOptions": [
         "1 Absolutely!",
@@ -510,12 +511,12 @@
       ]
     },
     {
-      "index": 26,
+      "index": 28,
       "indent": 0,
       "section": "Mining and combat",
       "text": {
         "en": "Mine soggy copper ore and soggy tin ore.",
-        "es": "Extrae mena de cobre empapada y mena de estaño empapada."
+        "es": "Acciona la bomba y enciende el horno."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -524,32 +525,12 @@
       ]
     },
     {
-      "index": 27,
-      "indent": 0,
-      "section": "Mining and combat",
-      "text": {
-        "en": "Add the ores to furnace.",
-        "es": "Añade las menas al horno."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 28,
-      "indent": 0,
-      "section": "Mining and combat",
-      "text": {
-        "en": "Right click and close the doors.",
-        "es": "Haz clic derecho y cierra las puertas."
-      },
-      "chatOptions": []
-    },
-    {
       "index": 29,
       "indent": 0,
       "section": "Mining and combat",
       "text": {
-        "en": "Operate the pump and light the furnace.",
-        "es": "Acciona la bomba y enciende el horno."
+        "en": "Add the ores to furnace.",
+        "es": "Recupera la barra broncínea del horno."
       },
       "chatOptions": []
     },
@@ -558,8 +539,28 @@
       "indent": 0,
       "section": "Mining and combat",
       "text": {
+        "en": "Right click and close the doors.",
+        "es": "Forja una daga de bronce."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "section": "Mining and combat",
+      "text": {
+        "en": "Operate the pump and light the furnace.",
+        "es": "Habla de nuevo con el instructor de minería."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "section": "Mining and combat",
+      "text": {
         "en": "Retrieve the bronzish bar from the furnace.",
-        "es": "Recupera la barra broncínea del horno."
+        "es": "Continúa a través de la puerta este."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -567,12 +568,12 @@
       ]
     },
     {
-      "index": 31,
+      "index": 33,
       "indent": 0,
       "section": "Mining and combat",
       "text": {
         "en": "Smith a bronze dagger.",
-        "es": "Forja una daga de bronce."
+        "es": "Habla con Vannaka, el instructor de combate."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -580,32 +581,32 @@
       ]
     },
     {
-      "index": 32,
-      "indent": 0,
-      "section": "Mining and combat",
-      "text": {
-        "en": "Talk to the mining instructor again.",
-        "es": "Habla de nuevo con el instructor de minería."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 33,
-      "indent": 0,
-      "section": "Mining and combat",
-      "text": {
-        "en": "Continue through the east gate.",
-        "es": "Continúa a través de la puerta este."
-      },
-      "chatOptions": []
-    },
-    {
       "index": 34,
       "indent": 0,
       "section": "Mining and combat",
       "text": {
+        "en": "Talk to the mining instructor again.",
+        "es": "Abre la verja y haz clic en la espada situada en el centro de la sala para comenzar el entrenamiento de combate."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 35,
+      "indent": 0,
+      "section": "Mining and combat",
+      "text": {
+        "en": "Continue through the east gate.",
+        "es": "Haz clic en las ratas y otros elementos que aparecen saltando en la pantalla."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 36,
+      "indent": 0,
+      "section": "Mining and combat",
+      "text": {
         "en": "Talk to Vannaka, the combat instructor.",
-        "es": "Habla con Vannaka, el instructor de combate."
+        "es": "Sal de la jaula y sube por la escalera de mano hacia el noreste."
       },
       "chatOptions": [
         "1 Sure, I'm up for a challenge.",
@@ -616,42 +617,42 @@
       ]
     },
     {
-      "index": 35,
-      "indent": 0,
-      "section": "Mining and combat",
-      "text": {
-        "en": "Open the gate and click on the sword in the middle of the room to begin combat training.",
-        "es": "Abre la verja y haz clic en la espada situada en el centro de la sala para comenzar el entrenamiento de combate."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 36,
-      "indent": 0,
-      "section": "Mining and combat",
-      "text": {
-        "en": "Click on the rats and other elements bouncing on the screen.",
-        "es": "Haz clic en las ratas y otros elementos que aparecen saltando en la pantalla."
-      },
-      "chatOptions": []
-    },
-    {
       "index": 37,
       "indent": 0,
       "section": "Mining and combat",
       "text": {
-        "en": "Exit the cage and climb the ladder to the north-east.",
-        "es": "Sal de la jaula y sube por la escalera de mano hacia el noreste."
+        "en": "Open the gate and click on the sword in the middle of the room to begin combat training.",
+        "es": "Habla con el asesor financiero en la casa justo al este."
       },
       "chatOptions": []
     },
     {
       "index": 38,
       "indent": 0,
+      "section": "Mining and combat",
+      "text": {
+        "en": "Click on the rats and other elements bouncing on the screen.",
+        "es": "Entra en la cámara acorazada (el código es 139)."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "section": "Mining and combat",
+      "text": {
+        "en": "Exit the cage and climb the ladder to the north-east.",
+        "es": "Habla de nuevo con el asesor financiero."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 40,
+      "indent": 0,
       "section": "Fishy business",
       "text": {
         "en": "Talk to the financial advisor in the house directly to the east.",
-        "es": "Habla con el asesor financiero en la casa justo al este."
+        "es": "Sal por las 2 puertas hacia el este."
       },
       "chatOptions": [
         "1 Can we skip to the task?"
@@ -661,42 +662,22 @@
       ]
     },
     {
-      "index": 39,
+      "index": 41,
       "indent": 0,
       "section": "Fishy business",
       "text": {
         "en": "Enter the vault (the code is 139).",
-        "es": "Entra en la cámara acorazada (el código es 139)."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 40,
-      "indent": 0,
-      "section": "Fishy business",
-      "text": {
-        "en": "Talk to the financial advisor again.",
-        "es": "Habla de nuevo con el asesor financiero."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 41,
-      "indent": 0,
-      "section": "Fishy friends and magic",
-      "text": {
-        "en": "Leave through the 2 doors to the east.",
-        "es": "Sal por las 2 puertas hacia el este."
+        "es": "Dirígete al sur, hacia la iglesia, atravesando las puertas dobles."
       },
       "chatOptions": []
     },
     {
       "index": 42,
       "indent": 0,
-      "section": "Fishy friends and magic",
+      "section": "Fishy business",
       "text": {
-        "en": "Head south to the church through double doors.",
-        "es": "Dirígete al sur, hacia la iglesia, atravesando las puertas dobles."
+        "en": "Talk to the financial advisor again.",
+        "es": "Habla con Brother Brace."
       },
       "chatOptions": []
     },
@@ -705,8 +686,28 @@
       "indent": 0,
       "section": "Fishy friends and magic",
       "text": {
+        "en": "Leave through the 2 doors to the east.",
+        "es": "Lee la lista de amigos."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "section": "Fishy friends and magic",
+      "text": {
+        "en": "Head south to the church through double doors.",
+        "es": "Habrá 2 peces justo al este del banco y 3 peces de vuelta a través de las 2 puertas que llevan al banco."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "section": "Fishy friends and magic",
+      "text": {
         "en": "Talk to Brother Brace.",
-        "es": "Habla con Brother Brace."
+        "es": "Uno de los cinco peces te dirá dónde está el libro. Búscalo."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -714,12 +715,12 @@
       ]
     },
     {
-      "index": 44,
+      "index": 46,
       "indent": 0,
       "section": "Fishy friends and magic",
       "text": {
         "en": "Read the friend list.",
-        "es": "Lee la lista de amigos."
+        "es": "Entrega el libro a Brother Brace."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -727,32 +728,12 @@
       ]
     },
     {
-      "index": 45,
-      "indent": 0,
-      "section": "Fishy friends and magic",
-      "text": {
-        "en": "There will be 2 fish just east of the bank and 3 fish back through the 2 doors leading through the bank.",
-        "es": "Habrá 2 peces justo al este del banco y 3 peces de vuelta a través de las 2 puertas que llevan al banco."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 46,
-      "indent": 0,
-      "section": "Fishy friends and magic",
-      "text": {
-        "en": "One of the five fish will tell you where the book is. Search for it.",
-        "es": "Uno de los cinco peces te dirá dónde está el libro. Búscalo."
-      },
-      "chatOptions": []
-    },
-    {
       "index": 47,
       "indent": 0,
       "section": "Fishy friends and magic",
       "text": {
-        "en": "Give the book to Brother Brace.",
-        "es": "Entrega el libro a Brother Brace."
+        "en": "There will be 2 fish just east of the bank and 3 fish back through the 2 doors leading through the bank.",
+        "es": "Atraviesa la puerta sur hacia el edificio del sureste y habla con Wizard Terrova."
       },
       "chatOptions": []
     },
@@ -761,8 +742,28 @@
       "indent": 0,
       "section": "Fishy friends and magic",
       "text": {
+        "en": "One of the five fish will tell you where the book is. Search for it.",
+        "es": "Ataca a una gallina."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "section": "Fishy friends and magic",
+      "text": {
+        "en": "Give the book to Brother Brace.",
+        "es": "Habla con el mago."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "section": "Fishy friends and magic",
+      "text": {
         "en": "Go through the south door to the south-east building and talk to Wizard Terrova.",
-        "es": "Atraviesa la puerta sur hacia el edificio del sureste y habla con Wizard Terrova."
+        "es": "Elige cualquier opción durante la escena cinemática."
       },
       "chatOptions": [
         "1 I certainly am.",
@@ -773,12 +774,12 @@
       ]
     },
     {
-      "index": 49,
+      "index": 51,
       "indent": 0,
       "section": "Fishy friends and magic",
       "text": {
         "en": "Attack a chicken.",
-        "es": "Ataca a una gallina."
+        "es": "Canaliza el hechizo mientras repeles a los Crassians."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -786,32 +787,12 @@
       ]
     },
     {
-      "index": 50,
+      "index": 52,
       "indent": 0,
       "section": "Fishy friends and magic",
       "text": {
         "en": "Talk to the wizard.",
-        "es": "Habla con el mago."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 51,
-      "indent": 0,
-      "section": "Commotion in the ocean",
-      "text": {
-        "en": "Pick any option during the cutscene.",
-        "es": "Elige cualquier opción durante la escena cinemática."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 52,
-      "indent": 0,
-      "section": "Commotion in the ocean",
-      "text": {
-        "en": "Channel the spell while repelling Crassians.",
-        "es": "Canaliza el hechizo mientras repeles a los Crassians."
+        "es": "Acaba con Hector Vivian."
       },
       "chatOptions": []
     },
@@ -820,8 +801,27 @@
       "indent": 0,
       "section": "Commotion in the ocean",
       "text": {
-        "en": "Finish Hector Vivian.",
-        "es": "Acaba con Hector Vivian."
+        "en": "Pick any option during the cutscene.",
+        "es": "Habla con Wizard Myrtle."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 54,
+      "indent": 0,
+      "section": "Commotion in the ocean",
+      "text": {
+        "en": "Channel the spell while repelling Crassians.",
+        "es": "¡Misión completada!"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 55,
+      "indent": 0,
+      "section": "Commotion in the ocean",
+      "text": {
+        "en": "Finish Hector Vivian."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -829,24 +829,22 @@
       ]
     },
     {
-      "index": 54,
+      "index": 56,
       "indent": 0,
       "section": "Commotion in the ocean",
       "text": {
-        "en": "Talk to Wizard Myrtle.",
-        "es": "Habla con Wizard Myrtle."
+        "en": "Talk to Wizard Myrtle."
       },
       "chatOptions": [
         "1 We did it!"
       ]
     },
     {
-      "index": 55,
+      "index": 57,
       "indent": 0,
       "section": "Commotion in the ocean",
       "text": {
-        "en": "Quest complete!",
-        "es": "¡Misión completada!"
+        "en": "Quest complete!"
       },
       "chatOptions": []
     }

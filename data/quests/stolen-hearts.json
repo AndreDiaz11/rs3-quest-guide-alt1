@@ -3,7 +3,7 @@
   "title": "Stolen Hearts",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T00:17:21.191Z",
+  "guideLastUpdated": "2026-07-07T00:54:26.533Z",
   "icon": "https://runescape.wiki/images/Stolen_Hearts_icon.png",
   "entityIcon": "https://runescape.wiki/images/Stolen_Hearts_entity_icon.png?d4e2b",
   "series": "Ozan",
@@ -325,33 +325,51 @@
     },
     {
       "index": 13,
-      "isTable": true,
+      "indent": 0,
       "section": "Lady Keli kidnapping Prince Ali",
-      "table": {
-        "headers": null,
-        "rows": [
-          [
-            "Hamazanama"
-          ],
-          [
-            "Kakolookiyam"
-          ],
-          [
-            "Scheherazade"
-          ],
-          [
-            "Zomorrodnegar"
-          ]
-        ]
-      }
+      "text": {
+        "en": "Hamazanama",
+        "es": "Teletranspórtate a casa hasta la piedra de viaje de Al Kharid."
+      },
+      "chatOptions": []
     },
     {
       "index": 14,
       "indent": 0,
+      "section": "Lady Keli kidnapping Prince Ali",
+      "text": {
+        "en": "Kakolookiyam",
+        "es": "Si tienes desbloqueada la piedra de viaje, deberías usar el Teletransporte a casa para que Ozan te siga."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 15,
+      "indent": 0,
+      "section": "Lady Keli kidnapping Prince Ali",
+      "text": {
+        "en": "Scheherazade",
+        "es": "Dirígete al sur, hacia el palacio de Al Kharid, y habla con el guardia del palacio."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 16,
+      "indent": 0,
+      "section": "Lady Keli kidnapping Prince Ali",
+      "text": {
+        "en": "Zomorrodnegar",
+        "es": "Dirígete al noreste de Al Kharid, hacia la tienda de artesanía de Dommik.:Cada sección no aceptará entradas hasta que Ozan termine su animación."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 17,
+      "indent": 0,
       "section": "Getting into Al Kharid palace",
       "text": {
         "en": "Home Teleport to Al Kharid lodestone.",
-        "es": "Teletranspórtate a casa hasta la piedra de viaje de Al Kharid."
+        "es": "Sube las escaleras del interior."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -360,12 +378,12 @@
       ]
     },
     {
-      "index": 15,
+      "index": 18,
       "indent": 1,
       "section": "Getting into Al Kharid palace",
       "text": {
         "en": "If you have the lodestone unlocked, you should Home Teleport so Ozan follows you.",
-        "es": "Si tienes desbloqueada la piedra de viaje, deberías usar el Teletransporte a casa para que Ozan te siga."
+        "es": "Sube por la escalera de mano."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -373,12 +391,12 @@
       ]
     },
     {
-      "index": 16,
+      "index": 19,
       "indent": 0,
       "section": "Getting into Al Kharid palace",
       "text": {
         "en": "Head south into the Al Kharid palace and talk to the palace guard.",
-        "es": "Dirígete al sur, hacia el palacio de Al Kharid, y habla con el guardia del palacio."
+        "es": "Si no hay ninguna escalera de mano, deberías hablar de nuevo con el guardia del palacio."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -387,12 +405,12 @@
       ]
     },
     {
-      "index": 17,
+      "index": 20,
       "indent": 0,
       "section": "Getting into Al Kharid palace",
       "text": {
         "en": "Head northeast of Al Kharid to the Dommik's Crafting Store. :Each section will not accept inputs until Ozan finishes his animation.",
-        "es": "Dirígete al noreste de Al Kharid, hacia la tienda de artesanía de Dommik.:Cada sección no aceptará entradas hasta que Ozan termine su animación."
+        "es": "Cruza la tabla hacia el sur."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -400,42 +418,12 @@
       ]
     },
     {
-      "index": 18,
-      "indent": 0,
-      "section": "Parkour",
-      "text": {
-        "en": "Climb up the steps inside.",
-        "es": "Sube las escaleras del interior."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 19,
-      "indent": 0,
-      "section": "Parkour",
-      "text": {
-        "en": "Climb the ladder.",
-        "es": "Sube por la escalera de mano."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 20,
-      "indent": 1,
-      "section": "Parkour",
-      "text": {
-        "en": "If there is no ladder you should need to talk to the guard in the palace again.",
-        "es": "Si no hay ninguna escalera de mano, deberías hablar de nuevo con el guardia del palacio."
-      },
-      "chatOptions": []
-    },
-    {
       "index": 21,
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "Walk across the plank to the south.",
-        "es": "Cruza la tabla hacia el sur."
+        "en": "Climb up the steps inside.",
+        "es": "Deslízate por el toldo hacia el sur."
       },
       "chatOptions": []
     },
@@ -444,18 +432,18 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "Slide down the awning to the south.",
-        "es": "Deslízate por el toldo hacia el sur."
+        "en": "Climb the ladder.",
+        "es": "Dirígete al interior de la habitación al norte."
       },
       "chatOptions": []
     },
     {
       "index": 23,
-      "indent": 0,
+      "indent": 1,
       "section": "Parkour",
       "text": {
-        "en": "Head inside the room to the north",
-        "es": "Dirígete al interior de la habitación al norte."
+        "en": "If there is no ladder you should need to talk to the guard in the palace again.",
+        "es": "Cruza la cuerda de tender hacia el oeste."
       },
       "chatOptions": []
     },
@@ -464,8 +452,8 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "Walk across the washing line to west.",
-        "es": "Cruza la cuerda de tender hacia el oeste."
+        "en": "Walk across the plank to the south.",
+        "es": "Sube por la escalera de mano hacia el oeste."
       },
       "chatOptions": []
     },
@@ -474,8 +462,8 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "Climb the ladder to the west.",
-        "es": "Sube por la escalera de mano hacia el oeste."
+        "en": "Slide down the awning to the south.",
+        "es": "Cruza las tablas hacia el oeste."
       },
       "chatOptions": []
     },
@@ -484,8 +472,8 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "Cross the planks to the west.",
-        "es": "Cruza las tablas hacia el oeste."
+        "en": "Head inside the room to the north",
+        "es": "Dirígete al oeste y sube por la escalera de mano."
       },
       "chatOptions": []
     },
@@ -494,8 +482,8 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "Head west and climb the ladder.",
-        "es": "Dirígete al oeste y sube por la escalera de mano."
+        "en": "Walk across the washing line to west.",
+        "es": "Salta desde el andamio hacia el oeste."
       },
       "chatOptions": []
     },
@@ -504,8 +492,8 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "Jump from the scaffold to the west.",
-        "es": "Salta desde el andamio hacia el oeste."
+        "en": "Climb the ladder to the west.",
+        "es": "Baja por la alfombra hacia el sur."
       },
       "chatOptions": []
     },
@@ -514,8 +502,8 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "Climb down the rug to the south.",
-        "es": "Baja por la alfombra hacia el sur."
+        "en": "Cross the planks to the west.",
+        "es": "Balancéate por el armazón de madera hacia el oeste."
       },
       "chatOptions": []
     },
@@ -524,8 +512,8 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "Swing across the wooden frame to the west.",
-        "es": "Balancéate por el armazón de madera hacia el oeste."
+        "en": "Head west and climb the ladder.",
+        "es": "Salta desde el andamio hacia el sur."
       },
       "chatOptions": []
     },
@@ -534,8 +522,8 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "Jump from the scaffold to the south.",
-        "es": "Salta desde el andamio hacia el sur."
+        "en": "Jump from the scaffold to the west.",
+        "es": "Rebota en el toldo hacia el sur."
       },
       "chatOptions": []
     },
@@ -544,8 +532,8 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "Bounce on the awning south.",
-        "es": "Rebota en el toldo hacia el sur."
+        "en": "Climb down the rug to the south.",
+        "es": "Sube por la mampostería."
       },
       "chatOptions": []
     },
@@ -554,8 +542,8 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "Climb up the brickwork.",
-        "es": "Sube por la mampostería."
+        "en": "Swing across the wooden frame to the west.",
+        "es": "\"Déjaselo a Ozan\" en el mástil de la bandera."
       },
       "chatOptions": []
     },
@@ -564,8 +552,8 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "\"Leave it to Ozan\" on the flagpole",
-        "es": "\"Déjaselo a Ozan\" en el mástil de la bandera."
+        "en": "Jump from the scaffold to the south.",
+        "es": "Desplázate por la cuerda."
       },
       "chatOptions": []
     },
@@ -574,8 +562,8 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "Shimmy across the rope.",
-        "es": "Desplázate por la cuerda."
+        "en": "Bounce on the awning south.",
+        "es": "\"Sube\" por la mampostería para activar una escena cinemática."
       },
       "chatOptions": []
     },
@@ -584,8 +572,8 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "\"Climb up\" the brickwork to activate a cutscene.",
-        "es": "\"Sube\" por la mampostería para activar una escena cinemática."
+        "en": "Climb up the brickwork.",
+        "es": "Después de la escena cinemática, sube por la mampostería."
       },
       "chatOptions": []
     },
@@ -594,8 +582,8 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "After the cutscene, climb up the brickwork.",
-        "es": "Después de la escena cinemática, sube por la mampostería."
+        "en": "\"Leave it to Ozan\" on the flagpole",
+        "es": "Dirígete al sur y \"entra a la fuerza\" por el tragaluz. No cierres sesión una vez dentro, o reaparecerás fuera del palacio."
       },
       "chatOptions": []
     },
@@ -604,13 +592,43 @@
       "indent": 0,
       "section": "Parkour",
       "text": {
-        "en": "Head south and \"break in\" through the skylight. Don't log out once inside, or you will respawn outside the palace.",
-        "es": "Dirígete al sur y \"entra a la fuerza\" por el tragaluz. No cierres sesión una vez dentro, o reaparecerás fuera del palacio."
+        "en": "Shimmy across the rope.",
+        "es": "Examina la balanza Het."
       },
       "chatOptions": []
     },
     {
       "index": 39,
+      "indent": 0,
+      "section": "Parkour",
+      "text": {
+        "en": "\"Climb up\" the brickwork to activate a cutscene.",
+        "es": "Tienes exactamente dos pesadas para determinar cuál es la pesa más pesada."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "section": "Parkour",
+      "text": {
+        "en": "After the cutscene, climb up the brickwork.",
+        "es": "La pesa más pesada siempre será aleatoria."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "section": "Parkour",
+      "text": {
+        "en": "Head south and \"break in\" through the skylight. Don't log out once inside, or you will respawn outside the palace.",
+        "es": "Arrastra dos grupos de tres pesas a ambos lados de la balanza y haz clic en la gema verde central para pesar."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 42,
       "isImage": true,
       "section": "Weight on Kharid-ib",
       "filename": "Stolen Hearts Scales puzzle1.png",
@@ -618,52 +636,22 @@
       "image": "https://runescape.wiki/images/Stolen_Hearts_Scales_puzzle1.png?6be34"
     },
     {
-      "index": 40,
+      "index": 43,
       "indent": 0,
       "section": "Weight on Kharid-ib",
       "text": {
         "en": "Inspect the Het scales.",
-        "es": "Examina la balanza Het."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 41,
-      "indent": 0,
-      "section": "Weight on Kharid-ib",
-      "text": {
-        "en": "You have exactly two weighings to determine which is the heaviest weight.",
-        "es": "Tienes exactamente dos pesadas para determinar cuál es la pesa más pesada."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 42,
-      "indent": 1,
-      "section": "Weight on Kharid-ib",
-      "text": {
-        "en": "The heaviest weight will always be random.",
-        "es": "La pesa más pesada siempre será aleatoria."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 43,
-      "indent": 1,
-      "section": "Weight on Kharid-ib",
-      "text": {
-        "en": "Drag two sets of three weights onto both sides of the scale and click the central green gem to weigh.",
-        "es": "Arrastra dos grupos de tres pesas a ambos lados de la balanza y haz clic en la gema verde central para pesar."
+        "es": "Si uno de los lados pesa más, sabrás que la pesa más pesada forma parte de las 3 pesas que bajaron. Coloca una de esas pesas en el lado izquierdo y otra en el lado derecho de la balanza, dejando la última en la fila inferior, y haz clic de nuevo en la gema verde. Si algún lado baja, sabrás cuál es la pesa más pesada. Si están equilibradas, sabrás que es la que dejaste en la fila inferior."
       },
       "chatOptions": []
     },
     {
       "index": 44,
-      "indent": 1,
+      "indent": 0,
       "section": "Weight on Kharid-ib",
       "text": {
-        "en": "If one of the sides is heavier, you know the heaviest weight is part of the 3 weights that went down. Put one of those weights on the left side and one weight on the right side of the scale, the last one in the bottom row and click the green gem again. If either side went down you know the heaviest weight. If they are equal you know it's the one you put back in the bottom row.",
-        "es": "Si uno de los lados pesa más, sabrás que la pesa más pesada forma parte de las 3 pesas que bajaron. Coloca una de esas pesas en el lado izquierdo y otra en el lado derecho de la balanza, dejando la última en la fila inferior, y haz clic de nuevo en la gema verde. Si algún lado baja, sabrás cuál es la pesa más pesada. Si están equilibradas, sabrás que es la que dejaste en la fila inferior."
+        "en": "You have exactly two weighings to determine which is the heaviest weight.",
+        "es": "Si ambos lados pesaban lo mismo, sabrás que las 3 pesas restantes en la fila inferior son las más pesadas. Coloca una de esas pesas en el lado izquierdo y otra en el lado derecho de la balanza, dejando la última en la fila inferior, y haz clic de nuevo en la gema verde. Si algún lado baja, sabrás cuál es la pesa más pesada. Si están equilibradas, sabrás que es la que dejaste en la fila inferior."
       },
       "chatOptions": []
     },
@@ -672,8 +660,8 @@
       "indent": 1,
       "section": "Weight on Kharid-ib",
       "text": {
-        "en": "If both sides were of equal weight, you know the remaining 3 weights in the bottom row are the heaviest. Put one of those weights on the left side and one weight on the right side of the scale, the last one in the bottom row and click the green gem again. If either side went down you know the heaviest weight. If they are equal you know it's the one you put back in the bottom row.",
-        "es": "Si ambos lados pesaban lo mismo, sabrás que las 3 pesas restantes en la fila inferior son las más pesadas. Coloca una de esas pesas en el lado izquierdo y otra en el lado derecho de la balanza, dejando la última en la fila inferior, y haz clic de nuevo en la gema verde. Si algún lado baja, sabrás cuál es la pesa más pesada. Si están equilibradas, sabrás que es la que dejaste en la fila inferior."
+        "en": "The heaviest weight will always be random.",
+        "es": "Una vez que hayas determinado la pesa más pesada, arrástrala hasta el icono de la mochila para cogerla."
       },
       "chatOptions": []
     },
@@ -682,18 +670,47 @@
       "indent": 1,
       "section": "Weight on Kharid-ib",
       "text": {
-        "en": "Once you've determined the heaviest weight drag it onto the backpack icon to grab it.",
-        "es": "Una vez que hayas determinado la pesa más pesada, arrástrala hasta el icono de la mochila para cogerla."
+        "en": "Drag two sets of three weights onto both sides of the scale and click the central green gem to weigh.",
+        "es": "\"Coloca la pesa\" en la vitrina Kharid-ib."
       },
       "chatOptions": []
     },
     {
       "index": 47,
+      "indent": 1,
+      "section": "Weight on Kharid-ib",
+      "text": {
+        "en": "If one of the sides is heavier, you know the heaviest weight is part of the 3 weights that went down. Put one of those weights on the left side and one weight on the right side of the scale, the last one in the bottom row and click the green gem again. If either side went down you know the heaviest weight. If they are equal you know it's the one you put back in the bottom row.",
+        "es": "Dile a Osman la contraseña que obtuviste de Leela. Si no la recuerdas, prueba todas las opciones, ya que si fallas suficientes veces, Ozan dirá la contraseña de todos modos."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 48,
+      "indent": 1,
+      "section": "Weight on Kharid-ib",
+      "text": {
+        "en": "If both sides were of equal weight, you know the remaining 3 weights in the bottom row are the heaviest. Put one of those weights on the left side and one weight on the right side of the scale, the last one in the bottom row and click the green gem again. If either side went down you know the heaviest weight. If they are equal you know it's the one you put back in the bottom row.",
+        "es": "Durante la escena cinemática, elige cualquiera de las dos opciones."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 49,
+      "indent": 1,
+      "section": "Weight on Kharid-ib",
+      "text": {
+        "en": "Once you've determined the heaviest weight drag it onto the backpack icon to grab it.",
+        "es": "¡Misión completada!"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 50,
       "indent": 0,
       "section": "Weight on Kharid-ib",
       "text": {
-        "en": "\"Place weight\" on the Kharid-ib display.",
-        "es": "\"Coloca la pesa\" en la vitrina Kharid-ib."
+        "en": "\"Place weight\" on the Kharid-ib display."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -701,34 +718,31 @@
       ]
     },
     {
-      "index": 48,
+      "index": 51,
       "indent": 0,
       "section": "Weight on Kharid-ib",
       "text": {
-        "en": "Tell Osman the passphrase that was obtained from Leela. If you don't remember it, try all options as if you get it wrong enough times Ozan will say the passphrase anyway.",
-        "es": "Dile a Osman la contraseña que obtuviste de Leela. Si no la recuerdas, prueba todas las opciones, ya que si fallas suficientes veces, Ozan dirá la contraseña de todos modos."
+        "en": "Tell Osman the passphrase that was obtained from Leela. If you don't remember it, try all options as if you get it wrong enough times Ozan will say the passphrase anyway."
       },
       "chatOptions": []
     },
     {
-      "index": 49,
+      "index": 52,
       "indent": 0,
       "section": "Weight on Kharid-ib",
       "text": {
-        "en": "During the cutscene, choose either option.",
-        "es": "Durante la escena cinemática, elige cualquiera de las dos opciones."
+        "en": "During the cutscene, choose either option."
       },
       "chatOptions": [
         "Any"
       ]
     },
     {
-      "index": 50,
+      "index": 53,
       "indent": 0,
       "section": "Weight on Kharid-ib",
       "text": {
-        "en": "Quest complete!",
-        "es": "¡Misión completada!"
+        "en": "Quest complete!"
       },
       "chatOptions": []
     }

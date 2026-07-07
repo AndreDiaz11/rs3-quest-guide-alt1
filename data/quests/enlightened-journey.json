@@ -3,7 +3,7 @@
   "title": "Enlightened Journey",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T00:17:18.269Z",
+  "guideLastUpdated": "2026-07-07T00:54:23.277Z",
   "icon": "https://runescape.wiki/images/Enlightened_Journey_icon.png",
   "entityIcon": null,
   "series": null,
@@ -370,131 +370,276 @@
     },
     {
       "index": 16,
-      "isTable": true,
+      "indent": 0,
       "section": "First scene",
-      "table": {
-        "headers": null,
-        "rows": [
-          [
-            "align=\"center\" width=\"100\" |",
-            "1 Sandbags"
-          ],
-          [
-            "",
-            "1 Logs"
-          ],
-          [
-            "",
-            "9 Relax"
-          ],
-          [
-            "",
-            "1 Move Down More"
-          ],
-          [
-            "",
-            "2 Relax"
-          ],
-          [
-            "",
-            "1 Move Down"
-          ],
-          [
-            "",
-            "5 Relax"
-          ]
-        ]
-      }
+      "text": {
+        "en": "align=\"center\" | | 1 Logs",
+        "es": "Habla con Auguste."
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport logs icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_logs_icon.png?82cd9"
+        }
+      ]
     },
     {
       "index": 17,
-      "isTable": true,
-      "section": "Second scene",
-      "table": {
-        "headers": null,
-        "rows": [
-          [
-            "align=\"center\" width=\"100\" |",
-            "1 Logs"
-          ],
-          [
-            "",
-            "1 Relax"
-          ],
-          [
-            "",
-            "1 Logs"
-          ],
-          [
-            "align=\"center\" width=\"100\" |",
-            "10 Relax"
-          ],
-          [
-            "align=\"center\" width=\"100\" |",
-            "1 Logs"
-          ],
-          [
-            "align=\"center\" width=\"100\" |",
-            "5 Relax"
-          ]
-        ]
-      }
+      "indent": 0,
+      "section": "First scene",
+      "text": {
+        "en": "align=\"center\" | | 9 Relax",
+        "es": "¡Misión completada!"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport relax icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_relax_icon.png?88dbf"
+        }
+      ]
     },
     {
       "index": 18,
-      "isTable": true,
-      "section": "Third scene",
-      "table": {
-        "headers": null,
-        "rows": [
-          [
-            "align=\"center\" width=\"100\" |",
-            "7 Relax"
-          ],
-          [
-            "",
-            "1 Move Down More"
-          ],
-          [
-            "",
-            "1 Move Down"
-          ],
-          [
-            "align=\"center\" width=\"100\" |",
-            "3 Relax"
-          ],
-          [
-            "align=\"center\" width=\"100\" |",
-            "1 Logs"
-          ],
-          [
-            "align=\"center\" width=\"100\" |",
-            "4 Relax"
-          ],
-          [
-            "",
-            "1 Move Down"
-          ]
-        ]
-      }
+      "indent": 0,
+      "section": "First scene",
+      "text": {
+        "en": "align=\"center\" | | 1 Move Down More"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport emergency tug icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_emergency_tug_icon.png?13959"
+        }
+      ]
     },
     {
       "index": 19,
       "indent": 0,
+      "section": "First scene",
+      "text": {
+        "en": "align=\"center\" | | 2 Relax"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport relax icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_relax_icon.png?88dbf"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "indent": 0,
+      "section": "First scene",
+      "text": {
+        "en": "align=\"center\" | | 1 Move Down"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport tug icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_tug_icon.png?8bffa"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "indent": 0,
+      "section": "First scene",
+      "text": {
+        "en": "align=\"center\" | | 5 Relax"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport relax icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_relax_icon.png?88dbf"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "indent": 0,
+      "section": "Second scene",
+      "text": {
+        "en": "align=\"center\" | |1 Relax"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport relax icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_relax_icon.png?88dbf"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "section": "Second scene",
+      "text": {
+        "en": "align=\"center\" | |1 Logs"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport logs icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_logs_icon.png?82cd9"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "indent": 0,
+      "section": "Second scene",
+      "text": {
+        "en": "align=\"center\" width=\"100\" | |10 Relax"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport relax icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_relax_icon.png?88dbf"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "indent": 0,
+      "section": "Second scene",
+      "text": {
+        "en": "align=\"center\" width=\"100\" | |1 Logs"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport logs icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_logs_icon.png?82cd9"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "indent": 0,
+      "section": "Second scene",
+      "text": {
+        "en": "align=\"center\" width=\"100\" | |5 Relax"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport relax icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_relax_icon.png?88dbf"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "indent": 0,
+      "section": "Third scene",
+      "text": {
+        "en": "align=\"center\" | | 1 Move Down More"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport emergency tug icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_emergency_tug_icon.png?13959"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "indent": 0,
+      "section": "Third scene",
+      "text": {
+        "en": "align=\"center\" | | 1 Move Down"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport tug icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_tug_icon.png?8bffa"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "indent": 0,
+      "section": "Third scene",
+      "text": {
+        "en": "align=\"center\" width=\"100\" | | 3 Relax"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport relax icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_relax_icon.png?88dbf"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "indent": 0,
+      "section": "Third scene",
+      "text": {
+        "en": "align=\"center\" width=\"100\" | | 1 Logs"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport logs icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_logs_icon.png?82cd9"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "indent": 0,
+      "section": "Third scene",
+      "text": {
+        "en": "align=\"center\" width=\"100\" | | 4 Relax"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport relax icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_relax_icon.png?88dbf"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "section": "Third scene",
+      "text": {
+        "en": "align=\"center\" | |1 Move Down"
+      },
+      "chatOptions": [],
+      "icons": [
+        {
+          "filename": "Balloon transport tug icon.png",
+          "image": "https://runescape.wiki/images/Balloon_transport_tug_icon.png?8bffa"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "indent": 0,
       "section": "Finishing Up",
       "text": {
-        "en": "Talk to Auguste.",
-        "es": "Habla con Auguste."
+        "en": "Talk to Auguste."
       },
       "chatOptions": []
     },
     {
-      "index": 20,
+      "index": 34,
       "indent": 1,
       "section": "Finishing Up",
       "text": {
-        "en": "Quest complete!",
-        "es": "¡Misión completada!"
+        "en": "Quest complete!"
       },
       "chatOptions": []
     }

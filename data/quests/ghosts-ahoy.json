@@ -3,7 +3,7 @@
   "title": "Ghosts Ahoy",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-07T00:17:18.596Z",
+  "guideLastUpdated": "2026-07-07T00:54:23.935Z",
   "icon": "https://runescape.wiki/images/Ghosts_Ahoy_icon.png",
   "entityIcon": null,
   "series": null,
@@ -431,58 +431,51 @@
     },
     {
       "index": 20,
-      "isTable": true,
+      "indent": 0,
       "section": "Dyeing the ship",
-      "table": {
-        "headers": null,
-        "rows": [
-          [
-            "Top half",
-            "Red",
-            "Blue",
-            "Yellow",
-            "Orange",
-            "Green",
-            "Purple"
-          ],
-          [
-            "Bottom half",
-            "Red",
-            "Blue",
-            "Yellow",
-            "Orange",
-            "Green",
-            "Purple"
-          ],
-          [
-            "Skull emblem",
-            "Red",
-            "Blue",
-            "Yellow",
-            "Orange",
-            "Green",
-            "Purple"
-          ]
-        ]
-      }
+      "text": {
+        "en": "! Top half | Red | Blue | Yellow | Orange | Green | Purple",
+        "es": "Baja por una escalera y entra en la cabina del capitán."
+      },
+      "chatOptions": []
     },
     {
       "index": 21,
       "indent": 0,
-      "section": "Collecting the map scraps",
+      "section": "Dyeing the ship",
       "text": {
-        "en": "Climb down a ladder and enter the captain's cabin.",
-        "es": "Baja por una escalera y entra en la cabina del capitán."
+        "en": "! Bottom half | Red | Blue | Yellow | Orange | Green | Purple",
+        "es": "Habla con el anciano."
       },
       "chatOptions": []
     },
     {
       "index": 22,
       "indent": 0,
+      "section": "Dyeing the ship",
+      "text": {
+        "en": "! Skull emblem | Red | Blue | Yellow | Orange | Green | Purple",
+        "es": "Usa la llave en el cofre junto al Captain y ábrelo para conseguir un map scrap."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 23,
+      "indent": 0,
+      "section": "Collecting the map scraps",
+      "text": {
+        "en": "Climb down a ladder and enter the captain's cabin.",
+        "es": "En la 1ª planta del barco, abre y registra todos los cofres desbloqueados en el extremo este del barco hasta que aparezca una langosta gigante."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 24,
+      "indent": 0,
       "section": "Collecting the map scraps",
       "text": {
         "en": "Talk to the old man.",
-        "es": "Habla con el anciano."
+        "es": "Mata al giant lobster."
       },
       "chatOptions": [
         "3 Is this your toy boat?"
@@ -492,47 +485,11 @@
       ]
     },
     {
-      "index": 23,
-      "indent": 0,
-      "section": "Collecting the map scraps",
-      "text": {
-        "en": "Use the key on the chest by the Captain and open it for a map scrap.",
-        "es": "Usa la llave en el cofre junto al Captain y ábrelo para conseguir un map scrap."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "map scrap"
-      ]
-    },
-    {
-      "index": 24,
-      "indent": 0,
-      "section": "Collecting the map scraps",
-      "text": {
-        "en": "On the 1st floor of the ship, open and search all unlocked chest in the eastern end of the ship until a giant lobster spawns.",
-        "es": "En la 1ª planta del barco, abre y registra todos los cofres desbloqueados en el extremo este del barco hasta que aparezca una langosta gigante."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "giant lobster"
-      ]
-    },
-    {
       "index": 25,
       "indent": 0,
       "section": "Collecting the map scraps",
       "text": {
-        "en": "Kill the giant lobster.",
-        "es": "Mata al giant lobster."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 26,
-      "indent": 0,
-      "section": "Collecting the map scraps",
-      "text": {
-        "en": "Search the chest again for a map scrap.",
+        "en": "Use the key on the chest by the Captain and open it for a map scrap.",
         "es": "Vuelve a registrar el cofre para conseguir otro map scrap."
       },
       "chatOptions": [],
@@ -541,12 +498,25 @@
       ]
     },
     {
+      "index": 26,
+      "indent": 0,
+      "section": "Collecting the map scraps",
+      "text": {
+        "en": "On the 1st floor of the ship, open and search all unlocked chest in the eastern end of the ship until a giant lobster spawns.",
+        "es": "En la 2ª planta del barco, ve a la parte noroeste de la cubierta del barco."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "giant lobster"
+      ]
+    },
+    {
       "index": 27,
       "indent": 0,
       "section": "Collecting the map scraps",
       "text": {
-        "en": "On the 2nd floor of the ship, go to the northwest part of the ship's deck.",
-        "es": "En la 2ª planta del barco, ve a la parte noroeste de la cubierta del barco."
+        "en": "Kill the giant lobster.",
+        "es": "Cruza la pasarela (gangplank) hacia las rocas."
       },
       "chatOptions": []
     },
@@ -555,17 +525,7 @@
       "indent": 0,
       "section": "Collecting the map scraps",
       "text": {
-        "en": "Cross the gangplank to the rocks.",
-        "es": "Cruza la pasarela (gangplank) hacia las rocas."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 29,
-      "indent": 0,
-      "section": "Collecting the map scraps",
-      "text": {
-        "en": "Jump to the rocks on your side until you find a chest. Open it for another map scrap.",
+        "en": "Search the chest again for a map scrap.",
         "es": "Salta entre las rocas de tu lado hasta encontrar un cofre. Ábrelo para conseguir otro map scrap."
       },
       "chatOptions": [],
@@ -574,17 +534,50 @@
       ]
     },
     {
-      "index": 30,
+      "index": 29,
       "indent": 0,
       "section": "Collecting the map scraps",
       "text": {
-        "en": "Put the pieces together to get the map.",
+        "en": "On the 2nd floor of the ship, go to the northwest part of the ship's deck.",
         "es": "Junta las piezas para formar el mapa."
       },
       "chatOptions": []
     },
     {
+      "index": 30,
+      "indent": 0,
+      "section": "Collecting the map scraps",
+      "text": {
+        "en": "Cross the gangplank to the rocks.",
+        "es": "Regresa a Port Phasmatys."
+      },
+      "chatOptions": []
+    },
+    {
       "index": 31,
+      "indent": 0,
+      "section": "Collecting the map scraps",
+      "text": {
+        "en": "Jump to the rocks on your side until you find a chest. Open it for another map scrap.",
+        "es": "Haz clic derecho y elige \"Travel\" en el ghost captain de los muelles del sureste (el del barco más pequeño, no el que está justo al este de Velorina) para que te lleve a Dragontooth Island."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "map scrap"
+      ]
+    },
+    {
+      "index": 32,
+      "indent": 0,
+      "section": "Collecting the map scraps",
+      "text": {
+        "en": "Put the pieces together to get the map.",
+        "es": "Cava con una pala en la ubicación que se muestra a la derecha para obtener el book of haricanto."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 33,
       "isImage": true,
       "section": "Dragontooth Island",
       "filename": "Book of haricanto location.png",
@@ -592,22 +585,22 @@
       "image": "https://runescape.wiki/images/Book_of_haricanto_location.png?2f7a3"
     },
     {
-      "index": 32,
+      "index": 34,
       "indent": 0,
       "section": "Dragontooth Island",
       "text": {
         "en": "Go back to Port Phasmatys.",
-        "es": "Regresa a Port Phasmatys."
+        "es": "Haz clic derecho y elige \"Travel\" en el ghost captain para volver a Port Phasmatys."
       },
       "chatOptions": []
     },
     {
-      "index": 33,
+      "index": 35,
       "indent": 0,
       "section": "Dragontooth Island",
       "text": {
         "en": "Right-click and choose \"Travel\" on the ghost captain on the south-east docks (the one with the smaller boat, not the one directly east of Velorina) to get a ride to Dragontooth Island.",
-        "es": "Haz clic derecho y elige \"Travel\" en el ghost captain de los muelles del sureste (el del barco más pequeño, no el que está justo al este de Velorina) para que te lleve a Dragontooth Island."
+        "es": "Habla con Ak-Haranu (que no es un fantasma) cerca de los muelles."
       },
       "chatOptions": [
         "1 Please take me to Dragontooth Island."
@@ -618,12 +611,12 @@
       ]
     },
     {
-      "index": 34,
+      "index": 36,
       "indent": 0,
       "section": "Dragontooth Island",
       "text": {
         "en": "Dig with a spade at the location () shown to the right to obtain the book of haricanto.",
-        "es": "Cava con una pala en la ubicación que se muestra a la derecha para obtener el book of haricanto."
+        "es": "Ve a la posada (inn) y habla con Robin."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -632,22 +625,22 @@
       ]
     },
     {
-      "index": 35,
+      "index": 37,
       "indent": 0,
       "section": "Dragontooth Island",
       "text": {
         "en": "Right-click and choose \"Travel\" on the ghost captain to go back Port Phasmatys.",
-        "es": "Haz clic derecho y elige \"Travel\" en el ghost captain para volver a Port Phasmatys."
+        "es": "Gana 4 partidas de Rune-Draw contra él para conseguir un signed oak shieldbow. El método más fácil es elegir \"draw\" repetidamente hasta que un jugador pierda al sacar una death rune, y repetir esto hasta conseguir cuatro victorias en total."
       },
       "chatOptions": []
     },
     {
-      "index": 36,
+      "index": 38,
       "indent": 0,
       "section": "Translation",
       "text": {
         "en": "Talk to Ak-Haranu (who is not a ghost) around the docks.",
-        "es": "Habla con Ak-Haranu (que no es un fantasma) cerca de los muelles."
+        "es": "Habla con Robin cada vez que termines una partida."
       },
       "chatOptions": [
         "1 Okay, wait here - I'll get you your bow."
@@ -657,42 +650,12 @@
       ]
     },
     {
-      "index": 37,
+      "index": 39,
       "indent": 0,
       "section": "Translation",
       "text": {
         "en": "Go to the inn and talk to Robin.",
-        "es": "Ve a la posada (inn) y habla con Robin."
-      },
-      "chatOptions": [
-        "2 Talk about something else.",
-        "1 Yes, I'll give you a game."
-      ],
-      "highlightTerms": [
-        "Robin"
-      ]
-    },
-    {
-      "index": 38,
-      "indent": 0,
-      "section": "Translation",
-      "text": {
-        "en": "Win 4 games of Rune-Draw against him to get a signed oak shieldbow. The easiest method is to choose \"draw\" until one player loses by drawing a death rune and repeating this until you have four wins total.",
-        "es": "Gana 4 partidas de Rune-Draw contra él para conseguir un signed oak shieldbow. El método más fácil es elegir \"draw\" repetidamente hasta que un jugador pierda al sacar una death rune, y repetir esto hasta conseguir cuatro victorias en total."
-      },
-      "chatOptions": [],
-      "highlightTerms": [
-        "Rune-Draw",
-        "signed oak shieldbow"
-      ]
-    },
-    {
-      "index": 39,
-      "indent": 1,
-      "section": "Translation",
-      "text": {
-        "en": "Talk to Robin every time you finish a game.",
-        "es": "Habla con Robin cada vez que termines una partida."
+        "es": "Habla con Ak-Haranu para conseguir el translation manual."
       },
       "chatOptions": [
         "2 Talk about something else.",
@@ -707,8 +670,38 @@
       "indent": 0,
       "section": "Translation",
       "text": {
+        "en": "Win 4 games of Rune-Draw against him to get a signed oak shieldbow. The easiest method is to choose \"draw\" until one player loses by drawing a death rune and repeating this until you have four wins total.",
+        "es": "Pídele trabajo al ghost innkeeper, que se encuentra en el pub, para conseguir una bedsheet."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Rune-Draw",
+        "signed oak shieldbow"
+      ]
+    },
+    {
+      "index": 41,
+      "indent": 1,
+      "section": "Translation",
+      "text": {
+        "en": "Talk to Robin every time you finish a game.",
+        "es": "No se la des a Robin como él te pide."
+      },
+      "chatOptions": [
+        "2 Talk about something else.",
+        "1 Yes, I'll give you a game."
+      ],
+      "highlightTerms": [
+        "Robin"
+      ]
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "section": "Translation",
+      "text": {
         "en": "Talk to Ak-Haranu to get the translation manual.",
-        "es": "Habla con Ak-Haranu para conseguir el translation manual."
+        "es": "Usa tu bucket of slime en la bedsheet, o sumérgela en la Pool of Slime. No podrás volver a entrar en Port Phasmatys en barco fletado si llevas la bedsheet mojada en la mochila."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -716,12 +709,12 @@
       ]
     },
     {
-      "index": 41,
+      "index": 43,
       "indent": 0,
       "section": "Revolution",
       "text": {
         "en": "Ask the ghost innkeeper, who is located in the pub, for a job to get a bedsheet.",
-        "es": "Pídele trabajo al ghost innkeeper, que se encuentra en el pub, para conseguir una bedsheet."
+        "es": "Habla con Gravingas, al oeste de la posada, para conseguir un petition form."
       },
       "chatOptions": [
         "4 Do you have any jobs I can do?",
@@ -733,22 +726,22 @@
       ]
     },
     {
-      "index": 42,
+      "index": 44,
       "indent": 1,
       "section": "Revolution",
       "text": {
         "en": "Don't give it to Robin like he asks.",
-        "es": "No se la des a Robin como él te pide."
+        "es": "Ponte la bedsheet."
       },
       "chatOptions": []
     },
     {
-      "index": 43,
+      "index": 45,
       "indent": 0,
       "section": "Revolution",
       "text": {
         "en": "Use your bucket of slime on the bedsheet or dip it into the Pool of Slime. You cannot re-enter Port Phasmatys via charter ship if you have dipped bedsheet in the backpack.",
-        "es": "Usa tu bucket of slime en la bedsheet, o sumérgela en la Pool of Slime. No podrás volver a entrar en Port Phasmatys en barco fletado si llevas la bedsheet mojada en la mochila."
+        "es": "Pide firmas a los aldeanos fantasmas hasta conseguir 10."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -758,12 +751,12 @@
       ]
     },
     {
-      "index": 44,
+      "index": 46,
       "indent": 0,
       "section": "Revolution",
       "text": {
         "en": "Talk to Gravingas west of the inn to get a petition form.",
-        "es": "Habla con Gravingas, al oeste de la posada, para conseguir un petition form."
+        "es": "Puedes conseguir varias firmas del mismo fantasma si antes le preguntas a otro."
       },
       "chatOptions": [
         "1 After hearing Velorina's story I will be happy to help out."
@@ -774,22 +767,22 @@
       ]
     },
     {
-      "index": 45,
+      "index": 47,
       "indent": 0,
       "section": "Revolution",
       "text": {
         "en": "Wear your bedsheet.",
-        "es": "Ponte la bedsheet."
+        "es": "Algunos se negarán. Simplemente pregunta a otros."
       },
       "chatOptions": []
     },
     {
-      "index": 46,
+      "index": 48,
       "indent": 0,
       "section": "Revolution",
       "text": {
         "en": "Ask the ghost villager for signatures until you have 10.",
-        "es": "Pide firmas a los aldeanos fantasmas hasta conseguir 10."
+        "es": "Si un fantasma te pide ecto-tokens, simplemente sal de la conversación y vuelve a preguntarle al mismo fantasma."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -797,32 +790,32 @@
       ]
     },
     {
-      "index": 47,
-      "indent": 1,
-      "section": "Revolution",
-      "text": {
-        "en": "You can get multiple signatures from the same ghost if you ask another ghost first.",
-        "es": "Puedes conseguir varias firmas del mismo fantasma si antes le preguntas a otro."
-      },
-      "chatOptions": []
-    },
-    {
-      "index": 48,
-      "indent": 1,
-      "section": "Revolution",
-      "text": {
-        "en": "Some will resist. Just ask others.",
-        "es": "Algunos se negarán. Simplemente pregunta a otros."
-      },
-      "chatOptions": []
-    },
-    {
       "index": 49,
       "indent": 1,
       "section": "Revolution",
       "text": {
+        "en": "You can get multiple signatures from the same ghost if you ask another ghost first.",
+        "es": "Después de haber recogido 10 firmas, quítate la bedsheet."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 50,
+      "indent": 1,
+      "section": "Revolution",
+      "text": {
+        "en": "Some will resist. Just ask others.",
+        "es": "Habla con Necrovarus en el Ectofuntus. Recoge la bone key que suelta al suelo."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 51,
+      "indent": 1,
+      "section": "Revolution",
+      "text": {
         "en": "If a ghost ask for ecto-tokens, simply leave the conversation and ask the same ghost again.",
-        "es": "Si un fantasma te pide ecto-tokens, simplemente sal de la conversación y vuelve a preguntarle al mismo fantasma."
+        "es": "Sube las escaleras y usa la llave en la puerta del lado suroeste. Luego abre la puerta."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -830,22 +823,22 @@
       ]
     },
     {
-      "index": 50,
+      "index": 52,
       "indent": 0,
       "section": "Revolution",
       "text": {
         "en": "After you collected 10 signatures, remove your bedsheet.",
-        "es": "Después de haber recogido 10 firmas, quítate la bedsheet."
+        "es": "Abre y registra el ataúd (coffin) para conseguir las mystical robes de Necrovarus."
       },
       "chatOptions": []
     },
     {
-      "index": 51,
+      "index": 53,
       "indent": 0,
       "section": "Revolution",
       "text": {
         "en": "Talk to Necrovarus at the Ectofuntus. Take the bone key he drops on the floor.",
-        "es": "Habla con Necrovarus en el Ectofuntus. Recoge la bone key que suelta al suelo."
+        "es": "Dirígete al noroeste de la lodestone de Canifis y habla con Netty en su cabaña (al este de la Slayer Tower)."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -855,22 +848,22 @@
       ]
     },
     {
-      "index": 52,
+      "index": 54,
       "indent": 0,
       "section": "Revolution",
       "text": {
         "en": "Head upstairs, and use the key on the door on the south-west side. Then open the door.",
-        "es": "Sube las escaleras y usa la llave en la puerta del lado suroeste. Luego abre la puerta."
+        "es": "Equípate el enchanted ghostspeak amulet."
       },
       "chatOptions": []
     },
     {
-      "index": 53,
+      "index": 55,
       "indent": 0,
       "section": "Revolution",
       "text": {
         "en": "Open and search the coffin for Necrovarus' mystical robes.",
-        "es": "Abre y registra el ataúd (coffin) para conseguir las mystical robes de Necrovarus."
+        "es": "Habla con Necrovarus cerca del Ectofuntus. Una vez que hayas hablado con Necrovarus, podrás entrar en Port Phasmatys libremente. Podrás cruzar la barrera de energía sin necesidad de pagar ecto-tokens."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -879,12 +872,12 @@
       ]
     },
     {
-      "index": 54,
+      "index": 56,
       "indent": 0,
       "section": "Persuasion techniques",
       "text": {
         "en": "Head north-west of the Canifis lodestone and talk to Netty in her shack (east of the Slayer Tower).",
-        "es": "Dirígete al noroeste de la lodestone de Canifis y habla con Netty en su cabaña (al este de la Slayer Tower)."
+        "es": "Habla con Velorina en el norte de Port Phasmatys."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -893,12 +886,12 @@
       ]
     },
     {
-      "index": 55,
+      "index": 57,
       "indent": 0,
       "section": "Persuasion techniques",
       "text": {
         "en": "Equip the enchanted ghostspeak amulet.",
-        "es": "Equípate el enchanted ghostspeak amulet."
+        "es": "¡Misión completada!"
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -906,24 +899,22 @@
       ]
     },
     {
-      "index": 56,
+      "index": 58,
       "indent": 0,
       "section": "Persuasion techniques",
       "text": {
-        "en": "Talk to Necrovarus near the Ectofuntus. Once you have talked to Necrovarus, you will be able to enter Port Phasmatys freely. You can pass the energy barrier without needing to pay ecto-tokens.",
-        "es": "Habla con Necrovarus cerca del Ectofuntus. Una vez que hayas hablado con Necrovarus, podrás entrar en Port Phasmatys libremente. Podrás cruzar la barrera de energía sin necesidad de pagar ecto-tokens."
+        "en": "Talk to Necrovarus near the Ectofuntus. Once you have talked to Necrovarus, you will be able to enter Port Phasmatys freely. You can pass the energy barrier without needing to pay ecto-tokens."
       },
       "chatOptions": [
         "1 Let any ghost who so wishes pass on into the next world."
       ]
     },
     {
-      "index": 57,
+      "index": 59,
       "indent": 0,
       "section": "Persuasion techniques",
       "text": {
-        "en": "Talk to Velorina in northern Port Phasmatys.",
-        "es": "Habla con Velorina en el norte de Port Phasmatys."
+        "en": "Talk to Velorina in northern Port Phasmatys."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -931,12 +922,11 @@
       ]
     },
     {
-      "index": 58,
+      "index": 60,
       "indent": 0,
       "section": "Persuasion techniques",
       "text": {
-        "en": "Quest complete!",
-        "es": "¡Misión completada!"
+        "en": "Quest complete!"
       },
       "chatOptions": []
     }

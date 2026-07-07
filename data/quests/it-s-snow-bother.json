@@ -3,7 +3,7 @@
   "title": "It's Snow Bother",
   "isMiniquest": false,
   "isSeasonal": true,
-  "guideLastUpdated": "2026-07-07T00:17:19.066Z",
+  "guideLastUpdated": "2026-07-07T00:54:24.533Z",
   "icon": "https://runescape.wiki/images/thumb/It%27s_Snow_Bother_icon.png/50px-It%27s_Snow_Bother_icon.png",
   "entityIcon": "https://runescape.wiki/images/It%27s_Snow_Bother_entity_icon.png?704a6",
   "series": "Christmas Village",
@@ -579,88 +579,229 @@
     },
     {
       "index": 36,
-      "isTable": true,
+      "indent": 0,
       "section": "Delivering the presents",
-      "table": {
-        "headers": [
-          "Character",
-          "Location"
-        ],
-        "rows": [
-          [
-            "Bob",
-            "In Bob's Brilliant Axes just outside Lumbridge Castle."
-          ],
-          [
-            "Hans",
-            "Walking around Lumbridge Castle courtyard."
-          ],
-          [
-            "Brugsen Bursen",
-            "Inside the Grand Exchange in Varrock."
-          ],
-          [
-            "Reldo",
-            "In the library in Varrock Palace."
-          ],
-          [
-            "Ernie",
-            "Upstairs in Varrock, south-west of the Ye Olde Tea Shoppe."
-          ],
-          [
-            "Max",
-            "Running around Varrock.<ref group=\"n\" name=\"members\"/>"
-          ],
-          [
-            "Bill",
-            "In Fort Forinthry's Workshop.<ref group=\"n\">Requires partial completion of the quest New Foundations.</ref>"
-          ],
-          [
-            "Sir Amik Varze",
-            "On the 3rd floor of White Knights' Castle."
-          ],
-          [
-            "Vorago",
-            "In the borehole north of the Falador lodestone.<ref group=\"n\" name=\"members\"/>"
-          ],
-          [
-            "Doric",
-            "In Doric's hut north-west of Falador."
-          ],
-          [
-            "TzKal-Zuk",
-            "In the Senntisten sewers.<ref group=\"n\" name=\"members\">Members only.</ref>"
-          ],
-          [
-            "Violet",
-            "In Violet's house through the portal on White Wolf Mountain.<ref group=\"n\">Requires completion of the quest Violet is Blue Too.</ref>"
-          ],
-          [
-            "Skippy",
-            "Around the coast south of Rimmington.<ref group=\"n\" name=\"members\"/>"
-          ],
-          [
-            "Thok of Daemonheim",
-            "Outside Daemonheim."
-          ],
-          [
-            "Wendy",
-            "South-west of Draynor Manor, north-west of Draynor Village."
-          ],
-          [
-            "Wise Old Man",
-            "In his house in Draynor Village, north of the bank."
-          ]
-        ]
-      }
+      "text": {
+        "en": "Bob | In Bob's Brilliant Axes just outside Lumbridge Castle.",
+        "es": "Habla con Santa Claus en la parte sur de Christmas Village para completar la misión."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Bob",
+        "Bob's Brilliant Axes",
+        "Lumbridge Castle"
+      ]
     },
     {
       "index": 37,
       "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "Hans | Walking around Lumbridge Castle courtyard."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Hans"
+      ]
+    },
+    {
+      "index": 38,
+      "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "Brugsen Bursen | Inside the Grand Exchange in Varrock."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Brugsen Bursen",
+        "Grand Exchange",
+        "Varrock"
+      ]
+    },
+    {
+      "index": 39,
+      "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "Reldo | In the library in Varrock Palace."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Reldo",
+        "Varrock Palace"
+      ]
+    },
+    {
+      "index": 40,
+      "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "Ernie | Upstairs in Varrock, south-west of the Ye Olde Tea Shoppe."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Ernie",
+        "Varrock",
+        "Ye Olde Tea Shoppe"
+      ]
+    },
+    {
+      "index": 41,
+      "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "Max | Running around Varrock.<ref group=\"n\" name=\"members\"/>"
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Max"
+      ]
+    },
+    {
+      "index": 42,
+      "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "Bill | In Fort Forinthry's Workshop.<ref group=\"n\">Requires partial completion of the quest New Foundations.</ref>"
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Workshop",
+        "Bill",
+        "Fort Forinthry",
+        "New Foundations"
+      ]
+    },
+    {
+      "index": 43,
+      "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "Sir Amik Varze | On the 3rd floor of White Knights' Castle."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Sir Amik Varze",
+        "White Knights' Castle"
+      ]
+    },
+    {
+      "index": 44,
+      "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "Vorago | In the borehole north of the Falador lodestone.<ref group=\"n\" name=\"members\"/>"
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Vorago",
+        "borehole",
+        "Falador lodestone"
+      ]
+    },
+    {
+      "index": 45,
+      "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "Doric | In Doric's hut north-west of Falador."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Doric",
+        "Doric's hut",
+        "Falador"
+      ]
+    },
+    {
+      "index": 46,
+      "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "TzKal-Zuk | In the Senntisten sewers.<ref group=\"n\" name=\"members\">Members only.</ref>"
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "TzKal-Zuk",
+        "Senntisten sewers",
+        "Members"
+      ]
+    },
+    {
+      "index": 47,
+      "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "Violet | In Violet's house through the portal on White Wolf Mountain.<ref group=\"n\">Requires completion of the quest Violet is Blue Too.</ref>"
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Violet",
+        "Violet's house",
+        "White Wolf Mountain",
+        "Violet is Blue Too"
+      ]
+    },
+    {
+      "index": 48,
+      "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "Skippy | Around the coast south of Rimmington.<ref group=\"n\" name=\"members\"/>"
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Skippy",
+        "Rimmington"
+      ]
+    },
+    {
+      "index": 49,
+      "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "Thok of Daemonheim | Outside Daemonheim."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Thok of Daemonheim",
+        "Daemonheim"
+      ]
+    },
+    {
+      "index": 50,
+      "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "Wendy | South-west of Draynor Manor, north-west of Draynor Village."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "Wendy",
+        "Draynor Manor",
+        "Draynor Village"
+      ]
+    },
+    {
+      "index": 51,
+      "indent": 0,
+      "section": "Delivering the presents",
+      "text": {
+        "en": "Wise Old Man | In his house in Draynor Village, north of the bank."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "bank",
+        "Wise Old Man",
+        "Draynor Village"
+      ]
+    },
+    {
+      "index": 52,
+      "indent": 0,
       "section": "Finishing up",
       "text": {
-        "en": "Talk to Santa Claus in the southern part of Christmas Village to complete the quest.",
-        "es": "Habla con Santa Claus en la parte sur de Christmas Village para completar la misión."
+        "en": "Talk to Santa Claus in the southern part of Christmas Village to complete the quest."
       },
       "chatOptions": [],
       "highlightTerms": [

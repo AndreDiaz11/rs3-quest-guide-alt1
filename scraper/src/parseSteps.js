@@ -1,5 +1,12 @@
 import { extractAllTemplatesWithPositions, wikitextToPlain, splitIntoSections } from "./wikitext.js";
-import { extractWikiTables, parseWikiTableToStructured, extractSolutionImages, parseFileParams } from "./parseTables.js";
+import {
+  extractWikiTables,
+  parseWikiTableToStructured,
+  extractSolutionImages,
+  parseFileParams,
+  isLighttableBlock,
+  parseLighttableRows,
+} from "./parseTables.js";
 
 function parseChecklistBlock(checklistContent, rawSteps, section) {
   const lines = checklistContent.split("\n");
@@ -92,8 +99,17 @@ export function parseSteps(quickGuideWikitext) {
       if (block.kind === "checklist") {
         parseChecklistBlock(block.content, rawSteps, heading);
       } else if (block.kind === "table") {
-        const table = parseWikiTableToStructured(block.raw);
-        if (table) rawSteps.push({ isTable: true, table, section: heading });
+        if (isLighttableBlock(block.raw)) {
+          // Each row is a real actionable step (with its own chat options),
+          // not reference data — feed it through the exact same raw-wikitext
+          // pipeline as a normal Checklist bullet instead of a data table.
+          for (const rowRaw of parseLighttableRows(block.raw)) {
+            rawSteps.push({ indent: 0, raw: rowRaw, section: heading });
+          }
+        } else {
+          const table = parseWikiTableToStructured(block.raw);
+          if (table) rawSteps.push({ isTable: true, table, section: heading });
+        }
       } else {
         rawSteps.push({ isImage: true, filename: block.filename, caption: block.caption, section: heading });
       }
