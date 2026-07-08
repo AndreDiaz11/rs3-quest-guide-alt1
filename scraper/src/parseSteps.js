@@ -23,6 +23,15 @@ import { fetchTemplateWikitext } from "./wikiApi.js";
 // placeholder here and resolved by fetching the template's own wikitext in
 // resolveTemplateTablePlaceholders() below (network access, so it has to
 // happen after this synchronous parse, not during it).
+//
+// Generic wiki UI/boilerplate templates (page-level notices, formatting
+// helpers) are also bare `{{Name}}` transclusions and must NOT be treated as
+// puzzle solutions — e.g. {{Epilepsy Warning}} (sits before the first
+// heading on many quest pages) is itself internally BUILT from a `{|
+// class="messagebox warn" |}` wikitable for its colored-box styling, which
+// would otherwise get misparsed as a real solution grid, garbling its raw
+// `{{{1}}}`-style template parameter placeholders into the app.
+const KNOWN_NON_SOLUTION_TEMPLATES = new Set(["Epilepsy Warning", "QG", "Quick Guide", "Clear"]);
 const BARE_TEMPLATE_RE = /^\{\{([^{}|]+)\}\}$/;
 
 function parseChecklistBlock(checklistContent, rawSteps, section) {
@@ -119,6 +128,20 @@ function isStructural(step) {
  * fetch — a private/renamed template) is dropped silently rather than
  * leaving a broken step, same as an unrecognized inline template elsewhere.
  */
+/**
+ * True for a parsed table that's actually a live JS calculator form (e.g.
+ * The Prisoner of Glouphrie's `<pre class="jcConfig">...` calculator) rather
+ * than static solution content — the wiki's own placeholder text ("please
+ * wait for the form to load"/"please submit the form") is all raw wikitext
+ * ever contains, since the real numbers only exist client-side once the
+ * page's own JS runs. Nothing useful to show, whether this table came from
+ * an inline `{| |}` block or a resolved template transclusion.
+ */
+function isUnresolvableCalculatorTable(table) {
+  const flatText = [table.headers, ...table.rows].flat().join(" ");
+  return /please (wait|submit) (for|the) (the )?form/i.test(flatText);
+}
+
 async function resolveTemplateTablePlaceholders(steps) {
   const resolved = [];
   for (const step of steps) {
@@ -126,6 +149,7 @@ async function resolveTemplateTablePlaceholders(steps) {
       resolved.push(step);
       continue;
     }
+    if (KNOWN_NON_SOLUTION_TEMPLATES.has(step.templateName)) continue;
     let wikitext;
     try {
       wikitext = await fetchTemplateWikitext(step.templateName);
@@ -133,8 +157,24 @@ async function resolveTemplateTablePlaceholders(steps) {
       wikitext = null;
     }
     if (!wikitext || !wikitext.trim().startsWith("{|")) continue;
-    const table = parseWikiTableToStructured(wikitext);
-    if (table) resolved.push({ isTable: true, table, section: step.section });
+    // A generic reusable template (a notice/message box built from a table
+    // purely for its CSS styling, e.g. {{Epilepsy Warning}}) still has its
+    // own unresolved `{{{1}}}`-style parameter placeholders in its raw
+    // definition — a real per-quest solution table (static final content,
+    // not a reusable template) never does. Skip rather than show garbled
+    // placeholder syntax.
+    if (/\{\{\{\d/.test(wikitext)) continue;
+    // The template page's OWN source often has more after the table itself —
+    // a `<noinclude>...</noinclude>` documentation block is common — which
+    // parseWikiTableToStructured's own last-line "|}" check doesn't expect
+    // (unlike extractWikiTables' already-bounded blocks elsewhere), so it
+    // would otherwise leak that trailing content into the table's last cell.
+    // Bound it to just the real `{| ... |}` span first.
+    const tableMatch = wikitext.match(/\{\|[\s\S]*?\n\|\}/);
+    if (!tableMatch) continue;
+    const table = parseWikiTableToStructured(tableMatch[0]);
+    if (!table || isUnresolvableCalculatorTable(table)) continue;
+    resolved.push({ isTable: true, table, section: step.section });
   }
   return resolved;
 }
@@ -267,7 +307,7 @@ export async function parseSteps(quickGuideWikitext) {
           if (items.length > 0) rawSteps.push({ isSelectableList: true, items, section: heading });
         } else {
           const table = parseWikiTableToStructured(block.raw);
-          if (table) rawSteps.push({ isTable: true, table, section: heading });
+          if (table && !isUnresolvableCalculatorTable(table)) rawSteps.push({ isTable: true, table, section: heading });
         }
       } else if (block.kind === "templatePlaceholder") {
         rawSteps.push({ isTemplateTablePlaceholder: true, templateName: block.templateName, section: heading });
