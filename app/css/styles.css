@@ -657,6 +657,47 @@ h1, h2, .app-title-font {
   margin: 16px 0 4px;
 }
 
+/* One sub-quest's full guide, nested inside a hub quest's own "Sub-misiones"
+   section — a boxed collapsible so it reads as clearly separate from the
+   hub's own Overview/Steps/Rewards above it. */
+.subquest-block {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 12px;
+  margin-bottom: 8px;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.subquest-summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 8px 0;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.subquest-summary::-webkit-details-marker {
+  display: none;
+}
+
+.subquest-summary::before {
+  content: "▶ ";
+  font-size: 0.7em;
+  color: var(--text-dim);
+}
+
+.subquest-block[open] > .subquest-summary::before {
+  content: "▼ ";
+}
+
+.subquest-summary.status-completed { color: var(--quest-green); }
+.subquest-summary.status-started { color: var(--quest-yellow); }
+.subquest-summary.status-not-started { color: var(--quest-red); }
+
+.subquest-block .quest-header {
+  margin-top: 4px;
+}
+
 .seasonal-banner {
   background: rgba(201, 162, 39, 0.15);
   border: 1px solid var(--gold);

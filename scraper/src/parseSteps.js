@@ -317,11 +317,16 @@ export async function parseSteps(quickGuideWikitext) {
     }
   }
 
-  if (rawSteps.length === 0) {
+  const resolvedSteps = await resolveTemplateTablePlaceholders(rawSteps);
+
+  // Checked AFTER resolving template placeholders, not before: a hub quest's
+  // Quick guide (e.g. Recipe for Disaster's) has no Checklist but can still
+  // contain a bare boilerplate template like {{QG}} — which used to make
+  // rawSteps non-empty and silently skip the "hub quest, no walkthrough"
+  // detection below, even though it resolves to nothing real.
+  if (resolvedSteps.length === 0) {
     throw new Error("No {{Checklist|...}} block found in Quick guide wikitext");
   }
-
-  const resolvedSteps = await resolveTemplateTablePlaceholders(rawSteps);
 
   // A step can come out empty if its wikitext was just an unrecognized inline
   // template we strip (e.g. a fairy ring code icon) — an empty instruction is

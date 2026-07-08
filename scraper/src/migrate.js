@@ -2,10 +2,11 @@ import { readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { fetchQuestPage } from "./fetchQuestPage.js";
-import { parseMetadata } from "./parseMetadata.js";
+import { parseMetadata, extractSubquestTitles } from "./parseMetadata.js";
 import { parseSteps } from "./parseSteps.js";
 import { parseRewards } from "./parseRewards.js";
 import { buildQuestRecord } from "./buildDataset.js";
+import { HUB_QUEST_NOTE } from "./run.js";
 
 const QUESTS_DIR = fileURLToPath(new URL("../../data/quests/", import.meta.url));
 
@@ -37,6 +38,7 @@ async function migrateOne(slug) {
   const metadata = parseMetadata(page);
   const rewardsData = page.quickGuideHtml ? parseRewards(page.quickGuideHtml) : { rewards: [], postQuest: [] };
   let steps;
+  let guideNote = old.guideNote;
   if (page.quickGuideWikitext === null) {
     // Removed-from-the-game quest (e.g. Unstable Foundations) — its Quick
     // guide page doesn't exist at all, so there's no walkthrough to parse.
@@ -51,7 +53,10 @@ async function migrateOne(slug) {
       }
       // Hub quest (e.g. Recipe for Disaster) — no walkthrough of its own, but its
       // metadata (requirements, rewards, etc.) still needs to stay up to date.
+      // Regenerated fresh from the current HUB_QUEST_NOTE (not just copied
+      // from disk) so wording fixes here reach already-migrated quests too.
       steps = [];
+      guideNote = HUB_QUEST_NOTE;
     }
   }
 
@@ -64,7 +69,8 @@ async function migrateOne(slug) {
     isMiniquest: old.isMiniquest,
     isSeasonal: old.isSeasonal,
     skipTranslate: true,
-    guideNote: old.guideNote,
+    guideNote,
+    subquests: extractSubquestTitles(page),
   });
 
   // Overlay the existing Spanish translations, matched by index among plain

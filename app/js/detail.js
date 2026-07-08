@@ -601,19 +601,26 @@ function renderSelectableList(quest, step, lang) {
  * under their wiki section headings (English titles, no new translation
  * cost) -> rewards at the bottom with the wiki's banner image.
  */
-export function renderQuestDetail(container, quest, { lang = "en", isCompleted = false } = {}) {
-  container.innerHTML = "";
+/**
+ * Builds the full body for one quest (header, banners, infobox, Overview,
+ * Steps, Rewards) as a plain array of DOM nodes — used both for the
+ * top-level quest being viewed and, nested inside a collapsible block, for
+ * each sub-quest of a hub quest (see renderQuestDetail's "Sub-misiones"
+ * section). `sticky` controls whether the header pins to the top of its
+ * scroll container — only meaningful for the true top-level quest, since a
+ * nested sub-quest block scrolls inside the page normally.
+ */
+function buildQuestBody(quest, lang, isCompleted, { sticky = true } = {}) {
+  const nodes = [];
   const manualChecks = loadManualChecks(quest.id);
 
-  // Sticky (position: sticky in CSS) so the quest's icon+name stays visible
-  // at the top of the panel while scrolling through Overview/Steps/Rewards.
-  const header = el("div", { class: "quest-header quest-header-sticky" });
+  const header = el("div", { class: sticky ? "quest-header quest-header-sticky" : "quest-header" });
   if (quest.icon) header.appendChild(el("img", { src: quest.icon, alt: "" }));
   header.appendChild(el("h1", { text: quest.title }));
-  container.appendChild(header);
+  nodes.push(header);
 
   if (quest.isSeasonal) {
-    container.appendChild(
+    nodes.push(
       el("div", {
         class: "seasonal-banner",
         text: t("seasonalBanner"),
@@ -622,7 +629,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   }
 
   if (quest.removedDate) {
-    container.appendChild(
+    nodes.push(
       el("div", {
         class: "removed-content-banner",
         text: t("removedContentBanner", quest.removedDate),
@@ -630,7 +637,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
     );
   }
 
-  container.appendChild(
+  nodes.push(
     el("div", {
       class: "quest-meta-updated",
       text: t("guideUpdated", new Date(quest.guideLastUpdated).toLocaleDateString(lang === "en" ? "en-GB" : "es-ES")),
@@ -639,7 +646,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
 
   // The wiki's own infobox card — always visible (not collapsible), English
   // exactly as the wiki shows it, no new translation cost.
-  container.appendChild(renderWikiInfobox(quest));
+  nodes.push(renderWikiInfobox(quest));
 
   // --- "Overview" (Resumen): everything before the walkthrough — start
   // point, length, requirements, follows events, items, recommended, combat.
@@ -689,7 +696,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   }
 
   if (overviewNodes.length > 0) {
-    container.appendChild(renderSection(questIcon("var(--gold)"), t("sectionOverview"), overviewNodes));
+    nodes.push(renderSection(questIcon("var(--gold)"), t("sectionOverview"), overviewNodes));
   }
 
   // --- "Guía paso a paso" (Step-by-step guide): the walkthrough itself.
@@ -845,7 +852,7 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   }
 
   if (stepsNodes.length > 0) {
-    container.appendChild(renderSection(scrollIcon("var(--gold)"), t("sectionSteps"), stepsNodes));
+    nodes.push(renderSection(scrollIcon("var(--gold)"), t("sectionSteps"), stepsNodes));
   }
 
   // --- "Recompensas" (Rewards): reward banner, grouped reward list, and any
@@ -882,6 +889,51 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
   }
 
   if (rewardsNodes.length > 0) {
-    container.appendChild(renderSection(giftIcon("var(--gold)"), t("sectionRewards"), rewardsNodes));
+    nodes.push(renderSection(giftIcon("var(--gold)"), t("sectionRewards"), rewardsNodes));
+  }
+
+  return nodes;
+}
+
+/**
+ * One sub-quest of a hub quest (Recipe for Disaster, Dimension of Disaster,
+ * Once Upon a Time in Gielinor, That Old Black Magic), rendered as its own
+ * collapsible block with the SAME full content a normal quest gets (meta,
+ * requirements, items, steps, rewards) — nested directly inside the hub's
+ * page rather than requiring navigation away from it. `subquestEntry` is
+ * `{ id, quest }` (the sub-quest's own full per-quest data, already fetched
+ * by main.js before calling renderQuestDetail).
+ */
+function renderSubquestBlock(subquestEntry, lang) {
+  const { quest, status, isCompleted } = subquestEntry;
+  const details = el("details", { class: "subquest-block" });
+  const statusClass = `status-${(status || "NOT_STARTED").toLowerCase().replace("_", "-")}`;
+  const summary = el("summary", { class: `subquest-summary ${statusClass}` });
+  summary.appendChild(document.createTextNode(quest.title));
+  details.appendChild(summary);
+  buildQuestBody(quest, lang, isCompleted, { sticky: false }).forEach((node) => details.appendChild(node));
+  return details;
+}
+
+/**
+ * Renders the right-panel quest detail into `container`. `isCompleted`
+ * (from RuneMetrics, wired in M2) forces every step checked and read-only;
+ * otherwise steps use manual localStorage-backed checkboxes. Layout follows
+ * the wiki's own Quick guide structure: header -> meta -> requirements (with
+ * ✓/✗ against the real account) -> items (chips + list) -> steps grouped
+ * under their wiki section headings (English titles, no new translation
+ * cost) -> rewards at the bottom with the wiki's banner image. A hub quest
+ * (e.g. Recipe for Disaster) additionally gets a "Sub-misiones" section with
+ * each real sub-quest's full guide nested inside its own collapsible block —
+ * see `subquests` (an array of `{ id, quest, isCompleted }`, resolved and
+ * fetched by main.js from `quest.subquests`' wiki titles).
+ */
+export function renderQuestDetail(container, quest, { lang = "en", isCompleted = false, subquests = [] } = {}) {
+  container.innerHTML = "";
+  buildQuestBody(quest, lang, isCompleted, { sticky: true }).forEach((node) => container.appendChild(node));
+
+  if (subquests.length > 0) {
+    const subquestNodes = subquests.map((entry) => renderSubquestBlock(entry, lang));
+    container.appendChild(renderSection(questIcon("var(--gold)"), t("sectionSubquests"), subquestNodes));
   }
 }

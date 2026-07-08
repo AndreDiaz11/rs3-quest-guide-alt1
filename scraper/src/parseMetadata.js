@@ -199,6 +199,33 @@ function parseQuestDetailsTable(quickGuideHtml) {
   return { startPoint, length, icon, requiredQuests, followsEvents, requiredSkills, items, recommended, kills };
 }
 
+// Hub quests (Recipe for Disaster, Dimension of Disaster, Once Upon a Time
+// in Gielinor, That Old Black Magic) each link to their own sub-quests a
+// DIFFERENT way — a plain [[Title/Quick guide|Display]] link, a
+// {{QuestIcon|Title/Quick guide|...}} template, a {{Main|Title/Quick guide}}
+// template, or a {{:Title/Quick guide}} transclusion — so rather than special-
+// case each one, this matches whatever wiki syntax happens to precede a
+// "Title/Quick guide" reference in any of those four shapes. Scanned across
+// BOTH the main article and the Quick guide wikitext since one hub (Once
+// Upon a Time in Gielinor) has no Quick guide of its own — that page is a
+// redirect, so its sub-quest links only exist on the main article.
+const SUBQUEST_LINK_RE = /(?:\[\[|\{\{(?:QuestIcon\||Main\||:))([^[\]{}|]+?)\/Quick guide/g;
+
+export function extractSubquestTitles({ mainWikitext, quickGuideWikitext }) {
+  const combined = `${mainWikitext || ""}\n${quickGuideWikitext || ""}`;
+  const seen = new Set();
+  const titles = [];
+  let match;
+  while ((match = SUBQUEST_LINK_RE.exec(combined)) !== null) {
+    const title = match[1].trim();
+    if (!seen.has(title)) {
+      seen.add(title);
+      titles.push(title);
+    }
+  }
+  return titles;
+}
+
 export function parseMetadata({ mainWikitext, quickGuideHtml }) {
   const infobox = parseInfobox(mainWikitext);
   const details = parseQuestDetailsTable(quickGuideHtml || "");

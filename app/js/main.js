@@ -8,6 +8,7 @@ import { openSettingsModal, loadSettings, hasSeenWelcome, openWelcomeModal } fro
 import { loadSkillIcons } from "./skillIcons.js";
 import { state, questStatus } from "./state.js";
 import { t } from "./i18n.js";
+import { normalizeTitle } from "./titleNormalize.js";
 
 const filterBarEl = document.getElementById("sidebar-filterbar-slot");
 const listSummaryEl = document.getElementById("quest-list-summary");
@@ -80,9 +81,11 @@ async function manualRefresh() {
       // changed) without closing the sidebar drawer or touching scroll position.
       try {
         const quest = await fetchQuest(state.selectedQuestId);
+        const subquests = await fetchSubquests(quest);
         renderQuestDetail(detail, quest, {
           lang: state.settings.lang,
           isCompleted: questStatus(state.selectedQuestId) === "COMPLETED",
+          subquests,
         });
       } catch (err) {
         console.error("[refresh] fallo al volver a renderizar la misión abierta:", err);
@@ -108,6 +111,26 @@ function refreshSidebar() {
   renderSidebar({ filterBarEl, listSummaryEl, listEl, counterEl }, selectQuest);
 }
 
+// A hub quest's own `subquests` field (see scraper/src/parseMetadata.js) is
+// just an array of exact wiki titles — resolved here against our own dataset
+// (same normalizeTitle matching used for real requirement checks) and each
+// sub-quest's full data fetched so it can be rendered nested, in full,
+// inside the hub's own page (see detail.js's renderSubquestBlock).
+async function fetchSubquests(quest) {
+  if (!quest.subquests?.length) return [];
+  const matches = quest.subquests
+    .map((title) => state.index.quests.find((q) => normalizeTitle(q.title) === normalizeTitle(title)))
+    .filter(Boolean);
+  return Promise.all(
+    matches.map(async (match) => ({
+      id: match.id,
+      quest: await fetchQuest(match.id),
+      status: questStatus(match.id),
+      isCompleted: questStatus(match.id) === "COMPLETED",
+    }))
+  );
+}
+
 async function selectQuest(id) {
   state.selectedQuestId = id;
   refreshSidebar();
@@ -115,9 +138,11 @@ async function selectQuest(id) {
   detail.innerHTML = `<p id="detail-placeholder">${t("loading")}</p>`;
   try {
     const quest = await fetchQuest(id);
+    const subquests = await fetchSubquests(quest);
     renderQuestDetail(detail, quest, {
       lang: state.settings.lang,
       isCompleted: questStatus(id) === "COMPLETED",
+      subquests,
     });
   } catch (err) {
     detail.innerHTML = `<p style="color:#c0392b">${err.message}</p>`;

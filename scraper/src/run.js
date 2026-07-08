@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import { fetchQuestList } from "./fetchQuestList.js";
 import { fetchSeasonalQuestTitles } from "./fetchSeasonalList.js";
 import { fetchQuestPage } from "./fetchQuestPage.js";
-import { parseMetadata } from "./parseMetadata.js";
+import { parseMetadata, extractSubquestTitles } from "./parseMetadata.js";
 import { parseSteps } from "./parseSteps.js";
 import { parseRewards } from "./parseRewards.js";
 import { buildQuestRecord } from "./buildDataset.js";
@@ -36,9 +36,9 @@ async function alreadyTranslated(title) {
   }
 }
 
-const HUB_QUEST_NOTE = {
-  en: "This quest is a hub for several sub-quests, each already listed separately in this app with its own step-by-step guide. There isn't a single walkthrough for the hub itself — check the wiki page for the full overview.",
-  es: "Esta misión es un resumen que agrupa varias sub-misiones, cada una ya listada por separado en esta app con su propia guía paso a paso. No existe una guía única para la misión en sí — consulta la página del wiki para ver el resumen completo.",
+export const HUB_QUEST_NOTE = {
+  en: "This quest is a hub for several sub-quests. There isn't a single walkthrough for the hub itself, but each sub-quest's full guide is below in its own section — tap one to expand it.",
+  es: "Esta misión es un resumen que agrupa varias sub-misiones. No existe una guía única para la misión en sí, pero la guía completa de cada sub-misión está más abajo en su propia sección — tocá una para desplegarla.",
 };
 
 // Deleted-content quests are excluded by default (see isNonPlayableContent
@@ -116,6 +116,7 @@ export async function scrapeOne(title, { skipTranslate }, seasonalTitles) {
     isSeasonal,
     skipTranslate,
     guideNote,
+    subquests: extractSubquestTitles(page),
   });
 
   console.log(`[done] ${title} -> data/quests/${record.id}.json (${steps.length} pasos)`);

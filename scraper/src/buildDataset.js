@@ -63,6 +63,7 @@ export async function buildQuestRecord({
   isSeasonal,
   skipTranslate,
   guideNote,
+  subquests,
 }) {
   const id = titleToSlug(title);
   const now = new Date().toISOString();
@@ -253,6 +254,7 @@ export async function buildQuestRecord({
     steps: stepsWithImages,
     ...(guideNote ? { guideNote } : {}),
     ...(metadata.removedDate ? { removedDate: metadata.removedDate } : {}),
+    ...(subquests?.length ? { subquests } : {}),
   };
 
   await mkdir(QUESTS_DIR, { recursive: true });
