@@ -3,7 +3,7 @@
   "title": "City of Senntisten",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.681Z",
+  "guideLastUpdated": "2026-07-08T21:45:04.353Z",
   "icon": "https://runescape.wiki/images/City_of_Senntisten_icon.png",
   "entityIcon": "https://runescape.wiki/images/City_of_Senntisten_entity_icon.png?9ad55",
   "series": "The Elder God Wars",
@@ -263,7 +263,33 @@
     {
       "type": "item",
       "name": "Ancient Magicks",
-      "display": "Four new Ancient Magicks spells Smoke Cloud Animate Dead Exsanguinate Incite Fear",
+      "display": "Four new Ancient Magicks spells",
+      "children": [
+        {
+          "type": "item",
+          "name": "Smoke Cloud",
+          "display": "Smoke Cloud",
+          "image": "https://runescape.wiki/images/thumb/Smoke_cloud.gif/100px-Smoke_cloud.gif?7fa39"
+        },
+        {
+          "type": "item",
+          "name": "Animate Dead",
+          "display": "Animate Dead",
+          "image": "https://runescape.wiki/images/thumb/Animate_Dead.gif/100px-Animate_Dead.gif?8dd40"
+        },
+        {
+          "type": "item",
+          "name": "Exsanguinate",
+          "display": "Exsanguinate",
+          "image": "https://runescape.wiki/images/thumb/Exsanguinate.gif/100px-Exsanguinate.gif?1e27e"
+        },
+        {
+          "type": "item",
+          "name": "Incite Fear",
+          "display": "Incite Fear",
+          "image": "https://runescape.wiki/images/thumb/Incite_Fear.gif/100px-Incite_Fear.gif?f5a86"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Ancient_teleport.gif/100px-Ancient_teleport.gif?0b4d4"
     },
     {

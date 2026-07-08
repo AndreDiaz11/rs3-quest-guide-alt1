@@ -3,7 +3,7 @@
   "title": "In Pyre Need",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:32.389Z",
+  "guideLastUpdated": "2026-07-08T21:45:15.680Z",
   "icon": "https://runescape.wiki/images/In_Pyre_Need_icon.png",
   "entityIcon": null,
   "series": null,
@@ -93,7 +93,29 @@
     {
       "type": "item",
       "name": "Phoenix Lair",
-      "display": "Access to the Phoenix Lair Killing the Phoenix to get 2 phoenix quills each time The chance to receive a phoenix eggling pet Raising the pet requires 72 Summoning. Players without the required level will receive a phoenix egg instead, which they can later hatch once the requirements are met.",
+      "display": "Access to the Phoenix Lair",
+      "children": [
+        {
+          "type": "item",
+          "name": "Phoenix",
+          "display": "Killing the Phoenix to get 2 phoenix quills each time",
+          "image": "https://runescape.wiki/images/thumb/Phoenix.png/100px-Phoenix.png?3a12a"
+        },
+        {
+          "type": "item",
+          "name": "Phoenix eggling",
+          "display": "The chance to receive a phoenix eggling pet",
+          "children": [
+            {
+              "type": "item",
+              "name": "Summoning",
+              "display": "Raising the pet requires 72 Summoning. Players without the required level will receive a phoenix egg instead, which they can later hatch once the requirements are met.",
+              "image": "https://runescape.wiki/images/thumb/Summoning_detail.png/100px-Summoning_detail.png?0f0af"
+            }
+          ],
+          "image": "https://runescape.wiki/images/thumb/Phoenix_eggling_%28cute%29_pet.png/100px-Phoenix_eggling_%28cute%29_pet.png?6ed73"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Phoenix_lair_entrance.png/100px-Phoenix_lair_entrance.png?3adbb"
     },
     {

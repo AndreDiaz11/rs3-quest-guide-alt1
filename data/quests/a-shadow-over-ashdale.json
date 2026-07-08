@@ -3,7 +3,7 @@
   "title": "A Shadow over Ashdale",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.012Z",
+  "guideLastUpdated": "2026-07-08T21:44:57.770Z",
   "icon": "https://runescape.wiki/images/A_Shadow_over_Ashdale_icon.png",
   "entityIcon": "https://runescape.wiki/images/A_Shadow_over_Ashdale_entity_icon.png?db8b6",
   "series": null,
@@ -78,10 +78,18 @@
       "image": "https://runescape.wiki/images/Constitution-icon.png?bbf9a"
     },
     {
-      "type": "xp",
-      "skill": "Black pearl (A Shadow over Ashdale)",
-      "amount": 3,
-      "display": "3 black pearls May break one per day to receive bonus experience in any skill equal to that of a large fallen star",
+      "type": "item",
+      "name": "Black pearl (A Shadow over Ashdale)",
+      "display": "3 black pearls",
+      "children": [
+        {
+          "type": "xp",
+          "skill": "Large fallen star",
+          "amount": null,
+          "display": "May break one per day to receive bonus experience in any skill equal to that of a large fallen star",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Black_pearl_%28A_Shadow_over_Ashdale%29_detail.png/100px-Black_pearl_%28A_Shadow_over_Ashdale%29_detail.png?eafcd"
     },
     {
@@ -104,7 +112,14 @@
     {
       "type": "item",
       "name": "Shadow Hanging Over Me",
-      "display": "Shadow Hanging Over Me ( 5) – Claim all treasure from the chests during 'A Shadow over Ashdale', or talk to Gudrik to claim them afterwards. 757 coins, four uncut sapphires and an uncut emerald, for searching the chests in the dungeon"
+      "display": "Shadow Hanging Over Me ( 5) – Claim all treasure from the chests during 'A Shadow over Ashdale', or talk to Gudrik to claim them afterwards.",
+      "children": [
+        {
+          "type": "item",
+          "name": "Coins",
+          "display": "757 coins, four uncut sapphires and an uncut emerald, for searching the chests in the dungeon"
+        }
+      ]
     }
   ],
   "steps": [

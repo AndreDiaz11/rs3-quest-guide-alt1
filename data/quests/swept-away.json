@@ -3,7 +3,7 @@
   "title": "Swept Away",
   "isMiniquest": false,
   "isSeasonal": true,
-  "guideLastUpdated": "2026-07-08T21:14:34.599Z",
+  "guideLastUpdated": "2026-07-08T21:45:28.516Z",
   "icon": "https://runescape.wiki/images/Swept_Away_icon.png",
   "entityIcon": "https://runescape.wiki/images/Swept_Away_entity_icon.png?812ff",
   "series": null,
@@ -71,7 +71,33 @@
       "type": "xp",
       "skill": "Magic",
       "amount": null,
-      "display": "With the indicated minimum Magic level (boostable), talking to Maysa the Hag, Netty, Baba Yaga, and Kardia will give a one-time Magic experience bonus when the broomstick is wielded. Maysa the Hag: 1,997 Magic experience (requiring level 33 Magic) Netty: 7,139 Magic experience (requiring level 53 Magic) Baba Yaga: 10,338 Magic experience (requiring level 73 Magic, partial completion of Lunar Diplomacy) Kardia: 14,979 Magic experience (requiring level 93 Magic, partial completion of Underground Pass)"
+      "display": "With the indicated minimum Magic level (boostable), talking to Maysa the Hag, Netty, Baba Yaga, and Kardia will give a one-time Magic experience bonus when the broomstick is wielded.",
+      "children": [
+        {
+          "type": "xp",
+          "skill": null,
+          "amount": null,
+          "display": "Maysa the Hag: 1,997 Magic experience (requiring level 33 Magic)"
+        },
+        {
+          "type": "xp",
+          "skill": null,
+          "amount": null,
+          "display": "Netty: 7,139 Magic experience (requiring level 53 Magic)"
+        },
+        {
+          "type": "xp",
+          "skill": "Lunar Diplomacy",
+          "amount": null,
+          "display": "Baba Yaga: 10,338 Magic experience (requiring level 73 Magic, partial completion of Lunar Diplomacy)"
+        },
+        {
+          "type": "xp",
+          "skill": "Underground Pass",
+          "amount": null,
+          "display": "Kardia: 14,979 Magic experience (requiring level 93 Magic, partial completion of Underground Pass)"
+        }
+      ]
     }
   ],
   "steps": [

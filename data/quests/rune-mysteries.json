@@ -3,7 +3,7 @@
   "title": "Rune Mysteries",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:34.123Z",
+  "guideLastUpdated": "2026-07-08T21:45:25.028Z",
   "icon": "https://runescape.wiki/images/Rune_Mysteries_icon.png",
   "entityIcon": "https://runescape.wiki/images/Rune_Mysteries_entity_icon.png?812ff",
   "series": "Ariane",
@@ -90,8 +90,34 @@
     },
     {
       "type": "item",
-      "name": "The Blue",
-      "display": "Four new titles (speak to the Rune Guardian to retrieve the title): [Name] the Blue [Name] the Red [Name] the Green [Name] the Grey",
+      "name": "Four new titles (speak to the Rune Guardian to retrieve the title):",
+      "display": "Four new titles (speak to the Rune Guardian to retrieve the title):",
+      "children": [
+        {
+          "type": "item",
+          "name": "The Blue",
+          "display": "[Name] the Blue",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "The Red",
+          "display": "[Name] the Red",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "The Green",
+          "display": "[Name] the Green",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "The Grey",
+          "display": "[Name] the Grey",
+          "image": null
+        }
+      ],
       "image": null
     },
     {

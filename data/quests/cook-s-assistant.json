@@ -3,7 +3,7 @@
   "title": "Cook's Assistant",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.788Z",
+  "guideLastUpdated": "2026-07-08T21:45:05.376Z",
   "icon": "https://runescape.wiki/images/Cook%27s_Assistant_icon.png",
   "entityIcon": "https://runescape.wiki/images/Cook%27s_Assistant_entity_icon.png?fbf70",
   "series": null,
@@ -65,7 +65,15 @@
     {
       "type": "item",
       "name": "Sardine",
-      "display": "20 sardines If you have completed the quest before the update that awards 20 sardines and 500 coins, you can claim them at any time by speaking to the cook",
+      "display": "20 sardines",
+      "children": [
+        {
+          "type": "item",
+          "name": "If you have completed the quest before the update that awards 20 sardines and 500 coins, you can claim them at any time by speaking to the cook",
+          "display": "If you have completed the quest before the update that awards 20 sardines and 500 coins, you can claim them at any time by speaking to the cook",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Sardine_detail.png/100px-Sardine_detail.png?f5cd0"
     },
     {

@@ -3,7 +3,7 @@
   "title": "Extinction",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:31.677Z",
+  "guideLastUpdated": "2026-07-08T21:45:12.190Z",
   "icon": "https://runescape.wiki/images/Extinction_icon.png",
   "entityIcon": "https://runescape.wiki/images/Extinction_entity_icon.png?fbf70",
   "series": "The Elder God Wars",
@@ -293,7 +293,21 @@
     {
       "type": "item",
       "name": "Dream of Iaia",
-      "display": "Access to the Dream of Iaia Access to high-tier resource-limited rates in six skills: Construction, Crafting, Fishing, Fletching, Herblore and Hunter. Anachronia base camp resources can be used for skilling. Sufficient training unlocks two new skyboxes: Amber Haze and Iaia (Surface)",
+      "display": "Access to the Dream of Iaia",
+      "children": [
+        {
+          "type": "item",
+          "name": "Construction",
+          "display": "Access to high-tier resource-limited rates in six skills: Construction, Crafting, Fishing, Fletching, Herblore and Hunter. Anachronia base camp resources can be used for skilling.",
+          "image": "https://runescape.wiki/images/thumb/Construction_detail.png/100px-Construction_detail.png?346f8"
+        },
+        {
+          "type": "item",
+          "name": "Skyboxes",
+          "display": "Sufficient training unlocks two new skyboxes: Amber Haze and Iaia (Surface)",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Dream_of_Iaia.png/100px-Dream_of_Iaia.png?cdb9c"
     },
     {

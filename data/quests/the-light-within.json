@@ -3,7 +3,7 @@
   "title": "The Light Within",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:35.325Z",
+  "guideLastUpdated": "2026-07-08T21:45:33.789Z",
   "icon": "https://runescape.wiki/images/The_Light_Within_icon.png",
   "entityIcon": "https://runescape.wiki/images/The_Light_Within_entity_icon.png?812ff",
   "series": "Sliske's Game",
@@ -273,7 +273,39 @@
     {
       "type": "item",
       "name": "Tarddiad",
-      "display": "Access to Tarddiad, containing: Crystal Shapeshifters, Slayer creatures. Solid crystals, Mining locations. Branching crystals, Woodcutting locations. Floating crystals, Fishing locations. Crystal armour, bought from Angof's Crystal Armour Shop.",
+      "display": "Access to Tarddiad, containing:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Crystal Shapeshifter",
+          "display": "Crystal Shapeshifters, Slayer creatures.",
+          "image": "https://runescape.wiki/images/thumb/Crystal_Shapeshifter.png/100px-Crystal_Shapeshifter.png?b4520"
+        },
+        {
+          "type": "item",
+          "name": "Solid crystal",
+          "display": "Solid crystals, Mining locations.",
+          "image": "https://runescape.wiki/images/thumb/Solid_crystal.png/100px-Solid_crystal.png?a50ef"
+        },
+        {
+          "type": "item",
+          "name": "Branching crystal",
+          "display": "Branching crystals, Woodcutting locations.",
+          "image": "https://runescape.wiki/images/thumb/Branching_crystal.png/100px-Branching_crystal.png?973af"
+        },
+        {
+          "type": "item",
+          "name": "Floating crystals",
+          "display": "Floating crystals, Fishing locations.",
+          "image": "https://runescape.wiki/images/thumb/Floating_crystals.png/100px-Floating_crystals.png?3c023"
+        },
+        {
+          "type": "item",
+          "name": "Crystal equipment",
+          "display": "Crystal armour, bought from Angof's Crystal Armour Shop.",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Tarddiad.png/100px-Tarddiad.png?56c78"
     },
     {

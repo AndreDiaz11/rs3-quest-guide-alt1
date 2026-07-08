@@ -3,7 +3,7 @@
   "title": "Recipe for Disaster",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:33.867Z",
+  "guideLastUpdated": "2026-07-08T21:45:23.565Z",
   "icon": "https://runescape.wiki/images/Recipe_for_Disaster_icon.png",
   "entityIcon": null,
   "series": null,
@@ -86,14 +86,114 @@
       "type": "xp",
       "skill": "Experience",
       "amount": null,
-      "display": "Experience 28,000 experience 1,000 experience 2,500 experience 1,000 experience 1,000 experience 1,000 experience 2,500 experience 1,500 experience 1,500 experience 4,000 experience 10,000 experience A 20,000 experience antique lamp for any skill above 50 (can be banked)",
+      "display": "Experience",
+      "children": [
+        {
+          "type": "xp",
+          "skill": "Cooking",
+          "amount": 28000,
+          "display": "28,000 experience",
+          "image": "https://runescape.wiki/images/Cooking-icon.png?00812"
+        },
+        {
+          "type": "xp",
+          "skill": "Slayer",
+          "amount": 1000,
+          "display": "1,000 experience",
+          "image": "https://runescape.wiki/images/Slayer-icon.png?ecab5"
+        },
+        {
+          "type": "xp",
+          "skill": "Crafting",
+          "amount": 2500,
+          "display": "2,500 experience",
+          "image": "https://runescape.wiki/images/Crafting-icon.png?f224a"
+        },
+        {
+          "type": "xp",
+          "skill": "Farming",
+          "amount": 1000,
+          "display": "1,000 experience",
+          "image": "https://runescape.wiki/images/Farming-icon.png?a1230"
+        },
+        {
+          "type": "xp",
+          "skill": "Fishing",
+          "amount": 1000,
+          "display": "1,000 experience",
+          "image": "https://runescape.wiki/images/Fishing-icon.png?bcc7c"
+        },
+        {
+          "type": "xp",
+          "skill": "Smithing",
+          "amount": 1000,
+          "display": "1,000 experience",
+          "image": "https://runescape.wiki/images/Smithing-icon.png?caf94"
+        },
+        {
+          "type": "xp",
+          "skill": "Magic",
+          "amount": 2500,
+          "display": "2,500 experience",
+          "image": "https://runescape.wiki/images/Magic-icon.png?60d6d"
+        },
+        {
+          "type": "xp",
+          "skill": "Woodcutting",
+          "amount": 1500,
+          "display": "1,500 experience",
+          "image": "https://runescape.wiki/images/Woodcutting-icon.png?e8049"
+        },
+        {
+          "type": "xp",
+          "skill": "Ranged",
+          "amount": 1500,
+          "display": "1,500 experience",
+          "image": "https://runescape.wiki/images/Ranged-icon.png?310aa"
+        },
+        {
+          "type": "xp",
+          "skill": "Constitution",
+          "amount": 4000,
+          "display": "4,000 experience",
+          "image": "https://runescape.wiki/images/Constitution-icon.png?bbf9a"
+        },
+        {
+          "type": "xp",
+          "skill": "Agility",
+          "amount": 10000,
+          "display": "10,000 experience",
+          "image": "https://runescape.wiki/images/Agility-icon.png?9a56e"
+        },
+        {
+          "type": "xp",
+          "skill": "Antique lamp (Recipe for Disaster)",
+          "amount": null,
+          "display": "A 20,000 experience antique lamp for any skill above 50 (can be banked)",
+          "image": "https://runescape.wiki/images/thumb/Antique_lamp_%28Recipe_for_Disaster%29_detail.png/100px-Antique_lamp_%28Recipe_for_Disaster%29_detail.png?9d30a"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Levelling_up.gif/100px-Levelling_up.gif?38432"
     },
     {
       "type": "item",
-      "name": "Mogre Camp",
-      "display": "Access to the following areas: Mogre Camp Evil Chicken's Lair",
-      "image": "https://runescape.wiki/images/thumb/Mogre_camp.png/100px-Mogre_camp.png?13263"
+      "name": "Access to the following areas:",
+      "display": "Access to the following areas:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Mogre Camp",
+          "display": "Mogre Camp",
+          "image": "https://runescape.wiki/images/thumb/Mogre_camp.png/100px-Mogre_camp.png?13263"
+        },
+        {
+          "type": "item",
+          "name": "Evil Chicken's Lair",
+          "display": "Evil Chicken's Lair",
+          "image": "https://runescape.wiki/images/thumb/Evil_Chicken%27s_Lair.png/100px-Evil_Chicken%27s_Lair.png?011fa"
+        }
+      ],
+      "image": null
     },
     {
       "type": "item",
@@ -146,7 +246,33 @@
     {
       "type": "item",
       "name": "Culinaromancer's Chest",
-      "display": "Full access to Culinaromancer's Chest Access to the metal gloves such as Dragon gloves, plus Barrows gloves Access to Kitchen weaponry Access to the banking chest (under Lumbridge Castle) Access to a food store in the Chest",
+      "display": "Full access to Culinaromancer's Chest",
+      "children": [
+        {
+          "type": "item",
+          "name": "Dragon gloves",
+          "display": "Access to the metal gloves such as Dragon gloves, plus Barrows gloves",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "Kitchen weaponry",
+          "display": "Access to Kitchen weaponry",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "Access to the banking chest (under Lumbridge Castle)",
+          "display": "Access to the banking chest (under Lumbridge Castle)",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "Culinaromancer's Chest",
+          "display": "Access to a food store in the Chest",
+          "image": "https://runescape.wiki/images/thumb/Culinaromancer%27s_Chest_interior.png/100px-Culinaromancer%27s_Chest_interior.png?1eedb"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Culinaromancer%27s_Chest_interior.png/100px-Culinaromancer%27s_Chest_interior.png?1eedb"
     },
     {

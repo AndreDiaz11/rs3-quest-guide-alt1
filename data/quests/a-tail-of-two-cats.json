@@ -3,7 +3,7 @@
   "title": "A Tail of Two Cats",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.040Z",
+  "guideLastUpdated": "2026-07-08T21:44:58.109Z",
   "icon": "https://runescape.wiki/images/A_Tail_of_Two_Cats_icon.png",
   "entityIcon": null,
   "series": null,
@@ -142,10 +142,24 @@
       "image": null
     },
     {
-      "type": "xp",
-      "skill": "Present (A Tail of Two Cats)",
-      "amount": null,
-      "display": "A mysterious present containing 2 antique lamps, which grant 2,500 experience each in a skill above level 30 Mouse toy",
+      "type": "item",
+      "name": "Present (A Tail of Two Cats)",
+      "display": "A mysterious present containing",
+      "children": [
+        {
+          "type": "xp",
+          "skill": "Antique lamp (A Tail of Two Cats)",
+          "amount": 2,
+          "display": "2 antique lamps, which grant 2,500 experience each in a skill above level 30",
+          "image": "https://runescape.wiki/images/thumb/Antique_lamp_%28A_Tail_of_Two_Cats%29_detail.png/100px-Antique_lamp_%28A_Tail_of_Two_Cats%29_detail.png?f8918"
+        },
+        {
+          "type": "item",
+          "name": "Mouse toy",
+          "display": "Mouse toy",
+          "image": "https://runescape.wiki/images/thumb/Pet_Cat_-_Mousetoy.gif/100px-Pet_Cat_-_Mousetoy.gif?0dc44"
+        }
+      ],
       "image": null
     },
     {

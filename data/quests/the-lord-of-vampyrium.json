@@ -3,7 +3,7 @@
   "title": "The Lord of Vampyrium",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:35.353Z",
+  "guideLastUpdated": "2026-07-08T21:45:34.120Z",
   "icon": "https://runescape.wiki/images/The_Lord_of_Vampyrium_icon.png",
   "entityIcon": "https://runescape.wiki/images/The_Lord_of_Vampyrium_entity_icon.png?812ff",
   "series": "Myreque",
@@ -145,7 +145,15 @@
     {
       "type": "item",
       "name": "Blisterwood",
-      "display": "The ability to craft more types of blisterwood weapons. This is granted early in the quest when you first talk to Veliaf Hurtz inside the Arboretum.",
+      "display": "The ability to craft more types of blisterwood weapons.",
+      "children": [
+        {
+          "type": "item",
+          "name": "This is granted early in the quest when you first talk to Veliaf Hurtz inside the Arboretum.",
+          "display": "This is granted early in the quest when you first talk to Veliaf Hurtz inside the Arboretum.",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Blisterwood_Tree.png/100px-Blisterwood_Tree.png?0542d"
     },
     {
@@ -168,8 +176,22 @@
     },
     {
       "type": "item",
-      "name": "Of the Myreque",
-      "display": "Two titles: [Name] of the Myreque [Name] of Vampyrium",
+      "name": "Two titles:",
+      "display": "Two titles:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Of the Myreque",
+          "display": "[Name] of the Myreque",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "Of Vampyrium",
+          "display": "[Name] of Vampyrium",
+          "image": null
+        }
+      ],
       "image": null
     },
     {

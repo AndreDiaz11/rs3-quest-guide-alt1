@@ -3,7 +3,7 @@
   "title": "Violet is Blue",
   "isMiniquest": false,
   "isSeasonal": true,
-  "guideLastUpdated": "2026-07-08T21:14:36.040Z",
+  "guideLastUpdated": "2026-07-08T21:45:37.825Z",
   "icon": "https://runescape.wiki/images/Violet_is_Blue_icon.png",
   "entityIcon": "https://runescape.wiki/images/Violet_is_Blue_entity_icon.png?5d464",
   "series": "Violet Tendencies",
@@ -106,7 +106,33 @@
       "type": "xp",
       "skill": "Frozen snow impling",
       "amount": null,
-      "display": "Members can obtain a total of 90,000 experience from thawing all four frozen snow implings hidden around Yeti Town. 2,000 experience from the crates near the house on the south-east side of town (requires level 20 in all non-elite skills). 8,000 experience from the south well (requires level 40 in all non-elite skills). 30,000 experience from a barrel on the western docks (requires level 60 in all non-elite skills). 50,000 experience from the cart near the bonfire in the centre of town (requires level 80 in all non-elite skills)."
+      "display": "Members can obtain a total of 90,000 experience from thawing all four frozen snow implings hidden around Yeti Town.",
+      "children": [
+        {
+          "type": "xp",
+          "skill": null,
+          "amount": 2000,
+          "display": "2,000 experience from the crates near the house on the south-east side of town (requires level 20 in all non-elite skills)."
+        },
+        {
+          "type": "xp",
+          "skill": null,
+          "amount": 8000,
+          "display": "8,000 experience from the south well (requires level 40 in all non-elite skills)."
+        },
+        {
+          "type": "xp",
+          "skill": null,
+          "amount": 30000,
+          "display": "30,000 experience from a barrel on the western docks (requires level 60 in all non-elite skills)."
+        },
+        {
+          "type": "xp",
+          "skill": null,
+          "amount": 50000,
+          "display": "50,000 experience from the cart near the bonfire in the centre of town (requires level 80 in all non-elite skills)."
+        }
+      ]
     }
   ],
   "steps": [

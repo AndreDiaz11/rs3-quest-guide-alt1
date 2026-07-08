@@ -3,7 +3,7 @@
   "title": "Swan Song",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:34.579Z",
+  "guideLastUpdated": "2026-07-08T21:45:28.183Z",
   "icon": "https://runescape.wiki/images/Swan_Song_icon.png",
   "entityIcon": null,
   "series": "Wise Old Man",
@@ -169,13 +169,47 @@
     {
       "type": "item",
       "name": "Piscatoris Fishing Colony",
-      "display": "Access to the Piscatoris Fishing Colony Able to fish monkfish Able to use Skeletal mages for training Seaweed spawns Bank and obelisk very close by",
+      "display": "Access to the Piscatoris Fishing Colony",
+      "children": [
+        {
+          "type": "item",
+          "name": "Monkfish",
+          "display": "Able to fish monkfish",
+          "image": "https://runescape.wiki/images/thumb/Monkfish_detail.png/100px-Monkfish_detail.png?a8c5f"
+        },
+        {
+          "type": "item",
+          "name": "Skeleton Mage (Piscatoris Fishing Colony)",
+          "display": "Able to use Skeletal mages for training",
+          "image": "https://runescape.wiki/images/thumb/Skeleton_Mage_%28Piscatoris_Fishing_Colony%29.png/100px-Skeleton_Mage_%28Piscatoris_Fishing_Colony%29.png?86285"
+        },
+        {
+          "type": "item",
+          "name": "Seaweed",
+          "display": "Seaweed spawns",
+          "image": "https://runescape.wiki/images/thumb/Seaweed_detail.png/100px-Seaweed_detail.png?20ad0"
+        },
+        {
+          "type": "item",
+          "name": "Bank",
+          "display": "Bank and obelisk very close by",
+          "image": "https://runescape.wiki/images/thumb/Bank_Interface.png/100px-Bank_Interface.png?6cf4c"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Piscatoris_Fishing_Colony.png/100px-Piscatoris_Fishing_Colony.png?abfb8"
     },
     {
       "type": "item",
       "name": "Malignius Mortifer",
-      "display": "Can get the following items from Malignius Mortifer upon request: Bone seeds (requires pot and pot lid)",
+      "display": "Can get the following items from Malignius Mortifer upon request:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Bone seeds",
+          "display": "Bone seeds (requires pot and pot lid)",
+          "image": "https://runescape.wiki/images/Bone_seeds_detail.png?47ccf"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Malignius_Mortifer.png/100px-Malignius_Mortifer.png?f748e"
     },
     {

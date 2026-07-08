@@ -3,7 +3,7 @@
   "title": "Fate of the Gods",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:31.760Z",
+  "guideLastUpdated": "2026-07-08T21:45:12.898Z",
   "icon": "https://runescape.wiki/images/Fate_of_the_Gods_icon.png",
   "entityIcon": "https://runescape.wiki/images/Fate_of_the_Gods_entity_icon.png?e4213",
   "series": "Sliske's Game",
@@ -316,7 +316,33 @@
     {
       "type": "item",
       "name": "Freneskae",
-      "display": "Access to Freneskae via the World Gate The ability to fight bladed, force, and throwing muspah in the Cradle The ability to fight blood, shadow, ice, and smoke nihil in the Pit Access to the Elder Halls, with a level 75 training spot The ability to collect elder energy and to create portents of degradation, signs of death, and portents of death, as well as elder charm summoning pouches",
+      "display": "Access to Freneskae via the World Gate",
+      "children": [
+        {
+          "type": "item",
+          "name": "Bladed muspah",
+          "display": "The ability to fight bladed, force, and throwing muspah in the Cradle",
+          "image": "https://runescape.wiki/images/thumb/Bladed_muspah.png/100px-Bladed_muspah.png?b8838"
+        },
+        {
+          "type": "item",
+          "name": "Blood nihil",
+          "display": "The ability to fight blood, shadow, ice, and smoke nihil in the Pit",
+          "image": "https://runescape.wiki/images/thumb/Blood_nihil.png/100px-Blood_nihil.png?f2f7e"
+        },
+        {
+          "type": "item",
+          "name": "Elder Halls",
+          "display": "Access to the Elder Halls, with a level 75 training spot",
+          "image": "https://runescape.wiki/images/thumb/Freneskae_Elder_Halls.png/100px-Freneskae_Elder_Halls.png?40c29"
+        },
+        {
+          "type": "item",
+          "name": "Elder energy",
+          "display": "The ability to collect elder energy and to create portents of degradation, signs of death, and portents of death, as well as elder charm summoning pouches",
+          "image": "https://runescape.wiki/images/thumb/Elder_energy_1000_detail.png/100px-Elder_energy_1000_detail.png?bbc61"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Freneskae.png/100px-Freneskae.png?82e5a"
     },
     {
@@ -381,7 +407,14 @@
       "type": "xp",
       "skill": "Combat level",
       "amount": 75000,
-      "display": "75,000 experience lamp (Skill must be level 80 or higher, excludes Prayer/Summoning) Can be used up to three times, by talking to Azzanadra in the Senntisten Temple near the Altar of Zaros and choosing the fourth chat option \"Zaros's return\" (requires completion of The Temple at Senntisten quest)"
+      "display": "75,000 experience lamp (Skill must be level 80 or higher, excludes Prayer/Summoning)",
+      "children": [
+        {
+          "type": "item",
+          "name": "Azzanadra",
+          "display": "Can be used up to three times, by talking to Azzanadra in the Senntisten Temple near the Altar of Zaros and choosing the fourth chat option \"Zaros's return\" (requires completion of The Temple at Senntisten quest)"
+        }
+      ]
     },
     {
       "type": "item",
@@ -418,7 +451,29 @@
       "type": "xp",
       "skill": "Elder chronicle",
       "amount": null,
-      "display": "Four elder chronicles, each granting 50,000 experience when the Measure is placed: Near the submerged statue (appears as rocks if One of a Kind has not been completed) on Entrana located on the far north-west corner of the island Outside the TzHaar City entrance Near the Oracle atop Ice Mountain By the archaeologist camp on the plateau at the top of the stairs in the Ruins of Ullek"
+      "display": "Four elder chronicles, each granting 50,000 experience when the Measure is placed:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Submerged statue",
+          "display": "Near the submerged statue (appears as rocks if One of a Kind has not been completed) on Entrana located on the far north-west corner of the island"
+        },
+        {
+          "type": "item",
+          "name": "TzHaar City",
+          "display": "Outside the TzHaar City entrance"
+        },
+        {
+          "type": "item",
+          "name": "Oracle",
+          "display": "Near the Oracle atop Ice Mountain"
+        },
+        {
+          "type": "item",
+          "name": "Ullek",
+          "display": "By the archaeologist camp on the plateau at the top of the stairs in the Ruins of Ullek"
+        }
+      ]
     }
   ],
   "steps": [

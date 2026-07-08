@@ -3,7 +3,7 @@
   "title": "Great Egg-spectations",
   "isMiniquest": false,
   "isSeasonal": true,
-  "guideLastUpdated": "2026-07-08T21:14:31.998Z",
+  "guideLastUpdated": "2026-07-08T21:45:14.073Z",
   "icon": "https://runescape.wiki/images/thumb/Great_Egg-spectations_icon.png/50px-Great_Egg-spectations_icon.png",
   "entityIcon": "https://runescape.wiki/images/Great_Egg-spectations_entity_icon.png?6a104",
   "series": "Blooming Burrow",
@@ -91,7 +91,51 @@
     {
       "type": "item",
       "name": "Easter event",
-      "display": "Emotes from previous Easter events (if not already unlocked) Around the World in Eggty Days Bunny-hop Butterfly Dervish Cabbage Facepunch Bonanza Easter Trick or Treat (both options) Egg Juggler Invoke Spring",
+      "display": "Emotes from previous Easter events (if not already unlocked)",
+      "children": [
+        {
+          "type": "item",
+          "name": "Around the World in Eggty Days",
+          "display": "Around the World in Eggty Days",
+          "image": "https://runescape.wiki/images/thumb/Around_the_World_in_Eggty_Days.gif/100px-Around_the_World_in_Eggty_Days.gif?02eea"
+        },
+        {
+          "type": "item",
+          "name": "Bunny-hop",
+          "display": "Bunny-hop",
+          "image": "https://runescape.wiki/images/thumb/Bunny-hop.gif/100px-Bunny-hop.gif?0197e"
+        },
+        {
+          "type": "item",
+          "name": "Butterfly Dervish",
+          "display": "Butterfly Dervish",
+          "image": "https://runescape.wiki/images/thumb/Butterfly_Dervish.gif/100px-Butterfly_Dervish.gif?addfc"
+        },
+        {
+          "type": "item",
+          "name": "Cabbage Facepunch Bonanza (emote)",
+          "display": "Cabbage Facepunch Bonanza",
+          "image": "https://runescape.wiki/images/thumb/Cabbage_Facepunch_Bonanza_-_Cabbage.gif/100px-Cabbage_Facepunch_Bonanza_-_Cabbage.gif?df8fe"
+        },
+        {
+          "type": "item",
+          "name": "Easter Trick or Treat",
+          "display": "Easter Trick or Treat (both options)",
+          "image": "https://runescape.wiki/images/thumb/Easter_Trick_or_Treat.gif/100px-Easter_Trick_or_Treat.gif?6c923"
+        },
+        {
+          "type": "item",
+          "name": "Egg Juggler",
+          "display": "Egg Juggler",
+          "image": "https://runescape.wiki/images/thumb/Egg_Juggler.gif/100px-Egg_Juggler.gif?2896f"
+        },
+        {
+          "type": "item",
+          "name": "Invoke Spring",
+          "display": "Invoke Spring",
+          "image": "https://runescape.wiki/images/thumb/Invoke_Spring.gif/100px-Invoke_Spring.gif?3fd0c"
+        }
+      ],
       "image": null
     },
     {

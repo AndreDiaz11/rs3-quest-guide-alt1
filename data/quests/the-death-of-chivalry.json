@@ -3,7 +3,7 @@
   "title": "The Death of Chivalry",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:34.975Z",
+  "guideLastUpdated": "2026-07-08T21:45:31.324Z",
   "icon": "https://runescape.wiki/images/The_Death_of_Chivalry_icon.png",
   "entityIcon": "https://runescape.wiki/images/The_Death_of_Chivalry_entity_icon.png?0528f",
   "series": "Sliske's Game",
@@ -187,7 +187,33 @@
     {
       "type": "item",
       "name": "Titles",
-      "display": "4 Knightly titles (you are suggested one based on choices made during the quest, but you can pick any one at any time through the title interface) [Name] the Gallant [Name] the Pious [Name] the Brave [Name] the Valiant",
+      "display": "4 Knightly titles (you are suggested one based on choices made during the quest, but you can pick any one at any time through the title interface)",
+      "children": [
+        {
+          "type": "item",
+          "name": "The Gallant",
+          "display": "[Name] the Gallant",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "The Pious",
+          "display": "[Name] the Pious",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "The Brave",
+          "display": "[Name] the Brave",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "The Valiant",
+          "display": "[Name] the Valiant",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Customisations_%28Titles%29_interface.png/100px-Customisations_%28Titles%29_interface.png?f6a3d"
     },
     {
@@ -268,10 +294,34 @@
       "display": "Ability to replant the cabbages on the scorch marks in the Edgeville Monastery cabbage patch with 12 cabbage seeds and level 7 Farming, awarding 250 experience."
     },
     {
-      "type": "xp",
-      "skill": "Combat level",
-      "amount": null,
-      "display": "Players can find these rewards in the coffins in the Tomb of the Fallen, which can be returned to via the portal in the Black Knights' Fortress or by selecting teleport as an option on the Skull of Remembrance which is given to you in the quest. 3,500 experience lamp (usable on one of the skills: Attack, Strength, Defence, Constitution, Ranged, Magic, Necromancy, Prayer or Summoning), requires 40 Strength and 40 in the chosen combat skill, including Prayer). 60,000 experience lamp (requires 80 Strength and 65 Prayer). Gilded cabbage which summons Brassica Prime, who awards 10,000 bonus experience after being kicked 30 times (requires 60 Strength). This bonus Prayer experience is awarded in the form of double experience while you train in the skill, not instantaneously as given by XP lamps. Templar outfit, a cosmetic override."
+      "type": "item",
+      "name": "Players can find these rewards in the coffins in the Tomb of the Fallen, which can be returned to via the portal in the Black Knights' Fortress or by selecting teleport as an option on the Skull of Remembrance which is given to you in the quest.",
+      "display": "Players can find these rewards in the coffins in the Tomb of the Fallen, which can be returned to via the portal in the Black Knights' Fortress or by selecting teleport as an option on the Skull of Remembrance which is given to you in the quest.",
+      "children": [
+        {
+          "type": "xp",
+          "skill": "Combat level",
+          "amount": 3500,
+          "display": "3,500 experience lamp (usable on one of the skills: Attack, Strength, Defence, Constitution, Ranged, Magic, Necromancy, Prayer or Summoning), requires 40 Strength and 40 in the chosen combat skill, including Prayer)."
+        },
+        {
+          "type": "xp",
+          "skill": "Prayer",
+          "amount": 60000,
+          "display": "60,000 experience lamp (requires 80 Strength and 65 Prayer)."
+        },
+        {
+          "type": "xp",
+          "skill": "Gilded cabbage",
+          "amount": null,
+          "display": "Gilded cabbage which summons Brassica Prime, who awards 10,000 bonus experience after being kicked 30 times (requires 60 Strength). This bonus Prayer experience is awarded in the form of double experience while you train in the skill, not instantaneously as given by XP lamps."
+        },
+        {
+          "type": "item",
+          "name": "Templar",
+          "display": "Templar outfit, a cosmetic override."
+        }
+      ]
     }
   ],
   "steps": [

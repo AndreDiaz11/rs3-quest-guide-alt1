@@ -3,7 +3,7 @@
   "title": "Desperate Creatures",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:31.072Z",
+  "guideLastUpdated": "2026-07-08T21:45:08.739Z",
   "icon": "https://runescape.wiki/images/Desperate_Creatures_icon.png",
   "entityIcon": null,
   "series": "The Elder God Wars",
@@ -80,9 +80,31 @@
   "rewards": [
     {
       "type": "item",
-      "name": "Colossi & the time of colossi",
-      "display": "Two lore books: Colossi & the time of colossi, written by Charos as Reldo, that details some aspects of colossi. Reldo's ages seventeenth edition, written by Reldo and revised by Charos, that details major events that define the Ages of Gielinor. This 17th edition is updated with discoveries found with the expedition to Anachronia.",
-      "image": "https://runescape.wiki/images/thumb/Colossi_%26_the_time_of_colossi_detail.png/100px-Colossi_%26_the_time_of_colossi_detail.png?7b977"
+      "name": "Two lore books:",
+      "display": "Two lore books:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Colossi & the time of colossi",
+          "display": "Colossi & the time of colossi, written by Charos as Reldo, that details some aspects of colossi.",
+          "image": "https://runescape.wiki/images/thumb/Colossi_%26_the_time_of_colossi_detail.png/100px-Colossi_%26_the_time_of_colossi_detail.png?7b977"
+        },
+        {
+          "type": "item",
+          "name": "Reldo's ages seventeenth edition",
+          "display": "Reldo's ages seventeenth edition, written by Reldo and revised by Charos, that details major events that define the Ages of Gielinor.",
+          "children": [
+            {
+              "type": "item",
+              "name": "This 17th edition is updated with discoveries found with the expedition to Anachronia.",
+              "display": "This 17th edition is updated with discoveries found with the expedition to Anachronia.",
+              "image": null
+            }
+          ],
+          "image": "https://runescape.wiki/images/thumb/Reldo%27s_ages_seventeenth_edition_detail.png/100px-Reldo%27s_ages_seventeenth_edition_detail.png?b3069"
+        }
+      ],
+      "image": null
     }
   ],
   "rewardBannerImage": "https://runescape.wiki/images/Desperate_Creatures_reward.png?0a43f",

@@ -3,7 +3,7 @@
   "title": "Kindred Spirits",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:32.492Z",
+  "guideLastUpdated": "2026-07-08T21:45:16.382Z",
   "icon": "https://runescape.wiki/images/Kindred_Spirits_icon.png",
   "entityIcon": "https://runescape.wiki/images/Kindred_Spirits_entity_icon.png?003db",
   "series": "Sliske's Game",
@@ -109,7 +109,15 @@
       "type": "xp",
       "skill": "Agility",
       "amount": 25000,
-      "display": "25,000 experience lamp If you do not have four free backpack spaces, you must speak to Major Mary Rancour at her post in Burthorpe to claim the lamps.",
+      "display": "25,000 experience lamp",
+      "children": [
+        {
+          "type": "item",
+          "name": "Major Mary Rancour",
+          "display": "If you do not have four free backpack spaces, you must speak to Major Mary Rancour at her post in Burthorpe to claim the lamps.",
+          "image": "https://runescape.wiki/images/thumb/Major_Mary_Rancour.png/100px-Major_Mary_Rancour.png?43fa0"
+        }
+      ],
       "image": "https://runescape.wiki/images/Agility-icon.png?9a56e"
     },
     {

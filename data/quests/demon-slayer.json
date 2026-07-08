@@ -3,7 +3,7 @@
   "title": "Demon Slayer",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:31.012Z",
+  "guideLastUpdated": "2026-07-08T21:45:07.748Z",
   "icon": "https://runescape.wiki/images/Demon_Slayer_icon.png",
   "entityIcon": "https://runescape.wiki/images/Demon_Slayer_entity_icon.png?fbf70",
   "series": "Delrith",
@@ -61,7 +61,15 @@
     {
       "type": "item",
       "name": "Silverlight",
-      "display": "The Silverlight sword, especially strong against demon-type monsters. If you lose it, you can get a new one from Gideon Bede.",
+      "display": "The Silverlight sword, especially strong against demon-type monsters.",
+      "children": [
+        {
+          "type": "item",
+          "name": "Gideon Bede",
+          "display": "If you lose it, you can get a new one from Gideon Bede.",
+          "image": "https://runescape.wiki/images/thumb/Gideon_Bede.png/100px-Gideon_Bede.png?969c9"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Silverlight_detail.png/100px-Silverlight_detail.png?272d9"
     },
     {

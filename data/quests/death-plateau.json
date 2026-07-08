@@ -3,7 +3,7 @@
   "title": "Death Plateau",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.953Z",
+  "guideLastUpdated": "2026-07-08T21:45:07.078Z",
   "icon": "https://runescape.wiki/images/Death_Plateau_icon.png",
   "entityIcon": "https://runescape.wiki/images/Death_Plateau_entity_icon.png?fbf70",
   "series": "Troll",
@@ -58,10 +58,18 @@
       "image": "https://runescape.wiki/images/thumb/Rabbit_sandwich_detail.png/100px-Rabbit_sandwich_detail.png?210fc"
     },
     {
-      "type": "xp",
-      "skill": "Ambush Commander",
-      "amount": null,
-      "display": "Can take supplies from Commander Denulth to the Ambush Commander 5 times to receive 15 reward lamps in total 15x 180 experience lamps for a total of 2,700 experience",
+      "type": "item",
+      "name": "Ambush Commander",
+      "display": "Can take supplies from Commander Denulth to the Ambush Commander 5 times to receive 15 reward lamps in total",
+      "children": [
+        {
+          "type": "xp",
+          "skill": "Skills",
+          "amount": 15,
+          "display": "15x 180 experience lamps for a total of 2,700 experience",
+          "image": "https://runescape.wiki/images/thumb/Skill_screen.png/100px-Skill_screen.png?ef4b3"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Ambush_Commander.png/100px-Ambush_Commander.png?06c10"
     },
     {

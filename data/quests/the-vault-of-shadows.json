@@ -3,7 +3,7 @@
   "title": "The Vault of Shadows",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:35.617Z",
+  "guideLastUpdated": "2026-07-08T21:45:35.595Z",
   "icon": "https://runescape.wiki/images/The_Vault_of_Shadows_icon.png",
   "entityIcon": null,
   "series": "The Elder God Wars",
@@ -88,7 +88,39 @@
     {
       "type": "item",
       "name": "Ghost praetorian",
-      "display": "Two ghost praetorians may now be found by the smoke and shadow buttons. The ring of visibility must be equipped or Sliske's gift must be unlocked, and each of the shadow anchors must be activated. Speak to each of them to receive: 80 Ancient vis 80 Blood of Orcus 80 Samite silk 80 Zarosian insignias 80 Third Age iron 80 Vellum"
+      "display": "Two ghost praetorians may now be found by the smoke and shadow buttons. The ring of visibility must be equipped or Sliske's gift must be unlocked, and each of the shadow anchors must be activated. Speak to each of them to receive:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Ancient vis",
+          "display": "80 Ancient vis"
+        },
+        {
+          "type": "item",
+          "name": "Blood of Orcus",
+          "display": "80 Blood of Orcus"
+        },
+        {
+          "type": "item",
+          "name": "Samite silk",
+          "display": "80 Samite silk"
+        },
+        {
+          "type": "item",
+          "name": "Zarosian insignia",
+          "display": "80 Zarosian insignias"
+        },
+        {
+          "type": "item",
+          "name": "Third Age iron",
+          "display": "80 Third Age iron"
+        },
+        {
+          "type": "item",
+          "name": "Vellum",
+          "display": "80 Vellum"
+        }
+      ]
     }
   ],
   "steps": [

@@ -3,7 +3,7 @@
   "title": "The Jack of Spades",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:35.279Z",
+  "guideLastUpdated": "2026-07-08T21:45:33.426Z",
   "icon": "https://runescape.wiki/images/The_Jack_of_Spades_icon.png",
   "entityIcon": "https://runescape.wiki/images/The_Jack_of_Spades_entity_icon.png?812ff",
   "series": "Ozan",
@@ -84,7 +84,15 @@
     {
       "type": "item",
       "name": "Reputation (Menaphos)",
-      "display": "Access to the Menaphos reputation system Menaphos reputation gain increased to 125%",
+      "display": "Access to the Menaphos reputation system",
+      "children": [
+        {
+          "type": "item",
+          "name": "Menaphos reputation gain increased to 125%",
+          "display": "Menaphos reputation gain increased to 125%",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Menaphos_reputation.png/100px-Menaphos_reputation.png?63157"
     },
     {

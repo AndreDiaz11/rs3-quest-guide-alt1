@@ -3,7 +3,7 @@
   "title": "Song from the Depths",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:34.421Z",
+  "guideLastUpdated": "2026-07-08T21:45:26.809Z",
   "icon": "https://runescape.wiki/images/Song_from_the_Depths_icon.png",
   "entityIcon": "https://runescape.wiki/images/Song_from_the_Depths_entity_icon.png?812ff",
   "series": null,
@@ -132,7 +132,21 @@
       "type": "xp",
       "skill": "Ancient writings (music maze cave)",
       "amount": null,
-      "display": "Two ancient writings in music maze cave for the player to read to gain Constitution experience: 5000 experience, which requires 50 Constitution 25000 experience, which requires 80 Constitution"
+      "display": "Two ancient writings in music maze cave for the player to read to gain Constitution experience:",
+      "children": [
+        {
+          "type": "xp",
+          "skill": null,
+          "amount": 5000,
+          "display": "5000 experience, which requires 50 Constitution"
+        },
+        {
+          "type": "xp",
+          "skill": null,
+          "amount": 25000,
+          "display": "25000 experience, which requires 80 Constitution"
+        }
+      ]
     }
   ],
   "steps": [

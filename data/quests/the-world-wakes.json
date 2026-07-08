@@ -3,7 +3,7 @@
   "title": "The World Wakes",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:35.674Z",
+  "guideLastUpdated": "2026-07-08T21:45:35.953Z",
   "icon": "https://runescape.wiki/images/The_World_Wakes_icon.png",
   "entityIcon": "https://runescape.wiki/images/The_World_Wakes_entity_icon.png?5d464",
   "series": "Sliske's Game",
@@ -298,9 +298,35 @@
     },
     {
       "type": "item",
-      "name": "Death's Swiftness",
-      "display": "4 new ultimate combat abilities Death's Swiftness (Ranged) Sunshine (Magic) Natural Instinct (Defence) Guthix's Blessing (Constitution)",
-      "image": "https://runescape.wiki/images/thumb/Death%27s_Swiftness.gif/100px-Death%27s_Swiftness.gif?8b9df"
+      "name": "4 new ultimate combat abilities",
+      "display": "4 new ultimate combat abilities",
+      "children": [
+        {
+          "type": "item",
+          "name": "Death's Swiftness",
+          "display": "Death's Swiftness (Ranged)",
+          "image": "https://runescape.wiki/images/thumb/Death%27s_Swiftness.gif/100px-Death%27s_Swiftness.gif?8b9df"
+        },
+        {
+          "type": "item",
+          "name": "Sunshine",
+          "display": "Sunshine (Magic)",
+          "image": "https://runescape.wiki/images/thumb/Sunshine.gif/100px-Sunshine.gif?80916"
+        },
+        {
+          "type": "item",
+          "name": "Natural Instinct",
+          "display": "Natural Instinct (Defence)",
+          "image": "https://runescape.wiki/images/thumb/Natural_Instinct.gif/100px-Natural_Instinct.gif?1e3da"
+        },
+        {
+          "type": "item",
+          "name": "Guthix's Blessing",
+          "display": "Guthix's Blessing (Constitution)",
+          "image": "https://runescape.wiki/images/thumb/Guthix%27s_Blessing.gif/100px-Guthix%27s_Blessing.gif?6908e"
+        }
+      ],
+      "image": null
     },
     {
       "type": "item",
@@ -435,7 +461,24 @@
     {
       "type": "item",
       "name": "Ritual of the Mahjarrat",
-      "display": "Certain additional rewards are available if additional quests are completed: Ritual of the Mahjarrat, The Firemaker's Curse, The Branches of Darkmeyer, The Void Stares Back, and The Chosen Commander: The Sixth-Age circuit, given to players by the Guthixian High Druid [Name], the World Guardian title, which can be obtained by talking to the Guthixian High Druid. Access to automaton area and automatons as a Slayer assignment (also requiring 67 )."
+      "display": "Certain additional rewards are available if additional quests are completed: Ritual of the Mahjarrat, The Firemaker's Curse, The Branches of Darkmeyer, The Void Stares Back, and The Chosen Commander:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Sixth-Age circuit",
+          "display": "The Sixth-Age circuit, given to players by the Guthixian High Druid"
+        },
+        {
+          "type": "item",
+          "name": "The World Guardian",
+          "display": "[Name], the World Guardian title, which can be obtained by talking to the Guthixian High Druid."
+        },
+        {
+          "type": "item",
+          "name": "Automaton",
+          "display": "Access to automaton area and automatons as a Slayer assignment (also requiring 67 )."
+        }
+      ]
     },
     {
       "type": "item",
@@ -445,7 +488,19 @@
     {
       "type": "item",
       "name": "Relic powers",
-      "display": "One of several requirements to unlock two relic powers: Divine Conversion Abyssal Link"
+      "display": "One of several requirements to unlock two relic powers:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Divine Conversion",
+          "display": "Divine Conversion"
+        },
+        {
+          "type": "item",
+          "name": "Abyssal Link",
+          "display": "Abyssal Link"
+        }
+      ]
     }
   ],
   "steps": [

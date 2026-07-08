@@ -3,7 +3,7 @@
   "title": "Daughter of Chaos",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.892Z",
+  "guideLastUpdated": "2026-07-08T21:45:06.088Z",
   "icon": "https://runescape.wiki/images/thumb/Daughter_of_Chaos_icon.png/50px-Daughter_of_Chaos_icon.png",
   "entityIcon": "https://runescape.wiki/images/Daughter_of_Chaos_entity_icon.png?fbf70",
   "series": "Legacy of Zamorak",
@@ -76,14 +76,48 @@
     },
     {
       "type": "item",
-      "name": "Order of Dis Blade",
-      "display": "Order of Dis weapon cosmetic overrides Order of Dis Blade and its off-hand variant Order of Dis May(ce) and its off-hand variant",
+      "name": "Order of Dis weapon cosmetic overrides",
+      "display": "Order of Dis weapon cosmetic overrides",
+      "children": [
+        {
+          "type": "item",
+          "name": "Order of Dis Blade",
+          "display": "Order of Dis Blade and its off-hand variant",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "Order of Dis May(ce)",
+          "display": "Order of Dis May(ce) and its off-hand variant",
+          "image": null
+        }
+      ],
       "image": null
     },
     {
       "type": "item",
       "name": "Infernal Puzzle Box",
-      "display": "Infernal Puzzle Box tier 2 upgrade 45% reduced environmental damage within Infernus 10% damage reduction in Wilderness 5% increased damage dealt to monsters in the Wilderness",
+      "display": "Infernal Puzzle Box tier 2 upgrade",
+      "children": [
+        {
+          "type": "item",
+          "name": "Infernus",
+          "display": "45% reduced environmental damage within Infernus",
+          "image": "https://runescape.wiki/images/thumb/Infernus.png/100px-Infernus.png?9c71b"
+        },
+        {
+          "type": "item",
+          "name": "Wilderness",
+          "display": "10% damage reduction in Wilderness",
+          "image": "https://runescape.wiki/images/thumb/Wilderness.png/100px-Wilderness.png?2084a"
+        },
+        {
+          "type": "item",
+          "name": "Monster",
+          "display": "5% increased damage dealt to monsters in the Wilderness",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Infernal_Puzzle_Box_detail.png/100px-Infernal_Puzzle_Box_detail.png?20f96"
     },
     {

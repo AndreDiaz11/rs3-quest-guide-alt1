@@ -3,7 +3,7 @@
   "title": "Unwelcome Guests",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:35.959Z",
+  "guideLastUpdated": "2026-07-08T21:45:37.130Z",
   "icon": "https://runescape.wiki/images/thumb/Unwelcome_Guests_icon.png/50px-Unwelcome_Guests_icon.png",
   "entityIcon": "https://runescape.wiki/images/Unwelcome_Guests_entity_icon.png?3d2aa",
   "series": "Fort Forinthry",
@@ -117,7 +117,21 @@
     {
       "type": "item",
       "name": "Crypt (Wilderness)",
-      "display": "Access to the crypt north of Fort Forinthry, containing two new slayer monsters: Risen ghost, requiring 85 Slayer. Armoured phantom, requiring 113 Slayer.",
+      "display": "Access to the crypt north of Fort Forinthry, containing two new slayer monsters:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Risen ghost",
+          "display": "Risen ghost, requiring 85 Slayer.",
+          "image": "https://runescape.wiki/images/thumb/Risen_ghost.png/100px-Risen_ghost.png?8eb93"
+        },
+        {
+          "type": "item",
+          "name": "Armoured phantom",
+          "display": "Armoured phantom, requiring 113 Slayer.",
+          "image": "https://runescape.wiki/images/thumb/Armoured_phantom.png/100px-Armoured_phantom.png?7caf6"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Crypt_Wilderness.png/100px-Crypt_Wilderness.png?54870"
     }
   ],

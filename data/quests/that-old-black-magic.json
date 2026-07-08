@@ -3,7 +3,7 @@
   "title": "That Old Black Magic",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:34.769Z",
+  "guideLastUpdated": "2026-07-08T21:45:29.592Z",
   "icon": "https://runescape.wiki/images/thumb/That_Old_Black_Magic_icon.png/50px-That_Old_Black_Magic_icon.png",
   "entityIcon": "https://runescape.wiki/images/That_Old_Black_Magic_entity_icon.png?812ff",
   "series": "City of Um",
@@ -138,11 +138,46 @@
       "image": null
     },
     {
-      "type": "xp",
-      "skill": "Soul (Well of Souls)",
-      "amount": null,
-      "display": "If you have fully completed all 4 subquests and the quest \"That Old Black Magic\", you will have received the following: 85 vessel souls Necromancy XP lamp for 5,000 Necromancy experience Necromancy XP lamp for 7,500 Necromancy experience Necromancy XP lamp for 12,500 Necromancy experience Necromancy XP lamp for 20,000 Necromancy experience",
-      "image": "https://runescape.wiki/images/Soul_%28Well_of_Souls%29.png?69d0c"
+      "type": "item",
+      "name": "If you have fully completed all 4 subquests and the quest \"That Old Black Magic\", you will have received the following:",
+      "display": "If you have fully completed all 4 subquests and the quest \"That Old Black Magic\", you will have received the following:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Soul (Well of Souls)",
+          "display": "85 vessel souls",
+          "image": "https://runescape.wiki/images/Soul_%28Well_of_Souls%29.png?69d0c"
+        },
+        {
+          "type": "xp",
+          "skill": "Necromancy XP lamp (My One and Only Lute)",
+          "amount": null,
+          "display": "Necromancy XP lamp for 5,000 Necromancy experience",
+          "image": "https://runescape.wiki/images/thumb/Necromancy_XP_lamp_%28My_One_and_Only_Lute%29_detail.png/100px-Necromancy_XP_lamp_%28My_One_and_Only_Lute%29_detail.png?3e927"
+        },
+        {
+          "type": "xp",
+          "skill": "Necromancy XP lamp (Skelly By Everlight)",
+          "amount": null,
+          "display": "Necromancy XP lamp for 7,500 Necromancy experience",
+          "image": "https://runescape.wiki/images/thumb/Necromancy_XP_lamp_%28Skelly_By_Everlight%29_detail.png/100px-Necromancy_XP_lamp_%28Skelly_By_Everlight%29_detail.png?f8274"
+        },
+        {
+          "type": "xp",
+          "skill": "Necromancy XP lamp (Flesh and Bone)",
+          "amount": null,
+          "display": "Necromancy XP lamp for 12,500 Necromancy experience",
+          "image": "https://runescape.wiki/images/thumb/Necromancy_XP_lamp_%28Flesh_and_Bone%29_detail.png/100px-Necromancy_XP_lamp_%28Flesh_and_Bone%29_detail.png?62f10"
+        },
+        {
+          "type": "xp",
+          "skill": "Necromancy XP lamp (Hermy and Bass)",
+          "amount": null,
+          "display": "Necromancy XP lamp for 20,000 Necromancy experience",
+          "image": "https://runescape.wiki/images/thumb/Necromancy_XP_lamp_%28Hermy_and_Bass%29_detail.png/100px-Necromancy_XP_lamp_%28Hermy_and_Bass%29_detail.png?f25b5"
+        }
+      ],
+      "image": null
     },
     {
       "type": "item",

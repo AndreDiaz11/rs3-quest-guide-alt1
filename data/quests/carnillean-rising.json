@@ -3,7 +3,7 @@
   "title": "Carnillean Rising",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.607Z",
+  "guideLastUpdated": "2026-07-08T21:45:03.663Z",
   "icon": "https://runescape.wiki/images/Carnillean_Rising_icon.png",
   "entityIcon": "https://runescape.wiki/images/Carnillean_Rising_entity_icon.png?faa37",
   "series": null,
@@ -100,13 +100,41 @@
     {
       "type": "item",
       "name": "Philipe's sweets",
-      "display": "Philipe's sweets: Contains 5 purple sweets",
+      "display": "Philipe's sweets:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Purple sweets",
+          "display": "Contains 5 purple sweets",
+          "image": "https://runescape.wiki/images/thumb/Purple_sweets_100_detail.png/100px-Purple_sweets_100_detail.png?82240"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Philipe%27s_sweets_detail.png/100px-Philipe%27s_sweets_detail.png?642e4"
     },
     {
       "type": "item",
       "name": "Construction",
-      "display": "Construction supplies: 100 oak planks (worth 190,000 coins) 30 teak planks (worth 9,600 coins) 10 mahogany planks (worth 18,170 coins)",
+      "display": "Construction supplies:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Oak plank",
+          "display": "100 oak planks (worth 190,000 coins)",
+          "image": "https://runescape.wiki/images/thumb/Oak_plank_detail.png/100px-Oak_plank_detail.png?ce6dc"
+        },
+        {
+          "type": "item",
+          "name": "Teak plank",
+          "display": "30 teak planks (worth 9,600 coins)",
+          "image": "https://runescape.wiki/images/thumb/Teak_plank_detail.png/100px-Teak_plank_detail.png?4023d"
+        },
+        {
+          "type": "item",
+          "name": "Mahogany plank",
+          "display": "10 mahogany planks (worth 18,170 coins)",
+          "image": "https://runescape.wiki/images/thumb/Mahogany_plank_detail.png/100px-Mahogany_plank_detail.png?fa548"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Construction_detail.png/100px-Construction_detail.png?346f8"
     },
     {
@@ -174,7 +202,14 @@
     {
       "type": "questPoints",
       "amount": 1,
-      "display": "Talk to Ceril Carnillean to locate Philipe Carnillean, who will give you an experience lamp worth 2,000 experience in a skill of your choosing. You must have the correct number of quest points before Ceril gives you the next location. You don't have to speak to Ceril to unlock the next location; However, you need to use the experience lamp to make Philipe move to the next location. After speaking to Philipe with 200 quest points, players can talk with Henryeta Carnillean and claim Rover the red dragon. After speaking to Philipe with 400 quest points, players can also claim Spot the black dragon from Henryeta Carnillean."
+      "display": "Talk to Ceril Carnillean to locate Philipe Carnillean, who will give you an experience lamp worth 2,000 experience in a skill of your choosing. You must have the correct number of quest points before Ceril gives you the next location. You don't have to speak to Ceril to unlock the next location; However, you need to use the experience lamp to make Philipe move to the next location.",
+      "children": [
+        {
+          "type": "questPoints",
+          "amount": 1,
+          "display": "After speaking to Philipe with 200 quest points, players can talk with Henryeta Carnillean and claim Rover the red dragon. After speaking to Philipe with 400 quest points, players can also claim Spot the black dragon from Henryeta Carnillean."
+        }
+      ]
     }
   ],
   "steps": [

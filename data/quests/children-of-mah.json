@@ -3,7 +3,7 @@
   "title": "Children of Mah",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.659Z",
+  "guideLastUpdated": "2026-07-08T21:45:04.010Z",
   "icon": "https://runescape.wiki/images/Children_of_Mah_icon.png",
   "entityIcon": "https://runescape.wiki/images/Children_of_Mah_entity_icon.png?fbf70",
   "series": "Sliske's Game",
@@ -179,7 +179,16 @@
       "type": "xp",
       "skill": "Skills",
       "amount": 300000,
-      "display": "300,000 experience journal (3x 100,000 experience - Skill must be level 75 or higher) Only 150,000 experience is granted if used on elite skills (3x 50,000 experience)",
+      "display": "300,000 experience journal (3x 100,000 experience - Skill must be level 75 or higher)",
+      "children": [
+        {
+          "type": "xp",
+          "skill": "Skills",
+          "amount": null,
+          "display": "Only 150,000 experience is granted if used on elite skills (3x 50,000 experience)",
+          "image": "https://runescape.wiki/images/thumb/Skill_screen.png/100px-Skill_screen.png?ef4b3"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Skill_screen.png/100px-Skill_screen.png?ef4b3"
     },
     {

@@ -3,7 +3,7 @@
   "title": "Desert Treasure",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:31.048Z",
+  "guideLastUpdated": "2026-07-08T21:45:08.404Z",
   "icon": "https://runescape.wiki/images/Desert_Treasure_icon.png",
   "entityIcon": null,
   "series": "Mahjarrat Mysteries",
@@ -264,7 +264,15 @@
     {
       "type": "item",
       "name": "Ancient Magicks",
-      "display": "Ability to use Ancient Magicks You can now also pray either at the pyramid altar or the elven grimoire in Prifddinas (after completing Plague's End) and change between the standard and Ancient Magicks spellbooks. You can also enter the altar room by accessing the back-door of the pyramid. Changing spellbooks at the altar will drain your prayer to 0.",
+      "display": "Ability to use Ancient Magicks",
+      "children": [
+        {
+          "type": "item",
+          "name": "Elven grimoire",
+          "display": "You can now also pray either at the pyramid altar or the elven grimoire in Prifddinas (after completing Plague's End) and change between the standard and Ancient Magicks spellbooks. You can also enter the altar room by accessing the back-door of the pyramid. Changing spellbooks at the altar will drain your prayer to 0.",
+          "image": "https://runescape.wiki/images/thumb/Elven_grimoire.png/100px-Elven_grimoire.png?0e957"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Ancient_teleport.gif/100px-Ancient_teleport.gif?0b4d4"
     },
     {
@@ -282,7 +290,15 @@
     {
       "type": "item",
       "name": "Ancient Symbol (gravestone)",
-      "display": "Access to the Zarosian gravestone Also requires completion of the quest The Giant Dwarf",
+      "display": "Access to the Zarosian gravestone",
+      "children": [
+        {
+          "type": "item",
+          "name": "The Giant Dwarf",
+          "display": "Also requires completion of the quest The Giant Dwarf",
+          "image": "https://runescape.wiki/images/thumb/The_Giant_Dwarf.png/100px-The_Giant_Dwarf.png?bb8c4"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Ancient_Symbol.png/100px-Ancient_Symbol.png?415f0"
     },
     {

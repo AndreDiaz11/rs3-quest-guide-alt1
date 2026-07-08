@@ -3,7 +3,7 @@
   "title": "Enlightened Journey",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:31.607Z",
+  "guideLastUpdated": "2026-07-08T21:45:11.814Z",
   "icon": "https://runescape.wiki/images/Enlightened_Journey_icon.png",
   "entityIcon": null,
   "series": null,
@@ -142,7 +142,15 @@
     {
       "type": "item",
       "name": "Bomber jacket",
-      "display": "Bomber jacket and bomber cap Gnome goggles from the Gnome Restaurant minigame can be combined with the bomber cap by talking to Auguste",
+      "display": "Bomber jacket and bomber cap",
+      "children": [
+        {
+          "type": "item",
+          "name": "Gnome goggles",
+          "display": "Gnome goggles from the Gnome Restaurant minigame can be combined with the bomber cap by talking to Auguste",
+          "image": "https://runescape.wiki/images/thumb/Gnome_goggles_detail.png/100px-Gnome_goggles_detail.png?2e2e8"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Bomber_jacket_detail.png/100px-Bomber_jacket_detail.png?f633a"
     },
     {

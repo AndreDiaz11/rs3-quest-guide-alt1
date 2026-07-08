@@ -3,7 +3,7 @@
   "title": "Birthright of the Dwarves",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.442Z",
+  "guideLastUpdated": "2026-07-08T21:45:01.943Z",
   "icon": "https://runescape.wiki/images/Birthright_of_the_Dwarves_icon.png",
   "entityIcon": "https://runescape.wiki/images/Birthright_of_the_Dwarves_entity_icon.png?faa37",
   "series": "Dwarf (Red Axe)",
@@ -181,7 +181,27 @@
     {
       "type": "item",
       "name": "Dragon equipment",
-      "display": "Access to 3 new dragon weapons: Main and off-hand dragon throwing axes, dropped by Chaos Giants Dragon battlestaff, sold in the Quality Weapons Shop Main and off-hand dragon warhammers, sold in Vigr's Warhammers shop",
+      "display": "Access to 3 new dragon weapons:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Dragon throwing axe",
+          "display": "Main and off-hand dragon throwing axes, dropped by Chaos Giants",
+          "image": "https://runescape.wiki/images/thumb/Dragon_throwing_axe_detail.png/100px-Dragon_throwing_axe_detail.png?4921e"
+        },
+        {
+          "type": "item",
+          "name": "Dragon battlestaff",
+          "display": "Dragon battlestaff, sold in the Quality Weapons Shop",
+          "image": "https://runescape.wiki/images/thumb/Dragon_battlestaff_detail.png/100px-Dragon_battlestaff_detail.png?a78b9"
+        },
+        {
+          "type": "item",
+          "name": "Dragon warhammer",
+          "display": "Main and off-hand dragon warhammers, sold in Vigr's Warhammers shop",
+          "image": "https://runescape.wiki/images/thumb/Dragon_warhammer_detail.png/100px-Dragon_warhammer_detail.png?6dc3d"
+        }
+      ],
       "image": null
     },
     {
@@ -225,12 +245,26 @@
       "type": "xp",
       "skill": "Mining",
       "amount": null,
-      "display": "A further 250,000 experience in chunks of 20,000 experience to 33,000 experience, with requirements ranging from level 81 to 95 Mining, when mining the Ancient Keldagrim ruins north of West Keldagrim. Boosts will work to mine ruins that are beyond your current level."
+      "display": "A further 250,000 experience in chunks of 20,000 experience to 33,000 experience, with requirements ranging from level 81 to 95 Mining, when mining the Ancient Keldagrim ruins north of West Keldagrim.",
+      "children": [
+        {
+          "type": "item",
+          "name": "Boosts will work to mine ruins that are beyond your current level.",
+          "display": "Boosts will work to mine ruins that are beyond your current level."
+        }
+      ]
     },
     {
       "type": "item",
       "name": "Laughing Miner Pub",
-      "display": "If Veldaban survives, the player can offer to use the memory wand to restore his memories of Hilda. He is initially reluctant, afraid of how much he may have made up about her but, if the player encourages him, agrees. He doesn't share his revelations, saying that it's between him and her memory, but thanks the player for doing so. Veldaban can be found in the throne room above the Trade Octagon or in the Laughing Miner Pub on the east side of the city, depending on the player's choice. The wand can be fetched from the Watchtower Wizard if the player destroyed it earlier in the quest. It can also be used on the Drunken Dwarf in the north of East Keldagrim regardless of the outcome of the quest. However, it will have no effect on him, as he will celebrate remembering by getting drunk again, thus forgetting again."
+      "display": "If Veldaban survives, the player can offer to use the memory wand to restore his memories of Hilda. He is initially reluctant, afraid of how much he may have made up about her but, if the player encourages him, agrees. He doesn't share his revelations, saying that it's between him and her memory, but thanks the player for doing so. Veldaban can be found in the throne room above the Trade Octagon or in the Laughing Miner Pub on the east side of the city, depending on the player's choice. The wand can be fetched from the Watchtower Wizard if the player destroyed it earlier in the quest.",
+      "children": [
+        {
+          "type": "item",
+          "name": "It can also be used on the Drunken Dwarf in the north of East Keldagrim regardless of the outcome of the quest. However, it will have no effect on him, as he will celebrate remembering by getting drunk again, thus forgetting again.",
+          "display": "It can also be used on the Drunken Dwarf in the north of East Keldagrim regardless of the outcome of the quest. However, it will have no effect on him, as he will celebrate remembering by getting drunk again, thus forgetting again."
+        }
+      ]
     },
     {
       "type": "item",

@@ -3,7 +3,7 @@
   "title": "While Guthix Sleeps",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:36.198Z",
+  "guideLastUpdated": "2026-07-08T21:45:38.280Z",
   "icon": "https://runescape.wiki/images/While_Guthix_Sleeps_icon.png",
   "entityIcon": null,
   "series": "Mahjarrat Mysteries",
@@ -397,7 +397,21 @@
     {
       "type": "item",
       "name": "Movario's base",
-      "display": "Opportunity to loot Movario's base. 100 magic logs, 100 coal, 100 fire runes, and 100 death runes; all items are in their un-noted form. A strange key teeth and a strange key loop",
+      "display": "Opportunity to loot Movario's base.",
+      "children": [
+        {
+          "type": "item",
+          "name": "Magic logs",
+          "display": "100 magic logs, 100 coal, 100 fire runes, and 100 death runes; all items are in their un-noted form.",
+          "image": "https://runescape.wiki/images/thumb/Magic_logs_detail.png/100px-Magic_logs_detail.png?b17c3"
+        },
+        {
+          "type": "item",
+          "name": "Strange key teeth",
+          "display": "A strange key teeth and a strange key loop",
+          "image": "https://runescape.wiki/images/Strange_key_teeth_detail.png?63245"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Movario%27s_base.png/100px-Movario%27s_base.png?65a85"
     },
     {

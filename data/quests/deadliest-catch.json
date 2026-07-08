@@ -3,7 +3,7 @@
   "title": "Deadliest Catch",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.921Z",
+  "guideLastUpdated": "2026-07-08T21:45:06.740Z",
   "icon": "https://runescape.wiki/images/Deadliest_Catch_icon.png",
   "entityIcon": "https://runescape.wiki/images/Deadliest_Catch_entity_icon.png?fbf70",
   "series": null,
@@ -99,9 +99,23 @@
     },
     {
       "type": "item",
-      "name": "Small cast net",
-      "display": "Wieldable fishing nets after speaking to Jones Small cast net Big cast net",
-      "image": "https://runescape.wiki/images/thumb/Small_cast_net_detail.png/100px-Small_cast_net_detail.png?2aca1"
+      "name": "Wieldable fishing nets after speaking to Jones",
+      "display": "Wieldable fishing nets after speaking to Jones",
+      "children": [
+        {
+          "type": "item",
+          "name": "Small cast net",
+          "display": "Small cast net",
+          "image": "https://runescape.wiki/images/thumb/Small_cast_net_detail.png/100px-Small_cast_net_detail.png?2aca1"
+        },
+        {
+          "type": "item",
+          "name": "Big cast net",
+          "display": "Big cast net",
+          "image": "https://runescape.wiki/images/thumb/Big_cast_net_detail.png/100px-Big_cast_net_detail.png?49974"
+        }
+      ],
+      "image": null
     },
     {
       "type": "xp",
@@ -113,7 +127,57 @@
     {
       "type": "item",
       "name": "Deposit chest",
-      "display": "8 new deposit boxes in the following locations: North-west of Bedabin Camp South of Elf Camp West coast of Harmony Island West coast of Mort Myre Swamp Piscatoris - south of the Piscatoris falconry area North-east of Pollnivneach South coast of Ape Atoll South of Brimhaven",
+      "display": "8 new deposit boxes in the following locations:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Bedabin Camp",
+          "display": "North-west of Bedabin Camp",
+          "image": "https://runescape.wiki/images/thumb/Bedabin_Camp.png/100px-Bedabin_Camp.png?f4aae"
+        },
+        {
+          "type": "item",
+          "name": "Elf Camp",
+          "display": "South of Elf Camp",
+          "image": "https://runescape.wiki/images/thumb/Elf_Camp.png/100px-Elf_Camp.png?bbfcd"
+        },
+        {
+          "type": "item",
+          "name": "Harmony Island",
+          "display": "West coast of Harmony Island",
+          "image": "https://runescape.wiki/images/thumb/Harmony_island.png/100px-Harmony_island.png?7a355"
+        },
+        {
+          "type": "item",
+          "name": "Mort Myre Swamp",
+          "display": "West coast of Mort Myre Swamp",
+          "image": "https://runescape.wiki/images/thumb/Mort_Myre_Swamp.png/100px-Mort_Myre_Swamp.png?f83e8"
+        },
+        {
+          "type": "item",
+          "name": "Piscatoris falconry area",
+          "display": "Piscatoris - south of the Piscatoris falconry area",
+          "image": "https://runescape.wiki/images/thumb/Piscatoris_falconry_area.png/100px-Piscatoris_falconry_area.png?cda48"
+        },
+        {
+          "type": "item",
+          "name": "Pollnivneach",
+          "display": "North-east of Pollnivneach",
+          "image": "https://runescape.wiki/images/thumb/Pollnivneach.png/100px-Pollnivneach.png?f71b8"
+        },
+        {
+          "type": "item",
+          "name": "Ape Atoll",
+          "display": "South coast of Ape Atoll",
+          "image": "https://runescape.wiki/images/thumb/Ape_Atoll.png/100px-Ape_Atoll.png?c239b"
+        },
+        {
+          "type": "item",
+          "name": "Brimhaven",
+          "display": "South of Brimhaven",
+          "image": "https://runescape.wiki/images/thumb/Brimhaven.png/100px-Brimhaven.png?3790a"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Deposit_chest.png/100px-Deposit_chest.png?e6cf7"
     },
     {

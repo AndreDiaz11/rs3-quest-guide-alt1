@@ -3,7 +3,7 @@
   "title": "Ritual of the Mahjarrat",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:33.971Z",
+  "guideLastUpdated": "2026-07-08T21:45:23.961Z",
   "icon": "https://runescape.wiki/images/Ritual_of_the_Mahjarrat_icon.png",
   "entityIcon": "https://runescape.wiki/images/Ritual_of_the_Mahjarrat_entity_icon.png?812ff",
   "series": "Mahjarrat Mysteries",
@@ -291,7 +291,15 @@
     {
       "type": "item",
       "name": "Shards of Armadyl",
-      "display": "Glacors will now drop Shards of Armadyl, which can be used to craft Armadyl runes and the Armadyl battlestaff. Ability to create Armadyl runes and the Armadyl battlestaff.",
+      "display": "Glacors will now drop Shards of Armadyl, which can be used to craft Armadyl runes and the Armadyl battlestaff.",
+      "children": [
+        {
+          "type": "item",
+          "name": "Ability to create Armadyl runes and the Armadyl battlestaff.",
+          "display": "Ability to create Armadyl runes and the Armadyl battlestaff.",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Shards_of_Armadyl_detail.png/100px-Shards_of_Armadyl_detail.png?eb82d"
     },
     {
@@ -301,10 +309,18 @@
       "image": "https://runescape.wiki/images/thumb/Storm_of_Armadyl.gif/100px-Storm_of_Armadyl.gif?6f216"
     },
     {
-      "type": "xp",
-      "skill": "Mahjarrat Ritual Site",
-      "amount": null,
-      "display": "Access to the Mahjarrat Ritual Site and the majority of Zemouregal's fort. Returning to the ritual site and speaking to Arrav near the location of the northern beacon will grant the player 3,000 experience.",
+      "type": "item",
+      "name": "Mahjarrat Ritual Site",
+      "display": "Access to the Mahjarrat Ritual Site and the majority of Zemouregal's fort.",
+      "children": [
+        {
+          "type": "xp",
+          "skill": "Beacon (Ritual of the Mahjarrat)",
+          "amount": null,
+          "display": "Returning to the ritual site and speaking to Arrav near the location of the northern beacon will grant the player 3,000 experience.",
+          "image": "https://runescape.wiki/images/thumb/Beacon_%28Ritual_of_the_Mahjarrat%29_detail.png/100px-Beacon_%28Ritual_of_the_Mahjarrat%29_detail.png?479d1"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Mahjarrat_Ritual_Site.png/100px-Mahjarrat_Ritual_Site.png?b7086"
     },
     {

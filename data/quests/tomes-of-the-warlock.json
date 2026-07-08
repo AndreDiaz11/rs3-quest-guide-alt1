@@ -3,7 +3,7 @@
   "title": "Tomes of the Warlock",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:35.776Z",
+  "guideLastUpdated": "2026-07-08T21:45:36.350Z",
   "icon": "https://runescape.wiki/images/thumb/Tomes_of_the_Warlock_icon.png/50px-Tomes_of_the_Warlock_icon.png",
   "entityIcon": "https://runescape.wiki/images/Tomes_of_the_Warlock_entity_icon.png?5d464",
   "series": "The First Necromancer",
@@ -202,7 +202,33 @@
     {
       "type": "item",
       "name": "Incantations",
-      "display": "Ability to learn four ancient Necromancy incantations from the Well of Souls: Darkness Greater Bone Shield Invoke Death Life Transfer",
+      "display": "Ability to learn four ancient Necromancy incantations from the Well of Souls:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Darkness",
+          "display": "Darkness",
+          "image": "https://runescape.wiki/images/thumb/Darkness.gif/100px-Darkness.gif?3d06a"
+        },
+        {
+          "type": "item",
+          "name": "Greater Bone Shield",
+          "display": "Greater Bone Shield",
+          "image": "https://runescape.wiki/images/thumb/Greater_Bone_Shield.gif/100px-Greater_Bone_Shield.gif?cbdd9"
+        },
+        {
+          "type": "item",
+          "name": "Invoke Death",
+          "display": "Invoke Death",
+          "image": "https://runescape.wiki/images/thumb/Invoke_Death.gif/100px-Invoke_Death.gif?d1730"
+        },
+        {
+          "type": "item",
+          "name": "Life Transfer",
+          "display": "Life Transfer",
+          "image": "https://runescape.wiki/images/thumb/Life_Transfer.gif/100px-Life_Transfer.gif?e1ca6"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Incantations_icon.png/100px-Incantations_icon.png?3e55a"
     }
   ],

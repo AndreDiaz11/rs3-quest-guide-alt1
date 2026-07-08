@@ -3,7 +3,7 @@
   "title": "Observatory Quest",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:33.175Z",
+  "guideLastUpdated": "2026-07-08T21:45:20.134Z",
   "icon": "https://runescape.wiki/images/Observatory_Quest_icon.png",
   "entityIcon": null,
   "series": null,
@@ -78,11 +78,94 @@
       "image": "https://runescape.wiki/images/Crafting-icon.png?f224a"
     },
     {
-      "type": "xp",
-      "skill": "Uncut sapphire",
-      "amount": null,
-      "display": "Depending on the astrological sign you see through the telescope, you will receive one of these items: An uncut sapphire (Aquarius, Aries, Cancer, Capricorn, Gemini, Leo, Libra, Sagittarius, Scorpio, Taurus, Virgo, Pisces) 25 water runes (Aquarius) An amulet of defence (Cancer) A black two-handed sword (Gemini) 3 law runes (Libra) 3 fish pies or 3 tunas (Pisces) A maple shieldbow (Sagittarius) Weapon poison (Scorpio) Super strength (1) (Taurus) 875 experience lamp (Aries) 875 experience lamp (Capricorn) 875 experience lamp (Virgo) 875 experience lamp (Leo)",
-      "image": "https://runescape.wiki/images/thumb/Uncut_sapphire_detail.png/100px-Uncut_sapphire_detail.png?ec8e8"
+      "type": "item",
+      "name": "Depending on the astrological sign you see through the telescope, you will receive one of these items:",
+      "display": "Depending on the astrological sign you see through the telescope, you will receive one of these items:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Uncut sapphire",
+          "display": "An uncut sapphire (Aquarius, Aries, Cancer, Capricorn, Gemini, Leo, Libra, Sagittarius, Scorpio, Taurus, Virgo, Pisces)",
+          "image": "https://runescape.wiki/images/thumb/Uncut_sapphire_detail.png/100px-Uncut_sapphire_detail.png?ec8e8"
+        },
+        {
+          "type": "item",
+          "name": "Water rune",
+          "display": "25 water runes (Aquarius)",
+          "image": "https://runescape.wiki/images/thumb/Water_rune_detail.png/100px-Water_rune_detail.png?e14c8"
+        },
+        {
+          "type": "item",
+          "name": "Amulet of defence",
+          "display": "An amulet of defence (Cancer)",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "Black two-handed sword",
+          "display": "A black two-handed sword (Gemini)",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "Law rune",
+          "display": "3 law runes (Libra)",
+          "image": "https://runescape.wiki/images/thumb/Law_rune_detail.png/100px-Law_rune_detail.png?425e6"
+        },
+        {
+          "type": "item",
+          "name": "Fish pie",
+          "display": "3 fish pies or 3 tunas (Pisces)",
+          "image": "https://runescape.wiki/images/thumb/Fish_pie_detail.png/100px-Fish_pie_detail.png?2235e"
+        },
+        {
+          "type": "item",
+          "name": "Maple shieldbow",
+          "display": "A maple shieldbow (Sagittarius)",
+          "image": "https://runescape.wiki/images/thumb/Maple_shieldbow_detail.png/100px-Maple_shieldbow_detail.png?2315e"
+        },
+        {
+          "type": "item",
+          "name": "Weapon poison",
+          "display": "Weapon poison (Scorpio)",
+          "image": "https://runescape.wiki/images/thumb/Weapon_poison_%281%29_detail.png/100px-Weapon_poison_%281%29_detail.png?84975"
+        },
+        {
+          "type": "item",
+          "name": "Super strength",
+          "display": "Super strength (1) (Taurus)",
+          "image": "https://runescape.wiki/images/thumb/Super_strength_%281%29_detail.png/100px-Super_strength_%281%29_detail.png?e8840"
+        },
+        {
+          "type": "xp",
+          "skill": "Attack",
+          "amount": 875,
+          "display": "875 experience lamp (Aries)",
+          "image": "https://runescape.wiki/images/Attack-icon.png?93d2b"
+        },
+        {
+          "type": "xp",
+          "skill": "Strength",
+          "amount": 875,
+          "display": "875 experience lamp (Capricorn)",
+          "image": "https://runescape.wiki/images/Strength-icon.png?4b0ac"
+        },
+        {
+          "type": "xp",
+          "skill": "Defence",
+          "amount": 875,
+          "display": "875 experience lamp (Virgo)",
+          "image": "https://runescape.wiki/images/Defence-icon.png?8d986"
+        },
+        {
+          "type": "xp",
+          "skill": "Constitution",
+          "amount": 875,
+          "display": "875 experience lamp (Leo)",
+          "image": "https://runescape.wiki/images/Constitution-icon.png?bbf9a"
+        }
+      ],
+      "image": null
     },
     {
       "type": "item",

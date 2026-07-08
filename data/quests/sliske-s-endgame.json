@@ -3,7 +3,7 @@
   "title": "Sliske's Endgame",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:34.356Z",
+  "guideLastUpdated": "2026-07-08T21:45:26.142Z",
   "icon": "https://runescape.wiki/images/Sliske%27s_Endgame_icon.png",
   "entityIcon": "https://runescape.wiki/images/Sliske%27s_Endgame_entity_icon.png?a34ae",
   "series": "Sliske's Game",
@@ -184,11 +184,50 @@
       "image": "https://runescape.wiki/images/Stone-touched_lamp_detail.png?abf9d"
     },
     {
-      "type": "xp",
-      "skill": "Hunter's Catalyst fragment",
-      "amount": null,
-      "display": "A set of skilling items: A hunter's Catalyst fragment, which resets several hunter traps if they fail to catch any prey. A runecrafter's Catalyst fragment, which halves the degradation rate of runecrafting pouches. A farmer's Catalyst fragment, which allows diseased herbs to be picked for Farming experience in the form of shadow-infused herbs. The Ring of Whispers that gives a bonus to gathering skills. The Necklace of Shadows that stops familiars draining Summoning points after they have initially been summoned. A set effect of a manifested knowledge randomly spawning and providing bonus experience when all three items (after combining the Catalyst fragments into the combined Catalyst fragment) are worn.",
-      "image": "https://runescape.wiki/images/thumb/Combined_Catalyst_fragment_detail.png/100px-Combined_Catalyst_fragment_detail.png?db93b"
+      "type": "item",
+      "name": "A set of skilling items:",
+      "display": "A set of skilling items:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Hunter's Catalyst fragment",
+          "display": "A hunter's Catalyst fragment, which resets several hunter traps if they fail to catch any prey.",
+          "image": "https://runescape.wiki/images/thumb/Combined_Catalyst_fragment_detail.png/100px-Combined_Catalyst_fragment_detail.png?db93b"
+        },
+        {
+          "type": "item",
+          "name": "Runecrafter's Catalyst fragment",
+          "display": "A runecrafter's Catalyst fragment, which halves the degradation rate of runecrafting pouches.",
+          "image": "https://runescape.wiki/images/thumb/Combined_Catalyst_fragment_detail.png/100px-Combined_Catalyst_fragment_detail.png?db93b"
+        },
+        {
+          "type": "xp",
+          "skill": "Farmer's Catalyst fragment",
+          "amount": null,
+          "display": "A farmer's Catalyst fragment, which allows diseased herbs to be picked for Farming experience in the form of shadow-infused herbs.",
+          "image": "https://runescape.wiki/images/thumb/Farmer%27s_Catalyst_fragment_detail.png/100px-Farmer%27s_Catalyst_fragment_detail.png?739d5"
+        },
+        {
+          "type": "item",
+          "name": "Ring of Whispers",
+          "display": "The Ring of Whispers that gives a bonus to gathering skills.",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "Necklace of Shadows",
+          "display": "The Necklace of Shadows that stops familiars draining Summoning points after they have initially been summoned.",
+          "image": "https://runescape.wiki/images/Necklace_of_Shadows_detail.png?7d58f"
+        },
+        {
+          "type": "xp",
+          "skill": "Manifested knowledge",
+          "amount": null,
+          "display": "A set effect of a manifested knowledge randomly spawning and providing bonus experience when all three items (after combining the Catalyst fragments into the combined Catalyst fragment) are worn.",
+          "image": "https://runescape.wiki/images/thumb/Manifested_knowledge.png/100px-Manifested_knowledge.png?f3c94"
+        }
+      ],
+      "image": null
     },
     {
       "type": "item",

@@ -3,7 +3,7 @@
   "title": "A Fairy Tale III - Battle at Ork's Rift",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:29.979Z",
+  "guideLastUpdated": "2026-07-08T21:44:56.801Z",
   "icon": "https://runescape.wiki/images/A_Fairy_Tale_III_-_Battle_at_Ork%27s_Rift_icon.png",
   "entityIcon": "https://runescape.wiki/images/A_Fairy_Tale_III_-_Battle_at_Ork%27s_Rift_entity_icon.png?db8b6",
   "series": "Fairy",
@@ -206,7 +206,15 @@
     {
       "type": "item",
       "name": "Martin the Master Gardener",
-      "display": "Ability to have gardeners keep your farming patches weed free. First, talk to Martin the Master Gardener after the quest, then talk to a gardener at one of the patches. If any patch has preexisting weeds, you'll have to remove them before this takes effect.",
+      "display": "Ability to have gardeners keep your farming patches weed free. First, talk to Martin the Master Gardener after the quest, then talk to a gardener at one of the patches.",
+      "children": [
+        {
+          "type": "item",
+          "name": "If any patch has preexisting weeds, you'll have to remove them before this takes effect.",
+          "display": "If any patch has preexisting weeds, you'll have to remove them before this takes effect.",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Martin_the_Master_Gardener.png/100px-Martin_the_Master_Gardener.png?5b467"
     },
     {
@@ -224,7 +232,15 @@
     {
       "type": "item",
       "name": "Mos Le'Harmless",
-      "display": "Access to Mos Le'Harmless through K'Chunk's island; accessible from fairy ring code DIP. Requires 8 planks and 16 of any type of nail to repair the bridge which must be repaired from both sides.",
+      "display": "Access to Mos Le'Harmless through K'Chunk's island; accessible from fairy ring code DIP.",
+      "children": [
+        {
+          "type": "item",
+          "name": "Plank",
+          "display": "Requires 8 planks and 16 of any type of nail to repair the bridge which must be repaired from both sides.",
+          "image": "https://runescape.wiki/images/thumb/Plank_detail.png/100px-Plank_detail.png?b2fc0"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Mos_le%27harmless.png/100px-Mos_le%27harmless.png?fb1dd"
     },
     {
@@ -246,7 +262,39 @@
     {
       "type": "item",
       "name": "Herblore",
-      "display": "A cache of herbs and seeds requiring 85 Herblore (nb) by searching the mushroom patch in the 'south-eastern' section of Shredflesh's Cave (fairy ring ALP) containing: 7 grimy ranarr 7 grimy cadantine 7 grimy dwarf weed 2 ranarr seeds 2 dwarf weed seeds 3 cadantine seeds"
+      "display": "A cache of herbs and seeds requiring 85 Herblore (nb) by searching the mushroom patch in the 'south-eastern' section of Shredflesh's Cave (fairy ring ALP) containing:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Grimy ranarr",
+          "display": "7 grimy ranarr"
+        },
+        {
+          "type": "item",
+          "name": "Grimy cadantine",
+          "display": "7 grimy cadantine"
+        },
+        {
+          "type": "item",
+          "name": "Grimy dwarf weed",
+          "display": "7 grimy dwarf weed"
+        },
+        {
+          "type": "item",
+          "name": "Ranarr seed",
+          "display": "2 ranarr seeds"
+        },
+        {
+          "type": "item",
+          "name": "Dwarf weed seed",
+          "display": "2 dwarf weed seeds"
+        },
+        {
+          "type": "item",
+          "name": "Cadantine seed",
+          "display": "3 cadantine seeds"
+        }
+      ]
     }
   ],
   "steps": [

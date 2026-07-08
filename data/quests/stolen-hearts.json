@@ -3,7 +3,7 @@
   "title": "Stolen Hearts",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:34.516Z",
+  "guideLastUpdated": "2026-07-08T21:45:27.524Z",
   "icon": "https://runescape.wiki/images/Stolen_Hearts_icon.png",
   "entityIcon": "https://runescape.wiki/images/Stolen_Hearts_entity_icon.png?d4e2b",
   "series": "Ozan",
@@ -82,7 +82,33 @@
     {
       "type": "item",
       "name": "Titles",
-      "display": "Four titles, which can be changed by talking to Khnum in Draynor jail or through the title interface: Artful Dodger [Name] [Name] the Enforcer Don [Name] [Name] the Swindler",
+      "display": "Four titles, which can be changed by talking to Khnum in Draynor jail or through the title interface:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Artful Dodger",
+          "display": "Artful Dodger [Name]",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "The Enforcer",
+          "display": "[Name] the Enforcer",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "Don",
+          "display": "Don [Name]",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "The Swindler",
+          "display": "[Name] the Swindler",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Customisations_%28Titles%29_interface.png/100px-Customisations_%28Titles%29_interface.png?f6a3d"
     },
     {

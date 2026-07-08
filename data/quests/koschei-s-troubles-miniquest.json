@@ -3,7 +3,7 @@
   "title": "Koschei's Troubles (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:32.560Z",
+  "guideLastUpdated": "2026-07-08T21:45:17.063Z",
   "icon": "https://runescape.wiki/images/Koschei%27s_Troubles_%28miniquest%29_icon.png",
   "entityIcon": null,
   "series": null,
@@ -110,7 +110,33 @@
     {
       "type": "item",
       "name": "Balmung",
-      "display": "An enhanced Balmung axe, depending on the colour of gem made: Turning the jewel red will morph the Balmung into a Crimson Balmung. Turning the jewel blue will morph the Balmung into a Cobalt Balmung. Turning the jewel green will morph the Balmung into a Viridian Balmung. Using the \"Toggle-colour\" option to turn it into an Achromatic Balmung.",
+      "display": "An enhanced Balmung axe, depending on the colour of gem made:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Crimson Balmung",
+          "display": "Turning the jewel red will morph the Balmung into a Crimson Balmung.",
+          "image": "https://runescape.wiki/images/thumb/Crimson_Balmung_detail.png/100px-Crimson_Balmung_detail.png?8732a"
+        },
+        {
+          "type": "item",
+          "name": "Cobalt Balmung",
+          "display": "Turning the jewel blue will morph the Balmung into a Cobalt Balmung.",
+          "image": "https://runescape.wiki/images/thumb/Cobalt_Balmung_detail.png/100px-Cobalt_Balmung_detail.png?45c40"
+        },
+        {
+          "type": "item",
+          "name": "Viridian Balmung",
+          "display": "Turning the jewel green will morph the Balmung into a Viridian Balmung.",
+          "image": "https://runescape.wiki/images/thumb/Viridian_Balmung_detail.png/100px-Viridian_Balmung_detail.png?8732a"
+        },
+        {
+          "type": "item",
+          "name": "Achromatic Balmung",
+          "display": "Using the \"Toggle-colour\" option to turn it into an Achromatic Balmung.",
+          "image": "https://runescape.wiki/images/thumb/Achromatic_Balmung_detail.png/100px-Achromatic_Balmung_detail.png?b95e8"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Balmung_detail.png/100px-Balmung_detail.png?b3e51"
     }
   ],

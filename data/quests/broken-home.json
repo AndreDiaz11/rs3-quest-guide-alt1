@@ -3,7 +3,7 @@
   "title": "Broken Home",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.540Z",
+  "guideLastUpdated": "2026-07-08T21:45:02.970Z",
   "icon": "https://runescape.wiki/images/Broken_Home_icon.png",
   "entityIcon": "https://runescape.wiki/images/Broken_Home_entity_icon.png?faa37",
   "series": null,
@@ -70,7 +70,15 @@
     {
       "type": "item",
       "name": "Asylum doctor's ring",
-      "display": "An Asylum doctor's ring, that causes monsters to drop undercooked mystery meat Upgradable to the Asylum surgeon's ring if the post-quest challenges are completed",
+      "display": "An Asylum doctor's ring, that causes monsters to drop undercooked mystery meat",
+      "children": [
+        {
+          "type": "item",
+          "name": "Asylum surgeon's ring",
+          "display": "Upgradable to the Asylum surgeon's ring if the post-quest challenges are completed",
+          "image": "https://runescape.wiki/images/thumb/Asylum_surgeon%27s_ring_detail.png/100px-Asylum_surgeon%27s_ring_detail.png?6c809"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Asylum_doctor%27s_ring_detail.png/100px-Asylum_doctor%27s_ring_detail.png?2f51b"
     },
     {

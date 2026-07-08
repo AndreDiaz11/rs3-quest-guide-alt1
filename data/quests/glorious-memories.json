@@ -3,7 +3,7 @@
   "title": "Glorious Memories",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:31.960Z",
+  "guideLastUpdated": "2026-07-08T21:45:13.721Z",
   "icon": "https://runescape.wiki/images/Glorious_Memories_icon.png",
   "entityIcon": null,
   "series": "Fremennik",
@@ -220,7 +220,15 @@
       "type": "xp",
       "skill": "Skills",
       "amount": 2500,
-      "display": "2,500 experience lamp (Skill must be level 35 or higher) Only 1,250 experience is granted if used on elite skills"
+      "display": "2,500 experience lamp (Skill must be level 35 or higher)",
+      "children": [
+        {
+          "type": "xp",
+          "skill": "Skills",
+          "amount": null,
+          "display": "Only 1,250 experience is granted if used on elite skills"
+        }
+      ]
     }
   ],
   "steps": [

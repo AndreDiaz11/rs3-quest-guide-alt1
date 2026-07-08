@@ -3,7 +3,7 @@
   "title": "The Firemaker's Curse",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:35.083Z",
+  "guideLastUpdated": "2026-07-08T21:45:32.030Z",
   "icon": "https://runescape.wiki/images/The_Firemaker%27s_Curse_icon.png",
   "entityIcon": "https://runescape.wiki/images/The_Firemaker%27s_Curse_entity_icon.png?812ff",
   "series": null,
@@ -119,7 +119,15 @@
     {
       "type": "item",
       "name": "Char's training cave",
-      "display": "Access to Char's training cave (with level 91 or higher Firemaking). Ability to collect the four fire creature pets (Warming Flame, Twisted Firestarter, Glowing Ember, and Searing Flame).",
+      "display": "Access to Char's training cave (with level 91 or higher Firemaking).",
+      "children": [
+        {
+          "type": "item",
+          "name": "Fire creatures",
+          "display": "Ability to collect the four fire creature pets (Warming Flame, Twisted Firestarter, Glowing Ember, and Searing Flame).",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Char%27s_training_cave.png/100px-Char%27s_training_cave.png?4fb2b"
     },
     {

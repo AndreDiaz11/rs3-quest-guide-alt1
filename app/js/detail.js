@@ -243,10 +243,18 @@ function renderStepImageGroup(step) {
   return wrap;
 }
 
+/** Renders one reward line and, recursively, its own indented sub-list (e.g. "Access to the following areas:" -> Mogre Camp / Evil Chicken's Lair) — matching the wiki's own nested list instead of flattening it into one line. */
 function renderRewardRow(reward) {
   const li = el("li");
-  if (reward.image) li.appendChild(el("img", { src: reward.image, alt: reward.name || "" }));
-  li.appendChild(document.createTextNode(reward.display));
+  const row = el("div", { class: "rewards-row" });
+  if (reward.image) row.appendChild(el("img", { src: reward.image, alt: reward.name || "" }));
+  row.appendChild(document.createTextNode(reward.display));
+  li.appendChild(row);
+  if (reward.children?.length) {
+    const childUl = el("ul", { class: "rewards-list rewards-sublist" });
+    reward.children.forEach((child) => childUl.appendChild(renderRewardRow(child)));
+    li.appendChild(childUl);
+  }
   return li;
 }
 

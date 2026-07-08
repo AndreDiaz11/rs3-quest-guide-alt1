@@ -3,7 +3,7 @@
   "title": "Dishonour among Thieves",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:31.273Z",
+  "guideLastUpdated": "2026-07-08T21:45:09.876Z",
   "icon": "https://runescape.wiki/images/Dishonour_among_Thieves_icon.png",
   "entityIcon": "https://runescape.wiki/images/Dishonour_among_Thieves_entity_icon.png?fbf70",
   "series": "Sliske's Game",
@@ -240,7 +240,33 @@
     {
       "type": "item",
       "name": "Jerrod's cape",
-      "display": "Jerrod's cape (override) and its permanent passive effects: 80% chance to note the items stolen from Bakery Stalls (works on free worlds) Replaces gem drops from the safes in the Rogues' Den with noted gems Triples the amount of coins you get from the Rogues' Den Coshing volunteers in the Thieves' Guild yield items from the rogue's pickpocket drop table",
+      "display": "Jerrod's cape (override) and its permanent passive effects:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Bakery Stall",
+          "display": "80% chance to note the items stolen from Bakery Stalls (works on free worlds)",
+          "image": "https://runescape.wiki/images/thumb/Bakery_Stall_%28Lumbridge%29.png/100px-Bakery_Stall_%28Lumbridge%29.png?7472a"
+        },
+        {
+          "type": "item",
+          "name": "Safe",
+          "display": "Replaces gem drops from the safes in the Rogues' Den with noted gems",
+          "image": "https://runescape.wiki/images/thumb/Safe.png/100px-Safe.png?a6c12"
+        },
+        {
+          "type": "item",
+          "name": "Triples the amount of coins you get from the Rogues' Den",
+          "display": "Triples the amount of coins you get from the Rogues' Den",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "Coshing volunteer",
+          "display": "Coshing volunteers in the Thieves' Guild yield items from the rogue's pickpocket drop table",
+          "image": "https://runescape.wiki/images/thumb/Coshing_volunteer.png/100px-Coshing_volunteer.png?ad856"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Jerrod%27s_cape_detail.png/100px-Jerrod%27s_cape_detail.png?dc4a1"
     },
     {

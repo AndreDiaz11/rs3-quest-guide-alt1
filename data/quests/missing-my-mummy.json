@@ -3,7 +3,7 @@
   "title": "Missing My Mummy",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:32.845Z",
+  "guideLastUpdated": "2026-07-08T21:45:18.893Z",
   "icon": "https://runescape.wiki/images/Missing_My_Mummy_icon.png",
   "entityIcon": null,
   "series": "Desert",
@@ -203,9 +203,47 @@
   "postQuest": [
     {
       "type": "xp",
-      "skill": "Cooking",
+      "skill": null,
       "amount": null,
-      "display": "Experience earned while completing the mummy: 2,100 experience 2,100 experience 5,000 experience 6,500 experience 3,350 experience 3,000 experience"
+      "display": "Experience earned while completing the mummy:",
+      "children": [
+        {
+          "type": "xp",
+          "skill": "Cooking",
+          "amount": 2100,
+          "display": "2,100 experience"
+        },
+        {
+          "type": "xp",
+          "skill": "Construction",
+          "amount": 2100,
+          "display": "2,100 experience"
+        },
+        {
+          "type": "xp",
+          "skill": "Magic",
+          "amount": 5000,
+          "display": "5,000 experience"
+        },
+        {
+          "type": "xp",
+          "skill": "Prayer",
+          "amount": 6500,
+          "display": "6,500 experience"
+        },
+        {
+          "type": "xp",
+          "skill": "Crafting",
+          "amount": 3350,
+          "display": "3,350 experience"
+        },
+        {
+          "type": "xp",
+          "skill": "Thieving",
+          "amount": 3000,
+          "display": "3,000 experience"
+        }
+      ]
     },
     {
       "type": "item",

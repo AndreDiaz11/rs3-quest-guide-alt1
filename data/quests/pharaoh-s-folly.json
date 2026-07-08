@@ -3,7 +3,7 @@
   "title": "Pharaoh's Folly",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:33.445Z",
+  "guideLastUpdated": "2026-07-08T21:45:22.268Z",
   "icon": "https://runescape.wiki/images/thumb/Pharaoh%27s_Folly_icon.png/50px-Pharaoh%27s_Folly_icon.png",
   "entityIcon": "https://runescape.wiki/images/Pharaoh%27s_Folly_entity_icon.png?7715d",
   "series": "Desert",
@@ -245,11 +245,56 @@
       "image": null
     },
     {
-      "type": "xp",
-      "skill": "Corrupted Scarab (Menaphos)",
-      "amount": null,
-      "display": "The following passive effects: 20% less damage from Corrupted Scarabs and soul obelisks. 5% boost to the number of runes created at the soul altar, plus a 5% experience boost. 2.5x increase to reputation gain in Menaphos. 4% extra chance to save a feather of Ma'at. 5% increase in ushabti catch rate (regular and cursed). 10% increase in experience and movement ability cooldown halved in the Shifting Tombs. (Stacks with Shadow's Grace or Mobile, resulting in a cooldown of 5.4 seconds.) Improved drop rates for objects needed for Jewels of the Elid and Insects of the Desert.",
-      "image": "https://runescape.wiki/images/thumb/Corrupted_Scarab_%28Menaphos%29.png/100px-Corrupted_Scarab_%28Menaphos%29.png?d4cda"
+      "type": "item",
+      "name": "The following passive effects:",
+      "display": "The following passive effects:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Corrupted Scarab (Menaphos)",
+          "display": "20% less damage from Corrupted Scarabs and soul obelisks.",
+          "image": "https://runescape.wiki/images/thumb/Corrupted_Scarab_%28Menaphos%29.png/100px-Corrupted_Scarab_%28Menaphos%29.png?d4cda"
+        },
+        {
+          "type": "xp",
+          "skill": "Soul altar",
+          "amount": 5,
+          "display": "5% boost to the number of runes created at the soul altar, plus a 5% experience boost.",
+          "image": "https://runescape.wiki/images/thumb/Soul_Altar_inside.png/100px-Soul_Altar_inside.png?37dcf"
+        },
+        {
+          "type": "item",
+          "name": "Reputation (Menaphos)",
+          "display": "2.5x increase to reputation gain in Menaphos.",
+          "image": "https://runescape.wiki/images/thumb/Menaphos_reputation.png/100px-Menaphos_reputation.png?63157"
+        },
+        {
+          "type": "item",
+          "name": "Feather of Ma'at",
+          "display": "4% extra chance to save a feather of Ma'at.",
+          "image": "https://runescape.wiki/images/thumb/Feather_of_Ma%27at_detail.png/100px-Feather_of_Ma%27at_detail.png?02b2e"
+        },
+        {
+          "type": "item",
+          "name": "Ushabti",
+          "display": "5% increase in ushabti catch rate (regular and cursed).",
+          "image": "https://runescape.wiki/images/thumb/Ushabti_detail.png/100px-Ushabti_detail.png?4e646"
+        },
+        {
+          "type": "xp",
+          "skill": "Experience",
+          "amount": 10,
+          "display": "10% increase in experience and movement ability cooldown halved in the Shifting Tombs. (Stacks with Shadow's Grace or Mobile, resulting in a cooldown of 5.4 seconds.)",
+          "image": "https://runescape.wiki/images/thumb/Levelling_up.gif/100px-Levelling_up.gif?38432"
+        },
+        {
+          "type": "item",
+          "name": "Jewels of the Elid",
+          "display": "Improved drop rates for objects needed for Jewels of the Elid and Insects of the Desert.",
+          "image": null
+        }
+      ],
+      "image": null
     },
     {
       "type": "item",

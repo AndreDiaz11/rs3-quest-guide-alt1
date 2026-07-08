@@ -3,7 +3,7 @@
   "title": "Rune Memories",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:34.102Z",
+  "guideLastUpdated": "2026-07-08T21:45:24.701Z",
   "icon": "https://runescape.wiki/images/Rune_Memories_icon.png",
   "entityIcon": "https://runescape.wiki/images/Rune_Memories_entity_icon.png?52565",
   "series": "Ariane",
@@ -77,7 +77,27 @@
     {
       "type": "item",
       "name": "Archmage Sedridor",
-      "display": "Access to Archmage Sedridor's personal rune chest For every level reached in Runecrafting, pure essence will be placed into the chest for you equal to five times your new Runecrafting level. This adds up to 2.5×level×(level+1) pure essence when first opened, where level is your current Runecrafting level. More pure essence will be added even after it is opened, and there is no benefit or detriment whatsoever in waiting to increase your runecrafting level to use the chest.",
+      "display": "Access to Archmage Sedridor's personal rune chest",
+      "children": [
+        {
+          "type": "item",
+          "name": "Pure essence",
+          "display": "For every level reached in Runecrafting, pure essence will be placed into the chest for you equal to five times your new Runecrafting level.",
+          "image": "https://runescape.wiki/images/thumb/Pure_essence_detail.png/100px-Pure_essence_detail.png?8223c"
+        },
+        {
+          "type": "item",
+          "name": "This adds up to 2.5×level×(level+1) pure essence when first opened, where level is your current Runecrafting level.",
+          "display": "This adds up to 2.5×level×(level+1) pure essence when first opened, where level is your current Runecrafting level.",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "More pure essence will be added even after it is opened, and there is no benefit or detriment whatsoever in waiting to increase your runecrafting level to use the chest.",
+          "display": "More pure essence will be added even after it is opened, and there is no benefit or detriment whatsoever in waiting to increase your runecrafting level to use the chest.",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Archmage_Sedridor.png/100px-Archmage_Sedridor.png?cd092"
     },
     {

@@ -3,7 +3,7 @@
   "title": "Lunar Diplomacy",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:32.765Z",
+  "guideLastUpdated": "2026-07-08T21:45:17.892Z",
   "icon": "https://runescape.wiki/images/Lunar_Diplomacy_icon.png",
   "entityIcon": null,
   "series": "Fremennik",
@@ -149,7 +149,27 @@
     {
       "type": "item",
       "name": "Lunar Isle",
-      "display": "Full access to Lunar Isle Use of the Astral altar Access to Livid Farm Ability to buy astral runes from Baba Yaga",
+      "display": "Full access to Lunar Isle",
+      "children": [
+        {
+          "type": "item",
+          "name": "Astral altar",
+          "display": "Use of the Astral altar",
+          "image": "https://runescape.wiki/images/thumb/Astral_Altar.png/100px-Astral_Altar.png?a2669"
+        },
+        {
+          "type": "item",
+          "name": "Livid Farm",
+          "display": "Access to Livid Farm",
+          "image": "https://runescape.wiki/images/thumb/Livid_Farm.png/100px-Livid_Farm.png?4ea4e"
+        },
+        {
+          "type": "item",
+          "name": "Ability to buy astral runes from Baba Yaga",
+          "display": "Ability to buy astral runes from Baba Yaga",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Lunar_Isle.png/100px-Lunar_Isle.png?8c40d"
     },
     {

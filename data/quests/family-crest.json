@@ -3,7 +3,7 @@
   "title": "Family Crest",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:31.733Z",
+  "guideLastUpdated": "2026-07-08T21:45:12.566Z",
   "icon": "https://runescape.wiki/images/Family_Crest_icon.png",
   "entityIcon": null,
   "series": null,
@@ -144,7 +144,21 @@
     {
       "type": "item",
       "name": "Family gauntlets",
-      "display": "Family gauntlets, which can then be enchanted into chaos, cooking, or smelting gauntlets. To change the enchantment on the gauntlets, use the right-click switch option for 25,000 coins each time. To own all three versions simultaneously, first speak with Dimintheis about buying new steel gauntlets, then visit the other two respective brothers and pay them 1,000,000 coins each. If players drop or destroy the family gauntlets immediately upon receiving them to reclaim them from Dimintheis, Dimintheis gives back both the cooking and smelting gauntlets. This may be a way to only have to pay 1,000,000 coins for the chaos gauntlets if desired.",
+      "display": "Family gauntlets, which can then be enchanted into chaos, cooking, or smelting gauntlets.",
+      "children": [
+        {
+          "type": "item",
+          "name": "To change the enchantment on the gauntlets, use the right-click switch option for 25,000 coins each time. To own all three versions simultaneously, first speak with Dimintheis about buying new steel gauntlets, then visit the other two respective brothers and pay them 1,000,000 coins each.",
+          "display": "To change the enchantment on the gauntlets, use the right-click switch option for 25,000 coins each time. To own all three versions simultaneously, first speak with Dimintheis about buying new steel gauntlets, then visit the other two respective brothers and pay them 1,000,000 coins each.",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "If players drop or destroy the family gauntlets immediately upon receiving them to reclaim them from Dimintheis, Dimintheis gives back both the cooking and smelting gauntlets. This may be a way to only have to pay 1,000,000 coins for the chaos gauntlets if desired.",
+          "display": "If players drop or destroy the family gauntlets immediately upon receiving them to reclaim them from Dimintheis, Dimintheis gives back both the cooking and smelting gauntlets. This may be a way to only have to pay 1,000,000 coins for the chaos gauntlets if desired.",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/Family_gauntlets_detail.png?d8fbc"
     }
   ],

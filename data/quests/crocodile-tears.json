@@ -3,7 +3,7 @@
   "title": "Crocodile Tears",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.828Z",
+  "guideLastUpdated": "2026-07-08T21:45:06.034Z",
   "icon": "https://runescape.wiki/images/Crocodile_Tears_icon.png",
   "entityIcon": "https://runescape.wiki/images/Crocodile_Tears_entity_icon.png?fbf70",
   "series": "Desert",
@@ -298,10 +298,27 @@
   "rewardBannerImage": "https://runescape.wiki/images/Crocodile_Tears_reward.png?3d5f4",
   "postQuest": [
     {
-      "type": "xp",
-      "skill": "Crondis tomb",
-      "amount": null,
-      "display": "Access to the Crondis tomb containing: Nekhakha Crondis mask 20,000 experience for entering the tomb for the first time"
+      "type": "item",
+      "name": "Crondis tomb",
+      "display": "Access to the Crondis tomb containing:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Nekhakha",
+          "display": "Nekhakha"
+        },
+        {
+          "type": "item",
+          "name": "Crondis mask",
+          "display": "Crondis mask"
+        },
+        {
+          "type": "xp",
+          "skill": "Constitution",
+          "amount": 20000,
+          "display": "20,000 experience for entering the tomb for the first time"
+        }
+      ]
     }
   ],
   "steps": [

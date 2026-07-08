@@ -3,7 +3,7 @@
   "title": "The Branches of Darkmeyer",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:34.816Z",
+  "guideLastUpdated": "2026-07-08T21:45:30.567Z",
   "icon": "https://runescape.wiki/images/The_Branches_of_Darkmeyer_icon.png",
   "entityIcon": "https://runescape.wiki/images/The_Branches_of_Darkmeyer_entity_icon.png?812ff",
   "series": "Myreque",
@@ -167,7 +167,16 @@
       "type": "xp",
       "skill": "Skills",
       "amount": 150000,
-      "display": "150,000 experience tome (3x 50,000 experience - Skill must be level 60 or higher) Only 75,000 experience is granted if used on elite skills (3x 25,000 experience)",
+      "display": "150,000 experience tome (3x 50,000 experience - Skill must be level 60 or higher)",
+      "children": [
+        {
+          "type": "xp",
+          "skill": "Skills",
+          "amount": null,
+          "display": "Only 75,000 experience is granted if used on elite skills (3x 25,000 experience)",
+          "image": "https://runescape.wiki/images/thumb/Skill_screen.png/100px-Skill_screen.png?ef4b3"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Skill_screen.png/100px-Skill_screen.png?ef4b3"
     },
     {
@@ -191,7 +200,33 @@
     {
       "type": "item",
       "name": "Titles",
-      "display": "A new title depending on your status bar progress Vyreling [Name] (0–24%) Vyre Grunt [Name] (25–49%) Vyrewatch [Name] (50–99%) Vyrelord / Vyrelady [Name] (100%)",
+      "display": "A new title depending on your status bar progress",
+      "children": [
+        {
+          "type": "item",
+          "name": "Vyreling",
+          "display": "Vyreling [Name] (0–24%)",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "Vyre Grunt",
+          "display": "Vyre Grunt [Name] (25–49%)",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "Vyrewatch (title)",
+          "display": "Vyrewatch [Name] (50–99%)",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "Vyrelord/Vyrelady",
+          "display": "Vyrelord / Vyrelady [Name] (100%)",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Customisations_%28Titles%29_interface.png/100px-Customisations_%28Titles%29_interface.png?f6a3d"
     },
     {

@@ -3,7 +3,7 @@
   "title": "Blood Runs Deep",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.462Z",
+  "guideLastUpdated": "2026-07-08T21:45:02.270Z",
   "icon": "https://runescape.wiki/images/thumb/Blood_Runs_Deep_icon.png/50px-Blood_Runs_Deep_icon.png",
   "entityIcon": null,
   "series": "Fremennik",
@@ -147,7 +147,27 @@
     {
       "type": "item",
       "name": "Balmung",
-      "display": "The Balmung, a two-handed melee weapon with special passive abilities when used against dagannoths (enhanced through the Koschei's Troubles miniquest); 25% (45%) extra damage with auto attacks (15% (35%) against Dagannoth Supreme) 12.5% (22.5%) extra damage with with abilities (7.5% (17.5%) against Dagannoth Supreme) 30% (45%) increase in hit chance",
+      "display": "The Balmung, a two-handed melee weapon with special passive abilities when used against dagannoths (enhanced through the Koschei's Troubles miniquest);",
+      "children": [
+        {
+          "type": "item",
+          "name": "25% (45%) extra damage with auto attacks (15% (35%) against Dagannoth Supreme)",
+          "display": "25% (45%) extra damage with auto attacks (15% (35%) against Dagannoth Supreme)",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "12.5% (22.5%) extra damage with with abilities (7.5% (17.5%) against Dagannoth Supreme)",
+          "display": "12.5% (22.5%) extra damage with with abilities (7.5% (17.5%) against Dagannoth Supreme)",
+          "image": null
+        },
+        {
+          "type": "item",
+          "name": "30% (45%) increase in hit chance",
+          "display": "30% (45%) increase in hit chance",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Balmung_detail.png/100px-Balmung_detail.png?b3e51"
     },
     {

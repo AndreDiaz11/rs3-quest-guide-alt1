@@ -3,7 +3,7 @@
   "title": "A Guild of Our Own (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:29.998Z",
+  "guideLastUpdated": "2026-07-08T21:44:57.128Z",
   "icon": "https://runescape.wiki/images/A_Guild_of_Our_Own_%28miniquest%29_icon.png",
   "entityIcon": "https://runescape.wiki/images/A_Guild_of_Our_Own_%28miniquest%29_entity_icon.png?6471d",
   "series": "Thieves' Guild",
@@ -107,7 +107,15 @@
     {
       "type": "item",
       "name": "Vial of stench",
-      "display": "Ability to mix vials of stench If players take the vial of stench (a) from the quest back to Chief Thief Robin, he re-enchants it so players can sell stolen goods to shopkeepers as long as they have the potion in the backpack",
+      "display": "Ability to mix vials of stench",
+      "children": [
+        {
+          "type": "item",
+          "name": "Vial of stench (a) (A Guild of Our Own)",
+          "display": "If players take the vial of stench (a) from the quest back to Chief Thief Robin, he re-enchants it so players can sell stolen goods to shopkeepers as long as they have the potion in the backpack",
+          "image": "https://runescape.wiki/images/thumb/Vial_of_stench_%28a%29_%28A_Guild_of_Our_Own%29_detail.png/100px-Vial_of_stench_%28a%29_%28A_Guild_of_Our_Own%29_detail.png?222b3"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Vial_of_stench_detail.png/100px-Vial_of_stench_detail.png?58485"
     },
     {

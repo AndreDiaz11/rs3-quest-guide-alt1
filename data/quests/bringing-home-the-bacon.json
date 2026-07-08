@@ -3,7 +3,7 @@
   "title": "Bringing Home the Bacon",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.515Z",
+  "guideLastUpdated": "2026-07-08T21:45:02.627Z",
   "icon": "https://runescape.wiki/images/Bringing_Home_the_Bacon_icon.png",
   "entityIcon": "https://runescape.wiki/images/Bringing_Home_the_Bacon_entity_icon.png?faa37",
   "series": null,
@@ -136,13 +136,47 @@
     {
       "type": "item",
       "name": "Bacon",
-      "display": "Ability to cook and eat bacon, bacon stacks, piles, heaps and mounds. Ability to create pork pie. Ability to brew pigswill.",
+      "display": "Ability to cook and eat bacon, bacon stacks, piles, heaps and mounds.",
+      "children": [
+        {
+          "type": "item",
+          "name": "Pork pie",
+          "display": "Ability to create pork pie.",
+          "image": "https://runescape.wiki/images/thumb/Pork_pie_detail.png/100px-Pork_pie_detail.png?19005"
+        },
+        {
+          "type": "item",
+          "name": "Pigswill",
+          "display": "Ability to brew pigswill.",
+          "image": "https://runescape.wiki/images/thumb/Pigswill_detail.png/100px-Pigswill_detail.png?216af"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Bacon_detail.png/100px-Bacon_detail.png?04c0f"
     },
     {
       "type": "item",
       "name": "Summoning familiars",
-      "display": "Ability to make three pig familiars: Spirit pack pig Spirit prayer pig Spirit war pig",
+      "display": "Ability to make three pig familiars:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Spirit pack pig",
+          "display": "Spirit pack pig",
+          "image": "https://runescape.wiki/images/thumb/Spirit_pack_pig.png/100px-Spirit_pack_pig.png?43b1c"
+        },
+        {
+          "type": "item",
+          "name": "Spirit prayer pig",
+          "display": "Spirit prayer pig",
+          "image": "https://runescape.wiki/images/thumb/Spirit_prayer_pig.png/100px-Spirit_prayer_pig.png?c0686"
+        },
+        {
+          "type": "item",
+          "name": "Spirit war pig",
+          "display": "Spirit war pig",
+          "image": "https://runescape.wiki/images/thumb/Spirit_war_pig.png/100px-Spirit_war_pig.png?e182e"
+        }
+      ],
       "image": null
     },
     {

@@ -3,7 +3,7 @@
   "title": "Desert Slayer Dungeon (miniquest)",
   "isMiniquest": true,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:31.024Z",
+  "guideLastUpdated": "2026-07-08T21:45:08.071Z",
   "icon": "https://runescape.wiki/images/Desert_Slayer_Dungeon_%28miniquest%29_icon.png",
   "entityIcon": null,
   "series": null,
@@ -128,9 +128,35 @@
     },
     {
       "type": "item",
-      "name": "Cave crawler",
-      "display": "Ability to enter four rooms, each room filled a certain creature: Cave crawlers Basilisks Turoths Kurasks",
-      "image": "https://runescape.wiki/images/thumb/Cave_crawler.png/100px-Cave_crawler.png?6a348"
+      "name": "Ability to enter four rooms, each room filled a certain creature:",
+      "display": "Ability to enter four rooms, each room filled a certain creature:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Cave crawler",
+          "display": "Cave crawlers",
+          "image": "https://runescape.wiki/images/thumb/Cave_crawler.png/100px-Cave_crawler.png?6a348"
+        },
+        {
+          "type": "item",
+          "name": "Basilisk",
+          "display": "Basilisks",
+          "image": "https://runescape.wiki/images/thumb/Basilisk.png/100px-Basilisk.png?edd44"
+        },
+        {
+          "type": "item",
+          "name": "Turoth",
+          "display": "Turoths",
+          "image": "https://runescape.wiki/images/thumb/Turoth_%28young%29.png/100px-Turoth_%28young%29.png?b3fba"
+        },
+        {
+          "type": "item",
+          "name": "Kurask",
+          "display": "Kurasks",
+          "image": "https://runescape.wiki/images/thumb/Kurask.png/100px-Kurask.png?d8c19"
+        }
+      ],
+      "image": null
     }
   ],
   "rewardBannerImage": "https://runescape.wiki/images/Desert_Slayer_Dungeon_%28miniquest%29_reward.png?e4857",

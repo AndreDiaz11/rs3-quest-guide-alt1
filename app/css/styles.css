@@ -838,10 +838,31 @@ h1, h2, .app-title-font {
 }
 
 .rewards-list li {
+  position: relative;
+  padding: 2px 0 2px 14px;
+}
+
+.rewards-list > li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--muted);
+}
+
+.rewards-row {
   display: flex;
   align-items: center;
   gap: 6px;
-  padding: 2px 0;
+}
+
+.rewards-sublist {
+  margin: 2px 0 2px 20px;
+  padding-left: 12px;
+  border-left: 1px dotted var(--border);
+}
+
+.rewards-sublist > li::before {
+  content: "–";
 }
 
 .items-plain-list img,

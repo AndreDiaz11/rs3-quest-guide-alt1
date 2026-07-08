@@ -3,7 +3,7 @@
   "title": "The Blood Pact",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:34.783Z",
+  "guideLastUpdated": "2026-07-08T21:45:29.923Z",
   "icon": "https://runescape.wiki/images/The_Blood_Pact_icon.png",
   "entityIcon": "https://runescape.wiki/images/The_Blood_Pact_entity_icon.png?812ff",
   "series": null,
@@ -50,7 +50,27 @@
     {
       "type": "item",
       "name": "Lumbridge Catacombs",
-      "display": "Access to the Lumbridge Catacombs, which include: The mask of Dragith Nurn (The 5 parts it can be assembled from can be found by killing the monsters in the catacombs) 6 demon statuettes in the catacombs, which Xenia will buy from you for a total of 2,500 coins Xenia can also tell you history about the Catacombs and Dragith Nurn",
+      "display": "Access to the Lumbridge Catacombs, which include:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Mask of Dragith Nurn",
+          "display": "The mask of Dragith Nurn (The 5 parts it can be assembled from can be found by killing the monsters in the catacombs)",
+          "image": "https://runescape.wiki/images/thumb/Mask_of_Dragith_Nurn_detail.png/100px-Mask_of_Dragith_Nurn_detail.png?396c8"
+        },
+        {
+          "type": "item",
+          "name": "Demon statuette",
+          "display": "6 demon statuettes in the catacombs, which Xenia will buy from you for a total of 2,500 coins",
+          "image": "https://runescape.wiki/images/thumb/Demon_statuette_detail.png/100px-Demon_statuette_detail.png?fe309"
+        },
+        {
+          "type": "item",
+          "name": "Dragith Nurn",
+          "display": "Xenia can also tell you history about the Catacombs and Dragith Nurn",
+          "image": "https://runescape.wiki/images/thumb/Dragith_Nurn.png/100px-Dragith_Nurn.png?1cc8a"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Lumbridge_Catacombs.png/100px-Lumbridge_Catacombs.png?6a9e9"
     },
     {

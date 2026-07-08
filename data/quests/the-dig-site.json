@@ -3,7 +3,7 @@
   "title": "The Dig Site",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:35.004Z",
+  "guideLastUpdated": "2026-07-08T21:45:31.653Z",
   "icon": "https://runescape.wiki/images/The_Dig_Site_icon.png",
   "entityIcon": "https://runescape.wiki/images/The_Dig_Site_entity_icon.png?812ff",
   "series": "Mahjarrat Mysteries",
@@ -112,7 +112,27 @@
     {
       "type": "item",
       "name": "Terry Balando",
-      "display": "Talk to Terry Balando with either 75 Magic, 75 Ranged, or 91 Constitution to obtain the Codex Ultimatus, which when read, unlocks 3 ancient abilities: Shadow Tendrils - An enhanced ability requiring 75 Ranged Smoke Tendrils - An enhanced ability requiring 75 Magic Ice Asylum - An ultimate ability requiring 91 Constitution",
+      "display": "Talk to Terry Balando with either 75 Magic, 75 Ranged, or 91 Constitution to obtain the Codex Ultimatus, which when read, unlocks 3 ancient abilities:",
+      "children": [
+        {
+          "type": "item",
+          "name": "Shadow Tendrils",
+          "display": "Shadow Tendrils - An enhanced ability requiring 75 Ranged",
+          "image": "https://runescape.wiki/images/thumb/Shadow_Tendrils.gif/100px-Shadow_Tendrils.gif?d30b5"
+        },
+        {
+          "type": "item",
+          "name": "Smoke Tendrils",
+          "display": "Smoke Tendrils - An enhanced ability requiring 75 Magic",
+          "image": "https://runescape.wiki/images/thumb/Smoke_Tendrils.gif/100px-Smoke_Tendrils.gif?4fafd"
+        },
+        {
+          "type": "item",
+          "name": "Ice Asylum",
+          "display": "Ice Asylum - An ultimate ability requiring 91 Constitution",
+          "image": "https://runescape.wiki/images/thumb/Ice_Asylum.gif/100px-Ice_Asylum.gif?f1ca8"
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Terry_Balando.png/100px-Terry_Balando.png?c0756"
     },
     {

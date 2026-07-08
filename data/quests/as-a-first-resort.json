@@ -3,7 +3,7 @@
   "title": "As a First Resort",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-08T21:14:30.207Z",
+  "guideLastUpdated": "2026-07-08T21:44:59.235Z",
   "icon": "https://runescape.wiki/images/As_a_First_Resort_icon.png",
   "entityIcon": null,
   "series": "Ogre",
@@ -157,7 +157,15 @@
     {
       "type": "item",
       "name": "Platypus",
-      "display": "Access to the platypus summoning pet (requires 10 Summoning). If you release your pet in the spot you released the others during the quest you will receive another casket or oyster",
+      "display": "Access to the platypus summoning pet (requires 10 Summoning).",
+      "children": [
+        {
+          "type": "item",
+          "name": "If you release your pet in the spot you released the others during the quest you will receive another casket or oyster",
+          "display": "If you release your pet in the spot you released the others during the quest you will receive another casket or oyster",
+          "image": null
+        }
+      ],
       "image": "https://runescape.wiki/images/thumb/Baby_platypus_%28brown%29_pet.png/100px-Baby_platypus_%28brown%29_pet.png?ba645"
     },
     {

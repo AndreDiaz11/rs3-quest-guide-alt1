@@ -193,13 +193,20 @@ export async function buildQuestRecord({
   // any xp-reward "skill" that isn't a real skill (lamps, one-off items —
   // e.g. "Mysterious lamp" — misclassified as type "xp" during scraping,
   // same as real skills like "Smithing" which get their icon for free below).
+  // Reward lines can have their own nested sub-list (see parseRewards.js's
+  // `children`) — flatten recursively so nested items/skills get icons too.
+  function flattenRewardNames(nodes) {
+    return nodes.flatMap((r) => [
+      ...(r.type === "item" ? [r.name] : []),
+      ...(r.type === "xp" && r.skill && !skillIconsLower.has(r.skill.toLowerCase()) ? [r.skill] : []),
+      ...(r.children ? flattenRewardNames(r.children) : []),
+    ]);
+  }
+
   const itemNames = flattenItemNames(metadata.items);
   const recommendedNames = flattenItemNames(metadata.recommended);
-  const rewardNames = rewardsData.rewards.filter((r) => r.type === "item").map((r) => r.name);
-  const xpNonSkillNames = rewardsData.rewards
-    .filter((r) => r.type === "xp" && r.skill && !skillIconsLower.has(r.skill.toLowerCase()))
-    .map((r) => r.skill);
-  const imageMap = await resolveImages([...itemNames, ...recommendedNames, ...rewardNames, ...xpNonSkillNames]);
+  const rewardAndXpNames = flattenRewardNames(rewardsData.rewards);
+  const imageMap = await resolveImages([...itemNames, ...recommendedNames, ...rewardAndXpNames]);
 
   const items = attachItemImages(metadata.items);
   const recommended = attachItemImages(metadata.recommended);
@@ -214,14 +221,17 @@ export async function buildQuestRecord({
   // account that doing so overshoots the game's actual Quest Points total
   // (Once Upon a Time in Gielinor's |qp=4 does not count towards the stat
   // shown in-game, even though RuneMetrics's API also reports it as 4).
-  const rewards = rewardsData.rewards.map((r) => {
-    if (r.type === "item") return { ...r, image: imageMap.get(r.name) || null };
-    if (r.type === "xp" && r.skill) {
-      const skillIcon = skillIconsLower.get(r.skill.toLowerCase());
-      return { ...r, image: skillIcon || imageMap.get(r.skill) || null };
-    }
-    return { ...r, image: null };
-  });
+  function attachRewardImages(nodes) {
+    return nodes.map((r) => {
+      let image = null;
+      if (r.type === "item") image = imageMap.get(r.name) || null;
+      else if (r.type === "xp" && r.skill) {
+        image = skillIconsLower.get(r.skill.toLowerCase()) || imageMap.get(r.skill) || null;
+      }
+      return { ...r, image, ...(r.children ? { children: attachRewardImages(r.children) } : {}) };
+    });
+  }
+  const rewards = attachRewardImages(rewardsData.rewards);
 
   const record = {
     id,
