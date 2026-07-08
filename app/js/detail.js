@@ -603,14 +603,16 @@ function renderSelectableList(quest, step, lang) {
  */
 /**
  * Builds the full body for one quest (header, banners, infobox, Overview,
- * Steps, Rewards) as a plain array of DOM nodes — used both for the
- * top-level quest being viewed and, nested inside a collapsible block, for
- * each sub-quest of a hub quest (see renderQuestDetail's "Sub-misiones"
- * section). `sticky` controls whether the header pins to the top of its
- * scroll container — only meaningful for the true top-level quest, since a
- * nested sub-quest block scrolls inside the page normally.
+ * Steps, [Sub-misiones], Rewards) as a plain array of DOM nodes — used both
+ * for the top-level quest being viewed and, nested inside a collapsible
+ * block, for each sub-quest of a hub quest. `sticky` controls whether the
+ * header pins to the top of its scroll container — only meaningful for the
+ * true top-level quest, since a nested sub-quest block scrolls inside the
+ * page normally. `extraSectionAfterSteps` (a hub's own "Sub-misiones"
+ * section) is inserted right after Steps and before Rewards, matching the
+ * wiki's own Overview -> Steps -> Sub-quests -> Rewards order.
  */
-function buildQuestBody(quest, lang, isCompleted, { sticky = true } = {}) {
+function buildQuestBody(quest, lang, isCompleted, { sticky = true, extraSectionAfterSteps = null } = {}) {
   const nodes = [];
   const manualChecks = loadManualChecks(quest.id);
 
@@ -855,6 +857,8 @@ function buildQuestBody(quest, lang, isCompleted, { sticky = true } = {}) {
     nodes.push(renderSection(scrollIcon("var(--gold)"), t("sectionSteps"), stepsNodes));
   }
 
+  if (extraSectionAfterSteps) nodes.push(extraSectionAfterSteps);
+
   // --- "Recompensas" (Rewards): reward banner, grouped reward list, and any
   // additional (manual-claim) rewards.
   const rewardsNodes = [];
@@ -930,10 +934,15 @@ function renderSubquestBlock(subquestEntry, lang) {
  */
 export function renderQuestDetail(container, quest, { lang = "en", isCompleted = false, subquests = [] } = {}) {
   container.innerHTML = "";
-  buildQuestBody(quest, lang, isCompleted, { sticky: true }).forEach((node) => container.appendChild(node));
-
-  if (subquests.length > 0) {
-    const subquestNodes = subquests.map((entry) => renderSubquestBlock(entry, lang));
-    container.appendChild(renderSection(questIcon("var(--gold)"), t("sectionSubquests"), subquestNodes));
-  }
+  const subquestsSection =
+    subquests.length > 0
+      ? renderSection(
+          questIcon("var(--gold)"),
+          t("sectionSubquests"),
+          subquests.map((entry) => renderSubquestBlock(entry, lang))
+        )
+      : null;
+  buildQuestBody(quest, lang, isCompleted, { sticky: true, extraSectionAfterSteps: subquestsSection }).forEach(
+    (node) => container.appendChild(node)
+  );
 }
