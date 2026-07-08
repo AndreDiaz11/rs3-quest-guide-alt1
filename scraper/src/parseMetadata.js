@@ -202,14 +202,22 @@ function parseQuestDetailsTable(quickGuideHtml) {
 // Hub quests (Recipe for Disaster, Dimension of Disaster, Once Upon a Time
 // in Gielinor, That Old Black Magic) each link to their own sub-quests a
 // DIFFERENT way — a plain [[Title/Quick guide|Display]] link, a
-// {{QuestIcon|Title/Quick guide|...}} template, a {{Main|Title/Quick guide}}
-// template, or a {{:Title/Quick guide}} transclusion — so rather than special-
-// case each one, this matches whatever wiki syntax happens to precede a
-// "Title/Quick guide" reference in any of those four shapes. Scanned across
-// BOTH the main article and the Quick guide wikitext since one hub (Once
-// Upon a Time in Gielinor) has no Quick guide of its own — that page is a
-// redirect, so its sub-quest links only exist on the main article.
-const SUBQUEST_LINK_RE = /(?:\[\[|\{\{(?:QuestIcon\||Main\||:))([^[\]{}|]+?)\/Quick guide/g;
+// {{QuestIcon|Title/Quick guide|...}} template, or a {{:Title/Quick guide}}
+// transclusion — so rather than special-case each one, this matches
+// whatever wiki syntax happens to precede a "Title/Quick guide" reference in
+// any of those three shapes. Scanned across BOTH the main article and the
+// Quick guide wikitext since one hub (Once Upon a Time in Gielinor) has no
+// Quick guide of its own — that page is a redirect, so its sub-quest links
+// only exist on the main article.
+//
+// Deliberately does NOT match {{Main|Title/Quick guide}} — that template
+// means "see also", used just as often for a genuine PREREQUISITE quest as
+// for an actual sub-quest (e.g. Dimension of Disaster's own "Coin of the
+// Realm" starter quest is referenced this way, but the real client's own
+// info panel confirms it's NOT counted among the hub's 4 sub-quests —
+// unlike its 4 real sub-quests, which are already reached via plain links
+// in the "Subquests" table regardless).
+const SUBQUEST_LINK_RE = /(?:\[\[|\{\{(?:QuestIcon\||:))([^[\]{}|]+?)\/Quick guide/g;
 
 export function extractSubquestTitles({ mainWikitext, quickGuideWikitext }) {
   const combined = `${mainWikitext || ""}\n${quickGuideWikitext || ""}`;
