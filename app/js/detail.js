@@ -41,6 +41,22 @@ function escapeRegExp(s) {
 }
 
 /**
+ * The wiki often links only the base/singular form of a word (e.g.
+ * `[[Bandosian]]s`, `[[goblin]]'s`), leaving the plural/possessive suffix as
+ * plain text glued right after the link. Matching just the extracted term
+ * ("Bandosian") then highlighting only that substring left the trailing
+ * letters ("s") unstyled, splitting one word across a colored and a
+ * plain-colored run — reads as if the highlight were cutting the word short.
+ * Snap the match's end forward past any letters still glued on, so the
+ * whole word gets highlighted together.
+ */
+function extendToWordEnd(text, end) {
+  let newEnd = end;
+  while (newEnd < text.length && /\p{L}/u.test(text[newEnd])) newEnd++;
+  return newEnd;
+}
+
+/**
  * Finds every occurrence of a highlighted name/term (NPCs, monsters, places,
  * items — anything that was a real [[wiki link]] in the source) in `text`.
  * Terms are matched longest-first so "TokHaar-Ket" doesn't shadow a longer
@@ -53,7 +69,8 @@ function findHighlightSpans(text, terms) {
   const spans = [];
   let match;
   while ((match = re.exec(text)) !== null) {
-    spans.push({ start: match.index, end: match.index + match[0].length, kind: "highlight", text: match[0] });
+    const end = extendToWordEnd(text, match.index + match[0].length);
+    spans.push({ start: match.index, end, kind: "highlight", text: text.slice(match.index, end) });
   }
   return spans;
 }
@@ -73,7 +90,8 @@ function findBoldSpans(text, terms) {
   const spans = [];
   let match;
   while ((match = re.exec(text)) !== null) {
-    spans.push({ start: match.index, end: match.index + match[0].length, kind: "bold-term", text: match[0] });
+    const end = extendToWordEnd(text, match.index + match[0].length);
+    spans.push({ start: match.index, end, kind: "bold-term", text: text.slice(match.index, end) });
   }
   return spans;
 }
