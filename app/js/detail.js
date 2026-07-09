@@ -225,13 +225,86 @@ function renderItemRow(item) {
   return li;
 }
 
-/** Opens a fullscreen lightbox showing `src` at full size; closes on click anywhere or the ✕. */
+const LIGHTBOX_MIN_SCALE = 1;
+const LIGHTBOX_MAX_SCALE = 5;
+
+/**
+ * Opens a fullscreen lightbox showing `src` at full size, with an internal
+ * zoom: mouse wheel or the +/- buttons scale the image (clamped 1x-5x),
+ * dragging pans it once zoomed in, and double-click toggles a quick 1x/2.5x
+ * shortcut. Only the ✕ button or clicking the dark backdrop closes it —
+ * clicking/dragging the image itself is reserved for panning, not closing.
+ */
 function openImageLightbox(src) {
   const overlay = el("div", { class: "lightbox-overlay" });
   const img = el("img", { class: "lightbox-image", src, alt: "" });
-  const close = el("button", { class: "lightbox-close", type: "button", text: "✕" });
+  const controls = el("div", { class: "lightbox-controls" });
+  const zoomOutBtn = el("button", { class: "lightbox-zoom-btn", type: "button", text: "−", title: t("zoomOut") });
+  const zoomInBtn = el("button", { class: "lightbox-zoom-btn", type: "button", text: "+", title: t("zoomIn") });
+  const close = el("button", { class: "lightbox-close", type: "button", text: "✕", title: t("close") });
+  controls.appendChild(zoomOutBtn);
+  controls.appendChild(zoomInBtn);
   overlay.appendChild(img);
+  overlay.appendChild(controls);
   overlay.appendChild(close);
+
+  let scale = 1;
+  let tx = 0;
+  let ty = 0;
+
+  const applyTransform = () => {
+    img.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
+    img.classList.toggle("zoomed", scale > 1);
+  };
+
+  const setScale = (next) => {
+    scale = Math.min(LIGHTBOX_MAX_SCALE, Math.max(LIGHTBOX_MIN_SCALE, next));
+    if (scale === LIGHTBOX_MIN_SCALE) {
+      tx = 0;
+      ty = 0;
+    }
+    applyTransform();
+  };
+
+  zoomInBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    setScale(scale + 0.5);
+  });
+  zoomOutBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    setScale(scale - 0.5);
+  });
+  img.addEventListener("wheel", (e) => {
+    e.preventDefault();
+    setScale(scale + (e.deltaY < 0 ? 0.25 : -0.25));
+  });
+  img.addEventListener("dblclick", (e) => {
+    e.stopPropagation();
+    setScale(scale > 1 ? 1 : 2.5);
+  });
+
+  // Drag-to-pan while zoomed in. Stops propagation so a drag never bubbles up
+  // to the overlay's own click-to-close handler.
+  let dragging = false;
+  let dragStartX = 0;
+  let dragStartY = 0;
+  img.addEventListener("mousedown", (e) => {
+    if (scale === 1) return;
+    dragging = true;
+    dragStartX = e.clientX - tx;
+    dragStartY = e.clientY - ty;
+    e.preventDefault();
+  });
+  window.addEventListener("mousemove", (e) => {
+    if (!dragging) return;
+    tx = e.clientX - dragStartX;
+    ty = e.clientY - dragStartY;
+    applyTransform();
+  });
+  window.addEventListener("mouseup", () => {
+    dragging = false;
+  });
+  img.addEventListener("click", (e) => e.stopPropagation());
 
   const closeLightbox = () => {
     if (document.fullscreenElement === overlay) document.exitFullscreen?.().catch(() => {});
