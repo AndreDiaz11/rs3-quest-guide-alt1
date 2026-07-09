@@ -49,11 +49,32 @@ function escapeRegExp(s) {
  * plain-colored run — reads as if the highlight were cutting the word short.
  * Snap the match's end forward past any letters still glued on, so the
  * whole word gets highlighted together.
+ *
+ * Skipped for very short matches (<=2 chars): some bold terms are
+ * DELIBERATELY just the first letter of a word, a wiki mnemonic convention
+ * for puzzle codes (e.g. "'''P'''lank, '''J'''ute Fibres..." bolding just
+ * the initial of each item to spell out a code) — extending "P" forward
+ * would swallow the rest of "Plank" into the highlight, which is wrong here
+ * specifically because the short match IS the intended whole span.
  */
-function extendToWordEnd(text, end) {
+function extendToWordEnd(text, end, matchLength) {
+  if (matchLength <= 2) return end;
   let newEnd = end;
   while (newEnd < text.length && /\p{L}/u.test(text[newEnd])) newEnd++;
   return newEnd;
+}
+
+/**
+ * True if `start` is a real word boundary in `text` — the char right before
+ * it isn't itself a letter. Without this, a short term (e.g. the bold-emphasis
+ * term "not") can match as a substring INSIDE an unrelated longer word (e.g.
+ * Spanish "not" inside "anotación"), highlighting nonsense. Matters most now
+ * that highlight/bold terms are matched against Spanish text too — English
+ * terms occasionally collide with the middle of an unrelated Spanish word in
+ * a way they rarely would against the original English.
+ */
+function isRealWordStart(text, start) {
+  return start === 0 || !/\p{L}/u.test(text[start - 1]);
 }
 
 /**
@@ -69,7 +90,8 @@ function findHighlightSpans(text, terms) {
   const spans = [];
   let match;
   while ((match = re.exec(text)) !== null) {
-    const end = extendToWordEnd(text, match.index + match[0].length);
+    if (!isRealWordStart(text, match.index)) continue;
+    const end = extendToWordEnd(text, match.index + match[0].length, match[0].length);
     spans.push({ start: match.index, end, kind: "highlight", text: text.slice(match.index, end) });
   }
   return spans;
@@ -78,19 +100,23 @@ function findHighlightSpans(text, terms) {
 /**
  * Finds every occurrence of a wiki-bolded emphasis phrase (e.g. "If you
  * chose to kill Zanik", a progress counter "(1/8)", a single directional
- * word) in `text`. English-only by design — bold usage varies too much
- * (labels, single words, whole clauses) to reliably relocate in
- * already-translated Spanish text without a fresh, marker-preserving
- * translation pass, so the caller only passes terms for English text.
+ * word) in `text`. Terms are always extracted from the ENGLISH wikitext, but
+ * matched against whichever text is actually being displayed — proper nouns,
+ * item names, and numbers/counters stay untranslated per the glossary rules
+ * (see translate.js), so those still match verbatim inside the Spanish
+ * translation and get highlighted there too. A bold term that WAS translated
+ * (a whole clause, a single reworded word) simply won't match the Spanish
+ * text — same as any other unmatched term, not a regression.
  */
 function findBoldSpans(text, terms) {
   if (!terms?.length) return [];
   const sorted = [...new Set(terms)].sort((a, b) => b.length - a.length);
-  const re = new RegExp(sorted.map(escapeRegExp).join("|"), "g");
+  const re = new RegExp(sorted.map(escapeRegExp).join("|"), "gi");
   const spans = [];
   let match;
   while ((match = re.exec(text)) !== null) {
-    const end = extendToWordEnd(text, match.index + match[0].length);
+    if (!isRealWordStart(text, match.index)) continue;
+    const end = extendToWordEnd(text, match.index + match[0].length, match[0].length);
     spans.push({ start: match.index, end, kind: "bold-term", text: text.slice(match.index, end) });
   }
   return spans;
@@ -520,13 +546,15 @@ function renderStepContent(step, lang) {
       if (icon.image) wrap.appendChild(el("img", { class: "step-inline-icon", src: icon.image, alt: "" }));
     });
   }
-  // Bold-emphasis highlighting only applies to English text — see
-  // findBoldSpans for why it can't reliably relocate in translated Spanish.
-  // Checked against what's actually displayed (not just the app's language
-  // setting), since a step missing its Spanish translation falls back to
-  // showing English anyway.
+  // Short (<=2 char) bold terms are a wiki mnemonic convention — bolding just
+  // the first letter of each item in a list to spell out a puzzle code (e.g.
+  // "'''P'''lank, '''J'''ute Fibres..."). Those single letters collide too
+  // easily with the start of ordinary Spanish words ("por", "código", ...),
+  // so they only apply when actually showing English. Longer bold terms are
+  // real proper nouns/numbers that stay untranslated in Spanish too (see
+  // findBoldSpans), so those are safe to keep for both languages.
   const actuallyShowingEnglish = lang === "en" || !step.text?.[lang];
-  const boldTerms = actuallyShowingEnglish ? step.boldTerms : null;
+  const boldTerms = actuallyShowingEnglish ? step.boldTerms : step.boldTerms?.filter((t) => t.length > 2);
   appendFormattedStepText(wrap, localizedText(step.text, lang), step.highlightTerms, boldTerms);
   if (step.chatOptions?.length) {
     wrap.appendChild(renderChatOptionsSummary(step.chatOptions));
