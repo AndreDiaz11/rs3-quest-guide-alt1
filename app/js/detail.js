@@ -880,12 +880,18 @@ function buildQuestBody(quest, lang, isCompleted, { sticky = true, extraSectionA
     rows.forEach((row, i) => {
       row.checkbox.addEventListener("change", () => {
         setChecked(row, row.checkbox.checked);
-        // Marcar un paso principal también marca sus sub-pasos/opcionales
-        // (los que siguen con más sangría), ya que implica que ese paso completo
-        // ya se hizo. No se desmarcan solos al destildar el principal.
-        if (row.checkbox.checked && row.step.indent === 0) {
-          for (let j = i + 1; j < rows.length && rows[j].step.indent > 0; j++) {
-            setChecked(rows[j], true);
+        // Marcar/desmarcar un paso también marca/desmarca todos sus sub-pasos
+        // (los que le siguen con más sangría) — a cualquier nivel de
+        // anidación, no solo el nivel superior, ya que implica que ese paso
+        // (con todo lo que cuelga de él) ya se hizo o se deja de considerar
+        // hecho. Antes solo se marcaban al tildar y nunca se destildaban al
+        // destildar el padre, dejando sub-pasos marcados bajo un padre vacío
+        // (que además se re-marcaba solo en cuanto se tildara cualquier otro
+        // sub-paso, contradiciendo el destilde manual).
+        {
+          const rowIndent = row.step.indent ?? 0;
+          for (let j = i + 1; j < rows.length && (rows[j].step.indent ?? 0) > rowIndent; j++) {
+            setChecked(rows[j], row.checkbox.checked);
           }
         }
 
