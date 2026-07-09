@@ -206,7 +206,6 @@ const HIDDEN_FROM_PANEL_IDS = new Set([
   "mogre-lore-activity",
   "player-owned-farm-tutorial",
   "unstable-foundations",
-  "tales-of-pride",
   // Seasonal quests still gated to their original event
   "a-christmas-reunion",
   "cold-front",

@@ -10,6 +10,13 @@ import { HUB_QUEST_NOTE } from "./run.js";
 
 const QUESTS_DIR = fileURLToPath(new URL("../../data/quests/", import.meta.url));
 
+// Old Spanish translations were made back when wikitextToPlain didn't strip
+// HTML editor comments (e.g. "<!--Easier than dropping them one at a
+// time-->") — the English side gets regenerated fresh every migrate run so
+// it's already clean, but reused Spanish text below is copied verbatim from
+// disk and would otherwise keep carrying the stale comment forever.
+const stripHtmlComments = (s) => (s ? s.replace(/<!--[\s\S]*?-->/g, "") : s);
+
 /**
  * Re-scrapes every quest already on disk with the new structure (per-step
  * `section` heading, `chatOptions` split out of the narrative text) WITHOUT
@@ -93,12 +100,12 @@ async function migrateOne(slug) {
   let oldIndex = 0;
   record.steps = record.steps.map((step) => {
     if (isStructural(step)) return step;
-    const oldEs = oldTextSteps[oldIndex]?.text?.es;
+    const oldEs = stripHtmlComments(oldTextSteps[oldIndex]?.text?.es);
     oldIndex++;
     return oldEs ? { ...step, text: { ...step.text, es: oldEs } } : step;
   });
   if (old.startPoint?.es) {
-    record.startPoint = { ...record.startPoint, es: old.startPoint.es };
+    record.startPoint = { ...record.startPoint, es: stripHtmlComments(old.startPoint.es) };
   }
 
   // Selectable-list items (e.g. The Mighty Fall's "talk to the following
@@ -115,7 +122,7 @@ async function migrateOne(slug) {
     return {
       ...step,
       items: step.items.map((item, i) => {
-        const oldEs = oldList.items?.[i]?.text?.es;
+        const oldEs = stripHtmlComments(oldList.items?.[i]?.text?.es);
         return oldEs ? { ...item, text: { ...item.text, es: oldEs } } : item;
       }),
     };
@@ -132,7 +139,7 @@ async function migrateOne(slug) {
     if (!oldNote) return step;
     const attach = (field) => {
       if (!step[field]) return undefined;
-      const oldEs = oldNote[field]?.text?.es;
+      const oldEs = stripHtmlComments(oldNote[field]?.text?.es);
       return oldEs ? { ...step[field], text: { ...step[field].text, es: oldEs } } : step[field];
     };
     return {

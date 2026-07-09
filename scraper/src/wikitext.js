@@ -129,7 +129,11 @@ const SKILL_NAMES = new Set([
 ]);
 
 export function wikitextToPlain(raw) {
-  let text = raw;
+  // Strip HTML comments (e.g. "<!--Easier than dropping them one at a
+  // time-->") first — these are editor-only notes never meant to be shown to
+  // readers, but were leaking through into both the English text and (since
+  // migrate.js reuses old translations verbatim) the Spanish translation too.
+  let text = raw.replace(/<!--[\s\S]*?-->/g, "");
   const chatOptions = [];
   const icons = [];
   const highlightTerms = [];
