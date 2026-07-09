@@ -60,6 +60,20 @@ export async function resolveFileUrls(filenames) {
       const name = page.title?.replace(/^File:/, "");
       if (name) results.set(name, url);
     }
+
+    // MediaWiki normalizes underscores to spaces (and similar canonicalization)
+    // before matching a title — the response's own "normalized" list maps the
+    // exact string requested ("from") to the canonical title MediaWiki actually
+    // matched ("to"). Without this, a filename that arrives with underscores
+    // (e.g. copied straight from a `[[File:Name_with_underscores.png]]` link)
+    // only ever gets set under the SPACED title above, so the original
+    // underscored name falls through to the "not found -> null" pass below and
+    // silently overwrites what would have been a correct resolution.
+    for (const { from, to } of response?.query?.normalized || []) {
+      const toName = to?.replace(/^File:/, "");
+      const fromName = from?.replace(/^File:/, "");
+      if (fromName && toName && results.has(toName)) results.set(fromName, results.get(toName));
+    }
   }
 
   for (const name of uniqueNames) {

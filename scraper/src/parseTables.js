@@ -61,6 +61,45 @@ export function extractSolutionImages(content) {
 }
 
 /**
+ * Finds every `<gallery>...</gallery>` block's images (e.g. Sliske's
+ * Endgame's two maze-solution maps, shown side by side on the wiki) — a
+ * different image syntax than `[[File:...|thumb|caption]]`, one plain
+ * "Filename.png|Caption" per line, with no positional params at all. Each
+ * image gets a synthetic position (block start + its index) so it sorts
+ * correctly against Checklist/table blocks in parseSteps.js, and so multiple
+ * images from the same gallery land adjacent in the final step order — which
+ * makes them fall into the existing "isImageGroup" side-by-side grouping.
+ */
+export function extractGalleryImages(content) {
+  const results = [];
+  const re = /<gallery[^>]*>([\s\S]*?)<\/gallery>/gi;
+  let match;
+  while ((match = re.exec(content)) !== null) {
+    const blockStart = match.index;
+    const lines = match[1]
+      .split("\n")
+      .map((l) => l.trim())
+      .filter(Boolean);
+    lines.forEach((line, i) => {
+      const [filenamePart, ...captionParts] = line.split("|");
+      // Gallery lines can optionally repeat the "File:"/"Image:" namespace
+      // prefix per-line (unlike [[File:...]] links, where it's mandatory) —
+      // must be stripped here too, or resolveFileUrls ends up looking up
+      // "File:File:Name.png" and silently fails to resolve a real image.
+      const filename = filenamePart.trim().replace(/^(File|Image):/i, "");
+      if (!filename) return;
+      results.push({
+        start: blockStart + i,
+        end: blockStart + i,
+        filename,
+        caption: captionParts.join("|").trim() || null,
+      });
+    });
+  }
+  return results;
+}
+
+/**
  * Finds every top-level `{| ... |}` wikitable block in `content`, with its
  * position (needed to interleave it with Checklist blocks in source order —
  * see parseSteps.js). The wiki's Quick guide pages sometimes drop a

@@ -8,6 +8,7 @@ import {
   extractWikiTables,
   parseWikiTableToStructured,
   extractSolutionImages,
+  extractGalleryImages,
   parseFileParams,
   isLighttableBlock,
   isSingleColumnLighttable,
@@ -197,7 +198,12 @@ function groupAdjacentImages(steps) {
     if (step.isImage) {
       const group = [step];
       let j = i + 1;
-      while (j < steps.length && steps[j].isImage) {
+      // Must also stay within the same section — otherwise a solo figure at
+      // the very start of the NEXT section (nothing else pushed before it,
+      // e.g. Sliske's Endgame's "Rotation puzzle" example image right after
+      // a gallery block) gets wrongly folded into the previous section's
+      // image group instead of staying its own standalone image.
+      while (j < steps.length && steps[j].isImage && steps[j].section === step.section) {
         group.push(steps[j]);
         j++;
       }
@@ -281,7 +287,7 @@ export async function parseSteps(quickGuideWikitext) {
     // parseChecklistBlock itself below, positioned relative to its sibling
     // steps — must be excluded here or they'd be added a second time, in the
     // wrong place (after the whole checklist, not interleaved with it).
-    const imageBlocks = extractSolutionImages(content)
+    const imageBlocks = [...extractSolutionImages(content), ...extractGalleryImages(content)]
       .filter((img) => !checklistBlocks.some((cl) => img.start >= cl.start && img.start < cl.end))
       .map((b) => ({ ...b, kind: "image" }));
     // A bare `{{Some Quest solution}}` transclusion sitting BETWEEN two
