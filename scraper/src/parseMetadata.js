@@ -203,28 +203,38 @@ function parseQuestDetailsTable(quickGuideHtml) {
 // in Gielinor, That Old Black Magic) each link to their own sub-quests a
 // DIFFERENT way — a plain [[Title/Quick guide|Display]] link, a
 // {{QuestIcon|Title/Quick guide|...}} template, or a {{:Title/Quick guide}}
-// transclusion — so rather than special-case each one, this matches
-// whatever wiki syntax happens to precede a "Title/Quick guide" reference in
-// any of those three shapes. Scanned across BOTH the main article and the
-// Quick guide wikitext since one hub (Once Upon a Time in Gielinor) has no
-// Quick guide of its own — that page is a redirect, so its sub-quest links
-// only exist on the main article.
+// transclusion. Scanned across BOTH the main article and the Quick guide
+// wikitext since one hub (Once Upon a Time in Gielinor) has no Quick guide
+// of its own — that page is a redirect, so its sub-quest links only exist on
+// the main article.
+//
+// {{QuestIcon|...}}/{{:Title}} mark the real sub-quest GRID (the actual
+// in-game selectable icons) — Recipe for Disaster's page uses this for its 8
+// real "freeing council member" sub-quests, but ALSO has 2 plain [[ ]] prose
+// links to genuinely separate pages that aren't part of that grid: "Starting
+// the first subquest [[...Another Cook's Quest/Quick guide|...]]" (a linear
+// prerequisite intro, completed once and never re-selectable) and "Start the
+// last subquest [[...Defeating the Culinaromancer/Quick guide|...]]" (the
+// automatic finale after all 8 are done) — the real client's own info panel
+// confirms neither is shown as one of the hub's selectable icons. So: when a
+// page has ANY {{QuestIcon|...}}/{{:Title}} match, those take priority and
+// plain [[ ]] links are ignored as prose exceptions. Only when a hub has NO
+// such widget match at all (Dimension of Disaster, Once Upon a Time in
+// Gielinor — both represent their real 4 sub-quests as plain links with no
+// QuestIcon grid) do plain [[ ]] links get used as the real sub-quest list.
 //
 // Deliberately does NOT match {{Main|Title/Quick guide}} — that template
 // means "see also", used just as often for a genuine PREREQUISITE quest as
 // for an actual sub-quest (e.g. Dimension of Disaster's own "Coin of the
-// Realm" starter quest is referenced this way, but the real client's own
-// info panel confirms it's NOT counted among the hub's 4 sub-quests —
-// unlike its 4 real sub-quests, which are already reached via plain links
-// in the "Subquests" table regardless).
-const SUBQUEST_LINK_RE = /(?:\[\[|\{\{(?:QuestIcon\||:))([^[\]{}|]+?)\/Quick guide/g;
+// Realm" starter quest is referenced this way).
+const WIDGET_SUBQUEST_LINK_RE = /\{\{(?:QuestIcon\||:)([^[\]{}|]+?)\/Quick guide/g;
+const PLAIN_SUBQUEST_LINK_RE = /\[\[([^[\]{}|]+?)\/Quick guide/g;
 
-export function extractSubquestTitles({ mainWikitext, quickGuideWikitext }) {
-  const combined = `${mainWikitext || ""}\n${quickGuideWikitext || ""}`;
+function collectTitles(re, text) {
   const seen = new Set();
   const titles = [];
   let match;
-  while ((match = SUBQUEST_LINK_RE.exec(combined)) !== null) {
+  while ((match = re.exec(text)) !== null) {
     const title = match[1].trim();
     if (!seen.has(title)) {
       seen.add(title);
@@ -232,6 +242,13 @@ export function extractSubquestTitles({ mainWikitext, quickGuideWikitext }) {
     }
   }
   return titles;
+}
+
+export function extractSubquestTitles({ mainWikitext, quickGuideWikitext }) {
+  const combined = `${mainWikitext || ""}\n${quickGuideWikitext || ""}`;
+  const widgetTitles = collectTitles(WIDGET_SUBQUEST_LINK_RE, combined);
+  if (widgetTitles.length > 0) return widgetTitles;
+  return collectTitles(PLAIN_SUBQUEST_LINK_RE, combined);
 }
 
 export function parseMetadata({ mainWikitext, quickGuideHtml }) {
