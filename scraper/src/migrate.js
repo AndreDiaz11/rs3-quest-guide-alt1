@@ -91,16 +91,27 @@ async function migrateOne(slug) {
   const isStructural = (s) => Boolean(s.isTable || s.isImage || s.isSelectableList || s.isSectionNote || s.isImageGroup);
   const oldTextSteps = (old.steps || []).filter((s) => !isStructural(s));
   const textStepCount = steps.filter((s) => !isStructural(s)).length;
-  if (textStepCount !== oldTextSteps.length) {
+  // A step-count change means every index past the point of divergence no
+  // longer lines up with the same step it used to — reusing "up to the
+  // shorter length" (the old behavior) silently grafted a translation for
+  // one step onto a completely different one (found in missing-my-mummy:
+  // 10 removed puzzle steps left the rest of the quest's Spanish shifted by
+  // 10 positions, e.g. "Talk to Leela" showing the translation for
+  // "This requires 150 prayer points"). Safer to drop ALL reused
+  // translations for this quest and leave it untranslated (falls back to
+  // showing English, and shows up in the pending-translations count) than
+  // to risk silently wrong guidance.
+  const stepsShifted = textStepCount !== oldTextSteps.length;
+  if (stepsShifted) {
     console.warn(
       `[warn] ${slug}: el número de pasos cambió (${oldTextSteps.length} -> ${textStepCount}); ` +
-        `se reutiliza traducción solo hasta el índice más corto, revisar manualmente.`
+        `se descartan TODAS las traducciones reutilizadas de esta misión (quedará en inglés hasta re-traducirla), revisar manualmente.`
     );
   }
   let oldIndex = 0;
   record.steps = record.steps.map((step) => {
     if (isStructural(step)) return step;
-    const oldEs = stripHtmlComments(oldTextSteps[oldIndex]?.text?.es);
+    const oldEs = stepsShifted ? null : stripHtmlComments(oldTextSteps[oldIndex]?.text?.es);
     oldIndex++;
     return oldEs ? { ...step, text: { ...step.text, es: oldEs } } : step;
   });
