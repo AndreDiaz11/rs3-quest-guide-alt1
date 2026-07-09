@@ -244,11 +244,30 @@ function collectTitles(re, text) {
   return titles;
 }
 
+/**
+ * Returns `{ subquests, bonusQuests }`. `subquests` is the hub's real
+ * selectable-icon grid (matching the client's own info panel, see the
+ * comment above). `bonusQuests` catches genuinely separate quest pages the
+ * hub links to OUTSIDE that grid — e.g. Recipe for Disaster's own linear
+ * intro ("Another Cook's Quest") and automatic finale ("Defeating the
+ * Culinaromancer"), each with a real Quick guide of its own, just not shown
+ * as one of the hub's 8 selectable icons in-game. Only populated for hubs
+ * that use the {{QuestIcon|...}}/{{:Title}} widget (a plain-link match
+ * dropped in favor of widget matches is exactly this "extra, real, but
+ * non-grid" case) — hubs with no widget at all (Dimension of Disaster, Once
+ * Upon a Time in Gielinor) already use every plain link as their real grid,
+ * so there's nothing left over to bucket here.
+ */
 export function extractSubquestTitles({ mainWikitext, quickGuideWikitext }) {
   const combined = `${mainWikitext || ""}\n${quickGuideWikitext || ""}`;
   const widgetTitles = collectTitles(WIDGET_SUBQUEST_LINK_RE, combined);
-  if (widgetTitles.length > 0) return widgetTitles;
-  return collectTitles(PLAIN_SUBQUEST_LINK_RE, combined);
+  if (widgetTitles.length > 0) {
+    const plainTitles = collectTitles(PLAIN_SUBQUEST_LINK_RE, combined);
+    const widgetSet = new Set(widgetTitles);
+    const bonusQuests = plainTitles.filter((t) => !widgetSet.has(t));
+    return { subquests: widgetTitles, bonusQuests };
+  }
+  return { subquests: collectTitles(PLAIN_SUBQUEST_LINK_RE, combined), bonusQuests: [] };
 }
 
 export function parseMetadata({ mainWikitext, quickGuideHtml }) {

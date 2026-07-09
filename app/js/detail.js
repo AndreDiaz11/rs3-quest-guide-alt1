@@ -865,7 +865,7 @@ function buildQuestBody(quest, lang, isCompleted, { sticky = true, extraSectionA
     nodes.push(renderSection(scrollIcon("var(--gold)"), t("sectionSteps"), stepsNodes));
   }
 
-  if (extraSectionAfterSteps) nodes.push(extraSectionAfterSteps);
+  if (extraSectionAfterSteps) nodes.push(...[extraSectionAfterSteps].flat().filter(Boolean));
 
   // --- "Recompensas" (Rewards): reward banner, grouped reward list, and any
   // additional (manual-claim) rewards.
@@ -940,7 +940,11 @@ function renderSubquestBlock(subquestEntry, lang) {
  * see `subquests` (an array of `{ id, quest, isCompleted }`, resolved and
  * fetched by main.js from `quest.subquests`' wiki titles).
  */
-export function renderQuestDetail(container, quest, { lang = "en", isCompleted = false, subquests = [] } = {}) {
+export function renderQuestDetail(
+  container,
+  quest,
+  { lang = "en", isCompleted = false, subquests = [], bonusQuests = [] } = {}
+) {
   container.innerHTML = "";
   const subquestsSection =
     subquests.length > 0
@@ -950,7 +954,21 @@ export function renderQuestDetail(container, quest, { lang = "en", isCompleted =
           subquests.map((entry) => renderSubquestBlock(entry, lang))
         )
       : null;
-  buildQuestBody(quest, lang, isCompleted, { sticky: true, extraSectionAfterSteps: subquestsSection }).forEach(
-    (node) => container.appendChild(node)
-  );
+  // Genuinely separate quest pages a hub links to OUTSIDE its selectable
+  // sub-quest grid — e.g. Recipe for Disaster's own linear intro ("Another
+  // Cook's Quest") and automatic finale ("Defeating the Culinaromancer").
+  // Real client's info panel doesn't show these as one of the hub's icons,
+  // so they get their own section instead of inflating the sub-quest count.
+  const bonusQuestsSection =
+    bonusQuests.length > 0
+      ? renderSection(
+          questIcon("var(--gold)"),
+          t("sectionBonusQuests"),
+          bonusQuests.map((entry) => renderSubquestBlock(entry, lang))
+        )
+      : null;
+  buildQuestBody(quest, lang, isCompleted, {
+    sticky: true,
+    extraSectionAfterSteps: [subquestsSection, bonusQuestsSection],
+  }).forEach((node) => container.appendChild(node));
 }

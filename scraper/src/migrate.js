@@ -77,7 +77,7 @@ async function migrateOne(slug) {
     isSeasonal: old.isSeasonal,
     skipTranslate: true,
     guideNote,
-    subquests: extractSubquestTitles(page),
+    ...extractSubquestTitles(page),
   });
 
   // Overlay the existing Spanish translations, matched by index among plain

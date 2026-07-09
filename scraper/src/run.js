@@ -116,7 +116,7 @@ export async function scrapeOne(title, { skipTranslate }, seasonalTitles) {
     isSeasonal,
     skipTranslate,
     guideNote,
-    subquests: extractSubquestTitles(page),
+    ...extractSubquestTitles(page),
   });
 
   console.log(`[done] ${title} -> data/quests/${record.id}.json (${steps.length} pasos)`);
