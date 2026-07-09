@@ -24,6 +24,11 @@ const sidebarToggle = document.getElementById("sidebar-toggle");
 function setSidebarOpen(open) {
   sidebarEl.classList.toggle("open", open);
   sidebarBackdrop.classList.toggle("open", open);
+  // The hamburger button floats at the same top-left corner as the sidebar's
+  // own header logo — while the drawer is open it sat right on top of the
+  // logo (higher z-index), looking like the two icons were overlapping.
+  // Only needed to OPEN the drawer; closing already works via the backdrop.
+  sidebarToggle.classList.toggle("hidden-while-open", open);
 }
 
 function applyChromeLanguage() {

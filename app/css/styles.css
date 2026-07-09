@@ -99,6 +99,14 @@ h1, h2, .app-title-font {
   z-index: 60;
 }
 
+/* Only needed to OPEN the drawer — while it's open it sat directly on top
+   of the sidebar's own header logo (same top-left corner, higher z-index),
+   looking like the two icons overlapped. Closing already works via the
+   backdrop click, so hiding it here loses no functionality. */
+#sidebar-toggle.hidden-while-open {
+  display: none;
+}
+
 #sidebar-backdrop {
   position: absolute;
   inset: 0;
