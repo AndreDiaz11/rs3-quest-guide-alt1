@@ -6,7 +6,7 @@ import { parseMetadata, extractSubquestTitles } from "./parseMetadata.js";
 import { parseSteps } from "./parseSteps.js";
 import { parseRewards } from "./parseRewards.js";
 import { buildQuestRecord } from "./buildDataset.js";
-import { HUB_QUEST_NOTE } from "./run.js";
+import { HUB_QUEST_NOTE, isMiniquestTitle } from "./run.js";
 
 const QUESTS_DIR = fileURLToPath(new URL("../../data/quests/", import.meta.url));
 
@@ -73,7 +73,7 @@ async function migrateOne(slug) {
     metadata,
     steps,
     rewardsData,
-    isMiniquest: old.isMiniquest,
+    isMiniquest: isMiniquestTitle(old.title),
     isSeasonal: old.isSeasonal,
     skipTranslate: true,
     guideNote,

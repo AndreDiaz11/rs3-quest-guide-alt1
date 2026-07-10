@@ -50,6 +50,17 @@ export const HUB_QUEST_NOTE = {
 // `removedDate` and shown with a "no longer available" banner in the app.
 const PRESERVED_REMOVED_QUESTS = new Set(["Unstable Foundations"]);
 
+// Fremennik Sagas ("Nadir (saga)", etc.) are 0 QP and RS3's own quest journal
+// filters them under "Show Miniquests" (confirmed against a real account's
+// filter panel — they never show up under "Show Quests"), so they count as
+// miniquests here too, same as the "(miniquest)" suffix. Exported so
+// migrate.js can recompute this fresh on every migrate run instead of
+// blindly carrying over whatever was on disk (which is exactly how the
+// sagas ended up permanently misclassified after the initial scrape).
+export function isMiniquestTitle(title) {
+  return /\((miniquest|saga)\)$/i.test(title);
+}
+
 /**
  * True for wiki pages that aren't a real, currently-playable quest: the old
  * pre-rework version of a quest that already has its own current page
@@ -77,7 +88,7 @@ export async function scrapeOne(title, { skipTranslate }, seasonalTitles) {
 
   const metadata = parseMetadata(page);
   const rewardsData = page.quickGuideHtml ? parseRewards(page.quickGuideHtml) : { rewards: [], postQuest: [] };
-  const isMiniquest = /\(miniquest\)$/i.test(title);
+  const isMiniquest = isMiniquestTitle(title);
   // Belt-and-suspenders: some event quests are only tagged with a year-specific
   // category (e.g. "2019_Easter_event") rather than the general Category:Seasonal
   // quests, so check both the master list and this page's own categories. Matched
