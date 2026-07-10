@@ -139,7 +139,7 @@ function isStructural(step) {
  * an inline `{| |}` block or a resolved template transclusion.
  */
 function isUnresolvableCalculatorTable(table) {
-  const flatText = [table.headers, ...table.rows].flat().join(" ");
+  const flatText = [table.headers, ...table.rows.map((row) => row.map((c) => c.text))].flat().join(" ");
   return /please (wait|submit) (for|the) (the )?form/i.test(flatText);
 }
 

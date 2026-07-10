@@ -232,12 +232,40 @@ function cleanCell(raw) {
   return wikitextToPlain(text).text;
 }
 
+// `{{NA|colspan=N|}}` (or bare `{{NA|}}`, colspan defaults to 1) is the
+// wiki's own "blocked/not applicable" filler cell for grid-shaped puzzle
+// diagrams (e.g. Eclipse of the Heart's sliding-tile solutions) — used
+// instead of a native wikitable `colspan="N"` attribute. Treating it as one
+// ordinary cell (like any other unrecognized template, stripped to "" by the
+// generic template cleaner) silently swallowed its colspan, so every row
+// containing one ended up with fewer cells than the table's real column
+// count — shifting every real cell after it into the wrong column relative
+// to rows that didn't hit an NA cell, and distorting the whole grid's shape.
+const NA_CELL_RE = /^\{\{NA\|(?:colspan\s*=\s*(\d+)\s*\|?)?\}\}$/i;
+
+/** Expands a row's raw (pre-cleanCell) cell strings so an NA-colspan cell becomes N separate `{ raw: "", blocked: true }` cells, keeping every row's cell count consistent with the table's true column count. */
+function expandNaCells(rawCells) {
+  const expanded = [];
+  for (const cell of rawCells) {
+    const match = cell.trim().match(NA_CELL_RE);
+    if (match) {
+      const span = match[1] ? Number(match[1]) : 1;
+      for (let i = 0; i < span; i++) expanded.push({ raw: "", blocked: true });
+    } else {
+      expanded.push({ raw: cell, blocked: false });
+    }
+  }
+  return expanded;
+}
+
 /**
  * Converts one raw `{| ... |}` wikitable block into `{ headers, rows }` of
- * plain text. Best-effort: colspan/rowspan and embedded images are flattened
- * rather than preserved — good enough for reference tables like quiz answers
- * or NPC/location lists, though a handful of visually complex wiki tables
+ * plain text. Best-effort: rowspan and embedded images are flattened rather
+ * than preserved — good enough for reference tables like quiz answers or
+ * NPC/location lists, though a handful of visually complex wiki tables
  * (e.g. constellation picture grids) will render plainer than the wiki.
+ * `{{NA|colspan=N}}` blocked-cell filler is preserved via expandNaCells,
+ * flagged in the output as `blocked: true` cells (see cleanRow below).
  */
 export function parseWikiTableToStructured(raw) {
   const lines = raw.split("\n").slice(1); // drop the opening "{|...attrs" line
@@ -262,15 +290,14 @@ export function parseWikiTableToStructured(raw) {
         .split("!!")
         .forEach((c) => currentRow.push({ isHeader: true, text: cleanCell(c) }));
     } else if (line.startsWith("|")) {
-      line
-        .slice(1)
-        .split("||")
-        .forEach((c) => currentRow.push({ isHeader: false, text: cleanCell(c) }));
+      expandNaCells(line.slice(1).split("||")).forEach((c) =>
+        currentRow.push({ isHeader: false, text: cleanCell(c.raw), blocked: c.blocked })
+      );
     }
   }
   if (currentRow?.length) rows.push(currentRow);
 
-  const cleanRows = rows.filter((row) => row.some((c) => c.text !== ""));
+  const cleanRows = rows.filter((row) => row.some((c) => c.text !== "" || c.blocked));
   if (cleanRows.length === 0) return null;
 
   let headers = null;
@@ -280,5 +307,5 @@ export function parseWikiTableToStructured(raw) {
     dataRows = cleanRows.slice(1);
   }
 
-  return { headers, rows: dataRows.map((row) => row.map((c) => c.text)) };
+  return { headers, rows: dataRows.map((row) => row.map((c) => ({ text: c.text, blocked: Boolean(c.blocked) }))) };
 }

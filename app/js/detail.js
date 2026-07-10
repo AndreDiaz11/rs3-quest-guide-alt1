@@ -186,7 +186,13 @@ function el(tag, props = {}, children = []) {
 
 /** Renders a wiki quiz/solution table (e.g. "Question"/"Answer" pairs) as a plain HTML table. */
 function renderStepTable(table) {
-  const wrap = el("table", { class: "step-table" });
+  // A table with any "blocked" (wiki {{NA|colspan}} filler) cell is a
+  // grid-shaped puzzle diagram (e.g. Eclipse of the Heart's sliding-tile
+  // solutions), not a reference table — those need fixed-size square cells
+  // so the grid's shape stays consistent at any plugin window width,
+  // instead of auto-sizing to content like a normal Q&A/reference table.
+  const isGrid = table.rows.some((row) => row.some((cell) => cell.blocked));
+  const wrap = el("table", { class: isGrid ? "step-table step-table-grid" : "step-table" });
   if (table.headers) {
     const thead = el("thead");
     const tr = el("tr");
@@ -197,7 +203,9 @@ function renderStepTable(table) {
   const tbody = el("tbody");
   table.rows.forEach((row) => {
     const tr = el("tr");
-    row.forEach((cell) => tr.appendChild(el("td", { text: cell })));
+    row.forEach((cell) =>
+      tr.appendChild(el("td", { class: cell.blocked ? "step-table-blocked" : "", text: cell.text }))
+    );
     tbody.appendChild(tr);
   });
   wrap.appendChild(tbody);

@@ -922,6 +922,32 @@ h1, h2, .app-title-font {
   color: var(--gold, #c9a227);
 }
 
+/* Grid-shaped puzzle diagrams (e.g. Eclipse of the Heart's sliding-tile
+   solutions) — fixed-size square cells so the cross/diamond shape stays
+   consistent at any plugin window width instead of stretching to fill 100%
+   and warping with content length like a normal reference table. */
+.step-table-grid {
+  table-layout: fixed;
+  width: auto;
+}
+
+.step-table-grid th,
+.step-table-grid td {
+  width: 84px;
+  height: 40px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Wiki's own {{NA|colspan}} "blocked/not applicable" filler cell — shown as
+   a subtly shaded blank square, matching the wiki's own light-grey blocked
+   cells (adapted to this plugin's dark theme). */
+.step-table-blocked {
+  background: rgba(255, 255, 255, 0.05);
+}
+
 .step-list li.step-image-li {
   display: block;
   margin: 4px 0 10px;
