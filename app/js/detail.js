@@ -515,12 +515,25 @@ function renderSection(iconSvg, label, contentNodes) {
   return details;
 }
 
+// Leading marker before the dialogue text — a plain number ("1 Yes."), a
+// number with a period ("1. I'm looking for..."), a combined position
+// ("3/4 Where are you going with this?"), or a bare "#"/"?" the wiki itself
+// uses for a position that varies/isn't pinned down. Optional "." and
+// optional extra whitespace cover both wiki formatting variants seen across
+// quests — a plain `\s+` after the digits alone missed the period form
+// entirely, leaving those options with no recognized marker at all.
+const CHAT_OPTION_MARKER_RE = /^([#?\d]+(?:\/\d+)*)\.?\s+(.+)$/;
+
 /** Extracts just the marker shown inline next to the chat bubble (e.g. "1", "#", "~" for "Any"). */
 function chatOptionMarker(opt) {
-  const match = opt.match(/^([#?\d]+)\s+/);
+  const match = opt.match(CHAT_OPTION_MARKER_RE);
   if (match) return match[1];
   const lower = opt.trim().toLowerCase();
-  if (lower === "any") return "~";
+  // The wiki writes its own "any option works" shorthand either as the bare
+  // symbol "~" (e.g. Eclipse of the Heart's "{{Chat options|1 Yes.|~}}") or
+  // spelled out as the word "any" — both need the same "~" marker, or the
+  // bare-symbol form fell through to the generic "?" fallback below.
+  if (lower === "any" || lower === "~") return "~";
   if (lower === "accept") return "✓";
   // Options with no leading marker at all (e.g. "Yes.") use "?" like the
   // other undetermined-position markers — using "•" here collided visually
@@ -536,14 +549,15 @@ function chatOptionMarker(opt) {
  */
 function renderChatOptionLine(opt) {
   const li = el("li");
-  const match = opt.match(/^([#?\d]+)\s+(.+)$/);
+  const match = opt.match(CHAT_OPTION_MARKER_RE);
   const lower = opt.trim().toLowerCase();
   if (match) {
     const [, marker, dialogue] = match;
     li.appendChild(el("span", { class: "chat-opt-num", text: marker }));
     li.appendChild(document.createTextNode(" " + dialogue));
-  } else if (lower === "any") {
-    // Matches the wiki's own literal "~ [Any option]" notation.
+  } else if (lower === "any" || lower === "~") {
+    // Matches the wiki's own "any option" notation, spelled out as a word or
+    // (just as often) written as the bare "~" symbol with no other text.
     li.appendChild(el("span", { class: "chat-opt-num", text: "~" }));
     li.appendChild(document.createTextNode(" [Any option]"));
   } else if (lower === "accept") {

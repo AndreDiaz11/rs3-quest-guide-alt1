@@ -91,11 +91,25 @@ export function extractAllTemplatesWithPositions(wikitext, templateName) {
  * Extracts the raw parts of an inline `{{Chat options|...}}` block, kept in
  * English on purpose (they're literal in-game UI buttons/markers, not shown
  * translated — see app/js/detail.js chat options popup).
+ *
+ * Must split on top-level `|` only (via splitTemplateParams), not a naive
+ * `.split("|")` — a chat option's own dialogue text can embed a real
+ * [[Link|Display]] wikilink with its own pipe (e.g. Jed Hunter's "...if you
+ * have just completed the [[Head of the Family (miniquest)|Head of the
+ * Family miniquest]] then..."), which a naive split sliced apart mid-link
+ * into two garbled, unrelated-looking chat options. Each part's own
+ * [[Link|Display]]/[[Link]] syntax is then resolved to plain text, same as
+ * step text.
  */
 function extractChatOptionsParts(content) {
-  return content
-    .split("|")
-    .map((s) => s.replace(/\n/g, " ").trim())
+  return splitTemplateParams(content)
+    .map((s) =>
+      s
+        .replace(/\n/g, " ")
+        .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
+        .replace(/\[\[([^\]]+)\]\]/g, "$1")
+        .trim()
+    )
     .filter(Boolean);
 }
 
