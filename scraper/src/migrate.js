@@ -6,7 +6,8 @@ import { parseMetadata, extractSubquestTitles } from "./parseMetadata.js";
 import { parseSteps } from "./parseSteps.js";
 import { parseRewards } from "./parseRewards.js";
 import { buildQuestRecord } from "./buildDataset.js";
-import { HUB_QUEST_NOTE, isMiniquestTitle } from "./run.js";
+import { HUB_QUEST_NOTE, isMiniquestTitle, isSeasonalQuest } from "./run.js";
+import { fetchSeasonalQuestTitles } from "./fetchSeasonalList.js";
 
 const QUESTS_DIR = fileURLToPath(new URL("../../data/quests/", import.meta.url));
 
@@ -37,7 +38,7 @@ function parseArgs(argv) {
   return args;
 }
 
-async function migrateOne(slug) {
+async function migrateOne(slug, seasonalTitles) {
   const oldRaw = await readFile(path.join(QUESTS_DIR, `${slug}.json`), "utf8");
   const old = JSON.parse(oldRaw);
 
@@ -74,7 +75,7 @@ async function migrateOne(slug) {
     steps,
     rewardsData,
     isMiniquest: isMiniquestTitle(old.title),
-    isSeasonal: old.isSeasonal,
+    isSeasonal: isSeasonalQuest(old.title, page.categories, seasonalTitles),
     skipTranslate: true,
     guideNote,
     ...extractSubquestTitles(page),
@@ -166,9 +167,10 @@ async function migrateOne(slug) {
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
+  const seasonalTitles = await fetchSeasonalQuestTitles();
 
   if (args.only) {
-    await migrateOne(args.only);
+    await migrateOne(args.only, seasonalTitles);
     return;
   }
 
@@ -181,7 +183,7 @@ async function main() {
     const slug = file.replace(/\.json$/, "");
     console.log(`[migrate] (${i + 1}/${slugs.length}) ${slug}`);
     try {
-      await migrateOne(slug);
+      await migrateOne(slug, seasonalTitles);
     } catch (err) {
       console.error(`[skip] ${slug}: ${err.message}`);
       failures.push({ slug, error: err.message });

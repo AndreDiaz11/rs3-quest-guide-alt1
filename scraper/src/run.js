@@ -62,6 +62,23 @@ export function isMiniquestTitle(title) {
 }
 
 /**
+ * Belt-and-suspenders: some event quests are only tagged with a
+ * year-specific category (e.g. "2019_Easter_event") rather than the general
+ * Category:Seasonal quests, so check both the master list and this page's
+ * own categories. Matched narrowly (singular "_event" or exact
+ * "Holiday_events"/"Seasonal_quests") to avoid false positives like
+ * "Repeatable_events" or "Wilderness_Flash_Events", which are unrelated game
+ * features that happen to contain the word "event". Exported so migrate.js
+ * can recompute this fresh instead of blindly carrying over whatever was on
+ * disk (the same stale-copy bug fixed for isMiniquestTitle above).
+ */
+export function isSeasonalQuest(title, categories, seasonalTitles) {
+  return (
+    seasonalTitles.has(title) || (categories || []).some((c) => /^seasonal_quests$|^holiday_events$|_event$/i.test(c))
+  );
+}
+
+/**
  * True for wiki pages that aren't a real, currently-playable quest: the old
  * pre-rework version of a quest that already has its own current page
  * ("X (historical)"), content removed from the game entirely
@@ -89,15 +106,7 @@ export async function scrapeOne(title, { skipTranslate }, seasonalTitles) {
   const metadata = parseMetadata(page);
   const rewardsData = page.quickGuideHtml ? parseRewards(page.quickGuideHtml) : { rewards: [], postQuest: [] };
   const isMiniquest = isMiniquestTitle(title);
-  // Belt-and-suspenders: some event quests are only tagged with a year-specific
-  // category (e.g. "2019_Easter_event") rather than the general Category:Seasonal
-  // quests, so check both the master list and this page's own categories. Matched
-  // narrowly (singular "_event" or exact "Holiday_events"/"Seasonal_quests") to
-  // avoid false positives like "Repeatable_events" or "Wilderness_Flash_Events",
-  // which are unrelated game features that happen to contain the word "event".
-  const isSeasonal =
-    seasonalTitles.has(title) ||
-    page.categories.some((c) => /^seasonal_quests$|^holiday_events$|_event$/i.test(c));
+  const isSeasonal = isSeasonalQuest(title, page.categories, seasonalTitles);
 
   let steps;
   let guideNote;
