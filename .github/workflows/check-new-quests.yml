@@ -2,7 +2,7 @@ name: Check for new RS3 quests
 
 on:
   schedule:
-    - cron: "0 12 * * 1" # every Monday at noon UTC
+    - cron: "0 12 * * *" # every day at noon UTC
   workflow_dispatch:
 
 permissions:
