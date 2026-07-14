@@ -8,13 +8,15 @@ español. Cero servidor propio que mantener — todo es estático (GitHub Pages)
 mínimo en Cloudflare Workers para los 2 endpoints públicos de RuneMetrics.
 
 ## Cómo se ve y funciona
-Panel de dos columnas dentro de Alt1. A la izquierda, sidebar con buscador, 6 chips de filtro (tipo:
-Quest/Miniquest/Events — estado: Complete/In Progress/Incomplete, combinables) y la lista de misiones
-con un rombo de color + ícono de estado por fila. Al hacer clic en una misión, el panel derecho muestra
-su guía completa al estilo de la wiki: cabecera, metadatos, requisitos con ✓/✗ contra el progreso y
-nivel real del jugador, items (en chips y en lista), pasos agrupados por sección con checkboxes
-(auto-marcados si la misión ya está completa) y botón de opciones de chat por paso (popup flotante),
-y las recompensas al final con la imagen del banner de la wiki.
+Panel de dos columnas dentro de Alt1. A la izquierda, sidebar con buscador, un popover de Filter
+(mostrar completadas/quests/miniquests, combinables) y un dropdown de Sort con 4 modos (alfabético,
+Free/Members, longitud, progreso), más la lista de misiones con un rombo de color + ícono de estado
+por fila. Al hacer clic en una misión, el panel derecho muestra su guía completa al estilo de la wiki:
+cabecera, metadatos, requisitos con ✓/✗ contra el progreso y nivel real del jugador, items (en chips y
+en lista), pasos agrupados por sección con checkboxes (auto-marcados si la misión ya está completa) y
+botón de opciones de chat por paso (popup flotante con formato de diálogo), tablas de solución de
+puzzles con celdas bloqueadas resaltadas y tamaño fijo cuando corresponde, y las recompensas al final
+con la imagen del banner de la wiki.
 
 ## Stack
 - `app/` — HTML/CSS/JS plano, sin build step, ES modules nativos.
@@ -34,15 +36,16 @@ app/
   data/aliases.json
 scraper/
   package.json  .env.example
-  src/{wikiApi,wikitext,slug,fetchQuestList,fetchQuestPage,fetchSeasonalList,parseMetadata,
-       parseSteps,parseRewards,resolveImages,translate,glossary.json,buildDataset,run,migrate}.js
+  src/{wikiApi,wikitext,slug,fetchQuestList,fetchQuestPage,fetchSeasonalList,fetchSeasonalTitles,
+       parseMetadata,parseSteps,parseTables,parseRewards,resolveImages,translate,glossary.json,
+       buildDataset,run,migrate,checkNewQuests,generateIcon,generateSkillIcons,skillIcons}.js
   cache/ (gitignored)
 data/
   index.json
-  quests/*.json (362 archivos)
+  quests/*.json (367 archivos)
 worker/
   runemetrics-proxy.js  wrangler.toml  package.json
-.github/workflows/pages.yml
+.github/workflows/{pages.yml,check-new-quests.yml}
 ```
 
 ## Archivos clave
@@ -69,9 +72,11 @@ worker/
 - Sin env vars en `app/` ni en `worker/` (el Worker no necesita credenciales, solo reenvía a un endpoint público).
 
 ## Estado
-Funcional: sí | Beta: no (concluido) | Última revisión: rediseño de detalle/sidebar estilo wiki,
-niveles de habilidad reales, popup de opciones de chat flotante con formato de diálogo, y limpieza
-completa de código muerto y datos migrados.
+Funcional: sí | Beta: no (mantenimiento continuo) | Última revisión: corrección de parsing de opciones
+de chat (enlaces anidados, "~", marcadores "1."/"3/4"), tablas de puzzle con celdas bloqueadas por
+`{{NA|colspan}}`, reclasificación de sagas como miniquest, recomputo fresco de `isSeasonal` en cada
+migrate, limpieza de notación de piso ambigua (UK/US) y del artefacto "(via)" en texto de inicio y
+recompensas, chequeo diario automático de misiones nuevas, y limpieza de claves i18n muertas.
 
 ## Integraciones externas
 - **RuneMetrics (Jagex)** — estado de misiones y niveles del jugador. Público, sin credenciales.
@@ -99,19 +104,29 @@ No aplica (no hay login propio; el plugin consulta el nombre de cuenta real de R
 usuario configura en Ajustes).
 
 ## Versión
-1.0.0 — primera versión considerada concluida (todas las funciones del flujo original implementadas
-y verificadas contra una cuenta real).
+1.1.0 — versión base concluida más una ronda extensa de correcciones de datos/parsing y
+mantenimiento continuo (367 misiones, 473 QP verificado).
 
 ## Cambios
-1. Limpieza completa de código muerto/comentarios obsoletos, reparación de datos migrados y mejora
-   de formato de opciones de chat en el popup.
-2. Rediseño del sidebar con chips de filtro e íconos SVG generados, emblema de brújula.
-3. Rediseño del panel de detalle al estilo Quick guide de la wiki (requisitos con ✓/✗ reales, items
+1. Chequeo diario automatizado de misiones nuevas (`check-new-quests.yml`, antes semanal) que abre
+   un PR con el scraping en inglés (gratis, sin traducir).
+2. Limpieza de notación de piso ambigua UK/US (`1st floor[UK]2nd floor[US]`) tanto en metadatos
+   (punto de inicio, items, kills) como en recompensas — bug de extracción HTML, no de wikitext.
+3. Eliminación del artefacto "(via )" colgante en el punto de inicio (enlace de mapa interactivo
+   despojado de su texto) en 36 misiones en inglés y 22 traducciones en español ya existentes.
+4. Corrección de tablas de solución de puzzles: celdas `{{NA|colspan=N|}}` ahora se expanden
+   correctamente en vez de colapsar y desplazar las columnas siguientes; celdas bloqueadas
+   resaltadas visualmente y tamaño de grilla fijo independiente del tamaño de ventana.
+5. Corrección de parsing de opciones de chat: enlaces wiki anidados dentro de una opción, el
+   símbolo "~" como sinónimo de "any", y marcadores "1." (con punto) y "3/4" (posición combinada).
+6. Fremennik Sagas reclasificadas como miniquest (coincide con el filtro nativo de RS3);
+   `isMiniquest` e `isSeasonal` ahora se recalculan frescos en cada migrate en vez de copiarse
+   del disco (bug de datos obsoletos encontrado dos veces con la misma causa raíz).
+7. Limpieza de 5 claves i18n muertas en `app/js/i18n.js` (`metaYes`, `metaNo`, `welcomeTitle`,
+   `welcomeIntro`, `welcomeSyncHint`), reemplazadas hace tiempo por HTML hardcodeado.
+8. Rediseño del sidebar: popover de Filter + dropdown de Sort (4 modos) reemplazando los chips.
+9. Rediseño del panel de detalle al estilo Quick guide de la wiki (requisitos con ✓/✗ reales, items
    en lista, pasos por sección, recompensas al final con banner).
-4. Niveles de habilidad reales del jugador vía RuneMetrics (Worker + `skills.js`) para los requisitos.
-5. Migración completa del dataset a la nueva estructura sin gasto de créditos de traducción.
-6. Ajuste visual completo (paleta, tipografía, iconografía) estilo interfaz nativa de RS3.
-7. Corrección exhaustiva del conteo de puntos de misión (418/472 verificado contra cuenta real).
-8. Sidebar con 3 casilleros de estado + eventos/temporada como categoría propia.
-9. Integración de RuneMetrics para auto-marcado de misiones completadas.
-10. Scraper completo del dataset (362 misiones) con traducción al español.
+10. Niveles de habilidad reales del jugador vía RuneMetrics (Worker + `skills.js`) para los requisitos.
+11. Integración de RuneMetrics para auto-marcado de misiones completadas.
+12. Scraper completo del dataset (367 misiones) con traducción al español.
