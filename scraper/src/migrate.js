@@ -116,8 +116,23 @@ async function migrateOne(slug, seasonalTitles) {
     oldIndex++;
     return oldEs ? { ...step, text: { ...step.text, es: oldEs } } : step;
   });
-  if (old.startPoint?.es) {
-    record.startPoint = { ...record.startPoint, es: stripHtmlComments(old.startPoint.es) };
+  // Old Spanish translations made before cleanFloorNotation existed can carry
+  // the same "1st floor[UK]2nd floor[US]"-style garble baked in verbatim —
+  // and inconsistently so (some translated the bracket labels too, e.g.
+  // "[RU]"/"[EE. UU.]"), too varied for one reliable regex to clean up.
+  // Safer to just drop the stale translation entirely (falls back to the
+  // now-clean English, flagged pending re-translation) than risk carrying
+  // over a subtly-wrong "cleaned" Spanish string.
+  const startPointEsIsGarbled = old.startPoint?.es && /\[(UK|US|RU|EE\.?\s*UU\.?)\]/i.test(old.startPoint.es);
+  if (old.startPoint?.es && !startPointEsIsGarbled) {
+    // The dangling "(via)"/"( via )" remnant (see cleanFloorNotation-adjacent
+    // fix in parseMetadata.js) is a consistent, safe pattern to strip even
+    // from an already-translated Spanish string — unlike the floor-notation
+    // garble above, it never mixes with surrounding content.
+    const cleanedEs = stripHtmlComments(old.startPoint.es)
+      .replace(/\(\s*via\s*\)/gi, "")
+      .trim();
+    record.startPoint = { ...record.startPoint, es: cleanedEs };
   }
 
   // Selectable-list items (e.g. The Mighty Fall's "talk to the following

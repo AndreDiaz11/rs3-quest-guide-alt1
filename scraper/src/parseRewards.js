@@ -1,4 +1,5 @@
 import * as cheerio from "cheerio";
+import { cleanFloorNotation } from "./parseMetadata.js";
 
 function parseLeadingAmount(text) {
   const match = text.match(/^([\d,]+)/);
@@ -23,7 +24,7 @@ function parseRewardListItem($, liEl) {
   // and its own <a> could get mistaken for the reward's item link.
   const withoutChildren = $li.clone().children("ul").remove().end();
   withoutChildren.find("figure").remove();
-  const text = withoutChildren.text().replace(/\s+/g, " ").trim();
+  const text = cleanFloorNotation(withoutChildren.text().replace(/\s+/g, " ").trim());
 
   let result;
   if (/quest point/i.test(text)) {

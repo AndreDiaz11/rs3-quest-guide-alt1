@@ -8,6 +8,23 @@ function absoluteImageUrl(src) {
   return src.startsWith("http") ? src : `${WIKI_ORIGIN}${src.split("?")[0]}`;
 }
 
+// The wiki's rendered HTML shows an ambiguous floor reference (e.g. "the 2nd
+// floor of a building") as BOTH regional conventions side by side — a
+// `<span class="floornumber-gb">1st floor[UK]</span><span
+// class="floornumber-us">2nd floor[US]</span>` pair, normally toggled by the
+// reader's own locale preference client-side. Extracting plain text via
+// cheerio's `.text()` (no JS execution) captures both halves concatenated
+// with no separator — "1st floor[UK]2nd floor[US]" — reading as garbled
+// nonsense. Collapses it down to just the UK convention (the wiki's own
+// primary/default numbering) to match the single-number "Nth floor" already
+// used elsewhere (see wikitext.js's {{FloorNumber|N}} template handling).
+export function cleanFloorNotation(text) {
+  return text.replace(
+    /((?:ground|\d+(?:st|nd|rd|th))\s*floor)\[UK\](?:ground|\d+(?:st|nd|rd|th))\s*floor\[US\]/gi,
+    "$1"
+  );
+}
+
 /**
  * Parses the infobox block from the main article's wikitext. Quests use
  * {{Infobox Quest|...}}; miniquests use {{Infobox Miniquest|...}} instead;
@@ -120,7 +137,7 @@ function parseItemNode($, li) {
   // its text/link, or `display`/`name` come out empty for every leaf item.
   const withoutChildren = $li.clone().children("ul").remove().end();
   withoutChildren.find("figure").remove(); // strip any inline reference screenshot before reading text/link
-  const display = withoutChildren.text().replace(/\s+/g, " ").trim();
+  const display = cleanFloorNotation(withoutChildren.text().replace(/\s+/g, " ").trim());
   const link = withoutChildren.find("a").first();
   // Use the link's `title` attribute (the canonical wiki page name) for
   // image lookups, since the visible text can be pluralized/lowercased
@@ -157,8 +174,19 @@ function parseQuestDetailsTable(quickGuideHtml) {
   const table = $("table.questdetails").first();
 
   const startCell = table.find('td[data-attr-param="startDisp"]');
+  // The wiki's own "(via [interactive map link])" note loses its link text
+  // entirely once the map link itself is stripped below (its visible text is
+  // just a generic "a location"/"Show on map", not useful without the actual
+  // interactive map) — left an empty, dangling "(via )" in the plain text.
+  // Dropped as a whole phrase instead, same as removing the link itself.
   startCell.find("img, .mw-kartographer-maplink").remove();
-  const startPoint = startCell.text().replace(/\s+/g, " ").trim();
+  const startPoint = cleanFloorNotation(
+    startCell
+      .text()
+      .replace(/\s+/g, " ")
+      .replace(/\(\s*via\s*\)/gi, "")
+      .trim()
+  );
 
   const length = table.find('td[data-attr-param="length"]').first().text().trim();
 
@@ -193,7 +221,7 @@ function parseQuestDetailsTable(quickGuideHtml) {
 
   const kills = [];
   table.find('td[data-attr-param="kills"] li').each((_, el) => {
-    kills.push($(el).text().replace(/\s+/g, " ").trim());
+    kills.push(cleanFloorNotation($(el).text().replace(/\s+/g, " ").trim()));
   });
 
   return { startPoint, length, icon, requiredQuests, followsEvents, requiredSkills, items, recommended, kills };
