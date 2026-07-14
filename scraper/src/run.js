@@ -41,6 +41,17 @@ export const HUB_QUEST_NOTE = {
   es: "Esta misión es un resumen que agrupa varias sub-misiones. No existe una guía única para la misión en sí, pero la guía completa de cada sub-misión está más abajo en su propia sección — tocá una para desplegarla.",
 };
 
+// Shown for a brand-new quest whose own wiki page exists but whose Quick
+// guide hasn't been written yet (the wiki community usually adds one within
+// hours/days of release) — distinct from HUB_QUEST_NOTE (permanent, no
+// walkthrough by design) and from a removed quest's `removedDate` banner.
+// `isPending` (see buildQuestRecord) flags these for automatic retry by
+// checkNewQuests.js until the real walkthrough shows up.
+export const PENDING_GUIDE_NOTE = {
+  en: "This quest was just released and the wiki's step-by-step guide isn't available yet. It'll fill in here automatically once it's added.",
+  es: "Esta misión acaba de salir y la wiki todavía no tiene la guía paso a paso. Se completará acá automáticamente en cuanto esté disponible.",
+};
+
 // Deleted-content quests are excluded by default (see isNonPlayableContent
 // below) since most are old pre-rework leftovers with no real QP of their
 // own. Unstable Foundations is the one deliberate exception: RuneScape's own
@@ -92,7 +103,12 @@ function isNonPlayableContent(title, mainWikitext) {
   return (
     /\(historical\)$/i.test(title) ||
     /\{\{Deleted content\}\}|\{\{Quest reworked/i.test(mainWikitext) ||
-    /\{\{Infobox Event/i.test(mainWikitext)
+    /\{\{Infobox Event/i.test(mainWikitext) ||
+    // {{Nonexistence|scrapped=yes}} marks a quest that was planned/developed
+    // but never actually released (e.g. "Hunter Skillcape Quest", "Tome
+    // Raider (quest)") — found via Category:Quests, which lists these
+    // alongside real quests since the wiki still documents cancelled ones.
+    /\{\{Nonexistence\|[^}]*scrapped\s*=\s*yes/i.test(mainWikitext)
   );
 }
 
@@ -110,10 +126,17 @@ export async function scrapeOne(title, { skipTranslate }, seasonalTitles) {
 
   let steps;
   let guideNote;
+  let isPending = false;
   if (page.quickGuideWikitext === null) {
-    // Removed-from-the-game quest (e.g. Unstable Foundations) — no Quick
-    // guide page exists at all, so there's no walkthrough to parse.
+    // No Quick guide page exists at all — either a removed-from-the-game
+    // quest (e.g. Unstable Foundations, flagged via metadata.removedDate,
+    // already gets its own "no longer available" banner) or a brand-new
+    // quest whose walkthrough the wiki hasn't written yet.
     steps = [];
+    if (!metadata.removedDate) {
+      guideNote = PENDING_GUIDE_NOTE;
+      isPending = true;
+    }
   } else {
     try {
       steps = await parseSteps(page.quickGuideWikitext);
@@ -136,6 +159,7 @@ export async function scrapeOne(title, { skipTranslate }, seasonalTitles) {
     isSeasonal,
     skipTranslate,
     guideNote,
+    isPending,
     ...extractSubquestTitles(page),
   });
 

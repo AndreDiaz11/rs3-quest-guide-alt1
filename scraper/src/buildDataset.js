@@ -63,6 +63,7 @@ export async function buildQuestRecord({
   isSeasonal,
   skipTranslate,
   guideNote,
+  isPending,
   subquests,
   bonusQuests,
 }) {
@@ -264,6 +265,7 @@ export async function buildQuestRecord({
     postQuest: rewardsData.postQuest,
     steps: stepsWithImages,
     ...(guideNote ? { guideNote } : {}),
+    ...(isPending ? { isPending: true } : {}),
     ...(metadata.removedDate ? { removedDate: metadata.removedDate } : {}),
     ...(subquests?.length ? { subquests } : {}),
     ...(bonusQuests?.length ? { bonusQuests } : {}),
@@ -282,6 +284,7 @@ export async function buildQuestRecord({
     members: metadata.members,
     length: metadata.length,
     questPoints,
+    ...(isPending ? { isPending: true } : {}),
   };
   const existingIndex = index.quests.findIndex((q) => q.id === id);
   if (existingIndex >= 0) index.quests[existingIndex] = summary;

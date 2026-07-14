@@ -72,11 +72,13 @@ worker/
 - Sin env vars en `app/` ni en `worker/` (el Worker no necesita credenciales, solo reenvía a un endpoint público).
 
 ## Estado
-Funcional: sí | Beta: no (mantenimiento continuo) | Última revisión: corrección de parsing de opciones
-de chat (enlaces anidados, "~", marcadores "1."/"3/4"), tablas de puzzle con celdas bloqueadas por
-`{{NA|colspan}}`, reclasificación de sagas como miniquest, recomputo fresco de `isSeasonal` en cada
-migrate, limpieza de notación de piso ambigua (UK/US) y del artefacto "(via)" en texto de inicio y
-recompensas, chequeo diario automático de misiones nuevas, y limpieza de claves i18n muertas.
+Funcional: sí | Beta: no (mantenimiento continuo) | Última revisión: soporte de `rowspan` en tablas de
+puzzle, detección de misiones nuevas cada 15 min con publicación automática directa a `main` (sin PR)
+incluyendo el reintento automático de la guía paso a paso hasta que la wiki la publique, corrección de
+parsing de opciones de chat (enlaces anidados, "~", marcadores "1."/"3/4"), tablas de puzzle con celdas
+bloqueadas por `{{NA|colspan}}`, reclasificación de sagas como miniquest, recomputo fresco de
+`isSeasonal` en cada migrate, limpieza de notación de piso ambigua (UK/US) y del artefacto "(via)" en
+texto de inicio y recompensas, y limpieza de claves i18n muertas.
 
 ## Integraciones externas
 - **RuneMetrics (Jagex)** — estado de misiones y niveles del jugador. Público, sin credenciales.
@@ -108,25 +110,31 @@ usuario configura en Ajustes).
 mantenimiento continuo (367 misiones, 473 QP verificado).
 
 ## Cambios
-1. Chequeo diario automatizado de misiones nuevas (`check-new-quests.yml`, antes semanal) que abre
-   un PR con el scraping en inglés (gratis, sin traducir).
-2. Limpieza de notación de piso ambigua UK/US (`1st floor[UK]2nd floor[US]`) tanto en metadatos
+1. Soporte de `rowspan` en tablas de solución de puzzles (además del `colspan`/`{{NA}}` ya soportado):
+   celdas que abarcan varias filas (ej. la tabla de dados de Lunar Diplomacy) ahora se preservan
+   correctamente en vez de perderse como atributo desconocido.
+2. Detección de misiones nuevas cada 15 min (antes diario) publicando directo a `main` sin abrir PR
+   (`check-new-quests.yml`) — además ahora detecta una misión nueva desde Category:Quests el mismo
+   día de su salida aunque la wiki todavía no le haya escrito la guía paso a paso: se publica igual,
+   marcada `isPending` con un aviso "guía no disponible todavía", y se reintenta sola en cada corrida
+   hasta completarse — sin intervención manual.
+3. Limpieza de notación de piso ambigua UK/US (`1st floor[UK]2nd floor[US]`) tanto en metadatos
    (punto de inicio, items, kills) como en recompensas — bug de extracción HTML, no de wikitext.
-3. Eliminación del artefacto "(via )" colgante en el punto de inicio (enlace de mapa interactivo
+4. Eliminación del artefacto "(via )" colgante en el punto de inicio (enlace de mapa interactivo
    despojado de su texto) en 36 misiones en inglés y 22 traducciones en español ya existentes.
-4. Corrección de tablas de solución de puzzles: celdas `{{NA|colspan=N|}}` ahora se expanden
+5. Corrección de tablas de solución de puzzles: celdas `{{NA|colspan=N|}}` ahora se expanden
    correctamente en vez de colapsar y desplazar las columnas siguientes; celdas bloqueadas
    resaltadas visualmente y tamaño de grilla fijo independiente del tamaño de ventana.
-5. Corrección de parsing de opciones de chat: enlaces wiki anidados dentro de una opción, el
+6. Corrección de parsing de opciones de chat: enlaces wiki anidados dentro de una opción, el
    símbolo "~" como sinónimo de "any", y marcadores "1." (con punto) y "3/4" (posición combinada).
-6. Fremennik Sagas reclasificadas como miniquest (coincide con el filtro nativo de RS3);
+7. Fremennik Sagas reclasificadas como miniquest (coincide con el filtro nativo de RS3);
    `isMiniquest` e `isSeasonal` ahora se recalculan frescos en cada migrate en vez de copiarse
    del disco (bug de datos obsoletos encontrado dos veces con la misma causa raíz).
-7. Limpieza de 5 claves i18n muertas en `app/js/i18n.js` (`metaYes`, `metaNo`, `welcomeTitle`,
+8. Limpieza de 5 claves i18n muertas en `app/js/i18n.js` (`metaYes`, `metaNo`, `welcomeTitle`,
    `welcomeIntro`, `welcomeSyncHint`), reemplazadas hace tiempo por HTML hardcodeado.
-8. Rediseño del sidebar: popover de Filter + dropdown de Sort (4 modos) reemplazando los chips.
-9. Rediseño del panel de detalle al estilo Quick guide de la wiki (requisitos con ✓/✗ reales, items
-   en lista, pasos por sección, recompensas al final con banner).
-10. Niveles de habilidad reales del jugador vía RuneMetrics (Worker + `skills.js`) para los requisitos.
-11. Integración de RuneMetrics para auto-marcado de misiones completadas.
-12. Scraper completo del dataset (367 misiones) con traducción al español.
+9. Rediseño del sidebar: popover de Filter + dropdown de Sort (4 modos) reemplazando los chips.
+10. Rediseño del panel de detalle al estilo Quick guide de la wiki (requisitos con ✓/✗ reales, items
+    en lista, pasos por sección, recompensas al final con banner).
+11. Niveles de habilidad reales del jugador vía RuneMetrics (Worker + `skills.js`) para los requisitos.
+12. Integración de RuneMetrics para auto-marcado de misiones completadas.
+13. Scraper completo del dataset (367 misiones) con traducción al español.

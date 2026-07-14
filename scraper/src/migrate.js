@@ -6,7 +6,7 @@ import { parseMetadata, extractSubquestTitles } from "./parseMetadata.js";
 import { parseSteps } from "./parseSteps.js";
 import { parseRewards } from "./parseRewards.js";
 import { buildQuestRecord } from "./buildDataset.js";
-import { HUB_QUEST_NOTE, isMiniquestTitle, isSeasonalQuest } from "./run.js";
+import { HUB_QUEST_NOTE, PENDING_GUIDE_NOTE, isMiniquestTitle, isSeasonalQuest } from "./run.js";
 import { fetchSeasonalQuestTitles } from "./fetchSeasonalList.js";
 
 const QUESTS_DIR = fileURLToPath(new URL("../../data/quests/", import.meta.url));
@@ -47,10 +47,18 @@ async function migrateOne(slug, seasonalTitles) {
   const rewardsData = page.quickGuideHtml ? parseRewards(page.quickGuideHtml) : { rewards: [], postQuest: [] };
   let steps;
   let guideNote = old.guideNote;
+  let isPending = false;
   if (page.quickGuideWikitext === null) {
-    // Removed-from-the-game quest (e.g. Unstable Foundations) — its Quick
-    // guide page doesn't exist at all, so there's no walkthrough to parse.
+    // No Quick guide page exists at all — either a removed-from-the-game
+    // quest (e.g. Unstable Foundations, flagged via metadata.removedDate) or
+    // a quest still pending its first walkthrough (see PENDING_GUIDE_NOTE in
+    // run.js) — retry it fresh every migrate rather than trusting the old
+    // pending flag, in case the guide has shown up since.
     steps = [];
+    if (!metadata.removedDate) {
+      guideNote = PENDING_GUIDE_NOTE;
+      isPending = true;
+    }
   } else {
     try {
       steps = await parseSteps(page.quickGuideWikitext);
@@ -78,6 +86,7 @@ async function migrateOne(slug, seasonalTitles) {
     isSeasonal: isSeasonalQuest(old.title, page.categories, seasonalTitles),
     skipTranslate: true,
     guideNote,
+    isPending,
     ...extractSubquestTitles(page),
   });
 

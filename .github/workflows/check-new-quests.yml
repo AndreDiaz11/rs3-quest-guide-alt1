@@ -2,12 +2,11 @@ name: Check for new RS3 quests
 
 on:
   schedule:
-    - cron: "0 12 * * *" # every day at noon UTC
+    - cron: "*/15 * * * *" # every 15 minutes
   workflow_dispatch:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   check:
@@ -25,20 +24,28 @@ jobs:
         run: npm install
         working-directory: scraper
 
-      # Only ever scrapes NEW quest pages in English (free, no Anthropic API
-      # key needed or used) — never translates, never touches existing quests.
-      - name: Scrape any new quests
+      # Only ever scrapes NEW quest pages (or retries ones still missing a
+      # walkthrough) in English (free, no Anthropic API key needed or used)
+      # — never translates, never touches already-translated content. A
+      # brand-new quest with no Quick guide yet is still added, marked
+      # `isPending` with an in-app "guide not available yet" note, and
+      # retried automatically on every future run until the wiki adds one.
+      - name: Scrape any new/pending quests
         run: node src/checkNewQuests.js
         working-directory: scraper
 
-      - name: Open a PR if anything new was found
-        uses: peter-evans/create-pull-request@v6
-        with:
-          commit-message: "Add new quest(s) scraped in English (needs translation)"
-          title: "New RS3 quest(s) detected"
-          body-path: scraper/new-quests-summary.txt
-          branch: auto/new-quests
-          delete-branch: true
-          add-paths: |
-            data/index.json
-            data/quests/*.json
+      # Pushes straight to main — no PR/review step. Safe because a bad
+      # scrape either throws (skipped, logged, nothing written) or produces
+      # a normal quest record; there's no destructive or ambiguous outcome
+      # that would need a human gate before it reaches users.
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/index.json data/quests/; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git add data/index.json data/quests/
+          git commit -m "Auto-update quest data (new/pending quests)"
+          git push
