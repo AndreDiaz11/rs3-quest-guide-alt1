@@ -114,6 +114,27 @@ refreshBtn.addEventListener("click", manualRefresh);
 setInterval(updateRefreshButtonState, 15000);
 sidebarBackdrop.addEventListener("click", () => setSidebarOpen(false));
 
+// Alt1 keeps a plugin's tab alive across game sessions for days — without
+// this, a quest the 15-min auto-publish workflow adds while the plugin is
+// already open would only ever show up after the player manually closes and
+// reopens it. Re-fetching index.json (already "no-cache", see dataset.js)
+// on the same 15-min cadence as that workflow picks up new/updated quests
+// live. Only re-renders the sidebar LIST, never touches whatever quest is
+// currently open in the detail panel — a player mid-guide should never have
+// their own screen change out from under them.
+const DATASET_REFRESH_MS = 15 * 60 * 1000;
+async function refreshDatasetIndex() {
+  try {
+    state.index = await fetchIndex();
+    refreshSidebar();
+  } catch (err) {
+    // Silent — a transient network hiccup here shouldn't interrupt whatever
+    // the player is doing; the next scheduled attempt will just try again.
+    console.error("[dataset] fallo al refrescar el índice de misiones:", err);
+  }
+}
+setInterval(refreshDatasetIndex, DATASET_REFRESH_MS);
+
 function refreshSidebar() {
   renderSidebar({ filterBarEl, listSummaryEl, listEl, counterEl }, selectQuest);
 }
