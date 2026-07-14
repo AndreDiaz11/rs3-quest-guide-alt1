@@ -209,63 +209,107 @@ export function splitLighttableRows(raw) {
   return rows;
 }
 
-function cleanCell(raw) {
+// `{{NA|colspan=N|}}` (or bare `{{NA|}}`, colspan defaults to 1) is the
+// wiki's own "blocked/not applicable" filler cell for grid-shaped puzzle
+// diagrams (e.g. Eclipse of the Heart's sliding-tile solutions) — used
+// instead of a native wikitable `colspan="N"` attribute.
+const NA_CELL_RE = /^\{\{NA\|(?:colspan\s*=\s*(\d+)\s*\|?)?\}\}$/i;
+
+/**
+ * Parses one raw cell token (everything after a row's `|`/`!`/`||`/`!!`
+ * separator, before cleaning) into `{ text, blocked, colspan, rowspan }`.
+ * Handles both the `{{NA|colspan=N}}` template convention and native
+ * wikitable `rowspan="N"`/`colspan="N"` attributes (e.g. Lunar Diplomacy's
+ * dice-roll answer table mixes both in the same block).
+ */
+function parseCellToken(raw) {
+  const naMatch = raw.trim().match(NA_CELL_RE);
+  if (naMatch) {
+    return { text: "", blocked: true, colspan: naMatch[1] ? Number(naMatch[1]) : 1, rowspan: 1 };
+  }
+
   let text = raw.replace(/<br\s*\/?>/gi, " ");
+  let rowspan = 1;
+  let colspan = 1;
   // A cell can carry one or more wiki-table attributes before its real
   // content, separated from it by its own `|` (e.g. `rowspan="2"
   // style="..." | Content`, or an unquoted one like `width=19|Content`) —
   // strip each attribute token in turn (there can be several in a row before
-  // the pipe, e.g. `width="120" height="80" | Content`), then drop the one
-  // leading pipe left over. Real cell content never itself starts with
-  // `key=value`, so this is safe.
+  // the pipe, e.g. `width="120" height="80" | Content`), capturing
+  // rowspan/colspan values along the way, then drop the one leading pipe
+  // left over. Real cell content never itself starts with `key=value`, so
+  // this is safe.
   for (let i = 0; i < 4; i++) {
-    const attrMatch = text.match(/^\s*[a-zA-Z-]+\s*=\s*("[^"]*"|[^|\s]+)\s*/);
+    const attrMatch = text.match(/^\s*([a-zA-Z-]+)\s*=\s*("[^"]*"|[^|\s]+)\s*/);
     if (!attrMatch) break;
+    const key = attrMatch[1].toLowerCase();
+    const value = attrMatch[2].replace(/^"|"$/g, "");
+    if (key === "rowspan") rowspan = Number(value) || 1;
+    else if (key === "colspan") colspan = Number(value) || 1;
     text = text.slice(attrMatch[0].length);
   }
   text = text.replace(/^\|/, "");
+  // A native `colspan="N" {{NA}}` attribute (as opposed to the template-only
+  // `{{NA|colspan=N}}` convention checked above) still needs to be flagged
+  // blocked once its colspan attribute is already stripped off above (e.g.
+  // Lunar Diplomacy's dice-answer table spacer bar uses this exact form).
+  if (/^\{\{NA\|?\}\}$/i.test(text.trim())) {
+    return { text: "", blocked: true, colspan, rowspan };
+  }
   // {{yes|N}}/{{no|N}} are the wiki's own tick/cross icon templates (e.g. a
   // puzzle-solution grid marking which cells hold a ship) — the generic
   // inline-template stripper elsewhere would otherwise just delete them,
   // leaving a blank cell with no indication a mark was ever there.
   text = text.replace(/\{\{yes\|[^{}]*\}\}/gi, "✓").replace(/\{\{no\|[^{}]*\}\}/gi, "✗");
-  return wikitextToPlain(text).text;
+  return { text: wikitextToPlain(text).text, blocked: false, colspan, rowspan };
 }
 
-// `{{NA|colspan=N|}}` (or bare `{{NA|}}`, colspan defaults to 1) is the
-// wiki's own "blocked/not applicable" filler cell for grid-shaped puzzle
-// diagrams (e.g. Eclipse of the Heart's sliding-tile solutions) — used
-// instead of a native wikitable `colspan="N"` attribute. Treating it as one
-// ordinary cell (like any other unrecognized template, stripped to "" by the
-// generic template cleaner) silently swallowed its colspan, so every row
-// containing one ended up with fewer cells than the table's real column
-// count — shifting every real cell after it into the wrong column relative
-// to rows that didn't hit an NA cell, and distorting the whole grid's shape.
-const NA_CELL_RE = /^\{\{NA\|(?:colspan\s*=\s*(\d+)\s*\|?)?\}\}$/i;
-
-/** Expands a row's raw (pre-cleanCell) cell strings so an NA-colspan cell becomes N separate `{ raw: "", blocked: true }` cells, keeping every row's cell count consistent with the table's true column count. */
-function expandNaCells(rawCells) {
-  const expanded = [];
-  for (const cell of rawCells) {
-    const match = cell.trim().match(NA_CELL_RE);
-    if (match) {
-      const span = match[1] ? Number(match[1]) : 1;
-      for (let i = 0; i < span; i++) expanded.push({ raw: "", blocked: true });
-    } else {
-      expanded.push({ raw: cell, blocked: false });
+/**
+ * Expands one row's parsed cell tokens against columns still occupied by a
+ * `rowspan` from an earlier row (tracked in `carry`, keyed by column index)
+ * into a flat array of `{ text, blocked }` — one per actual column. A
+ * `rowspan="N"` cell registers `N - 1` more rows' worth of a blank
+ * continuation cell in `carry` at its own column(s) (blank because a merged
+ * cell's content visually shows once, not repeated per row); a `colspan="N"`
+ * cell fills its extra columns with a blank cell the same way. Both can
+ * combine (e.g. Lunar Diplomacy's `colspan="7" {{NA}}` blocked spacer bar
+ * above a `rowspan="10"` blank divider column between two mini-tables).
+ */
+function expandRowAgainstCarry(cells, carry) {
+  const outRow = [];
+  let col = 0;
+  let i = 0;
+  while (true) {
+    if (carry[col] && carry[col].remaining > 0) {
+      outRow[col] = { text: "", blocked: carry[col].blocked };
+      carry[col].remaining--;
+      if (carry[col].remaining === 0) delete carry[col];
+      col++;
+      continue;
     }
+    if (i < cells.length) {
+      const cell = cells[i];
+      i++;
+      for (let j = 0; j < cell.colspan; j++) {
+        outRow[col] = { text: j === 0 ? cell.text : "", blocked: cell.blocked };
+        if (cell.rowspan > 1) carry[col] = { blocked: cell.blocked, remaining: cell.rowspan - 1 };
+        col++;
+      }
+      continue;
+    }
+    break;
   }
-  return expanded;
+  return outRow;
 }
 
 /**
  * Converts one raw `{| ... |}` wikitable block into `{ headers, rows }` of
- * plain text. Best-effort: rowspan and embedded images are flattened rather
- * than preserved — good enough for reference tables like quiz answers or
- * NPC/location lists, though a handful of visually complex wiki tables
- * (e.g. constellation picture grids) will render plainer than the wiki.
- * `{{NA|colspan=N}}` blocked-cell filler is preserved via expandNaCells,
- * flagged in the output as `blocked: true` cells (see cleanRow below).
+ * plain text. `rowspan`/`colspan` (native attributes or the `{{NA|colspan}}`
+ * template convention) are preserved by flattening a spanning cell's value
+ * into every column/row it visually covers — good enough for reference
+ * tables like quiz answers or NPC/location lists, as well as grid-shaped
+ * puzzle diagrams, though a handful of visually complex wiki tables (e.g.
+ * constellation picture grids) will still render plainer than the wiki.
  */
 export function parseWikiTableToStructured(raw) {
   const lines = raw.split("\n").slice(1); // drop the opening "{|...attrs" line
@@ -288,11 +332,12 @@ export function parseWikiTableToStructured(raw) {
       line
         .slice(1)
         .split("!!")
-        .forEach((c) => currentRow.push({ isHeader: true, text: cleanCell(c) }));
+        .forEach((c) => currentRow.push({ isHeader: true, ...parseCellToken(c) }));
     } else if (line.startsWith("|")) {
-      expandNaCells(line.slice(1).split("||")).forEach((c) =>
-        currentRow.push({ isHeader: false, text: cleanCell(c.raw), blocked: c.blocked })
-      );
+      line
+        .slice(1)
+        .split("||")
+        .forEach((c) => currentRow.push({ isHeader: false, ...parseCellToken(c) }));
     }
   }
   if (currentRow?.length) rows.push(currentRow);
@@ -303,9 +348,12 @@ export function parseWikiTableToStructured(raw) {
   let headers = null;
   let dataRows = cleanRows;
   if (cleanRows[0].every((c) => c.isHeader)) {
-    headers = cleanRows[0].map((c) => c.text);
+    // Headers are a single row with no rowspan carry-in from above, but can
+    // still use colspan (e.g. a merged header spanning two data columns).
+    headers = expandRowAgainstCarry(cleanRows[0], {}).map((c) => c.text);
     dataRows = cleanRows.slice(1);
   }
 
-  return { headers, rows: dataRows.map((row) => row.map((c) => ({ text: c.text, blocked: Boolean(c.blocked) }))) };
+  const carry = {};
+  return { headers, rows: dataRows.map((row) => expandRowAgainstCarry(row, carry)) };
 }
