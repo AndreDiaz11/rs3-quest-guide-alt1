@@ -3,7 +3,7 @@
   "title": "Desert Treasure",
   "isMiniquest": false,
   "isSeasonal": false,
-  "guideLastUpdated": "2026-07-14T12:45:54.908Z",
+  "guideLastUpdated": "2026-07-15T14:11:32.087Z",
   "icon": "https://runescape.wiki/images/Desert_Treasure_icon.png",
   "entityIcon": null,
   "series": "Mahjarrat Mysteries",
@@ -19,7 +19,7 @@
   "area": "Kharidian Desert",
   "startPoint": {
     "en": "Talk to Asgarnia Smith, the archaeologist who is exploring the Bedabin Camp south-west of the Shantay Pass.",
-    "es": "Habla con Asgarnia Smith, el arqueólogo que está explorando el Bedabin Camp al suroeste del Shantay Pass."
+    "es": "Habla con Asgarnia Smith, el arqueólogo que está explorando el Bedabin Camp al sudoeste del Shantay Pass."
   },
   "requirements": {
     "quests": [
@@ -358,13 +358,15 @@
       "section": "Asgarnia Smith",
       "needed": {
         "text": {
-          "en": "One backpack space"
+          "en": "One backpack space",
+          "es": "Un espacio de inventario"
         },
         "highlightTerms": []
       },
       "recommended": {
         "text": {
-          "en": "Desert heat protection, Archaeology journal"
+          "en": "Desert heat protection, Archaeology journal",
+          "es": "Protección contra el calor del desierto, diario de Arqueología"
         },
         "highlightTerms": [
           "Desert heat",
@@ -378,7 +380,7 @@
       "section": "Asgarnia Smith",
       "text": {
         "en": "Talk to Asgarnia Smith for some etchings. He is in the Bedabin Camp south-west of the Shantay Pass.",
-        "es": "Habla con Asgarnia Smith para conseguir unos grabados. Está en el Bedabin Camp al suroeste del Shantay Pass."
+        "es": "Habla con Asgarnia Smith para conseguir unas inscripciones. Está en el Bedabin Camp, al sudoeste del Shantay Pass."
       },
       "chatOptions": [
         "2 Do you have any quests?",
@@ -426,7 +428,7 @@
       "section": "Asgarnia Smith",
       "text": {
         "en": "Talk to him again for the Translation.",
-        "es": "Vuelve a hablar con él para conseguir la Translation."
+        "es": "Habla con él otra vez para obtener la Translation."
       },
       "chatOptions": [
         "1 Ask about the Desert Treasure quest."
@@ -441,7 +443,8 @@
       "section": "Bandit Camp",
       "needed": {
         "text": {
-          "en": "650 coins, 1 charcoal, 1 ashes, 1 bones, 1 blood rune, 6 steel bars (can be noted), 12 magic logs (can be noted), 6 molten glass (can be noted), translation, and one backpack space."
+          "en": "650 coins, 1 charcoal, 1 ashes, 1 bones, 1 blood rune, 6 steel bars (can be noted), 12 magic logs (can be noted), 6 molten glass (can be noted), translation, and one backpack space.",
+          "es": "650 monedas, 1 carbón, 1 cenizas, 1 huesos, 1 runa de sangre, 6 barras de acero (pueden ir marcadas), 12 troncos mágicos (pueden ir marcados), 6 vidrio fundido (puede ir marcado), Translation, y un espacio de inventario."
         },
         "highlightTerms": [
           "charcoal",
@@ -473,7 +476,7 @@
       "section": "Bandit Camp",
       "text": {
         "en": "Talk to Asgarnia again and offer to help him.",
-        "es": "Habla de nuevo con Asgarnia y ofrécete a ayudarlo."
+        "es": "Habla otra vez con Asgarnia y ofrécete a ayudarlo."
       },
       "chatOptions": [
         "1 Help him"
@@ -498,7 +501,7 @@
       "section": "Bandit Camp",
       "text": {
         "en": "If you're wearing any Zamorak or Saradomin equipment, bandits become aggressive.",
-        "es": "Si llevas puesto equipo de Zamorak o Saradomin, los bandidos se volverán agresivos."
+        "es": "Si llevas puesto cualquier equipo de Zamorak o Saradomin, los bandidos se volverán agresivos."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -512,7 +515,7 @@
       "section": "Bandit Camp",
       "text": {
         "en": "Talk to the bartender at the pub for a Bandit's brew.",
-        "es": "Habla con el camarero del pub para conseguir un Bandit's brew."
+        "es": "Habla con el camarero de la taberna para conseguir un Bandit's brew."
       },
       "chatOptions": [
         "2 Buy a drink",
@@ -540,7 +543,7 @@
       "section": "Bandit Camp",
       "text": {
         "en": "Talk to Eblis, by or in the eastern-most building of the Bandit Camp. (if the first chat option is not 'Ask about Archaeology' )",
-        "es": "Habla con Eblis, junto al edificio más al este del Bandit Camp o dentro de él. (si la primera opción de chat no es 'Ask about Archaeology')"
+        "es": "Habla con Eblis, junto o dentro del edificio más al este del Bandit Camp. (si la primera opción de diálogo no es \"Ask about Archaeology\")"
       },
       "chatOptions": [
         "2 Ask about Desert Treasure",
@@ -561,7 +564,7 @@
       "section": "Bandit Camp",
       "text": {
         "en": "He will not speak to you if you're wearing any Zamorak or Saradomin equipment.",
-        "es": "No te hablará si llevas puesto equipo de Zamorak o Saradomin."
+        "es": "No te hablará si llevas puesto cualquier equipo de Zamorak o Saradomin."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -575,7 +578,7 @@
       "section": "Bandit Camp",
       "text": {
         "en": "Use all the items on Eblis, then talk to him again.",
-        "es": "Usa todos los objetos en Eblis, luego habla con él de nuevo."
+        "es": "Usa todos los objetos en Eblis y luego vuelve a hablar con él."
       },
       "chatOptions": [
         "2 Ask about Desert Treasure"
@@ -587,7 +590,7 @@
       "section": "Bandit Camp",
       "text": {
         "en": "Run south-east, and talk to Eblis by the Bandit Camp lodestone.",
-        "es": "Corre hacia el sureste y habla con Eblis, junto a la lodestone del Bandit Camp."
+        "es": "Corre hacia el sudeste y habla con Eblis junto a la piedra de viaje del Bandit Camp."
       },
       "chatOptions": [
         "2 Ask about Desert Treasure"
@@ -668,7 +671,8 @@
       "section": "Blood diamond",
       "needed": {
         "text": {
-          "en": "Garlic, silver bar, spice, food, air spells if using magic"
+          "en": "Garlic, silver bar, spice, food, air spells if using magic",
+          "es": "Ajo, barra de plata, especia, comida, hechizos de aire si usas magia"
         },
         "highlightTerms": [
           "Garlic",
@@ -685,7 +689,7 @@
       "section": "Blood diamond",
       "text": {
         "en": "Enter the pub in Canifis. After a short cutscene, talk to Malak.",
-        "es": "Entra en el pub de Canifis. Tras una breve cinemática, habla con Malak."
+        "es": "Entra en la taberna de Canifis. Después de una breve escena cinemática, habla con Malak."
       },
       "chatOptions": [
         "5 I am looking for a special Diamond...",
@@ -704,7 +708,7 @@
       "section": "Blood diamond",
       "text": {
         "en": "Take a silver bar and talk to Ruantun in the Draynor Sewers for a Silver pot.",
-        "es": "Coge una barra de plata y habla con Ruantun en las Draynor Sewers para conseguir una Silver pot."
+        "es": "Coge una barra de plata y habla con Ruantun en las Draynor Sewers para conseguir un Silver pot."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -719,7 +723,7 @@
       "section": "Blood diamond",
       "text": {
         "en": "Take the pot to the High Priest on Entrana for a Blessed pot.",
-        "es": "Lleva la olla al High Priest en Entrana para conseguir una Blessed pot."
+        "es": "Lleva la olla al High Priest en Entrana para conseguir un Blessed pot."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -734,7 +738,7 @@
       "section": "Blood diamond",
       "text": {
         "en": "Talk to Malak in Canifis for a blood-filled Blessed pot (this deals 50 damage).",
-        "es": "Habla con Malak en Canifis para conseguir una Blessed pot llena de sangre (esto inflige 50 de daño)."
+        "es": "Habla con Malak en Canifis para conseguir un Blessed pot lleno de sangre (esto te causará 50 puntos de daño)."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -747,7 +751,7 @@
       "section": "Blood diamond",
       "text": {
         "en": "Crush the garlic, use the garlic powder on the blessed pot, then add spice to get a completed Blessed pot.",
-        "es": "Machaca el ajo, usa el polvo de ajo en la blessed pot y luego añade la especia para obtener una Blessed pot completa."
+        "es": "Machaca el ajo, usa el garlic powder en el blessed pot y luego añade la especia para obtener un Blessed pot completo."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -763,7 +767,7 @@
       "section": "Blood diamond",
       "text": {
         "en": "Prepare for a level 84 boss fight. If you die, you will have to re-do the previous step.",
-        "es": "Prepárate para un combate contra un jefe de nivel 84. Si mueres, tendrás que repetir el paso anterior."
+        "es": "Prepárate para una pelea contra un jefe de nivel 84. Si mueres, tendrás que repetir el paso anterior."
       },
       "chatOptions": []
     },
@@ -773,7 +777,7 @@
       "section": "Blood diamond",
       "text": {
         "en": "Note: It is recommended to bank your cake or chocolate bar, as a ghast may turn it into rotten food on the journey.",
-        "es": "Nota: se recomienda guardar en el banco tu pastel o tableta de chocolate, ya que un ghast podría convertirlo en comida podrida durante el trayecto."
+        "es": "Nota: se recomienda guardar en el banco tu pastel o barra de chocolate, ya que un ghast podría convertirlo en comida podrida durante el viaje."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -787,7 +791,7 @@
       "section": "Blood diamond",
       "text": {
         "en": "Run south-east to the Graveyard (map pictured right).",
-        "es": "Corre hacia el sureste, al Graveyard (mapa en la imagen de la derecha)."
+        "es": "Corre hacia el sudeste, hasta el Graveyard (mapa a la derecha)."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -800,7 +804,7 @@
       "section": "Blood diamond",
       "text": {
         "en": "Use the pot on the tomb, then kill Dessous. Alternating between praying Protect from Melee and Protect from Magic every tick makes Dessous unable to attack.",
-        "es": "Usa la olla en la tumba y luego mata a Dessous. Alternar cada tick entre las oraciones Protect from Melee y Protect from Magic hace que Dessous no pueda atacar."
+        "es": "Usa la olla en la tumba y luego mata a Dessous. Alternar entre Protect from Melee y Protect from Magic cada tick hace que Dessous no pueda atacar."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -836,7 +840,7 @@
       "section": "Blood diamond",
       "text": {
         "en": "Bank the blood diamond immediately. While holding the blood diamond, a stranger capable of dealing over 5,000 damage per attack can spawn at any time.",
-        "es": "Guarda el blood diamond en el banco de inmediato. Mientras lo lleves contigo, puede aparecer en cualquier momento un desconocido capaz de infligir más de 5000 de daño por ataque."
+        "es": "Guarda el blood diamond en el banco inmediatamente. Mientras lo lleves encima, puede aparecer en cualquier momento un extraño capaz de infligir más de 5000 puntos de daño por ataque."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -850,7 +854,8 @@
       "section": "Ice diamond",
       "needed": {
         "text": {
-          "en": "A sweet (cake, chocolate cake (partial cakes work), chocolate bar, cooking apple, or pineapple pizza), spiked boots, and climbing boots (or Trollheim Teleport or Trollheim tablet)."
+          "en": "A sweet (cake, chocolate cake (partial cakes work), chocolate bar, cooking apple, or pineapple pizza), spiked boots, and climbing boots (or Trollheim Teleport or Trollheim tablet).",
+          "es": "Un dulce (pastel, chocolate cake (los trozos parciales de pastel funcionan), barra de chocolate, manzana de cocina o pineapple pizza), spiked boots y climbing boots (o Trollheim Teleport o Trollheim tablet)."
         },
         "highlightTerms": [
           "cake",
@@ -866,7 +871,8 @@
       },
       "recommended": {
         "text": {
-          "en": "Combat equipment (if using Magic, which is recommended, bring runes for casting your best fire spell), 4 or more regular or super restore potions, a few prayer potions (depending on your combat level), lots of good food or Saradomin brews if using super restore potions, an emergency teleportation method, a God banner (only if all combat tasks have been completed) or overloads, and run energy restoring, Endurance relic power, salt-water spring or a flask of salt water."
+          "en": "Combat equipment (if using Magic, which is recommended, bring runes for casting your best fire spell), 4 or more regular or super restore potions, a few prayer potions (depending on your combat level), lots of good food or Saradomin brews if using super restore potions, an emergency teleportation method, a God banner (only if all combat tasks have been completed) or overloads, and run energy restoring, Endurance relic power, salt-water spring or a flask of salt water.",
+          "es": "Equipo de combate (si usas Magia, lo cual se recomienda, trae runas para lanzar tu mejor hechizo de fuego), 4 o más pociones regulares o de super restore, algunas pociones de oración (dependiendo de tu nivel de combate), mucha buena comida o Saradomin brews si usas pociones de super restore, un método de teleportación de emergencia, un God banner (solo si se han completado todas las tareas de combate) u overloads, y algo para restaurar la energía de carrera, el poder de reliquia Endurance, salt-water spring o un flask of salt water."
         },
         "highlightTerms": [
           "fire spell",
@@ -892,7 +898,7 @@
       "section": "Ice diamond",
       "text": {
         "en": "Prepare for combat by getting plenty of food, a few super restore and super energy potions (even at max combat). Also grab a cake or a chocolate bar if not already in your inventory.",
-        "es": "Prepárate para el combate llevando bastante comida, algunas pociones super restore y super energy (incluso al combate máximo). Coge también un pastel o una tableta de chocolate si no lo tienes ya en el inventario."
+        "es": "Prepárate para el combate consiguiendo mucha comida, algunas pociones de super restore y super energy (incluso al combate máximo). Consigue también un pastel o una barra de chocolate si no la tienes ya en el inventario."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -905,7 +911,7 @@
       "section": "Ice diamond",
       "text": {
         "en": "Get runes and a magic weapon for fire spells if using Magic. Only fire spells will work if using Magic on Kamil.",
-        "es": "Consigue runas y un arma mágica de fuego si vas a usar Magia. Solo los hechizos de fuego funcionan contra Kamil si usas Magia."
+        "es": "Consigue runas y un arma mágica para hechizos de fuego si usas Magia. Solo los hechizos de fuego funcionarán si usas Magia contra Kamil."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -918,7 +924,7 @@
       "section": "Ice diamond",
       "text": {
         "en": "If you don't have spiked boots, get them first from Dunstan in Burthorpe (requires an iron bar).",
-        "es": "Si no tienes botas con clavos, consíguelas primero con Dunstan en Burthorpe (requiere una barra de hierro)."
+        "es": "Si no tienes spiked boots, consíguelas primero con Dunstan en Burthorpe (necesitas una barra de hierro)."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -934,7 +940,7 @@
       "section": "Ice diamond",
       "text": {
         "en": "If you used your climbing boots to get the spiked boots, then get a new pair of climbing boots from Freda.",
-        "es": "Si usaste tus botas de escalada para conseguir las botas con clavos, consigue un nuevo par de botas de escalada con Freda."
+        "es": "Si usaste tus climbing boots para conseguir las spiked boots, consigue un nuevo par de climbing boots con Freda."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -975,7 +981,7 @@
       "section": "Ice diamond",
       "text": {
         "en": "Otherwise, take the path from the Fremennik Slayer Dungeon or the Death Plateau to Troll Stronghold with climbing boots.",
-        "es": "Si no, toma el camino desde el Fremennik Slayer Dungeon o el Death Plateau hasta el Troll Stronghold con las botas de escalada puestas."
+        "es": "De lo contrario, toma el camino desde el Fremennik Slayer Dungeon o el Death Plateau hasta el Troll Stronghold con las climbing boots."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1000,7 +1006,7 @@
       "section": "Ice diamond",
       "text": {
         "en": "Talk to the troll child a few squares west of the ice gate.",
-        "es": "Habla con el niño trol unas casillas al oeste de la puerta de hielo."
+        "es": "Habla con el niño troll a unos pocos cuadros al oeste de la puerta de hielo."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1013,7 +1019,7 @@
       "section": "Ice diamond",
       "text": {
         "en": "Use a cake or a chocolate bar on him. Talk again to help him.",
-        "es": "Usa un pastel o una tableta de chocolate en él. Habla de nuevo para ayudarlo."
+        "es": "Usa un pastel o una barra de chocolate en él. Vuelve a hablarle para ayudarlo."
       },
       "chatOptions": [
         "1 Yes"
@@ -1025,7 +1031,7 @@
       "section": "Ice diamond",
       "text": {
         "en": "Enable Protect from Melee, and head east through the ice gate.",
-        "es": "Activa Protect from Melee y dirígete al este a través de la puerta de hielo."
+        "es": "Activa Protect from Melee y dirígete hacia el este a través de la puerta de hielo."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1038,7 +1044,7 @@
       "section": "Ice diamond",
       "text": {
         "en": "Kill 5 trolls, then travel through the cave entrance to your east and keep running.",
-        "es": "Mata a 5 troles, luego atraviesa la entrada de la cueva al este y sigue corriendo."
+        "es": "Mata a 5 trolls y luego viaja por la entrada de la cueva a tu este, siguiendo corriendo."
       },
       "chatOptions": []
     },
@@ -1061,7 +1067,7 @@
       "section": "Ice diamond",
       "text": {
         "en": "After you kill Kamil once, continue the path to the north and walk to the ice ledge. You can use Surge.",
-        "es": "Después de matar a Kamil una vez, continúa el camino hacia el norte y camina hasta el saliente de hielo. Puedes usar Surge."
+        "es": "Después de matar a Kamil una vez, continúa por el camino hacia el norte y camina hasta el saliente de hielo. Puedes usar Surge."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1074,7 +1080,7 @@
       "section": "Ice diamond",
       "text": {
         "en": "Equip your spiked boots and climb the path to the top.",
-        "es": "Equípate las botas con clavos y sube el camino hasta la cima."
+        "es": "Equípate las spiked boots y sube por el camino hasta la cima."
       },
       "chatOptions": []
     },
@@ -1084,7 +1090,7 @@
       "section": "Ice diamond",
       "text": {
         "en": "Pass through the ice gate and across the bridge.",
-        "es": "Atraviesa la puerta de hielo y cruza el puente."
+        "es": "Pasa por la puerta de hielo y cruza el puente."
       },
       "chatOptions": []
     },
@@ -1107,7 +1113,7 @@
       "section": "Ice diamond",
       "text": {
         "en": "Talk to the trolls, the child will give you the Ice diamond.",
-        "es": "Habla con los troles, el niño te dará el Ice diamond."
+        "es": "Habla con los trolls, el niño te dará el Ice diamond."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1120,7 +1126,7 @@
       "section": "Ice diamond",
       "text": {
         "en": "Bank the ice diamond immediately. While holding the ice diamond, a stranger capable of dealing over 5,000 damage per attack can spawn at any time.",
-        "es": "Guarda el ice diamond en el banco de inmediato. Mientras lo lleves contigo, puede aparecer en cualquier momento un desconocido capaz de infligir más de 5000 de daño por ataque."
+        "es": "Guarda el ice diamond en el banco inmediatamente. Mientras lo lleves encima, puede aparecer en cualquier momento un extraño capaz de infligir más de 5000 puntos de daño por ataque."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1134,7 +1140,8 @@
       "section": "Smoke diamond",
       "needed": {
         "text": {
-          "en": "Face mask, masked earmuffs or slayer helmet, ice gloves"
+          "en": "Face mask, masked earmuffs or slayer helmet, ice gloves",
+          "es": "Face mask, masked earmuffs o slayer helmet, ice gloves"
         },
         "highlightTerms": [
           "Face mask",
@@ -1150,7 +1157,7 @@
       "section": "Smoke diamond",
       "text": {
         "en": "Prepare for combat by bringing plenty of food, few super energy potions, melee gear, or water spells if using magic, or ice arrows if using ranged.",
-        "es": "Prepárate para el combate llevando bastante comida, algunas pociones super energy, equipo de melé, o hechizos de agua si usas Magia, o flechas de hielo si usas Distancia."
+        "es": "Prepárate para el combate llevando mucha comida, algunas pociones de super energy, equipo de melé, o hechizos de agua si usas magia, o flechas de hielo si usas distancia."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1178,7 +1185,7 @@
       "section": "Smoke diamond",
       "text": {
         "en": "With your face mask and ice gloves equipped enter the Smoke Dungeon.",
-        "es": "Con tu máscara facial y tus guantes de hielo equipados, entra en el Smoke Dungeon."
+        "es": "Con tu face mask e ice gloves equipados, entra en el Smoke Dungeon."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1193,7 +1200,7 @@
       "section": "Smoke diamond",
       "text": {
         "en": "If Smoking Kills is complete the dungeon can be entered from the Pollnivneach well and through the dark stairs to the west.",
-        "es": "Si has completado Smoking Kills, puedes entrar en la mazmorra desde el pozo de Pollnivneach y a través de las escaleras oscuras al oeste."
+        "es": "Si Smoking Kills está completada, se puede entrar en la mazmorra desde el pozo de Pollnivneach y a través de las escaleras oscuras al oeste."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1207,7 +1214,7 @@
       "section": "Smoke diamond",
       "text": {
         "en": "Otherwise the player can enter the smokey well which is located west of Pollnivneach.",
-        "es": "De lo contrario, puedes entrar por el pozo humeante situado al oeste de Pollnivneach."
+        "es": "De lo contrario, el jugador puede entrar por el pozo humeante situado al oeste de Pollnivneach."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1234,7 +1241,7 @@
       "section": "Smoke diamond",
       "text": {
         "en": "Light the four standing torches, 1 in each corner of the dungeon. This part is timed and torches will go out if you are not fast enough.",
-        "es": "Enciende las cuatro antorchas de pie, una en cada esquina de la mazmorra. Esta parte tiene un límite de tiempo y las antorchas se apagarán si no eres lo bastante rápido."
+        "es": "Enciende las cuatro antorchas de pie, 1 en cada esquina de la mazmorra. Esta parte está cronometrada y las antorchas se apagarán si no eres lo bastante rápido."
       },
       "chatOptions": []
     },
@@ -1270,7 +1277,7 @@
       "section": "Smoke diamond",
       "text": {
         "en": "Each torch will remain lit for exactly 5 minutes, and you will receive a game message when each one dies out. You will be unable to open the chest if any of the torches have gone out, even if you have lit all 4 torches before attempting.",
-        "es": "Cada antorcha permanecerá encendida exactamente 5 minutos, y recibirás un mensaje en el juego cuando una se apague. No podrás abrir el cofre si alguna de las antorchas se ha apagado, aunque hayas encendido las 4 antes de intentarlo."
+        "es": "Cada antorcha permanecerá encendida exactamente 5 minutos, y recibirás un mensaje en el juego cuando cada una se apague. No podrás abrir el cofre si alguna de las antorchas se ha apagado, incluso si has encendido las 4 antorchas antes de intentarlo."
       },
       "chatOptions": []
     },
@@ -1307,7 +1314,7 @@
       "section": "Smoke diamond",
       "text": {
         "en": "You must use melee, ice arrows, necromancy, or water spells.",
-        "es": "Debes usar melé, flechas de hielo, Nigromancia o hechizos de agua."
+        "es": "Debes usar melé, flechas de hielo, nigromancia o hechizos de agua."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1321,7 +1328,7 @@
       "section": "Smoke diamond",
       "text": {
         "en": "You must wear ice gloves to wield a main-hand weapon while fighting him, including staves and bows. Off-hand weapons are not restricted.",
-        "es": "Debes llevar guantes de hielo para poder empuñar un arma principal mientras luchas contra él, incluidos báculos y arcos. Las armas secundarias no tienen restricción."
+        "es": "Debes llevar puestos los ice gloves para empuñar un arma en la mano principal mientras luchas contra él, incluyendo báculos y arcos. Las armas de la mano secundaria no están restringidas."
       },
       "chatOptions": []
     },
@@ -1331,7 +1338,7 @@
       "section": "Smoke diamond",
       "text": {
         "en": "Bank the smoke diamond immediately. While holding the smoke diamond, a stranger capable of dealing over 5,000 damage per attack can spawn at any time.",
-        "es": "Guarda el smoke diamond en el banco de inmediato. Mientras lo lleves contigo, puede aparecer en cualquier momento un desconocido capaz de infligir más de 5000 de daño por ataque."
+        "es": "Guarda el smoke diamond en el banco inmediatamente. Mientras lo lleves encima, puede aparecer en cualquier momento un extraño capaz de infligir más de 5000 puntos de daño por ataque."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1345,7 +1352,8 @@
       "section": "Shadow diamond",
       "needed": {
         "text": {
-          "en": "Lots of lockpicks, hair clips, or a master thief's lockpick, earth spells if using magic. See each section for more info."
+          "en": "Lots of lockpicks, hair clips, or a master thief's lockpick, earth spells if using magic. See each section for more info.",
+          "es": "Muchas ganzúas, hair clips o una master thief's lockpick, hechizos de tierra si usas magia. Consulta cada sección para más información."
         },
         "highlightTerms": [
           "lockpick",
@@ -1354,7 +1362,8 @@
       },
       "recommended": {
         "text": {
-          "en": "A few doses of antipoison"
+          "en": "A few doses of antipoison",
+          "es": "Algunas dosis de antídoto contra veneno"
         },
         "highlightTerms": [
           "antipoison"
@@ -1367,7 +1376,7 @@
       "section": "Ring of visibility",
       "text": {
         "en": "Travel to Rasolo (north-west from Ardougne lodestone; see the map to the right).",
-        "es": "Viaja hasta Rasolo (al noroeste de la lodestone de Ardougne; consulta el mapa de la derecha)."
+        "es": "Viaja hasta Rasolo (al noroeste de la piedra de viaje de Ardougne; ver el mapa a la derecha)."
       },
       "chatOptions": [
         "3 Ask about the Diamonds of Azzanadra",
@@ -1384,7 +1393,8 @@
       "section": "Stealing the cross",
       "needed": {
         "text": {
-          "en": "Lots of lockpicks, hair clips, or a master thief's lockpick"
+          "en": "Lots of lockpicks, hair clips, or a master thief's lockpick",
+          "es": "Muchas ganzúas, hair clips o una master thief's lockpick"
         },
         "highlightTerms": [
           "lockpick"
@@ -1392,7 +1402,8 @@
       },
       "recommended": {
         "text": {
-          "en": "A few doses of antipoison"
+          "en": "A few doses of antipoison",
+          "es": "Algunas dosis de antídoto contra veneno"
         },
         "highlightTerms": [
           "antipoison"
@@ -1418,7 +1429,7 @@
       "section": "Stealing the cross",
       "text": {
         "en": "Unlock the secure chest in the southern-most tent. You might consume between 10 to 100 lockpicks.",
-        "es": "Abre el cofre asegurado en la tienda más al sur. Podrías gastar entre 10 y 100 ganzúas."
+        "es": "Abre el cofre seguro en la tienda más al sur. Podrías consumir entre 10 y 100 ganzúas."
       },
       "chatOptions": []
     },
@@ -1428,7 +1439,7 @@
       "section": "Stealing the cross",
       "text": {
         "en": "Hair clips are very useful here, as you can reclaim them from Merlin for free.",
-        "es": "Las hair clips son muy útiles aquí, ya que puedes recuperarlas de Merlin gratis."
+        "es": "Los hair clips son muy útiles aquí, ya que puedes recuperarlos de Merlin gratis."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1442,7 +1453,7 @@
       "section": "Stealing the cross",
       "text": {
         "en": "You can steal from the level 54 Bandits around the camp to get lock picks and antipoison.",
-        "es": "Puedes robar a los Bandits de nivel 54 alrededor del campamento para conseguir ganzúas y antídoto."
+        "es": "Puedes robarles a los Bandits de nivel 54 alrededor del campamento para conseguir ganzúas y antídoto contra veneno."
       },
       "chatOptions": []
     },
@@ -1452,7 +1463,7 @@
       "section": "Stealing the cross",
       "text": {
         "en": "Master thief's lockpick also works and will never break.",
-        "es": "La ganzúa del Master thief también funciona y nunca se rompe."
+        "es": "La master thief's lockpick también funciona y nunca se rompe."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1478,7 +1489,8 @@
       "section": "Getting the diamond",
       "needed": {
         "text": {
-          "en": "Gilded cross, combat equipment, earth spells if using magic"
+          "en": "Gilded cross, combat equipment, earth spells if using magic",
+          "es": "Gilded cross, equipo de combate, hechizos de tierra si usas magia"
         },
         "highlightTerms": [
           "Gilded cross",
@@ -1530,7 +1542,7 @@
       "section": "Getting the diamond",
       "text": {
         "en": "If Damis despawns, run a small distance back from where you came, then run back.",
-        "es": "Si Damis desaparece, aléjate un poco de donde viniste y luego vuelve corriendo."
+        "es": "Si Damis desaparece, corre una pequeña distancia hacia atrás desde donde viniste y luego vuelve corriendo."
       },
       "chatOptions": []
     },
@@ -1540,7 +1552,7 @@
       "section": "Getting the diamond",
       "text": {
         "en": "Bank the shadow diamond immediately. While holding the shadow diamond, a stranger capable of dealing over 5,000 damage per attack can spawn at any time.",
-        "es": "Guarda el shadow diamond en el banco de inmediato. Mientras lo lleves contigo, puede aparecer en cualquier momento un desconocido capaz de infligir más de 5000 de daño por ataque."
+        "es": "Guarda el shadow diamond en el banco inmediatamente. Mientras lo lleves encima, puede aparecer en cualquier momento un extraño capaz de infligir más de 5000 puntos de daño por ataque."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1554,13 +1566,15 @@
       "section": "Jaldraocht Pyramid",
       "needed": {
         "text": {
-          "en": "All 4 diamonds"
+          "en": "All 4 diamonds",
+          "es": "Los 4 diamantes"
         },
         "highlightTerms": []
       },
       "recommended": {
         "text": {
-          "en": "Energy potions, weapon, weight-reducing equipment, antipoison"
+          "en": "Energy potions, weapon, weight-reducing equipment, antipoison",
+          "es": "Pociones de energía, arma, equipo que reduzca el peso, antídoto contra veneno"
         },
         "highlightTerms": []
       }
@@ -1592,7 +1606,7 @@
       "section": "Jaldraocht Pyramid",
       "text": {
         "en": "Boots of lightness and any other weight reducing equipment helps.",
-        "es": "Las boots of lightness y cualquier otro equipo que reduzca peso ayudan."
+        "es": "Las boots of lightness y cualquier otro equipo que reduzca el peso ayudan."
       },
       "chatOptions": [],
       "highlightTerms": [
@@ -1631,7 +1645,7 @@
       "section": "Jaldraocht Pyramid",
       "text": {
         "en": "Blood diamond in the north-west obelisk.",
-        "es": "El Blood diamond en el obelisco del noroeste."
+        "es": "Blood diamond en el obelisco del noroeste."
       },
       "chatOptions": []
     },
@@ -1641,7 +1655,7 @@
       "section": "Jaldraocht Pyramid",
       "text": {
         "en": "Shadow diamond in the south-west obelisk.",
-        "es": "El Shadow diamond en el obelisco del suroeste."
+        "es": "Shadow diamond en el obelisco del sudoeste."
       },
       "chatOptions": []
     },
@@ -1651,7 +1665,7 @@
       "section": "Jaldraocht Pyramid",
       "text": {
         "en": "Ice diamond in the south-east obelisk.",
-        "es": "El Ice diamond en el obelisco del sureste."
+        "es": "Ice diamond en el obelisco del sudeste."
       },
       "chatOptions": []
     },
@@ -1661,7 +1675,7 @@
       "section": "Jaldraocht Pyramid",
       "text": {
         "en": "Smoke diamond in the north-east obelisk.",
-        "es": "El Smoke diamond en el obelisco del noreste."
+        "es": "Smoke diamond en el obelisco del noreste."
       },
       "chatOptions": []
     },
@@ -1691,7 +1705,7 @@
       "section": "Jaldraocht Pyramid",
       "text": {
         "en": "There's a possibility that scarabs spawn in Azzanadra's room so bring a weapon, antipoison, and some more food just in case.",
-        "es": "Existe la posibilidad de que aparezcan escarabajos en la sala de Azzanadra, así que lleva un arma, antídoto y algo más de comida por si acaso."
+        "es": "Existe la posibilidad de que aparezcan escarabajos en la sala de Azzanadra, así que trae un arma, antídoto contra veneno y algo más de comida por si acaso."
       },
       "chatOptions": [],
       "highlightTerms": [

@@ -24,13 +24,31 @@ function parseArgs(argv) {
   return args;
 }
 
-/** True if this quest's JSON already exists on disk with a Spanish translation on every step. */
+// Table/image(-group) steps carry no `text` field of their own (nothing to
+// translate); a selectable-list/section-note step's translatable text lives
+// nested in `items`/`needed`/`recommended` instead of a top-level `text`.
+// The naive `Boolean(s.text.es)` this replaced would throw on any of these
+// (`s.text` is undefined), which alreadyTranslated()'s try/catch silently
+// swallowed as "not translated yet" — silently re-translating (and
+// re-billing) every quest that contains so much as one table or image,
+// found while auditing before a real (non-free) translation run.
+function stepIsFullyTranslated(step) {
+  if (step.isTable || step.isImage || step.isImageGroup) return true;
+  if (step.isSelectableList) return step.items.every((item) => Boolean(item.text?.es));
+  if (step.isSectionNote) {
+    return (!step.needed || Boolean(step.needed.text?.es)) && (!step.recommended || Boolean(step.recommended.text?.es));
+  }
+  return Boolean(step.text?.es);
+}
+
+/** True if this quest's JSON already exists on disk with a Spanish translation on every step AND its start point. */
 async function alreadyTranslated(title) {
   const slug = titleToSlug(title.replace(/\/Quick guide$/, ""));
   try {
     const raw = await readFile(path.join(QUESTS_DIR, `${slug}.json`), "utf8");
     const record = JSON.parse(raw);
-    return record.steps.length > 0 && record.steps.every((s) => Boolean(s.text.es));
+    const startPointOk = !record.startPoint?.en || Boolean(record.startPoint?.es);
+    return startPointOk && record.steps.length > 0 && record.steps.every(stepIsFullyTranslated);
   } catch {
     return false;
   }
