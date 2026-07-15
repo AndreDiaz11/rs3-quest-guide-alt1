@@ -57,11 +57,14 @@ emparejando pasos por índice.
 
 ### Estado actual del dataset
 
-- 362 misiones y minimisiones scrapeadas de las 368 en `Category:Quick guides` (las 6 restantes son
-  páginas "hub" sin guía propia, ej. *Recipe for Disaster*, que enlaza a sub-misiones ya scrapeadas por
-  separado, o casos especiales documentados como `guideNote` en su JSON).
-- 360/362 con guía completamente traducida al español. Las 2 restantes (*Tales of Pride*,
-  *Tomes of the Warlock*) se pueden traducir con
-  `node --env-file=.env src/run.js --only="Nombre de la misión" --force`.
+- 367 misiones y minimisiones en `data/quests/` (algunas son páginas "hub" sin guía propia, ej.
+  *Recipe for Disaster*, que enlaza a sub-misiones ya scrapeadas por separado, o casos especiales
+  documentados como `guideNote` en su JSON).
+- 100% traducido al español (pasos, punto de inicio, notas de "necesitas"/"recomendado" e ítems de
+  listas seleccionables). Los nombres de NPCs/lugares/objetos se dejan en inglés a propósito (RS3 no
+  tiene cliente oficial en español), ver `scraper/src/glossary.json`.
 - Puntos de misión verificados 1:1 contra una cuenta real (ver comentarios en `scraper/src/run.js`
   sobre sagas, misiones hub y el caso especial de *Unstable Foundations*).
+- `.github/workflows/check-new-quests.yml` revisa la wiki cada 15 min y publica misiones nuevas
+  directo a `main` automáticamente (sin traducir — ver "Regenerar el dataset" arriba para completar
+  la traducción manualmente cuando corresponda).

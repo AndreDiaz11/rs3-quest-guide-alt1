@@ -72,13 +72,16 @@ worker/
 - Sin env vars en `app/` ni en `worker/` (el Worker no necesita credenciales, solo reenvía a un endpoint público).
 
 ## Estado
-Funcional: sí | Beta: no (mantenimiento continuo) | Última revisión: soporte de `rowspan` en tablas de
-puzzle, detección de misiones nuevas cada 15 min con publicación automática directa a `main` (sin PR)
-incluyendo el reintento automático de la guía paso a paso hasta que la wiki la publique, corrección de
-parsing de opciones de chat (enlaces anidados, "~", marcadores "1."/"3/4"), tablas de puzzle con celdas
-bloqueadas por `{{NA|colspan}}`, reclasificación de sagas como miniquest, recomputo fresco de
-`isSeasonal` en cada migrate, limpieza de notación de piso ambigua (UK/US) y del artefacto "(via)" en
-texto de inicio y recompensas, y limpieza de claves i18n muertas.
+Funcional: sí | Beta: no (mantenimiento continuo) | Última revisión: traducción al 100% del dataset
+(367 misiones — pasos, punto de inicio, notas de "necesitas"/"recomendado" e ítems de listas
+seleccionables), soporte de `rowspan` en tablas de puzzle, detección de misiones nuevas cada 15 min con
+publicación automática directa a `main` (sin PR) incluyendo el reintento automático de la guía paso a
+paso hasta que la wiki la publique, actualización en vivo de la lista de misiones dentro del plugin
+cada 15 min, corrección de parsing de opciones de chat (enlaces anidados, "~", marcadores "1."/"3/4"),
+tablas de puzzle con celdas bloqueadas por `{{NA|colspan}}`, reclasificación de sagas como miniquest,
+recomputo fresco de `isSeasonal` en cada migrate, limpieza de notación de piso ambigua (UK/US) y del
+artefacto "(via)" en texto de inicio y recompensas, limpieza de claves i18n muertas y de 2 exports
+JS innecesarios, y eliminación de una función wikitext muerta (`extractAllTemplates`).
 
 ## Integraciones externas
 - **RuneMetrics (Jagex)** — estado de misiones y niveles del jugador. Público, sin credenciales.
@@ -106,35 +109,44 @@ No aplica (no hay login propio; el plugin consulta el nombre de cuenta real de R
 usuario configura en Ajustes).
 
 ## Versión
-1.1.0 — versión base concluida más una ronda extensa de correcciones de datos/parsing y
-mantenimiento continuo (367 misiones, 473 QP verificado).
+1.2.0 — dataset 100% traducido al español + automatización completa de detección/publicación de
+misiones nuevas, más una ronda extensa de correcciones de datos/parsing (367 misiones, 473 QP
+verificado).
 
 ## Cambios
-1. Soporte de `rowspan` en tablas de solución de puzzles (además del `colspan`/`{{NA}}` ya soportado):
+1. Traducción al 100% del dataset completo: se detectó y corrigió que 207 misiones' notas de
+   "necesitas"/"recomendado" (772 en total) y 37 ítems de listas seleccionables nunca se habían
+   traducido en ninguna corrida anterior (agregadas después de la última tanda de traducción paga).
+   De paso se corrigió un bug real en `alreadyTranslated()` (scraper/src/run.js) que habría
+   re-traducido (y re-cobrado) 251 misiones ya traducidas por completo, solo por contener una tabla
+   o imagen.
+2. Auto-refresco de la lista de misiones dentro del plugin cada 15 min, sin cerrar/reabrir Alt1 —
+   antes `index.json` solo se cargaba una vez al iniciar.
+3. Soporte de `rowspan` en tablas de solución de puzzles (además del `colspan`/`{{NA}}` ya soportado):
    celdas que abarcan varias filas (ej. la tabla de dados de Lunar Diplomacy) ahora se preservan
    correctamente en vez de perderse como atributo desconocido.
-2. Detección de misiones nuevas cada 15 min (antes diario) publicando directo a `main` sin abrir PR
+4. Detección de misiones nuevas cada 15 min (antes diario) publicando directo a `main` sin abrir PR
    (`check-new-quests.yml`) — además ahora detecta una misión nueva desde Category:Quests el mismo
    día de su salida aunque la wiki todavía no le haya escrito la guía paso a paso: se publica igual,
    marcada `isPending` con un aviso "guía no disponible todavía", y se reintenta sola en cada corrida
    hasta completarse — sin intervención manual.
-3. Limpieza de notación de piso ambigua UK/US (`1st floor[UK]2nd floor[US]`) tanto en metadatos
+5. Limpieza de notación de piso ambigua UK/US (`1st floor[UK]2nd floor[US]`) tanto en metadatos
    (punto de inicio, items, kills) como en recompensas — bug de extracción HTML, no de wikitext.
-4. Eliminación del artefacto "(via )" colgante en el punto de inicio (enlace de mapa interactivo
+6. Eliminación del artefacto "(via )" colgante en el punto de inicio (enlace de mapa interactivo
    despojado de su texto) en 36 misiones en inglés y 22 traducciones en español ya existentes.
-5. Corrección de tablas de solución de puzzles: celdas `{{NA|colspan=N|}}` ahora se expanden
+7. Corrección de tablas de solución de puzzles: celdas `{{NA|colspan=N|}}` ahora se expanden
    correctamente en vez de colapsar y desplazar las columnas siguientes; celdas bloqueadas
    resaltadas visualmente y tamaño de grilla fijo independiente del tamaño de ventana.
-6. Corrección de parsing de opciones de chat: enlaces wiki anidados dentro de una opción, el
+8. Corrección de parsing de opciones de chat: enlaces wiki anidados dentro de una opción, el
    símbolo "~" como sinónimo de "any", y marcadores "1." (con punto) y "3/4" (posición combinada).
-7. Fremennik Sagas reclasificadas como miniquest (coincide con el filtro nativo de RS3);
+9. Fremennik Sagas reclasificadas como miniquest (coincide con el filtro nativo de RS3);
    `isMiniquest` e `isSeasonal` ahora se recalculan frescos en cada migrate en vez de copiarse
    del disco (bug de datos obsoletos encontrado dos veces con la misma causa raíz).
-8. Limpieza de 5 claves i18n muertas en `app/js/i18n.js` (`metaYes`, `metaNo`, `welcomeTitle`,
-   `welcomeIntro`, `welcomeSyncHint`), reemplazadas hace tiempo por HTML hardcodeado.
-9. Rediseño del sidebar: popover de Filter + dropdown de Sort (4 modos) reemplazando los chips.
-10. Rediseño del panel de detalle al estilo Quick guide de la wiki (requisitos con ✓/✗ reales, items
+10. Limpieza de 5 claves i18n muertas, 2 exports JS innecesarios y una función de wikitext muerta
+    (`extractAllTemplates`, superada por `extractAllTemplatesWithPositions`).
+11. Rediseño del sidebar: popover de Filter + dropdown de Sort (4 modos) reemplazando los chips.
+12. Rediseño del panel de detalle al estilo Quick guide de la wiki (requisitos con ✓/✗ reales, items
     en lista, pasos por sección, recompensas al final con banner).
-11. Niveles de habilidad reales del jugador vía RuneMetrics (Worker + `skills.js`) para los requisitos.
-12. Integración de RuneMetrics para auto-marcado de misiones completadas.
-13. Scraper completo del dataset (367 misiones) con traducción al español.
+13. Niveles de habilidad reales del jugador vía RuneMetrics (Worker + `skills.js`) para los requisitos.
+14. Integración de RuneMetrics para auto-marcado de misiones completadas.
+15. Scraper completo del dataset (367 misiones) con traducción al español.

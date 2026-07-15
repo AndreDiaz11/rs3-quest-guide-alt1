@@ -14,7 +14,7 @@ export function loadSettings() {
   }
 }
 
-export function saveSettings(settings) {
+function saveSettings(settings) {
   localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
 }
 

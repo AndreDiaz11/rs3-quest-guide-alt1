@@ -35,24 +35,8 @@ export function extractTemplate(wikitext, templateName) {
   return full.slice(pipeIndex + 1, -2);
 }
 
-/** Same as extractTemplate but returns every top-level match, not just the first. */
-export function extractAllTemplates(wikitext, templateName) {
-  const results = [];
-  let searchFrom = 0;
-  while (true) {
-    const marker = `{{${templateName}`;
-    const start = wikitext.indexOf(marker, searchFrom);
-    if (start === -1) break;
-    const rest = extractTemplate(wikitext.slice(start), templateName);
-    if (rest === null) break;
-    results.push(rest);
-    searchFrom = start + marker.length;
-  }
-  return results;
-}
-
 /**
- * Same as extractAllTemplates but also returns each match's `start`/`end`
+ * Returns every top-level match of a template, with each match's `start`/`end`
  * position in `wikitext` — needed when a section's other content (e.g. a
  * standalone wikitable) must be interleaved with these blocks in source order.
  */

@@ -12,7 +12,7 @@ async function loadAliases() {
 }
 
 /** Strips RuneMetrics's "(miniquest)" suffix, returning the base title + a flag. */
-export function splitMiniquestSuffix(runeMetricsTitle) {
+function splitMiniquestSuffix(runeMetricsTitle) {
   const match = runeMetricsTitle.match(/^(.*)\s\(miniquest\)$/i);
   return match ? { title: match[1], isMiniquest: true } : { title: runeMetricsTitle, isMiniquest: false };
 }
