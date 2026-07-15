@@ -72,7 +72,7 @@ worker/
 - Sin env vars en `app/` ni en `worker/` (el Worker no necesita credenciales, solo reenvía a un endpoint público).
 
 ## Estado
-Funcional: sí | Beta: no (mantenimiento continuo) | Última revisión: traducción al 100% del dataset
+Funcional: sí | Beta: no (concluido al 100%, mantenimiento continuo) | Última revisión: traducción al 100% del dataset
 (367 misiones — pasos, punto de inicio, notas de "necesitas"/"recomendado" e ítems de listas
 seleccionables), soporte de `rowspan` en tablas de puzzle, detección de misiones nuevas cada 15 min con
 publicación automática directa a `main` (sin PR) incluyendo el reintento automático de la guía paso a
@@ -114,8 +114,8 @@ misiones nuevas, más una ronda extensa de correcciones de datos/parsing (367 mi
 verificado).
 
 ## Cambios
-1. Traducción al 100% del dataset completo: se detectó y corrigió que 207 misiones' notas de
-   "necesitas"/"recomendado" (772 en total) y 37 ítems de listas seleccionables nunca se habían
+1. Traducción al 100% del dataset completo: se detectó y corrigió que las notas de
+   "necesitas"/"recomendado" de 207 misiones (772 en total) y 37 ítems de listas seleccionables nunca se habían
    traducido en ninguna corrida anterior (agregadas después de la última tanda de traducción paga).
    De paso se corrigió un bug real en `alreadyTranslated()` (scraper/src/run.js) que habría
    re-traducido (y re-cobrado) 251 misiones ya traducidas por completo, solo por contener una tabla
