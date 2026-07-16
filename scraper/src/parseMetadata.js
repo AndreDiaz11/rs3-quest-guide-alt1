@@ -298,6 +298,20 @@ export function extractSubquestTitles({ mainWikitext, quickGuideWikitext }) {
   return { subquests: collectTitles(PLAIN_SUBQUEST_LINK_RE, combined), bonusQuests: [] };
 }
 
+// Hub quests (e.g. Once Upon a Time in Gielinor) and other pages with no
+// Quick guide of their own have no `table.questdetails` HTML to read a
+// length from (parseQuestDetailsTable needs quickGuideHtml, which is null
+// for them) — but the main article page itself still embeds its own
+// `{{Quest details|...|length=...}}` template (under its own "Overview"
+// heading) with the real value. Read straight from that wikitext as a
+// fallback instead of silently leaving `length` null for every such page.
+function parseMainArticleLength(mainWikitext) {
+  const content = extractTemplate(mainWikitext, "Quest details");
+  if (content === null) return null;
+  const fields = parseKeyValueTemplate(content);
+  return fields.length || null;
+}
+
 export function parseMetadata({ mainWikitext, quickGuideHtml }) {
   const infobox = parseInfobox(mainWikitext);
   const details = parseQuestDetailsTable(quickGuideHtml || "");
@@ -305,7 +319,7 @@ export function parseMetadata({ mainWikitext, quickGuideHtml }) {
   return {
     ...infobox,
     startPoint: details.startPoint,
-    length: details.length || infobox.length || null,
+    length: details.length || parseMainArticleLength(mainWikitext) || null,
     icon: details.icon,
     requirements: {
       quests: details.requiredQuests,
