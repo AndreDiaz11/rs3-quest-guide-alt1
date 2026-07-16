@@ -56,7 +56,7 @@ async function alreadyTranslated(title) {
 
 export const HUB_QUEST_NOTE = {
   en: "This quest is a hub for several sub-quests. There isn't a single walkthrough for the hub itself, but each sub-quest's full guide is below in its own section — tap one to expand it.",
-  es: "Esta misión es un resumen que agrupa varias sub-misiones. No existe una guía única para la misión en sí, pero la guía completa de cada sub-misión está más abajo en su propia sección — tocá una para desplegarla.",
+  es: "Esta misión es un resumen que agrupa varias sub-misiones. No existe una guía única para la misión en sí, pero la guía completa de cada sub-misión está más abajo en su propia sección — toca una para desplegarla.",
 };
 
 // Shown for a brand-new quest whose own wiki page exists but whose Quick
@@ -67,7 +67,7 @@ export const HUB_QUEST_NOTE = {
 // checkNewQuests.js until the real walkthrough shows up.
 export const PENDING_GUIDE_NOTE = {
   en: "This quest was just released and the wiki's step-by-step guide isn't available yet. It'll fill in here automatically once it's added.",
-  es: "Esta misión acaba de salir y la wiki todavía no tiene la guía paso a paso. Se completará acá automáticamente en cuanto esté disponible.",
+  es: "Esta misión acaba de salir y la wiki todavía no tiene la guía paso a paso. Se completará aquí automáticamente en cuanto esté disponible.",
 };
 
 // Deleted-content quests are excluded by default (see isNonPlayableContent
