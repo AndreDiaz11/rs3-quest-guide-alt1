@@ -133,7 +133,14 @@ async function migrateOne(slug, seasonalTitles) {
   // now-clean English, flagged pending re-translation) than risk carrying
   // over a subtly-wrong "cleaned" Spanish string.
   const startPointEsIsGarbled = old.startPoint?.es && /\[(UK|US|RU|EE\.?\s*UU\.?)\]/i.test(old.startPoint.es);
-  if (old.startPoint?.es && !startPointEsIsGarbled) {
+  // A fresh `en` of "" means there's nothing to translate — buildQuestRecord's
+  // own translation batch always skips empty strings, so a non-empty old
+  // `es` here is a stale leftover, not a real translation of anything (found
+  // once as a literal AI refusal string "Por favor, proporciona el texto que
+  // deseas traducir." baked into Once Upon a Time in Gielinor's startPoint —
+  // reused verbatim by every migrate run since the wiki's own startPoint
+  // emptied out, because this check never looked at the freshly-scraped `en`).
+  if (record.startPoint?.en && old.startPoint?.es && !startPointEsIsGarbled) {
     // The dangling "(via)"/"( via )" remnant (see cleanFloorNotation-adjacent
     // fix in parseMetadata.js) is a consistent, safe pattern to strip even
     // from an already-translated Spanish string — unlike the floor-notation
