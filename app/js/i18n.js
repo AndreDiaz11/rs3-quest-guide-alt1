@@ -21,6 +21,12 @@ const STRINGS = {
     sortMembers: "Free/Members",
     sortLength: "Length",
     sortProgress: "Progress",
+    // Unlike the RS3-native filter/sort labels above (kept English on
+    // purpose), this fallback group header has no game-native wording to
+    // match — it only appears when a quest is missing its length category
+    // on the wiki, so it follows normal translation rules like everything
+    // else the plugin itself invents.
+    unknownGroupLabel: "Desconocido",
     showingSummary: (n, total) => `Showing ${n} of ${total} items`,
     noResults: "Sin resultados.",
     counterConfigure: "Configura tu usuario en <strong>Ajustes</strong> para ver tu progreso",
@@ -81,6 +87,7 @@ const STRINGS = {
     sortMembers: "Free/Members",
     sortLength: "Length",
     sortProgress: "Progress",
+    unknownGroupLabel: "Unknown",
     showingSummary: (n, total) => `Showing ${n} of ${total} items`,
     noResults: "No results.",
     counterConfigure: "Set your username in <strong>Settings</strong> to see your progress",

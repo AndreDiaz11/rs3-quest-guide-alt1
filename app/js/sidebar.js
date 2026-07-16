@@ -302,11 +302,11 @@ function groupLabel(quest, mode) {
     case "members":
       return quest.members ? "Members" : "Free";
     case "length":
-      return quest.length || "Unknown";
+      return quest.length || t("unknownGroupLabel");
     case "progress":
       return (
         { NOT_STARTED: "Not Started", STARTED: "In Progress", COMPLETED: "Completed" }[questStatus(quest.id)] ||
-        "Unknown"
+        t("unknownGroupLabel")
       );
     default:
       return null;
