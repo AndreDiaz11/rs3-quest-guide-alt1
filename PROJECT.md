@@ -36,9 +36,9 @@ app/
   data/aliases.json
 scraper/
   package.json  .env.example
-  src/{wikiApi,wikitext,slug,fetchQuestList,fetchQuestPage,fetchSeasonalList,fetchSeasonalTitles,
+  src/{wikiApi,wikitext,slug,fetchQuestList,fetchQuestPage,fetchSeasonalList,
        parseMetadata,parseSteps,parseTables,parseRewards,resolveImages,translate,glossary.json,
-       buildDataset,run,migrate,checkNewQuests,generateIcon,generateSkillIcons,skillIcons}.js
+       buildDataset,run,migrate,checkNewQuests,generateIcon,generateSkillIcons}.js
   cache/ (gitignored)
 data/
   index.json
