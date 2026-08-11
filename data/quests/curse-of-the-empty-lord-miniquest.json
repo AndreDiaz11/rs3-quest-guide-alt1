@@ -1,0 +1,494 @@
+{
+  "id": "curse-of-the-empty-lord-miniquest",
+  "title": "Curse of the Empty Lord (miniquest)",
+  "isMiniquest": true,
+  "isSeasonal": false,
+  "guideLastUpdated": "2026-08-11T11:06:52.567Z",
+  "icon": "https://runescape.wiki/images/Curse_of_the_Empty_Lord_%28miniquest%29_icon.png",
+  "entityIcon": null,
+  "series": "Mahjarrat Mysteries",
+  "seriesNth": "10",
+  "age": "5",
+  "timeline": "legendary",
+  "members": true,
+  "voiceOver": false,
+  "combatLevel": "none",
+  "difficulty": "Intermediate",
+  "length": "Medium to Long",
+  "releaseDate": "26 July 2005",
+  "area": "Kandarin North",
+  "startPoint": {
+    "en": "Talk to the mysterious ghost (Valdez) near Glarial's tombstone (north-west of the Fishing Guild), while wearing a ring of visibility and a way to speak with ghosts."
+  },
+  "requirements": {
+    "quests": [
+      {
+        "title": "Temple of Ikov"
+      },
+      {
+        "title": "The Restless Ghost"
+      },
+      {
+        "title": "Partial completion of Desert Treasure",
+        "matchTitle": "Desert Treasure",
+        "children": [
+          {
+            "title": "The Dig Site"
+          },
+          {
+            "title": "Troll Stronghold",
+            "children": [
+              {
+                "title": "Death Plateau"
+              }
+            ]
+          },
+          {
+            "title": "Ability to enter Morytania",
+            "matchTitle": "Morytania"
+          }
+        ]
+      }
+    ],
+    "skills": []
+  },
+  "followsEvents": [],
+  "items": [
+    {
+      "name": "Ring of visibility",
+      "display": "Ring of visibility",
+      "image": "https://runescape.wiki/images/thumb/Ring_of_visibility_detail.png/100px-Ring_of_visibility_detail.png?2d5d2"
+    },
+    {
+      "name": "Ghostspeak amulet",
+      "display": "Ghostspeak amulet or cramulet or hard Morytania achievements completed",
+      "image": "https://runescape.wiki/images/thumb/Ghostspeak_amulet_detail.png/100px-Ghostspeak_amulet_detail.png?18457"
+    }
+  ],
+  "recommended": [
+    {
+      "name": "Energy potion",
+      "display": "3-5 energy potions or an explorer's ring",
+      "image": "https://runescape.wiki/images/thumb/Energy_potion_%281%29_detail.png/100px-Energy_potion_%281%29_detail.png?33ea7"
+    },
+    {
+      "name": "Wilderness",
+      "display": "Weapons and armour to defeat some enemies which are aggressive in the Wilderness.",
+      "image": "https://runescape.wiki/images/thumb/Wilderness.png/100px-Wilderness.png?2084a"
+    },
+    {
+      "name": "Ardougne lodestone",
+      "display": "Ardougne lodestone or skills necklace",
+      "image": "https://runescape.wiki/images/Ardougne_lodestone_icon.png?9b3e4"
+    }
+  ],
+  "kills": [
+    "None"
+  ],
+  "rewards": [
+    {
+      "type": "item",
+      "name": "Ghostly hood",
+      "display": "Ghostly hood",
+      "image": "https://runescape.wiki/images/thumb/Ghostly_hood_detail.png/100px-Ghostly_hood_detail.png?ddb11"
+    },
+    {
+      "type": "item",
+      "name": "Ghostly robe (top)",
+      "display": "Ghostly robe top",
+      "image": "https://runescape.wiki/images/thumb/Ghostly_robe_%28top%29_detail.png/100px-Ghostly_robe_%28top%29_detail.png?86b92"
+    },
+    {
+      "type": "item",
+      "name": "Ghostly robe (bottom)",
+      "display": "Ghostly robe bottom",
+      "image": "https://runescape.wiki/images/thumb/Ghostly_robe_%28bottom%29_detail.png/100px-Ghostly_robe_%28bottom%29_detail.png?56a97"
+    },
+    {
+      "type": "item",
+      "name": "Ghostly gloves",
+      "display": "Ghostly gloves",
+      "image": "https://runescape.wiki/images/thumb/Ghostly_gloves_detail.png/100px-Ghostly_gloves_detail.png?5f343"
+    },
+    {
+      "type": "item",
+      "name": "Ghostly boots",
+      "display": "Ghostly boots",
+      "image": "https://runescape.wiki/images/thumb/Ghostly_boots_detail.png/100px-Ghostly_boots_detail.png?e9b63"
+    },
+    {
+      "type": "item",
+      "name": "Ghostly cloak",
+      "display": "Ghostly cloak",
+      "image": "https://runescape.wiki/images/thumb/Ghostly_cloak_detail.png/100px-Ghostly_cloak_detail.png?cf7c3"
+    }
+  ],
+  "rewardBannerImage": "https://runescape.wiki/images/Curse_of_the_Empty_Lord_%28miniquest%29_reward.png?a4ae0",
+  "postQuest": [],
+  "steps": [
+    {
+      "index": 0,
+      "indent": 0,
+      "section": "Getting started",
+      "text": {
+        "en": "Make sure you are wearing your ring of visibility and your ghostspeak amulet."
+      },
+      "chatOptions": [],
+      "highlightTerms": [
+        "ring of visibility",
+        "ghostspeak amulet"
+      ]
+    },
+    {
+      "index": 1,
+      "indent": 0,
+      "section": "Getting started",
+      "text": {
+        "en": "Speak to the Mysterious ghost near Glarial's tombstone northwest of the Fishing Guild."
+      },
+      "chatOptions": [
+        "Accept"
+      ],
+      "highlightTerms": [
+        "Mysterious ghost",
+        "Glarial's tombstone",
+        "Fishing Guild"
+      ]
+    },
+    {
+      "index": 2,
+      "indent": 0,
+      "section": "Getting started",
+      "text": {
+        "en": "This ghost will give you one of three clues which determine your entire route, which we will label Sequence 1, 2, and 3:"
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 3,
+      "indent": 1,
+      "section": "Getting started",
+      "text": {
+        "en": "Sequence 1 - He mentions pirates and a shipwreck."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 4,
+      "indent": 1,
+      "section": "Getting started",
+      "text": {
+        "en": "Sequence 2 - He mentions the thief being north-east of there."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 5,
+      "indent": 1,
+      "section": "Getting started",
+      "text": {
+        "en": "Sequence 3 - He mentions the thief being south-east of there."
+      },
+      "chatOptions": []
+    },
+    {
+      "index": 6,
+      "isTable": true,
+      "section": "The sequences to follow",
+      "table": {
+        "headers": [
+          "Ghost",
+          "Item",
+          "Sequence 1",
+          "",
+          "Sequence 2",
+          "",
+          "Sequence 3",
+          ""
+        ],
+        "rows": [
+          [
+            {
+              "text": "Description",
+              "blocked": false
+            },
+            {
+              "text": "Map",
+              "blocked": false
+            },
+            {
+              "text": "Description",
+              "blocked": false
+            },
+            {
+              "text": "Map",
+              "blocked": false
+            },
+            {
+              "text": "Description",
+              "blocked": false
+            },
+            {
+              "text": "Map",
+              "blocked": false
+            }
+          ],
+          [
+            {
+              "text": "Rennard",
+              "blocked": false
+            },
+            {
+              "text": "Ghostly gloves",
+              "blocked": false
+            },
+            {
+              "text": "Near the shipwrecked ship west of the Pirates' Hideout (level 55 Wilderness).",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            },
+            {
+              "text": "Bandit Camp (Wilderness), outside Fat Tony's pizza shop. You must be skulled to make the bandits non-aggressive to talk to Rennard, being opted-in to PvP via Vala will work.",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            },
+            {
+              "text": "Bandit Camp (Kharidian Desert), inside the bar, the Big Heist Lodge.",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            }
+          ],
+          [
+            {
+              "text": "Kharrim",
+              "blocked": false
+            },
+            {
+              "text": "Ghostly boots",
+              "blocked": false
+            },
+            {
+              "text": "At the Chaos Temple (hut) (level 38 Wilderness).",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            },
+            {
+              "text": "Graveyard of Shadows.",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            },
+            {
+              "text": "End of the Lava Maze inside the second fenced in area. Food and protection is highly recommended to avoid the Ripper Demons you have to pass by to access Kharrim.",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            }
+          ],
+          [
+            {
+              "text": "Lennissa",
+              "blocked": false
+            },
+            {
+              "text": "Ghostly robe bottom",
+              "blocked": false
+            },
+            {
+              "text": "In the church on Entrana, in front of the altar. Remember to bring your ring of visibility and ghostspeak amulet (or cramulet).",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            },
+            {
+              "text": "Port Sarim docks near the Squire.",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            },
+            {
+              "text": "Just south of the Gnome Ball field.",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            }
+          ],
+          [
+            {
+              "text": "Dhalak",
+              "blocked": false
+            },
+            {
+              "text": "Ghostly hood",
+              "blocked": false
+            },
+            {
+              "text": "On the 1st floor of the Wizards' tower (lowest floor).",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            },
+            {
+              "text": "On the 1st floor of the Wizards' tower (lowest floor).",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            },
+            {
+              "text": "On the 2nd floor of the Falador Party Room.",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            }
+          ],
+          [
+            {
+              "text": "Viggora",
+              "blocked": false
+            },
+            {
+              "text": "Ghostly cloak",
+              "blocked": false
+            },
+            {
+              "text": "In the north-east corner of the 2nd floor in the Rogues' Castle (level 52 Wilderness).",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            },
+            {
+              "text": "Middle floor of the Slayer tower to the north-west of Canifis.",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            },
+            {
+              "text": "Edgeville Dungeon, south of the Earth Warriors. You will likely be attacked by skeletons while talking to Viggora, so kill the closest ones and hold space to skip through the dialogue before more appear. It is helpful to bring a blocking familiar, like a platypus.",
+              "blocked": false
+            },
+            {
+              "text": "",
+              "blocked": false
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "indent": 0,
+      "section": "Talking to the ghosts",
+      "text": {
+        "en": "Make your way and speak to Rennard in the location given in the table above to receive Ghostly gloves."
+      },
+      "chatOptions": [
+        "1 Tell me your story"
+      ],
+      "highlightTerms": [
+        "Rennard",
+        "Ghostly gloves"
+      ]
+    },
+    {
+      "index": 8,
+      "indent": 0,
+      "section": "Talking to the ghosts",
+      "text": {
+        "en": "Make your way and speak to Kharrim in the location given in the table above to receive Ghostly boots."
+      },
+      "chatOptions": [
+        "1 Tell me your story"
+      ],
+      "highlightTerms": [
+        "Kharrim",
+        "Ghostly boots"
+      ]
+    },
+    {
+      "index": 9,
+      "indent": 0,
+      "section": "Talking to the ghosts",
+      "text": {
+        "en": "Make your way and speak to Lennissa in the location given in the table above to receive Ghostly robe bottom."
+      },
+      "chatOptions": [
+        "1 Tell me your story"
+      ],
+      "highlightTerms": [
+        "Lennissa",
+        "Ghostly robe bottom"
+      ]
+    },
+    {
+      "index": 10,
+      "indent": 0,
+      "section": "Talking to the ghosts",
+      "text": {
+        "en": "Make your way and speak to Dhalak in the location given in the table above to receive Ghostly hood."
+      },
+      "chatOptions": [
+        "1 Tell me your story"
+      ],
+      "highlightTerms": [
+        "Dhalak",
+        "Ghostly hood"
+      ]
+    },
+    {
+      "index": 11,
+      "indent": 0,
+      "section": "Talking to the ghosts",
+      "text": {
+        "en": "Make your way and speak to Viggora in the location given in the table above to receive Ghostly cloak."
+      },
+      "chatOptions": [
+        "1 Tell me your story"
+      ],
+      "highlightTerms": [
+        "Viggora",
+        "Ghostly cloak"
+      ]
+    },
+    {
+      "index": 12,
+      "indent": 0,
+      "section": "Talking to the ghosts",
+      "text": {
+        "en": "Miniquest complete!"
+      },
+      "chatOptions": []
+    }
+  ]
+}
