@@ -33,6 +33,9 @@ jobs:
       - name: Scrape any new/pending quests
         run: node src/checkNewQuests.js
         working-directory: scraper
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
 
       # Pushes straight to main — no PR/review step. Safe because a bad
       # scrape either throws (skipped, logged, nothing written) or produces

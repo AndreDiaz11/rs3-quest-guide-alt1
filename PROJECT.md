@@ -84,6 +84,10 @@ artefacto "(via)" en texto de inicio y recompensas, limpieza de claves i18n muer
 JS innecesarios, y eliminación de una función wikitext muerta (`extractAllTemplates`).
 
 ## Integraciones externas
+- **Resend** (`RESEND_API_KEY`, `NOTIFY_EMAIL`) — correo de aviso enviado por `check-new-quests.yml`
+  (`scraper/src/checkNewQuests.js` → `sendNotificationEmail`) solo cuando la corrida de 15 min
+  encuentra algo real: misión nueva, guía completada, o un fallo de scraping. La mayoría de las
+  corridas no encuentran nada y no mandan correo.
 - **RuneMetrics (Jagex)** — estado de misiones y niveles del jugador. Público, sin credenciales.
   Requiere el proxy CORS del Worker para poder consultarse desde el navegador (incluido el embebido
   de Alt1). Modo prueba y producción son el mismo endpoint (no hay sandbox de Jagex).
@@ -109,44 +113,47 @@ No aplica (no hay login propio; el plugin consulta el nombre de cuenta real de R
 usuario configura en Ajustes).
 
 ## Versión
-1.2.0 — dataset 100% traducido al español + automatización completa de detección/publicación de
-misiones nuevas, más una ronda extensa de correcciones de datos/parsing (367 misiones, 473 QP
-verificado).
+1.3.0 — correo de aviso vía Resend cuando el cron de 15 min detecta una misión nueva, completa una
+guía pendiente, o falla al scrapear.
 
 ## Cambios
-1. Traducción al 100% del dataset completo: se detectó y corrigió que las notas de
+1. (23/08/2026) Correo de aviso vía Resend en `check-new-quests.yml`: solo se envía cuando hay algo
+   real que reportar (misión nueva, guía completada, o fallo de scraping) — el resto de las corridas
+   de 15 min quedan silenciosas. Auditoría completa del proyecto: sin código muerto, sin secretos
+   expuestos, PROJECT.md sincronizado con `#Documentations`.
+2. Traducción al 100% del dataset completo: se detectó y corrigió que las notas de
    "necesitas"/"recomendado" de 207 misiones (772 en total) y 37 ítems de listas seleccionables nunca se habían
    traducido en ninguna corrida anterior (agregadas después de la última tanda de traducción paga).
    De paso se corrigió un bug real en `alreadyTranslated()` (scraper/src/run.js) que habría
    re-traducido (y re-cobrado) 251 misiones ya traducidas por completo, solo por contener una tabla
    o imagen.
-2. Auto-refresco de la lista de misiones dentro del plugin cada 15 min, sin cerrar/reabrir Alt1 —
+3. Auto-refresco de la lista de misiones dentro del plugin cada 15 min, sin cerrar/reabrir Alt1 —
    antes `index.json` solo se cargaba una vez al iniciar.
-3. Soporte de `rowspan` en tablas de solución de puzzles (además del `colspan`/`{{NA}}` ya soportado):
+4. Soporte de `rowspan` en tablas de solución de puzzles (además del `colspan`/`{{NA}}` ya soportado):
    celdas que abarcan varias filas (ej. la tabla de dados de Lunar Diplomacy) ahora se preservan
    correctamente en vez de perderse como atributo desconocido.
-4. Detección de misiones nuevas cada 15 min (antes diario) publicando directo a `main` sin abrir PR
+5. Detección de misiones nuevas cada 15 min (antes diario) publicando directo a `main` sin abrir PR
    (`check-new-quests.yml`) — además ahora detecta una misión nueva desde Category:Quests el mismo
    día de su salida aunque la wiki todavía no le haya escrito la guía paso a paso: se publica igual,
    marcada `isPending` con un aviso "guía no disponible todavía", y se reintenta sola en cada corrida
    hasta completarse — sin intervención manual.
-5. Limpieza de notación de piso ambigua UK/US (`1st floor[UK]2nd floor[US]`) tanto en metadatos
+6. Limpieza de notación de piso ambigua UK/US (`1st floor[UK]2nd floor[US]`) tanto en metadatos
    (punto de inicio, items, kills) como en recompensas — bug de extracción HTML, no de wikitext.
-6. Eliminación del artefacto "(via )" colgante en el punto de inicio (enlace de mapa interactivo
+7. Eliminación del artefacto "(via )" colgante en el punto de inicio (enlace de mapa interactivo
    despojado de su texto) en 36 misiones en inglés y 22 traducciones en español ya existentes.
-7. Corrección de tablas de solución de puzzles: celdas `{{NA|colspan=N|}}` ahora se expanden
+8. Corrección de tablas de solución de puzzles: celdas `{{NA|colspan=N|}}` ahora se expanden
    correctamente en vez de colapsar y desplazar las columnas siguientes; celdas bloqueadas
    resaltadas visualmente y tamaño de grilla fijo independiente del tamaño de ventana.
-8. Corrección de parsing de opciones de chat: enlaces wiki anidados dentro de una opción, el
+9. Corrección de parsing de opciones de chat: enlaces wiki anidados dentro de una opción, el
    símbolo "~" como sinónimo de "any", y marcadores "1." (con punto) y "3/4" (posición combinada).
-9. Fremennik Sagas reclasificadas como miniquest (coincide con el filtro nativo de RS3);
+10. Fremennik Sagas reclasificadas como miniquest (coincide con el filtro nativo de RS3);
    `isMiniquest` e `isSeasonal` ahora se recalculan frescos en cada migrate en vez de copiarse
    del disco (bug de datos obsoletos encontrado dos veces con la misma causa raíz).
-10. Limpieza de 5 claves i18n muertas, 2 exports JS innecesarios y una función de wikitext muerta
+11. Limpieza de 5 claves i18n muertas, 2 exports JS innecesarios y una función de wikitext muerta
     (`extractAllTemplates`, superada por `extractAllTemplatesWithPositions`).
-11. Rediseño del sidebar: popover de Filter + dropdown de Sort (4 modos) reemplazando los chips.
-12. Rediseño del panel de detalle al estilo Quick guide de la wiki (requisitos con ✓/✗ reales, items
+12. Rediseño del sidebar: popover de Filter + dropdown de Sort (4 modos) reemplazando los chips.
+13. Rediseño del panel de detalle al estilo Quick guide de la wiki (requisitos con ✓/✗ reales, items
     en lista, pasos por sección, recompensas al final con banner).
-13. Niveles de habilidad reales del jugador vía RuneMetrics (Worker + `skills.js`) para los requisitos.
-14. Integración de RuneMetrics para auto-marcado de misiones completadas.
-15. Scraper completo del dataset (367 misiones) con traducción al español.
+14. Niveles de habilidad reales del jugador vía RuneMetrics (Worker + `skills.js`) para los requisitos.
+15. Integración de RuneMetrics para auto-marcado de misiones completadas.
+16. Scraper completo del dataset (367 misiones) con traducción al español.

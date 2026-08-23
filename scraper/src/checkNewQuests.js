@@ -96,6 +96,62 @@ async function main() {
     lines.push(`No se pudieron scrapear (revisar manualmente):`, ...failed.map((f) => `- ${f.title}: ${f.error}`));
   }
   await writeFile(SUMMARY_PATH, lines.join("\n"));
+
+  if (newTitles.length > 0 || completed.length > 0 || failed.length > 0) {
+    await sendNotificationEmail({ scraped, completed, stillPending, failed });
+  }
+}
+
+/**
+ * Solo se llama cuando hay algo real que reportar (misión nueva, guía
+ * completada, o un fallo de scraping) — la mayoría de las corridas de 15 min
+ * no encuentran nada y no mandan correo.
+ */
+async function sendNotificationEmail({ scraped, completed, stillPending, failed }) {
+  const apiKey = process.env.RESEND_API_KEY;
+  const to = process.env.NOTIFY_EMAIL;
+  if (!apiKey || !to) {
+    console.log("[check-new-quests] Falta RESEND_API_KEY o NOTIFY_EMAIL — no se envió correo.");
+    return;
+  }
+
+  const section = (title, items, render) =>
+    items.length === 0
+      ? ""
+      : `<h3>${title}</h3><ul>${items.map((item) => `<li>${render(item)}</li>`).join("")}</ul>`;
+
+  const html = `
+    <div style="font-family: sans-serif; max-width: 600px;">
+      <h2>Quest Compass — actividad detectada</h2>
+      ${section("Misiones nuevas (en inglés, sin traducir todavía)", scraped, (t) => t)}
+      ${section("Guía completada (ya estaban pendientes)", completed, (t) => t)}
+      ${section("Siguen sin guía (se reintenta solo)", stillPending, (t) => t)}
+      ${section("Fallos al scrapear", failed, (f) => `${f.title}: ${f.error}`)}
+      <p style="color:#888; font-size: 12px;">Corrida automática cada 15 min vía GitHub Actions.</p>
+    </div>
+  `;
+
+  const subject =
+    failed.length > 0
+      ? `⚠️ Quest Compass: ${failed.length} fallo(s) al scrapear`
+      : `Quest Compass: ${scraped.length + completed.length} misión(es) nueva(s)/completada(s)`;
+
+  const res = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      from: "Quest Compass <onboarding@resend.dev>",
+      to,
+      subject,
+      html,
+    }),
+  });
+
+  if (!res.ok) {
+    console.error(`[check-new-quests] Error al enviar correo: ${res.status} ${await res.text()}`);
+  } else {
+    console.log("[check-new-quests] Correo de notificación enviado.");
+  }
 }
 
 main().catch((err) => {
