@@ -122,12 +122,112 @@ async function main() {
   }
 }
 
+function seccion(titulo, color, items, render, nota) {
+  if (items.length === 0) return "";
+  const filas = items
+    .map((item) => `<li style="margin:0 0 8px;font-size:14px;color:#d8c9a3;">${render(item)}</li>`)
+    .join("");
+  return `
+    <tr>
+      <td style="padding:0 28px 24px;">
+        <p style="margin:0 0 10px;font-size:13px;font-weight:800;color:${color};text-transform:uppercase;letter-spacing:0.5px;">
+          ${titulo} (${items.length})
+        </p>
+        <ul style="margin:0;padding-left:18px;">${filas}</ul>
+        ${nota ? `<p style="margin:10px 0 0;font-size:12px;color:#a39372;">${nota}</p>` : ""}
+      </td>
+    </tr>`;
+}
+
+function statPill(valor, label, color) {
+  return `
+    <td align="center" style="padding:14px 8px;">
+      <div style="font-size:22px;font-weight:800;color:${color};">${valor}</div>
+      <div style="font-size:11px;color:#a39372;text-transform:uppercase;letter-spacing:0.4px;">${label}</div>
+    </td>`;
+}
+
+function armarCorreoHtml({ scraped, completed, stillPending, failed }) {
+  const fecha = new Date().toLocaleString("es-PE", { dateStyle: "long", timeStyle: "short" });
+
+  return `
+  <div style="background:#211a13;padding:32px 16px;font-family:Arial,Helvetica,sans-serif;">
+    <table role="presentation" width="100%" style="max-width:480px;margin:0 auto;">
+      <tr>
+        <td>
+          <table role="presentation" width="100%" style="border-radius:14px;overflow:hidden;">
+            <tr>
+              <td align="center" valign="middle" style="background:linear-gradient(120deg,#4a3c28,#171310);height:88px;">
+                <span style="font-family:Arial,Helvetica,sans-serif;font-weight:900;font-size:20px;letter-spacing:1px;color:#f5d576;">
+                  QUEST <span style="color:#e0b84a;">COMPASS</span>
+                </span>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="margin-top:-64px;">
+          <table role="presentation" width="100%" style="background:#171310;border-radius:14px;box-shadow:0 12px 30px -8px rgba(0,0,0,0.5);margin-top:-64px;position:relative;border:1px solid #4a3c28;">
+            <tr>
+              <td style="padding:28px 28px 4px;">
+                <p style="margin:0 0 2px;font-size:16px;font-weight:800;color:#f5d576;text-align:center;">
+                  Actividad del scraper de misiones
+                </p>
+                <p style="margin:0 0 18px;font-size:12px;color:#a39372;text-align:center;">${fecha}</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:0 20px 20px;">
+                <table role="presentation" width="100%" style="background:#211a13;border-radius:10px;">
+                  <tr>
+                    ${statPill(scraped.length, "Nuevas", "#3fce46")}
+                    ${statPill(completed.length, "Completadas", "#5bb4e0")}
+                    ${statPill(stillPending.length, "Pendientes", "#f0c419")}
+                    ${statPill(failed.length, "Fallos", "#ee3b3b")}
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            ${seccion(
+              "Misiones nuevas (en inglés, sin traducir todavía)",
+              "#3fce46",
+              scraped,
+              (t) => t
+            )}
+            ${seccion("Guía completada (ya estaban pendientes)", "#5bb4e0", completed, (t) => t)}
+            ${seccion(
+              "Siguen sin guía",
+              "#f0c419",
+              stillPending,
+              (t) => t,
+              "Se reintenta automáticamente en cada corrida hasta que la wiki publique la guía."
+            )}
+            ${seccion(
+              "Fallos al scrapear",
+              "#ee3b3b",
+              failed,
+              (f) => `<strong>${f.title}</strong><span style="color:#a39372;"> — ${f.error}</span>`,
+              "Revisar manualmente — no es contenido histórico esperado."
+            )}
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" style="padding-top:20px;">
+          <p style="margin:0;font-size:11px;color:#a39372;">Quest Compass · rs3-quest-guide-alt1</p>
+        </td>
+      </tr>
+    </table>
+  </div>`;
+}
+
 /**
  * Solo se llama cuando hay algo real que reportar (misión nueva, guía
- * completada, o un fallo de scraping) — la mayoría de las corridas de 15 min
- * no encuentran nada y no mandan correo.
+ * completada, o un fallo de scraping genuino) — la mayoría de las corridas
+ * de 15 min no encuentran nada y no mandan correo.
  */
-async function sendNotificationEmail({ scraped, completed, stillPending, failed }) {
+export async function sendNotificationEmail({ scraped, completed, stillPending, failed }) {
   const apiKey = process.env.RESEND_API_KEY;
   const to = process.env.NOTIFY_EMAIL;
   if (!apiKey || !to) {
@@ -135,21 +235,7 @@ async function sendNotificationEmail({ scraped, completed, stillPending, failed 
     return;
   }
 
-  const section = (title, items, render) =>
-    items.length === 0
-      ? ""
-      : `<h3>${title}</h3><ul>${items.map((item) => `<li>${render(item)}</li>`).join("")}</ul>`;
-
-  const html = `
-    <div style="font-family: sans-serif; max-width: 600px;">
-      <h2>Quest Compass — actividad detectada</h2>
-      ${section("Misiones nuevas (en inglés, sin traducir todavía)", scraped, (t) => t)}
-      ${section("Guía completada (ya estaban pendientes)", completed, (t) => t)}
-      ${section("Siguen sin guía (se reintenta solo)", stillPending, (t) => t)}
-      ${section("Fallos al scrapear", failed, (f) => `${f.title}: ${f.error}`)}
-      <p style="color:#888; font-size: 12px;">Corrida automática cada 15 min vía GitHub Actions.</p>
-    </div>
-  `;
+  const html = armarCorreoHtml({ scraped, completed, stillPending, failed });
 
   const subject =
     failed.length > 0
