@@ -125,7 +125,7 @@ async function main() {
 function seccion(titulo, color, items, render, nota) {
   if (items.length === 0) return "";
   const filas = items
-    .map((item) => `<li style="margin:0 0 8px;font-size:14px;color:#d8c9a3;">${render(item)}</li>`)
+    .map((item) => `<li style="margin:0 0 8px;font-size:14px;color:#231235;">${render(item)}</li>`)
     .join("");
   return `
     <tr>
@@ -134,7 +134,7 @@ function seccion(titulo, color, items, render, nota) {
           ${titulo} (${items.length})
         </p>
         <ul style="margin:0;padding-left:18px;">${filas}</ul>
-        ${nota ? `<p style="margin:10px 0 0;font-size:12px;color:#a39372;">${nota}</p>` : ""}
+        ${nota ? `<p style="margin:10px 0 0;font-size:12px;color:#6b6379;">${nota}</p>` : ""}
       </td>
     </tr>`;
 }
@@ -143,23 +143,24 @@ function statPill(valor, label, color) {
   return `
     <td align="center" style="padding:14px 8px;">
       <div style="font-size:22px;font-weight:800;color:${color};">${valor}</div>
-      <div style="font-size:11px;color:#a39372;text-transform:uppercase;letter-spacing:0.4px;">${label}</div>
+      <div style="font-size:11px;color:#6b6379;text-transform:uppercase;letter-spacing:0.4px;">${label}</div>
     </td>`;
 }
 
 function armarCorreoHtml({ scraped, completed, stillPending, failed }) {
   const fecha = new Date().toLocaleString("es-PE", { dateStyle: "long", timeStyle: "short" });
+  const todoBien = scraped.length === 0 && completed.length === 0 && failed.length === 0;
 
   return `
-  <div style="background:#211a13;padding:32px 16px;font-family:Arial,Helvetica,sans-serif;">
+  <div style="background:#f2f1f7;padding:32px 16px;font-family:Arial,Helvetica,sans-serif;">
     <table role="presentation" width="100%" style="max-width:480px;margin:0 auto;">
       <tr>
         <td>
           <table role="presentation" width="100%" style="border-radius:14px;overflow:hidden;">
             <tr>
-              <td align="center" valign="middle" style="background:linear-gradient(120deg,#4a3c28,#171310);height:88px;">
-                <span style="font-family:Arial,Helvetica,sans-serif;font-weight:900;font-size:20px;letter-spacing:1px;color:#f5d576;">
-                  QUEST <span style="color:#e0b84a;">COMPASS</span>
+              <td align="center" valign="middle" style="background:linear-gradient(120deg,#b8862e,#e0b84a);height:88px;">
+                <span style="font-family:Arial,Helvetica,sans-serif;font-weight:900;font-size:20px;letter-spacing:1px;color:#ffffff;">
+                  QUEST <span style="color:#fdf3d9;">COMPASS</span>
                 </span>
               </td>
             </tr>
@@ -168,46 +169,62 @@ function armarCorreoHtml({ scraped, completed, stillPending, failed }) {
       </tr>
       <tr>
         <td style="margin-top:-64px;">
-          <table role="presentation" width="100%" style="background:#171310;border-radius:14px;box-shadow:0 12px 30px -8px rgba(0,0,0,0.5);margin-top:-64px;position:relative;border:1px solid #4a3c28;">
+          <table role="presentation" width="100%" style="background:#ffffff;border-radius:14px;box-shadow:0 12px 30px -8px rgba(58,29,99,0.25);margin-top:-64px;position:relative;">
             <tr>
               <td style="padding:28px 28px 4px;">
-                <p style="margin:0 0 2px;font-size:16px;font-weight:800;color:#f5d576;text-align:center;">
+                <p style="margin:0 0 2px;font-size:16px;font-weight:800;color:#231235;text-align:center;">
                   Actividad del scraper de misiones
                 </p>
-                <p style="margin:0 0 18px;font-size:12px;color:#a39372;text-align:center;">${fecha}</p>
+                <p style="margin:0 0 18px;font-size:12px;color:#a39cb0;text-align:center;">${fecha}</p>
               </td>
             </tr>
             <tr>
               <td style="padding:0 20px 20px;">
-                <table role="presentation" width="100%" style="background:#211a13;border-radius:10px;">
+                <table role="presentation" width="100%" style="background:#f9f8fc;border-radius:10px;">
                   <tr>
-                    ${statPill(scraped.length, "Nuevas", "#3fce46")}
-                    ${statPill(completed.length, "Completadas", "#5bb4e0")}
-                    ${statPill(stillPending.length, "Pendientes", "#f0c419")}
-                    ${statPill(failed.length, "Fallos", "#ee3b3b")}
+                    ${statPill(scraped.length, "Nuevas", "#16a34a")}
+                    ${statPill(completed.length, "Completadas", "#2563eb")}
+                    ${statPill(stillPending.length, "Pendientes", "#d97706")}
+                    ${statPill(failed.length, "Fallos", "#dc2626")}
                   </tr>
                 </table>
               </td>
             </tr>
+            ${
+              todoBien
+                ? `<tr>
+                     <td style="padding:0 28px 28px;">
+                       <table role="presentation" width="100%" style="background:#f0fdf4;border-radius:10px;">
+                         <tr>
+                           <td style="padding:16px;text-align:center;">
+                             <p style="margin:0;font-size:14px;font-weight:700;color:#16a34a;">✓ Sin novedades</p>
+                             <p style="margin:4px 0 0;font-size:12px;color:#6b6379;">No hubo misiones nuevas ni fallos en esta corrida.</p>
+                           </td>
+                         </tr>
+                       </table>
+                     </td>
+                   </tr>`
+                : ""
+            }
             ${seccion(
               "Misiones nuevas (en inglés, sin traducir todavía)",
-              "#3fce46",
+              "#16a34a",
               scraped,
               (t) => t
             )}
-            ${seccion("Guía completada (ya estaban pendientes)", "#5bb4e0", completed, (t) => t)}
+            ${seccion("Guía completada (ya estaban pendientes)", "#2563eb", completed, (t) => t)}
             ${seccion(
               "Siguen sin guía",
-              "#f0c419",
+              "#d97706",
               stillPending,
               (t) => t,
               "Se reintenta automáticamente en cada corrida hasta que la wiki publique la guía."
             )}
             ${seccion(
               "Fallos al scrapear",
-              "#ee3b3b",
+              "#dc2626",
               failed,
-              (f) => `<strong>${f.title}</strong><span style="color:#a39372;"> — ${f.error}</span>`,
+              (f) => `<strong>${f.title}</strong><span style="color:#a39cb0;"> — ${f.error}</span>`,
               "Revisar manualmente — no es contenido histórico esperado."
             )}
           </table>
@@ -215,7 +232,7 @@ function armarCorreoHtml({ scraped, completed, stillPending, failed }) {
       </tr>
       <tr>
         <td align="center" style="padding-top:20px;">
-          <p style="margin:0;font-size:11px;color:#a39372;">Quest Compass · rs3-quest-guide-alt1</p>
+          <p style="margin:0;font-size:11px;color:#9791a3;">Quest Compass · rs3-quest-guide-alt1</p>
         </td>
       </tr>
     </table>

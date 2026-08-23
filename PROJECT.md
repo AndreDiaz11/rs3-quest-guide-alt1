@@ -115,52 +115,55 @@ No aplica (no hay login propio; el plugin consulta el nombre de cuenta real de R
 usuario configura en Ajustes).
 
 ## Versión
-1.3.1 — rediseño del correo de aviso: tarjeta con estadísticas y paleta oscura/dorada propia del
-plugin, más el fix de que las exclusiones históricas esperadas no vuelvan a disparar correo en cada
-corrida.
+1.3.2 — correo de aviso pasado a fondo claro (norma obligatoria del skill: todo correo automático
+usa la plantilla de RankBase con fondo claro, sin importar el tema oscuro de la app/web).
 
 ## Cambios
-1. (23/08/2026) Rediseño del correo de aviso (mismo patrón visual que RankBase: banner degradado,
+1. (23/08/2026) Correo de aviso corregido a fondo claro (`#f2f1f7`/blanco) — el primer rediseño había
+   usado la paleta oscura/dorada de la app, pero la norma del skill exige fondo claro en todo correo
+   automático por legibilidad entre clientes de correo. Acento dorado de marca conservado solo en el
+   banner degradado.
+2. (23/08/2026) Rediseño del correo de aviso (mismo patrón visual que RankBase: banner degradado,
    píldoras de estadísticas, secciones por color) con la paleta propia de Quest Compass. Fix: el
    contenido histórico/eliminado que la wiki reintroduce en cada corrida de 15 min (`EXPECTED_EXCLUSION_MESSAGE`)
    ya no cuenta como fallo ni dispara correo — antes lo habría mandado cada 15 min para siempre.
-2. (23/08/2026) Correo de aviso vía Resend en `check-new-quests.yml`: solo se envía cuando hay algo
+3. (23/08/2026) Correo de aviso vía Resend en `check-new-quests.yml`: solo se envía cuando hay algo
    real que reportar (misión nueva, guía completada, o fallo de scraping) — el resto de las corridas
    de 15 min quedan silenciosas. Auditoría completa del proyecto: sin código muerto, sin secretos
    expuestos, PROJECT.md sincronizado con `#Documentations`.
-3. Traducción al 100% del dataset completo: se detectó y corrigió que las notas de
+4. Traducción al 100% del dataset completo: se detectó y corrigió que las notas de
    "necesitas"/"recomendado" de 207 misiones (772 en total) y 37 ítems de listas seleccionables nunca se habían
    traducido en ninguna corrida anterior (agregadas después de la última tanda de traducción paga).
    De paso se corrigió un bug real en `alreadyTranslated()` (scraper/src/run.js) que habría
    re-traducido (y re-cobrado) 251 misiones ya traducidas por completo, solo por contener una tabla
    o imagen.
-4. Auto-refresco de la lista de misiones dentro del plugin cada 15 min, sin cerrar/reabrir Alt1 —
+5. Auto-refresco de la lista de misiones dentro del plugin cada 15 min, sin cerrar/reabrir Alt1 —
    antes `index.json` solo se cargaba una vez al iniciar.
-5. Soporte de `rowspan` en tablas de solución de puzzles (además del `colspan`/`{{NA}}` ya soportado):
+6. Soporte de `rowspan` en tablas de solución de puzzles (además del `colspan`/`{{NA}}` ya soportado):
    celdas que abarcan varias filas (ej. la tabla de dados de Lunar Diplomacy) ahora se preservan
    correctamente en vez de perderse como atributo desconocido.
-6. Detección de misiones nuevas cada 15 min (antes diario) publicando directo a `main` sin abrir PR
+7. Detección de misiones nuevas cada 15 min (antes diario) publicando directo a `main` sin abrir PR
    (`check-new-quests.yml`) — además ahora detecta una misión nueva desde Category:Quests el mismo
    día de su salida aunque la wiki todavía no le haya escrito la guía paso a paso: se publica igual,
    marcada `isPending` con un aviso "guía no disponible todavía", y se reintenta sola en cada corrida
    hasta completarse — sin intervención manual.
-7. Limpieza de notación de piso ambigua UK/US (`1st floor[UK]2nd floor[US]`) tanto en metadatos
+8. Limpieza de notación de piso ambigua UK/US (`1st floor[UK]2nd floor[US]`) tanto en metadatos
    (punto de inicio, items, kills) como en recompensas — bug de extracción HTML, no de wikitext.
-8. Eliminación del artefacto "(via )" colgante en el punto de inicio (enlace de mapa interactivo
+9. Eliminación del artefacto "(via )" colgante en el punto de inicio (enlace de mapa interactivo
    despojado de su texto) en 36 misiones en inglés y 22 traducciones en español ya existentes.
-9. Corrección de tablas de solución de puzzles: celdas `{{NA|colspan=N|}}` ahora se expanden
+10. Corrección de tablas de solución de puzzles: celdas `{{NA|colspan=N|}}` ahora se expanden
    correctamente en vez de colapsar y desplazar las columnas siguientes; celdas bloqueadas
    resaltadas visualmente y tamaño de grilla fijo independiente del tamaño de ventana.
-10. Corrección de parsing de opciones de chat: enlaces wiki anidados dentro de una opción, el
+11. Corrección de parsing de opciones de chat: enlaces wiki anidados dentro de una opción, el
    símbolo "~" como sinónimo de "any", y marcadores "1." (con punto) y "3/4" (posición combinada).
-11. Fremennik Sagas reclasificadas como miniquest (coincide con el filtro nativo de RS3);
+12. Fremennik Sagas reclasificadas como miniquest (coincide con el filtro nativo de RS3);
    `isMiniquest` e `isSeasonal` ahora se recalculan frescos en cada migrate en vez de copiarse
    del disco (bug de datos obsoletos encontrado dos veces con la misma causa raíz).
-12. Limpieza de 5 claves i18n muertas, 2 exports JS innecesarios y una función de wikitext muerta
+13. Limpieza de 5 claves i18n muertas, 2 exports JS innecesarios y una función de wikitext muerta
     (`extractAllTemplates`, superada por `extractAllTemplatesWithPositions`).
-13. Rediseño del sidebar: popover de Filter + dropdown de Sort (4 modos) reemplazando los chips.
-14. Rediseño del panel de detalle al estilo Quick guide de la wiki (requisitos con ✓/✗ reales, items
+14. Rediseño del sidebar: popover de Filter + dropdown de Sort (4 modos) reemplazando los chips.
+15. Rediseño del panel de detalle al estilo Quick guide de la wiki (requisitos con ✓/✗ reales, items
     en lista, pasos por sección, recompensas al final con banner).
-15. Niveles de habilidad reales del jugador vía RuneMetrics (Worker + `skills.js`) para los requisitos.
-16. Integración de RuneMetrics para auto-marcado de misiones completadas.
-17. Scraper completo del dataset (367 misiones) con traducción al español.
+16. Niveles de habilidad reales del jugador vía RuneMetrics (Worker + `skills.js`) para los requisitos.
+17. Integración de RuneMetrics para auto-marcado de misiones completadas.
+18. Scraper completo del dataset (367 misiones) con traducción al español.
