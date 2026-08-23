@@ -8,6 +8,13 @@ import { titleToSlug } from "./slug.js";
 const INDEX_PATH = fileURLToPath(new URL("../../data/index.json", import.meta.url));
 const SUMMARY_PATH = fileURLToPath(new URL("../new-quests-summary.txt", import.meta.url));
 
+// Mensaje exacto que lanza scrapeOne (run.js) para contenido histórico/eliminado
+// que la wiki todavía lista en sus categorías pero nunca se va a agregar al
+// dataset — esto se repite EN CADA CORRIDA de 15 min por diseño (no hay un set
+// persistente de "ya visto"), así que nunca debe contar como fallo real ni
+// disparar un correo.
+const EXPECTED_EXCLUSION_MESSAGE = "Contenido histórico/eliminado del juego, no una misión jugable actual — excluida a propósito.";
+
 /**
  * Automated check (see .github/workflows/check-new-quests.yml, runs every 15
  * min): finds quest pages on the wiki that aren't in our dataset yet, and
@@ -61,6 +68,7 @@ async function main() {
   const completed = [];
   const stillPending = [];
   const failed = [];
+  const excludedAsExpected = [];
   for (const title of newTitles) {
     try {
       const record = await scrapeOne(title, { skipTranslate: true }, seasonalTitles);
@@ -68,7 +76,8 @@ async function main() {
       if (record.isPending) stillPending.push(title);
     } catch (err) {
       console.error(`[skip] ${title}: ${err.message}`);
-      failed.push({ title, error: err.message });
+      if (err.message === EXPECTED_EXCLUSION_MESSAGE) excludedAsExpected.push(title);
+      else failed.push({ title, error: err.message });
     }
   }
   for (const title of pendingTitles) {
@@ -78,7 +87,8 @@ async function main() {
       else completed.push(title);
     } catch (err) {
       console.error(`[skip] ${title}: ${err.message}`);
-      failed.push({ title, error: err.message });
+      if (err.message === EXPECTED_EXCLUSION_MESSAGE) excludedAsExpected.push(title);
+      else failed.push({ title, error: err.message });
     }
   }
 
@@ -95,9 +105,19 @@ async function main() {
   if (failed.length > 0) {
     lines.push(`No se pudieron scrapear (revisar manualmente):`, ...failed.map((f) => `- ${f.title}: ${f.error}`));
   }
+  if (excludedAsExpected.length > 0) {
+    lines.push(
+      "",
+      `Contenido histórico/eliminado detectado por la wiki, excluido a propósito (no cuenta como fallo):`,
+      ...excludedAsExpected.map((t) => `- ${t}`)
+    );
+  }
   await writeFile(SUMMARY_PATH, lines.join("\n"));
 
-  if (newTitles.length > 0 || completed.length > 0 || failed.length > 0) {
+  // excludedAsExpected NUNCA cuenta aquí — reaparece en cada corrida de 15 min
+  // por diseño (ver EXPECTED_EXCLUSION_MESSAGE), así que mandaría correo cada
+  // 15 min para siempre si se incluyera.
+  if (scraped.length > 0 || completed.length > 0 || failed.length > 0) {
     await sendNotificationEmail({ scraped, completed, stillPending, failed });
   }
 }

@@ -86,8 +86,10 @@ JS innecesarios, y eliminación de una función wikitext muerta (`extractAllTemp
 ## Integraciones externas
 - **Resend** (`RESEND_API_KEY`, `NOTIFY_EMAIL`) — correo de aviso enviado por `check-new-quests.yml`
   (`scraper/src/checkNewQuests.js` → `sendNotificationEmail`) solo cuando la corrida de 15 min
-  encuentra algo real: misión nueva, guía completada, o un fallo de scraping. La mayoría de las
-  corridas no encuentran nada y no mandan correo.
+  encuentra algo real: misión nueva, guía completada, o un fallo de scraping genuino. La mayoría de
+  las corridas no encuentran nada y no mandan correo. El contenido histórico/eliminado que la wiki
+  todavía lista en sus categorías (`EXPECTED_EXCLUSION_MESSAGE`) reaparece en cada corrida por diseño
+  (no hay un set persistente de "ya visto") y se excluye explícitamente de disparar el correo.
 - **RuneMetrics (Jagex)** — estado de misiones y niveles del jugador. Público, sin credenciales.
   Requiere el proxy CORS del Worker para poder consultarse desde el navegador (incluido el embebido
   de Alt1). Modo prueba y producción son el mismo endpoint (no hay sandbox de Jagex).
