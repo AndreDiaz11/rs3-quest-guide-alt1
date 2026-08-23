@@ -32,7 +32,7 @@ con la imagen del banner de la wiki.
 app/
   appconfig.json  index.html  icon.png
   css/styles.css
-  js/{main,state,sidebar,detail,dataset,runemetrics,matching,settings,skills,icons,titleNormalize}.js
+  js/{main,state,sidebar,detail,dataset,runemetrics,matching,settings,skills,skillIcons,icons,i18n,titleNormalize}.js
   data/aliases.json
 scraper/
   package.json  .env.example
