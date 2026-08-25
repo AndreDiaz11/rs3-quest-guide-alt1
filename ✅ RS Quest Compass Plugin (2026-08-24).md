@@ -115,23 +115,23 @@ No aplica (no hay login propio; el plugin consulta el nombre de cuenta real de R
 usuario configura en Ajustes).
 
 ## Versión
-1.3.2 — correo de aviso pasado a fondo claro (norma obligatoria del skill: todo correo automático
-usa la plantilla de RankBase con fondo claro, sin importar el tema oscuro de la app/web).
+1.3.3 — fix de zona horaria en el correo de aviso: mostraba la hora en UTC (hora del servidor de GitHub Actions) en vez de hora de Peru, un desfase de 5 horas.
 
 ## Cambios
-1. (23/08/2026) Correo de aviso corregido a fondo claro (`#f2f1f7`/blanco) — el primer rediseño había
+1. (24/08/2026) Fix: la fecha/hora dentro del correo de aviso (`armarCorreoHtml` en `checkNewQuests.js`) usaba `new Date().toLocaleString("es-PE", {...})` sin `timeZone` explicito — el locale `es-PE` solo cambia el formato, no la zona horaria real, asi que quedaba en UTC (hora del runner de GitHub Actions) y desfasaba 5 horas contra la hora real de Peru. Se agrego `timeZone: "America/Lima"` explicito. Se agrego como regla fija del skill (regla 28) para que aplique a todo correo automatico de todos los proyectos.
+2. (23/08/2026) Correo de aviso corregido a fondo claro (`#f2f1f7`/blanco) — el primer rediseño había
    usado la paleta oscura/dorada de la app, pero la norma del skill exige fondo claro en todo correo
    automático por legibilidad entre clientes de correo. Acento dorado de marca conservado solo en el
    banner degradado.
-2. (23/08/2026) Rediseño del correo de aviso (mismo patrón visual que RankBase: banner degradado,
+3. (23/08/2026) Rediseño del correo de aviso (mismo patrón visual que RankBase: banner degradado,
    píldoras de estadísticas, secciones por color) con la paleta propia de Quest Compass. Fix: el
    contenido histórico/eliminado que la wiki reintroduce en cada corrida de 15 min (`EXPECTED_EXCLUSION_MESSAGE`)
    ya no cuenta como fallo ni dispara correo — antes lo habría mandado cada 15 min para siempre.
-3. (23/08/2026) Correo de aviso vía Resend en `check-new-quests.yml`: solo se envía cuando hay algo
+4. (23/08/2026) Correo de aviso vía Resend en `check-new-quests.yml`: solo se envía cuando hay algo
    real que reportar (misión nueva, guía completada, o fallo de scraping) — el resto de las corridas
    de 15 min quedan silenciosas. Auditoría completa del proyecto: sin código muerto, sin secretos
    expuestos, PROJECT.md sincronizado con `#Documentations`.
-4. Traducción al 100% del dataset completo: se detectó y corrigió que las notas de
+5. Traducción al 100% del dataset completo: se detectó y corrigió que las notas de
    "necesitas"/"recomendado" de 207 misiones (772 en total) y 37 ítems de listas seleccionables nunca se habían
    traducido en ninguna corrida anterior (agregadas después de la última tanda de traducción paga).
    De paso se corrigió un bug real en `alreadyTranslated()` (scraper/src/run.js) que habría

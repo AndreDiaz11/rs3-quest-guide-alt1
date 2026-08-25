@@ -148,7 +148,7 @@ function statPill(valor, label, color) {
 }
 
 function armarCorreoHtml({ scraped, completed, stillPending, failed }) {
-  const fecha = new Date().toLocaleString("es-PE", { dateStyle: "long", timeStyle: "short" });
+  const fecha = new Date().toLocaleString("es-PE", { dateStyle: "long", timeStyle: "short", timeZone: "America/Lima" });
   const todoBien = scraped.length === 0 && completed.length === 0 && failed.length === 0;
 
   return `
